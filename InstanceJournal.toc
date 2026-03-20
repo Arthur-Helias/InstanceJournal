@@ -1,6 +1,6 @@
 ## Interface: 11200
 ## Title: Instance Journal (|cffabd473TurtleWoW|r)
-## Version: 1.0.0
+## Version: 1.0.1
 ## Author: Walter Bennet
 ## Notes: A reimagining of World of Warcraft's original Encounter Journal, built for |cffabd473TurtleWoW|r!
 ## SavedVariablesPerCharacter: IJ_FirstTimeBindingDone
