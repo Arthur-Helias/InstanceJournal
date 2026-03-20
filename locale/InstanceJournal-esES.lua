@@ -2156,8 +2156,9 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_WHC_BOSS_NAME_shalk = "Cacique Chalk Viento Negro"
     IJ_DB_DUNGEON_WHC_BOSS_STORY_shalk =
     "Él conquistó. Él gobierna. Más allá de eso, el cañón no ofrece nada del Cacique Shalk Blackwind."
-    IJ_DB_RAID_BWL_BOSS_NAME_aaaaa = "Jefe desconocido"
-    IJ_DB_RAID_BWL_BOSS_STORY_aaaaa = "No se sabe nada sobre esta entidad..."
+    IJ_DB_RAID_BWL_BOSS_NAME_ezzel = "Ezzel Darkbrewer"
+    IJ_DB_RAID_BWL_BOSS_STORY_ezzel =
+    "El santuario interior de Nefarian no es conocido por guardar registros — Ezzel Darkbrewer menos que nadie."
     IJ_DB_RAID_ONY_BOSS_NAME_axelus = "Comandante de cría Axelus"
     IJ_DB_RAID_ONY_BOSS_STORY_axelus =
     "La prole no habla de sus comandantes con los forasteros, y menos aún el comandante de progenie Axelus."

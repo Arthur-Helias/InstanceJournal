@@ -3757,8 +3757,9 @@ IJ_DB_RAID_BWL_BOSS_STORY_12017 =
 IJ_DB_RAID_BWL_BOSS_NAME_11983 = "Firemaw"
 IJ_DB_RAID_BWL_BOSS_STORY_11983 =
 "Firemaw is a black dragon found patrolling the Crimson Laboratories. He is one of three powerful black drakes who guard the way to their master, Nefarian."
-IJ_DB_RAID_BWL_BOSS_NAME_aaaaa = "Unknown Boss"
-IJ_DB_RAID_BWL_BOSS_STORY_aaaaa = "Nothing is known about this entity..."
+IJ_DB_RAID_BWL_BOSS_NAME_ezzel = "Ezzel Darkbrewer"
+IJ_DB_RAID_BWL_BOSS_STORY_ezzel =
+"Nefarian's inner sanctum is not known for keeping records - Ezzel Darkbrewer least of all."
 IJ_DB_RAID_BWL_BOSS_NAME_14601 = "Ebonroc"
 IJ_DB_RAID_BWL_BOSS_STORY_14601 =
 "Ebonroc is a black dragon found patrolling the Crimson Laboratories. He is one of three powerful black drakes who guard the way to their master, Nefarian."

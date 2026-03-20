@@ -2145,8 +2145,9 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_WHC_BOSS_NAME_shalk = "Вождь Шалк Черный Ветер"
     IJ_DB_DUNGEON_WHC_BOSS_STORY_shalk =
     "Он победил. Он правит. Помимо этого, в каньоне нет ничего от вождя Шалка Блэквинда."
-    IJ_DB_RAID_BWL_BOSS_NAME_aaaaa = "Неизвестный босс"
-    IJ_DB_RAID_BWL_BOSS_STORY_aaaaa = "Об этом существе ничего не известно..."
+    IJ_DB_RAID_BWL_BOSS_NAME_ezzel = "Ezzel Darkbrewer"
+    IJ_DB_RAID_BWL_BOSS_STORY_ezzel =
+    "Внутреннее святилище Нефариана не славится хранением летописей — а об Эззеле Тёмном Пивоваре и вовсе не сказано ни слова."
     IJ_DB_RAID_ONY_BOSS_NAME_axelus = "Командир выводка Акселус"
     IJ_DB_RAID_ONY_BOSS_STORY_axelus =
     "Выводок не рассказывает о своих командирах посторонним, а командир выводка Акселус — меньше всего."

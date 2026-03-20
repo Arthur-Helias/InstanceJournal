@@ -2149,12 +2149,13 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_WHC_BOSS_NAME_shalk = "Chef Shalk Vent Noir"
     IJ_DB_DUNGEON_WHC_BOSS_STORY_shalk =
     "Il a vaincu. Il règne. Au-delà de cela, le canyon n’offre rien du Chieftain Shalk Blackwind."
-    IJ_DB_RAID_BWL_BOSS_NAME_aaaaa = "Patron inconnu"
-    IJ_DB_RAID_BWL_BOSS_STORY_aaaaa = "On ne sait rien de cette entité..."
+    IJ_DB_RAID_BWL_BOSS_NAME_ezzel = "Ezzel Darkbrewer"
+    IJ_DB_RAID_BWL_BOSS_STORY_ezzel =
+    "Le sanctuaire intérieur de Nefarian n'est pas réputé pour tenir des archives — Ezzel Darkbrewer encore moins que les autres."
     IJ_DB_RAID_ONY_BOSS_NAME_axelus = "Commandant des couvées Axelus"
     IJ_DB_RAID_ONY_BOSS_STORY_axelus =
     "La couvée ne parle pas de ses commandants aux étrangers – et encore moins au commandant de la couvée Axelus."
-    IJ_DB_RAID_TH_BOSS_NAME_aaaaa = "Unknown Boss"
+    IJ_DB_RAID_TH_BOSS_NAME_aaaaa = "Patron inconnu"
     IJ_DB_RAID_TH_BOSS_STORY_aaaaa = "On ne sait rien de cette entité..."
     IJ_DB_RAID_TH_BOSS_NAME_bbbbb = "Patron inconnu"
     IJ_DB_RAID_TH_BOSS_STORY_bbbbb = "On ne sait rien de cette entité..."

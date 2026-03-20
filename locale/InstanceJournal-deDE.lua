@@ -2148,8 +2148,9 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_WHC_BOSS_NAME_shalk = "Häuptling Shalk Blackwind"
     IJ_DB_DUNGEON_WHC_BOSS_STORY_shalk =
     "Er hat gesiegt. Er regiert. Darüber hinaus bietet die Schlucht nichts von Häuptling Shalk Blackwind."
-    IJ_DB_RAID_BWL_BOSS_NAME_aaaaa = "Unbekannter Chef"
-    IJ_DB_RAID_BWL_BOSS_STORY_aaaaa = "Über diese Entität ist nichts bekannt..."
+    IJ_DB_RAID_BWL_BOSS_NAME_ezzel = "Ezzel Darkbrewer"
+    IJ_DB_RAID_BWL_BOSS_STORY_ezzel =
+    "Nefarians inneres Heiligtum ist nicht dafür bekannt, Aufzeichnungen zu führen — Ezzel Darkbrewer am allerwenigsten."
     IJ_DB_RAID_ONY_BOSS_NAME_axelus = "Brutkommandant Axelus"
     IJ_DB_RAID_ONY_BOSS_STORY_axelus =
     "Die Brut spricht mit Außenstehenden nicht über ihre Kommandeure – am allerwenigsten mit Brutkommandant Axelus."

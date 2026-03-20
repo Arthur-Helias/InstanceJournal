@@ -2135,8 +2135,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_WHC_BOSS_NAME_shalk = "沙克·黑风酋长"
     IJ_DB_DUNGEON_WHC_BOSS_STORY_shalk =
     "他征服了。他统治。除此之外，峡谷中没有任何酋长沙克·黑风的踪影。"
-    IJ_DB_RAID_BWL_BOSS_NAME_aaaaa = "未知的老板"
-    IJ_DB_RAID_BWL_BOSS_STORY_aaaaa = "关于这个实体一无所知……"
+    IJ_DB_RAID_BWL_BOSS_NAME_ezzel = "Ezzel Darkbrewer"
+    IJ_DB_RAID_BWL_BOSS_STORY_ezzel =
+    "奈法利安的内殿向来不以留存记录著称——埃泽尔·暗酿者更是无迹可寻。"
     IJ_DB_RAID_ONY_BOSS_NAME_axelus = "巢穴指挥官阿克塞鲁斯"
     IJ_DB_RAID_ONY_BOSS_STORY_axelus =
     "巢穴不会对外人谈论其指挥官——巢穴指挥官阿克塞鲁斯尤其如此。"
