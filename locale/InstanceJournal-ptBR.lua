@@ -2175,4 +2175,44 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_TH_BOSS_STORY_ggggg = "Nada se sabe sobre esta entidade..."
     IJ_DB_RAID_TH_BOSS_NAME_jjjjj = "Chefe desconhecido"
     IJ_DB_RAID_TH_BOSS_STORY_jjjjj = "Nada se sabe sobre esta entidade..."
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha = "Tan'sha, a Elegante"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout = "Grito Intimidador"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout =
+"Tan'sha grita com os inimigos próximos, fazendo-os fugir de medo por 8 segundos."
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_oboka = "Manipulador Oboka"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_obokamendpet = "Consertar animal de estimação"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_obokamendpet = "Oboka para de lutar para curar Tan'sha."
+IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_NAME_enrage = "Enfurecer"
+IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_EFFECT_enrage =
+"Com 20% da saúde restante, Ubukaz fica furioso, aumentando significativamente o dano que causa aos inimigos."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaadds = "Adições de Kan'za"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaadds =
+"Kan'za começa a luta com dois Frostmane Snowcaller que irão ajudá-lo.\n\nEsses acréscimos devem ser priorizados pelos causadores de dano em vez do chefe"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaaddsfrostbolt = "Seta de Gelo"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaaddsfrostbolt =
+"O Frostmane Snowcaller lança um raio de gelo em seu alvo, causando dano de gelo e retardando-o."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzablizzard = "Nevasca"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzablizzard =
+"Kan'za lança uma nevasca arrepiante, causando dano de gelo em uma área de efeito."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzafrostbolt = "Seta de Gelo"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzafrostbolt =
+"Kan'za lança um raio de gelo em seu alvo, causando dano de gelo e retardando-o."
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailaradds = "Ritualistas da Juba Gélida"
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailaradds =
+"Hailar começa a luta com cinco Ritualistas Frostmane que continuarão curando-o enquanto estiverem vivos.\n\nO grupo precisa matar esses anúncios antes de poder matar Hailar."
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_16803 = "Congelamento instantâneo"
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_16803 =
+"Hailar lança um congelamento instantâneo, atingindo todos os inimigos em um raio de 10 metros, causando 56 de dano de gelo e congelando-os no lugar por até 5 segundos."
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailarfrostbolt = "Seta de Gelo"
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailarfrostbolt =
+"Hailar lança um raio de gelo em seu alvo, causando dano de gelo e retardando-o."
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_6982 = "Rajada de Vento"
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_6982 =
+"Vortalus atordoa um inimigo aleatório, impossibilitando-o de se mover ou atacar por 4 segundos."
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_vortaluschainlightning = "Cadeia de Relâmpagos"
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_vortaluschainlightning =
+"Vortalus cria um raio que se conecta a todos os inimigos."
+IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_NAME_stormhoofcorruption = "Corrupção"
+IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_EFFECT_stormhoofcorruption =
+"Stormhoof corrompe um inimigo aleatório, causando dano de sombra ao longo do tempo."
 end

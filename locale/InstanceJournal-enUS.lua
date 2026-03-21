@@ -2850,21 +2850,56 @@ IJ_DB_DUNGEON_FH_STORY =
 IJ_DB_DUNGEON_FH_BOSS_NAME_tansha = "Tan'sha the Sleek"
 IJ_DB_DUNGEON_FH_BOSS_STORY_tansha =
 "Frostmane Hollow keeps its secrets well - Tan'sha the Sleek among them."
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha = "Tan'sha the Sleek"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout = "Intimidating Shout"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout =
+"Tan'sha shouts at nearby enemies, causing them to flee in fear for 8 seconds."
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_oboka = "Handler Oboka"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_obokamendpet = "Mend Pet"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_obokamendpet = "Oboka stops fighting to heal Tan'sha."
 IJ_DB_DUNGEON_FH_BOSS_NAME_ubukaz = "Battlemaster Ubukaz"
 IJ_DB_DUNGEON_FH_BOSS_STORY_ubukaz =
 "No chronicle, no record, no account - Battlemaster Ubukaz exists beyond the reach of history entirely."
+IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_NAME_enrage = "Enrage"
+IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_EFFECT_enrage =
+"At 20% remaining health, Ubukaz becomes enraged, increasing the damage he deals to his enemies significantly."
 IJ_DB_DUNGEON_FH_BOSS_NAME_kanza = "Kan'za the Seer"
 IJ_DB_DUNGEON_FH_BOSS_STORY_kanza =
 "Those who have entered Frostmane Hollow and lived to speak of Kan'za the Seer are, if they exist at all, silent on the matter."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaadds = "Kan'za's Adds"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaadds =
+"Kan'za starts the fight with two Frostmane Snowcaller that will assist him.\n\nThese adds should be prioritized by the damage dealers over the boss"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaaddsfrostbolt = "Frostbolt"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaaddsfrostbolt =
+"The Frostmane Snowcaller casts a frostbolt at his target, dealing frost damage and slowing them."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzablizzard = "Blizzard"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzablizzard =
+"Kan'za casts a chilling blizzard, dealing frost damage in an area of effect."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzafrostbolt = "Frostbolt"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzafrostbolt =
+"Kan'za casts a frostbolt at his target, dealing frost damage and slowing them."
 IJ_DB_DUNGEON_FH_BOSS_NAME_hailar = "Hailar the Frigid"
 IJ_DB_DUNGEON_FH_BOSS_STORY_hailar =
 "The frozen depths of Frostmane Hollow have claimed many lives; whether any of them ever learned who Hailar the Frigid truly was remains unknown."
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailaradds = "Frostmane Ritualists"
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailaradds =
+"Hailar starts the fight with five Frostmane Ritualists that will keep on healing him as long as they are alive.\n\nThe group needs to kill these adds before being able to kill Hailar."
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_16803 = "Flash Freeze"
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_16803 =
+"Hailar casts a flash freeze, blasting all enemies within 10 yards for 56 frost damage and freezing them in place for up to 5 seconds."
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailarfrostbolt = "Frostbolt"
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailarfrostbolt =
+"Hailar casts a frostbolt at his target, dealing frost damage and slowing them."
 
 -- FH Loot
 IJ_LOOT_NAME_162 = "Frigid Cloak"
+IJ_LOOT_NAME_184 = "Oboka's Axe"
+IJ_LOOT_NAME_197 = "Vest of the Beastkeeper"
 IJ_LOOT_NAME_150 = "Tribal War Gauntlets"
 IJ_LOOT_NAME_205 = "Frost Seer Dirk"
 IJ_LOOT_NAME_110 = "Rak'uhz the Coldbinder"
+IJ_LOOT_NAME_126 = "Band of Hailar"
+IJ_LOOT_NAME_116 = "Belt of Binding"
 
 -- WHC
 IJ_DB_DUNGEON_WHC_NAME = "Windhorn Canyon"
@@ -2875,6 +2910,12 @@ IJ_DB_DUNGEON_WHC_STORY =
 IJ_DB_DUNGEON_WHC_BOSS_NAME_vortalus = "Ambassador Vortalus"
 IJ_DB_DUNGEON_WHC_BOSS_STORY_vortalus =
 "Windhorn Canyon holds no record of Ambassador Vortalus - only the title, and the threat it implies."
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_6982 = "Gust of Wind"
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_6982 =
+"Vortalus stuns a random enemy, rendering them unable to move or attack for 4 seconds."
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_vortaluschainlightning = "Chain Lightning"
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_vortaluschainlightning =
+"Vortalus creates a lightning bolt that chains between all enemies."
 IJ_DB_DUNGEON_WHC_BOSS_NAME_pathun = "Pathun Duskhide"
 IJ_DB_DUNGEON_WHC_BOSS_STORY_pathun =
 "Whatever brought Pathun Duskhide to the canyon, it was not recorded. Whatever kept him there, even less so."
@@ -2890,17 +2931,42 @@ IJ_DB_DUNGEON_WHC_BOSS_STORY_narlgom =
 IJ_DB_DUNGEON_WHC_BOSS_NAME_stormhoof = "Prophet Stormhoof"
 IJ_DB_DUNGEON_WHC_BOSS_STORY_stormhoof =
 "Prophets speak of things to come. If Prophet Stormhoof ever did, no one was left to write it down."
+IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_NAME_stormhoofcorruption = "Corruption"
+IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_EFFECT_stormhoofcorruption =
+"Stormhoof corrupts a random enemy, dealing shadow damage over time."
 IJ_DB_DUNGEON_WHC_BOSS_NAME_shalk = "Chieftain Shalk Blackwind"
 IJ_DB_DUNGEON_WHC_BOSS_STORY_shalk =
 "He conquered. He rules. Beyond that, the canyon offers nothing of Chieftain Shalk Blackwind."
 
 -- WHC Loot
 IJ_LOOT_NAME_33025 = "Blackwind Striker"
+IJ_LOOT_NAME_33026 = "Sacred Windhorn Shoulders"
+IJ_LOOT_NAME_33028 = "Hatchet of the Long Hunt"
+IJ_LOOT_NAME_33027 = "Huntsman's Halfhorn"
 IJ_LOOT_NAME_33024 = "Tooth of Ahgk'tos"
+IJ_LOOT_NAME_33022 = "Windserpent Hauberk"
+IJ_LOOT_NAME_33023 = "Coilscale Ring"
+IJ_LOOT_NAME_33021 = "Sacred Windhorn Gloves"
 IJ_LOOT_NAME_33030 = "Knuckles of Vortalus"
+IJ_LOOT_NAME_33031 = "Thunderstrike Pike"
+IJ_LOOT_NAME_33029 = "Sacred Windhorn Footwraps"
+IJ_LOOT_NAME_33032 = "Galvanized Wrists"
 IJ_LOOT_NAME_33082 = "Bloodcaller's Decapitator"
+IJ_LOOT_NAME_33035 = "Sacred Windhorn Pants"
+IJ_LOOT_NAME_42275 = "Canyonhide Gloves"
+IJ_LOOT_NAME_33033 = "Footwraps of Perfect Form"
 IJ_LOOT_NAME_42276 = "Cloudrender Pants"
+IJ_LOOT_NAME_33040 = "Reedwoven Epaulets"
+IJ_LOOT_NAME_33038 = "Bonespeaker Cane"
+IJ_LOOT_NAME_33037 = "Sacred Windhorn Robe"
 IJ_LOOT_NAME_33043 = "Blackwind Facemask"
+IJ_LOOT_NAME_33042 = "Sacred Windhorn Headdress"
+IJ_LOOT_NAME_33044 = "Elder Crone's Sigil Ring"
+IJ_LOOT_NAME_33041 = "Deathtotem Relic"
+IJ_LOOT_NAME_70244 = "Plans: Ceremonial Belt Buckle"
+IJ_LOOT_NAME_33047 = "Ar'pora, the Chieftain's Judgement"
+IJ_LOOT_NAME_33046 = "Canyon's Barricade"
+IJ_LOOT_NAME_33045 = "The Blackwind Pillar"
 
 -- ===============
 -- ==   RAIDS   ==
@@ -3138,7 +3204,7 @@ IJ_DB_RAID_ZG_BOSS_STORY_14515 =
 "High Priestess Arlokk is the Zandalari High Priestess of the Primal God Bethekk, the panther goddess. Sent to Zul'Gurub to stop Hakkar the Soulflayer, she was eventually turned by the blood god."
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_arlokkadds = "Stealthed Panthers"
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_arlokkadds =
-"Arlokk periodically summons stealthed panthers from the pens to attack players.\n\nWhile she is in troll form, off-tanks should control the panthers as DPS focuses on Arlokk.\n\nWhen Arlokk vanishes, players should shift priority to eliminating the active panthers.\n\nUpon her death, all remaining panthers will unstealth and attack the raid."
+"Arlokk periodically summons stealthed panthers from the pens to attack players.\n\nWhile she is in troll form, off-tanks should control the panthers as damage dealers focuses on Arlokk.\n\nWhen Arlokk vanishes, players should shift priority to eliminating the active panthers.\n\nUpon her death, all remaining panthers will unstealth and attack the raid."
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_arlokktroll = "Troll Form"
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_arlokktroll =
 "Arlokk assumes her troll form, which she begins the encounter in.\n\nShe alternates between troll and panther forms throughout the fight, with transitions occurring more rapidly as the encounter progresses."
@@ -3943,6 +4009,14 @@ IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18431 =
 "Onyxia will cast Fear on everyone in intervals.\n\nPriests can use fear ward to help mitigate the fears on important members."
 
 -- ONY Loot
+IJ_LOOT_NAME_33151 = "Onyxian Brood Egg"
+IJ_LOOT_NAME_33150 = "Yoxtez, Black Breath of the Dragonflight"
+IJ_LOOT_NAME_33152 = "Prestor's Rod of Command"
+IJ_LOOT_NAME_33153 = "Ignited Obsidian Scale"
+IJ_LOOT_NAME_33157 = "Broodwarden's Bulwarkblade"
+IJ_LOOT_NAME_33156 = "Dragonhunter Javelin"
+IJ_LOOT_NAME_33155 = "Scaleshield of Obsidian Flight"
+IJ_LOOT_NAME_33154 = "Ring of Burning Talons"
 IJ_LOOT_NAME_17966 = "Onyxia Hide Backpack"
 IJ_LOOT_NAME_18423 = "Head of Onyxia"
 IJ_LOOT_NAME_18705 = "Mature Black Dragon Sinew"

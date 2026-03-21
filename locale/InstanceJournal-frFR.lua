@@ -2175,4 +2175,44 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_TH_BOSS_STORY_ggggg = "On ne sait rien de cette entité..."
     IJ_DB_RAID_TH_BOSS_NAME_jjjjj = "Patron inconnu"
     IJ_DB_RAID_TH_BOSS_STORY_jjjjj = "On ne sait rien de cette entité..."
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha = "Tan'sha l'élégante"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout = "Cri d'intimidation"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout =
+"Tan'sha crie sur les ennemis proches, les faisant fuir de peur pendant 8 secondes."
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_oboka = "Gestionnaire Oboka"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_obokamendpet = "Réparer l'animal"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_obokamendpet = "Oboka arrête de se battre pour guérir Tan'sha."
+IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_NAME_enrage = "Enrager"
+IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_EFFECT_enrage =
+"À 20% de santé restante, Ubukaz devient enragé, augmentant considérablement les dégâts qu'il inflige à ses ennemis."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaadds = "Les ajouts de Kan'za"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaadds =
+"Kan'za commence le combat avec deux Frostmane Snowcaller qui l'assisteront.\n\nCes ajouts devraient être prioritaires par les donneurs de dégâts plutôt que par le boss."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaaddsfrostbolt = "Éclair de givre"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaaddsfrostbolt =
+"Le Frostmane Snowcaller lance un éclair de givre sur sa cible, lui infligeant des dégâts de gel et la ralentissant."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzablizzard = "Blizzard"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzablizzard =
+"Kan'za lance un blizzard glacial, infligeant des dégâts de gel dans une zone d'effet."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzafrostbolt = "Éclair de givre"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzafrostbolt =
+"Kan'za lance un éclair de givre sur sa cible, lui infligeant des dégâts de gel et la ralentissant."
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailaradds = "Ritualistes crins-de-givre"
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailaradds =
+"Hailar commence le combat avec cinq Ritualistes Frostmane qui continueront à le soigner tant qu'ils seront en vie.\n\nLe groupe doit tuer ces ajouts avant de pouvoir tuer Hailar."
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_16803 = "Gel instantané"
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_16803 =
+"Hailar lance un gel flash, faisant exploser tous les ennemis à moins de 10 mètres, leur infligeant 56 dégâts de gel et les gelant sur place pendant 5 secondes maximum."
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailarfrostbolt = "Éclair de givre"
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailarfrostbolt =
+"Hailar lance un éclair de givre sur sa cible, lui infligeant des dégâts de gel et la ralentissant."
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_6982 = "Coup de vent"
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_6982 =
+"Vortalus étourdit un ennemi aléatoire, le rendant incapable de bouger ou d'attaquer pendant 4 secondes."
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_vortaluschainlightning = "Chaîne d'éclairs"
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_vortaluschainlightning =
+"Vortalus crée un éclair qui s'enchaîne entre tous les ennemis."
+IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_NAME_stormhoofcorruption = "Corruption"
+IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_EFFECT_stormhoofcorruption =
+"Stormhoof corrompt un ennemi aléatoire, infligeant des dégâts d'ombre au fil du temps."
 end

@@ -2174,4 +2174,44 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_TH_BOSS_STORY_ggggg = "Über diese Entität ist nichts bekannt..."
     IJ_DB_RAID_TH_BOSS_NAME_jjjjj = "Unbekannter Chef"
     IJ_DB_RAID_TH_BOSS_STORY_jjjjj = "Über diese Entität ist nichts bekannt..."
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha = "Tan'sha die Schlanke"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout = "Einschüchternder Schrei"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout =
+"Tan'sha schreit Gegner in der Nähe an und lässt sie 8 Sekunden lang voller Angst fliehen."
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_oboka = "Handler Oboka"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_obokamendpet = "Haustier reparieren"
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_obokamendpet = "Oboka hört auf, für die Heilung von Tan'sha zu kämpfen."
+IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_NAME_enrage = "Wütend"
+IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_EFFECT_enrage =
+"Bei 20 % verbleibender Gesundheit wird Ubukaz wütend, was den Schaden, den er seinen Feinden zufügt, erheblich erhöht."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaadds = "Kan'zas Adds"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaadds =
+"Kan'za beginnt den Kampf mit zwei Frostmähnen-Schneerufern, die ihm helfen werden.\n\nDiese Adds sollten von den Schadensverursachern Vorrang vor dem Boss haben"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaaddsfrostbolt = "Frostblitz"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaaddsfrostbolt =
+"Der Frostmähnen-Schneerufer wirft einen Frostblitz auf sein Ziel, verursacht Frostschaden und verlangsamt es."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzablizzard = "Schneesturm"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzablizzard =
+"Kan'za erzeugt einen eisigen Schneesturm, der im Wirkungsbereich Frostschaden verursacht."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzafrostbolt = "Frostblitz"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzafrostbolt =
+"Kan'za wirft einen Frostblitz auf sein Ziel, der ihm Frostschaden zufügt und es verlangsamt."
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailaradds = "Ritualisten der Frostmähnen"
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailaradds =
+"Hailar beginnt den Kampf mit fünf Frostmähnen-Ritualisten, die ihn solange heilen, wie sie leben.\n\nDie Gruppe muss diese Adds töten, bevor sie Hailar töten kann."
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_16803 = "Flash-Freeze"
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_16803 =
+"Hailar wirkt einen Blitzfrost, der allen Feinden im Umkreis von 10 Metern 56 Frostschaden zufügt und sie bis zu 5 Sekunden lang an Ort und Stelle einfriert."
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailarfrostbolt = "Frostblitz"
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailarfrostbolt =
+"Hailar wirft einen Frostblitz auf sein Ziel, verursacht Frostschaden und verlangsamt es."
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_6982 = "Windstoß"
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_6982 =
+"Vortalus betäubt einen zufälligen Feind und macht ihn 4 Sekunden lang bewegungs- oder angreifbar."
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_vortaluschainlightning = "Kettenblitz"
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_vortaluschainlightning =
+"Vortalus erzeugt einen Blitz, der alle Feinde miteinander verbindet."
+IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_NAME_stormhoofcorruption = "Korruption"
+IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_EFFECT_stormhoofcorruption =
+"Sturmhuf verdirbt einen zufälligen Feind und verursacht im Laufe der Zeit Schattenschaden."
 end

@@ -98,6 +98,7 @@ No original Blizzard Encounter Journal code was used; the addon was recreated fr
 [Blizzard](https://www.blizzard.com) - Original Encounter Journal, UI elements  
 [Speedz](https://forum.turtlecraft.gg/viewtopic.php?t=14904) - Boss artwork assistance  
 [cat-nep](https://github.com/cat-nep) - Ability writing assistance  
+[byCFM2](https://github.com/byCFM2) - AtlasTW Data  
 [tilare](https://github.com/tilare)
 
 ## License
