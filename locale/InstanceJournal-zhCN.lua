@@ -2161,44 +2161,44 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_TH_BOSS_STORY_ggggg = "关于这个实体一无所知……"
     IJ_DB_RAID_TH_BOSS_NAME_jjjjj = "未知的老板"
     IJ_DB_RAID_TH_BOSS_STORY_jjjjj = "关于这个实体一无所知……"
-IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha = "圆滑的坦莎"
-IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout = "恐吓吼叫"
-IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout =
-"坦莎对附近的敌人大喊，使他们惊慌失措，持续 8 秒。"
-IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_oboka = "汉德勒·奥博卡"
-IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_obokamendpet = "治愈宠物"
-IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_obokamendpet = "奥博卡停止战斗以治愈坦莎。"
-IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_NAME_enrage = "激怒"
-IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_EFFECT_enrage =
-"剩余生命值 20% 时，乌布卡兹变得愤怒，对敌人造成的伤害显着增加。"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaadds = "坎扎的补充"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaadds =
-"坎扎在战斗开始时会派出两名霜鬃唤雪者来协助他。\n \n这些附加内容应该由伤害经销商优先于 Boss"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaaddsfrostbolt = "冰箭"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaaddsfrostbolt =
-"霜鬃唤雪者向目标施放冰箭，造成冰霜伤害并减速目标。"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzablizzard = "暴风雪"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzablizzard =
-"坎扎施放寒冷的暴风雪，对一定范围内造成冰霜伤害。"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzafrostbolt = "冰箭"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzafrostbolt =
-"坎扎向目标施放冰箭，造成冰霜伤害并减速目标。"
-IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailaradds = "霜鬃仪式者"
-IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailaradds =
-"海拉尔与五名霜鬃仪式师开始战斗，只要他们还活着，他们就会继续治疗他。\n \n该组织需要先杀死这些小怪，然后才能杀死海拉尔。"
-IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_16803 = "闪冻"
-IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_16803 =
-"海拉尔施展急速冻结，对 10 码内的所有敌人造成 56 点冰霜伤害，并将其冻结在原地长达 5 秒。"
-IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailarfrostbolt = "冰箭"
-IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailarfrostbolt =
-"海拉尔向目标施放冰箭，造成冰霜伤害并减速目标。"
-IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_6982 = "阵风"
-IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_6982 =
-"沃塔洛斯随机击晕一名敌人，使其在 4 秒内无法移动或攻击。"
-IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_vortaluschainlightning = "连锁闪电"
-IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_vortaluschainlightning =
-"沃塔勒斯制造出一道闪电，将所有敌人束缚在一起。"
-IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_NAME_stormhoofcorruption = "腐败"
-IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_EFFECT_stormhoofcorruption =
-"暴蹄会腐化一名随机敌人，随着时间的推移造成暗影伤害。"
+    IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha = "圆滑的坦莎"
+    IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout = "恐吓吼叫"
+    IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout =
+    "坦莎对附近的敌人大喊，使他们惊慌失措，持续 8 秒。"
+    IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_oboka = "汉德勒·奥博卡"
+    IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_obokamendpet = "治愈宠物"
+    IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_obokamendpet = "奥博卡停止战斗以治愈坦莎。"
+    IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_NAME_enrage = "激怒"
+    IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_EFFECT_enrage =
+    "剩余生命值 20% 时，乌布卡兹变得愤怒，对敌人造成的伤害显着增加。"
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaadds = "坎扎的补充"
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaadds =
+    "坎扎在战斗开始时会派出两名霜鬃唤雪者来协助他。\n \n这些附加内容应该由伤害经销商优先于 Boss"
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaaddsfrostbolt = "冰箭"
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaaddsfrostbolt =
+    "霜鬃唤雪者向目标施放冰箭，造成冰霜伤害并减速目标。"
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzablizzard = "暴风雪"
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzablizzard =
+    "坎扎施放寒冷的暴风雪，对一定范围内造成冰霜伤害。"
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzafrostbolt = "冰箭"
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzafrostbolt =
+    "坎扎向目标施放冰箭，造成冰霜伤害并减速目标。"
+    IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailaradds = "霜鬃仪式者"
+    IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailaradds =
+    "海拉尔与五名霜鬃仪式师开始战斗，只要他们还活着，他们就会继续治疗他。\n \n该组织需要先杀死这些小怪，然后才能杀死海拉尔。"
+    IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_16803 = "闪冻"
+    IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_16803 =
+    "海拉尔施展急速冻结，对 10 码内的所有敌人造成 56 点冰霜伤害，并将其冻结在原地长达 5 秒。"
+    IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailarfrostbolt = "冰箭"
+    IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailarfrostbolt =
+    "海拉尔向目标施放冰箭，造成冰霜伤害并减速目标。"
+    IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_6982 = "阵风"
+    IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_6982 =
+    "沃塔洛斯随机击晕一名敌人，使其在 4 秒内无法移动或攻击。"
+    IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_vortaluschainlightning = "连锁闪电"
+    IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_vortaluschainlightning =
+    "沃塔勒斯制造出一道闪电，将所有敌人束缚在一起。"
+    IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_NAME_stormhoofcorruption = "腐败"
+    IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_EFFECT_stormhoofcorruption =
+    "暴蹄会腐化一名随机敌人，随着时间的推移造成暗影伤害。"
 end

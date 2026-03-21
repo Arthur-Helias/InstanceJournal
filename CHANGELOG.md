@@ -2,6 +2,18 @@
 
 All changes to this project will be documented in this file.
 
+## [1.0.4] - 2026-03-21
+
+### Added
+
+- Added an icon to Shade of Jin'do's Melee Attack
+- Added a Heal flag to High Priestess Arlokk's Mark of Arlokk ability
+- Added a Deadly flag to High Priestess Arlokk's Whirwind ability
+
+### Changed
+
+- Changed the maximum width for ability name text before being cropped
+
 ## [1.0.3] - 2026-03-21
 
 ### Added

@@ -2139,7 +2139,7 @@ function IJ_PopulateOverview(boss)
             flagSpace = (numFlags * 28) + ((numFlags - 1) * 6) + 12
         end
 
-        local maxTextWidth = rowWidth - leftOffset - flagSpace
+        local maxTextWidth = rowWidth - leftOffset - flagSpace + 28
 
         row.nameText:SetWidth(maxTextWidth)
 

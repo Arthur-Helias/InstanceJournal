@@ -2002,12 +2002,14 @@ ZG.Bosses = {
                         Icon = "Ability_Hunter_SniperShot",
                         Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24210,
                         Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24210,
+                        Flags = { IMAF.Heal, },
                     },
                     [2] = {
                         Id = "24236",
                         Icon = "Ability_Whirlwind",
                         Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24236,
                         Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24236,
+                        Flags = { IMAF.Deadly, },
                     },
                 },
             },
@@ -2293,6 +2295,7 @@ ZG.Bosses = {
                         SubAbilities = {
                             [1] = {
                                 Id = "jindoshademelee",
+                                Icon = "ability_meleedamage",
                                 Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoshademelee,
                                 Effect = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoshademelee,
                             },

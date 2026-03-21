@@ -2171,44 +2171,44 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_TH_BOSS_STORY_ggggg = "Об этом существе ничего не известно..."
     IJ_DB_RAID_TH_BOSS_NAME_jjjjj = "Неизвестный босс"
     IJ_DB_RAID_TH_BOSS_STORY_jjjjj = "Об этом существе ничего не известно..."
-IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha = "Тан'ша Блестящая"
-IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout = "Устрашающий крик"
-IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout =
-"Тан'ша кричит на ближайших врагов, заставляя их в страхе бежать в течение 8 секунд."
-IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_oboka = "Хэндлер Обока"
-IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_obokamendpet = "Починить питомца"
-IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_obokamendpet = "Обока прекращает борьбу за исцеление Тан'ши."
-IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_NAME_enrage = "Разгневать"
-IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_EFFECT_enrage =
-"Когда у него остается 20% здоровья, Убуказ приходит в ярость, значительно увеличивая урон, который он наносит своим врагам."
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaadds = "Добавления Кан'зы"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaadds =
-"Кан'за начинает бой с двумя ледяными призывателями снега, которые будут ему помогать. ||н||  ||н|| Эти адды должны быть приоритетными для дилеров урона, а не для босса."
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaaddsfrostbolt = "Ледяная стрела"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaaddsfrostbolt =
-"Морозногривый призыватель снега бросает в цель ледяную стрелу, нанося ей урон от холода и замедляя ее."
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzablizzard = "Метель"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzablizzard =
-"Кан'за вызывает леденящую метель, нанося урон от холода в области действия."
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzafrostbolt = "Ледяная стрела"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzafrostbolt =
-"Кан'за бросает в цель ледяную стрелу, нанося ей урон от льда и замедляя ее."
-IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailaradds = "Ритуалисты Ледяной Гривы"
-IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailaradds =
-"Хайлар начинает бой с пятью ритуалистами Ледяной Гривы, которые будут исцелять его, пока они живы. ||н||  ||н|| Группе необходимо убить этих аддов, прежде чем они смогут убить Хайлара."
-IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_16803 = "Мгновенное замораживание"
-IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_16803 =
-"Хайлар применяет мгновенное замораживание, нанося всем противникам в радиусе 10 м 56 морозного урона и замораживая их на месте на срок до 5 секунд."
-IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailarfrostbolt = "Ледяная стрела"
-IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailarfrostbolt =
-"Хайлар бросает в цель ледяную стрелу, нанося ей урон от льда и замедляя ее."
-IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_6982 = "Порыв ветра"
-IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_6982 =
-"Ворталус оглушает случайного врага, лишая его возможности двигаться или атаковать в течение 4 секунд."
-IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_vortaluschainlightning = "Цепная молния"
-IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_vortaluschainlightning =
-"Ворталус создает молнию, которая сковывает всех врагов."
-IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_NAME_stormhoofcorruption = "Коррупция"
-IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_EFFECT_stormhoofcorruption =
-"Штормовое Копыто оскверняет случайного врага, нанося периодический урон от темной магии."
+    IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha = "Тан'ша Блестящая"
+    IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout = "Устрашающий крик"
+    IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout =
+    "Тан'ша кричит на ближайших врагов, заставляя их в страхе бежать в течение 8 секунд."
+    IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_oboka = "Хэндлер Обока"
+    IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_obokamendpet = "Починить питомца"
+    IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_obokamendpet = "Обока прекращает борьбу за исцеление Тан'ши."
+    IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_NAME_enrage = "Разгневать"
+    IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_EFFECT_enrage =
+    "Когда у него остается 20% здоровья, Убуказ приходит в ярость, значительно увеличивая урон, который он наносит своим врагам."
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaadds = "Добавления Кан'зы"
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaadds =
+    "Кан'за начинает бой с двумя ледяными призывателями снега, которые будут ему помогать. ||н||  ||н|| Эти адды должны быть приоритетными для дилеров урона, а не для босса."
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaaddsfrostbolt = "Ледяная стрела"
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaaddsfrostbolt =
+    "Морозногривый призыватель снега бросает в цель ледяную стрелу, нанося ей урон от холода и замедляя ее."
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzablizzard = "Метель"
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzablizzard =
+    "Кан'за вызывает леденящую метель, нанося урон от холода в области действия."
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzafrostbolt = "Ледяная стрела"
+    IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzafrostbolt =
+    "Кан'за бросает в цель ледяную стрелу, нанося ей урон от льда и замедляя ее."
+    IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailaradds = "Ритуалисты Ледяной Гривы"
+    IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailaradds =
+    "Хайлар начинает бой с пятью ритуалистами Ледяной Гривы, которые будут исцелять его, пока они живы. ||н||  ||н|| Группе необходимо убить этих аддов, прежде чем они смогут убить Хайлара."
+    IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_16803 = "Мгновенное замораживание"
+    IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_16803 =
+    "Хайлар применяет мгновенное замораживание, нанося всем противникам в радиусе 10 м 56 морозного урона и замораживая их на месте на срок до 5 секунд."
+    IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailarfrostbolt = "Ледяная стрела"
+    IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailarfrostbolt =
+    "Хайлар бросает в цель ледяную стрелу, нанося ей урон от льда и замедляя ее."
+    IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_6982 = "Порыв ветра"
+    IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_6982 =
+    "Ворталус оглушает случайного врага, лишая его возможности двигаться или атаковать в течение 4 секунд."
+    IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_vortaluschainlightning = "Цепная молния"
+    IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_vortaluschainlightning =
+    "Ворталус создает молнию, которая сковывает всех врагов."
+    IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_NAME_stormhoofcorruption = "Коррупция"
+    IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_EFFECT_stormhoofcorruption =
+    "Штормовое Копыто оскверняет случайного врага, нанося периодический урон от темной магии."
 end
