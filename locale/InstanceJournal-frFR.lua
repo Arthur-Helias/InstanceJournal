@@ -2,6 +2,101 @@
 -- FEEL FREE TO EDIT AND MAKE A PR IF YOU NOTICE ANY ISSUES
 
 if GetLocale() == "frFR" then
+    IJ_ZoneId_frFR = {
+        None = 0,
+
+        -- Eastern Kingdom
+        AlahThalas = 1,           -- AlahThalas
+        AlteracMountains = 2,     -- AlteracMountains
+        ArathiHighlands = 3,      -- ArathiHighlands
+        Badlands = 4,             -- Badlands
+        Balor = 5,                -- Balor
+        BlackrockMountain = 6,    -- BlackrockMountain
+        BlastedLands = 7,         -- BlastedLands
+        BurningSteppes = 8,       -- BurningSteppes
+        DeadwindPass = 9,         -- DeadwindPass
+        DunMorogh = 10,           -- DunMorogh
+        Duskwood = 11,            -- Duskwood
+        EasternPlaguelands = 12,  -- EasternPlaguelands
+        ElwynnForest = 13,        -- ElwynnForest
+        GillijimsIsle = 14,       -- GillijimsIsle
+        Gilneas = 15,             -- Gilneas
+        Gnomeregan = 16,          -- Gnomeregan
+        GrimReaches = 17,         -- GrimReaches
+        HillsbradFoothills = 18,  -- HillsbradFoothills
+        Ironforge = 19,           -- Ironforge
+        LapidisIsle = 20,         -- LapidisIsle
+        LochModan = 21,           -- LochModan
+        Northwind = 22,           -- Northwind
+        RedridgeMountains = 23,   -- RedridgeMountains
+        ScarletEnclave = 24,      -- ScarletEnclave
+        ScarletMonastery = 25,    -- ScarletMonastery
+        SearingGorge = 26,        -- SearingGorge
+        SilverpineForest = 27,    -- SilverpineForest
+        StormwindCity = 28,       -- StormwindCity
+        StranglethornVale = 29,   -- StranglethornVale
+        SwampOfSorrows = 30,      -- SwampOfSorrows
+        ThalassianHighlands = 31, -- ThalassianHighlands
+        TheDeadmines = 32,        -- TheDeadmines
+        TheHinterlands = 33,      -- TheHinterlands
+        TirisfalGlades = 34,      -- TirisfalGlades
+        Uldaman = 35,             -- Uldaman
+        Undercity = 36,           -- Undercity
+        WesternPlaguelands = 37,  -- WesternPlaguelands
+        Westfall = 38,            -- Westfall
+        Wetlands = 39,            -- Wetlands
+
+        -- Kalimdor
+        Ashenvale = 1,            -- Ashenvale
+        Azshara = 2,              -- Azshara
+        BlackstoneIsland = 3,     -- BlackstoneIsland
+        CavernsOfTime = 4,        -- CavernsOfTime
+        Darkshore = 5,            -- Darkshore
+        Darnassus = 6,            -- Darnassus
+        Desolace = 7,             -- Desolace
+        DireMaul = 8,             -- DireMaul
+        Durotar = 9,              -- Durotar
+        DustwallowMarsh = 10,     -- DustwallowMarsh
+        Felwood = 11,             -- Felwood
+        Feralas = 12,             -- Feralas
+        GMIsland = 13,            -- GMIsland
+        GatesOfAhnQiraj = 14,     -- GatesOfAhnQiraj
+        Hyjal = 15,               -- Hyjal
+        IcepointRock = 16,        -- IcepointRock
+        Maraudon = 17,            -- Maraudon
+        Moonglade = 18,           -- Moonglade
+        MoonwhisperCoast = 19,    -- MoonwhisperCoast
+        Mulgore = 20,             -- Mulgore
+        Orgrimmar = 21,           -- Orgrimmar
+        Silithus = 22,            -- Silithus
+        StonetalonMountains = 23, -- StonetalonMountains
+        Tanaris = 24,             -- Tanaris
+        TelAbim = 25,             -- TelAbim
+        Teldrassil = 26,          -- Teldrassil
+        TheBarrens = 27,          -- TheBarrens
+        ThousandNeedles = 28,     -- ThousandNeedles
+        ThunderBluff = 29,        -- ThunderBluff
+        TimbermawHold = 30,       -- TimbermawHold
+        TimbermawTunnels = 31,    -- TimbermawTunnels
+        UnGoroCrater = 32,        -- UnGoroCrater
+        WailingCaverns = 33,      -- WailingCaverns
+        WindhornCaverns = 34,     -- WindhornCaverns
+        Winterspring = 35,        -- Winterspring
+
+        BM1 = 1,
+        BM2 = 2,
+        AQ401 = 1,
+        AQ402 = 2,
+        KARA401 = 1,
+        KARA402 = 2,
+        NAXX1 = 1,
+        NAXX2 = 2,
+        SMArm = 1,
+        SMCath = 2,
+        SMGy = 3,
+        SMLib = 4,
+    }
+
     -- Bindings
     BINDING_HEADER_INSTANCEJOURNAL = "Codex des donjons"
     BINDING_NAME_TOGGLEJOURNAL = "Afficher/Masquer le Codex des donjons"

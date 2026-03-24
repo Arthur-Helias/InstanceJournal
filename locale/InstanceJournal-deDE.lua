@@ -2,6 +2,101 @@
 -- FEEL FREE TO EDIT AND MAKE A PR IF YOU NOTICE ANY ISSUES
 
 if GetLocale() == "deDE" then
+    IJ_ZoneId_deDE = {
+        None = 0,
+
+        -- Eastern Kingdom
+        AlahThalas = 1,           -- Alah'Thalas
+        AlteracMountains = 2,     -- Alteracgebirge
+        ArathiHighlands = 3,      -- Arathihochland
+        Balor = 4,                -- Balor
+        BurningSteppes = 5,       -- Brennende Steppe
+        ScarletMonastery = 6,     -- Das scharlachrote Kloster
+        BlackrockMountain = 7,    -- Der Blackrock
+        TheDeadmines = 8,         -- Die Todesminen
+        DunMorogh = 9,            -- Dun Morogh
+        Duskwood = 10,            -- Dämmerwald
+        GrimReaches = 11,         -- Düstere Weiten
+        DeadwindPass = 12,        -- Gebirgspass der Totenwinde
+        GillijimsIsle = 13,       -- Gillijims Insel
+        Gilneas = 14,             -- Gilneas
+        Gnomeregan = 15,          -- Gnomeregan
+        TheHinterlands = 16,      -- Hinterland
+        LapidisIsle = 17,         -- Insel des Doktor Lapidis
+        Ironforge = 18,           -- Ironforge
+        LochModan = 19,           -- Loch Modan
+        Northwind = 20,           -- Nordwind
+        RedridgeMountains = 21,   -- Rotkammgebirge
+        ScarletEnclave = 22,      -- Scharlachrote Enklave
+        StranglethornVale = 23,   -- Schlingendorntal
+        SearingGorge = 24,        -- Sengende Schlucht
+        SilverpineForest = 25,    -- Silberwald
+        StormwindCity = 26,       -- Stormwind
+        Wetlands = 27,            -- Sumpfland
+        SwampOfSorrows = 28,      -- Sümpfe des Elends
+        ThalassianHighlands = 29, -- Thalassisches Hochland
+        TirisfalGlades = 30,      -- Tirisfal
+        Uldaman = 31,             -- Uldaman
+        Undercity = 32,           -- Undercity
+        BlastedLands = 33,        -- Verwüstete Lande
+        HillsbradFoothills = 34,  -- Vorgebirge von Hillsbrad
+        ElwynnForest = 35,        -- Wald von Elwynn
+        Westfall = 36,            -- Westfall
+        WesternPlaguelands = 37,  -- Westliche Pestländer
+        Badlands = 38,            -- Ödland
+        EasternPlaguelands = 39,  -- Östliche Pestländer
+
+        -- Kalimdor
+        Ashenvale = 1,            -- Ashenvale
+        Azshara = 2,              -- Azshara
+        TheBarrens = 3,           -- Brachland
+        Darnassus = 4,            -- Darnassus
+        Desolace = 5,             -- Desolace
+        CavernsOfTime = 6,        -- Die Höhlen der Zeit
+        WailingCaverns = 7,       -- Die Höhlen des Wehklagens
+        Darkshore = 8,            -- Dunkelküste
+        Durotar = 9,              -- Durotar
+        DireMaul = 10,            -- Düsterbruch
+        IcepointRock = 11,        -- Eisgipfel-Felsen
+        Feralas = 12,             -- Feralas
+        GMIsland = 13,            -- GM-Insel
+        TimbermawHold = 14,       -- Holzschlundfeste
+        TimbermawTunnels = 15,    -- Holzschlundfeste
+        Hyjal = 16,               -- Hyjal
+        Maraudon = 17,            -- Maraudon
+        DustwallowMarsh = 18,     -- Marschen von Dustwallow
+        Moonglade = 19,           -- Moonglade
+        MoonwhisperCoast = 20,    -- MoonwhisperCoast
+        Mulgore = 21,             -- Mulgore
+        Orgrimmar = 22,           -- Orgrimmar
+        BlackstoneIsland = 23,    -- Schwarzstein Insel
+        Silithus = 24,            -- Silithus
+        StonetalonMountains = 25, -- Steinkrallengebirge
+        Tanaris = 26,             -- Tanaris
+        ThousandNeedles = 27,     -- Tausend Nadeln
+        TelAbim = 28,             -- Tel'Abim
+        Teldrassil = 29,          -- Teldrassil
+        Felwood = 30,             -- Teufelswald
+        ThunderBluff = 31,        -- Thunder Bluff
+        GatesOfAhnQiraj = 32,     -- Tore von Ahn'Qiraj
+        UnGoroCrater = 33,        -- Un'Goro-Krater
+        WindhornCaverns = 34,     -- WindhornCaverns
+        Winterspring = 35,        -- Winterspring
+
+        BM1 = 1,
+        BM2 = 2,
+        AQ401 = 1,
+        AQ402 = 2,
+        KARA401 = 1,
+        KARA402 = 2,
+        NAXX1 = 1,
+        NAXX2 = 2,
+        SMArm = 1,
+        SMCath = 2,
+        SMGy = 3,
+        SMLib = 4,
+    }
+
     -- Bindings
     BINDING_HEADER_INSTANCEJOURNAL = "Instanzjournal"
     BINDING_NAME_TOGGLEJOURNAL = "Instanzjournal umschalten"

@@ -2,6 +2,101 @@
 -- FEEL FREE TO EDIT AND MAKE A PR IF YOU NOTICE ANY ISSUES
 
 if GetLocale() == "ruRU" then
+    IJ_ZoneId_ruRU = {
+        None = 0,
+
+        -- Eastern Kingdom
+        Balor = 1,                -- Balor
+        GrimReaches = 2,          -- GrimReaches
+        Northwind = 3,            -- Northwind
+        AlahThalas = 4,           -- Ала'Талас
+        AlteracMountains = 5,     -- Альтеракские Горы
+        ScarletEnclave = 6,       -- Анклав Алого Ордена
+        Badlands = 7,             -- Бесплодные Земли
+        Wetlands = 8,             -- Болотина
+        SwampOfSorrows = 9,       -- Болото Печали
+        TheHinterlands = 10,      -- Внутренние Земли
+        EasternPlaguelands = 11,  -- Восточные Чумные Земли
+        BlastedLands = 12,        -- Выжженные Земли
+        Gilneas = 13,             -- Гилнеас
+        Gnomeregan = 14,          -- Гномреган
+        DunMorogh = 15,           -- Дун Морог
+        WesternPlaguelands = 16,  -- Западные Чумные Земли
+        Westfall = 17,            -- Западный Край
+        RedridgeMountains = 18,   -- Красногорье
+        LochModan = 19,           -- Лок Модан
+        TheDeadmines = 20,        -- Мертвые Копи
+        ScarletMonastery = 21,    -- Монастырь Алого Ордена
+        ArathiHighlands = 22,     -- Нагорье Арати
+        GillijimsIsle = 23,       -- Остров Гиллиджима
+        LapidisIsle = 24,         -- Остров Доктора Лапидиса
+        DeadwindPass = 25,        -- Перевал Мертвого Ветра
+        Undercity = 26,           -- Подгород
+        HillsbradFoothills = 27,  -- Предгорья Хилсбрада
+        BurningSteppes = 28,      -- Пылающие Степи
+        SilverpineForest = 29,    -- Серебряный Бор
+        Ironforge = 30,           -- Стальгорн
+        Duskwood = 31,            -- Сумеречный Лес
+        ThalassianHighlands = 32, -- Талассийские Высоты
+        StranglethornVale = 33,   -- Тернистая Долина
+        TirisfalGlades = 34,      -- Тирисфальские Леса
+        SearingGorge = 35,        -- Тлеющее Ущелье
+        Uldaman = 36,             -- Ульдаман
+        BlackrockMountain = 37,   -- Черная Гора
+        StormwindCity = 38,       -- Штормград
+        ElwynnForest = 39,        -- Элвиннский Лес
+
+        -- Kalimdor
+        MoonwhisperCoast = 1,     -- MoonwhisperCoast
+        WindhornCaverns = 2,      -- WindhornCaverns
+        Azshara = 3,              -- Азшара
+        GatesOfAhnQiraj = 4,      -- Врата Ан'Киража
+        ThunderBluff = 5,         -- Громовой Утес
+        Darnassus = 6,            -- Дарнас
+        Durotar = 7,              -- Дуротар
+        DireMaul = 8,             -- Забытый Город
+        Winterspring = 9,         -- Зимние Ключи
+        StonetalonMountains = 10, -- Когтистые Горы
+        UnGoroCrater = 11,        -- Кратер Ун'Горо
+        TimbermawHold = 12,       -- Крепость Древобрюхов
+        TimbermawTunnels = 13,    -- Крепость Древобрюхов
+        IcepointRock = 14,        -- Ледяная Скала
+        Moonglade = 15,           -- Лунная Поляна
+        Maraudon = 16,            -- Мародон
+        Mulgore = 17,             -- Мулгор
+        Orgrimmar = 18,           -- Оргриммар
+        Felwood = 19,             -- Оскверненный Лес
+        GMIsland = 20,            -- Остров ГМ
+        BlackstoneIsland = 21,    -- Остров Черного Камня
+        CavernsOfTime = 22,       -- Пещеры Времени
+        WailingCaverns = 23,      -- Пещеры Стенаний
+        Desolace = 24,            -- Пустоши
+        DustwallowMarsh = 25,     -- Пылевые Топи
+        Silithus = 26,            -- Силитус
+        TheBarrens = 27,          -- Степи
+        Tanaris = 28,             -- Танарис
+        TelAbim = 29,             -- Тель'Абим
+        Teldrassil = 30,          -- Тельдрассил
+        Darkshore = 31,           -- Темные Берега
+        ThousandNeedles = 32,     -- Тысяча Игл
+        Feralas = 33,             -- Фералас
+        Hyjal = 34,               -- Хиджал
+        Ashenvale = 35,           -- Ясеневый Лес
+
+        BM1 = 1,
+        BM2 = 2,
+        AQ401 = 1,
+        AQ402 = 2,
+        KARA401 = 1,
+        KARA402 = 2,
+        NAXX1 = 1,
+        NAXX2 = 2,
+        SMArm = 1,
+        SMCath = 2,
+        SMGy = 3,
+        SMLib = 4,
+    }
+
     -- Bindings
     BINDING_HEADER_INSTANCEJOURNAL = "Журнал подземелий"
     BINDING_NAME_TOGGLEJOURNAL = "Вкл/Выкл Журнал подземелий"

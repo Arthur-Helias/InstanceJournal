@@ -2,6 +2,101 @@
 -- FEEL FREE TO EDIT AND MAKE A PR IF YOU NOTICE ANY ISSUES
 
 if GetLocale() == "esES" then
+    IJ_ZoneId_esES = {
+        None = 0,
+
+        -- Eastern Kingdom
+        AlahThalas = 1,           -- Alah'Thalas
+        GrimReaches = 2,          -- Alcances Sombríos
+        Balor = 3,                -- Balor
+        SilverpineForest = 4,     -- Bosque de Argénteos
+        ElwynnForest = 5,         -- Bosque de Elwynn
+        Duskwood = 6,             -- Bosque del Ocaso
+        StormwindCity = 7,        -- Ciudad de Ventormenta
+        TirisfalGlades = 8,       -- Claros de Tirisfal
+        DunMorogh = 9,            -- Dun Morogh
+        ScarletEnclave = 10,      -- Enclave Escarlata
+        Undercity = 11,           -- Entrañas
+        Ironforge = 12,           -- Forjaz
+        Gilneas = 13,             -- Gilneas
+        Gnomeregan = 14,          -- Gnomeregan
+        LapidisIsle = 15,         -- Isla Lapidis
+        GillijimsIsle = 16,       -- Isla de Gillijim
+        SearingGorge = 17,        -- La Garganta de Fuego
+        HillsbradFoothills = 18,  -- Laderas de Trabalomas
+        BurningSteppes = 19,      -- Las Estepas Ardientes
+        TheDeadmines = 20,        -- Las Minas de la Muerte
+        LochModan = 21,           -- Loch Modan
+        Wetlands = 22,            -- Los Humedales
+        ScarletMonastery = 23,    -- Monasterio Escarlata
+        BlackrockMountain = 24,   -- Montaña Roca Negra
+        RedridgeMountains = 25,   -- Montañas Crestagrana
+        AlteracMountains = 26,    -- Montañas de Alterac
+        SwampOfSorrows = 27,      -- Pantano de las Penas
+        DeadwindPass = 28,        -- Paso de la Muerte
+        Westfall = 29,            -- Páramos del Poniente
+        ThalassianHighlands = 30, -- Tierras Altas Thalassianas
+        ArathiHighlands = 31,     -- Tierras Altas de Arathi
+        BlastedLands = 32,        -- Tierras Devastadas
+        Badlands = 33,            -- Tierras Inhóspitas
+        EasternPlaguelands = 34,  -- Tierras de la Peste del Este
+        WesternPlaguelands = 35,  -- Tierras de la Peste del Oeste
+        TheHinterlands = 36,      -- Tierras del Interior
+        Uldaman = 37,             -- Uldaman
+        StranglethornVale = 38,   -- Vega de Tuercespina
+        Northwind = 39,           -- Viento del Norte
+
+        -- Kalimdor
+        Azshara = 1,              -- Azshara
+        TimbermawHold = 2,        -- Bastión de los Timbermaw
+        TimbermawTunnels = 3,     -- Bastión de los Timbermaw
+        CavernsOfTime = 4,        -- Cavernas del Tiempo
+        ThunderBluff = 5,         -- Cima del Trueno
+        Moonglade = 6,            -- Claro de la Luna
+        Darkshore = 7,            -- Costa Oscura
+        UnGoroCrater = 8,         -- Crater Un'Goro
+        WailingCaverns = 9,       -- Cuevas de los Lamentos
+        Darnassus = 10,           -- Darnassus
+        Desolace = 11,            -- Desolace
+        Durotar = 12,             -- Durotar
+        Feralas = 13,             -- Feralas
+        Felwood = 14,             -- Frondavil
+        Hyjal = 15,               -- Hyjal
+        GMIsland = 16,            -- Isla GM
+        BlackstoneIsland = 17,    -- Isla Piedra Negra
+        DireMaul = 18,            -- La Masacre
+        ThousandNeedles = 19,     -- Las Mil Agujas
+        TheBarrens = 20,          -- Los Baldíos
+        Maraudon = 21,            -- Maraudon
+        DustwallowMarsh = 22,     -- Marjal Revolcafango
+        StonetalonMountains = 23, -- Montañas de Colina Roca
+        MoonwhisperCoast = 24,    -- MoonwhisperCoast
+        Mulgore = 25,             -- Mulgore
+        Orgrimmar = 26,           -- Orgrimmar
+        GatesOfAhnQiraj = 27,     -- Puertas de Ahn'Qiraj
+        IcepointRock = 28,        -- Roca Punto de Hielo
+        Silithus = 29,            -- Silithus
+        Tanaris = 30,             -- Tanaris
+        TelAbim = 31,             -- Tel'Abim
+        Teldrassil = 32,          -- Teldrassil
+        Ashenvale = 33,           -- Vallefresno
+        WindhornCaverns = 34,     -- WindhornCaverns
+        Winterspring = 35,        -- Winterspring
+
+        BM1 = 1,
+        BM2 = 2,
+        AQ401 = 1,
+        AQ402 = 2,
+        KARA401 = 1,
+        KARA402 = 2,
+        NAXX1 = 1,
+        NAXX2 = 2,
+        SMArm = 1,
+        SMCath = 2,
+        SMGy = 3,
+        SMLib = 4,
+    }
+
     -- Bindings
     BINDING_HEADER_INSTANCEJOURNAL = "Diario de mazmorras"
     BINDING_NAME_TOGGLEJOURNAL = "Alternar Diario de mazmorras"

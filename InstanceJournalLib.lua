@@ -271,6 +271,29 @@ IJLib.ZoneId = {
     SMLib = 4,
 }
 
+local currentLocale = GetLocale()
+
+if currentLocale == "esES" and IJ_ZoneId_esES then
+    IJLib.ZoneId = IJ_ZoneId_esES
+elseif currentLocale == "frFR" and IJ_ZoneId_frFR then
+    IJLib.ZoneId = IJ_ZoneId_frFR
+elseif currentLocale == "deDE" and IJ_ZoneId_deDE then
+    IJLib.ZoneId = IJ_ZoneId_deDE
+elseif currentLocale == "zhCN" and IJ_ZoneId_zhCN then
+    IJLib.ZoneId = IJ_ZoneId_zhCN
+elseif currentLocale == "ruRU" and IJ_ZoneId_ruRU then
+    IJLib.ZoneId = IJ_ZoneId_ruRU
+elseif currentLocale == "ptPT" and IJ_ZoneId_ptPT then
+    IJLib.ZoneId = IJ_ZoneId_ptPT
+end
+
+IJ_ZoneId_esES = nil
+IJ_ZoneId_frFR = nil
+IJ_ZoneId_deDE = nil
+IJ_ZoneId_zhCN = nil
+IJ_ZoneId_ruRU = nil
+IJ_ZoneId_ptPT = nil
+
 IJLib.Factions = {
     Alliance = IJ_FACTION_ALLIANCE,
     Horde = IJ_FACTION_HORDE,

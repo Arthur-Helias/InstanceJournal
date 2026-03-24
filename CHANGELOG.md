@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [1.1.4] - 2026-03-25
+
+### Fixed
+
+- Fixed zones on non English localizations
+
 ## [1.1.3] - 2026-03-23
 
 ### Added
