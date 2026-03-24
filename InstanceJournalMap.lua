@@ -487,7 +487,7 @@ function IJ_WorldMap_UpdateZoneDropDownText(arg)
     end
 end
 
-function IJ_WorldMapButton_OnClick(arg1)
+function IJ_WorldMapButton_OnClick(arg1, arg2, arg3, arg4)
     if arg1 == "RightButton" then
         local currentMapId = GetCurrentMapContinent()
         local currentZoneId = GetCurrentMapZone()
@@ -518,5 +518,5 @@ function IJ_WorldMapButton_OnClick(arg1)
         end
     end
 
-    Original_WorldMapButton_OnClick(arg1)
+    Original_WorldMapButton_OnClick(arg1, arg2, arg3, arg4)
 end
