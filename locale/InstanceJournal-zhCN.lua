@@ -5,6 +5,101 @@ if GetLocale() == "zhCN" then
     -- Story elements such as quests, quotes, dialogues, and book excerpts were used as reference to help generate some of the stories for specific boss encounters.
     -- If any information is inaccurate, please make a PR with the corrected information.
 
+    IJ_ZoneId_zhCN = {
+        None = 0,
+
+        -- Eastern Kingdom
+        EasternPlaguelands = 1,   -- 东瘟疫之地
+        DunMorogh = 2,            -- 丹莫罗
+        GrimReaches = 3,          -- 冷酷海岸
+        Northwind = 4,            -- 北风领
+        GillijimsIsle = 5,        -- 吉利吉姆之岛
+        Gilneas = 6,              -- 吉尔尼斯
+        AlteracMountains = 7,     -- 奥特兰克山脉
+        Uldaman = 8,              -- 奥达曼
+        Balor = 9,                -- 巴洛
+        HillsbradFoothills = 10,  -- 希尔斯布莱德丘陵
+        Undercity = 11,           -- 幽暗城
+        SwampOfSorrows = 12,      -- 悲伤沼泽
+        LapidisIsle = 13,         -- 拉匹迪斯之岛
+        TirisfalGlades = 14,      -- 提瑞斯法林地
+        Duskwood = 15,            -- 暮色森林
+        StormwindCity = 16,       -- 暴风城
+        TheDeadmines = 17,        -- 死亡矿井
+        LochModan = 18,           -- 洛克莫丹
+        Wetlands = 19,            -- 湿地
+        SearingGorge = 20,        -- 灼热峡谷
+        BurningSteppes = 21,      -- 燃烧平原
+        ElwynnForest = 22,        -- 艾尔文森林
+        StranglethornVale = 23,   -- 荆棘谷
+        Badlands = 24,            -- 荒芜之地
+        ThalassianHighlands = 25, -- 萨拉斯高地
+        ScarletMonastery = 26,    -- 血色修道院
+        ScarletEnclave = 27,      -- 血色领地
+        WesternPlaguelands = 28,  -- 西瘟疫之地
+        Westfall = 29,            -- 西部荒野
+        BlastedLands = 30,        -- 诅咒之地
+        Gnomeregan = 31,          -- 诺莫瑞根
+        RedridgeMountains = 32,   -- 赤脊山
+        TheHinterlands = 33,      -- 辛特兰
+        DeadwindPass = 34,        -- 逆风小径
+        Ironforge = 35,           -- 铁炉堡
+        SilverpineForest = 36,    -- 银松森林
+        AlahThalas = 37,          -- 阿尔萨拉斯
+        ArathiHighlands = 38,     -- 阿拉希高地
+        BlackrockMountain = 39,   -- 黑石山
+
+        -- Kalimdor
+        GMIsland = 1,             -- GM岛
+        Winterspring = 2,         -- 冬泉谷
+        IcepointRock = 3,         -- 冰点岩
+        Desolace = 4,             -- 凄凉之地
+        ThousandNeedles = 5,      -- 千针石林
+        DireMaul = 6,             -- 厄运之槌
+        WailingCaverns = 7,       -- 哀嚎洞穴
+        Tanaris = 8,              -- 塔纳利斯
+        Orgrimmar = 9,            -- 奥格瑞玛
+        GatesOfAhnQiraj = 10,     -- 安其拉之门
+        UnGoroCrater = 11,        -- 安戈洛环形山
+        DustwallowMarsh = 12,     -- 尘泥沼泽
+        Silithus = 13,            -- 希利苏斯
+        CavernsOfTime = 14,       -- 时光之穴
+        Moonglade = 15,           -- 月光林地
+        MoonwhisperCoast = 16,    -- 月语海岸
+        TimbermawHold = 17,       -- 木喉要塞
+        TimbermawTunnels = 18,    -- 木喉要塞
+        Durotar = 19,             -- 杜隆塔尔
+        TelAbim = 20,             -- 泰拉比姆
+        Teldrassil = 21,          -- 泰达希尔
+        Hyjal = 22,               -- 海加尔山
+        Ashenvale = 23,           -- 灰谷
+        Maraudon = 24,            -- 玛拉顿
+        StonetalonMountains = 25, -- 石爪山脉
+        Azshara = 26,             -- 艾萨拉
+        Mulgore = 27,             -- 莫高雷
+        Feralas = 28,             -- 菲拉斯
+        TheBarrens = 29,          -- 贫瘠之地
+        Felwood = 30,             -- 费伍德森林
+        Darnassus = 31,           -- 达纳苏斯
+        ThunderBluff = 32,        -- 雷霆崖
+        WindhornCaverns = 33,     -- 风角洞穴
+        Darkshore = 34,           -- 黑海岸
+        BlackstoneIsland = 35,    -- 黑石岛
+
+        BM1 = 1,
+        BM2 = 2,
+        AQ401 = 1,
+        AQ402 = 2,
+        KARA401 = 2,
+        KARA402 = 1,
+        NAXX1 = 2,
+        NAXX2 = 1,
+        SMArm = 1,
+        SMLib = 2,
+        SMGy = 3,
+        SMCath = 4,
+    }
+
     -- Bindings
     BINDING_HEADER_INSTANCEJOURNAL = "副本手册"
     BINDING_NAME_TOGGLEJOURNAL = "切换副本手册"
@@ -86,7 +181,7 @@ if GetLocale() == "zhCN" then
     IJ_RACE_GOBLIN = "地精"
 
     -- Classes
-    IJ_CLASS_WARRIOR = "սʿ"
+    IJ_CLASS_WARRIOR = "战士"
     IJ_CLASS_MAGE = "法师"
     IJ_CLASS_ROGUE = "潜行者"
     IJ_CLASS_HUNTER = "猎人"
@@ -125,7 +220,7 @@ if GetLocale() == "zhCN" then
     IJ_ITEMSLOT_ABILITY = "技能"
     IJ_ITEMSLOT_MOUNT = "坐骑"
     IJ_ITEMSLOT_BAG = "容器"
-    IJ_ITEMSLOT_PROFESSION = "רҵ"
+    IJ_ITEMSLOT_PROFESSION = "专业"
     IJ_ITEMSLOT_REAGENT = "材料"
     IJ_ITEMSLOT_TOY = "玩具"
     IJ_ITEMSLOT_ENCHANTMENT = "附魔"
@@ -144,7 +239,7 @@ if GetLocale() == "zhCN" then
     IJ_ITEMTYPE_CROSSBOW = "弩"
     IJ_ITEMTYPE_DAGGER = "匕首"
     IJ_ITEMTYPE_FISTWEAPON = "拳套"
-    IJ_ITEMTYPE_GUN = "ǹе"
+    IJ_ITEMTYPE_GUN = "枪械"
     IJ_ITEMTYPE_THROWNWEAPON = "投掷武器"
     IJ_ITEMTYPE_WAND = "魔杖"
     IJ_ITEMTYPE_FISHINGPOLE = "鱼竿"
@@ -176,8 +271,8 @@ if GetLocale() == "zhCN" then
     -- ==================
 
     -- RFC
-    IJ_DB_DUNGEON_RFC_NAME = "怒火峡谷"
-    IJ_DB_DUNGEON_RFC_STORY = "怒火裂谷由位于兽人新首都奥格瑞玛下方的火山洞穴网络组成。最近，有传言称，一个忠于恶魔暗影议会的邪教已经在深渊的炽热深处扎根。这个被称为“燃烧之刃”的邪教威胁着杜隆塔尔的主权。许多人相信，兽人大酋长萨尔知道剑刃的存在，并选择不摧毁它，希望其成员能直接引导他前往暗影议会。不管怎样，怒火峡谷散发出的黑暗力量可能会毁掉兽人为之奋斗的一切。"
+    IJ_DB_DUNGEON_RFC_NAME = "怒焰裂谷"
+    IJ_DB_DUNGEON_RFC_STORY = "怒火裂谷由位于兽人新首都奥格瑞玛下方的火山洞穴网络组成。最近，有传言称，一个忠于恶魔暗影议会的邪教已经在深渊的炽热深处扎根。这个被称为“燃烧之刃”的邪教威胁着杜隆塔尔的主权。许多人相信，兽人大酋长萨尔知道剑刃的存在，并选择不摧毁它，希望其成员能直接引导他前往暗影议会。不管怎样，怒焰裂谷散发出的黑暗力量可能会毁掉兽人为之奋斗的一切。"
 
     -- RFC Bosses
     IJ_DB_DUNGEON_RFC_BOSS_NAME_11517 = "奥格弗林特"
@@ -223,7 +318,7 @@ if GetLocale() == "zhCN" then
     IJ_LOOT_NAME_5235 = "祭司魔杖"
 
     -- Stockades
-    IJ_DB_DUNGEON_STOCKADES_NAME = "栅栏"
+    IJ_DB_DUNGEON_STOCKADES_NAME = "暴风城监狱"
     IJ_DB_DUNGEON_STOCKADES_STORY = "监狱是一座戒备森严的监狱建筑群，隐藏在暴风城运河区的下方。监狱由典狱长塞尔沃特领导，这里是小骗子、政治叛乱分子、杀人犯和许多这片土地上最危险的罪犯的家园。最近，囚犯领导的叛乱导致监狱内一片混乱——看守被赶走，囚犯却逍遥法外。典狱长塞尔沃特已成功逃离拘留区，目前正在招募勇敢的寻求刺激者冒险进入监狱并杀死起义的策划者——狡猾的重罪犯巴齐尔·斯雷德。"
 
     -- Stockades Bosses
@@ -254,7 +349,7 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_STOCKADES_BOSS_1716_ABILITY_NAME_7964 = "烟雾弹"
     IJ_DB_DUNGEON_STOCKADES_BOSS_1716_ABILITY_EFFECT_7964 = "巴兹尔·斯雷德投掷烟雾弹，使附近所有敌人昏迷 4 秒。"
     IJ_DB_DUNGEON_STOCKADES_BOSS_NAME_1720 = "布鲁戈·艾尔克纳寇"
-    IJ_DB_DUNGEON_STOCKADES_BOSS_STORY_1720 = "一个难以捉摸的矮人，在暴风城栅栏的一般囚犯中很少见到。据说他拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到他就好了……"
+    IJ_DB_DUNGEON_STOCKADES_BOSS_STORY_1720 = "一个难以捉摸的矮人，在暴风城监狱的一般囚犯中很少见到。据说他拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到他就好了……"
     IJ_DB_DUNGEON_STOCKADES_BOSS_NAME_1663 = "迪克斯特·瓦德"
     IJ_DB_DUNGEON_STOCKADES_BOSS_STORY_1663 = "沃德因从乌鸦山公墓偷走尸体并将其卖给莫本特·费尔而被捕，这一犯罪行为最终导致他被捕并声名狼藉。"
     IJ_DB_DUNGEON_STOCKADES_BOSS_1663_ABILITY_NAME_5246 = "破胆怒吼"
@@ -280,8 +375,8 @@ if GetLocale() == "zhCN" then
     IJ_LOOT_NAME_80725 = "哈姆霍克的鼻环"
 
     -- SV
-    IJ_DB_DUNGEON_SV_NAME = "暴风城金库"
-    IJ_DB_DUNGEON_SV_STORY = "暴风城金库的建造是为了关押王国最危险的罪犯和魔法威胁。它的核心是阿克提拉斯，这是一种强大的水晶，它让守卫们发疯，并腐蚀了用于巡逻大厅的符文构造体。现在，避难所变成了一片混乱的迷宫……"
+    IJ_DB_DUNGEON_SV_NAME = "暴风城地牢"
+    IJ_DB_DUNGEON_SV_STORY = "暴风城地牢的建造是为了关押王国最危险的罪犯和魔法威胁。它的核心是阿克提拉斯，这是一种强大的水晶，它让守卫们发疯，并腐蚀了用于巡逻大厅的符文构造体。现在，避难所变成了一片混乱的迷宫……"
 
     -- SV Bosses
     IJ_DB_DUNGEON_SV_BOSS_NAME_80853 = "艾丝卓仕·格瑞姆弗雷姆"
@@ -327,7 +422,7 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_20603 = "暗影震击"
     IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_20603 = "沃尔坎用黑暗魔法鞭打 20 码半径内的敌人，对每个敌人造成 740 点暗影伤害。"
     IJ_DB_DUNGEON_SV_BOSS_NAME_93107 = "阿克提阿斯"
-    IJ_DB_DUNGEON_SV_BOSS_STORY_93107 = "阿克提拉斯是一颗强大且有感知力的魔法水晶，被锁在暴风城金库深处。它不稳定的能量让守卫们疯狂，并将避难所扭曲成疯狂的迷宫。"
+    IJ_DB_DUNGEON_SV_BOSS_STORY_93107 = "阿克提拉斯是一颗强大且有感知力的魔法水晶，被锁在暴风城地牢深处。它不稳定的能量让守卫们疯狂，并将避难所扭曲成疯狂的迷宫。"
 
     -- SV Loot
     IJ_LOOT_NAME_60504 = "恐惧皮手套"
@@ -1885,18 +1980,18 @@ if GetLocale() == "zhCN" then
     IJ_LOOT_NAME_13937 = "院长之杖"
 
     -- SFK
-    IJ_DB_DUNGEON_SFK_NAME = "影牙要塞"
-    IJ_DB_DUNGEON_SFK_STORY = "第三次战争期间，肯瑞托的法师们与天灾军团的不死大军作战。当达拉然的法师在战斗中阵亡后，他们很快就会崛起——为不断壮大的天灾军团增添了他们昔日的力量。由于对大法师缺乏进展（并且不顾同侪的建议）感到沮丧，阿鲁高选择召唤超维度实体来支撑达拉然日渐减少的队伍。阿鲁高的召唤将贪婪的狼人带入了艾泽拉斯世界。凶猛的狼人不仅屠杀了天灾军团，而且很快就攻击了巫师们。狼人围攻了贵族西尔弗莱恩男爵的要塞。这座城堡位于焚木村的小村庄上方，很快就陷入了阴影和废墟之中。阿鲁高因愧疚而发疯，收养了狼人作为自己的孩子，并撤退到了新命名的“影牙要塞”。据说他仍然住在那里，受到他的巨型宠物芬鲁斯的保护，并被席尔弗莱恩男爵的复仇鬼魂所困扰。"
+    IJ_DB_DUNGEON_SFK_NAME = "影牙城堡"
+    IJ_DB_DUNGEON_SFK_STORY = "第三次战争期间，肯瑞托的法师们与天灾军团的不死大军作战。当达拉然的法师在战斗中阵亡后，他们很快就会崛起——为不断壮大的天灾军团增添了他们昔日的力量。由于对大法师缺乏进展（并且不顾同侪的建议）感到沮丧，阿鲁高选择召唤超维度实体来支撑达拉然日渐减少的队伍。阿鲁高的召唤将贪婪的狼人带入了艾泽拉斯世界。凶猛的狼人不仅屠杀了天灾军团，而且很快就攻击了巫师们。狼人围攻了贵族西尔弗莱恩男爵的要塞。这座城堡位于焚木村的小村庄上方，很快就陷入了阴影和废墟之中。阿鲁高因愧疚而发疯，收养了狼人作为自己的孩子，并撤退到了新命名的“影牙城堡”。据说他仍然住在那里，受到他的巨型宠物芬鲁斯的保护，并被席尔弗莱恩男爵的复仇鬼魂所困扰。"
 
     -- SFK Bosses
     IJ_DB_DUNGEON_SFK_BOSS_NAME_3914 = "雷希戈尔"
-    IJ_DB_DUNGEON_SFK_BOSS_STORY_3914 = "雷斯戈尔是最凶恶的狼人之一，受大法师阿鲁高委托看守闯入影牙要塞的囚犯。其中包括死亡猎手阿达曼特、巫师阿什克罗姆和兰登·史迪威。"
+    IJ_DB_DUNGEON_SFK_BOSS_STORY_3914 = "雷斯戈尔是最凶恶的狼人之一，受大法师阿鲁高委托看守闯入影牙城堡的囚犯。其中包括死亡猎手阿达曼特、巫师阿什克罗姆和兰登·史迪威。"
     IJ_DB_DUNGEON_SFK_BOSS_NAME_3886 = "屠夫拉佐克劳"
     IJ_DB_DUNGEON_SFK_BOSS_STORY_3886 = "利爪栖息在影牙城堡的前厨房里。当他被主人阿鲁高带入影牙城堡时，他屠杀了许多无辜的人类，因此获得了他的绰号。"
     IJ_DB_DUNGEON_SFK_BOSS_NAME_3887 = "席瓦莱恩男爵"
-    IJ_DB_DUNGEON_SFK_BOSS_STORY_3887 = "西尔弗莱恩是影牙要塞的前任领主，但在大法师阿鲁高和他的狼人为了他们自己的邪恶计划而占领要塞时被杀。他现在和他的一些仆人一起在餐厅里出没。"
+    IJ_DB_DUNGEON_SFK_BOSS_STORY_3887 = "西尔弗莱恩是影牙城堡的前任领主，但在大法师阿鲁高和他的狼人为了他们自己的邪恶计划而占领要塞时被杀。他现在和他的一些仆人一起在餐厅里出没。"
     IJ_DB_DUNGEON_SFK_BOSS_NAME_61969 = "艾隆迈恩主教"
-    IJ_DB_DUNGEON_SFK_BOSS_STORY_61969 = "铁鬃主教曾经是一位信仰无与伦比的人，他以布道而闻名，他的布道如此感人，即使是最虔诚的圣人也能感动不已。虽然他的朋友布莱特科普夫神父在巫妖王的影响力减弱后设法恢复了自由意志，但铁鬃就没那么幸运了。被影牙要塞的黑暗和阿鲁高的血魔法所吞噬，他仍然是墙内疯狂的忠实仆人。他是堕落恩典的悲剧纪念碑，挥舞着他曾经宣扬的圣光作为恐怖武器来对付任何试图结束城堡诅咒的人。"
+    IJ_DB_DUNGEON_SFK_BOSS_STORY_61969 = "铁鬃主教曾经是一位信仰无与伦比的人，他以布道而闻名，他的布道如此感人，即使是最虔诚的圣人也能感动不已。虽然他的朋友布莱特科普夫神父在巫妖王的影响力减弱后设法恢复了自由意志，但铁鬃就没那么幸运了。被影牙城堡的黑暗和阿鲁高的血魔法所吞噬，他仍然是墙内疯狂的忠实仆人。他是堕落恩典的悲剧纪念碑，挥舞着他曾经宣扬的圣光作为恐怖武器来对付任何试图结束城堡诅咒的人。"
     IJ_DB_DUNGEON_SFK_BOSS_NAME_4278 = "指挥官斯普林瓦尔"
     IJ_DB_DUNGEON_SFK_BOSS_STORY_4278 = "斯普林维尔指挥官的鬼魂是一位忠诚的士兵，他的鬼魂出没于议事厅，使用邪恶的攻击为他的领主西尔弗莱恩男爵报仇。"
     IJ_DB_DUNGEON_SFK_BOSS_NAME_4279 = "盲眼守卫奥杜"
@@ -1908,7 +2003,7 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_SFK_BOSS_NAME_3927 = "狼王南杜斯"
     IJ_DB_DUNGEON_SFK_BOSS_STORY_3927 = "他是小狼的狼人主人，并且拥有自己的狼群，可以在英雄与他交战之前与他们战斗。他是阿鲁高最后一个阻碍道路的追随者。"
     IJ_DB_DUNGEON_SFK_BOSS_NAME_4275 = "大法师阿鲁高"
-    IJ_DB_DUNGEON_SFK_BOSS_STORY_4275 = "大法师阿鲁高是达拉然的前法师，住在影牙要塞的废墟中，后来为天灾军团复活。他最为臭名昭著的是他将狼人从翡翠梦境中解放出来，再次将他们释放到了世界上。"
+    IJ_DB_DUNGEON_SFK_BOSS_STORY_4275 = "大法师阿鲁高是达拉然的前法师，住在影牙城堡的废墟中，后来为天灾军团复活。他最为臭名昭著的是他将狼人从翡翠梦境中解放出来，再次将他们释放到了世界上。"
 
     -- SFK Quests
     IJ_QUEST_NAME_1654 = "正义的考验"
@@ -2154,7 +2249,7 @@ if GetLocale() == "zhCN" then
     IJ_LOOT_NAME_13335 = "瑞文戴尔的死亡战马"
 
     -- GC
-    IJ_DB_DUNGEON_GC_NAME = "吉尔尼斯市"
+    IJ_DB_DUNGEON_GC_NAME = "吉尔尼斯城"
     IJ_DB_DUNGEON_GC_STORY = "吉尔尼斯城曾经是半岛上引以为豪的明珠，现在却变成了充满内战、龙影和野蛮疯狂的支离破碎的战场。虽然格雷迈恩之墙已经倒塌，但这座城市仍然是保皇党势力及其神秘资助者坚不可摧的堡垒。在大流士·雷文伍德领主领导的叛乱表面之下，隐藏着更黑暗的腐朽现象——黑龙军团的秘密特工哈洛家族操纵了王国的骄傲，助长了多年的腐朽。冒险者们必须在血迹斑斑的街道上穿行，找回丢失的家族契约、被盗的杰作和古老的水术手稿，同时决定吉恩·格雷迈恩国王本人的最终命运。"
 
     -- GC Bosses
@@ -2167,7 +2262,7 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_GC_BOSS_NAME_61422 = "达斯蒂万·布莱克考尔"
     IJ_DB_DUNGEON_GC_BOSS_STORY_61422 = "达斯蒂万·布莱克考尔是一个骗人的盗贼和自私的走狗，他像一只听话的狗一样侍奉格雷迈恩国王。他最近受雇窃取黑檀米尔农场的契约，躲藏在城市深处，以保护他的不义之财免遭那些试图夺回家族与生俱来的权利的人的侵害。"
     IJ_DB_DUNGEON_GC_BOSS_NAME_61423 = "元帅马格努斯·格雷斯通"
-    IJ_DB_DUNGEON_GC_BOSS_STORY_61423 = "马格努斯·格雷斯通元帅的历史基本上没有被记载，这使得他成为吉尔尼斯市街道上的一个神秘人物。"
+    IJ_DB_DUNGEON_GC_BOSS_STORY_61423 = "马格努斯·格雷斯通元帅的历史基本上没有被记载，这使得他成为吉尔尼斯城街道上的一个神秘人物。"
     IJ_DB_DUNGEON_GC_BOSS_NAME_61605 = "御马司莱文"
     IJ_DB_DUNGEON_GC_BOSS_STORY_61605 = "目前关于马术大师莱文的信息还很有限，尽管他被认为是戒备森严的吉尔尼斯城的居民。"
     IJ_DB_DUNGEON_GC_BOSS_NAME_61263 = "哈洛家族"
@@ -2223,7 +2318,7 @@ if GetLocale() == "zhCN" then
     IJ_LOOT_NAME_61738 = "公式：附魔护腕-吸血"
 
     -- CG
-    IJ_DB_DUNGEON_CG_NAME = "新月格罗夫"
+    IJ_DB_DUNGEON_CG_NAME = "新月林地"
     IJ_DB_DUNGEON_CG_STORY = "隐藏在密斯特拉湖瀑布上方的新月树林曾经是一个宁静的避难所，德鲁伊和像卡拉纳尔·布莱希恩这样的和平居民在这里和谐地照料着森林。然而，一片黑暗的阴影笼罩了树林，笼罩了所有居住在其中的人的思想。恶沼熊怪逃离北方的疯狂，在这里找不到避难所。相反，他们被扭曲成侵略性的格罗夫韦尔德部落，他们的萨满和长老进一步助长了他们的野蛮行为。就连以守护者拉纳托斯为首的德鲁伊保护者也变得沉默，或者被更深层次、更险恶的腐败根源所扭曲。现在，塞纳里奥议会呼吁勇敢的灵魂深入石头迷宫的深处，在树丛中心溃烂的邪恶蔓延到整个卡利姆多之前将其铲除。"
 
     -- CG Bosses
@@ -2264,12 +2359,12 @@ if GetLocale() == "zhCN" then
     IJ_LOOT_NAME_83216 = "染血头盔"
 
     -- HQ
-    IJ_DB_DUNGEON_HQ_NAME = "仇恨锻造采石场"
-    IJ_DB_DUNGEON_HQ_STORY = "仇恨锻造采石场位于燃烧平原深处，最初是奥瓦克·斯特恩洛克的创意，旨在扩大黑铁矿工联盟的影响力。然而，卑鄙的欺骗行为导致奥尔瓦克被解除了高级工头的职务，取而代之的是欺诈性的巴古尔·黑锤。从那时起，采石场就成了非法活动的聚集地。有传言称，一种挥发性的“憎恨之酒”正在秘密配制，而酸生元素则出现在强效的径流池中。麦格尼·铜须国王和部落最关心的是暮光之锤的到来，他们已经进入深处，利用黑铁的劳动力来达到自己的世界末日目的。"
+    IJ_DB_DUNGEON_HQ_NAME = "仇恨熔炉采石场"
+    IJ_DB_DUNGEON_HQ_STORY = "仇恨熔炉采石场位于燃烧平原深处，最初是奥瓦克·斯特恩洛克的创意，旨在扩大黑铁矿工联盟的影响力。然而，卑鄙的欺骗行为导致奥尔瓦克被解除了高级工头的职务，取而代之的是欺诈性的巴古尔·黑锤。从那时起，采石场就成了非法活动的聚集地。有传言称，一种挥发性的“憎恨之酒”正在秘密配制，而酸生元素则出现在强效的径流池中。麦格尼·铜须国王和部落最关心的是暮光之锤的到来，他们已经进入深处，利用黑铁的劳动力来达到自己的世界末日目的。"
 
     -- HQ Bosses
     IJ_DB_DUNGEON_HQ_BOSS_NAME_60735 = "高级工头巴古·黑锤"
-    IJ_DB_DUNGEON_HQ_BOSS_STORY_60735 = "巴古尔·黑锤多年来利用暴力和卑鄙手段篡夺了高级工头的位置。在说服参议院支持他对仇恨锻造采石场的愿景后，他通过欺诈成功推翻了他的前任。现在，他坐在被盗的办公室里，严格遵守参议院的命令，用铁拳统治矿工联盟，并确保采石场的真正黑暗目的不会受到他背叛的人的影响。"
+    IJ_DB_DUNGEON_HQ_BOSS_STORY_60735 = "巴古尔·黑锤多年来利用暴力和卑鄙手段篡夺了高级工头的位置。在说服参议院支持他对仇恨熔炉采石场的愿景后，他通过欺诈成功推翻了他的前任。现在，他坐在被盗的办公室里，严格遵守参议院的命令，用铁拳统治矿工联盟，并确保采石场的真正黑暗目的不会受到他背叛的人的影响。"
     IJ_DB_DUNGEON_HQ_BOSS_NAME_60736 = "工程师菲格尔斯"
     IJ_DB_DUNGEON_HQ_BOSS_STORY_60736 = "工程师菲格尔斯的自负可以与黑石塔的大师相媲美，他是一位傲慢的策划者，坚持为每一件机械创造物打上自己的名字。他负责监督采石场的复杂机械以及涉及龙幼崽的神秘计划。他的技术天才与他的自恋相匹配，使他成为黑石氏族寻求阻止黑铁技术扩张的主要目标。"
     IJ_DB_DUNGEON_HQ_BOSS_NAME_60829 = "腐蚀西斯"
@@ -2386,8 +2481,8 @@ if GetLocale() == "zhCN" then
     IJ_LOOT_NAME_83464 = "扭曲诅咒披肩"
 
     -- DMR
-    IJ_DB_DUNGEON_DMR_NAME = "龙喉隐居"
-    IJ_DB_DUNGEON_DMR_STORY = "龙喉隐居地隐藏在湿地东部遥远的破旧采矿设施内，是第二次战争中经验丰富的老兵的最后堡垒。在格瑞姆巴托失败后，这些兽人聚集在山下重建他们的力量，从米奈希尔港绑架公民并进行令人发指的仪式来巩固他们的队伍。在携带传奇恶魔之魂碎片归来的重创祖鲁希德的狂热领导下，氏族再次开始了对红龙军团的残酷征服。冒险者必须穿越不稳定的竖井和古老的矮人大厅，消灭龙喉的影响，然后他们的“黑暗部落”才能再次崛起。"
+    IJ_DB_DUNGEON_DMR_NAME = "龙喉居所"
+    IJ_DB_DUNGEON_DMR_STORY = "龙喉居所地隐藏在湿地东部遥远的破旧采矿设施内，是第二次战争中经验丰富的老兵的最后堡垒。在格瑞姆巴托失败后，这些兽人聚集在山下重建他们的力量，从米奈希尔港绑架公民并进行令人发指的仪式来巩固他们的队伍。在携带传奇恶魔之魂碎片归来的重创祖鲁希德的狂热领导下，氏族再次开始了对红龙军团的残酷征服。冒险者必须穿越不稳定的竖井和古老的矮人大厅，消灭龙喉的影响，然后他们的“黑暗部落”才能再次崛起。"
 
     -- DMR Bosses
     IJ_DB_DUNGEON_DMR_BOSS_NAME_62057 = "孤峰"
@@ -2395,7 +2490,7 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMR_BOSS_NAME_62066 = "穴织女王"
     IJ_DB_DUNGEON_DMR_BOSS_STORY_62066 = "龙喉兽人使用他们的黑暗艺术来奴役并神奇地增强了生活在格瑞姆巴托矿井内的蜘蛛。洞网巢母是这些仪式的可怕产物，拥有无与伦比的剧毒，能引起剧痛。她和她的强化后裔充当了致命的防御机制，保护撤退的更深处免受任何破坏氏族行动的人的侵害。"
     IJ_DB_DUNGEON_DMR_BOSS_NAME_62067 = "织网大师托尔康"
-    IJ_DB_DUNGEON_DMR_BOSS_STORY_62067 = "关于网络大师托肯的信息很少，尽管他的存在被认为是龙喉隐居的重要居民。"
+    IJ_DB_DUNGEON_DMR_BOSS_STORY_62067 = "关于网络大师托肯的信息很少，尽管他的存在被认为是龙喉居所的重要居民。"
     IJ_DB_DUNGEON_DMR_BOSS_NAME_62071 = "卡洛克·护火者"
     IJ_DB_DUNGEON_DMR_BOSS_STORY_62071 = "加尔洛克是一位强大的焚火大师，他培育“永恒之火”，这是兽人原始魔法隐藏的强大能量源泉。他以狂热的奉献精神保护这个古老的魔法，利用火焰为龙喉的阴谋提供动力。对于那些想要破坏氏族或夺取黑暗女士遗物的人来说，加尔洛克就像一堵燃烧的热墙。"
     IJ_DB_DUNGEON_DMR_BOSS_NAME_62069 = "哈尔甘·红标"
@@ -2405,7 +2500,7 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMR_BOSS_NAME_62070 = "黑心大王"
     IJ_DB_DUNGEON_DMR_BOSS_STORY_62070 = "黑心大王是一个彻头彻尾的真正怪物，他是肆虐湿地的邪恶劫掠队伍的策划者。他对米奈希尔港许多居民的绑架和死亡负有责任，他是龙喉老兵的铁腕人物。作为撤退中的主要军事领导人，他的死亡对于确保南部土地的安全至关重要。"
     IJ_DB_DUNGEON_DMR_BOSS_NAME_62038 = "长者空血"
-    IJ_DB_DUNGEON_DMR_BOSS_STORY_62038 = "关于空血长老的记录非常稀少，除了他是龙喉隐居地的确认居民这一事实之外。"
+    IJ_DB_DUNGEON_DMR_BOSS_STORY_62038 = "关于空血长老的记录非常稀少，除了他是龙喉居所地的确认居民这一事实之外。"
     IJ_DB_DUNGEON_DMR_BOSS_NAME_62072 = "希瑞斯塔兹"
     IJ_DB_DUNGEON_DMR_BOSS_STORY_62072 = "希瑞斯塔兹 是 尼迪赞兹 的兄弟，是一条高贵的红龙，目前正遭受着“屈服的困境”。他被龙喉族利用恶魔之魂的力量奴役，被迫在古老的矿井中听从他们令人发指的命令。他痛苦的叫声在洞穴中回响，这是兽人继续征服红龙军团的悲惨证明。"
     IJ_DB_DUNGEON_DMR_BOSS_NAME_62037 = "疲惫的祖鲁希德"
@@ -2468,7 +2563,7 @@ if GetLocale() == "zhCN" then
     IJ_LOOT_NAME_41895 = "恶魔之魂碎片"
 
     -- SWR
-    IJ_DB_DUNGEON_SWR_NAME = "风暴锻造废墟"
+    IJ_DB_DUNGEON_SWR_NAME = "风暴废墟"
     IJ_DB_DUNGEON_SWR_STORY = "巴洛尔岛曾经是繁华的商业天堂，由巴洛尔家族统治，是暴风城的一个繁荣的船国。这个贸易与安宁的时代在第二次战争期间结束，暴掠兽人和暗影议会给它的海岸带来了邪恶。如今，这座曾经辉煌的城堡坐落在悬崖顶上的废墟中，那些因恶魔般的残忍而被束缚在故乡的灵魂不断出没。当军情七处和妖精拾荒者在废墟中搜寻失落的古物时，暗影议会在深处进行邪恶的实验，威胁要让这座岛屿陷入永恒的黑暗。"
 
     -- SWR Bosses
@@ -2550,12 +2645,12 @@ if GetLocale() == "zhCN" then
     IJ_LOOT_NAME_58198 = "拆解钩刃"
 
     -- FH
-    IJ_DB_DUNGEON_FH_NAME = "霜鬃山谷"
-    IJ_DB_DUNGEON_FH_STORY = "霜鬃山谷坐落在丹莫罗的冰冻山峰深处，早在矮人在山上凿出宏伟的大厅之前，霜鬃山谷就一直是霜鬃部落的据点。霜鬃人曾经是一个骄傲而扩张的民族，但由于铁炉堡的无情扩张，他们已被推入越来越寒冷的境地。他们的狩猎场被占领，他们的神殿被玷污。部落的残余力量变得狂暴起来，他们对矮人的定居点进行袭击，其凶猛不是出于野蛮，而是出于绝望。对于霜鬃来说，这不是战争。这是生存。"
+    IJ_DB_DUNGEON_FH_NAME = "霜鬃峡谷"
+    IJ_DB_DUNGEON_FH_STORY = "霜鬃峡谷坐落在丹莫罗的冰冻山峰深处，早在矮人在山上凿出宏伟的大厅之前，霜鬃峡谷就一直是霜鬃部落的据点。霜鬃人曾经是一个骄傲而扩张的民族，但由于铁炉堡的无情扩张，他们已被推入越来越寒冷的境地。他们的狩猎场被占领，他们的神殿被玷污。部落的残余力量变得狂暴起来，他们对矮人的定居点进行袭击，其凶猛不是出于野蛮，而是出于绝望。对于霜鬃来说，这不是战争。这是生存。"
 
     -- FH Bosses
     IJ_DB_DUNGEON_FH_BOSS_NAME_tansha = "灵动的坦莎"
-    IJ_DB_DUNGEON_FH_BOSS_STORY_tansha = "霜鬃山谷保守着它的秘密，圆滑的坦莎就是其中之一。"
+    IJ_DB_DUNGEON_FH_BOSS_STORY_tansha = "霜鬃峡谷保守着它的秘密，圆滑的坦莎就是其中之一。"
     IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha = "灵动的坦莎"
     IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout = "破胆怒吼"
     IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout = "坦莎对附近的敌人大喊，使他们惊慌失措，持续 8 秒。"
@@ -2567,7 +2662,7 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_NAME_enrage = "激怒"
     IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_EFFECT_enrage = "剩余生命值 20% 时，乌布卡兹变得愤怒，对敌人造成的伤害显着增加。"
     IJ_DB_DUNGEON_FH_BOSS_NAME_kanza = "先知坎扎"
-    IJ_DB_DUNGEON_FH_BOSS_STORY_kanza = "那些进入霜鬃山谷并活着谈论先知坎扎的人，如果他们确实存在的话，对此事保持沉默。"
+    IJ_DB_DUNGEON_FH_BOSS_STORY_kanza = "那些进入霜鬃峡谷并活着谈论先知坎扎的人，如果他们确实存在的话，对此事保持沉默。"
     IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaadds = "坎扎的援兵"
     IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaadds = "坎扎在战斗开始时会派出两名霜鬃唤雪者来协助他。\n \n这些附加内容应该由伤害经销商优先于 首领"
     IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaaddsfrostbolt = "寒冰箭"
@@ -2577,7 +2672,7 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzafrostbolt = "寒冰箭"
     IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzafrostbolt = "坎扎向目标施放冰箭，造成冰霜伤害并减速目标。"
     IJ_DB_DUNGEON_FH_BOSS_NAME_hailar = "冰冷的海乐"
-    IJ_DB_DUNGEON_FH_BOSS_STORY_hailar = "霜鬃山谷的冰冻深处夺去了许多人的生命；他们中是否有人知道寒冷海拉尔的真实身份仍然未知。"
+    IJ_DB_DUNGEON_FH_BOSS_STORY_hailar = "霜鬃峡谷的冰冻深处夺去了许多人的生命；他们中是否有人知道寒冷海拉尔的真实身份仍然未知。"
     IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailaradds = "霜鬃仪祭师"
     IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailaradds = "海拉尔与五名霜鬃仪式师开始战斗，只要他们还活着，他们就会继续治疗他。\n \n该组织需要先杀死这些小怪，然后才能杀死海拉尔。"
     IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_16803 = "冰霜速冻"
@@ -3366,12 +3461,12 @@ if GetLocale() == "zhCN" then
     IJ_LOOT_NAME_92082 = "邪铸恐惧猎犬"
 
     -- BWL
-    IJ_DB_RAID_BWL_NAME = "黑翼巢穴"
+    IJ_DB_RAID_BWL_NAME = "黑翼之巢"
     IJ_DB_RAID_BWL_STORY = "在山顶的黑暗深处，死亡之翼的长子奈法利安进行了一些最可怕的实验，控制木偶等强大生物，并将不同龙族的蛋结合在一起，产生了可怕的结果。如果他成功了，甚至更黑暗的追求也即将到来。然而，黑石之主不仅仅是一位科学家——他还是一条被困在巢穴中的巨龙。他真的能败在凡人之手吗？"
 
     -- BWL Bosses
     IJ_DB_RAID_BWL_BOSS_NAME_12435 = "狂野的拉佐格尔"
-    IJ_DB_RAID_BWL_BOSS_STORY_12435 = "狂野的拉佐戈尔是黑龙军团的龙裔。他受黑翼巢穴领主奈法利安的委托，负责看守位于副本第一个房间中的大量珍贵的黑龙蛋。为此，拉佐戈尔被任命指挥一支兽人大队和其他部队，并将不惜一切代价确保他的坟墓不会受到伤害。"
+    IJ_DB_RAID_BWL_BOSS_STORY_12435 = "狂野的拉佐戈尔是黑龙军团的龙裔。他受黑翼之巢领主奈法利安的委托，负责看守位于副本第一个房间中的大量珍贵的黑龙蛋。为此，拉佐戈尔被任命指挥一支兽人大队和其他部队，并将不惜一切代价确保他的坟墓不会受到伤害。"
     IJ_DB_RAID_BWL_BOSS_NAME_13020 = "堕落的瓦拉斯塔兹"
     IJ_DB_RAID_BWL_BOSS_STORY_13020 = "腐化者瓦拉斯特拉兹被奈法利安腐化，现在不情愿地为他服务。"
     IJ_DB_RAID_BWL_BOSS_NAME_12017 = "勒什雷尔"
@@ -3385,7 +3480,7 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_BWL_BOSS_NAME_11981 = "弗莱格尔"
     IJ_DB_RAID_BWL_BOSS_STORY_11981 = "弗莱戈尔是一条在猩红实验室巡逻的黑龙。他是三只强大的黑龙之一，守护着通往主人奈法利安的道路。"
     IJ_DB_RAID_BWL_BOSS_NAME_14020 = "克洛玛古斯"
-    IJ_DB_RAID_BWL_BOSS_STORY_14020 = "克洛玛古斯是奈法利安创造的双头龙兽，是黑翼巢穴的忠实保护者。尽管他有着犬类的外表，但他实际上是龙族（更具体地说是龙龙）。克洛玛古斯辐射痛苦的受害者被转化为龙族。"
+    IJ_DB_RAID_BWL_BOSS_STORY_14020 = "克洛玛古斯是奈法利安创造的双头龙兽，是黑翼之巢的忠实保护者。尽管他有着犬类的外表，但他实际上是龙族（更具体地说是龙龙）。克洛玛古斯辐射痛苦的受害者被转化为龙族。"
     IJ_DB_RAID_BWL_BOSS_NAME_11583 = "奈法利安"
     IJ_DB_RAID_BWL_BOSS_STORY_11583 = "奈法利安是死亡之翼和他的首相辛塔莉亚的长子。和他的父亲和双胞胎妹妹奥妮克希亚一样，他也有着人类的外表，以黑石领主维克多·奈法留斯的身份出现。奈法利安控制着黑石氏族和各个食人魔氏族，他在黑石塔顶部的巢穴中进行统治"
 
@@ -3880,7 +3975,7 @@ if GetLocale() == "zhCN" then
     IJ_LOOT_NAME_60003 = "上古遗迹"
 
     -- KARA10
-    IJ_DB_RAID_KARA10_NAME = "下卡拉赞大厅"
+    IJ_DB_RAID_KARA10_NAME = "卡拉赞下层大厅"
     IJ_DB_RAID_KARA10_STORY = "卡拉赞的下游是塔楼充满活力的过去的令人难以忘怀的回声，幽灵般的客人和仆人永远被束缚在某个时刻。议员和公爵像受折磨的幽灵一样在这些走廊里徘徊，常常没有意识到自己的死亡，但仍然要求奢侈的客房服务和美酒。然而，在这些幽灵般的庆祝活动的表面之下，隐藏着一个更黑暗的现实：这座塔已经成为艾露恩之镰等受诅咒神器的焦点，并被一群邪恶的狼人所困扰。那些在这些大厅中航行的人必须与陷入疯狂循环的灵魂和保守主人秘密的不死城主作斗争。"
 
     -- KARA10 Bosses
