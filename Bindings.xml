@@ -1,0 +1,5 @@
+<Bindings>
+	<Binding name="TOGGLEJOURNAL" header="INSTANCEJOURNAL">
+		InstanceJournal:ToggleInstanceJournal()
+	</Binding>
+</Bindings>

@@ -1,0 +1,1034 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\..\FrameXML\UI.xsd">
+
+    <!-- =============== -->
+    <!-- ==   Fonts   == -->
+    <!-- =============== -->
+    <Font name="IJ_NumberFontNormal" font="Fonts\ARIALN.TTF" outline="NORMAL" virtual="true">
+        <FontHeight>
+            <AbsValue val="14" />
+        </FontHeight>
+        <Color r="1.0" g="1.0" b="1.0" />
+    </Font>
+
+    <Font name="IJ_GameFontNormal" font="Fonts\FRIZQT__.TTF"
+        virtual="true">
+        <FontHeight>
+            <AbsValue val="12" />
+        </FontHeight>
+        <Color r="1.0" g="0.82" b="0" />
+        <Shadow>
+            <Offset>
+                <AbsDimension x="1" y="-1" />
+            </Offset>
+            <Color r="0" g="0" b="0" />
+        </Shadow>
+    </Font>
+
+    <Font name="IJ_GameFontNormalSmall" font="Fonts\FRIZQT__.TTF"
+        virtual="true">
+        <FontHeight>
+            <AbsValue val="10" />
+        </FontHeight>
+        <Color r="1.0" g="0.82" b="0" />
+        <Shadow>
+            <Offset>
+                <AbsDimension x="1" y="-1" />
+            </Offset>
+            <Color r="0" g="0" b="0" />
+        </Shadow>
+    </Font>
+
+    <Font name="IJ_GameFontNormalSemiLarge" font="Fonts\FRIZQT__.TTF"
+        virtual="true">
+        <FontHeight>
+            <AbsValue val="14" />
+        </FontHeight>
+        <Color r="1.0" g="0.82" b="0" />
+        <Shadow>
+            <Offset>
+                <AbsDimension x="1" y="-1" />
+            </Offset>
+            <Color r="0" g="0" b="0" />
+        </Shadow>
+    </Font>
+
+    <Font name="IJ_GameFontNormalLarge" font="Fonts\FRIZQT__.TTF"
+        virtual="true">
+        <FontHeight>
+            <AbsValue val="16" />
+        </FontHeight>
+        <Color r="1.0" g="0.82" b="0" />
+        <Shadow>
+            <Offset>
+                <AbsDimension x="1" y="-1" />
+            </Offset>
+            <Color r="0" g="0" b="0" />
+        </Shadow>
+    </Font>
+
+    <Font name="IJ_GameFontHighlight" inherits="IJ_GameFontNormal" virtual="true">
+        <Color r="1.0" g="1.0" b="1.0" />
+    </Font>
+
+    <Font name="IJ_GameFontHighlightSmall" inherits="IJ_GameFontNormalSmall" virtual="true">
+        <Color r="1.0" g="1.0" b="1.0" />
+    </Font>
+
+    <Font name="IJ_QuestTitleFont" font="Fonts\MORPHEUS.ttf"
+        virtual="true">
+        <FontHeight>
+            <AbsValue val="18" />
+        </FontHeight>
+        <Color r="0" g="0" b="0" />
+        <Shadow>
+            <Offset>
+                <AbsDimension x="1" y="-1" />
+            </Offset>
+            <Color r="0.49" g="0.35" b="0.05" />
+        </Shadow>
+    </Font>
+
+    <Font name="IJ_QuestTitleFontLarge" font="Fonts\MORPHEUS.ttf"
+        virtual="true">
+        <FontHeight>
+            <AbsValue val="24" />
+        </FontHeight>
+        <Color r="0" g="0" b="0" />
+    </Font>
+
+    <Font name="IJ_GameFontDisable" inherits="IJ_GameFontNormal" virtual="true">
+        <Color r="0.5" g="0.5" b="0.5" />
+    </Font>
+
+    <!-- =================== -->
+    <!-- ==   Templates   == -->
+    <!-- =================== -->
+
+    <Texture name="IJ_MinimalistScrollBarButton" virtual="true">
+        <TexCoords left="0.25" right="0.75" top="0.25" bottom="0.75" />
+    </Texture>
+
+    <Texture name="IJ_MinimalistScrollBarKnob" virtual="true">
+        <TexCoords left="0.34375" right="0.65625" top="0.0625" bottom="0.9375" />
+    </Texture>
+
+    <Button name="IJ_MinimalistScrollUpButtonTemplate" virtual="true">
+        <Size>
+            <AbsDimension x="16" y="16" />
+        </Size>
+        <NormalTexture inherits="IJ_MinimalistScrollBarButton"
+            file="Interface\AddOns\InstanceJournal\media\ui\minimalist-scrollbar-scrollupbutton-up" />
+        <PushedTexture inherits="IJ_MinimalistScrollBarButton"
+            file="Interface\AddOns\InstanceJournal\media\ui\minimalist-scrollbar-scrollupbutton-down" />
+        <DisabledTexture inherits="IJ_MinimalistScrollBarButton"
+            file="Interface\AddOns\InstanceJournal\media\ui\minimalist-scrollbar-scrollupbutton-up" />
+        <HighlightTexture inherits="IJ_MinimalistScrollBarButton"
+            file="Interface\AddOns\InstanceJournal\media\ui\minimalist-scrollbar-scrollupbutton-highlight" />
+        <Scripts>
+            <OnLoad>
+                local pt = this:GetPushedTexture()
+                if pt then
+                pt:ClearAllPoints()
+                pt:SetPoint("TOPLEFT", 1, -1)
+                pt:SetPoint("BOTTOMRIGHT", 1, -1)
+                end
+            </OnLoad>
+            <OnMouseDown>
+                local hl = this:GetHighlightTexture()
+                if hl then
+                hl:SetAlpha(0)
+                end
+            </OnMouseDown>
+            <OnMouseUp>
+                local hl = this:GetHighlightTexture()
+                if hl then
+                hl:SetAlpha(1)
+                end
+            </OnMouseUp>
+        </Scripts>
+    </Button>
+
+    <Button name="IJ_MinimalistScrollDownButtonTemplate" virtual="true">
+        <Size>
+            <AbsDimension x="16" y="16" />
+        </Size>
+        <NormalTexture inherits="IJ_MinimalistScrollBarButton"
+            file="Interface\AddOns\InstanceJournal\media\ui\minimalist-scrollbar-scrolldownbutton-up" />
+        <PushedTexture inherits="IJ_MinimalistScrollBarButton"
+            file="Interface\AddOns\InstanceJournal\media\ui\minimalist-scrollbar-scrolldownbutton-down" />
+        <DisabledTexture inherits="IJ_MinimalistScrollBarButton"
+            file="Interface\AddOns\InstanceJournal\media\ui\minimalist-scrollbar-scrolldownbutton-up" />
+        <HighlightTexture inherits="IJ_MinimalistScrollBarButton"
+            file="Interface\AddOns\InstanceJournal\media\ui\minimalist-scrollbar-scrolldownbutton-highlight" />
+        <Scripts>
+            <OnLoad>
+                local pt = this:GetPushedTexture()
+                if pt then
+                pt:ClearAllPoints()
+                pt:SetPoint("TOPLEFT", 1, -1)
+                pt:SetPoint("BOTTOMRIGHT", 1, -1)
+                end
+            </OnLoad>
+            <OnMouseDown>
+                local hl = this:GetHighlightTexture()
+                if hl then
+                hl:SetAlpha(0)
+                end
+            </OnMouseDown>
+            <OnMouseUp>
+                local hl = this:GetHighlightTexture()
+                if hl then
+                hl:SetAlpha(1)
+                end
+            </OnMouseUp>
+        </Scripts>
+    </Button>
+
+    <Slider name="IJ_MinimalistScrollBarTemplate" virtual="true">
+        <Size>
+            <AbsDimension x="16" y="0" />
+        </Size>
+        <Frames>
+            <Button name="$parentScrollUpButton" inherits="IJ_MinimalistScrollUpButtonTemplate">
+                <Anchors>
+                    <Anchor point="BOTTOM" relativePoint="TOP" />
+                </Anchors>
+                <Scripts>
+                    <OnClick>
+                        local parent = this:GetParent()
+                        parent:SetValue(parent:GetValue() - (parent:GetHeight() / 4))
+                        PlaySound("UChatScrollButton")
+                    </OnClick>
+                </Scripts>
+            </Button>
+            <Button name="$parentScrollDownButton" inherits="IJ_MinimalistScrollDownButtonTemplate">
+                <Anchors>
+                    <Anchor point="TOP" relativePoint="BOTTOM" />
+                </Anchors>
+                <Scripts>
+                    <OnClick>
+                        local parent = this:GetParent()
+                        parent:SetValue(parent:GetValue() + (parent:GetHeight() / 4))
+                        PlaySound("UChatScrollButton")
+                    </OnClick>
+                </Scripts>
+            </Button>
+        </Frames>
+        <Scripts>
+            <OnValueChanged>
+                this:GetParent():SetVerticalScroll(arg1)
+            </OnValueChanged>
+            <OnEnter>
+                this.hasLeft = false
+
+                local thumb = getglobal(this:GetName().."ThumbTexture")
+                if thumb then
+                thumb:SetTexture("Interface\\AddOns\\InstanceJournal\\media\\ui\\minimalist-scrollbar-knob-highlight")
+                end
+            </OnEnter>
+            <OnLeave>
+                this.hasLeft = true
+
+                if this.isDragging then
+                return
+                end
+
+                local thumb = getglobal(this:GetName().."ThumbTexture")
+                if thumb then
+                thumb:SetTexture("Interface\\AddOns\\InstanceJournal\\media\\ui\\minimalist-scrollbar-knob-up")
+                end
+            </OnLeave>
+            <OnMouseDown>
+                this.isDragging = true
+
+                local thumb = getglobal(this:GetName().."ThumbTexture")
+                if thumb then
+                thumb:SetTexture("Interface\\AddOns\\InstanceJournal\\media\\ui\\minimalist-scrollbar-knob-down")
+                end
+            </OnMouseDown>
+            <OnMouseUp>
+                this.isDragging = false
+
+                local thumb = getglobal(this:GetName().."ThumbTexture")
+                if thumb and this.hasLeft == false then
+                thumb:SetTexture("Interface\\AddOns\\InstanceJournal\\media\\ui\\minimalist-scrollbar-knob-highlight")
+                else
+                thumb:SetTexture("Interface\\AddOns\\InstanceJournal\\media\\ui\\minimalist-scrollbar-knob-up")
+                end
+            </OnMouseUp>
+        </Scripts>
+        <ThumbTexture name="$parentThumbTexture"
+            file="Interface\AddOns\InstanceJournal\media\ui\minimalist-scrollbar-knob-up"
+            inherits="IJ_MinimalistScrollBarKnob">
+            <Size>
+                <AbsDimension x="10" y="56" />
+            </Size>
+        </ThumbTexture>
+    </Slider>
+
+    <Button name="IJ_UIPanelButtonTemplate" virtual="true">
+        <ButtonText name="$parentText" />
+        <NormalFont inherits="IJ_GameFontNormal" />
+        <HighlightFont inherits="IJ_GameFontHighlight" />
+        <DisabledFont inherits="IJ_GameFontDisable" />
+        <NormalTexture inherits="UIPanelButtonUpTexture" />
+        <PushedTexture inherits="UIPanelButtonDownTexture" />
+        <DisabledTexture inherits="UIPanelButtonDisabledTexture" />
+        <HighlightTexture inherits="UIPanelButtonHighlightTexture" />
+    </Button>
+
+    <Button name="IJ_QuestItemTemplate" virtual="true">
+        <Size>
+            <AbsDimension x="147" y="41" />
+        </Size>
+        <Layers>
+            <Layer level="BACKGROUND">
+                <Texture name="$parentIconTexture">
+                    <Size>
+                        <AbsDimension x="39" y="39" />
+                    </Size>
+                    <Anchors>
+                        <Anchor point="TOPLEFT">
+                            <Offset>
+                                <AbsDimension x="0" y="0" />
+                            </Offset>
+                        </Anchor>
+                    </Anchors>
+                </Texture>
+                <Texture name="$parentNameFrame" file="Interface\QuestFrame\UI-QuestItemNameFrame">
+                    <Size>
+                        <AbsDimension x="128" y="64" />
+                    </Size>
+                    <Anchors>
+                        <Anchor point="LEFT" relativeTo="$parentIconTexture" relativePoint="RIGHT">
+                            <Offset>
+                                <AbsDimension x="-10" y="0" />
+                            </Offset>
+                        </Anchor>
+                    </Anchors>
+                </Texture>
+                <FontString name="$parentName" inherits="IJ_GameFontHighlight" justifyH="LEFT">
+                    <Size>
+                        <AbsDimension x="90" y="36" />
+                    </Size>
+                    <Anchors>
+                        <Anchor point="LEFT" relativeTo="$parentNameFrame">
+                            <Offset>
+                                <AbsDimension x="15" y="0" />
+                            </Offset>
+                        </Anchor>
+                    </Anchors>
+                </FontString>
+            </Layer>
+            <Layer level="ARTWORK">
+                <FontString name="$parentCount" inherits="IJ_NumberFontNormal" justifyH="RIGHT">
+                    <Anchors>
+                        <Anchor point="BOTTOMRIGHT" relativeTo="$parentIconTexture">
+                            <Offset>
+                                <AbsDimension x="-4" y="1" />
+                            </Offset>
+                        </Anchor>
+                    </Anchors>
+                </FontString>
+            </Layer>
+        </Layers>
+        <Scripts>
+            <OnLoad>
+                this.hasItem = 1;
+            </OnLoad>
+            <OnEnter>
+                if ( this:GetAlpha() > 0 ) then
+                GameTooltip:SetOwner(this, "ANCHOR_RIGHT");
+                if ( this.rewardType == "item" ) then
+                GameTooltip:SetQuestItem(this.type, this:GetID());
+                elseif ( this.rewardType == "spell" ) then
+                GameTooltip:SetQuestRewardSpell();
+                end
+                end
+                CursorUpdate();
+            </OnEnter>
+            <OnLeave>
+                GameTooltip:Hide();
+                ResetCursor();
+            </OnLeave>
+            <OnUpdate>
+                CursorOnUpdate();
+            </OnUpdate>
+            <OnClick>
+                QuestItem_OnClick();
+            </OnClick>
+        </Scripts>
+    </Button>
+
+    <Texture name="IJ_MapButtonTemplate" virtual="true">
+        <TexCoords left="0.171875" right="0.828125" top="0.0625" bottom="0.96875" />
+    </Texture>
+
+    <Texture name="IJ_MapButtonHighlightTemplate" virtual="true">
+        <Size>
+            <AbsDimension x="38" y="26" />
+        </Size>
+        <Anchors>
+            <Anchor point="CENTER" />
+        </Anchors>
+    </Texture>
+
+    <Texture name="IJ_NavBarHomeButtonTemplate" virtual="true">
+        <TexCoords left="0" right="0.6640625" top="0" bottom="1" />
+    </Texture>
+
+    <Texture name="IJ_NavBarHomeButtonHighlightTemplate" virtual="true">
+        <Size>
+            <AbsDimension x="73" y="26" />
+        </Size>
+        <Anchors>
+            <Anchor point="LEFT" />
+        </Anchors>
+        <TexCoords left="0" right="0.5859375" top="0" bottom="1" />
+    </Texture>
+
+    <!-- ================================ -->
+    <!-- ==   Instance Journal Frame   == -->
+    <!-- ================================ -->
+
+    <Frame name="IJ_InstanceJournalFrame" toplevel="true" movable="true" enableMouse="true"
+        parent="UIParent" hidden="true">
+        <Size>
+            <AbsDimension x="768" y="512" />
+        </Size>
+        <Anchors>
+            <Anchor point="TOPLEFT" />
+            <Offset>
+                <AbsDimension x="0" y="-100" />
+            </Offset>
+        </Anchors>
+        <HitRectInsets>
+            <AbsInset left="0" right="34" top="0" bottom="75" />
+        </HitRectInsets>
+        <Layers>
+            <Layer level="BORDER">
+                <Texture name="IJ_InstanceJournalFrameTopLeft"
+                    file="Interface\AddOns\InstanceJournal\media\ui\bg-tl">
+                    <Size>
+                        <AbsDimension x="256" y="256" />
+                    </Size>
+                    <Anchors>
+                        <Anchor point="TOPLEFT" />
+                    </Anchors>
+                </Texture>
+                <Texture name="IJ_InstanceJournalFrameTopMiddle"
+                    file="Interface\AddOns\InstanceJournal\media\ui\bg-tm">
+                    <Size>
+                        <AbsDimension x="256" y="256" />
+                    </Size>
+                    <Anchors>
+                        <Anchor point="TOP" />
+                    </Anchors>
+                </Texture>
+                <Texture name="IJ_InstanceJournalFrameTopRight"
+                    file="Interface\AddOns\InstanceJournal\media\ui\bg-tr">
+                    <Size>
+                        <AbsDimension x="256" y="256" />
+                    </Size>
+                    <Anchors>
+                        <Anchor point="TOPRIGHT" />
+                    </Anchors>
+                </Texture>
+                <Texture name="IJ_InstanceJournalFrameBottomLeft"
+                    file="Interface\AddOns\InstanceJournal\media\ui\bg-bl">
+                    <Size>
+                        <AbsDimension x="256" y="256" />
+                    </Size>
+                    <Anchors>
+                        <Anchor point="BOTTOMLEFT" />
+                    </Anchors>
+                </Texture>
+                <Texture name="IJ_InstanceJournalFrameBottomMiddle"
+                    file="Interface\AddOns\InstanceJournal\media\ui\bg-bm">
+                    <Size>
+                        <AbsDimension x="256" y="256" />
+                    </Size>
+                    <Anchors>
+                        <Anchor point="BOTTOM" />
+                    </Anchors>
+                </Texture>
+                <Texture name="IJ_InstanceJournalFrameBottomRight"
+                    file="Interface\AddOns\InstanceJournal\media\ui\bg-br">
+                    <Size>
+                        <AbsDimension x="256" y="256" />
+                    </Size>
+                    <Anchors>
+                        <Anchor point="BOTTOMRIGHT" />
+                    </Anchors>
+                </Texture>
+                <FontString name="IJ_InstanceJournalNameText" inherits="IJ_GameFontNormal">
+                    <Anchors>
+                        <Anchor point="TOP" relativeTo="IJ_InstanceJournalFrame" relativePoint="TOP">
+                            <Offset>
+                                <AbsDimension x="0" y="-18" />
+                            </Offset>
+                        </Anchor>
+                    </Anchors>
+                    <Color r="0.9" g="0.78" b="0.3" />
+                </FontString>
+            </Layer>
+        </Layers>
+        <Frames>
+            <EditBox name="IJ_SearchBar" inherits="InputBoxTemplate" autoFocus="false">
+                <Size>
+                    <AbsDimension x="130" y="20" />
+                </Size>
+                <Anchors>
+                    <Anchor point="TOPRIGHT" relativeTo="IJ_InstanceJournalFrame"
+                        relativePoint="TOPRIGHT">
+                        <Offset>
+                            <AbsDimension x="-45" y="-42" />
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+
+                <FontString inherits="IJ_GameFontHighlight" />
+
+                <TextInsets>
+                    <AbsInset left="14" right="18" top="0" bottom="0" />
+                </TextInsets>
+
+                <Layers>
+                    <Layer level="OVERLAY">
+                        <FontString name="$parentPlaceholder" inherits="IJ_GameFontDisable"
+                            text="IJ_GUI_SEARCH">
+                            <Anchors>
+                                <Anchor point="LEFT">
+                                    <Offset>
+                                        <AbsDimension x="14" y="0" />
+                                    </Offset>
+                                </Anchor>
+                            </Anchors>
+                        </FontString>
+
+                        <Texture name="$parentIcon" file="Interface\Common\UI-Searchbox-Icon"
+                            alpha="0.5">
+                            <Size>
+                                <AbsDimension x="14" y="14" />
+                            </Size>
+                            <Anchors>
+                                <Anchor point="LEFT">
+                                    <Offset>
+                                        <AbsDimension x="0" y="-2" />
+                                    </Offset>
+                                </Anchor>
+                            </Anchors>
+                        </Texture>
+                    </Layer>
+                </Layers>
+
+                <Frames>
+                    <Button name="$parentClearButton" hidden="true">
+                        <Size>
+                            <AbsDimension x="16" y="16" />
+                        </Size>
+                        <Anchors>
+                            <Anchor point="RIGHT">
+                                <Offset>
+                                    <AbsDimension x="-2" y="0" />
+                                </Offset>
+                            </Anchor>
+                        </Anchors>
+                        <NormalTexture
+                            file="Interface\AddOns\InstanceJournal\media\ui\ui-searchbar-clear" />
+                        <Scripts>
+                            <OnEnter>
+                                if this:GetNormalTexture() then
+                                this:GetNormalTexture():SetAlpha(1.0)
+                                end
+                            </OnEnter>
+                            <OnLeave>
+                                if this:GetNormalTexture() then
+                                this:GetNormalTexture():SetAlpha(0.5)
+                                end
+                            </OnLeave>
+                            <OnMouseDown>
+                                if this:GetButtonState() ~= "DISABLED" and this:GetNormalTexture()
+                                then
+                                this:GetNormalTexture():ClearAllPoints()
+                                this:GetNormalTexture():SetPoint("TOPLEFT", this, "TOPLEFT", 1, -1)
+                                this:GetNormalTexture():SetPoint("BOTTOMRIGHT", this, "BOTTOMRIGHT",
+                                1, -1)
+                                end
+                            </OnMouseDown>
+                            <OnMouseUp>
+                                if this:GetNormalTexture() then
+                                this:GetNormalTexture():ClearAllPoints()
+                                this:GetNormalTexture():SetAllPoints(this)
+                                end
+                            </OnMouseUp>
+                            <OnClick>
+                                local parent = this:GetParent()
+                                parent:SetText("")
+                                parent:SetFocus()
+                                parent:ClearFocus()
+                            </OnClick>
+                        </Scripts>
+                    </Button>
+                </Frames>
+
+                <Scripts>
+                    <OnLoad>
+                        this:SetAutoFocus(false)
+                    </OnLoad>
+                    <OnEditFocusGained>
+                        getglobal(this:GetName() .. "Placeholder"):Hide()
+                        getglobal(this:GetName() .. "Icon"):SetAlpha(1.0)
+
+                        if this:GetText() ~= "" and string.len(this:GetText()) >= 3 then
+                        if IJ_SearchBar_OnTextChanged then
+                        IJ_SearchBar_OnTextChanged(this)
+                        end
+                        end
+                    </OnEditFocusGained>
+                    <OnEditFocusLost>
+                        if this:GetText() == "" then
+                        getglobal(this:GetName() .. "Placeholder"):Show()
+                        getglobal(this:GetName() .. "Icon"):SetAlpha(0.5)
+                        getglobal(this:GetName() .. "ClearButton"):Hide()
+                        else
+                        end
+                    </OnEditFocusLost>
+                    <OnTextChanged>
+                        if this:GetText() == "" then
+                        getglobal(this:GetName() .. "ClearButton"):Hide()
+                        else
+                        getglobal(this:GetName() .. "ClearButton"):Show()
+                        getglobal(this:GetName() .. "ClearButton"):GetNormalTexture():SetAlpha(0.5)
+                        end
+
+                        if IJ_SearchBar_OnTextChanged then
+                        IJ_SearchBar_OnTextChanged(this)
+                        end
+                    </OnTextChanged>
+                    <OnEnterPressed>
+                        this:ClearFocus()
+                    </OnEnterPressed>
+                    <OnEscapePressed>
+                        this:SetText("")
+                        this:ClearFocus()
+                        if IJ_SearchDropdown then IJ_SearchDropdown:Hide() end
+                    </OnEscapePressed>
+                </Scripts>
+            </EditBox>
+
+            <Frame name="IJ_SearchResultsPanel" hidden="true">
+                <Size>
+                    <AbsDimension x="685" y="361" />
+                </Size>
+                <Anchors>
+                    <Anchor point="TOPLEFT">
+                        <Offset>
+                            <AbsDimension x="17" y="-70" />
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Frame>
+
+            <Button name="IJ_InstanceJournalFrameCloseButton" inherits="UIPanelCloseButton">
+                <Anchors>
+                    <Anchor point="TOPRIGHT" relativeTo="IJ_InstanceJournalFrame"
+                        relativePoint="TOPRIGHT">
+                        <Offset>
+                            <AbsDimension x="-29" y="-8" />
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Button>
+
+            <Button name="IJ_HomeButton">
+                <Size>
+                    <AbsDimension x="85" y="26" />
+                </Size>
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="IJ_InstanceJournalFrame"
+                        relativePoint="TOPLEFT">
+                        <Offset>
+                            <AbsDimension x="77" y="-40" />
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Layers>
+                    <Layer level="OVERLAY">
+                        <Texture name="IJ_NavbarShadow"
+                            file="Interface\AddOns\InstanceJournal\media\ui\navbar-shadow">
+                            <Size>
+                                <AbsDimension x="500" y="26" />
+                            </Size>
+                            <Anchors>
+                                <Anchor point="TOPLEFT">
+                                    <Offset>
+                                        <AbsDimension x="0" y="0" />
+                                    </Offset>
+                                </Anchor>
+                            </Anchors>
+                        </Texture>
+                    </Layer>
+                </Layers>
+                <NormalTexture
+                    file="Interface\AddOns\InstanceJournal\media\ui\navbar-home"
+                    inherits="IJ_NavBarHomeButtonTemplate" />
+                <PushedTexture
+                    file="Interface\AddOns\InstanceJournal\media\ui\navbar-home-pushed"
+                    inherits="IJ_NavBarHomeButtonTemplate" />
+                <HighlightTexture
+                    file="Interface\AddOns\InstanceJournal\media\ui\navbar-home-highlight"
+                    alphaMode="ADD" inherits="IJ_NavBarHomeButtonHighlightTemplate" />
+                <DisabledTexture file="Interface\AddOns\InstanceJournal\media\ui\navbar-home"
+                    inherits="IJ_NavBarHomeButtonTemplate" />
+
+                <ButtonText name="$parentText">
+                    <Anchors>
+                        <Anchor point="LEFT">
+                            <Offset>
+                                <AbsDimension x="6" y="1" />
+                            </Offset>
+                        </Anchor>
+                    </Anchors>
+                </ButtonText>
+                <NormalFont inherits="IJ_GameFontNormal" />
+                <HighlightFont inherits="IJ_GameFontNormal" />
+                <DisabledFont inherits="IJ_GameFontNormal" />
+                <Scripts>
+                    <OnClick>IJ_ShowInstanceSelect()</OnClick>
+                </Scripts>
+            </Button>
+
+            <Frame name="IJ_InstanceSelectPanel" hidden="false">
+                <Size>
+                    <AbsDimension x="685" y="361" />
+                </Size>
+                <Anchors>
+                    <Anchor point="TOPLEFT">
+                        <Offset>
+                            <AbsDimension x="17" y="-70" />
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+            </Frame>
+
+            <Frame name="IJ_EncounterPanel" hidden="true">
+                <Size>
+                    <AbsDimension x="685" y="361" />
+                </Size>
+                <Anchors>
+                    <Anchor point="TOPLEFT">
+                        <Offset>
+                            <AbsDimension x="17" y="-70" />
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+                <Layers>
+                    <Layer level="BACKGROUND">
+                        <Texture name="IJ_EncounterPanelBookBackgroundLeft"
+                            file="Interface\AddOns\InstanceJournal\media\ui\bg-book-left">
+                            <Size>
+                                <AbsDimension x="342" y="361" />
+                            </Size>
+                            <Anchors>
+                                <Anchor point="TOPLEFT" />
+                            </Anchors>
+                            <TexCoords left="0" right="0.771484375" top="0" bottom="0.83203125" />
+                        </Texture>
+                        <Texture name="IJ_EncounterPanelBookBackgroundRight"
+                            file="Interface\AddOns\InstanceJournal\media\ui\bg-book-right">
+                            <Size>
+                                <AbsDimension x="343" y="361" />
+                            </Size>
+                            <Anchors>
+                                <Anchor point="TOPLEFT"
+                                    relativeTo="IJ_EncounterPanelBookBackgroundLeft"
+                                    relativePoint="TOPRIGHT" />
+                            </Anchors>
+                            <TexCoords left="0" right="0.763671875" top="0" bottom="0.83203125" />
+                        </Texture>
+                    </Layer>
+                </Layers>
+                <Frames>
+                    <Frame name="IJ_MapButton" hidden="true">
+                        <Size>
+                            <AbsDimension x="173" y="49" />
+                        </Size>
+
+                        <Layers>
+                            <Layer level="BACKGROUND">
+                                <Texture name="IJ_MapButtonBackground"
+                                    file="Interface\AddOns\InstanceJournal\media\ui\map-button-bg">
+                                    <Size>
+                                        <AbsDimension x="173" y="49" />
+                                    </Size>
+                                    <Anchors>
+                                        <Anchor point="BOTTOMLEFT" />
+                                    </Anchors>
+                                    <TexCoords left="0" right="0.67578125" top="0" bottom="0.765625" />
+                                </Texture>
+                            </Layer>
+
+                            <Layer level="OVERLAY">
+                                <FontString name="IJ_MapButtonLabel" inherits="IJ_GameFontNormal"
+                                    justifyH="LEFT" text="IJ_GUI_SHOWMAP">
+                                    <Anchors>
+                                        <Anchor point="LEFT">
+                                            <Offset>
+                                                <AbsDimension x="56" y="-5" />
+                                            </Offset>
+                                        </Anchor>
+                                    </Anchors>
+                                </FontString>
+                            </Layer>
+                        </Layers>
+
+                        <Frames>
+                            <Button name="IJ_MapButtonButton">
+                                <Size>
+                                    <AbsDimension x="42" y="30" />
+                                </Size>
+                                <Anchors>
+                                    <Anchor point="LEFT">
+                                        <Offset>
+                                            <AbsDimension x="10" y="-5" />
+                                        </Offset>
+                                    </Anchor>
+                                </Anchors>
+                                <NormalTexture
+                                    file="Interface\AddOns\InstanceJournal\media\ui\map-button"
+                                    inherits="IJ_MapButtonTemplate" />
+                                <PushedTexture
+                                    file="Interface\AddOns\InstanceJournal\media\ui\map-button-pushed"
+                                    inherits="IJ_MapButtonTemplate" />
+                                <HighlightTexture
+                                    file="Interface\AddOns\InstanceJournal\media\ui\map-button-highlight"
+                                    alphaMode="ADD" inherits="IJ_MapButtonHighlightTemplate" />
+                                <Scripts>
+                                    <OnClick>IJ_ToggleWorldMap()</OnClick>
+                                </Scripts>
+                            </Button>
+                        </Frames>
+                    </Frame>
+
+                    <Frame name="IJ_LeftHeaderPanel">
+                        <Size>
+                            <AbsDimension x="342" y="35" />
+                        </Size>
+                        <Anchors>
+                            <Anchor point="TOPLEFT" />
+                        </Anchors>
+
+                        <Layers>
+                            <Layer level="OVERLAY">
+                                <FontString name="IJ_EncounterTitleText"
+                                    inherits="IJ_GameFontNormalLarge">
+                                    <Anchors>
+                                        <Anchor point="LEFT" relativeTo="IJ_LeftHeaderPanel"
+                                            relativePoint="LEFT">
+                                            <Offset>
+                                                <AbsDimension x="25" y="-4" />
+                                            </Offset>
+                                        </Anchor>
+                                    </Anchors>
+                                    <Color r="0.9" g="0.78" b="0.67" />
+                                </FontString>
+                            </Layer>
+                        </Layers>
+                    </Frame>
+
+                    <Frame name="IJ_RightHeaderPanel">
+                        <Size>
+                            <AbsDimension x="343" y="35" />
+                        </Size>
+                        <Anchors>
+                            <Anchor point="LEFT" relativeTo="IJ_LeftHeaderPanel"
+                                relativePoint="RIGHT" />
+                        </Anchors>
+
+                        <Layers>
+                            <Layer level="OVERLAY">
+                                <FontString name="IJ_BossNameLabel"
+                                    inherits="IJ_GameFontNormalLarge">
+                                    <Anchors>
+                                        <Anchor point="LEFT" relativeTo="IJ_RightHeaderPanel"
+                                            relativePoint="LEFT">
+                                            <Offset>
+                                                <AbsDimension x="45" y="-4" />
+                                            </Offset>
+                                        </Anchor>
+                                    </Anchors>
+                                    <Color r="0.9" g="0.78" b="0.67" />
+                                </FontString>
+                            </Layer>
+                        </Layers>
+                    </Frame>
+
+                    <Frame name="IJ_BossPanel">
+                        <Size>
+                            <AbsDimension x="342" y="326" />
+                        </Size>
+                        <Anchors>
+                            <Anchor point="TOPLEFT" relativeTo="IJ_LeftHeaderPanel"
+                                relativePoint="BOTTOMLEFT" />
+                        </Anchors>
+                    </Frame>
+
+                    <Frame name="IJ_InfoPanel">
+                        <Size>
+                            <AbsDimension x="313" y="326" />
+                        </Size>
+                        <Anchors>
+                            <Anchor point="TOPLEFT" relativeTo="IJ_BossPanel"
+                                relativePoint="TOPRIGHT">
+                                <Offset>
+                                    <AbsDimension x="30" y="0" />
+                                </Offset>
+                            </Anchor>
+                        </Anchors>
+                        <Frames>
+                            <Frame name="IJ_InstanceBackgroundTitle" hidden="true">
+                                <Size>
+                                    <AbsDimension x="256" y="55" />
+                                </Size>
+                                <Anchors>
+                                    <Anchor point="TOP">
+                                        <Offset>
+                                            <AbsDimension x="-10" y="0" />
+                                        </Offset>
+                                    </Anchor>
+                                </Anchors>
+                                <Layers>
+                                    <Layer level="ARTWORK">
+                                        <Texture name="IJ_InstanceBackgroundTitleBackground"
+                                            file="Interface\AddOns\InstanceJournal\media\ui\instance-bg-title">
+                                            <Size>
+                                                <AbsDimension x="256" y="55" />
+                                            </Size>
+                                            <Anchors>
+                                                <Anchor point="TOP" />
+                                            </Anchors>
+                                            <TexCoords left="0" right="1" top="0" bottom="0.859375" />
+                                        </Texture>
+                                        <Texture name="IJ_FakeScrollBarUp"
+                                            file="Interface\Buttons\UI-ScrollBar-ScrollUpButton-Disabled">
+                                            <Size>
+                                                <AbsDimension x="16" y="16" />
+                                            </Size>
+                                            <Anchors>
+                                                <Anchor point="TOPLEFT" relativeTo="IJ_InfoPanel"
+                                                    relativePoint="TOPRIGHT">
+                                                    <Offset>
+                                                        <AbsDimension x="4" y="31" />
+                                                    </Offset>
+                                                </Anchor>
+                                            </Anchors>
+                                            <TexCoords left="0.25" right="0.75" top="0.25"
+                                                bottom="0.75" />
+                                        </Texture>
+                                        <Texture name="IJ_FakeScrollBarDown"
+                                            file="Interface\Buttons\UI-ScrollBar-ScrollDownButton-Disabled">
+                                            <Size>
+                                                <AbsDimension x="16" y="16" />
+                                            </Size>
+                                            <Anchors>
+                                                <Anchor point="TOPLEFT" relativeTo="IJ_InfoPanel"
+                                                    relativePoint="BOTTOMRIGHT">
+                                                    <Offset>
+                                                        <AbsDimension x="4" y="18" />
+                                                    </Offset>
+                                                </Anchor>
+                                            </Anchors>
+                                            <TexCoords left="0.25" right="0.75" top="0.25"
+                                                bottom="0.75" />
+                                        </Texture>
+                                    </Layer>
+                                    <Layer level="OVERLAY">
+                                        <FontString name="IJ_InstanceBackgroundTitleBackgroundLabel"
+                                            inherits="IJ_QuestTitleFontLarge" justifyH="CENTER"
+                                            justifyV="BOTTOM">
+                                            <Anchors>
+                                                <Anchor point="TOP">
+                                                    <Offset>
+                                                        <AbsDimension x="0" y="-14" />
+                                                    </Offset>
+                                                </Anchor>
+                                            </Anchors>
+                                            <Color r="0.9" g="0.78" b="0.3" />
+                                        </FontString>
+                                    </Layer>
+                                </Layers>
+                            </Frame>
+                        </Frames>
+                    </Frame>
+                </Frames>
+            </Frame>
+
+            <Button name="IJ_InstanceJournalFrameTab1" inherits="CharacterFrameTabButtonTemplate"
+                id="1">
+                <Anchors>
+                    <Anchor point="CENTER" relativePoint="BOTTOMLEFT">
+                        <Offset>
+                            <AbsDimension x="60" y="62" />
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+
+                <NormalFont inherits="IJ_GameFontNormalSmall" />
+                <HighlightFont inherits="IJ_GameFontHighlightSmall" />
+                <DisabledFont inherits="IJ_GameFontHighlightSmall" />
+
+                <Scripts>
+                    <OnClick>
+                        IJ_ShowRaids = false
+                        PanelTemplates_SetTab(IJ_InstanceJournalFrame, 1)
+                        IJ_ShowInstanceSelect()
+                    </OnClick>
+                    <OnShow>
+                        PanelTemplates_TabResize(0, this)
+                        getglobal(this:GetName().."HighlightTexture"):SetWidth(this:GetTextWidth() +
+                        30)
+                    </OnShow>
+                </Scripts>
+            </Button>
+
+            <Button name="IJ_InstanceJournalFrameTab2" inherits="CharacterFrameTabButtonTemplate"
+                id="2">
+                <Anchors>
+                    <Anchor point="LEFT" relativeTo="IJ_InstanceJournalFrameTab1"
+                        relativePoint="RIGHT">
+                        <Offset>
+                            <AbsDimension x="-16" y="0" />
+                        </Offset>
+                    </Anchor>
+                </Anchors>
+
+                <NormalFont inherits="IJ_GameFontNormalSmall" />
+                <HighlightFont inherits="IJ_GameFontHighlightSmall" />
+                <DisabledFont inherits="IJ_GameFontHighlightSmall" />
+
+                <Scripts>
+                    <OnClick>
+                        IJ_ShowRaids = true
+                        PanelTemplates_SetTab(IJ_InstanceJournalFrame, 2)
+                        IJ_ShowInstanceSelect()
+                    </OnClick>
+                    <OnShow>
+                        PanelTemplates_TabResize(0, this)
+                        getglobal(this:GetName().."HighlightTexture"):SetWidth(this:GetTextWidth() +
+                        30)
+                    </OnShow>
+                </Scripts>
+            </Button>
+        </Frames>
+        <Scripts>
+            <OnLoad>IJ_InstanceJournalFrame_OnLoad()</OnLoad>
+            <OnEvent>IJ_InstanceJournalFrame_OnEvent(event)</OnEvent>
+            <OnShow>IJ_InstanceJournalFrame_OnShow()</OnShow>
+            <OnHide>IJ_InstanceJournalFrame_OnHide()</OnHide>
+            <OnDragStart>this:StartMoving()</OnDragStart>
+            <OnDragStop>this:StopMovingOrSizing()</OnDragStop>
+        </Scripts>
+    </Frame>
+</Ui>

@@ -1,0 +1,122 @@
+## Interface: 11200
+## Title: Instance Journal (|cffabd473TurtleWoW|r)
+## Title-deDE: Instanzjournal (|cffabd473TurtleWoW|r)
+## Title-esES: Diario de Instancia (|cffabd473TurtleWoW|r)
+## Title-frFR: Journal d'Instance (|cffabd473TurtleWoW|r)
+## Title-ptBR: Diário de Instância (|cffabd473TurtleWoW|r)
+## Title-ruRU: Журнал Подземелий (|cffabd473TurtleWoW|r)
+## Title-zhCN: |CFF33AAFF[辅助]|R副本手册 (|cffabd473TurtleWoW|r)
+## Version: 1.2.0
+## Author: Walter Bennet
+## Notes: A reimagining of World of Warcraft's original Encounter Journal, built for |cffabd473TurtleWoW|r!
+## Notes-deDE: Eine Neuinterpretation des originalen Begegnungsjournals von World of Warcraft, entwickelt für |cffabd473TurtleWoW|r!
+## Notes-esES: ¡Una reimaginación del Diario de Encuentros original de World of Warcraft, creado para |cffabd473TurtleWoW|r!
+## Notes-frFR: Une réimagination du Journal des Rencontres original de World of Warcraft, conçu pour |cffabd473TurtleWoW|r !
+## Notes-ptBR: Uma reimaginação do Diário de Encontros original de World of Warcraft, criado para |cffabd473TurtleWoW|r!
+## Notes-ruRU: Переосмысление оригинального Журнала встреч World of Warcraft, созданное для |cffabd473TurtleWoW|r!
+## Notes-zhCN: 对《魔兽世界》原版副本手册的重新制作，专为 |cffabd473TurtleWoW|r 打造！
+## SavedVariablesPerCharacter: IJ_FirstTimeBindingDone IJ_CompletedQuestIds IJ_QuestHistoryQueried
+## X-URL: https://github.com/Arthur-Helias/InstanceJournal
+
+# Localization
+locale\InstanceJournal-enUS.lua
+locale\InstanceJournal-deDE.lua
+locale\InstanceJournal-esES.lua
+locale\InstanceJournal-frFR.lua
+locale\InstanceJournal-ptBR.lua
+locale\InstanceJournal-ruRU.lua
+locale\InstanceJournal-zhCN.lua
+
+InstanceJournalLib.lua
+InstanceJournalDB.lua
+
+# Items Database
+db\items.lua
+
+# NPCs Database
+db\npcs.lua
+
+# Quests Database
+db\quests.lua
+
+# POI Databases
+db\pois\brm.lua
+db\pois\deadmines.lua
+db\pois\cot.lua
+db\pois\gates.lua
+db\pois\sm.lua
+db\pois\gnomeregan.lua
+db\pois\ulda.lua
+db\pois\dm.lua
+db\pois\wc.lua
+db\pois\mara.lua
+db\pois\whc.lua
+db\pois\th.lua
+db\pois\tt.lua
+
+# Dungeon Databases
+db\dungeons\rfc.lua
+db\dungeons\stockades.lua
+db\dungeons\deadmines.lua
+db\dungeons\sv.lua
+db\dungeons\bm.lua
+db\dungeons\smgy.lua
+db\dungeons\smlib.lua
+db\dungeons\smarm.lua
+db\dungeons\smcath.lua
+db\dungeons\zf.lua
+db\dungeons\st.lua
+db\dungeons\bfd.lua
+db\dungeons\gnomeregan.lua
+db\dungeons\ulda.lua
+db\dungeons\dmn.lua
+db\dungeons\dmw.lua
+db\dungeons\dme.lua
+db\dungeons\brd.lua
+db\dungeons\lbrs.lua
+db\dungeons\ubrs.lua
+db\dungeons\wc.lua
+db\dungeons\mara.lua
+db\dungeons\rfk.lua
+db\dungeons\rfd.lua
+db\dungeons\scholo.lua
+db\dungeons\sfk.lua
+db\dungeons\strat.lua
+db\dungeons\gc.lua
+db\dungeons\cg.lua
+db\dungeons\hq.lua
+db\dungeons\kc.lua
+db\dungeons\dmr.lua
+db\dungeons\swr.lua
+db\dungeons\fh.lua
+db\dungeons\whc.lua
+
+# Raid Databases
+db\raids\zg.lua
+db\raids\mc.lua
+db\raids\bwl.lua
+db\raids\es.lua
+db\raids\kara40.lua
+db\raids\kara10.lua
+db\raids\ony.lua
+db\raids\aq20.lua
+db\raids\aq40.lua
+db\raids\naxx.lua
+db\raids\world.lua
+db\raids\th.lua
+
+# Main
+InstanceJournal.lua
+InstanceJournalQuestHistory.lua
+frame\InstanceJournalFrameWidgets.lua
+frame\InstanceJournalFrameFilters.lua
+frame\InstanceJournalFrameSearch.lua
+frame\InstanceJournalFrameTabs.lua
+frame\InstanceJournalFrameEncounter.lua
+frame\InstanceJournalFrameOverview.lua
+frame\InstanceJournalFrameLoot.lua
+frame\InstanceJournalFrameQuest.lua
+frame\InstanceJournalFrame.lua
+InstanceJournalMap.lua
+InstanceJournalLink.lua
+InstanceJournal.xml
