@@ -5016,4 +5016,7 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_TH_BOSS_NAME_perotharn = "Peroth'arn"
     IJ_DB_RAID_TH_BOSS_STORY_perotharn =
     "Ele foi um elfo noturno, outrora. O que ele se tornou depois tem muitos nomes, e o que ele é agora não tem nenhum que alguém ainda tenha pronunciado em voz alta."
+    IJ_QUEST_NAME_4735 = "Coleta de Ovos"
+    IJ_QUEST_OBJECTIVE_4735 =
+    "Leve 8 Ovos de Dragão coletados e o Módulo Coletrônico para Tinkee Steamboil em Flame Crest, nas Estepes Ardentes."
 end

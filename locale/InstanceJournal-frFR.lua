@@ -5028,4 +5028,7 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_TH_BOSS_NAME_perotharn = "Peroth'arn"
     IJ_DB_RAID_TH_BOSS_STORY_perotharn =
     "Il fut un elfe de la nuit, autrefois. Ce qu'il devint par la suite porte de nombreux noms, et ce qu'il est à présent n'en porte aucun que quiconque ait encore osé prononcer à voix haute."
+    IJ_QUEST_NAME_4735 = "Collecte d'œufs"
+    IJ_QUEST_OBJECTIVE_4735 =
+    "Apportez 8 œufs de dragon collectés et le module Collectronic à Tinkee Steamboil à Flame Crest dans les Steppes ardentes."
 end

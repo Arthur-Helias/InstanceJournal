@@ -5020,4 +5020,7 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_TH_BOSS_NAME_perotharn = "Peroth'arn"
     IJ_DB_RAID_TH_BOSS_STORY_perotharn =
     "Fue un elfo de la noche, en otro tiempo. Lo que se convirtió después tiene muchos nombres, y lo que es ahora no tiene ninguno que nadie haya pronunciado en voz alta."
+    IJ_QUEST_NAME_4735 = "Recolección de huevos"
+    IJ_QUEST_OBJECTIVE_4735 =
+    "Lleva 8 huevos de dragón recolectados y el módulo Collectronic a Tinkee Steamboil en Flame Crest en Burning Steppes."
 end

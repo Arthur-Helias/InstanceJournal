@@ -5099,6 +5099,11 @@ IJ_DB_POI_TT_NAME = "Timbermaw Tunnels"
 -- ==   Quests   ==
 -- ================
 
+-- Quest 4735
+IJ_QUEST_NAME_4735 = "Egg Collection"
+IJ_QUEST_OBJECTIVE_4735 =
+"Bring 8 Collected Dragon Eggs and the Collectronic Module to Tinkee Steamboil at Flame Crest in the Burning Steppes."
+
 -- Quest 41386
 IJ_QUEST_NAME_41386 = "Pricolich Lycan"
 IJ_QUEST_OBJECTIVE_41386 = "Slay Father Lycan in the Circle of Power."

@@ -7045,6 +7045,21 @@ Q[5464] = {
     RequiredQuests = { Q[5463] },
 }
 
+Q[4735] = {
+    Id = "4735",
+    Name = IJ_QUEST_NAME_4735,
+    Objective = IJ_QUEST_OBJECTIVE_4735,
+    RequiredLevel = 57,
+    Level = 60,
+    StartingPoints = { NPC[10267] },
+    EndingPoints = { NPC[10267] },
+    RequiredFaction = { IF.Alliance, IF.Horde },
+    RewardExperience = 9950,
+    RewardCoin = 27000,
+    RewardReputations = { { Name = IR.SteamwheedleCartel, Amount = 200 } },
+    RequiredQuests = { Q[4734] },
+}
+
 Q[5522] = {
     Id = "5522",
     Name = IJ_QUEST_NAME_5522,
@@ -7057,7 +7072,7 @@ Q[5522] = {
     RewardCoin = 29700,
     RewardExperience = 4950,
     RewardReputations = { { Name = IR.ArgentDawn, Amount = 75 } },
-    RequiredQuests = { Q[4734] },
+    RequiredQuests = { Q[4735] },
 }
 
 Q[7629] = {

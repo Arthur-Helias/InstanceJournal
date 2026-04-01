@@ -7380,4 +7380,7 @@ if GetLocale() == "zhCN" then
     IJ_QUEST_OBJECTIVE_1098 = "找到死亡猎手阿德曼特和死亡猎手文森特。"
     IJ_NPC_NAME_1952 = "高级执行官哈德雷克"
     IJ_NPC_NAME_4444 = "死亡猎手文森特"
+    IJ_QUEST_NAME_4735 = "鸡蛋收集"
+    IJ_QUEST_OBJECTIVE_4735 =
+    "将 8 个收集到的龙蛋和 Collecttronic 模块带到燃烧平原火焰峰的 Tinkee Steamboil。"
 end

@@ -5035,4 +5035,7 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_TH_BOSS_NAME_perotharn = "Peroth'arn"
     IJ_DB_RAID_TH_BOSS_STORY_perotharn =
     "Er war einst ein Nachtelf. Was er danach wurde, trägt viele Namen, und was er jetzt ist, hat keinen, den je jemand laut ausgesprochen hätte."
+    IJ_QUEST_NAME_4735 = "Eiersammlung"
+    IJ_QUEST_OBJECTIVE_4735 =
+    "Bringt 8 gesammelte Dracheneier und das Kollektronic-Modul zu Tinkee Steamboil bei Flame Crest in den Brennenden Steppen."
 end

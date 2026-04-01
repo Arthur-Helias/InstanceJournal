@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [1.2.3] - 2026-04-02
+
+### Added
+
+- Added Egg Collection as a required quest
+
 ## [1.2.2] - 2026-04-02
 
 ### Added
@@ -154,6 +160,7 @@ All changes to this project will be documented in this file.
 ## [1.0.0] - 2026-03-21
 
 Initial release
+
 # Instance Journal Changelog
 
 All changes to this project will be documented in this file.
