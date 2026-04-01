@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [1.2.2] - 2026-04-02
+
+### Added
+
+- Added zhCN localization for quests
+
 ## [1.2.1] - 2026-04-01
 
 ### Added
