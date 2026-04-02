@@ -524,6 +524,7 @@ UBRS.Quests = {
     IJDB.Q[5160],
     IJDB.Q[5047],
     IJDB.Q[4734],
+    IJDB.Q[4735],
     IJDB.Q[6821],
     IJDB.Q[5102],
     IJDB.Q[4768],
