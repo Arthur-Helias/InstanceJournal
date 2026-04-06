@@ -5050,4 +5050,6 @@ if GetLocale() == "ruRU" then
     IJ_REPUTATION_THERAMORE = "Терамор"
     IJ_REPUTATION_DALARAN = "Даларан"
     IJ_REPUTATION_SILVERMOONREMNANT = "Остаток Луносвета"
+    IJ_SORTBYLEVEL = "Сортировать по уровню"
+    IJ_SORTBYNAME = "Сортировать по имени"
 end

@@ -16,21 +16,16 @@ You can access the journal by pressing Shift+J by default, or by rebinding the k
 
 ## Screenshots
 
-<details>
-<summary>Instance List</summary>
 <img width="600" height="377" alt="dungeons-tab" src="https://github.com/user-attachments/assets/38777084-313a-436c-ba8a-54cf33d53964" />
-<img width="600" height="377" alt="raids-tab" src="https://github.com/user-attachments/assets/ef03b4a4-976a-4a90-a830-83f6fc015f80" />
-</details>
-<details>
-<summary>Instance Tabs</summary>
-<img width="634" height="377" alt="instance-overview-tab" src="https://github.com/user-attachments/assets/903b18a6-52bc-418a-86d7-ebfcfc8c688e" />
-<img width="634" height="377" alt="abilities-tab" src="https://github.com/user-attachments/assets/a6c8535b-5b45-431a-a81c-d6c0a382480b" />
 <img width="634" height="377" alt="instance-loot-tab" src="https://github.com/user-attachments/assets/bde67b61-e7f6-4d20-ab93-ab696dc1ec41" />
+<img width="634" height="377" alt="abilities-tab" src="https://github.com/user-attachments/assets/a6c8535b-5b45-431a-a81c-d6c0a382480b" />
+
+<details>
+<summary>More Screenshots</summary>
+<img width="600" height="377" alt="raids-tab" src="https://github.com/user-attachments/assets/ef03b4a4-976a-4a90-a830-83f6fc015f80" />
+<img width="634" height="377" alt="instance-overview-tab" src="https://github.com/user-attachments/assets/903b18a6-52bc-418a-86d7-ebfcfc8c688e" />
 <img width="634" height="377" alt="boss-loot-tab" src="https://github.com/user-attachments/assets/29c3b3c7-e14c-47c2-ad30-a28437af76be" />
 <img width="600" height="377" alt="search-result" src="https://github.com/user-attachments/assets/664671fa-a119-4e12-b105-8ef53261bc71" />
-</details>
-<details>
-<summary>World Map Additions</summary>
 <img width="600" height="427" alt="map-world-entrances" src="https://github.com/user-attachments/assets/37b067da-007a-4089-925c-660ad615ce78" />
 <img width="600" height="427" alt="map-instance-bosses" src="https://github.com/user-attachments/assets/713da654-6fbd-4c79-a401-b593112ea7e1" />
 </details>
@@ -107,7 +102,7 @@ No original Blizzard Encounter Journal code was used; the addon was recreated fr
 [cat-nep](https://github.com/cat-nep) - Ability writing assistance  
 [byCFM2](https://github.com/byCFM2) - AtlasTW Data  
 [tilare](https://github.com/tilare)  
-Aeliren - Boss's stories lore fact-checking and assistance
+Aeliren - Boss stories lore fact-checking and assistance
 
 ## License
 

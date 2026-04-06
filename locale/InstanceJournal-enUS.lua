@@ -59,6 +59,8 @@ IJ_GUI_SPELL = "Spell"
 IJ_GUI_WONTAUTOCOMPLETE = "This quest won't complete?"
 IJ_GUI_QUESTSTATUS = "Type \".queststatus\" in the chat or ctrl+right-click the quest to mark it as completed."
 IJ_GUI_MARKCOMPLETED = "Are you sure you want to manually mark \"%s\" as completed?"
+IJ_SORTBYLEVEL = "Sort by level"
+IJ_SORTBYNAME = "Sort by name"
 
 -- Notes
 IJ_NOTES_VEM = "Vem has to die last."

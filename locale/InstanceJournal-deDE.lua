@@ -5087,4 +5087,6 @@ if GetLocale() == "deDE" then
     IJ_REPUTATION_THERAMORE = "Theramore"
     IJ_REPUTATION_DALARAN = "Dalaran"
     IJ_REPUTATION_SILVERMOONREMNANT = "Überrest von Silbermond"
+    IJ_SORTBYLEVEL = "Nach Ebene sortieren"
+    IJ_SORTBYNAME = "Nach Namen sortieren"
 end

@@ -5080,4 +5080,6 @@ if GetLocale() == "frFR" then
     IJ_REPUTATION_THERAMORE = "Théramore"
     IJ_REPUTATION_DALARAN = "Dalaran"
     IJ_REPUTATION_SILVERMOONREMNANT = "Vestige de Lune d’Argent"
+    IJ_SORTBYLEVEL = "Trier par niveau"
+    IJ_SORTBYNAME = "Trier par nom"
 end

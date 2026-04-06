@@ -5068,4 +5068,6 @@ if GetLocale() == "ptBR" then
     IJ_REPUTATION_THERAMORE = "Theramore"
     IJ_REPUTATION_DALARAN = "Dalaran"
     IJ_REPUTATION_SILVERMOONREMNANT = "Remanescente de Lua Prateada"
+    IJ_SORTBYLEVEL = "Classificar por nível"
+    IJ_SORTBYNAME = "Classificar por nome"
 end

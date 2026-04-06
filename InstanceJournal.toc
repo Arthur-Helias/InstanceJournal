@@ -6,7 +6,7 @@
 ## Title-ptBR: Diário de Instância (|cffabd473TurtleWoW|r)
 ## Title-ruRU: Журнал Подземелий (|cffabd473TurtleWoW|r)
 ## Title-zhCN: |CFF33AAFF[辅助]|R副本手册 (|cffabd473TurtleWoW|r)
-## Version: 1.2.5
+## Version: 1.3.0
 ## Author: Walter Bennet
 ## Notes: A reimagining of World of Warcraft's original Encounter Journal, built for |cffabd473TurtleWoW|r!
 ## Notes-deDE: Eine Neuinterpretation des originalen Begegnungsjournals von World of Warcraft, entwickelt für |cffabd473TurtleWoW|r!
@@ -15,7 +15,7 @@
 ## Notes-ptBR: Uma reimaginação do Diário de Encontros original de World of Warcraft, criado para |cffabd473TurtleWoW|r!
 ## Notes-ruRU: Переосмысление оригинального Журнала встреч World of Warcraft, созданное для |cffabd473TurtleWoW|r!
 ## Notes-zhCN: 对《魔兽世界》原版副本手册的重新制作，专为 |cffabd473TurtleWoW|r 打造！
-## SavedVariablesPerCharacter: IJ_FirstTimeBindingDone IJ_CompletedQuestIds IJ_QuestHistoryQueried
+## SavedVariablesPerCharacter: IJ_FirstTimeBindingDone IJ_CompletedQuestIds IJ_QuestHistoryQueried, IJ_SortingMode
 ## X-URL: https://github.com/Arthur-Helias/InstanceJournal
 
 # Localization
@@ -110,6 +110,7 @@ InstanceJournal.lua
 InstanceJournalQuestHistory.lua
 frame\InstanceJournalFrameWidgets.lua
 frame\InstanceJournalFrameFilters.lua
+frame\InstanceJournalFrameSort.lua
 frame\InstanceJournalFrameSearch.lua
 frame\InstanceJournalFrameTabs.lua
 frame\InstanceJournalFrameEncounter.lua

@@ -5072,4 +5072,6 @@ if GetLocale() == "esES" then
     IJ_REPUTATION_THERAMORE = "teramore"
     IJ_REPUTATION_DALARAN = "Dalarán"
     IJ_REPUTATION_SILVERMOONREMNANT = "Remanente de Lunargenta"
+    IJ_SORTBYLEVEL = "Ordenar por nivel"
+    IJ_SORTBYNAME = "Ordenar por nombre"
 end

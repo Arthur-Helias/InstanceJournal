@@ -878,10 +878,6 @@ function IJLib:GetColorFromInstanceMinMax(instanceMin, instanceMax)
         color = IJLib.Colors.Gray
     end
 
-    if instanceMin == instanceMax then
-        color = IJLib.Colors.Orange
-    end
-
     return color
 end
 

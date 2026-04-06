@@ -8,6 +8,10 @@ function IJ_PopulateInstanceGrid()
 
     for _, btn in pairs(IJ_InstanceButtons) do
         btn:Hide()
+
+        if btn.levelFrame then
+            btn.levelFrame:Hide()
+        end
     end
 
     local list = {}
@@ -74,9 +78,17 @@ function IJ_PopulateInstanceGrid()
         local btn = IJ_InstanceButtons[i]
 
         if not btn then
+            local levelFrame = CreateFrame("Frame", nil, grid)
+
             btn = CreateFrame("Button", "IJ_InstBtn" .. i, grid)
             btn:SetWidth(IJ_INSTANCE_BTN_W)
             btn:SetHeight(IJ_INSTANCE_BTN_H)
+
+            btn.levelFrame = levelFrame
+            levelFrame:SetHeight(22)
+            levelFrame:SetPoint("BOTTOMRIGHT", btn, "BOTTOMRIGHT", -5, -13)
+            IJ_SetDarkBackdrop(levelFrame, 3)
+            levelFrame:SetBackdropColor(0, 0, 0, 1)
 
             local bg = btn:CreateTexture(nil, "BACKGROUND")
             bg:SetPoint("TOPLEFT", btn, "TOPLEFT", 0, 0)
@@ -91,6 +103,13 @@ function IJ_PopulateInstanceGrid()
             name:SetTextColor(0.9, 0.78, 0.3)
             name:SetShadowColor(0, 0, 0)
             btn.nameText = name
+
+            local level = levelFrame:CreateFontString(nil, "OVERLAY", "IJ_QuestTitleFontSmall")
+            level:SetHeight(0)
+            level:SetPoint("CENTER", levelFrame, "CENTER", 0, -1)
+            level:SetJustifyH("CENTER")
+            level:SetShadowColor(0, 0, 0)
+            btn.levelText = level
 
             local hl = btn:CreateTexture(nil, "HIGHLIGHT")
             hl:SetPoint("TOPLEFT", btn, "TOPLEFT", 2, -2)
@@ -118,6 +137,24 @@ function IJ_PopulateInstanceGrid()
         end
 
         btn.nameText:SetText(entry.Name)
+
+        if entry.MinLevel and entry.MaxLevel then
+            if entry.MinLevel == entry.MaxLevel then
+                btn.levelText:SetText(entry.MaxLevel)
+            else
+                btn.levelText:SetText(entry.MinLevel .. " - " .. entry.MaxLevel)
+            end
+
+            local difficultyColor = IJLib:GetColorFromInstanceMinMax(entry.MinLevel, entry.MaxLevel)
+
+            btn.levelText:SetTextColor(difficultyColor.RGB[1], difficultyColor.RGB[2], difficultyColor.RGB[3])
+
+            btn.levelFrame:SetWidth(btn.levelText:GetStringWidth() + 10)
+            btn.levelFrame:Show()
+        else
+            btn.levelFrame:Hide()
+        end
+
         btn.entry = entry
         btn:ClearAllPoints()
         btn:SetPoint("TOPLEFT", col * (IJ_INSTANCE_BTN_W + pad) + pad + 6,
