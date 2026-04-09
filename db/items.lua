@@ -8,6 +8,14 @@ local IC = IJLib.Challenges
 
 local I = {}
 
+I[42165] = {
+    Id = "42165",
+    Icon = "INV_Misc_Gem_Pearl_03",
+    Name = IJ_LOOT_NAME_42165,
+    Quality = IQ.Epic,
+    ItemSlot = IS.Quest,
+}
+
 I[42178] = {
     Id = "42178",
     Icon = "INV_Misc_StoneTablet_04",

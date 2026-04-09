@@ -3695,6 +3695,7 @@ IJ_DB_RAID_ES_BOSS_STORY_60748 =
 "Known as Solnius the Awakener, this dragon was one of Ysera's most cherished children and the sworn protector of the sacred Awakening ritual. Having succumbed to the alluring whispers of the Nightmare, Solnius has betrayed his lineage. He now wields the sacred powers of the Dream to serve the darkness, overseeing the corruption of the very realm he was born to safeguard."
 
 -- ES Loot
+IJ_LOOT_NAME_42165 = "Wail of Ysera"
 IJ_LOOT_NAME_61652 = "Claw of Erennius"
 IJ_LOOT_NAME_30018 = "Emerald Drake"
 IJ_LOOT_NAME_2564 = "Elven Spirit Claws"

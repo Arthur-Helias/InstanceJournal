@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [1.3.3] - 2026-04-09
+
+### Added
+
+- Added Wail of Ysera to Solnius
+
 ## [1.3.2] - 2026-04-09
 
 ### Added

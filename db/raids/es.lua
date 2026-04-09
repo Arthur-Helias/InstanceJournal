@@ -204,6 +204,11 @@ ES.Bosses = {
                 DropChance = 17,
                 IsHardMode = true,
             },
+            [37] = {
+                IJDB.I[42165],
+                DropChance = 60,
+                IsHardMode = true,
+            },
         },
     },
 }
