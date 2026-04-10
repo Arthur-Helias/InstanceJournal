@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [1.3.6] - 2026-04-10
+
+### Changed
+
+- Changed Klockmort Spannerspan location from Ironforge to Dun Morogh
+
 ## [1.3.5] - 2026-04-10
 
 ### Fixed

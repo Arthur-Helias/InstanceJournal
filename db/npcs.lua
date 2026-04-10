@@ -3219,9 +3219,9 @@ NPC[6142] = {
 NPC[6169] = {
     Id = "6169",
     MapContinentId = IMI.EasternKingdoms,
-    MapZoneId = IZI.Ironforge,
-    MapCoordinateX = 68.2,
-    MapCoordinateY = 46.2,
+    MapZoneId = IZI.DunMorogh,
+    MapCoordinateX = 24.9,
+    MapCoordinateY = 30.2,
     Name = IJ_NPC_NAME_6169
 }
 
