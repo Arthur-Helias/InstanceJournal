@@ -10033,3 +10033,25 @@ IJ_QUEST_OBJECTIVE_1098 = "Find the Deathstalker Adamant and Deathstalker Vincen
 IJ_NPC_NAME_1952 = "High Executor Hadrec"
 IJ_NPC_NAME_4444 = "Deathstalker Vincent"
 IJ_LOOT_NAME_3324 = "Ghostly Mantle"
+
+-- Quest 41938
+IJ_QUEST_NAME_41938 = "Windtorn Crest Stone"
+IJ_QUEST_OBJECTIVE_41938 = "Bring the stone to the Earthen Ring in the Stonetalon Mountains."
+IJ_LOOT_NAME_42206 = "Windtorn Crest Stone"
+
+-- Quest 41978
+IJ_QUEST_NAME_41978 = "The Wrath of Malgan"
+IJ_QUEST_OBJECTIVE_41978 =
+"Slay 20 Blackwind Villagers on behalf of Malgan Windhorn at Sagh's Refuge in Thousand Needles."
+IJ_NPC_NAME_62834 = "Malgan Windhorn"
+IJ_LOOT_NAME_42264 = "Hauberk of Bloodshed"
+IJ_LOOT_NAME_42265 = "Cloudtotem Cloak"
+
+-- Quest 41939
+IJ_QUEST_NAME_41939 = "Vortalus’ Edict"
+IJ_QUEST_OBJECTIVE_41939 =
+"Banish the elemental figurehead inside Windhorn Canyon and report back to Shovu at the Earthen Ring in the Stonetalon Mountains."
+IJ_NPC_NAME_63019 = "Shovu"
+IJ_LOOT_NAME_58127 = "Hammer of Earthfury"
+IJ_LOOT_NAME_58128 = "Axe of Raging Winds"
+IJ_LOOT_NAME_58129 = "Claw of Tempered Fire"

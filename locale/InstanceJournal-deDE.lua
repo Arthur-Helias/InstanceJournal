@@ -5089,4 +5089,14 @@ if GetLocale() == "deDE" then
     IJ_REPUTATION_SILVERMOONREMNANT = "Überrest von Silbermond"
     IJ_SORTBYLEVEL = "Nach Ebene sortieren"
     IJ_SORTBYNAME = "Nach Namen sortieren"
+    IJ_QUEST_NAME_41938 = "Vom Wind zerrissener Wappenstein"
+    IJ_QUEST_OBJECTIVE_41938 = "Bringt den Stein zum Irdenen Ring im Steinkrallengebirge."
+    IJ_QUEST_NAME_41978 = "Der Zorn von Malgan"
+    IJ_QUEST_OBJECTIVE_41978 =
+    "Tötet im Auftrag von Malgan Windhorn 20 Blackwind-Dorfbewohner in Saghs Zuflucht in Thousand Needles."
+    IJ_NPC_NAME_62834 = "Malgan Windhorn"
+    IJ_QUEST_NAME_41939 = "Edikt des Vortalus"
+    IJ_QUEST_OBJECTIVE_41939 =
+    "Verbannen Sie die Galionsfigur der Elemente in die Windhornschlucht und melden Sie sich bei Shovu am Irdenen Ring im Steinkrallengebirge."
+    IJ_NPC_NAME_63019 = "Shovu"
 end

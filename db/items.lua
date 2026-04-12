@@ -8,6 +8,54 @@ local IC = IJLib.Challenges
 
 local I = {}
 
+I[42264] = {
+    Id = "42264",
+    Icon = "inv_chest_plate16",
+    Name = IJ_LOOT_NAME_42264,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[42265] = {
+    Id = "42265",
+    Icon = "inv_misc_cape_17",
+    Name = IJ_LOOT_NAME_42265,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[42206] = {
+    Id = "42206",
+    Icon = "inv_misc_stonetablet_04",
+    Name = IJ_LOOT_NAME_42206,
+    Quality = IQ.Common,
+    ItemSlot = IS.Quest,
+}
+
+I[58127] = {
+    Id = "58127",
+    Icon = "inv_mace_01",
+    Name = IJ_LOOT_NAME_58127,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[58128] = {
+    Id = "58128",
+    Icon = "inv_axe_04",
+    Name = IJ_LOOT_NAME_58128,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
+I[58129] = {
+    Id = "58129",
+    Icon = "inv_weapon_shortblade_27",
+    Name = IJ_LOOT_NAME_58129,
+    Quality = IQ.Uncommon,
+    Tag = 1
+}
+
 I[42165] = {
     Id = "42165",
     Icon = "INV_Misc_Gem_Pearl_03",

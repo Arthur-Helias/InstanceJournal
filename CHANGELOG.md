@@ -2,6 +2,13 @@
 
 All changes to this project will be documented in this file.
 
+## [1.3.8] - 2026-04-13
+
+### Added
+
+- Added the quest The Wrath of Malgan to WHC
+- Added the quest Vortalus’ Edict to WHC
+
 ## [1.3.7] - 2026-04-12
 
 ### Fixed

@@ -5074,4 +5074,14 @@ if GetLocale() == "esES" then
     IJ_REPUTATION_SILVERMOONREMNANT = "Remanente de Lunargenta"
     IJ_SORTBYLEVEL = "Ordenar por nivel"
     IJ_SORTBYNAME = "Ordenar por nombre"
+    IJ_QUEST_NAME_41938 = "Piedra de cresta devastada por el viento"
+    IJ_QUEST_OBJECTIVE_41938 = "Lleva la piedra al Anillo de la Tierra en las Montañas Espolón."
+    IJ_QUEST_NAME_41978 = "La ira de Malgán"
+    IJ_QUEST_OBJECTIVE_41978 =
+    "Mata a 20 aldeanos de Viento Negro en nombre de Malgan Cuerno de Viento en el Refugio de Sagh en Las Mil Agujas."
+    IJ_NPC_NAME_62834 = "Cuerno de viento de Malgán"
+    IJ_QUEST_NAME_41939 = "Edicto de Vortalus"
+    IJ_QUEST_OBJECTIVE_41939 =
+    "Desterrar el mascarón de proa elemental dentro del Cañón Windhorn e informar a Shovu en el Anillo de la Tierra en las Montañas Espolón."
+    IJ_NPC_NAME_63019 = "Shovu"
 end

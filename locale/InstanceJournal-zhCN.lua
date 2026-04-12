@@ -9869,4 +9869,14 @@ if GetLocale() == "zhCN" then
 
     IJ_SORTBYLEVEL = "按级别排序"
     IJ_SORTBYNAME = "按名称排序"
+    IJ_QUEST_NAME_41938 = "风裂纹章石"
+    IJ_QUEST_OBJECTIVE_41938 = "将石头带到石爪山脉的土环。"
+    IJ_QUEST_NAME_41978 = "马尔甘之怒"
+    IJ_QUEST_OBJECTIVE_41978 =
+    "在千针石林的萨格避难所代表马尔根·风角杀死 20 名黑风村民。"
+    IJ_NPC_NAME_62834 = "马尔根·温德霍恩"
+    IJ_QUEST_NAME_41939 = "沃塔罗斯法令"
+    IJ_QUEST_OBJECTIVE_41939 =
+    "放逐风角峡谷内的元素领袖并向石爪山脉土环的修武报告。"
+    IJ_NPC_NAME_63019 = "绍武"
 end

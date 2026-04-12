@@ -5070,4 +5070,14 @@ if GetLocale() == "ptBR" then
     IJ_REPUTATION_SILVERMOONREMNANT = "Remanescente de Lua Prateada"
     IJ_SORTBYLEVEL = "Classificar por nível"
     IJ_SORTBYNAME = "Classificar por nome"
+    IJ_QUEST_NAME_41938 = "Pedra da Crista Rasgada pelo Vento"
+    IJ_QUEST_OBJECTIVE_41938 = "Leve a pedra para o Anel Telúrico nas Montanhas das Torres de Pedra."
+    IJ_QUEST_NAME_41978 = "A Ira de Malgan"
+    IJ_QUEST_OBJECTIVE_41978 =
+    "Mate 20 Aldeões Vento Negro em nome de Malgan Chifre de Vento no Refúgio de Sagh, em Mil Agulhas."
+    IJ_NPC_NAME_62834 = "Chifre de Vento de Malgan"
+    IJ_QUEST_NAME_41939 = "Édito de Vortalus"
+    IJ_QUEST_OBJECTIVE_41939 =
+    "Banir a figura de proa elemental dentro do Cânion Chifre de Vento e reportar-se a Shovu no Anel Telúrico nas Montanhas das Torres de Pedra."
+    IJ_NPC_NAME_63019 = "Shovu"
 end

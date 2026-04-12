@@ -269,6 +269,8 @@ WHC.Quests = {
     IJDB.Q[41982],
     IJDB.Q[41977],
     IJDB.Q[41976],
+    IJDB.Q[41939],
+    IJDB.Q[41978],
 }
 
 IJDB.DG.WHC = WHC

@@ -13564,4 +13564,57 @@ Q[3447] = {
     RequiredQuests = { Q[3446] },
 }
 
+Q[41938] = {
+    Id = "41938",
+    Name = IJ_QUEST_NAME_41938,
+    Objective = IJ_QUEST_OBJECTIVE_41938,
+    RequiredLevel = 20,
+    Level = 26,
+    StartingPoints = { { IJDB.I[42206] } },
+    EndingPoints = { NPC[63019] },
+    RequiredClass = { IMCL.Shaman },
+    RequiredFaction = { IF.Horde },
+    RewardExperience = 250,
+    RewardCoin = 1500,
+}
+
+Q[41939] = {
+    Id = "41939",
+    Name = IJ_QUEST_NAME_41939,
+    Objective = IJ_QUEST_OBJECTIVE_41939,
+    RequiredLevel = 20,
+    Level = 26,
+    StartingPoints = { NPC[63019] },
+    EndingPoints = { NPC[63019] },
+    RequiredClass = { IMCL.Shaman },
+    RequiredFaction = { IF.Horde },
+    RewardExperience = 2150,
+    RewardCoin = 15050,
+    RewardItems = {
+        { IJDB.I[58127] },
+        { IJDB.I[58128] },
+        { IJDB.I[58129] },
+    },
+    RequiredQuests = { Q[41938] },
+}
+
+Q[41978] = {
+    Id = "41978",
+    Name = IJ_QUEST_NAME_41978,
+    Objective = IJ_QUEST_OBJECTIVE_41978,
+    RequiredLevel = 20,
+    Level = 27,
+    IsSharable = true,
+    StartingPoints = { NPC[62834] },
+    EndingPoints = { NPC[62834] },
+    RequiredFaction = { IF.Horde },
+    RewardExperience = 2200,
+    RewardCoin = 13200,
+    RewardReputations = { { Name = IR.ThunderBluff, Amount = 400 } },
+    RewardItems = {
+        { IJDB.I[42264] },
+        { IJDB.I[42265] },
+    },
+}
+
 IJDB.Q = Q

@@ -5082,4 +5082,14 @@ if GetLocale() == "frFR" then
     IJ_REPUTATION_SILVERMOONREMNANT = "Vestige de Lune d’Argent"
     IJ_SORTBYLEVEL = "Trier par niveau"
     IJ_SORTBYNAME = "Trier par nom"
+    IJ_QUEST_NAME_41938 = "Pierre de crête déchirée par le vent"
+    IJ_QUEST_OBJECTIVE_41938 = "Apportez la pierre au Cercle terrestre dans les montagnes Stonetalon."
+    IJ_QUEST_NAME_41978 = "La colère de Malgan"
+    IJ_QUEST_OBJECTIVE_41978 =
+    "Tuez 20 villageois de Vent Noir pour le compte de Malgan Windhorn au Refuge de Sagh, aux Mille Aiguilles."
+    IJ_NPC_NAME_62834 = "Malgan Corne-Vent"
+    IJ_QUEST_NAME_41939 = "L'édit de Vortalus"
+    IJ_QUEST_OBJECTIVE_41939 =
+    "Bannissez la figure de proue élémentaire à l’intérieur du Canyon Windhorn et faites votre rapport à Shovu au Cercle terrestre dans les montagnes Stonetalon."
+    IJ_NPC_NAME_63019 = "Shovu"
 end

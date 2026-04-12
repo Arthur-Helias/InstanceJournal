@@ -4271,4 +4271,22 @@ NPC[176631] = {
     Name = IJ_NPC_NAME_176631
 }
 
+NPC[63019] = {
+    Id = "63019",
+    MapContinentId = IMI.Kalimdor,
+    MapZoneId = IZI.StonetalonMountains,
+    MapCoordinateX = 47.6,
+    MapCoordinateY = 71.4,
+    Name = IJ_NPC_NAME_63019
+}
+
+NPC[62834] = {
+    Id = "62834",
+    MapContinentId = IMI.Kalimdor,
+    MapZoneId = IZI.ThousandNeedles,
+    MapCoordinateX = 31.2,
+    MapCoordinateY = 45.3,
+    Name = IJ_NPC_NAME_62834
+}
+
 IJDB.NPC = NPC
