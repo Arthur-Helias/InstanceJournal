@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [1.3.10] - 2026-04-13
+
+### Fixed
+
+- Fixed Bixxle Screwfuse position
+
 ## [1.3.9] - 2026-04-13
 
 ### Fixed
