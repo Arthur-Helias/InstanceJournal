@@ -42,8 +42,8 @@ DME.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "pusillin" .. IMPF,
         Name = IJ_DB_DUNGEON_DME_BOSS_NAME_14354,
         Story = IJ_DB_DUNGEON_DME_BOSS_STORY_14354,
-        MapCoordinateX = 70.1,
-        MapCoordinateY = 66.5,
+        MapCoordinateX = 89.7,
+        MapCoordinateY = 75.3,
         Loot = {
             [1] = {
                 IJDB.I[18267],
@@ -179,6 +179,7 @@ DME.Bosses = {
         Story = IJ_DB_DUNGEON_DME_BOSS_STORY_11490,
         MapCoordinateX = 76.4,
         MapCoordinateY = 79.4,
+        MapIsBelow = true,
         Loot = {
             [1] = {
                 IJDB.I[18306],
@@ -256,8 +257,8 @@ DME.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "lethtendris" .. IMPF,
         Name = IJ_DB_DUNGEON_DME_BOSS_NAME_14327,
         Story = IJ_DB_DUNGEON_DME_BOSS_STORY_14327,
-        MapCoordinateX = 88.0,
-        MapCoordinateY = 75.1,
+        MapCoordinateX = 74.3,
+        MapCoordinateY = 76.9,
         Loot = {
             [1] = {
                 IJDB.I[18301],

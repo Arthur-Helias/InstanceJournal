@@ -6,7 +6,7 @@
 ## Title-ptBR: Diário de Instância (|cffabd473TurtleWoW|r)
 ## Title-ruRU: Журнал Подземелий (|cffabd473TurtleWoW|r)
 ## Title-zhCN: |CFF33AAFF[辅助]|R副本手册 (|cffabd473TurtleWoW|r)
-## Version: 1.3.10
+## Version: 1.3.11
 ## Author: Walter Bennet
 ## Notes: A reimagining of World of Warcraft's original Encounter Journal, built for |cffabd473TurtleWoW|r!
 ## Notes-deDE: Eine Neuinterpretation des originalen Begegnungsjournals von World of Warcraft, entwickelt für |cffabd473TurtleWoW|r!

@@ -892,6 +892,7 @@ function IJLib:GetQuestDifficultyColor(questLevel)
     end
 
     local color
+
     if levelDiff >= 5 then
         color = IJLib.Colors.Red
     elseif levelDiff >= 3 then

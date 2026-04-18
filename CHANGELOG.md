@@ -2,6 +2,13 @@
 
 All changes to this project will be documented in this file.
 
+## [1.3.11] - 2026-04-18
+
+### Fixed
+
+- Fixed Pusillin position in Dire Maul East
+- Fixed Lethtendris position in Dire Maul East
+
 ## [1.3.10] - 2026-04-13
 
 ### Fixed
