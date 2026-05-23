@@ -341,7 +341,13 @@ IJ_QuestEventFrame:SetScript("OnEvent", function()
             end)
         end
     elseif event == "QUEST_COMPLETE" then
-        if GetTitleText then
+        if IJ_IS_USING_NAMPOWER and GetQuestDialogQuestId then
+            local questId = GetQuestDialogQuestId()
+
+            if questId then
+                IJ_PendingTurnIn = { id = questId }
+            end
+        elseif GetTitleText then
             local dialogTitle = GetTitleText()
             local dialogObjectives = nil
             local numEntries = GetNumQuestLogEntries()
@@ -369,49 +375,80 @@ IJ_QuestEventFrame:SetScript("OnEvent", function()
         IJ_PendingTurnIn = nil
     elseif event == "QUEST_LOG_UPDATE" then
         if IJ_AwaitingTurnIn then
-            local stillInLog = false
-            local numEntries = GetNumQuestLogEntries()
-            local oldSelection = GetQuestLogSelection()
+            if IJ_IS_USING_NAMPOWER and IJ_AwaitingTurnIn.id and GetQuestLogQuestIds then
+                local ids = GetQuestLogQuestIds()
+                local stillInLog = false
 
-            for i = 1, numEntries do
-                local title, _, _, isHeader = GetQuestLogTitle(i)
-
-                if not isHeader and title == IJ_AwaitingTurnIn.title then
-                    SelectQuestLogEntry(i)
-
-                    local _, logObjectives = GetQuestLogQuestText()
-
-                    if logObjectives == IJ_AwaitingTurnIn.objectives then
+                for i = 1, table.getn(ids) do
+                    if ids[i] == IJ_AwaitingTurnIn.id then
                         stillInLog = true
 
                         break
                     end
                 end
-            end
 
-            SelectQuestLogEntry(oldSelection)
+                if not stillInLog then
+                    local idStr = tostring(IJ_AwaitingTurnIn.id)
 
-            if not stillInLog then
-                IJ_BuildQuestIndex()
-
-                local matched = IJ_ResolveCompletedQuest(IJ_AwaitingTurnIn.title, IJ_AwaitingTurnIn.objectives)
-                local matchedId = matched and matched.Id or nil
-
-                if matchedId then
                     if type(IJ_CompletedQuestIds) ~= "table" then
                         IJ_CompletedQuestIds = {}
                     end
 
-                    IJ_CompletedQuestIds[matchedId] = true
+                    IJ_CompletedQuestIds[idStr] = true
 
                     if IJ_InstanceJournalFrame then
                         if IJ_RefreshQuestUI then
                             IJ_RefreshQuestUI()
                         end
                     end
+
+                    IJ_AwaitingTurnIn = nil
+                end
+            else
+                local stillInLog = false
+                local numEntries = GetNumQuestLogEntries()
+                local oldSelection = GetQuestLogSelection()
+
+                for i = 1, numEntries do
+                    local title, _, _, isHeader = GetQuestLogTitle(i)
+
+                    if not isHeader and title == IJ_AwaitingTurnIn.title then
+                        SelectQuestLogEntry(i)
+
+                        local _, logObjectives = GetQuestLogQuestText()
+
+                        if logObjectives == IJ_AwaitingTurnIn.objectives then
+                            stillInLog = true
+
+                            break
+                        end
+                    end
                 end
 
-                IJ_AwaitingTurnIn = nil
+                SelectQuestLogEntry(oldSelection)
+
+                if not stillInLog then
+                    IJ_BuildQuestIndex()
+
+                    local matched = IJ_ResolveCompletedQuest(IJ_AwaitingTurnIn.title, IJ_AwaitingTurnIn.objectives)
+                    local matchedId = matched and matched.Id or nil
+
+                    if matchedId then
+                        if type(IJ_CompletedQuestIds) ~= "table" then
+                            IJ_CompletedQuestIds = {}
+                        end
+
+                        IJ_CompletedQuestIds[matchedId] = true
+
+                        if IJ_InstanceJournalFrame then
+                            if IJ_RefreshQuestUI then
+                                IJ_RefreshQuestUI()
+                            end
+                        end
+                    end
+
+                    IJ_AwaitingTurnIn = nil
+                end
             end
         end
     end

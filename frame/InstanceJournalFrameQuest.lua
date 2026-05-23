@@ -163,9 +163,6 @@ local function GetPlayerQuestStatus(quest, instance)
         return "COMPLETE"
     end
 
-    local numEntries = GetNumQuestLogEntries()
-    local inProgress = false
-
     local function CheckTagInProgress(questTree, tag, logTitle)
         if not questTree then
             return false
@@ -184,20 +181,70 @@ local function GetPlayerQuestStatus(quest, instance)
         return false
     end
 
-    for i = 1, numEntries do
-        local title, _, _, isHeader, _, isComplete = GetQuestLogTitle(i)
+    if IJ_IS_USING_NAMPOWER and GetQuestLogQuestIds and quest.Id then
+        local ids = GetQuestLogQuestIds()
+        local idToLogIndex = {}
 
-        if not isHeader then
-            if title == quest.Name then
-                local skip = false
+        for i = 1, table.getn(ids) do
+            idToLogIndex[tostring(ids[i])] = i
+        end
 
-                if IJ_NameHasDuplicatesInInstance(quest.Name, instance) then
-                    if IJ_HasUncompletedSameNamePrereq(quest, quest.Name, nil) then
-                        skip = true
+        local logIndex = idToLogIndex[tostring(quest.Id)]
+
+        if logIndex then
+            local _, _, _, _, _, isComplete = GetQuestLogTitle(logIndex)
+
+            if isComplete == 1 then
+                return "COMPLETABLE"
+            else
+                return "IN_PROGRESS"
+            end
+        end
+
+        if quest.Tag and instance then
+            local numEntries = GetNumQuestLogEntries()
+
+            for i = 1, numEntries do
+                local title, _, _, isHeader, _, isComplete = GetQuestLogTitle(i)
+
+                if not isHeader and CheckTagInProgress(instance.Quests, quest.Tag, title) then
+                    if isComplete == 1 then
+                        return "COMPLETABLE"
+                    else
+                        return "IN_PROGRESS"
+                    end
+                end
+            end
+        end
+
+        return "AVAILABLE"
+    else
+        local numEntries = GetNumQuestLogEntries()
+        local inProgress = false
+
+        for i = 1, numEntries do
+            local title, _, _, isHeader, _, isComplete = GetQuestLogTitle(i)
+
+            if not isHeader then
+                if title == quest.Name then
+                    local skip = false
+
+                    if IJ_NameHasDuplicatesInInstance(quest.Name, instance) then
+                        if IJ_HasUncompletedSameNamePrereq(quest, quest.Name, nil) then
+                            skip = true
+                        end
+                    end
+
+                    if not skip then
+                        if isComplete == 1 then
+                            return "COMPLETABLE"
+                        else
+                            inProgress = true
+                        end
                     end
                 end
 
-                if not skip then
+                if quest.Tag and instance and CheckTagInProgress(instance.Quests, quest.Tag, title) then
                     if isComplete == 1 then
                         return "COMPLETABLE"
                     else
@@ -205,22 +252,14 @@ local function GetPlayerQuestStatus(quest, instance)
                     end
                 end
             end
-
-            if quest.Tag and instance and CheckTagInProgress(instance.Quests, quest.Tag, title) then
-                if isComplete == 1 then
-                    return "COMPLETABLE"
-                else
-                    inProgress = true
-                end
-            end
         end
-    end
 
-    if inProgress then
-        return "IN_PROGRESS"
-    end
+        if inProgress then
+            return "IN_PROGRESS"
+        end
 
-    return "AVAILABLE"
+        return "AVAILABLE"
+    end
 end
 
 local function CalculateQuestRewards(baseXP, baseCoin, questLevel)

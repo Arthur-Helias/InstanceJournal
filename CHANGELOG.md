@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [1.4.0] - 2026-05-24
+
+### Added
+
+- Added better quest detection through IDs based on Nampower 4.6.0 and above. The original detection is still present if the user does not have Nampower installed or is using a version below 4.6.0
+
 ## [1.3.11] - 2026-04-18
 
 ### Fixed
