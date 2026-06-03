@@ -2,6 +2,18 @@
 
 All changes to this project will be documented in this file.
 
+## [1.4.1] - 2026-06-03
+
+### Added
+
+- Added a feature to hide pfQuest pins when showing the start or end of a quest on the map
+- Added fade in and fade out effects to the quest indicator pins on the map
+- Added slash commands "/ij" and "/instancejournal" to toggle the instance journal
+
+### Changed
+
+- Changed the blinking animation of the instance journal quest pins to a strobing/growing effect
+
 ## [1.4.0] - 2026-05-24
 
 ### Added

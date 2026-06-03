@@ -1,6 +1,5 @@
 -- Story elements such as quests, quotes, dialogues, and book excerpts were used as reference to help generate some of the stories for specific boss encounters.
 -- If any information is inaccurate, please make a PR with the corrected information.
-
 -- Bindings
 BINDING_HEADER_INSTANCEJOURNAL = "Instance Journal"
 BINDING_NAME_TOGGLEJOURNAL = "Toggle Instance Journal"
@@ -231,33 +230,29 @@ IJ_SPELL_NAME_5503 = "Sense Undead"
 -- RFC
 IJ_DB_DUNGEON_RFC_NAME = "Ragefire Chasm"
 IJ_DB_DUNGEON_RFC_STORY =
-"Ragefire Chasm consists of a network of volcanic caverns that lie below the orcs' new capital city of Orgrimmar. Recently, rumors have spread that a cult loyal to the demonic Shadow Council has taken up residence within the Chasm's fiery depths. This cult, known as the Burning Blade, threatens the very sovereignty of Durotar. Many believe that the orc Warchief, Thrall, is aware of the Blade's existence and has chosen not to destroy it in the hopes that its members might lead him straight to the Shadow Council. Either way, the dark powers emanating from Ragefire Chasm could undo all that the orcs have fought to attain."
+    "Ragefire Chasm consists of a network of volcanic caverns that lie below the orcs' new capital city of Orgrimmar. Recently, rumors have spread that a cult loyal to the demonic Shadow Council has taken up residence within the Chasm's fiery depths. This cult, known as the Burning Blade, threatens the very sovereignty of Durotar. Many believe that the orc Warchief, Thrall, is aware of the Blade's existence and has chosen not to destroy it in the hopes that its members might lead him straight to the Shadow Council. Either way, the dark powers emanating from Ragefire Chasm could undo all that the orcs have fought to attain."
 
 -- RFC Bosses
 IJ_DB_DUNGEON_RFC_BOSS_NAME_11517 = "Oggleflint"
-IJ_DB_DUNGEON_RFC_BOSS_STORY_11517 =
-"Oggleflint and the other troggs retreated to the upper levels of Ragefire Chasm once the Searing Blade cultists moved in."
+IJ_DB_DUNGEON_RFC_BOSS_STORY_11517 = "Oggleflint and the other troggs retreated to the upper levels of Ragefire Chasm once the Searing Blade cultists moved in."
 IJ_DB_DUNGEON_RFC_BOSS_11517_ABILITY_NAME_845 = "Cleave"
 IJ_DB_DUNGEON_RFC_BOSS_11517_ABILITY_EFFECT_845 = "Oggleflint cleaves all enemies in front of him."
 IJ_DB_DUNGEON_RFC_BOSS_NAME_11520 = "Taragaman the Hungerer"
 IJ_DB_DUNGEON_RFC_BOSS_STORY_11520 =
-"Thought to be the leader of the Searing Blade, Taragaman can be found hiding in the fiery depths of Ragefire Chasm and using his demonic influence to corrupt the citizens of Orgrimmar."
+    "Thought to be the leader of the Searing Blade, Taragaman can be found hiding in the fiery depths of Ragefire Chasm and using his demonic influence to corrupt the citizens of Orgrimmar."
 IJ_DB_DUNGEON_RFC_BOSS_11520_ABILITY_NAME_11970 = "Fire Nova"
 IJ_DB_DUNGEON_RFC_BOSS_11520_ABILITY_EFFECT_11970 = "Taragaman the Hungerer inflicts fire damage to nearby enemies."
 IJ_DB_DUNGEON_RFC_BOSS_11520_ABILITY_NAME_18072 = "Uppercut"
 IJ_DB_DUNGEON_RFC_BOSS_11520_ABILITY_EFFECT_18072 = "Taragaman the Hungerer punches an enemy, knocking them back."
 IJ_DB_DUNGEON_RFC_BOSS_NAME_11518 = "Jergosh the Invoker"
 IJ_DB_DUNGEON_RFC_BOSS_STORY_11518 =
-"Jergosh the Invoker has rejected the ideals of the orcs and practices the dark and demonic arts of the warlock. A leader of the Searing Blade cultists, Jergosh dwells within Ragefire Chasm, concocting a scheme dangerous enough to draw the attention of Thrall himself."
+    "Jergosh the Invoker has rejected the ideals of the orcs and practices the dark and demonic arts of the warlock. A leader of the Searing Blade cultists, Jergosh dwells within Ragefire Chasm, concocting a scheme dangerous enough to draw the attention of Thrall himself."
 IJ_DB_DUNGEON_RFC_BOSS_11518_ABILITY_NAME_348 = "Immolate"
-IJ_DB_DUNGEON_RFC_BOSS_11518_ABILITY_EFFECT_348 =
-"Jergosh the Invoker burns an enemy, inflicting fire damage over time."
+IJ_DB_DUNGEON_RFC_BOSS_11518_ABILITY_EFFECT_348 = "Jergosh the Invoker burns an enemy, inflicting fire damage over time."
 IJ_DB_DUNGEON_RFC_BOSS_11518_ABILITY_NAME_702 = "Curse of Weakness"
-IJ_DB_DUNGEON_RFC_BOSS_11518_ABILITY_EFFECT_702 =
-"Jergosh the Invoker curses an enemy, reducing their physical damage dealt for 30 seconds."
+IJ_DB_DUNGEON_RFC_BOSS_11518_ABILITY_EFFECT_702 = "Jergosh the Invoker curses an enemy, reducing their physical damage dealt for 30 seconds."
 IJ_DB_DUNGEON_RFC_BOSS_NAME_11519 = "Bazzalan"
-IJ_DB_DUNGEON_RFC_BOSS_STORY_11519 =
-"Bazzalan leads the Searing Blade cultists along with Jergosh the Invoker. His motives are unclear, but like all satyr, he is a swift and cunning foe."
+IJ_DB_DUNGEON_RFC_BOSS_STORY_11519 = "Bazzalan leads the Searing Blade cultists along with Jergosh the Invoker. His motives are unclear, but like all satyr, he is a swift and cunning foe."
 IJ_DB_DUNGEON_RFC_BOSS_11519_ABILITY_NAME_744 = "Poison"
 IJ_DB_DUNGEON_RFC_BOSS_11519_ABILITY_EFFECT_744 = "Bazzalan poisons an enemy, dealing nature damage over time."
 IJ_DB_DUNGEON_RFC_BOSS_11519_ABILITY_NAME_14873 = "Sinister Strike"
@@ -285,59 +280,49 @@ IJ_LOOT_NAME_5235 = "Cultist's Firestick"
 -- Stockades
 IJ_DB_DUNGEON_STOCKADES_NAME = "The Stockade"
 IJ_DB_DUNGEON_STOCKADES_STORY =
-"The Stockades are a high-security prison complex, hidden beneath the canal district of Stormwind city. Presided over by Warden Thelwater, the Stockades are home to petty crooks, political insurgents, murderers and a score of the most dangerous criminals in the land. Recently, a prisoner-led revolt has resulted in a state of pandemonium within the Stockades - where the guards have been driven out and the convicts roam free. Warden Thelwater has managed to escape the holding area and is currently enlisting brave thrill-seekers to venture into the prison and kill the uprising's mastermind - the cunning felon, Bazil Thredd."
+    "The Stockades are a high-security prison complex, hidden beneath the canal district of Stormwind city. Presided over by Warden Thelwater, the Stockades are home to petty crooks, political insurgents, murderers and a score of the most dangerous criminals in the land. Recently, a prisoner-led revolt has resulted in a state of pandemonium within the Stockades - where the guards have been driven out and the convicts roam free. Warden Thelwater has managed to escape the holding area and is currently enlisting brave thrill-seekers to venture into the prison and kill the uprising's mastermind - the cunning felon, Bazil Thredd."
 
 -- Stockades Bosses
 IJ_DB_DUNGEON_STOCKADES_BOSS_NAME_1696 = "Targorr the Dread"
 IJ_DB_DUNGEON_STOCKADES_BOSS_STORY_1696 =
-"Targorr the Dread served the Blackrock orcs under Gath'Ilzogg as supreme executioner. His methods were ruthless, even by orcish standards. Men who fought bravely to defend Stormwind were tortured on his whim. Targorr was captured and sent to the Stockade, however due to the corrupt and inefficient legal system he was not executed as his actions so richly deserved. During the uprising in the Stockade, the ruthless orc fell in line with the Defias rioters."
+    "Targorr the Dread served the Blackrock orcs under Gath'Ilzogg as supreme executioner. His methods were ruthless, even by orcish standards. Men who fought bravely to defend Stormwind were tortured on his whim. Targorr was captured and sent to the Stockade, however due to the corrupt and inefficient legal system he was not executed as his actions so richly deserved. During the uprising in the Stockade, the ruthless orc fell in line with the Defias rioters."
 IJ_DB_DUNGEON_STOCKADES_BOSS_1696_ABILITY_NAME_8599 = "Enrage"
-IJ_DB_DUNGEON_STOCKADES_BOSS_1696_ABILITY_EFFECT_8599 =
-"Targorr the Dread becomes enraged, increasing his physical damage and attack speed for 2 minutes."
+IJ_DB_DUNGEON_STOCKADES_BOSS_1696_ABILITY_EFFECT_8599 = "Targorr the Dread becomes enraged, increasing his physical damage and attack speed for 2 minutes."
 IJ_DB_DUNGEON_STOCKADES_BOSS_1696_ABILITY_NAME_3417 = "Thrash"
 IJ_DB_DUNGEON_STOCKADES_BOSS_1696_ABILITY_EFFECT_3417 = "Targorr the Dread gains a chance to do two additional attacks."
 IJ_DB_DUNGEON_STOCKADES_BOSS_NAME_1666 = "Kam Deepfury"
 IJ_DB_DUNGEON_STOCKADES_BOSS_STORY_1666 =
-"Kam Deepfury, according to Alliance intelligence in Dun Modr, has been determined as the organizer of the explosion that destroyed one of the bridges in the Thandol Span, as well as the death of one of Longbraid the Grim's kin. Unlike most other prisoners in the Stockade, he is not a member of the Defias Brotherhood."
+    "Kam Deepfury, according to Alliance intelligence in Dun Modr, has been determined as the organizer of the explosion that destroyed one of the bridges in the Thandol Span, as well as the death of one of Longbraid the Grim's kin. Unlike most other prisoners in the Stockade, he is not a member of the Defias Brotherhood."
 IJ_DB_DUNGEON_STOCKADES_BOSS_1666_ABILITY_NAME_7164 = "Defensive Stance"
-IJ_DB_DUNGEON_STOCKADES_BOSS_1666_ABILITY_EFFECT_7164 =
-"Kam Deepfury assumes a defensive stance, reducing incoming damage."
+IJ_DB_DUNGEON_STOCKADES_BOSS_1666_ABILITY_EFFECT_7164 = "Kam Deepfury assumes a defensive stance, reducing incoming damage."
 IJ_DB_DUNGEON_STOCKADES_BOSS_1666_ABILITY_NAME_8242 = "Shield Slam"
-IJ_DB_DUNGEON_STOCKADES_BOSS_1666_ABILITY_EFFECT_8242 =
-"Kam Deepfury slams his shield against an enemy, dealing damage and stunning them for 2 seconds."
+IJ_DB_DUNGEON_STOCKADES_BOSS_1666_ABILITY_EFFECT_8242 = "Kam Deepfury slams his shield against an enemy, dealing damage and stunning them for 2 seconds."
 IJ_DB_DUNGEON_STOCKADES_BOSS_1666_ABILITY_NAME_871 = "Shield Wall"
-IJ_DB_DUNGEON_STOCKADES_BOSS_1666_ABILITY_EFFECT_871 =
-"Kam Deepfury raises his shield, reducing all incoming damage by 60% for 12 seconds."
+IJ_DB_DUNGEON_STOCKADES_BOSS_1666_ABILITY_EFFECT_871 = "Kam Deepfury raises his shield, reducing all incoming damage by 60% for 12 seconds."
 IJ_DB_DUNGEON_STOCKADES_BOSS_NAME_1717 = "Hamhock"
 IJ_DB_DUNGEON_STOCKADES_BOSS_STORY_1717 =
-"Some rumors spread throughout Stormwind that Hamhock was a captured ogre from Duskwood, possibly making him a Splinter Fist Ogre. If this were true, he would fall under the possible command of Zzarc'Vul, leader of the clan at Vul'Gol Ogre Mound. Alternatively, he could be a captured member of the Defias Brotherhood."
+    "Some rumors spread throughout Stormwind that Hamhock was a captured ogre from Duskwood, possibly making him a Splinter Fist Ogre. If this were true, he would fall under the possible command of Zzarc'Vul, leader of the clan at Vul'Gol Ogre Mound. Alternatively, he could be a captured member of the Defias Brotherhood."
 IJ_DB_DUNGEON_STOCKADES_BOSS_1717_ABILITY_NAME_6742 = "Bloodlust"
-IJ_DB_DUNGEON_STOCKADES_BOSS_1717_ABILITY_EFFECT_6742 =
-"Hamhock is taken by bloodlust, increasing him and his allies' attack speed by 30% for 30 seconds."
+IJ_DB_DUNGEON_STOCKADES_BOSS_1717_ABILITY_EFFECT_6742 = "Hamhock is taken by bloodlust, increasing him and his allies' attack speed by 30% for 30 seconds."
 IJ_DB_DUNGEON_STOCKADES_BOSS_1717_ABILITY_NAME_421 = "Chain Lightning"
-IJ_DB_DUNGEON_STOCKADES_BOSS_1717_ABILITY_EFFECT_421 =
-"Hamhock casts a lightning bolt at an enemy, jumping to two other targets and dealing 190 to 220 nature damage to each."
+IJ_DB_DUNGEON_STOCKADES_BOSS_1717_ABILITY_EFFECT_421 = "Hamhock casts a lightning bolt at an enemy, jumping to two other targets and dealing 190 to 220 nature damage to each."
 IJ_DB_DUNGEON_STOCKADES_BOSS_NAME_1716 = "Bazil Thredd"
 IJ_DB_DUNGEON_STOCKADES_BOSS_STORY_1716 =
-"Bazil Thredd is the lieutenant and most trusted assistant of Edwin VanCleef. He was caught during the riots leading to the death of Queen Tiffin and imprisoned, later taking lead over the bandits of the Defias Brotherhood in the Stockade."
+    "Bazil Thredd is the lieutenant and most trusted assistant of Edwin VanCleef. He was caught during the riots leading to the death of Queen Tiffin and imprisoned, later taking lead over the bandits of the Defias Brotherhood in the Stockade."
 IJ_DB_DUNGEON_STOCKADES_BOSS_1716_ABILITY_NAME_9128 = "Battle Shout"
-IJ_DB_DUNGEON_STOCKADES_BOSS_1716_ABILITY_EFFECT_9128 =
-"Bazil Thredd shouts, empowering him and other allies granting them extra melee attack power for 2 minutes."
+IJ_DB_DUNGEON_STOCKADES_BOSS_1716_ABILITY_EFFECT_9128 = "Bazil Thredd shouts, empowering him and other allies granting them extra melee attack power for 2 minutes."
 IJ_DB_DUNGEON_STOCKADES_BOSS_1716_ABILITY_NAME_7964 = "Smoke Bomb"
-IJ_DB_DUNGEON_STOCKADES_BOSS_1716_ABILITY_EFFECT_7964 =
-"Bazil Thredd throws a smoke bomb, stunning all nearby enemies for 4 seconds."
+IJ_DB_DUNGEON_STOCKADES_BOSS_1716_ABILITY_EFFECT_7964 = "Bazil Thredd throws a smoke bomb, stunning all nearby enemies for 4 seconds."
 IJ_DB_DUNGEON_STOCKADES_BOSS_NAME_1720 = "Bruegal Ironknuckle"
 IJ_DB_DUNGEON_STOCKADES_BOSS_STORY_1720 =
-"An elusive dwarf, rarely seen among the general incarcerated population of Stormwind's Stockades. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+    "An elusive dwarf, rarely seen among the general incarcerated population of Stormwind's Stockades. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
 IJ_DB_DUNGEON_STOCKADES_BOSS_NAME_1663 = "Dextren Ward"
-IJ_DB_DUNGEON_STOCKADES_BOSS_STORY_1663 =
-"Ward had been caught stealing bodies from Raven Hill Cemetery and selling them to Morbent Fel, a crime that ultimately led to his capture and grim notoriety."
+IJ_DB_DUNGEON_STOCKADES_BOSS_STORY_1663 = "Ward had been caught stealing bodies from Raven Hill Cemetery and selling them to Morbent Fel, a crime that ultimately led to his capture and grim notoriety."
 IJ_DB_DUNGEON_STOCKADES_BOSS_1663_ABILITY_NAME_5246 = "Frightening Shout"
 IJ_DB_DUNGEON_STOCKADES_BOSS_1663_ABILITY_EFFECT_5246 =
-"Dextren Ward shouts at nearby enemies, causing them to flee in fear for 6 seconds.\n\nMake sure to clear the rooms around the encounter or you might accidentally overpull while feared!"
+    "Dextren Ward shouts at nearby enemies, causing them to flee in fear for 6 seconds.\n\nMake sure to clear the rooms around the encounter or you might accidentally overpull while feared!"
 IJ_DB_DUNGEON_STOCKADES_BOSS_1663_ABILITY_NAME_11976 = "Strike"
-IJ_DB_DUNGEON_STOCKADES_BOSS_1663_ABILITY_EFFECT_11976 =
-"Dextren Ward strikes his target for additional physical damage."
+IJ_DB_DUNGEON_STOCKADES_BOSS_1663_ABILITY_EFFECT_11976 = "Dextren Ward strikes his target for additional physical damage."
 
 -- Stockades Loot
 IJ_LOOT_NAME_80721 = "Heavy Prison Cuffs"
@@ -359,74 +344,57 @@ IJ_LOOT_NAME_80725 = "Hamhock's Nose Ring"
 -- SV
 IJ_DB_DUNGEON_SV_NAME = "Stormwind Vault"
 IJ_DB_DUNGEON_SV_STORY =
-"The Stormwind Vault was built to hold the kingdom's most dangerous criminals and magical threats. At its heart lies Arc'Tiras, a powerful crystal that has driven the guards mad and corrupted the Runic Constructs meant to patrol its halls. Now, the Vault is a maze of chaos..."
+    "The Stormwind Vault was built to hold the kingdom's most dangerous criminals and magical threats. At its heart lies Arc'Tiras, a powerful crystal that has driven the guards mad and corrupted the Runic Constructs meant to patrol its halls. Now, the Vault is a maze of chaos..."
 
 -- SV Bosses
 IJ_DB_DUNGEON_SV_BOSS_NAME_80853 = "Aszosh Grimflame"
 IJ_DB_DUNGEON_SV_BOSS_STORY_80853 =
-"Aszosh Grimflame was once a necrolyte of the Shadow Council, raised as a death knight by Gul'dan. Now he commands the bones of the fallen and drains the strength of all who oppose him. His dark presence has twisted the Vault's halls, and only the brave can hope to stop his relentless hunger for power."
+    "Aszosh Grimflame was once a necrolyte of the Shadow Council, raised as a death knight by Gul'dan. Now he commands the bones of the fallen and drains the strength of all who oppose him. His dark presence has twisted the Vault's halls, and only the brave can hope to stop his relentless hunger for power."
 IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_10212 = "Arcane Missiles"
-IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_10212 =
-"Aszosh Grimflame launches arcane missiles at the enemy, causing 192 arcane damage every 1 second for 5 seconds."
+IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_10212 = "Aszosh Grimflame launches arcane missiles at the enemy, causing 192 arcane damage every 1 second for 5 seconds."
 IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_18702 = "Curse of the Darkmaster"
-IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_18702 =
-"Aszosh Grimflame curses his enemy, reducing their strength and stamina by 50 for 60 seconds."
+IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_18702 = "Aszosh Grimflame curses his enemy, reducing their strength and stamina by 50 for 60 seconds."
 IJ_DB_DUNGEON_SV_BOSS_NAME_80852 = "Tham'Grarr"
-IJ_DB_DUNGEON_SV_BOSS_STORY_80852 =
-"Not much is known about Tham'Grarr, other than he is a fearsome ogre, known for his brutal strength and violent temper."
+IJ_DB_DUNGEON_SV_BOSS_STORY_80852 = "Not much is known about Tham'Grarr, other than he is a fearsome ogre, known for his brutal strength and violent temper."
 IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_5246 = "Intimidating Shout"
-IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_5246 =
-"Tham'Grarr shouts at nearby enemies, causing them to flee in fear for 8 seconds."
+IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_5246 = "Tham'Grarr shouts at nearby enemies, causing them to flee in fear for 8 seconds."
 IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_22859 = "Mortal Cleave"
-IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_22859 =
-"Tham'Grarr inflicts heavy damage on his target and leaves them wounded, reducing the effectiveness of any healing by 50% for 5 seconds."
+IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_22859 = "Tham'Grarr inflicts heavy damage on his target and leaves them wounded, reducing the effectiveness of any healing by 50% for 5 seconds."
 IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_22857 = "Retaliation"
-IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_22857 =
-"Tham'Grarr counterattacks any enemy that strikes him in melee for 15 seconds.\n\nMelee attacks made from behind cannot be counterattacked."
+IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_22857 = "Tham'Grarr counterattacks any enemy that strikes him in melee for 15 seconds.\n\nMelee attacks made from behind cannot be counterattacked."
 IJ_DB_DUNGEON_SV_BOSS_NAME_80850 = "Black Bride"
 IJ_DB_DUNGEON_SV_BOSS_STORY_80850 =
-"The Black Bride is a tragic figure, bound by obsessive love for Damian. She attacks any who come near, seeing them as defilers of her devotion, and speaks of her love for The Ripper even in death."
+    "The Black Bride is a tragic figure, bound by obsessive love for Damian. She attacks any who come near, seeing them as defilers of her devotion, and speaks of her love for The Ripper even in death."
 IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_16867 = "Banshee Curse"
-IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_16867 =
-"The Black Bride curses nearby enemies, reducing their chance to hit by 10% for 12 seconds."
+IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_16867 = "The Black Bride curses nearby enemies, reducing their chance to hit by 10% for 12 seconds."
 IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_16565 = "Banshee Wail"
-IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_16565 =
-"The Black Bride wails with anguish, inflicting shadow damage to an enemy."
+IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_16565 = "The Black Bride wails with anguish, inflicting shadow damage to an enemy."
 IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_17244 = "Possess"
-IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_17244 =
-"The Black Bride takes control of one of her enemies, and start attacking their allies!\n\nDealing enough damage to the possessed player will free them from the bride!"
+IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_17244 = "The Black Bride takes control of one of her enemies, and start attacking their allies!\n\nDealing enough damage to the possessed player will free them from the bride!"
 IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_18327 = "Silence"
-IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_18327 =
-"The Black Bride silences all enemies in a 10 yards radius, preventing them from casting spells for 10 seconds."
+IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_18327 = "The Black Bride silences all enemies in a 10 yards radius, preventing them from casting spells for 10 seconds."
 IJ_DB_DUNGEON_SV_BOSS_NAME_80854 = "Damian"
 IJ_DB_DUNGEON_SV_BOSS_STORY_80854 =
-"Damian, also known as The Ripper, is a deadly and elusive killer who strikes from the shadows. He delights in combat, hunting those who cross his path with ruthless precision, and vanishes as easily as he appears."
+    "Damian, also known as The Ripper, is a deadly and elusive killer who strikes from the shadows. He delights in combat, hunting those who cross his path with ruthless precision, and vanishes as easily as he appears."
 IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_11700 = "Drain Life"
-IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11700 =
-"Damian drains the life from an enemy, transferring 70 health to himself every second for 5 seconds."
+IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11700 = "Damian drains the life from an enemy, transferring 70 health to himself every second for 5 seconds."
 IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_11668 = "Immolate"
-IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11668 =
-"Damian immolates an enemy, burning them for 258 fire damage and an additional 485 fire damage over 15 seconds."
+IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11668 = "Damian immolates an enemy, burning them for 258 fire damage and an additional 485 fire damage over 15 seconds."
 IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_1856 = "Vanish"
 IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_1856 = "Damian vanishes, ambushing an enemy when he reappears."
 IJ_DB_DUNGEON_SV_BOSS_NAME_80851 = "Volkan Cruelblade"
-IJ_DB_DUNGEON_SV_BOSS_STORY_80851 =
-"Volkan Cruelblade is a member of the Burning Blade clan. He fights with deadly skill, seeking freedom and vengeance against all who oppose him."
+IJ_DB_DUNGEON_SV_BOSS_STORY_80851 = "Volkan Cruelblade is a member of the Burning Blade clan. He fights with deadly skill, seeking freedom and vengeance against all who oppose him."
 IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_NAME_9256 = "Deep Sleep"
-IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_9256 =
-"Volkan puts nearby enemies to sleep for 10 seconds.\n\nAny damage caused will awaken them."
+IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_9256 = "Volkan puts nearby enemies to sleep for 10 seconds.\n\nAny damage caused will awaken them."
 IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_15398 = "Psychic Scream"
-IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_15398 =
-"Volkan lets out a psychic scream, causing an enemy to be frozen in fear for 8 seconds."
+IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_15398 = "Volkan lets out a psychic scream, causing an enemy to be frozen in fear for 8 seconds."
 IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_20741 = "Shadow Bolt Volley"
-IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_20741 =
-"Volkan hurls missiles of dark magic, inflicting 255 shadow damage to each enemy within 30 yards."
+IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_20741 = "Volkan hurls missiles of dark magic, inflicting 255 shadow damage to each enemy within 30 yards."
 IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_20603 = "Shadow Shock"
-IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_20603 =
-"Volkan lashes enemies in a 20 yards radius with dark magic, inflicting 740 shadow damage to each of them."
+IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_20603 = "Volkan lashes enemies in a 20 yards radius with dark magic, inflicting 740 shadow damage to each of them."
 IJ_DB_DUNGEON_SV_BOSS_NAME_93107 = "Arc'Tiras"
 IJ_DB_DUNGEON_SV_BOSS_STORY_93107 =
-"Arc'Tiras is a powerful and sentient crystal of magic, locked deep within the Stormwind Vault. Its unstable energy has driven the guards mad and twisted the Vault into a maze of madness."
+    "Arc'Tiras is a powerful and sentient crystal of magic, locked deep within the Stormwind Vault. Its unstable energy has driven the guards mad and twisted the Vault into a maze of madness."
 
 -- SV Loot
 IJ_LOOT_NAME_60504 = "Dreadskin Gloves"
@@ -472,75 +440,62 @@ IJ_LOOT_NAME_83570 = "Technique: Die by the Sword"
 -- Deadmines
 IJ_DB_DUNGEON_DEADMINES_NAME = "The Deadmines"
 IJ_DB_DUNGEON_DEADMINES_STORY =
-"Once the greatest gold production center in the human lands, the Deadmines were abandoned when the Horde razed Stormwind city during the First War. Now the Defias Brotherhood has taken up residence and turned the dark tunnels into their private sanctum. It is rumored that the thieves have conscripted the clever goblins to help them build something terrible at the bottom of the mines - but what that may be is still uncertain. Rumor has it that the way into the Deadmines lies through the quiet, unassuming village of Moonbrook."
+    "Once the greatest gold production center in the human lands, the Deadmines were abandoned when the Horde razed Stormwind city during the First War. Now the Defias Brotherhood has taken up residence and turned the dark tunnels into their private sanctum. It is rumored that the thieves have conscripted the clever goblins to help them build something terrible at the bottom of the mines - but what that may be is still uncertain. Rumor has it that the way into the Deadmines lies through the quiet, unassuming village of Moonbrook."
 
 -- Deadmines Bosses
 IJ_DB_DUNGEON_DEADMINES_BOSS_NAME_61961 = "Jared Voss"
 IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_61961 =
-"Jared Voss is the son of William Voss, a renowned alchemist whose shop and home were burned down with Stormwind and never rebuilt, leaving his family homeless and bitter toward the nobility responsible. Jared, apprenticed to the Stonemasons before his father's death, inherited both his alchemical talents and his burning resentment."
+    "Jared Voss is the son of William Voss, a renowned alchemist whose shop and home were burned down with Stormwind and never rebuilt, leaving his family homeless and bitter toward the nobility responsible. Jared, apprenticed to the Stonemasons before his father's death, inherited both his alchemical talents and his burning resentment."
 IJ_DB_DUNGEON_DEADMINES_BOSS_NAME_644 = "Rhahk'Zor"
-IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_644 =
-"As the Defias Brotherhood's head foreman of the Deadmines, Rhahk'Zor supervises and \"motivates\" the laborers. His methods, though unconventional, are quite effective."
+IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_644 = "As the Defias Brotherhood's head foreman of the Deadmines, Rhahk'Zor supervises and \"motivates\" the laborers. His methods, though unconventional, are quite effective."
 IJ_DB_DUNGEON_DEADMINES_BOSS_644_ABILITY_NAME_6304 = "Rhahk'Zor Slam"
-IJ_DB_DUNGEON_DEADMINES_BOSS_644_ABILITY_EFFECT_6304 =
-"Rhahk'Zor slams an enemy, dealing 64 to 86 physical damage and stunning them for 3 seconds."
+IJ_DB_DUNGEON_DEADMINES_BOSS_644_ABILITY_EFFECT_6304 = "Rhahk'Zor slams an enemy, dealing 64 to 86 physical damage and stunning them for 3 seconds."
 IJ_DB_DUNGEON_DEADMINES_BOSS_NAME_3586 = "Miner Johnson"
 IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_3586 =
-"An elusive miner, rarely seen among the general population of the Deadmines. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+    "An elusive miner, rarely seen among the general population of the Deadmines. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
 IJ_DB_DUNGEON_DEADMINES_BOSS_3586_ABILITY_NAME_6016 = "Pierce Armor"
-IJ_DB_DUNGEON_DEADMINES_BOSS_3586_ABILITY_EFFECT_6016 =
-"Miner Johnson lunges his pickaxe into his enemy, piercing their armor and reducing its armor value by 10% for 10 seconds."
+IJ_DB_DUNGEON_DEADMINES_BOSS_3586_ABILITY_EFFECT_6016 = "Miner Johnson lunges his pickaxe into his enemy, piercing their armor and reducing its armor value by 10% for 10 seconds."
 IJ_DB_DUNGEON_DEADMINES_BOSS_NAME_643 = "Sneed"
 IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_643 =
-"Sneed was hired as a lumbermaster for his ruthless efficiency. His goal is simple: construct a juggernaut as cheaply as possible. By using the shredder he built himself to lead production, he achieves terrifyingly fast results."
+    "Sneed was hired as a lumbermaster for his ruthless efficiency. His goal is simple: construct a juggernaut as cheaply as possible. By using the shredder he built himself to lead production, he achieves terrifyingly fast results."
 IJ_DB_DUNGEON_DEADMINES_BOSS_643_ABILITY_NAME_6713 = "Disarm"
-IJ_DB_DUNGEON_DEADMINES_BOSS_643_ABILITY_EFFECT_6713 =
-"Sneed disarms his enemy, forcing them to stop wielding their weapon for 5 seconds."
+IJ_DB_DUNGEON_DEADMINES_BOSS_643_ABILITY_EFFECT_6713 = "Sneed disarms his enemy, forcing them to stop wielding their weapon for 5 seconds."
 IJ_DB_DUNGEON_DEADMINES_BOSS_NAME_1763 = "Gilnid"
 IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_1763 =
-"Glinid is a masterful engineer and head smelter of the Defias Brotherhood's operations. He ensures the juggernaut is loaded with sufficient cannons and ammunition and will tolerate no breaks until the work is complete."
+    "Glinid is a masterful engineer and head smelter of the Defias Brotherhood's operations. He ensures the juggernaut is loaded with sufficient cannons and ammunition and will tolerate no breaks until the work is complete."
 IJ_DB_DUNGEON_DEADMINES_BOSS_1763_ABILITY_NAME_5213 = "Molten Metal"
 IJ_DB_DUNGEON_DEADMINES_BOSS_1763_ABILITY_EFFECT_5213 =
-"Glinid throws molten metal to an enemy, inflicting fire damage every 3 seconds, increasing the time between their attacks by 54%, and reducing their movement by 50% for 15 seconds."
+    "Glinid throws molten metal to an enemy, inflicting fire damage every 3 seconds, increasing the time between their attacks by 54%, and reducing their movement by 50% for 15 seconds."
 IJ_DB_DUNGEON_DEADMINES_BOSS_NAME_61963 = "Masterpiece Harvester"
 IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_61963 =
-"The goblin mechanics of the Defias pride themselves on their greatest creation: the Masterpiece Harvester. Built deep within their hidden workshop, it is the finest harvest golem they have ever produced."
+    "The goblin mechanics of the Defias pride themselves on their greatest creation: the Masterpiece Harvester. Built deep within their hidden workshop, it is the finest harvest golem they have ever produced."
 IJ_DB_DUNGEON_DEADMINES_BOSS_NAME_646 = "Mr. Smite"
-IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_646 =
-"As Captain Greenskin's first mate, Smite is tasked with keeping the crew on their toes. Smite is a skilled weaponmaster, trained in all manner of slicing and bashing."
+IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_646 = "As Captain Greenskin's first mate, Smite is tasked with keeping the crew on their toes. Smite is a skilled weaponmaster, trained in all manner of slicing and bashing."
 IJ_DB_DUNGEON_DEADMINES_BOSS_646_ABILITY_NAME_6264 = "Nimble Reflexes"
-IJ_DB_DUNGEON_DEADMINES_BOSS_646_ABILITY_EFFECT_6264 =
-"Mr. Smite's nimble reflexes allows him to increase his chance to parry by 75% for 8 seconds."
+IJ_DB_DUNGEON_DEADMINES_BOSS_646_ABILITY_EFFECT_6264 = "Mr. Smite's nimble reflexes allows him to increase his chance to parry by 75% for 8 seconds."
 IJ_DB_DUNGEON_DEADMINES_BOSS_646_ABILITY_NAME_6435 = "Smite Slam"
-IJ_DB_DUNGEON_DEADMINES_BOSS_646_ABILITY_EFFECT_6435 =
-"Mr. Smite slam his enemy, inflicting 50 physical damage and stunning them for 3 seconds."
+IJ_DB_DUNGEON_DEADMINES_BOSS_646_ABILITY_EFFECT_6435 = "Mr. Smite slam his enemy, inflicting 50 physical damage and stunning them for 3 seconds."
 IJ_DB_DUNGEON_DEADMINES_BOSS_646_ABILITY_NAME_6432 = "Smite Stomp"
-IJ_DB_DUNGEON_DEADMINES_BOSS_646_ABILITY_EFFECT_6432 =
-"Mr. Smite stomps the ground, stunning all enemies for 10 seconds."
+IJ_DB_DUNGEON_DEADMINES_BOSS_646_ABILITY_EFFECT_6432 = "Mr. Smite stomps the ground, stunning all enemies for 10 seconds."
 IJ_DB_DUNGEON_DEADMINES_BOSS_646_ABILITY_NAME_3417 = "Thrash"
 IJ_DB_DUNGEON_DEADMINES_BOSS_646_ABILITY_EFFECT_3417 = "Mr. Smite gains a chance to do two additional attacks."
 IJ_DB_DUNGEON_DEADMINES_BOSS_NAME_647 = "Captain Greenskin"
-IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_647 =
-"Captain of the juggernaut-in-progress, Greenskin hails from Booty Bay where he formerly led a fleet of pirate vessels."
+IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_647 = "Captain of the juggernaut-in-progress, Greenskin hails from Booty Bay where he formerly led a fleet of pirate vessels."
 IJ_DB_DUNGEON_DEADMINES_BOSS_647_ABILITY_NAME_5208 = "Poisoned Harpoon"
-IJ_DB_DUNGEON_DEADMINES_BOSS_647_ABILITY_EFFECT_5208 =
-"Captain Greenskin stabs his enemy with his poisoned harpoon, inflicting physical damage plus 30, then an additional 45 nature damage every 10 seconds for 1 minute."
+IJ_DB_DUNGEON_DEADMINES_BOSS_647_ABILITY_EFFECT_5208 = "Captain Greenskin stabs his enemy with his poisoned harpoon, inflicting physical damage plus 30, then an additional 45 nature damage every 10 seconds for 1 minute."
 IJ_DB_DUNGEON_DEADMINES_BOSS_647_ABILITY_NAME_845 = "Cleave"
 IJ_DB_DUNGEON_DEADMINES_BOSS_647_ABILITY_EFFECT_845 = "Captain Greenskin cleaves all enemies in front of him."
 IJ_DB_DUNGEON_DEADMINES_BOSS_NAME_639 = "Edwin VanCleef"
 IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_639 =
-"Formerly the leader of the Stonemasons Guild, disputes with the House of Nobles led VanCleef to leave Stormwind City and create the Defias Brotherhood. VanCleef then claimed the Deadmines as a base of operations to construct the juggernaut that would begin his retribution."
+    "Formerly the leader of the Stonemasons Guild, disputes with the House of Nobles led VanCleef to leave Stormwind City and create the Defias Brotherhood. VanCleef then claimed the Deadmines as a base of operations to construct the juggernaut that would begin his retribution."
 IJ_DB_DUNGEON_DEADMINES_BOSS_639_ABILITY_NAME_3417 = "Trash"
 IJ_DB_DUNGEON_DEADMINES_BOSS_639_ABILITY_EFFECT_3417 = "Edwin VanCleef gains a chance to do two additional attacks."
 IJ_DB_DUNGEON_DEADMINES_BOSS_639_ABILITY_NAME_5200 = "VanCleef's Allies"
-IJ_DB_DUNGEON_DEADMINES_BOSS_639_ABILITY_EFFECT_5200 =
-"Edwin VanCleef call upon his allies, summoning a pair of Defias Blackguards to assist him during the battle."
+IJ_DB_DUNGEON_DEADMINES_BOSS_639_ABILITY_EFFECT_5200 = "Edwin VanCleef call upon his allies, summoning a pair of Defias Blackguards to assist him during the battle."
 IJ_DB_DUNGEON_DEADMINES_BOSS_NAME_645 = "Cookie"
-IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_645 =
-"No one except Edwin VanCleef knows how or why Cookie was promoted to be the ship's cook. For pirates, though, a meal is a meal."
+IJ_DB_DUNGEON_DEADMINES_BOSS_STORY_645 = "No one except Edwin VanCleef knows how or why Cookie was promoted to be the ship's cook. For pirates, though, a meal is a meal."
 IJ_DB_DUNGEON_DEADMINES_BOSS_645_ABILITY_NAME_6306 = "Acid Splash"
-IJ_DB_DUNGEON_DEADMINES_BOSS_645_ABILITY_EFFECT_6306 =
-"Cookie throws some acidic goop onto his enemies, cause everyone nearby to receive nature damage every 5 seconds for 30 seconds."
+IJ_DB_DUNGEON_DEADMINES_BOSS_645_ABILITY_EFFECT_6306 = "Cookie throws some acidic goop onto his enemies, cause everyone nearby to receive nature damage every 5 seconds for 30 seconds."
 IJ_DB_DUNGEON_DEADMINES_BOSS_645_ABILITY_NAME_5174 = "Cookie's Cooking"
 IJ_DB_DUNGEON_DEADMINES_BOSS_645_ABILITY_EFFECT_5174 = "Cookie eats some of his food, healing him for 111 to 129 health."
 
@@ -585,7 +540,7 @@ IJ_LOOT_NAME_8490 = "Siamese"
 -- BM
 IJ_DB_DUNGEON_BM_NAME = "The Black Morass"
 IJ_DB_DUNGEON_BM_STORY =
-"Deep within the Caverns of Time, the Infinite Dragonflight seeks to alter the course of history by preventing the opening of the Dark Portal. Should they succeed, the orcs would never arrive on Azeroth, and the pivotal events that shaped the world's defense against the Burning Legion would be undone. To preserve the timeline, brave adventurers must venture back seventeen years into the swamplands of the Black Morass. There, they must protect the Guardian Medivh as he conducts his ritual, ensuring that the dark gateway opens and the threads of fate remain unbroken."
+    "Deep within the Caverns of Time, the Infinite Dragonflight seeks to alter the course of history by preventing the opening of the Dark Portal. Should they succeed, the orcs would never arrive on Azeroth, and the pivotal events that shaped the world's defense against the Burning Legion would be undone. To preserve the timeline, brave adventurers must venture back seventeen years into the swamplands of the Black Morass. There, they must protect the Guardian Medivh as he conducts his ritual, ensuring that the dark gateway opens and the threads of fate remain unbroken."
 
 -- BM Links
 IJ_DB_DUNGEON_BM_LINK_BM = "The Black Morass"
@@ -593,25 +548,25 @@ IJ_DB_DUNGEON_BM_LINK_BM = "The Black Morass"
 -- BM Bosses
 IJ_DB_DUNGEON_BM_BOSS_NAME_65113 = "Chronar"
 IJ_DB_DUNGEON_BM_BOSS_STORY_65113 =
-"Once a proud defender of the timeways, Chronar broke his sacred oaths to the Bronze Dragonflight to consort with the Infinite. Now a twisted husk of his former self, he wields a 'Time-Worn Spear', a weapon he claimed from a human hero in a past conflict, as he works tirelessly to shatter the very history he once swore to protect."
+    "Once a proud defender of the timeways, Chronar broke his sacred oaths to the Bronze Dragonflight to consort with the Infinite. Now a twisted husk of his former self, he wields a 'Time-Worn Spear', a weapon he claimed from a human hero in a past conflict, as he works tirelessly to shatter the very history he once swore to protect."
 IJ_DB_DUNGEON_BM_BOSS_NAME_61575 = "Epidamu"
 IJ_DB_DUNGEON_BM_BOSS_STORY_61575 =
-"As the temporal anomalies within the morass intensify, creatures from across the boundaries of time are drawn to the conflict. Epidamu serves as a harbinger of the Infinite's will, using its reality-warping powers to siphon the essence of the swamp and manifest the Corrupted Sand that plagues the broken timelines."
+    "As the temporal anomalies within the morass intensify, creatures from across the boundaries of time are drawn to the conflict. Epidamu serves as a harbinger of the Infinite's will, using its reality-warping powers to siphon the essence of the swamp and manifest the Corrupted Sand that plagues the broken timelines."
 IJ_DB_DUNGEON_BM_BOSS_NAME_61316 = "Drifting Avatar of Sand"
 IJ_DB_DUNGEON_BM_BOSS_STORY_61316 =
-"Formed from the collective weight of shattered possibilities, the Drifting Avatar of Sand is a mindless construct of the Infinite Dragonflight. It acts as a literal hourglass of doom, embodying the Corrupted Sand that leaks from the wounds in the timeline, crushing any who seek to repair the chronal damage."
+    "Formed from the collective weight of shattered possibilities, the Drifting Avatar of Sand is a mindless construct of the Infinite Dragonflight. It acts as a literal hourglass of doom, embodying the Corrupted Sand that leaks from the wounds in the timeline, crushing any who seek to repair the chronal damage."
 IJ_DB_DUNGEON_BM_BOSS_NAME_65116 = "Time-Lord Epochronos"
 IJ_DB_DUNGEON_BM_BOSS_STORY_65116 =
-"A high-ranking strategist of the Infinite Dragonflight, Epochronos oversees the tactical assault on Medivh's ritual. He views the linear flow of time as a cage and seeks to unlock a future where the Legion's ultimate defeat is averted, believing that his 'corrections' to the past are for the greater good of the multiverse."
+    "A high-ranking strategist of the Infinite Dragonflight, Epochronos oversees the tactical assault on Medivh's ritual. He views the linear flow of time as a cage and seeks to unlock a future where the Legion's ultimate defeat is averted, believing that his 'corrections' to the past are for the greater good of the multiverse."
 IJ_DB_DUNGEON_BM_BOSS_NAME_65124 = "Mossheart"
 IJ_DB_DUNGEON_BM_BOSS_STORY_65124 =
-"The ancient bog beasts of the Black Morass have long been sensitive to the energies of the land. Mossheart, once a peaceful protector of the mire, has been driven to a state of primal fury by the temporal radiation leaking from the Dark Portal. It now lashes out at anything-bronze or infinite-that disturbs the murky depths of its home."
+    "The ancient bog beasts of the Black Morass have long been sensitive to the energies of the land. Mossheart, once a peaceful protector of the mire, has been driven to a state of primal fury by the temporal radiation leaking from the Dark Portal. It now lashes out at anything-bronze or infinite-that disturbs the murky depths of its home."
 IJ_DB_DUNGEON_BM_BOSS_NAME_65125 = "Antnormi"
 IJ_DB_DUNGEON_BM_BOSS_STORY_65125 =
-"Formerly a sister-in-arms to the bronze dragon Keridormi, Antnormi's betrayal is perhaps the most personal of all. Convinced that the arrival of the orcs is a tragedy that must be erased, she has embraced the Infinite path. She stands as the final obstacle in the southern timeway, willing to kill her former kin to see her vision of a 'pure' history realized."
+    "Formerly a sister-in-arms to the bronze dragon Keridormi, Antnormi's betrayal is perhaps the most personal of all. Convinced that the arrival of the orcs is a tragedy that must be erased, she has embraced the Infinite path. She stands as the final obstacle in the southern timeway, willing to kill her former kin to see her vision of a 'pure' history realized."
 IJ_DB_DUNGEON_BM_BOSS_NAME_65122 = "Rotmaw"
 IJ_DB_DUNGEON_BM_BOSS_STORY_65122 =
-"A massive crocolisk of legendary appetite, Rotmaw has feasted upon the displaced chronal energies of the swamp for years. The beast has grown unnaturally large and aggressive, its maw dripping with entropic rot. It cares little for the preservation of time, seeing the invaders of the Black Morass only as a much-needed feast."
+    "A massive crocolisk of legendary appetite, Rotmaw has feasted upon the displaced chronal energies of the swamp for years. The beast has grown unnaturally large and aggressive, its maw dripping with entropic rot. It cares little for the preservation of time, seeing the invaders of the Black Morass only as a much-needed feast."
 
 -- BM Loot
 IJ_LOOT_NAME_61016 = "Time-Lost Claymore"
@@ -673,27 +628,27 @@ IJ_LOOT_NAME_61701 = "Wraps of the Transmogrified"
 -- SMGY
 IJ_DB_DUNGEON_SMGY_NAME = "Scarlet Monastery (Graveyard)"
 IJ_DB_DUNGEON_SMGY_STORY =
-"The monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful monastery was converted into a stronghold of the fanatical Scarlet Crusade. The crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed."
+    "The monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful monastery was converted into a stronghold of the fanatical Scarlet Crusade. The crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed."
 
 -- SMGY Bosses
 IJ_DB_DUNGEON_SMGY_BOSS_NAME_3983 = "Interrogator Vishas"
 IJ_DB_DUNGEON_SMGY_BOSS_STORY_3983 =
-"James Vishas is the Scarlet Crusade's lead interrogator at the Scarlet Monastery. He enjoys torturing any captured undead and takes great pride in his work. Vishas is known for his unrelenting sadism, cruel expertise, and high pitched voice."
+    "James Vishas is the Scarlet Crusade's lead interrogator at the Scarlet Monastery. He enjoys torturing any captured undead and takes great pride in his work. Vishas is known for his unrelenting sadism, cruel expertise, and high pitched voice."
 IJ_DB_DUNGEON_SMGY_BOSS_NAME_61972 = "Duke Dreadmoore"
 IJ_DB_DUNGEON_SMGY_BOSS_STORY_61972 =
-"Not much is known about Duke Dreadmoore, a death knight believed to be a harbinger of Naxxramas. Recently captured by the Scarlet Crusade, he lies imprisoned within the monastery’s underground cells beneath the torture chambers, where he is subjected to relentless experimentation. Though bound and studied, Dreadmoore remains far from broken, biding his time and awaiting the moment to unleash the full extent of his dark power upon his captors."
+    "Not much is known about Duke Dreadmoore, a death knight believed to be a harbinger of Naxxramas. Recently captured by the Scarlet Crusade, he lies imprisoned within the monastery’s underground cells beneath the torture chambers, where he is subjected to relentless experimentation. Though bound and studied, Dreadmoore remains far from broken, biding his time and awaiting the moment to unleash the full extent of his dark power upon his captors."
 IJ_DB_DUNGEON_SMGY_BOSS_NAME_6489 = "Ironspine"
 IJ_DB_DUNGEON_SMGY_BOSS_STORY_6489 =
-"An elusive undead, rarely seen accross the graveyard of the monastery. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
+    "An elusive undead, rarely seen accross the graveyard of the monastery. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
 IJ_DB_DUNGEON_SMGY_BOSS_NAME_6490 = "Azshir the Sleepless"
 IJ_DB_DUNGEON_SMGY_BOSS_STORY_6490 =
-"An elusive human ghost, rarely seen accross the graveyard of the monastery. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
+    "An elusive human ghost, rarely seen accross the graveyard of the monastery. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
 IJ_DB_DUNGEON_SMGY_BOSS_NAME_6488 = "Fallen Champion"
 IJ_DB_DUNGEON_SMGY_BOSS_STORY_6488 =
-"An elusive undead, rarely seen accross the graveyard of the monastery. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
+    "An elusive undead, rarely seen accross the graveyard of the monastery. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
 IJ_DB_DUNGEON_SMGY_BOSS_NAME_4543 = "Bloodmage Thalnos"
 IJ_DB_DUNGEON_SMGY_BOSS_STORY_4543 =
-"Thalnos earned repute in the Scarlet Crusade for the brutal torture methods he used to \"purify\" new recruits. Ultimately the sadistic mage contracted the plague of undeath and arose as a fearsome skeletal being. The vengeful Thalnos prowled the monastery's graveyard commanding apparitions and zombified creatures to attack anyone who trespasses on his unholy domain."
+    "Thalnos earned repute in the Scarlet Crusade for the brutal torture methods he used to \"purify\" new recruits. Ultimately the sadistic mage contracted the plague of undeath and arose as a fearsome skeletal being. The vengeful Thalnos prowled the monastery's graveyard commanding apparitions and zombified creatures to attack anyone who trespasses on his unholy domain."
 
 -- SMGY Loot
 IJ_LOOT_NAME_7682 = "Torturing Poker"
@@ -720,18 +675,18 @@ IJ_LOOT_NAME_80743 = "Darkcaster Gloves"
 -- SMLIB
 IJ_DB_DUNGEON_SMLIB_NAME = "Scarlet Monastery (Library)"
 IJ_DB_DUNGEON_SMLIB_STORY =
-"The monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful monastery was converted into a stronghold of the fanatical Scarlet Crusade. The crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed."
+    "The monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful monastery was converted into a stronghold of the fanatical Scarlet Crusade. The crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed."
 
 -- SMLIB Bosses
 IJ_DB_DUNGEON_SMLIB_BOSS_NAME_3974 = "Houndmaster Loksey"
 IJ_DB_DUNGEON_SMLIB_BOSS_STORY_3974 =
-"Houndmaster Loksey is one of the four leaders of the Scarlet Monastery, and the captain in charge of training the hounds that the Scarlet Crusade uses to track down their enemies. Loksey commands the loyalty of fearsome dogs that can tear their victims apart limb by limb within minutes."
+    "Houndmaster Loksey is one of the four leaders of the Scarlet Monastery, and the captain in charge of training the hounds that the Scarlet Crusade uses to track down their enemies. Loksey commands the loyalty of fearsome dogs that can tear their victims apart limb by limb within minutes."
 IJ_DB_DUNGEON_SMLIB_BOSS_NAME_61983 = "Brother Wystan"
 IJ_DB_DUNGEON_SMLIB_BOSS_STORY_61983 =
-"Brother Wystan serves as a gatekeeper of the Monastery's archives, fanatically protecting the 'heretical' objects the Crusade has seized from the outside world. Among his collection is a Thorium Tuned Servo, a complex piece of engineering he considers an affront to the Light. While many mages like Elias have fled the order after witnessing the elite's descent into madness and necromancy, Wystan remains a stalwart shield, ensuring no 'unnatural' influence leaves the Library's walls."
+    "Brother Wystan serves as a gatekeeper of the Monastery's archives, fanatically protecting the 'heretical' objects the Crusade has seized from the outside world. Among his collection is a Thorium Tuned Servo, a complex piece of engineering he considers an affront to the Light. While many mages like Elias have fled the order after witnessing the elite's descent into madness and necromancy, Wystan remains a stalwart shield, ensuring no 'unnatural' influence leaves the Library's walls."
 IJ_DB_DUNGEON_SMLIB_BOSS_NAME_6487 = "Arcanist Doan"
 IJ_DB_DUNGEON_SMLIB_BOSS_STORY_6487 =
-"Doan acts as the keeper of the Scarlet Monastery's library; a guardian of the arcane that the Scarlet Crusade is rumored to distrust. Yet he is indeed a trusted official of the Crusade, keeping a vital key that granted access to Scarlet operations across the Plaguelands. Arcanist Doan believes that arcane magic is the only way to rid Lordaeron of the Scourge."
+    "Doan acts as the keeper of the Scarlet Monastery's library; a guardian of the arcane that the Scarlet Crusade is rumored to distrust. Yet he is indeed a trusted official of the Crusade, keeping a vital key that granted access to Scarlet operations across the Plaguelands. Arcanist Doan believes that arcane magic is the only way to rid Lordaeron of the Scourge."
 
 -- SMLIB Loot
 IJ_LOOT_NAME_7710 = "Loksey's Training Stick"
@@ -749,15 +704,14 @@ IJ_LOOT_NAME_7714 = "Hypnotic Blade"
 -- SMARM
 IJ_DB_DUNGEON_SMARM_NAME = "Scarlet Monastery (Armory)"
 IJ_DB_DUNGEON_SMARM_STORY =
-"The monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful monastery was converted into a stronghold of the fanatical Scarlet Crusade. The crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed."
+    "The monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful monastery was converted into a stronghold of the fanatical Scarlet Crusade. The crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed."
 
 -- SMARM Bosses
 IJ_DB_DUNGEON_SMARM_BOSS_NAME_61982 = "Armory Quartermaster Daghelm"
 IJ_DB_DUNGEON_SMARM_BOSS_STORY_61982 =
-"Once a promising apprentice to the master blacksmith Basil Frye, Daghelm chose to stay at the Monastery when the Scourge hit, while his mentor fled to the muck of the Undercity. The years of isolation and fanaticism have turned him into a psychotic zealot, obsessed with forging armor within the 'blessings' of the Light. He still carries his mentor's journal on Lightforge ingots, refusing to relinquish the precious notes even as the Crusade he serves crumbles into corruption around him."
+    "Once a promising apprentice to the master blacksmith Basil Frye, Daghelm chose to stay at the Monastery when the Scourge hit, while his mentor fled to the muck of the Undercity. The years of isolation and fanaticism have turned him into a psychotic zealot, obsessed with forging armor within the 'blessings' of the Light. He still carries his mentor's journal on Lightforge ingots, refusing to relinquish the precious notes even as the Crusade he serves crumbles into corruption around him."
 IJ_DB_DUNGEON_SMARM_BOSS_NAME_3975 = "Herod"
-IJ_DB_DUNGEON_SMARM_BOSS_STORY_3975 =
-"Herod is one of the four Scarlet Crusade leaders in the Scarlet Monastery. A champion of the Scarlet Crusade, he is known for his brutish reputation."
+IJ_DB_DUNGEON_SMARM_BOSS_STORY_3975 = "Herod is one of the four Scarlet Crusade leaders in the Scarlet Monastery. A champion of the Scarlet Crusade, he is known for his brutish reputation."
 
 -- SMARM Loot
 IJ_LOOT_NAME_55474 = "Balanced Razor Shivs"
@@ -772,18 +726,17 @@ IJ_LOOT_NAME_10330 = "Scarlet Leggings"
 -- SMCATH
 IJ_DB_DUNGEON_SMCATH_NAME = "Scarlet Monastery (Cathedral)"
 IJ_DB_DUNGEON_SMCATH_STORY =
-"The monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful monastery was converted into a stronghold of the fanatical Scarlet Crusade. The crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed."
+    "The monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful monastery was converted into a stronghold of the fanatical Scarlet Crusade. The crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed."
 
 -- SMCATH Bosses
 IJ_DB_DUNGEON_SMCATH_BOSS_NAME_4542 = "High Inquisitor Fairbanks"
 IJ_DB_DUNGEON_SMCATH_BOSS_STORY_4542 =
-"Once a priest and member of the Knights of the Silver Hand, as the closest advisor to Highlord Mograine, he was also the former High Inquisitor of the Scarlet Crusade. Executed by the crusaders for his blasphemous accusations against Saidan Dathrohan and Renault Mograine, he eventually became an undead."
+    "Once a priest and member of the Knights of the Silver Hand, as the closest advisor to Highlord Mograine, he was also the former High Inquisitor of the Scarlet Crusade. Executed by the crusaders for his blasphemous accusations against Saidan Dathrohan and Renault Mograine, he eventually became an undead."
 IJ_DB_DUNGEON_SMCATH_BOSS_NAME_3976 = "Scarlet Commander Mograine"
 IJ_DB_DUNGEON_SMCATH_BOSS_STORY_3976 =
-"In his youth, Renault was a member of the Knights of the Silver Hand and the son of their leader, Highlord Alexandros Mograine. Manipulated by Balnazzar through the possessed corpse of Saidan Dathrohan, and jealous of the attention given to his brother Darion Mograine, Renault accepted the offer of the Grand Crusader and led his father into an ambush before murdering him with the Ashbringer. As promised, Renault became the Scarlet Commander of the Scarlet Monastery."
+    "In his youth, Renault was a member of the Knights of the Silver Hand and the son of their leader, Highlord Alexandros Mograine. Manipulated by Balnazzar through the possessed corpse of Saidan Dathrohan, and jealous of the attention given to his brother Darion Mograine, Renault accepted the offer of the Grand Crusader and led his father into an ambush before murdering him with the Ashbringer. As promised, Renault became the Scarlet Commander of the Scarlet Monastery."
 IJ_DB_DUNGEON_SMCATH_BOSS_NAME_3977 = "High Inquisitor Whitemane"
-IJ_DB_DUNGEON_SMCATH_BOSS_STORY_3977 =
-"Sally Whitemane is a priestess of the Light and the High Inquisitor of the Scarlet Crusade. She directs their activities from within the Scarlet Monastery's Cathedral."
+IJ_DB_DUNGEON_SMCATH_BOSS_STORY_3977 = "Sally Whitemane is a priestess of the Light and the High Inquisitor of the Scarlet Crusade. She directs their activities from within the Scarlet Monastery's Cathedral."
 
 -- SMCATH Loot
 IJ_LOOT_NAME_19507 = "Inquisitor's Shawl"
@@ -800,36 +753,35 @@ IJ_LOOT_NAME_7722 = "Triune Amulet"
 -- ZF
 IJ_DB_DUNGEON_ZF_NAME = "Zul'Farrak"
 IJ_DB_DUNGEON_ZF_STORY =
-"Zul'Farrak was once the shining jewel of Tanaris, ferociously protected by the cunning Sandfury tribe. Despite the trolls' tenacity, this isolated group was forced to surrender much of its territory throughout history. Now, it appears that Zul'Farrak's inhabitants are creating a horrific army of undead trolls to conquer the surrounding region. Other disturbing rumors tell of an ancient creature sleeping within the city--one that, if awakened, will rain death and destruction across Tanaris."
+    "Zul'Farrak was once the shining jewel of Tanaris, ferociously protected by the cunning Sandfury tribe. Despite the trolls' tenacity, this isolated group was forced to surrender much of its territory throughout history. Now, it appears that Zul'Farrak's inhabitants are creating a horrific army of undead trolls to conquer the surrounding region. Other disturbing rumors tell of an ancient creature sleeping within the city--one that, if awakened, will rain death and destruction across Tanaris."
 
 -- ZF Bosses
 IJ_DB_DUNGEON_ZF_BOSS_NAME_10082 = "Zerillis"
 IJ_DB_DUNGEON_ZF_BOSS_STORY_10082 =
-"An elusive troll, rarely seen accross the city of Zul'Farrak. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+    "An elusive troll, rarely seen accross the city of Zul'Farrak. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
 IJ_DB_DUNGEON_ZF_BOSS_NAME_7272 = "Theka the Martyr"
 IJ_DB_DUNGEON_ZF_BOSS_STORY_7272 =
-"Long ago, the martyr Theka was slain in the brutal war between the qiraji and the trolls. Zul'Farrak still stands because of his brave sacrifice. Even in death he maintains a vigil over his beloved city, and it is said that the dozens of insectoid warriors who killed him were cursed to live as mindless scarabs, scuttling at the martyr's side."
+    "Long ago, the martyr Theka was slain in the brutal war between the qiraji and the trolls. Zul'Farrak still stands because of his brave sacrifice. Even in death he maintains a vigil over his beloved city, and it is said that the dozens of insectoid warriors who killed him were cursed to live as mindless scarabs, scuttling at the martyr's side."
 IJ_DB_DUNGEON_ZF_BOSS_NAME_8127 = "Antu'sul"
 IJ_DB_DUNGEON_ZF_BOSS_STORY_8127 =
-"Antu'sul prefers his sul'lithuz basilisks strong and ruthless. He treats these scaled beasts like family, and he is known to strike down anyone--even fellow trolls--who harm his precious children. Rather than give his opponents a proper burial, Antu'sul allows the basilisks to feast on whoever dares cross him."
+    "Antu'sul prefers his sul'lithuz basilisks strong and ruthless. He treats these scaled beasts like family, and he is known to strike down anyone--even fellow trolls--who harm his precious children. Rather than give his opponents a proper burial, Antu'sul allows the basilisks to feast on whoever dares cross him."
 IJ_DB_DUNGEON_ZF_BOSS_NAME_7271 = "Witch Doctor Zum'rah"
 IJ_DB_DUNGEON_ZF_BOSS_STORY_7271 =
-"The powerful loa Bwonsamdi watches over the spirits of the Darkspear trolls, but many of the Sandfury tribe's fallen members are offered no such protection after death. These tortured spirits obey Zum'rah, a cruel witch doctor who uses his dark magic to force the city's dead into unending service."
+    "The powerful loa Bwonsamdi watches over the spirits of the Darkspear trolls, but many of the Sandfury tribe's fallen members are offered no such protection after death. These tortured spirits obey Zum'rah, a cruel witch doctor who uses his dark magic to force the city's dead into unending service."
 IJ_DB_DUNGEON_ZF_BOSS_NAME_7275 = "Shadowpriest Sezz'ziz"
 IJ_DB_DUNGEON_ZF_BOSS_STORY_7275 =
-"Nekrum Gutchewer has mysteriously lived well past his natural life, but his decaying body remains strong enough to aid Sezz'ziz. Together, these two trolls have gathered sacrifices to the mythic beast Gahz'rilla, who slumbers at the city's heart. Many troll followers eagerly await the terrifying creature's awakening, and they will do anything to see the ritual through."
+    "Nekrum Gutchewer has mysteriously lived well past his natural life, but his decaying body remains strong enough to aid Sezz'ziz. Together, these two trolls have gathered sacrifices to the mythic beast Gahz'rilla, who slumbers at the city's heart. Many troll followers eagerly await the terrifying creature's awakening, and they will do anything to see the ritual through."
 IJ_DB_DUNGEON_ZF_BOSS_NAME_7267 = "Chief Ukorz Sandscalp"
 IJ_DB_DUNGEON_ZF_BOSS_STORY_7267 =
-"Chief Ukorz Sandscalp is obsessed with restoring his tribe to its former glory. He was raised on stories of a time when trolls lorded over their ancient lands without interference from goblins, gnomes, pirates, ogres, and other foreign interlopers. Sandscalp has called on his trusted comrade Ruuzlu to help him begin a new chapter in Sandfury history in the only way their tribe knows how: with swift and blinding violence."
+    "Chief Ukorz Sandscalp is obsessed with restoring his tribe to its former glory. He was raised on stories of a time when trolls lorded over their ancient lands without interference from goblins, gnomes, pirates, ogres, and other foreign interlopers. Sandscalp has called on his trusted comrade Ruuzlu to help him begin a new chapter in Sandfury history in the only way their tribe knows how: with swift and blinding violence."
 IJ_DB_DUNGEON_ZF_BOSS_NAME_7273 = "Gahz'rilla"
 IJ_DB_DUNGEON_ZF_BOSS_STORY_7273 =
-"Legend has it that Gahz'rilla was an adored pet of the Old Gods, or even a demigod in her own right. Whatever the truth is, the Sandfury trolls have worshiped this monstrous hydra for thousands of years. Ever wary of the beast's icy wrath, the trolls will only rouse Gahz'rilla when they have plentiful sacrifices to sate the ravenous creature's appetite."
+    "Legend has it that Gahz'rilla was an adored pet of the Old Gods, or even a demigod in her own right. Whatever the truth is, the Sandfury trolls have worshiped this monstrous hydra for thousands of years. Ever wary of the beast's icy wrath, the trolls will only rouse Gahz'rilla when they have plentiful sacrifices to sate the ravenous creature's appetite."
 IJ_DB_DUNGEON_ZF_BOSS_NAME_62495 = "Zel'jeb the Ancient"
 IJ_DB_DUNGEON_ZF_BOSS_STORY_62495 =
-"While Chief Ukorz Sandscalp was once a promising leader whose mind was eventually warped by dark magics, Zel'jeb represents the older, lingering shadows of the Sandfury tribe. This ancient troll serves as a grim reminder of the magic that began the corruption of the city's leadership, helping to fuel the brutal and cold nature that now defines the chief's inner sanctum. As the sands of Zul'Farrak shift, Zel'jeb stands alongside the tribe's most fanatical warriors, ensuring that the legacy of their warped power does not simply drift away like sand on the dunes."
+    "While Chief Ukorz Sandscalp was once a promising leader whose mind was eventually warped by dark magics, Zel'jeb represents the older, lingering shadows of the Sandfury tribe. This ancient troll serves as a grim reminder of the magic that began the corruption of the city's leadership, helping to fuel the brutal and cold nature that now defines the chief's inner sanctum. As the sands of Zul'Farrak shift, Zel'jeb stands alongside the tribe's most fanatical warriors, ensuring that the legacy of their warped power does not simply drift away like sand on the dunes."
 IJ_DB_DUNGEON_ZF_BOSS_NAME_62498 = "Farraki Arena"
-IJ_DB_DUNGEON_ZF_BOSS_STORY_62498 =
-"The Farraki Arena is a reputed battleground where trolls from all accross the city of Zul'Farrak come and compete in bloody death matches."
+IJ_DB_DUNGEON_ZF_BOSS_STORY_62498 = "The Farraki Arena is a reputed battleground where trolls from all accross the city of Zul'Farrak come and compete in bloody death matches."
 
 -- ZF Loot
 IJ_LOOT_NAME_12470 = "Sandstalker Ankleguards"
@@ -865,15 +817,13 @@ IJ_LOOT_NAME_58095 = "Talisman of the Sandborn"
 -- ST
 IJ_DB_DUNGEON_ST_NAME = "The Temple of Atal'Hakkar"
 IJ_DB_DUNGEON_ST_STORY =
-"Thousands of years ago, the Gurubashi empire was plunged into a civil war by a powerful sect of priests, the Atal'ai, who sought to summon to Azeroth an avatar of their god of blood, Hakkar the Soulflayer. The Gurubashi people exiled the Atal'ai to the Swamp of Sorrows, where the priests built the Temple of Atal'Hakkar. Ysera, Aspect of the green dragonflight, sank the temple beneath the swamp and assigned wardens to ensure that the summoning rituals never be performed again."
+    "Thousands of years ago, the Gurubashi empire was plunged into a civil war by a powerful sect of priests, the Atal'ai, who sought to summon to Azeroth an avatar of their god of blood, Hakkar the Soulflayer. The Gurubashi people exiled the Atal'ai to the Swamp of Sorrows, where the priests built the Temple of Atal'Hakkar. Ysera, Aspect of the green dragonflight, sank the temple beneath the swamp and assigned wardens to ensure that the summoning rituals never be performed again."
 
 -- ST Bosses
 IJ_DB_DUNGEON_ST_BOSS_NAME_8580 = "Atal'alarion"
-IJ_DB_DUNGEON_ST_BOSS_STORY_8580 =
-"Atal'alarion is the sworn protector of the idol found on the lowest level of the temple."
+IJ_DB_DUNGEON_ST_BOSS_STORY_8580 = "Atal'alarion is the sworn protector of the idol found on the lowest level of the temple."
 IJ_DB_DUNGEON_ST_BOSS_NAME_5708 = "Spawn of Hakkar"
-IJ_DB_DUNGEON_ST_BOSS_STORY_5708 =
-"One of the many spawns of Hakkar, wandering through the halls of the sunken temple..."
+IJ_DB_DUNGEON_ST_BOSS_STORY_5708 = "One of the many spawns of Hakkar, wandering through the halls of the sunken temple..."
 IJ_DB_DUNGEON_ST_BOSS_NAME_5713 = "Gasher"
 IJ_DB_DUNGEON_ST_BOSS_STORY_5713 = "One of the six trolls protectors, keeping the dreamer asleep..."
 IJ_DB_DUNGEON_ST_BOSS_NAME_5717 = "Mijan"
@@ -888,25 +838,21 @@ IJ_DB_DUNGEON_ST_BOSS_NAME_5714 = "Loro"
 IJ_DB_DUNGEON_ST_BOSS_STORY_5714 = "One of the six trolls protectors, keeping the dreamer asleep..."
 IJ_DB_DUNGEON_ST_BOSS_NAME_5710 = "Jammal'an the Prophet"
 IJ_DB_DUNGEON_ST_BOSS_STORY_5710 =
-"Jammal'an is the current leader of the Atal'ai, the extremist sect of priests who fanatically worship Hakkar. While in deep meditation, Jammal'an received instructions on how to resurrect Hakkar by using the blood of his draconic foes, the green dragonflight. Jammal'an and his undead bodyguard Ogom the Wretched stand ready to oppose any who would prevent Hakkar's return, though the prophet's actions may unleash upon Azeroth an even more terrible force: the Emerald Nightmare."
+    "Jammal'an is the current leader of the Atal'ai, the extremist sect of priests who fanatically worship Hakkar. While in deep meditation, Jammal'an received instructions on how to resurrect Hakkar by using the blood of his draconic foes, the green dragonflight. Jammal'an and his undead bodyguard Ogom the Wretched stand ready to oppose any who would prevent Hakkar's return, though the prophet's actions may unleash upon Azeroth an even more terrible force: the Emerald Nightmare."
 IJ_DB_DUNGEON_ST_BOSS_NAME_5721 = "Dreamscythe"
-IJ_DB_DUNGEON_ST_BOSS_STORY_5721 =
-"One of the four drake under the direct command of Eranikus, the Dreamer. They are watching over him and prevent any potential intruder from waking him from his slumber."
+IJ_DB_DUNGEON_ST_BOSS_STORY_5721 = "One of the four drake under the direct command of Eranikus, the Dreamer. They are watching over him and prevent any potential intruder from waking him from his slumber."
 IJ_DB_DUNGEON_ST_BOSS_NAME_5720 = "Weaver"
-IJ_DB_DUNGEON_ST_BOSS_STORY_5720 =
-"One of the four drake under the direct command of Eranikus, the Dreamer. They are watching over him and prevent any potential intruder from waking him from his slumber."
+IJ_DB_DUNGEON_ST_BOSS_STORY_5720 = "One of the four drake under the direct command of Eranikus, the Dreamer. They are watching over him and prevent any potential intruder from waking him from his slumber."
 IJ_DB_DUNGEON_ST_BOSS_NAME_5719 = "Morphaz"
-IJ_DB_DUNGEON_ST_BOSS_STORY_5719 =
-"One of the four drake under the direct command of Eranikus, the Dreamer. They are watching over him and prevent any potential intruder from waking him from his slumber."
+IJ_DB_DUNGEON_ST_BOSS_STORY_5719 = "One of the four drake under the direct command of Eranikus, the Dreamer. They are watching over him and prevent any potential intruder from waking him from his slumber."
 IJ_DB_DUNGEON_ST_BOSS_NAME_5722 = "Hazzas"
-IJ_DB_DUNGEON_ST_BOSS_STORY_5722 =
-"One of the four drake under the direct command of Eranikus, the Dreamer. They are watching over him and prevent any potential intruder from waking him from his slumber."
+IJ_DB_DUNGEON_ST_BOSS_STORY_5722 = "One of the four drake under the direct command of Eranikus, the Dreamer. They are watching over him and prevent any potential intruder from waking him from his slumber."
 IJ_DB_DUNGEON_ST_BOSS_NAME_5709 = "Shade of Eranikus"
 IJ_DB_DUNGEON_ST_BOSS_STORY_5709 =
-"Eranikus, former consort to Ysera the Dreamer, was sent to guard the ruins of Atal'Hakkar and prevent Hakkar's emergence. Once within the temple, he and his retinue were corrupted by its dark forces, and he became a shade, pulled between the realms of the Emerald Dream and the physical plane. Despite his corruption, Eranikus may still call upon his powers as a green dragon to spew corrosive acid at his enemies or trap them in a deep slumber."
+    "Eranikus, former consort to Ysera the Dreamer, was sent to guard the ruins of Atal'Hakkar and prevent Hakkar's emergence. Once within the temple, he and his retinue were corrupted by its dark forces, and he became a shade, pulled between the realms of the Emerald Dream and the physical plane. Despite his corruption, Eranikus may still call upon his powers as a green dragon to spew corrosive acid at his enemies or trap them in a deep slumber."
 IJ_DB_DUNGEON_ST_BOSS_NAME_8443 = "Avatar of Hakkar"
 IJ_DB_DUNGEON_ST_BOSS_STORY_8443 =
-"Hakkar was notorious for demanding sacrifices from his followers. Many millennia ago, he instructed the Atal'ai to bring for this avatar, using blood ritually drained from living victims to feed him. The Atal'ai priests now seek to raise Hakkar's avatar with a modified version of this ritual, one that involves sacrificing green dragons. If the Atal'ai succeed, the re-emergence of Hakkar's avatar could spell doom for Azeroth."
+    "Hakkar was notorious for demanding sacrifices from his followers. Many millennia ago, he instructed the Atal'ai to bring for this avatar, using blood ritually drained from living victims to feed him. The Atal'ai priests now seek to raise Hakkar's avatar with a modified version of this ritual, one that involves sacrificing green dragons. If the Atal'ai succeed, the re-emergence of Hakkar's avatar could spell doom for Azeroth."
 
 -- ST Loot
 IJ_LOOT_NAME_10798 = "Atal'alarion's Tusk Ring"
@@ -953,32 +899,32 @@ IJ_LOOT_NAME_12462 = "Embrace of the Wind Serpent"
 -- BFD
 IJ_DB_DUNGEON_BFD_NAME = "Blackfathom Deeps"
 IJ_DB_DUNGEON_BFD_STORY =
-"Once dedicated to the night elves' goddess Elune, Blackfathom Deeps was thought to have been destroyed during the Sundering, lost beneath the ocean. Millennia later, members of the Twilight's Hammer cult were drawn to the temple by whispers and foul dreams. After sacrificing untold numbers of innocents, the cult was rewarded with a new task: to protect one of the Old Gods' most cherished creatures, a pet that is still in need of nurturing before he can unleash his dark powers on the world."
+    "Once dedicated to the night elves' goddess Elune, Blackfathom Deeps was thought to have been destroyed during the Sundering, lost beneath the ocean. Millennia later, members of the Twilight's Hammer cult were drawn to the temple by whispers and foul dreams. After sacrificing untold numbers of innocents, the cult was rewarded with a new task: to protect one of the Old Gods' most cherished creatures, a pet that is still in need of nurturing before he can unleash his dark powers on the world."
 
 -- BFD Bosses
 IJ_DB_DUNGEON_BFD_BOSS_NAME_4887 = "Ghamoo-ra"
 IJ_DB_DUNGEON_BFD_BOSS_STORY_4887 =
-"When the Twilight's Hammer cult arrived, its followers roused and imprisoned one of the last peaceful creatures living in Elune's temple. The cult delighted in tormenting the giant turtle for years, flaying its mind and body until it succumbed to madness. Naming the beast Ghamoo-Ra, the cultists trained it to attack outsiders and defend the Old Gods' shrine."
+    "When the Twilight's Hammer cult arrived, its followers roused and imprisoned one of the last peaceful creatures living in Elune's temple. The cult delighted in tormenting the giant turtle for years, flaying its mind and body until it succumbed to madness. Naming the beast Ghamoo-Ra, the cultists trained it to attack outsiders and defend the Old Gods' shrine."
 IJ_DB_DUNGEON_BFD_BOSS_NAME_4831 = "Lady Sarevess"
 IJ_DB_DUNGEON_BFD_BOSS_STORY_4831 =
-"The Twilight's Hammer granted Lady Sarevess her own private cove within Blackfathom Deeps, continuously sending her fresh sacrifices. The cultists hope that her rituals and research will result in magical protection that will allow them to worship the terrifying hydra at the deeps' core without fear of becoming his next meal."
+    "The Twilight's Hammer granted Lady Sarevess her own private cove within Blackfathom Deeps, continuously sending her fresh sacrifices. The cultists hope that her rituals and research will result in magical protection that will allow them to worship the terrifying hydra at the deeps' core without fear of becoming his next meal."
 IJ_DB_DUNGEON_BFD_BOSS_NAME_6243 = "Gelihast"
 IJ_DB_DUNGEON_BFD_BOSS_STORY_6243 =
-"The Old Gods called, and Gelihast answered, forcing his way into Blackfathom Deeps and slaughtering nearly a dozen surprised Twilight's Hammer cultists with his twin swords. Impressed by his ferocity and brutality, the cult allowed him to stay, and he built his own shrine to offer sacrifices and receive blessings from the ominous presence in the temple ruins."
+    "The Old Gods called, and Gelihast answered, forcing his way into Blackfathom Deeps and slaughtering nearly a dozen surprised Twilight's Hammer cultists with his twin swords. Impressed by his ferocity and brutality, the cult allowed him to stay, and he built his own shrine to offer sacrifices and receive blessings from the ominous presence in the temple ruins."
 IJ_DB_DUNGEON_BFD_BOSS_NAME_12902 = "Lorgus Jett"
 IJ_DB_DUNGEON_BFD_BOSS_STORY_12902 =
-"A mysterious member of the Twilight's Hammer, said to possess shamanic abilities depsite being a human. Rumors says he was a member of the Knight of the Silver Hand before deserting and joining the Twilight's Hammer."
+    "A mysterious member of the Twilight's Hammer, said to possess shamanic abilities depsite being a human. Rumors says he was a member of the Knight of the Silver Hand before deserting and joining the Twilight's Hammer."
 IJ_DB_DUNGEON_BFD_BOSS_NAME_62530 = "Velthelaxx the Defiler"
 IJ_DB_DUNGEON_BFD_BOSS_STORY_62530 = "An ancient satyr, skulking in the ancient temple to Elune."
 IJ_DB_DUNGEON_BFD_BOSS_NAME_4830 = "Old Serra'kis"
 IJ_DB_DUNGEON_BFD_BOSS_STORY_4830 =
-"Many of the creatures swimming beneath the Moonshrine Ruins were killed for food after the Twilight's Hammer cult took up residence, but the largest thresher in the water proved to be uncatchable, and those who persisted in hunting it inevitably died in the attempt."
+    "Many of the creatures swimming beneath the Moonshrine Ruins were killed for food after the Twilight's Hammer cult took up residence, but the largest thresher in the water proved to be uncatchable, and those who persisted in hunting it inevitably died in the attempt."
 IJ_DB_DUNGEON_BFD_BOSS_NAME_4832 = "Twilight Lord Kelris"
 IJ_DB_DUNGEON_BFD_BOSS_STORY_4832 =
-"When the cultists found a strange three-headed creature in the belly of Blackfathom Deeps, Twilight Lord Kelris was convinced the hydra was a herald of the Old Gods' return to Azeroth... and his ticket to immortality. Kelris personally supervises the growth of the monster, even feeding him his own subjects to satisfy his wild hunger."
+    "When the cultists found a strange three-headed creature in the belly of Blackfathom Deeps, Twilight Lord Kelris was convinced the hydra was a herald of the Old Gods' return to Azeroth... and his ticket to immortality. Kelris personally supervises the growth of the monster, even feeding him his own subjects to satisfy his wild hunger."
 IJ_DB_DUNGEON_BFD_BOSS_NAME_4829 = "Aku'mai"
 IJ_DB_DUNGEON_BFD_BOSS_STORY_4829 =
-"Aku'mai, an ancient evil, carries within her a small measure of the Old Gods' power. This three-headed hydra is greatly feared for her mindless savagery and insatiable hunger for living flesh, but the Twilight's Hammer worships her as a divine sign that the Old Gods will soon return."
+    "Aku'mai, an ancient evil, carries within her a small measure of the Old Gods' power. This three-headed hydra is greatly feared for her mindless savagery and insatiable hunger for living flesh, but the Twilight's Hammer worships her as a divine sign that the Old Gods will soon return."
 
 -- BFD Loot
 IJ_LOOT_NAME_6907 = "Tortoise Armor"
@@ -1008,27 +954,27 @@ IJ_LOOT_NAME_6911 = "Moss Cinch"
 -- Gnomeregan
 IJ_DB_DUNGEON_GNOMEREGAN_NAME = "Gnomeregan"
 IJ_DB_DUNGEON_GNOMEREGAN_STORY =
-"Located in Dun Morogh, the technological wonder known as Gnomeregan has been the gnomes' capital city for generations. Recently, a hostile race of mutant troggs infested several regions of Dun Morogh - including the great gnome city. In a desperate attempt to destroy the invading troggs, High Tinker Mekkatorque ordered the emergency venting of the city's radioactive waste tanks. Several gnomes sought shelter from the airborne pollutants as they waited for the troggs to die or flee. Unfortunately, though the troggs became irradiated from the toxic assault - their siege continued, unabated. Those gnomes who were not killed by noxious seepage were forced to flee, seeking refuge in the nearby dwarven city of Ironforge. There, High Tinker Mekkatorque set out to enlist brave souls to help his people reclaim their beloved city. It is rumored that Mekkatorque's once-trusted advisor, Mekgineer Thermaplugg, betrayed his people by allowing the invasion to happen. Now, his sanity shattered, Thermaplugg remains in Gnomeregan - furthering his dark schemes and acting as the city's new techno-overlord."
+    "Located in Dun Morogh, the technological wonder known as Gnomeregan has been the gnomes' capital city for generations. Recently, a hostile race of mutant troggs infested several regions of Dun Morogh - including the great gnome city. In a desperate attempt to destroy the invading troggs, High Tinker Mekkatorque ordered the emergency venting of the city's radioactive waste tanks. Several gnomes sought shelter from the airborne pollutants as they waited for the troggs to die or flee. Unfortunately, though the troggs became irradiated from the toxic assault - their siege continued, unabated. Those gnomes who were not killed by noxious seepage were forced to flee, seeking refuge in the nearby dwarven city of Ironforge. There, High Tinker Mekkatorque set out to enlist brave souls to help his people reclaim their beloved city. It is rumored that Mekkatorque's once-trusted advisor, Mekgineer Thermaplugg, betrayed his people by allowing the invasion to happen. Now, his sanity shattered, Thermaplugg remains in Gnomeregan - furthering his dark schemes and acting as the city's new techno-overlord."
 
 -- Gnomeregan Bosses
 IJ_DB_DUNGEON_GNOMEREGAN_BOSS_NAME_7361 = "Grubbis"
 IJ_DB_DUNGEON_GNOMEREGAN_BOSS_STORY_7361 =
-"The radioactive gas that flooded the city was meant to anger the troggs and kill the gnomes, and Thermaplugg's plan was brutally effective. One trogg, however, reacted oddly to the substance: Grubbis grew. And grew. It was a side effect that Sicco had not anticipated, but he's never been one to waste valuable (and dangerous) resources. This giant trogg now patrols the tunnels of Gnomeregan. His loyal basilisk pet, Chomper, helps Grubbis sniff out gas leaks, tasty fungi, and even tastier intruders."
+    "The radioactive gas that flooded the city was meant to anger the troggs and kill the gnomes, and Thermaplugg's plan was brutally effective. One trogg, however, reacted oddly to the substance: Grubbis grew. And grew. It was a side effect that Sicco had not anticipated, but he's never been one to waste valuable (and dangerous) resources. This giant trogg now patrols the tunnels of Gnomeregan. His loyal basilisk pet, Chomper, helps Grubbis sniff out gas leaks, tasty fungi, and even tastier intruders."
 IJ_DB_DUNGEON_GNOMEREGAN_BOSS_NAME_7079 = "Viscous Fallout"
 IJ_DB_DUNGEON_GNOMEREGAN_BOSS_STORY_7079 =
-"The formerly robust and elegantly complex waterways of Gnomeregan are now an irradiated mess filled with toxic slime. A lone water elemental who had dwelt in the gnomes' aquifer became trapped in the contamination, and the pollution corrupted its pure form. It currently wanders the halls of Gnomeregan in anger and agony, a liquid embodiment of the vile poison of Thermaplugg's betrayal."
+    "The formerly robust and elegantly complex waterways of Gnomeregan are now an irradiated mess filled with toxic slime. A lone water elemental who had dwelt in the gnomes' aquifer became trapped in the contamination, and the pollution corrupted its pure form. It currently wanders the halls of Gnomeregan in anger and agony, a liquid embodiment of the vile poison of Thermaplugg's betrayal."
 IJ_DB_DUNGEON_GNOMEREGAN_BOSS_NAME_6235 = "Electrocutioner 6000"
 IJ_DB_DUNGEON_GNOMEREGAN_BOSS_STORY_6235 =
-"Mekgineer Thermaplugg is not a patient gnome. Rather than putting his inventions through a battery of tests to determine their safety and effectiveness, he rushes them into the field and moves on to the next project. The Electrocutioner 6000 was his first attempt at harnessing electricity as a weapon via a super-charged mechano-tank. Lieutenant Tom \"Sizzlepants\" Crankle, the only soldier to survive piloting the Electrocutioner, is now something of a hero among the leper gnomes."
+    "Mekgineer Thermaplugg is not a patient gnome. Rather than putting his inventions through a battery of tests to determine their safety and effectiveness, he rushes them into the field and moves on to the next project. The Electrocutioner 6000 was his first attempt at harnessing electricity as a weapon via a super-charged mechano-tank. Lieutenant Tom \"Sizzlepants\" Crankle, the only soldier to survive piloting the Electrocutioner, is now something of a hero among the leper gnomes."
 IJ_DB_DUNGEON_GNOMEREGAN_BOSS_NAME_6229 = "Crowd Pummeler 9-60"
 IJ_DB_DUNGEON_GNOMEREGAN_BOSS_STORY_6229 =
-"In Gnomeregan's heyday, inventors would compete for status by pitting their creations against one another. The mekgineer Oglethorpe Obnoticus built an unbeatable robot, and this earned his respect in the high tinker's court. Sicco Thermaplugg stole Obnoticus's blueprints and then made a giant version of the machine. He set his forgery loose, and the horrific results drove the ruling council to banish the innocent Obnoticus. The Crowd Pummeler 9-60 is still one of Thermaplugg's favorite (stolen) inventions."
+    "In Gnomeregan's heyday, inventors would compete for status by pitting their creations against one another. The mekgineer Oglethorpe Obnoticus built an unbeatable robot, and this earned his respect in the high tinker's court. Sicco Thermaplugg stole Obnoticus's blueprints and then made a giant version of the machine. He set his forgery loose, and the horrific results drove the ruling council to banish the innocent Obnoticus. The Crowd Pummeler 9-60 is still one of Thermaplugg's favorite (stolen) inventions."
 IJ_DB_DUNGEON_GNOMEREGAN_BOSS_NAME_6228 = "Dark Iron Ambassador"
 IJ_DB_DUNGEON_GNOMEREGAN_BOSS_STORY_6228 =
-"Nobody knows why an ambassador of the Dark Iron dwarves was sent to the fallen capital city of Gnomeregan. Some rumors spread that the Dark Irons had a deal with Thermaplugg to direct the troggs to Gnomeregan from their operations in Uldaman where the troggs originated."
+    "Nobody knows why an ambassador of the Dark Iron dwarves was sent to the fallen capital city of Gnomeregan. Some rumors spread that the Dark Irons had a deal with Thermaplugg to direct the troggs to Gnomeregan from their operations in Uldaman where the troggs originated."
 IJ_DB_DUNGEON_GNOMEREGAN_BOSS_NAME_7800 = "Mekgineer Thermaplugg"
 IJ_DB_DUNGEON_GNOMEREGAN_BOSS_STORY_7800 =
-"Murderer, traitor, and self-proclaimed king of the gnomes, the mekgineer Sicco Thermaplugg rules over the radioactive halls of Gnomeregan with a malfunctioning iron fist. His subjects are numerous, vicious, and insane enough to defend their crazed king against any intrusion from the upper world. It is Thermaplugg's madness that makes him so dangerous; he possesses the cunning to destroy everything around him, with no thought for his own life. There is a reason that even the monsters of Gnomeregan fear him."
+    "Murderer, traitor, and self-proclaimed king of the gnomes, the mekgineer Sicco Thermaplugg rules over the radioactive halls of Gnomeregan with a malfunctioning iron fist. His subjects are numerous, vicious, and insane enough to defend their crazed king against any intrusion from the upper world. It is Thermaplugg's madness that makes him so dangerous; he possesses the cunning to destroy everything around him, with no thought for his own life. There is a reason that even the monsters of Gnomeregan fear him."
 
 -- Gnomeregan Loot
 IJ_LOOT_NAME_9445 = "Grubbis Paws"
@@ -1060,33 +1006,33 @@ IJ_LOOT_NAME_7742 = "Schematic: Gnomish Cloaking Device"
 -- Uldaman
 IJ_DB_DUNGEON_ULDA_NAME = "Uldaman"
 IJ_DB_DUNGEON_ULDA_STORY =
-"Uldaman is an ancient Titan vault that has laid buried deep within the earth since the world's creation. Dwarven excavations have recently penetrated this forgotten city, releasing the Titans' first failed creations: the Troggs. Legends say that the Titans created troggs from stone. When they deemed the experiment a failure, the Titans locked the troggs away and tried again - resulting in the creation of the dwarven race. The secrets of the dwarves' creation are recorded on the fabled Discs of Norgannon - massive Titan artifacts that lie at the very bottom of the ancient city. Recently, the Dark Iron dwarves have launched a series of incursions into Uldaman, hoping to claim the discs for their fiery master, Ragnaros. However, protecting the buried city are several guardians - giant constructs of living stone that crush any hapless intruders they find. The Discs themselves are guarded by a massive, sapient Stonekeeper called Archaedas. Some rumors even suggest that the dwarves' stone-skinned ancestors, the earthen, still dwell deep within the city's hidden recesses."
+    "Uldaman is an ancient Titan vault that has laid buried deep within the earth since the world's creation. Dwarven excavations have recently penetrated this forgotten city, releasing the Titans' first failed creations: the Troggs. Legends say that the Titans created troggs from stone. When they deemed the experiment a failure, the Titans locked the troggs away and tried again - resulting in the creation of the dwarven race. The secrets of the dwarves' creation are recorded on the fabled Discs of Norgannon - massive Titan artifacts that lie at the very bottom of the ancient city. Recently, the Dark Iron dwarves have launched a series of incursions into Uldaman, hoping to claim the discs for their fiery master, Ragnaros. However, protecting the buried city are several guardians - giant constructs of living stone that crush any hapless intruders they find. The Discs themselves are guarded by a massive, sapient Stonekeeper called Archaedas. Some rumors even suggest that the dwarves' stone-skinned ancestors, the earthen, still dwell deep within the city's hidden recesses."
 
 -- Uldaman Bosses
 IJ_DB_DUNGEON_ULDA_BOSS_NAME_6906 = "The Lost Dwarves"
 IJ_DB_DUNGEON_ULDA_BOSS_STORY_6906 =
-"Seeking fame and, more importantly, fortune, the three brothers Eric, Olaf, and Baelog took on a contract from the Explorers' League to delve deep into the halls of Uldaman and clear a path for a group of researchers. For these three dwarves, however, \"clearing a path\" unfortunately entailed \"getting hopelessly lost in an ancient labyrinth.\" Proud dwarves to the end, they fight to prevent the secrets of Uldaman and the Explorers' League from falling into the hands of the Horde."
+    "Seeking fame and, more importantly, fortune, the three brothers Eric, Olaf, and Baelog took on a contract from the Explorers' League to delve deep into the halls of Uldaman and clear a path for a group of researchers. For these three dwarves, however, \"clearing a path\" unfortunately entailed \"getting hopelessly lost in an ancient labyrinth.\" Proud dwarves to the end, they fight to prevent the secrets of Uldaman and the Explorers' League from falling into the hands of the Horde."
 IJ_DB_DUNGEON_ULDA_BOSS_NAME_6910 = "Revelosh"
 IJ_DB_DUNGEON_ULDA_BOSS_STORY_6910 =
-"Some luminaries in Ironforge's prestigious Explorers' League have theorized an ancestral link between their people and the troggs, and pointed towards the troggs' hoarding of titan artifacts as a reflection of the dwarves' own reverence for such wondrous devices. If that is true, the trogg known as Revelosh can be considered the trogg equivalent of an archaeologist, although any historically minded adventurers who encounter him would be more inclined to call him a thief."
+    "Some luminaries in Ironforge's prestigious Explorers' League have theorized an ancestral link between their people and the troggs, and pointed towards the troggs' hoarding of titan artifacts as a reflection of the dwarves' own reverence for such wondrous devices. If that is true, the trogg known as Revelosh can be considered the trogg equivalent of an archaeologist, although any historically minded adventurers who encounter him would be more inclined to call him a thief."
 IJ_DB_DUNGEON_ULDA_BOSS_NAME_7228 = "Ironaya"
 IJ_DB_DUNGEON_ULDA_BOSS_STORY_7228 =
-"The titans did not construct the Uldaman complex directly but utilized various servants to create its megalithic halls. The Pantheon entrusted the watcher Ironaya with overseeing the construction and maintenance of Uldaman, but as time passed, the once awe-inspiring vault fell to ruin. Within the map chamber, Ironaya has spent millennia in a form of stasis, analyzing the original master plan drawn up by Khaz'goroth and attempting to find a way to restore the complex to its original functionality."
+    "The titans did not construct the Uldaman complex directly but utilized various servants to create its megalithic halls. The Pantheon entrusted the watcher Ironaya with overseeing the construction and maintenance of Uldaman, but as time passed, the once awe-inspiring vault fell to ruin. Within the map chamber, Ironaya has spent millennia in a form of stasis, analyzing the original master plan drawn up by Khaz'goroth and attempting to find a way to restore the complex to its original functionality."
 IJ_DB_DUNGEON_ULDA_BOSS_NAME_7023 = "Obsidian Sentinel"
 IJ_DB_DUNGEON_ULDA_BOSS_STORY_7023 =
-"The Obsidian Sentinel was responsible for guarding Uldaman's secrets until it was affected by corruption by an unknown force. Originally crafted from the same stone as the halls of Uldaman itself, this keeper has had the majority of its body replaced with dark glass capable of reflecting spells. Whatever was responsible for the Obsidian Sentinel's transformation must be incredibly potent, for it is not easy to alter the enchanted stone of a titan construct."
+    "The Obsidian Sentinel was responsible for guarding Uldaman's secrets until it was affected by corruption by an unknown force. Originally crafted from the same stone as the halls of Uldaman itself, this keeper has had the majority of its body replaced with dark glass capable of reflecting spells. Whatever was responsible for the Obsidian Sentinel's transformation must be incredibly potent, for it is not easy to alter the enchanted stone of a titan construct."
 IJ_DB_DUNGEON_ULDA_BOSS_NAME_7206 = "Ancient Stone Keeper"
 IJ_DB_DUNGEON_ULDA_BOSS_STORY_7206 =
-"One of many golems that staffed and operated the great titan vault, the Ancient Stone Keeper was part of a small group that served as an intermediary between the watchers left in control of the facility and their many servants. With the corruption of the Obsidian Sentinel, the Ancient Stone Keeper is the last of its kind, performing its duty by protecting the secrets of the titans as best it can until its inevitable shutdown."
+    "One of many golems that staffed and operated the great titan vault, the Ancient Stone Keeper was part of a small group that served as an intermediary between the watchers left in control of the facility and their many servants. With the corruption of the Obsidian Sentinel, the Ancient Stone Keeper is the last of its kind, performing its duty by protecting the secrets of the titans as best it can until its inevitable shutdown."
 IJ_DB_DUNGEON_ULDA_BOSS_NAME_7291 = "Galgann Firehammer"
 IJ_DB_DUNGEON_ULDA_BOSS_STORY_7291 =
-"Reacting to the discovery of Uldaman by Bronzebeard dwarves, the Dark Iron clan mounted an invasion of the vault to stop their ancestral foes from accessing the powerful artifacts within. Galgann Firehammer, a senator from Shadowforge City, was sent to oversee the continued excavation of Uldaman so that the emperor may harness the artifacts' destructive potential against the Dark Irons' enemies."
+    "Reacting to the discovery of Uldaman by Bronzebeard dwarves, the Dark Iron clan mounted an invasion of the vault to stop their ancestral foes from accessing the powerful artifacts within. Galgann Firehammer, a senator from Shadowforge City, was sent to oversee the continued excavation of Uldaman so that the emperor may harness the artifacts' destructive potential against the Dark Irons' enemies."
 IJ_DB_DUNGEON_ULDA_BOSS_NAME_4854 = "Grimlok"
 IJ_DB_DUNGEON_ULDA_BOSS_STORY_4854 =
-"In trogg society, the biggest, strongest, and most vicious trogg often becomes chieftain through displays of power. Grimlok is a comparative genius in that he has maintained control of the Stonevault troggs through intimidation and what might be considered crude psychological warfare. Having trained a deadly basilisk, Grimlok uses the threat of petrification by his beast to keep any would-be usurpers in line."
+    "In trogg society, the biggest, strongest, and most vicious trogg often becomes chieftain through displays of power. Grimlok is a comparative genius in that he has maintained control of the Stonevault troggs through intimidation and what might be considered crude psychological warfare. Having trained a deadly basilisk, Grimlok uses the threat of petrification by his beast to keep any would-be usurpers in line."
 IJ_DB_DUNGEON_ULDA_BOSS_NAME_2748 = "Archaedas"
 IJ_DB_DUNGEON_ULDA_BOSS_STORY_2748 =
-"Deep within Uldaman is a chamber containing one of the greatest treasures of the titans, created by Norgannon himself. However, thus far no explorers have managed to gain access to the relic, for any attempt at doing so activates the great watcher Archaedas, an immense guardian who easily dispatches treasure seekers through his powerful attacks and a veritable army of servants. Crafted from some of the oldest, strongest stone taken from Uldaman's depths, Archaedas is a foe as formidable as he is ancient."
+    "Deep within Uldaman is a chamber containing one of the greatest treasures of the titans, created by Norgannon himself. However, thus far no explorers have managed to gain access to the relic, for any attempt at doing so activates the great watcher Archaedas, an immense guardian who easily dispatches treasure seekers through his powerful attacks and a veritable army of servants. Crafted from some of the oldest, strongest stone taken from Uldaman's depths, Archaedas is a foe as formidable as he is ancient."
 
 -- Uldaman Loot
 IJ_LOOT_NAME_9399 = "Precision Arrow"
@@ -1120,27 +1066,26 @@ IJ_LOOT_NAME_11118 = "Archaedic Stone"
 -- DMN
 IJ_DB_DUNGEON_DMN_NAME = "Dire Maul North"
 IJ_DB_DUNGEON_DMN_STORY =
-"The Gordok Commons are located north in Dire Maul. This area of the city has been taken over by the Gordok, the elite members of the Gordunni ogre clan, and are now the seat of power for King Gordok himself. By tradition, however, whoever slays the king will become the new King Gordok."
+    "The Gordok Commons are located north in Dire Maul. This area of the city has been taken over by the Gordok, the elite members of the Gordunni ogre clan, and are now the seat of power for King Gordok himself. By tradition, however, whoever slays the king will become the new King Gordok."
 
 -- DMN Bosses
 IJ_DB_DUNGEON_DMN_BOSS_NAME_14326 = "Guard Mol'dar"
 IJ_DB_DUNGEON_DMN_BOSS_STORY_14326 =
-"Mol'dar is a zealously loyal guard from the Gordok ogres. He is convinced King Gordok gifted him with a pair of enchanted gauntlets that have enabled him to become his people's arm wrestling champion for six years running. In truth, King Gordok threw the powerful armor away; Mol'dar simply found it first."
+    "Mol'dar is a zealously loyal guard from the Gordok ogres. He is convinced King Gordok gifted him with a pair of enchanted gauntlets that have enabled him to become his people's arm wrestling champion for six years running. In truth, King Gordok threw the powerful armor away; Mol'dar simply found it first."
 IJ_DB_DUNGEON_DMN_BOSS_NAME_14322 = "Stomper Kreeg"
 IJ_DB_DUNGEON_DMN_BOSS_STORY_14322 =
-"On more than one occasion, skulking assassins have met their doom after accidentally disturbing Kreeg's ale mug. Though he's often passed out drunk on duty, nothing rouses the ogre into a berserker fury faster than the sound of his precious drink splattering on the stone floor."
+    "On more than one occasion, skulking assassins have met their doom after accidentally disturbing Kreeg's ale mug. Though he's often passed out drunk on duty, nothing rouses the ogre into a berserker fury faster than the sound of his precious drink splattering on the stone floor."
 IJ_DB_DUNGEON_DMN_BOSS_NAME_14321 = "Guard Fengus"
-IJ_DB_DUNGEON_DMN_BOSS_STORY_14321 =
-"Ever since Cho'Rush the Observer told him he was destined to meet a mate while on duty, Fengus has spent almost every waking moment patrolling Gordok territory."
+IJ_DB_DUNGEON_DMN_BOSS_STORY_14321 = "Ever since Cho'Rush the Observer told him he was destined to meet a mate while on duty, Fengus has spent almost every waking moment patrolling Gordok territory."
 IJ_DB_DUNGEON_DMN_BOSS_NAME_14323 = "Guard Slip'kik"
 IJ_DB_DUNGEON_DMN_BOSS_STORY_14323 =
-"Some might think Slip'kik is merely cautious, but he's also lazy. Rather than challenge King Gordok directly, Slip'kik tinkers with traps and old, broken magical devices, hoping to eventually deliver a coup de grace without an ounce of risk or a drop of sweat."
+    "Some might think Slip'kik is merely cautious, but he's also lazy. Rather than challenge King Gordok directly, Slip'kik tinkers with traps and old, broken magical devices, hoping to eventually deliver a coup de grace without an ounce of risk or a drop of sweat."
 IJ_DB_DUNGEON_DMN_BOSS_NAME_14325 = "Captain Kromcrush"
 IJ_DB_DUNGEON_DMN_BOSS_STORY_14325 =
-"Even among ogres, Captain Kromcrush is infamous for his hair-trigger rage toward anyone who dares to insult him or King Gordok. He crushes dissent ruthlessly, but he has still less patience for those who continue to spread the rumor of his torrid affair with a gnoll long ago."
+    "Even among ogres, Captain Kromcrush is infamous for his hair-trigger rage toward anyone who dares to insult him or King Gordok. He crushes dissent ruthlessly, but he has still less patience for those who continue to spread the rumor of his torrid affair with a gnoll long ago."
 IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "King Gordok"
 IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
-"To rule the Gordok ogres, one must simply proclaim oneself king... and then destroy all who might disagree. King Gordok--then merely known as Ulrok--solidified his power by convincing a dozen of his people's strongest warriors to challenge the king at the same time. The wild melee left most of the contestants dead or wounded, and Ulrok's blade easily cut down the survivors and the battle-weary king. To this day, Gordok ogres speak in hushed tones about the \"Day of Da Blood.\""
+    "To rule the Gordok ogres, one must simply proclaim oneself king... and then destroy all who might disagree. King Gordok--then merely known as Ulrok--solidified his power by convincing a dozen of his people's strongest warriors to challenge the king at the same time. The wild melee left most of the contestants dead or wounded, and Ulrok's blade easily cut down the survivors and the battle-weary king. To this day, Gordok ogres speak in hushed tones about the \"Day of Da Blood.\""
 
 -- DMN Loot
 IJ_LOOT_NAME_18450 = "Robe of Combustion"
@@ -1207,27 +1152,27 @@ IJ_LOOT_NAME_18500 = "Tarnished Elven Ring"
 -- DMW
 IJ_DB_DUNGEON_DMW_NAME = "Dire Maul West"
 IJ_DB_DUNGEON_DMW_STORY =
-"The Capital Gardens are located west in Dire Maul. The area might once have been a pristine city park district, but now the trees stand gray and withered, and the broken streets are full of dangerous ancients."
+    "The Capital Gardens are located west in Dire Maul. The area might once have been a pristine city park district, but now the trees stand gray and withered, and the broken streets are full of dangerous ancients."
 
 -- DMW Bosses
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Warpwood"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
-"Tendris Warpwood was a staunch defender of Eldre'Thalas, his heart inexorably entwined with the fate of the city. When the Sundering shattered the land, his resolve never wavered, but as corruption seeped into the ruins over the next 10,000 years, so too did it infect the ancient's spirit."
+    "Tendris Warpwood was a staunch defender of Eldre'Thalas, his heart inexorably entwined with the fate of the city. When the Sundering shattered the land, his resolve never wavered, but as corruption seeped into the ruins over the next 10,000 years, so too did it infect the ancient's spirit."
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11488 = "Illyanna Ravenoak"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11488 =
-"Illyanna Ravenoak, along with her faithful companion Ferra, was once Prince Tortheldrin's most valued hunter, until she refused to carry out her leader's order to execute her friends. As punishment, he killed Illyanna and her bear, but he used his demonic power to bind their spirits to their bodies, condemning them to remain in Dire Maul as undead protectors."
+    "Illyanna Ravenoak, along with her faithful companion Ferra, was once Prince Tortheldrin's most valued hunter, until she refused to carry out her leader's order to execute her friends. As punishment, he killed Illyanna and her bear, but he used his demonic power to bind their spirits to their bodies, condemning them to remain in Dire Maul as undead protectors."
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11487 = "Magister Kalendris"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11487 =
-"When Prince Tortheldrin demanded the slaughter of the majority of his subjects, his most loyal lieutenants were tasked with executing his will. Magister Kalendris murdered many unsuspecting Shen'dralar without hesitation, but one of the doomed elves mortally wounded him during a destructive battle. Despite his demise, Kalendris's spirit still roams Dire Maul as a defender of Tortheldrin's rule."
+    "When Prince Tortheldrin demanded the slaughter of the majority of his subjects, his most loyal lieutenants were tasked with executing his will. Magister Kalendris murdered many unsuspecting Shen'dralar without hesitation, but one of the doomed elves mortally wounded him during a destructive battle. Despite his demise, Kalendris's spirit still roams Dire Maul as a defender of Tortheldrin's rule."
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11467 = "Tsu'zee"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11467 =
-"An elusive ghost of a night elf, rarely seen among the denizens of the Capital Gardens. She is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter her in the first place..."
+    "An elusive ghost of a night elf, rarely seen among the denizens of the Capital Gardens. She is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter her in the first place..."
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11496 = "Immol'thar"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11496 =
-"In a desperate bid to restore the power and immortality they lost when the Well of Eternity was destroyed, the Shen'dralar summoned a demon into the western wing of Dire Maul and captured him within a force field, allowing them to use the void terror's energy for their own spells. Unable to fight back or even move for nearly 10,000 years, Immol'thar could only watch and wait for the day he might break free and rend the flesh of his captors."
+    "In a desperate bid to restore the power and immortality they lost when the Well of Eternity was destroyed, the Shen'dralar summoned a demon into the western wing of Dire Maul and captured him within a force field, allowing them to use the void terror's energy for their own spells. Unable to fight back or even move for nearly 10,000 years, Immol'thar could only watch and wait for the day he might break free and rend the flesh of his captors."
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11486 = "Prince Tortheldrin"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11486 =
-"After the Well of Eternity's destruction, Prince Tortheldrin maintained control over the surviving Shen'dralar by imprisoning a demon in the ruins of Eldre'Thalas and letting his subjects siphon its strength. The exposure to demonic power twisted Tortheldrin's mind, and when the creature faltered, the prince ordered the deaths of many of his vassals so only he and his most fanatical followers would be left to enjoy the corrupt energy."
+    "After the Well of Eternity's destruction, Prince Tortheldrin maintained control over the surviving Shen'dralar by imprisoning a demon in the ruins of Eldre'Thalas and letting his subjects siphon its strength. The exposure to demonic power twisted Tortheldrin's mind, and when the creature faltered, the prince ordered the deaths of many of his vassals so only he and his most fanatical followers would be left to enjoy the corrupt energy."
 
 -- DMW Loot
 IJ_LOOT_NAME_18352 = "Petrified Bark Shield"
@@ -1272,24 +1217,23 @@ IJ_LOOT_NAME_18396 = "Mind Carver"
 -- DME
 IJ_DB_DUNGEON_DME_NAME = "Dire Maul East"
 IJ_DB_DUNGEON_DME_STORY =
-"The Warpwood Quarter is located east in Dire Maul. It has been taken over by the nefarious Alzzin the Wildshaper, a satyr who has corrupted the Fruit of Fertility so that it produces vile Felvine Shards. Alzzin has attracted all manner of corrupted plant life, satyrs, mages and demons to his cause. The entire district is overgrown with crazed plant life."
+    "The Warpwood Quarter is located east in Dire Maul. It has been taken over by the nefarious Alzzin the Wildshaper, a satyr who has corrupted the Fruit of Fertility so that it produces vile Felvine Shards. Alzzin has attracted all manner of corrupted plant life, satyrs, mages and demons to his cause. The entire district is overgrown with crazed plant life."
 
 -- DME Bosses
 IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillin"
-IJ_DB_DUNGEON_DME_BOSS_STORY_14354 =
-"A cowardly little imp, tricking adventurers into following him, only to turn on them, killing them and stealing all the belongings from their bodies."
+IJ_DB_DUNGEON_DME_BOSS_STORY_14354 = "A cowardly little imp, tricking adventurers into following him, only to turn on them, killing them and stealing all the belongings from their bodies."
 IJ_DB_DUNGEON_DME_BOSS_NAME_11490 = "Zevrim Thornhoof"
 IJ_DB_DUNGEON_DME_BOSS_STORY_11490 =
-"Desperate to show his worth to the Burning Legion, Zevrim Thornhoof told his masters he could enslave the formidable ancients who still roamed Dire Maul. When his own power proved insufficient, Thornhoof turned to other living creatures for additional energy, butchering them atop his sacrificial altar and harvesting their essence in their final, agonizing moments."
+    "Desperate to show his worth to the Burning Legion, Zevrim Thornhoof told his masters he could enslave the formidable ancients who still roamed Dire Maul. When his own power proved insufficient, Thornhoof turned to other living creatures for additional energy, butchering them atop his sacrificial altar and harvesting their essence in their final, agonizing moments."
 IJ_DB_DUNGEON_DME_BOSS_NAME_13280 = "Hydrospawn"
 IJ_DB_DUNGEON_DME_BOSS_STORY_13280 =
-"When the satyr Zevrim Thornhoof sought to control the elementals in Dire Maul, he focused on Hydrospawn, who calmly resided in the pool beneath his altar. As he performed his profane sacrificial rituals, the elemental grew agitated and restless, striking out at Thornhoof's demonic minions. As the years passed, Thornhoof used his victims' energies to whip Hydrospawn into unbridled fury, little by little binding its will to the satyr's commands."
+    "When the satyr Zevrim Thornhoof sought to control the elementals in Dire Maul, he focused on Hydrospawn, who calmly resided in the pool beneath his altar. As he performed his profane sacrificial rituals, the elemental grew agitated and restless, striking out at Thornhoof's demonic minions. As the years passed, Thornhoof used his victims' energies to whip Hydrospawn into unbridled fury, little by little binding its will to the satyr's commands."
 IJ_DB_DUNGEON_DME_BOSS_NAME_14327 = "Lethtendris"
 IJ_DB_DUNGEON_DME_BOSS_STORY_14327 =
-"Dire Maul's warped energy drew Lethtendris from afar, giving her hope of satisfying her unbearable craving for arcane magic. Using the sinews and ligaments of sacrificial victims, she constructed a web to siphon the corrupt power out of the east wing. To her delight, she discovered that the device has the capacity to gather vast reserves of overwhelming strength, enough to destroy all of her enemies."
+    "Dire Maul's warped energy drew Lethtendris from afar, giving her hope of satisfying her unbearable craving for arcane magic. Using the sinews and ligaments of sacrificial victims, she constructed a web to siphon the corrupt power out of the east wing. To her delight, she discovered that the device has the capacity to gather vast reserves of overwhelming strength, enough to destroy all of her enemies."
 IJ_DB_DUNGEON_DME_BOSS_NAME_11492 = "Alzzin the Wildshaper"
 IJ_DB_DUNGEON_DME_BOSS_STORY_11492 =
-"Alzzin the Wildshaper was not always the creature that now festers within Dire Maul. Once a druid of Hyjal and a bearer of the very title he still claims, he has become a twisted mockery of the ideals he once upheld. Now counted among the satyrs, Alzzin seeks nothing less than the total corruption of Feralas. Within the Shrine of Eldretharr, he has bound ancient spirits to his will, drawing upon the vitality of the forest to shape and control it as he pleases. Where he once nurtured life, he now perverts it, turning the wilds into an extension of his own corruption."
+    "Alzzin the Wildshaper was not always the creature that now festers within Dire Maul. Once a druid of Hyjal and a bearer of the very title he still claims, he has become a twisted mockery of the ideals he once upheld. Now counted among the satyrs, Alzzin seeks nothing less than the total corruption of Feralas. Within the Shrine of Eldretharr, he has bound ancient spirits to his will, drawing upon the vitality of the forest to shape and control it as he pleases. Where he once nurtured life, he now perverts it, turning the wilds into an extension of his own corruption."
 
 -- DME Loot
 IJ_LOOT_NAME_18267 = "Recipe: Runn Tum Tuber Surprise"
@@ -1322,72 +1266,72 @@ IJ_LOOT_NAME_83574 = "Book of Wrath IX"
 -- BRD
 IJ_DB_DUNGEON_BRD_NAME = "Blackrock Depths"
 IJ_DB_DUNGEON_BRD_STORY =
-"The smoldering Blackrock Depths are home to the Dark Iron dwarves and their emperor, Dagran Thaurissan. Like his predecessors, he serves under the iron rule of Ragnaros the Firelord, a merciless being summoned into the world centuries ago. The presence of chaotic elementals has attracted Twilight's Hammer cultists to the mountain domain. Along with Ragnaros' servants, they have pushed the dwarves toward increasingly destructive ends that could soon spell doom for all of Azeroth."
+    "The smoldering Blackrock Depths are home to the Dark Iron dwarves and their emperor, Dagran Thaurissan. Like his predecessors, he serves under the iron rule of Ragnaros the Firelord, a merciless being summoned into the world centuries ago. The presence of chaotic elementals has attracted Twilight's Hammer cultists to the mountain domain. Along with Ragnaros' servants, they have pushed the dwarves toward increasingly destructive ends that could soon spell doom for all of Azeroth."
 
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
-"The Twilight's Hammer cultist Gerstahn has always indulged in life's finer things: exotic foods, fine clothes, and gem-encrusted torture tools. Day and night, her prisoners' bloodcurdling cries echo throughout the Dark Iron clan's infamous Detention Block. Gerstahn proudly calls this horrific noise her symphony of screams, and she is always eager to add another voice to the chorus."
+    "The Twilight's Hammer cultist Gerstahn has always indulged in life's finer things: exotic foods, fine clothes, and gem-encrusted torture tools. Day and night, her prisoners' bloodcurdling cries echo throughout the Dark Iron clan's infamous Detention Block. Gerstahn proudly calls this horrific noise her symphony of screams, and she is always eager to add another voice to the chorus."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9025 = "Lord Roccor"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9025 =
-"Lord Roccor loathes the scheming and backstabbing of his fellow fire elementals. To avoid serving alongside his kind in the Molten Core, the mighty being purposefully angered the Firelord. Roccor's risky gambit paid off: he was expelled from the core and forced to guard Blackrock Depths in isolation."
+    "Lord Roccor loathes the scheming and backstabbing of his fellow fire elementals. To avoid serving alongside his kind in the Molten Core, the mighty being purposefully angered the Firelord. Roccor's risky gambit paid off: he was expelled from the core and forced to guard Blackrock Depths in isolation."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9319 = "Houndmaster Grebmar"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9319 =
-"Grebmar Fleabeard's hounds are the only family he's ever known. Long ago, the orphaned dwarf began breeding canines to serve as companions and guard dogs. When the houndmaster isn't patrolling Blackrock Depths with his loyal beasts, he often treats them to the Grim Guzzler's finest Dark Iron ale."
+    "Grebmar Fleabeard's hounds are the only family he's ever known. Long ago, the orphaned dwarf began breeding canines to serve as companions and guard dogs. When the houndmaster isn't patrolling Blackrock Depths with his loyal beasts, he often treats them to the Grim Guzzler's finest Dark Iron ale."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9031 = "Ring of Law"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9031 =
-"There is only one punishment for crimes committed against the Dark Iron dwarves: death. Ancient tradition calls for the guilty to pay the blood price in the Ring of the Law by battling savage creatures gathered from across Azeroth. To date, it is unknown if anyone has ever survived this brutal crucible."
+    "There is only one punishment for crimes committed against the Dark Iron dwarves: death. Ancient tradition calls for the guilty to pay the blood price in the Ring of the Law by battling savage creatures gathered from across Azeroth. To date, it is unknown if anyone has ever survived this brutal crucible."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9024 = "Pyromancer Loregrain"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9024 =
-"Once a respected member of the Earthen Ring, Loregrain joined the Twilight's Hammer cult for reasons that remain a mystery to his former allies. He eventually journeyed to Blackrock Depths, where he took a sudden interest in the famed Dark Iron architect Franclorn Forgewright. The purpose of his current obsession is unclear, but Loregrain remains loyal to his cult and an enemy of all who oppose it."
+    "Once a respected member of the Earthen Ring, Loregrain joined the Twilight's Hammer cult for reasons that remain a mystery to his former allies. He eventually journeyed to Blackrock Depths, where he took a sudden interest in the famed Dark Iron architect Franclorn Forgewright. The purpose of his current obsession is unclear, but Loregrain remains loyal to his cult and an enemy of all who oppose it."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9041 = "Warder Stilgiss"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9041 =
-"After years of dedication to Emperor Thaurissan, the cunning mage Stilgiss was entrusted with protecting his clan's coffers in the Black Vault. The loyal dwarf's close friend Houndmaster Grebmar celebrated the occasion by gifting one of his vicious dogs--Verek--to Stilgiss. The mage has put the beast to good use, keeping it at his side to scare off the vault's would-be thieves."
+    "After years of dedication to Emperor Thaurissan, the cunning mage Stilgiss was entrusted with protecting his clan's coffers in the Black Vault. The loyal dwarf's close friend Houndmaster Grebmar celebrated the occasion by gifting one of his vicious dogs--Verek--to Stilgiss. The mage has put the beast to good use, keeping it at his side to scare off the vault's would-be thieves."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9476 = "Watchman Doomgrip"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9476 =
-"As the watchman of the Black Vault, Doomgrip takes his occupation very seriously. If adventurers were to attempt to steal the contents of the vault, they would be certain to meet the wrath of the Dark Iron dwarf..."
+    "As the watchman of the Black Vault, Doomgrip takes his occupation very seriously. If adventurers were to attempt to steal the contents of the vault, they would be certain to meet the wrath of the Dark Iron dwarf..."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9056 = "Fineous Darkvire"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9056 =
-"Chief Architect Fineous Darkvire earned his title by passing off the ideas of more gifted masons as his own. His arrogance and scheming have drawn the ire of his predecessor, Franclorn Forgewright, from beyond the grave. The ghost of the late chief architect seeks to reclaim his incredibly powerful hammer--Ironfel--from Darkvire before it can be used for ill."
+    "Chief Architect Fineous Darkvire earned his title by passing off the ideas of more gifted masons as his own. His arrogance and scheming have drawn the ire of his predecessor, Franclorn Forgewright, from beyond the grave. The ghost of the late chief architect seeks to reclaim his incredibly powerful hammer--Ironfel--from Darkvire before it can be used for ill."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9017 = "Lord Incendius"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9017 =
-"Baron Geddon taught Incendius to harness his destructive powers, but the baron never expected his protégé to grow so lethally efficient. Increasingly wary that Incendius might usurp him, Geddon sent the blazing elemental out of the Molten Core to guard the Dark Iron dwarves' fabled Black Anvil."
+    "Baron Geddon taught Incendius to harness his destructive powers, but the baron never expected his protégé to grow so lethally efficient. Increasingly wary that Incendius might usurp him, Geddon sent the blazing elemental out of the Molten Core to guard the Dark Iron dwarves' fabled Black Anvil."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9016 = "Bael'Gar"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9016 =
-"The monstrous molten giant Bael'Gar lumbers across the Dark Iron Highway, a stunning feat of dwarven engineering carved into Blackrock Depths. Ragnaros pulled the giant from the heart of the Firelands to guard a massive sealed door at one end of the highway. According to legend, only the Firelord and the Dark Iron clan's highest-ranking members know what lies beyond the mysterious gate."
+    "The monstrous molten giant Bael'Gar lumbers across the Dark Iron Highway, a stunning feat of dwarven engineering carved into Blackrock Depths. Ragnaros pulled the giant from the heart of the Firelands to guard a massive sealed door at one end of the highway. According to legend, only the Firelord and the Dark Iron clan's highest-ranking members know what lies beyond the mysterious gate."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9033 = "General Angerforge"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9033 =
-"Through a lifetime of study, General Angerforge has become an expert on dwarven military history and tactics. He recently incurred Emperor Dagran Thaurissan's fury by writing a scathing treatise on his clan's failures in past conflicts. This political blunder aside, Angerforge is a Dark Iron to his core. He will bleed--and die, if necessary--to protect his people and his emperor."
+    "Through a lifetime of study, General Angerforge has become an expert on dwarven military history and tactics. He recently incurred Emperor Dagran Thaurissan's fury by writing a scathing treatise on his clan's failures in past conflicts. This political blunder aside, Angerforge is a Dark Iron to his core. He will bleed--and die, if necessary--to protect his people and his emperor."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_8983 = "Golem Lord Argelmach"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_8983 =
-"Argelmach's lifelong obsession with immortality drove him to forge enchanted constructs in his own image. Rumor has it that he has also dabbled in some form of black magic that would allow the golem lord's new creations to act as vessels for his spirit should his flesh-and-blood body be destroyed."
+    "Argelmach's lifelong obsession with immortality drove him to forge enchanted constructs in his own image. Rumor has it that he has also dabbled in some form of black magic that would allow the golem lord's new creations to act as vessels for his spirit should his flesh-and-blood body be destroyed."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9537 = "Hurley Blackbreath"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9537 =
-"To say Blackbreath is a regular at the Grim Guzzler would be something of an understatement. In over a decade, the mischievous drunkard has left the tavern only once to steal a top-secret recipe for Thunderbrew Lager. Blackbreath has occasionally sobered up enough to make the concoction himself, and he claims it grants unimaginable strength and courage."
+    "To say Blackbreath is a regular at the Grim Guzzler would be something of an understatement. In over a decade, the mischievous drunkard has left the tavern only once to steal a top-secret recipe for Thunderbrew Lager. Blackbreath has occasionally sobered up enough to make the concoction himself, and he claims it grants unimaginable strength and courage."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9543 = "Ribbly Screwspigot"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9543 =
-"Screwspigot has a bad habit of borrowing money and squandering it on get-rich-quick schemes. His latest failure--Ribbly's Chewable Gunpowder--earned him a place on the hit list of Booty Bay's kingpin, Baron Revilgaz. Screwspigot has since fled to the Grim Guzzler, hoping to elude bounty hunters, friends, and family looking to cash in on the baron's bounty."
+    "Screwspigot has a bad habit of borrowing money and squandering it on get-rich-quick schemes. His latest failure--Ribbly's Chewable Gunpowder--earned him a place on the hit list of Booty Bay's kingpin, Baron Revilgaz. Screwspigot has since fled to the Grim Guzzler, hoping to elude bounty hunters, friends, and family looking to cash in on the baron's bounty."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9502 = "Phalanx"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9502 =
-"Until recently, drunken brawls raged within the Grim Guzzler on an almost daily basis. Barkeep Plugger Spazzring has reduced the frequency of these scuffles with Phalanx, a mighty golem bouncer programmed to maintain order in the tavern and eliminate raucous patrons with extreme force."
+    "Until recently, drunken brawls raged within the Grim Guzzler on an almost daily basis. Barkeep Plugger Spazzring has reduced the frequency of these scuffles with Phalanx, a mighty golem bouncer programmed to maintain order in the tavern and eliminate raucous patrons with extreme force."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9499 = "Plugger Spazzring"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9499 =
-"They say that at the Grim Guzzler everyone knows your name. This sense of camaraderie is due to the hard work of Spazzring, a leper gnome who sought a new life in Blackrock Depths after the fall of Gnomeregan. Despite his history of dabbling with evil as a warlock, he takes pride in his job as the tavern's barkeep, making sure that his patrons' mugs never run dry."
+    "They say that at the Grim Guzzler everyone knows your name. This sense of camaraderie is due to the hard work of Spazzring, a leper gnome who sought a new life in Blackrock Depths after the fall of Gnomeregan. Despite his history of dabbling with evil as a warlock, he takes pride in his job as the tavern's barkeep, making sure that his patrons' mugs never run dry."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9156 = "Ambassador Flamelash"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9156 =
-"For his unwavering service to Ragnaros, Flamelash ascended to the rank of ambassador to the Dark Iron clan. This depraved being initially despised his dwarven allies, but he has come to respect their penchant for destruction. As a show of solidarity, Flamelash guards the Chamber of Enchantment, a sacred location used by the dwarves to empower their weaponry."
+    "For his unwavering service to Ragnaros, Flamelash ascended to the rank of ambassador to the Dark Iron clan. This depraved being initially despised his dwarven allies, but he has come to respect their penchant for destruction. As a show of solidarity, Flamelash guards the Chamber of Enchantment, a sacred location used by the dwarves to empower their weaponry."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_8923 = "Panzor the Invincible"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_8923 =
-"An elusive golem, rarely seen among the general population of Blackrock Depths. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+    "An elusive golem, rarely seen among the general population of Blackrock Depths. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9040 = "The Seven"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9040 =
-"Centuries ago, sorcerer-thane Thaurissan and seven of his most powerful Dark Iron allies accidentally summoned Ragnaros into Azeroth and damned their entire clan to enslavement. Although the Seven perished during the ritual, their restless spirits still linger in Blackrock Depths, cursed to serve their elemental master and the current Dark Iron ruler."
+    "Centuries ago, sorcerer-thane Thaurissan and seven of his most powerful Dark Iron allies accidentally summoned Ragnaros into Azeroth and damned their entire clan to enslavement. Although the Seven perished during the ritual, their restless spirits still linger in Blackrock Depths, cursed to serve their elemental master and the current Dark Iron ruler."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9938 = "Magmus"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9938 =
-"Ambassador Flamelash charged the molten giant Magmus with guarding Emperor Dagran Thaurissan's throne room, but not even this act put the Dark Iron ruler's concerns to rest. Ever fearful of assassins, the emperor also granted Magmus control over a series of fire-breathing statues outside his royal chambers."
+    "Ambassador Flamelash charged the molten giant Magmus with guarding Emperor Dagran Thaurissan's throne room, but not even this act put the Dark Iron ruler's concerns to rest. Ever fearful of assassins, the emperor also granted Magmus control over a series of fire-breathing statues outside his royal chambers."
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9019 = "Emperor Dagran Thaurissan"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9019 =
-"Emperor Dagran Thaurissan rules alongside Princess Moira of the rival Bronzebeard clan. Debate rages over whether the emperor ensorcelled his bride or she willingly joined him. Whatever the truth, Thaurissan's continued presence bodes ill for the future of his clan. So long as he lives, the Dark Irons will remain pawns of Ragnaros, and a dire threat to kingdoms throughout Azeroth."
+    "Emperor Dagran Thaurissan rules alongside Princess Moira of the rival Bronzebeard clan. Debate rages over whether the emperor ensorcelled his bride or she willingly joined him. Whatever the truth, Thaurissan's continued presence bodes ill for the future of his clan. So long as he lives, the Dark Irons will remain pawns of Ragnaros, and a dire threat to kingdoms throughout Azeroth."
 
 -- BRD Loot
 IJ_LOOT_NAME_11624 = "Kentic Amice"
@@ -1522,54 +1466,53 @@ IJ_LOOT_NAME_12557 = "Ebonsteel Spaulders"
 -- LBRS
 IJ_DB_DUNGEON_LBRS_NAME = "Lower Blackrock Spire"
 IJ_DB_DUNGEON_LBRS_STORY =
-"This imposing fortress, carved into the fiery core of Blackrock Mountain, represented the might of the Dark Iron clan for centuries. More recently, the black dragon Nefarian and his spawn seized the keep's upper spire and ignited a brutal war against the dwarves. The draconic armies have since allied with Warchief Rend Blackhand and his false Horde. This combined force lords over the spire, conducting horrific experiments to bolster its ranks while plotting the meddlesome Dark Irons' downfall."
+    "This imposing fortress, carved into the fiery core of Blackrock Mountain, represented the might of the Dark Iron clan for centuries. More recently, the black dragon Nefarian and his spawn seized the keep's upper spire and ignited a brutal war against the dwarves. The draconic armies have since allied with Warchief Rend Blackhand and his false Horde. This combined force lords over the spire, conducting horrific experiments to bolster its ranks while plotting the meddlesome Dark Irons' downfall."
 
 -- LBRS Bosses
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9219 = "Spirestone Butcher"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9219 =
-"An elusive ogre, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+    "An elusive ogre, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9196 = "Highlord Omokk"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9196 =
-"Omokk rules over the spire's ogres with an iron fist. Many underlings have challenged him to single combat in the hopes of seizing the highlord's title, but all have fallen without landing a solitary blow. This mysterious phenomenon has led to rumors that dark magic is protecting Omokk."
+    "Omokk rules over the spire's ogres with an iron fist. Many underlings have challenged him to single combat in the hopes of seizing the highlord's title, but all have fallen without landing a solitary blow. This mysterious phenomenon has led to rumors that dark magic is protecting Omokk."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9218 = "Spirestone Battle Lord"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9218 =
-"An elusive ogre, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+    "An elusive ogre, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9217 = "Spirestone Lord Magus"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9217 =
-"An elusive ogre, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+    "An elusive ogre, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9236 = "Shadow Hunter Vosh'gajin"
-IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 =
-"Vosh'gajin is renowned for her beauty--and psychotic tendencies--among the trolls. A master of the shadow hunter arts, she wields formidable hexes, curses, and healing magics."
+IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 = "Vosh'gajin is renowned for her beauty--and psychotic tendencies--among the trolls. A master of the shadow hunter arts, she wields formidable hexes, curses, and healing magics."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "War Master Voone"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
-"During the Second War, Voone led small strike teams on daring missions into the heart of high elven territory. The cunning troll joined the false Horde because he wanted to be its chief strategist, not because he believed in Blackhand's ideology. Voone sees the splinter faction as an underdog, and he enjoys the satisfaction of overcoming insurmountable odds."
+    "During the Second War, Voone led small strike teams on daring missions into the heart of high elven territory. The cunning troll joined the false Horde because he wanted to be its chief strategist, not because he believed in Blackhand's ideology. Voone sees the splinter faction as an underdog, and he enjoys the satisfaction of overcoming insurmountable odds."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9596 = "Bannok Grimaxe"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9596 =
-"An elusive orc, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+    "An elusive orc, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_10596 = "Mother Smolderweb"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_10596 =
-"Centuries ago, the Dark Iron dwarves dug into the lair of Mother Smolderweb, releasing the massive arachnid into the spire's halls. Her brood has continued to swell in number since that time, so much so that even Blackhand's forces fear traveling through Smolderweb's domain."
+    "Centuries ago, the Dark Iron dwarves dug into the lair of Mother Smolderweb, releasing the massive arachnid into the spire's halls. Her brood has continued to swell in number since that time, so much so that even Blackhand's forces fear traveling through Smolderweb's domain."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_10376 = "Crystal Fang"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_10376 =
-"An elusive spider, rarely seen among the general population of Lower Blackrock Spire. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
+    "An elusive spider, rarely seen among the general population of Lower Blackrock Spire. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_10584 = "Urok Doomhowl"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_10584 =
-"Doomhowl is the true leader of the spire's ogres. This sinister figure has charmed his trusted aid, Highlord Omokk, with insidious magic to control Doomhowl's minions in his stead. He has gone to great lengths to keep up this charade, ruthlessly killing any ogres who challenge the highlord's rule."
+    "Doomhowl is the true leader of the spire's ogres. This sinister figure has charmed his trusted aid, Highlord Omokk, with insidious magic to control Doomhowl's minions in his stead. He has gone to great lengths to keep up this charade, ruthlessly killing any ogres who challenge the highlord's rule."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9736 = "Quartermaster Zigris"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9736 =
-"After the First War, the orc hunter Zigris became infamous for tracking down Stormwind refugees and slaughtering them like game. He loathes Blackrock Spire's claustrophobic halls, but he is certain a day will come when he'll hunt in the open air again."
+    "After the First War, the orc hunter Zigris became infamous for tracking down Stormwind refugees and slaughtering them like game. He loathes Blackrock Spire's claustrophobic halls, but he is certain a day will come when he'll hunt in the open air again."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220 = "Halycon"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220 =
-"Halycon comes from a long line of great worgs bred for their ferocity and loyalty. Over the years, the den mother has produced an astonishing number of savage offspring. Rumors have spread that she is a demonic hound gifted to Rend Blackhand by a pit lord of the Burning Legion."
+    "Halycon comes from a long line of great worgs bred for their ferocity and loyalty. Over the years, the den mother has produced an astonishing number of savage offspring. Rumors have spread that she is a demonic hound gifted to Rend Blackhand by a pit lord of the Burning Legion."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268 = "Gizrul the Slavener"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268 =
-"Very few of the Dark Horde have seen the reclusive and unpredictable Gizrul. The beast emerges from his shadowy den only when his mate, Halycon, calls to him. The two monstrous creatures have produced some of the largest--and most ferocious--worgs ever bred in orcish history."
+    "Very few of the Dark Horde have seen the reclusive and unpredictable Gizrul. The beast emerges from his shadowy den only when his mate, Halycon, calls to him. The two monstrous creatures have produced some of the largest--and most ferocious--worgs ever bred in orcish history."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718 = "Ghok Bashguud"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718 =
-"An elusive orc, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+    "An elusive orc, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Overlord Wyrmthalak"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
-"The black dragonspawn Wyrmthalak oversees the lower spire's forces as they prepare for their assault against the dwarves. He has no love for the false Horde or its brutish members, and he will sacrifice any number of Blackhand's minions to protect his master, Nefarian."
+    "The black dragonspawn Wyrmthalak oversees the lower spire's forces as they prepare for their assault against the dwarves. He has no love for the false Horde or its brutish members, and he will sacrifice any number of Blackhand's minions to protect his master, Nefarian."
 
 -- LBRS Loot
 IJ_LOOT_NAME_12608 = "Butcher's Apron"
@@ -1655,33 +1598,33 @@ IJ_LOOT_NAME_13143 = "Mark of the Dragon Lord"
 -- UBRS
 IJ_DB_DUNGEON_UBRS_NAME = "Upper Blackrock Spire"
 IJ_DB_DUNGEON_UBRS_STORY =
-"The history of this imposing fortress is long and complex. Carved into the fiery core of Blackrock Mountain by the Dark Iron clan centuries ago, and eventually taken by the black dragon Nefarian and his brood, the upper reaches of Blackrock Spire are now home to the Ironmarch vanguard. As preparations to use the Spire as the staging ground for a full-scale invasion of Azeroth continue, the Iron Horde has set up a terrifying contingency plan: a doomsday weapon within the heart of Blackrock Mountain."
+    "The history of this imposing fortress is long and complex. Carved into the fiery core of Blackrock Mountain by the Dark Iron clan centuries ago, and eventually taken by the black dragon Nefarian and his brood, the upper reaches of Blackrock Spire are now home to the Ironmarch vanguard. As preparations to use the Spire as the staging ground for a full-scale invasion of Azeroth continue, the Iron Horde has set up a terrifying contingency plan: a doomsday weapon within the heart of Blackrock Mountain."
 
 -- UBRS Bosses
 IJ_DB_DUNGEON_UBRS_BOSS_NAME_9816 = "Pyroguard Emberseer"
 IJ_DB_DUNGEON_UBRS_BOSS_STORY_9816 =
-"Long ago, Pyroguard Emberseer, a loyal minion of the mighty Ragnaros the Firelord, incinerated dozens of Blackrock orcs during a climactic battle at the Burning Steppes. Ultimately Emberseer was defeated and imprisoned within Blackrock Mountain, where his potent energy is now siphoned for use in accelerating the incubation of Nefarian's black dragon eggs."
+    "Long ago, Pyroguard Emberseer, a loyal minion of the mighty Ragnaros the Firelord, incinerated dozens of Blackrock orcs during a climactic battle at the Burning Steppes. Ultimately Emberseer was defeated and imprisoned within Blackrock Mountain, where his potent energy is now siphoned for use in accelerating the incubation of Nefarian's black dragon eggs."
 IJ_DB_DUNGEON_UBRS_BOSS_NAME_10264 = "Solakar Flamewreath"
 IJ_DB_DUNGEON_UBRS_BOSS_STORY_10264 =
-"Gaining favor within the black dragonflight is a mixed blessing. Solakar Flamewreath is entrusted with the care of Nefarian's dragonspawn, but he has been warned he will pay a terrible price for any whelp that dies under his supervision--or simply fails to live up to expectations."
+    "Gaining favor within the black dragonflight is a mixed blessing. Solakar Flamewreath is entrusted with the care of Nefarian's dragonspawn, but he has been warned he will pay a terrible price for any whelp that dies under his supervision--or simply fails to live up to expectations."
 IJ_DB_DUNGEON_UBRS_BOSS_NAME_10509 = "Jed Runewatcher"
 IJ_DB_DUNGEON_UBRS_BOSS_STORY_10509 =
-"An elusive orc, rarely seen among the general population of Upper Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+    "An elusive orc, rarely seen among the general population of Upper Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
 IJ_DB_DUNGEON_UBRS_BOSS_NAME_10899 = "Goraluk Anvilcrack"
 IJ_DB_DUNGEON_UBRS_BOSS_STORY_10899 =
-"Goraluk Anvilcrack is a renowned blacksmith. Unfortunately, he sold his soul to the satyr Lorax, but broke the deal and ran away to Upper Blackrock Spire with a rune covered breastplate."
+    "Goraluk Anvilcrack is a renowned blacksmith. Unfortunately, he sold his soul to the satyr Lorax, but broke the deal and ran away to Upper Blackrock Spire with a rune covered breastplate."
 IJ_DB_DUNGEON_UBRS_BOSS_NAME_10429 = "Warchief Rend Blackhand"
 IJ_DB_DUNGEON_UBRS_BOSS_STORY_10429 =
-"After the Horde was defeated in the Second War, Rend Blackhand, son of the first warchief, brought the remnants of his clan to Blackrock Spire and fought the Dark Iron dwarves for possession of the stronghold. Rend allied his orcs with Nefarian and the black dragonflight, who routed the dwarves and expelled them from Blackrock's upper reaches."
+    "After the Horde was defeated in the Second War, Rend Blackhand, son of the first warchief, brought the remnants of his clan to Blackrock Spire and fought the Dark Iron dwarves for possession of the stronghold. Rend allied his orcs with Nefarian and the black dragonflight, who routed the dwarves and expelled them from Blackrock's upper reaches."
 IJ_DB_DUNGEON_UBRS_BOSS_NAME_10430 = "The Beast"
 IJ_DB_DUNGEON_UBRS_BOSS_STORY_10430 =
-"Nefarian's dragonkin take obscene delight in the barbaric torture of Ragnaros's captured minions. Despite suffering unimaginable agony, one core hound remained lucid enough to be retrained, and his ferocity makes him an ideal guard in the upper levels of Blackrock Spire."
+    "Nefarian's dragonkin take obscene delight in the barbaric torture of Ragnaros's captured minions. Despite suffering unimaginable agony, one core hound remained lucid enough to be retrained, and his ferocity makes him an ideal guard in the upper levels of Blackrock Spire."
 IJ_DB_DUNGEON_UBRS_BOSS_NAME_16042 = "Lord Valthalak"
 IJ_DB_DUNGEON_UBRS_BOSS_STORY_16042 =
-"A drakonid noble and a warlock of immense power, Valthalak was the former General of Blackrock Spire before Drakkisath rose to power. He was slain by the Veiled Blade mercenary company for his spellbook, but ended up avenging himself even after his death using his necromantic powers."
+    "A drakonid noble and a warlock of immense power, Valthalak was the former General of Blackrock Spire before Drakkisath rose to power. He was slain by the Veiled Blade mercenary company for his spellbook, but ended up avenging himself even after his death using his necromantic powers."
 IJ_DB_DUNGEON_UBRS_BOSS_NAME_10363 = "General Drakkisath"
 IJ_DB_DUNGEON_UBRS_BOSS_STORY_10363 =
-"A cunning and ruthless strategist, Drakkisath commands Nefarian's armies in the war with Ragnaros. After securing victories against the Dark Irons, General Drakkisath's forces are positioned to drive the dwarves out of Blackrock Mountain once and for all."
+    "A cunning and ruthless strategist, Drakkisath commands Nefarian's armies in the war with Ragnaros. After securing victories against the Dark Irons, General Drakkisath's forces are positioned to drive the dwarves out of Blackrock Mountain once and for all."
 
 -- UBRS Loot
 IJ_LOOT_NAME_58199 = "Spine of Dentarg"
@@ -1777,42 +1720,42 @@ IJ_LOOT_NAME_12592 = "Blackblade of Shahram"
 -- WC
 IJ_DB_DUNGEON_WC_NAME = "Wailing Caverns"
 IJ_DB_DUNGEON_WC_STORY =
-"Years ago, the famed druid Naralex and his followers descended into the shadowy Wailing Caverns, named for the mournful cry one hears when steam bursts from the cave system's fissures. Naralex planned to use the underground springs to restore lushness to the arid Barrens. But upon entering the Emerald Dream, he saw his vision of regrowth turn into a waking nightmare, one that has plagued the caverns ever since."
+    "Years ago, the famed druid Naralex and his followers descended into the shadowy Wailing Caverns, named for the mournful cry one hears when steam bursts from the cave system's fissures. Naralex planned to use the underground springs to restore lushness to the arid Barrens. But upon entering the Emerald Dream, he saw his vision of regrowth turn into a waking nightmare, one that has plagued the caverns ever since."
 
 -- WC Bosses
 IJ_DB_DUNGEON_WC_BOSS_NAME_3653 = "Kresh"
 IJ_DB_DUNGEON_WC_BOSS_STORY_3653 =
-"An ancient resident of the Wailing Caverns, this giant turtle wanders the underground caves, his resilient mind unaffected by Naralex's relentless nightmares. Don't be fooled by his happy disposition; Kresh has thwarted many adventurers who longed to steal his massive shell"
+    "An ancient resident of the Wailing Caverns, this giant turtle wanders the underground caves, his resilient mind unaffected by Naralex's relentless nightmares. Don't be fooled by his happy disposition; Kresh has thwarted many adventurers who longed to steal his massive shell"
 IJ_DB_DUNGEON_WC_BOSS_NAME_3669 = "Lord Cobrahn"
 IJ_DB_DUNGEON_WC_BOSS_STORY_3669 =
-"Jarlaxla's skill at harnessing animal forms earned him renown among the druids of the Cenarion Circle. However, the Wailing Caverns' corruption twisted his unique abilities. Now, Jarlaxla has perfected a deadly serpentine form, renaming himself Cobrahn to reflect his vicious new found power."
+    "Jarlaxla's skill at harnessing animal forms earned him renown among the druids of the Cenarion Circle. However, the Wailing Caverns' corruption twisted his unique abilities. Now, Jarlaxla has perfected a deadly serpentine form, renaming himself Cobrahn to reflect his vicious new found power."
 IJ_DB_DUNGEON_WC_BOSS_NAME_5912 = "Deviate Faerie Dragon"
 IJ_DB_DUNGEON_WC_BOSS_STORY_5912 =
-"An elusive faerie dragon, rarely seen among the denizens of Wailing Caverns. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
+    "An elusive faerie dragon, rarely seen among the denizens of Wailing Caverns. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
 IJ_DB_DUNGEON_WC_BOSS_NAME_61968 = "Zandara Windhoof"
 IJ_DB_DUNGEON_WC_BOSS_STORY_61968 =
-"As slippery as the shadows themselves, the Kolkar centaur found their way into a hidden branch of the Winding Chasm through the narrowest of cracks. Leading this invasion is the zealous Zandara Windhoof, who has audaciously claimed the Wailing Caverns as her own birthright. Her presence is a direct insult to the Earthmother, bringing nothing but destruction to a place already suffering under the weight of Naralex's failed dream."
+    "As slippery as the shadows themselves, the Kolkar centaur found their way into a hidden branch of the Winding Chasm through the narrowest of cracks. Leading this invasion is the zealous Zandara Windhoof, who has audaciously claimed the Wailing Caverns as her own birthright. Her presence is a direct insult to the Earthmother, bringing nothing but destruction to a place already suffering under the weight of Naralex's failed dream."
 IJ_DB_DUNGEON_WC_BOSS_NAME_3670 = "Lord Pythas"
 IJ_DB_DUNGEON_WC_BOSS_STORY_3670 =
-"A childhood friend of Naralex, the warrior Aryn was a quick study in druidism. Despite his training, the acolyte was defenseless against the corruption that would strip away his sanity. Aryn has taken on the name Pythas, combining his impressive melee prowess with his druidic arsenal to vanquish intruders."
+    "A childhood friend of Naralex, the warrior Aryn was a quick study in druidism. Despite his training, the acolyte was defenseless against the corruption that would strip away his sanity. Aryn has taken on the name Pythas, combining his impressive melee prowess with his druidic arsenal to vanquish intruders."
 IJ_DB_DUNGEON_WC_BOSS_NAME_3674 = "Skum"
 IJ_DB_DUNGEON_WC_BOSS_STORY_3674 =
-"Skum first journeyed to the Wailing Caverns for relief from the Barrens' hostile environment. Like many of the caves' other inhabitants, he quickly succumbed to corruption. His veins now pulse with dark energies that have transformed him into a mighty and ruthless beast beyond redemption."
+    "Skum first journeyed to the Wailing Caverns for relief from the Barrens' hostile environment. Like many of the caves' other inhabitants, he quickly succumbed to corruption. His veins now pulse with dark energies that have transformed him into a mighty and ruthless beast beyond redemption."
 IJ_DB_DUNGEON_WC_BOSS_NAME_61965 = "Vangros"
 IJ_DB_DUNGEON_WC_BOSS_STORY_61965 =
-"Naralex's attempt to restore the Barrens inadvertently birthed a waking nightmare, causing irreparable damage to the balance of Kalimdor. Vangros is a testament to the volatility of these involuntary powers; a manifestation of the rampant, violent overgrowths that have begun to move of their own accord within the stone labyrinth. This creature radiates a corrupted druidic magic, serving as a dangerous countermeasure against any who seek to navigate the cursed maze and free the Dreamer from his eternal slumber."
+    "Naralex's attempt to restore the Barrens inadvertently birthed a waking nightmare, causing irreparable damage to the balance of Kalimdor. Vangros is a testament to the volatility of these involuntary powers; a manifestation of the rampant, violent overgrowths that have begun to move of their own accord within the stone labyrinth. This creature radiates a corrupted druidic magic, serving as a dangerous countermeasure against any who seek to navigate the cursed maze and free the Dreamer from his eternal slumber."
 IJ_DB_DUNGEON_WC_BOSS_NAME_3673 = "Lord Serpentis"
 IJ_DB_DUNGEON_WC_BOSS_STORY_3673 =
-"The Druids of the Fang's leader was once Naralex's finest student. His tragic downfall stemmed from his desire to become a shan'do, or honored teacher like Naralex. As insanity took root, Serpentis rallied his brethren to his side and formed the Druids of the Fang."
+    "The Druids of the Fang's leader was once Naralex's finest student. His tragic downfall stemmed from his desire to become a shan'do, or honored teacher like Naralex. As insanity took root, Serpentis rallied his brethren to his side and formed the Druids of the Fang."
 IJ_DB_DUNGEON_WC_BOSS_NAME_5775 = "Verdan the Everliving"
 IJ_DB_DUNGEON_WC_BOSS_STORY_5775 =
-"Little is known about this creature prior to Naralex's arrival at the Wailing Caverns. Thought to be the caves' original guardian, Verdan the Everliving could not escape the corruption that befell its home. Verdan is allied with the insane druids and maintains its vigil against those who trespass into its domain."
+    "Little is known about this creature prior to Naralex's arrival at the Wailing Caverns. Thought to be the caves' original guardian, Verdan the Everliving could not escape the corruption that befell its home. Verdan is allied with the insane druids and maintains its vigil against those who trespass into its domain."
 IJ_DB_DUNGEON_WC_BOSS_NAME_3671 = "Lady Anacondra"
 IJ_DB_DUNGEON_WC_BOSS_STORY_3671 =
-"Scarletleaf was the first to volunteer for Naralex's self-appointed mission to the Barrens. After her master's nightmare shattered her mind, the young acolyte cast aside her name, now envisioning a sinister reptilian future for Azeroth."
+    "Scarletleaf was the first to volunteer for Naralex's self-appointed mission to the Barrens. After her master's nightmare shattered her mind, the young acolyte cast aside her name, now envisioning a sinister reptilian future for Azeroth."
 IJ_DB_DUNGEON_WC_BOSS_NAME_3654 = "Mutanus the Devourer"
 IJ_DB_DUNGEON_WC_BOSS_STORY_3654 =
-"From the darkest corners of Naralex's twisted mind, the corruption plaguing the Emerald Dream has manifested in the form of the druid's worst enemy: murlocs. The aberration known as Mutanus has come to the waking world to devour any who seek to liberate Naralex from the Nightmare's clutches."
+    "From the darkest corners of Naralex's twisted mind, the corruption plaguing the Emerald Dream has manifested in the form of the druid's worst enemy: murlocs. The aberration known as Mutanus has come to the waking world to devour any who seek to liberate Naralex from the Nightmare's clutches."
 
 -- WC Loot
 IJ_LOOT_NAME_13245 = "Kresh's Back"
@@ -1855,36 +1798,36 @@ IJ_LOOT_NAME_81006 = "Cowl of the Fang"
 -- MARA
 IJ_DB_DUNGEON_MARA_NAME = "Maraudon"
 IJ_DB_DUNGEON_MARA_STORY =
-"According to legend, Zaetar, son of Cenarius, and the earth elemental princess Theradras begot the barbaric centaur race. Shortly after the centaur's creation, the ruthless creatures murdered their father. The grief-stricken Theradras is said to have trapped her lover's spirit within Maraudon, corrupting the region. Now, vicious centaur ghosts and twisted elemental minions roam every corner of the sprawling caves."
+    "According to legend, Zaetar, son of Cenarius, and the earth elemental princess Theradras begot the barbaric centaur race. Shortly after the centaur's creation, the ruthless creatures murdered their father. The grief-stricken Theradras is said to have trapped her lover's spirit within Maraudon, corrupting the region. Now, vicious centaur ghosts and twisted elemental minions roam every corner of the sprawling caves."
 
 -- MARA Bosses
 IJ_DB_DUNGEON_MARA_BOSS_NAME_13282 = "Noxxion"
 IJ_DB_DUNGEON_MARA_BOSS_STORY_13282 =
-"Noxxion is a living embodiment of corruption. Theradras ordered her ally Lord Vyletongue to create this putrid elemental to be a powerful servant and a loyal pet to ease the princess's loneliness. Noxxion spreads its toxic essence into areas of Maraudon that have not yet withered under Theradras's malign influence."
+    "Noxxion is a living embodiment of corruption. Theradras ordered her ally Lord Vyletongue to create this putrid elemental to be a powerful servant and a loyal pet to ease the princess's loneliness. Noxxion spreads its toxic essence into areas of Maraudon that have not yet withered under Theradras's malign influence."
 IJ_DB_DUNGEON_MARA_BOSS_NAME_12258 = "Razorlash"
 IJ_DB_DUNGEON_MARA_BOSS_STORY_12258 =
-"Razorlash was made to accompany Noxxion through Maraudon. In time, this new creation became one of the princess's most cherished servants. Razorlash constantly wanders the caves alongside Noxxion, using thorny tendrils to shred any untainted plant life it can find."
+    "Razorlash was made to accompany Noxxion through Maraudon. In time, this new creation became one of the princess's most cherished servants. Razorlash constantly wanders the caves alongside Noxxion, using thorny tendrils to shred any untainted plant life it can find."
 IJ_DB_DUNGEON_MARA_BOSS_NAME_12237 = "Meshlok the Harvester"
 IJ_DB_DUNGEON_MARA_BOSS_STORY_12237 =
-"An elusive bog beast, rarely seen among the denizens of Maraudon. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
+    "An elusive bog beast, rarely seen among the denizens of Maraudon. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
 IJ_DB_DUNGEON_MARA_BOSS_NAME_12236 = "Lord Vyletongue"
 IJ_DB_DUNGEON_MARA_BOSS_STORY_12236 =
-"The satyr lord Vyletongue journeyed into Maraudon's depths after hearing of its corruption. Theradras was wary of the conniving demon at first, but Vyletongue proved his worth by creating an array of wretched minions, such as Noxxion and Razorlash, for the princess."
+    "The satyr lord Vyletongue journeyed into Maraudon's depths after hearing of its corruption. Theradras was wary of the conniving demon at first, but Vyletongue proved his worth by creating an array of wretched minions, such as Noxxion and Razorlash, for the princess."
 IJ_DB_DUNGEON_MARA_BOSS_NAME_12225 = "Celebras the Cursed"
 IJ_DB_DUNGEON_MARA_BOSS_STORY_12225 =
-"Upon learning of his uncle's tragic fate, the noble Celebras swore to free Zaetar's spirit. Yet the keeper of the grove was not prepared for the horrors that awaited him in Maraudon's shadowy corridors. The dark energies permeating the area quickly overcame Celebras, filling his heart with uncontrollable rage."
+    "Upon learning of his uncle's tragic fate, the noble Celebras swore to free Zaetar's spirit. Yet the keeper of the grove was not prepared for the horrors that awaited him in Maraudon's shadowy corridors. The dark energies permeating the area quickly overcame Celebras, filling his heart with uncontrollable rage."
 IJ_DB_DUNGEON_MARA_BOSS_NAME_13601 = "Tinkerer Gizlock"
 IJ_DB_DUNGEON_MARA_BOSS_STORY_13601 =
-"Tinkerer Gizlock and five other gem hunters snuck into Maraudon to mine its highly prized crystals. Their plan went horribly wrong when satyrs slaughtered everyone in the party save for Gizlock. The goblin, trapped within the caves and driven to the brink of madness, sees himself as the subterranean region's new ruler."
+    "Tinkerer Gizlock and five other gem hunters snuck into Maraudon to mine its highly prized crystals. Their plan went horribly wrong when satyrs slaughtered everyone in the party save for Gizlock. The goblin, trapped within the caves and driven to the brink of madness, sees himself as the subterranean region's new ruler."
 IJ_DB_DUNGEON_MARA_BOSS_NAME_12203 = "Landslide"
 IJ_DB_DUNGEON_MARA_BOSS_STORY_12203 =
-"For years, the ancient mountain giant known as Landslide cultivated brilliant crystal gardens in Maraudon, but Theradras enthralled the behemoth when she took up residence there. This once-stoic giant now lives only to serve his tyrannical new master."
+    "For years, the ancient mountain giant known as Landslide cultivated brilliant crystal gardens in Maraudon, but Theradras enthralled the behemoth when she took up residence there. This once-stoic giant now lives only to serve his tyrannical new master."
 IJ_DB_DUNGEON_MARA_BOSS_NAME_13596 = "Rotgrip"
 IJ_DB_DUNGEON_MARA_BOSS_STORY_13596 =
-"Rumor has it that Rotgrip has dwelled in Maraudon's subterranean waters for millennia. The famed dwarven hunter Hemet Nesingwary once proclaimed that the beast could not be found, and a number of amateur trackers accepted the challenge of seeking out the legendary creature. None of them ever returned."
+    "Rumor has it that Rotgrip has dwelled in Maraudon's subterranean waters for millennia. The famed dwarven hunter Hemet Nesingwary once proclaimed that the beast could not be found, and a number of amateur trackers accepted the challenge of seeking out the legendary creature. None of them ever returned."
 IJ_DB_DUNGEON_MARA_BOSS_NAME_12201 = "Princess Theradras"
 IJ_DB_DUNGEON_MARA_BOSS_STORY_12201 =
-"The earth elemental Theradras, Therazane the Stonemother's sole daughter, resides in Maraudon's inner sanctum. Influenced by the Old Gods, the princess transformed her home into a den of corruption and suffering. Some believe that her foul powers are tied to the spirit of her dead lover, Zaetar. If so, liberating the fallen keeper of the grove might be the only hope of cleansing Maraudon."
+    "The earth elemental Theradras, Therazane the Stonemother's sole daughter, resides in Maraudon's inner sanctum. Influenced by the Old Gods, the princess transformed her home into a den of corruption and suffering. Some believe that her foul powers are tied to the spirit of her dead lover, Zaetar. If so, liberating the fallen keeper of the grove might be the only hope of cleansing Maraudon."
 
 -- MARA Loot
 IJ_LOOT_NAME_17746 = "Noxxion's Shackles"
@@ -1929,29 +1872,29 @@ IJ_LOOT_NAME_17780 = "Blade of Eternal Darkness"
 -- RFD
 IJ_DB_DUNGEON_RFD_NAME = "Razorfen Downs"
 IJ_DB_DUNGEON_RFD_STORY =
-"Legends state that where the demigod Agamaggan fell, his blood gave rise to great masses of thorny vines. Many quilboar have taken up residence in the largest cluster of giant thorns, the Razorfen, which they revere as Agamaggan's resting place. Recently, scouts have reported seeing undead milling about the region, engendering fears that the dreaded Scourge may be moving to conquer Kalimdor."
+    "Legends state that where the demigod Agamaggan fell, his blood gave rise to great masses of thorny vines. Many quilboar have taken up residence in the largest cluster of giant thorns, the Razorfen, which they revere as Agamaggan's resting place. Recently, scouts have reported seeing undead milling about the region, engendering fears that the dreaded Scourge may be moving to conquer Kalimdor."
 
 -- RFD Bosses
 IJ_DB_DUNGEON_RFD_BOSS_NAME_7356 = "Plaguemaw the Rotting"
 IJ_DB_DUNGEON_RFD_BOSS_STORY_7356 = "A rotting abomination sent to kill any adventurers that dares enter Razorfen Downs."
 IJ_DB_DUNGEON_RFD_BOSS_NAME_7355 = "Tuten'kash"
 IJ_DB_DUNGEON_RFD_BOSS_STORY_7355 =
-"Though blinded during the War of the Spider before his conversion to undeath, Tuten'kash still serves the Scourge as one of its deadliest crypt fiend commanders. Tutaen'kash compensates for his blindness by decorating his lair with fine, almost invisible webs that allow him to sense every footstep and the lightest touch, alerting him to send out minions to ambush his hapless prey. Strong vibrations can send him into a disoriented rage, drawing him from his hiding spot deep within Razorfen Downs' recesses."
+    "Though blinded during the War of the Spider before his conversion to undeath, Tuten'kash still serves the Scourge as one of its deadliest crypt fiend commanders. Tutaen'kash compensates for his blindness by decorating his lair with fine, almost invisible webs that allow him to sense every footstep and the lightest touch, alerting him to send out minions to ambush his hapless prey. Strong vibrations can send him into a disoriented rage, drawing him from his hiding spot deep within Razorfen Downs' recesses."
 IJ_DB_DUNGEON_RFD_BOSS_NAME_7357 = "Mordresh Fire Eye"
 IJ_DB_DUNGEON_RFD_BOSS_STORY_7357 =
-"Through necromantic magic Death Speaker Blackthorn was able to rekindle the flames of Mordresh Fire Eye's soul, returning him to undeath. As a former shaman, Mordresh has exerted his twisted control over the elements. He burns and scorches all those who threaten the Death Speaker's work."
+    "Through necromantic magic Death Speaker Blackthorn was able to rekindle the flames of Mordresh Fire Eye's soul, returning him to undeath. As a former shaman, Mordresh has exerted his twisted control over the elements. He burns and scorches all those who threaten the Death Speaker's work."
 IJ_DB_DUNGEON_RFD_BOSS_NAME_8567 = "Glutton"
 IJ_DB_DUNGEON_RFD_BOSS_STORY_8567 =
-"Living up to his name, this massive abomination has spent much of his time in Razorfen Downs gorging himself on the spoiled corpses of boars and their quilboar masters. The mass of rancid meat within his gut emanates a cloud of noxious fumes and crippling diseases, choking unfortunate adventurers who stray too close."
+    "Living up to his name, this massive abomination has spent much of his time in Razorfen Downs gorging himself on the spoiled corpses of boars and their quilboar masters. The mass of rancid meat within his gut emanates a cloud of noxious fumes and crippling diseases, choking unfortunate adventurers who stray too close."
 IJ_DB_DUNGEON_RFD_BOSS_NAME_62679 = "Death Prophet Rakameg"
 IJ_DB_DUNGEON_RFD_BOSS_STORY_62679 =
-"As Amnennar the Coldbringer's influence expands, he has appointed Death Prophet Rakameg to oversee the collection of dark obsidian required for the Lich's most nefarious sorceries. Rakameg acts as a conduit for the malevolent essence surging through the Downs, preaching a gospel of undeath to the displaced quilboar. He is fiercely protective of the obsidian artifacts within the bastion of darkness, viewing them as the key to ensuring his master's immortal essence remains unassailable by those who seek to mend the world's fractures."
+    "As Amnennar the Coldbringer's influence expands, he has appointed Death Prophet Rakameg to oversee the collection of dark obsidian required for the Lich's most nefarious sorceries. Rakameg acts as a conduit for the malevolent essence surging through the Downs, preaching a gospel of undeath to the displaced quilboar. He is fiercely protective of the obsidian artifacts within the bastion of darkness, viewing them as the key to ensuring his master's immortal essence remains unassailable by those who seek to mend the world's fractures."
 IJ_DB_DUNGEON_RFD_BOSS_NAME_7354 = "Ragglesnout"
 IJ_DB_DUNGEON_RFD_BOSS_STORY_7354 =
-"An elusive quillboar, rarely seen among the denizens of Razorfen Downs. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+    "An elusive quillboar, rarely seen among the denizens of Razorfen Downs. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
 IJ_DB_DUNGEON_RFD_BOSS_NAME_7358 = "Amnennar the Coldbringer"
 IJ_DB_DUNGEON_RFD_BOSS_STORY_7358 =
-"The lich Amnennar began plans to create a base from which to strike at Orgrimmar and Theramore. To that end, Amnennar has set his sights on recruiting the recently displaced and desperate quilboar people, promising them power over death so they can repel invaders in their lands."
+    "The lich Amnennar began plans to create a base from which to strike at Orgrimmar and Theramore. To that end, Amnennar has set his sights on recruiting the recently displaced and desperate quilboar people, promising them power over death so they can repel invaders in their lands."
 
 -- RFD Loot
 IJ_LOOT_NAME_10760 = "Swine Fists"
@@ -1982,33 +1925,33 @@ IJ_LOOT_NAME_10765 = "Bonefingers"
 -- RFK
 IJ_DB_DUNGEON_RFK_NAME = "Razorfen Kraul"
 IJ_DB_DUNGEON_RFK_STORY =
-"Legends state that where the demigod Agamaggan fell, his blood gave rise to great masses of thorny vines. Many quilboar have taken up residence in the largest cluster of giant thorns, the Razorfen, which they revere as Agamaggan's resting place."
+    "Legends state that where the demigod Agamaggan fell, his blood gave rise to great masses of thorny vines. Many quilboar have taken up residence in the largest cluster of giant thorns, the Razorfen, which they revere as Agamaggan's resting place."
 
 -- RFK Bosses
 IJ_DB_DUNGEON_RFK_BOSS_NAME_4428 = "Death Speaker Jargba"
 IJ_DB_DUNGEON_RFK_BOSS_STORY_4428 =
-"The Death Speakers of the Death's Head tribe serve two functions: to disseminate propaganda and to discipline those who refuse to obey Charlga Razorflank and, by extension, her mysterious new allies. Jargba has made a name for himself among the Death Speakers by dominating the very minds of dissidents, forcing them to accept the will of their leaders."
+    "The Death Speakers of the Death's Head tribe serve two functions: to disseminate propaganda and to discipline those who refuse to obey Charlga Razorflank and, by extension, her mysterious new allies. Jargba has made a name for himself among the Death Speakers by dominating the very minds of dissidents, forcing them to accept the will of their leaders."
 IJ_DB_DUNGEON_RFK_BOSS_NAME_4424 = "Aggem Thorncurse"
 IJ_DB_DUNGEON_RFK_BOSS_STORY_4424 =
-"The commander of the Razorfen military forces, Warlord Ramtusk is a massive aging Quilboar whose thick hide bears the scars of many battles with centaur, harpies, orcs, and even tauren. In his later years, Ramtusk has embraced the company of Quilboar spirit leaders; Aggem Thorncurse and Death Speaker Jargba guide his thoughts from the spirit realm."
+    "The commander of the Razorfen military forces, Warlord Ramtusk is a massive aging Quilboar whose thick hide bears the scars of many battles with centaur, harpies, orcs, and even tauren. In his later years, Ramtusk has embraced the company of Quilboar spirit leaders; Aggem Thorncurse and Death Speaker Jargba guide his thoughts from the spirit realm."
 IJ_DB_DUNGEON_RFK_BOSS_NAME_4420 = "Overlord Ramtusk"
 IJ_DB_DUNGEON_RFK_BOSS_STORY_4420 =
-"The commander of the Death's Head military forces, Overlord Ramtusk is a massive aging quilboar whose thick hide bears the scars of many battles with centaur, harpies, orcs, and even tauren. Rather than being slowed by his advanced years, Ramtusk directs his troops with the swift and confident authority of a battle-forged veteran. Striking him down would surely deal a crippling blow to the Death's Head."
+    "The commander of the Death's Head military forces, Overlord Ramtusk is a massive aging quilboar whose thick hide bears the scars of many battles with centaur, harpies, orcs, and even tauren. Rather than being slowed by his advanced years, Ramtusk directs his troops with the swift and confident authority of a battle-forged veteran. Striking him down would surely deal a crippling blow to the Death's Head."
 IJ_DB_DUNGEON_RFK_BOSS_NAME_4842 = "Earthcaller Halmgar"
 IJ_DB_DUNGEON_RFK_BOSS_STORY_4842 =
-"An elusive quillboar, rarely seen among the denizens of Razorfen Kraul. She is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter her in the first place..."
+    "An elusive quillboar, rarely seen among the denizens of Razorfen Kraul. She is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter her in the first place..."
 IJ_DB_DUNGEON_RFK_BOSS_NAME_62503 = "Rotthorn"
 IJ_DB_DUNGEON_RFK_BOSS_STORY_62503 =
-"Rotthorn is the living embodiment of the gnarled natural magic that has twisted the order of Razorfen Kraul into a mess of bramble and thorn. Originally thought to be a product of primitive quilboar magic, this Bramblehide elemental was actually driven to madness by a much darker, sinister presence lurking within the lair. It now manifests in a state of perpetual anger, its very heart-the Tainted Brambleheart-pulsating with a foreign energy that even the most experienced druids find inscrutable and deeply unsettling."
+    "Rotthorn is the living embodiment of the gnarled natural magic that has twisted the order of Razorfen Kraul into a mess of bramble and thorn. Originally thought to be a product of primitive quilboar magic, this Bramblehide elemental was actually driven to madness by a much darker, sinister presence lurking within the lair. It now manifests in a state of perpetual anger, its very heart-the Tainted Brambleheart-pulsating with a foreign energy that even the most experienced druids find inscrutable and deeply unsettling."
 IJ_DB_DUNGEON_RFK_BOSS_NAME_4422 = "Agathelos the Raging"
 IJ_DB_DUNGEON_RFK_BOSS_STORY_4422 =
-"Boars are revered within quilboar culture, and particularly large and tenacious ones are seen as a favor from Agamaggan. Already a powerful creature, Agathelos has been fed Kraul bat guano, which produces a maddening effect, resulting in increased stamina and strength. The Death's Head plan to utilize Agathelos as a powerful weapon to crush all who oppose them."
+    "Boars are revered within quilboar culture, and particularly large and tenacious ones are seen as a favor from Agamaggan. Already a powerful creature, Agathelos has been fed Kraul bat guano, which produces a maddening effect, resulting in increased stamina and strength. The Death's Head plan to utilize Agathelos as a powerful weapon to crush all who oppose them."
 IJ_DB_DUNGEON_RFK_BOSS_NAME_4425 = "Blind Hunter"
 IJ_DB_DUNGEON_RFK_BOSS_STORY_4425 =
-"An elusive bat, rarely seen among the denizens of Razorfen Kraul. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
+    "An elusive bat, rarely seen among the denizens of Razorfen Kraul. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
 IJ_DB_DUNGEON_RFK_BOSS_NAME_4421 = "Charlga Razorflank"
 IJ_DB_DUNGEON_RFK_BOSS_STORY_4421 =
-"The leader (or \"crone\") of the Razorfen tribes is Charlga Razorflank, a quilboar whose experimental and powerful Geomancy practices are second to none. Her meteoric rise to power and the rapidly increasing violence between quilboar tribesmen can only lead to one thing: war."
+    "The leader (or \"crone\") of the Razorfen tribes is Charlga Razorflank, a quilboar whose experimental and powerful Geomancy practices are second to none. Her meteoric rise to power and the rapidly increasing violence between quilboar tribesmen can only lead to one thing: war."
 
 -- RFK Loot
 IJ_LOOT_NAME_2816 = "Death Speaker Scepter"
@@ -2040,54 +1983,50 @@ IJ_LOOT_NAME_6694 = "Heart of Agamaggan"
 -- SCHOLO
 IJ_DB_DUNGEON_SCHOLO_NAME = "Scholomance"
 IJ_DB_DUNGEON_SCHOLO_STORY =
-"Individuals seeking to master the powers of undeath know well of Scholomance, the infamous school of necromancy located in the dark and foreboding crypts beneath Caer Darrow. In recent years, several of the instructors have changed, but the institution remains under the control of Darkmaster Gandling, a particularly sadistic and insidious practitioner of necromantic magic."
+    "Individuals seeking to master the powers of undeath know well of Scholomance, the infamous school of necromancy located in the dark and foreboding crypts beneath Caer Darrow. In recent years, several of the instructors have changed, but the institution remains under the control of Darkmaster Gandling, a particularly sadistic and insidious practitioner of necromantic magic."
 
 -- SCHOLO Bosses
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10506 = "Kirtonos the Herald"
 IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10506 =
-"Long ago, he became the master of Scholomance's Doctor Theolen Krastinov. Responsible for many of the atrocities during Krastinov's rule over Scholomance, Kirtonos fed on the blood of his innocent victims. To appease his master, Doctor Krastinov had to provide the gargoyle with more and more blood."
+    "Long ago, he became the master of Scholomance's Doctor Theolen Krastinov. Responsible for many of the atrocities during Krastinov's rule over Scholomance, Kirtonos fed on the blood of his innocent victims. To appease his master, Doctor Krastinov had to provide the gargoyle with more and more blood."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10503 = "Jandice Barov"
 IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10503 =
-"Jandice Barov was once an archmage of Dalaran and a powerful illusionist. In life, she developed a spell that \"displayed several images of her body that were nearly indistinguishable from her real form. These images duplicated her actions from different locations, making it nearly impossible for her enemies to find her. It was almost infallible.\" After House Barov pledged their allegiance to the Cult of the Damned, Jandice was turned into an undead ghost within Scholomance."
+    "Jandice Barov was once an archmage of Dalaran and a powerful illusionist. In life, she developed a spell that \"displayed several images of her body that were nearly indistinguishable from her real form. These images duplicated her actions from different locations, making it nearly impossible for her enemies to find her. It was almost infallible.\" After House Barov pledged their allegiance to the Cult of the Damned, Jandice was turned into an undead ghost within Scholomance."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_11622 = "Rattlegore"
-IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_11622 =
-"Rattlegore is made from the remains of his defeated enemies. He guard Scholomance against intruders to this day."
+IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_11622 = "Rattlegore is made from the remains of his defeated enemies. He guard Scholomance against intruders to this day."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_14516 = "Death Knight Darkreaver"
 IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_14516 =
-"Once a celebrated paladin, the man who would come to be known as Darkreaver was seduced by the call of the Lich King, and became an insidious death knight. His corruption spread to his steed, who was transformed into an undead horse. Darkreaver was sent to the Scholomance. In the dungeon below the Great Ossuary, he attempted to bend the spirit realm to his whim, summoning and corrupting spirits to do his bidding."
+    "Once a celebrated paladin, the man who would come to be known as Darkreaver was seduced by the call of the Lich King, and became an insidious death knight. His corruption spread to his steed, who was transformed into an undead horse. Darkreaver was sent to the Scholomance. In the dungeon below the Great Ossuary, he attempted to bend the spirit realm to his whim, summoning and corrupting spirits to do his bidding."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10433 = "Marduk Blackpool"
 IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10433 =
-"Marduk Blackpool, also known as Marduk the Black, is an infamous death knight of the Scourge. He is a tutor at Scholomance, sharing his dark secrets to the students of necromancy."
+    "Marduk Blackpool, also known as Marduk the Black, is an infamous death knight of the Scourge. He is a tutor at Scholomance, sharing his dark secrets to the students of necromancy."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10432 = "Vectus"
-IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10432 =
-"Vectus developed the plagued dragons found inside Scholomance, which he got by paying Tinkee Steamboil in the Burning Steppes to deliver dragon eggs from Blackrock Spire."
+IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10432 = "Vectus developed the plagued dragons found inside Scholomance, which he got by paying Tinkee Steamboil in the Burning Steppes to deliver dragon eggs from Blackrock Spire."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10508 = "Ras Frostwhisper"
 IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10508 =
-"Ras Frostwhisper was once a human mage from Stromgarde. He was a hedge mage, a rogue wizard that never received his formal training from Dalaran. He was among the first to join the Cult of the Damned and quickly advanced through its ranks. He is now an overseer of Scholomance."
+    "Ras Frostwhisper was once a human mage from Stromgarde. He was a hedge mage, a rogue wizard that never received his formal training from Dalaran. He was among the first to join the Cult of the Damned and quickly advanced through its ranks. He is now an overseer of Scholomance."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_16118 = "Kormok"
 IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_16118 =
-"Kormok is an ogre necromancer boss found in Scholomance. One of his heads was always cheerful if not a little foolish, while the other was sly, calculating and had an almost dead look to its eyes. While initially a mere mage and not being that bad as a member of the Veiled Blade, he became exposed to the necromantic side of magic and ended up delighting in summoning forth the souls of the banished dead of Purgation Isle. After quitting his mercenary company he enrolled at the Scholomance."
+    "Kormok is an ogre necromancer boss found in Scholomance. One of his heads was always cheerful if not a little foolish, while the other was sly, calculating and had an almost dead look to its eyes. While initially a mere mage and not being that bad as a member of the Veiled Blade, he became exposed to the necromantic side of magic and ended up delighting in summoning forth the souls of the banished dead of Purgation Isle. After quitting his mercenary company he enrolled at the Scholomance."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10505 = "Instructor Malicia"
 IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10505 =
-"A former high elf of Quel'Thalas, Malicia was one of the few of her kind to willingly join the Cult of the Damned before the fall of Silvermoon. Now an unliving tutor of the dark arts, she oversees the physical and tactical training of the school's acolytes. Malicia is notorious for her cruelty, often using her students as living targets for her devastating shadow magic to ensure that only the most ruthless and resilient survive to serve the Lich King."
+    "A former high elf of Quel'Thalas, Malicia was one of the few of her kind to willingly join the Cult of the Damned before the fall of Silvermoon. Now an unliving tutor of the dark arts, she oversees the physical and tactical training of the school's acolytes. Malicia is notorious for her cruelty, often using her students as living targets for her devastating shadow magic to ensure that only the most ruthless and resilient survive to serve the Lich King."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_11261 = "Doctor Theolen Krastinov"
 IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_11261 =
-"Known as \"The Butcher\", Krastinov is the servant of Kirtonos the Herald and the main torturer and provider of bodies and bodily parts for the Scholomance's necromancy experiments. His first victims were recruited from among the household of Caer Darrow. Among them were servants of the Barov family, Eva and Lucien Sarkhoff. Trapped, tortured and maimed for months, they vowed vengeance on Krastinov even beyond the grave."
+    "Known as \"The Butcher\", Krastinov is the servant of Kirtonos the Herald and the main torturer and provider of bodies and bodily parts for the Scholomance's necromancy experiments. His first victims were recruited from among the household of Caer Darrow. Among them were servants of the Barov family, Eva and Lucien Sarkhoff. Trapped, tortured and maimed for months, they vowed vengeance on Krastinov even beyond the grave."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10901 = "Lorekeeper Polkelt"
-IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10901 =
-"Lorekeeper Polkelt was once the keeper of knowledge, knowledge that has sadly been lost, however, as he is now a shambling, unintelligent monster."
+IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10901 = "Lorekeeper Polkelt was once the keeper of knowledge, knowledge that has sadly been lost, however, as he is now a shambling, unintelligent monster."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10507 = "The Ravenian"
 IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10507 =
-"The Ravenian is a monstrous abomination of unparalleled hunger, serving as the school's ultimate 'disciplinary' measure. Stitched together from the strongest remains available to the cult, he resides in the lower pits of the academy where he is fed the failures and the weak. Unlike the more intelligent faculty, the Ravenian is a creature of pure, gluttonous instinct, acting as a massive wall of rotting flesh between intruders and the school's most guarded secrets."
+    "The Ravenian is a monstrous abomination of unparalleled hunger, serving as the school's ultimate 'disciplinary' measure. Stitched together from the strongest remains available to the cult, he resides in the lower pits of the academy where he is fed the failures and the weak. Unlike the more intelligent faculty, the Ravenian is a creature of pure, gluttonous instinct, acting as a massive wall of rotting flesh between intruders and the school's most guarded secrets."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10504 = "Lord Alexei Barov"
 IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10504 =
-"Lord Alexei Barov was the lord of Caer Darrow, Brill, Tarren Mill and Southshore. He was the father of Alexi, Weldon, and Jandice Barov and husband of Lady Illucia Barov. Like Jandice and Illucia, he is now an agent of the Scourge found in Scholomance."
+    "Lord Alexei Barov was the lord of Caer Darrow, Brill, Tarren Mill and Southshore. He was the father of Alexi, Weldon, and Jandice Barov and husband of Lady Illucia Barov. Like Jandice and Illucia, he is now an agent of the Scourge found in Scholomance."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10502 = "Lady Illucia Barov"
 IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10502 =
-"As the wife of Lord Alexei Barov, Illucia shared in the family's dark pact with Kel'Thuzad, trading the ancestral lands of Caer Darrow for the hollow promise of eternal life. Now a spectral shadow of her former noble self, she haunts the academy's study halls. Illucia retains the aristocratic arrogance she held in life, using her mastery of mind control and psychic agony to break the wills of those who dare trespass in her family's desecrated home."
+    "As the wife of Lord Alexei Barov, Illucia shared in the family's dark pact with Kel'Thuzad, trading the ancestral lands of Caer Darrow for the hollow promise of eternal life. Now a spectral shadow of her former noble self, she haunts the academy's study halls. Illucia retains the aristocratic arrogance she held in life, using her mastery of mind control and psychic agony to break the wills of those who dare trespass in her family's desecrated home."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_1853 = "Darkmaster Gandling"
-IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_1853 =
-"Darkmaster Gandling is the headmaster of the School of Necromancy at Caer Darrow, appointed personally by Kel'Thuzad."
+IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_1853 = "Darkmaster Gandling is the headmaster of the School of Necromancy at Caer Darrow, appointed personally by Kel'Thuzad."
 
 -- SCHOLO Loot
 IJ_LOOT_NAME_13920 = "Healthy Dragon Scale"
@@ -2199,39 +2138,36 @@ IJ_LOOT_NAME_13937 = "Headmaster's Charge"
 -- SFK
 IJ_DB_DUNGEON_SFK_NAME = "Shadowfang Keep"
 IJ_DB_DUNGEON_SFK_STORY =
-"During the Third War, the wizards of the Kirin Tor battled against the undead armies of the Scourge. When the wizards of Dalaran died in battle, they would rise soon after - adding their former might to the growing Scourge. Frustrated by their lack of progress (and against the advice of his peers) the Archmage, Arugal elected to summon extra-dimensional entities to bolster Dalaran's diminishing ranks. Arugal's summoning brought the ravenous worgen into the world of Azeroth. The feral wolf-men slaughtered not only the Scourge, but quickly turned on the wizards themselves. The worgen sieged the keep of the noble, Baron Silverlaine. Situated above the tiny hamlet of Pyrewood, the keep quickly fell into shadow and ruin. Driven mad with guilt, Arugal adopted the worgen as his children and retreated to the newly dubbed 'Shadowfang Keep'. It's said he still resides there, protected by his massive pet, Fenrus - and haunted by the vengeful ghost of Baron Silverlaine."
+    "During the Third War, the wizards of the Kirin Tor battled against the undead armies of the Scourge. When the wizards of Dalaran died in battle, they would rise soon after - adding their former might to the growing Scourge. Frustrated by their lack of progress (and against the advice of his peers) the Archmage, Arugal elected to summon extra-dimensional entities to bolster Dalaran's diminishing ranks. Arugal's summoning brought the ravenous worgen into the world of Azeroth. The feral wolf-men slaughtered not only the Scourge, but quickly turned on the wizards themselves. The worgen sieged the keep of the noble, Baron Silverlaine. Situated above the tiny hamlet of Pyrewood, the keep quickly fell into shadow and ruin. Driven mad with guilt, Arugal adopted the worgen as his children and retreated to the newly dubbed 'Shadowfang Keep'. It's said he still resides there, protected by his massive pet, Fenrus - and haunted by the vengeful ghost of Baron Silverlaine."
 
 -- SFK Bosses
 IJ_DB_DUNGEON_SFK_BOSS_NAME_3914 = "Rethilgore"
 IJ_DB_DUNGEON_SFK_BOSS_STORY_3914 =
-"Rethilgore is one of the most vicious worgen, entrusted by Archmage Arugal to guard the prisoners who have been caught breaking into Shadowfang Keep. These include Deathstalker Adamant, Sorcerer Ashcrombe and Landen Stilwell."
+    "Rethilgore is one of the most vicious worgen, entrusted by Archmage Arugal to guard the prisoners who have been caught breaking into Shadowfang Keep. These include Deathstalker Adamant, Sorcerer Ashcrombe and Landen Stilwell."
 IJ_DB_DUNGEON_SFK_BOSS_NAME_3886 = "Razorclaw the Butcher"
-IJ_DB_DUNGEON_SFK_BOSS_STORY_3886 =
-"Razorclaw inhabits the former kitchen of Shadowfang Keep. He slaughtered many innocent humans in Shadowfang Keep when brought in by his master Arugal, hence his nickname."
+IJ_DB_DUNGEON_SFK_BOSS_STORY_3886 = "Razorclaw inhabits the former kitchen of Shadowfang Keep. He slaughtered many innocent humans in Shadowfang Keep when brought in by his master Arugal, hence his nickname."
 IJ_DB_DUNGEON_SFK_BOSS_NAME_3887 = "Baron Silverlaine"
 IJ_DB_DUNGEON_SFK_BOSS_STORY_3887 =
-"Silverlaine was the former lord of Shadowfang Keep, but was killed when Archmage Arugal and his worgen took over the keep for their own sinister plans. He now haunts the dining room with some of his servants."
+    "Silverlaine was the former lord of Shadowfang Keep, but was killed when Archmage Arugal and his worgen took over the keep for their own sinister plans. He now haunts the dining room with some of his servants."
 IJ_DB_DUNGEON_SFK_BOSS_NAME_61969 = "Prelate Ironmane"
 IJ_DB_DUNGEON_SFK_BOSS_STORY_61969 =
-"Once a man of peerless faith, Prelate Ironmane was renowned for sermons so moving they stirred the hearts of even the most devout holy men. While his friend Father Brightcopf managed to regain his free will after the Lich King's influence waned, Ironmane was not so fortunate. Consumed by the darkness of Shadowfang Keep and the blood magic of Arugal, he remains a loyal servant to the madness within the walls. He stands as a tragic monument to fallen grace, wielding the Light he once preached as a weapon of terror against any who seek to end the Keep's curse."
+    "Once a man of peerless faith, Prelate Ironmane was renowned for sermons so moving they stirred the hearts of even the most devout holy men. While his friend Father Brightcopf managed to regain his free will after the Lich King's influence waned, Ironmane was not so fortunate. Consumed by the darkness of Shadowfang Keep and the blood magic of Arugal, he remains a loyal servant to the madness within the walls. He stands as a tragic monument to fallen grace, wielding the Light he once preached as a weapon of terror against any who seek to end the Keep's curse."
 IJ_DB_DUNGEON_SFK_BOSS_NAME_4278 = "Commander Springvale"
-IJ_DB_DUNGEON_SFK_BOSS_STORY_4278 =
-"A loyal soldier, the ghost of Commander Springvale haunts the council room, using unholy strikes to avenge his lord, Baron Silverlaine."
+IJ_DB_DUNGEON_SFK_BOSS_STORY_4278 = "A loyal soldier, the ghost of Commander Springvale haunts the council room, using unholy strikes to avenge his lord, Baron Silverlaine."
 IJ_DB_DUNGEON_SFK_BOSS_NAME_4279 = "Odo the Blindwatcher"
 IJ_DB_DUNGEON_SFK_BOSS_STORY_4279 =
-"Odo lives in the dilapidated wooden structure hanging precariously off the side of the keep with two pet bats, a Blood Seeker and a Vile Bat. Although he lost his eyesight long ago (hence his nickname), he has adapted to using his other senses, much like his pets."
+    "Odo lives in the dilapidated wooden structure hanging precariously off the side of the keep with two pet bats, a Blood Seeker and a Vile Bat. Although he lost his eyesight long ago (hence his nickname), he has adapted to using his other senses, much like his pets."
 IJ_DB_DUNGEON_SFK_BOSS_NAME_3872 = "Deathsworn Captain"
 IJ_DB_DUNGEON_SFK_BOSS_STORY_3872 =
-"An elusive human ghost, rarely seen among the general population of Shadowfang Keep. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+    "An elusive human ghost, rarely seen among the general population of Shadowfang Keep. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
 IJ_DB_DUNGEON_SFK_BOSS_NAME_4274 = "Fenrus the Devourer"
 IJ_DB_DUNGEON_SFK_BOSS_STORY_4274 =
-"Fenrus is the pet of Arugal, Archmage of Shadowfang Keep. Fenrus prowls the main study of Arugal's chambers. He is unbelievably large, and it is possible the worg was subject to dark magic at the hands of Arugal or the worgen."
+    "Fenrus is the pet of Arugal, Archmage of Shadowfang Keep. Fenrus prowls the main study of Arugal's chambers. He is unbelievably large, and it is possible the worg was subject to dark magic at the hands of Arugal or the worgen."
 IJ_DB_DUNGEON_SFK_BOSS_NAME_3927 = "Wolf Master Nandos"
-IJ_DB_DUNGEON_SFK_BOSS_STORY_3927 =
-"He is the worgen master of the lesser worgs, and has his own pack which will fight heroes before they engage him. He is the last henchman of Arugal to obstruct the path."
+IJ_DB_DUNGEON_SFK_BOSS_STORY_3927 = "He is the worgen master of the lesser worgs, and has his own pack which will fight heroes before they engage him. He is the last henchman of Arugal to obstruct the path."
 IJ_DB_DUNGEON_SFK_BOSS_NAME_4275 = "Archmage Arugal"
 IJ_DB_DUNGEON_SFK_BOSS_STORY_4275 =
-"Archmage Arugal is a former mage of Dalaran who lived within the ruins of Shadowfang Keep and was later raised from the dead in the service of the Scourge. He is most notorious for having unleashed the worgen once more unto the world by freeing them from the Emerald Dream."
+    "Archmage Arugal is a former mage of Dalaran who lived within the ruins of Shadowfang Keep and was later raised from the dead in the service of the Scourge. He is most notorious for having unleashed the worgen once more unto the world by freeing them from the Emerald Dream."
 
 -- SFK Loot
 IJ_LOOT_NAME_6953 = "Verigan's Fist"
@@ -2267,56 +2203,53 @@ IJ_LOOT_NAME_6392 = "Belt of Arugal"
 -- STRAT
 IJ_DB_DUNGEON_STRAT_NAME = "Stratholme"
 IJ_DB_DUNGEON_STRAT_STORY =
-"Once the jewel of northern Lordaeron, the city of Stratholme is where Prince Arthas turned against his mentor, Uther Lightbringer, and slaughtered hundreds of his own subjects who were believed to have contracted the dreaded plague of undeath. Arthas' downward spiral and ultimate surrender to the Lich King soon followed. The broken city is now inhabited by the undead Scourge -- led by the powerful lich, Kel'Thuzad. A contingent of Scarlet Crusaders, led by Grand Crusader Dathrohan, also holds a portion of the ravaged city. The two sides are locked in constant, violent combat. Those adventurers brave (or foolish) enough to enter Stratholme will be forced to contend with both factions before long. It is said that the city is guarded by three massive watchtowers, as well as powerful necromancers, banshees and abominations. There have also been reports of a malefic Death Knight riding atop an unholy steed, dispensing indiscriminate wrath on all those who venture within the realm of the Scourge."
+    "Once the jewel of northern Lordaeron, the city of Stratholme is where Prince Arthas turned against his mentor, Uther Lightbringer, and slaughtered hundreds of his own subjects who were believed to have contracted the dreaded plague of undeath. Arthas' downward spiral and ultimate surrender to the Lich King soon followed. The broken city is now inhabited by the undead Scourge -- led by the powerful lich, Kel'Thuzad. A contingent of Scarlet Crusaders, led by Grand Crusader Dathrohan, also holds a portion of the ravaged city. The two sides are locked in constant, violent combat. Those adventurers brave (or foolish) enough to enter Stratholme will be forced to contend with both factions before long. It is said that the city is guarded by three massive watchtowers, as well as powerful necromancers, banshees and abominations. There have also been reports of a malefic Death Knight riding atop an unholy steed, dispensing indiscriminate wrath on all those who venture within the realm of the Scourge."
 
 -- STRAT Bosses
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_10393 = "Skul"
 IJ_DB_DUNGEON_STRAT_BOSS_STORY_10393 =
-"An elusive skeletal mage, rarely seen among the general population of Stratholme. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+    "An elusive skeletal mage, rarely seen among the general population of Stratholme. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_10558 = "Hearthsinger Forresten"
 IJ_DB_DUNGEON_STRAT_BOSS_STORY_10558 =
-"The Culling of Stratholme claimed the lives of innumerable people whose only crime was being in the doomed city. A traveling singer and piccolo player named Forresten was one such victim. He continues to wander the city in death, unable to accept his tragic fate."
+    "The Culling of Stratholme claimed the lives of innumerable people whose only crime was being in the doomed city. A traveling singer and piccolo player named Forresten was one such victim. He continues to wander the city in death, unable to accept his tragic fate."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_10516 = "The Unforgiven"
 IJ_DB_DUNGEON_STRAT_BOSS_STORY_10516 =
-"Lylia was a blade of righteousness among her people. After Arthas commanded his forces to purge the city, her sanity was ripped apart from seeing countless innocents die by her hand. She fell on her sword to escape the madness around her, and she now exists as a spectral being forever denied absolution for her heinous acts."
+    "Lylia was a blade of righteousness among her people. After Arthas commanded his forces to purge the city, her sanity was ripped apart from seeing countless innocents die by her hand. She fell on her sword to escape the madness around her, and she now exists as a spectral being forever denied absolution for her heinous acts."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_10808 = "Timmy the Cruel"
 IJ_DB_DUNGEON_STRAT_BOSS_STORY_10808 =
-"Timmison was infamous for his savagery on the field of battle. Some speculate his sadism stemmed from the ceaseless bullying he endured as a child. Now reborn as a Scourge monstrosity, his mind shattered, he is tormented by those memories, causing him to answer to the name he once loathed: Timmy."
+    "Timmison was infamous for his savagery on the field of battle. Some speculate his sadism stemmed from the ceaseless bullying he endured as a child. Now reborn as a Scourge monstrosity, his mind shattered, he is tormented by those memories, causing him to answer to the name he once loathed: Timmy."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_11032 = "Malor the Zealous"
-IJ_DB_DUNGEON_STRAT_BOSS_STORY_11032 =
-"A crazed member of the Scarlet Crusade, he guards his own strongbox and won't let anyone near it."
+IJ_DB_DUNGEON_STRAT_BOSS_STORY_11032 = "A crazed member of the Scarlet Crusade, he guards his own strongbox and won't let anyone near it."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_11120 = "Crimson Hammersmith"
-IJ_DB_DUNGEON_STRAT_BOSS_STORY_11120 =
-"A hammersmith from the Crimson Legion. Not much is known about him, other than he is very protective of his blacksmithing plans."
+IJ_DB_DUNGEON_STRAT_BOSS_STORY_11120 = "A hammersmith from the Crimson Legion. Not much is known about him, other than he is very protective of his blacksmithing plans."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_10997 = "Cannon Master Willey"
-IJ_DB_DUNGEON_STRAT_BOSS_STORY_10997 =
-"The chief cannoneer of the Scarlet Crusade, Willey will use his cannons no matter the circumstance."
+IJ_DB_DUNGEON_STRAT_BOSS_STORY_10997 = "The chief cannoneer of the Scarlet Crusade, Willey will use his cannons no matter the circumstance."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_10811 = "Archivist Galford"
 IJ_DB_DUNGEON_STRAT_BOSS_STORY_10811 = "Archivist Galford guards the archives of the Scarlet Bastion in Stratholme."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_10812 = "Grand Crusader Dathrohan"
 IJ_DB_DUNGEON_STRAT_BOSS_STORY_10812 =
-"The Grand Crusader of the Scarlet Crusade, Saidan Dathrohan give orders from the Scarlet Bastion in Stratholme. Rumors spread about him, putting into question his true intents and even his identity..."
+    "The Grand Crusader of the Scarlet Crusade, Saidan Dathrohan give orders from the Scarlet Bastion in Stratholme. Rumors spread about him, putting into question his true intents and even his identity..."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_10435 = "Magistrate Barthilas"
 IJ_DB_DUNGEON_STRAT_BOSS_STORY_10435 =
-"Barthilas was among those innocents purged by Arthas and his forces during the Culling of Stratholme. The Lich King eventually raised the former magistrate from the grave and commanded the hulking undead monstrosity to guard his ruined home."
+    "Barthilas was among those innocents purged by Arthas and his forces during the Culling of Stratholme. The Lich King eventually raised the former magistrate from the grave and commanded the hulking undead monstrosity to guard his ruined home."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_10809 = "Stonespine"
 IJ_DB_DUNGEON_STRAT_BOSS_STORY_10809 =
-"An elusive gargoyle, rarely seen among the general population of Stratholme. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
+    "An elusive gargoyle, rarely seen among the general population of Stratholme. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_10437 = "Nerub'enkan"
 IJ_DB_DUNGEON_STRAT_BOSS_STORY_10437 =
-"Nerub'enkan was a fearsome warrior during the War of the Spider. Ultimately, she succumbed to her wounds and was raised into undeath as an obedient minion of the Scourge. Now the nerubian guards a ziggurat in Stratholme as fiercely as she defended her home in life."
+    "Nerub'enkan was a fearsome warrior during the War of the Spider. Ultimately, she succumbed to her wounds and was raised into undeath as an obedient minion of the Scourge. Now the nerubian guards a ziggurat in Stratholme as fiercely as she defended her home in life."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_10436 = "Baroness Anastari"
 IJ_DB_DUNGEON_STRAT_BOSS_STORY_10436 =
-"While she lived, Anastari took what she wanted, no matter the cost. Death has done little to change that. Her soul ripped from her body, Anastari became a banshee, and she has abandoned her love of material trinkets in favor of possessions of a far more sinister kind."
+    "While she lived, Anastari took what she wanted, no matter the cost. Death has done little to change that. Her soul ripped from her body, Anastari became a banshee, and she has abandoned her love of material trinkets in favor of possessions of a far more sinister kind."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_10438 = "Maleki the Pallid"
 IJ_DB_DUNGEON_STRAT_BOSS_STORY_10438 =
-"Maleki was among the first to join the Cult of the Damned, showing tremendous aptitude in harnessing the chill of the grave. Driven by an insatiable desire for power, the mage fervently hones his skills in dark magic to prepare for when he will be remade as a lich."
+    "Maleki was among the first to join the Cult of the Damned, showing tremendous aptitude in harnessing the chill of the grave. Driven by an insatiable desire for power, the mage fervently hones his skills in dark magic to prepare for when he will be remade as a lich."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_10439 = "Ramstein the Gorger"
 IJ_DB_DUNGEON_STRAT_BOSS_STORY_10439 =
-"Ramstein is one of the Scourge's most infamous abominations, a horror stitched together from numerous corpses and empowered by a ceaseless hunger. This monster committed unspeakable atrocities on countless innocent souls when Scourge forces overran Stratholme."
+    "Ramstein is one of the Scourge's most infamous abominations, a horror stitched together from numerous corpses and empowered by a ceaseless hunger. This monster committed unspeakable atrocities on countless innocent souls when Scourge forces overran Stratholme."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_10440 = "Baron Rivendare"
 IJ_DB_DUNGEON_STRAT_BOSS_STORY_10440 =
-"Baron Rivendare is a powerful death knight in the service of the Lich King, coordinating the efforts of the Scourge in the Plaguelands. Ruling over the city of Stratholme, he currently battles with agents of the Argent Dawn sent to Stratholme to kill him."
+    "Baron Rivendare is a powerful death knight in the service of the Lich King, coordinating the efforts of the Scourge in the Plaguelands. Ruling over the city of Stratholme, he currently battles with agents of the Argent Dawn sent to Stratholme to kill him."
 
 -- STRAT Loot
 IJ_LOOT_NAME_13395 = "Skul's Fingerbone Claws"
@@ -2458,33 +2391,32 @@ IJ_LOOT_NAME_13335 = "Rivendare's Deathcharger"
 -- GC
 IJ_DB_DUNGEON_GC_NAME = "Gilneas City"
 IJ_DB_DUNGEON_GC_STORY =
-"Once the proud jewel of the peninsula, Gilneas City has become a fractured battlefield of civil war, draconic shadow, and feral madness. While the Greymane Wall has fallen, the city remains an impenetrable fortress held by royalist forces and their mysterious benefactors. Beneath the surface of the rebellion led by Lord Darius Ravenwood, a darker rot persists-the Harlow family, secret agents of the Black Dragonflight, have manipulated the kingdom's pride to fuel years of decay. Adventurers must navigate the blood-stained streets to recover lost family deeds, stolen masterpieces, and ancient manuscripts of hydromancy, all while deciding the ultimate fate of King Genn Greymane himself."
+    "Once the proud jewel of the peninsula, Gilneas City has become a fractured battlefield of civil war, draconic shadow, and feral madness. While the Greymane Wall has fallen, the city remains an impenetrable fortress held by royalist forces and their mysterious benefactors. Beneath the surface of the rebellion led by Lord Darius Ravenwood, a darker rot persists-the Harlow family, secret agents of the Black Dragonflight, have manipulated the kingdom's pride to fuel years of decay. Adventurers must navigate the blood-stained streets to recover lost family deeds, stolen masterpieces, and ancient manuscripts of hydromancy, all while deciding the ultimate fate of King Genn Greymane himself."
 
 -- GC Bosses
 IJ_DB_DUNGEON_GC_BOSS_NAME_61419 = "Matthias Holtz"
 IJ_DB_DUNGEON_GC_BOSS_STORY_61419 =
-"WhiIn the wake of the worgen outbreak, Holtz and his detachment enforced a strict lockdown over the city’s entrance district after it was overrun, sealing it off in a desperate attempt to contain the chaos. Though little is known of the man himself, his role in those frantic hours endures as a testament to the grim measures taken to preserve what remained of Gilneas."
+    "WhiIn the wake of the worgen outbreak, Holtz and his detachment enforced a strict lockdown over the city’s entrance district after it was overrun, sealing it off in a desperate attempt to contain the chaos. Though little is known of the man himself, his role in those frantic hours endures as a testament to the grim measures taken to preserve what remained of Gilneas."
 IJ_DB_DUNGEON_GC_BOSS_NAME_61420 = "Packmaster Ragetooth"
 IJ_DB_DUNGEON_GC_BOSS_STORY_61420 =
-"As leader of the Darkpelt pack, he spearheaded the worgen assault that overran the city’s entrance, turning once-guarded streets into hunting grounds. His ferocity forced the crown’s soldiers to seal the district under strict lockdown, dispatching royalist detachments to contain the spread and cull the beasts within."
+    "As leader of the Darkpelt pack, he spearheaded the worgen assault that overran the city’s entrance, turning once-guarded streets into hunting grounds. His ferocity forced the crown’s soldiers to seal the district under strict lockdown, dispatching royalist detachments to contain the spread and cull the beasts within."
 IJ_DB_DUNGEON_GC_BOSS_NAME_61421 = "Judge Sutherland"
 IJ_DB_DUNGEON_GC_BOSS_STORY_61421 =
-"A man of immense cruelty, Judge Sutherland presided over the meritless conspiracy trials that saw the prominent Glaymore family butchered one by one. He continues to pass his brutal judgments with each swing of his gavel, acting as a cold reminder of the corruption that turned the kingdom's justice into a weapon of fear."
+    "A man of immense cruelty, Judge Sutherland presided over the meritless conspiracy trials that saw the prominent Glaymore family butchered one by one. He continues to pass his brutal judgments with each swing of his gavel, acting as a cold reminder of the corruption that turned the kingdom's justice into a weapon of fear."
 IJ_DB_DUNGEON_GC_BOSS_NAME_61422 = "Dustivan Blackcowl"
 IJ_DB_DUNGEON_GC_BOSS_STORY_61422 =
-"A swindling rogue and a self-serving lackey, Dustivan Blackcowl serves King Greymane like an obedient dog. He was recently employed to steal the deed of Ebonmere Farm, hiding deep within the bowels of the city to protect his ill-gotten gains from those seeking to reclaim their family birthright."
+    "A swindling rogue and a self-serving lackey, Dustivan Blackcowl serves King Greymane like an obedient dog. He was recently employed to steal the deed of Ebonmere Farm, hiding deep within the bowels of the city to protect his ill-gotten gains from those seeking to reclaim their family birthright."
 IJ_DB_DUNGEON_GC_BOSS_NAME_61423 = "Marshal Magnus Greystone"
 IJ_DB_DUNGEON_GC_BOSS_STORY_61423 =
-"The history of Marshal Magnus Greystone remains largely unwritten, yet what little is known speaks of a life spent in constant war. A veteran of the Second War, he served as Marshal throughout the orcish incursions, standing as a steadfast defender of Gilneas in its darkest hours. Years later, as civil war consumed the kingdom, Greystone commanded the defenses of Gilneas City, holding the line not only against invaders, but against the very people he once fought to protect. Even so, his deeds were never fully recorded, leaving behind only the memory of a soldier who never abandoned his post."
+    "The history of Marshal Magnus Greystone remains largely unwritten, yet what little is known speaks of a life spent in constant war. A veteran of the Second War, he served as Marshal throughout the orcish incursions, standing as a steadfast defender of Gilneas in its darkest hours. Years later, as civil war consumed the kingdom, Greystone commanded the defenses of Gilneas City, holding the line not only against invaders, but against the very people he once fought to protect. Even so, his deeds were never fully recorded, leaving behind only the memory of a soldier who never abandoned his post."
 IJ_DB_DUNGEON_GC_BOSS_NAME_61605 = "Horsemaster Levvin"
-IJ_DB_DUNGEON_GC_BOSS_STORY_61605 =
-"Information on Horsemaster Levvin is currently limited, though he is recognized as a confirmed dweller of the heavily fortified Gilneas City."
+IJ_DB_DUNGEON_GC_BOSS_STORY_61605 = "Information on Horsemaster Levvin is currently limited, though he is recognized as a confirmed dweller of the heavily fortified Gilneas City."
 IJ_DB_DUNGEON_GC_BOSS_NAME_61263 = "Harlow Family"
 IJ_DB_DUNGEON_GC_BOSS_STORY_61263 =
-"Regent-Lady Celia and Regent-Lord Mortimer Harlow are the secret architects of the kingdom's decay. In truth, they are Dragonkin of the Black Dragonflight who have long manipulated the pride of Gilneas to stoke civil war and conflict. Their evil machinations are the root of the draconic influence that must be undone to save the land."
+    "Regent-Lady Celia and Regent-Lord Mortimer Harlow are the secret architects of the kingdom's decay. In truth, they are Dragonkin of the Black Dragonflight who have long manipulated the pride of Gilneas to stoke civil war and conflict. Their evil machinations are the root of the draconic influence that must be undone to save the land."
 IJ_DB_DUNGEON_GC_BOSS_NAME_61418 = "Genn Greymane"
 IJ_DB_DUNGEON_GC_BOSS_STORY_61418 =
-"The stubborn and proud King of Gilneas was once a legendary force within the Alliance, but he now presides over a crumbling kingdom. Within the Greymane Tower, he guards the Shard of Midnight-a corrupting artifact bestowed upon him by Lord Prestor. Though his grip on the nation has slipped, his power and pride make him a dangerous quarry for any who seek to end his reign."
+    "The stubborn and proud King of Gilneas was once a legendary force within the Alliance, but he now presides over a crumbling kingdom. Within the Greymane Tower, he guards the Shard of Midnight-a corrupting artifact bestowed upon him by Lord Prestor. Though his grip on the nation has slipped, his power and pride make him a dangerous quarry for any who seek to end his reign."
 
 -- GC Loot
 IJ_LOOT_NAME_61305 = "Darkwatch Pants"
@@ -2536,24 +2468,23 @@ IJ_LOOT_NAME_61738 = "Formula: Enchant Bracer - Vampirism"
 -- CG
 IJ_DB_DUNGEON_CG_NAME = "Crescent Grove"
 IJ_DB_DUNGEON_CG_STORY =
-"Hidden above the waterfalls of Mystral Lake, the Crescent Grove was once a tranquil sanctuary where druids and peaceful residents like Kalanar Brightshine tended to the forest in harmony. However, a dark shadow has fallen over the grove, clouding the minds of all who dwell within. The Foulweald furbolgs, fleeing madness in the north, found no refuge here; instead, they were twisted into the aggressive Groveweald tribe, their shamans and elders further fueling their savagery. Even the druidic protectors, led by Keeper Ranathos, have fallen silent or emerged warped by a deeper, more sinister source of corruption. Now, the Cenarion Circle calls upon brave souls to delve into the depths of the stone labyrinth and root out the evil festering at the grove's heart before it spreads across all of Kalimdor."
+    "Hidden above the waterfalls of Mystral Lake, the Crescent Grove was once a tranquil sanctuary where druids and peaceful residents like Kalanar Brightshine tended to the forest in harmony. However, a dark shadow has fallen over the grove, clouding the minds of all who dwell within. The Foulweald furbolgs, fleeing madness in the north, found no refuge here; instead, they were twisted into the aggressive Groveweald tribe, their shamans and elders further fueling their savagery. Even the druidic protectors, led by Keeper Ranathos, have fallen silent or emerged warped by a deeper, more sinister source of corruption. Now, the Cenarion Circle calls upon brave souls to delve into the depths of the stone labyrinth and root out the evil festering at the grove's heart before it spreads across all of Kalimdor."
 
 -- CG Bosses
 IJ_DB_DUNGEON_CG_BOSS_NAME_92107 = "Grovetender Engryss"
 IJ_DB_DUNGEON_CG_BOSS_STORY_92107 =
-"Under the influence of the furbolg elders' persistent delusions, Grovetender Engryss has abandoned his original duty to protect the sanctuary. He now lashes out with irrational ferocity, acting as a tireless shield for the spiritual leaders whose maddening whisperings have entirely warped his sense of purpose."
+    "Under the influence of the furbolg elders' persistent delusions, Grovetender Engryss has abandoned his original duty to protect the sanctuary. He now lashes out with irrational ferocity, acting as a tireless shield for the spiritual leaders whose maddening whisperings have entirely warped his sense of purpose."
 IJ_DB_DUNGEON_CG_BOSS_NAME_92109 = "Keeper Ranathos"
 IJ_DB_DUNGEON_CG_BOSS_STORY_92109 =
-"Keeper Ranathos was originally stationed at the grove to repel the spreading taint, but his own erratic reports eventually signaled a tragic failure. Now fully corrupted and warped, he embodies the very evil he once fought, serving as a grim warning of the darkness that has taken hold beneath the waterfalls of Mystral Lake."
+    "Keeper Ranathos was originally stationed at the grove to repel the spreading taint, but his own erratic reports eventually signaled a tragic failure. Now fully corrupted and warped, he embodies the very evil he once fought, serving as a grim warning of the darkness that has taken hold beneath the waterfalls of Mystral Lake."
 IJ_DB_DUNGEON_CG_BOSS_NAME_92108 = "High Priestess A'lathea"
 IJ_DB_DUNGEON_CG_BOSS_STORY_92108 =
-"Information regarding High Priestess A'lathea is absent from current Cenarion Circle research, leaving her as a shadowy figure known only to reside within the deeper reaches of the Crescent Grove."
+    "Information regarding High Priestess A'lathea is absent from current Cenarion Circle research, leaving her as a shadowy figure known only to reside within the deeper reaches of the Crescent Grove."
 IJ_DB_DUNGEON_CG_BOSS_NAME_92111 = "Fenektis the Deceiver"
-IJ_DB_DUNGEON_CG_BOSS_STORY_92111 =
-"Beyond his reputation as a hostile and cunning presence inside the grove, Fenektis the Deceiver remains a total enigma to scholars and adventurers alike."
+IJ_DB_DUNGEON_CG_BOSS_STORY_92111 = "Beyond his reputation as a hostile and cunning presence inside the grove, Fenektis the Deceiver remains a total enigma to scholars and adventurers alike."
 IJ_DB_DUNGEON_CG_BOSS_NAME_92110 = "Master Raxxieth"
 IJ_DB_DUNGEON_CG_BOSS_STORY_92110 =
-"Identified as the core of the rot within the Crescent Grove, Master Raxxieth is the sinister architect of the region's downfall. He thrives on the misery and madness he has sown among both the furbolg and the druidic keepers, and his removal is the only hope for preventing the corruption from spreading as far as Mulgore."
+    "Identified as the core of the rot within the Crescent Grove, Master Raxxieth is the sinister architect of the region's downfall. He thrives on the misery and madness he has sown among both the furbolg and the druidic keepers, and his removal is the only hope for preventing the corruption from spreading as far as Mulgore."
 
 -- CG Loot
 IJ_LOOT_NAME_83220 = "Groveweald Tribal Necklace"
@@ -2583,24 +2514,23 @@ IJ_LOOT_NAME_83216 = "Blood-Spattered Helm"
 -- HQ
 IJ_DB_DUNGEON_HQ_NAME = "Hateforge Quarry"
 IJ_DB_DUNGEON_HQ_STORY =
-"Excavated deep within the Burning Steppes, the Hateforge Quarry was originally the brainchild of Orvak Sternrock, designed to expand the reach of the Dark Iron Miners Union. However, underhanded deceit led to Orvak's removal as High Foreman, replaced by the fraudulent Bargul Blackhammer. Since then, the quarry has become a hive of illicit activity; rumors swirl of a volatile 'Hateforge Brew' being concocted in secret, while acid-born elementals manifest in the potent runoff pools. Most concerning to King Magni Bronzebeard and the Horde alike is the arrival of the Twilight's Hammer, who have moved into the depths to exploit the Dark Iron's labor for their own apocalyptic ends."
+    "Excavated deep within the Burning Steppes, the Hateforge Quarry was originally the brainchild of Orvak Sternrock, designed to expand the reach of the Dark Iron Miners Union. However, underhanded deceit led to Orvak's removal as High Foreman, replaced by the fraudulent Bargul Blackhammer. Since then, the quarry has become a hive of illicit activity; rumors swirl of a volatile 'Hateforge Brew' being concocted in secret, while acid-born elementals manifest in the potent runoff pools. Most concerning to King Magni Bronzebeard and the Horde alike is the arrival of the Twilight's Hammer, who have moved into the depths to exploit the Dark Iron's labor for their own apocalyptic ends."
 
 -- HQ Bosses
 IJ_DB_DUNGEON_HQ_BOSS_NAME_60735 = "High Foreman Bargul Blackhammer"
 IJ_DB_DUNGEON_HQ_BOSS_STORY_60735 =
-"Bargul Blackhammer spent years utilizing violence and underhanded tactics to usurp the position of High Foreman. After convincing the Senate to back his vision for the Hateforge Quarry, he successfully ousted his predecessor through fraud. Now ensconced in his stolen office, he holds the Senate's Orders tight, ruling the Miners Union with an iron fist and ensuring that the quarry's true, dark purpose remains shielded from those he betrayed."
+    "Bargul Blackhammer spent years utilizing violence and underhanded tactics to usurp the position of High Foreman. After convincing the Senate to back his vision for the Hateforge Quarry, he successfully ousted his predecessor through fraud. Now ensconced in his stolen office, he holds the Senate's Orders tight, ruling the Miners Union with an iron fist and ensuring that the quarry's true, dark purpose remains shielded from those he betrayed."
 IJ_DB_DUNGEON_HQ_BOSS_NAME_60736 = "Engineer Figgles"
 IJ_DB_DUNGEON_HQ_BOSS_STORY_60736 =
-"With an ego that rivals the masters of Blackrock Spire, Engineer Figgles is an arrogant mastermind who insists on branding every mechanical creation with his own name. He oversees the quarry's complex machinery and the mysterious plans involving dragon whelpings. His technical genius is matched only by his narcissism, making him a primary target for the Blackrock Clan who seek to halt the Dark Iron's technological expansion."
+    "With an ego that rivals the masters of Blackrock Spire, Engineer Figgles is an arrogant mastermind who insists on branding every mechanical creation with his own name. He oversees the quarry's complex machinery and the mysterious plans involving dragon whelpings. His technical genius is matched only by his narcissism, making him a primary target for the Blackrock Clan who seek to halt the Dark Iron's technological expansion."
 IJ_DB_DUNGEON_HQ_BOSS_NAME_60829 = "Corrosis"
 IJ_DB_DUNGEON_HQ_BOSS_STORY_60829 =
-"The acid pools within the Hateforge Quarry are so incredibly potent that they eventually gave birth to a malevolent entity of pure dissolution. Manifested from the chemical runoff of the Dark Iron's secret brewing process, Corrosis is a being of shifting, corrosive liquid. Its very essence is sought by master smiths like Frig Thunderforge, who believe the elemental's core holds the key to tempering weapons of unimaginable power."
+    "The acid pools within the Hateforge Quarry are so incredibly potent that they eventually gave birth to a malevolent entity of pure dissolution. Manifested from the chemical runoff of the Dark Iron's secret brewing process, Corrosis is a being of shifting, corrosive liquid. Its very essence is sought by master smiths like Frig Thunderforge, who believe the elemental's core holds the key to tempering weapons of unimaginable power."
 IJ_DB_DUNGEON_HQ_BOSS_NAME_60734 = "Hatereaver Annihilator"
-IJ_DB_DUNGEON_HQ_BOSS_STORY_60734 =
-"While confirmed to be a resident of the Hateforge Quarry, little else is known about the Hatereaver Annihilator or the role it plays within the excavation."
+IJ_DB_DUNGEON_HQ_BOSS_STORY_60734 = "While confirmed to be a resident of the Hateforge Quarry, little else is known about the Hatereaver Annihilator or the role it plays within the excavation."
 IJ_DB_DUNGEON_HQ_BOSS_NAME_60737 = "Har'gesh Doomcaller"
 IJ_DB_DUNGEON_HQ_BOSS_STORY_60737 =
-"Har'gesh Doomcaller is the shadow behind the Dark Iron's toil, overseeing the Twilight's Hammer's operations from the deepest reaches of the quarry. His presence is a direct threat to the safety of the kingdom, prompting both the Alliance and the Horde to demand his removal to prevent the cult's influence from spreading further."
+    "Har'gesh Doomcaller is the shadow behind the Dark Iron's toil, overseeing the Twilight's Hammer's operations from the deepest reaches of the quarry. His presence is a direct threat to the safety of the kingdom, prompting both the Alliance and the Horde to demand his removal to prevent the cult's influence from spreading further."
 
 -- HQ Loot
 IJ_LOOT_NAME_60565 = "Hateforged Cleaver"
@@ -2641,30 +2571,25 @@ IJ_LOOT_NAME_51047 = "Sacrosanct Epaulets"
 -- KC
 IJ_DB_DUNGEON_KC_NAME = "Karazhan Crypts"
 IJ_DB_DUNGEON_KC_STORY =
-"Beneath the shadow of Karazhan lies a subterranean ossuary that the Kirin Tor has long kept sealed. It is a place where time has stagnated, housing a 'great evil' that both the Alliance and Horde now race to extinguish. From the missing pages of goblin recipe books to the 'foul blackness' of its deepest reaches, the crypts serve as a grim reminder of the tower's corruptive influence on the very earth it stands upon."
+    "Beneath the shadow of Karazhan lies a subterranean ossuary that the Kirin Tor has long kept sealed. It is a place where time has stagnated, housing a 'great evil' that both the Alliance and Horde now race to extinguish. From the missing pages of goblin recipe books to the 'foul blackness' of its deepest reaches, the crypts serve as a grim reminder of the tower's corruptive influence on the very earth it stands upon."
 
 -- KC Bosses
 IJ_DB_DUNGEON_KC_BOSS_NAME_91920 = "Marrowspike"
-IJ_DB_DUNGEON_KC_BOSS_STORY_91920 =
-"Not much has been chronicled regarding Marrowspike, leaving the creature as a mystery to those exploring the Karazhan Crypts."
+IJ_DB_DUNGEON_KC_BOSS_STORY_91920 = "Not much has been chronicled regarding Marrowspike, leaving the creature as a mystery to those exploring the Karazhan Crypts."
 IJ_DB_DUNGEON_KC_BOSS_NAME_91929 = "Hivaxxis"
-IJ_DB_DUNGEON_KC_BOSS_STORY_91929 =
-"Beyond its reputation as a lethal dweller of the lightless ossuary, Hivaxxis remains an enigma within the Karazhan Crypts."
+IJ_DB_DUNGEON_KC_BOSS_STORY_91929 = "Beyond its reputation as a lethal dweller of the lightless ossuary, Hivaxxis remains an enigma within the Karazhan Crypts."
 IJ_DB_DUNGEON_KC_BOSS_NAME_91917 = "Corpsemuncher"
-IJ_DB_DUNGEON_KC_BOSS_STORY_91917 =
-"Documentation on the scavenger known as Corpsemuncher is non-existent, marking it only as a verified resident of the Karazhan Crypts."
+IJ_DB_DUNGEON_KC_BOSS_STORY_91917 = "Documentation on the scavenger known as Corpsemuncher is non-existent, marking it only as a verified resident of the Karazhan Crypts."
 IJ_DB_DUNGEON_KC_BOSS_NAME_92935 = "Guard Captain Gort"
-IJ_DB_DUNGEON_KC_BOSS_STORY_92935 =
-"Historical texts provide no details on the life or death of Guard Captain Gort, confirming only his station inside the Karazhan Crypts."
+IJ_DB_DUNGEON_KC_BOSS_STORY_92935 = "Historical texts provide no details on the life or death of Guard Captain Gort, confirming only his station inside the Karazhan Crypts."
 IJ_DB_DUNGEON_KC_BOSS_NAME_91916 = "Archlich Enkhraz"
-IJ_DB_DUNGEON_KC_BOSS_STORY_91916 =
-"The legacy of Archlich Enkhraz is entirely unknown, establishing him merely as a powerful undead force occupying the Karazhan Crypts."
+IJ_DB_DUNGEON_KC_BOSS_STORY_91916 = "The legacy of Archlich Enkhraz is entirely unknown, establishing him merely as a powerful undead force occupying the Karazhan Crypts."
 IJ_DB_DUNGEON_KC_BOSS_NAME_91919 = "Commander Andreon"
 IJ_DB_DUNGEON_KC_BOSS_STORY_91919 =
-"Commander Andreon once counted among the tower’s guard alongside his twin brother, Captain Rothynn, he was entrusted with a Mark of Karazhan, a symbol of his station and duty. While Rothynn’s fate is known, his spirit bound to the cellars below, Andreon’s disappearance was never explained. Now he lingers within the crypts as a restless presence, a fallen guardian whose purpose endures even in death."
+    "Commander Andreon once counted among the tower’s guard alongside his twin brother, Captain Rothynn, he was entrusted with a Mark of Karazhan, a symbol of his station and duty. While Rothynn’s fate is known, his spirit bound to the cellars below, Andreon’s disappearance was never explained. Now he lingers within the crypts as a restless presence, a fallen guardian whose purpose endures even in death."
 IJ_DB_DUNGEON_KC_BOSS_NAME_91928 = "Alarus"
 IJ_DB_DUNGEON_KC_BOSS_STORY_91928 =
-"Known as the Watcher of the Crypts, Alarus is the primary sentinel of the foul magic festering beneath the tower. The Kirin Tor views his destruction as vital to the safety of Azeroth, while the Horde seeks to strike him down as an act of glory, knowing that only by vanquishing this 'great evil' can the suffocating fog and madness of the depths be lifted."
+    "Known as the Watcher of the Crypts, Alarus is the primary sentinel of the foul magic festering beneath the tower. The Kirin Tor views his destruction as vital to the safety of Azeroth, while the Horde seeks to strike him down as an act of glory, knowing that only by vanquishing this 'great evil' can the suffocating fog and madness of the depths be lifted."
 
 -- KC Loot
 IJ_LOOT_NAME_83441 = "Splintercage Breastplate"
@@ -2719,39 +2644,37 @@ IJ_LOOT_NAME_83464 = "Mantle of Twisted Damnation"
 -- DMR
 IJ_DB_DUNGEON_DMR_NAME = "Dragonmaw Retreat"
 IJ_DB_DUNGEON_DMR_STORY =
-"Hidden within the decrepit mining facilities far to the east of the Wetlands, the Dragonmaw Retreat serves as the final bastion for the seasoned veterans of the Second War. Following their defeat at Grim Batol, these orcs have gathered beneath the mountain to rebuild their strength, kidnapping citizens from Menethil Harbor and conducting heinous rituals to bolster their ranks. Under the fanatical leadership of Zuluhed the Whacked, who has returned bearing a shard of the legendary Demon Soul, the clan has once again begun the brutal subjugation of the Red Dragonflight. Adventurers must navigate the unstable shafts and ancient dwarven halls to extinguish the Dragonmaw's influence before their 'Dark Horde' can rise again."
+    "Hidden within the decrepit mining facilities far to the east of the Wetlands, the Dragonmaw Retreat serves as the final bastion for the seasoned veterans of the Second War. Following their defeat at Grim Batol, these orcs have gathered beneath the mountain to rebuild their strength, kidnapping citizens from Menethil Harbor and conducting heinous rituals to bolster their ranks. Under the fanatical leadership of Zuluhed the Whacked, who has returned bearing a shard of the legendary Demon Soul, the clan has once again begun the brutal subjugation of the Red Dragonflight. Adventurers must navigate the unstable shafts and ancient dwarven halls to extinguish the Dragonmaw's influence before their 'Dark Horde' can rise again."
 
 -- DMR Bosses
 IJ_DB_DUNGEON_DMR_BOSS_NAME_62057 = "Gowlfang"
 IJ_DB_DUNGEON_DMR_BOSS_STORY_62057 =
-"Gowlfang was once the leader of the Mosshide gnolls before he abandoned his people to side with the Dragonmaw orcs. Driven by a slobbering, unbridled rage, this 'big betrayer' now leads a splinter group of Mosshides in service to the green-skinned warriors. He guards the entrance to the mountain caves with savage ferocity, eager to prove his worth to the masters of the fire-breathing lizards."
+    "Gowlfang was once the leader of the Mosshide gnolls before he abandoned his people to side with the Dragonmaw orcs. Driven by a slobbering, unbridled rage, this 'big betrayer' now leads a splinter group of Mosshides in service to the green-skinned warriors. He guards the entrance to the mountain caves with savage ferocity, eager to prove his worth to the masters of the fire-breathing lizards."
 IJ_DB_DUNGEON_DMR_BOSS_NAME_62066 = "Cavernweb Broodmother"
 IJ_DB_DUNGEON_DMR_BOSS_STORY_62066 =
-"The Dragonmaw orcs have used their dark arts to enslave and magically enhance the arachnids living within the mining shafts of Grim Batol. The Cavernweb Broodmother is the terrifying result of these rituals, possessing an unparalleled poison that causes agonizing pain. She and her enhanced brood act as a lethal defense mechanism, protecting the deeper reaches of the retreat from any who would disrupt the clan's operations."
+    "The Dragonmaw orcs have used their dark arts to enslave and magically enhance the arachnids living within the mining shafts of Grim Batol. The Cavernweb Broodmother is the terrifying result of these rituals, possessing an unparalleled poison that causes agonizing pain. She and her enhanced brood act as a lethal defense mechanism, protecting the deeper reaches of the retreat from any who would disrupt the clan's operations."
 IJ_DB_DUNGEON_DMR_BOSS_NAME_62067 = "Web Master Torkon"
-IJ_DB_DUNGEON_DMR_BOSS_STORY_62067 =
-"Little information is available regarding Web Master Torkon, though his presence has been noted as a significant inhabitant of the Dragonmaw Retreat."
+IJ_DB_DUNGEON_DMR_BOSS_STORY_62067 = "Little information is available regarding Web Master Torkon, though his presence has been noted as a significant inhabitant of the Dragonmaw Retreat."
 IJ_DB_DUNGEON_DMR_BOSS_NAME_62071 = "Garlok Flamekeeper"
 IJ_DB_DUNGEON_DMR_BOSS_STORY_62071 =
-"Garlok is a powerful pyremaster who nurtures the 'Eternal Flame,' a source of potent energy kept hidden by the orcs' primitive sorcery. He protects this ancient magic with a fanatical devotion, using the flame to power the Dragonmaw's machinations. For those seeking to undermine the clan or claim the relic for the Dark Lady, Garlok stands as a wall of incinerating heat."
+    "Garlok is a powerful pyremaster who nurtures the 'Eternal Flame,' a source of potent energy kept hidden by the orcs' primitive sorcery. He protects this ancient magic with a fanatical devotion, using the flame to power the Dragonmaw's machinations. For those seeking to undermine the clan or claim the relic for the Dark Lady, Garlok stands as a wall of incinerating heat."
 IJ_DB_DUNGEON_DMR_BOSS_NAME_62069 = "Halgan Redbrand"
 IJ_DB_DUNGEON_DMR_BOSS_STORY_62069 =
-"A spectral reminder of the mine's dwarven past, Halgan Redbrand haunts the halls where his family once worked. He guards the Redbrand Tablet, an ancient piece of dwarven typography that holds a shocking secret: the lineage of the Redbrand family, long thought to be Bronzebeard, actually lies deep within the Wildhammer clan. Halgan's lingering ghost is all that remains of this forgotten chapter of Khaz Modan's history."
+    "A spectral reminder of the mine's dwarven past, Halgan Redbrand haunts the halls where his family once worked. He guards the Redbrand Tablet, an ancient piece of dwarven typography that holds a shocking secret: the lineage of the Redbrand family, long thought to be Bronzebeard, actually lies deep within the Wildhammer clan. Halgan's lingering ghost is all that remains of this forgotten chapter of Khaz Modan's history."
 IJ_DB_DUNGEON_DMR_BOSS_NAME_62068 = "Slagfist Destroyer"
 IJ_DB_DUNGEON_DMR_BOSS_STORY_62068 =
-"An ancient stone golem still following protocols from the mine's original dwarven builders, Slagfist Destroyer roams the unstable tunnels of the retreat. Powered by a glowing runestone, this crumbling construct views the orcish occupiers and intruding adventurers alike as threats to be dismantled. It is a mindless relic of industry, serving as a dangerous obstacle in the dark."
+    "An ancient stone golem still following protocols from the mine's original dwarven builders, Slagfist Destroyer roams the unstable tunnels of the retreat. Powered by a glowing runestone, this crumbling construct views the orcish occupiers and intruding adventurers alike as threats to be dismantled. It is a mindless relic of industry, serving as a dangerous obstacle in the dark."
 IJ_DB_DUNGEON_DMR_BOSS_NAME_62070 = "Overlord Blackheart"
 IJ_DB_DUNGEON_DMR_BOSS_STORY_62070 =
-"A true monster through and through, Overlord Blackheart is the architect of the vicious raiding parties that plague the Wetlands. Responsible for the abduction and death of many citizens of Menethil Harbor, he is the iron fist of the Dragonmaw veterans. As the primary military leader within the retreat, his demise is essential to ensuring the safety of the southern lands."
+    "A true monster through and through, Overlord Blackheart is the architect of the vicious raiding parties that plague the Wetlands. Responsible for the abduction and death of many citizens of Menethil Harbor, he is the iron fist of the Dragonmaw veterans. As the primary military leader within the retreat, his demise is essential to ensuring the safety of the southern lands."
 IJ_DB_DUNGEON_DMR_BOSS_NAME_62038 = "Elder Hollowblood"
-IJ_DB_DUNGEON_DMR_BOSS_STORY_62038 =
-"Records regarding Elder Hollowblood are remarkably scarce, aside from the fact that he is a confirmed denizen of the Dragonmaw Retreat."
+IJ_DB_DUNGEON_DMR_BOSS_STORY_62038 = "Records regarding Elder Hollowblood are remarkably scarce, aside from the fact that he is a confirmed denizen of the Dragonmaw Retreat."
 IJ_DB_DUNGEON_DMR_BOSS_NAME_62072 = "Searistrasz"
 IJ_DB_DUNGEON_DMR_BOSS_STORY_62072 =
-"The brother of Nydiszanz, Searistrasz is a noble red dragon currently suffering the 'plight of submission.' Enslaved by the Dragonmaw using the power of the Demon Soul, he is forced to follow their heinous bidding within the ancient mines. His painful cries echo through the caverns, a tragic testament to the orcs' continued subjugation of the Red Dragonflight."
+    "The brother of Nydiszanz, Searistrasz is a noble red dragon currently suffering the 'plight of submission.' Enslaved by the Dragonmaw using the power of the Demon Soul, he is forced to follow their heinous bidding within the ancient mines. His painful cries echo through the caverns, a tragic testament to the orcs' continued subjugation of the Red Dragonflight."
 IJ_DB_DUNGEON_DMR_BOSS_NAME_62037 = "Zuluhed the Whacked"
 IJ_DB_DUNGEON_DMR_BOSS_STORY_62037 =
-"The mad Chieftain of the Dragonmaw Clan, Zuluhed has returned to Azeroth bearing a glimmering shard of the original Demon Soul. While some within his clan, like Korlag Doomsong, view him as a coward who abandoned them for his own glory, Zuluhed continues to plot in the underbelly of Grim Batol. He remains determined to unite the chieftains under his banner, using the shard's tainted power to once again enslave the flight of the Dragon Queen."
+    "The mad Chieftain of the Dragonmaw Clan, Zuluhed has returned to Azeroth bearing a glimmering shard of the original Demon Soul. While some within his clan, like Korlag Doomsong, view him as a coward who abandoned them for his own glory, Zuluhed continues to plot in the underbelly of Grim Batol. He remains determined to unite the chieftains under his banner, using the shard's tainted power to once again enslave the flight of the Dragon Queen."
 
 -- DMR Loot
 IJ_LOOT_NAME_41571 = "Snickerclaw"
@@ -2812,45 +2735,42 @@ IJ_LOOT_NAME_41895 = "Shard of the Demon Soul"
 -- SWR
 IJ_DB_DUNGEON_SWR_NAME = "Stormwrought Ruins"
 IJ_DB_DUNGEON_SWR_STORY =
-"The island of Balor was once a bustling merchant paradise, governed by the Balor family as a prosperous vessel state of Stormwind. This era of trade and tranquility ended during the Second War when the Stormreaver orcs and the Shadow Council brought depravity to its shores. Today, the once-resplendent castle sits in ruins atop the cliffs, haunted by the spirits of those tethered to their former home by demonic cruelty. While SI:7 and goblin scavengers pick through the rubble for lost antiquities, the Shadow Council conducts vile experiments within the depths, threatening to anchor the isle in eternal darkness."
+    "The island of Balor was once a bustling merchant paradise, governed by the Balor family as a prosperous vessel state of Stormwind. This era of trade and tranquility ended during the Second War when the Stormreaver orcs and the Shadow Council brought depravity to its shores. Today, the once-resplendent castle sits in ruins atop the cliffs, haunted by the spirits of those tethered to their former home by demonic cruelty. While SI:7 and goblin scavengers pick through the rubble for lost antiquities, the Shadow Council conducts vile experiments within the depths, threatening to anchor the isle in eternal darkness."
 
 -- SWR Bosses
 IJ_DB_DUNGEON_SWR_BOSS_NAME_62548 = "Oronok Torn-Heart"
 IJ_DB_DUNGEON_SWR_BOSS_STORY_62548 =
-"As one of Gul'dan's most capable lieutenants, Oronok was entrusted with the Pendant of Uth'okk, a gemstone of immense power. He currently lurks within the depths of the ruins, overseeing the new uprising of the Shadow Council. His presence is a reminder of the Old Horde's hatred, and he remains a primary target for those seeking to reclaim the power of the pendant for the Horde."
+    "As one of Gul'dan's most capable lieutenants, Oronok was entrusted with the Pendant of Uth'okk, a gemstone of immense power. He currently lurks within the depths of the ruins, overseeing the new uprising of the Shadow Council. His presence is a reminder of the Old Horde's hatred, and he remains a primary target for those seeking to reclaim the power of the pendant for the Horde."
 IJ_DB_DUNGEON_SWR_BOSS_NAME_62547 = "Dagar the Glutton"
 IJ_DB_DUNGEON_SWR_BOSS_STORY_62547 =
-"Dagar is a despicable being whose history of malice stretches back to the formation of the Shadow Council. A fanatical follower of Gul'dan's legacy, his hatred burns like the lava pools of Blackrock Mountain. He stands as a brutal enforcer within the castle, guarding the occupied halls against any who would disrupt the Council's work."
+    "Dagar is a despicable being whose history of malice stretches back to the formation of the Shadow Council. A fanatical follower of Gul'dan's legacy, his hatred burns like the lava pools of Blackrock Mountain. He stands as a brutal enforcer within the castle, guarding the occupied halls against any who would disrupt the Council's work."
 IJ_DB_DUNGEON_SWR_BOSS_NAME_62552 = "Librarian Theodorus"
 IJ_DB_DUNGEON_SWR_BOSS_STORY_62552 =
-"The Balor family amassed a sheer unimaginable amount of knowledge in their library over decades of successful trade. Theodorus serves as the current guardian of these dusty tomes, including the hidden practices of trade authored by Sir Walton Balor. He ensures that the secrets of Balorian commerce do not fall into the hands of Stormwind's spies."
+    "The Balor family amassed a sheer unimaginable amount of knowledge in their library over decades of successful trade. Theodorus serves as the current guardian of these dusty tomes, including the hidden practices of trade authored by Sir Walton Balor. He ensures that the secrets of Balorian commerce do not fall into the hands of Stormwind's spies."
 IJ_DB_DUNGEON_SWR_BOSS_NAME_62549 = "Duke Balor the IV"
 IJ_DB_DUNGEON_SWR_BOSS_STORY_62549 =
-"The scions of the Balor family reigned over their island with watchful eyes and merciful souls until the castle was cursed. Though the Duke's bones may have turned to ash, his presence remains tied to the throne room. He is a tragic figure of a fallen merchant legacy, his sigil ring and crown serving as the last remaining physical proof of his family's former sovereignty."
+    "The scions of the Balor family reigned over their island with watchful eyes and merciful souls until the castle was cursed. Though the Duke's bones may have turned to ash, his presence remains tied to the throne room. He is a tragic figure of a fallen merchant legacy, his sigil ring and crown serving as the last remaining physical proof of his family's former sovereignty."
 IJ_DB_DUNGEON_SWR_BOSS_NAME_62551 = "Chieftain Stormsong"
 IJ_DB_DUNGEON_SWR_BOSS_STORY_62551 =
-"Chieftain Stormsong is a critical figurehead in the Stormreaver chain of command, acting as a 'head of the hydra' for the occupation. He oversees the orcish forces within the ruins, coordinating with the Shadow Council to ensure their resurgence remains unchallenged. Liquidating him is essential to breaking the orcish grip on the castle courtyard."
+    "Chieftain Stormsong is a critical figurehead in the Stormreaver chain of command, acting as a 'head of the hydra' for the occupation. He oversees the orcish forces within the ruins, coordinating with the Shadow Council to ensure their resurgence remains unchallenged. Liquidating him is essential to breaking the orcish grip on the castle courtyard."
 IJ_DB_DUNGEON_SWR_BOSS_NAME_62550 = "Deathlord Tidebane"
 IJ_DB_DUNGEON_SWR_BOSS_STORY_62550 =
-"Barbaros, captain of the Bilgerats, sailed to the cursed isle of Balor chasing stolen secrets and the promise of buried treasure. His greed proved fatal — ambushed by the Stormreaver orcs, he was dragged to Stormwrought Castle and put to the sword. Yet death was not the end. The dark powers enthroned within those halls seized his corpse and bound the soul of a death knight into his flesh, giving rise to Deathlord Tidebane. The captain who once commanded the seas now serves as a vessel of undying darkness, forever imprisoned within the ruins he sought to plunder."
+    "Barbaros, captain of the Bilgerats, sailed to the cursed isle of Balor chasing stolen secrets and the promise of buried treasure. His greed proved fatal — ambushed by the Stormreaver orcs, he was dragged to Stormwrought Castle and put to the sword. Yet death was not the end. The dark powers enthroned within those halls seized his corpse and bound the soul of a death knight into his flesh, giving rise to Deathlord Tidebane. The captain who once commanded the seas now serves as a vessel of undying darkness, forever imprisoned within the ruins he sought to plunder."
 IJ_DB_DUNGEON_SWR_BOSS_NAME_62652 = "Subjugator Halthas Shadecrest"
-IJ_DB_DUNGEON_SWR_BOSS_STORY_62652 =
-"Aside from his established presence within the ruins of Stormwrought Castle, very little is known about the past or the specific motives of Subjugator Halthas Shadecrest."
+IJ_DB_DUNGEON_SWR_BOSS_STORY_62652 = "Aside from his established presence within the ruins of Stormwrought Castle, very little is known about the past or the specific motives of Subjugator Halthas Shadecrest."
 IJ_DB_DUNGEON_SWR_BOSS_NAME_62664 = "Mycellakos"
 IJ_DB_DUNGEON_SWR_BOSS_STORY_62664 =
-"Mycellakos is a massive, living fungus that originated from a source of contamination deep beneath the ruined castle. Its core radiates a dark, twisted magic that has brought the surrounding fungi into a state of unnatural life. As the primary infector of the isle, it must be purged to stop the spread of its necrotic tissue."
+    "Mycellakos is a massive, living fungus that originated from a source of contamination deep beneath the ruined castle. Its core radiates a dark, twisted magic that has brought the surrounding fungi into a state of unnatural life. As the primary infector of the isle, it must be purged to stop the spread of its necrotic tissue."
 IJ_DB_DUNGEON_SWR_BOSS_NAME_62661 = "Eldermaw the Primordial"
-IJ_DB_DUNGEON_SWR_BOSS_STORY_62661 =
-"The primordial beast known as Eldermaw remains an enigma to scholars, with no documentation existing to explain its habitation within the Stormwrought Ruins."
+IJ_DB_DUNGEON_SWR_BOSS_STORY_62661 = "The primordial beast known as Eldermaw remains an enigma to scholars, with no documentation existing to explain its habitation within the Stormwrought Ruins."
 IJ_DB_DUNGEON_SWR_BOSS_NAME_62665 = "Lady Drazare"
-IJ_DB_DUNGEON_SWR_BOSS_STORY_62665 =
-"Historical accounts are silent regarding Lady Drazare; she is recognized solely as one of the powerful entities dwelling within the ruins of Balor."
+IJ_DB_DUNGEON_SWR_BOSS_STORY_62665 = "Historical accounts are silent regarding Lady Drazare; she is recognized solely as one of the powerful entities dwelling within the ruins of Balor."
 IJ_DB_DUNGEON_SWR_BOSS_NAME_62673 = "Ighal'for"
 IJ_DB_DUNGEON_SWR_BOSS_STORY_62673 =
-"A high-ranking and powerful warlock of the Shadow Council, Ighal'for is a disciple of the deranged Cho'gall. He wields a broken Bloodstone Pendant to channel void energies and summon aberrations from beyond the Nether. His fanatical devotion to his demon overlords makes him the primary architect of the horrors currently unfolding within the castle."
+    "A high-ranking and powerful warlock of the Shadow Council, Ighal'for is a disciple of the deranged Cho'gall. He wields a broken Bloodstone Pendant to channel void energies and summon aberrations from beyond the Nether. His fanatical devotion to his demon overlords makes him the primary architect of the horrors currently unfolding within the castle."
 IJ_DB_DUNGEON_SWR_BOSS_NAME_62670 = "Remains of the Innocent"
 IJ_DB_DUNGEON_SWR_BOSS_STORY_62670 =
-"This haunting abomination was born from the cruel intent of the Shadow Council, manifesting as a mass of tormented young souls. O'jin and other sensitive spirits can hear the cries of these poor children, who were used as raw materials for the Council's vile experiments. Only by slaying this abomination can the innocent souls finally be set free."
+    "This haunting abomination was born from the cruel intent of the Shadow Council, manifesting as a mass of tormented young souls. O'jin and other sensitive spirits can hear the cries of these poor children, who were used as raw materials for the Council's vile experiments. Only by slaying this abomination can the innocent souls finally be set free."
 
 -- SWR Loot
 IJ_LOOT_NAME_58135 = "Dagger of Whispered Madness"
@@ -2907,52 +2827,40 @@ IJ_LOOT_NAME_58198 = "Dissolved Hookblade"
 -- FH
 IJ_DB_DUNGEON_FH_NAME = "Frostmane Hollow"
 IJ_DB_DUNGEON_FH_STORY =
-"Nestled deep within the frozen peaks of Dun Morogh, Frostmane Hollow has been the stronghold of the Frostmane tribe since long before the dwarves carved their great halls into the mountain. Once a proud and expansive people, the Frostmane have been pushed further and further into the cold by Ironforge's relentless expansion; their hunting grounds seized, their shrines defiled. What remains of the tribe has grown feral with fury, conducting raids on dwarven settlements with a ferocity born not of savagery, but of desperation. To the Frostmane, this is not war. It is survival."
+    "Nestled deep within the frozen peaks of Dun Morogh, Frostmane Hollow has been the stronghold of the Frostmane tribe since long before the dwarves carved their great halls into the mountain. Once a proud and expansive people, the Frostmane have been pushed further and further into the cold by Ironforge's relentless expansion; their hunting grounds seized, their shrines defiled. What remains of the tribe has grown feral with fury, conducting raids on dwarven settlements with a ferocity born not of savagery, but of desperation. To the Frostmane, this is not war. It is survival."
 
 -- FH Bosses
 IJ_DB_DUNGEON_FH_BOSS_NAME_tansha = "Tan'sha the Sleek"
-IJ_DB_DUNGEON_FH_BOSS_STORY_tansha =
-"Frostmane Hollow keeps its secrets well - Tan'sha the Sleek among them."
+IJ_DB_DUNGEON_FH_BOSS_STORY_tansha = "Frostmane Hollow keeps its secrets well - Tan'sha the Sleek among them."
 IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tansha = "Tan'sha the Sleek"
 IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_tanshaintimidatingshout = "Intimidating Shout"
-IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout =
-"Tan'sha shouts at nearby enemies, causing them to flee in fear for 8 seconds."
+IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_tanshaintimidatingshout = "Tan'sha shouts at nearby enemies, causing them to flee in fear for 8 seconds."
 IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_oboka = "Handler Oboka"
 IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_NAME_obokamendpet = "Mend Pet"
 IJ_DB_DUNGEON_FH_BOSS_tansha_ABILITY_EFFECT_obokamendpet = "Oboka stops fighting to heal Tan'sha."
 IJ_DB_DUNGEON_FH_BOSS_NAME_ubukaz = "Battlemaster Ubukaz"
-IJ_DB_DUNGEON_FH_BOSS_STORY_ubukaz =
-"No chronicle, no record, no account - Battlemaster Ubukaz exists beyond the reach of history entirely."
+IJ_DB_DUNGEON_FH_BOSS_STORY_ubukaz = "No chronicle, no record, no account - Battlemaster Ubukaz exists beyond the reach of history entirely."
 IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_NAME_enrage = "Enrage"
-IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_EFFECT_enrage =
-"At 20% remaining health, Ubukaz becomes enraged, increasing the damage he deals to his enemies significantly."
+IJ_DB_DUNGEON_FH_BOSS_ubukaz_ABILITY_EFFECT_enrage = "At 20% remaining health, Ubukaz becomes enraged, increasing the damage he deals to his enemies significantly."
 IJ_DB_DUNGEON_FH_BOSS_NAME_kanza = "Kan'za the Seer"
-IJ_DB_DUNGEON_FH_BOSS_STORY_kanza =
-"Those who have entered Frostmane Hollow and lived to speak of Kan'za the Seer are, if they exist at all, silent on the matter."
+IJ_DB_DUNGEON_FH_BOSS_STORY_kanza = "Those who have entered Frostmane Hollow and lived to speak of Kan'za the Seer are, if they exist at all, silent on the matter."
 IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaadds = "Kan'za's Adds"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaadds =
-"Kan'za starts the fight with two Frostmane Snowcaller that will assist him.\n\nThese adds should be prioritized by the damage dealers over the boss"
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaadds = "Kan'za starts the fight with two Frostmane Snowcaller that will assist him.\n\nThese adds should be prioritized by the damage dealers over the boss"
 IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzaaddsfrostbolt = "Frostbolt"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaaddsfrostbolt =
-"The Frostmane Snowcaller casts a frostbolt at his target, dealing frost damage and slowing them."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzaaddsfrostbolt = "The Frostmane Snowcaller casts a frostbolt at his target, dealing frost damage and slowing them."
 IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzablizzard = "Blizzard"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzablizzard =
-"Kan'za casts a chilling blizzard, dealing frost damage in an area of effect."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzablizzard = "Kan'za casts a chilling blizzard, dealing frost damage in an area of effect."
 IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_NAME_kanzafrostbolt = "Frostbolt"
-IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzafrostbolt =
-"Kan'za casts a frostbolt at his target, dealing frost damage and slowing them."
+IJ_DB_DUNGEON_FH_BOSS_kanza_ABILITY_EFFECT_kanzafrostbolt = "Kan'za casts a frostbolt at his target, dealing frost damage and slowing them."
 IJ_DB_DUNGEON_FH_BOSS_NAME_hailar = "Hailar the Frigid"
-IJ_DB_DUNGEON_FH_BOSS_STORY_hailar =
-"The frozen depths of Frostmane Hollow have claimed many lives; whether any of them ever learned who Hailar the Frigid truly was remains unknown."
+IJ_DB_DUNGEON_FH_BOSS_STORY_hailar = "The frozen depths of Frostmane Hollow have claimed many lives; whether any of them ever learned who Hailar the Frigid truly was remains unknown."
 IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailaradds = "Frostmane Ritualists"
 IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailaradds =
-"Hailar starts the fight with five Frostmane Ritualists that will keep on healing him as long as they are alive.\n\nThe group needs to kill these adds before being able to kill Hailar."
+    "Hailar starts the fight with five Frostmane Ritualists that will keep on healing him as long as they are alive.\n\nThe group needs to kill these adds before being able to kill Hailar."
 IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_16803 = "Flash Freeze"
-IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_16803 =
-"Hailar casts a flash freeze, blasting all enemies within 10 yards for 56 frost damage and freezing them in place for up to 5 seconds."
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_16803 = "Hailar casts a flash freeze, blasting all enemies within 10 yards for 56 frost damage and freezing them in place for up to 5 seconds."
 IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_NAME_hailarfrostbolt = "Frostbolt"
-IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailarfrostbolt =
-"Hailar casts a frostbolt at his target, dealing frost damage and slowing them."
+IJ_DB_DUNGEON_FH_BOSS_hailar_ABILITY_EFFECT_hailarfrostbolt = "Hailar casts a frostbolt at his target, dealing frost damage and slowing them."
 
 -- FH Loot
 IJ_LOOT_NAME_213 = "Ice-Stitched Cuffs"
@@ -2971,39 +2879,29 @@ IJ_LOOT_NAME_241 = "Windcrest Pants"
 -- WHC
 IJ_DB_DUNGEON_WHC_NAME = "Windhorn Canyon"
 IJ_DB_DUNGEON_WHC_STORY =
-"This ancient canyon has been home to many tauren tribes who have in years past fought for the dominance of its flowing waters and shelter from the dangers of Kalimdor. The cultures and traditions of many have lived within Windhorn Canyon, which can be seen from the ancient shelters carved into the mountainside, to the relics coveted by the Tauren. As of recently the Windhorn Tauren were expelled and driven away by the Grimtotem who have conquered it, and claimed it for their own."
+    "This ancient canyon has been home to many tauren tribes who have in years past fought for the dominance of its flowing waters and shelter from the dangers of Kalimdor. The cultures and traditions of many have lived within Windhorn Canyon, which can be seen from the ancient shelters carved into the mountainside, to the relics coveted by the Tauren. As of recently the Windhorn Tauren were expelled and driven away by the Grimtotem who have conquered it, and claimed it for their own."
 
 -- WHC Bosses
 IJ_DB_DUNGEON_WHC_BOSS_NAME_vortalus = "Ambassador Vortalus"
-IJ_DB_DUNGEON_WHC_BOSS_STORY_vortalus =
-"Windhorn Canyon holds no record of Ambassador Vortalus - only the title, and the threat it implies."
+IJ_DB_DUNGEON_WHC_BOSS_STORY_vortalus = "Windhorn Canyon holds no record of Ambassador Vortalus - only the title, and the threat it implies."
 IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_6982 = "Gust of Wind"
-IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_6982 =
-"Vortalus stuns a random enemy, rendering them unable to move or attack for 4 seconds."
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_6982 = "Vortalus stuns a random enemy, rendering them unable to move or attack for 4 seconds."
 IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_NAME_vortaluschainlightning = "Chain Lightning"
-IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_vortaluschainlightning =
-"Vortalus creates a lightning bolt that chains between all enemies."
+IJ_DB_DUNGEON_WHC_BOSS_vortalus_ABILITY_EFFECT_vortaluschainlightning = "Vortalus creates a lightning bolt that chains between all enemies."
 IJ_DB_DUNGEON_WHC_BOSS_NAME_pathun = "Pathun Duskhide"
-IJ_DB_DUNGEON_WHC_BOSS_STORY_pathun =
-"Whatever brought Pathun Duskhide to the canyon, it was not recorded. Whatever kept him there, even less so."
+IJ_DB_DUNGEON_WHC_BOSS_STORY_pathun = "Whatever brought Pathun Duskhide to the canyon, it was not recorded. Whatever kept him there, even less so."
 IJ_DB_DUNGEON_WHC_BOSS_NAME_ahgktos = "Ahgk'tos the Pure"
-IJ_DB_DUNGEON_WHC_BOSS_STORY_ahgktos =
-"Pure in what regard, and by whose measure - those who might have answered are long gone from Windhorn Canyon."
+IJ_DB_DUNGEON_WHC_BOSS_STORY_ahgktos = "Pure in what regard, and by whose measure - those who might have answered are long gone from Windhorn Canyon."
 IJ_DB_DUNGEON_WHC_BOSS_NAME_walgan = "Walgan Bloodcaller"
-IJ_DB_DUNGEON_WHC_BOSS_STORY_walgan =
-"The name Walgan Bloodcaller has passed through no chronicle, left no mark - nothing but the name itself."
+IJ_DB_DUNGEON_WHC_BOSS_STORY_walgan = "The name Walgan Bloodcaller has passed through no chronicle, left no mark - nothing but the name itself."
 IJ_DB_DUNGEON_WHC_BOSS_NAME_narlgom = "Bonespeaker Narlgom"
-IJ_DB_DUNGEON_WHC_BOSS_STORY_narlgom =
-"Among the Grimtotem who seized Windhorn Canyon, Bonespeaker Narlgom is counted - and that is, in full, the extent of what is known."
+IJ_DB_DUNGEON_WHC_BOSS_STORY_narlgom = "Among the Grimtotem who seized Windhorn Canyon, Bonespeaker Narlgom is counted - and that is, in full, the extent of what is known."
 IJ_DB_DUNGEON_WHC_BOSS_NAME_stormhoof = "Prophet Stormhoof"
-IJ_DB_DUNGEON_WHC_BOSS_STORY_stormhoof =
-"Prophets speak of things to come. If Prophet Stormhoof ever did, no one was left to write it down."
+IJ_DB_DUNGEON_WHC_BOSS_STORY_stormhoof = "Prophets speak of things to come. If Prophet Stormhoof ever did, no one was left to write it down."
 IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_NAME_stormhoofcorruption = "Corruption"
-IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_EFFECT_stormhoofcorruption =
-"Stormhoof corrupts a random enemy, dealing shadow damage over time."
+IJ_DB_DUNGEON_WHC_BOSS_stormhoof_ABILITY_EFFECT_stormhoofcorruption = "Stormhoof corrupts a random enemy, dealing shadow damage over time."
 IJ_DB_DUNGEON_WHC_BOSS_NAME_shalk = "Chieftain Shalk Blackwind"
-IJ_DB_DUNGEON_WHC_BOSS_STORY_shalk =
-"He conquered. He rules. Beyond that, the canyon offers nothing of Chieftain Shalk Blackwind."
+IJ_DB_DUNGEON_WHC_BOSS_STORY_shalk = "He conquered. He rules. Beyond that, the canyon offers nothing of Chieftain Shalk Blackwind."
 
 -- WHC Loot
 IJ_LOOT_NAME_33048 = "Heart of Windhorn"
@@ -3046,323 +2944,256 @@ IJ_LOOT_NAME_42277 = "Hawkfeather Crown"
 -- ZG
 IJ_DB_RAID_ZG_NAME = "Zul'Gurub"
 IJ_DB_RAID_ZG_STORY =
-"Hundreds of years ago, Zul'Gurub served as the capital city for the Gurubashi Troll Tribe, however, it was eventually destroyed by civil war and corruption from within. Centuries later, Atal'ai Priests have reclaimed the city for their own evil deeds, with the intention to summon their Blood God, Hakkar."
+    "Hundreds of years ago, Zul'Gurub served as the capital city for the Gurubashi Troll Tribe, however, it was eventually destroyed by civil war and corruption from within. Centuries later, Atal'ai Priests have reclaimed the city for their own evil deeds, with the intention to summon their Blood God, Hakkar."
 
 -- ZG Bosses
 IJ_DB_RAID_ZG_BOSS_NAME_14517 = "High Priestess Jeklik"
 IJ_DB_RAID_ZG_BOSS_STORY_14517 =
-"High Priestess Jeklik is the Zandalari High Priestess of the Primal Jungle God Hir'eek, the Bat. Sent to Zul'Gurub to stop Hakkar the Soulflayer, she was eventually turned by the blood god."
+    "High Priestess Jeklik is the Zandalari High Priestess of the Primal Jungle God Hir'eek, the Bat. Sent to Zul'Gurub to stop Hakkar the Soulflayer, she was eventually turned by the blood god."
 IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Stage One: Bat Form"
-IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 =
-"Jeklik assumes the form of a bat until she is at 50% health."
+IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 = "Jeklik assumes the form of a bat until she is at 50% health."
 IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Sonic Burst"
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 =
-"Jeklik emits a piercing shriek, dealing 1,750 to 2,250 physical damage and silencing all enemies within a 30-yard radius for 10 seconds."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 = "Jeklik emits a piercing shriek, dealing 1,750 to 2,250 physical damage and silencing all enemies within a 30-yard radius for 10 seconds."
 IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_22911 = "Charge"
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_22911 =
-"Jeklik charges towards an enemy between 8 and 40 yards away from her. The charge inflicts 1000 physical damage and silences its target for 5 seconds."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_22911 = "Jeklik charges towards an enemy between 8 and 40 yards away from her. The charge inflicts 1000 physical damage and silences its target for 5 seconds."
 IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_5570 = "Bat Swarm"
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_5570 =
-"Jeklik summons a swarm of 6 to 8 bats, to help her throughout the battle.\n\nThis occurs one minute into the fight and every minute after."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_5570 = "Jeklik summons a swarm of 6 to 8 bats, to help her throughout the battle.\n\nThis occurs one minute into the fight and every minute after."
 IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Stage Two: Troll Form"
-IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 =
-"Jeklik assumes her troll form when she reaches 50% health and alternates between her two spell casts."
+IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 = "Jeklik assumes her troll form when she reaches 50% health and alternates between her two spell casts."
 IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_25807 = "Great Heal"
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_25807 =
-"Jeklik begins casting a healing spell that restores 25% of her total health if not interrupted."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_25807 = "Jeklik begins casting a healing spell that restores 25% of her total health if not interrupted."
 IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "Mind Flay"
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 =
-"Jeklik channels a mind flay ability, dealing damage to a target and nearby allies if not interrupted."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 = "Jeklik channels a mind flay ability, dealing damage to a target and nearby allies if not interrupted."
 IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "Summon Bat Bombers"
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974 =
-"Jeklik summons bat bombers that drop fire bombs on enemies, leaving burning patches on the ground that deal damage to anyone standing in them."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974 = "Jeklik summons bat bombers that drop fire bombs on enemies, leaving burning patches on the ground that deal damage to anyone standing in them."
 IJ_DB_RAID_ZG_BOSS_NAME_14507 = "High Priest Venoxis"
-IJ_DB_RAID_ZG_BOSS_STORY_14507 =
-"High Priest Venoxis is the Zandalari High Priest of the Primal God Hethiss, the snake god. Sent to Zul'Gurub to stop Hakkar the Soulflayer, he was eventually turned by the blood god."
+IJ_DB_RAID_ZG_BOSS_STORY_14507 = "High Priest Venoxis is the Zandalari High Priest of the Primal God Hethiss, the snake god. Sent to Zul'Gurub to stop Hakkar the Soulflayer, he was eventually turned by the blood god."
 IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "Stage One: Troll Form"
-IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 =
-"Venoxis assumes his troll form until he is at 50% health."
+IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 = "Venoxis assumes his troll form until he is at 50% health."
 IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_10713 = "Venoxis' Snake Adds"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_10713 =
-"Venoxis's four snake adds will start the encounter with him, helping him during the fight.\n\nThese adds should be killed before the beginning of stage two."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_10713 = "Venoxis's four snake adds will start the encounter with him, helping him during the fight.\n\nThese adds should be killed before the beginning of stage two."
 IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "Holy Wrath"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 =
-"Venoxis casts holy wrath, dealing 300 holy damage which increases for each enemy the spell bounces off of."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 = "Venoxis casts holy wrath, dealing 300 holy damage which increases for each enemy the spell bounces off of."
 IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895 = "Renew"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 =
-"Venoxis casts renew, healing himself for 2000 health every 3 seconds for 15 seconds."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 = "Venoxis casts renew, healing himself for 2000 health every 3 seconds for 15 seconds."
 IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "Holy Nova"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 =
-"Venoxis creates an explosion of divine light, inflicting 875 to 1126 holy damage to nearby enemies."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 = "Venoxis creates an explosion of divine light, inflicting 875 to 1126 holy damage to nearby enemies."
 IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860 = "Holy Fire"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 =
-"Venoxis cast holy fire, consuming an enemy in flames, dealing 2200 fire damage plus 125 fire damage every 2 seconds for 8 seconds."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 = "Venoxis cast holy fire, consuming an enemy in flames, dealing 2200 fire damage plus 125 fire damage every 2 seconds for 8 seconds."
 IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "Stage Two: Snake Form"
-IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 =
-"Venoxis assumes the form of a snake when he reaches 50% health.\n\nVenoxis' damage is increased for the duration of the stage."
+IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 = "Venoxis assumes the form of a snake when he reaches 50% health.\n\nVenoxis' damage is increased for the duration of the stage."
 IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_12766 = "Poison Cloud"
 IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_12766 = "Venoxis creates a poison cloud, dealing poison damage when stood in."
 IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_6917 = "Venom Spit"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_6917 =
-"Venoxis spits venom at an enemy, inflicting nature damage plus additional damage every 5 seconds for 10 seconds."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_6917 = "Venoxis spits venom at an enemy, inflicting nature damage plus additional damage every 5 seconds for 10 seconds."
 IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865 = "Parasitic Serpent"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 =
-"Venoxis spawns a parasitic serpent which attacks an enemy and poisoning them, dealing 300 nature damage every 2 seconds for 10 seconds."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 = "Venoxis spawns a parasitic serpent which attacks an enemy and poisoning them, dealing 300 nature damage every 2 seconds for 10 seconds."
 IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3019 = "Enrage"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3019 =
-"At 20% remaining health, Venoxis becomes enraged, increasing the damage he deals to his enemies significantly."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3019 = "At 20% remaining health, Venoxis becomes enraged, increasing the damage he deals to his enemies significantly."
 IJ_DB_RAID_ZG_BOSS_NAME_14510 = "High Priestess Mar'li"
 IJ_DB_RAID_ZG_BOSS_STORY_14510 =
-"Mar'li is the high priestess of the spider loa, Shadra. Sent by King Rastakhan to Zul'Gurub to stop Hakkar the Soulflayer with the other loa high priests, she was eventually corrupted by the blood god."
+    "Mar'li is the high priestess of the spider loa, Shadra. Sent by King Rastakhan to Zul'Gurub to stop Hakkar the Soulflayer with the other loa high priests, she was eventually corrupted by the blood god."
 IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Spider Form"
-IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider =
-"Randomly throughout the fight, Mar'li will assume her spider form, gaining new abilities."
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider = "Randomly throughout the fight, Mar'li will assume her spider form, gaining new abilities."
 IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "Enveloping Webs"
 IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24110 =
-"Mar'li envelopes all enemies in a 10 yards radius with her webs, rooting them to the ground, increasing the time between their attacks by 100%, and preventing them from casting spells for 8 seconds.\n\nThe off-tank needs to be ready to generate threat instantly as this will reset every rooted player's threat."
+    "Mar'li envelopes all enemies in a 10 yards radius with her webs, rooting them to the ground, increasing the time between their attacks by 100%, and preventing them from casting spells for 8 seconds.\n\nThe off-tank needs to be ready to generate threat instantly as this will reset every rooted player's threat."
 IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Troll Form"
-IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll =
-"After assuming her spider form, Mar'li will eventually return to her orignal troll form, regaining her standard abilities."
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll = "After assuming her spider form, Mar'li will eventually return to her orignal troll form, regaining her standard abilities."
 IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlicharge = "Charge"
-IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlicharge =
-"Mar'li charges her target, dealing physical damage and stunning them."
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlicharge = "Mar'li charges her target, dealing physical damage and stunning them."
 IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Drain Life"
-IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 =
-"Mar'li drains the life out of her target, draining 500 health every 1 second for 7 seconds."
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 = "Mar'li drains the life out of her target, draining 500 health every 1 second for 7 seconds."
 IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Spawns of Mar'li"
 IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
-"Mar'li hatches her eggs, birthing 4 Spawns of Mar'li that helps her throughout the fight.\n\nThese spiders need to be dealt with as soon as possible as they will grow stronger as the fight goes on."
+    "Mar'li hatches her eggs, birthing 4 Spawns of Mar'li that helps her throughout the fight.\n\nThese spiders need to be dealt with as soon as possible as they will grow stronger as the fight goes on."
 IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Poison Bolt Volley"
-IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 =
-"Mar'li shoots poison to all enemies in a 30 yards range, dealing 375 immediate nature damage and 290 periodic damage every 2 seconds for 10 seconds."
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 = "Mar'li shoots poison to all enemies in a 30 yards range, dealing 375 immediate nature damage and 290 periodic damage every 2 seconds for 10 seconds."
 IJ_DB_RAID_ZG_BOSS_NAME_11382 = "Bloodlord Mandokir"
 IJ_DB_RAID_ZG_BOSS_STORY_11382 =
-"Bloodlord Mandokir is a powerful jungle troll and leader of the Gurubashi tribe. His constant companion is his raptor mount, Ohgan. He serves the evil god Hakkar the Soulflayer in Zul'Gurub along with the rest of his tribe."
+    "Bloodlord Mandokir is a powerful jungle troll and leader of the Gurubashi tribe. His constant companion is his raptor mount, Ohgan. He serves the evil god Hakkar the Soulflayer in Zul'Gurub along with the rest of his tribe."
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgan = "Ohgan"
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan =
-"Ohgan also becomes enraged when Mandakir is attacked, defending his master until death."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan = "Ohgan also becomes enraged when Mandakir is attacked, defending his master until death."
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgansunder = "Sunder Armor"
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgansunder =
-"Ohgan sunders his target's armor, increasing the amount of damage they receive for every stack of Sunder Armor they are afflicted with."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgansunder = "Ohgan sunders his target's armor, increasing the amount of damage they receive for every stack of Sunder Armor they are afflicted with."
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokir = "Mandokir"
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24314 = "Threatening Gaze"
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 =
-"Mandokir gazes threateningly at a random enemy. If the targeted enemy casts any spell, Mandokir will charge them, inflicting heavy damage."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 = "Mandokir gazes threateningly at a random enemy. If the targeted enemy casts any spell, Mandokir will charge them, inflicting heavy damage."
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirwhirlwind = "Whirlwind"
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirwhirlwind =
-"Mandokir whirlwind into the enemies, dealing damage to every one of them in melee range."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirwhirlwind = "Mandokir whirlwind into the enemies, dealing damage to every one of them in melee range."
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokircleave = "Cleave"
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokircleave =
-"Mandokir cleaves, dealing physical damage to all the enemies in front of him."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokircleave = "Mandokir cleaves, dealing physical damage to all the enemies in front of him."
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24408 = "Charge"
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 =
-"Mandokir charges at an enemy, dealing physical damage to them and stunning them for 2 seconds."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 = "Mandokir charges at an enemy, dealing physical damage to them and stunning them for 2 seconds."
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirlevelup = "Level Up"
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirlevelup =
-"Every time three player gets resurrected by a Chained Spirit, Mandokir levels up, increasing the amount of damage he deals and reducing the amount of damage he receives."
+    "Every time three player gets resurrected by a Chained Spirit, Mandokir levels up, increasing the amount of damage he deals and reducing the amount of damage he receives."
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirenrage = "Enrage"
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirenrage =
-"If Ohgan dies before Mandokir does, Mandokir becomes enraged for 1 minute, increasing the damage he deals to his enemies."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirenrage = "If Ohgan dies before Mandokir does, Mandokir becomes enraged for 1 minute, increasing the damage he deals to his enemies."
 IJ_DB_RAID_ZG_BOSS_NAME_15082 = "Edge of Madness"
-IJ_DB_RAID_ZG_BOSS_STORY_15082 =
-"Nearly nothing is known about the Edge of Madness, only the rumor that if you were to do an unknown invocation properly, one out of four possible legendary troll would be summoned..."
+IJ_DB_RAID_ZG_BOSS_STORY_15082 = "Nearly nothing is known about the Edge of Madness, only the rumor that if you were to do an unknown invocation properly, one out of four possible legendary troll would be summoned..."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "Gri'lek"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646 = "Avatar"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646 =
-"Throughout the fight, Gri'lek will turn into an avatar, increasing his size and damage significantly but also reducing his speed. He will then start pursuing a random enemy regardless of threat.\n\nThe targeted player must run away for the duration of the ability."
+    "Throughout the fight, Gri'lek will turn into an avatar, increasing his size and damage significantly but also reducing his speed. He will then start pursuing a random enemy regardless of threat.\n\nThe targeted player must run away for the duration of the ability."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_6524 = "Ground Tremor"
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 =
-"Gri'lek creates ground tremors, stunning every enemies in a 20 yards radius for 2 seconds."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 = "Gri'lek creates ground tremors, stunning every enemies in a 20 yards radius for 2 seconds."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilekroot = "Entangling Roots"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_grilekroot = "Gri'lek roots an enemy, making them unable to move."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "Renataki"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Vanish"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =
-"Renataki vanishes, preventing enemies from being able to see him. Once he reappears, he will ambush a random enemy, dealing heavy damage.\n\nPlayers need to find Renataki before he reappears. Use aoe abilities to try and break his stealth."
+    "Renataki vanishes, preventing enemies from being able to see him. Once he reappears, he will ambush a random enemy, dealing heavy damage.\n\nPlayers need to find Renataki before he reappears. Use aoe abilities to try and break his stealth."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakienrage = "Enrage"
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakienrage =
-"Renataki enrages, increasing the damage he deals to his enemies."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakienrage = "Renataki enrages, increasing the damage he deals to his enemies."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakigouge = "Gouge"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakigouge = "Renataki gouges an enemy, incapacitating them."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "Hazza'rah"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "Chain Mana Burn"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =
-"Hazza'rah casts a chain mana burn, inflicting heavy mana and health point damage to enemies in his vicinity.\n\nHunter and warlocks need to keep draining the mana of Hazza'rah as he will otherwise keep casting this ability."
+    "Hazza'rah casts a chain mana burn, inflicting heavy mana and health point damage to enemies in his vicinity.\n\nHunter and warlocks need to keep draining the mana of Hazza'rah as he will otherwise keep casting this ability."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24729 = "Summon Nightmare Illusions"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24729 =
-"Hazza'rah summons 3 nightmares illusions that will assist him throughout the fight.\n\nDamage dealers must instantly target these adds as they have very little health but deal a lot of damage."
+    "Hazza'rah summons 3 nightmares illusions that will assist him throughout the fight.\n\nDamage dealers must instantly target these adds as they have very little health but deal a lot of damage."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Sleep"
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 =
-"Hazza'rah puts to sleep all enemies currently attacking him.\n\nShamans can use tremor totems to wake up their allies."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 = "Hazza'rah puts to sleep all enemies currently attacking him.\n\nShamans can use tremor totems to wake up their allies."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "Wushoolay"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_23106 = "Chain Lightning"
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_23106 =
-"Wushoolay creates a lightning bolt that chains between all enemies in from of him."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_23106 = "Wushoolay creates a lightning bolt that chains between all enemies in from of him."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26550 = "Lightning Cloud"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26550 =
-"Wushoolay creates a lightning cloud. All enemies caught inside of the cloud's striking radius will be dealt every damage.\n\nPlayers need to move out of the cloud immediately as it deals heavy damage."
+    "Wushoolay creates a lightning cloud. All enemies caught inside of the cloud's striking radius will be dealt every damage.\n\nPlayers need to move out of the cloud immediately as it deals heavy damage."
 IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Gahz'ranka"
-IJ_DB_RAID_ZG_BOSS_STORY_15114 =
-"It is said that if a skilled fisherman were to cast his hook with a very specific bait at Pagle's Pointe, then a terrible creature would emerge from the water to devour them..."
+IJ_DB_RAID_ZG_BOSS_STORY_15114 = "It is said that if a skilled fisherman were to cast his hook with a very specific bait at Pagle's Pointe, then a terrible creature would emerge from the water to devour them..."
 IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_21099 = "Frost Breath"
-IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_21099 =
-"Gahz'ranka inflicts 850 frost damage to enemies in a cone in front him, stealing their mana and reducing their movement speed for 5 seconds."
+IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_21099 = "Gahz'ranka inflicts 850 frost damage to enemies in a cone in front him, stealing their mana and reducing their movement speed for 5 seconds."
 IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_24326 = "Gahz'ranka Slam"
-IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 =
-"Gahz'ranka slams all target in front of him, dealing 250 physical damage and knocking them back."
+IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 = "Gahz'ranka slams all target in front of him, dealing 250 physical damage and knocking them back."
 IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_22421 = "Massive Geyser"
-IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 =
-"Gahz'ranka creates a massive geyser, lauching enemies into the air.\n\nPlayers should aim to land in the water to avoid taking unnecessary damage."
+IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 = "Gahz'ranka creates a massive geyser, lauching enemies into the air.\n\nPlayers should aim to land in the water to avoid taking unnecessary damage."
 IJ_DB_RAID_ZG_BOSS_NAME_14509 = "High Priest Thekal"
-IJ_DB_RAID_ZG_BOSS_STORY_14509 =
-"High Priest Thekal is the Zandalari High Priest of Shirvallah, the tiger loa. Sent to Zul'Gurub to stop Hakkar the Soulflayer, he was eventually turned by the blood god."
+IJ_DB_RAID_ZG_BOSS_STORY_14509 = "High Priest Thekal is the Zandalari High Priest of Shirvallah, the tiger loa. Sent to Zul'Gurub to stop Hakkar the Soulflayer, he was eventually turned by the blood god."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_lorkhan = "Zealot Lor'Khan"
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_25807 = "Great Heal"
-IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25807 =
-"Lor'Khan casts a great heal on himself or an ally, healing them for 69375 health."
+IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25807 = "Lor'Khan casts a great heal on himself or an ally, healing them for 69375 health."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_23552 = "Lightning Shield"
-IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_23552 =
-"Lor'Khan surrounds himself with a lightning shield, returning some of the damage he takes back to the attacker."
+IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_23552 = "Lor'Khan surrounds himself with a lightning shield, returning some of the damage he takes back to the attacker."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22691 = "Disarm"
-IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22691 =
-"Lor'Khan disarms his target, forcing them to stop wielding their weapon for 6 seconds."
+IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22691 = "Lor'Khan disarms his target, forcing them to stop wielding their weapon for 6 seconds."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24185 = "Bloodlust"
-IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24185 =
-"Lor'Khan and his allies are overtaken by bloodlust, increasing their attack speed by 75% for 30 seconds."
+IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24185 = "Lor'Khan and his allies are overtaken by bloodlust, increasing their attack speed by 75% for 30 seconds."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_zath = "Zealot Zath"
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_26654 = "Sweeping Strikes"
-IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_26654 =
-"Zath does sweeping strikes, inflicting extra damage on another target for his next melee attack."
+IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_26654 = "Zath does sweeping strikes, inflicting extra damage on another target for his next melee attack."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24698 = "Gouge"
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24698 = "Zath gouges his target, incapacitating them."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_21060 = "Blind"
-IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_21060 =
-"Zath blinds his target, causing to wander around confused for up to 10 seconds."
+IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_21060 = "Zath blinds his target, causing to wander around confused for up to 10 seconds."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27613 = "Kick"
-IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27613 =
-"Zath kicks his target, dealing physical damage and interrupting any spell currently being cast for 6 seconds."
+IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27613 = "Zath kicks his target, dealing physical damage and interrupting any spell currently being cast for 6 seconds."
 IJ_DB_RAID_ZG_BOSS_14509_NAME_STAGE_1 = "Stage One: Troll Form"
-IJ_DB_RAID_ZG_BOSS_14509_DESCRIPTION_STAGE_1 =
-"Thekal assumes his troll form for the duration of the stage up until him and all adds are dead at the same time."
+IJ_DB_RAID_ZG_BOSS_14509_DESCRIPTION_STAGE_1 = "Thekal assumes his troll form for the duration of the stage up until him and all adds are dead at the same time."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaladds = "Thekal's Adds"
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaladds =
-"Thekal starts the fight with Zealot Lor'Khan, Zealot Zath and 2 Zulian tigers.\n\nBoth zealots need to be tanked while the 2 tigers can easily be killed.\n\nThekal, Lor'Khan, and Zath all need to die around the same time as they will otherwise resurrect each other."
+    "Thekal starts the fight with Zealot Lor'Khan, Zealot Zath and 2 Zulian tigers.\n\nBoth zealots need to be tanked while the 2 tigers can easily be killed.\n\nThekal, Lor'Khan, and Zath all need to die around the same time as they will otherwise resurrect each other."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27559 = "Silence"
-IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27559 =
-"Thekal silences a random enemy, preventing them from casting any spells for 3 seconds."
+IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27559 = "Thekal silences a random enemy, preventing them from casting any spells for 3 seconds."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22859 = "Mortal Cleave"
-IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22859 =
-"Thekal cleaves his current target, inflicting 150% weapon damage and leaving the target wounded, reducing the effectiveness of any healing by 50% for 5 seconds."
+IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22859 = "Thekal cleaves his current target, inflicting 150% weapon damage and leaving the target wounded, reducing the effectiveness of any healing by 50% for 5 seconds."
 IJ_DB_RAID_ZG_BOSS_14509_NAME_STAGE_2 = "Stage Two: Tiger Form"
-IJ_DB_RAID_ZG_BOSS_14509_DESCRIPTION_STAGE_2 =
-"Thekal gets resurrected ands assumes the form of a tiger for the duration of the stage up until his actual death."
+IJ_DB_RAID_ZG_BOSS_14509_DESCRIPTION_STAGE_2 = "Thekal gets resurrected ands assumes the form of a tiger for the duration of the stage up until his actual death."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24189 = "Force Punch"
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24189 =
-"Thekal punches every enemies in a 45 yards radius, dealing 850 physical damage and knocking them back.\n\nForce punch also resets the threat. One of the tank that isn't currently tanking needs to be ready to pull aggro."
+    "Thekal punches every enemies in a 45 yards radius, dealing 850 physical damage and knocking them back.\n\nForce punch also resets the threat. One of the tank that isn't currently tanking needs to be ready to pull aggro."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaltigers = "Summon Tigers"
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaltigers =
-"Thekal summons 2 Zulian tigers, assisting him for the duration of the fight.\n\nJust like the Zulian tigers in stage one, these tigers can easily be killed and should be prioritized."
+    "Thekal summons 2 Zulian tigers, assisting him for the duration of the fight.\n\nJust like the Zulian tigers in stage one, these tigers can easily be killed and should be prioritized."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalcharge = "Charge"
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalcharge = "Thekal charges an enemy, dealing damage and stunning them."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalfrenzy = "Frenzy"
-IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalfrenzy =
-"Thekal goes into a frenzy, increasing his size and his attack speed by 50%.\n\nHunters can use Tranquilizing Shot to remove frenzy from Thekal."
+IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalfrenzy = "Thekal goes into a frenzy, increasing his size and his attack speed by 50%.\n\nHunters can use Tranquilizing Shot to remove frenzy from Thekal."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalenrage = "Enrage"
-IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalenrage =
-"At 20% health remaining, Thekal becomes enraged, increasing the damage he deals to his enemies."
+IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalenrage = "At 20% health remaining, Thekal becomes enraged, increasing the damage he deals to his enemies."
 IJ_DB_RAID_ZG_BOSS_NAME_14515 = "High Priestess Arlokk"
 IJ_DB_RAID_ZG_BOSS_STORY_14515 =
-"High Priestess Arlokk is the Zandalari High Priestess of the Primal God Bethekk, the panther goddess. Sent to Zul'Gurub to stop Hakkar the Soulflayer, she was eventually turned by the blood god."
+    "High Priestess Arlokk is the Zandalari High Priestess of the Primal God Bethekk, the panther goddess. Sent to Zul'Gurub to stop Hakkar the Soulflayer, she was eventually turned by the blood god."
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_arlokkadds = "Stealthed Panthers"
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_arlokkadds =
-"Arlokk periodically summons stealthed panthers from the pens to attack players.\n\nWhile she is in troll form, off-tanks should control the panthers as damage dealers focuses on Arlokk.\n\nWhen Arlokk vanishes, players should shift priority to eliminating the active panthers.\n\nUpon her death, all remaining panthers will unstealth and attack the raid."
+    "Arlokk periodically summons stealthed panthers from the pens to attack players.\n\nWhile she is in troll form, off-tanks should control the panthers as damage dealers focuses on Arlokk.\n\nWhen Arlokk vanishes, players should shift priority to eliminating the active panthers.\n\nUpon her death, all remaining panthers will unstealth and attack the raid."
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_arlokktroll = "Troll Form"
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_arlokktroll =
-"Arlokk assumes her troll form, which she begins the encounter in.\n\nShe alternates between troll and panther forms throughout the fight, with transitions occurring more rapidly as the encounter progresses."
+    "Arlokk assumes her troll form, which she begins the encounter in.\n\nShe alternates between troll and panther forms throughout the fight, with transitions occurring more rapidly as the encounter progresses."
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_12540 = "Gouge"
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_12540 =
-"Arlokk gouges a target, inflicting 20 damage and stunning them for up to 4 sec.\n\nIf the tank is gouged, the off-tank should taunt Arlokk. The main tank can taunt her back once they're back in control."
+    "Arlokk gouges a target, inflicting 20 damage and stunning them for up to 4 sec.\n\nIf the tank is gouged, the off-tank should taunt Arlokk. The main tank can taunt her back once they're back in control."
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_arlokkpanther = "Panther Form"
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_arlokkpanther =
-"Arlokk vanishes and assumes her panther form. \n\nShe alternates between troll and panther forms throughout the fight, with transitions occurring more rapidly as the encounter progresses."
+    "Arlokk vanishes and assumes her panther form. \n\nShe alternates between troll and panther forms throughout the fight, with transitions occurring more rapidly as the encounter progresses."
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24210 = "Mark of Arlokk"
-IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24210 =
-"While Arlokk is in stealth, she can mark a random player which causes every panther to focus on the marked target."
+IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24210 = "While Arlokk is in stealth, she can mark a random player which causes every panther to focus on the marked target."
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24236 = "Whirlwind"
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24236 =
-"When Arlokk reappears in her Panther Form, she immediately casts Whirlwind, dealing heavy AoE damage to those nearby for two seconds.\n\nMelee should wait for the Whirlwind to fade before attacking Arlokk."
+    "When Arlokk reappears in her Panther Form, she immediately casts Whirlwind, dealing heavy AoE damage to those nearby for two seconds.\n\nMelee should wait for the Whirlwind to fade before attacking Arlokk."
 IJ_DB_RAID_ZG_BOSS_NAME_11380 = "Jin'do the Hexxer"
 IJ_DB_RAID_ZG_BOSS_STORY_11380 =
-"Jin'do is a Gurubashi jungle troll witch doctor of considerable power. He is responsible for brainwashing the Zandalari priests Jeklik, Venoxis, Mar'li, Thekal, and Arlokk into the service of Hakkar, the Loa of Blood."
+    "Jin'do is a Gurubashi jungle troll witch doctor of considerable power. He is responsible for brainwashing the Zandalari priests Jeklik, Venoxis, Mar'li, Thekal, and Arlokk into the service of Hakkar, the Loa of Blood."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24306 = "Delusions of Jin'do"
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 =
-"Jin'do curses a player, inflicting 175 damage every 2 seconds and spawns a Shade of Jin'do.\n\nDespite this, players are advised not to decurse this ability since only those afflicted by the curse can see and damage the Shades of Jin'do."
+    "Jin'do curses a player, inflicting 175 damage every 2 seconds and spawns a Shade of Jin'do.\n\nDespite this, players are advised not to decurse this ability since only those afflicted by the curse can see and damage the Shades of Jin'do."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24053 = "Hex"
-IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24053 =
-"Jin'do transforms the player with the highest threat into a frog."
+IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24053 = "Jin'do transforms the player with the highest threat into a frog."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoteleportskeletonpit = "Teleport to Skeleton Pit"
-IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoteleportskeletonpit =
-"Jin'do teleports a random player into the skeleton pit in the middle of the room."
+IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoteleportskeletonpit = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoadds = "Jin'do's Adds"
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds =
-"Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
+    "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14986 = "Shade of Jin'do"
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 =
-"Though Shades of Jin'do are only visible to those cursed by Delusions of Jin'do, shades can attack anyone in the raid. They are also immune to AoE damage, and must be focused with single-target abilities and spells.\n\nShades of Jin'do should be the first priority add to be killed."
+    "Though Shades of Jin'do are only visible to those cursed by Delusions of Jin'do, shades can attack anyone in the raid. They are also immune to AoE damage, and must be focused with single-target abilities and spells.\n\nShades of Jin'do should be the first priority add to be killed."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoshademelee = "Melee Attack"
-IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoshademelee =
-"Shade of Jin'do's melee attacks can interrupt spellcasts."
+IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoshademelee = "Shade of Jin'do's melee attacks can interrupt spellcasts."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24458 = "Shadow Shock"
-IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 =
-"Shades of Jin'do casts dark magic that instantly lashes enemies, inflicting shadow damage."
+IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Shades of Jin'do casts dark magic that instantly lashes enemies, inflicting shadow damage."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14987 = "Powerful Healing Ward"
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14987 =
-"Jin'do summons a powerful healing ward that heals Jin'do for more damage than the raid can deal.\n\nAll players not actively killing a Shade of Jin'do should focus on this totem.\n\nPowerful Healing Ward should be the second priority add to be killed."
+    "Jin'do summons a powerful healing ward that heals Jin'do for more damage than the raid can deal.\n\nAll players not actively killing a Shade of Jin'do should focus on this totem.\n\nPowerful Healing Ward should be the second priority add to be killed."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_15112 = "Brain Wash Totem"
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_15112 =
-"Jin'do summons a brainwashing totem that mind controls players. The mind control cannot be dispelled without breaking this totem.\n\nBrain Wash Totem should be the third priority add to be killed."
+    "Jin'do summons a brainwashing totem that mind controls players. The mind control cannot be dispelled without breaking this totem.\n\nBrain Wash Totem should be the third priority add to be killed."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14826 = "Sacrificed Troll"
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14826 =
-"When Jin'do teleports players into the skeleton pit, Sacrificed Trolls will spawn and attack the summoned person.\n\nUse AoE attacks to quickly free the summoned raid member."
+    "When Jin'do teleports players into the skeleton pit, Sacrificed Trolls will spawn and attack the summoned person.\n\nUse AoE attacks to quickly free the summoned raid member."
 IJ_DB_RAID_ZG_BOSS_NAME_14834 = "Hakkar"
 IJ_DB_RAID_ZG_BOSS_STORY_14834 =
-"Hakkar the Soulflayer, the Blood God, is a malevolent and destructive loa notably worshipped by the Gurubashi trolls, and known in the troll pantheon as the Loa of Blood. He has taken control the Gurubashi Empire's fallen capital, Zul'Gurub."
+    "Hakkar the Soulflayer, the Blood God, is a malevolent and destructive loa notably worshipped by the Gurubashi trolls, and known in the troll pantheon as the Loa of Blood. He has taken control the Gurubashi Empire's fallen capital, Zul'Gurub."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_11357 = "Son of Hakkar"
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 =
-"Throughout the encounter, Sons of Hakkar spawn from the stairways leading into Hakkar’s chamber.\n\nWhen slain, they release a poison cloud that afflicts Poisonous Blood on any player who comes into contact with it."
+    "Throughout the encounter, Sons of Hakkar spawn from the stairways leading into Hakkar’s chamber.\n\nWhen slain, they release a poison cloud that afflicts Poisonous Blood on any player who comes into contact with it."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24321 = "Poisonous Blood"
-IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24321 =
-"Poisons the player, dealing 100 damage every 3 seconds for 1.5 minutes.\n\nWhile afflicted, Blood Siphon will damage Hakkar instead of healing him."
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24321 = "Poisons the player, dealing 100 damage every 3 seconds for 1.5 minutes.\n\nWhile afflicted, Blood Siphon will damage Hakkar instead of healing him."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24322 = "Blood Siphon"
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24322 =
-"Hakkar stuns the entire raid and drains health from all players every second for 8 seconds, healing himself significantly.\n\nPlayers afflicted with Poisonous Blood instead cause Hakkar to take damage from this effect.\n\nTo counter this ability, most of the raid must be poisoned before Blood Siphon begins."
+    "Hakkar stuns the entire raid and drains health from all players every second for 8 seconds, healing himself significantly.\n\nPlayers afflicted with Poisonous Blood instead cause Hakkar to take damage from this effect.\n\nTo counter this ability, most of the raid must be poisoned before Blood Siphon begins."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkaraspects = "Aspects of the High Priests"
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkaraspects =
-"Hakkar can be engaged immediately upon entering the instance. However, if any High Priests remain alive, they empower him with additional abilities based on their aspects."
+    "Hakkar can be engaged immediately upon entering the instance. However, if any High Priests remain alive, they empower him with additional abilities based on their aspects."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24687 = "Aspect of Jeklik"
-IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24687 =
-"Deals 1,300 to 1,700 damage to nearby enemies and silences them for 5 seconds."
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24687 = "Deals 1,300 to 1,700 damage to nearby enemies and silences them for 5 seconds."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24688 = "Aspect of Venoxis"
-IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24688 =
-"Spits poison at nearby enemies, dealing Nature damage and additional damage every 2 seconds for 10 seconds."
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24688 = "Spits poison at nearby enemies, dealing Nature damage and additional damage every 2 seconds for 10 seconds."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24686 = "Aspect of Mar'li"
-IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24686 =
-"Stuns the player with the highest threat for 6 seconds."
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24686 = "Stuns the player with the highest threat for 6 seconds."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24689 = "Aspect of Thekal"
-IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24689 =
-"Increases Hakkar’s attack speed by 150%."
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24689 = "Increases Hakkar’s attack speed by 150%."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24690 = "Aspect of Arlokk"
-IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24690 =
-"Gouges the player with the highest threat, stunning them for 2 seconds."
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24690 = "Gouges the player with the highest threat, stunning them for 2 seconds."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24327 = "Cause Insanity"
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 =
-"Drives the player with the highest threat into a frenzy for 10 seconds, increasing their attack speed by 100% and movement speed by 150%, and causing them to attack nearby allies."
+    "Drives the player with the highest threat into a frenzy for 10 seconds, increasing their attack speed by 100% and movement speed by 150%, and causing them to attack nearby allies."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24328 = "Corrupted Blood"
-IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 =
-"Approximately every 20 seconds, a player is afflicted with Corrupted Blood, taking 200 damage every 2 seconds for 10 seconds.\n\nThis effect spreads to nearby players."
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 = "Approximately every 20 seconds, a player is afflicted with Corrupted Blood, taking 200 damage every 2 seconds for 10 seconds.\n\nThis effect spreads to nearby players."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkarenrage = "Enrage"
-IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkarenrage =
-"After 10 minutes, Hakkar becomes enraged, greatly increasing his damage output."
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkarenrage = "After 10 minutes, Hakkar becomes enraged, greatly increasing his damage output."
 
 -- ZG Loot
 IJ_LOOT_NAME_19716 = "Primal Hakkari Bindings"
@@ -3476,45 +3307,43 @@ IJ_LOOT_NAME_19876 = "Soul Corrupter's Necklace"
 -- MC
 IJ_DB_RAID_MC_NAME = "Molten Core"
 IJ_DB_RAID_MC_STORY =
-"The Molten Core lies at the very bottom of Blackrock Depths. It is the heart of Blackrock Mountain and the exact spot where, long ago in a desperate bid to turn the tide of the dwarven civil war, Emperor Thaurissan summoned the elemental Firelord, Ragnaros, into the world. Though the firelord is incapable of straying far from the blazing Core, it is believed that his elemental minions command the Dark Iron dwarves, who are in the midst of creating armies out of living stone. The burning lake where Ragnaros lies sleeping acts as a rift connecting to the plane of fire, allowing the malicious elementals to pass through. Chief among Ragnaros' agents is Majordomo Executus - for this cunning elemental is the only one capable of calling the Firelord from his slumber."
+    "The Molten Core lies at the very bottom of Blackrock Depths. It is the heart of Blackrock Mountain and the exact spot where, long ago in a desperate bid to turn the tide of the dwarven civil war, Emperor Thaurissan summoned the elemental Firelord, Ragnaros, into the world. Though the firelord is incapable of straying far from the blazing Core, it is believed that his elemental minions command the Dark Iron dwarves, who are in the midst of creating armies out of living stone. The burning lake where Ragnaros lies sleeping acts as a rift connecting to the plane of fire, allowing the malicious elementals to pass through. Chief among Ragnaros' agents is Majordomo Executus - for this cunning elemental is the only one capable of calling the Firelord from his slumber."
 
 -- MC Bosses
 IJ_DB_RAID_MC_BOSS_NAME_52145 = "Incindis"
-IJ_DB_RAID_MC_BOSS_STORY_52145 =
-"Documentation regarding Incindis is remarkably scarce, noting him only as a formidable resident of the Molten Core."
+IJ_DB_RAID_MC_BOSS_STORY_52145 = "Documentation regarding Incindis is remarkably scarce, noting him only as a formidable resident of the Molten Core."
 IJ_DB_RAID_MC_BOSS_NAME_12118 = "Lucifron"
 IJ_DB_RAID_MC_BOSS_STORY_12118 =
-"Among the ranks of the flamewakers, overseers and their guards constantly jockey for higher status among the hierarchy of elementals in hopes of gaining favor with Ragnaros. Lucifron is no exception. He has clashed with Gehennas on several occasions, particularly during their incarceration within the Elemental Plane. This rivalry has now extended to the Molten Core where Lucifron quietly waits for his opportunity to capitalize on any weakness shown by the other flamewakers. Lucifron, and his two Flamewaker Protector guards, can be found watching over the enormous core hound Magmadar, favored pet of Ragnaros."
+    "Among the ranks of the flamewakers, overseers and their guards constantly jockey for higher status among the hierarchy of elementals in hopes of gaining favor with Ragnaros. Lucifron is no exception. He has clashed with Gehennas on several occasions, particularly during their incarceration within the Elemental Plane. This rivalry has now extended to the Molten Core where Lucifron quietly waits for his opportunity to capitalize on any weakness shown by the other flamewakers. Lucifron, and his two Flamewaker Protector guards, can be found watching over the enormous core hound Magmadar, favored pet of Ragnaros."
 IJ_DB_RAID_MC_BOSS_NAME_11982 = "Magmadar"
 IJ_DB_RAID_MC_BOSS_STORY_11982 =
-"A terrifying behemoth composed of igneous rock and roiling magma, Magmadar serves as the origin of the core hounds that roam the earthen halls of Molten Core. Favored among Ragnaros's pets, Magmadar is protected by the flamewaker Lucifron and surrounded by vicious packs of ravenous hounds. It is said that while Ragnaros was imprisoned in the Elemental Plane, the Firelord would feed the remains of his captured enemies to the eagerly awaiting twin maws of Magmadar. As a result, the hound grew strong and loyal, and even now Magmadar's savage ferocity remains uncontested."
+    "A terrifying behemoth composed of igneous rock and roiling magma, Magmadar serves as the origin of the core hounds that roam the earthen halls of Molten Core. Favored among Ragnaros's pets, Magmadar is protected by the flamewaker Lucifron and surrounded by vicious packs of ravenous hounds. It is said that while Ragnaros was imprisoned in the Elemental Plane, the Firelord would feed the remains of his captured enemies to the eagerly awaiting twin maws of Magmadar. As a result, the hound grew strong and loyal, and even now Magmadar's savage ferocity remains uncontested."
 IJ_DB_RAID_MC_BOSS_NAME_12057 = "Garr"
 IJ_DB_RAID_MC_BOSS_STORY_12057 =
-"As one of the two chief lieutenants serving under Ragnaros, Garr plays a key role in the current success of the Firelord and his spreading influence. Garr, like Baron Geddon, holds half of Bindings of the Windseeker, which contains the remaining essence of Thunderaan, Prince of Air. Tales say that after centuries of partnership, Geddon became suspicious of Garr and felt the elemental sought both halves of the talisman. Thus, relations between the two powers are strained. Both Garr and Baron Geddon draw their considerable might from the blazing runes carved deep into the floor of Molten Core."
+    "As one of the two chief lieutenants serving under Ragnaros, Garr plays a key role in the current success of the Firelord and his spreading influence. Garr, like Baron Geddon, holds half of Bindings of the Windseeker, which contains the remaining essence of Thunderaan, Prince of Air. Tales say that after centuries of partnership, Geddon became suspicious of Garr and felt the elemental sought both halves of the talisman. Thus, relations between the two powers are strained. Both Garr and Baron Geddon draw their considerable might from the blazing runes carved deep into the floor of Molten Core."
 IJ_DB_RAID_MC_BOSS_NAME_12056 = "Baron Geddon"
 IJ_DB_RAID_MC_BOSS_STORY_12056 =
-"When Ragnaros was ripped from the Elemental Plane by the Sorcerer-Thane Thaurissan, several subjects from the Firelands followed in his wake. Baron Geddon fought against the titans and aided in the betrayal of Thunderaan, Prince of Air. The Firelord devoured the essence of the prince, but was unable to consume him entirely. Thus, the remaining energies were trapped within a talisman of elemental binding, which Ragnaros split into two perfect halves which he gave to his two lieutenants."
+    "When Ragnaros was ripped from the Elemental Plane by the Sorcerer-Thane Thaurissan, several subjects from the Firelands followed in his wake. Baron Geddon fought against the titans and aided in the betrayal of Thunderaan, Prince of Air. The Firelord devoured the essence of the prince, but was unable to consume him entirely. Thus, the remaining energies were trapped within a talisman of elemental binding, which Ragnaros split into two perfect halves which he gave to his two lieutenants."
 IJ_DB_RAID_MC_BOSS_NAME_12264 = "Shazzrah"
 IJ_DB_RAID_MC_BOSS_STORY_12264 =
-"Of all the flamewakers who followed Ragnaros into the world of Azeroth, Shazzrah is the most talented in the realm of the arcane. He is aware that his colleague Baron Geddon suspects the elemental Garr of treachery. The conflict between Baron Geddon and Garr suits Shazzrah well, for in fact it is Shazzrah who seeks to posses both halves of the Talisman of Elemental Binding so that he might find a way to siphon its energies for his own use. Ragnaros was very likely aware of his underling's penchant for duplicity when he split the talisman in half and entrusted the pieces to Baron Geddon and Garr."
+    "Of all the flamewakers who followed Ragnaros into the world of Azeroth, Shazzrah is the most talented in the realm of the arcane. He is aware that his colleague Baron Geddon suspects the elemental Garr of treachery. The conflict between Baron Geddon and Garr suits Shazzrah well, for in fact it is Shazzrah who seeks to posses both halves of the Talisman of Elemental Binding so that he might find a way to siphon its energies for his own use. Ragnaros was very likely aware of his underling's penchant for duplicity when he split the talisman in half and entrusted the pieces to Baron Geddon and Garr."
 IJ_DB_RAID_MC_BOSS_NAME_12098 = "Sulfuron Harbinger"
 IJ_DB_RAID_MC_BOSS_STORY_12098 =
-"Among the most favored of the flamewakers, Sulfuron Harbinger is the terrifying herald of Ragnaros himself. From the infernal depths of the Molten Core, the Harbinger commands Ambassador Flamelash and the other lesser flamewakers in the outside world. Sulfuron Harbinger answers only to Executus and guards the rune of Koro, one of several runes that empower the Firelord's servants. Sulfuron Harbinger keeps Shazzrah in particular under close watch, believing that Shazzrah seeks to betray Ragnaros. Flanked by four of the Firelord's most fervid priests, the Harbinger prepares for the day when the elemental lord of fire claims the world of Azeroth for his own."
+    "Among the most favored of the flamewakers, Sulfuron Harbinger is the terrifying herald of Ragnaros himself. From the infernal depths of the Molten Core, the Harbinger commands Ambassador Flamelash and the other lesser flamewakers in the outside world. Sulfuron Harbinger answers only to Executus and guards the rune of Koro, one of several runes that empower the Firelord's servants. Sulfuron Harbinger keeps Shazzrah in particular under close watch, believing that Shazzrah seeks to betray Ragnaros. Flanked by four of the Firelord's most fervid priests, the Harbinger prepares for the day when the elemental lord of fire claims the world of Azeroth for his own."
 IJ_DB_RAID_MC_BOSS_NAME_11988 = "Golemagg the Incinerator"
 IJ_DB_RAID_MC_BOSS_STORY_11988 =
-"The most feared soldiers of Ragnaros's elemental forces are the molten giants, and among them Golemagg the Incinerator is unrivaled for his sheer brutality and savage efficiency. So absolute is the molten behemoth's power that he has cowed two core ragers - offspring of the colossal beast Magmadar - which he now uses as pets. For this affront, he has earned Magmadar's eternal and unwavering ire, although the fearsome creature has yet to act on his savage impulses."
+    "The most feared soldiers of Ragnaros's elemental forces are the molten giants, and among them Golemagg the Incinerator is unrivaled for his sheer brutality and savage efficiency. So absolute is the molten behemoth's power that he has cowed two core ragers - offspring of the colossal beast Magmadar - which he now uses as pets. For this affront, he has earned Magmadar's eternal and unwavering ire, although the fearsome creature has yet to act on his savage impulses."
 IJ_DB_RAID_MC_BOSS_NAME_65020 = "Twin Golems"
-IJ_DB_RAID_MC_BOSS_STORY_65020 =
-"Apart from their confirmed status as guardians of the Firelord's domain, the history of the Twin Golems remains entirely unrecorded."
+IJ_DB_RAID_MC_BOSS_STORY_65020 = "Apart from their confirmed status as guardians of the Firelord's domain, the history of the Twin Golems remains entirely unrecorded."
 IJ_DB_RAID_MC_BOSS_NAME_57642 = "Sorcerer-Thane Thaurissan"
 IJ_DB_RAID_MC_BOSS_STORY_57642 =
-"Sorcerer-Thane Thaurissan was the leader of the shadowy sorcerers of the Dark Iron clan before and during the War of the Three Hammers. He was the one responsible for summoning the Firelord Ragnaros into Azeroth."
+    "Sorcerer-Thane Thaurissan was the leader of the shadowy sorcerers of the Dark Iron clan before and during the War of the Three Hammers. He was the one responsible for summoning the Firelord Ragnaros into Azeroth."
 IJ_DB_RAID_MC_BOSS_NAME_12018 = "Majordomo Executus"
 IJ_DB_RAID_MC_BOSS_STORY_12018 =
-"At the top of the elemental hierarchy, just beneath Ragnaros himself, resides Majordomo Executus. This flamewaker gained his exalted status by proving to be nearly invincible in the battles that raged within the elemental plane. Rumor has it that Executus supplanted Baron Geddon, and the two have been rivals ever since. Although this rumor has yet to be confirmed, there is certainly no doubt that Ragnaros does not tolerate failure. Thus, the lesser flamewakers (and, of course, Baron Geddon) eagerly await a misstep by Executus, anticipating their chance to vie for the coveted attention of the Firelord."
+    "At the top of the elemental hierarchy, just beneath Ragnaros himself, resides Majordomo Executus. This flamewaker gained his exalted status by proving to be nearly invincible in the battles that raged within the elemental plane. Rumor has it that Executus supplanted Baron Geddon, and the two have been rivals ever since. Although this rumor has yet to be confirmed, there is certainly no doubt that Ragnaros does not tolerate failure. Thus, the lesser flamewakers (and, of course, Baron Geddon) eagerly await a misstep by Executus, anticipating their chance to vie for the coveted attention of the Firelord."
 IJ_DB_RAID_MC_BOSS_NAME_11502 = "Ragnaros"
 IJ_DB_RAID_MC_BOSS_STORY_11502 =
-"Lying at the bottom of Blackrock Mountain, Ragnaros is striving to find a way home, as well as to gather his strength once again so he can burn away Azeroth and take it for his own. Meanwhile, in Sulfuron Keep and elsewhere across the Firelands, his elemental princes battle constantly for dominance. He and his dwarven minions took control of the Blackrock mountain's volcanic depths and made war on the orcs in the Upper Blackrock Spire, which served as the seat of power for Nefarian the black dragon. Ragnaros has uncovered the secret to creating life from stone and plans to build an army of unstoppable golems to aid him in conquering the whole of Blackrock Mountain."
+    "Lying at the bottom of Blackrock Mountain, Ragnaros is striving to find a way home, as well as to gather his strength once again so he can burn away Azeroth and take it for his own. Meanwhile, in Sulfuron Keep and elsewhere across the Firelands, his elemental princes battle constantly for dominance. He and his dwarven minions took control of the Blackrock mountain's volcanic depths and made war on the orcs in the Upper Blackrock Spire, which served as the seat of power for Nefarian the black dragon. Ragnaros has uncovered the secret to creating life from stone and plans to build an army of unstoppable golems to aid him in conquering the whole of Blackrock Mountain."
 
 -- MC Loot
 IJ_LOOT_NAME_42178 = "Rite of Resurrection"
@@ -3683,16 +3512,16 @@ IJ_LOOT_NAME_70171 = "Plans: Crown of Molten Ascension"
 -- ES
 IJ_DB_RAID_ES_NAME = "Emerald Sanctum"
 IJ_DB_RAID_ES_STORY =
-"The Emerald Sanctum, a sacred refuge within the Dreamway, has fallen under the shadow of an insidious darkness. Once a baston of tranquility where the Green Dragonflight performed their most holy rituals, it has become a staging ground for the Nightmare's corruption. Now, the very defenders of the Dream have succumbed to malevolent whispers, threatening to turn the power of the 'Awakening' against Azeroth itself."
+    "The Emerald Sanctum, a sacred refuge within the Dreamway, has fallen under the shadow of an insidious darkness. Once a baston of tranquility where the Green Dragonflight performed their most holy rituals, it has become a staging ground for the Nightmare's corruption. Now, the very defenders of the Dream have succumbed to malevolent whispers, threatening to turn the power of the 'Awakening' against Azeroth itself."
 
 -- ES Bosses
 IJ_DB_RAID_ES_BOSS_NAME_60747 = "Erennius"
 IJ_DB_RAID_ES_BOSS_STORY_60747 =
-"Once a noble hero dedicated to the cause of the Green Dragonflight, Erennius could not withstand the relentless pull of the Nightmare. The corruption sank deep into his heart during the ritual of the Awakening, twisting him into a powerful agent of evil. He now stands as a tragic sentinel of the Sanctum, his former heroism replaced by an unyielding hunger to spread the taint that claimed him."
+    "Once a noble hero dedicated to the cause of the Green Dragonflight, Erennius could not withstand the relentless pull of the Nightmare. The corruption sank deep into his heart during the ritual of the Awakening, twisting him into a powerful agent of evil. He now stands as a tragic sentinel of the Sanctum, his former heroism replaced by an unyielding hunger to spread the taint that claimed him."
 
 IJ_DB_RAID_ES_BOSS_NAME_60748 = "Solnius"
 IJ_DB_RAID_ES_BOSS_STORY_60748 =
-"Known as Solnius the Awakener, this dragon was one of Ysera's most cherished children and the sworn protector of the sacred Awakening ritual. Having succumbed to the alluring whispers of the Nightmare, Solnius has betrayed his lineage. He now wields the sacred powers of the Dream to serve the darkness, overseeing the corruption of the very realm he was born to safeguard."
+    "Known as Solnius the Awakener, this dragon was one of Ysera's most cherished children and the sworn protector of the sacred Awakening ritual. Having succumbed to the alluring whispers of the Nightmare, Solnius has betrayed his lineage. He now wields the sacred powers of the Dream to serve the darkness, overseeing the corruption of the very realm he was born to safeguard."
 
 -- ES Loot
 IJ_LOOT_NAME_42165 = "Wail of Ysera"
@@ -3747,7 +3576,7 @@ IJ_LOOT_NAME_61527 = "Breath of Solnius"
 -- KARA40
 IJ_DB_RAID_KARA40_NAME = "Tower of Karazhan"
 IJ_DB_RAID_KARA40_STORY =
-"Built upon a volatile focal point of ley lines, the tower of the Guardian Medivh remains a place of shifting realities. While the lower halls are haunted by the spirits of the past, the upper reaches have torn open a gateway to the shattered remains of Outland. Within the 'Rock of Desolation' wing, the Burning Legion has established a bridgehead, led by their most cunning commanders who seek to use the tower's power to consume Azeroth."
+    "Built upon a volatile focal point of ley lines, the tower of the Guardian Medivh remains a place of shifting realities. While the lower halls are haunted by the spirits of the past, the upper reaches have torn open a gateway to the shattered remains of Outland. Within the 'Rock of Desolation' wing, the Burning Legion has established a bridgehead, led by their most cunning commanders who seek to use the tower's power to consume Azeroth."
 
 -- KARA40 Links
 IJ_DB_RAID_KARA40_LINK_TOWER = "Tower of Karazhan"
@@ -3756,32 +3585,32 @@ IJ_DB_RAID_KARA40_LINK_ROCK = "The Rock of Desolation"
 -- KARA40 Bosses
 IJ_DB_RAID_KARA40_BOSS_NAME_61939 = "Keeper Gnarlmoon"
 IJ_DB_RAID_KARA40_BOSS_STORY_61939 =
-"A bloodmage of legendary power and a foul 'pricolich,' Gnarlmoon has entrenched himself within the tower's heart. He draws upon the cursed ley lines of Deadwind Pass to fuel his malevolent blood magic and guard the tower's dark secrets."
+    "A bloodmage of legendary power and a foul 'pricolich,' Gnarlmoon has entrenched himself within the tower's heart. He draws upon the cursed ley lines of Deadwind Pass to fuel his malevolent blood magic and guard the tower's dark secrets."
 IJ_DB_RAID_KARA40_BOSS_NAME_61946 = "Ley-Watcher Incantagos"
 IJ_DB_RAID_KARA40_BOSS_STORY_61946 =
-"Enthralled by the unpredictable power of the tower, this former defender of Kel'Theril now stands as a sentinel of the arcane. He is unable to break away from the very energies that have warped his mind into a weapon of the tower."
+    "Enthralled by the unpredictable power of the tower, this former defender of Kel'Theril now stands as a sentinel of the arcane. He is unable to break away from the very energies that have warped his mind into a weapon of the tower."
 IJ_DB_RAID_KARA40_BOSS_NAME_61951 = "Anomalus"
 IJ_DB_RAID_KARA40_BOSS_STORY_61951 =
-"A volatile elemental manifestation of pure arcane pressure created by the tower's intense magical convergence. Its 'cosmic residue' is so saturated with ley energy that it is essential for the restoration of the Guardian's legendary artifacts."
+    "A volatile elemental manifestation of pure arcane pressure created by the tower's intense magical convergence. Its 'cosmic residue' is so saturated with ley energy that it is essential for the restoration of the Guardian's legendary artifacts."
 IJ_DB_RAID_KARA40_BOSS_NAME_61958 = "Echo of Medivh"
 IJ_DB_RAID_KARA40_BOSS_STORY_61958 =
-"A spectral trace of the Guardian's second life, lingering in the fabric of the tower's ley lines. This echo represents Medivh's power and regret, serving as the final gatekeeper for those seeking the knowledge of the Upper Chambers."
+    "A spectral trace of the Guardian's second life, lingering in the fabric of the tower's ley lines. This echo represents Medivh's power and regret, serving as the final gatekeeper for those seeking the knowledge of the Upper Chambers."
 IJ_DB_RAID_KARA40_BOSS_NAME_59967 = "Chess Event"
 IJ_DB_RAID_KARA40_BOSS_STORY_59967 =
-"A twisted recreation of Medivh's favorite game, where the pieces are imbued with the spirits of the tower's victims. Survival requires both tactical mastery and the ability to withstand the lethal magical cheats orchestrated by the tower's lingering consciousness."
+    "A twisted recreation of Medivh's favorite game, where the pieces are imbued with the spirits of the tower's victims. Survival requires both tactical mastery and the ability to withstand the lethal magical cheats orchestrated by the tower's lingering consciousness."
 IJ_DB_RAID_KARA40_BOSS_NAME_59981 = "Sanv Tas'dal"
 IJ_DB_RAID_KARA40_BOSS_STORY_59981 =
-"A Draenei whose spirit was further fractured by the spatial anomalies within this wing of the tower. Trapped within the Rock of Desolation, Sanv Tas'dal has been driven to a feral desperation, wielding the remnants of his shamanic heritage and dark voodoo to defend his meager territory from any intruders."
+    "A Draenei whose spirit was further fractured by the spatial anomalies within this wing of the tower. Trapped within the Rock of Desolation, Sanv Tas'dal has been driven to a feral desperation, wielding the remnants of his shamanic heritage and dark voodoo to defend his meager territory from any intruders."
 IJ_DB_RAID_KARA40_BOSS_NAME_59961 = "Rupturan the Broken"
 IJ_DB_RAID_KARA40_BOSS_STORY_59961 =
-"A massive, sentient formation of stone and earth that was shattered during the destruction of Draenor. Reconstituted by the chaotic energies of the tower's rift, this literal 'broken' monolith now stands as a mindless, crushing force of nature, physically embodying the shattered landscape of the Rock of Desolation."
+    "A massive, sentient formation of stone and earth that was shattered during the destruction of Draenor. Reconstituted by the chaotic energies of the tower's rift, this literal 'broken' monolith now stands as a mindless, crushing force of nature, physically embodying the shattered landscape of the Rock of Desolation."
 IJ_DB_RAID_KARA40_BOSS_NAME_59991 = "Kruul"
 IJ_DB_RAID_KARA40_BOSS_STORY_59991 =
-"High Lord Kruul, the 'Burning Shadow,' has utilized the rift within Karazhan to lead a demonic vanguard. A Doomlord of immense malice, he seeks to claim the Guardian's power to fuel the Legion's conquest across the Twisting Nether."
+    "High Lord Kruul, the 'Burning Shadow,' has utilized the rift within Karazhan to lead a demonic vanguard. A Doomlord of immense malice, he seeks to claim the Guardian's power to fuel the Legion's conquest across the Twisting Nether."
 
 IJ_DB_RAID_KARA40_BOSS_NAME_93333 = "Mephistroth"
 IJ_DB_RAID_KARA40_BOSS_STORY_93333 =
-"A master of Nathrezim manipulation who orchestrates the Legion's movements from the shadows of the Rock of Desolation. Mephistroth thrives on the despair of the tower's trapped spirits, aiming to turn Karazhan into a permanent gateway for the Burning Crusade."
+    "A master of Nathrezim manipulation who orchestrates the Legion's movements from the shadows of the Rock of Desolation. Mephistroth thrives on the despair of the tower's trapped spirits, aiming to turn Karazhan into a permanent gateway for the Burning Crusade."
 
 -- KARA40 Loot
 IJ_LOOT_NAME_55078 = "Ley-attuned Choker"
@@ -3882,35 +3711,31 @@ IJ_LOOT_NAME_92082 = "Felforged Dreadhound"
 -- BWL
 IJ_DB_RAID_BWL_NAME = "Blackwing Lair"
 IJ_DB_RAID_BWL_STORY =
-"In the dark recesses of the mountain's peak, Nefarian, the eldest son of Deathwing, conducts some of his most awful experimentation, controlling mighty beings like puppets and combining the eggs of different dragonflights with horrific results. Should he prove successful, even darker pursuits rest on the horizon. And, yet, the Lord of Blackrock is not a mere scientist - he is a great dragon cornered in his lair. Can he truly be defeated by mortal hands?"
+    "In the dark recesses of the mountain's peak, Nefarian, the eldest son of Deathwing, conducts some of his most awful experimentation, controlling mighty beings like puppets and combining the eggs of different dragonflights with horrific results. Should he prove successful, even darker pursuits rest on the horizon. And, yet, the Lord of Blackrock is not a mere scientist - he is a great dragon cornered in his lair. Can he truly be defeated by mortal hands?"
 
 -- BWL Bosses
 IJ_DB_RAID_BWL_BOSS_NAME_12435 = "Razorgore the Untamed"
 IJ_DB_RAID_BWL_BOSS_STORY_12435 =
-"Razorgore the Untamed is a dragonspawn of the black dragonflight. He has been tasked by the lord of Blackwing Lair, Nefarian, with guarding the numerous and precious black dragon eggs located in the first room of the instance. To this end, Razorgore has been given command of a cohort of orcs and other forces, and will stop at nothing to ensure that no harm comes to his grave charges."
+    "Razorgore the Untamed is a dragonspawn of the black dragonflight. He has been tasked by the lord of Blackwing Lair, Nefarian, with guarding the numerous and precious black dragon eggs located in the first room of the instance. To this end, Razorgore has been given command of a cohort of orcs and other forces, and will stop at nothing to ensure that no harm comes to his grave charges."
 IJ_DB_RAID_BWL_BOSS_NAME_13020 = "Vaelastrasz the Corrupt"
 IJ_DB_RAID_BWL_BOSS_STORY_13020 = "Vaelastrasz the Corrupt was corrupted by Nefarian and now serves him unwillingly."
 IJ_DB_RAID_BWL_BOSS_NAME_12017 = "Broodlord Lashlayer"
-IJ_DB_RAID_BWL_BOSS_STORY_12017 =
-"Broodlord Lashlayer is a black drakonid in Nefarian's service who guards the Halls of Strife in Blackwing Lair, blocking the way into Nefarian's inner sanctum."
+IJ_DB_RAID_BWL_BOSS_STORY_12017 = "Broodlord Lashlayer is a black drakonid in Nefarian's service who guards the Halls of Strife in Blackwing Lair, blocking the way into Nefarian's inner sanctum."
 IJ_DB_RAID_BWL_BOSS_NAME_11983 = "Firemaw"
-IJ_DB_RAID_BWL_BOSS_STORY_11983 =
-"Firemaw is a black dragon found patrolling the Crimson Laboratories. He is one of three powerful black drakes who guard the way to their master, Nefarian."
+IJ_DB_RAID_BWL_BOSS_STORY_11983 = "Firemaw is a black dragon found patrolling the Crimson Laboratories. He is one of three powerful black drakes who guard the way to their master, Nefarian."
 IJ_DB_RAID_BWL_BOSS_NAME_ezzel = "Ezzel Darkbrewer"
 IJ_DB_RAID_BWL_BOSS_STORY_ezzel =
-"Ezzel Darkbrewer might be a goblin of small stature but he is by no means a pushover. With an arsenal of chemical concoctions and a brilliant mind sharpened by many years in the field, he's ready to thwart any intruders stepping into his employer's laboratory. Oh, and don't forget the lumbering ogre he's atop of."
+    "Ezzel Darkbrewer might be a goblin of small stature but he is by no means a pushover. With an arsenal of chemical concoctions and a brilliant mind sharpened by many years in the field, he's ready to thwart any intruders stepping into his employer's laboratory. Oh, and don't forget the lumbering ogre he's atop of."
 IJ_DB_RAID_BWL_BOSS_NAME_14601 = "Ebonroc"
-IJ_DB_RAID_BWL_BOSS_STORY_14601 =
-"Ebonroc is a black dragon found patrolling the Crimson Laboratories. He is one of three powerful black drakes who guard the way to their master, Nefarian."
+IJ_DB_RAID_BWL_BOSS_STORY_14601 = "Ebonroc is a black dragon found patrolling the Crimson Laboratories. He is one of three powerful black drakes who guard the way to their master, Nefarian."
 IJ_DB_RAID_BWL_BOSS_NAME_11981 = "Flamegor"
-IJ_DB_RAID_BWL_BOSS_STORY_11981 =
-"Flamegor is a black dragon found patrolling the Crimson Laboratories. He is one of three powerful black drakes who guard the way to their master, Nefarian."
+IJ_DB_RAID_BWL_BOSS_STORY_11981 = "Flamegor is a black dragon found patrolling the Crimson Laboratories. He is one of three powerful black drakes who guard the way to their master, Nefarian."
 IJ_DB_RAID_BWL_BOSS_NAME_14020 = "Chromaggus"
 IJ_DB_RAID_BWL_BOSS_STORY_14020 =
-"Chromaggus is a two-headed dragon beast creation of Nefarian, who acts as a dutiful protector of Blackwing Lair. Despite his canine appearance, he's actually a dragonkin (more specifically a drakeadon). The victims of Chromaggus' radiating affliction were transformed into drakonid."
+    "Chromaggus is a two-headed dragon beast creation of Nefarian, who acts as a dutiful protector of Blackwing Lair. Despite his canine appearance, he's actually a dragonkin (more specifically a drakeadon). The victims of Chromaggus' radiating affliction were transformed into drakonid."
 IJ_DB_RAID_BWL_BOSS_NAME_11583 = "Nefarian"
 IJ_DB_RAID_BWL_BOSS_STORY_11583 =
-"Nefarian is the eldest son of Deathwing and his Prime Consort Sintharia. Like his father and his younger twin sister Onyxia, he has a human guise, appearing as Victor Nefarius, Lord of Blackrock. Holding the Blackrock clan and various clans of ogres under his control, Nefarian rules from his lair at the top of Blackrock Spire"
+    "Nefarian is the eldest son of Deathwing and his Prime Consort Sintharia. Like his father and his younger twin sister Onyxia, he has a human guise, appearing as Victor Nefarius, Lord of Blackrock. Holding the Blackrock clan and various clans of ogres under his control, Nefarian rules from his lair at the top of Blackrock Spire"
 
 -- BWL Loot
 IJ_LOOT_NAME_33073 = "Philosopher's Barrier"
@@ -4057,55 +3882,47 @@ IJ_LOOT_NAME_36551 = "Black Drake"
 -- ONY
 IJ_DB_RAID_ONY_NAME = "Onyxia's Lair"
 IJ_DB_RAID_ONY_STORY =
-"Onyxia built the lair. The entrance to the lair was carved to look like the maw of the broodmother herself, with its inner pathway being magma-lined and the ground cracked, glowing with fire from beneath. The arching stone ceiling groans and shifts, creating constant rockfalls. The walls spill lava where the heat can't be contained."
+    "Onyxia built the lair. The entrance to the lair was carved to look like the maw of the broodmother herself, with its inner pathway being magma-lined and the ground cracked, glowing with fire from beneath. The arching stone ceiling groans and shifts, creating constant rockfalls. The walls spill lava where the heat can't be contained."
 
 -- ONY Bosses
 IJ_DB_RAID_ONY_BOSS_NAME_axelus = "Broodcommander Axelus"
-IJ_DB_RAID_ONY_BOSS_STORY_axelus =
-"The brood does not speak of its commanders to outsiders - Broodcommander Axelus least of all."
+IJ_DB_RAID_ONY_BOSS_STORY_axelus = "The brood does not speak of its commanders to outsiders - Broodcommander Axelus least of all."
 IJ_DB_RAID_ONY_BOSS_NAME_10184 = "Onyxia"
 IJ_DB_RAID_ONY_BOSS_STORY_10184 =
-"Onyxia is the daughter of Deathwing and his Prime Consort Sintharia and the broodmother of the black dragonflight on Azeroth. Like her father and her older twin brother Nefarian, she has a human guise, appearing as the Stormwindian noblewoman Lady Katrana Prestor, though she is believed to have several other humanoid guises as well."
+    "Onyxia is the daughter of Deathwing and his Prime Consort Sintharia and the broodmother of the black dragonflight on Azeroth. Like her father and her older twin brother Nefarian, she has a human guise, appearing as the Stormwindian noblewoman Lady Katrana Prestor, though she is believed to have several other humanoid guises as well."
 IJ_DB_RAID_ONY_BOSS_10184_NAME_11262 = "Onyxian Whelp"
 IJ_DB_RAID_ONY_BOSS_10184_DESCRIPTION_11262 =
-"Initially, Onyxian Whelps will only spawn when the nests of eggs are touched or knocked into.\n\nAfter Onyxia flies, Onyxian Whelps will start to occasionally spawn and attack the raid."
+    "Initially, Onyxian Whelps will only spawn when the nests of eggs are touched or knocked into.\n\nAfter Onyxia flies, Onyxian Whelps will start to occasionally spawn and attack the raid."
 IJ_DB_RAID_ONY_BOSS_10184_NAME_onyxiastage1 = "Stage One: Ground Phase"
 IJ_DB_RAID_ONY_BOSS_10184_DESCRIPTION_onyxiastage1 = "This stage lasts until Onyxia is at 65% health."
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_15847 = "Tail Sweep"
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_15847 =
-"Onyxia sweeps her tail in a cone behind her, dealing 600 to 1,000 damage and knocking back all enemies hit.\n\nTanks should slowly turn her tail towards the entry to allow the raid to stay at her sides."
+    "Onyxia sweeps her tail in a cone behind her, dealing 600 to 1,000 damage and knocking back all enemies hit.\n\nTanks should slowly turn her tail towards the entry to allow the raid to stay at her sides."
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18500 = "Wing Buffet"
-IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18500 =
-"Onyxia knocks back enemies in a cone in front, inflicting 560 to 940 damage.\n\nTanks should position themselves against the back wall to avoid flying across the room."
+IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18500 = "Onyxia knocks back enemies in a cone in front, inflicting 560 to 940 damage.\n\nTanks should position themselves against the back wall to avoid flying across the room."
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18435 = "Flame Breath"
-IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18435 =
-"Onyxia breathes fire in a frontal cone, inflicting 3050 to 4000 fire damage to all enemies positioned in front of her."
+IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18435 = "Onyxia breathes fire in a frontal cone, inflicting 3050 to 4000 fire damage to all enemies positioned in front of her."
 IJ_DB_RAID_ONY_BOSS_10184_NAME_onyxiastage2 = "Stage Two: Flying Phase"
 IJ_DB_RAID_ONY_BOSS_10184_DESCRIPTION_onyxiastage2 =
-"Once Onyxia reaches 65% health, she will start walking towards the center of the room before taking flight.\n\nThis stage will continue until Onyxia is at 40% health."
+    "Once Onyxia reaches 65% health, she will start walking towards the center of the room before taking flight.\n\nThis stage will continue until Onyxia is at 40% health."
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18392 = "Fireball"
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18392 =
-"Onyxia randomly targets players, inflicting 800 to 1200 fire damage to the player and anyone within an 8 yard radius.\n\nPlayers should spread out at least 8 yards apart from each other to minimize damage when Onyxia is not casting Deep Breath."
+    "Onyxia randomly targets players, inflicting 800 to 1200 fire damage to the player and anyone within an 8 yard radius.\n\nPlayers should spread out at least 8 yards apart from each other to minimize damage when Onyxia is not casting Deep Breath."
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_17086 = "Deep Breath"
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_17086 =
-"Onyxia will occasionally fly in a line through the middle of the room while breathing fire, dealing heavy fire damage to anyone in her path.\n\nPlayers must run to any side of whichever way she is facing to avoid taking damage."
+    "Onyxia will occasionally fly in a line through the middle of the room while breathing fire, dealing heavy fire damage to anyone in her path.\n\nPlayers must run to any side of whichever way she is facing to avoid taking damage."
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarion = "Cindarion"
-IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarion =
-"When Onyxia takes off, Cindarion lands. He will be active for the entire stage until he is killed."
+IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarion = "When Onyxia takes off, Cindarion lands. He will be active for the entire stage until he is killed."
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarionflamebreath = "Flame Breath"
-IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarionflamebreath =
-"Cindarion casts flame breath, dealing fire damage to all enemies in front of him."
+IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarionflamebreath = "Cindarion casts flame breath, dealing fire damage to all enemies in front of him."
 IJ_DB_RAID_ONY_BOSS_10184_NAME_onyxiastage3 = "Stage Three: Ground Phase"
 IJ_DB_RAID_ONY_BOSS_10184_DESCRIPTION_onyxiastage3 = "Once Onyxia reaches 40% health, she will land back on the ground."
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18431 = "Bellowing Roar"
-IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18431 =
-"Onyxia will cast Fear on everyone in intervals.\n\nPriests can use fear ward to help mitigate the fears on important members."
+IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18431 = "Onyxia will cast Fear on everyone in intervals.\n\nPriests can use fear ward to help mitigate the fears on important members."
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_onyxianhatcher = "Onyxian Hatcher"
-IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_onyxianhatcher =
-"Two Onyxian Hatcher appears after Onyxia lands back on the ground, assisting her for the rest of the fight."
+IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_onyxianhatcher = "Two Onyxian Hatcher appears after Onyxia lands back on the ground, assisting her for the rest of the fight."
 IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_rainoffire = "Rain of Fire"
-IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire =
-"Onyxian Hatcher casts rains of fire that appears around the room, dealing heavy fire damage to any enemies inside."
+IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire = "Onyxian Hatcher casts rains of fire that appears around the room, dealing heavy fire damage to any enemies inside."
 
 -- ONY Loot
 IJ_LOOT_NAME_33089 = "Totem of Thundercall"
@@ -4143,39 +3960,36 @@ IJ_LOOT_NAME_18813 = "Ring of Binding"
 -- AQ20
 IJ_DB_RAID_AQ20_NAME = "Ruins of Ahn'Qiraj"
 IJ_DB_RAID_AQ20_STORY =
-"During the final hours of the War of the Shifting Sands, the combined forces of the night elves and the four dragonflights drove the battle to the very heart of the qiraji empire, to the fortress city of Ahn'Qiraj. Yet at the city gates, the armies of Kalimdor encountered a concentration of silithid war drones more massive than any they had encountered before. Ultimately the silithid and their qiraji masters were not defeated, but merely imprisoned inside a magical barrier, and the war left the cursed city in ruins. A thousand years have passed since that day, but the qiraji forces have not been idle. A new and terrible army has been spawned from the hives, and the ruins of Ahn'Qiraj are teeming once again with swarming masses of silithid and qiraji. This threat must be eliminated, or else all of Azeroth may fall before the terrifying might of the new qiraji army."
+    "During the final hours of the War of the Shifting Sands, the combined forces of the night elves and the four dragonflights drove the battle to the very heart of the qiraji empire, to the fortress city of Ahn'Qiraj. Yet at the city gates, the armies of Kalimdor encountered a concentration of silithid war drones more massive than any they had encountered before. Ultimately the silithid and their qiraji masters were not defeated, but merely imprisoned inside a magical barrier, and the war left the cursed city in ruins. A thousand years have passed since that day, but the qiraji forces have not been idle. A new and terrible army has been spawned from the hives, and the ruins of Ahn'Qiraj are teeming once again with swarming masses of silithid and qiraji. This threat must be eliminated, or else all of Azeroth may fall before the terrifying might of the new qiraji army."
 
 -- AQ20 Bosses
 IJ_DB_RAID_AQ20_BOSS_NAME_15348 = "Kurinnaxx"
-IJ_DB_RAID_AQ20_BOSS_STORY_15348 =
-"Deep in the marrow of the hive, the Horde led by Varok Saurfang faced Kurinnaxx when they raided the ruins."
+IJ_DB_RAID_AQ20_BOSS_STORY_15348 = "Deep in the marrow of the hive, the Horde led by Varok Saurfang faced Kurinnaxx when they raided the ruins."
 IJ_DB_RAID_AQ20_BOSS_15348_NAME_26350 = "Cleave"
-IJ_DB_RAID_AQ20_BOSS_15348_DESCRIPTION_26350 =
-"Kurinnaxx strike up to three enemies in front of him, dealing weapon damage plus an additional 200 physical damage.\n\nThis attack applies Mortal Wounds on the target."
+IJ_DB_RAID_AQ20_BOSS_15348_DESCRIPTION_26350 = "Kurinnaxx strike up to three enemies in front of him, dealing weapon damage plus an additional 200 physical damage.\n\nThis attack applies Mortal Wounds on the target."
 IJ_DB_RAID_AQ20_BOSS_15348_ABILITY_NAME_25646 = "Mortal Wound"
 IJ_DB_RAID_AQ20_BOSS_15348_ABILITY_EFFECT_25646 =
-"A stacking debuff that reduces healing received by 10% for 30 seconds.\n\nThis effect stacks rapidly, requiring tanks to swap at 3 to 4 stacks to avoid being overwhelmed."
+    "A stacking debuff that reduces healing received by 10% for 30 seconds.\n\nThis effect stacks rapidly, requiring tanks to swap at 3 to 4 stacks to avoid being overwhelmed."
 IJ_DB_RAID_AQ20_BOSS_15348_ABILITY_NAME_25656 = "Sand Trap"
 IJ_DB_RAID_AQ20_BOSS_15348_ABILITY_EFFECT_25656 =
-"Kurinnaxx creates sand traps beneath random players that expand over time and detonate after a few seconds.\n\nAffected players are silenced and have their melee and ranged hit chance reduced by 75% for 20 seconds.\n\nPlayers should move out of traps immediately. Spreading out reduces the risk of multiple players being affected."
+    "Kurinnaxx creates sand traps beneath random players that expand over time and detonate after a few seconds.\n\nAffected players are silenced and have their melee and ranged hit chance reduced by 75% for 20 seconds.\n\nPlayers should move out of traps immediately. Spreading out reduces the risk of multiple players being affected."
 IJ_DB_RAID_AQ20_BOSS_15348_ABILITY_NAME_kurinnaxxenrage = "Enrage"
-IJ_DB_RAID_AQ20_BOSS_15348_ABILITY_EFFECT_kurinnaxxenrage =
-"At 30% health. Kurinnaxx becomes enraged, increasing his damage dealt significantly."
+IJ_DB_RAID_AQ20_BOSS_15348_ABILITY_EFFECT_kurinnaxxenrage = "At 30% health. Kurinnaxx becomes enraged, increasing his damage dealt significantly."
 IJ_DB_RAID_AQ20_BOSS_NAME_15341 = "General Rajaxx"
 IJ_DB_RAID_AQ20_BOSS_STORY_15341 =
-"During the War of the Shifting Sands, the monstrous, towering Rajaxx commanded the qiraji and silithid in battle, swinging clawed limbs and shouting commands to his soldiers. During the war, he clashed with Fandral and Valstann Staghelm, the leaders of the night elf forces, and later personally executed Valstann by ripping him in two with his claws."
+    "During the War of the Shifting Sands, the monstrous, towering Rajaxx commanded the qiraji and silithid in battle, swinging clawed limbs and shouting commands to his soldiers. During the war, he clashed with Fandral and Valstann Staghelm, the leaders of the night elf forces, and later personally executed Valstann by ripping him in two with his claws."
 IJ_DB_RAID_AQ20_BOSS_NAME_15340 = "Moam"
 IJ_DB_RAID_AQ20_BOSS_STORY_15340 =
-"The Twin Emperors intended to use Moam as a colossal weapon, knowing that its strengths would help it survive in the thick of melee as well as magical combat-but they did not expect for the construct's abilities to advance further without their own assistance."
+    "The Twin Emperors intended to use Moam as a colossal weapon, knowing that its strengths would help it survive in the thick of melee as well as magical combat-but they did not expect for the construct's abilities to advance further without their own assistance."
 IJ_DB_RAID_AQ20_BOSS_NAME_15370 = "Buru the Gorger"
 IJ_DB_RAID_AQ20_BOSS_STORY_15370 =
-"Lurking beneath the ruins, Buru the Gorger is a massive silithid colossus with an insatiable appetite. It feeds on any intruders who stumble into its hatchery, crushing them with immense physical force before consuming them to sustain its massive bulk."
+    "Lurking beneath the ruins, Buru the Gorger is a massive silithid colossus with an insatiable appetite. It feeds on any intruders who stumble into its hatchery, crushing them with immense physical force before consuming them to sustain its massive bulk."
 IJ_DB_RAID_AQ20_BOSS_NAME_15369 = "Ayamiss the Hunter"
 IJ_DB_RAID_AQ20_BOSS_STORY_15369 =
-"Ayamiss is the matriarch of the deadly silithid wasp swarm that infests the Ruins of Ahn'Qiraj. From the air, she commands her brood to sacrifice any who enter her domain, using their life force to feed the writhing larvae waiting to hatch below."
+    "Ayamiss is the matriarch of the deadly silithid wasp swarm that infests the Ruins of Ahn'Qiraj. From the air, she commands her brood to sacrifice any who enter her domain, using their life force to feed the writhing larvae waiting to hatch below."
 IJ_DB_RAID_AQ20_BOSS_NAME_15339 = "Ossirian the Unscarred"
 IJ_DB_RAID_AQ20_BOSS_STORY_15339 =
-"Ossirian serves the twin Emperors to the best of his ability, despite the frustration of being eternally bound to a single location. The bones of Grakkarond have become a sacred site to the Anubisaths; a testimony to their ability to defeat even the most powerful of enemies."
+    "Ossirian serves the twin Emperors to the best of his ability, despite the frustration of being eternally bound to a single location. The bones of Grakkarond have become a sacred site to the Anubisaths; a testimony to their ability to defeat even the most powerful of enemies."
 
 -- AQ20 Loot
 IJ_LOOT_NAME_20727 = "Formula: Enchant Gloves - Shadow Power"
@@ -4278,38 +4092,36 @@ IJ_LOOT_NAME_132 = "Plans: Obsidian Belt Buckle"
 -- AQ40
 IJ_DB_RAID_AQ40_NAME = "Temple of Ahn'Qiraj"
 IJ_DB_RAID_AQ40_STORY =
-"At the heart of Ahn'Qiraj lies an ancient temple complex. Built in the time before recorded history, it is both a monument to unspeakable gods and a massive breeding ground for the qiraji army. Since the War of the Shifting Sands ended a thousand years ago, the Twin Emperors of the qiraji empire have been trapped inside their temple, barely contained behind the magical barrier erected by the bronze dragon Anachronos and the night elves."
+    "At the heart of Ahn'Qiraj lies an ancient temple complex. Built in the time before recorded history, it is both a monument to unspeakable gods and a massive breeding ground for the qiraji army. Since the War of the Shifting Sands ended a thousand years ago, the Twin Emperors of the qiraji empire have been trapped inside their temple, barely contained behind the magical barrier erected by the bronze dragon Anachronos and the night elves."
 
 -- AQ40 Links
 IJ_DB_RAID_AQ40_LINK_AQ = "Temple of Ahn'Qiraj"
 
 -- AQ40 Bosses
 IJ_DB_RAID_AQ40_BOSS_NAME_15263 = "The Prophet Skeram"
-IJ_DB_RAID_AQ40_BOSS_STORY_15263 =
-"The Prophet Skeram is an important religious leader in Ahn'Qiraj, and author of The Prophecy of C'Thun."
+IJ_DB_RAID_AQ40_BOSS_STORY_15263 = "The Prophet Skeram is an important religious leader in Ahn'Qiraj, and author of The Prophecy of C'Thun."
 IJ_DB_RAID_AQ40_BOSS_NAME_15544 = "Silithid Royalty"
 IJ_DB_RAID_AQ40_BOSS_STORY_15544 =
-"The Silithid Royalty consists of Lord Kri, Princess Yauj, and Vem. This deadly trio serves the Qiraji empire by coordinating the insectoid swarms. They fight as one cohesive unit, flying into a blood-frenzied rage if one of their own falls in combat."
+    "The Silithid Royalty consists of Lord Kri, Princess Yauj, and Vem. This deadly trio serves the Qiraji empire by coordinating the insectoid swarms. They fight as one cohesive unit, flying into a blood-frenzied rage if one of their own falls in combat."
 IJ_DB_RAID_AQ40_BOSS_NAME_15516 = "Battleguard Sartura"
 IJ_DB_RAID_AQ40_BOSS_STORY_15516 = "Battleguard Sartura is the leader of the Qiraji battleguards."
 IJ_DB_RAID_AQ40_BOSS_NAME_15510 = "Fankriss the Unyielding"
 IJ_DB_RAID_AQ40_BOSS_STORY_15510 =
-"A colossal sand reaver and spawn of the legendary Ouro, Fankriss the Unyielding dwells deep within the tunnels of the Temple of Ahn'Qiraj. He fiercely guards the subterranean pathways of the temple, ambushing interlopers alongside endless waves of silithid hatchlings."
+    "A colossal sand reaver and spawn of the legendary Ouro, Fankriss the Unyielding dwells deep within the tunnels of the Temple of Ahn'Qiraj. He fiercely guards the subterranean pathways of the temple, ambushing interlopers alongside endless waves of silithid hatchlings."
 IJ_DB_RAID_AQ40_BOSS_NAME_15299 = "Viscidus"
 IJ_DB_RAID_AQ40_BOSS_STORY_15299 =
-"Viscidus is a massive, noxious slime lurking within the dark depths of the temple. Believed to be an ancient, gelatinous entity kept by the Qiraji, it is nearly impervious to physical harm and must be frozen solid before it can be shattered into vulnerable pieces."
+    "Viscidus is a massive, noxious slime lurking within the dark depths of the temple. Believed to be an ancient, gelatinous entity kept by the Qiraji, it is nearly impervious to physical harm and must be frozen solid before it can be shattered into vulnerable pieces."
 IJ_DB_RAID_AQ40_BOSS_NAME_15509 = "Princess Huhuran"
 IJ_DB_RAID_AQ40_BOSS_STORY_15509 =
-"Princess Huhuran is a massive, highly toxic silithid wasp stationed deep within the Temple of Ahn'Qiraj. She relentlessly defends the hive, unleashing devastating volleys of acidic poison and frenzied attacks to melt through the armor of any who dare threaten the Qiraji brood."
+    "Princess Huhuran is a massive, highly toxic silithid wasp stationed deep within the Temple of Ahn'Qiraj. She relentlessly defends the hive, unleashing devastating volleys of acidic poison and frenzied attacks to melt through the armor of any who dare threaten the Qiraji brood."
 IJ_DB_RAID_AQ40_BOSS_NAME_15276 = "The Twin Emperors"
-IJ_DB_RAID_AQ40_BOSS_STORY_15276 =
-"The clever brothers Vek'lor and Vek'nilash are known as the Twin Emperors. They rule over the qiraji from the sanctuary of their temple."
+IJ_DB_RAID_AQ40_BOSS_STORY_15276 = "The clever brothers Vek'lor and Vek'nilash are known as the Twin Emperors. They rule over the qiraji from the sanctuary of their temple."
 IJ_DB_RAID_AQ40_BOSS_NAME_15517 = "Ouro"
 IJ_DB_RAID_AQ40_BOSS_STORY_15517 =
-"The ancient sand worm, Ouro, is a being of legendary power. He is rumored to have been created by the Old God C'Thun himself as a mockery of life. His skin is unnaturally thick, nearly impregnable. It's flexible and allows him to move with the speed and grace of a much smaller creature."
+    "The ancient sand worm, Ouro, is a being of legendary power. He is rumored to have been created by the Old God C'Thun himself as a mockery of life. His skin is unnaturally thick, nearly impregnable. It's flexible and allows him to move with the speed and grace of a much smaller creature."
 IJ_DB_RAID_AQ40_BOSS_NAME_15727 = "C'Thun"
 IJ_DB_RAID_AQ40_BOSS_STORY_15727 =
-"C'Thun is the Old God of madness and chaos, one of the four ancient and powerful creatures who ruled the world of Azeroth long ago before being defeated and imprisoned by servants of the titans. C'Thun created the qiraji and resided within the city of Ahn'Qiraj in Silithus."
+    "C'Thun is the Old God of madness and chaos, one of the four ancient and powerful creatures who ruled the world of Azeroth long ago before being defeated and imprisoned by servants of the titans. C'Thun created the qiraji and resided within the city of Ahn'Qiraj in Silithus."
 
 -- AQ40 Loot
 IJ_LOOT_NAME_22222 = "Plans: Thick Obsidian Breastplate"
@@ -4442,27 +4254,27 @@ IJ_LOOT_NAME_60003 = "Remnants of an Old God"
 -- KARA10
 IJ_DB_RAID_KARA10_NAME = "Lower Karazhan Halls"
 IJ_DB_RAID_KARA10_STORY =
-"The lower reaches of Karazhan are a haunting echo of the tower's vibrant past, where spectral guests and servants are eternally bound to a single moment in time. Councilmen and dukes wander these corridors as tormented phantoms, often unaware of their own demise and still demanding the luxuries of room service and fine wine. Beneath the surface of these ghostly festivities, however, lies a darker reality: the tower has become a focal point for cursed artifacts like the Scythe of Elune and is prowled by a vicious pack of worgen. Those who navigate these halls must contend with spirits trapped in a loop of madness and the undead castellan who keeps the master's secrets under lock and key."
+    "The lower reaches of Karazhan are a haunting echo of the tower's vibrant past, where spectral guests and servants are eternally bound to a single moment in time. Councilmen and dukes wander these corridors as tormented phantoms, often unaware of their own demise and still demanding the luxuries of room service and fine wine. Beneath the surface of these ghostly festivities, however, lies a darker reality: the tower has become a focal point for cursed artifacts like the Scythe of Elune and is prowled by a vicious pack of worgen. Those who navigate these halls must contend with spirits trapped in a loop of madness and the undead castellan who keeps the master's secrets under lock and key."
 
 -- KARA10 Bosses
 IJ_DB_RAID_KARA10_BOSS_NAME_61319 = "Master Blacksmith Rolfen"
 IJ_DB_RAID_KARA10_BOSS_STORY_61319 =
-"The blacksmiths of Karazhan were once tasked with maintaining the intricate weaponry and armor of Medivh's guests. In death, Master Blacksmith Rolfen remains at his anvil, though his work is now fueled by the spectral essences that permeate the tower. He is said to guard rare smithing plans that many would kill to possess, ensuring that even in the afterlife, the forge of the Prophet never truly grows cold."
+    "The blacksmiths of Karazhan were once tasked with maintaining the intricate weaponry and armor of Medivh's guests. In death, Master Blacksmith Rolfen remains at his anvil, though his work is now fueled by the spectral essences that permeate the tower. He is said to guard rare smithing plans that many would kill to possess, ensuring that even in the afterlife, the forge of the Prophet never truly grows cold."
 IJ_DB_RAID_KARA10_BOSS_NAME_61221 = "Brood Queen Araxxna"
 IJ_DB_RAID_KARA10_BOSS_STORY_61221 =
-"The dark arcane energy leaking from Medivh's experiments has twisted the natural wildlife within the tower's foundations. Araxxna, a massive arachnid, has claimed the shadowed corners of the lower halls as her nesting ground. She and her endless brood feast on the lost spirits and unwary explorers who wander too far from the guest chambers, weaving webs of solidified mana to trap her prey."
+    "The dark arcane energy leaking from Medivh's experiments has twisted the natural wildlife within the tower's foundations. Araxxna, a massive arachnid, has claimed the shadowed corners of the lower halls as her nesting ground. She and her endless brood feast on the lost spirits and unwary explorers who wander too far from the guest chambers, weaving webs of solidified mana to trap her prey."
 IJ_DB_RAID_KARA10_BOSS_NAME_61224 = "Grizikil"
 IJ_DB_RAID_KARA10_BOSS_STORY_61224 =
-"A hoarder by nature, the creature known as Grizikil lurks at the end of the guest halls, surrounded by a mountain of stolen trinkets. Among his most bizarre treasures is a comically large candle, a colossal candlestick said to be essential for strange experiments within the Master's Library. He is fiercely protective of his stash, viewing any who approach as common thieves looking to plunder his 'status symbols'."
+    "A hoarder by nature, the creature known as Grizikil lurks at the end of the guest halls, surrounded by a mountain of stolen trinkets. Among his most bizarre treasures is a comically large candle, a colossal candlestick said to be essential for strange experiments within the Master's Library. He is fiercely protective of his stash, viewing any who approach as common thieves looking to plunder his 'status symbols'."
 IJ_DB_RAID_KARA10_BOSS_NAME_61223 = "Clawlord Howlfang"
 IJ_DB_RAID_KARA10_BOSS_STORY_61223 =
-"Clawlord Howlfang is the tyrannical leader of the worgen that have infested Karazhan. Attracted by the presence of the Scythe of Elune-which was brought to the tower by a mysterious Dark Rider-Howlfang has asserted his dominance over the various tribes lurking in the shadows. By severing his grasp, one might hope to quell the feral devastation that threatens to consume the lower halls."
+    "Clawlord Howlfang is the tyrannical leader of the worgen that have infested Karazhan. Attracted by the presence of the Scythe of Elune-which was brought to the tower by a mysterious Dark Rider-Howlfang has asserted his dominance over the various tribes lurking in the shadows. By severing his grasp, one might hope to quell the feral devastation that threatens to consume the lower halls."
 IJ_DB_RAID_KARA10_BOSS_NAME_61222 = "Lord Blackwald II"
 IJ_DB_RAID_KARA10_BOSS_STORY_61222 =
-"Lord Blackwald II is a wretched being who reveled in the dark acquisition of the Scythe of Elune. His malevolence resonates through the halls, finding a twisted satisfaction in the possession of the powerful, cursed relic. He guards the artifact with a fanaticism born of long-term exposure to its shadow-bound power, serving as a grim reminder that Karazhan's residents are as much prisoners of their own desires as they are of the tower's walls."
+    "Lord Blackwald II is a wretched being who reveled in the dark acquisition of the Scythe of Elune. His malevolence resonates through the halls, finding a twisted satisfaction in the possession of the powerful, cursed relic. He guards the artifact with a fanaticism born of long-term exposure to its shadow-bound power, serving as a grim reminder that Karazhan's residents are as much prisoners of their own desires as they are of the tower's walls."
 IJ_DB_RAID_KARA10_BOSS_NAME_61225 = "Moroes"
 IJ_DB_RAID_KARA10_BOSS_STORY_61225 =
-"The cursed and undead castellan of Karazhan, Moroes continues his duties as if the master were still in residence. He is a cunning and fierce protector of the tower's inner workings, specifically guarding the Key to the Upper Chambers. While he appears as a simple servant, his combat prowess and refusal to allow prying eyes into the forbidden sections of the tower make him one of the most formidable obstacles in Lower Karazhan."
+    "The cursed and undead castellan of Karazhan, Moroes continues his duties as if the master were still in residence. He is a cunning and fierce protector of the tower's inner workings, specifically guarding the Key to the Upper Chambers. While he appears as a simple servant, his combat prowess and refusal to allow prying eyes into the forbidden sections of the tower make him one of the most formidable obstacles in Lower Karazhan."
 
 -- KARA10 Loot
 IJ_LOOT_NAME_51326 = "Scribbled Cooking Notes"
@@ -4551,7 +4363,7 @@ IJ_LOOT_NAME_61808 = "Plans: Towerforge Crown"
 -- Naxx
 IJ_DB_RAID_NAXX_NAME = "Naxxramas"
 IJ_DB_RAID_NAXX_STORY =
-"Naxxramas was originally an ancient, subterranean nerubian ziggurat. During the War of the Spider, the undead Anub'arak led an army of Scourged nerubians to conquer the ziggurat for the Lich King Ner'zhul. Under Anub'arak's oversight, the Scourge then altered the structure into a potent war machine."
+    "Naxxramas was originally an ancient, subterranean nerubian ziggurat. During the War of the Spider, the undead Anub'arak led an army of Scourged nerubians to conquer the ziggurat for the Lich King Ner'zhul. Under Anub'arak's oversight, the Scourge then altered the structure into a potent war machine."
 
 -- Naxx Links
 IJ_DB_RAID_NAXX_LINK_NECROPOLIS = "The Upper Necropolis"
@@ -4560,49 +4372,49 @@ IJ_DB_RAID_NAXX_LINK_NAXX = "Naxxramas"
 -- Naxx Bosses
 IJ_DB_RAID_NAXX_BOSS_NAME_16028 = "Patchwerk"
 IJ_DB_RAID_NAXX_BOSS_STORY_16028 =
-"Patchwerk is one of Kel'Thuzad's most powerful abominations. His strength and speed came as a shock to those that faced him in combat. Far from a sluggish, mindless undead, Patchwerk used his immense power to pulverize any adversary with a flurry of potent, powerful attacks. When word of his existence first reached the ears of the Brotherhood, none believed the tales of an abomination with such immense speed and strength. Fewer still believed it when he fell the first time."
+    "Patchwerk is one of Kel'Thuzad's most powerful abominations. His strength and speed came as a shock to those that faced him in combat. Far from a sluggish, mindless undead, Patchwerk used his immense power to pulverize any adversary with a flurry of potent, powerful attacks. When word of his existence first reached the ears of the Brotherhood, none believed the tales of an abomination with such immense speed and strength. Fewer still believed it when he fell the first time."
 IJ_DB_RAID_NAXX_BOSS_NAME_15931 = "Grobbulus"
 IJ_DB_RAID_NAXX_BOSS_STORY_15931 =
-"Carrying the same plague slime that flows through Naxxramas within its hulking form, Grobbulus is a flesh giant, the first successful one of its kind, created to build a formidable army capable of quickly spreading the undead plague by injecting the living ooze into the bodies of their foe. The recipient of this foul injection would usually flee to his allies, bringing them down with him."
+    "Carrying the same plague slime that flows through Naxxramas within its hulking form, Grobbulus is a flesh giant, the first successful one of its kind, created to build a formidable army capable of quickly spreading the undead plague by injecting the living ooze into the bodies of their foe. The recipient of this foul injection would usually flee to his allies, bringing them down with him."
 IJ_DB_RAID_NAXX_BOSS_NAME_15932 = "Gluth"
 IJ_DB_RAID_NAXX_BOSS_STORY_15932 =
-"The undead plague-dog Gluth sits obediently within Naxxramas, awaiting orders from his masters. Gluth's appetite is so voracious that even the living were not enough to satisfy his hunger. It is rumored that Feugen was said to feed him an army of zombies daily, which Gluth uses to knit his own decaying flesh back together, recycling the remains of undead too weak to use in combat."
+    "The undead plague-dog Gluth sits obediently within Naxxramas, awaiting orders from his masters. Gluth's appetite is so voracious that even the living were not enough to satisfy his hunger. It is rumored that Feugen was said to feed him an army of zombies daily, which Gluth uses to knit his own decaying flesh back together, recycling the remains of undead too weak to use in combat."
 IJ_DB_RAID_NAXX_BOSS_NAME_15928 = "Thaddius"
 IJ_DB_RAID_NAXX_BOSS_STORY_15928 =
-"Pieced together from the flesh of innocent women and children, this massive abomination dwells in one of Naxxramas' experimental laboratories, flanked by two huge wights-Stalagg and Feugen. Powerful bolts of electricity arc through the laboratory, supercharging Thaddius and his wight minions. It is said that the souls contained in Thaddius are fused together - eternally bound within that foul prison of flesh."
+    "Pieced together from the flesh of innocent women and children, this massive abomination dwells in one of Naxxramas' experimental laboratories, flanked by two huge wights-Stalagg and Feugen. Powerful bolts of electricity arc through the laboratory, supercharging Thaddius and his wight minions. It is said that the souls contained in Thaddius are fused together - eternally bound within that foul prison of flesh."
 IJ_DB_RAID_NAXX_BOSS_NAME_15956 = "Anub'Rekhan"
 IJ_DB_RAID_NAXX_BOSS_STORY_15956 =
-"One of the minions raised by the Lich King was the Crypt Lord Anub'Rekhan. In life, he was one of the nerubians' most powerful spider lords. Now, he guards the doors of the Spider Wing."
+    "One of the minions raised by the Lich King was the Crypt Lord Anub'Rekhan. In life, he was one of the nerubians' most powerful spider lords. Now, he guards the doors of the Spider Wing."
 IJ_DB_RAID_NAXX_BOSS_NAME_15953 = "Grand Widow Faerlina"
 IJ_DB_RAID_NAXX_BOSS_STORY_15953 =
-"Once one of the high-ranking members of the Cult of the Damned under Kel'Thuzad, in death she breeds and takes care of the seemingly endless amount of arachnids that swarm from the depths of the citadel. A master of poisons, she has a keen understanding of what makes mortals suffer. The poisons she concocts come from the spiderlings produced by Maexxna."
+    "Once one of the high-ranking members of the Cult of the Damned under Kel'Thuzad, in death she breeds and takes care of the seemingly endless amount of arachnids that swarm from the depths of the citadel. A master of poisons, she has a keen understanding of what makes mortals suffer. The poisons she concocts come from the spiderlings produced by Maexxna."
 IJ_DB_RAID_NAXX_BOSS_NAME_15952 = "Maexxna"
 IJ_DB_RAID_NAXX_BOSS_STORY_15952 =
-"A massive spider taken from the depths of Northrend's mountains many ages ago. She was captured within the dread citadel Naxxramas, where she gives birth to her brood. She feasts on those foolish enough to enter the necropolis, feeding her spawn with their corpses and producing spider after spider that Kel'Thuzad uses to his own foul ends."
+    "A massive spider taken from the depths of Northrend's mountains many ages ago. She was captured within the dread citadel Naxxramas, where she gives birth to her brood. She feasts on those foolish enough to enter the necropolis, feeding her spawn with their corpses and producing spider after spider that Kel'Thuzad uses to his own foul ends."
 IJ_DB_RAID_NAXX_BOSS_NAME_15954 = "Noth the Plaguebringer"
 IJ_DB_RAID_NAXX_BOSS_STORY_15954 =
-"Noth the Plaguebringer was once a reputable mage of Dalaran, who heard the call of the Lich King in much the same way Kel'Thuzad did. Also driven by power, he accepted the summons to serve the needs of the Scourge with his skills in necromancy and curse-weaving. However, when Noth saw that the Third War was taking numerous innocent lives, he began second-guessing his decision to join Kel'Thuzad. Kel'Thuzad swiftly dealt with Noth's growing compassion by freezing the living heart in Noth's chest."
+    "Noth the Plaguebringer was once a reputable mage of Dalaran, who heard the call of the Lich King in much the same way Kel'Thuzad did. Also driven by power, he accepted the summons to serve the needs of the Scourge with his skills in necromancy and curse-weaving. However, when Noth saw that the Third War was taking numerous innocent lives, he began second-guessing his decision to join Kel'Thuzad. Kel'Thuzad swiftly dealt with Noth's growing compassion by freezing the living heart in Noth's chest."
 IJ_DB_RAID_NAXX_BOSS_NAME_15936 = "Heigan the Unclean"
 IJ_DB_RAID_NAXX_BOSS_STORY_15936 =
-"The mastermind behind the magic of the cauldrons that quickly spread the undead plague through Lordaeron, corrupting not just the humans but flora and fauna in the area as well. The entire wilderness surrounding Lordaeron is now referred to as \"the Plaguelands\" - thanks in no small part to Heigan's handiwork."
+    "The mastermind behind the magic of the cauldrons that quickly spread the undead plague through Lordaeron, corrupting not just the humans but flora and fauna in the area as well. The entire wilderness surrounding Lordaeron is now referred to as \"the Plaguelands\" - thanks in no small part to Heigan's handiwork."
 IJ_DB_RAID_NAXX_BOSS_NAME_16011 = "Loatheb"
 IJ_DB_RAID_NAXX_BOSS_STORY_16011 =
-"A prime example of how the plague manifested in the local flora and fauna is the twisted fen creeper Loatheb. In a twisted mockery of the plant kingdom's natural ability to regenerate, Loatheb can summon deadly spores that quickly spread a sickening miasma that turns magical healing arts against those who wield them."
+    "A prime example of how the plague manifested in the local flora and fauna is the twisted fen creeper Loatheb. In a twisted mockery of the plant kingdom's natural ability to regenerate, Loatheb can summon deadly spores that quickly spread a sickening miasma that turns magical healing arts against those who wield them."
 IJ_DB_RAID_NAXX_BOSS_NAME_16061 = "Instructor Razuvious"
 IJ_DB_RAID_NAXX_BOSS_STORY_16061 =
-"The most feared of the Scourge’s death knight trainers, Instructor Razuvious was once the Lordaeronian knight Razuv Ivaldi, a veteran of the Horde’s siege during the Second War. In life he was a disciplined soldier, but in undeath he has become a ruthless instructor, shaping new death knights through brutality and absolute obedience. Surrounded by his loyal understudies, Razuvious enforces the will of the Scourge with unrelenting severity, forging his pupils into weapons as merciless as himself."
+    "The most feared of the Scourge’s death knight trainers, Instructor Razuvious was once the Lordaeronian knight Razuv Ivaldi, a veteran of the Horde’s siege during the Second War. In life he was a disciplined soldier, but in undeath he has become a ruthless instructor, shaping new death knights through brutality and absolute obedience. Surrounded by his loyal understudies, Razuvious enforces the will of the Scourge with unrelenting severity, forging his pupils into weapons as merciless as himself."
 IJ_DB_RAID_NAXX_BOSS_NAME_16060 = "Gothik the Harvester"
 IJ_DB_RAID_NAXX_BOSS_STORY_16060 =
-"A master of necromancy and conjuration, Gothik is said to be able to beckon forth legions of the undead at a moment's notice. It is with his guidance that even the weakest of Death Knights can raise the dead."
+    "A master of necromancy and conjuration, Gothik is said to be able to beckon forth legions of the undead at a moment's notice. It is with his guidance that even the weakest of Death Knights can raise the dead."
 IJ_DB_RAID_NAXX_BOSS_NAME_16065 = "The Four Horsemen"
 IJ_DB_RAID_NAXX_BOSS_STORY_16065 =
-"The Four Horsemen are extremely powerful elite death knights originally created by the lich Kel'Thuzad to serve as his royal guard. The most feared and powerful soldiers of all the Scourge, the Archlich considered them his greatest creation."
+    "The Four Horsemen are extremely powerful elite death knights originally created by the lich Kel'Thuzad to serve as his royal guard. The most feared and powerful soldiers of all the Scourge, the Archlich considered them his greatest creation."
 IJ_DB_RAID_NAXX_BOSS_NAME_15989 = "Sapphiron"
 IJ_DB_RAID_NAXX_BOSS_STORY_15989 =
-"Sapphiron is an ancient agent of the blue dragonflight who was killed by Arthas Menethil and raised as a powerful frost wyrm. He was subsequently sent to the halls of Naxxramas, where he guards the inner sanctum of the citadel's dread master, Kel'Thuzad."
+    "Sapphiron is an ancient agent of the blue dragonflight who was killed by Arthas Menethil and raised as a powerful frost wyrm. He was subsequently sent to the halls of Naxxramas, where he guards the inner sanctum of the citadel's dread master, Kel'Thuzad."
 IJ_DB_RAID_NAXX_BOSS_NAME_15990 = "Kel'Thuzad"
 IJ_DB_RAID_NAXX_BOSS_STORY_15990 =
-"Once a prominent mage of the Kirin Tor, Kel'Thuzad was seduced by the dark whispers of the Lich King. Now a tremendously powerful Archlich, he serves as the ruler of Naxxramas and the commander of the Scourge in Lordaeron, zealously carrying out his master's will to extinguish all life on Azeroth."
+    "Once a prominent mage of the Kirin Tor, Kel'Thuzad was seduced by the dark whispers of the Lich King. Now a tremendously powerful Archlich, he serves as the ruler of Naxxramas and the commander of the Scourge in Lordaeron, zealously carrying out his master's will to extinguish all life on Azeroth."
 
 -- Naxx Loot
 IJ_LOOT_NAME_22726 = "Splinter of Atiesh"
@@ -4736,46 +4548,44 @@ IJ_LOOT_NAME_81283 = "Mr. Bigglesworth"
 -- WORLD
 IJ_DB_RAID_WORLD_NAME = "Azeroth"
 IJ_DB_RAID_WORLD_STORY =
-"The world of Azeroth is a realm scarred by eternal conflict and ancient magic. Beyond the confines of dungeons and fortresses, immense threats roam the open wilderness. Among these are the Dragons of Nightmare, once-noble lieutenants of the Green Dragonflight who have been driven mad by an insidious corruption. They now step through the portals of the Great Trees, intent on spreading their dark taint across the waking world. As the years went on, more and more threat emerged, making Azeroth an even more chaotic land."
+    "The world of Azeroth is a realm scarred by eternal conflict and ancient magic. Beyond the confines of dungeons and fortresses, immense threats roam the open wilderness. Among these are the Dragons of Nightmare, once-noble lieutenants of the Green Dragonflight who have been driven mad by an insidious corruption. They now step through the portals of the Great Trees, intent on spreading their dark taint across the waking world. As the years went on, more and more threat emerged, making Azeroth an even more chaotic land."
 
 -- WORLD Bosses
 IJ_DB_RAID_WORLD_BOSS_NAME_6109 = "Azuregos"
-IJ_DB_RAID_WORLD_BOSS_STORY_6109 =
-"Azuregos is a powerful blue dragon who is trusted by Malygos with the safekeeping of the blue dragonflight's most precious artifacts."
+IJ_DB_RAID_WORLD_BOSS_STORY_6109 = "Azuregos is a powerful blue dragon who is trusted by Malygos with the safekeeping of the blue dragonflight's most precious artifacts."
 IJ_DB_RAID_WORLD_BOSS_NAME_59963 = "Cla'ckora"
 IJ_DB_RAID_WORLD_BOSS_STORY_59963 =
-"Very little is recorded in the annals of Azeroth regarding Cla'ckora. Whether an ancient beast awakened from the deep or a forgotten monstrosity of a bygone era, its true nature and origins remain a complete enigma to even the most seasoned adventurers."
+    "Very little is recorded in the annals of Azeroth regarding Cla'ckora. Whether an ancient beast awakened from the deep or a forgotten monstrosity of a bygone era, its true nature and origins remain a complete enigma to even the most seasoned adventurers."
 IJ_DB_RAID_WORLD_BOSS_NAME_92213 = "Concavius"
 IJ_DB_RAID_WORLD_BOSS_STORY_92213 =
-"Archivists and loremasters have found no definitive texts detailing the existence of Concavius. What dark forces summoned or birthed this entity is a mystery yet to be unraveled, leaving only terrifying rumors in its wake."
+    "Archivists and loremasters have found no definitive texts detailing the existence of Concavius. What dark forces summoned or birthed this entity is a mystery yet to be unraveled, leaving only terrifying rumors in its wake."
 IJ_DB_RAID_WORLD_BOSS_NAME_91799 = "Moo"
 IJ_DB_RAID_WORLD_BOSS_STORY_91799 = "Moo. Moo moo moo, moo moo moo moo moo moo moo! Moo moo moo, moo, moo moo moo moo..."
 IJ_DB_RAID_WORLD_BOSS_91799_ABILITY_NAME_moomoo = "MOOOOOOOOO!"
 IJ_DB_RAID_WORLD_BOSS_91799_ABILITY_EFFECT_moomoo = "Moo moos."
 IJ_DB_RAID_WORLD_BOSS_NAME_14888 = "Lethon"
 IJ_DB_RAID_WORLD_BOSS_STORY_14888 =
-"Once a trusted lieutenant of Ysera, Lethon's mind was twisted by the Emerald Nightmare. His corrupted form is wreathed in dark magic, allowing him to drain the life essence from his enemies and unleash shadowy reflections of those who challenge him."
+    "Once a trusted lieutenant of Ysera, Lethon's mind was twisted by the Emerald Nightmare. His corrupted form is wreathed in dark magic, allowing him to drain the life essence from his enemies and unleash shadowy reflections of those who challenge him."
 IJ_DB_RAID_WORLD_BOSS_NAME_14889 = "Emeriss"
 IJ_DB_RAID_WORLD_BOSS_STORY_14889 =
-"Corrupted by the insidious Nightmare within the Emerald Dream, Emeriss has become a rotting, plague-ridden mockery of her former self. The dark magic sustaining her has given her the grim ability to spread disease and raise fungal rot from the corpses of her fallen foes."
+    "Corrupted by the insidious Nightmare within the Emerald Dream, Emeriss has become a rotting, plague-ridden mockery of her former self. The dark magic sustaining her has given her the grim ability to spread disease and raise fungal rot from the corpses of her fallen foes."
 IJ_DB_RAID_WORLD_BOSS_NAME_14890 = "Taerar"
 IJ_DB_RAID_WORLD_BOSS_STORY_14890 =
-"The madness of the Nightmare has fractured Taerar's very sanity and physical form. This tormented dragon of the Green Dragonflight now possesses the terrifying ability to summon phantoms and split his essence into multiple, deadly reflections of himself during battle."
+    "The madness of the Nightmare has fractured Taerar's very sanity and physical form. This tormented dragon of the Green Dragonflight now possesses the terrifying ability to summon phantoms and split his essence into multiple, deadly reflections of himself during battle."
 IJ_DB_RAID_WORLD_BOSS_NAME_14887 = "Ysondre"
 IJ_DB_RAID_WORLD_BOSS_STORY_14887 =
-"Though Ysondre was once a benevolent guardian of the Emerald Dream, she has been driven to madness by the creeping Nightmare. She now roams the waking world, unleashing druidic magic twisted by corruption to strike down any mortals foolish enough to cross her path."
+    "Though Ysondre was once a benevolent guardian of the Emerald Dream, she has been driven to madness by the creeping Nightmare. She now roams the waking world, unleashing druidic magic twisted by corruption to strike down any mortals foolish enough to cross her path."
 IJ_DB_RAID_WORLD_BOSS_NAME_12397 = "Lord Kazzak"
-IJ_DB_RAID_WORLD_BOSS_STORY_12397 =
-"Kazzak is a battle-hardened doomlord and commander of Burning Legion forces. After the Third War, he remained on Azeroth in the Blasted Lands as Lord Kazzak."
+IJ_DB_RAID_WORLD_BOSS_STORY_12397 = "Kazzak is a battle-hardened doomlord and commander of Burning Legion forces. After the Third War, he remained on Azeroth in the Blasted Lands as Lord Kazzak."
 IJ_DB_RAID_WORLD_BOSS_NAME_16184 = "Nerubian Overseer"
 IJ_DB_RAID_WORLD_BOSS_STORY_16184 =
-"While the scourge of the fallen spider-kingdom is well documented by the Explorers' League, this specific overseer operates entirely in the shadows. Its distinct directives and exact place within the nerubian hierarchy are currently undocumented."
+    "While the scourge of the fallen spider-kingdom is well documented by the Explorers' League, this specific overseer operates entirely in the shadows. Its distinct directives and exact place within the nerubian hierarchy are currently undocumented."
 IJ_DB_RAID_WORLD_BOSS_NAME_80935 = "Ostarius"
 IJ_DB_RAID_WORLD_BOSS_STORY_80935 =
-"There are no surviving records in the great libraries of Dalaran or Ironforge that speak of Ostarius. The creature exists as a phantom in historical texts, with its motives and capabilities completely unknown to the scholars of the world."
+    "There are no surviving records in the great libraries of Dalaran or Ironforge that speak of Ostarius. The creature exists as a phantom in historical texts, with its motives and capabilities completely unknown to the scholars of the world."
 IJ_DB_RAID_WORLD_BOSS_NAME_80936 = "Dark Reaver of Karazhan"
 IJ_DB_RAID_WORLD_BOSS_STORY_80936 =
-"Though the horrors of Medivh's tower are infamous, this particular dark rider leaves no trace in the histories of Deadwind Pass. Who this reaver was in life, and what specific curse binds it to the mortal plane now, is a secret lost to the arcane madness of Karazhan."
+    "Though the horrors of Medivh's tower are infamous, this particular dark rider leaves no trace in the histories of Deadwind Pass. Who this reaver was in life, and what specific curse binds it to the mortal plane now, is a secret lost to the arcane madness of Karazhan."
 
 -- World Loot
 IJ_LOOT_NAME_18704 = "Mature Blue Dragon Sinew"
@@ -4917,39 +4727,29 @@ IJ_LOOT_NAME_60490 = "Cowskin Chapeau"
 -- TH
 IJ_DB_RAID_TH_NAME = "Timbermaw Hold"
 IJ_DB_RAID_TH_STORY =
-"As ancient as Kalimdor itself, this enigmatic labyrinthine network of tunnels and caves beneath Mount Hyjal has been the home of the Furbolgs since well before the Sundering. Its halls are sacred among the tribes, a place of worship to their progenitors, the twin gods Ursoc and Ursol. Nowadays however, only wafts of putrid vapors escape the rotten caverns and whispers of venerating a foul god echo throughout Timbermaw Hold..."
+    "As ancient as Kalimdor itself, this enigmatic labyrinthine network of tunnels and caves beneath Mount Hyjal has been the home of the Furbolgs since well before the Sundering. Its halls are sacred among the tribes, a place of worship to their progenitors, the twin gods Ursoc and Ursol. Nowadays however, only wafts of putrid vapors escape the rotten caverns and whispers of venerating a foul god echo throughout Timbermaw Hold..."
 
 -- TH Bosses
 IJ_DB_RAID_TH_BOSS_NAME_karrsh = "Karrsh the Sentinel"
-IJ_DB_RAID_TH_BOSS_STORY_karrsh =
-"A sentinel stands watch over something worth protecting. What Karrsh guards now in the dark of Timbermaw Hold, no one has returned to report."
+IJ_DB_RAID_TH_BOSS_STORY_karrsh = "A sentinel stands watch over something worth protecting. What Karrsh guards now in the dark of Timbermaw Hold, no one has returned to report."
 IJ_DB_RAID_TH_BOSS_NAME_rotgrowl = "Rotgrowl"
-IJ_DB_RAID_TH_BOSS_STORY_rotgrowl =
-"No title. No history. Only a name that the tunnels seem to have grown around, as if it were always there."
+IJ_DB_RAID_TH_BOSS_STORY_rotgrowl = "No title. No history. Only a name that the tunnels seem to have grown around, as if it were always there."
 IJ_DB_RAID_TH_BOSS_NAME_loktanag = "Loktanag the Vile"
-IJ_DB_RAID_TH_BOSS_STORY_loktanag =
-"The epithet was given by someone. Under what circumstances, and whether they lived to regret the proximity, is not recorded."
+IJ_DB_RAID_TH_BOSS_STORY_loktanag = "The epithet was given by someone. Under what circumstances, and whether they lived to regret the proximity, is not recorded."
 IJ_DB_RAID_TH_BOSS_NAME_trioch = "Trioch the Devourer"
-IJ_DB_RAID_TH_BOSS_STORY_trioch =
-"What Trioch has consumed, and what remains of it, are questions Timbermaw Hold has swallowed along with everything else."
+IJ_DB_RAID_TH_BOSS_STORY_trioch = "What Trioch has consumed, and what remains of it, are questions Timbermaw Hold has swallowed along with everything else."
 IJ_DB_RAID_TH_BOSS_NAME_selenaxx = "Selenaxx Foulheart"
-IJ_DB_RAID_TH_BOSS_STORY_selenaxx =
-"Whether the heart was always foul, or became so within these walls, the caverns do not distinguish between the two."
+IJ_DB_RAID_TH_BOSS_STORY_selenaxx = "Whether the heart was always foul, or became so within these walls, the caverns do not distinguish between the two."
 IJ_DB_RAID_TH_BOSS_NAME_ormanos = "Ormanos the Cracked"
-IJ_DB_RAID_TH_BOSS_STORY_ormanos =
-"Something broke. The hold remembers neither what it was, nor what broke it - only that Ormanos remained after."
+IJ_DB_RAID_TH_BOSS_STORY_ormanos = "Something broke. The hold remembers neither what it was, nor what broke it - only that Ormanos remained after."
 IJ_DB_RAID_TH_BOSS_NAME_partath = "Chieftain Partath"
-IJ_DB_RAID_TH_BOSS_STORY_partath =
-"He leads what the hold has become. Whether he led it there, or merely inherited the ruin, is a distinction the tunnels do not make."
+IJ_DB_RAID_TH_BOSS_STORY_partath = "He leads what the hold has become. Whether he led it there, or merely inherited the ruin, is a distinction the tunnels do not make."
 IJ_DB_RAID_TH_BOSS_NAME_kronn = "Archdruid Kronn"
-IJ_DB_RAID_TH_BOSS_STORY_kronn =
-"The title of Archdruid speaks to what Kronn once devoted himself to. The vapors drifting from Timbermaw Hold speak to what he devotes himself to now."
+IJ_DB_RAID_TH_BOSS_STORY_kronn = "The title of Archdruid speaks to what Kronn once devoted himself to. The vapors drifting from Timbermaw Hold speak to what he devotes himself to now."
 IJ_DB_RAID_TH_BOSS_NAME_ursol = "Ursol"
-IJ_DB_RAID_TH_BOSS_STORY_ursol =
-"Ursol was a god of the wilds, twin to Ursoc, beloved among the furbolg since before the Sundering. He was many things. What he is now is something the old texts did not anticipate."
+IJ_DB_RAID_TH_BOSS_STORY_ursol = "Ursol was a god of the wilds, twin to Ursoc, beloved among the furbolg since before the Sundering. He was many things. What he is now is something the old texts did not anticipate."
 IJ_DB_RAID_TH_BOSS_NAME_perotharn = "Peroth'arn"
-IJ_DB_RAID_TH_BOSS_STORY_perotharn =
-"He was a night elf, once. What he became afterward has many names, and what he is now has none that anyone has yet spoken aloud."
+IJ_DB_RAID_TH_BOSS_STORY_perotharn = "He was a night elf, once. What he became afterward has many names, and what he is now has none that anyone has yet spoken aloud."
 
 -- TH Loot
 IJ_LOOT_NAME_42295 = "Mass of Writhing Tentacles"
@@ -5110,14 +4910,12 @@ IJ_DB_POI_TT_NAME = "Timbermaw Tunnels"
 
 -- Quest 41976
 IJ_QUEST_NAME_41976 = "In Search of Tauren Relics"
-IJ_QUEST_OBJECTIVE_41976 =
-"Gather 8 Windhorn Relics for Tarwegg Dustbrow within Windhorn Canyon and return to him in Ironforge."
+IJ_QUEST_OBJECTIVE_41976 = "Gather 8 Windhorn Relics for Tarwegg Dustbrow within Windhorn Canyon and return to him in Ironforge."
 IJ_NPC_NAME_62416 = "Tarwegg Dustbrow"
 
 -- Quest 41977
 IJ_QUEST_NAME_41977 = "Relics of the Windhorn Tribe"
-IJ_QUEST_OBJECTIVE_41977 =
-"Travel into the Windhorn Canyon and recover 8 Windhorn Relics for Sagh at Sagh's Refuge in Thousand Needles."
+IJ_QUEST_OBJECTIVE_41977 = "Travel into the Windhorn Canyon and recover 8 Windhorn Relics for Sagh at Sagh's Refuge in Thousand Needles."
 IJ_NPC_NAME_62836 = "Sagh"
 IJ_LOOT_NAME_42263 = "Sagh's Pendant"
 
@@ -5129,8 +4927,7 @@ IJ_NPC_NAME_10537 = "Cliffwatcher Longhorn"
 
 -- Quest 4841
 IJ_QUEST_NAME_4841 = "Pacify the Centaur"
-IJ_QUEST_OBJECTIVE_4841 =
-"Kill 12 Galak Scouts, 10 Galak Wranglers, and 6 Galak Windchasers, and then return to Cliffwatcher Longhorn in Freewind Post."
+IJ_QUEST_OBJECTIVE_4841 = "Kill 12 Galak Scouts, 10 Galak Wranglers, and 6 Galak Windchasers, and then return to Cliffwatcher Longhorn in Freewind Post."
 
 -- Quest 5064
 IJ_QUEST_NAME_5064 = "Grimtotem Spying"
@@ -5151,8 +4948,7 @@ IJ_NPC_NAME_11833 = "Rahauro"
 
 -- Quest 41982
 IJ_QUEST_NAME_41982 = "Destroy the Deathtotem"
-IJ_QUEST_OBJECTIVE_41982 =
-"Slay Prophet Stormhoof, the leader of the Deathtotem within Windhorn Canyon, and return to Cairne Bloodhoof in Thunderbluff."
+IJ_QUEST_OBJECTIVE_41982 = "Slay Prophet Stormhoof, the leader of the Deathtotem within Windhorn Canyon, and return to Cairne Bloodhoof in Thunderbluff."
 IJ_LOOT_NAME_42268 = "Bloodhoof Sash"
 IJ_LOOT_NAME_42269 = "Stormhoof Shackles"
 IJ_LOOT_NAME_42270 = "Stonemane Boots"
@@ -5165,20 +4961,18 @@ IJ_NPC_NAME_63190 = "Ranix Crackbolt"
 -- Quest 42008
 IJ_QUEST_NAME_42008 = "The Finest Pelt"
 IJ_QUEST_OBJECTIVE_42008 =
-"Enter Frostmane Hollow in Dun Morogh and acquire a flawless leopard pelt for Shandlar Thethis in Alah’thalas in the Thalassian Highlands. You can find the entrance to Frostmane Hollow near the Ironforge Airfields."
+    "Enter Frostmane Hollow in Dun Morogh and acquire a flawless leopard pelt for Shandlar Thethis in Alah’thalas in the Thalassian Highlands. You can find the entrance to Frostmane Hollow near the Ironforge Airfields."
 IJ_NPC_NAME_61840 = "Shandlar Thethis"
 IJ_LOOT_NAME_158 = "Thalassian Silk Cape"
 
 -- Quest 42038
 IJ_QUEST_NAME_42038 = "The Frostmane War"
-IJ_QUEST_OBJECTIVE_42038 =
-"Slay 8 Frostmane Scouts, 6 Frostmane Drudges, and 6 Frostmane Mystics for Mountaineer Granitebeard at the Ironforge Airfield in Dun Morogh."
+IJ_QUEST_OBJECTIVE_42038 = "Slay 8 Frostmane Scouts, 6 Frostmane Drudges, and 6 Frostmane Mystics for Mountaineer Granitebeard at the Ironforge Airfield in Dun Morogh."
 IJ_NPC_NAME_63168 = "Mountaineer Granitebeard"
 
 -- Quest 42039
 IJ_QUEST_NAME_42039 = "Chieftain Ubukaz"
-IJ_QUEST_OBJECTIVE_42039 =
-"Slay Battlemaster Ubukaz deep within Frostmane Hollow for Mountaineer Granitebeard at the Ironforge Airfield in Dun Morogh."
+IJ_QUEST_OBJECTIVE_42039 = "Slay Battlemaster Ubukaz deep within Frostmane Hollow for Mountaineer Granitebeard at the Ironforge Airfield in Dun Morogh."
 IJ_LOOT_NAME_42323 = "Heavy Chain Bracers"
 IJ_LOOT_NAME_42324 = "Sash of Illumination"
 IJ_LOOT_NAME_42325 = "Deep-Thread Shawl"
@@ -5196,8 +4990,7 @@ IJ_QUEST_OBJECTIVE_42006 = "Search for Archeologist Evenpike inside Frostmane Ho
 
 -- Quest 4735
 IJ_QUEST_NAME_4735 = "Egg Collection"
-IJ_QUEST_OBJECTIVE_4735 =
-"Bring 8 Collected Dragon Eggs and the Collectronic Module to Tinkee Steamboil at Flame Crest in the Burning Steppes."
+IJ_QUEST_OBJECTIVE_4735 = "Bring 8 Collected Dragon Eggs and the Collectronic Module to Tinkee Steamboil at Flame Crest in the Burning Steppes."
 
 -- Quest 41386
 IJ_QUEST_NAME_41386 = "Pricolich Lycan"
@@ -5205,8 +4998,7 @@ IJ_QUEST_OBJECTIVE_41386 = "Slay Father Lycan in the Circle of Power."
 
 -- Quest 41394
 IJ_QUEST_NAME_41394 = "Scythe of the Goddess"
-IJ_QUEST_OBJECTIVE_41394 =
-"Bring 6 Eternal Dreamstone Shards, 20 Mooncloth and Soul of a Dreadlord to Arch Druid Dreamwind."
+IJ_QUEST_OBJECTIVE_41394 = "Bring 6 Eternal Dreamstone Shards, 20 Mooncloth and Soul of a Dreadlord to Arch Druid Dreamwind."
 
 -- Quest 41310
 IJ_QUEST_NAME_41310 = "Clutch of Thanlar"
@@ -5214,19 +5006,16 @@ IJ_QUEST_OBJECTIVE_41310 = "Read Khadgar's Journal and uncover the enigma behind
 
 -- Quest 41311
 IJ_QUEST_NAME_41311 = "Bovar'kez"
-IJ_QUEST_OBJECTIVE_41311 =
-"Slay the doomguard Dolvan was informing you about and return with the Clutch of Thanlar. He awaits you at his home south of Theramore."
+IJ_QUEST_OBJECTIVE_41311 = "Slay the doomguard Dolvan was informing you about and return with the Clutch of Thanlar. He awaits you at his home south of Theramore."
 
 -- Quest 41312
 IJ_QUEST_NAME_41312 = "Restoration"
-IJ_QUEST_OBJECTIVE_41312 =
-"If you wish to repair the relic, bring Dolvan the necessary parts and an arcane focus from a high-ranking blue dragon. The mage can be found along the shoreline south of Theramore."
+IJ_QUEST_OBJECTIVE_41312 = "If you wish to repair the relic, bring Dolvan the necessary parts and an arcane focus from a high-ranking blue dragon. The mage can be found along the shoreline south of Theramore."
 IJ_LOOT_NAME_41372 = "Sceptre Head of Medivh"
 
 -- Quest 41015
 IJ_QUEST_NAME_41015 = "The Binding of Xanthar"
-IJ_QUEST_OBJECTIVE_41015 =
-"Gather the Upper Binding of Xanthar and the Lower Binding of Xanthar for Hanvar the Righteous in the small church outside of Karazhan."
+IJ_QUEST_OBJECTIVE_41015 = "Gather the Upper Binding of Xanthar and the Lower Binding of Xanthar for Hanvar the Righteous in the small church outside of Karazhan."
 IJ_LOOT_NAME_61731 = "The Binding of Xanthar"
 
 -- Quest 41083
@@ -5247,14 +5036,12 @@ IJ_QUEST_OBJECTIVE_41086 = "Deliver the Spectral Wine to Councilman Kyleson in K
 
 -- Quest 41369
 IJ_QUEST_NAME_41369 = "The Scepter Rod of Medivh"
-IJ_QUEST_OBJECTIVE_41369 =
-"To restore the Scepter Rod of Medivh, Anelace the Clairvoyant at Morgan's Plot in Deadwind Pass needs a high amount of arcane energy."
+IJ_QUEST_OBJECTIVE_41369 = "To restore the Scepter Rod of Medivh, Anelace the Clairvoyant at Morgan's Plot in Deadwind Pass needs a high amount of arcane energy."
 IJ_LOOT_NAME_41413 = "Scepter Rod of Medivh"
 
 -- Quest 41370
 IJ_QUEST_NAME_41370 = "Tirisfal's Vestige"
-IJ_QUEST_OBJECTIVE_41370 =
-"A figment of Medivh is necessary to imbue the Scepter of Medivh with. Bring it to Anelace the Clairvoyant at Morgan's Plot outside Karazhan."
+IJ_QUEST_OBJECTIVE_41370 = "A figment of Medivh is necessary to imbue the Scepter of Medivh with. Bring it to Anelace the Clairvoyant at Morgan's Plot outside Karazhan."
 IJ_NPC_NAME_2020098 = "Khadgar's Journal"
 IJ_NPC_NAME_61137 = "Dolvan Bracewind"
 IJ_NPC_NAME_61322 = "Councilman Kyleson"
@@ -5268,16 +5055,14 @@ IJ_QUEST_OBJECTIVE_41343 = "Speak to Doorman Montigue in Lower Karazhan Halls."
 
 -- Quest 41344
 IJ_QUEST_NAME_41344 = "Comically Large Candle"
-IJ_QUEST_OBJECTIVE_41344 =
-"Recover the Comically Large Candle from Grizikil and return to Big Whiskers in Upper Karazhan."
+IJ_QUEST_OBJECTIVE_41344 = "Recover the Comically Large Candle from Grizikil and return to Big Whiskers in Upper Karazhan."
 IJ_NPC_NAME_61571 = "Doorman Montigue"
 IJ_NPC_NAME_61990 = "Big Whiskers"
 IJ_LOOT_NAME_92025 = "Tome of Polymorph: Rodent"
 
 -- Quest 41078
 IJ_QUEST_NAME_41078 = "Contribution to the Church"
-IJ_QUEST_OBJECTIVE_41078 =
-"Gather 15 Arcane Essence, 20 Illusion Dust, and 10 Greater Eternal Essence for Heirophant Nerseus at the church outside Karazhan."
+IJ_QUEST_OBJECTIVE_41078 = "Gather 15 Arcane Essence, 20 Illusion Dust, and 10 Greater Eternal Essence for Heirophant Nerseus at the church outside Karazhan."
 IJ_NPC_NAME_61610 = "Hierophant Nerseus"
 
 -- Quest 41001
@@ -5319,8 +5104,7 @@ IJ_QUEST_OBJECTIVE_40905 = "Bring the Smoldering Dream Essence to Arch Druid Dre
 
 -- Quest 40828
 IJ_QUEST_NAME_40828 = "The Key to Karazhan IX"
-IJ_QUEST_OBJECTIVE_40828 =
-"Find \"Treatise on Magical Locks and Keys\" and bring it back to Vandol. It is rumored to be kept in Blackwing Lair."
+IJ_QUEST_OBJECTIVE_40828 = "Find \"Treatise on Magical Locks and Keys\" and bring it back to Vandol. It is rumored to be kept in Blackwing Lair."
 
 -- Quest 70000
 IJ_QUEST_NAME_70000 = "A Special Kind of Summons"
@@ -5338,7 +5122,7 @@ IJ_LOOT_NAME_83002 = "Tome of Refreshment Ritual"
 -- Quest 41812
 IJ_QUEST_NAME_41812 = "The Moonshrine Ruins"
 IJ_QUEST_OBJECTIVE_41812 =
-"Traverse into the depths of Blackfathom Deeps and recover a 'Seed of Bloom' from within the Moonshrine Ruins. Once acquired, return to Aelennia Starbloom east of The Zoram Strand in Ashenvale."
+    "Traverse into the depths of Blackfathom Deeps and recover a 'Seed of Bloom' from within the Moonshrine Ruins. Once acquired, return to Aelennia Starbloom east of The Zoram Strand in Ashenvale."
 IJ_NPC_NAME_62727 = "Aelennia Starbloom"
 IJ_LOOT_NAME_41919 = "Starbloom Ring"
 
@@ -5356,8 +5140,7 @@ IJ_QUEST_OBJECTIVE_80395 = "Investigate the mountain south of Ratchet."
 
 -- Quest 80396
 IJ_QUEST_NAME_80396 = "A Bloody Good Deed"
-IJ_QUEST_OBJECTIVE_80396 =
-"Kill 6 Kolkar Bloodchargers, 4 Kolkar Pack Runners and  4 Kolkar Marauders. Use the crystal to summon Kheyna Spinpistol again."
+IJ_QUEST_OBJECTIVE_80396 = "Kill 6 Kolkar Bloodchargers, 4 Kolkar Pack Runners and  4 Kolkar Marauders. Use the crystal to summon Kheyna Spinpistol again."
 IJ_LOOT_NAME_51792 = "Otherworldly Robe"
 
 -- Quest 80407
@@ -5366,8 +5149,7 @@ IJ_QUEST_OBJECTIVE_80407 = "Investigate the crashed Gnomish rocket car northwest
 
 -- Quest 80408
 IJ_QUEST_NAME_80408 = "A Slaughter for Brains"
-IJ_QUEST_OBJECTIVE_80408 =
-"Violently retrieve 12 Smooth Ogre Brains from the Dunemaul Ogres at the Eastmoon Ruins and then deliver them to Reas."
+IJ_QUEST_OBJECTIVE_80408 = "Violently retrieve 12 Smooth Ogre Brains from the Dunemaul Ogres at the Eastmoon Ruins and then deliver them to Reas."
 
 -- Quest 80409
 IJ_QUEST_NAME_80409 = "Return to Kheyna"
@@ -5410,25 +5192,21 @@ IJ_QUEST_OBJECTIVE_40465 = "Gather 3 Golem Cores for Radgan Deepblaze at Blackro
 
 -- Quest 40466
 IJ_QUEST_NAME_40466 = "To Purchase Secret Information"
-IJ_QUEST_OBJECTIVE_40466 =
-"Collect the Arcane Golem Core Information from Jabbey in Steamwheedle Port and return to Radgan Deepblaze at Blackrock Pass in Burning Steppes."
+IJ_QUEST_OBJECTIVE_40466 = "Collect the Arcane Golem Core Information from Jabbey in Steamwheedle Port and return to Radgan Deepblaze at Blackrock Pass in Burning Steppes."
 
 -- Quest 40467
 IJ_QUEST_NAME_40467 = "The Arcane Golem Core"
-IJ_QUEST_OBJECTIVE_40467 =
-"Find, and collect an Arcane Golem Core from Golem Lord Argelmach in Blackrock Depths and return to Radgan Deepblaze at Blackrock Pass in Burning Steppes."
+IJ_QUEST_OBJECTIVE_40467 = "Find, and collect an Arcane Golem Core from Golem Lord Argelmach in Blackrock Depths and return to Radgan Deepblaze at Blackrock Pass in Burning Steppes."
 IJ_LOOT_NAME_60672 = "Energized Golem Core"
 
 -- Quest 40464
 IJ_QUEST_NAME_40464 = "Senatorial Revenge"
-IJ_QUEST_OBJECTIVE_40464 =
-"Slay 25 Shadowforge Senators deep within the Blackrock Depths for Orvak Sternrock at the Blackrock Pass in Burning Steppes."
+IJ_QUEST_OBJECTIVE_40464 = "Slay 25 Shadowforge Senators deep within the Blackrock Depths for Orvak Sternrock at the Blackrock Pass in Burning Steppes."
 IJ_LOOT_NAME_60668 = "Badge of Shadowforge"
 
 -- Quest 40326
 IJ_QUEST_NAME_40326 = "Kalanar's Mallet"
-IJ_QUEST_OBJECTIVE_40326 =
-"Travel to the Crescent Grove and find the burned down home of Kalanar Brightshine. Then retrieve Kalanar's Mallet and return it to him in Astranaar."
+IJ_QUEST_OBJECTIVE_40326 = "Travel to the Crescent Grove and find the burned down home of Kalanar Brightshine. Then retrieve Kalanar's Mallet and return it to him in Astranaar."
 IJ_NPC_NAME_92223 = "Kalanar Brightshine"
 
 -- Quest 40145
@@ -5451,8 +5229,7 @@ IJ_LOOT_NAME_60216 = "Hat of Forest Medicine"
 
 -- Quest 40091
 IJ_QUEST_NAME_40091 = "The Crescent Grove"
-IJ_QUEST_OBJECTIVE_40091 =
-"Destroy the source of corruption inside Crescent Grove and return to Denatharion in Teldrassil."
+IJ_QUEST_OBJECTIVE_40091 = "Destroy the source of corruption inside Crescent Grove and return to Denatharion in Teldrassil."
 IJ_NPC_NAME_4218 = "Denatharion"
 IJ_LOOT_NAME_60180 = "Sentinel Chain"
 IJ_LOOT_NAME_60181 = "Groveweave Cloak"
@@ -5461,15 +5238,13 @@ IJ_LOOT_NAME_60183 = "Bushstalker Mask"
 
 -- Quest 40090
 IJ_QUEST_NAME_40090 = "The Unwise Elders"
-IJ_QUEST_OBJECTIVE_40090 =
-"Bring the paws of Elder 'One Eye' and Elder Blackmaw from within the Crescent Grove to Grol the Exile."
+IJ_QUEST_OBJECTIVE_40090 = "Bring the paws of Elder 'One Eye' and Elder Blackmaw from within the Crescent Grove to Grol the Exile."
 IJ_NPC_NAME_91285 = "Grol the Exile"
 IJ_LOOT_NAME_60179 = "Grol's Band"
 
 -- Quest 40089
 IJ_QUEST_NAME_40089 = "The Rampant Groveweald"
-IJ_QUEST_OBJECTIVE_40089 =
-"Venture into the Crescent Grove and collect 8 Groveweald Badges from the furbolgs inside for Grol the Exile."
+IJ_QUEST_OBJECTIVE_40089 = "Venture into the Crescent Grove and collect 8 Groveweald Badges from the furbolgs inside for Grol the Exile."
 
 -- Quest 39994
 IJ_QUEST_NAME_39994 = "Horde Defender's Axe"
@@ -5516,8 +5291,7 @@ IJ_QUEST_OBJECTIVE_40470 = "Collect a Cracked Animation Rune for Christopher Hew
 
 -- Quest 40471
 IJ_QUEST_NAME_40471 = "The Harvest Golem Mystery"
-IJ_QUEST_OBJECTIVE_40471 =
-"Gather 10 Intact Animation Runes from Harvest Golems in Westfall for Christopher Hewen at Sentinel Hill."
+IJ_QUEST_OBJECTIVE_40471 = "Gather 10 Intact Animation Runes from Harvest Golems in Westfall for Christopher Hewen at Sentinel Hill."
 IJ_LOOT_NAME_60678 = "Westfall Hauberk"
 IJ_LOOT_NAME_60679 = "Westfall Rancher Boots"
 
@@ -5543,13 +5317,11 @@ IJ_QUEST_OBJECTIVE_40476 = "Help Maltimor Gartside with casting the Rewiring Spe
 
 -- Quest 40477
 IJ_QUEST_NAME_40477 = "The Harvest Golem Mystery"
-IJ_QUEST_OBJECTIVE_40477 =
-"Gather the Jangolode Mine Shipment, and the Gold Coast Shipment to Maltimor Gartside at the Gartside Plot in Westfall."
+IJ_QUEST_OBJECTIVE_40477 = "Gather the Jangolode Mine Shipment, and the Gold Coast Shipment to Maltimor Gartside at the Gartside Plot in Westfall."
 
 -- Quest 40478
 IJ_QUEST_NAME_40478 = "The Harvest Golem Mystery"
-IJ_QUEST_OBJECTIVE_40478 =
-"Venture into the Deadmines and slay the Masterpiece Harvester. Once done, return to Maltimor Gartside at the Gartside Plot in Westfall."
+IJ_QUEST_OBJECTIVE_40478 = "Venture into the Deadmines and slay the Masterpiece Harvester. Once done, return to Maltimor Gartside at the Gartside Plot in Westfall."
 IJ_NPC_NAME_5518 = "Lilliam Sparkspindle"
 IJ_NPC_NAME_60858 = "Maltimor Gartside"
 IJ_NPC_NAME_8934 = "Christopher Hewen"
@@ -5594,15 +5366,13 @@ IJ_LOOT_NAME_61703 = "Talisman of the Dreamshaper"
 
 -- Quest 41753
 IJ_QUEST_NAME_41753 = "A Blaze Unending"
-IJ_QUEST_OBJECTIVE_41753 =
-"Retrieve the Eternal Flame from within the Dragonmaw Retreat and bring it to Shara Blazen in Tarren Mill."
+IJ_QUEST_OBJECTIVE_41753 = "Retrieve the Eternal Flame from within the Dragonmaw Retreat and bring it to Shara Blazen in Tarren Mill."
 IJ_NPC_NAME_2402 = "Shara Blazen"
 IJ_LOOT_NAME_41836 = "Ancient Flame Pendant"
 
 -- Quest 41752
 IJ_QUEST_NAME_41752 = "Cavernweb Extract"
-IJ_QUEST_OBJECTIVE_41752 =
-"Slay the Cavernweb Broodmother in the Dragonmaw Retreat and deliver her venom sac to Okal in Hammerfall."
+IJ_QUEST_OBJECTIVE_41752 = "Slay the Cavernweb Broodmother in the Dragonmaw Retreat and deliver her venom sac to Okal in Hammerfall."
 IJ_NPC_NAME_62638 = "Okul"
 
 -- Quest 473
@@ -5635,8 +5405,7 @@ IJ_LOOT_NAME_41844 = "Torwyll's Cuffs"
 
 -- Quest 41756
 IJ_QUEST_NAME_41756 = "To Crush The Dragonmaw"
-IJ_QUEST_OBJECTIVE_41756 =
-"Slay Dragonmaw Veterans in Dragonmaw Retreat and return to Captain Stoutfist in Menethil Harbor."
+IJ_QUEST_OBJECTIVE_41756 = "Slay Dragonmaw Veterans in Dragonmaw Retreat and return to Captain Stoutfist in Menethil Harbor."
 
 -- Quest 41657
 IJ_QUEST_NAME_41657 = "Letter from Korlag Doomsong"
@@ -5660,16 +5429,14 @@ IJ_LOOT_NAME_58236 = "Pendant of Ember Hatred"
 
 -- Quest 41751
 IJ_QUEST_NAME_41751 = "The Dragonmaw Brood"
-IJ_QUEST_OBJECTIVE_41751 =
-"Nydiszanz at the Dragonmaw Gates in the Wetlands wishes to release his brother Searistrasz from his capture by the Dragonmaw orcs in the Dragonmaw Retreat."
+IJ_QUEST_OBJECTIVE_41751 = "Nydiszanz at the Dragonmaw Gates in the Wetlands wishes to release his brother Searistrasz from his capture by the Dragonmaw orcs in the Dragonmaw Retreat."
 IJ_LOOT_NAME_41831 = "Runebound Dagger"
 IJ_LOOT_NAME_41832 = "Flameweave Sash"
 IJ_LOOT_NAME_41833 = "Cuffs of Burning Rage"
 
 -- Quest 41749
 IJ_QUEST_NAME_41749 = "Stone Golem Salvage"
-IJ_QUEST_OBJECTIVE_41749 =
-"Acquire the runestone of a Crumbling Stone Golem inside Dragomaw Retreat and bring it to Kixxle on the mainroad in the Wetlands."
+IJ_QUEST_OBJECTIVE_41749 = "Acquire the runestone of a Crumbling Stone Golem inside Dragomaw Retreat and bring it to Kixxle on the mainroad in the Wetlands."
 IJ_NPC_NAME_8305 = "Kixxle"
 IJ_LOOT_NAME_41826 = "Mosshide Cinch"
 IJ_LOOT_NAME_41827 = "Fenwater Gloves"
@@ -5677,8 +5444,7 @@ IJ_LOOT_NAME_41828 = "Mosschain Bracers"
 
 -- Quest 41750
 IJ_QUEST_NAME_41750 = "Gowlfang's Defeat"
-IJ_QUEST_OBJECTIVE_41750 =
-"Avenge the Mosshide gnolls by slaying their former leader Gowlfang in Dragonmaw Retreat. Return to Grimbite at their camp in The Green Belt in the Wetlands afterwards."
+IJ_QUEST_OBJECTIVE_41750 = "Avenge the Mosshide gnolls by slaying their former leader Gowlfang in Dragonmaw Retreat. Return to Grimbite at their camp in The Green Belt in the Wetlands afterwards."
 IJ_NPC_NAME_62636 = "Grimbite"
 IJ_LOOT_NAME_41830 = "Mosshide Ring"
 
@@ -5698,8 +5464,7 @@ IJ_QUEST_OBJECTIVE_41012 = "Gather 5 Essence of Fire, and 1 Fragment of Earth fo
 
 -- Quest 41013
 IJ_QUEST_NAME_41013 = "The Upper Binding III"
-IJ_QUEST_OBJECTIVE_41013 =
-"Gather a Supercharged Arcane Resonation from the arcane elementals of Dire Maul for Parnabus in Gilneas."
+IJ_QUEST_OBJECTIVE_41013 = "Gather a Supercharged Arcane Resonation from the arcane elementals of Dire Maul for Parnabus in Gilneas."
 IJ_NPC_NAME_61570 = "Parnabus"
 
 -- Quest 40243
@@ -5712,13 +5477,11 @@ IJ_QUEST_OBJECTIVE_40244 = "Search the shoreline for the lost Eldara Chest."
 
 -- Quest 40245
 IJ_QUEST_NAME_40245 = "The Eldarath Harmonization Gem"
-IJ_QUEST_OBJECTIVE_40245 =
-"Search for Najhaz the Raider, kill him, and reclaim the Eldarath Harmonization Gem for Keeper Iselus at the Tower of Eldara in Azshara."
+IJ_QUEST_OBJECTIVE_40245 = "Search for Najhaz the Raider, kill him, and reclaim the Eldarath Harmonization Gem for Keeper Iselus at the Tower of Eldara in Azshara."
 
 -- Quest 40246
 IJ_QUEST_NAME_40246 = "Aged Deep-Rod"
-IJ_QUEST_OBJECTIVE_40246 =
-"Find an Aged Deep-Rod from Legash Satyrs for Keeper Iselus at the Tower of Eldara in Azshara."
+IJ_QUEST_OBJECTIVE_40246 = "Find an Aged Deep-Rod from Legash Satyrs for Keeper Iselus at the Tower of Eldara in Azshara."
 
 -- Quest 40247
 IJ_QUEST_NAME_40247 = "Staff of Eldara"
@@ -5726,18 +5489,15 @@ IJ_QUEST_OBJECTIVE_40247 = "Wait for Keeper Iselus to craft the Staff of Eldara.
 
 -- Quest 40252
 IJ_QUEST_NAME_40252 = "The Way-Stones of Old"
-IJ_QUEST_OBJECTIVE_40252 =
-"Find the Way-Stone at the Temple of Arkkoran, activate it, and speak with Keeper Laena in Azshara."
+IJ_QUEST_OBJECTIVE_40252 = "Find the Way-Stone at the Temple of Arkkoran, activate it, and speak with Keeper Laena in Azshara."
 
 -- Quest 40253
 IJ_QUEST_NAME_40253 = "Restoring the Ley Lines"
-IJ_QUEST_OBJECTIVE_40253 =
-"Enter the Temple of Zin-Malor and find the Ashan Stone, and activate the dormant Ley-Lines for Keeper Laena in Azshara."
+IJ_QUEST_OBJECTIVE_40253 = "Enter the Temple of Zin-Malor and find the Ashan Stone, and activate the dormant Ley-Lines for Keeper Laena in Azshara."
 
 -- Quest 40254
 IJ_QUEST_NAME_40254 = "Keeping Secrets"
-IJ_QUEST_OBJECTIVE_40254 =
-"Travel to Dire Maul, and slay the great evil being that the Highborne are leeching energy upon, gather from it Pure Ley Essence, and return to Keeper Laena in Azshara."
+IJ_QUEST_OBJECTIVE_40254 = "Travel to Dire Maul, and slay the great evil being that the Highborne are leeching energy upon, gather from it Pure Ley Essence, and return to Keeper Laena in Azshara."
 IJ_NPC_NAME_60512 = "Keeper Laena"
 IJ_NPC_NAME_91722 = "Keeper Iselus"
 IJ_LOOT_NAME_60333 = "Azshara Keeper's Staff"
@@ -5749,8 +5509,7 @@ IJ_QUEST_OBJECTIVE_41276 = "Speak with Jarkal Mossmeld in Kargath in the Badland
 
 -- Quest 41289
 IJ_QUEST_NAME_41289 = "Foreign Knowledge"
-IJ_QUEST_OBJECTIVE_41289 =
-"Search for a fitting book in Gilneas City and bring it to Jarkal Mossmeld in Kargath in the Badlands."
+IJ_QUEST_OBJECTIVE_41289 = "Search for a fitting book in Gilneas City and bring it to Jarkal Mossmeld in Kargath in the Badlands."
 IJ_NPC_NAME_61924 = "Gulmire Fartower"
 IJ_NPC_NAME_6868 = "Jarkal Mossmeld"
 
@@ -5773,8 +5532,7 @@ IJ_QUEST_OBJECTIVE_40848 = "Slay 8 Spitecrest Netters for Blackthorn at Blacktho
 
 -- Quest 40849
 IJ_QUEST_NAME_40849 = "Genn Greymane Must Die!"
-IJ_QUEST_OBJECTIVE_40849 =
-"Enter Gilneas City and slay Genn Greymane, then bring his head to Blackthorn at Blackthorn's Camp in Gilneas."
+IJ_QUEST_OBJECTIVE_40849 = "Enter Gilneas City and slay Genn Greymane, then bring his head to Blackthorn at Blackthorn's Camp in Gilneas."
 IJ_NPC_NAME_61375 = "Blackthorn"
 IJ_NPC_NAME_61377 = "Luke Agamand"
 IJ_LOOT_NAME_61353 = "Blackthorn Gauntlets"
@@ -5783,8 +5541,7 @@ IJ_LOOT_NAME_61355 = "Dark Footpad Belt"
 
 -- Quest 40877
 IJ_QUEST_NAME_40877 = "Dead Until Dark"
-IJ_QUEST_OBJECTIVE_40877 =
-"Find Orvan Darkeye for Deathstalker Alynna. He is rumored to be somewhere close to the ruins of Greyshire."
+IJ_QUEST_OBJECTIVE_40877 = "Find Orvan Darkeye for Deathstalker Alynna. He is rumored to be somewhere close to the ruins of Greyshire."
 
 -- Quest 40878
 IJ_QUEST_NAME_40878 = "All We Need is Blood"
@@ -5792,27 +5549,23 @@ IJ_QUEST_OBJECTIVE_40878 = "Bring 10 Vilewing Blood Vials for Orvan Darkeye at t
 
 -- Quest 40879
 IJ_QUEST_NAME_40879 = "Last of the Living Dead"
-IJ_QUEST_OBJECTIVE_40879 =
-"Slay 8 Shambling Dead and 8 Lingering Skeletons for Orvan Darkeye at the Ruins of Greyshire in Gilneas."
+IJ_QUEST_OBJECTIVE_40879 = "Slay 8 Shambling Dead and 8 Lingering Skeletons for Orvan Darkeye at the Ruins of Greyshire in Gilneas."
 
 -- Quest 40880
 IJ_QUEST_NAME_40880 = "We Take It From The Living"
-IJ_QUEST_OBJECTIVE_40880 =
-"Bring 15 Gilnean Blood Vials and 15 Worgen Blood Vials to Orvan Darkeye in the Ruins of Grayshire."
+IJ_QUEST_OBJECTIVE_40880 = "Bring 15 Gilnean Blood Vials and 15 Worgen Blood Vials to Orvan Darkeye in the Ruins of Grayshire."
 IJ_LOOT_NAME_61419 = "Sash of Innocent Blood"
 IJ_LOOT_NAME_61420 = "Wreath of Worgen Blood"
 
 -- Quest 40881
 IJ_QUEST_NAME_40881 = "The Evil Made Me Do It"
-IJ_QUEST_OBJECTIVE_40881 =
-"Find 'On the Powers of Blood' in Gilneas City, then return to Orvan Darkeye at the Ruins of Greyshire in Gilneas."
+IJ_QUEST_OBJECTIVE_40881 = "Find 'On the Powers of Blood' in Gilneas City, then return to Orvan Darkeye at the Ruins of Greyshire in Gilneas."
 IJ_NPC_NAME_61282 = "Deathstalker Alynna"
 IJ_NPC_NAME_61286 = "Orvan Darkeye"
 
 -- Quest 41113
 IJ_QUEST_NAME_41113 = "A Royal Heist"
-IJ_QUEST_OBJECTIVE_41113 =
-"Steal the painting from the library in Gilneas City and return to Luke Agamand at Blackthorn's Camp in Gilneas."
+IJ_QUEST_OBJECTIVE_41113 = "Steal the painting from the library in Gilneas City and return to Luke Agamand at Blackthorn's Camp in Gilneas."
 
 -- Quest 40977
 IJ_QUEST_NAME_40977 = "Ebonmere Bat Infestation"
@@ -5820,8 +5573,7 @@ IJ_QUEST_OBJECTIVE_40977 = "Slay 12 Vilewing Batlings for Joshua Ebonmere at Ebo
 
 -- Quest 40979
 IJ_QUEST_NAME_40979 = "Ebonmere Affairs"
-IJ_QUEST_OBJECTIVE_40979 =
-"Slay Dustivan Blackcowl and recover the Ebonmere Deed for Joshua Ebonmere at Ebonmere Farm in Gilneas."
+IJ_QUEST_OBJECTIVE_40979 = "Slay Dustivan Blackcowl and recover the Ebonmere Deed for Joshua Ebonmere at Ebonmere Farm in Gilneas."
 IJ_NPC_NAME_61290 = "Joshua Ebonmere"
 IJ_LOOT_NAME_61627 = "Ebonmere Reaver"
 IJ_LOOT_NAME_61628 = "Clutch of Joshua"
@@ -5872,8 +5624,7 @@ IJ_LOOT_NAME_60591 = "Hallister's Cuffs"
 
 -- Quest 41114
 IJ_QUEST_NAME_41114 = "Manuscript on Hydromancy II"
-IJ_QUEST_OBJECTIVE_41114 =
-"Recover the Manuscript on Hydromancy II for Magus Hallister at Theramore Isle in Dustwallow Marsh."
+IJ_QUEST_OBJECTIVE_41114 = "Recover the Manuscript on Hydromancy II for Magus Hallister at Theramore Isle in Dustwallow Marsh."
 IJ_NPC_NAME_60731 = "Magus Halister"
 IJ_LOOT_NAME_92001 = "Tome of Teleportation: Theramore"
 
@@ -5899,8 +5650,7 @@ IJ_QUEST_OBJECTIVE_40952 = "Find Moranna Rosenberg at the Hollow Web Cemetery in
 
 -- Quest 40953
 IJ_QUEST_NAME_40953 = "Vilest of Men"
-IJ_QUEST_OBJECTIVE_40953 =
-"Collect 20 Vials of Blood from the Greymane loyalists around Dryrock Valley for Moranna Rosenberg at the Hollow Web Cemetary in Gilneas."
+IJ_QUEST_OBJECTIVE_40953 = "Collect 20 Vials of Blood from the Greymane loyalists around Dryrock Valley for Moranna Rosenberg at the Hollow Web Cemetary in Gilneas."
 
 -- Quest 40954
 IJ_QUEST_NAME_40954 = "A Crossroads Deal"
@@ -5908,13 +5658,11 @@ IJ_QUEST_OBJECTIVE_40954 = "Return to Liam Greymane at Ravenshire in Gilneas."
 
 -- Quest 40955
 IJ_QUEST_NAME_40955 = "Assaulting Freyshear Keep"
-IJ_QUEST_OBJECTIVE_40955 =
-"Slay 8 Greymane Preservers and Cannoneer Rileson at Freyshear Keep and then report to Lord Darius Ravenwood at Ravenshire in Gilneas."
+IJ_QUEST_OBJECTIVE_40955 = "Slay 8 Greymane Preservers and Cannoneer Rileson at Freyshear Keep and then report to Lord Darius Ravenwood at Ravenshire in Gilneas."
 
 -- Quest 40956
 IJ_QUEST_NAME_40956 = "The Fall and Rise of Greymane"
-IJ_QUEST_OBJECTIVE_40956 =
-"'Save' Genn, and recover the Greymane Crown for Lord Darius Ravenwood at Ravenshire in Gilneas."
+IJ_QUEST_OBJECTIVE_40956 = "'Save' Genn, and recover the Greymane Crown for Lord Darius Ravenwood at Ravenshire in Gilneas."
 IJ_NPC_NAME_61257 = "Baron Caliban Silverlaine"
 IJ_NPC_NAME_61259 = "Lord Darius Ravenwood"
 IJ_NPC_NAME_61260 = "Moranna Rosenberg"
@@ -5928,31 +5676,26 @@ IJ_LOOT_NAME_61369 = "Ravenshire Tabard"
 
 -- Quest 40940
 IJ_QUEST_NAME_40940 = "Font of Arcana"
-IJ_QUEST_OBJECTIVE_40940 =
-"Travel to the Badlands and slay members of the Blue Dragonflight to recover a Font of Arcana for Magus Orelius at Ravenshire in Gilneas."
+IJ_QUEST_OBJECTIVE_40940 = "Travel to the Badlands and slay members of the Blue Dragonflight to recover a Font of Arcana for Magus Orelius at Ravenshire in Gilneas."
 
 -- Quest 40941
 IJ_QUEST_NAME_40941 = "Magical Presence"
-IJ_QUEST_OBJECTIVE_40941 =
-"Acquire a Large Glowing Shard for the Font of Arcana for Magus Orelius at Ravenshire in Gilneas."
+IJ_QUEST_OBJECTIVE_40941 = "Acquire a Large Glowing Shard for the Font of Arcana for Magus Orelius at Ravenshire in Gilneas."
 
 -- Quest 40942
 IJ_QUEST_NAME_40942 = "Draconic Presence?"
-IJ_QUEST_OBJECTIVE_40942 =
-"Slay Firemane Dragonkin in Dustwallow Marsh, and recover a Potent Draconic Jewel for Magus Orelius at Ravenshire in Gilneas."
+IJ_QUEST_OBJECTIVE_40942 = "Slay Firemane Dragonkin in Dustwallow Marsh, and recover a Potent Draconic Jewel for Magus Orelius at Ravenshire in Gilneas."
 
 -- Quest 40943
 IJ_QUEST_NAME_40943 = "Undoing Draconic Presence"
-IJ_QUEST_OBJECTIVE_40943 =
-"End the Draconic Influence over Gilneas by slaying Regent-Lady Celia Harlow, and Regent-Lord Mortimer Harlow for Magus Orelius at Ravenshire in Gilneas."
+IJ_QUEST_OBJECTIVE_40943 = "End the Draconic Influence over Gilneas by slaying Regent-Lady Celia Harlow, and Regent-Lord Mortimer Harlow for Magus Orelius at Ravenshire in Gilneas."
 IJ_NPC_NAME_61271 = "Magus Orelius"
 IJ_LOOT_NAME_61486 = "Violet Sash"
 IJ_LOOT_NAME_61487 = "Gauntlets of Insight"
 
 -- Quest 41112
 IJ_QUEST_NAME_41112 = "Ravencroft's Ambition"
-IJ_QUEST_OBJECTIVE_41112 =
-"Recover the Book of Ur : Volume Two from the library in Gilneas City and return to Ethan Ravencroft."
+IJ_QUEST_OBJECTIVE_41112 = "Recover the Book of Ur : Volume Two from the library in Gilneas City and return to Ethan Ravencroft."
 IJ_NPC_NAME_61460 = "Ethan Ravencroft"
 
 -- Quest 40966
@@ -5972,8 +5715,7 @@ IJ_LOOT_NAME_61349 = "Dwarven Battle Bludgeon"
 
 -- Quest 40975
 IJ_QUEST_NAME_40975 = "The Judge and the Phantom"
-IJ_QUEST_OBJECTIVE_40975 =
-"Slay Judge Sutherland within Gilneas City for the Angered Phantom at the Glaymore Stead in Gilneas."
+IJ_QUEST_OBJECTIVE_40975 = "Slay Judge Sutherland within Gilneas City for the Angered Phantom at the Glaymore Stead in Gilneas."
 IJ_NPC_NAME_61559 = "Angered Phantom"
 IJ_LOOT_NAME_61620 = "Glaymore Family Breastplate"
 IJ_LOOT_NAME_61621 = "Ceremonial Gilnean Pike"
@@ -5981,8 +5723,7 @@ IJ_LOOT_NAME_61622 = "Glaymore Shawl"
 
 -- Quest 55003
 IJ_QUEST_NAME_55003 = "A New Power Source"
-IJ_QUEST_OBJECTIVE_55003 =
-"Gather six Energized Scales from Lightning Hides and Thunder Lizards at Thunder Ridge to the west and bring them to Technician Spuzzle in Sparkwater Port."
+IJ_QUEST_OBJECTIVE_55003 = "Gather six Energized Scales from Lightning Hides and Thunder Lizards at Thunder Ridge to the west and bring them to Technician Spuzzle in Sparkwater Port."
 IJ_LOOT_NAME_81294 = "Technician's Field Gloves"
 
 -- Quest 55006
@@ -5995,8 +5736,7 @@ IJ_LOOT_NAME_81320 = "Crackling Zapper"
 
 -- Quest 40856
 IJ_QUEST_NAME_40856 = "Backup System Activation"
-IJ_QUEST_OBJECTIVE_40856 =
-"Activate the Alpha Channel Valve and the Reserve Pump Channel Lever deep within Gnomeregan for Master Technician Wirespanner in Dun Morogh."
+IJ_QUEST_OBJECTIVE_40856 = "Activate the Alpha Channel Valve and the Reserve Pump Channel Lever deep within Gnomeregan for Master Technician Wirespanner in Dun Morogh."
 IJ_NPC_NAME_61437 = "Master Technician Wirespanner"
 IJ_LOOT_NAME_61383 = "Intricate Gnomish Blunderbuss"
 IJ_LOOT_NAME_61384 = "Ionized Metal Grips"
@@ -6004,8 +5744,7 @@ IJ_LOOT_NAME_61385 = "Magnetic Band"
 
 -- Quest 40861
 IJ_QUEST_NAME_40861 = "High Energy Regulator"
-IJ_QUEST_OBJECTIVE_40861 =
-"Find the Schematic: High Energy Regulator within Gnomeregan and bring it to Weezan Littlegear at the Gnomeregan Reclamation Facility in Dun Morogh."
+IJ_QUEST_OBJECTIVE_40861 = "Find the Schematic: High Energy Regulator within Gnomeregan and bring it to Weezan Littlegear at the Gnomeregan Reclamation Facility in Dun Morogh."
 IJ_NPC_NAME_61441 = "Weezan Littlegear"
 IJ_LOOT_NAME_61393 = "Low Energy Regulator"
 
@@ -6023,8 +5762,7 @@ IJ_QUEST_OBJECTIVE_40503 = "Bring the Warchief's Response to Karfang at Karfang 
 
 -- Quest 40504
 IJ_QUEST_NAME_40504 = "Of New and Old IV"
-IJ_QUEST_OBJECTIVE_40504 =
-"Venture into the Hateforge Quarry, and remove the Twilight Hammer presence within for Karfang in Karfang Hold."
+IJ_QUEST_OBJECTIVE_40504 = "Venture into the Hateforge Quarry, and remove the Twilight Hammer presence within for Karfang in Karfang Hold."
 IJ_NPC_NAME_3144 = "Eitrigg"
 IJ_NPC_NAME_4949 = "Thrall"
 IJ_NPC_NAME_60770 = "Karfang"
@@ -6048,8 +5786,7 @@ IJ_LOOT_NAME_60774 = "Girdle of Galron"
 
 -- Quest 40486
 IJ_QUEST_NAME_40486 = "Investigating Hateforge"
-IJ_QUEST_OBJECTIVE_40486 =
-"Explore the entrance to Hateforge Quarry and return to Senator Granitebeard at Morgan's Vigil in Burning Steppes."
+IJ_QUEST_OBJECTIVE_40486 = "Explore the entrance to Hateforge Quarry and return to Senator Granitebeard at Morgan's Vigil in Burning Steppes."
 
 -- Quest 40487
 IJ_QUEST_NAME_40487 = "The Hateforge Report"
@@ -6061,8 +5798,7 @@ IJ_QUEST_OBJECTIVE_40488 = "Bring Magni's Authorization to Senator Gravelbelt at
 
 -- Quest 40489
 IJ_QUEST_NAME_40489 = "Assaulting Hateforge"
-IJ_QUEST_OBJECTIVE_40489 =
-"Venture into The Hateforge Quarry and remove the presence of the Twilight Hammer from deep within, when completed, return to King Magni Bronzebeard in Ironforge."
+IJ_QUEST_OBJECTIVE_40489 = "Venture into The Hateforge Quarry and remove the presence of the Twilight Hammer from deep within, when completed, return to King Magni Bronzebeard in Ironforge."
 IJ_NPC_NAME_2784 = "King Magni Bronzebeard"
 IJ_NPC_NAME_60869 = "Senator Granitebelt"
 IJ_LOOT_NAME_60694 = "Crown of Grobi"
@@ -6071,8 +5807,7 @@ IJ_LOOT_NAME_60696 = "Rubyheart Mallet"
 
 -- Quest 40490
 IJ_QUEST_NAME_40490 = "Rumors of Hateforge Brew"
-IJ_QUEST_OBJECTIVE_40490 =
-"Delve into the Hateforge Quarry and recover a Dark Iron Vial, and the Hateforge Chemistry Documents, then return to Varlag Duskbeard at Morgan's Vigil in Burning Steppes."
+IJ_QUEST_OBJECTIVE_40490 = "Delve into the Hateforge Quarry and recover a Dark Iron Vial, and the Hateforge Chemistry Documents, then return to Varlag Duskbeard at Morgan's Vigil in Burning Steppes."
 IJ_NPC_NAME_60870 = "Varlag Duskbeard"
 IJ_LOOT_NAME_2686 = "Thunder Ale"
 IJ_LOOT_NAME_60699 = "Varlag's Clutches"
@@ -6085,8 +5820,7 @@ IJ_NPC_NAME_2020110 = "Glimmering Shard"
 
 -- Quest 40463
 IJ_QUEST_NAME_40463 = "The True High Foreman"
-IJ_QUEST_OBJECTIVE_40463 =
-"Slay Bargul Blackhammer, and recover the Senate's Orders for Orvak Sternrock at the Blackrock Pass in Burning Steppes."
+IJ_QUEST_OBJECTIVE_40463 = "Slay Bargul Blackhammer, and recover the Senate's Orders for Orvak Sternrock at the Blackrock Pass in Burning Steppes."
 IJ_NPC_NAME_60833 = "Orvak Sternrock"
 IJ_NPC_NAME_60834 = "Radgan Deepblaze"
 IJ_LOOT_NAME_60665 = "Deepblaze Signet"
@@ -6103,18 +5837,15 @@ IJ_QUEST_OBJECTIVE_40460 = "Listen to Orvak Sternrock's Story."
 
 -- Quest 40461
 IJ_QUEST_NAME_40461 = "The Sternrock Stash"
-IJ_QUEST_OBJECTIVE_40461 =
-"Recover the Sternrock Stash and bring it to Orvak Sternrock at the Blackrock Pass in Burning Steppes."
+IJ_QUEST_OBJECTIVE_40461 = "Recover the Sternrock Stash and bring it to Orvak Sternrock at the Blackrock Pass in Burning Steppes."
 
 -- Quest 40462
 IJ_QUEST_NAME_40462 = "Miners Union Mutiny"
-IJ_QUEST_OBJECTIVE_40462 =
-"Slay 10 Hateforge Excavators at the Hateforge Excavation and return to Morgrim Firepike at Blackrock Pass in Burning Steppes."
+IJ_QUEST_OBJECTIVE_40462 = "Slay 10 Hateforge Excavators at the Hateforge Excavation and return to Morgrim Firepike at Blackrock Pass in Burning Steppes."
 
 -- Quest 40468
 IJ_QUEST_NAME_40468 = "Miners Union Mutiny II"
-IJ_QUEST_OBJECTIVE_40468 =
-"Slay 20 Hateforge Miners at the Hateforge Quarry and return to Morgrim Firepike at Blackrock Pass in Burning Steppes."
+IJ_QUEST_OBJECTIVE_40468 = "Slay 20 Hateforge Miners at the Hateforge Quarry and return to Morgrim Firepike at Blackrock Pass in Burning Steppes."
 IJ_NPC_NAME_60832 = "Morgrim Firepike"
 IJ_LOOT_NAME_60673 = "Cuffs of Justice"
 
@@ -6135,13 +5866,11 @@ IJ_LOOT_NAME_92045 = "Recipe: Empowering Herbal Salad"
 
 -- Quest 40304
 IJ_QUEST_NAME_40304 = "The Depths of Karazhan I"
-IJ_QUEST_OBJECTIVE_40304 =
-"Search for the Pendant of Ardan, rumored to be held by the ogre Var'zhog, collect it, and return to Kor'gan in Stonard."
+IJ_QUEST_OBJECTIVE_40304 = "Search for the Pendant of Ardan, rumored to be held by the ogre Var'zhog, collect it, and return to Kor'gan in Stonard."
 
 -- Quest 40305
 IJ_QUEST_NAME_40305 = "The Depths of Karazhan II"
-IJ_QUEST_OBJECTIVE_40305 =
-"Gather 8 Ghostly Substance from the ghosts around Karazhan, and return to Kor'gan at Stonard."
+IJ_QUEST_OBJECTIVE_40305 = "Gather 8 Ghostly Substance from the ghosts around Karazhan, and return to Kor'gan at Stonard."
 
 -- Quest 40306
 IJ_QUEST_NAME_40306 = "The Depths of Karazhan III"
@@ -6153,8 +5882,7 @@ IJ_QUEST_OBJECTIVE_40307 = "Return to Kor'gan in Stonard with the information gi
 
 -- Quest 40308
 IJ_QUEST_NAME_40308 = "The Depths of Karazhan V"
-IJ_QUEST_OBJECTIVE_40308 =
-"Gather the Old Crypt Key, and the Mark of Karazhan from around the ruins of Karazhan for Kor'gan in Stonard."
+IJ_QUEST_OBJECTIVE_40308 = "Gather the Old Crypt Key, and the Mark of Karazhan from around the ruins of Karazhan for Kor'gan in Stonard."
 
 -- Quest 40309
 IJ_QUEST_NAME_40309 = "The Depths of Karazhan VI"
@@ -6162,8 +5890,7 @@ IJ_QUEST_OBJECTIVE_40309 = "Wait for Kor'gan to reforge the Karazhan Crypt Key."
 
 -- Quest 40310
 IJ_QUEST_NAME_40310 = "The Depths of Karazhan VII"
-IJ_QUEST_OBJECTIVE_40310 =
-"Venture forth into the Karazhan Crypts, once inside slay Alarus, the watcher of the Crypts for Kor'gan in Stonard."
+IJ_QUEST_OBJECTIVE_40310 = "Venture forth into the Karazhan Crypts, once inside slay Alarus, the watcher of the Crypts for Kor'gan in Stonard."
 IJ_NPC_NAME_1497 = "Gunther Arcanus"
 IJ_NPC_NAME_60607 = "Kor'gan"
 IJ_LOOT_NAME_60459 = "Charged Arcane Ring"
@@ -6172,13 +5899,11 @@ IJ_LOOT_NAME_60461 = "Blackfire Orb"
 
 -- Quest 40311
 IJ_QUEST_NAME_40311 = "The Mystery of Karazhan I"
-IJ_QUEST_OBJECTIVE_40311 =
-"Search for the Pendant of Ardan, rumored to be held by the ogre Var'zhog, collect it, and return to Magus Ariden Dusktower in Deadwind Pass."
+IJ_QUEST_OBJECTIVE_40311 = "Search for the Pendant of Ardan, rumored to be held by the ogre Var'zhog, collect it, and return to Magus Ariden Dusktower in Deadwind Pass."
 
 -- Quest 40312
 IJ_QUEST_NAME_40312 = "The Mystery of Karazhan II"
-IJ_QUEST_OBJECTIVE_40312 =
-"Slay the ghosts around Karazhan and collect 8 Ghostly Substance for Magus Ariden Dusktower within Deadwind Pass."
+IJ_QUEST_OBJECTIVE_40312 = "Slay the ghosts around Karazhan and collect 8 Ghostly Substance for Magus Ariden Dusktower within Deadwind Pass."
 
 -- Quest 40313
 IJ_QUEST_NAME_40313 = "The Mystery of Karazhan III"
@@ -6190,8 +5915,7 @@ IJ_QUEST_OBJECTIVE_40314 = "Return to Ariden Dusktower with the information Ansi
 
 -- Quest 40315
 IJ_QUEST_NAME_40315 = "The Mystery of Karazhan V"
-IJ_QUEST_OBJECTIVE_40315 =
-"Slay Captain Rothynn to collect the Mark of Karazhan, and retrieve the Old Crypt Key from Groundskeeper Jacoby for Magus Ariden Dusktower in Deadwind Pass."
+IJ_QUEST_OBJECTIVE_40315 = "Slay Captain Rothynn to collect the Mark of Karazhan, and retrieve the Old Crypt Key from Groundskeeper Jacoby for Magus Ariden Dusktower in Deadwind Pass."
 
 -- Quest 40316
 IJ_QUEST_NAME_40316 = "The Mystery of Karazhan VI"
@@ -6200,8 +5924,7 @@ IJ_LOOT_NAME_51356 = "Karazhan Crypt Key"
 
 -- Quest 40317
 IJ_QUEST_NAME_40317 = "The Mystery of Karazhan VII"
-IJ_QUEST_OBJECTIVE_40317 =
-"Venture forth into the Karazhan Crypts, once inside slay Alarus, the watcher of the Crypts for Magus Ariden Dusktower in Deadwind Pass."
+IJ_QUEST_OBJECTIVE_40317 = "Venture forth into the Karazhan Crypts, once inside slay Alarus, the watcher of the Crypts for Magus Ariden Dusktower in Deadwind Pass."
 IJ_NPC_NAME_2543 = "Archmage Ansirem Runeweaver"
 IJ_NPC_NAME_60606 = "Magus Ariden Dusktower"
 IJ_LOOT_NAME_60463 = "Arcane Charged Pendant"
@@ -6218,18 +5941,15 @@ IJ_QUEST_OBJECTIVE_40506 = "Speak with Molk in Karfang Hold."
 
 -- Quest 40507
 IJ_QUEST_NAME_40507 = "Destroy All Traces..."
-IJ_QUEST_OBJECTIVE_40507 =
-"Recover the 'Garrison and Supply Documents' from Blackrock Stronghold and return to Karfang at Karfang Hold in Burning Steppes."
+IJ_QUEST_OBJECTIVE_40507 = "Recover the 'Garrison and Supply Documents' from Blackrock Stronghold and return to Karfang at Karfang Hold in Burning Steppes."
 
 -- Quest 40508
 IJ_QUEST_NAME_40508 = "Take No Chances"
-IJ_QUEST_OBJECTIVE_40508 =
-"Slay Raz'gol Deadtusk atop the Spire looming over The Pillar of Ash and bring The Deadtusk Blade to Karfang at Karfang Hold in Burning Steppes."
+IJ_QUEST_OBJECTIVE_40508 = "Slay Raz'gol Deadtusk atop the Spire looming over The Pillar of Ash and bring The Deadtusk Blade to Karfang at Karfang Hold in Burning Steppes."
 
 -- Quest 40509
 IJ_QUEST_NAME_40509 = "The Final Crack"
-IJ_QUEST_OBJECTIVE_40509 =
-"Slay Quartermaster Zigris deep in the Blackrock Spire for Karfang at Karfang Hold in Burning Steppes."
+IJ_QUEST_OBJECTIVE_40509 = "Slay Quartermaster Zigris deep in the Blackrock Spire for Karfang at Karfang Hold in Burning Steppes."
 IJ_NPC_NAME_60769 = "Molk"
 IJ_LOOT_NAME_60739 = "Tarnished Lancelot Ring"
 
@@ -6251,13 +5971,11 @@ IJ_LOOT_NAME_60719 = "Axe of Fargosh"
 
 -- Quest 40494
 IJ_QUEST_NAME_40494 = "The Firegut Task"
-IJ_QUEST_OBJECTIVE_40494 =
-"Slay 15 Firegut Ogres, 10 Firegut Ogre Mages, and 8 Firegut Brutes for Taskmaster Ok'gog at Karfang Hold in Burning Steppes."
+IJ_QUEST_OBJECTIVE_40494 = "Slay 15 Firegut Ogres, 10 Firegut Ogre Mages, and 8 Firegut Brutes for Taskmaster Ok'gog at Karfang Hold in Burning Steppes."
 
 -- Quest 40495
 IJ_QUEST_NAME_40495 = "Forest Troll Scum"
-IJ_QUEST_OBJECTIVE_40495 =
-"Kill War Master Voone in Lower Blackrock Spire and bring his tusks back to Taskmaster Ok'gog at Karfang Hold in Burning Steppes."
+IJ_QUEST_OBJECTIVE_40495 = "Kill War Master Voone in Lower Blackrock Spire and bring his tusks back to Taskmaster Ok'gog at Karfang Hold in Burning Steppes."
 IJ_NPC_NAME_60774 = "Taskmaster Ok'gog"
 IJ_LOOT_NAME_60715 = "Taskmaster Whip"
 
@@ -6271,13 +5989,11 @@ IJ_QUEST_OBJECTIVE_40756 = "Speak with Jabbey at Steamwheedle Port in Tanaris."
 
 -- Quest 40757
 IJ_QUEST_NAME_40757 = "Operation Help Jabbey"
-IJ_QUEST_OBJECTIVE_40757 =
-"Venture into Blackrock Depths, and recover the 'Extremely Potent Snuff' from Darneg Darkbeard near the Domicile, for Jabbey at Steamwheedle Port in Tanaris."
+IJ_QUEST_OBJECTIVE_40757 = "Venture into Blackrock Depths, and recover the 'Extremely Potent Snuff' from Darneg Darkbeard near the Domicile, for Jabbey at Steamwheedle Port in Tanaris."
 
 -- Quest 40758
 IJ_QUEST_NAME_40758 = "Operation Help Jabbey 2"
-IJ_QUEST_OBJECTIVE_40758 =
-"Venture to Eastern Plaguelands and gather a 'Blighted Essence' from Blighted Horrors for Jabbey at Steamwheedle Port in Tanaris."
+IJ_QUEST_OBJECTIVE_40758 = "Venture to Eastern Plaguelands and gather a 'Blighted Essence' from Blighted Horrors for Jabbey at Steamwheedle Port in Tanaris."
 
 -- Quest 40759
 IJ_QUEST_NAME_40759 = "Operation Return to Screwfuse"
@@ -6285,43 +6001,36 @@ IJ_QUEST_OBJECTIVE_40759 = "Bring Bixxle's Expensive Parts to Bixxle Screwfuse a
 
 -- Quest 40760
 IJ_QUEST_NAME_40760 = "Operation Final Repairs"
-IJ_QUEST_OBJECTIVE_40760 =
-"Gather 6 Thorium Bars, 1 Gold Power Core, 1 Fused Wiring, and 1 Thorium Widget for Bixxle Screwfuse at Bixxle's Storehouse in Tel'Abim."
+IJ_QUEST_OBJECTIVE_40760 = "Gather 6 Thorium Bars, 1 Gold Power Core, 1 Fused Wiring, and 1 Thorium Widget for Bixxle Screwfuse at Bixxle's Storehouse in Tel'Abim."
 IJ_LOOT_NAME_60996 = "Bixxle's Necklace of Control"
 IJ_LOOT_NAME_60997 = "Bixxle's Necklace of Mastery"
 
 -- Quest 40761
 IJ_QUEST_NAME_40761 = "Secrets of the Dark Iron Desecrator"
-IJ_QUEST_OBJECTIVE_40761 =
-"Collect the Plans for the Dark Iron Desecrator from Gelwig Darkbrow at Steamwheedle Port, once they are acquired, return to Bixxle Screwfuse"
+IJ_QUEST_OBJECTIVE_40761 = "Collect the Plans for the Dark Iron Desecrator from Gelwig Darkbrow at Steamwheedle Port, once they are acquired, return to Bixxle Screwfuse"
 
 -- Quest 40762
 IJ_QUEST_NAME_40762 = "The Dark Iron Desecrator"
-IJ_QUEST_OBJECTIVE_40762 =
-"Collect a Dark Iron Rifle, a Magma Condensor, a Intricate Arcanite Barrel and a Molten Fragment for Bixxle Screwfuse at Bixxle's Storehouse in Tel'Abim."
+IJ_QUEST_OBJECTIVE_40762 = "Collect a Dark Iron Rifle, a Magma Condensor, a Intricate Arcanite Barrel and a Molten Fragment for Bixxle Screwfuse at Bixxle's Storehouse in Tel'Abim."
 IJ_NPC_NAME_61101 = "Bixxle Screwfuse"
 IJ_NPC_NAME_8139 = "Jabbey"
 IJ_LOOT_NAME_61068 = "Dark Iron Desecrator"
 
 -- Quest 40993
 IJ_QUEST_NAME_40993 = "Through Greater Magic"
-IJ_QUEST_OBJECTIVE_40993 =
-"Find the Eye of Xythos in Desolace, then return to Dark Bishop Mordren at Stillward Church in Gilneas."
+IJ_QUEST_OBJECTIVE_40993 = "Find the Eye of Xythos in Desolace, then return to Dark Bishop Mordren at Stillward Church in Gilneas."
 
 -- Quest 40994
 IJ_QUEST_NAME_40994 = "The Ravenwood Scepter"
-IJ_QUEST_OBJECTIVE_40994 =
-"Retrieve the Ravenwood Scepter from Ravenwood Keep for Dark Bishop Mordren in Stillward Chuch."
+IJ_QUEST_OBJECTIVE_40994 = "Retrieve the Ravenwood Scepter from Ravenwood Keep for Dark Bishop Mordren in Stillward Chuch."
 
 -- Quest 40995
 IJ_QUEST_NAME_40995 = "The Powers Beyond"
-IJ_QUEST_OBJECTIVE_40995 =
-"Venture into Razorfen Downs, slay Amnennar the Coldbringer and retrieve his phylactery for Dark Bishop Mordren at Stillward Church in Gilneas."
+IJ_QUEST_OBJECTIVE_40995 = "Venture into Razorfen Downs, slay Amnennar the Coldbringer and retrieve his phylactery for Dark Bishop Mordren at Stillward Church in Gilneas."
 
 -- Quest 41758
 IJ_QUEST_NAME_41758 = "Tainted Brambleheart"
-IJ_QUEST_OBJECTIVE_41758 =
-"Destroy the living embodiment of natural corruption within the depths of Razorfen Kraul, and bring the Tainted Brambleheart to Kym Wildmane in Thunderbluff."
+IJ_QUEST_OBJECTIVE_41758 = "Destroy the living embodiment of natural corruption within the depths of Razorfen Kraul, and bring the Tainted Brambleheart to Kym Wildmane in Thunderbluff."
 IJ_NPC_NAME_3036 = "Kym Wildmane"
 IJ_LOOT_NAME_41854 = "Wildbranch Leggings"
 IJ_LOOT_NAME_41855 = "Fenweave Gloves"
@@ -6332,8 +6041,7 @@ IJ_QUEST_OBJECTIVE_41380 = "Find Magatha Grimtotem and seek her counsel."
 
 -- Quest 41381
 IJ_QUEST_NAME_41381 = "The Wolf, the Crone and the Scythe"
-IJ_QUEST_OBJECTIVE_41381 =
-"Gather worgen blood for Magatha Grimtotem. She requires blood samples from Karazhan, Gilneas City and Shadowfang Keep."
+IJ_QUEST_OBJECTIVE_41381 = "Gather worgen blood for Magatha Grimtotem. She requires blood samples from Karazhan, Gilneas City and Shadowfang Keep."
 
 -- Quest 41062
 IJ_QUEST_NAME_41062 = "Scythe of the Goddess"
@@ -6370,8 +6078,7 @@ IJ_QUEST_OBJECTIVE_41377 = "Find Arch Druid Staghelm in Darnassus and seek his c
 
 -- Quest 41378
 IJ_QUEST_NAME_41378 = "Blood of Vorgendor"
-IJ_QUEST_OBJECTIVE_41378 =
-"Gather worgen blood for Fandral Staghelm. He requires blood samples from Karazhan, Gilneas City and Shadowfang Keep."
+IJ_QUEST_OBJECTIVE_41378 = "Gather worgen blood for Fandral Staghelm. He requires blood samples from Karazhan, Gilneas City and Shadowfang Keep."
 
 -- Quest 41364
 IJ_QUEST_NAME_41364 = "To Guard the Undead"
@@ -6403,16 +6110,14 @@ IJ_QUEST_OBJECTIVE_40280 = "Take the Box and letter to Pierce Shackleton in the 
 
 -- Quest 40281
 IJ_QUEST_NAME_40281 = "Into The Jaws"
-IJ_QUEST_OBJECTIVE_40281 =
-"Find Melenas' Belongings in the Shadowfang Keep Library and return them to Pierce Shackleton in the Undercity."
+IJ_QUEST_OBJECTIVE_40281 = "Find Melenas' Belongings in the Shadowfang Keep Library and return them to Pierce Shackleton in the Undercity."
 IJ_NPC_NAME_4567 = "Pierce Shackleton"
 IJ_NPC_NAME_91712 = "Duke Nargelas"
 IJ_NPC_NAME_91753 = "Vathras Millson"
 
 -- Quest 41279
 IJ_QUEST_NAME_41279 = "The Lifeblood"
-IJ_QUEST_OBJECTIVE_41279 =
-"Search for the auburn giant east of the Ruins of Corthan and return to Thegren with your findings."
+IJ_QUEST_OBJECTIVE_41279 = "Search for the auburn giant east of the Ruins of Corthan and return to Thegren with your findings."
 IJ_LOOT_NAME_70156 = "Plans: Sharpened Citrine Gemstone"
 IJ_LOOT_NAME_70157 = "Plans: Radiant Ember Gemstone"
 IJ_LOOT_NAME_70158 = "Plans: Glowing Ruby Gemstone"
@@ -6423,8 +6128,7 @@ IJ_QUEST_OBJECTIVE_41280 = "Complete Thegren's test of craftsmanship and present
 
 -- Quest 41281
 IJ_QUEST_NAME_41281 = "Preparation"
-IJ_QUEST_OBJECTIVE_41281 =
-"Recover a slab of Landslide's body from Maraudon and bring it to Thegren near the Ruins of Corthan in the Badlands."
+IJ_QUEST_OBJECTIVE_41281 = "Recover a slab of Landslide's body from Maraudon and bring it to Thegren near the Ruins of Corthan in the Badlands."
 IJ_NPC_NAME_73102 = "Thegren"
 
 -- Quest 41140
@@ -6433,21 +6137,18 @@ IJ_QUEST_OBJECTIVE_41140 = "Gather 15 Etched Mithril Shards for Brok Thunderforg
 
 -- Quest 41141
 IJ_QUEST_NAME_41141 = "I've Read It In A Book Once"
-IJ_QUEST_OBJECTIVE_41141 =
-"Sindri Thunderforge needs samples of mountain giants for his creation. He specifically mentioned the ones living in Feralas."
+IJ_QUEST_OBJECTIVE_41141 = "Sindri Thunderforge needs samples of mountain giants for his creation. He specifically mentioned the ones living in Feralas."
 
 -- Quest 41142
 IJ_QUEST_NAME_41142 = "Why Not Both?"
-IJ_QUEST_OBJECTIVE_41142 =
-"Obtain the Heart of Landslide from the depths of Maraudon, and the Essence of Corrosis from Hateforge Quarry for Frig Thunderforge at Aerie Peak"
+IJ_QUEST_OBJECTIVE_41142 = "Obtain the Heart of Landslide from the depths of Maraudon, and the Essence of Corrosis from Hateforge Quarry for Frig Thunderforge at Aerie Peak"
 IJ_NPC_NAME_61756 = "Brok Thunderforge"
 IJ_NPC_NAME_61757 = "Sindri Thunderforge"
 IJ_NPC_NAME_61758 = "Frig Thunderforge"
 
 -- Quest 41050
 IJ_QUEST_NAME_41050 = "Cleansing the Roost"
-IJ_QUEST_OBJECTIVE_41050 =
-"Slay 8 Dunebound Chimaera and 8 Venomlash Chimaera for Velos Sharpstrike at Chimaera Roost Vale in Feralas."
+IJ_QUEST_OBJECTIVE_41050 = "Slay 8 Dunebound Chimaera and 8 Venomlash Chimaera for Velos Sharpstrike at Chimaera Roost Vale in Feralas."
 
 -- Quest 41051
 IJ_QUEST_NAME_41051 = "Feeding the Younglings"
@@ -6455,8 +6156,7 @@ IJ_QUEST_OBJECTIVE_41051 = "Bring 20 Chunks of Hippogryph Meat to Velos Sharpstr
 
 -- Quest 41052
 IJ_QUEST_NAME_41052 = "Harness of Chimaeran"
-IJ_QUEST_OBJECTIVE_41052 =
-"Retrieve the Harness of Chimaeran from Maraudon and bring it back to Velos Sharpstrike at Chimaera Roost Vale in Feralas."
+IJ_QUEST_OBJECTIVE_41052 = "Retrieve the Harness of Chimaeran from Maraudon and bring it back to Velos Sharpstrike at Chimaera Roost Vale in Feralas."
 IJ_NPC_NAME_61588 = "Velos Sharpstrike"
 IJ_LOOT_NAME_61517 = "Chimaera's Eye"
 
@@ -6469,13 +6169,11 @@ IJ_LOOT_NAME_7965 = "Solid Weightstone"
 
 -- Quest 40934
 IJ_QUEST_NAME_40934 = "Allies Against Undeath"
-IJ_QUEST_OBJECTIVE_40934 =
-"Slay 7 Lingering Skeletons and 7 Shambling Dead for Brother Elias at Shademore Tavern in Gilneas."
+IJ_QUEST_OBJECTIVE_40934 = "Slay 7 Lingering Skeletons and 7 Shambling Dead for Brother Elias at Shademore Tavern in Gilneas."
 
 -- Quest 40935
 IJ_QUEST_NAME_40935 = "Scarlet Corruption"
-IJ_QUEST_OBJECTIVE_40935 =
-"Discover the truth about the fate of High Inquisitor Fairbanks for Brother Elias at Shademore Tavern in Gilneas."
+IJ_QUEST_OBJECTIVE_40935 = "Discover the truth about the fate of High Inquisitor Fairbanks for Brother Elias at Shademore Tavern in Gilneas."
 IJ_NPC_NAME_61387 = "Brother Elias"
 IJ_LOOT_NAME_61478 = "Ring of Holy Sacrament"
 
@@ -6489,13 +6187,11 @@ IJ_QUEST_OBJECTIVE_40231 = "Take the Forgotten Tome to Archbishop Benedictus in 
 
 -- Quest 40232
 IJ_QUEST_NAME_40232 = "Returning to Janathos"
-IJ_QUEST_OBJECTIVE_40232 =
-"Deliver the Scroll of Blessing to Watch Paladin Janathos at Sorrowguard Keep in Swamp of Sorrows."
+IJ_QUEST_OBJECTIVE_40232 = "Deliver the Scroll of Blessing to Watch Paladin Janathos at Sorrowguard Keep in Swamp of Sorrows."
 
 -- Quest 40233
 IJ_QUEST_NAME_40233 = "The Orb of Kaladus"
-IJ_QUEST_OBJECTIVE_40233 =
-"Venture within the Scarlet Monastery and find the Orb of Kaladus, retrieve it, and return to Watch Paladin Janathos at Sorrowguard Keep."
+IJ_QUEST_OBJECTIVE_40233 = "Venture within the Scarlet Monastery and find the Orb of Kaladus, retrieve it, and return to Watch Paladin Janathos at Sorrowguard Keep."
 IJ_NPC_NAME_1284 = "Archbishop Benedictus"
 IJ_NPC_NAME_92017 = "Watch Paladin Janathos"
 IJ_LOOT_NAME_60316 = "Truthkeeper Mantle"
@@ -6508,8 +6204,7 @@ IJ_QUEST_OBJECTIVE_60117 = "Speak to Deathguard Burgess in Brill."
 
 -- Quest 60116
 IJ_QUEST_NAME_60116 = "Paint the Roses Red"
-IJ_QUEST_OBJECTIVE_60116 =
-"Eliminate the Scarlet forces outside the Scarlet Monastery, then return to Deathguard Burgess in Brill."
+IJ_QUEST_OBJECTIVE_60116 = "Eliminate the Scarlet forces outside the Scarlet Monastery, then return to Deathguard Burgess in Brill."
 IJ_NPC_NAME_1652 = "Deathguard Burgess"
 IJ_NPC_NAME_6741 = "Innkeeper Norman"
 IJ_LOOT_NAME_51832 = "Nathrezim Wedge"
@@ -6538,8 +6233,7 @@ IJ_QUEST_OBJECTIVE_41321 = "Bring Akh Z'ador in Azshara three Siren Brains for h
 
 -- Quest 41322
 IJ_QUEST_NAME_41322 = "Rift Fatigue: Body"
-IJ_QUEST_OBJECTIVE_41322 =
-"Akh Z'ador in Azshara requires herbs from the furbolgs to the west and flesh of the makrura to the east."
+IJ_QUEST_OBJECTIVE_41322 = "Akh Z'ador in Azshara requires herbs from the furbolgs to the west and flesh of the makrura to the east."
 
 -- Quest 41323
 IJ_QUEST_NAME_41323 = "The Riftwalker's Cane"
@@ -6558,7 +6252,7 @@ IJ_QUEST_OBJECTIVE_40958 = "Bring three Nightmare Effigies to Ralathius in Norda
 -- Quest 40959
 IJ_QUEST_NAME_40959 = "Into the Dream III"
 IJ_QUEST_OBJECTIVE_40959 =
-"Gather a Binding Fragment from Cliff Breakers in Azshara, Overloaded Arcane Prism from Arcane Torrents in the Western wing of Dire Maul and a Slumberer's Shard from Weaver in the Sunken Temple. Report to Itharius in the Swamp of Sorrows with the collected items."
+    "Gather a Binding Fragment from Cliff Breakers in Azshara, Overloaded Arcane Prism from Arcane Torrents in the Western wing of Dire Maul and a Slumberer's Shard from Weaver in the Sunken Temple. Report to Itharius in the Swamp of Sorrows with the collected items."
 IJ_NPC_NAME_5353 = "Itharius"
 
 -- Quest 40264
@@ -6567,13 +6261,11 @@ IJ_QUEST_OBJECTIVE_40264 = "Convince Lord Cruk'Zogg to end his foolhardy aggresi
 
 -- Quest 40265
 IJ_QUEST_NAME_40265 = "The Maul'ogg Crisis II"
-IJ_QUEST_OBJECTIVE_40265 =
-"Gather 10 Basilisk Eyes, 6 Crawler Pincers and 3 Deepsnap Tails for Haz'gorg the Great Seer in Maul'ogg Refuge."
+IJ_QUEST_OBJECTIVE_40265 = "Gather 10 Basilisk Eyes, 6 Crawler Pincers and 3 Deepsnap Tails for Haz'gorg the Great Seer in Maul'ogg Refuge."
 
 -- Quest 40266
 IJ_QUEST_NAME_40266 = "The Maul'ogg Crisis III"
-IJ_QUEST_OBJECTIVE_40266 =
-"Speak with Seer Bol'ukk at the Gor'dosh Heights, and return to Haz'gorg the Great Seer with information."
+IJ_QUEST_OBJECTIVE_40266 = "Speak with Seer Bol'ukk at the Gor'dosh Heights, and return to Haz'gorg the Great Seer with information."
 
 -- Quest 40267
 IJ_QUEST_NAME_40267 = "The Maul'ogg Crisis IV"
@@ -6589,8 +6281,7 @@ IJ_QUEST_OBJECTIVE_40269 = "Obtain a Gorilla Ligment from Un'goro Crater and ret
 
 -- Quest 40270
 IJ_QUEST_NAME_40270 = "The Maul'ogg Crisis VII"
-IJ_QUEST_OBJECTIVE_40270 =
-"Venture into the depths of the Temple of Atal'Hakkar and gather the Atal'ai Rod, bring it to Insom'ni to finish the spell."
+IJ_QUEST_OBJECTIVE_40270 = "Venture into the depths of the Temple of Atal'Hakkar and gather the Atal'ai Rod, bring it to Insom'ni to finish the spell."
 IJ_NPC_NAME_60446 = "Insom'ni"
 IJ_NPC_NAME_92184 = "Haz'gorg the Great Seer"
 
@@ -6604,13 +6295,11 @@ IJ_QUEST_OBJECTIVE_40398 = "Hunt down the Satyr Pustax, and return his head to N
 
 -- Quest 40399
 IJ_QUEST_NAME_40399 = "By Any Means Necessary III"
-IJ_QUEST_OBJECTIVE_40399 =
-"Venture deep within the Shadowhold in Jaedenar, slay Ulathek, and return the Gemstone of Salthax to Niremius Darkwind in Felwood."
+IJ_QUEST_OBJECTIVE_40399 = "Venture deep within the Shadowhold in Jaedenar, slay Ulathek, and return the Gemstone of Salthax to Niremius Darkwind in Felwood."
 
 -- Quest 40400
 IJ_QUEST_NAME_40400 = "By Any Means Necessary IV"
-IJ_QUEST_OBJECTIVE_40400 =
-"Travel to the Sunken Temple, and find the Dragonkin Hazzas, slay him, and return the Heart of Hazzas to Niremius Darkwind."
+IJ_QUEST_OBJECTIVE_40400 = "Travel to the Sunken Temple, and find the Dragonkin Hazzas, slay him, and return the Heart of Hazzas to Niremius Darkwind."
 IJ_NPC_NAME_60710 = "Niremius Darkwind"
 
 -- Quest 55215
@@ -6639,8 +6328,7 @@ IJ_QUEST_OBJECTIVE_55220 = "Deliver Robb Dursley's Sealed Report to Master Mathi
 
 -- Quest 55221
 IJ_QUEST_NAME_55221 = "The Stockade Search"
-IJ_QUEST_OBJECTIVE_55221 =
-"Delve into the Stockades and find information on Martin Corinth. Report your findings to Mathias Shaw."
+IJ_QUEST_OBJECTIVE_55221 = "Delve into the Stockades and find information on Martin Corinth. Report your findings to Mathias Shaw."
 IJ_NPC_NAME_332 = "Master Mathias Shaw"
 IJ_NPC_NAME_52006 = "Robb Dursley"
 IJ_NPC_NAME_52021 = "Poppy Zabini"
@@ -6653,13 +6341,11 @@ IJ_QUEST_OBJECTIVE_40817 = "Listen to the story of Lord Ebonlocke."
 
 -- Quest 40818
 IJ_QUEST_NAME_40818 = "The Key to Karazhan II"
-IJ_QUEST_OBJECTIVE_40818 =
-"Kill Moroes and retrieve the Key to the Upper Chambers. Moroes resides in Lower Karazhan Halls. Bring back the key to Lord Ebonlocke."
+IJ_QUEST_OBJECTIVE_40818 = "Kill Moroes and retrieve the Key to the Upper Chambers. Moroes resides in Lower Karazhan Halls. Bring back the key to Lord Ebonlocke."
 
 -- Quest 40819
 IJ_QUEST_NAME_40819 = "The Key to Karazhan III"
-IJ_QUEST_OBJECTIVE_40819 =
-"Find someone from the Kirin Tor who might know something about Vandol. Dalaran could be a good place to start your search."
+IJ_QUEST_OBJECTIVE_40819 = "Find someone from the Kirin Tor who might know something about Vandol. Dalaran could be a good place to start your search."
 
 -- Quest 40820
 IJ_QUEST_NAME_40820 = "The Key to Karazhan IV"
@@ -6667,8 +6353,7 @@ IJ_QUEST_OBJECTIVE_40820 = "Ask Magus Hallister in Theramore for the whereabouts
 
 -- Quest 40822
 IJ_QUEST_NAME_40822 = "The Key to Karazhan III"
-IJ_QUEST_OBJECTIVE_40822 =
-"Find someone from Kirin Tor who might know something about Vandol. Undercity could be a good place to start your search."
+IJ_QUEST_OBJECTIVE_40822 = "Find someone from Kirin Tor who might know something about Vandol. Undercity could be a good place to start your search."
 
 -- Quest 40823
 IJ_QUEST_NAME_40823 = "The Key to Karazhan IV"
@@ -6692,8 +6377,7 @@ IJ_QUEST_OBJECTIVE_40825 = "Listen to Vandol's story."
 
 -- Quest 40826
 IJ_QUEST_NAME_40826 = "The Key to Karazhan VII"
-IJ_QUEST_OBJECTIVE_40826 =
-"Find four Echoes of Medivh. They might be found in places of great significance for the mage. Then return to Dolvan with the key."
+IJ_QUEST_OBJECTIVE_40826 = "Find four Echoes of Medivh. They might be found in places of great significance for the mage. Then return to Dolvan with the key."
 IJ_NPC_NAME_4926 = "Krog"
 
 -- Quest 40998
@@ -6715,7 +6399,7 @@ IJ_QUEST_OBJECTIVE_80398 = "Find Someone who can figure out what to do with the 
 -- Quest 80401
 IJ_QUEST_NAME_80401 = "To Build a Pounder"
 IJ_QUEST_OBJECTIVE_80401 =
-"Acquire Thorium Tuned Servo from the Scarlet Monastery's Armory, obtain the Perfect Golem Core in the Blackrocks Depths from Golem Lord Argelmach, find the Adamantite Rod in Stratholme. Return to Oglethorpe Obnoticus."
+    "Acquire Thorium Tuned Servo from the Scarlet Monastery's Armory, obtain the Perfect Golem Core in the Blackrocks Depths from Golem Lord Argelmach, find the Adamantite Rod in Stratholme. Return to Oglethorpe Obnoticus."
 IJ_NPC_NAME_7406 = "Oglethorpe Obnoticus"
 IJ_LOOT_NAME_81275 = "Intact Pounder Mainframe"
 IJ_LOOT_NAME_81253 = "Reinforced Red Pounder"
@@ -6725,8 +6409,7 @@ IJ_LOOT_NAME_81250 = "Reinforced Black Pounder"
 
 -- Quest 40425
 IJ_QUEST_NAME_40425 = "The Tome of Arcane Intricacies and Magical Phenomenon IX"
-IJ_QUEST_OBJECTIVE_40425 =
-"Recover the Tome of Arcane Intricacies and Magical Phenomenon IX for Mazen Mac'Nadir in Stormwind."
+IJ_QUEST_OBJECTIVE_40425 = "Recover the Tome of Arcane Intricacies and Magical Phenomenon IX for Mazen Mac'Nadir in Stormwind."
 IJ_NPC_NAME_338 = "Mazen Mac'Nadir"
 IJ_LOOT_NAME_60622 = "Ring of the Academy"
 
@@ -6753,8 +6436,7 @@ IJ_NPC_NAME_62007 = "Al'Dorel"
 
 -- Quest 40427
 IJ_QUEST_NAME_40427 = "Ending Arc'Tiras"
-IJ_QUEST_OBJECTIVE_40427 =
-"Venture deep within The Stormwind Vault, find Arc'tiras, and slay him. When done, return to Pepin Ainsworth."
+IJ_QUEST_OBJECTIVE_40427 = "Venture deep within The Stormwind Vault, find Arc'tiras, and slay him. When done, return to Pepin Ainsworth."
 IJ_NPC_NAME_80451 = "Koli Steamheart"
 IJ_LOOT_NAME_60624 = "Goldplated Royal Crossbow"
 IJ_LOOT_NAME_60625 = "Golden Gauntlets of Stormwind"
@@ -6762,8 +6444,7 @@ IJ_LOOT_NAME_60626 = "Regal Goldthreaded Sash"
 
 -- Quest 40426
 IJ_QUEST_NAME_40426 = "Recovering Vault Shackles"
-IJ_QUEST_OBJECTIVE_40426 =
-"Within the Stormwind Vault, slay Runic Constructs for 2 Runic Shackles, return them to Koli Steamheart."
+IJ_QUEST_OBJECTIVE_40426 = "Within the Stormwind Vault, slay Runic Constructs for 2 Runic Shackles, return them to Koli Steamheart."
 IJ_NPC_NAME_80450 = "Pepin Ainsworth"
 
 -- Quest 544
@@ -6781,23 +6462,19 @@ IJ_LOOT_NAME_58278 = "Ring of Judgement"
 
 -- Quest 41830
 IJ_QUEST_NAME_41830 = "Deep in the Mines"
-IJ_QUEST_OBJECTIVE_41830 =
-"Slay 5 Stormreaver Necromancer, 8 Foul Overseer and 8 Spikebone Miner and return to Kilrogg Deadeye in Stormbreaker Point."
+IJ_QUEST_OBJECTIVE_41830 = "Slay 5 Stormreaver Necromancer, 8 Foul Overseer and 8 Spikebone Miner and return to Kilrogg Deadeye in Stormbreaker Point."
 
 -- Quest 41831
 IJ_QUEST_NAME_41831 = "Mere Thoughts"
-IJ_QUEST_OBJECTIVE_41831 =
-"Slay 5 Stormreaver Outrunner, 10 Stormreaver Ravager, 5 Stormreaver Drone, 5 Stormreaver Raider and return to Kilrogg Deadeye in Stormbreaker Point."
+IJ_QUEST_OBJECTIVE_41831 = "Slay 5 Stormreaver Outrunner, 10 Stormreaver Ravager, 5 Stormreaver Drone, 5 Stormreaver Raider and return to Kilrogg Deadeye in Stormbreaker Point."
 
 -- Quest 41832
 IJ_QUEST_NAME_41832 = "Colony of Ants"
-IJ_QUEST_OBJECTIVE_41832 =
-"Slay 6 Stormreaver Brute, 6 Stormreaver Torturer, 4 Stormreaver Shadowcaller, 2 Stormreaver Stormblade and return to Kilrogg Deadeye in Stormbreaker Point."
+IJ_QUEST_OBJECTIVE_41832 = "Slay 6 Stormreaver Brute, 6 Stormreaver Torturer, 4 Stormreaver Shadowcaller, 2 Stormreaver Stormblade and return to Kilrogg Deadeye in Stormbreaker Point."
 
 -- Quest 41833
 IJ_QUEST_NAME_41833 = "It Can't Rain All the Time"
-IJ_QUEST_OBJECTIVE_41833 =
-"Slay Dagar the Glutton, Oronok Torn-Heart, Ighal'for and return to Kilrogg Deadeye in Stormbreaker Point."
+IJ_QUEST_OBJECTIVE_41833 = "Slay Dagar the Glutton, Oronok Torn-Heart, Ighal'for and return to Kilrogg Deadeye in Stormbreaker Point."
 IJ_NPC_NAME_62590 = "Kilrogg Deadeye"
 
 -- Quest 41727
@@ -6806,29 +6483,24 @@ IJ_QUEST_OBJECTIVE_41727 = "Gather 5 Vials of Entranced Blood for Far Seer Motha
 
 -- Quest 41728
 IJ_QUEST_NAME_41728 = "Natural Remedies"
-IJ_QUEST_OBJECTIVE_41728 =
-"Gather Lingering Fel Energy from the demons in Desolace, and a Crystal Spine Scale from the basilisks in Stranglethorn Vale for Far Seer Mothang at Shatterblade Post in Grim Reaches."
+IJ_QUEST_OBJECTIVE_41728 = "Gather Lingering Fel Energy from the demons in Desolace, and a Crystal Spine Scale from the basilisks in Stranglethorn Vale for Far Seer Mothang at Shatterblade Post in Grim Reaches."
 
 -- Quest 41729
 IJ_QUEST_NAME_41729 = "Dark Essence"
-IJ_QUEST_OBJECTIVE_41729 =
-"Recover a Dark Essence from the ghosts of The Grim Hollow for Far Seer Mothang at Shatterblade Post in Grim Reaches."
+IJ_QUEST_OBJECTIVE_41729 = "Recover a Dark Essence from the ghosts of The Grim Hollow for Far Seer Mothang at Shatterblade Post in Grim Reaches."
 
 -- Quest 41730
 IJ_QUEST_NAME_41730 = "The Power of Uth'okk"
-IJ_QUEST_OBJECTIVE_41730 =
-"Slay Oronok Torn-Heart and recover the Pendant of Uth'okk from Stormwrought Ruins for Far Seer Mothang at Shatterblade Post in Grim Reaches."
+IJ_QUEST_OBJECTIVE_41730 = "Slay Oronok Torn-Heart and recover the Pendant of Uth'okk from Stormwrought Ruins for Far Seer Mothang at Shatterblade Post in Grim Reaches."
 IJ_NPC_NAME_62432 = "Far Seer Mothang"
 
 -- Quest 41823
 IJ_QUEST_NAME_41823 = "Living Fungus"
-IJ_QUEST_OBJECTIVE_41823 =
-"Collect 7 Vegetative Sample from the Poisonous and Living Mushroom Beasts and return to Uda'pe Sungrass in Stormbreaker Point in Balor."
+IJ_QUEST_OBJECTIVE_41823 = "Collect 7 Vegetative Sample from the Poisonous and Living Mushroom Beasts and return to Uda'pe Sungrass in Stormbreaker Point in Balor."
 
 -- Quest 41824
 IJ_QUEST_NAME_41824 = "Mycellakos"
-IJ_QUEST_OBJECTIVE_41824 =
-"Slay Mycellakos and bring back Core of Mycellakos back to Uda'pe Sungrass in Stormbreaker Point."
+IJ_QUEST_OBJECTIVE_41824 = "Slay Mycellakos and bring back Core of Mycellakos back to Uda'pe Sungrass in Stormbreaker Point."
 IJ_NPC_NAME_62588 = "Uda'pe Sungrass"
 
 -- Quest 41821
@@ -6838,8 +6510,7 @@ IJ_NPC_NAME_62586 = "O'jin"
 
 -- Quest 41840
 IJ_QUEST_NAME_41840 = "All That Is Left"
-IJ_QUEST_OBJECTIVE_41840 =
-"Bring the wooden toy sword to someone that knew its owner. You may have luck in Northwind, where all of this started."
+IJ_QUEST_OBJECTIVE_41840 = "Bring the wooden toy sword to someone that knew its owner. You may have luck in Northwind, where all of this started."
 IJ_NPC_NAME_62489 = "Judith Flenning"
 IJ_LOOT_NAME_41938 = "Etched Toy Sword"
 
@@ -6867,8 +6538,7 @@ IJ_QUEST_OBJECTIVE_41693 = "Search for more clues at Sorrowmore Lake on Balor."
 
 -- Quest 41694
 IJ_QUEST_NAME_41694 = "To The Darkest Places"
-IJ_QUEST_OBJECTIVE_41694 =
-"Find Agent Deryl's comrades and potential information about your enemies using the clues he gave you. Return to Verona Gillian at the SI:7 Outpost on Balor afterwards."
+IJ_QUEST_OBJECTIVE_41694 = "Find Agent Deryl's comrades and potential information about your enemies using the clues he gave you. Return to Verona Gillian at the SI:7 Outpost on Balor afterwards."
 IJ_LOOT_NAME_58062 = "Half-dissolved Wedding Ring"
 IJ_LOOT_NAME_58063 = "Pantaloons of Torture"
 
@@ -6882,8 +6552,7 @@ IJ_QUEST_OBJECTIVE_41696 = "Acquire Stormreaver Writings for Noppsy Spickerspan 
 
 -- Quest 41697
 IJ_QUEST_NAME_41697 = "Demons Galore"
-IJ_QUEST_OBJECTIVE_41697 =
-"Clear out the demons in the cave on the western side of Balor for Nippsy Spickerspan at the SI:7 Outpost."
+IJ_QUEST_OBJECTIVE_41697 = "Clear out the demons in the cave on the western side of Balor for Nippsy Spickerspan at the SI:7 Outpost."
 IJ_LOOT_NAME_58064 = "Harelyss' Whip"
 
 -- Quest 41698
@@ -6897,15 +6566,13 @@ IJ_QUEST_OBJECTIVE_41699 = "Give Verona Gillian on Balor the report by Noppsy Sp
 
 -- Quest 41761
 IJ_QUEST_NAME_41761 = "Into The Hornet's Nest"
-IJ_QUEST_OBJECTIVE_41761 =
-"Infiltrate Stormwrought Castle on Balor and find out who is conspiring with the Stormreaver orcs. Report to Verona Gillian in the SI:7 Outpost on Balor when done."
+IJ_QUEST_OBJECTIVE_41761 = "Infiltrate Stormwrought Castle on Balor and find out who is conspiring with the Stormreaver orcs. Report to Verona Gillian in the SI:7 Outpost on Balor when done."
 IJ_LOOT_NAME_58065 = "Clasps of Subterfuge"
 IJ_LOOT_NAME_58066 = "Seabreeze Mantle"
 
 -- Quest 41843
 IJ_QUEST_NAME_41843 = "Assassin In Training"
-IJ_QUEST_OBJECTIVE_41843 =
-"Thin out the chain of command within Stormwrought Ruins and return to Nippsy Spickerspan in the SI:7 Outpost on Balor."
+IJ_QUEST_OBJECTIVE_41843 = "Thin out the chain of command within Stormwrought Ruins and return to Nippsy Spickerspan in the SI:7 Outpost on Balor."
 IJ_NPC_NAME_2020177 = "Muddy Journal"
 IJ_NPC_NAME_62455 = "Verona Gillian"
 IJ_NPC_NAME_62457 = "Nippsy Spickerspan"
@@ -6915,28 +6582,24 @@ IJ_NPC_NAME_62556 = "Agent Deryl"
 
 -- Quest 41842
 IJ_QUEST_NAME_41842 = "Antiquities"
-IJ_QUEST_OBJECTIVE_41842 =
-"Recover ‘Compendium of Successful Trade’ within Stormwrought Castle for Noppsy Spickerspan at the SI:7 Outpost on Balor."
+IJ_QUEST_OBJECTIVE_41842 = "Recover ‘Compendium of Successful Trade’ within Stormwrought Castle for Noppsy Spickerspan at the SI:7 Outpost on Balor."
 IJ_LOOT_NAME_58279 = "Antiquated Slasher"
 IJ_LOOT_NAME_58280 = "Chainmail of Many Pockets"
 
 -- Quest 41845
 IJ_QUEST_NAME_41845 = "The Will of Balor"
-IJ_QUEST_OBJECTIVE_41845 =
-"Slay the succubus keeping hold over Arthur’s soul and return it to him in the throne room of Stormwrough Castle."
+IJ_QUEST_OBJECTIVE_41845 = "Slay the succubus keeping hold over Arthur’s soul and return it to him in the throne room of Stormwrough Castle."
 IJ_NPC_NAME_62730 = "Arthur Vandris"
 
 -- Quest 41844
 IJ_QUEST_NAME_41844 = "The Dead Can’t Complain"
-IJ_QUEST_OBJECTIVE_41844 =
-"Rikki Fizmask wants you to pillage the Stormwrought Ruins on Balor and return to her at the Gullwing Wreckage."
+IJ_QUEST_OBJECTIVE_41844 = "Rikki Fizmask wants you to pillage the Stormwrought Ruins on Balor and return to her at the Gullwing Wreckage."
 IJ_NPC_NAME_62520 = "Rikki Fizmask"
 IJ_LOOT_NAME_58281 = "Trusty Goblin Shiv"
 
 -- Quest 41760
 IJ_QUEST_NAME_41760 = "Skull And Bones"
-IJ_QUEST_OBJECTIVE_41760 =
-"Enter Stormwrought Castle and retrieve the Balor Sigil Ring for Lord Olivert Grahan in his estate on western Balor."
+IJ_QUEST_OBJECTIVE_41760 = "Enter Stormwrought Castle and retrieve the Balor Sigil Ring for Lord Olivert Grahan in his estate on western Balor."
 IJ_NPC_NAME_62467 = "Lord Olivert Grahan"
 IJ_LOOT_NAME_58073 = "Grahan Family Seal"
 
@@ -6949,24 +6612,20 @@ IJ_LOOT_NAME_58262 = "Enchanted Glass Kopis"
 
 -- Quest 41011
 IJ_QUEST_NAME_41011 = "The Upper Binding I"
-IJ_QUEST_OBJECTIVE_41011 =
-"Gather a Dragonkin Charge from the Black Dragonkin within Blackrock Spire for Parnabus in Gilneas."
+IJ_QUEST_OBJECTIVE_41011 = "Gather a Dragonkin Charge from the Black Dragonkin within Blackrock Spire for Parnabus in Gilneas."
 
 -- Quest 40130
 IJ_QUEST_NAME_40130 = "A Profitable Acquisition"
-IJ_QUEST_OBJECTIVE_40130 =
-"Gather 2 Automaton Legs, 2 Automaton arms, and an Automaton Head from the Bael Modan Digsite."
+IJ_QUEST_OBJECTIVE_40130 = "Gather 2 Automaton Legs, 2 Automaton arms, and an Automaton Head from the Bael Modan Digsite."
 
 -- Quest 40131
 IJ_QUEST_NAME_40131 = "Requisitioning a Core"
-IJ_QUEST_OBJECTIVE_40131 =
-"Bring an Intact Power Core from Uldaman's Ancient Treasures to Kex Blowmaster in the southern Barrens."
+IJ_QUEST_OBJECTIVE_40131 = "Bring an Intact Power Core from Uldaman's Ancient Treasures to Kex Blowmaster in the southern Barrens."
 IJ_NPC_NAME_60443 = "Kex Blowmaster"
 
 -- Quest 41367
 IJ_QUEST_NAME_41367 = "Against the Kolkar Dream"
-IJ_QUEST_OBJECTIVE_41367 =
-"Slay Zandara Windhoof within Wailing Caverns, and bring her head back to Nalpak in the Barrens."
+IJ_QUEST_OBJECTIVE_41367 = "Slay Zandara Windhoof within Wailing Caverns, and bring her head back to Nalpak in the Barrens."
 IJ_NPC_NAME_5767 = "Nalpak"
 IJ_LOOT_NAME_70224 = "Kolkar Drape"
 
@@ -6976,8 +6635,7 @@ IJ_QUEST_OBJECTIVE_80311 = "Speak to Chok'Garok on a bank of Southfury River in 
 
 -- Quest 80312
 IJ_QUEST_NAME_80312 = "Arcane Arms"
-IJ_QUEST_OBJECTIVE_80312 =
-"Bring Chok'Garok 5 pieces of Moontouched Wood, a Crystal of the Serpent, and an Everchanging Essence from Wailing Caverns."
+IJ_QUEST_OBJECTIVE_80312 = "Bring Chok'Garok 5 pieces of Moontouched Wood, a Crystal of the Serpent, and an Everchanging Essence from Wailing Caverns."
 IJ_NPC_NAME_80831 = "Chok'Garok"
 IJ_NPC_NAME_80857 = "Ureda"
 IJ_LOOT_NAME_80860 = "Staff of the Arcane Path"
@@ -6985,8 +6643,7 @@ IJ_LOOT_NAME_80861 = "Spellweaving Dagger"
 
 -- Quest 41363
 IJ_QUEST_NAME_41363 = "Rampant Weeds"
-IJ_QUEST_OBJECTIVE_41363 =
-"Thundris Windweaver in Auberdine needs samples of the Unnatural Overgrowths in the Wailing Caverns."
+IJ_QUEST_OBJECTIVE_41363 = "Thundris Windweaver in Auberdine needs samples of the Unnatural Overgrowths in the Wailing Caverns."
 IJ_NPC_NAME_3649 = "Thundris Windweaver"
 IJ_LOOT_NAME_3827 = "Mana Potion"
 IJ_LOOT_NAME_1710 = "Greater Healing Potion"
@@ -6994,7 +6651,7 @@ IJ_LOOT_NAME_1710 = "Greater Healing Potion"
 -- Quest 60124
 IJ_QUEST_NAME_60124 = "Trapped in the Nightmare"
 IJ_QUEST_OBJECTIVE_60124 =
-"Alanndarian Nightsong wants you to venture into the Wailing Caverns in the Northern Barrens and free Naralex from the Nightmare. Find his Disciple in the caverns to learn how. Return to her when you free Naralex."
+    "Alanndarian Nightsong wants you to venture into the Wailing Caverns in the Northern Barrens and free Naralex from the Nightmare. Find his Disciple in the caverns to learn how. Return to her when you free Naralex."
 IJ_NPC_NAME_3702 = "Alanndarian Nightsong"
 IJ_LOOT_NAME_51848 = "Ancient Elven Robes"
 IJ_LOOT_NAME_51849 = "Thunderhorn"
@@ -7023,13 +6680,11 @@ IJ_QUEST_OBJECTIVE_40525 = "Talk with Champion Taza'go at Sandmoon Village in Ta
 
 -- Quest 40526
 IJ_QUEST_NAME_40526 = "Plight of the Sandfury"
-IJ_QUEST_OBJECTIVE_40526 =
-"Slay 5 Sandfury Axe Throwers, 5 Sandfury Firecallers and 5 Sandfury Hideskinners for Champion Taza'go at Sandmoon Village in Tanaris."
+IJ_QUEST_OBJECTIVE_40526 = "Slay 5 Sandfury Axe Throwers, 5 Sandfury Firecallers and 5 Sandfury Hideskinners for Champion Taza'go at Sandmoon Village in Tanaris."
 
 -- Quest 40527
 IJ_QUEST_NAME_40527 = "End Ukorz Sandscalp"
-IJ_QUEST_OBJECTIVE_40527 =
-"Slay Ukorz Sandscalp and Ruuzlu within Zul'Farrak for Champion Taza'go at Sandmoon Village in Tanaris."
+IJ_QUEST_OBJECTIVE_40527 = "Slay Ukorz Sandscalp and Ruuzlu within Zul'Farrak for Champion Taza'go at Sandmoon Village in Tanaris."
 IJ_NPC_NAME_10540 = "Vol'jin"
 IJ_NPC_NAME_60749 = "Champion Taza'go"
 IJ_NPC_NAME_60752 = "Seer Maz'ek"
@@ -7039,16 +6694,14 @@ IJ_LOOT_NAME_60765 = "Sandmoon Greaves"
 
 -- Quest 41811
 IJ_QUEST_NAME_41811 = "The Farraki Ancient"
-IJ_QUEST_OBJECTIVE_41811 =
-"Venture in Zul'Farrak, and slay Zel'jeb the Ancient, then return to Zalsu the Wanderer, who can be found south of Zul'Farrak."
+IJ_QUEST_OBJECTIVE_41811 = "Venture in Zul'Farrak, and slay Zel'jeb the Ancient, then return to Zalsu the Wanderer, who can be found south of Zul'Farrak."
 IJ_NPC_NAME_62726 = "Zalsu the Wanderer"
 IJ_LOOT_NAME_41916 = "Dune Wanderer's Hauberk"
 IJ_LOOT_NAME_41917 = "Desert Seeker's Pants"
 
 -- Quest 40519
 IJ_QUEST_NAME_40519 = "Drifting Across the Sand"
-IJ_QUEST_OBJECTIVE_40519 =
-"Venture into Zul'Farrak and find the Ancient Troll Remains, then return them to Hansu Go'sha at the Southmoon Ruins in Tanaris."
+IJ_QUEST_OBJECTIVE_40519 = "Venture into Zul'Farrak and find the Ancient Troll Remains, then return them to Hansu Go'sha at the Southmoon Ruins in Tanaris."
 IJ_NPC_NAME_60856 = "Hansu Go'sha"
 IJ_LOOT_NAME_60759 = "Southmoon Pendant"
 
@@ -7068,8 +6721,7 @@ IJ_LOOT_NAME_19949 = "Zandalarian Hero Medallion"
 
 -- Quest 8201
 IJ_QUEST_NAME_8201 = "A Collection of Heads"
-IJ_QUEST_OBJECTIVE_8201 =
-"String 5 Channeler's Heads, then return the Collection of Troll Heads to Exzhal on Yojamba Isle."
+IJ_QUEST_OBJECTIVE_8201 = "String 5 Channeler's Heads, then return the Collection of Troll Heads to Exzhal on Yojamba Isle."
 IJ_NPC_NAME_14910 = "Exzhal"
 IJ_LOOT_NAME_20213 = "Belt of Shrunken Heads"
 IJ_LOOT_NAME_20215 = "Belt of Shriveled Heads"
@@ -7094,13 +6746,12 @@ IJ_LOOT_NAME_18513 = "A Dull and Flat Elven Blade"
 -- Quest 7509
 IJ_QUEST_NAME_7509 = "The Forging of Quel'Serrar"
 IJ_QUEST_OBJECTIVE_7509 =
-"You must get Onyxia to breathe fire on the Unfired Ancient Blade. Once this is done, pick up the now Heated Ancient Blade. Be warned, a Heated Ancient Blade will not remain heated forever - time is of the essence.\n\nThe last step before returning to me is to slay the beast and drive the Heated Ancient Blade into her corpse.\n\nDo this and Quel'Serrar will be yours."
+    "You must get Onyxia to breathe fire on the Unfired Ancient Blade. Once this is done, pick up the now Heated Ancient Blade. Be warned, a Heated Ancient Blade will not remain heated forever - time is of the essence.\n\nThe last step before returning to me is to slay the beast and drive the Heated Ancient Blade into her corpse.\n\nDo this and Quel'Serrar will be yours."
 IJ_LOOT_NAME_18348 = "Quel'Serrar"
 
 -- Quest 9230
 IJ_QUEST_NAME_9230 = "Ramaladni's Icy Grasp"
-IJ_QUEST_OBJECTIVE_9230 =
-"Korfax at Light's Hope Chapel in the Eastern Plaguelands wants you to bring him 1 Frozen Rune, 1 Blue Sapphire and 1 Arcanite Bar. Rewards Ramaladni's Icy Grasp."
+IJ_QUEST_OBJECTIVE_9230 = "Korfax at Light's Hope Chapel in the Eastern Plaguelands wants you to bring him 1 Frozen Rune, 1 Blue Sapphire and 1 Arcanite Bar. Rewards Ramaladni's Icy Grasp."
 IJ_NPC_NAME_16112 = "Korfax, Champion of the Light"
 IJ_LOOT_NAME_22707 = "Ramaladni's Icy Grasp"
 
@@ -7110,30 +6761,26 @@ IJ_QUEST_OBJECTIVE_9229 = "Enter Naxxramas and uncover the Fate of Ramaladni."
 
 -- Quest 9122
 IJ_QUEST_NAME_9122 = "The Dread Citadel - Naxxramas"
-IJ_QUEST_OBJECTIVE_9122 =
-"Archmage Angela Dosantos at Light's Hope Chapel in the Eastern Plaguelands wants 2 Arcane Crystals, 1 Nexus Crystal and 30 gold pieces. You must also be Revered with the Argent Dawn."
+IJ_QUEST_OBJECTIVE_9122 = "Archmage Angela Dosantos at Light's Hope Chapel in the Eastern Plaguelands wants 2 Arcane Crystals, 1 Nexus Crystal and 30 gold pieces. You must also be Revered with the Argent Dawn."
 IJ_NPC_NAME_16116 = "Archmage Angela Dosantos"
 
 -- Quest 9123
 IJ_QUEST_NAME_9123 = "The Dread Citadel - Naxxramas"
-IJ_QUEST_OBJECTIVE_9123 =
-"Archmage Angela Dosantos at Light's Hope Chapel in the Eastern Plaguelands will grant you Arcane Cloaking at no cost. You must be Exalted with the Argent Dawn."
+IJ_QUEST_OBJECTIVE_9123 = "Archmage Angela Dosantos at Light's Hope Chapel in the Eastern Plaguelands will grant you Arcane Cloaking at no cost. You must be Exalted with the Argent Dawn."
 
 -- Quest 9121
 IJ_QUEST_NAME_9121 = "The Dread Citadel - Naxxramas"
 IJ_QUEST_OBJECTIVE_9121 =
-"Archmage Angela Dosantos at Light's Hope Chapel in the Eastern Plaguelands wants 5 Arcane Crystals, 2 Nexus Crystals, 1 Righteous Orb and 60 gold pieces. You must also be Honored with the Argent Dawn."
+    "Archmage Angela Dosantos at Light's Hope Chapel in the Eastern Plaguelands wants 5 Arcane Crystals, 2 Nexus Crystals, 1 Righteous Orb and 60 gold pieces. You must also be Honored with the Argent Dawn."
 
 -- Quest 9033
 IJ_QUEST_NAME_9033 = "Echoes of War"
-IJ_QUEST_OBJECTIVE_9033 =
-"Commander Eligor Dawnbringer at Light's Hope Chapel in the Eastern Plaguelands wants you to slay 5 Living Monstrosities, 5 Stoneskin Gargoyles, 8 Deathknight Captains and 3 Venom Stalkers."
+IJ_QUEST_OBJECTIVE_9033 = "Commander Eligor Dawnbringer at Light's Hope Chapel in the Eastern Plaguelands wants you to slay 5 Living Monstrosities, 5 Stoneskin Gargoyles, 8 Deathknight Captains and 3 Venom Stalkers."
 IJ_NPC_NAME_16115 = "Commander Eligor Dawnbringer"
 
 -- Quest 9232
 IJ_QUEST_NAME_9232 = "The Only Song I Know..."
-IJ_QUEST_OBJECTIVE_9232 =
-"Craftsman Wilhelm at Light's Hope Chapel in the Eastern Plaguelands wants you to bring him 2 Frozen Runes, 2 Essence of Water, 2 Blue Sapphires and 30 gold pieces."
+IJ_QUEST_OBJECTIVE_9232 = "Craftsman Wilhelm at Light's Hope Chapel in the Eastern Plaguelands wants you to bring him 2 Frozen Runes, 2 Essence of Water, 2 Blue Sapphires and 30 gold pieces."
 IJ_NPC_NAME_16376 = "Craftsman Wilhelm"
 IJ_LOOT_NAME_22700 = "Glacial Leggings"
 IJ_LOOT_NAME_22699 = "Icebane Leggings"
@@ -7142,16 +6789,14 @@ IJ_LOOT_NAME_22701 = "Polar Leggings"
 
 -- Quest 9120
 IJ_QUEST_NAME_9120 = "The Fall of Kel'Thuzad"
-IJ_QUEST_OBJECTIVE_9120 =
-"Take the Phylactery of Kel'Thuzad to Light's Hope Chapel in the Eastern Plaguelands."
+IJ_QUEST_OBJECTIVE_9120 = "Take the Phylactery of Kel'Thuzad to Light's Hope Chapel in the Eastern Plaguelands."
 IJ_NPC_NAME_16113 = "Father Inigo Montoy"
 IJ_LOOT_NAME_23206 = "Mark of the Champion"
 IJ_LOOT_NAME_23207 = "Mark of the Champion"
 
 -- Quest 8577
 IJ_QUEST_NAME_8577 = "Stewvul, Ex-B.F.F."
-IJ_QUEST_OBJECTIVE_8577 =
-"Narain Soothfancy wants you to find his ex-best friend forever (BFF), Stewvul, and take back the scrying goggles that Stewvul stole from him."
+IJ_QUEST_OBJECTIVE_8577 = "Narain Soothfancy wants you to find his ex-best friend forever (BFF), Stewvul, and take back the scrying goggles that Stewvul stole from him."
 IJ_NPC_NAME_11811 = "Narain Soothfancy"
 IJ_NPC_NAME_180642 = "Inconspicuous Crate"
 
@@ -7167,8 +6812,7 @@ IJ_NPC_NAME_14524 = "Vartrus the Ancient"
 
 -- Quest 7604
 IJ_QUEST_NAME_7604 = "A Binding Contract"
-IJ_QUEST_OBJECTIVE_7604 =
-"Turn the Thorium Brotherhood Contract in to Lokhtos Darkbargainer if you would like to receive the plans for Sulfuron."
+IJ_QUEST_OBJECTIVE_7604 = "Turn the Thorium Brotherhood Contract in to Lokhtos Darkbargainer if you would like to receive the plans for Sulfuron."
 IJ_LOOT_NAME_18592 = "Plans: Sulfuron Hammer"
 
 -- Quest 7785
@@ -7180,23 +6824,20 @@ IJ_LOOT_NAME_19016 = "Vessel of Rebirth"
 -- Quest 7786
 IJ_QUEST_NAME_7786 = "Thunderaan the Windseeker"
 IJ_QUEST_OBJECTIVE_7786 =
-"To free Thunderaan the Windseeker from his prison, you must present the right and left halves of the Bindings of the Windseeker, 10 bars of Elementium, and the Essence of the Firelord to Highlord Demitrian in Silithus."
+    "To free Thunderaan the Windseeker from his prison, you must present the right and left halves of the Bindings of the Windseeker, 10 bars of Elementium, and the Essence of the Firelord to Highlord Demitrian in Silithus."
 
 -- Quest 6823
 IJ_QUEST_NAME_6823 = "Agent of Hydraxis"
-IJ_QUEST_OBJECTIVE_6823 =
-"Earn an Honored faction with the Hydraxian Waterlords, then talk to Duke Hydraxis in Azshara."
+IJ_QUEST_OBJECTIVE_6823 = "Earn an Honored faction with the Hydraxian Waterlords, then talk to Duke Hydraxis in Azshara."
 IJ_NPC_NAME_13278 = "Duke Hydraxis"
 
 -- Quest 6824
 IJ_QUEST_NAME_6824 = "Hands of the Enemy"
-IJ_QUEST_OBJECTIVE_6824 =
-"Bring the Hands of Lucifron, Sulfuron, Gehennas and Shazzrah to Duke Hydraxis in Azshara."
+IJ_QUEST_OBJECTIVE_6824 = "Bring the Hands of Lucifron, Sulfuron, Gehennas and Shazzrah to Duke Hydraxis in Azshara."
 
 -- Quest 6822
 IJ_QUEST_NAME_6822 = "The Molten Core"
-IJ_QUEST_OBJECTIVE_6822 =
-"Kill 1 Fire Lord, 1 Molten Giant, 1 Ancient Core Hound and 1 Lava Surger, then return to Duke Hydraxis in Azshara."
+IJ_QUEST_OBJECTIVE_6822 = "Kill 1 Fire Lord, 1 Molten Giant, 1 Ancient Core Hound and 1 Lava Surger, then return to Duke Hydraxis in Azshara."
 
 -- Quest 8575
 IJ_QUEST_NAME_8575 = "Azuregos's Magical Ledger"
@@ -7217,25 +6858,22 @@ IJ_QUEST_OBJECTIVE_8598 = "Return the Ransom Letter to Narain Soothfancy in Tana
 
 -- Quest 8606
 IJ_QUEST_NAME_8606 = "Decoy!"
-IJ_QUEST_OBJECTIVE_8606 =
-"Narain Soothfancy in Tanaris wants you to travel to Winterspring and place the Bag of Gold at the drop off point documented by the booknappers."
+IJ_QUEST_OBJECTIVE_8606 = "Narain Soothfancy in Tanaris wants you to travel to Winterspring and place the Bag of Gold at the drop off point documented by the booknappers."
 
 -- Quest 8620
 IJ_QUEST_NAME_8620 = "The Only Prescription"
 IJ_QUEST_OBJECTIVE_8620 =
-"Recover the 8 lost chapters of Draconic for Dummies and combine them with the Magical Book Binding and return the completed book of Draconic for Dummies: Volume II to Narain Soothfancy in Tanaris."
+    "Recover the 8 lost chapters of Draconic for Dummies and combine them with the Magical Book Binding and return the completed book of Draconic for Dummies: Volume II to Narain Soothfancy in Tanaris."
 IJ_LOOT_NAME_21517 = "Gnomish Turban of Psychic Might"
 
 -- Quest 8286
 IJ_QUEST_NAME_8286 = "What Tomorrow Brings"
-IJ_QUEST_OBJECTIVE_8286 =
-"Venture to the Caverns of Time in Tanaris and find Anachronos, Brood of Nozdormu."
+IJ_QUEST_OBJECTIVE_8286 = "Venture to the Caverns of Time in Tanaris and find Anachronos, Brood of Nozdormu."
 IJ_NPC_NAME_15180 = "Baristolth of the Shifting Sands"
 
 -- Quest 8288
 IJ_QUEST_NAME_8288 = "Only One May Rise"
-IJ_QUEST_OBJECTIVE_8288 =
-"Return the Head of the Broodlord Lashlayer to Baristolth of the Shifting Sands at Cenarion Hold in Silithus."
+IJ_QUEST_OBJECTIVE_8288 = "Return the Head of the Broodlord Lashlayer to Baristolth of the Shifting Sands at Cenarion Hold in Silithus."
 
 -- Quest 7783
 IJ_QUEST_NAME_7783 = "The Lord of Blackrock"
@@ -7248,8 +6886,7 @@ IJ_QUEST_OBJECTIVE_7781 = "Return the Head of Nefarian to Highlord Bolvar Fordra
 
 -- Quest 8730
 IJ_QUEST_NAME_8730 = "Nefarius's Corruption"
-IJ_QUEST_OBJECTIVE_8730 =
-"Slay Nefarian and recover the Red Scepter Shard. Return the Red Scepter Shard to Anachronos at the Caverns of Time in Tanaris. You have 5 hours to complete this task."
+IJ_QUEST_OBJECTIVE_8730 = "Slay Nefarian and recover the Red Scepter Shard. Return the Red Scepter Shard to Anachronos at the Caverns of Time in Tanaris. You have 5 hours to complete this task."
 IJ_NPC_NAME_13020 = "Vaelastrasz the Corrupt"
 IJ_NPC_NAME_15192 = "Anachronos"
 IJ_LOOT_NAME_21530 = "Onyx Embedded Leggings"
@@ -7257,8 +6894,7 @@ IJ_LOOT_NAME_21529 = "Amulet of Shadow Shielding"
 
 -- Quest 8784
 IJ_QUEST_NAME_8784 = "Secrets of the Qiraji"
-IJ_QUEST_OBJECTIVE_8784 =
-"Take the Ancient Qiraji Artifact to the dragons hiding near the entrance of the temple."
+IJ_QUEST_OBJECTIVE_8784 = "Take the Ancient Qiraji Artifact to the dragons hiding near the entrance of the temple."
 IJ_NPC_NAME_15502 = "Andorgos"
 IJ_LOOT_NAME_21230 = "Ancient Qiraji Artifact"
 
@@ -7269,8 +6905,7 @@ IJ_NPC_NAME_15379 = "Caelestrasz"
 
 -- Quest 9023
 IJ_QUEST_NAME_9023 = "The Perfect Poison"
-IJ_QUEST_OBJECTIVE_9023 =
-"Dirk Thunderwood at Cenarion Hold wants you to bring him Venoxis's Venom Sac and Kurinnaxx's Venom Sac."
+IJ_QUEST_OBJECTIVE_9023 = "Dirk Thunderwood at Cenarion Hold wants you to bring him Venoxis's Venom Sac and Kurinnaxx's Venom Sac."
 IJ_NPC_NAME_16091 = "Dirk Thunderwood"
 IJ_LOOT_NAME_22378 = "Ravenholdt Slicer"
 IJ_LOOT_NAME_22379 = "Shivsprocket's Shiv"
@@ -7281,8 +6916,7 @@ IJ_LOOT_NAME_22380 = "Simone's Cultivating Hammer"
 
 -- Quest 8791
 IJ_QUEST_NAME_8791 = "The Fall of Ossirian"
-IJ_QUEST_OBJECTIVE_8791 =
-"Deliver the Head of Ossirian the Unscarred to Commander Mar'alith at Cenarion Hold in Silithus."
+IJ_QUEST_OBJECTIVE_8791 = "Deliver the Head of Ossirian the Unscarred to Commander Mar'alith at Cenarion Hold in Silithus."
 IJ_NPC_NAME_15181 = "Commander Mar'alith"
 IJ_LOOT_NAME_21504 = "Charm of the Shifting Sands"
 IJ_LOOT_NAME_21507 = "Amulet of the Shifting Sands"
@@ -7297,8 +6931,7 @@ IJ_NPC_NAME_4453 = "Wizzle Brassbolts"
 
 -- Quest 2770
 IJ_QUEST_NAME_2770 = "Gahz'rilla"
-IJ_QUEST_OBJECTIVE_2770 =
-"Bring Gahz'rilla's Electrified Scale to Wizzle Brassbolts in the Shimmering Flats."
+IJ_QUEST_OBJECTIVE_2770 = "Bring Gahz'rilla's Electrified Scale to Wizzle Brassbolts in the Shimmering Flats."
 IJ_LOOT_NAME_11122 = "Carrot on a Stick"
 
 -- Quest 2768
@@ -7352,13 +6985,11 @@ IJ_NPC_NAME_3188 = "Master Gadrin"
 
 -- Quest 2936
 IJ_QUEST_NAME_2936 = "The Spider God"
-IJ_QUEST_OBJECTIVE_2936 =
-"Read from the Tablet of Theka to learn the name of the Witherbark spider god, then return to Master Gadrin."
+IJ_QUEST_OBJECTIVE_2936 = "Read from the Tablet of Theka to learn the name of the Witherbark spider god, then return to Master Gadrin."
 
 -- Quest 2988
 IJ_QUEST_NAME_2988 = "Witherbark Cages"
-IJ_QUEST_OBJECTIVE_2988 =
-"Check the cages at the two Witherbark villages, then return to Gryphon  Master Talonaxe."
+IJ_QUEST_OBJECTIVE_2988 = "Check the cages at the two Witherbark villages, then return to Gryphon  Master Talonaxe."
 IJ_NPC_NAME_5636 = "Gryphon Master Talonaxe"
 
 -- Quest 2989
@@ -7403,8 +7034,7 @@ IJ_NPC_NAME_5770 = "Nara Wildmane"
 
 -- Quest 914
 IJ_QUEST_NAME_914 = "Leaders of the Fang"
-IJ_QUEST_OBJECTIVE_914 =
-"Bring the Gems of Cobrahn, Anacondra, Pythas and Serpentis to Nara Wildmane in Thunder Bluff."
+IJ_QUEST_OBJECTIVE_914 = "Bring the Gems of Cobrahn, Anacondra, Pythas and Serpentis to Nara Wildmane in Thunder Bluff."
 IJ_LOOT_NAME_6505 = "Crescent Staff"
 IJ_LOOT_NAME_6504 = "Wingblade"
 
@@ -7415,8 +7045,7 @@ IJ_NPC_NAME_3390 = "Apothecary Helbrim"
 
 -- Quest 853
 IJ_QUEST_NAME_853 = "Apothecary Zamah"
-IJ_QUEST_OBJECTIVE_853 =
-"Bring the Rendered Spores to Apothecary Zamah in Thunder Bluff, before the time limit is up."
+IJ_QUEST_OBJECTIVE_853 = "Bring the Rendered Spores to Apothecary Zamah in Thunder Bluff, before the time limit is up."
 IJ_NPC_NAME_3419 = "Apothecary Zamah"
 IJ_LOOT_NAME_5340 = "Cauldron Stirrer"
 IJ_LOOT_NAME_2458 = "Elixir of Minor Fortitude"
@@ -7431,15 +7060,13 @@ IJ_LOOT_NAME_10919 = "Apothecary Gloves"
 
 -- Quest 6981
 IJ_QUEST_NAME_6981 = "The Glowing Shard"
-IJ_QUEST_OBJECTIVE_6981 =
-"Travel to Ratchet to find someone that can tell you more about the glowing shard.\n\nThen, deliver the shard as you are directed."
+IJ_QUEST_OBJECTIVE_6981 = "Travel to Ratchet to find someone that can tell you more about the glowing shard.\n\nThen, deliver the shard as you are directed."
 IJ_NPC_NAME_8418 = "Falla Sagewind"
 IJ_LOOT_NAME_10441 = "Glowing Shard"
 
 -- Quest 1487
 IJ_QUEST_NAME_1487 = "Deviate Eradication"
-IJ_QUEST_OBJECTIVE_1487 =
-"Ebru in the Wailing Caverns wants you to kill 7 Deviate Ravagers, 7 Deviate Vipers, 7 Deviate Shamblers and 7 Deviate Dreadfangs."
+IJ_QUEST_OBJECTIVE_1487 = "Ebru in the Wailing Caverns wants you to kill 7 Deviate Ravagers, 7 Deviate Vipers, 7 Deviate Shamblers and 7 Deviate Dreadfangs."
 IJ_NPC_NAME_5768 = "Ebru"
 IJ_LOOT_NAME_6476 = "Pattern: Deviate Scale Belt"
 IJ_LOOT_NAME_8071 = "Sizzle Stick"
@@ -7447,8 +7074,7 @@ IJ_LOOT_NAME_6481 = "Dagmire Gauntlets"
 
 -- Quest 865
 IJ_QUEST_NAME_865 = "Raptor Horns"
-IJ_QUEST_OBJECTIVE_865 =
-"Gather 5 Intact Raptor Horns from Sunscale Scytheclaws, and bring them to Mebok Mizzyrix in Ratchet."
+IJ_QUEST_OBJECTIVE_865 = "Gather 5 Intact Raptor Horns from Sunscale Scytheclaws, and bring them to Mebok Mizzyrix in Ratchet."
 IJ_NPC_NAME_3446 = "Mebok Mizzyrix"
 IJ_LOOT_NAME_5342 = "Raptor Punch"
 IJ_LOOT_NAME_5343 = "Barkeeper's Cloak"
@@ -7459,8 +7085,7 @@ IJ_QUEST_OBJECTIVE_1491 = "Bring 6 portions of Wailing Essence to Mebok Mizzyrix
 
 -- Quest 959
 IJ_QUEST_NAME_959 = "Trouble at the Docks"
-IJ_QUEST_OBJECTIVE_959 =
-"Crane Operator Bigglefuzz in Ratchet wants you to retrieve the bottle of 99-Year-Old Port from Mad Magglish who is hiding in the Wailing Caverns."
+IJ_QUEST_OBJECTIVE_959 = "Crane Operator Bigglefuzz in Ratchet wants you to retrieve the bottle of 99-Year-Old Port from Mad Magglish who is hiding in the Wailing Caverns."
 IJ_NPC_NAME_3665 = "Crane Operator Bigglefuzz"
 
 -- Quest 1486
@@ -7471,18 +7096,16 @@ IJ_LOOT_NAME_918 = "Deviate Hide Pack"
 
 -- Quest 2338
 IJ_QUEST_NAME_2338 = "Translating the Journal"
-IJ_QUEST_OBJECTIVE_2338 =
-"Let Jarkal borrow the necklace. In exchange, he will translate the journal for you."
+IJ_QUEST_OBJECTIVE_2338 = "Let Jarkal borrow the necklace. In exchange, he will translate the journal for you."
 
 -- Quest 2339
 IJ_QUEST_NAME_2339 = "Find the Gems and Power Source"
 IJ_QUEST_OBJECTIVE_2339 =
-"Recover all three gems and a power source for the necklace from Uldaman, and then bring them to Jarkal Mossmeld in Kargath. Jarkal believes a power source might be found on the strongest construct present in Uldaman.\n\nFrom the journal, you know...\n* The ruby has been stashed in a barricaded Shadowforge area.\n* The topaz has been hidden in an urn in one of the Trogg areas, near some Alliance dwarves.\n* The sapphire has been claimed by Grimlok, the trogg leader."
+    "Recover all three gems and a power source for the necklace from Uldaman, and then bring them to Jarkal Mossmeld in Kargath. Jarkal believes a power source might be found on the strongest construct present in Uldaman.\n\nFrom the journal, you know...\n* The ruby has been stashed in a barricaded Shadowforge area.\n* The topaz has been hidden in an urn in one of the Trogg areas, near some Alliance dwarves.\n* The sapphire has been claimed by Grimlok, the trogg leader."
 
 -- Quest 2318
 IJ_QUEST_NAME_2318 = "Translating the Journal"
-IJ_QUEST_OBJECTIVE_2318 =
-"Find someone who can translate the paladin's journal. The closest location that might have someone is Kargath, in the Badlands."
+IJ_QUEST_OBJECTIVE_2318 = "Find someone who can translate the paladin's journal. The closest location that might have someone is Kargath, in the Badlands."
 IJ_NPC_NAME_6912 = "Remains of a Paladin"
 
 -- Quest 2284
@@ -7492,8 +7115,7 @@ IJ_NPC_NAME_6986 = "Dran Droffers"
 
 -- Quest 2283
 IJ_QUEST_NAME_2283 = "Necklace Recovery"
-IJ_QUEST_OBJECTIVE_2283 =
-"Look for a valuable necklace within the Uldaman dig site and bring it back to Dran Droffers in Orgrimmar. The necklace may be damaged."
+IJ_QUEST_OBJECTIVE_2283 = "Look for a valuable necklace within the Uldaman dig site and bring it back to Dran Droffers in Orgrimmar. The necklace may be damaged."
 
 -- Quest 1953
 IJ_QUEST_NAME_1953 = "Return to the Marsh"
@@ -7514,26 +7136,22 @@ IJ_QUEST_OBJECTIVE_1956 = "Retrieve an Obsidian Power Source and bring it to Tab
 
 -- Quest 2278
 IJ_QUEST_NAME_2278 = "The Platinum Discs"
-IJ_QUEST_OBJECTIVE_2278 =
-"Speak with stone watcher and learn what ancient lore it keeps. Once you have learned what lore it has to offer, activate the Discs of Norgannon."
+IJ_QUEST_OBJECTIVE_2278 = "Speak with stone watcher and learn what ancient lore it keeps. Once you have learned what lore it has to offer, activate the Discs of Norgannon."
 IJ_NPC_NAME_131474 = "The Discs of Norgannon"
 
 -- Quest 1360
 IJ_QUEST_NAME_1360 = "Reclaimed Treasures"
-IJ_QUEST_OBJECTIVE_1360 =
-"Get Krom Stoutarm's treasured possession from his chest in the North Common Hall of Uldaman, and bring it to him in Ironforge."
+IJ_QUEST_OBJECTIVE_1360 = "Get Krom Stoutarm's treasured possession from his chest in the North Common Hall of Uldaman, and bring it to him in Ironforge."
 IJ_NPC_NAME_6294 = "Krom Stoutarm"
 
 -- Quest 2342
 IJ_QUEST_NAME_2342 = "Reclaimed Treasures"
-IJ_QUEST_OBJECTIVE_2342 =
-"Get Patrick Garrett's family treasure from their family chest in the South Common Hall of Uldaman, and bring it to him in the Undercity."
+IJ_QUEST_OBJECTIVE_2342 = "Get Patrick Garrett's family treasure from their family chest in the South Common Hall of Uldaman, and bring it to him in the Undercity."
 IJ_NPC_NAME_5651 = "Patrick Garrett"
 
 -- Quest 2258
 IJ_QUEST_NAME_2258 = "Badlands Reagent Run"
-IJ_QUEST_OBJECTIVE_2258 =
-"Bring 5 Buzzard Gizzards, 10 Crag Coyote Fangs, and  5 Rock Elemental Shards to Jarkal Mossmeld in Kargath, Badlands."
+IJ_QUEST_OBJECTIVE_2258 = "Bring 5 Buzzard Gizzards, 10 Crag Coyote Fangs, and  5 Rock Elemental Shards to Jarkal Mossmeld in Kargath, Badlands."
 
 -- Quest 2202
 IJ_QUEST_NAME_2202 = "Uldaman Reagent Run"
@@ -7542,8 +7160,7 @@ IJ_LOOT_NAME_9030 = "Restorative Potion"
 
 -- Quest 2500
 IJ_QUEST_NAME_2500 = "Badlands Reagent Run"
-IJ_QUEST_OBJECTIVE_2500 =
-"Acquire the reagents Ghak Healtouch needs from the Badlands, then return to him in Thelsamar."
+IJ_QUEST_OBJECTIVE_2500 = "Acquire the reagents Ghak Healtouch needs from the Badlands, then return to him in Thelsamar."
 IJ_NPC_NAME_1470 = "Ghak Healtouch"
 
 -- Quest 17
@@ -7552,14 +7169,13 @@ IJ_QUEST_OBJECTIVE_17 = "Bring 12 Magenta Fungus Caps to Ghak Healtouch in Thels
 
 -- Quest 2204
 IJ_QUEST_NAME_2204 = "Restoring the Necklace"
-IJ_QUEST_OBJECTIVE_2204 =
-"Obtain a power source from the most powerful construct you can find in Uldaman, and deliver it to Talvash del Kissel in Ironforge."
+IJ_QUEST_OBJECTIVE_2204 = "Obtain a power source from the most powerful construct you can find in Uldaman, and deliver it to Talvash del Kissel in Ironforge."
 IJ_NPC_NAME_112877 = "Talvash's Scrying Bowl"
 
 -- Quest 2201
 IJ_QUEST_NAME_2201 = "Find the Gems"
 IJ_QUEST_OBJECTIVE_2201 =
-"Find the ruby, sapphire, and topaz that are scattered throughout Uldaman. Once acquired, contact Talvash del Kissel remotely by using the Phial of Scrying he previously gave you.\n\nFrom the journal, you know...\n* The ruby has been stashed in a barricaded Shadowforge area.\n* The topaz has been hidden in an urn in one of the Trogg areas, near some Alliance dwarves.\n\n* The sapphire has been claimed by Grimlok, the trogg leader."
+    "Find the ruby, sapphire, and topaz that are scattered throughout Uldaman. Once acquired, contact Talvash del Kissel remotely by using the Phial of Scrying he previously gave you.\n\nFrom the journal, you know...\n* The ruby has been stashed in a barricaded Shadowforge area.\n* The topaz has been hidden in an urn in one of the Trogg areas, near some Alliance dwarves.\n\n* The sapphire has been claimed by Grimlok, the trogg leader."
 
 -- Quest 2199
 IJ_QUEST_NAME_2199 = "Lore for a Price"
@@ -7567,19 +7183,16 @@ IJ_QUEST_OBJECTIVE_2199 = "Bring five silver bars to Talvash del Kissel in Ironf
 
 -- Quest 2200
 IJ_QUEST_NAME_2200 = "Back to Uldaman"
-IJ_QUEST_OBJECTIVE_2200 =
-"Search for clues as to the current disposition of Talvash's necklace within Uldaman. The slain paladin he mentioned was the person who has it last."
+IJ_QUEST_OBJECTIVE_2200 = "Search for clues as to the current disposition of Talvash's necklace within Uldaman. The slain paladin he mentioned was the person who has it last."
 
 -- Quest 2198
 IJ_QUEST_NAME_2198 = "The Shattered Necklace"
-IJ_QUEST_OBJECTIVE_2198 =
-"Search for the original creator of the shattered necklace to learn of its potential value."
+IJ_QUEST_OBJECTIVE_2198 = "Search for the original creator of the shattered necklace to learn of its potential value."
 IJ_LOOT_NAME_7666 = "Shattered Necklace"
 
 -- Quest 2240
 IJ_QUEST_NAME_2240 = "The Hidden Chamber"
-IJ_QUEST_OBJECTIVE_2240 =
-"Read Baelog's Journal, explore the hidden chamber, then report to Prospector Stormpike."
+IJ_QUEST_OBJECTIVE_2240 = "Read Baelog's Journal, explore the hidden chamber, then report to Prospector Stormpike."
 IJ_NPC_NAME_6906 = "Baelog"
 IJ_NPC_NAME_1356 = "Prospector Stormpike"
 IJ_LOOT_NAME_9626 = "Dwarven Charge"
@@ -7610,8 +7223,7 @@ IJ_LOOT_NAME_2776 = "Gold Ore"
 
 -- Quest 739
 IJ_QUEST_NAME_739 = "Murdaloc"
-IJ_QUEST_OBJECTIVE_739 =
-"Slay Agmond's killer, Murdaloc.\n\nSlay 12 Stonevault Bonesnappers.\n\nReport to Prospector Ironband in Loch Modan."
+IJ_QUEST_OBJECTIVE_739 = "Slay Agmond's killer, Murdaloc.\n\nSlay 12 Stonevault Bonesnappers.\n\nReport to Prospector Ironband in Loch Modan."
 IJ_LOOT_NAME_4983 = "Rock Pulverizer"
 
 -- Quest 704
@@ -7621,8 +7233,7 @@ IJ_LOOT_NAME_4980 = "Prospector Gloves"
 
 -- Quest 2418
 IJ_QUEST_NAME_2418 = "Power Stones"
-IJ_QUEST_OBJECTIVE_2418 =
-"Bring 8 Dentrium Power Stones and 8 An'Alleum Power Stones to Rigglefuzz in the Badlands."
+IJ_QUEST_OBJECTIVE_2418 = "Bring 8 Dentrium Power Stones and 8 An'Alleum Power Stones to Rigglefuzz in the Badlands."
 IJ_NPC_NAME_2817 = "Rigglefuzz"
 IJ_LOOT_NAME_9522 = "Energized Stone Circle"
 IJ_LOOT_NAME_10358 = "Duracin Bracers"
@@ -7650,8 +7261,7 @@ IJ_QUEST_OBJECTIVE_726 = "Speak to Historian Karnik."
 
 -- Quest 762
 IJ_QUEST_NAME_762 = "An Ambassador of Evil"
-IJ_QUEST_OBJECTIVE_762 =
-"Kill Ambassador Infernus in Angor Fortress and bring proof of his death to Advisor Belgrum in Ironforge."
+IJ_QUEST_OBJECTIVE_762 = "Kill Ambassador Infernus in Angor Fortress and bring proof of his death to Advisor Belgrum in Ironforge."
 IJ_LOOT_NAME_4987 = "Dwarf Captain's Sword"
 
 -- Quest 1139
@@ -7674,41 +7284,35 @@ IJ_QUEST_OBJECTIVE_721 = "Find Hammertoe Grez in Uldaman."
 
 -- Quest 6570
 IJ_QUEST_NAME_6570 = "Emberstrife"
-IJ_QUEST_OBJECTIVE_6570 =
-"Travel to the Wyrmbog in Dustwallow Marsh and seek out Emberstrife's Den. Once inside, wear the Amulet of Draconic Subversion and speak with Emberstrife."
+IJ_QUEST_OBJECTIVE_6570 = "Travel to the Wyrmbog in Dustwallow Marsh and seek out Emberstrife's Den. Once inside, wear the Amulet of Draconic Subversion and speak with Emberstrife."
 IJ_NPC_NAME_11872 = "Myranda the Hag"
 IJ_NPC_NAME_10321 = "Emberstrife"
 
 -- Quest 6582
 IJ_QUEST_NAME_6582 = "The Test of Skulls, Scryer"
-IJ_QUEST_OBJECTIVE_6582 =
-"You must find the blue dragonflight drake champion, Scryer, and slay him. Pry his skull from his corpse and return it to Emberstrife.\n\nYou know that Scryer can be found in Winterspring."
+IJ_QUEST_OBJECTIVE_6582 = "You must find the blue dragonflight drake champion, Scryer, and slay him. Pry his skull from his corpse and return it to Emberstrife.\n\nYou know that Scryer can be found in Winterspring."
 
 -- Quest 6583
 IJ_QUEST_NAME_6583 = "The Test of Skulls, Somnus"
-IJ_QUEST_OBJECTIVE_6583 =
-"Destroy the drake champion of the Green Flight, Somnus. Take his skull and return it to Emberstrife."
+IJ_QUEST_OBJECTIVE_6583 = "Destroy the drake champion of the Green Flight, Somnus. Take his skull and return it to Emberstrife."
 
 -- Quest 6584
 IJ_QUEST_NAME_6584 = "The Test of Skulls, Chronalis"
-IJ_QUEST_OBJECTIVE_6584 =
-"Guarding the Caverns of Time in the Tanaris Desert is Chronalis, child of Nozdormu. Destroy him and return his skull to Emberstrife."
+IJ_QUEST_OBJECTIVE_6584 = "Guarding the Caverns of Time in the Tanaris Desert is Chronalis, child of Nozdormu. Destroy him and return his skull to Emberstrife."
 
 -- Quest 6585
 IJ_QUEST_NAME_6585 = "The Test of Skulls, Axtroz"
-IJ_QUEST_OBJECTIVE_6585 =
-"Travel to Grim Batol and track down Axtroz, drake champion of the Red Flight. Destroy him and take his skull. Return the skull to Emberstrife."
+IJ_QUEST_OBJECTIVE_6585 = "Travel to Grim Batol and track down Axtroz, drake champion of the Red Flight. Destroy him and take his skull. Return the skull to Emberstrife."
 
 -- Quest 6601
 IJ_QUEST_NAME_6601 = "Ascension..."
 IJ_QUEST_OBJECTIVE_6601 =
-"It would appear as if the charade is over. You know that the Amulet of Draconic Subversion that Myranda the Hag created for you will not function inside Blackrock Spire. Perhaps you should find Rexxar and explain your predicament. Show him the Dull Drakefire Amulet. Hopefully he will know what to do next."
+    "It would appear as if the charade is over. You know that the Amulet of Draconic Subversion that Myranda the Hag created for you will not function inside Blackrock Spire. Perhaps you should find Rexxar and explain your predicament. Show him the Dull Drakefire Amulet. Hopefully he will know what to do next."
 IJ_NPC_NAME_10182 = "Rexxar"
 
 -- Quest 6602
 IJ_QUEST_NAME_6602 = "Blood of the Black Dragon Champion"
-IJ_QUEST_OBJECTIVE_6602 =
-"Travel to Blackrock Spire and slay General Drakkisath. Gather his blood and return it to Rexxar."
+IJ_QUEST_OBJECTIVE_6602 = "Travel to Blackrock Spire and slay General Drakkisath. Gather his blood and return it to Rexxar."
 IJ_LOOT_NAME_16309 = "Drakefire Amulet"
 
 -- Quest 6566
@@ -7717,8 +7321,7 @@ IJ_QUEST_OBJECTIVE_6566 = "Listen to Thrall."
 
 -- Quest 6567
 IJ_QUEST_NAME_6567 = "The Champion of the Horde"
-IJ_QUEST_OBJECTIVE_6567 =
-"Seek out Rexxar. The Warchief has instructed you as to his whereabouts. Search the paths of Desolace, between the Stonetalon Mountains and Feralas."
+IJ_QUEST_OBJECTIVE_6567 = "Seek out Rexxar. The Warchief has instructed you as to his whereabouts. Search the paths of Desolace, between the Stonetalon Mountains and Feralas."
 
 -- Quest 6568
 IJ_QUEST_NAME_6568 = "The Testament of Rexxar"
@@ -7726,19 +7329,16 @@ IJ_QUEST_OBJECTIVE_6568 = "Deliver Rexxar's Testament to Myranda the Hag in the 
 
 -- Quest 6569
 IJ_QUEST_NAME_6569 = "Oculus Illusions"
-IJ_QUEST_OBJECTIVE_6569 =
-"Travel to Blackrock Spire and collect 20 Black Dragonspawn Eyes. Return to Myranda the Hag when the task is complete."
+IJ_QUEST_OBJECTIVE_6569 = "Travel to Blackrock Spire and collect 20 Black Dragonspawn Eyes. Return to Myranda the Hag when the task is complete."
 
 -- Quest 4941
 IJ_QUEST_NAME_4941 = "Eitrigg's Wisdom"
-IJ_QUEST_OBJECTIVE_4941 =
-"Speak with Eitrigg in Orgrimmar. When you have discussed matters with Eitrigg, seek council from Thrall.\n\nYou recall having seen Eitrigg in Thrall's chamber."
+IJ_QUEST_OBJECTIVE_4941 = "Speak with Eitrigg in Orgrimmar. When you have discussed matters with Eitrigg, seek council from Thrall.\n\nYou recall having seen Eitrigg in Thrall's chamber."
 IJ_NPC_NAME_9077 = "Warlord Goretooth"
 
 -- Quest 4974
 IJ_QUEST_NAME_4974 = "For The Horde!"
-IJ_QUEST_OBJECTIVE_4974 =
-"Travel to Blackrock Spire and slay Warchief Rend Blackhand. Take his head and return to Orgrimmar."
+IJ_QUEST_OBJECTIVE_4974 = "Travel to Blackrock Spire and slay Warchief Rend Blackhand. Take his head and return to Orgrimmar."
 IJ_LOOT_NAME_13966 = "Mark of Tyranny"
 IJ_LOOT_NAME_13968 = "Eye of the Beast"
 IJ_LOOT_NAME_13965 = "Blackhand's Breadth"
@@ -7763,34 +7363,31 @@ IJ_NPC_NAME_10918 = "Lorax"
 -- Quest 5127
 IJ_QUEST_NAME_5127 = "The Demon Forge"
 IJ_QUEST_OBJECTIVE_5127 =
-"Travel to Blackrock Spire and find Goraluk Anvilcrack. Slay him and then use the Blood Stained Pike upon his corpse. After his soul has been siphoned, the pike will be Soul Stained.\n\nYou must also find the Unforged Rune Covered Breastplate.\n\nReturn both the Soul Stained Pike and the Unforged Rune Covered Breastplate to Lorax in Winterspring."
+    "Travel to Blackrock Spire and find Goraluk Anvilcrack. Slay him and then use the Blood Stained Pike upon his corpse. After his soul has been siphoned, the pike will be Soul Stained.\n\nYou must also find the Unforged Rune Covered Breastplate.\n\nReturn both the Soul Stained Pike and the Unforged Rune Covered Breastplate to Lorax in Winterspring."
 IJ_LOOT_NAME_12696 = "Plans: Demon Forged Breastplate"
 IJ_LOOT_NAME_9224 = "Elixir of Demonslaying"
 IJ_LOOT_NAME_12849 = "Demon Kissed Sack"
 
 -- Quest 8995
 IJ_QUEST_NAME_8995 = "Mea Culpa, Lord Valthalak"
-IJ_QUEST_OBJECTIVE_8995 =
-"Use the Brazier of Beckoning to summon Lord Valthalak. Dispatch him, and use Lord Valthalak's Amulet on the corpse. Then, return Lord Valthalak's Amulet to the Spirit of Lord Valthalak."
+IJ_QUEST_OBJECTIVE_8995 = "Use the Brazier of Beckoning to summon Lord Valthalak. Dispatch him, and use Lord Valthalak's Amulet on the corpse. Then, return Lord Valthalak's Amulet to the Spirit of Lord Valthalak."
 IJ_NPC_NAME_16033 = "Bodley"
 IJ_NPC_NAME_16073 = "Spirit of Lord Valthalak"
 
 -- Quest 8994
 IJ_QUEST_NAME_8994 = "Final Preparations"
-IJ_QUEST_OBJECTIVE_8994 =
-"Gather 40 Blackrock Bracers and acquire a Flask of Supreme Power. Return them to Bodley inside Blackrock Mountain."
+IJ_QUEST_OBJECTIVE_8994 = "Gather 40 Blackrock Bracers and acquire a Flask of Supreme Power. Return them to Bodley inside Blackrock Mountain."
 
 -- Quest 7761
 IJ_QUEST_NAME_7761 = "Blackhand's Command"
 IJ_QUEST_OBJECTIVE_7761 =
-"That is one stupid orc. It would appear as if you need to find this brand and gain the Mark of Drakkisath in order to access the Orb of Command.\n\nThe letter indicates that General Drakkisath guards the brand. Perhaps you should investigate."
+    "That is one stupid orc. It would appear as if you need to find this brand and gain the Mark of Drakkisath in order to access the Orb of Command.\n\nThe letter indicates that General Drakkisath guards the brand. Perhaps you should investigate."
 IJ_NPC_NAME_179880 = "Drakkisath's Brand"
 IJ_LOOT_NAME_18987 = "Blackhand's Command"
 
 -- Quest 6402
 IJ_QUEST_NAME_6402 = "Stormwind Rendezvous"
-IJ_QUEST_OBJECTIVE_6402 =
-"Travel to Stormwind City and venture to the city gates. Speak with Squire Rowe so that he may let Marshal Windsor know that you have arrived."
+IJ_QUEST_OBJECTIVE_6402 = "Travel to Stormwind City and venture to the city gates. Speak with Squire Rowe so that he may let Marshal Windsor know that you have arrived."
 IJ_NPC_NAME_9560 = "Marshal Maxwell"
 IJ_NPC_NAME_12580 = "Reginald Windsor"
 
@@ -7800,14 +7397,12 @@ IJ_QUEST_OBJECTIVE_6403 = "Follow Reginald Windsor through Stormwind. Protect hi
 
 -- Quest 6501
 IJ_QUEST_NAME_6501 = "The Dragon's Eye"
-IJ_QUEST_OBJECTIVE_6501 =
-"You must search the world for a being capable of restoring the power to the Fragment of the Dragon's Eye. The only information you possess about such a being is that they exist."
+IJ_QUEST_OBJECTIVE_6501 = "You must search the world for a being capable of restoring the power to the Fragment of the Dragon's Eye. The only information you possess about such a being is that they exist."
 IJ_NPC_NAME_10929 = "Haleh"
 
 -- Quest 6502
 IJ_QUEST_NAME_6502 = "Drakefire Amulet"
-IJ_QUEST_OBJECTIVE_6502 =
-"You must retrieve the Blood of the Black Dragon Champion from General Drakkisath. Drakkisath can be found in his throne room behind the Halls of Ascension in Blackrock Spire."
+IJ_QUEST_OBJECTIVE_6502 = "You must retrieve the Blood of the Black Dragon Champion from General Drakkisath. Drakkisath can be found in his throne room behind the Halls of Ascension in Blackrock Spire."
 
 -- Quest 4766
 IJ_QUEST_NAME_4766 = "Mayara Brightwing"
@@ -7821,18 +7416,15 @@ IJ_QUEST_OBJECTIVE_4764 = "Bring Doomrigger's Clasp to Mayara Brightwing in the 
 
 -- Quest 5102
 IJ_QUEST_NAME_5102 = "General Drakkisath's Demise"
-IJ_QUEST_OBJECTIVE_5102 =
-"Travel to Blackrock Spire and destroy General Drakkisath. Return to Marshal Maxwell when the job is done."
+IJ_QUEST_OBJECTIVE_5102 = "Travel to Blackrock Spire and destroy General Drakkisath. Return to Marshal Maxwell when the job is done."
 
 -- Quest 6804
 IJ_QUEST_NAME_6804 = "Poisoned Water"
-IJ_QUEST_OBJECTIVE_6804 =
-"Use the Aspect of Neptulon on poisoned elementals of Eastern Plaguelands. Bring 12 Discordant Bracers and the Aspect of Neptulon to Duke Hydraxis in Azshara."
+IJ_QUEST_OBJECTIVE_6804 = "Use the Aspect of Neptulon on poisoned elementals of Eastern Plaguelands. Bring 12 Discordant Bracers and the Aspect of Neptulon to Duke Hydraxis in Azshara."
 
 -- Quest 6805
 IJ_QUEST_NAME_6805 = "Stormers and Rumblers"
-IJ_QUEST_OBJECTIVE_6805 =
-"Kill 15 Dust Stormers and 15 Desert Rumbers and then return to Duke Hydraxis in Azshara."
+IJ_QUEST_OBJECTIVE_6805 = "Kill 15 Dust Stormers and 15 Desert Rumbers and then return to Duke Hydraxis in Azshara."
 
 -- Quest 6821
 IJ_QUEST_NAME_6821 = "Eye of the Emberseer"
@@ -7852,93 +7444,86 @@ IJ_NPC_NAME_10740 = "Awbee"
 -- Quest 6133
 IJ_QUEST_NAME_6133 = "The Ranger Lord's Behest"
 IJ_QUEST_OBJECTIVE_6133 =
-"Travel to the northern borders of the Eastern Plaguelands and recover the Quel'Thalas Registry. The item is somewhere in the Quel'Lithien lodge.\n\nYou must also slay 8 Rangers, 8 Pathstriders, and 8 Woodsmen."
+    "Travel to the northern borders of the Eastern Plaguelands and recover the Quel'Thalas Registry. The item is somewhere in the Quel'Lithien lodge.\n\nYou must also slay 8 Rangers, 8 Pathstriders, and 8 Woodsmen."
 IJ_NPC_NAME_11878 = "Nathanos Blightcaller"
 
 -- Quest 6135
 IJ_QUEST_NAME_6135 = "Duskwing, Oh How I Hate Thee..."
 IJ_QUEST_OBJECTIVE_6135 =
-"Find Duskwing and slay him. From the corpse, recover a Patch of Duskwing's Fur and return it to Nathanos Blightcaller.\n\nIt is said that Duskwing roams the countryside to the north of Marris Stead."
+    "Find Duskwing and slay him. From the corpse, recover a Patch of Duskwing's Fur and return it to Nathanos Blightcaller.\n\nIt is said that Duskwing roams the countryside to the north of Marris Stead."
 IJ_LOOT_NAME_16994 = "Duskwing Gloves"
 IJ_LOOT_NAME_16995 = "Duskwing Mantle"
 
 -- Quest 6163
 IJ_QUEST_NAME_6163 = "Ramstein"
-IJ_QUEST_OBJECTIVE_6163 =
-"Travel to Stratholme and slay Ramstein the Gorger. Take his head as a souvenir for Nathanos."
+IJ_QUEST_OBJECTIVE_6163 = "Travel to Stratholme and slay Ramstein the Gorger. Take his head as a souvenir for Nathanos."
 IJ_LOOT_NAME_18022 = "Royal Seal of Alexis"
 IJ_LOOT_NAME_17001 = "Elemental Circle"
 
 -- Quest 5305
 IJ_QUEST_NAME_5305 = "Sweet Serenity"
-IJ_QUEST_OBJECTIVE_5305 =
-"Travel to Stratholme and kill the Crimson Hammersmith. Recover the Crimson Hammersmith's Apron and return to Lilith."
+IJ_QUEST_OBJECTIVE_5305 = "Travel to Stratholme and kill the Crimson Hammersmith. Recover the Crimson Hammersmith's Apron and return to Lilith."
 IJ_NPC_NAME_11191 = "Lilith the Lithe"
 IJ_LOOT_NAME_12824 = "Plans: Enchanted Battlehammer"
 
 -- Quest 5307
 IJ_QUEST_NAME_5307 = "Corruption"
-IJ_QUEST_OBJECTIVE_5307 =
-"Find the Black Guard Swordsmith in Stratholme and destroy him. Recover the Insignia of the Black Guard and return to Seril Scourgebane."
+IJ_QUEST_OBJECTIVE_5307 = "Find the Black Guard Swordsmith in Stratholme and destroy him. Recover the Insignia of the Black Guard and return to Seril Scourgebane."
 IJ_NPC_NAME_11193 = "Seril Scourgebane"
 IJ_LOOT_NAME_12825 = "Plans: Blazing Rapier"
 
 -- Quest 9250
 IJ_QUEST_NAME_9250 = "Frame of Atiesh"
-IJ_QUEST_OBJECTIVE_9250 =
-"Find someone that will help you in recovering the last two pieces of the staff and ridding it of evil."
+IJ_QUEST_OBJECTIVE_9250 = "Find someone that will help you in recovering the last two pieces of the staff and ridding it of evil."
 IJ_LOOT_NAME_22727 = "Frame of Atiesh"
 
 -- Quest 9251
 IJ_QUEST_NAME_9251 = "Atiesh, the Befouled Greatstaff"
-IJ_QUEST_OBJECTIVE_9251 =
-"Anachronos at the Caverns of Time in Tanaris wants the Staff Head of Atiesh and the Base of Atiesh."
+IJ_QUEST_OBJECTIVE_9251 = "Anachronos at the Caverns of Time in Tanaris wants the Staff Head of Atiesh and the Base of Atiesh."
 
 -- Quest 9271
 IJ_QUEST_NAME_9271 = "Atiesh, Greatstaff of the Guardian"
 IJ_QUEST_OBJECTIVE_9271 =
-"Anachronos at the Caverns of Time in Tanaris wants you to take Atiesh, Greatstaff of the Guardian to Stratholme and use it on Consecrated Earth. Defeat the entity that is exorcised from the staff and return to him."
+    "Anachronos at the Caverns of Time in Tanaris wants you to take Atiesh, Greatstaff of the Guardian to Stratholme and use it on Consecrated Earth. Defeat the entity that is exorcised from the staff and return to him."
 IJ_LOOT_NAME_22630 = "Atiesh, Greatstaff of the Guardian"
 
 -- Quest 9257
 IJ_QUEST_NAME_9257 = "Atiesh, Greatstaff of the Guardian"
 IJ_QUEST_OBJECTIVE_9257 =
-"Anachronos at the Caverns of Time in Tanaris wants you to take Atiesh, Greatstaff of the Guardian to Stratholme and use it on Consecrated Earth. Defeat the entity that is exorcised from the staff and return to him."
+    "Anachronos at the Caverns of Time in Tanaris wants you to take Atiesh, Greatstaff of the Guardian to Stratholme and use it on Consecrated Earth. Defeat the entity that is exorcised from the staff and return to him."
 IJ_LOOT_NAME_22631 = "Atiesh, Greatstaff of the Guardian"
 
 -- Quest 9270
 IJ_QUEST_NAME_9270 = "Atiesh, Greatstaff of the Guardian"
 IJ_QUEST_OBJECTIVE_9270 =
-"Anachronos at the Caverns of Time in Tanaris wants you to take Atiesh, Greatstaff of the Guardian to Stratholme and use it on Consecrated Earth. Defeat the entity that is exorcised from the staff and return to him."
+    "Anachronos at the Caverns of Time in Tanaris wants you to take Atiesh, Greatstaff of the Guardian to Stratholme and use it on Consecrated Earth. Defeat the entity that is exorcised from the staff and return to him."
 IJ_LOOT_NAME_22589 = "Atiesh, Greatstaff of the Guardian"
 
 -- Quest 9269
 IJ_QUEST_NAME_9269 = "Atiesh, Greatstaff of the Guardian"
 IJ_QUEST_OBJECTIVE_9269 =
-"Anachronos at the Caverns of Time in Tanaris wants you to take Atiesh, Greatstaff of the Guardian to Stratholme and use it on Consecrated Earth. Defeat the entity that is exorcised from the staff and return to him."
+    "Anachronos at the Caverns of Time in Tanaris wants you to take Atiesh, Greatstaff of the Guardian to Stratholme and use it on Consecrated Earth. Defeat the entity that is exorcised from the staff and return to him."
 IJ_LOOT_NAME_22632 = "Atiesh, Greatstaff of the Guardian"
 
 -- Quest 8991
 IJ_QUEST_NAME_8991 = "The Right Piece of Lord Valthalak's Amulet"
 IJ_QUEST_OBJECTIVE_8991 =
-"Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
+    "Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
 
 -- Quest 8968
 IJ_QUEST_NAME_8968 = "The Left Piece of Lord Valthalak's Amulet"
 IJ_QUEST_OBJECTIVE_8968 =
-"Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
+    "Use the Brazier of Beckoning to summon forth Jarien and Sothos and slay them. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
 
 -- Quest 8929
 IJ_QUEST_NAME_8929 = "In Search of Anthion"
-IJ_QUEST_OBJECTIVE_8929 =
-"Use the Extra-Dimensional Ghost Revealer at the entrance to Stratholme and speak with the ghost of Anthion Harmon."
+IJ_QUEST_OBJECTIVE_8929 = "Use the Extra-Dimensional Ghost Revealer at the entrance to Stratholme and speak with the ghost of Anthion Harmon."
 IJ_NPC_NAME_16013 = "Deliana"
 IJ_NPC_NAME_16016 = "Anthion Harmon"
 
 -- Quest 8930
 IJ_QUEST_NAME_8930 = "In Search of Anthion"
-IJ_QUEST_OBJECTIVE_8930 =
-"Use the Extra-Dimensional Ghost Revealer at the entrance to Stratholme and speak with the ghost of Anthion Harmon."
+IJ_QUEST_OBJECTIVE_8930 = "Use the Extra-Dimensional Ghost Revealer at the entrance to Stratholme and speak with the ghost of Anthion Harmon."
 IJ_NPC_NAME_16012 = "Mokvar"
 
 -- Quest 8945
@@ -7949,8 +7534,7 @@ IJ_LOOT_NAME_22137 = "Ysida's Satchel"
 
 -- Quest 5263
 IJ_QUEST_NAME_5263 = "Above and Beyond"
-IJ_QUEST_OBJECTIVE_5263 =
-"Venture to Stratholme and destroy Baron Rivendare. Take his head and return to Duke Nicholas Zverenhoff."
+IJ_QUEST_OBJECTIVE_5263 = "Venture to Stratholme and destroy Baron Rivendare. Take his head and return to Duke Nicholas Zverenhoff."
 IJ_NPC_NAME_11039 = "Duke Nicholas Zverenhoff"
 IJ_LOOT_NAME_13243 = "Argent Defender"
 IJ_LOOT_NAME_13249 = "Argent Crusader"
@@ -7958,19 +7542,16 @@ IJ_LOOT_NAME_13246 = "Argent Avenger"
 
 -- Quest 5262
 IJ_QUEST_NAME_5262 = "The Truth Comes Crashing Down"
-IJ_QUEST_OBJECTIVE_5262 =
-"Take the Head of Balnazzar to Duke Nicholas Zverenhoff in the Eastern Plaguelands."
+IJ_QUEST_OBJECTIVE_5262 = "Take the Head of Balnazzar to Duke Nicholas Zverenhoff in the Eastern Plaguelands."
 IJ_LOOT_NAME_13250 = "Head of Balnazzar"
 
 -- Quest 5251
 IJ_QUEST_NAME_5251 = "The Archivist"
-IJ_QUEST_OBJECTIVE_5251 =
-"Travel to Stratholme and find Archivist Galford of the Scarlet Crusade. Destroy him and burn down the Scarlet Archive."
+IJ_QUEST_OBJECTIVE_5251 = "Travel to Stratholme and find Archivist Galford of the Scarlet Crusade. Destroy him and burn down the Scarlet Archive."
 
 -- Quest 5122
 IJ_QUEST_NAME_5122 = "The Medallion of Faith"
-IJ_QUEST_OBJECTIVE_5122 =
-"Retrieve the medallion. It is guarded by Malor the Zealous, a crazed member of the Scarlet Brotherhood who resides deep in the Scarlet Bastion in western Stratholme."
+IJ_QUEST_OBJECTIVE_5122 = "Retrieve the medallion. It is guarded by Malor the Zealous, a crazed member of the Scarlet Brotherhood who resides deep in the Scarlet Bastion in western Stratholme."
 IJ_NPC_NAME_10917 = "Aurius"
 
 -- Quest 5125
@@ -7980,14 +7561,12 @@ IJ_LOOT_NAME_17045 = "Blood of the Martyr"
 
 -- Quest 5544
 IJ_QUEST_NAME_5544 = "Carrion Grubbage"
-IJ_QUEST_OBJECTIVE_5544 =
-"Seek out the Carrion Grubs and Devourers of the region. Slay them and harvest their meat. Return to Tirion Fordring when you have gathered 15 Slabs of Carrion Worm Meat."
+IJ_QUEST_OBJECTIVE_5544 = "Seek out the Carrion Grubs and Devourers of the region. Slay them and harvest their meat. Return to Tirion Fordring when you have gathered 15 Slabs of Carrion Worm Meat."
 IJ_NPC_NAME_1855 = "Tirion Fordring"
 
 -- Quest 5542
 IJ_QUEST_NAME_5542 = "Demon Dogs"
-IJ_QUEST_OBJECTIVE_5542 =
-"Slay 20 Plaguehound Runts, 5 Plaguehounds and 5 Frenzied Plaguehounds. Return to Tirion Fordring when the task is complete."
+IJ_QUEST_OBJECTIVE_5542 = "Slay 20 Plaguehound Runts, 5 Plaguehounds and 5 Frenzied Plaguehounds. Return to Tirion Fordring when the task is complete."
 
 -- Quest 5543
 IJ_QUEST_NAME_5543 = "Blood Tinged Skies"
@@ -7999,24 +7578,21 @@ IJ_QUEST_OBJECTIVE_5742 = "Listen to what Tirion Fordring has to say."
 
 -- Quest 5781
 IJ_QUEST_NAME_5781 = "Of Forgotten Memories"
-IJ_QUEST_OBJECTIVE_5781 =
-"Travel to the Undercroft - at the southernmost section of the Eastern Plaguelands - and recover Taelan's Hammer. Return to Tirion Fordring upon completion of your objective."
+IJ_QUEST_OBJECTIVE_5781 = "Travel to the Undercroft - at the southernmost section of the Eastern Plaguelands - and recover Taelan's Hammer. Return to Tirion Fordring upon completion of your objective."
 
 -- Quest 5845
 IJ_QUEST_NAME_5845 = "Of Lost Honor"
-IJ_QUEST_OBJECTIVE_5845 =
-"Travel to Northdale, in the northeastern region of the Eastern Plaguelands, and recover the Symbol of Lost Honor. Return to Tirion Fordring upon completion of your objective."
+IJ_QUEST_OBJECTIVE_5845 = "Travel to Northdale, in the northeastern region of the Eastern Plaguelands, and recover the Symbol of Lost Honor. Return to Tirion Fordring upon completion of your objective."
 
 -- Quest 5846
 IJ_QUEST_NAME_5846 = "Of Love and Family"
-IJ_QUEST_OBJECTIVE_5846 =
-"Travel to island of Caer Darrow, in the south-central region of the Plaguelands, and look for any clues as to the whereabouts of the painting."
+IJ_QUEST_OBJECTIVE_5846 = "Travel to island of Caer Darrow, in the south-central region of the Plaguelands, and look for any clues as to the whereabouts of the painting."
 IJ_NPC_NAME_11936 = "Artist Renfray"
 
 -- Quest 5848
 IJ_QUEST_NAME_5848 = "Of Love and Family"
 IJ_QUEST_OBJECTIVE_5848 =
-"Travel to Stratholme, in the northern part of the Plaguelands. It is in the Scarlet Bastion that you will find the painting 'Of Love and Family,' hidden behind another painting depicting the twin moons of our world.\n\nReturn the painting to Tirion Fordring."
+    "Travel to Stratholme, in the northern part of the Plaguelands. It is in the Scarlet Bastion that you will find the painting 'Of Love and Family,' hidden behind another painting depicting the twin moons of our world.\n\nReturn the painting to Tirion Fordring."
 
 -- Quest 5281
 IJ_QUEST_NAME_5281 = "The Restless Souls"
@@ -8027,20 +7603,19 @@ IJ_NPC_NAME_11140 = "Egan"
 -- Quest 5282
 IJ_QUEST_NAME_5282 = "The Restless Souls"
 IJ_QUEST_OBJECTIVE_5282 =
-"Use Egan's Blaster on the ghostly and spectral citizens of Stratholme. When the restless souls break free from their ghostly shells, use the blaster again - freedom will be theirs!\n\nFree 15 restless souls and return to Egan."
+    "Use Egan's Blaster on the ghostly and spectral citizens of Stratholme. When the restless souls break free from their ghostly shells, use the blaster again - freedom will be theirs!\n\nFree 15 restless souls and return to Egan."
 IJ_LOOT_NAME_13315 = "Testament of Hope"
 
 -- Quest 5214
 IJ_QUEST_NAME_5214 = "The Great Fras Siabi"
-IJ_QUEST_OBJECTIVE_5214 =
-"Find Fras Siabi's smoke shop in Stratholme and recover a box of Siabi's Premium Tobacco. Return to Smokey LaRue when the job is done."
+IJ_QUEST_OBJECTIVE_5214 = "Find Fras Siabi's smoke shop in Stratholme and recover a box of Siabi's Premium Tobacco. Return to Smokey LaRue when the job is done."
 IJ_NPC_NAME_11033 = "Smokey LaRue"
 IJ_LOOT_NAME_13171 = "Smokey's Lighter"
 
 -- Quest 5243
 IJ_QUEST_NAME_5243 = "Houses of the Holy"
 IJ_QUEST_OBJECTIVE_5243 =
-"Travel to Stratholme, in the north. Search the supply crates that litter the city and recover 5 Stratholme Holy Water. Return to Leonid Barthalomew the Revered when you have collected enough of the blessed fluid."
+    "Travel to Stratholme, in the north. Search the supply crates that litter the city and recover 5 Stratholme Holy Water. Return to Leonid Barthalomew the Revered when you have collected enough of the blessed fluid."
 IJ_NPC_NAME_11036 = "Leonid Barthalomew the Revered"
 IJ_LOOT_NAME_3928 = "Superior Healing Potion"
 IJ_LOOT_NAME_6149 = "Greater Mana Potion"
@@ -8049,16 +7624,14 @@ IJ_LOOT_NAME_13217 = "Band of the Penitent"
 
 -- Quest 5213
 IJ_QUEST_NAME_5213 = "The Active Agent"
-IJ_QUEST_OBJECTIVE_5213 =
-"Travel to Stratholme and search the ziggurats. Find and return new Scourge Data to Betina Bigglezink."
+IJ_QUEST_OBJECTIVE_5213 = "Travel to Stratholme and search the ziggurats. Find and return new Scourge Data to Betina Bigglezink."
 IJ_NPC_NAME_11035 = "Betina Bigglezink"
 IJ_LOOT_NAME_13209 = "Seal of the Dawn"
 IJ_LOOT_NAME_19812 = "Rune of the Dawn"
 
 -- Quest 5212
 IJ_QUEST_NAME_5212 = "The Flesh Does Not Lie"
-IJ_QUEST_OBJECTIVE_5212 =
-"Recover 20 Plagued Flesh Samples from Stratholme and return them to Betina Bigglezink. You suspect that any creature in Stratholme would have said flesh sample."
+IJ_QUEST_OBJECTIVE_5212 = "Recover 20 Plagued Flesh Samples from Stratholme and return them to Betina Bigglezink. You suspect that any creature in Stratholme would have said flesh sample."
 
 -- Quest 389
 IJ_QUEST_NAME_389 = "Bazil Thredd"
@@ -8072,8 +7645,7 @@ IJ_QUEST_OBJECTIVE_391 = "Kill Bazil Thredd and bring his head back to Warden Th
 
 -- Quest 303
 IJ_QUEST_NAME_303 = "The Dark Iron War"
-IJ_QUEST_OBJECTIVE_303 =
-"Motley Garmason at Dun Modr wants you to kill 15 Dark Iron Dwarves, 5 Dark Iron Tunnelers, 5 Dark Iron Saboteurs and 5 Dark Iron Demolitionists."
+IJ_QUEST_OBJECTIVE_303 = "Motley Garmason at Dun Modr wants you to kill 15 Dark Iron Dwarves, 5 Dark Iron Tunnelers, 5 Dark Iron Saboteurs and 5 Dark Iron Demolitionists."
 IJ_NPC_NAME_1074 = "Motley Garmason"
 
 -- Quest 378
@@ -8089,13 +7661,11 @@ IJ_NPC_NAME_1721 = "Nikova Raskol"
 
 -- Quest 387
 IJ_QUEST_NAME_387 = "Quell The Uprising"
-IJ_QUEST_OBJECTIVE_387 =
-"Warden Thelwater of Stormwind wants you to kill 10 Defias Prisoners, 8 Defias Convicts, and 8 Defias Insurgents in The Stockade."
+IJ_QUEST_OBJECTIVE_387 = "Warden Thelwater of Stormwind wants you to kill 10 Defias Prisoners, 8 Defias Convicts, and 8 Defias Insurgents in The Stockade."
 
 -- Quest 377
 IJ_QUEST_NAME_377 = "Crime and Punishment"
-IJ_QUEST_OBJECTIVE_377 =
-"Councilman Millstipe of Darkshire wants you to bring him the hand of Dextren Ward."
+IJ_QUEST_OBJECTIVE_377 = "Councilman Millstipe of Darkshire wants you to bring him the hand of Dextren Ward."
 IJ_NPC_NAME_270 = "Councilman Millstipe"
 IJ_LOOT_NAME_2033 = "Ambassador's Boots"
 IJ_LOOT_NAME_2906 = "Darkshire Mail Leggings"
@@ -8118,16 +7688,14 @@ IJ_NPC_NAME_180633 = "Crystalline Tear"
 
 -- Quest 8519
 IJ_QUEST_NAME_8519 = "A Pawn on the Eternal Board"
-IJ_QUEST_OBJECTIVE_8519 =
-"Learn all that you can of the past, then speak with Anachronos at the Caverns of Time in Tanaris."
+IJ_QUEST_OBJECTIVE_8519 = "Learn all that you can of the past, then speak with Anachronos at the Caverns of Time in Tanaris."
 
 -- Quest 8555
 IJ_QUEST_NAME_8555 = "The Charge of the Dragonflights"
 
 -- Quest 8733
 IJ_QUEST_NAME_8733 = "Eranikus, Tyrant of the Dream"
-IJ_QUEST_OBJECTIVE_8733 =
-"Travel to the continent of Teldrassil and find Malfurion's agent somewhere outside the walls of Darnassus."
+IJ_QUEST_OBJECTIVE_8733 = "Travel to the continent of Teldrassil and find Malfurion's agent somewhere outside the walls of Darnassus."
 IJ_NPC_NAME_15362 = "Malfurion Stormrage"
 IJ_NPC_NAME_15624 = "Forest Wisp"
 
@@ -8155,8 +7723,7 @@ IJ_NPC_NAME_10838 = "Commander Ashlam Valorfist"
 
 -- Quest 8414
 IJ_QUEST_NAME_8414 = "Dispelling Evil"
-IJ_QUEST_OBJECTIVE_8414 =
-"Collect 20 Minion's Scourgestones and bring them to High Priest Thel'danis in the Western Plaguelands."
+IJ_QUEST_OBJECTIVE_8414 = "Collect 20 Minion's Scourgestones and bring them to High Priest Thel'danis in the Western Plaguelands."
 IJ_NPC_NAME_1854 = "High Priest Thel'danis"
 
 -- Quest 8416
@@ -8179,8 +7746,7 @@ IJ_NPC_NAME_6768 = "Lord Jorach Ravenholdt"
 
 -- Quest 8234
 IJ_QUEST_NAME_8234 = "Sealed Azure Bag"
-IJ_QUEST_OBJECTIVE_8234 =
-"Retrieve the Sealed Azure Bag from the Timbermaw Shaman in Azshara. Then take the bag to Archmage Xylem, also found in Azshara."
+IJ_QUEST_OBJECTIVE_8234 = "Retrieve the Sealed Azure Bag from the Timbermaw Shaman in Azshara. Then take the bag to Archmage Xylem, also found in Azshara."
 
 -- Quest 8235
 IJ_QUEST_NAME_8235 = "Encoded Fragments"
@@ -8201,18 +7767,15 @@ IJ_NPC_NAME_8405 = "Ogtinc"
 
 -- Quest 8255
 IJ_QUEST_NAME_8255 = "Of Coursers We Know"
-IJ_QUEST_OBJECTIVE_8255 =
-"Acquire 4 Healthy Courser Glands and bring them to Ogtinc in Azshara.  Ogtinc resides atop the cliffs northeast the Ruins of Eldarath."
+IJ_QUEST_OBJECTIVE_8255 = "Acquire 4 Healthy Courser Glands and bring them to Ogtinc in Azshara.  Ogtinc resides atop the cliffs northeast the Ruins of Eldarath."
 
 -- Quest 8256
 IJ_QUEST_NAME_8256 = "The Ichor of Undeath"
-IJ_QUEST_OBJECTIVE_8256 =
-"Acquire an Ichor of Undeath for Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast the Ruins of Eldarath."
+IJ_QUEST_OBJECTIVE_8256 = "Acquire an Ichor of Undeath for Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast the Ruins of Eldarath."
 
 -- Quest 8257
 IJ_QUEST_NAME_8257 = "Blood of Morphaz"
-IJ_QUEST_OBJECTIVE_8257 =
-"Kill Morphaz in the sunken temple of Atal'Hakkar, and return his blood to Greta Mosshoof in Felwood. The entrance to the sunken temple can be found in the Swamp of Sorrows."
+IJ_QUEST_OBJECTIVE_8257 = "Kill Morphaz in the sunken temple of Atal'Hakkar, and return his blood to Greta Mosshoof in Felwood. The entrance to the sunken temple can be found in the Swamp of Sorrows."
 IJ_NPC_NAME_10922 = "Greta Mosshoof"
 IJ_LOOT_NAME_19990 = "Blessed Prayer Beads"
 IJ_LOOT_NAME_20082 = "Woestave"
@@ -8246,18 +7809,15 @@ IJ_NPC_NAME_5516 = "Ulfir Ironbeard"
 
 -- Quest 8153
 IJ_QUEST_NAME_8153 = "Courser Antlers"
-IJ_QUEST_OBJECTIVE_8153 =
-"Bring a pair of Perfect Courser Antlers to Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast of the Ruins of Eldarath."
+IJ_QUEST_OBJECTIVE_8153 = "Bring a pair of Perfect Courser Antlers to Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast of the Ruins of Eldarath."
 
 -- Quest 8231
 IJ_QUEST_NAME_8231 = "Wavethrashing"
-IJ_QUEST_OBJECTIVE_8231 =
-"Bring 6 Wavethrasher Scales to Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast the Ruins of Eldarath."
+IJ_QUEST_OBJECTIVE_8231 = "Bring 6 Wavethrasher Scales to Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast the Ruins of Eldarath."
 
 -- Quest 8232
 IJ_QUEST_NAME_8232 = "The Green Drake"
-IJ_QUEST_OBJECTIVE_8232 =
-"Bring the Tooth of Morphaz to Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast the Ruins of Eldarath."
+IJ_QUEST_OBJECTIVE_8232 = "Bring the Tooth of Morphaz to Ogtinc in Azshara. Ogtinc resides atop the cliffs northeast the Ruins of Eldarath."
 IJ_LOOT_NAME_20083 = "Hunting Spear"
 IJ_LOOT_NAME_19991 = "Devilsaur Eye"
 IJ_LOOT_NAME_19992 = "Devilsaur Tooth"
@@ -8270,19 +7830,16 @@ IJ_NPC_NAME_9619 = "Torwa Pathfinder"
 
 -- Quest 9052
 IJ_QUEST_NAME_9052 = "Bloodpetal Poison"
-IJ_QUEST_OBJECTIVE_9052 =
-"Collect 8 Bloodcap and 8 Gorishi Stings, and return to Torwa Pathfinder in Un'Goro Crater."
+IJ_QUEST_OBJECTIVE_9052 = "Collect 8 Bloodcap and 8 Gorishi Stings, and return to Torwa Pathfinder in Un'Goro Crater."
 IJ_LOOT_NAME_13446 = "Major Healing Potion"
 
 -- Quest 9051
 IJ_QUEST_NAME_9051 = "Toxic Test"
-IJ_QUEST_OBJECTIVE_9051 =
-"Stab a Devilsaur with the Devilsaur Barb. Return to Torwa Pathfinder in Un'Goro Crater when you have completed this task."
+IJ_QUEST_OBJECTIVE_9051 = "Stab a Devilsaur with the Devilsaur Barb. Return to Torwa Pathfinder in Un'Goro Crater when you have completed this task."
 
 -- Quest 9053
 IJ_QUEST_NAME_9053 = "A Better Ingredient"
-IJ_QUEST_OBJECTIVE_9053 =
-"Retrieve a Putrid Vine from the guardian at the bottom of the Sunken Temple and return to Torwa Pathfinder."
+IJ_QUEST_OBJECTIVE_9053 = "Retrieve a Putrid Vine from the guardian at the bottom of the Sunken Temple and return to Torwa Pathfinder."
 IJ_LOOT_NAME_22274 = "Grizzled Pelt"
 IJ_LOOT_NAME_22272 = "Forest's Embrace"
 IJ_LOOT_NAME_22458 = "Moonshadow Stave"
@@ -8298,13 +7855,11 @@ IJ_QUEST_OBJECTIVE_8423 = "Kill 7 Helboar in the Blasted Lands and return to the
 
 -- Quest 8424
 IJ_QUEST_NAME_8424 = "War on the Shadowsworn"
-IJ_QUEST_OBJECTIVE_8424 =
-"Slaughter the Shadowsworn in the Blasted Lands and return to the Fallen Hero of the Horde."
+IJ_QUEST_OBJECTIVE_8424 = "Slaughter the Shadowsworn in the Blasted Lands and return to the Fallen Hero of the Horde."
 
 -- Quest 8425
 IJ_QUEST_NAME_8425 = "Voodoo Feathers"
-IJ_QUEST_OBJECTIVE_8425 =
-"Bring the Voodoo Feathers from the trolls in the Sunken Temple to the Fallen Hero of the Horde."
+IJ_QUEST_OBJECTIVE_8425 = "Bring the Voodoo Feathers from the trolls in the Sunken Temple to the Fallen Hero of the Horde."
 IJ_LOOT_NAME_20521 = "Fury Visor"
 IJ_LOOT_NAME_20130 = "Diamond Flask"
 IJ_LOOT_NAME_20517 = "Razorsteel Shoulders"
@@ -8327,8 +7882,7 @@ IJ_LOOT_NAME_20530 = "Robes of Servitude"
 
 -- Quest 3373
 IJ_QUEST_NAME_3373 = "The Essence of Eranikus"
-IJ_QUEST_OBJECTIVE_3373 =
-"Place the Essence of Eranikus in the Essence Font located in this lair in the Sunken Temple."
+IJ_QUEST_OBJECTIVE_3373 = "Place the Essence of Eranikus in the Essence Font located in this lair in the Sunken Temple."
 IJ_NPC_NAME_148512 = "Essence Font"
 IJ_LOOT_NAME_10455 = "Chained Essence of Eranikus"
 
@@ -8341,8 +7895,7 @@ IJ_LOOT_NAME_11124 = "Helm of Exile"
 
 -- Quest 3447
 IJ_QUEST_NAME_3447 = "Secret of the Circle"
-IJ_QUEST_OBJECTIVE_3447 =
-"Travel into the Sunken Temple and discover the secret hidden in the circle of statues."
+IJ_QUEST_OBJECTIVE_3447 = "Travel into the Sunken Temple and discover the secret hidden in the circle of statues."
 IJ_NPC_NAME_7771 = "Marvon Rivetseeker"
 IJ_NPC_NAME_148838 = "Idol of Hakkar"
 IJ_LOOT_NAME_10773 = "Hakkari Urn"
@@ -8382,8 +7935,7 @@ IJ_QUEST_OBJECTIVE_4143 = "Collect 5 samples of Atal'ai Haze, then return to Mui
 
 -- Quest 4145
 IJ_QUEST_NAME_4145 = "Larion and Muigin"
-IJ_QUEST_OBJECTIVE_4145 =
-"Hunt 5 Bloodpetal Lashers, 5 Bloodpetal Threshers, 5 Bloodpetal Flayers and 5 Bloodpetal Trappers for Larion at Marshal's Refuge."
+IJ_QUEST_OBJECTIVE_4145 = "Hunt 5 Bloodpetal Lashers, 5 Bloodpetal Threshers, 5 Bloodpetal Flayers and 5 Bloodpetal Trappers for Larion at Marshal's Refuge."
 IJ_NPC_NAME_9118 = "Larion"
 
 -- Quest 4147
@@ -8393,8 +7945,7 @@ IJ_NPC_NAME_8496 = "Liv Rizzlefix"
 
 -- Quest 4146
 IJ_QUEST_NAME_4146 = "Zapper Fuel"
-IJ_QUEST_OBJECTIVE_4146 =
-"Deliver the Unloaded Zapper and 5 samples of Atal'ai Haze to Larion in Marshal's Refuge."
+IJ_QUEST_OBJECTIVE_4146 = "Deliver the Unloaded Zapper and 5 samples of Atal'ai Haze to Larion in Marshal's Refuge."
 
 -- Quest 1424
 IJ_QUEST_NAME_1424 = "Pool of Tears"
@@ -8416,8 +7967,7 @@ IJ_LOOT_NAME_1490 = "Guardian Talisman"
 
 -- Quest 1448
 IJ_QUEST_NAME_1448 = "In Search of The Temple"
-IJ_QUEST_OBJECTIVE_1448 =
-"Brohann Caskbelly in Stormwind wants you to search for the Temple of Atal'Hakkar."
+IJ_QUEST_OBJECTIVE_1448 = "Brohann Caskbelly in Stormwind wants you to search for the Temple of Atal'Hakkar."
 
 -- Quest 1449
 IJ_QUEST_NAME_1449 = "To The Hinterlands"
@@ -8435,8 +7985,7 @@ IJ_NPC_NAME_5634 = "Rhapsody Shindigger"
 
 -- Quest 1452
 IJ_QUEST_NAME_1452 = "Rhapsody's Kalimdor Kocktail"
-IJ_QUEST_OBJECTIVE_1452 =
-"Rhapsody Shindigger in The Hinterlands wants you to bring him 3 Roc Gizzards, 3 Groddoc Livers and 3 Ironfur Livers."
+IJ_QUEST_OBJECTIVE_1452 = "Rhapsody Shindigger in The Hinterlands wants you to bring him 3 Roc Gizzards, 3 Groddoc Livers and 3 Ironfur Livers."
 
 -- Quest 1469
 IJ_QUEST_NAME_1469 = "Rhapsody's Tale"
@@ -8461,19 +8010,16 @@ IJ_QUEST_OBJECTIVE_1151 = "Bring Fragments of Rok'Alim to Dorn Plainstalker in T
 
 -- Quest 1152
 IJ_QUEST_NAME_1152 = "Test of Lore"
-IJ_QUEST_OBJECTIVE_1152 =
-"Find Braug Dimspirit near the entrance to Talondeep Path in Stonetalon Mountains."
+IJ_QUEST_OBJECTIVE_1152 = "Find Braug Dimspirit near the entrance to Talondeep Path in Stonetalon Mountains."
 IJ_NPC_NAME_4489 = "Braug Dimspirit"
 
 -- Quest 1154
 IJ_QUEST_NAME_1154 = "Test of Lore"
-IJ_QUEST_OBJECTIVE_1154 =
-"Find the Legacy of the Aspects and return it to Braug Dimspirit near the entrance to Talondeep Path in Stonetalon Mountains."
+IJ_QUEST_OBJECTIVE_1154 = "Find the Legacy of the Aspects and return it to Braug Dimspirit near the entrance to Talondeep Path in Stonetalon Mountains."
 
 -- Quest 6627
 IJ_QUEST_NAME_6627 = "Test of Lore"
-IJ_QUEST_OBJECTIVE_6627 =
-"Answer Braug Dimspirit's question successfully and then speak to him again. He will remain in Stonetalon Mountains when you are ready."
+IJ_QUEST_OBJECTIVE_6627 = "Answer Braug Dimspirit's question successfully and then speak to him again. He will remain in Stonetalon Mountains when you are ready."
 
 -- Quest 1159
 IJ_QUEST_NAME_1159 = "Test of Lore"
@@ -8482,13 +8028,11 @@ IJ_NPC_NAME_4488 = "Parqual Fintallas"
 
 -- Quest 1160
 IJ_QUEST_NAME_1160 = "Test of Lore"
-IJ_QUEST_OBJECTIVE_1160 =
-"Find The Beginnings of the Undead Threat, and return it to Parqual Fintallas in Undercity."
+IJ_QUEST_OBJECTIVE_1160 = "Find The Beginnings of the Undead Threat, and return it to Parqual Fintallas in Undercity."
 
 -- Quest 1049
 IJ_QUEST_NAME_1049 = "Compendium of the Fallen"
-IJ_QUEST_OBJECTIVE_1049 =
-"Retrieve the Compendium of the Fallen from the Monastery in Tirisfal Glades and return to Sage Truthseeker in Thunder Bluff."
+IJ_QUEST_OBJECTIVE_1049 = "Retrieve the Compendium of the Fallen from the Monastery in Tirisfal Glades and return to Sage Truthseeker in Thunder Bluff."
 IJ_NPC_NAME_3978 = "Sage Truthseeker"
 IJ_LOOT_NAME_7747 = "Vile Protector"
 IJ_LOOT_NAME_17508 = "Forcestone Buckler"
@@ -8513,8 +8057,7 @@ IJ_QUEST_OBJECTIVE_1951 = "Bring the book Rituals of Power to Tabetha in Dustwal
 
 -- Quest 1050
 IJ_QUEST_NAME_1050 = "Mythology of the Titans"
-IJ_QUEST_OBJECTIVE_1050 =
-"Retrieve Mythology of the Titans from the Monastery and bring it to Librarian Mae Paledust in Ironforge."
+IJ_QUEST_OBJECTIVE_1050 = "Retrieve Mythology of the Titans from the Monastery and bring it to Librarian Mae Paledust in Ironforge."
 IJ_NPC_NAME_3979 = "Librarian Mae Paledust"
 IJ_LOOT_NAME_7746 = "Explorers' League Commendation"
 
@@ -8529,8 +8072,7 @@ IJ_LOOT_NAME_4643 = "Grimsteel Cape"
 
 -- Quest 1048
 IJ_QUEST_NAME_1048 = "Into The Scarlet Monastery"
-IJ_QUEST_OBJECTIVE_1048 =
-"Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
+IJ_QUEST_OBJECTIVE_1048 = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Varimathras in the Undercity."
 IJ_NPC_NAME_2425 = "Varimathras"
 IJ_LOOT_NAME_6802 = "Sword of Omen"
 IJ_LOOT_NAME_6803 = "Prophetic Cane"
@@ -8558,8 +8100,7 @@ IJ_NPC_NAME_3980 = "Raleigh the Devout"
 
 -- Quest 1053
 IJ_QUEST_NAME_1053 = "In the Name of the Light"
-IJ_QUEST_OBJECTIVE_1053 =
-"Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Raleigh the Devout in Southshore."
+IJ_QUEST_OBJECTIVE_1053 = "Kill High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey and then report back to Raleigh the Devout in Southshore."
 IJ_LOOT_NAME_6829 = "Sword of Serenity"
 IJ_LOOT_NAME_6830 = "Bonebiter"
 IJ_LOOT_NAME_6831 = "Black Menace"
@@ -8583,8 +8124,7 @@ IJ_NPC_NAME_5878 = "Thun'grim Firegaze"
 
 -- Quest 1838
 IJ_QUEST_NAME_1838 = "Brutal Armor"
-IJ_QUEST_OBJECTIVE_1838 =
-"Bring to Thun'grim Firegaze 15 Smoky Iron Ingots, 10 Powdered Azurite, 10 Iron Bars and a Vial of Phlogiston."
+IJ_QUEST_OBJECTIVE_1838 = "Bring to Thun'grim Firegaze 15 Smoky Iron Ingots, 10 Powdered Azurite, 10 Iron Bars and a Vial of Phlogiston."
 
 -- Quest 1102
 IJ_QUEST_NAME_1102 = "A Vengeful Fate"
@@ -8602,8 +8142,7 @@ IJ_NPC_NAME_5479 = "Wu Shen"
 
 -- Quest 1699
 IJ_QUEST_NAME_1699 = "The Rethban Gauntlet"
-IJ_QUEST_OBJECTIVE_1699 =
-"Enter the Rethban Caverns, reach the first fork, and return to Yorus Barleybrew within the time allowed.\n\nYou must not die and release your spirit."
+IJ_QUEST_OBJECTIVE_1699 = "Enter the Rethban Caverns, reach the first fork, and return to Yorus Barleybrew within the time allowed.\n\nYou must not die and release your spirit."
 
 -- Quest 1702
 IJ_QUEST_NAME_1702 = "The Shieldsmith"
@@ -8613,8 +8152,7 @@ IJ_LOOT_NAME_6970 = "Furen's Favor"
 
 -- Quest 1701
 IJ_QUEST_NAME_1701 = "Fire Hardened Mail"
-IJ_QUEST_OBJECTIVE_1701 =
-"Gather the materials Furen Longbeard requires, and bring them to him in Stormwind."
+IJ_QUEST_OBJECTIVE_1701 = "Gather the materials Furen Longbeard requires, and bring them to him in Stormwind."
 
 -- Quest 1101
 IJ_QUEST_NAME_1101 = "The Crone of the Kraul"
@@ -8645,13 +8183,12 @@ IJ_LOOT_NAME_6752 = "Lancer Boots"
 -- Quest 1221
 IJ_QUEST_NAME_1221 = "Blueleaf Tubers"
 IJ_QUEST_OBJECTIVE_1221 =
-"Grab a Crate with Holes.\nGrab a Snufflenose Command Stick.\nGrab and read the Snufflenose Owner's Manual.\n\nIn Razorfen Kraul, use the Crate with Holes to summon a Snufflenose Gopher, and use the Command Stick on the gopher to make it search for Tubers.\n\nBring 6 Blueleaf Tubers, the Snufflenose Command Stick and the Crate with Holes to Mebok Mizzyrix in Ratchet."
+    "Grab a Crate with Holes.\nGrab a Snufflenose Command Stick.\nGrab and read the Snufflenose Owner's Manual.\n\nIn Razorfen Kraul, use the Crate with Holes to summon a Snufflenose Gopher, and use the Command Stick on the gopher to make it search for Tubers.\n\nBring 6 Blueleaf Tubers, the Snufflenose Command Stick and the Crate with Holes to Mebok Mizzyrix in Ratchet."
 IJ_LOOT_NAME_6755 = "A Small Container of Gems"
 
 -- Quest 5761
 IJ_QUEST_NAME_5761 = "Slaying the Beast"
-IJ_QUEST_OBJECTIVE_5761 =
-"Enter Ragefire Chasm and slay Taragaman the Hungerer, then bring his heart back to Neeru Fireblade in Orgrimmar."
+IJ_QUEST_OBJECTIVE_5761 = "Enter Ragefire Chasm and slay Taragaman the Hungerer, then bring his heart back to Neeru Fireblade in Orgrimmar."
 IJ_NPC_NAME_3216 = "Neeru Fireblade"
 
 -- Quest 5726
@@ -8660,8 +8197,7 @@ IJ_QUEST_OBJECTIVE_5726 = "Bring a Lieutenant's Insignia to Thrall in Orgrimmar.
 
 -- Quest 5727
 IJ_QUEST_NAME_5727 = "Hidden Enemies"
-IJ_QUEST_OBJECTIVE_5727 =
-"Take the Lieutenant's Insignia to Neeru Fireblade and speak to him. Gauge if he believes you are a member of the Burning Blade and then return to Thrall in Orgrimmar."
+IJ_QUEST_OBJECTIVE_5727 = "Take the Lieutenant's Insignia to Neeru Fireblade and speak to him. Gauge if he believes you are a member of the Burning Blade and then return to Thrall in Orgrimmar."
 
 -- Quest 5728
 IJ_QUEST_NAME_5728 = "Hidden Enemies"
@@ -8669,22 +8205,19 @@ IJ_QUEST_OBJECTIVE_5728 = "Kill Bazzalan and Jergosh the Invoker before returnin
 
 -- Quest 5722
 IJ_QUEST_NAME_5722 = "Searching for the Lost Satchel"
-IJ_QUEST_OBJECTIVE_5722 =
-"Search Ragefire Chasm for Maur Grimtotem's corpse and search it for any items of interest."
+IJ_QUEST_OBJECTIVE_5722 = "Search Ragefire Chasm for Maur Grimtotem's corpse and search it for any items of interest."
 IJ_NPC_NAME_11834 = "Maur Grimtotem"
 
 -- Quest 5725
 IJ_QUEST_NAME_5725 = "The Power to Destroy..."
-IJ_QUEST_OBJECTIVE_5725 =
-"Bring the books Spells of Shadow and Incantations from the Nether to Varimathras in Undercity."
+IJ_QUEST_OBJECTIVE_5725 = "Bring the books Spells of Shadow and Incantations from the Nether to Varimathras in Undercity."
 IJ_LOOT_NAME_15449 = "Ghastly Trousers"
 IJ_LOOT_NAME_15450 = "Dredgemire Leggings"
 IJ_LOOT_NAME_15451 = "Gargoyle Leggings"
 
 -- Quest 5723
 IJ_QUEST_NAME_5723 = "Testing an Enemy's Strength"
-IJ_QUEST_OBJECTIVE_5723 =
-"Search Orgrimmar for Ragefire Chasm, then kill 8 Ragefire Troggs and 8 Ragefire Shaman before returning to Rahauro in Thunder Bluff."
+IJ_QUEST_OBJECTIVE_5723 = "Search Orgrimmar for Ragefire Chasm, then kill 8 Ragefire Troggs and 8 Ragefire Shaman before returning to Rahauro in Thunder Bluff."
 
 -- Quest 7066
 IJ_QUEST_NAME_7066 = "Seed of Life"
@@ -8694,8 +8227,7 @@ IJ_NPC_NAME_11832 = "Keeper Remulos"
 
 -- Quest 7065
 IJ_QUEST_NAME_7065 = "Corruption of Earth and Seed"
-IJ_QUEST_OBJECTIVE_7065 =
-"Slay Princess Theradras and return to Keeper Marandis at Nijel's Point in Desolace."
+IJ_QUEST_OBJECTIVE_7065 = "Slay Princess Theradras and return to Keeper Marandis at Nijel's Point in Desolace."
 IJ_NPC_NAME_13698 = "Keeper Marandis"
 IJ_LOOT_NAME_17705 = "Thrash Blade"
 IJ_LOOT_NAME_17743 = "Resurgence Rod"
@@ -8703,27 +8235,23 @@ IJ_LOOT_NAME_17753 = "Verdant Keeper's Aim"
 
 -- Quest 7064
 IJ_QUEST_NAME_7064 = "Corruption of Earth and Seed"
-IJ_QUEST_OBJECTIVE_7064 =
-"Slay Princess Theradras and return to Selendra near Shadowprey Village in Desolace."
+IJ_QUEST_OBJECTIVE_7064 = "Slay Princess Theradras and return to Selendra near Shadowprey Village in Desolace."
 IJ_NPC_NAME_13699 = "Selendra"
 
 -- Quest 7046
 IJ_QUEST_NAME_7046 = "The Scepter of Celebras"
-IJ_QUEST_OBJECTIVE_7046 =
-"Assist Celebras the Redeemed while he creates the Scepter of Celebras.\n\nSpeak with him when the ritual is complete."
+IJ_QUEST_OBJECTIVE_7046 = "Assist Celebras the Redeemed while he creates the Scepter of Celebras.\n\nSpeak with him when the ritual is complete."
 IJ_NPC_NAME_13716 = "Celebras the Redeemed"
 IJ_LOOT_NAME_17191 = "Scepter of Celebras"
 
 -- Quest 7044
 IJ_QUEST_NAME_7044 = "Legends of Maraudon"
-IJ_QUEST_OBJECTIVE_7044 =
-"Recover the two parts of the Scepter of Celebras: the Celebrian Rod and the Celebrian Diamond.\n\nFind a way to speak with Celebras."
+IJ_QUEST_OBJECTIVE_7044 = "Recover the two parts of the Scepter of Celebras: the Celebrian Rod and the Celebrian Diamond.\n\nFind a way to speak with Celebras."
 IJ_NPC_NAME_13697 = "Cavindra"
 
 -- Quest 7067
 IJ_QUEST_NAME_7067 = "The Pariah's Instructions"
-IJ_QUEST_OBJECTIVE_7067 =
-"Read the Pariah's Instructions. Afterwards, obtain the Amulet of Union from Maraudon and return it to the Centaur Pariah in southern Desolace."
+IJ_QUEST_OBJECTIVE_7067 = "Read the Pariah's Instructions. Afterwards, obtain the Amulet of Union from Maraudon and return it to the Centaur Pariah in southern Desolace."
 IJ_NPC_NAME_13717 = "Centaur Pariah"
 IJ_LOOT_NAME_17774 = "Mark of the Chosen"
 
@@ -8739,7 +8267,7 @@ IJ_LOOT_NAME_17779 = "Hulkstone Pauldrons"
 -- Quest 7029
 IJ_QUEST_NAME_7029 = "Vyletongue Corruption"
 IJ_QUEST_OBJECTIVE_7029 =
-"Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon.\n\nUse the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge.\n\nHeal 8 plants by killing these Noxxious Scion, then return to Vark Battlescar in Shadowprey Village."
+    "Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon.\n\nUse the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge.\n\nHeal 8 plants by killing these Noxxious Scion, then return to Vark Battlescar in Shadowprey Village."
 IJ_NPC_NAME_11823 = "Vark Battlescar"
 IJ_LOOT_NAME_17768 = "Woodseed Hoop"
 IJ_LOOT_NAME_17778 = "Sagebrush Girdle"
@@ -8748,27 +8276,24 @@ IJ_LOOT_NAME_17770 = "Branchclaw Gauntlets"
 -- Quest 7041
 IJ_QUEST_NAME_7041 = "Vyletongue Corruption"
 IJ_QUEST_OBJECTIVE_7041 =
-"Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon.\n\nUse the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge.\n\nHeal 8 plants by killing these Noxxious Scion, then return to Talendria in Nijel's Point."
+    "Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon.\n\nUse the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge.\n\nHeal 8 plants by killing these Noxxious Scion, then return to Talendria in Nijel's Point."
 IJ_NPC_NAME_11715 = "Talendria"
 
 -- Quest 7070
 IJ_QUEST_NAME_7070 = "Shadowshard Fragments"
-IJ_QUEST_OBJECTIVE_7070 =
-"Collect 10 Shadowshard Fragments from Maraudon and return them to Archmage Tervosh in Theramore on the coast of Dustwallow Marsh."
+IJ_QUEST_OBJECTIVE_7070 = "Collect 10 Shadowshard Fragments from Maraudon and return them to Archmage Tervosh in Theramore on the coast of Dustwallow Marsh."
 IJ_NPC_NAME_4967 = "Archmage Tervosh"
 IJ_LOOT_NAME_17772 = "Zealous Shadowshard Pendant"
 IJ_LOOT_NAME_17773 = "Prodigious Shadowshard Pendant"
 
 -- Quest 7068
 IJ_QUEST_NAME_7068 = "Shadowshard Fragments"
-IJ_QUEST_OBJECTIVE_7068 =
-"Collect 10 Shadowshard Fragments from Maraudon and return them to Uthel'nay in Orgrimmar."
+IJ_QUEST_OBJECTIVE_7068 = "Collect 10 Shadowshard Fragments from Maraudon and return them to Uthel'nay in Orgrimmar."
 IJ_NPC_NAME_7311 = "Uthel'nay"
 
 -- Quest 4903
 IJ_QUEST_NAME_4903 = "Warlord's Command"
-IJ_QUEST_OBJECTIVE_4903 =
-"Slay Highlord Omokk, War Master Voone, and Overlord Wyrmthalak. Recover Important Blackrock Documents. Return to Warlord Goretooth in Kargath when the mission has been accomplished."
+IJ_QUEST_OBJECTIVE_4903 = "Slay Highlord Omokk, War Master Voone, and Overlord Wyrmthalak. Recover Important Blackrock Documents. Return to Warlord Goretooth in Kargath when the mission has been accomplished."
 IJ_LOOT_NAME_13958 = "Wyrmthalak's Shackles"
 IJ_LOOT_NAME_13959 = "Omokk's Girth Restrainer"
 IJ_LOOT_NAME_13961 = "Halycon's Muzzle"
@@ -8791,20 +8316,19 @@ IJ_NPC_NAME_176090 = "Human Remains"
 
 -- Quest 5306
 IJ_QUEST_NAME_5306 = "Snakestone of the Shadow Huntress"
-IJ_QUEST_OBJECTIVE_5306 =
-"Travel to Blackrock Spire and slay Shadow Hunter Vosh'gajin. Recover Vosh'gajin's Snakestone and return to Kilram."
+IJ_QUEST_OBJECTIVE_5306 = "Travel to Blackrock Spire and slay Shadow Hunter Vosh'gajin. Recover Vosh'gajin's Snakestone and return to Kilram."
 IJ_NPC_NAME_11192 = "Kilram"
 IJ_LOOT_NAME_12821 = "Plans: Dawn's Edge"
 
 -- Quest 8989
 IJ_QUEST_NAME_8989 = "The Right Piece of Lord Valthalak's Amulet"
 IJ_QUEST_OBJECTIVE_8989 =
-"Use the Brazier of Beckoning to summon forth the spirit of Mor Grayhoof and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
+    "Use the Brazier of Beckoning to summon forth the spirit of Mor Grayhoof and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
 
 -- Quest 8966
 IJ_QUEST_NAME_8966 = "The Left Piece of Lord Valthalak's Amulet"
 IJ_QUEST_OBJECTIVE_8966 =
-"Use the Brazier of Beckoning to summon forth the spirit of Mor Grayhoof and slay him. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
+    "Use the Brazier of Beckoning to summon forth the spirit of Mor Grayhoof and slay him. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
 
 -- Quest 5089
 IJ_QUEST_NAME_5089 = "General Drakkisath's Command"
@@ -8814,7 +8338,7 @@ IJ_LOOT_NAME_12780 = "General Drakkisath's Command"
 -- Quest 4742
 IJ_QUEST_NAME_4742 = "Seal of Ascension"
 IJ_QUEST_OBJECTIVE_4742 =
-"Find the three gemstones of command: The Gemstone of Smolderthorn, Gemstone of Spirestone, and Gemstone of Bloodaxe. Return them, along with the Unadorned Seal of Ascension, to Vaelan.\n\nThe Generals, as told to you by Vaelan, are: War Master Voone of the Smolderthorn; Highlord Omokk of the Spirestone; and Overlord Wyrmthalak of the Bloodaxe."
+    "Find the three gemstones of command: The Gemstone of Smolderthorn, Gemstone of Spirestone, and Gemstone of Bloodaxe. Return them, along with the Unadorned Seal of Ascension, to Vaelan.\n\nThe Generals, as told to you by Vaelan, are: War Master Voone of the Smolderthorn; Highlord Omokk of the Spirestone; and Overlord Wyrmthalak of the Bloodaxe."
 IJ_NPC_NAME_10299 = "Scarshield Infiltrator"
 
 -- Quest 5002
@@ -8824,8 +8348,7 @@ IJ_NPC_NAME_10257 = "Bijou"
 
 -- Quest 5081
 IJ_QUEST_NAME_5081 = "Maxwell's Mission"
-IJ_QUEST_OBJECTIVE_5081 =
-"Travel to Blackrock Spire and destroy War Master Voone, Highlord Omokk, and Overlord Wyrmthalak. Return to Marshal Maxwell when the job is done."
+IJ_QUEST_OBJECTIVE_5081 = "Travel to Blackrock Spire and destroy War Master Voone, Highlord Omokk, and Overlord Wyrmthalak. Return to Marshal Maxwell when the job is done."
 
 -- Quest 4981
 IJ_QUEST_NAME_4981 = "Operative Bijou"
@@ -8834,8 +8357,7 @@ IJ_NPC_NAME_9080 = "Lexlort"
 
 -- Quest 4982
 IJ_QUEST_NAME_4982 = "Bijou's Belongings"
-IJ_QUEST_OBJECTIVE_4982 =
-"Find Bijou's Belongings and return them to her. You recall her mentioning that she stashed them on the bottom floor of the city."
+IJ_QUEST_OBJECTIVE_4982 = "Find Bijou's Belongings and return them to her. You recall her mentioning that she stashed them on the bottom floor of the city."
 
 -- Quest 5001
 IJ_QUEST_NAME_5001 = "Bijou's Belongings"
@@ -8849,34 +8371,30 @@ IJ_LOOT_NAME_15867 = "Prismcharm"
 
 -- Quest 4701
 IJ_QUEST_NAME_4701 = "Put Her Down"
-IJ_QUEST_OBJECTIVE_4701 =
-"Travel to Blackrock Spire and destroy the source of the worg menace. As you left Helendis, he shouted a name: Halycon. It is what the orcs refer to in regards to the worg."
+IJ_QUEST_OBJECTIVE_4701 = "Travel to Blackrock Spire and destroy the source of the worg menace. As you left Helendis, he shouted a name: Halycon. It is what the orcs refer to in regards to the worg."
 IJ_NPC_NAME_9562 = "Helendis Riverhorn"
 
 -- Quest 4866
 IJ_QUEST_NAME_4866 = "Mother's Milk"
 IJ_QUEST_OBJECTIVE_4866 =
-"In the heart of Blackrock Spire you will find Mother Smolderweb. Engage her and get her to poison you. Chances are good that you will have to kill her as well. Return to Ragged John when you are poisoned so that he can 'milk' you."
+    "In the heart of Blackrock Spire you will find Mother Smolderweb. Engage her and get her to poison you. Chances are good that you will have to kill her as well. Return to Ragged John when you are poisoned so that he can 'milk' you."
 IJ_NPC_NAME_9563 = "Ragged John"
 IJ_LOOT_NAME_15873 = "Ragged John's Neverending Cup"
 
 -- Quest 4862
 IJ_QUEST_NAME_4862 = "En-Ay-Es-Tee-Why"
-IJ_QUEST_OBJECTIVE_4862 =
-"Travel to Blackrock Spire and collect 15 Spire Spider Eggs for Kibler.\n\nBy the sound of it, these eggs could be found near spiders."
+IJ_QUEST_OBJECTIVE_4862 = "Travel to Blackrock Spire and collect 15 Spire Spider Eggs for Kibler.\n\nBy the sound of it, these eggs could be found near spiders."
 IJ_NPC_NAME_10260 = "Kibler"
 IJ_LOOT_NAME_12529 = "Smolderweb Carrier"
 
 -- Quest 4729
 IJ_QUEST_NAME_4729 = "Kibler's Exotic Pets"
-IJ_QUEST_OBJECTIVE_4729 =
-"Travel to Blackrock Spire and find Bloodaxe Worg Pups. Use the cage to carry the ferocious little beasts. Bring back a Caged Worg Pup to Kibler."
+IJ_QUEST_OBJECTIVE_4729 = "Travel to Blackrock Spire and find Bloodaxe Worg Pups. Use the cage to carry the ferocious little beasts. Bring back a Caged Worg Pup to Kibler."
 IJ_LOOT_NAME_12264 = "Worg Carrier"
 
 -- Quest 3520
 IJ_QUEST_NAME_3520 = "Screecher Spirits"
-IJ_QUEST_OBJECTIVE_3520 =
-"Capture the spirits of 3 screechers in Feralas, then return to Yeh'kinya in Steamwheedle Port."
+IJ_QUEST_OBJECTIVE_3520 = "Capture the spirits of 3 screechers in Feralas, then return to Yeh'kinya in Steamwheedle Port."
 IJ_NPC_NAME_8579 = "Yeh'kinya"
 
 -- Quest 3527
@@ -8905,8 +8423,7 @@ IJ_QUEST_OBJECTIVE_4788 = "Bring the Fifth and Sixth Mosh'aru Tablets to Prospec
 
 -- Quest 2841
 IJ_QUEST_NAME_2841 = "Rig Wars"
-IJ_QUEST_OBJECTIVE_2841 =
-"Retrieve the Rig Blueprints and Thermaplugg's Safe Combination from Gnomeregan and bring them to Nogg in Orgrimmar."
+IJ_QUEST_OBJECTIVE_2841 = "Retrieve the Rig Blueprints and Thermaplugg's Safe Combination from Gnomeregan and bring them to Nogg in Orgrimmar."
 IJ_NPC_NAME_3412 = "Nogg"
 IJ_LOOT_NAME_9623 = "Civinad Robes"
 IJ_LOOT_NAME_9624 = "Triprunner Dungarees"
@@ -8925,14 +8442,12 @@ IJ_LOOT_NAME_9173 = "Goblin Transponder"
 
 -- Quest 2949
 IJ_QUEST_NAME_2949 = "Return of the Ring"
-IJ_QUEST_OBJECTIVE_2949 =
-"You may either keep the ring, or you may find the person responsible for the imprint and engravings on the inside of the band."
+IJ_QUEST_OBJECTIVE_2949 = "You may either keep the ring, or you may find the person responsible for the imprint and engravings on the inside of the band."
 IJ_NPC_NAME_142487 = "The Sparklematic 5200"
 
 -- Quest 2947
 IJ_QUEST_NAME_2947 = "Return of the Ring"
-IJ_QUEST_OBJECTIVE_2947 =
-"You may either keep the ring, or you may find the person responsible for the imprint and engravings on the inside of the band."
+IJ_QUEST_OBJECTIVE_2947 = "You may either keep the ring, or you may find the person responsible for the imprint and engravings on the inside of the band."
 
 -- Quest 2945
 IJ_QUEST_NAME_2945 = "Grime-Encrusted Ring"
@@ -8941,14 +8456,12 @@ IJ_LOOT_NAME_9326 = "Grime-Encrusted Ring"
 
 -- Quest 2929
 IJ_QUEST_NAME_2929 = "The Grand Betrayal"
-IJ_QUEST_OBJECTIVE_2929 =
-"Venture to Gnomeregan and kill Mekgineer Thermaplugg. Return to High Tinker Mekkatorque when the task is complete."
+IJ_QUEST_OBJECTIVE_2929 = "Venture to Gnomeregan and kill Mekgineer Thermaplugg. Return to High Tinker Mekkatorque when the task is complete."
 IJ_NPC_NAME_7937 = "High Tinker Mekkatorque"
 
 -- Quest 2904
 IJ_QUEST_NAME_2904 = "A Fine Mess"
-IJ_QUEST_OBJECTIVE_2904 =
-"Escort Kernobee to the Clockwerk Run exit and then report to Scooty in Booty Bay."
+IJ_QUEST_OBJECTIVE_2904 = "Escort Kernobee to the Clockwerk Run exit and then report to Scooty in Booty Bay."
 IJ_NPC_NAME_7850 = "Kernobee"
 IJ_LOOT_NAME_9535 = "Fire-welded Bracers"
 IJ_LOOT_NAME_9536 = "Fairywing Mantle"
@@ -8984,7 +8497,7 @@ IJ_LOOT_NAME_9609 = "Shilly Mitts"
 -- Quest 2962
 IJ_QUEST_NAME_2962 = "The Only Cure is More Green Glow"
 IJ_QUEST_OBJECTIVE_2962 =
-"Travel to Gnomeregan and bring back High Potency Radioactive Fallout. Be warned, the fallout is unstable and will collapse rather quickly.\n\nOzzie will also require your Heavy Leaden Collection Phial when the task is complete."
+    "Travel to Gnomeregan and bring back High Potency Radioactive Fallout. Be warned, the fallout is unstable and will collapse rather quickly.\n\nOzzie will also require your Heavy Leaden Collection Phial when the task is complete."
 IJ_NPC_NAME_1268 = "Ozzie Togglevolt"
 
 -- Quest 2927
@@ -8994,8 +8507,7 @@ IJ_NPC_NAME_6569 = "Gnoarn"
 
 -- Quest 2926
 IJ_QUEST_NAME_2926 = "Gnogaine"
-IJ_QUEST_OBJECTIVE_2926 =
-"Use the Empty Leaden Collection Phial on Irradiated Invaders or Irradiated Pillagers to collect radioactive fallout. Once it is full, take it back to Ozzie Togglevolt in Kharanos."
+IJ_QUEST_OBJECTIVE_2926 = "Use the Empty Leaden Collection Phial on Irradiated Invaders or Irradiated Pillagers to collect radioactive fallout. Once it is full, take it back to Ozzie Togglevolt in Kharanos."
 
 -- Quest 2923
 IJ_QUEST_NAME_2923 = "Tinkmaster Overspark"
@@ -9013,20 +8525,17 @@ IJ_QUEST_OBJECTIVE_7507 = "Return Foror's Compendium of Dragon Slaying to the At
 
 -- Quest 7483
 IJ_QUEST_NAME_7483 = "Libram of Rapidity"
-IJ_QUEST_OBJECTIVE_7483 =
-"Bring a Libram of Rapidity, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 2 Blood of Heroes to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Rapidity."
+IJ_QUEST_OBJECTIVE_7483 = "Bring a Libram of Rapidity, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 2 Blood of Heroes to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Rapidity."
 IJ_LOOT_NAME_18329 = "Arcanum of Rapidity"
 
 -- Quest 7485
 IJ_QUEST_NAME_7485 = "Libram of Protection"
-IJ_QUEST_OBJECTIVE_7485 =
-"Bring a Libram of Protection, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 1 Frayed Abomination Stitching to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Protection."
+IJ_QUEST_OBJECTIVE_7485 = "Bring a Libram of Protection, 1 Pristine Black Diamond, 2 Large Brilliant Shards, and 1 Frayed Abomination Stitching to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Protection."
 IJ_LOOT_NAME_18331 = "Arcanum of Protection"
 
 -- Quest 7484
 IJ_QUEST_NAME_7484 = "Libram of Focus"
-IJ_QUEST_OBJECTIVE_7484 =
-"Bring a Libram of Focus, 1 Pristine Black Diamond, 4 Large Brilliant Shards, and 2 Skin of Shadow to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Focus."
+IJ_QUEST_OBJECTIVE_7484 = "Bring a Libram of Focus, 1 Pristine Black Diamond, 4 Large Brilliant Shards, and 2 Skin of Shadow to Lorekeeper Lydros in Dire Maul to receive an Arcanum of Focus."
 IJ_LOOT_NAME_18330 = "Arcanum of Focus"
 
 -- Quest 7499
@@ -9079,8 +8588,7 @@ IJ_LOOT_NAME_18470 = "Royal Seal of Eldre'Thalas"
 
 -- Quest 7877
 IJ_QUEST_NAME_7877 = "The Treasure of the Shen'dralar"
-IJ_QUEST_OBJECTIVE_7877 =
-"Return to the Athenaeum and find the Treasure of the Shen'dralar. Claim your reward!"
+IJ_QUEST_OBJECTIVE_7877 = "Return to the Athenaeum and find the Treasure of the Shen'dralar. Claim your reward!"
 IJ_NPC_NAME_14358 = "Shen'dralar Ancient"
 IJ_NPC_NAME_179517 = "Treasure of the Shen'dralar"
 IJ_LOOT_NAME_18420 = "Bonecrusher"
@@ -9089,32 +8597,29 @@ IJ_LOOT_NAME_18424 = "Sedge Boots"
 
 -- Quest 7631
 IJ_QUEST_NAME_7631 = "Dreadsteed of Xoroth"
-IJ_QUEST_OBJECTIVE_7631 =
-"Read Mor'zul's Instructions. Summon a Xorothian Dreadsteed, defeat it, then bind its spirit to you."
+IJ_QUEST_OBJECTIVE_7631 = "Read Mor'zul's Instructions. Summon a Xorothian Dreadsteed, defeat it, then bind its spirit to you."
 IJ_NPC_NAME_14436 = "Mor'zul Bloodbringer"
 IJ_NPC_NAME_14504 = "Dreadsteed Spirit"
 
 -- Quest 7461
 IJ_QUEST_NAME_7461 = "The Madness Within"
 IJ_QUEST_OBJECTIVE_7461 =
-"You must destroy the guardians surrounding the 5 Pylons that power the Prison of Immol'thar. Once the Pylons have powered down, the force field surrounding Immol'thar will have dissipated.\n\nEnter the Prison of Immol'thar and eradicate the foul demon that stands at its heart. Finally, confront Prince Tortheldrin in Athenaeum.\n\nReturn to the Shen'dralar Ancient in the courtyard should you complete this quest."
+    "You must destroy the guardians surrounding the 5 Pylons that power the Prison of Immol'thar. Once the Pylons have powered down, the force field surrounding Immol'thar will have dissipated.\n\nEnter the Prison of Immol'thar and eradicate the foul demon that stands at its heart. Finally, confront Prince Tortheldrin in Athenaeum.\n\nReturn to the Shen'dralar Ancient in the courtyard should you complete this quest."
 
 -- Quest 7481
 IJ_QUEST_NAME_7481 = "Elven Legends"
-IJ_QUEST_OBJECTIVE_7481 =
-"Search Dire Maul for Telmius Dreamseeker. Report back to Sage Korolusk at Camp Mojache with whatever information that you may find."
+IJ_QUEST_OBJECTIVE_7481 = "Search Dire Maul for Telmius Dreamseeker. Report back to Sage Korolusk at Camp Mojache with whatever information that you may find."
 IJ_NPC_NAME_14373 = "Sage Korolusk"
 
 -- Quest 7482
 IJ_QUEST_NAME_7482 = "Elven Legends"
-IJ_QUEST_OBJECTIVE_7482 =
-"Search Dire Maul for Telmius Dreamseeker. Report back to Scholar Runethorn at Feathermoon with whatever information that you may find."
+IJ_QUEST_OBJECTIVE_7482 = "Search Dire Maul for Telmius Dreamseeker. Report back to Scholar Runethorn at Feathermoon with whatever information that you may find."
 IJ_NPC_NAME_14374 = "Scholar Runethorn"
 
 -- Quest 7703
 IJ_QUEST_NAME_7703 = "Unfinished Gordok Business"
 IJ_QUEST_OBJECTIVE_7703 =
-"Find the Gauntlet of Gordok Might and return it to Captain Kromcrush in Dire Maul.\n\nAccording to Kromcrush, the \"old timey story\" says that Tortheldrin - a \"creepy\" elf who called himself a prince - stole it from one of the Gordok kings."
+    "Find the Gauntlet of Gordok Might and return it to Captain Kromcrush in Dire Maul.\n\nAccording to Kromcrush, the \"old timey story\" says that Tortheldrin - a \"creepy\" elf who called himself a prince - stole it from one of the Gordok kings."
 IJ_NPC_NAME_14325 = "Captain Kromcrush"
 IJ_LOOT_NAME_18366 = "Gordok's Handguards"
 IJ_LOOT_NAME_18367 = "Gordok's Gauntlets"
@@ -9124,52 +8629,48 @@ IJ_LOOT_NAME_18369 = "Gordok's Handwraps"
 -- Quest 5525
 IJ_QUEST_NAME_5525 = "Free Knot!"
 IJ_QUEST_OBJECTIVE_5525 =
-"It's called the Gordok Shackle Key - well, that's what these \"tons o' fun\" keep calling it. I think any of the ogres might have it, but I'm not sure if any specific ones do. Maybe the guards have a better chance of having one...\n\nWhat am I talking about - you have it already, don't you?! Is that it there??!"
+    "It's called the Gordok Shackle Key - well, that's what these \"tons o' fun\" keep calling it. I think any of the ogres might have it, but I'm not sure if any specific ones do. Maybe the guards have a better chance of having one...\n\nWhat am I talking about - you have it already, don't you?! Is that it there??!"
 IJ_NPC_NAME_14338 = "Knot Thimblejack"
 
 -- Quest 5518
 IJ_QUEST_NAME_5518 = "The Gordok Ogre Suit"
-IJ_QUEST_OBJECTIVE_5518 =
-"Bring 4 Bolts of Runecloth, 8 Rugged Leather, 2 Rune Threads, and Ogre Tannin to Knot Thimblejack. He is currently chained inside the Gordok wing of Dire Maul."
+IJ_QUEST_OBJECTIVE_5518 = "Bring 4 Bolts of Runecloth, 8 Rugged Leather, 2 Rune Threads, and Ogre Tannin to Knot Thimblejack. He is currently chained inside the Gordok wing of Dire Maul."
 IJ_LOOT_NAME_18258 = "Gordok Ogre Suit"
 
 -- Quest 1193
 IJ_QUEST_NAME_1193 = "A Broken Trap"
 IJ_QUEST_OBJECTIVE_1193 =
-"A large, broken trap lies before you. From the looks of it, the ogres have tried to repair the trap but to no avail. A hastily written note lies next to the trap, and strangely enough it details exactly what is needed to repair it: a thorium widget and some frost oil. Were the trap repaired, an ogre passing near it might get trapped, and could be avoided.\n\nClearly, it would seem fortuitous that very few ogres know how to read."
+    "A large, broken trap lies before you. From the looks of it, the ogres have tried to repair the trap but to no avail. A hastily written note lies next to the trap, and strangely enough it details exactly what is needed to repair it: a thorium widget and some frost oil. Were the trap repaired, an ogre passing near it might get trapped, and could be avoided.\n\nClearly, it would seem fortuitous that very few ogres know how to read."
 IJ_NPC_NAME_179485 = "Broken Trap"
 
 -- Quest 7463
 IJ_QUEST_NAME_7463 = "Arcane Refreshment"
-IJ_QUEST_OBJECTIVE_7463 =
-"Travel to the Warpwood Quarter of Dire Maul and slay the water elemental, Hydrospawn. Return to Lorekeeper Lydros in the Athenaeum with the Hydrospawn Essence."
+IJ_QUEST_OBJECTIVE_7463 = "Travel to the Warpwood Quarter of Dire Maul and slay the water elemental, Hydrospawn. Return to Lorekeeper Lydros in the Athenaeum with the Hydrospawn Essence."
 
 -- Quest 7581
 IJ_QUEST_NAME_7581 = "The Prison's Bindings"
-IJ_QUEST_OBJECTIVE_7581 =
-"Travel to Dire Maul in Feralas and recover 15 Satyr Blood from the Wildspawn Satyr that inhabit the Warpwood Quarter. Return to Daio in the Tainted Scar when this is done."
+IJ_QUEST_OBJECTIVE_7581 = "Travel to Dire Maul in Feralas and recover 15 Satyr Blood from the Wildspawn Satyr that inhabit the Warpwood Quarter. Return to Daio in the Tainted Scar when this is done."
 IJ_NPC_NAME_14463 = "Daio the Decrepit"
 
 -- Quest 8990
 IJ_QUEST_NAME_8990 = "The Right Piece of Lord Valthalak's Amulet"
 IJ_QUEST_OBJECTIVE_8990 =
-"Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay her. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
+    "Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay her. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
 
 -- Quest 8967
 IJ_QUEST_NAME_8967 = "The Left Piece of Lord Valthalak's Amulet"
 IJ_QUEST_OBJECTIVE_8967 =
-"Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay her. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
+    "Use the Brazier of Beckoning to summon forth the spirit of Isalien and slay her. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
 
 -- Quest 5527
 IJ_QUEST_NAME_5527 = "A Reliquary of Purity"
-IJ_QUEST_OBJECTIVE_5527 =
-"Travel to Silithus and search for a Reliquary of Purity within the ruins of Southwind Village. If you are able to find it, return with it to Rabine Saturna in Nighthaven, Moonglade."
+IJ_QUEST_OBJECTIVE_5527 = "Travel to Silithus and search for a Reliquary of Purity within the ruins of Southwind Village. If you are able to find it, return with it to Rabine Saturna in Nighthaven, Moonglade."
 IJ_NPC_NAME_11801 = "Rabine Saturna"
 
 -- Quest 5526
 IJ_QUEST_NAME_5526 = "Shards of the Felvine"
 IJ_QUEST_OBJECTIVE_5526 =
-"Find the Felvine in Dire Maul and acquire a shard from it. Chances are you'll only be able to procure one with the demise of Alzzin the Wildshaper. Use the Reliquary of Purity to securely seal the shard inside, and return it to Rabine Saturna in Nighthaven, Moonglade."
+    "Find the Felvine in Dire Maul and acquire a shard from it. Chances are you'll only be able to procure one with the demise of Alzzin the Wildshaper. Use the Reliquary of Purity to securely seal the shard inside, and return it to Rabine Saturna in Nighthaven, Moonglade."
 IJ_LOOT_NAME_18535 = "Milli's Shield"
 IJ_LOOT_NAME_18536 = "Milli's Lexicon"
 
@@ -9192,13 +8693,12 @@ IJ_NPC_NAME_7877 = "Latronicus Moonspear"
 
 -- Quest 7488
 IJ_QUEST_NAME_7488 = "Lethtendris's Web"
-IJ_QUEST_OBJECTIVE_7488 =
-"Bring Lethtendris' Web to Latronicus Moonspear at the Feathermoon Stronghold in Feralas."
+IJ_QUEST_OBJECTIVE_7488 = "Bring Lethtendris' Web to Latronicus Moonspear at the Feathermoon Stronghold in Feralas."
 
 -- Quest 7441
 IJ_QUEST_NAME_7441 = "Pusillin and the Elder Azj'Tordin"
 IJ_QUEST_OBJECTIVE_7441 =
-"Travel to Dire Maul and locate the Imp, Pusillin. Convince Pusillin to give you Azj'Tordin's Book of Incantations through any means necessary.\n\nReturn to Azj'Tordin at the Lariss Pavilion in Feralas should you recover the Book of Incantations."
+    "Travel to Dire Maul and locate the Imp, Pusillin. Convince Pusillin to give you Azj'Tordin's Book of Incantations through any means necessary.\n\nReturn to Azj'Tordin at the Lariss Pavilion in Feralas should you recover the Book of Incantations."
 IJ_NPC_NAME_14355 = "Azj'Tordin"
 IJ_LOOT_NAME_18411 = "Spry Boots"
 IJ_LOOT_NAME_18410 = "Sprinter's Sword"
@@ -9218,22 +8718,19 @@ IJ_LOOT_NAME_2042 = "Staff of Westfall"
 
 -- Quest 2040
 IJ_QUEST_NAME_2040 = "Underground Assault"
-IJ_QUEST_OBJECTIVE_2040 =
-"Retrieve the Gnoam Sprecklesprocket from the Deadmines and return it to Shoni the Shilent in Stormwind."
+IJ_QUEST_OBJECTIVE_2040 = "Retrieve the Gnoam Sprecklesprocket from the Deadmines and return it to Shoni the Shilent in Stormwind."
 IJ_LOOT_NAME_7606 = "Polar Gauntlets"
 IJ_LOOT_NAME_7607 = "Sable Wand"
 
 -- Quest 167
 IJ_QUEST_NAME_167 = "Oh Brother. . ."
-IJ_QUEST_OBJECTIVE_167 =
-"Bring Foreman Thistlenettle's Explorers' League Badge to Wilder Thistlenettle in Stormwind."
+IJ_QUEST_OBJECTIVE_167 = "Bring Foreman Thistlenettle's Explorers' League Badge to Wilder Thistlenettle in Stormwind."
 IJ_NPC_NAME_656 = "Wilder Thistlenettle"
 IJ_LOOT_NAME_1893 = "Miner's Revenge"
 
 -- Quest 168
 IJ_QUEST_NAME_168 = "Collecting Memories"
-IJ_QUEST_OBJECTIVE_168 =
-"Retrieve 4 Miners' Union Cards and return them to Wilder Thistlenettle in Stormwind."
+IJ_QUEST_OBJECTIVE_168 = "Retrieve 4 Miners' Union Cards and return them to Wilder Thistlenettle in Stormwind."
 IJ_LOOT_NAME_2037 = "Tunneler's Boots"
 IJ_LOOT_NAME_2036 = "Dusty Mining Gloves"
 
@@ -9256,19 +8753,17 @@ IJ_QUEST_OBJECTIVE_141 = "Take Shaw's report to Gryan Stoutmantle in Westfall."
 
 -- Quest 142
 IJ_QUEST_NAME_142 = "The Defias Brotherhood"
-IJ_QUEST_OBJECTIVE_142 =
-"Track down the Defias Messenger in Westfall and bring his message to Stoutmantle."
+IJ_QUEST_OBJECTIVE_142 = "Track down the Defias Messenger in Westfall and bring his message to Stoutmantle."
 
 -- Quest 155
 IJ_QUEST_NAME_155 = "The Defias Brotherhood"
 IJ_QUEST_OBJECTIVE_155 =
-"Escort the Defias Traitor to the secret hideout of the Defias Brotherhood.  Once the Defias Traitor shows you where VanCleef and his men are hiding out, return to Gryan Stoutmantle with the information."
+    "Escort the Defias Traitor to the secret hideout of the Defias Brotherhood.  Once the Defias Traitor shows you where VanCleef and his men are hiding out, return to Gryan Stoutmantle with the information."
 IJ_NPC_NAME_467 = "The Defias Traitor"
 
 -- Quest 214
 IJ_QUEST_NAME_214 = "Red Silk Bandanas"
-IJ_QUEST_OBJECTIVE_214 =
-"Scout Riell at the Sentinel Hill Tower wants you to bring her 10 Red Silk Bandanas."
+IJ_QUEST_OBJECTIVE_214 = "Scout Riell at the Sentinel Hill Tower wants you to bring her 10 Red Silk Bandanas."
 IJ_NPC_NAME_820 = "Scout Riell"
 IJ_LOOT_NAME_2074 = "Solid Shortblade"
 IJ_LOOT_NAME_2089 = "Scrimshaw Dagger"
@@ -9301,8 +8796,7 @@ IJ_LOOT_NAME_16790 = "Damp Note"
 
 -- Quest 6565
 IJ_QUEST_NAME_6565 = "Allegiance to the Old Gods"
-IJ_QUEST_OBJECTIVE_6565 =
-"Kill Lorgus Jett in Blackfathom Deeps and then return to Je'neu Sancrea in Ashenvale."
+IJ_QUEST_OBJECTIVE_6565 = "Kill Lorgus Jett in Blackfathom Deeps and then return to Je'neu Sancrea in Ashenvale."
 IJ_LOOT_NAME_17694 = "Band of the Fist"
 IJ_LOOT_NAME_17695 = "Chestnut Mantle"
 
@@ -9346,8 +8840,7 @@ IJ_LOOT_NAME_7004 = "Prelacy Cape"
 
 -- Quest 971
 IJ_QUEST_NAME_971 = "Knowledge in the Deeps"
-IJ_QUEST_OBJECTIVE_971 =
-"Bring the Lorgalis Manuscript to Gerrig Bonegrip in the Forlorn Cavern in Ironforge."
+IJ_QUEST_OBJECTIVE_971 = "Bring the Lorgalis Manuscript to Gerrig Bonegrip in the Forlorn Cavern in Ironforge."
 IJ_NPC_NAME_2786 = "Gerrig Bonegrip"
 IJ_LOOT_NAME_6743 = "Sustaining Ring"
 
@@ -9362,8 +8855,7 @@ IJ_QUEST_OBJECTIVE_4361 = "Return to Ironforge and deliver the bad news to King 
 
 -- Quest 4362
 IJ_QUEST_NAME_4362 = "The Fate of the Kingdom"
-IJ_QUEST_OBJECTIVE_4362 =
-"Return to Blackrock Depths and rescue Princess Moira Bronzebeard from the evil clutches of Emperor Dagran Thaurissan."
+IJ_QUEST_OBJECTIVE_4362 = "Return to Blackrock Depths and rescue Princess Moira Bronzebeard from the evil clutches of Emperor Dagran Thaurissan."
 IJ_NPC_NAME_8929 = "Princess Moira Bronzebeard"
 
 -- Quest 3702
@@ -9373,19 +8865,16 @@ IJ_NPC_NAME_8879 = "Royal Historian Archesonus"
 
 -- Quest 3701
 IJ_QUEST_NAME_3701 = "The Smoldering Ruins of Thaurissan"
-IJ_QUEST_OBJECTIVE_3701 =
-"Venture to the Ruins of Thaurissan in the Burning Steppes and recover information from the Thaurissan Relics. Return to Royal Historian Archesonus when you have recovered the information."
+IJ_QUEST_OBJECTIVE_3701 = "Venture to the Ruins of Thaurissan in the Burning Steppes and recover information from the Thaurissan Relics. Return to Royal Historian Archesonus when you have recovered the information."
 IJ_LOOT_NAME_12102 = "Ring of the Aristocrat"
 
 -- Quest 4341
 IJ_QUEST_NAME_4341 = "Kharan Mighthammer"
-IJ_QUEST_OBJECTIVE_4341 =
-"Travel to Blackrock Depths and find Kharan Mighthammer.\n\nThe King mentioned that Kharan was being held prisoner there - perhaps you should try looking for a prison."
+IJ_QUEST_OBJECTIVE_4341 = "Travel to Blackrock Depths and find Kharan Mighthammer.\n\nThe King mentioned that Kharan was being held prisoner there - perhaps you should try looking for a prison."
 
 -- Quest 4322
 IJ_QUEST_NAME_4322 = "Jail Break!"
-IJ_QUEST_OBJECTIVE_4322 =
-"Help Marshal Windsor get his gear back and free his friends. Return to Marshal Maxwell if you succeed."
+IJ_QUEST_OBJECTIVE_4322 = "Help Marshal Windsor get his gear back and free his friends. Return to Marshal Maxwell if you succeed."
 IJ_NPC_NAME_9023 = "Marshal Windsor"
 IJ_LOOT_NAME_12065 = "Ward of the Elements"
 IJ_LOOT_NAME_12061 = "Blade of Reckoning"
@@ -9393,8 +8882,7 @@ IJ_LOOT_NAME_12062 = "Skilled Fighting Blade"
 
 -- Quest 4282
 IJ_QUEST_NAME_4282 = "A Shred of Hope"
-IJ_QUEST_OBJECTIVE_4282 =
-"Return Marshal Windsor's Lost Information.\n\nMarshal Windsor believes that the information is being held by Golem Lord Argelmach and General Angerforge."
+IJ_QUEST_OBJECTIVE_4282 = "Return Marshal Windsor's Lost Information.\n\nMarshal Windsor believes that the information is being held by Golem Lord Argelmach and General Angerforge."
 
 -- Quest 4242
 IJ_QUEST_NAME_4242 = "Abandoned Hope"
@@ -9405,25 +8893,21 @@ IJ_LOOT_NAME_12041 = "Windshear Leggings"
 
 -- Quest 4264
 IJ_QUEST_NAME_4264 = "A Crumpled Up Note"
-IJ_QUEST_OBJECTIVE_4264 =
-"You may have just stumbled on to something that Marshal Windsor would be interested in seeing. There may be hope, after all."
+IJ_QUEST_OBJECTIVE_4264 = "You may have just stumbled on to something that Marshal Windsor would be interested in seeing. There may be hope, after all."
 IJ_LOOT_NAME_11446 = "A Crumpled Up Note"
 
 -- Quest 4182
 IJ_QUEST_NAME_4182 = "Dragonkin Menace"
-IJ_QUEST_OBJECTIVE_4182 =
-"Slay 15 Black Broodlings, 10 Black Dragonspawn, 4 Black Wyrmkin and 1 Black Drake. Return to Helendis Riverhorn when the task is complete."
+IJ_QUEST_OBJECTIVE_4182 = "Slay 15 Black Broodlings, 10 Black Dragonspawn, 4 Black Wyrmkin and 1 Black Drake. Return to Helendis Riverhorn when the task is complete."
 
 -- Quest 4183
 IJ_QUEST_NAME_4183 = "The True Masters"
-IJ_QUEST_OBJECTIVE_4183 =
-"Travel to Lakeshire and deliver Helendis Riverhorn's Letter to Magistrate Solomon."
+IJ_QUEST_OBJECTIVE_4183 = "Travel to Lakeshire and deliver Helendis Riverhorn's Letter to Magistrate Solomon."
 IJ_NPC_NAME_344 = "Magistrate Solomon"
 
 -- Quest 4184
 IJ_QUEST_NAME_4184 = "The True Masters"
-IJ_QUEST_OBJECTIVE_4184 =
-"Travel to Stormwind and deliver Solomon's Plea to Highlord Bolvar Fordragon.\n\nBolvar resides in Stormwind Keep."
+IJ_QUEST_OBJECTIVE_4184 = "Travel to Stormwind and deliver Solomon's Plea to Highlord Bolvar Fordragon.\n\nBolvar resides in Stormwind Keep."
 
 -- Quest 4185
 IJ_QUEST_NAME_4185 = "The True Masters"
@@ -9440,24 +8924,23 @@ IJ_QUEST_OBJECTIVE_4223 = "Speak with Marshal Maxwell in the Burning Steppes."
 -- Quest 4224
 IJ_QUEST_NAME_4224 = "The True Masters"
 IJ_QUEST_OBJECTIVE_4224 =
-"Speak with Ragged John to learn of Marshal Windsor's fate and return to Marshal Maxwell when you have completed this task.\n\nYou recall Marshal Maxwell telling you to search for him in a cave to the north."
+    "Speak with Ragged John to learn of Marshal Windsor's fate and return to Marshal Maxwell when you have completed this task.\n\nYou recall Marshal Maxwell telling you to search for him in a cave to the north."
 
 -- Quest 4241
 IJ_QUEST_NAME_4241 = "Marshal Windsor"
 IJ_QUEST_OBJECTIVE_4241 =
-"Travel to Blackrock Mountain in the northwest and enter Blackrock Depths. Find out what became of Marshal Windsor.\n\nYou recall Ragged John talking about Windsor being dragged off to a prison."
+    "Travel to Blackrock Mountain in the northwest and enter Blackrock Depths. Find out what became of Marshal Windsor.\n\nYou recall Ragged John talking about Windsor being dragged off to a prison."
 
 -- Quest 4286
 IJ_QUEST_NAME_4286 = "The Good Stuff"
 IJ_QUEST_OBJECTIVE_4286 =
-"Travel to Blackrock Depths and recover 20 Dark Iron Fanny Packs. Return to Oralius when you have completed this task. You assume that the Dark Iron dwarves inside Blackrock Depths carry these 'fanny pack' contraptions."
+    "Travel to Blackrock Depths and recover 20 Dark Iron Fanny Packs. Return to Oralius when you have completed this task. You assume that the Dark Iron dwarves inside Blackrock Depths carry these 'fanny pack' contraptions."
 IJ_NPC_NAME_9177 = "Oralius"
 IJ_LOOT_NAME_11883 = "A Dingy Fanny Pack"
 
 -- Quest 4262
 IJ_QUEST_NAME_4262 = "Overmaster Pyron"
-IJ_QUEST_OBJECTIVE_4262 =
-"Slay Overmaster Pyron and return to Jalinda Sprig.\n\nYou recall Jalinda talking about Pyron guarding the quarry. Perhaps you should search there?"
+IJ_QUEST_OBJECTIVE_4262 = "Slay Overmaster Pyron and return to Jalinda Sprig.\n\nYou recall Jalinda talking about Pyron guarding the quarry. Perhaps you should search there?"
 IJ_NPC_NAME_9561 = "Jalinda Sprig"
 
 -- Quest 4263
@@ -9502,54 +8985,46 @@ IJ_LOOT_NAME_17043 = "Zealot's Robe"
 
 -- Quest 3636
 IJ_QUEST_NAME_3636 = "Bring the Light"
-IJ_QUEST_OBJECTIVE_3636 =
-"Archbishop Bendictus wants you to slay Amnennar the Coldbringer in Razorfen Downs."
+IJ_QUEST_OBJECTIVE_3636 = "Archbishop Bendictus wants you to slay Amnennar the Coldbringer in Razorfen Downs."
 
 -- Quest 6626
 IJ_QUEST_NAME_6626 = "A Host of Evil"
-IJ_QUEST_OBJECTIVE_6626 =
-"Kill 8 Razorfen Battleguard, 8 Razorfen Thornweavers, and 8 Death's Head Cultists and return to Myriam Moonsinger near the entrance to Razorfen Downs."
+IJ_QUEST_OBJECTIVE_6626 = "Kill 8 Razorfen Battleguard, 8 Razorfen Thornweavers, and 8 Death's Head Cultists and return to Myriam Moonsinger near the entrance to Razorfen Downs."
 IJ_NPC_NAME_12866 = "Myriam Moonsinger"
 
 -- Quest 3523
 IJ_QUEST_NAME_3523 = "Scourge of the Downs"
-IJ_QUEST_OBJECTIVE_3523 =
-"If you agree to aid Belnistrasz, speak with him again and hand the Oathstone he gave you back to him."
+IJ_QUEST_OBJECTIVE_3523 = "If you agree to aid Belnistrasz, speak with him again and hand the Oathstone he gave you back to him."
 IJ_NPC_NAME_8516 = "Belnistrasz"
 
 -- Quest 3525
 IJ_QUEST_NAME_3525 = "Extinguishing the Idol"
-IJ_QUEST_OBJECTIVE_3525 =
-"Escort Belnistrasz to the Quilboar's idol in Razorfen Downs.\n\nProtect Belnistrasz while he performs the ritual to shut down the idol."
+IJ_QUEST_OBJECTIVE_3525 = "Escort Belnistrasz to the Quilboar's idol in Razorfen Downs.\n\nProtect Belnistrasz while he performs the ritual to shut down the idol."
 IJ_NPC_NAME_152097 = "Belnistrasz's Brazier"
 IJ_LOOT_NAME_10710 = "Dragonclaw Ring"
 
 -- Quest 4083
 IJ_QUEST_NAME_4083 = "The Spectral Chalice"
-IJ_QUEST_OBJECTIVE_4083 =
-"The spectral chalice floats in the air, slowing rising and falling... as if to the beat of a dying heart."
+IJ_QUEST_OBJECTIVE_4083 = "The spectral chalice floats in the air, slowing rising and falling... as if to the beat of a dying heart."
 IJ_NPC_NAME_164869 = "Spectral Chalice"
 
 -- Quest 8962
 IJ_QUEST_NAME_8962 = "Dungeon Set 2"
-IJ_QUEST_OBJECTIVE_8962 =
-"Long quest chain for the dungeon set 2."
+IJ_QUEST_OBJECTIVE_8962 = "Long quest chain for the dungeon set 2."
 
 -- Quest 8950
 IJ_QUEST_NAME_8950 = "Dungeon Set 2"
-IJ_QUEST_OBJECTIVE_8950 =
-"Long quest chain for the dungeon set 2."
+IJ_QUEST_OBJECTIVE_8950 = "Long quest chain for the dungeon set 2."
 
 -- Quest 9015
 IJ_QUEST_NAME_9015 = "The Challenge"
 IJ_QUEST_OBJECTIVE_9015 =
-"Travel to the Ring of the Law in Blackrock Depths and place the Banner of Provocation in its center as you are sentenced by High Justice Grimstone. Slay Theldren and his gladiators and return to Anthion Harmon in the Eastern Plaguelands with the first piece of Lord Valthalak's amulet."
+    "Travel to the Ring of the Law in Blackrock Depths and place the Banner of Provocation in its center as you are sentenced by High Justice Grimstone. Slay Theldren and his gladiators and return to Anthion Harmon in the Eastern Plaguelands with the first piece of Lord Valthalak's amulet."
 IJ_NPC_NAME_16032 = "Falrin Treeshaper"
 
 -- Quest 7848
 IJ_QUEST_NAME_7848 = "Attunement to the Core"
-IJ_QUEST_OBJECTIVE_7848 =
-"Venture to the Molten Core entry portal in Blackrock Depths and recover a Core Fragment. Return to Lothos Riftwaker in Blackrock Mountain when you have recovered the Core Fragment."
+IJ_QUEST_OBJECTIVE_7848 = "Venture to the Molten Core entry portal in Blackrock Depths and recover a Core Fragment. Return to Lothos Riftwaker in Blackrock Mountain when you have recovered the Core Fragment."
 IJ_NPC_NAME_14387 = "Lothos Riftwaker"
 
 -- Quest 3982
@@ -9560,7 +9035,7 @@ IJ_NPC_NAME_9020 = "Commander Gor'shak"
 -- Quest 4001
 IJ_QUEST_NAME_4001 = "What Is Going On?"
 IJ_QUEST_OBJECTIVE_4001 =
-"Speak with Kharan Mighthammer and gather information about Princess Moira Bronzebeard's kidnapping. Take that information to Thrall in Orgrimmar.\n\nYou recall Gor'shak mentioning that Kharan is being held in a cell nearby."
+    "Speak with Kharan Mighthammer and gather information about Princess Moira Bronzebeard's kidnapping. Take that information to Thrall in Orgrimmar.\n\nYou recall Gor'shak mentioning that Kharan is being held in a cell nearby."
 
 -- Quest 4002
 IJ_QUEST_NAME_4002 = "The Eastern Kingdoms"
@@ -9568,35 +9043,30 @@ IJ_QUEST_OBJECTIVE_4002 = "Speak with Thrall if you are prepared to take on the 
 
 -- Quest 4003
 IJ_QUEST_NAME_4003 = "The Royal Rescue"
-IJ_QUEST_OBJECTIVE_4003 =
-"Slay Emperor Dagran Thaurissan and free Princess Moira Bronzebeard from his evil spell."
+IJ_QUEST_OBJECTIVE_4003 = "Slay Emperor Dagran Thaurissan and free Princess Moira Bronzebeard from his evil spell."
 
 -- Quest 3981
 IJ_QUEST_NAME_3981 = "Commander Gor'shak"
-IJ_QUEST_OBJECTIVE_3981 =
-"Find Commander Gor'shak in Blackrock Depths.\n\nYou recall that the crudely drawn picture of the orc included bars drawn over the portrait. Perhaps you should search for a prison of some sort."
+IJ_QUEST_OBJECTIVE_3981 = "Find Commander Gor'shak in Blackrock Depths.\n\nYou recall that the crudely drawn picture of the orc included bars drawn over the portrait. Perhaps you should search for a prison of some sort."
 
 -- Quest 7201
 IJ_QUEST_NAME_7201 = "The Last Element"
 IJ_QUEST_OBJECTIVE_7201 =
-"Travel to Blackrock Depths and recover 10 Essence of the Elements. Your first inclination is to search the golems and golem makers. You remember Vivian Lagrave also muttering something about elementals."
+    "Travel to Blackrock Depths and recover 10 Essence of the Elements. Your first inclination is to search the golems and golem makers. You remember Vivian Lagrave also muttering something about elementals."
 IJ_LOOT_NAME_12038 = "Lagrave's Seal"
 
 -- Quest 3906
 IJ_QUEST_NAME_3906 = "Disharmony of Flame"
-IJ_QUEST_OBJECTIVE_3906 =
-"Travel to the quarry in Blackrock Mountain and slay Overmaster Pyron. Return to Thunderheart when you have completed this assignment."
+IJ_QUEST_OBJECTIVE_3906 = "Travel to the quarry in Blackrock Mountain and slay Overmaster Pyron. Return to Thunderheart when you have completed this assignment."
 IJ_NPC_NAME_9084 = "Thunderheart"
 
 -- Quest 3907
 IJ_QUEST_NAME_3907 = "Disharmony of Fire"
-IJ_QUEST_OBJECTIVE_3907 =
-"Enter Blackrock Depths and track down Lord Incendius. Slay him and return any source of information you may find to Thunderheart."
+IJ_QUEST_OBJECTIVE_3907 = "Enter Blackrock Depths and track down Lord Incendius. Slay him and return any source of information you may find to Thunderheart."
 
 -- Quest 3442
 IJ_QUEST_NAME_3442 = "The Flawless Flame"
-IJ_QUEST_OBJECTIVE_3442 =
-"Collect 4 Hearts of Flame and 4 globes of Golem Oil and return the items to Velarok Windblade."
+IJ_QUEST_OBJECTIVE_3442 = "Collect 4 Hearts of Flame and 4 globes of Golem Oil and return the items to Velarok Windblade."
 IJ_NPC_NAME_8479 = "Velarok Windblade"
 
 -- Quest 3443
@@ -9619,14 +9089,12 @@ IJ_LOOT_NAME_10515 = "Torch of Retribution"
 
 -- Quest 3462
 IJ_QUEST_NAME_3462 = "Squire Maltrake"
-IJ_QUEST_OBJECTIVE_3462 =
-"Speak with Squire Maltrake."
+IJ_QUEST_OBJECTIVE_3462 = "Speak with Squire Maltrake."
 IJ_NPC_NAME_8509 = "Squire Maltrake"
 
 -- Quest 3463
 IJ_QUEST_NAME_3463 = "Set Them Ablaze!"
-IJ_QUEST_OBJECTIVE_3463 =
-"Set the North, South, East, and West Sentry Towers on fire by using the Torch of Retribution inside each of the buildings."
+IJ_QUEST_OBJECTIVE_3463 = "Set the North, South, East, and West Sentry Towers on fire by using the Torch of Retribution inside each of the buildings."
 IJ_LOOT_NAME_10742 = "Dragonflight Leggings"
 IJ_LOOT_NAME_10743 = "Drakefire Headguard"
 IJ_LOOT_NAME_10744 = "Axe of the Ebon Drake"
@@ -9639,14 +9107,13 @@ IJ_NPC_NAME_149502 = "Hoard of the Black Dragonflight"
 
 -- Quest 4022
 IJ_QUEST_NAME_4022 = "A Taste of Flame"
-IJ_QUEST_OBJECTIVE_4022 =
-"Show Cyrus Therepentous the Black Dragonflight Molt you received from Velarok Windblade."
+IJ_QUEST_OBJECTIVE_4022 = "Show Cyrus Therepentous the Black Dragonflight Molt you received from Velarok Windblade."
 IJ_NPC_NAME_9459 = "Cyrus Therepentous"
 
 -- Quest 4024
 IJ_QUEST_NAME_4024 = "A Taste of Flame"
 IJ_QUEST_OBJECTIVE_4024 =
-"Travel to Blackrock Depths and slay Bael'Gar.\n\nYou only know that the giant resides inside Blackrock Depths. Remember to use the Altered Black Dragonflight Molt on Bael'Gar's remains to capture the Fiery Essence.\n\nReturn the Encased Fiery Essence to Cyrus Therepentous."
+    "Travel to Blackrock Depths and slay Bael'Gar.\n\nYou only know that the giant resides inside Blackrock Depths. Remember to use the Altered Black Dragonflight Molt on Bael'Gar's remains to capture the Fiery Essence.\n\nReturn the Encased Fiery Essence to Cyrus Therepentous."
 IJ_LOOT_NAME_12066 = "Shaleskin Cape"
 IJ_LOOT_NAME_12082 = "Wyrmhide Spaulders"
 IJ_LOOT_NAME_12083 = "Valconian Sash"
@@ -9654,19 +9121,18 @@ IJ_LOOT_NAME_12083 = "Valconian Sash"
 -- Quest 4061
 IJ_QUEST_NAME_4061 = "The Rise of the Machines"
 IJ_QUEST_OBJECTIVE_4061 =
-"Venture to the Burning Steppes and recover 10 Fractured Elemental Shards for Hierophant Theodora Mulvadania.\n\nYou recall Theodora mentioning the golems and elementals of that region as being a source for these shards."
+    "Venture to the Burning Steppes and recover 10 Fractured Elemental Shards for Hierophant Theodora Mulvadania.\n\nYou recall Theodora mentioning the golems and elementals of that region as being a source for these shards."
 IJ_NPC_NAME_9079 = "Hierophant Theodora Mulvadania"
 
 -- Quest 4062
 IJ_QUEST_NAME_4062 = "The Rise of the Machines"
-IJ_QUEST_OBJECTIVE_4062 =
-"Take the Elemental Shard Sample to Lotwil Veriatus.\n\nYou recall Theodora saying that Lotwil was stationed in a camp to the east."
+IJ_QUEST_OBJECTIVE_4062 = "Take the Elemental Shard Sample to Lotwil Veriatus.\n\nYou recall Theodora saying that Lotwil was stationed in a camp to the east."
 IJ_NPC_NAME_2921 = "Lotwil Veriatus"
 
 -- Quest 4063
 IJ_QUEST_NAME_4063 = "The Rise of the Machines"
 IJ_QUEST_OBJECTIVE_4063 =
-"Find and slay Golem Lord Argelmach. Return his head to Lotwil. You will also need to collect 10 Intact Elemental Cores from the Ragereaver Golems and Warbringer Constructs protecting Argelmach. You know this because you are psychic."
+    "Find and slay Golem Lord Argelmach. Return his head to Lotwil. You will also need to collect 10 Intact Elemental Cores from the Ragereaver Golems and Warbringer Constructs protecting Argelmach. You know this because you are psychic."
 IJ_LOOT_NAME_12109 = "Azure Moon Amice"
 IJ_LOOT_NAME_12110 = "Raincaster Drape"
 IJ_LOOT_NAME_12108 = "Basaltscale Armor"
@@ -9675,30 +9141,29 @@ IJ_LOOT_NAME_12111 = "Lavaplate Gauntlets"
 -- Quest 4122
 IJ_QUEST_NAME_4122 = "Grark Lorkrub"
 IJ_QUEST_OBJECTIVE_4122 =
-"Travel to the Burning Steppes and find Grark Lorkrub.\n\nYou recall Lexlort mentioning that he was last seen in a massive Blackrock fortress.\n\nWhen you find Grark Lorkrub, use the Thorium Shackles to bind him and then lead him back through Blackrock Mountain to the Searing Gorge. Lexlort will have his men waiting on the other side to take Grark into custody."
+    "Travel to the Burning Steppes and find Grark Lorkrub.\n\nYou recall Lexlort mentioning that he was last seen in a massive Blackrock fortress.\n\nWhen you find Grark Lorkrub, use the Thorium Shackles to bind him and then lead him back through Blackrock Mountain to the Searing Gorge. Lexlort will have his men waiting on the other side to take Grark into custody."
 IJ_NPC_NAME_9520 = "Grark Lorkrub"
 
 -- Quest 4121
 IJ_QUEST_NAME_4121 = "Precarious Predicament"
 IJ_QUEST_OBJECTIVE_4121 =
-"Escort your prisoner, Grark Lorkrub, through Burning Steppes and through Blackrock Mountain to the Searing Gorge.\n\nYou recall Lexlort mentioning that he would have his men waiting on the other side to take Grark into custody.\n\nYou will also be required to hand over your Thorium Shackles to Lexlort."
+    "Escort your prisoner, Grark Lorkrub, through Burning Steppes and through Blackrock Mountain to the Searing Gorge.\n\nYou recall Lexlort mentioning that he would have his men waiting on the other side to take Grark into custody.\n\nYou will also be required to hand over your Thorium Shackles to Lexlort."
 
 -- Quest 4132
 IJ_QUEST_NAME_4132 = "Operation: Death to Angerforge"
-IJ_QUEST_OBJECTIVE_4132 =
-"Travel to Blackrock Depths and slay General Angerforge! Return to Warlord Goretooth when the task is complete."
+IJ_QUEST_OBJECTIVE_4132 = "Travel to Blackrock Depths and slay General Angerforge! Return to Warlord Goretooth when the task is complete."
 IJ_LOOT_NAME_12059 = "Conqueror's Medallion"
 
 -- Quest 4082
 IJ_QUEST_NAME_4082 = "KILL ON SIGHT: High Ranking Dark Iron Officials"
 IJ_QUEST_OBJECTIVE_4082 =
-"Venture to Blackrock Depths and destroy the vile aggressors!\n\nWarlord Goretooth wants you to kill 10 Anvilrage Medics, 10 Anvilrage Soldiers and 10 Anvilrage Officers. Return to him once your task is complete."
+    "Venture to Blackrock Depths and destroy the vile aggressors!\n\nWarlord Goretooth wants you to kill 10 Anvilrage Medics, 10 Anvilrage Soldiers and 10 Anvilrage Officers. Return to him once your task is complete."
 IJ_NPC_NAME_164868 = "KILL ON SIGHT"
 
 -- Quest 4081
 IJ_QUEST_NAME_4081 = "KILL ON SIGHT: Dark Iron Dwarves"
 IJ_QUEST_OBJECTIVE_4081 =
-"Venture to Blackrock Depths and destroy the vile aggressors!\n\nWarlord Goretooth wants you to kill 15 Anvilrage Guardsmen, 10 Anvilrage Wardens and 5 Anvilrage Footmen. Return to him once your task is complete."
+    "Venture to Blackrock Depths and destroy the vile aggressors!\n\nWarlord Goretooth wants you to kill 15 Anvilrage Guardsmen, 10 Anvilrage Wardens and 5 Anvilrage Footmen. Return to him once your task is complete."
 IJ_NPC_NAME_164867 = "WANTED"
 
 -- Quest 4123
@@ -9708,26 +9173,22 @@ IJ_NPC_NAME_9536 = "Maxwort Uberglint"
 
 -- Quest 4133
 IJ_QUEST_NAME_4133 = "Vivian Lagrave"
-IJ_QUEST_OBJECTIVE_4133 =
-"Speak with Shadowmaster Vivian Lagrave in Kargath."
+IJ_QUEST_OBJECTIVE_4133 = "Speak with Shadowmaster Vivian Lagrave in Kargath."
 
 -- Quest 4134
 IJ_QUEST_NAME_4134 = "Lost Thunderbrew Recipe"
-IJ_QUEST_OBJECTIVE_4134 =
-"Bring the Lost Thunderbrew Recipe to Vivian Lagrave in Kargath."
+IJ_QUEST_OBJECTIVE_4134 = "Bring the Lost Thunderbrew Recipe to Vivian Lagrave in Kargath."
 
 -- Quest 4201
 IJ_QUEST_NAME_4201 = "The Love Potion"
-IJ_QUEST_OBJECTIVE_4201 =
-"Bring 4 Gromsblood, 10 Giant Silver Veins and Nagmara's Filled Vial to Mistress Nagmara in Blackrock Depths."
+IJ_QUEST_OBJECTIVE_4201 = "Bring 4 Gromsblood, 10 Giant Silver Veins and Nagmara's Filled Vial to Mistress Nagmara in Blackrock Depths."
 IJ_NPC_NAME_9500 = "Mistress Nagmara"
 IJ_LOOT_NAME_11962 = "Manacle Cuffs"
 IJ_LOOT_NAME_11866 = "Nagmara's Whipping Belt"
 
 -- Quest 4324
 IJ_QUEST_NAME_4324 = "Yuka Screwspigot"
-IJ_QUEST_OBJECTIVE_4324 =
-"Speak with Yuka Screwspigot in the Burning Steppes."
+IJ_QUEST_OBJECTIVE_4324 = "Speak with Yuka Screwspigot in the Burning Steppes."
 IJ_NPC_NAME_9706 = "Yorba Screwspigot"
 
 -- Quest 4136
@@ -9740,13 +9201,11 @@ IJ_LOOT_NAME_12049 = "Splintsteel Armor"
 
 -- Quest 3801
 IJ_QUEST_NAME_3801 = "Dark Iron Legacy"
-IJ_QUEST_OBJECTIVE_3801 =
-"Speak with Franclorn Forgewright if you are interested in obtaining a key to the city major."
+IJ_QUEST_OBJECTIVE_3801 = "Speak with Franclorn Forgewright if you are interested in obtaining a key to the city major."
 
 -- Quest 3802
 IJ_QUEST_NAME_3802 = "Dark Iron Legacy"
-IJ_QUEST_OBJECTIVE_3802 =
-"Slay Fineous Darkvire and recover the great hammer, Ironfel. Take Ironfel to the Shrine of Thaurissan and place it on the statue of Franclorn Forgewright."
+IJ_QUEST_OBJECTIVE_3802 = "Slay Fineous Darkvire and recover the great hammer, Ironfel. Take Ironfel to the Shrine of Thaurissan and place it on the statue of Franclorn Forgewright."
 IJ_NPC_NAME_8888 = "Franclorn Forgewright"
 IJ_NPC_NAME_164689 = "Monument of Franclorn Forgewright"
 IJ_LOOT_NAME_11000 = "Shadowforge Key"
@@ -9784,7 +9243,7 @@ IJ_NPC_NAME_6182 = "Daphne Stilwell"
 -- Quest 1651
 IJ_QUEST_NAME_1651 = "The Tome of Valor"
 IJ_QUEST_OBJECTIVE_1651 =
-"Defend Daphne Stilwell from the Defias attack.\n\nNeither of your spirits must be released from their mortal coils if you wish to succeed.\n\nAfter you are successful, speak to Daphne Stilwell again."
+    "Defend Daphne Stilwell from the Defias attack.\n\nNeither of your spirits must be released from their mortal coils if you wish to succeed.\n\nAfter you are successful, speak to Daphne Stilwell again."
 
 -- Quest 1652
 IJ_QUEST_NAME_1652 = "The Tome of Valor"
@@ -9798,8 +9257,7 @@ IJ_NPC_NAME_6181 = "Jordan Stilwell"
 
 -- Quest 1654
 IJ_QUEST_NAME_1654 = "The Test of Righteousness"
-IJ_QUEST_OBJECTIVE_1654 =
-"Using Jordan's Weapon Notes, find some Whitestone Oak Lumber, Bailor's Refined Ore Shipment, Jordan's Smithing Hammer, and a Kor Gem, and return them to Jordan Stilwell in Ironforge."
+IJ_QUEST_OBJECTIVE_1654 = "Using Jordan's Weapon Notes, find some Whitestone Oak Lumber, Bailor's Refined Ore Shipment, Jordan's Smithing Hammer, and a Kor Gem, and return them to Jordan Stilwell in Ironforge."
 
 -- Quest 1806
 IJ_QUEST_NAME_1806 = "The Test of Righteousness"
@@ -9807,23 +9265,20 @@ IJ_QUEST_OBJECTIVE_1806 = "Wait for Jordan Stilwell to finish forging a weapon f
 
 -- Quest 1740
 IJ_QUEST_NAME_1740 = "The Orb of Soran'ruk"
-IJ_QUEST_OBJECTIVE_1740 =
-"Find 3 Soran'ruk Fragments and 1 Large Soran'ruk Fragment and return them to Doan Karhan in the Barrens."
+IJ_QUEST_OBJECTIVE_1740 = "Find 3 Soran'ruk Fragments and 1 Large Soran'ruk Fragment and return them to Doan Karhan in the Barrens."
 IJ_NPC_NAME_6247 = "Doan Karhan"
 IJ_LOOT_NAME_6898 = "Orb of Soran'ruk"
 IJ_LOOT_NAME_15109 = "Staff of Soran'ruk"
 
 -- Quest 60108
 IJ_QUEST_NAME_60108 = "Arugal's Folly"
-IJ_QUEST_OBJECTIVE_60108 =
-"High Sorcerer Andromath has tasked you with the death of Archmage Arugal. Return to him when you're done."
+IJ_QUEST_OBJECTIVE_60108 = "High Sorcerer Andromath has tasked you with the death of Archmage Arugal. Return to him when you're done."
 IJ_NPC_NAME_5694 = "High Sorcerer Andromath"
 IJ_LOOT_NAME_51805 = "Signet of Arugal"
 
 -- Quest 60109
 IJ_QUEST_NAME_60109 = "The Missing Sorcerer"
-IJ_QUEST_OBJECTIVE_60109 =
-"High Sorcerer Andromath wants you to travel to Shadowfang Keep in Silverpine Forest and find out what happened to Sorcerer Ashcrombe."
+IJ_QUEST_OBJECTIVE_60109 = "High Sorcerer Andromath wants you to travel to Shadowfang Keep in Silverpine Forest and find out what happened to Sorcerer Ashcrombe."
 IJ_NPC_NAME_3850 = "Sorcerer Ashcrombe"
 
 -- Quest 5529
@@ -9832,43 +9287,37 @@ IJ_QUEST_OBJECTIVE_5529 = "Kill 20 Plagued Hatchlings, then return to Betina Big
 
 -- Quest 5582
 IJ_QUEST_NAME_5582 = "Healthy Dragon Scale"
-IJ_QUEST_OBJECTIVE_5582 =
-"Bring the Healthy Dragon Scale to Betina Bigglezink at the Light's Hope Chapel in Eastern Plaguelands."
+IJ_QUEST_OBJECTIVE_5582 = "Bring the Healthy Dragon Scale to Betina Bigglezink at the Light's Hope Chapel in Eastern Plaguelands."
 
 -- Quest 5382
 IJ_QUEST_NAME_5382 = "Doctor Theolen Krastinov, the Butcher"
-IJ_QUEST_OBJECTIVE_5382 =
-"Find Doctor Theolen Krastinov inside the Scholomance. Destroy him, then burn the Remains of Eva Sarkhoff and the Remains of Lucien Sarkhoff. Return to Eva Sarkhoff when the task is complete."
+IJ_QUEST_OBJECTIVE_5382 = "Find Doctor Theolen Krastinov inside the Scholomance. Destroy him, then burn the Remains of Eva Sarkhoff and the Remains of Lucien Sarkhoff. Return to Eva Sarkhoff when the task is complete."
 IJ_NPC_NAME_11216 = "Eva Sarkhoff"
 
 -- Quest 5515
 IJ_QUEST_NAME_5515 = "Krastinov's Bag of Horrors"
-IJ_QUEST_OBJECTIVE_5515 =
-"Locate Jandice Barov in the Scholomance and destroy her. From her corpse recover Krastinov's Bag of Horrors. Return the bag to Eva Sarkhoff."
+IJ_QUEST_OBJECTIVE_5515 = "Locate Jandice Barov in the Scholomance and destroy her. From her corpse recover Krastinov's Bag of Horrors. Return the bag to Eva Sarkhoff."
 
 -- Quest 5384
 IJ_QUEST_NAME_5384 = "Kirtonos the Herald"
 IJ_QUEST_OBJECTIVE_5384 =
-"Return to the Scholomance with the Blood of Innocents. Find the porch and place the Blood of Innocents in the brazier. Kirtonos will come to feast upon your soul.\n\nFight valiantly, do not give an inch! Destroy Kirtonos and return to Eva Sarkhoff."
+    "Return to the Scholomance with the Blood of Innocents. Find the porch and place the Blood of Innocents in the brazier. Kirtonos will come to feast upon your soul.\n\nFight valiantly, do not give an inch! Destroy Kirtonos and return to Eva Sarkhoff."
 IJ_LOOT_NAME_15805 = "Penelope's Rose"
 IJ_LOOT_NAME_15806 = "Mirah's Song"
 IJ_LOOT_NAME_13544 = "Spectral Essence"
 
 -- Quest 5461
 IJ_QUEST_NAME_5461 = "The Human, Ras Frostwhisper"
-IJ_QUEST_OBJECTIVE_5461 =
-"Travel to the Arathi Highlands, to the ruins of Stromgarde. Search Stromgarde for a Keepsake of Remembrance. If you find such an item, return with it to Magistrate Marduke."
+IJ_QUEST_OBJECTIVE_5461 = "Travel to the Arathi Highlands, to the ruins of Stromgarde. Search Stromgarde for a Keepsake of Remembrance. If you find such an item, return with it to Magistrate Marduke."
 IJ_NPC_NAME_11286 = "Magistrate Marduke"
 
 -- Quest 5462
 IJ_QUEST_NAME_5462 = "The Dying, Ras Frostwhisper"
-IJ_QUEST_OBJECTIVE_5462 =
-"Travel to Light's Hope in Eastern Plaguelands and seek out Leonid Barthalomew the Revered. Show him the Keepsake of Remembrance and tell him all that you have discovered."
+IJ_QUEST_OBJECTIVE_5462 = "Travel to Light's Hope in Eastern Plaguelands and seek out Leonid Barthalomew the Revered. Show him the Keepsake of Remembrance and tell him all that you have discovered."
 
 -- Quest 5463
 IJ_QUEST_NAME_5463 = "Menethil's Gift"
-IJ_QUEST_OBJECTIVE_5463 =
-"Travel to Stratholme and find Menethil's Gift. Place the Keepsake of Remembrance upon the unholy ground."
+IJ_QUEST_OBJECTIVE_5463 = "Travel to Stratholme and find Menethil's Gift. Place the Keepsake of Remembrance upon the unholy ground."
 IJ_NPC_NAME_176631 = "Menethil's Gift"
 
 -- Quest 5464
@@ -9882,7 +9331,7 @@ IJ_QUEST_OBJECTIVE_5465 = "Return to Magistrate Marduke in Caer Darrow. Show him
 -- Quest 5466
 IJ_QUEST_NAME_5466 = "The Lich, Ras Frostwhisper"
 IJ_QUEST_OBJECTIVE_5466 =
-"Find Ras Frostwhisper in the Scholomance. When you have found him, use the Soulbound Keepsake on his undead visage. Should you succeed in reverting him to a mortal, strike him down and recover the Human Head of Ras Frostwhisper. Take the head back to Magistrate Marduke."
+    "Find Ras Frostwhisper in the Scholomance. When you have found him, use the Soulbound Keepsake on his undead visage. Should you succeed in reverting him to a mortal, strike him down and recover the Human Head of Ras Frostwhisper. Take the head back to Magistrate Marduke."
 IJ_LOOT_NAME_13982 = "Warblade of Caer Darrow"
 IJ_LOOT_NAME_13986 = "Crown of Caer Darrow"
 IJ_LOOT_NAME_13984 = "Darrowspike"
@@ -9891,19 +9340,18 @@ IJ_LOOT_NAME_14002 = "Darrowshire Strongguard"
 -- Quest 5341
 IJ_QUEST_NAME_5341 = "Barov Family Fortune"
 IJ_QUEST_OBJECTIVE_5341 =
-"Venture to the Scholomance and recover the Barov family fortune. Four deeds make up this fortune: The Deed to Caer Darrow; The Deed to Brill; The Deed to Tarren Mill; and The Deed to Southshore. Return to Alexi Barov when you have completed this task."
+    "Venture to the Scholomance and recover the Barov family fortune. Four deeds make up this fortune: The Deed to Caer Darrow; The Deed to Brill; The Deed to Tarren Mill; and The Deed to Southshore. Return to Alexi Barov when you have completed this task."
 IJ_NPC_NAME_11022 = "Alexi Barov"
 
 -- Quest 5343
 IJ_QUEST_NAME_5343 = "Barov Family Fortune"
 IJ_QUEST_OBJECTIVE_5343 =
-"Venture to the Scholomance and recover the Barov family fortune. Four deeds make up this fortune: The Deed to Caer Darrow; The Deed to Brill; The Deed to Tarren Mill; and The Deed to Southshore. Return to Weldon Barov when you have completed this task."
+    "Venture to the Scholomance and recover the Barov family fortune. Four deeds make up this fortune: The Deed to Caer Darrow; The Deed to Brill; The Deed to Tarren Mill; and The Deed to Southshore. Return to Weldon Barov when you have completed this task."
 IJ_NPC_NAME_11023 = "Weldon Barov"
 
 -- Quest 4726
 IJ_QUEST_NAME_4726 = "Broodling Essence"
-IJ_QUEST_OBJECTIVE_4726 =
-"Bring 8 Broodling Essence and the Draco-Incarcinatrix 900 to Tinkee Steamboil at the Flame Crest in the Burning Steppes."
+IJ_QUEST_OBJECTIVE_4726 = "Bring 8 Broodling Essence and the Draco-Incarcinatrix 900 to Tinkee Steamboil at the Flame Crest in the Burning Steppes."
 IJ_NPC_NAME_10267 = "Tinkee Steamboil"
 
 -- Quest 4808
@@ -9940,8 +9388,7 @@ IJ_QUEST_OBJECTIVE_5531 = "Bring the Frozen Eggs to Betina Bigglezink."
 
 -- Quest 4771
 IJ_QUEST_NAME_4771 = "Dawn's Gambit"
-IJ_QUEST_OBJECTIVE_4771 =
-"Place Dawn's Gambit in the Viewing Room of the Scholomance. Defeat Vectus, then return to Betina Bigglezink."
+IJ_QUEST_OBJECTIVE_4771 = "Place Dawn's Gambit in the Viewing Room of the Scholomance. Defeat Vectus, then return to Betina Bigglezink."
 IJ_LOOT_NAME_15853 = "Windreaper"
 IJ_LOOT_NAME_15854 = "Dancing Sliver"
 
@@ -9964,8 +9411,7 @@ IJ_NPC_NAME_14437 = "Gorzeeki Wildeyes"
 
 -- Quest 7623
 IJ_QUEST_NAME_7623 = "Lord Banehollow"
-IJ_QUEST_OBJECTIVE_7623 =
-"Purchase Shadowy Potions from Gorzeeki in the Burning Steppes.\n\nUse the potions to travel through Jaedenar, and speak with Lord Banehollow."
+IJ_QUEST_OBJECTIVE_7623 = "Purchase Shadowy Potions from Gorzeeki in the Burning Steppes.\n\nUse the potions to travel through Jaedenar, and speak with Lord Banehollow."
 IJ_NPC_NAME_9516 = "Lord Banehollow"
 
 -- Quest 7624
@@ -9974,8 +9420,7 @@ IJ_QUEST_OBJECTIVE_7624 = "Confront Ulathek, then bring The Traitor's Heart to L
 
 -- Quest 7625
 IJ_QUEST_NAME_7625 = "Xorothian Stardust"
-IJ_QUEST_OBJECTIVE_7625 =
-"Purchase Xorothian Stardust from Ur'dan. Bring it to Gorzeeki Wildeyes in the Burning Steppes."
+IJ_QUEST_OBJECTIVE_7625 = "Purchase Xorothian Stardust from Ur'dan. Bring it to Gorzeeki Wildeyes in the Burning Steppes."
 
 -- Quest 7626
 IJ_QUEST_NAME_7626 = "Bell of Dethmoora"
@@ -9995,18 +9440,17 @@ IJ_QUEST_OBJECTIVE_7630 = "Bring 3 Arcanite Bars to Gorzeeki in the Burning Step
 
 -- Quest 7629
 IJ_QUEST_NAME_7629 = "Imp Delivery"
-IJ_QUEST_OBJECTIVE_7629 =
-"Bring the Imp in a Jar to the alchemy lab in the Scholomance. After the parchment is created, return the jar to Gorzeeki Wildeyes."
+IJ_QUEST_OBJECTIVE_7629 = "Bring the Imp in a Jar to the alchemy lab in the Scholomance. After the parchment is created, return the jar to Gorzeeki Wildeyes."
 
 -- Quest 8969
 IJ_QUEST_NAME_8969 = "The Left Piece of Lord Valthalak's Amulet"
 IJ_QUEST_OBJECTIVE_8969 =
-"Use the Brazier of Beckoning to summon forth the spirit of Kormok and slay him. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
+    "Use the Brazier of Beckoning to summon forth the spirit of Kormok and slay him. Return to Bodley inside Blackrock Mountain with the Left Piece of Lord Valthalak's Amulet and the Brazier of Beckoning."
 
 -- Quest 8992
 IJ_QUEST_NAME_8992 = "The Right Piece of Lord Valthalak's Amulet"
 IJ_QUEST_OBJECTIVE_8992 =
-"Use the Brazier of Beckoning to summon forth the spirit of Kormok and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
+    "Use the Brazier of Beckoning to summon forth the spirit of Kormok and slay him. Return to Bodley inside Blackrock Mountain with the recombined Lord Valthalak's Amulet and the Brazier of Beckoning."
 
 -- Quest 40234
 IJ_QUEST_NAME_40234 = "A New Rune-Frontier"
@@ -10014,8 +9458,7 @@ IJ_QUEST_OBJECTIVE_40234 = "Craft an Untempered Runeblade, and return to Craftsm
 
 -- Quest 40235
 IJ_QUEST_NAME_40235 = "The Secrets of Darkforging"
-IJ_QUEST_OBJECTIVE_40235 =
-"Travel to Corin's Crossing and recover The Secrets of Darkforging, bring it to Craftsman Wilhelm at Light's Hope Chapel."
+IJ_QUEST_OBJECTIVE_40235 = "Travel to Corin's Crossing and recover The Secrets of Darkforging, bring it to Craftsman Wilhelm at Light's Hope Chapel."
 
 -- Quest 40236
 IJ_QUEST_NAME_40236 = "The Secrets of Darkforging"
@@ -10024,8 +9467,7 @@ IJ_NPC_NAME_6251 = "Strahad Farsan"
 
 -- Quest 40237
 IJ_QUEST_NAME_40237 = "A Favor for Farsan"
-IJ_QUEST_OBJECTIVE_40237 =
-"Venture into Scholomance and recover the book 'Fire Beckoning and Command' for Strahad Farsan in Ratchet."
+IJ_QUEST_OBJECTIVE_40237 = "Venture into Scholomance and recover the book 'Fire Beckoning and Command' for Strahad Farsan in Ratchet."
 
 -- Quest 1098
 IJ_QUEST_NAME_1098 = "Deathstalkers in Shadowfang"
@@ -10041,16 +9483,14 @@ IJ_LOOT_NAME_42206 = "Windtorn Crest Stone"
 
 -- Quest 41978
 IJ_QUEST_NAME_41978 = "The Wrath of Malgan"
-IJ_QUEST_OBJECTIVE_41978 =
-"Slay 20 Blackwind Villagers on behalf of Malgan Windhorn at Sagh's Refuge in Thousand Needles."
+IJ_QUEST_OBJECTIVE_41978 = "Slay 20 Blackwind Villagers on behalf of Malgan Windhorn at Sagh's Refuge in Thousand Needles."
 IJ_NPC_NAME_62834 = "Malgan Windhorn"
 IJ_LOOT_NAME_42264 = "Hauberk of Bloodshed"
 IJ_LOOT_NAME_42265 = "Cloudtotem Cloak"
 
 -- Quest 41939
 IJ_QUEST_NAME_41939 = "Vortalus’ Edict"
-IJ_QUEST_OBJECTIVE_41939 =
-"Banish the elemental figurehead inside Windhorn Canyon and report back to Shovu at the Earthen Ring in the Stonetalon Mountains."
+IJ_QUEST_OBJECTIVE_41939 = "Banish the elemental figurehead inside Windhorn Canyon and report back to Shovu at the Earthen Ring in the Stonetalon Mountains."
 IJ_NPC_NAME_63019 = "Shovu"
 IJ_LOOT_NAME_58127 = "Hammer of Earthfury"
 IJ_LOOT_NAME_58128 = "Axe of Raging Winds"

@@ -1,6 +1,6 @@
 IJ_VERSION_MAJOR = "1"
 IJ_VERSION_MINOR = "4"
-IJ_VERSION_PATCH = "0"
+IJ_VERSION_PATCH = "1"
 
 IJ_IS_USING_NAMPOWER = false
 
@@ -11,6 +11,14 @@ function InstanceJournal:ToggleInstanceJournal()
         IJ_InstanceJournalFrame:Hide()
     else
         IJ_InstanceJournalFrame:Show()
+    end
+end
+
+SLASH_IJ1 = "/ij"
+SLASH_IJ2 = "/instancejournal"
+SlashCmdList["IJ"] = function()
+    if InstanceJournal:ToggleInstanceJournal() then
+        InstanceJournal:ToggleInstanceJournal()
     end
 end
 

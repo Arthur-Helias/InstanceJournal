@@ -102,7 +102,7 @@ local function IJ_NameHasDuplicatesInInstance(name, instance)
         return false
     end
 
-    local count   = 0
+    local count = 0
     local visited = {}
 
     local function scan(quests)
@@ -395,7 +395,7 @@ local function UpdateMoneyFrame(money, anchorFrame, x, y)
         mf = CreateFrame("Frame", "IJ_QuestInfoMoneyFrame", IJ_QuestInfoChild)
         mf:SetHeight(16)
 
-        for _, coin in ipairs({ "Gold", "Silver", "Copper" }) do
+        for _, coin in ipairs({"Gold", "Silver", "Copper"}) do
             mf[coin .. "Text"] = mf:CreateFontString(nil, "OVERLAY", "IJ_GameFontHighlight")
 
             local fp, fs = mf[coin .. "Text"]:GetFont()
@@ -486,11 +486,33 @@ local function IJ_PingMapCoordinates(x, y, pingType, mapContinent, mapZone, targ
         pingFrame:SetWidth(16)
         pingFrame:SetHeight(16)
         pingFrame:SetFrameLevel(WorldMapButton:GetFrameLevel() + 5)
-        pingFrame:EnableMouse(true)
+        pingFrame:EnableMouse(false)
 
         local icon = pingFrame:CreateTexture(nil, "OVERLAY")
         icon:SetAllPoints()
         pingFrame.icon = icon
+    end
+
+    local hitbox = getglobal("IJ_QuestMapPingHitbox")
+
+    if not hitbox then
+        hitbox = CreateFrame("Frame", "IJ_QuestMapPingHitbox", WorldMapButton)
+        hitbox:SetWidth(16)
+        hitbox:SetHeight(16)
+        hitbox:SetFrameLevel(WorldMapButton:GetFrameLevel() + 6)
+        hitbox:EnableMouse(true)
+
+        hitbox:SetScript("OnEnter", function()
+            if this.targetName then
+                GameTooltip:SetOwner(this, "ANCHOR_RIGHT")
+                GameTooltip:SetText(this.targetName)
+                GameTooltip:Show()
+            end
+        end)
+
+        hitbox:SetScript("OnLeave", function()
+            GameTooltip:Hide()
+        end)
     end
 
     if pingType == "start" then
@@ -502,87 +524,209 @@ local function IJ_PingMapCoordinates(x, y, pingType, mapContinent, mapZone, targ
     local wX = (x / 100) * WorldMapButton:GetWidth()
     local wY = (y / 100) * WorldMapButton:GetHeight()
 
+    pingFrame:SetScript("OnUpdate", nil)
+
+    if pingFrame.hiddenPins then
+        local sameMap = pingFrame.mapContinent == mapContinent and pingFrame.mapZone == mapZone
+
+        if sameMap then
+            for idx in pairs(pingFrame.hiddenPins) do
+                local pin = getglobal("pfMapPin" .. idx)
+
+                if pin then
+                    pin:SetAlpha(1.0)
+                    pin:Show()
+                end
+            end
+        else
+            for idx in pairs(pingFrame.hiddenPins) do
+                local pin = getglobal("pfMapPin" .. idx)
+
+                if pin then
+                    pin:SetAlpha(1.0)
+                end
+            end
+        end
+
+        pingFrame.hiddenPins = {}
+    end
+
     pingFrame:ClearAllPoints()
     pingFrame:SetPoint("CENTER", WorldMapButton, "TOPLEFT", wX, -wY)
 
+    hitbox:ClearAllPoints()
+    hitbox:SetPoint("CENTER", WorldMapButton, "TOPLEFT", wX, -wY)
+    hitbox.targetName = targetName
+
     pingFrame.mapContinent = mapContinent or GetCurrentMapContinent()
     pingFrame.mapZone = mapZone or GetCurrentMapZone()
-    pingFrame.targetName = targetName
 
-    pingFrame:SetScript("OnEnter", function()
-        if this.targetName then
-            GameTooltip:SetOwner(this, "ANCHOR_RIGHT")
-            GameTooltip:SetText(this.targetName)
-            GameTooltip:Show()
-        end
-    end)
-
-    pingFrame:SetScript("OnLeave", function()
-        GameTooltip:Hide()
-    end)
-
-    pingFrame:SetScript("OnUpdate", nil)
+    pingFrame:SetWidth(16)
+    pingFrame:SetHeight(16)
     pingFrame:Show()
-    pingFrame.timer = 0
+    pingFrame.icon:SetAlpha(0)
+    pingFrame.icon:Show()
     pingFrame.visible = true
 
+    hitbox:Show()
+
     -- Hide pfQuest map pins for the duration of the flash so IJ_QuestMapPing is visible
-    local ijHiddenPins = {}
-    if pfQuest then
-        local i = 1
-        while true do
-            local pin = getglobal("pfMapPin" .. i)
-            if not pin then break end
-            if pin:IsVisible() then
-                pin:Hide()
-                ijHiddenPins[i] = true
+    local BASE_SIZE = 16
+    local FADE_OUT_DURATION = 0.35
+    local BLINK_DURATION = 3.0
+    local FADE_IN_DURATION = 0.35
+
+    pingFrame.hiddenPins = {}
+    pingFrame.phase = "fadeout"
+    pingFrame.phaseTimer = 0
+    pingFrame.needsScanPins = true
+
+    local function restoreHiddenPins()
+        for idx in pairs(pingFrame.hiddenPins) do
+            local pin = getglobal("pfMapPin" .. idx)
+
+            if pin then
+                pin:SetAlpha(1.0)
+                pin:Show()
             end
-            i = i + 1
         end
+
+        pingFrame.hiddenPins = {}
+    end
+
+    local function releaseHiddenPins()
+        for idx in pairs(pingFrame.hiddenPins) do
+            local pin = getglobal("pfMapPin" .. idx)
+
+            if pin then
+                pin:SetAlpha(1.0)
+            end
+        end
+
+        pingFrame.hiddenPins = {}
+    end
+
+    local function shutdownPing()
+        pingFrame:SetWidth(BASE_SIZE)
+        pingFrame:SetHeight(BASE_SIZE)
+        pingFrame.icon:SetAlpha(0)
+        pingFrame:Hide()
+        hitbox:Hide()
+        pingFrame:SetScript("OnUpdate", nil)
     end
 
     pingFrame:SetScript("OnUpdate", function()
-        if not WorldMapFrame:IsVisible() or GetCurrentMapContinent() ~= this.mapContinent or GetCurrentMapZone() ~= this.mapZone then
-            this:Hide()
-            this:SetScript("OnUpdate", nil)
-
-            if pfQuest then
-                for idx in pairs(ijHiddenPins) do
-                    local pin = getglobal("pfMapPin" .. idx)
-                    if pin then pin:Show() end
-                end
-                ijHiddenPins = {}
-            end
+        if GetCurrentMapContinent() ~= this.mapContinent or GetCurrentMapZone() ~= this.mapZone then
+            releaseHiddenPins()
+            shutdownPing()
 
             return
         end
 
-        this.timer = this.timer + arg1
+        if not WorldMapFrame:IsVisible() then
+            restoreHiddenPins()
+            shutdownPing()
 
-        if this.timer >= 3 then
+            return
+        end
+
+        if this.needsScanPins then
+            this.needsScanPins = false
+
+            if pfQuest then
+                local i = 1
+
+                while true do
+                    local pin = getglobal("pfMapPin" .. i)
+
+                    if not pin then
+                        break
+                    end
+
+                    if pin:IsVisible() then
+                        this.hiddenPins[i] = true
+                    end
+
+                    i = i + 1
+                end
+            end
+        end
+
+        this.phaseTimer = this.phaseTimer + arg1
+
+        if this.phase == "fadeout" then
+            local t = math.min(this.phaseTimer / FADE_OUT_DURATION, 1.0)
+            local alpha = 1.0 - t
+
+            for idx in pairs(pingFrame.hiddenPins) do
+                local pin = getglobal("pfMapPin" .. idx)
+
+                if pin then
+                    pin:SetAlpha(alpha)
+                end
+            end
+
+            pingFrame.icon:SetAlpha(t)
+
+            if t >= 1.0 then
+                for idx in pairs(pingFrame.hiddenPins) do
+                    local pin = getglobal("pfMapPin" .. idx)
+
+                    if pin then
+                        pin:Hide()
+                        pin:SetAlpha(1.0)
+                    end
+                end
+
+                this.phase = "blink"
+                this.phaseTimer = 0
+            end
+
+        elseif this.phase == "blink" then
+            local pulse = 1.0 + 0.45 * math.sin(this.phaseTimer * math.pi * 5)
+            local newSize = BASE_SIZE * pulse
+
+            this:SetWidth(newSize)
+            this:SetHeight(newSize)
+
             if not this.visible then
                 this.icon:Show()
                 this.visible = true
             end
 
-            if pfQuest and ijHiddenPins[1] then
-                for idx in pairs(ijHiddenPins) do
+            if this.phaseTimer >= BLINK_DURATION then
+                this:SetWidth(BASE_SIZE)
+                this:SetHeight(BASE_SIZE)
+
+                for idx in pairs(pingFrame.hiddenPins) do
                     local pin = getglobal("pfMapPin" .. idx)
-                    if pin then pin:Show() end
+
+                    if pin then
+                        pin:SetAlpha(0.0)
+                        pin:Show()
+                    end
                 end
-                ijHiddenPins = {}
+
+                this.phase = "fadein"
+                this.phaseTimer = 0
             end
-        else
-            if math.mod(math.floor(this.timer * 4), 2) == 0 then
-                if not this.visible then
-                    this.icon:Show()
-                    this.visible = true
+
+        elseif this.phase == "fadein" then
+            local t = math.min(this.phaseTimer / FADE_IN_DURATION, 1.0)
+
+            for idx in pairs(pingFrame.hiddenPins) do
+                local pin = getglobal("pfMapPin" .. idx)
+
+                if pin then
+                    pin:SetAlpha(t)
                 end
-            else
-                if this.visible then
-                    this.icon:Hide()
-                    this.visible = false
-                end
+            end
+
+            pingFrame.icon:SetAlpha(1.0 - t)
+
+            if t >= 1.0 then
+                restoreHiddenPins()
+                shutdownPing()
             end
         end
     end)
@@ -635,7 +779,7 @@ function IJ_PopulateQuestList(instance)
             return
         end
 
-        table.insert(visibleQuests, { quest = quest, depth = depth, pathKey = pathKey })
+        table.insert(visibleQuests, {quest = quest, depth = depth, pathKey = pathKey})
 
         if quest.RequiredQuests and IJ_ExpandedQuests[pathKey] and GetPlayerQuestStatus(quest, instance) ~= "COMPLETE" then
             local reqQuests = {}
@@ -650,7 +794,9 @@ function IJ_PopulateQuestList(instance)
         end
     end
 
-    for _, q in ipairs(baseQuests) do AddQuest(q, 0, tostring(q.Id)) end
+    for _, q in ipairs(baseQuests) do
+        AddQuest(q, 0, tostring(q.Id))
+    end
 
     local yOffset = -5
     local playerLevel = UnitLevel("player")
@@ -725,8 +871,7 @@ function IJ_PopulateQuestList(instance)
 
                 if arg1 == "LeftButton" then
                     if IsShiftKeyDown() and ChatFrameEditBox:IsVisible() then
-                        local link = "|cff8080ff|Hquest:" ..
-                            this.quest.Id .. ":" .. this.quest.Level .. "|h[" .. this.quest.Name .. "]|h|r"
+                        local link = "|cff8080ff|Hquest:" .. this.quest.Id .. ":" .. this.quest.Level .. "|h[" .. this.quest.Name .. "]|h|r"
                         ChatFrameEditBox:Insert(link)
 
                         return
@@ -890,6 +1035,7 @@ function IJ_PopulateQuestList(instance)
     end
 
     IJ_QuestListChild:SetHeight(math.abs(yOffset))
+
     if IJ_QuestListScroll.UpdateScrollBar then
         IJ_QuestListScroll:UpdateScrollBar()
     end
@@ -925,7 +1071,7 @@ function IJ_PopulateQuestList(instance)
 end
 
 function IJ_ShowQuestInfo(quest)
-    local infoChildren = { IJ_QuestInfoChild:GetChildren() }
+    local infoChildren = {IJ_QuestInfoChild:GetChildren()}
 
     for _, child in ipairs(infoChildren) do
         if not string.find(child:GetName() or "", "IJ_QuestRewardBtn") then
@@ -939,7 +1085,7 @@ function IJ_ShowQuestInfo(quest)
         mf:Hide()
     end
 
-    local infoRegions = { IJ_QuestInfoChild:GetRegions() }
+    local infoRegions = {IJ_QuestInfoChild:GetRegions()}
 
     for _, region in ipairs(infoRegions) do
         region:Hide()
@@ -1048,9 +1194,7 @@ function IJ_ShowQuestInfo(quest)
                 end
 
                 SetMapZoom(this.mapData.MapContinentId, this.mapData.MapZoneId and this.mapData.MapZoneId or 1)
-                IJ_PingMapCoordinates(this.mapData.MapCoordinateX, this.mapData.MapCoordinateY, "start",
-                    this.mapData.MapContinentId, this.mapData.MapZoneId and this.mapData.MapZoneId or 1,
-                    this.mapData.Name)
+                IJ_PingMapCoordinates(this.mapData.MapCoordinateX, this.mapData.MapCoordinateY, "start", this.mapData.MapContinentId, this.mapData.MapZoneId and this.mapData.MapZoneId or 1, this.mapData.Name)
             end)
 
             startBtn:Show()
@@ -1103,8 +1247,7 @@ function IJ_ShowQuestInfo(quest)
             end)
 
             startItemBtn:SetScript("OnClick", function()
-                local link = this.itemColor ..
-                    "|Hitem:" .. this.itemId .. ":0:0:0:0:0:0:0|h[" .. this.itemName .. "]|h|r"
+                local link = this.itemColor .. "|Hitem:" .. this.itemId .. ":0:0:0:0:0:0:0|h[" .. this.itemName .. "]|h|r"
 
                 if IsControlKeyDown() then
                     DressUpItemLink(link)
@@ -1122,8 +1265,7 @@ function IJ_ShowQuestInfo(quest)
             local dropLabel = getglobal("IJ_QuestStartItemDropLabel")
 
             if not dropLabel then
-                dropLabel = IJ_QuestInfoChild:CreateFontString("IJ_QuestStartItemDropLabel", "OVERLAY",
-                    "IJ_GameFontHighlight")
+                dropLabel = IJ_QuestInfoChild:CreateFontString("IJ_QuestStartItemDropLabel", "OVERLAY", "IJ_GameFontHighlight")
             end
 
             dropLabel:ClearAllPoints()
@@ -1161,8 +1303,7 @@ function IJ_ShowQuestInfo(quest)
             end
 
             SetMapZoom(this.mapData.MapContinentId, this.mapData.MapZoneId and this.mapData.MapZoneId or 1)
-            IJ_PingMapCoordinates(this.mapData.MapCoordinateX, this.mapData.MapCoordinateY, "end",
-                this.mapData.MapContinentId, this.mapData.MapZoneId and this.mapData.MapZoneId or 1, this.mapData.Name)
+            IJ_PingMapCoordinates(this.mapData.MapCoordinateX, this.mapData.MapCoordinateY, "end", this.mapData.MapContinentId, this.mapData.MapZoneId and this.mapData.MapZoneId or 1, this.mapData.Name)
         end)
 
         endBtn:Show()
@@ -1206,8 +1347,7 @@ function IJ_ShowQuestInfo(quest)
         end
     end
 
-    local hasRewards = xp > 0 or coin > 0 or table.getn(receiveItems) > 0 or table.getn(chooseGroups) > 0 or
-        quest.RewardSpells or (quest.RewardReputations and table.getn(quest.RewardReputations) > 0)
+    local hasRewards = xp > 0 or coin > 0 or table.getn(receiveItems) > 0 or table.getn(chooseGroups) > 0 or quest.RewardSpells or (quest.RewardReputations and table.getn(quest.RewardReputations) > 0)
 
     if hasRewards then
         local rewardTitle = IJ_QuestInfoChild:CreateFontString(nil, "OVERLAY", "IJ_QuestTitleFont")
@@ -1219,8 +1359,7 @@ function IJ_ShowQuestInfo(quest)
 
     local rewardBtnIndex = 1
 
-    local hasReceive = xp > 0 or coin > 0 or table.getn(receiveItems) > 0 or
-        (quest.RewardReputations and table.getn(quest.RewardReputations) > 0)
+    local hasReceive = xp > 0 or coin > 0 or table.getn(receiveItems) > 0 or (quest.RewardReputations and table.getn(quest.RewardReputations) > 0)
 
     if hasReceive then
         local receiveTitle = IJ_QuestInfoChild:CreateFontString(nil, "OVERLAY", "IJ_GameFontHighlight")
@@ -1244,8 +1383,7 @@ function IJ_ShowQuestInfo(quest)
         if xp > 0 then
             local xpText = IJ_QuestInfoChild:CreateFontString(nil, "OVERLAY", "IJ_GameFontHighlightSmall")
             xpText:SetText(xp .. " " .. IJ_GUI_EXPERIENCE)
-            xpText:SetTextColor(IJLib.Colors.DarkerPurple.RGB[1], IJLib.Colors.DarkerPurple.RGB[2],
-                IJLib.Colors.DarkerPurple.RGB[3])
+            xpText:SetTextColor(IJLib.Colors.DarkerPurple.RGB[1], IJLib.Colors.DarkerPurple.RGB[2], IJLib.Colors.DarkerPurple.RGB[3])
             xpText:SetShadowOffset(0.75, -0.75)
 
             if isFirstItemBesideTitle then
@@ -1262,8 +1400,7 @@ function IJ_ShowQuestInfo(quest)
                 local repText = IJ_QuestInfoChild:CreateFontString(nil, "OVERLAY", "IJ_GameFontHighlightSmall")
 
                 repText:SetText(rep.Amount .. " " .. rep.Name .. " " .. IJ_GUI_REPUTATION)
-                repText:SetTextColor(IJLib.Colors.DarkGreen.RGB[1], IJLib.Colors.DarkGreen.RGB[2],
-                    IJLib.Colors.DarkGreen.RGB[3])
+                repText:SetTextColor(IJLib.Colors.DarkGreen.RGB[1], IJLib.Colors.DarkGreen.RGB[2], IJLib.Colors.DarkGreen.RGB[3])
                 repText:SetShadowOffset(0.75, -0.75)
 
                 if isFirstItemBesideTitle then
@@ -1286,8 +1423,7 @@ function IJ_ShowQuestInfo(quest)
                 local btn = getglobal("IJ_QuestRewardBtn" .. rewardBtnIndex)
 
                 if not btn then
-                    btn = CreateFrame("Button", "IJ_QuestRewardBtn" .. rewardBtnIndex, IJ_QuestInfoChild,
-                        "IJ_QuestItemTemplate")
+                    btn = CreateFrame("Button", "IJ_QuestRewardBtn" .. rewardBtnIndex, IJ_QuestInfoChild, "IJ_QuestItemTemplate")
                 end
 
                 local icon = getglobal(btn:GetName() .. "IconTexture")
@@ -1331,8 +1467,7 @@ function IJ_ShowQuestInfo(quest)
                 end)
 
                 btn:SetScript("OnClick", function()
-                    local link = this.itemColor ..
-                        "|Hitem:" .. this.itemId .. ":0:0:0:0:0:0:0|h[" .. this.itemName .. "]|h|r"
+                    local link = this.itemColor .. "|Hitem:" .. this.itemId .. ":0:0:0:0:0:0:0|h[" .. this.itemName .. "]|h|r"
 
                     if IsControlKeyDown() then
                         DressUpItemLink(link)
@@ -1387,8 +1522,7 @@ function IJ_ShowQuestInfo(quest)
             local btn = getglobal("IJ_QuestRewardBtn" .. rewardBtnIndex)
 
             if not btn then
-                btn = CreateFrame("Button", "IJ_QuestRewardBtn" .. rewardBtnIndex, IJ_QuestInfoChild,
-                    "IJ_QuestItemTemplate")
+                btn = CreateFrame("Button", "IJ_QuestRewardBtn" .. rewardBtnIndex, IJ_QuestInfoChild, "IJ_QuestItemTemplate")
             end
 
             local icon = getglobal(btn:GetName() .. "IconTexture")
@@ -1431,8 +1565,7 @@ function IJ_ShowQuestInfo(quest)
             end)
 
             btn:SetScript("OnClick", function()
-                local link = this.itemColor ..
-                    "|Hitem:" .. this.itemId .. ":0:0:0:0:0:0:0|h[" .. this.itemName .. "]|h|r"
+                local link = this.itemColor .. "|Hitem:" .. this.itemId .. ":0:0:0:0:0:0:0|h[" .. this.itemName .. "]|h|r"
 
                 if IsControlKeyDown() then
                     DressUpItemLink(link)
@@ -1474,8 +1607,7 @@ function IJ_ShowQuestInfo(quest)
             local btn = getglobal("IJ_QuestRewardBtn" .. rewardBtnIndex)
 
             if not btn then
-                btn = CreateFrame("Button", "IJ_QuestRewardBtn" .. rewardBtnIndex, IJ_QuestInfoChild,
-                    "IJ_QuestItemTemplate")
+                btn = CreateFrame("Button", "IJ_QuestRewardBtn" .. rewardBtnIndex, IJ_QuestInfoChild, "IJ_QuestItemTemplate")
             end
 
             local icon = getglobal(btn:GetName() .. "IconTexture")

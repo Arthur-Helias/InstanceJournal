@@ -435,8 +435,7 @@ function IJ_PopulateLoot(data, isInstance)
                     local color = parent.itemQualityHex or IJLib.Colors.White.Hex
                     local name = parent.itemName or "Item"
 
-                    ChatFrameEditBox:Insert(color ..
-                        "|Hitem:" .. parent.itemId .. ":0:0:0:0:0:0:0:0|h[" .. name .. "]|h|r")
+                    ChatFrameEditBox:Insert(color .. "|Hitem:" .. parent.itemId .. ":0:0:0:0:0:0:0:0|h[" .. name .. "]|h|r")
 
                     return
                 end
@@ -481,8 +480,7 @@ function IJ_PopulateLoot(data, isInstance)
             row.iconBorder:SetVertexColor(item.Quality.RGB[1], item.Quality.RGB[2], item.Quality.RGB[3])
         end
 
-        row.icon:SetTexture(item.Icon and ("Interface\\Icons\\" .. item.Icon) or
-            "Interface\\Icons\\INV_Misc_QuestionMark")
+        row.icon:SetTexture(item.Icon and ("Interface\\Icons\\" .. item.Icon) or "Interface\\Icons\\INV_Misc_QuestionMark")
 
         local colorHex = item.Quality.Hex or IJLib.Colors.White.Hex
         local displayName = item.Name and item.Name ~= "" and item.Name or (IJ_GUI_ITEM .. " #" .. item.Id)

@@ -7,61 +7,40 @@ IJLib.MediaPathPois = "pois\\"
 IJLib.MediaPathPortrait = "-portrait"
 IJLib.MediaPathFrame = "-frame"
 
-IJLib.StrataOrder = {
-    "BACKGROUND",
-    "LOW",
-    "MEDIUM",
-    "HIGH",
-    "DIALOG",
-    "FULLSCREEN",
-    "FULLSCREEN_DIALOG",
-    "TOOLTIP"
-}
+IJLib.StrataOrder = {"BACKGROUND", "LOW", "MEDIUM", "HIGH", "DIALOG", "FULLSCREEN", "FULLSCREEN_DIALOG", "TOOLTIP"}
 
-IJLib.EntranceIconType = {
-    Up = "map-icon-up",
-    Down = "map-icon-down",
-    Left = "map-icon-left",
-    Right = "map-icon-right",
-}
+IJLib.EntranceIconType = {Up = "map-icon-up", Down = "map-icon-down", Left = "map-icon-left", Right = "map-icon-right"}
 
 IJLib.Colors = {
-    Red = { Hex = "|cffdb2121", RGB = { 0.85, 0.1, 0.1 } },
-    LightRed = { Hex = "|cffffaaaa", RGB = { 1.0, 0.66, 0.66 } },
-    DarkRed = { Hex = "|cff980302", RGB = { 0.59, 0.01, 0 } },
-    Orange = { Hex = "|cffff8040", RGB = { 1.0, 0.50, 0.25 } },
-    DarkOrange = { Hex = "|cffff7c0a", RGB = { 1.0, 0.49, 0.04 } },
-    DarkerOrange = { Hex = "|cffff8000", RGB = { 1.0, 0.50, 0 } },
-    Yellow = { Hex = "|cffffff00", RGB = { 1.0, 1.0, 0 } },
-    LightYellow = { Hex = "|cfffff468", RGB = { 1.0, 0.96, 0.41 } },
-    Green = { Hex = "|cff40bd40", RGB = { 0.25, 0.74, 0.25 } },
-    LightGreen = { Hex = "|cff1eff00", RGB = { 0.11, 1.0, 0 } },
-    DarkGreen = { Hex = "|cff007514", RGB = { 0, 0.45, 0.07 } },
-    Pistachio = { Hex = "|cffaad372", RGB = { 0.67, 0.83, 0.45 } },
-    Blue = { Hex = "|cff0070dd", RGB = { 0, 0.44, 0.87 } },
-    LightBlue = { Hex = "|cff3fc7eb", RGB = { 0.25, 0.78, 0.92 } },
-    Purple = { Hex = "|cffa335ee", RGB = { 0.63, 0.20, 0.93 } },
-    DarkPurple = { Hex = "|cff7b03fc", RGB = { 0.48, 0.01, 0.98 } },
-    DarkerPurple = { Hex = "|cff5e185e", RGB = { 0.36, 0.09, 0.36 } },
-    LightPurple = { Hex = "|cff8788ee", RGB = { 0.53, 0.53, 0.93 } },
-    Pink = { Hex = "|cfff48cba", RGB = { 0.96, 0.55, 0.73 } },
-    Gray = { Hex = "|cff808080", RGB = { 0.50, 0.50, 0.50 } },
-    Tan = { Hex = "|cffc69b6d", RGB = { 0.78, 0.61, 0.43 } },
-    LightGray = { Hex = "|cffcccccc", RGB = { 0.8, 0.8, 0.8 } },
-    MediumGray = { Hex = "|cff9d9d9d", RGB = { 0.61, 0.61, 0.61 } },
-    DarkGray = { Hex = "|cff555555", RGB = { 0.33, 0.33, 0.33 } },
-    White = { Hex = "|cffffffff", RGB = { 1.0, 1.0, 1.0 } },
-    Black = { Hex = "|cff000000", RGB = { 0, 0, 0 } },
+    Red = {Hex = "|cffdb2121", RGB = {0.85, 0.1, 0.1}},
+    LightRed = {Hex = "|cffffaaaa", RGB = {1.0, 0.66, 0.66}},
+    DarkRed = {Hex = "|cff980302", RGB = {0.59, 0.01, 0}},
+    Orange = {Hex = "|cffff8040", RGB = {1.0, 0.50, 0.25}},
+    DarkOrange = {Hex = "|cffff7c0a", RGB = {1.0, 0.49, 0.04}},
+    DarkerOrange = {Hex = "|cffff8000", RGB = {1.0, 0.50, 0}},
+    Yellow = {Hex = "|cffffff00", RGB = {1.0, 1.0, 0}},
+    LightYellow = {Hex = "|cfffff468", RGB = {1.0, 0.96, 0.41}},
+    Green = {Hex = "|cff40bd40", RGB = {0.25, 0.74, 0.25}},
+    LightGreen = {Hex = "|cff1eff00", RGB = {0.11, 1.0, 0}},
+    DarkGreen = {Hex = "|cff007514", RGB = {0, 0.45, 0.07}},
+    Pistachio = {Hex = "|cffaad372", RGB = {0.67, 0.83, 0.45}},
+    Blue = {Hex = "|cff0070dd", RGB = {0, 0.44, 0.87}},
+    LightBlue = {Hex = "|cff3fc7eb", RGB = {0.25, 0.78, 0.92}},
+    Purple = {Hex = "|cffa335ee", RGB = {0.63, 0.20, 0.93}},
+    DarkPurple = {Hex = "|cff7b03fc", RGB = {0.48, 0.01, 0.98}},
+    DarkerPurple = {Hex = "|cff5e185e", RGB = {0.36, 0.09, 0.36}},
+    LightPurple = {Hex = "|cff8788ee", RGB = {0.53, 0.53, 0.93}},
+    Pink = {Hex = "|cfff48cba", RGB = {0.96, 0.55, 0.73}},
+    Gray = {Hex = "|cff808080", RGB = {0.50, 0.50, 0.50}},
+    Tan = {Hex = "|cffc69b6d", RGB = {0.78, 0.61, 0.43}},
+    LightGray = {Hex = "|cffcccccc", RGB = {0.8, 0.8, 0.8}},
+    MediumGray = {Hex = "|cff9d9d9d", RGB = {0.61, 0.61, 0.61}},
+    DarkGray = {Hex = "|cff555555", RGB = {0.33, 0.33, 0.33}},
+    White = {Hex = "|cffffffff", RGB = {1.0, 1.0, 1.0}},
+    Black = {Hex = "|cff000000", RGB = {0, 0, 0}}
 }
 
-IJLib.Quality = {
-    Poor = IJLib.Colors.MediumGray,
-    Common = IJLib.Colors.White,
-    Uncommon = IJLib.Colors.LightGreen,
-    Rare = IJLib.Colors.Blue,
-    Epic = IJLib.Colors.Purple,
-    Legendary = IJLib.Colors.DarkerOrange,
-}
+IJLib.Quality = {Poor = IJLib.Colors.MediumGray, Common = IJLib.Colors.White, Uncommon = IJLib.Colors.LightGreen, Rare = IJLib.Colors.Blue, Epic = IJLib.Colors.Purple, Legendary = IJLib.Colors.DarkerOrange}
 
 IJLib.ItemSlot = {
     Head = IJ_ITEMSLOT_HEAD,
@@ -99,7 +78,7 @@ IJLib.ItemSlot = {
     Projectile = IJ_ITEMSLOT_PROJECTILE,
     AmmoPouch = IJ_ITEMSLOT_AMMOPOUCH,
     Quiver = IJ_ITEMSLOT_QUIVER,
-    Key = IJ_ITEMSLOT_KEY,
+    Key = IJ_ITEMSLOT_KEY
 }
 
 IJLib.ItemType = {
@@ -139,13 +118,10 @@ IJLib.ItemType = {
     Survival = IJ_ITEMTYPE_SURVIVAL,
     Mining = IJ_ITEMTYPE_MINING,
     Bullet = IJ_ITEMTYPE_BULLET,
-    Arrow = IJ_ITEMTYPE_ARROW,
+    Arrow = IJ_ITEMTYPE_ARROW
 }
 
-IJLib.Continents = {
-    Kalimdor = IJ_CONTINENT_KALIMDOR,
-    EasternKingdoms = IJ_CONTINENT_EASTERNKINGDOMS,
-}
+IJLib.Continents = {Kalimdor = IJ_CONTINENT_KALIMDOR, EasternKingdoms = IJ_CONTINENT_EASTERNKINGDOMS}
 
 IJLib.MapId = {
     World = 0,
@@ -194,7 +170,7 @@ IJLib.MapId = {
     AlahThalas = 43,
     TimbermawHold = 44,
     WindhornCanyon = 45,
-    FrostmaneHollow = 46,
+    FrostmaneHollow = 46
 }
 
 IJLib.ZoneId = {
@@ -284,7 +260,7 @@ IJLib.ZoneId = {
     SMArm = 1,
     SMCath = 2,
     SMGy = 3,
-    SMLib = 4,
+    SMLib = 4
 }
 
 local currentLocale = GetLocale()
@@ -339,13 +315,10 @@ IJLib.Reputations = {
     HydraxianWaterlords = IJ_REPUTATION_HYDRAXIANWATERLORDS,
     Theramore = IJ_REPUTATION_THERAMORE,
     Dalaran = IJ_REPUTATION_DALARAN,
-    SilvermoonRemnant = IJ_REPUTATION_SILVERMOONREMNANT,
+    SilvermoonRemnant = IJ_REPUTATION_SILVERMOONREMNANT
 }
 
-IJLib.Factions = {
-    Alliance = IJ_FACTION_ALLIANCE,
-    Horde = IJ_FACTION_HORDE,
-}
+IJLib.Factions = {Alliance = IJ_FACTION_ALLIANCE, Horde = IJ_FACTION_HORDE}
 
 IJLib.Races = {
     Human = IJ_RACE_HUMAN,
@@ -357,7 +330,7 @@ IJLib.Races = {
     Troll = IJ_RACE_TROLL,
     Tauren = IJ_RACE_TAUREN,
     Undead = IJ_RACE_UNDEAD,
-    Goblin = IJ_RACE_GOBLIN,
+    Goblin = IJ_RACE_GOBLIN
 }
 
 IJLib.Classes = {
@@ -369,64 +342,26 @@ IJLib.Classes = {
     Priest = IJ_CLASS_PRIEST,
     Druid = IJ_CLASS_DRUID,
     Paladin = IJ_CLASS_PALADIN,
-    Shaman = IJ_CLASS_SHAMAN,
+    Shaman = IJ_CLASS_SHAMAN
 }
 
 IJLib.AbilityFlags = {
-    Tank = {
-        Tooltip = IJ_ABILITYFLAG_TANK,
-        Icon = IJLib.MediaPath .. "ui\\flag-tank",
-    },
-    DPS = {
-        Tooltip = IJ_ABILITYFLAG_DPS,
-        Icon = IJLib.MediaPath .. "ui\\flag-dps",
-    },
-    Heal = {
-        Tooltip = IJ_ABILITYFLAG_HEAL,
-        Icon = IJLib.MediaPath .. "ui\\flag-heal",
-    },
-    Important = {
-        Tooltip = IJ_ABILITYFLAG_IMPORTANT,
-        Icon = IJLib.MediaPath .. "ui\\flag-important",
-    },
-    Interruptible = {
-        Tooltip = IJ_ABILITYFLAG_INTERRUPTIBLE,
-        Icon = IJLib.MediaPath .. "ui\\flag-interruptible",
-    },
-    Enrage = {
-        Tooltip = IJ_ABILITYFLAG_ENRAGE,
-        Icon = IJLib.MediaPath .. "ui\\flag-enrage",
-    },
-    Deadly = {
-        Tooltip = IJ_ABILITYFLAG_DEADLY,
-        Icon = IJLib.MediaPath .. "ui\\flag-deadly",
-    },
-    Magic = {
-        Tooltip = IJ_ABILITYFLAG_MAGIC,
-        Icon = IJLib.MediaPath .. "ui\\flag-magic",
-    },
-    Curse = {
-        Tooltip = IJ_ABILITYFLAG_CURSE,
-        Icon = IJLib.MediaPath .. "ui\\flag-curse",
-    },
-    Poison = {
-        Tooltip = IJ_ABILITYFLAG_POISON,
-        Icon = IJLib.MediaPath .. "ui\\flag-poison",
-    },
-    Disease = {
-        Tooltip = IJ_ABILITYFLAG_DISEASE,
-        Icon = IJLib.MediaPath .. "ui\\flag-disease",
-    },
+    Tank = {Tooltip = IJ_ABILITYFLAG_TANK, Icon = IJLib.MediaPath .. "ui\\flag-tank"},
+    DPS = {Tooltip = IJ_ABILITYFLAG_DPS, Icon = IJLib.MediaPath .. "ui\\flag-dps"},
+    Heal = {Tooltip = IJ_ABILITYFLAG_HEAL, Icon = IJLib.MediaPath .. "ui\\flag-heal"},
+    Important = {Tooltip = IJ_ABILITYFLAG_IMPORTANT, Icon = IJLib.MediaPath .. "ui\\flag-important"},
+    Interruptible = {Tooltip = IJ_ABILITYFLAG_INTERRUPTIBLE, Icon = IJLib.MediaPath .. "ui\\flag-interruptible"},
+    Enrage = {Tooltip = IJ_ABILITYFLAG_ENRAGE, Icon = IJLib.MediaPath .. "ui\\flag-enrage"},
+    Deadly = {Tooltip = IJ_ABILITYFLAG_DEADLY, Icon = IJLib.MediaPath .. "ui\\flag-deadly"},
+    Magic = {Tooltip = IJ_ABILITYFLAG_MAGIC, Icon = IJLib.MediaPath .. "ui\\flag-magic"},
+    Curse = {Tooltip = IJ_ABILITYFLAG_CURSE, Icon = IJLib.MediaPath .. "ui\\flag-curse"},
+    Poison = {Tooltip = IJ_ABILITYFLAG_POISON, Icon = IJLib.MediaPath .. "ui\\flag-poison"},
+    Disease = {Tooltip = IJ_ABILITYFLAG_DISEASE, Icon = IJLib.MediaPath .. "ui\\flag-disease"}
 }
 
-IJLib.Challenges = {
-    LevelOneLunatic = IJ_CHALLENGES_LEVELONELUNATIC,
-}
+IJLib.Challenges = {LevelOneLunatic = IJ_CHALLENGES_LEVELONELUNATIC}
 
-IJLib.InstanceType = {
-    Dungeon = IJ_GUI_DUNGEON,
-    Raid = IJ_GUI_RAID,
-}
+IJLib.InstanceType = {Dungeon = IJ_GUI_DUNGEON, Raid = IJ_GUI_RAID}
 
 local IJC = IJLib.Classes
 local IJR = IJLib.Races
@@ -435,10 +370,7 @@ local IJIT = IJLib.ItemType
 local IJIS = IJLib.ItemSlot
 local IJCL = IJLib.Colors
 
-IJLib.FactionUnlocalizedLinks = {
-    [IJF.Alliance] = "Alliance",
-    [IJF.Horde] = "Horde",
-}
+IJLib.FactionUnlocalizedLinks = {[IJF.Alliance] = "Alliance", [IJF.Horde] = "Horde"}
 
 IJLib.RaceUnlocalizedLinks = {
     [IJR.Human] = "Human",
@@ -450,7 +382,7 @@ IJLib.RaceUnlocalizedLinks = {
     [IJR.Troll] = "Troll",
     [IJR.Tauren] = "Tauren",
     [IJR.Undead] = "Scourge",
-    [IJR.Goblin] = "Goblin",
+    [IJR.Goblin] = "Goblin"
 }
 
 IJLib.ClassUnlocalizedLinks = {
@@ -462,23 +394,50 @@ IJLib.ClassUnlocalizedLinks = {
     [IJC.Rogue] = "ROGUE",
     [IJC.Shaman] = "SHAMAN",
     [IJC.Warlock] = "WARLOCK",
-    [IJC.Warrior] = "WARRIOR",
+    [IJC.Warrior] = "WARRIOR"
 }
 
-IJLib.RaceGearLinks = {
-    [IJR.NightElf] = { IJIT.Bow, IJIS.Ranged, IJIS.Projectile, IJIS.Arrow, },
-}
+IJLib.RaceGearLinks = {[IJR.NightElf] = {IJIT.Bow, IJIS.Ranged, IJIS.Projectile, IJIS.Arrow}}
 
 IJLib.ClassGearLinks = {
-    [IJC.Druid] = { IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Dagger, IJIT.FistWeapon, IJIT.Staff, IJIT.Mace, IJIT.TwoHandedMace, IJIT.Cloth, IJIT.Leather, IJIT.Polearm, IJIT.Idol, IJIS.Relic, IJIS.HeldInOffHand },
-    [IJC.Hunter] = { IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Bow, IJIT.Arrow, IJIT.Crossbow, IJIT.Gun, IJIT.Bullet, IJIT.Axe, IJIT.TwoHandedAxe, IJIT.Dagger, IJIT.Staff, IJIT.Polearm, IJIT.Sword, IJIT.TwoHandedSword, IJIT.FistWeapon, IJIT.ThrownWeapon, IJIT.Cloth, IJIT.Leather, IJIT.Mail, IJIS.Ranged, IJIS.OffHand, IJIS.Projectile },
-    [IJC.Mage] = { IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Wand, IJIT.Staff, IJIT.Dagger, IJIT.Sword, IJIT.Cloth, IJIS.Ranged, IJIS.HeldInOffHand },
-    [IJC.Paladin] = { IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Mace, IJIT.TwoHandedMace, IJIT.Shield, IJIT.Axe, IJIT.TwoHandedAxe, IJIT.Sword, IJIT.TwoHandedSword, IJIT.Polearm, IJIT.Cloth, IJIT.Leather, IJIT.Mail, IJIT.Plate, IJIT.Libram, IJIS.Relic, IJIS.HeldInOffHand },
-    [IJC.Priest] = { IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Wand, IJIT.Mace, IJIT.Dagger, IJIT.Staff, IJIT.Cloth, IJIS.Ranged, IJIS.HeldInOffHand },
-    [IJC.Rogue] = { IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Dagger, IJIT.ThrownWeapon, IJIT.Bow, IJIT.Arrow, IJIT.FistWeapon, IJIT.Crossbow, IJIT.Gun, IJIT.Bullet, IJIT.Mace, IJIT.Sword, IJIT.Cloth, IJIT.Leather, IJIS.Ranged, IJIS.OffHand, IJIS.Projectile },
-    [IJC.Shaman] = { IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Mace, IJIT.Staff, IJIT.Shield, IJIT.Axe, IJIT.TwoHandedAxe, IJIT.TwoHandedMace, IJIT.Dagger, IJIT.Cloth, IJIT.Leather, IJIT.Mail, IJIT.Totem, IJIS.Relic, IJIS.OffHand, IJIS.HeldInOffHand },
-    [IJC.Warlock] = { IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Wand, IJIT.Staff, IJIT.Sword, IJIT.Dagger, IJIT.Cloth, IJIS.Ranged, IJIS.HeldInOffHand },
-    [IJC.Warrior] = { IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Bow, IJIT.Arrow, IJIT.Crossbow, IJIT.Dagger, IJIT.FistWeapon, IJIT.Gun, IJIT.Bullet, IJIT.Polearm, IJIT.Axe, IJIT.TwoHandedAxe, IJIT.Mace, IJIT.TwoHandedMace, IJIT.Sword, IJIT.TwoHandedSword, IJIT.Staff, IJIT.ThrownWeapon, IJIT.Cloth, IJIT.Leather, IJIT.Mail, IJIT.Plate, IJIT.Shield, IJIS.Ranged, IJIS.OffHand, IJIS.HeldInOffHand, IJIS.Projectile },
+    [IJC.Druid] = {
+        IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Dagger, IJIT.FistWeapon,
+        IJIT.Staff, IJIT.Mace, IJIT.TwoHandedMace, IJIT.Cloth, IJIT.Leather, IJIT.Polearm, IJIT.Idol, IJIS.Relic, IJIS.HeldInOffHand
+    },
+    [IJC.Hunter] = {
+        IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Bow, IJIT.Arrow, IJIT.Crossbow,
+        IJIT.Gun, IJIT.Bullet, IJIT.Axe, IJIT.TwoHandedAxe, IJIT.Dagger, IJIT.Staff, IJIT.Polearm, IJIT.Sword, IJIT.TwoHandedSword, IJIT.FistWeapon, IJIT.ThrownWeapon, IJIT.Cloth, IJIT.Leather, IJIT.Mail, IJIS.Ranged,
+        IJIS.OffHand, IJIS.Projectile
+    },
+    [IJC.Mage] = {
+        IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Wand, IJIT.Staff, IJIT.Dagger,
+        IJIT.Sword, IJIT.Cloth, IJIS.Ranged, IJIS.HeldInOffHand
+    },
+    [IJC.Paladin] = {
+        IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Mace, IJIT.TwoHandedMace,
+        IJIT.Shield, IJIT.Axe, IJIT.TwoHandedAxe, IJIT.Sword, IJIT.TwoHandedSword, IJIT.Polearm, IJIT.Cloth, IJIT.Leather, IJIT.Mail, IJIT.Plate, IJIT.Libram, IJIS.Relic, IJIS.HeldInOffHand
+    },
+    [IJC.Priest] = {
+        IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Wand, IJIT.Mace, IJIT.Dagger,
+        IJIT.Staff, IJIT.Cloth, IJIS.Ranged, IJIS.HeldInOffHand
+    },
+    [IJC.Rogue] = {
+        IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Dagger, IJIT.ThrownWeapon,
+        IJIT.Bow, IJIT.Arrow, IJIT.FistWeapon, IJIT.Crossbow, IJIT.Gun, IJIT.Bullet, IJIT.Mace, IJIT.Sword, IJIT.Cloth, IJIT.Leather, IJIS.Ranged, IJIS.OffHand, IJIS.Projectile
+    },
+    [IJC.Shaman] = {
+        IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Mace, IJIT.Staff, IJIT.Shield,
+        IJIT.Axe, IJIT.TwoHandedAxe, IJIT.TwoHandedMace, IJIT.Dagger, IJIT.Cloth, IJIT.Leather, IJIT.Mail, IJIT.Totem, IJIS.Relic, IJIS.OffHand, IJIS.HeldInOffHand
+    },
+    [IJC.Warlock] = {
+        IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Wand, IJIT.Staff, IJIT.Sword,
+        IJIT.Dagger, IJIT.Cloth, IJIS.Ranged, IJIS.HeldInOffHand
+    },
+    [IJC.Warrior] = {
+        IJIT.Alchemy, IJIT.Blacksmithing, IJIT.Cooking, IJIT.Enchanting, IJIT.Engineering, IJIT.FirstAid, IJIT.Jewelcrafting, IJIT.Leatherworking, IJIT.Tailoring, IJIT.FishingPole, IJIT.Bow, IJIT.Arrow, IJIT.Crossbow,
+        IJIT.Dagger, IJIT.FistWeapon, IJIT.Gun, IJIT.Bullet, IJIT.Polearm, IJIT.Axe, IJIT.TwoHandedAxe, IJIT.Mace, IJIT.TwoHandedMace, IJIT.Sword, IJIT.TwoHandedSword, IJIT.Staff, IJIT.ThrownWeapon, IJIT.Cloth,
+        IJIT.Leather, IJIT.Mail, IJIT.Plate, IJIT.Shield, IJIS.Ranged, IJIS.OffHand, IJIS.HeldInOffHand, IJIS.Projectile
+    }
 }
 
 IJLib.ClassColorLinks = {
@@ -490,7 +449,7 @@ IJLib.ClassColorLinks = {
     [IJC.Rogue] = IJCL.LightYellow,
     [IJC.Shaman] = IJCL.Blue,
     [IJC.Warlock] = IJCL.LightPurple,
-    [IJC.Warrior] = IJCL.Tan,
+    [IJC.Warrior] = IJCL.Tan
 }
 
 IJLib.NonMainSlotsLinks = {
@@ -507,7 +466,7 @@ IJLib.NonMainSlotsLinks = {
     [IJIS.Projectile] = true,
     [IJIS.AmmoPouch] = true,
     [IJIS.Quiver] = true,
-    [IJIS.Key] = true,
+    [IJIS.Key] = true
 }
 
 function IJLib:GetInstanceFromMapID(mapId)
@@ -612,6 +571,7 @@ function IJLib:IsItemRestrictedForSpecificClass(item, passedClassKey)
         for _, c in ipairs(item.ClassRestriction) do
             if c == classKey then
                 foundClass = true
+
                 break
             end
         end
@@ -782,13 +742,13 @@ function IJLib:Search(query)
 
         for _, inst in pairs(dbType) do
             if checkMatch(inst.Name) then
-                table.insert(results, { type = "Instance", name = inst.Name, instance = inst })
+                table.insert(results, {type = "Instance", name = inst.Name, instance = inst})
             end
 
             if inst.Bosses then
                 for _, boss in ipairs(inst.Bosses) do
                     if checkMatch(boss.Name) then
-                        table.insert(results, { type = "Boss", name = boss.Name, instance = inst, boss = boss })
+                        table.insert(results, {type = "Boss", name = boss.Name, instance = inst, boss = boss})
                     end
 
                     if boss.Loot then
@@ -796,8 +756,7 @@ function IJLib:Search(query)
                             local item = lootEntry[1]
 
                             if item and checkMatch(item.Name) then
-                                table.insert(results,
-                                    { type = "Item", name = item.Name, item = item, instance = inst, boss = boss })
+                                table.insert(results, {type = "Item", name = item.Name, item = item, instance = inst, boss = boss})
                             end
                         end
                     end
@@ -806,8 +765,7 @@ function IJLib:Search(query)
                         local function searchAbilities(abs)
                             for _, ab in ipairs(abs) do
                                 if checkMatch(ab.Name) or checkMatch(ab.Effect) then
-                                    table.insert(results,
-                                        { type = "Ability", name = ab.Name, ability = ab, instance = inst, boss = boss })
+                                    table.insert(results, {type = "Ability", name = ab.Name, ability = ab, instance = inst, boss = boss})
                                 end
 
                                 if ab.SubAbilities then
@@ -825,7 +783,7 @@ function IJLib:Search(query)
                 local function searchQuests(quests)
                     for _, q in ipairs(quests) do
                         if checkMatch(q.Name) then
-                            table.insert(results, { type = "Quest", name = q.Name, quest = q, instance = inst })
+                            table.insert(results, {type = "Quest", name = q.Name, quest = q, instance = inst})
                         end
 
                         if q.RequiredQuests then
@@ -842,13 +800,7 @@ function IJLib:Search(query)
     searchDB(IJDB.DG)
     searchDB(IJDB.R)
 
-    local sortOrder = {
-        Instance = 1,
-        Boss = 2,
-        Item = 3,
-        Quest = 4,
-        Ability = 5,
-    }
+    local sortOrder = {Instance = 1, Boss = 2, Item = 3, Quest = 4, Ability = 5}
 
     table.sort(results, function(a, b)
         if sortOrder[a.type] ~= sortOrder[b.type] then

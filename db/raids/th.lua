@@ -641,7 +641,7 @@ TH.Bosses = {
         }
     },
 }
-TH.Quests = { -- NOTE: Missing TWOW Quests
+TH.Quests = { -- NOTE: Missing Quests
 }
 
 IJDB.R.TH = TH
