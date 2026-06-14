@@ -21,14 +21,7 @@ CG.MapId = IMI.CrescentGrove
 CG.IconScale = 0.9
 CG.MinLevel = 33
 CG.MaxLevel = 39
-CG.Entrances = {
-    [1] = {
-        MapContinentId = IMI.Kalimdor,
-        MapZoneId = IZI.Ashenvale,
-        MapCoordinateX = 51.0,
-        MapCoordinateY = 77.3,
-    },
-}
+CG.Entrances = {[1] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Ashenvale, MapCoordinateX = 51.0, MapCoordinateY = 77.3}}
 CG.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "92107",
@@ -39,30 +32,12 @@ CG.Bosses = {
         MapCoordinateX = 52.1,
         MapCoordinateY = 36.7,
         Loot = {
-            [1] = {
-                IJDB.I[83220],
-                DropChance = 24,
-            },
-            [2] = {
-                IJDB.I[83221],
-                DropChance = 24,
-            },
-            [3] = {
-                IJDB.I[83222],
-                DropChance = 24,
-            },
-            [4] = {
-                IJDB.I[83223],
-                DropChance = 24,
-            },
-            [5] = {
-                IJDB.I[83224],
-                DropChance = 5,
-            },
-            [6] = {
-                IJDB.I[51217],
-                DropChance = 1,
-            },
+            [1] = {IJDB.I[83220], DropChance = 24},
+            [2] = {IJDB.I[83221], DropChance = 24},
+            [3] = {IJDB.I[83222], DropChance = 24},
+            [4] = {IJDB.I[83223], DropChance = 24},
+            [5] = {IJDB.I[83224], DropChance = 5},
+            [6] = {IJDB.I[51217], DropChance = 1}
         }
     },
     [2] = { -- NOTE: Missing abilities
@@ -74,30 +49,12 @@ CG.Bosses = {
         MapCoordinateX = 43.3,
         MapCoordinateY = 43.5,
         Loot = {
-            [1] = {
-                IJDB.I[83225],
-                DropChance = 24,
-            },
-            [2] = {
-                IJDB.I[83226],
-                DropChance = 24,
-            },
-            [3] = {
-                IJDB.I[83227],
-                DropChance = 24,
-            },
-            [4] = {
-                IJDB.I[83228],
-                DropChance = 24,
-            },
-            [5] = {
-                IJDB.I[83229],
-                DropChance = 5,
-            },
-            [6] = {
-                IJDB.I[51217],
-                DropChance = 1,
-            },
+            [1] = {IJDB.I[83225], DropChance = 24},
+            [2] = {IJDB.I[83226], DropChance = 24},
+            [3] = {IJDB.I[83227], DropChance = 24},
+            [4] = {IJDB.I[83228], DropChance = 24},
+            [5] = {IJDB.I[83229], DropChance = 5},
+            [6] = {IJDB.I[51217], DropChance = 1}
         }
     },
     [3] = { -- NOTE: Missing abilities
@@ -108,28 +65,7 @@ CG.Bosses = {
         Story = IJ_DB_DUNGEON_CG_BOSS_STORY_92108,
         MapCoordinateX = 57.6,
         MapCoordinateY = 68.1,
-        Loot = {
-            [1] = {
-                IJDB.I[51217],
-                DropChance = 1,
-            },
-            [2] = {
-                IJDB.I[83210],
-                DropChance = 10,
-            },
-            [3] = {
-                IJDB.I[83211],
-                DropChance = 30,
-            },
-            [4] = {
-                IJDB.I[83209],
-                DropChance = 30,
-            },
-            [5] = {
-                IJDB.I[83208],
-                DropChance = 30,
-            },
-        }
+        Loot = {[1] = {IJDB.I[51217], DropChance = 1}, [2] = {IJDB.I[83210], DropChance = 10}, [3] = {IJDB.I[83211], DropChance = 30}, [4] = {IJDB.I[83209], DropChance = 30}, [5] = {IJDB.I[83208], DropChance = 30}}
     },
     [4] = { -- NOTE: Missing abilities
         Id = "92111",
@@ -139,28 +75,7 @@ CG.Bosses = {
         Story = IJ_DB_DUNGEON_CG_BOSS_STORY_92111,
         MapCoordinateX = 44.0,
         MapCoordinateY = 78.9,
-        Loot = {
-            [1] = {
-                IJDB.I[83212],
-                DropChance = 25,
-            },
-            [2] = {
-                IJDB.I[83213],
-                DropChance = 25,
-            },
-            [3] = {
-                IJDB.I[83214],
-                DropChance = 25,
-            },
-            [4] = {
-                IJDB.I[83215],
-                DropChance = 25,
-            },
-            [5] = {
-                IJDB.I[51217],
-                DropChance = 1,
-            },
-        }
+        Loot = {[1] = {IJDB.I[83212], DropChance = 25}, [2] = {IJDB.I[83213], DropChance = 25}, [3] = {IJDB.I[83214], DropChance = 25}, [4] = {IJDB.I[83215], DropChance = 25}, [5] = {IJDB.I[51217], DropChance = 1}}
     },
     [5] = { -- NOTE: Missing abilities
         Id = "92110",
@@ -171,39 +86,15 @@ CG.Bosses = {
         MapCoordinateX = 60.3,
         MapCoordinateY = 88.6,
         Loot = {
-            [1] = {
-                IJDB.I[60258],
-                DropChance = 1,
-            },
-            [2] = {
-                IJDB.I[51217],
-                DropChance = 5,
-            },
-            [3] = {
-                IJDB.I[83219],
-                DropChance = 25,
-            },
-            [4] = {
-                IJDB.I[83218],
-                DropChance = 25,
-            },
-            [5] = {
-                IJDB.I[83217],
-                DropChance = 25,
-            },
-            [6] = {
-                IJDB.I[83216],
-                DropChance = 25,
-            },
+            [1] = {IJDB.I[60258], DropChance = 1},
+            [2] = {IJDB.I[51217], DropChance = 5},
+            [3] = {IJDB.I[83219], DropChance = 25},
+            [4] = {IJDB.I[83218], DropChance = 25},
+            [5] = {IJDB.I[83217], DropChance = 25},
+            [6] = {IJDB.I[83216], DropChance = 25}
         }
-    },
+    }
 }
-CG.Quests = {
-    IJDB.Q[40089],
-    IJDB.Q[40090],
-    IJDB.Q[40091],
-    IJDB.Q[40147],
-    IJDB.Q[40326],
-}
+CG.Quests = {IJDB.Q[40089], IJDB.Q[40090], IJDB.Q[40091], IJDB.Q[40147], IJDB.Q[40326]}
 
 IJDB.DG.CG = CG

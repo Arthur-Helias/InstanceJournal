@@ -22,15 +22,7 @@ NAXX.ZoneId = IZI.NAXX1
 NAXX.IconScale = 0.8
 NAXX.MinLevel = 60
 NAXX.MaxLevel = 60
-NAXX.Entrances = {
-    [1] = {
-        MapContinentId = IMI.EasternKingdoms,
-        MapZoneId = IZI.EasternPlaguelands,
-        MapCoordinateX = 41.0,
-        MapCoordinateY = 29.5,
-        MapDestinationZoneId = IZI.NAXX1,
-    },
-}
+NAXX.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.EasternPlaguelands, MapCoordinateX = 41.0, MapCoordinateY = 29.5, MapDestinationZoneId = IZI.NAXX1}}
 NAXX.Links = {
     [1] = {
         OriginMapContinentId = IMI.Naxxramas,
@@ -40,7 +32,7 @@ NAXX.Links = {
         DestinationMapContinentId = IMI.Naxxramas,
         DestinationMapZoneId = IZI.NAXX2,
         Type = IJLib.EntranceIconType.Up,
-        Name = IJ_DB_RAID_NAXX_LINK_NECROPOLIS,
+        Name = IJ_DB_RAID_NAXX_LINK_NECROPOLIS
     },
     [2] = {
         OriginMapContinentId = IMI.Naxxramas,
@@ -50,8 +42,8 @@ NAXX.Links = {
         DestinationMapContinentId = IMI.Naxxramas,
         DestinationMapZoneId = IZI.NAXX1,
         Type = IJLib.EntranceIconType.Down,
-        Name = IJ_DB_RAID_NAXX_LINK_NAXX,
-    },
+        Name = IJ_DB_RAID_NAXX_LINK_NAXX
+    }
 }
 NAXX.Bosses = {
     [1] = { -- NOTE: Missing abilities
@@ -64,43 +56,16 @@ NAXX.Bosses = {
         MapCoordinateY = 45.7,
         MapId = IZI.NAXX1,
         Loot = {
-            [1] = {
-                IJDB.I[22726],
-                DropChance = 30,
-            },
-            [2] = {
-                IJDB.I[22354],
-                DropChance = 33,
-            },
-            [3] = {
-                IJDB.I[22361],
-                DropChance = 33,
-            },
-            [4] = {
-                IJDB.I[22368],
-                DropChance = 33,
-            },
-            [5] = {
-                IJDB.I[22815],
-                DropChance = 20,
-            },
-            [6] = {
-                IJDB.I[22818],
-                DropChance = 20,
-            },
-            [7] = {
-                IJDB.I[22820],
-                DropChance = 20,
-            },
-            [8] = {
-                IJDB.I[22960],
-                DropChance = 20,
-            },
-            [9] = {
-                IJDB.I[22961],
-                DropChance = 20,
-            },
-        },
+            [1] = {IJDB.I[22726], DropChance = 30},
+            [2] = {IJDB.I[22354], DropChance = 33},
+            [3] = {IJDB.I[22361], DropChance = 33},
+            [4] = {IJDB.I[22368], DropChance = 33},
+            [5] = {IJDB.I[22815], DropChance = 20},
+            [6] = {IJDB.I[22818], DropChance = 20},
+            [7] = {IJDB.I[22820], DropChance = 20},
+            [8] = {IJDB.I[22960], DropChance = 20},
+            [9] = {IJDB.I[22961], DropChance = 20}
+        }
     },
     [2] = { -- NOTE: Missing abilities
         Id = "15931",
@@ -112,43 +77,16 @@ NAXX.Bosses = {
         MapCoordinateY = 29.6,
         MapId = IZI.NAXX1,
         Loot = {
-            [1] = {
-                IJDB.I[22726],
-                DropChance = 30,
-            },
-            [2] = {
-                IJDB.I[22354],
-                DropChance = 33,
-            },
-            [3] = {
-                IJDB.I[22361],
-                DropChance = 33,
-            },
-            [4] = {
-                IJDB.I[22368],
-                DropChance = 33,
-            },
-            [5] = {
-                IJDB.I[22803],
-                DropChance = 20,
-            },
-            [6] = {
-                IJDB.I[22810],
-                DropChance = 20,
-            },
-            [7] = {
-                IJDB.I[22967],
-                DropChance = 20,
-            },
-            [8] = {
-                IJDB.I[22968],
-                DropChance = 20,
-            },
-            [9] = {
-                IJDB.I[22988],
-                DropChance = 20,
-            },
-        },
+            [1] = {IJDB.I[22726], DropChance = 30},
+            [2] = {IJDB.I[22354], DropChance = 33},
+            [3] = {IJDB.I[22361], DropChance = 33},
+            [4] = {IJDB.I[22368], DropChance = 33},
+            [5] = {IJDB.I[22803], DropChance = 20},
+            [6] = {IJDB.I[22810], DropChance = 20},
+            [7] = {IJDB.I[22967], DropChance = 20},
+            [8] = {IJDB.I[22968], DropChance = 20},
+            [9] = {IJDB.I[22988], DropChance = 20}
+        }
     },
     [3] = { -- NOTE: Missing abilities
         Id = "15932",
@@ -160,79 +98,25 @@ NAXX.Bosses = {
         MapCoordinateY = 27.0,
         MapId = IZI.NAXX1,
         Loot = {
-            [1] = {
-                IJDB.I[22726],
-                DropChance = 30,
-            },
-            [2] = {
-                IJDB.I[22354],
-                DropChance = 8,
-            },
-            [3] = {
-                IJDB.I[22355],
-                DropChance = 8,
-            },
-            [4] = {
-                IJDB.I[22356],
-                DropChance = 8,
-            },
-            [5] = {
-                IJDB.I[22358],
-                DropChance = 8,
-            },
-            [6] = {
-                IJDB.I[22361],
-                DropChance = 8,
-            },
-            [7] = {
-                IJDB.I[22362],
-                DropChance = 8,
-            },
-            [8] = {
-                IJDB.I[22363],
-                DropChance = 8,
-            },
-            [9] = {
-                IJDB.I[22365],
-                DropChance = 8,
-            },
-            [10] = {
-                IJDB.I[22368],
-                DropChance = 8,
-            },
-            [11] = {
-                IJDB.I[22369],
-                DropChance = 8,
-            },
-            [12] = {
-                IJDB.I[22370],
-                DropChance = 8,
-            },
-            [13] = {
-                IJDB.I[22372],
-                DropChance = 8,
-            },
-            [14] = {
-                IJDB.I[22813],
-                DropChance = 20,
-            },
-            [15] = {
-                IJDB.I[22981],
-                DropChance = 20,
-            },
-            [16] = {
-                IJDB.I[22983],
-                DropChance = 20,
-            },
-            [17] = {
-                IJDB.I[22994],
-                DropChance = 20,
-            },
-            [18] = {
-                IJDB.I[23075],
-                DropChance = 20,
-            },
-        },
+            [1] = {IJDB.I[22726], DropChance = 30},
+            [2] = {IJDB.I[22354], DropChance = 8},
+            [3] = {IJDB.I[22355], DropChance = 8},
+            [4] = {IJDB.I[22356], DropChance = 8},
+            [5] = {IJDB.I[22358], DropChance = 8},
+            [6] = {IJDB.I[22361], DropChance = 8},
+            [7] = {IJDB.I[22362], DropChance = 8},
+            [8] = {IJDB.I[22363], DropChance = 8},
+            [9] = {IJDB.I[22365], DropChance = 8},
+            [10] = {IJDB.I[22368], DropChance = 8},
+            [11] = {IJDB.I[22369], DropChance = 8},
+            [12] = {IJDB.I[22370], DropChance = 8},
+            [13] = {IJDB.I[22372], DropChance = 8},
+            [14] = {IJDB.I[22813], DropChance = 20},
+            [15] = {IJDB.I[22981], DropChance = 20},
+            [16] = {IJDB.I[22983], DropChance = 20},
+            [17] = {IJDB.I[22994], DropChance = 20},
+            [18] = {IJDB.I[23075], DropChance = 20}
+        }
     },
     [4] = { -- NOTE: Missing abilities
         Id = "15928",
@@ -244,39 +128,15 @@ NAXX.Bosses = {
         MapCoordinateY = 13.3,
         MapId = IZI.NAXX1,
         Loot = {
-            [1] = {
-                IJDB.I[22353],
-                DropChance = 33,
-            },
-            [2] = {
-                IJDB.I[22360],
-                DropChance = 33,
-            },
-            [3] = {
-                IJDB.I[22367],
-                DropChance = 33,
-            },
-            [4] = {
-                IJDB.I[22801],
-                DropChance = 20,
-            },
-            [5] = {
-                IJDB.I[22808],
-                DropChance = 20,
-            },
-            [6] = {
-                IJDB.I[23000],
-                DropChance = 20,
-            },
-            [7] = {
-                IJDB.I[23001],
-                DropChance = 20,
-            },
-            [8] = {
-                IJDB.I[23070],
-                DropChance = 20,
-            },
-        },
+            [1] = {IJDB.I[22353], DropChance = 33},
+            [2] = {IJDB.I[22360], DropChance = 33},
+            [3] = {IJDB.I[22367], DropChance = 33},
+            [4] = {IJDB.I[22801], DropChance = 20},
+            [5] = {IJDB.I[22808], DropChance = 20},
+            [6] = {IJDB.I[23000], DropChance = 20},
+            [7] = {IJDB.I[23001], DropChance = 20},
+            [8] = {IJDB.I[23070], DropChance = 20}
+        }
     },
     [5] = { -- NOTE: Missing abilities
         Id = "15956",
@@ -288,47 +148,17 @@ NAXX.Bosses = {
         MapCoordinateY = 29.0,
         MapId = IZI.NAXX1,
         Loot = {
-            [1] = {
-                IJDB.I[22726],
-                DropChance = 30,
-            },
-            [2] = {
-                IJDB.I[22355],
-                DropChance = 33,
-            },
-            [3] = {
-                IJDB.I[22362],
-                DropChance = 33,
-            },
-            [4] = {
-                IJDB.I[22369],
-                DropChance = 33,
-            },
-            [5] = {
-                IJDB.I[22935],
-                DropChance = 20,
-            },
-            [6] = {
-                IJDB.I[22936],
-                DropChance = 20,
-            },
-            [7] = {
-                IJDB.I[22937],
-                DropChance = 20,
-            },
-            [8] = {
-                IJDB.I[22938],
-                DropChance = 20,
-            },
-            [9] = {
-                IJDB.I[22939],
-                DropChance = 20,
-            },
-            [10] = {
-                IJDB.I[42167],
-                DropChance = 20,
-            },
-        },
+            [1] = {IJDB.I[22726], DropChance = 30},
+            [2] = {IJDB.I[22355], DropChance = 33},
+            [3] = {IJDB.I[22362], DropChance = 33},
+            [4] = {IJDB.I[22369], DropChance = 33},
+            [5] = {IJDB.I[22935], DropChance = 20},
+            [6] = {IJDB.I[22936], DropChance = 20},
+            [7] = {IJDB.I[22937], DropChance = 20},
+            [8] = {IJDB.I[22938], DropChance = 20},
+            [9] = {IJDB.I[22939], DropChance = 20},
+            [10] = {IJDB.I[42167], DropChance = 20}
+        }
     },
     [6] = { -- NOTE: Missing abilities
         Id = "15953",
@@ -340,43 +170,16 @@ NAXX.Bosses = {
         MapCoordinateY = 23.2,
         MapId = IZI.NAXX1,
         Loot = {
-            [1] = {
-                IJDB.I[22726],
-                DropChance = 30,
-            },
-            [2] = {
-                IJDB.I[22355],
-                DropChance = 33,
-            },
-            [3] = {
-                IJDB.I[22362],
-                DropChance = 33,
-            },
-            [4] = {
-                IJDB.I[22369],
-                DropChance = 33,
-            },
-            [5] = {
-                IJDB.I[22806],
-                DropChance = 20,
-            },
-            [6] = {
-                IJDB.I[22940],
-                DropChance = 20,
-            },
-            [7] = {
-                IJDB.I[22941],
-                DropChance = 20,
-            },
-            [8] = {
-                IJDB.I[22942],
-                DropChance = 20,
-            },
-            [9] = {
-                IJDB.I[22943],
-                DropChance = 20,
-            },
-        },
+            [1] = {IJDB.I[22726], DropChance = 30},
+            [2] = {IJDB.I[22355], DropChance = 33},
+            [3] = {IJDB.I[22362], DropChance = 33},
+            [4] = {IJDB.I[22369], DropChance = 33},
+            [5] = {IJDB.I[22806], DropChance = 20},
+            [6] = {IJDB.I[22940], DropChance = 20},
+            [7] = {IJDB.I[22941], DropChance = 20},
+            [8] = {IJDB.I[22942], DropChance = 20},
+            [9] = {IJDB.I[22943], DropChance = 20}
+        }
     },
     [7] = { -- NOTE: Missing abilities
         Id = "15952",
@@ -388,47 +191,17 @@ NAXX.Bosses = {
         MapCoordinateY = 11.9,
         MapId = IZI.NAXX1,
         Loot = {
-            [1] = {
-                IJDB.I[22726],
-                DropChance = 30,
-            },
-            [2] = {
-                IJDB.I[22357],
-                DropChance = 33,
-            },
-            [3] = {
-                IJDB.I[22364],
-                DropChance = 33,
-            },
-            [4] = {
-                IJDB.I[22371],
-                DropChance = 33,
-            },
-            [5] = {
-                IJDB.I[22804],
-                DropChance = 20,
-            },
-            [6] = {
-                IJDB.I[22807],
-                DropChance = 20,
-            },
-            [7] = {
-                IJDB.I[22947],
-                DropChance = 20,
-            },
-            [8] = {
-                IJDB.I[22954],
-                DropChance = 20,
-            },
-            [9] = {
-                IJDB.I[23220],
-                DropChance = 20,
-            },
-            [10] = {
-                IJDB.I[37012],
-                DropChance = 30,
-            },
-        },
+            [1] = {IJDB.I[22726], DropChance = 30},
+            [2] = {IJDB.I[22357], DropChance = 33},
+            [3] = {IJDB.I[22364], DropChance = 33},
+            [4] = {IJDB.I[22371], DropChance = 33},
+            [5] = {IJDB.I[22804], DropChance = 20},
+            [6] = {IJDB.I[22807], DropChance = 20},
+            [7] = {IJDB.I[22947], DropChance = 20},
+            [8] = {IJDB.I[22954], DropChance = 20},
+            [9] = {IJDB.I[23220], DropChance = 20},
+            [10] = {IJDB.I[37012], DropChance = 30}
+        }
     },
     [8] = { -- NOTE: Missing abilities
         Id = "15954",
@@ -440,51 +213,18 @@ NAXX.Bosses = {
         MapCoordinateY = 73.3,
         MapId = IZI.NAXX1,
         Loot = {
-            [1] = {
-                IJDB.I[22726],
-                DropChance = 30,
-            },
-            [2] = {
-                IJDB.I[22356],
-                DropChance = 33,
-            },
-            [3] = {
-                IJDB.I[22363],
-                DropChance = 33,
-            },
-            [4] = {
-                IJDB.I[22370],
-                DropChance = 33,
-            },
-            [5] = {
-                IJDB.I[22816],
-                DropChance = 14,
-            },
-            [6] = {
-                IJDB.I[23005],
-                DropChance = 14,
-            },
-            [7] = {
-                IJDB.I[23006],
-                DropChance = 14,
-            },
-            [8] = {
-                IJDB.I[23028],
-                DropChance = 14,
-            },
-            [9] = {
-                IJDB.I[23029],
-                DropChance = 14,
-            },
-            [10] = {
-                IJDB.I[23030],
-                DropChance = 14,
-            },
-            [11] = {
-                IJDB.I[23031],
-                DropChance = 14,
-            },
-        },
+            [1] = {IJDB.I[22726], DropChance = 30},
+            [2] = {IJDB.I[22356], DropChance = 33},
+            [3] = {IJDB.I[22363], DropChance = 33},
+            [4] = {IJDB.I[22370], DropChance = 33},
+            [5] = {IJDB.I[22816], DropChance = 14},
+            [6] = {IJDB.I[23005], DropChance = 14},
+            [7] = {IJDB.I[23006], DropChance = 14},
+            [8] = {IJDB.I[23028], DropChance = 14},
+            [9] = {IJDB.I[23029], DropChance = 14},
+            [10] = {IJDB.I[23030], DropChance = 14},
+            [11] = {IJDB.I[23031], DropChance = 14}
+        }
     },
     [9] = { -- NOTE: Missing abilities
         Id = "15936",
@@ -496,43 +236,16 @@ NAXX.Bosses = {
         MapCoordinateY = 67.0,
         MapId = IZI.NAXX1,
         Loot = {
-            [1] = {
-                IJDB.I[22726],
-                DropChance = 30,
-            },
-            [2] = {
-                IJDB.I[22356],
-                DropChance = 33,
-            },
-            [3] = {
-                IJDB.I[22363],
-                DropChance = 33,
-            },
-            [4] = {
-                IJDB.I[22370],
-                DropChance = 33,
-            },
-            [5] = {
-                IJDB.I[23019],
-                DropChance = 20,
-            },
-            [6] = {
-                IJDB.I[23033],
-                DropChance = 20,
-            },
-            [7] = {
-                IJDB.I[23035],
-                DropChance = 20,
-            },
-            [8] = {
-                IJDB.I[23036],
-                DropChance = 20,
-            },
-            [9] = {
-                IJDB.I[23068],
-                DropChance = 20,
-            },
-        },
+            [1] = {IJDB.I[22726], DropChance = 30},
+            [2] = {IJDB.I[22356], DropChance = 33},
+            [3] = {IJDB.I[22363], DropChance = 33},
+            [4] = {IJDB.I[22370], DropChance = 33},
+            [5] = {IJDB.I[23019], DropChance = 20},
+            [6] = {IJDB.I[23033], DropChance = 20},
+            [7] = {IJDB.I[23035], DropChance = 20},
+            [8] = {IJDB.I[23036], DropChance = 20},
+            [9] = {IJDB.I[23068], DropChance = 20}
+        }
     },
     [10] = { -- NOTE: Missing abilities
         Id = "16011",
@@ -544,43 +257,16 @@ NAXX.Bosses = {
         MapCoordinateY = 56.4,
         MapId = IZI.NAXX1,
         Loot = {
-            [1] = {
-                IJDB.I[22726],
-                DropChance = 30,
-            },
-            [2] = {
-                IJDB.I[22352],
-                DropChance = 33,
-            },
-            [3] = {
-                IJDB.I[22359],
-                DropChance = 33,
-            },
-            [4] = {
-                IJDB.I[22366],
-                DropChance = 33,
-            },
-            [5] = {
-                IJDB.I[22800],
-                DropChance = 20,
-            },
-            [6] = {
-                IJDB.I[23037],
-                DropChance = 20,
-            },
-            [7] = {
-                IJDB.I[23038],
-                DropChance = 20,
-            },
-            [8] = {
-                IJDB.I[23039],
-                DropChance = 20,
-            },
-            [9] = {
-                IJDB.I[23042],
-                DropChance = 20,
-            },
-        },
+            [1] = {IJDB.I[22726], DropChance = 30},
+            [2] = {IJDB.I[22352], DropChance = 33},
+            [3] = {IJDB.I[22359], DropChance = 33},
+            [4] = {IJDB.I[22366], DropChance = 33},
+            [5] = {IJDB.I[22800], DropChance = 20},
+            [6] = {IJDB.I[23037], DropChance = 20},
+            [7] = {IJDB.I[23038], DropChance = 20},
+            [8] = {IJDB.I[23039], DropChance = 20},
+            [9] = {IJDB.I[23042], DropChance = 20}
+        }
     },
     [11] = { -- NOTE: Missing abilities
         Id = "16061",
@@ -592,47 +278,17 @@ NAXX.Bosses = {
         MapCoordinateY = 66.9,
         MapId = IZI.NAXX1,
         Loot = {
-            [1] = {
-                IJDB.I[22726],
-                DropChance = 30,
-            },
-            [2] = {
-                IJDB.I[22358],
-                DropChance = 33,
-            },
-            [3] = {
-                IJDB.I[22365],
-                DropChance = 33,
-            },
-            [4] = {
-                IJDB.I[22372],
-                DropChance = 33,
-            },
-            [5] = {
-                IJDB.I[23004],
-                DropChance = 17,
-            },
-            [6] = {
-                IJDB.I[23009],
-                DropChance = 17,
-            },
-            [7] = {
-                IJDB.I[23014],
-                DropChance = 17,
-            },
-            [8] = {
-                IJDB.I[23017],
-                DropChance = 17,
-            },
-            [9] = {
-                IJDB.I[23018],
-                DropChance = 17,
-            },
-            [10] = {
-                IJDB.I[23219],
-                DropChance = 17,
-            },
-        },
+            [1] = {IJDB.I[22726], DropChance = 30},
+            [2] = {IJDB.I[22358], DropChance = 33},
+            [3] = {IJDB.I[22365], DropChance = 33},
+            [4] = {IJDB.I[22372], DropChance = 33},
+            [5] = {IJDB.I[23004], DropChance = 17},
+            [6] = {IJDB.I[23009], DropChance = 17},
+            [7] = {IJDB.I[23014], DropChance = 17},
+            [8] = {IJDB.I[23017], DropChance = 17},
+            [9] = {IJDB.I[23018], DropChance = 17},
+            [10] = {IJDB.I[23219], DropChance = 17}
+        }
     },
     [12] = { -- NOTE: Missing abilities
         Id = "16060",
@@ -644,43 +300,16 @@ NAXX.Bosses = {
         MapCoordinateY = 72.3,
         MapId = IZI.NAXX1,
         Loot = {
-            [1] = {
-                IJDB.I[22726],
-                DropChance = 30,
-            },
-            [2] = {
-                IJDB.I[22358],
-                DropChance = 33,
-            },
-            [3] = {
-                IJDB.I[22365],
-                DropChance = 33,
-            },
-            [4] = {
-                IJDB.I[22372],
-                DropChance = 33,
-            },
-            [5] = {
-                IJDB.I[23020],
-                DropChance = 20,
-            },
-            [6] = {
-                IJDB.I[23021],
-                DropChance = 20,
-            },
-            [7] = {
-                IJDB.I[23023],
-                DropChance = 20,
-            },
-            [8] = {
-                IJDB.I[23032],
-                DropChance = 20,
-            },
-            [9] = {
-                IJDB.I[23073],
-                DropChance = 20,
-            },
-        },
+            [1] = {IJDB.I[22726], DropChance = 30},
+            [2] = {IJDB.I[22358], DropChance = 33},
+            [3] = {IJDB.I[22365], DropChance = 33},
+            [4] = {IJDB.I[22372], DropChance = 33},
+            [5] = {IJDB.I[23020], DropChance = 20},
+            [6] = {IJDB.I[23021], DropChance = 20},
+            [7] = {IJDB.I[23023], DropChance = 20},
+            [8] = {IJDB.I[23032], DropChance = 20},
+            [9] = {IJDB.I[23073], DropChance = 20}
+        }
     },
     [13] = { -- NOTE: Missing abilities
         Id = "16065",
@@ -692,47 +321,17 @@ NAXX.Bosses = {
         MapCoordinateY = 85.8,
         MapId = IZI.NAXX1,
         Loot = {
-            [1] = {
-                IJDB.I[22349],
-                DropChance = 33,
-            },
-            [2] = {
-                IJDB.I[22350],
-                DropChance = 33,
-            },
-            [3] = {
-                IJDB.I[22351],
-                DropChance = 33,
-            },
-            [4] = {
-                IJDB.I[22726],
-                DropChance = 30,
-            },
-            [5] = {
-                IJDB.I[22691],
-                DropChance = 0,
-            },
-            [6] = {
-                IJDB.I[22809],
-                DropChance = 0,
-            },
-            [7] = {
-                IJDB.I[22811],
-                DropChance = 0,
-            },
-            [8] = {
-                IJDB.I[23025],
-                DropChance = 0,
-            },
-            [9] = {
-                IJDB.I[23027],
-                DropChance = 0,
-            },
-            [10] = {
-                IJDB.I[23071],
-                DropChance = 0,
-            },
-        },
+            [1] = {IJDB.I[22349], DropChance = 33},
+            [2] = {IJDB.I[22350], DropChance = 33},
+            [3] = {IJDB.I[22351], DropChance = 33},
+            [4] = {IJDB.I[22726], DropChance = 30},
+            [5] = {IJDB.I[22691], DropChance = 0},
+            [6] = {IJDB.I[22809], DropChance = 0},
+            [7] = {IJDB.I[22811], DropChance = 0},
+            [8] = {IJDB.I[23025], DropChance = 0},
+            [9] = {IJDB.I[23027], DropChance = 0},
+            [10] = {IJDB.I[23071], DropChance = 0}
+        }
     },
     [14] = { -- NOTE: Missing abilities
         Id = "15989",
@@ -744,63 +343,21 @@ NAXX.Bosses = {
         MapCoordinateY = 67.2,
         MapId = IZI.NAXX2,
         Loot = {
-            [1] = {
-                IJDB.I[23040],
-                DropChance = 10,
-            },
-            [2] = {
-                IJDB.I[23041],
-                DropChance = 10,
-            },
-            [3] = {
-                IJDB.I[23043],
-                DropChance = 10,
-            },
-            [4] = {
-                IJDB.I[23045],
-                DropChance = 10,
-            },
-            [5] = {
-                IJDB.I[23046],
-                DropChance = 10,
-            },
-            [6] = {
-                IJDB.I[23047],
-                DropChance = 10,
-            },
-            [7] = {
-                IJDB.I[23048],
-                DropChance = 10,
-            },
-            [8] = {
-                IJDB.I[23049],
-                DropChance = 10,
-            },
-            [9] = {
-                IJDB.I[23050],
-                DropChance = 10,
-            },
-            [10] = {
-                IJDB.I[23242],
-                DropChance = 10,
-            },
-            [11] = {
-                IJDB.I[23545],
-                DropChance = 50,
-            },
-            [12] = {
-                IJDB.I[23547],
-                DropChance = 50,
-            },
-            [13] = {
-                IJDB.I[23548],
-                DropChance = 50,
-            },
-            [14] = {
-                IJDB.I[23549],
-                DropChance = 50,
-            },
-        },
+            [1] = {IJDB.I[23040], DropChance = 10},
+            [2] = {IJDB.I[23041], DropChance = 10},
+            [3] = {IJDB.I[23043], DropChance = 10},
+            [4] = {IJDB.I[23045], DropChance = 10},
+            [5] = {IJDB.I[23046], DropChance = 10},
+            [6] = {IJDB.I[23047], DropChance = 10},
+            [7] = {IJDB.I[23048], DropChance = 10},
+            [8] = {IJDB.I[23049], DropChance = 10},
+            [9] = {IJDB.I[23050], DropChance = 10},
+            [10] = {IJDB.I[23242], DropChance = 10},
+            [11] = {IJDB.I[23545], DropChance = 50},
+            [12] = {IJDB.I[23547], DropChance = 50},
+            [13] = {IJDB.I[23548], DropChance = 50},
+            [14] = {IJDB.I[23549], DropChance = 50}
+        }
     },
     [15] = { -- NOTE: Missing abilities
         Id = "15990",
@@ -812,83 +369,26 @@ NAXX.Bosses = {
         MapCoordinateY = 22.6,
         MapId = IZI.NAXX2,
         Loot = {
-            [1] = {
-                IJDB.I[22520],
-                DropChance = 100,
-            },
-            [2] = {
-                IJDB.I[22798],
-                DropChance = 9,
-            },
-            [3] = {
-                IJDB.I[22799],
-                DropChance = 9,
-            },
-            [4] = {
-                IJDB.I[22802],
-                DropChance = 9,
-            },
-            [5] = {
-                IJDB.I[22812],
-                DropChance = 9,
-            },
-            [6] = {
-                IJDB.I[22819],
-                DropChance = 9,
-            },
-            [7] = {
-                IJDB.I[22821],
-                DropChance = 9,
-            },
-            [8] = {
-                IJDB.I[23053],
-                DropChance = 9,
-            },
-            [9] = {
-                IJDB.I[23054],
-                DropChance = 9,
-            },
-            [10] = {
-                IJDB.I[23056],
-                DropChance = 9,
-            },
-            [11] = {
-                IJDB.I[23057],
-                DropChance = 9,
-            },
-            [12] = {
-                IJDB.I[23577],
-                DropChance = 9,
-            },
-            [13] = {
-                IJDB.I[55581],
-                DropChance = 33,
-            },
-            [14] = {
-                IJDB.I[55582],
-                DropChance = 33,
-            },
-            [15] = {
-                IJDB.I[55583],
-                DropChance = 33,
-            },
-            [16] = {
-                IJDB.I[36666],
-                DropChance = 1,
-            },
-            [17] = {
-                IJDB.I[81283],
-                DropChance = 100,
-            },
-        },
-    },
+            [1] = {IJDB.I[22520], DropChance = 100},
+            [2] = {IJDB.I[22798], DropChance = 9},
+            [3] = {IJDB.I[22799], DropChance = 9},
+            [4] = {IJDB.I[22802], DropChance = 9},
+            [5] = {IJDB.I[22812], DropChance = 9},
+            [6] = {IJDB.I[22819], DropChance = 9},
+            [7] = {IJDB.I[22821], DropChance = 9},
+            [8] = {IJDB.I[23053], DropChance = 9},
+            [9] = {IJDB.I[23054], DropChance = 9},
+            [10] = {IJDB.I[23056], DropChance = 9},
+            [11] = {IJDB.I[23057], DropChance = 9},
+            [12] = {IJDB.I[23577], DropChance = 9},
+            [13] = {IJDB.I[55581], DropChance = 33},
+            [14] = {IJDB.I[55582], DropChance = 33},
+            [15] = {IJDB.I[55583], DropChance = 33},
+            [16] = {IJDB.I[36666], DropChance = 1},
+            [17] = {IJDB.I[81283], DropChance = 100}
+        }
+    }
 }
-NAXX.Quests = {
-    IJDB.Q[9120],
-    IJDB.Q[9232],
-    IJDB.Q[9033],
-    IJDB.Q[9229],
-    IJDB.Q[9230],
-}
+NAXX.Quests = {IJDB.Q[9120], IJDB.Q[9232], IJDB.Q[9033], IJDB.Q[9229], IJDB.Q[9230]}
 
 IJDB.R.NAXX = NAXX

@@ -683,7 +683,7 @@ local function IJ_PingMapCoordinates(x, y, pingType, mapContinent, mapZone, targ
             end
 
         elseif this.phase == "blink" then
-            local pulse = 1.0 + 0.45 * math.sin(this.phaseTimer * math.pi * 5)
+            local pulse = 1.0 + 0.65 * math.sin(this.phaseTimer * math.pi * 5)
             local newSize = BASE_SIZE * pulse
 
             this:SetWidth(newSize)

@@ -1,7 +1,6 @@
 IJ_ShowRaids = false
 IJ_ActiveInfoTab = 1
 IJ_IsInstanceTabActive = true
-IJ_FilterClass = "ALL"
 IJ_FilterSlot = "ALL"
 IJ_FilterContinent_Dungeon = "ALL"
 IJ_FilterContinent_Raid = "ALL"
@@ -161,32 +160,6 @@ function IJ_InstanceJournalFrame_OnLoad()
     UIDropDownMenu_SetWidth(110, classDD)
     UIDropDownMenu_Initialize(classDD, IJ_ClassFilterDropDown_Initialize)
 
-    local _, classToken = UnitClass("player")
-    local initialClassVal = "ALL"
-
-    for classVal, unlocToken in pairs(IJLib.ClassUnlocalizedLinks) do
-        if unlocToken == classToken then
-            initialClassVal = classVal
-
-            break
-        end
-    end
-
-    local initialText = initialClassVal
-
-    if initialClassVal == "ALL" then
-        initialText = IJ_GUI_ALLCLASSES
-    else
-        local color = IJLib.ClassColorLinks[initialClassVal]
-
-        if color and color.Hex then
-            initialText = color.Hex .. initialClassVal .. "|r"
-        end
-    end
-
-    IJ_FilterClass = initialClassVal
-    UIDropDownMenu_SetSelectedValue(classDD, initialClassVal)
-    UIDropDownMenu_SetText(initialText, classDD)
     classDD:Hide()
 
     local instSelectHeader = IJ_InstanceSelectPanel:CreateFontString("IJ_InstanceSelectHeader", "OVERLAY", "IJ_QuestTitleFontLarge")
@@ -500,6 +473,33 @@ function IJ_InstanceJournalFrame_OnEvent(event)
                 this:SetScript("OnUpdate", nil)
             end
         end)
+
+        if not IJ_FilterClass then
+            local _, classToken = UnitClass("player")
+
+            for classVal, unlocToken in pairs(IJLib.ClassUnlocalizedLinks) do
+                if unlocToken == classToken then
+                    IJ_FilterClass = classVal
+
+                    break
+                end
+            end
+        end
+
+        local filterText
+
+        if IJ_FilterClass == "ALL" then
+            filterText = IJ_GUI_ALLCLASSES
+        else
+            local color = IJLib.ClassColorLinks[IJ_FilterClass]
+
+            if color and color.Hex then
+                filterText = color.Hex .. IJ_FilterClass .. "|r"
+            end
+        end
+
+        UIDropDownMenu_SetSelectedValue(IJ_ClassFilterDropDown, IJ_FilterClass)
+        UIDropDownMenu_SetText(filterText, IJ_ClassFilterDropDown)
     elseif event == "PLAYER_ENTERING_WORLD" then
         if not IJ_FirstTimeBindingDone then
             if not GetBindingKey("TOGGLEJOURNAL") then

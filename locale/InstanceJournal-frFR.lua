@@ -1,6 +1,5 @@
 -- /!\ TEMPORARY LLM FRENCH TRANSLATION /!\
 -- FEEL FREE TO EDIT AND MAKE A PR IF YOU NOTICE ANY ISSUES
-
 if GetLocale() == "frFR" then
     IJ_ZoneId_frFR = {
         None = 0,

@@ -1,6 +1,5 @@
 -- /!\ Sunelegy supplemented and corrected the zhCN data. /!\
 -- FEEL FREE TO EDIT AND MAKE A PR IF YOU NOTICE ANY ISSUES
-
 if GetLocale() == "zhCN" then
     -- Story elements such as quests, quotes, dialogues, and book excerpts were used as reference to help generate some of the stories for specific boss encounters.
     -- If any information is inaccurate, please make a PR with the corrected information.

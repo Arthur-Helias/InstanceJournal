@@ -22,15 +22,7 @@ SMARM.ZoneId = IZI.SMArm
 SMARM.IconScale = 1.0
 SMARM.MinLevel = 34
 SMARM.MaxLevel = 42
-SMARM.Entrances = {
-    [1] = {
-        MapContinentId = IMI.EasternKingdoms,
-        MapZoneId = IZI.ScarletMonastery,
-        MapCoordinateX = 84.1,
-        MapCoordinateY = 44.2,
-        MapDestinationZoneId = IZI.SMArm
-    },
-}
+SMARM.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.ScarletMonastery, MapCoordinateX = 84.1, MapCoordinateY = 44.2, MapDestinationZoneId = IZI.SMArm}}
 SMARM.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "61982",
@@ -41,24 +33,7 @@ SMARM.Bosses = {
         MapCoordinateX = 57.4,
         MapCoordinateY = 38.5,
         MapId = IZI.SMArm,
-        Loot = {
-            [1] = {
-                IJDB.I[55474],
-                DropChance = 25,
-            },
-            [2] = {
-                IJDB.I[55475],
-                DropChance = 25,
-            },
-            [3] = {
-                IJDB.I[55476],
-                DropChance = 25,
-            },
-            [4] = {
-                IJDB.I[55477],
-                DropChance = 25,
-            },
-        }
+        Loot = {[1] = {IJDB.I[55474], DropChance = 25}, [2] = {IJDB.I[55475], DropChance = 25}, [3] = {IJDB.I[55476], DropChance = 25}, [4] = {IJDB.I[55477], DropChance = 25}}
     },
     [2] = { -- NOTE: Missing abilities
         Id = "3975",
@@ -69,35 +44,9 @@ SMARM.Bosses = {
         MapCoordinateX = 78.7,
         MapCoordinateY = IZI.SMArm,
         MapId = "1",
-        Loot = {
-            [1] = {
-                IJDB.I[7717],
-                DropChance = 25,
-            },
-            [2] = {
-                IJDB.I[7718],
-                DropChance = 25,
-            },
-            [3] = {
-                IJDB.I[7719],
-                DropChance = 25,
-            },
-            [4] = {
-                IJDB.I[10330],
-                DropChance = 25,
-            },
-            [5] = {
-                IJDB.I[51217],
-                DropChance = 1,
-            },
-        }
-    },
+        Loot = {[1] = {IJDB.I[7717], DropChance = 25}, [2] = {IJDB.I[7718], DropChance = 25}, [3] = {IJDB.I[7719], DropChance = 25}, [4] = {IJDB.I[10330], DropChance = 25}, [5] = {IJDB.I[51217], DropChance = 1}}
+    }
 }
-SMARM.Quests = {
-    IJDB.Q[1053],
-    IJDB.Q[1113],
-    IJDB.Q[1048],
-    IJDB.Q[41368],
-}
+SMARM.Quests = {IJDB.Q[1053], IJDB.Q[1113], IJDB.Q[1048], IJDB.Q[41368]}
 
 IJDB.DG.SMARM = SMARM

@@ -7,11 +7,9 @@ You can access the journal by pressing Shift+J by default, or by rebinding the k
 
 - Lists all dungeons and raids, including custom Turtle WoW content
 - Details every boss's abilities and loot
-- Displays all available quests for an instance, including their pre-quests requirement
+- Displays all available quests for an instance, including their pre-quest requirements
 - Allows linking abilities, loot, and quests in the chat
 - Provides a search bar for quickly finding any item, ability, instance, or boss
-
-
 - Marks instance entrances and boss locations on the world map; click any boss to open their encounter in the journal
 - Improves the overall world map experience
 - Localized in enUS, deDE, esES, frFR, ptBR, ruRU, and zhCN
@@ -41,7 +39,7 @@ You can access the journal by pressing Shift+J by default, or by rebinding the k
 2. Click the `Add new addon` button and paste the following URL into the field: `https://github.com/Arthur-Helias/InstanceJournal.git`.
 3. Enable the addon from the addons menu on the character selection screen.
 
-### Manual installation
+### Manual Installation
   
 1. Download the [latest version](https://github.com/Arthur-Helias/InstanceJournal/archive/refs/heads/master.zip) of the addon.
 2. Extract the archive.
@@ -51,18 +49,27 @@ You can access the journal by pressing Shift+J by default, or by rebinding the k
 
 ## Compatibility
 
-This addon was designed and tested for Turtle WoW.
-This addon is incompatible with the following addons:
+This addon was designed and tested for Turtle WoW, and is incompatible with the following addons:
 
 - Cartographer
 
-If you encounter any incompatibilites that are not listed here, please report them through the `Issues` tab on this repository.
+If you encounter any incompatibilities that are not listed here, please report them through the `Issues` tab on this repository.
+
+## Extra Features
+
+Some features are enhanced when certain third-party mods are installed alongside Instance Journal.
+
+| Addon | Minimum Version | Enhanced Feature |
+| ----- | --------------- | ---------------- |
+| Nampower | 4.6.0 | Improved quest detection using quest IDs for more accurate and reliable quest tracking. |
+
+If a listed mod is not installed, or if the installed version is below the minimum required, the original behaviour is used as a fallback automatically.
 
 ## Known Issues
 
-- Some instance maps do not display the full zone area (LBRS/UBRS, Scholomance, ...). Unfortunately, this is a current engine limitation
-- Some lore descriptions may be inaccurate or incomplete
-- Most encounter abilities are incomplete, and some may have incorrect details
+- Some instance maps do not display the full zone area (LBRS/UBRS, Scholomance, ...). Unfortunately, this is a current engine limitation.
+- Some lore descriptions may be inaccurate or incomplete.
+- Most encounter abilities are incomplete, and some may have incorrect details.
 
 Please report any issues you encounter through the `Issues` tab on this repository.
 
@@ -77,12 +84,12 @@ Please report any issues you encounter through the `Issues` tab on this reposito
 This addon covers a large amount of data, and any help maintaining accuracy is appreciated!  
 If you notice any of the following, please consider opening an issue or submitting a pull request:
 
-- Incorrect lore or story elements such as boss descriptions or instance lore summaries
+- Incorrect lore or story elements, such as boss descriptions or instance lore summaries
 - Missing, outdated, or incorrect abilities for a boss's encounter
-- Loot inaccuracies such as items missing, assigned to the wrong boss, attributed with the wrong equipment slot or equipment type, or otherwise incorrect
-- Quests inaccuracies such as missing quests, incorrect reward, missing requirements, inaccurate starting and ending points, or incorrect faction, skill, or class filtering
+- Loot inaccuracies, such as items missing, assigned to the wrong boss, attributed with the wrong equipment slot or type, or otherwise incorrect
+- Quest inaccuracies, such as missing quests, incorrect rewards, missing requirements, inaccurate starting and ending points, or incorrect faction, skill, or class filtering
 
-Even small corrections are helpful. If you're unsure how to contribute, opening an issue with the details is already a massive help.
+Even small corrections are helpful. If you're unsure how to contribute, opening an issue with the details is already a great help.
 
 ## Addon Recommendations
 

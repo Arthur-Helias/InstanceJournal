@@ -15,7 +15,7 @@
 ## Notes-ptBR: Uma reimaginação do Diário de Encontros original de World of Warcraft, criado para |cffabd473TurtleWoW|r!
 ## Notes-ruRU: Переосмысление оригинального Журнала встреч World of Warcraft, созданное для |cffabd473TurtleWoW|r!
 ## Notes-zhCN: 对《魔兽世界》原版副本手册的重新制作，专为 |cffabd473TurtleWoW|r 打造！
-## SavedVariablesPerCharacter: IJ_FirstTimeBindingDone IJ_CompletedQuestIds IJ_QuestHistoryQueried, IJ_SortingMode
+## SavedVariablesPerCharacter: IJ_FirstTimeBindingDone IJ_CompletedQuestIds IJ_QuestHistoryQueried, IJ_SortingMode, IJ_FilterClass
 ## X-URL: https://github.com/Arthur-Helias/InstanceJournal
 
 # Localization

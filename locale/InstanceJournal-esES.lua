@@ -1,6 +1,5 @@
 -- /!\ TEMPORARY LLM SPANISH TRANSLATION /!\
 -- FEEL FREE TO EDIT AND MAKE A PR IF YOU NOTICE ANY ISSUES
-
 if GetLocale() == "esES" then
     IJ_ZoneId_esES = {
         None = 0,

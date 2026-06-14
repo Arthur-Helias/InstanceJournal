@@ -1,6 +1,5 @@
 -- /!\ TEMPORARY LLM RUSSIAN TRANSLATION /!\
 -- FEEL FREE TO EDIT AND MAKE A PR IF YOU NOTICE ANY ISSUES
-
 if GetLocale() == "ruRU" then
     IJ_ZoneId_ruRU = {
         None = 0,

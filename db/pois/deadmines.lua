@@ -10,14 +10,6 @@ DEADMINES.MapContinentId = IMI.EasternKingdoms
 DEADMINES.MapZoneId = IZI.TheDeadmines
 DEADMINES.MinLevel = 16
 DEADMINES.MaxLevel = 24
-DEADMINES.Entrances = {
-    [1] = {
-        MapContinentId = IMI.EasternKingdoms,
-        MapZoneId = IZI.Westfall,
-        MapCoordinateX = 42.5,
-        MapCoordinateY = 72.7,
-        Type = IJLib.EntranceIconType.Down,
-    },
-}
+DEADMINES.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Westfall, MapCoordinateX = 42.5, MapCoordinateY = 72.7, Type = IJLib.EntranceIconType.Down}}
 
 IJDB.POI.DEADMINES = DEADMINES

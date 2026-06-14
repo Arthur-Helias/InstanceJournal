@@ -6,9 +6,10 @@ All changes to this project will be documented in this file.
 
 ### Added
 
-- Added a feature to hide pfQuest pins when showing the start or end of a quest on the map
+- Added compatibility with pfQuest to hide pins when showing the start or end of a quest on the map
 - Added fade in and fade out effects to the quest indicator pins on the map
 - Added slash commands "/ij" and "/instancejournal" to toggle the instance journal
+- Added `IJ_FilterClass` to saved variables to remember the class loot filter between sessions
 
 ### Changed
 

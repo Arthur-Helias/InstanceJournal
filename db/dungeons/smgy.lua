@@ -22,15 +22,7 @@ SMGY.ZoneId = IZI.SMGy
 SMGY.IconScale = 0.9
 SMGY.MinLevel = 30
 SMGY.MaxLevel = 37
-SMGY.Entrances = {
-    [1] = {
-        MapContinentId = IMI.EasternKingdoms,
-        MapZoneId = IZI.ScarletMonastery,
-        MapCoordinateX = 68.3,
-        MapCoordinateY = 21.1,
-        MapDestinationZoneId = IZI.SMGy,
-    },
-}
+SMGY.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.ScarletMonastery, MapCoordinateX = 68.3, MapCoordinateY = 21.1, MapDestinationZoneId = IZI.SMGy}}
 SMGY.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "3983",
@@ -41,28 +33,7 @@ SMGY.Bosses = {
         MapCoordinateX = 72.1,
         MapCoordinateY = 59.8,
         MapId = IZI.SMGy,
-        Loot = {
-            [1] = {
-                IJDB.I[7682],
-                DropChance = 25,
-            },
-            [2] = {
-                IJDB.I[7683],
-                DropChance = 25,
-            },
-            [3] = {
-                IJDB.I[80741],
-                DropChance = 25,
-            },
-            [4] = {
-                IJDB.I[80742],
-                DropChance = 25,
-            },
-            [5] = {
-                IJDB.I[51217],
-                DropChance = 1,
-            },
-        }
+        Loot = {[1] = {IJDB.I[7682], DropChance = 25}, [2] = {IJDB.I[7683], DropChance = 25}, [3] = {IJDB.I[80741], DropChance = 25}, [4] = {IJDB.I[80742], DropChance = 25}, [5] = {IJDB.I[51217], DropChance = 1}}
     },
     [2] = { -- NOTE: Missing abilities
         Id = "61972",
@@ -73,24 +44,7 @@ SMGY.Bosses = {
         MapCoordinateX = 77.6,
         MapCoordinateY = 38.2,
         MapId = IZI.SMGy,
-        Loot = {
-            [1] = {
-                IJDB.I[55386],
-                DropChance = 25,
-            },
-            [2] = {
-                IJDB.I[55388],
-                DropChance = 25,
-            },
-            [3] = {
-                IJDB.I[55387],
-                DropChance = 25,
-            },
-            [4] = {
-                IJDB.I[55389],
-                DropChance = 25,
-            },
-        }
+        Loot = {[1] = {IJDB.I[55386], DropChance = 25}, [2] = {IJDB.I[55388], DropChance = 25}, [3] = {IJDB.I[55387], DropChance = 25}, [4] = {IJDB.I[55389], DropChance = 25}}
     },
     [3] = { -- NOTE: Missing abilities
         Id = "6489",
@@ -102,20 +56,7 @@ SMGY.Bosses = {
         MapCoordinateY = 66.2,
         MapId = IZI.SMGy,
         IsRare = true,
-        Loot = {
-            [1] = {
-                IJDB.I[7688],
-                DropChance = 33,
-            },
-            [2] = {
-                IJDB.I[7687],
-                DropChance = 33,
-            },
-            [3] = {
-                IJDB.I[7686],
-                DropChance = 33,
-            },
-        }
+        Loot = {[1] = {IJDB.I[7688], DropChance = 33}, [2] = {IJDB.I[7687], DropChance = 33}, [3] = {IJDB.I[7686], DropChance = 33}}
     },
     [4] = { -- NOTE: Missing abilities
         Id = "6490",
@@ -127,20 +68,7 @@ SMGY.Bosses = {
         MapCoordinateY = 46.6,
         MapId = IZI.SMGy,
         IsRare = true,
-        Loot = {
-            [1] = {
-                IJDB.I[7708],
-                DropChance = 33,
-            },
-            [2] = {
-                IJDB.I[7709],
-                DropChance = 33,
-            },
-            [3] = {
-                IJDB.I[7731],
-                DropChance = 33,
-            },
-        }
+        Loot = {[1] = {IJDB.I[7708], DropChance = 33}, [2] = {IJDB.I[7709], DropChance = 33}, [3] = {IJDB.I[7731], DropChance = 33}}
     },
     [5] = { -- NOTE: Missing abilities
         Id = "6488",
@@ -152,20 +80,7 @@ SMGY.Bosses = {
         MapCoordinateY = 45.7,
         MapId = IZI.SMGy,
         IsRare = true,
-        Loot = {
-            [1] = {
-                IJDB.I[7689],
-                DropChance = 33,
-            },
-            [2] = {
-                IJDB.I[7690],
-                DropChance = 33,
-            },
-            [3] = {
-                IJDB.I[7691],
-                DropChance = 33,
-            },
-        }
+        Loot = {[1] = {IJDB.I[7689], DropChance = 33}, [2] = {IJDB.I[7690], DropChance = 33}, [3] = {IJDB.I[7691], DropChance = 33}}
     },
     [6] = { -- NOTE: Missing abilities
         Id = "4543",
@@ -177,30 +92,9 @@ SMGY.Bosses = {
         MapCoordinateY = 56.2,
         MapId = IZI.SMGy,
         MapIsBelow = true,
-        Loot = {
-            [1] = {
-                IJDB.I[7685],
-                DropChance = 50,
-            },
-            [2] = {
-                IJDB.I[7684],
-                DropChance = 35,
-            },
-            [3] = {
-                IJDB.I[80743],
-                DropChance = 15,
-            },
-            [4] = {
-                IJDB.I[51217],
-                DropChance = 1,
-            },
-        }
-    },
+        Loot = {[1] = {IJDB.I[7685], DropChance = 50}, [2] = {IJDB.I[7684], DropChance = 35}, [3] = {IJDB.I[80743], DropChance = 15}, [4] = {IJDB.I[51217], DropChance = 1}}
+    }
 }
-SMGY.Quests = {
-    IJDB.Q[1113],
-    IJDB.Q[1051],
-    IJDB.Q[60116],
-}
+SMGY.Quests = {IJDB.Q[1113], IJDB.Q[1051], IJDB.Q[60116]}
 
 IJDB.DG.SMGY = SMGY
