@@ -39,7 +39,7 @@ function IJ_PopulateOverview(boss)
         end
 
         for _, ab in ipairs(abilityList) do
-            table.insert(visibleAbilities, { ability = ab, depth = depth })
+            table.insert(visibleAbilities, {ability = ab, depth = depth})
 
             if ab.isExpanded and ab.SubAbilities then
                 BuildVisibleList(ab.SubAbilities, depth + 1)
@@ -196,8 +196,7 @@ function IJ_PopulateOverview(boss)
                     return
                 end
 
-                local canExpand = (parent.ability.Effect and parent.ability.Effect ~= "") or
-                    (parent.ability.SubAbilities and table.getn(parent.ability.SubAbilities) > 0)
+                local canExpand = (parent.ability.Effect and parent.ability.Effect ~= "") or (parent.ability.SubAbilities and table.getn(parent.ability.SubAbilities) > 0)
 
                 if canExpand then
                     PlaySound("igAbiliityPageTurn")
@@ -311,8 +310,7 @@ function IJ_PopulateOverview(boss)
             row.hitBox.isCropped = false
         end
 
-        local canExpand = (ability.Effect and ability.Effect ~= "") or
-            (ability.SubAbilities and table.getn(ability.SubAbilities) > 0)
+        local canExpand = (ability.Effect and ability.Effect ~= "") or (ability.SubAbilities and table.getn(ability.SubAbilities) > 0)
 
         if canExpand and ability.isExpanded then
             row.foldIndicator:SetText("-")

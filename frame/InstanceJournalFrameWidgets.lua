@@ -6,7 +6,7 @@ function IJ_SetDarkBackdrop(frame, inset)
         tile = true,
         tileSize = 16,
         edgeSize = 12,
-        insets = { left = inset, right = inset, top = inset, bottom = inset }
+        insets = {left = inset, right = inset, top = inset, bottom = inset}
     })
     frame:SetBackdropColor(0.02, 0.02, 0.05, 0.5)
     frame:SetBackdropBorderColor(0.3, 0.25, 0.1, 1)
@@ -154,18 +154,21 @@ function IJ_MakeSideTab(name, iconPath, xPos, yPos, parent)
     tb:SetFrameLevel(parent:GetFrameLevel() - 1)
 
     tb:SetNormalTexture(IJLib.MediaPath .. "ui\\sideway-tab")
+
     if tb:GetNormalTexture() then
         tb:GetNormalTexture():SetDrawLayer("BACKGROUND")
         tb:GetNormalTexture():SetTexCoord(0.125, 0.90625, 0.0625, 0.921875)
     end
 
     tb:SetPushedTexture(IJLib.MediaPath .. "ui\\sideway-tab-selected")
+
     if tb:GetPushedTexture() then
         tb:GetPushedTexture():SetDrawLayer("BACKGROUND")
         tb:GetPushedTexture():SetTexCoord(0.125, 0.90625, 0.0625, 0.921875)
     end
 
     tb:SetHighlightTexture(IJLib.MediaPath .. "ui\\sideway-tab-highlight", "ADD")
+
     if tb:GetHighlightTexture() then
         tb:GetHighlightTexture():SetTexCoord(0.125, 0.90625, 0.0625, 0.921875)
     end

@@ -40,6 +40,7 @@ function IJ_PopulateInstanceGrid()
                     local mapContinentName = nil
 
                     local continentIdStr = tostring(ent.MapContinentId)
+
                     if continentIdStr == "1" then
                         mapContinentName = "Kalimdor"
                     elseif continentIdStr == "2" then
@@ -157,8 +158,7 @@ function IJ_PopulateInstanceGrid()
 
         btn.entry = entry
         btn:ClearAllPoints()
-        btn:SetPoint("TOPLEFT", col * (IJ_INSTANCE_BTN_W + pad) + pad + 6,
-            -(topPad + row * (IJ_INSTANCE_BTN_H + pad)))
+        btn:SetPoint("TOPLEFT", col * (IJ_INSTANCE_BTN_W + pad) + pad + 6, -(topPad + row * (IJ_INSTANCE_BTN_H + pad)))
         btn:Show()
 
         col = col + 1
@@ -238,12 +238,14 @@ function IJ_PopulateBossList(instance)
             btn:SetHeight(IJ_BOSS_BTN_H)
 
             btn:SetNormalTexture(IJLib.MediaPath .. "ui\\boss-bar")
+
             if btn:GetNormalTexture() then
                 btn:GetNormalTexture():SetDrawLayer("BACKGROUND")
                 btn:GetNormalTexture():SetTexCoord(0, 0.6484, 0, 1)
             end
 
             btn:SetPushedTexture(IJLib.MediaPath .. "ui\\boss-bar-dw")
+
             if btn:GetPushedTexture() then
                 btn:GetPushedTexture():SetDrawLayer("BORDER")
                 btn:GetPushedTexture():SetTexCoord(0, 0.6484, 0, 1)

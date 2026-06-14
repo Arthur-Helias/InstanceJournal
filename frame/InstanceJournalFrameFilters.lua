@@ -27,10 +27,12 @@ function IJ_ClassFilter_OnClick()
     UIDropDownMenu_SetSelectedValue(IJ_ClassFilterDropDown, this.value)
 
     local displayText = this.value
+
     if this.value == "ALL" then
         displayText = IJ_GUI_ALLCLASSES
     else
         local color = IJLib.ClassColorLinks[this.value]
+
         if color and color.Hex then
             displayText = color.Hex .. this.value .. "|r"
         end

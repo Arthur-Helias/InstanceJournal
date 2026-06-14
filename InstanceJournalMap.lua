@@ -32,8 +32,7 @@ function IJ_ShowInstanceEntrancesIcon(instance)
     end
 
     if not IJ_WorldMapAreaDescription then
-        IJ_WorldMapAreaDescription = WorldMapFrameAreaFrame:CreateFontString("IJ_WorldMapAreaDescription", "OVERLAY",
-            "SubZoneTextFont")
+        IJ_WorldMapAreaDescription = WorldMapFrameAreaFrame:CreateFontString("IJ_WorldMapAreaDescription", "OVERLAY", "SubZoneTextFont")
         IJ_WorldMapAreaDescription:SetPoint("TOP", WorldMapFrameAreaLabel, "BOTTOM", 0, 0)
         IJ_WorldMapAreaDescription:Hide()
     end
@@ -101,8 +100,7 @@ function IJ_ShowInstanceEntrancesIcon(instance)
                         WorldMapFrame:Show()
                     end
 
-                    local destZoneId = (this.ent and this.ent.MapDestinationZoneId) and
-                        this.ent.MapDestinationZoneId or 1
+                    local destZoneId = (this.ent and this.ent.MapDestinationZoneId) and this.ent.MapDestinationZoneId or 1
                     SetMapZoom(instance.MapId, destZoneId)
                 end)
 
@@ -139,8 +137,7 @@ function IJ_ShowPOIEntrancesIcon(poi)
     end
 
     if not IJ_WorldMapAreaDescription then
-        IJ_WorldMapAreaDescription = WorldMapFrameAreaFrame:CreateFontString("IJ_WorldMapAreaDescription", "OVERLAY",
-            "SubZoneTextFont")
+        IJ_WorldMapAreaDescription = WorldMapFrameAreaFrame:CreateFontString("IJ_WorldMapAreaDescription", "OVERLAY", "SubZoneTextFont")
         IJ_WorldMapAreaDescription:SetPoint("TOP", WorldMapFrameAreaLabel, "BOTTOM", 0, 0)
         IJ_WorldMapAreaDescription:Hide()
     end
@@ -265,6 +262,7 @@ function IJ_ShowInstanceLinksIcon(instance)
                 linkPin:SetScript("OnEnter", function()
                     linkPin.glow:Show()
                     WorldMapFrame.poiHighlight = 1
+
                     if this.link.Name then
                         WorldMapFrameAreaLabel:SetText(this.link.Name)
                         WorldMapFrameAreaDescription:SetText("")

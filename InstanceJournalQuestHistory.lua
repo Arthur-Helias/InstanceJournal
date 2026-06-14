@@ -90,7 +90,7 @@ local function IJ_StrSplitToTable(delimiter, subject)
         return {}
     end
 
-    local fields  = {}
+    local fields = {}
     local pattern = string.format("([^%s]+)", delimiter)
 
     string.gsub(subject, pattern, function(c)
@@ -132,11 +132,7 @@ local function IJ_FindActiveChainQuest(candidates)
 
         IJ_CollectSameNamePrereqs(quest, quest.Name, sameNamePrereqs, nil)
 
-        table.insert(withDepth, {
-            quest = quest,
-            depth = table.getn(sameNamePrereqs),
-            prereqs = sameNamePrereqs,
-        })
+        table.insert(withDepth, {quest = quest, depth = table.getn(sameNamePrereqs), prereqs = sameNamePrereqs})
     end
 
     table.sort(withDepth, function(a, b)
@@ -188,10 +184,10 @@ local function IJ_ResolveCompletedQuest(title, objectives)
         local idStr = tostring(quest.Id)
 
         if not seen[idStr] then
-            seen[idStr]    = true
+            seen[idStr] = true
 
             local objMatch = not quest.Objectives or quest.Objectives == objectives
-            local notDone  = not IJ_CompletedQuestIds[idStr]
+            local notDone = not IJ_CompletedQuestIds[idStr]
 
             if objMatch and notDone then
                 table.insert(eligible, quest)
@@ -227,9 +223,8 @@ local function IJ_ResolveCompletedQuest(title, objectives)
     local resolved = {}
 
     for instKey, instCandidates in pairs(byInst) do
-        local nameListInInst = IJ_InstQuestsByName[instKey] and
-            IJ_InstQuestsByName[instKey][title]
-        local countInInst    = nameListInInst and table.getn(nameListInInst) or 0
+        local nameListInInst = IJ_InstQuestsByName[instKey] and IJ_InstQuestsByName[instKey][title]
+        local countInInst = nameListInInst and table.getn(nameListInInst) or 0
 
         if countInInst > 1 then
             local active = IJ_FindActiveChainQuest(instCandidates)
@@ -345,7 +340,7 @@ IJ_QuestEventFrame:SetScript("OnEvent", function()
             local questId = GetQuestDialogQuestId()
 
             if questId then
-                IJ_PendingTurnIn = { id = questId }
+                IJ_PendingTurnIn = {id = questId}
             end
         elseif GetTitleText then
             local dialogTitle = GetTitleText()
@@ -368,7 +363,7 @@ IJ_QuestEventFrame:SetScript("OnEvent", function()
             SelectQuestLogEntry(oldSelection)
 
             if dialogTitle then
-                IJ_PendingTurnIn = { title = dialogTitle, objectives = dialogObjectives }
+                IJ_PendingTurnIn = {title = dialogTitle, objectives = dialogObjectives}
             end
         end
     elseif event == "QUEST_FINISHED" then

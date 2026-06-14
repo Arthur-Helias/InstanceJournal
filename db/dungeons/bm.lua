@@ -22,15 +22,7 @@ BM.ZoneId = IZI.BM2
 BM.IconScale = 1.0
 BM.MinLevel = 60
 BM.MaxLevel = 60
-BM.Entrances = {
-    [1] = {
-        MapContinentId = IMI.Kalimdor,
-        MapZoneId = IZI.CavernsOfTime,
-        MapCoordinateX = 34.3,
-        MapCoordinateY = 85.2,
-        MapDestinationZoneId = IZI.BM2
-    },
-}
+BM.Entrances = {[1] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.CavernsOfTime, MapCoordinateX = 34.3, MapCoordinateY = 85.2, MapDestinationZoneId = IZI.BM2}}
 BM.Links = {
     [1] = {
         OriginMapContinentId = IMI.TheBlackMorass,
@@ -40,7 +32,7 @@ BM.Links = {
         DestinationMapContinentId = IMI.TheBlackMorass,
         DestinationMapZoneId = IZI.BM1,
         Type = IJLib.EntranceIconType.Down,
-        Name = IJ_DB_DUNGEON_BM_LINK_BM,
+        Name = IJ_DB_DUNGEON_BM_LINK_BM
     },
     [2] = {
         OriginMapContinentId = IMI.TheBlackMorass,
@@ -50,8 +42,8 @@ BM.Links = {
         DestinationMapContinentId = IMI.TheBlackMorass,
         DestinationMapZoneId = IZI.BM2,
         Type = IJLib.EntranceIconType.Up,
-        Name = IJ_DB_DUNGEON_BM_LINK_BM,
-    },
+        Name = IJ_DB_DUNGEON_BM_LINK_BM
+    }
 }
 BM.Bosses = {
     [1] = { -- NOTE: Missing abilities
@@ -65,35 +57,14 @@ BM.Bosses = {
         MapId = IZI.BM2,
         MapIsBelow = true,
         Loot = {
-            [1] = {
-                IJDB.I[61016],
-                DropChance = 17,
-            },
-            [2] = {
-                IJDB.I[61018],
-                DropChance = 17,
-            },
-            [3] = {
-                IJDB.I[61019],
-                DropChance = 17,
-            },
-            [4] = {
-                IJDB.I[61036],
-                DropChance = 17,
-            },
-            [5] = {
-                IJDB.I[61047],
-                DropChance = 17,
-            },
-            [6] = {
-                IJDB.I[61048],
-                DropChance = 17,
-            },
-            [7] = {
-                IJDB.I[70226],
-                DropChance = 1,
-            },
-        },
+            [1] = {IJDB.I[61016], DropChance = 17},
+            [2] = {IJDB.I[61018], DropChance = 17},
+            [3] = {IJDB.I[61019], DropChance = 17},
+            [4] = {IJDB.I[61036], DropChance = 17},
+            [5] = {IJDB.I[61047], DropChance = 17},
+            [6] = {IJDB.I[61048], DropChance = 17},
+            [7] = {IJDB.I[70226], DropChance = 1}
+        }
     },
     [2] = { -- NOTE: Missing abilities
         Id = "61575",
@@ -106,39 +77,15 @@ BM.Bosses = {
         MapId = IZI.BM2,
         MapIsBelow = true,
         Loot = {
-            [1] = {
-                IJDB.I[50431],
-                DropChance = 12,
-            },
-            [2] = {
-                IJDB.I[61032],
-                DropChance = 12,
-            },
-            [3] = {
-                IJDB.I[61041],
-                DropChance = 12,
-            },
-            [4] = {
-                IJDB.I[61045],
-                DropChance = 12,
-            },
-            [5] = {
-                IJDB.I[61055],
-                DropChance = 12,
-            },
-            [6] = {
-                IJDB.I[61056],
-                DropChance = 12,
-            },
-            [7] = {
-                IJDB.I[61698],
-                DropChance = 12,
-            },
-            [8] = {
-                IJDB.I[61700],
-                DropChance = 12,
-            },
-        },
+            [1] = {IJDB.I[50431], DropChance = 12},
+            [2] = {IJDB.I[61032], DropChance = 12},
+            [3] = {IJDB.I[61041], DropChance = 12},
+            [4] = {IJDB.I[61045], DropChance = 12},
+            [5] = {IJDB.I[61055], DropChance = 12},
+            [6] = {IJDB.I[61056], DropChance = 12},
+            [7] = {IJDB.I[61698], DropChance = 12},
+            [8] = {IJDB.I[61700], DropChance = 12}
+        }
     },
     [3] = { -- NOTE: Missing abilities
         Id = "61316",
@@ -150,43 +97,16 @@ BM.Bosses = {
         MapCoordinateY = 12.9,
         MapId = IZI.BM2,
         Loot = {
-            [1] = {
-                IJDB.I[61015],
-                DropChance = 14,
-            },
-            [2] = {
-                IJDB.I[61020],
-                DropChance = 2,
-            },
-            [3] = {
-                IJDB.I[61024],
-                DropChance = 14,
-            },
-            [4] = {
-                IJDB.I[61033],
-                DropChance = 14,
-            },
-            [5] = {
-                IJDB.I[61038],
-                DropChance = 14,
-            },
-            [6] = {
-                IJDB.I[61042],
-                DropChance = 14,
-            },
-            [7] = {
-                IJDB.I[61044],
-                DropChance = 14,
-            },
-            [8] = {
-                IJDB.I[61057],
-                DropChance = 14,
-            },
-            [9] = {
-                IJDB.I[70226],
-                DropChance = 1,
-            },
-        },
+            [1] = {IJDB.I[61015], DropChance = 14},
+            [2] = {IJDB.I[61020], DropChance = 2},
+            [3] = {IJDB.I[61024], DropChance = 14},
+            [4] = {IJDB.I[61033], DropChance = 14},
+            [5] = {IJDB.I[61038], DropChance = 14},
+            [6] = {IJDB.I[61042], DropChance = 14},
+            [7] = {IJDB.I[61044], DropChance = 14},
+            [8] = {IJDB.I[61057], DropChance = 14},
+            [9] = {IJDB.I[70226], DropChance = 1}
+        }
     },
     [4] = { -- NOTE: Missing abilities
         Id = "65116",
@@ -198,47 +118,17 @@ BM.Bosses = {
         MapCoordinateY = 25.2,
         MapId = IZI.BM2,
         Loot = {
-            [1] = {
-                IJDB.I[50428],
-                DropChance = 12,
-            },
-            [2] = {
-                IJDB.I[50430],
-                DropChance = 12,
-            },
-            [3] = {
-                IJDB.I[61017],
-                DropChance = 12,
-            },
-            [4] = {
-                IJDB.I[61021],
-                DropChance = 12,
-            },
-            [5] = {
-                IJDB.I[61022],
-                DropChance = 12,
-            },
-            [6] = {
-                IJDB.I[61028],
-                DropChance = 12,
-            },
-            [7] = {
-                IJDB.I[61049],
-                DropChance = 1,
-            },
-            [8] = {
-                IJDB.I[61054],
-                DropChance = 12,
-            },
-            [9] = {
-                IJDB.I[61058],
-                DropChance = 12,
-            },
-            [10] = {
-                IJDB.I[70226],
-                DropChance = 1,
-            },
-        },
+            [1] = {IJDB.I[50428], DropChance = 12},
+            [2] = {IJDB.I[50430], DropChance = 12},
+            [3] = {IJDB.I[61017], DropChance = 12},
+            [4] = {IJDB.I[61021], DropChance = 12},
+            [5] = {IJDB.I[61022], DropChance = 12},
+            [6] = {IJDB.I[61028], DropChance = 12},
+            [7] = {IJDB.I[61049], DropChance = 1},
+            [8] = {IJDB.I[61054], DropChance = 12},
+            [9] = {IJDB.I[61058], DropChance = 12},
+            [10] = {IJDB.I[70226], DropChance = 1}
+        }
     },
     [5] = { -- NOTE: Missing abilities
         Id = "65124",
@@ -250,35 +140,14 @@ BM.Bosses = {
         MapCoordinateY = 51.0,
         MapId = IZI.BM1,
         Loot = {
-            [1] = {
-                IJDB.I[61050],
-                DropChance = 16,
-            },
-            [2] = {
-                IJDB.I[61051],
-                DropChance = 16,
-            },
-            [3] = {
-                IJDB.I[61059],
-                DropChance = 16,
-            },
-            [4] = {
-                IJDB.I[61060],
-                DropChance = 16,
-            },
-            [5] = {
-                IJDB.I[61061],
-                DropChance = 16,
-            },
-            [6] = {
-                IJDB.I[61062],
-                DropChance = 16,
-            },
-            [7] = {
-                IJDB.I[70226],
-                DropChance = 1,
-            },
-        },
+            [1] = {IJDB.I[61050], DropChance = 16},
+            [2] = {IJDB.I[61051], DropChance = 16},
+            [3] = {IJDB.I[61059], DropChance = 16},
+            [4] = {IJDB.I[61060], DropChance = 16},
+            [5] = {IJDB.I[61061], DropChance = 16},
+            [6] = {IJDB.I[61062], DropChance = 16},
+            [7] = {IJDB.I[70226], DropChance = 1}
+        }
     },
     [6] = { -- NOTE: Missing abilities
         Id = "65125",
@@ -290,55 +159,19 @@ BM.Bosses = {
         MapCoordinateY = 74.6,
         MapId = IZI.BM1,
         Loot = {
-            [1] = {
-                IJDB.I[50427],
-                DropChance = 50,
-            },
-            [2] = {
-                IJDB.I[61053],
-                DropChance = 50,
-            },
-            [3] = {
-                IJDB.I[50429],
-                DropChance = 33,
-            },
-            [4] = {
-                IJDB.I[61037],
-                DropChance = 33,
-            },
-            [5] = {
-                IJDB.I[61046],
-                DropChance = 33,
-            },
-            [6] = {
-                IJDB.I[51217],
-                DropChance = 100,
-            },
-            [7] = {
-                IJDB.I[61014],
-                DropChance = 1,
-            },
-            [8] = {
-                IJDB.I[61027],
-                DropChance = 33,
-            },
-            [9] = {
-                IJDB.I[61031],
-                DropChance = 33,
-            },
-            [10] = {
-                IJDB.I[61040],
-                DropChance = 33,
-            },
-            [11] = {
-                IJDB.I[61043],
-                DropChance = 1,
-            },
-            [12] = {
-                IJDB.I[70226],
-                DropChance = 3,
-            },
-        },
+            [1] = {IJDB.I[50427], DropChance = 50},
+            [2] = {IJDB.I[61053], DropChance = 50},
+            [3] = {IJDB.I[50429], DropChance = 33},
+            [4] = {IJDB.I[61037], DropChance = 33},
+            [5] = {IJDB.I[61046], DropChance = 33},
+            [6] = {IJDB.I[51217], DropChance = 100},
+            [7] = {IJDB.I[61014], DropChance = 1},
+            [8] = {IJDB.I[61027], DropChance = 33},
+            [9] = {IJDB.I[61031], DropChance = 33},
+            [10] = {IJDB.I[61040], DropChance = 33},
+            [11] = {IJDB.I[61043], DropChance = 1},
+            [12] = {IJDB.I[70226], DropChance = 3}
+        }
     },
     [7] = { -- NOTE: Missing abilities
         Id = "65122",
@@ -350,48 +183,18 @@ BM.Bosses = {
         MapCoordinateY = 79.6,
         MapId = IZI.BM1,
         Loot = {
-            [1] = {
-                IJDB.I[61023],
-                DropChance = 12,
-            },
-            [2] = {
-                IJDB.I[61025],
-                DropChance = 12,
-            },
-            [3] = {
-                IJDB.I[61029],
-                DropChance = 12,
-            },
-            [4] = {
-                IJDB.I[61030],
-                DropChance = 12,
-            },
-            [5] = {
-                IJDB.I[61034],
-                DropChance = 12,
-            },
-            [6] = {
-                IJDB.I[61063],
-                DropChance = 12,
-            },
-            [7] = {
-                IJDB.I[61699],
-                DropChance = 12,
-            },
-            [8] = {
-                IJDB.I[61701],
-                DropChance = 12,
-            },
-            [9] = {
-                IJDB.I[70226],
-                DropChance = 1,
-            },
-        },
-    },
+            [1] = {IJDB.I[61023], DropChance = 12},
+            [2] = {IJDB.I[61025], DropChance = 12},
+            [3] = {IJDB.I[61029], DropChance = 12},
+            [4] = {IJDB.I[61030], DropChance = 12},
+            [5] = {IJDB.I[61034], DropChance = 12},
+            [6] = {IJDB.I[61063], DropChance = 12},
+            [7] = {IJDB.I[61699], DropChance = 12},
+            [8] = {IJDB.I[61701], DropChance = 12},
+            [9] = {IJDB.I[70226], DropChance = 1}
+        }
+    }
 }
-BM.Quests = {
-    IJDB.Q[80605],
-    IJDB.Q[40342],
-}
+BM.Quests = {IJDB.Q[80605], IJDB.Q[40342]}
 
 IJDB.DG.BM = BM

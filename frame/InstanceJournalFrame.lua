@@ -1,7 +1,6 @@
 IJ_ShowRaids = false
 IJ_ActiveInfoTab = 1
 IJ_IsInstanceTabActive = true
-IJ_FilterClass = "ALL"
 IJ_FilterSlot = "ALL"
 IJ_FilterContinent_Dungeon = "ALL"
 IJ_FilterContinent_Raid = "ALL"
@@ -101,8 +100,7 @@ function IJ_InstanceJournalFrame_OnLoad()
     IJ_InstanceJournalFrameTab2:SetText(IJ_GUI_TABRAIDS)
     IJ_HomeButton:SetText(IJ_GUI_HOME)
 
-    IJ_InstanceNavDropDown = CreateFrame("Frame", "IJ_InstanceNavDropDown", IJ_InstanceJournalFrame,
-        "UIDropDownMenuTemplate")
+    IJ_InstanceNavDropDown = CreateFrame("Frame", "IJ_InstanceNavDropDown", IJ_InstanceJournalFrame, "UIDropDownMenuTemplate")
     IJ_InstanceNavDropDown:Hide()
     IJ_BossNavDropDown = CreateFrame("Frame", "IJ_BossNavDropDown", IJ_InstanceJournalFrame, "UIDropDownMenuTemplate")
     IJ_BossNavDropDown:Hide()
@@ -143,18 +141,10 @@ function IJ_InstanceJournalFrame_OnLoad()
         end
     end)
 
-    IJ_LeftHeaderPanel:SetBackdrop({
-        bgFile = "Interface\\ChatFrame\\ChatFrameBackground",
-        tile = true,
-        tileSize = 16,
-    })
+    IJ_LeftHeaderPanel:SetBackdrop({bgFile = "Interface\\ChatFrame\\ChatFrameBackground", tile = true, tileSize = 16})
     IJ_LeftHeaderPanel:SetBackdropColor(0.02, 0.02, 0.05, 0.5)
 
-    IJ_RightHeaderPanel:SetBackdrop({
-        bgFile = "Interface\\ChatFrame\\ChatFrameBackground",
-        tile = true,
-        tileSize = 16,
-    })
+    IJ_RightHeaderPanel:SetBackdrop({bgFile = "Interface\\ChatFrame\\ChatFrameBackground", tile = true, tileSize = 16})
     IJ_RightHeaderPanel:SetBackdropColor(0.02, 0.02, 0.05, 0.5)
 
     local slotDD = CreateFrame("Frame", "IJ_SlotFilterDropDown", IJ_RightHeaderPanel, "UIDropDownMenuTemplate")
@@ -170,36 +160,9 @@ function IJ_InstanceJournalFrame_OnLoad()
     UIDropDownMenu_SetWidth(110, classDD)
     UIDropDownMenu_Initialize(classDD, IJ_ClassFilterDropDown_Initialize)
 
-    local _, classToken = UnitClass("player")
-    local initialClassVal = "ALL"
-
-    for classVal, unlocToken in pairs(IJLib.ClassUnlocalizedLinks) do
-        if unlocToken == classToken then
-            initialClassVal = classVal
-
-            break
-        end
-    end
-
-    local initialText = initialClassVal
-
-    if initialClassVal == "ALL" then
-        initialText = IJ_GUI_ALLCLASSES
-    else
-        local color = IJLib.ClassColorLinks[initialClassVal]
-
-        if color and color.Hex then
-            initialText = color.Hex .. initialClassVal .. "|r"
-        end
-    end
-
-    IJ_FilterClass = initialClassVal
-    UIDropDownMenu_SetSelectedValue(classDD, initialClassVal)
-    UIDropDownMenu_SetText(initialText, classDD)
     classDD:Hide()
 
-    local instSelectHeader = IJ_InstanceSelectPanel:CreateFontString("IJ_InstanceSelectHeader", "OVERLAY",
-        "IJ_QuestTitleFontLarge")
+    local instSelectHeader = IJ_InstanceSelectPanel:CreateFontString("IJ_InstanceSelectHeader", "OVERLAY", "IJ_QuestTitleFontLarge")
     instSelectHeader:SetPoint("TOPLEFT", IJ_InstanceSelectPanel, "TOPLEFT", 22, -15)
     instSelectHeader:SetTextColor(0.9, 0.78, 0.3)
     instSelectHeader:SetText(IJ_GUI_TABDUNGEONS)
@@ -211,16 +174,14 @@ function IJ_InstanceJournalFrame_OnLoad()
     UIDropDownMenu_SetSelectedValue(contDD, "ALL")
     UIDropDownMenu_SetText(IJ_GUI_ALLCONTINENTS, contDD)
 
-    local gridScroll = IJ_MakeScrollArea("IJ_InstanceGridScroll", IJ_InstanceSelectPanel, IJ_FRAME_W - 81,
-        IJ_FRAME_H - 198, nil, 2, -13, 2, -15)
+    local gridScroll = IJ_MakeScrollArea("IJ_InstanceGridScroll", IJ_InstanceSelectPanel, IJ_FRAME_W - 81, IJ_FRAME_H - 198, nil, 2, -13, 2, -15)
     gridScroll:SetPoint("TOPLEFT", IJ_InstanceSelectPanel, "TOPLEFT", 0, -45)
 
     IJ_InstanceGridScroll = gridScroll
     IJ_InstanceGridChild = gridScroll.child
     IJ_InstanceGridChild:SetWidth(IJ_FRAME_W - 83)
 
-    local bossListScroll = IJ_MakeScrollArea("IJ_BossListScroll", IJ_BossPanel, IJ_BOSS_LIST_W - 8, IJ_BOSS_LIST_H,
-        "IJ_MinimalistScrollBarTemplate", 6, -8, 6, 3)
+    local bossListScroll = IJ_MakeScrollArea("IJ_BossListScroll", IJ_BossPanel, IJ_BOSS_LIST_W - 8, IJ_BOSS_LIST_H, "IJ_MinimalistScrollBarTemplate", 6, -8, 6, 3)
     bossListScroll:SetPoint("TOPLEFT", IJ_BossPanel, "TOPLEFT", 4, 0)
 
     IJ_BossListScroll = bossListScroll
@@ -332,8 +293,7 @@ function IJ_InstanceJournalFrame_OnLoad()
     instStoryText:SetShadowOffset(0, 0)
     IJ_InstanceStoryText = instStoryText
 
-    local ovScroll = IJ_MakeScrollArea("IJ_OverviewScroll", IJ_InfoPanel, IJ_INFO_W - 8, IJ_FRAME_H - 187, nil, 6, -22,
-        6, -13)
+    local ovScroll = IJ_MakeScrollArea("IJ_OverviewScroll", IJ_InfoPanel, IJ_INFO_W - 8, IJ_FRAME_H - 187, nil, 6, -22, 6, -13)
     ovScroll:SetPoint("TOPLEFT", IJ_InfoPanel, "TOPLEFT", 6, -1)
 
     IJ_OverviewScroll = ovScroll
@@ -349,15 +309,13 @@ function IJ_InstanceJournalFrame_OnLoad()
     bossStoryText:SetNonSpaceWrap(true)
     IJ_BossStoryText = bossStoryText
 
-    local ltScroll = IJ_MakeScrollArea("IJ_LootScroll", IJ_InfoPanel, IJ_INFO_W + 10, IJ_FRAME_H - 187, nil, 6, -22, 6,
-        -13)
+    local ltScroll = IJ_MakeScrollArea("IJ_LootScroll", IJ_InfoPanel, IJ_INFO_W + 10, IJ_FRAME_H - 187, nil, 6, -22, 6, -13)
     ltScroll:SetPoint("TOPLEFT", IJ_InfoPanel, "TOPLEFT", -12, -1)
     ltScroll:Hide()
     IJ_LootScroll = ltScroll
     IJ_LootChild = ltScroll.child
 
-    local tabIn = IJ_MakeSideTab("IJ_InfoTabInstance", IJLib.MediaPath .. "ui\\icon-instance", 28, -20,
-        IJ_EncounterPanel)
+    local tabIn = IJ_MakeSideTab("IJ_InfoTabInstance", IJLib.MediaPath .. "ui\\icon-instance", 28, -20, IJ_EncounterPanel)
     tabIn:SetScript("OnClick", function()
         if IJ_IsInstanceTabActive == false or IJ_ActiveInfoTab ~= 1 then
             PlaySound("igAbiliityPageTurn")
@@ -368,8 +326,7 @@ function IJ_InstanceJournalFrame_OnLoad()
         IJ_UpdateInfoTabs()
     end)
 
-    local tabOv = IJ_MakeSideTab("IJ_InfoTabOverview", IJLib.MediaPath .. "ui\\icon-overview", 28, -80,
-        IJ_EncounterPanel)
+    local tabOv = IJ_MakeSideTab("IJ_InfoTabOverview", IJLib.MediaPath .. "ui\\icon-overview", 28, -80, IJ_EncounterPanel)
     tabOv:SetScript("OnClick", function()
         if IJ_IsInstanceTabActive then
             return
@@ -404,15 +361,13 @@ function IJ_InstanceJournalFrame_OnLoad()
         IJ_UpdateInfoTabs()
     end)
 
-    local questListScroll = IJ_MakeScrollArea("IJ_QuestListScroll", IJ_BossPanel, IJ_BOSS_LIST_W - 8, IJ_BOSS_LIST_H,
-        "IJ_MinimalistScrollBarTemplate", 6, -8, 6, 3)
+    local questListScroll = IJ_MakeScrollArea("IJ_QuestListScroll", IJ_BossPanel, IJ_BOSS_LIST_W - 8, IJ_BOSS_LIST_H, "IJ_MinimalistScrollBarTemplate", 6, -8, 6, 3)
     questListScroll:SetPoint("TOPLEFT", IJ_BossPanel, "TOPLEFT", 4, 0)
     questListScroll:Hide()
     IJ_QuestListScroll = questListScroll
     IJ_QuestListChild = questListScroll.child
 
-    local questInfoScroll = IJ_MakeScrollArea("IJ_QuestInfoScroll", IJ_InfoPanel, IJ_INFO_W, IJ_FRAME_H - 165, nil, 16,
-        -43, 16, -12)
+    local questInfoScroll = IJ_MakeScrollArea("IJ_QuestInfoScroll", IJ_InfoPanel, IJ_INFO_W, IJ_FRAME_H - 165, nil, 16, -43, 16, -12)
     questInfoScroll:SetPoint("TOPLEFT", IJ_InfoPanel, "TOPLEFT", -12, 20)
     questInfoScroll:Hide()
     IJ_QuestInfoScroll = questInfoScroll
@@ -433,6 +388,7 @@ function IJ_InstanceJournalFrame_OnLoad()
     quickSearch:Hide()
 
     IJ_QuickSearchButtons = {}
+
     for i = 1, 5 do
         local btn = CreateFrame("Button", "IJ_QuickSearchBtn" .. i, quickSearch)
         btn:SetWidth(230)
@@ -484,8 +440,7 @@ function IJ_InstanceJournalFrame_OnLoad()
         IJ_ShowAllSearchResults(IJ_LastSearchResults, IJ_SearchBar:GetText())
     end)
 
-    local searchScroll = IJ_MakeScrollArea("IJ_SearchScroll", IJ_SearchResultsPanel, 685,
-        314, nil, 4, -13, 4, -15)
+    local searchScroll = IJ_MakeScrollArea("IJ_SearchScroll", IJ_SearchResultsPanel, 685, 314, nil, 4, -13, 4, -15)
     searchScroll:SetPoint("TOPLEFT", IJ_SearchResultsPanel, "TOPLEFT", 0, -45)
     IJ_SearchScroll = searchScroll
     IJ_SearchChild = searchScroll.child
@@ -518,6 +473,33 @@ function IJ_InstanceJournalFrame_OnEvent(event)
                 this:SetScript("OnUpdate", nil)
             end
         end)
+
+        if not IJ_FilterClass then
+            local _, classToken = UnitClass("player")
+
+            for classVal, unlocToken in pairs(IJLib.ClassUnlocalizedLinks) do
+                if unlocToken == classToken then
+                    IJ_FilterClass = classVal
+
+                    break
+                end
+            end
+        end
+
+        local filterText
+
+        if IJ_FilterClass == "ALL" then
+            filterText = IJ_GUI_ALLCLASSES
+        else
+            local color = IJLib.ClassColorLinks[IJ_FilterClass]
+
+            if color and color.Hex then
+                filterText = color.Hex .. IJ_FilterClass .. "|r"
+            end
+        end
+
+        UIDropDownMenu_SetSelectedValue(IJ_ClassFilterDropDown, IJ_FilterClass)
+        UIDropDownMenu_SetText(filterText, IJ_ClassFilterDropDown)
     elseif event == "PLAYER_ENTERING_WORLD" then
         if not IJ_FirstTimeBindingDone then
             if not GetBindingKey("TOGGLEJOURNAL") then
@@ -564,16 +546,10 @@ function IJ_InstanceJournalFrame_OnEvent(event)
 
         if isBossTarget then
             if not isJournalOpen and not IJ_PreTargetBackup then
-                IJ_PreTargetBackup = {
-                    Instance = IJ_SelectedInstance,
-                    Boss = IJ_CurrentBoss,
-                    IsInstanceTabActive = IJ_IsInstanceTabActive,
-                    ActiveInfoTab = IJ_ActiveInfoTab
-                }
+                IJ_PreTargetBackup = {Instance = IJ_SelectedInstance, Boss = IJ_CurrentBoss, IsInstanceTabActive = IJ_IsInstanceTabActive, ActiveInfoTab = IJ_ActiveInfoTab}
             end
 
-            local needsEncounterLoad = (IJ_SelectedInstance ~= currentInstance) or
-                (IJ_EncounterPanel and not IJ_EncounterPanel:IsShown())
+            local needsEncounterLoad = (IJ_SelectedInstance ~= currentInstance) or (IJ_EncounterPanel and not IJ_EncounterPanel:IsShown())
 
             if IJ_CurrentBoss ~= targetBoss or IJ_IsInstanceTabActive or needsEncounterLoad then
                 if needsEncounterLoad then
@@ -605,19 +581,22 @@ function IJ_InstanceJournalFrame_OnEvent(event)
                 IJ_PreTargetBackup = nil
 
                 if backup.Instance then
-                    local needsEncounterLoad = (IJ_SelectedInstance ~= backup.Instance) or
-                        (IJ_EncounterPanel and not IJ_EncounterPanel:IsShown())
+                    local needsEncounterLoad = (IJ_SelectedInstance ~= backup.Instance) or (IJ_EncounterPanel and not IJ_EncounterPanel:IsShown())
 
                     if needsEncounterLoad then
                         IJ_ShowEncounter(backup.Instance)
+
                         if IJDB and IJDB.R then
                             local isRaid = false
+
                             for _, r in pairs(IJDB.R) do
                                 if r == backup.Instance then
                                     isRaid = true
+
                                     break
                                 end
                             end
+
                             IJ_ShowRaids = isRaid
                             PanelTemplates_SetTab(IJ_InstanceJournalFrame, isRaid and 2 or 1)
                         end
@@ -650,8 +629,7 @@ function IJ_InstanceJournalFrame_OnShow()
 
     IJ_PreTargetBackup = nil
 
-    if (IJ_EncounterPanel and IJ_EncounterPanel:IsShown()) or
-        (IJ_SearchResultsPanel and IJ_SearchResultsPanel:IsShown()) then
+    if (IJ_EncounterPanel and IJ_EncounterPanel:IsShown()) or (IJ_SearchResultsPanel and IJ_SearchResultsPanel:IsShown()) then
         if IJ_RefreshQuestUI then
             IJ_RefreshQuestUI()
         end
@@ -668,6 +646,7 @@ function IJ_InstanceJournalFrame_OnShow()
             for _, r in pairs(IJDB.R) do
                 if r == foundInstance then
                     isRaid = true
+
                     break
                 end
             end

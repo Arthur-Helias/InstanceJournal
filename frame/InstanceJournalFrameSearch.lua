@@ -13,6 +13,7 @@ end
 
 function IJ_PopulateQuickSearch(results)
     local count = table.getn(results)
+
     if count == 0 then
         IJ_SearchDropdown:Hide()
 
@@ -20,8 +21,10 @@ function IJ_PopulateQuickSearch(results)
     end
 
     local displayCount = math.min(5, count)
+
     for i = 1, 5 do
         local btn = IJ_QuickSearchButtons[i]
+
         if i <= displayCount then
             local res = results[i]
             btn.result = res
@@ -189,8 +192,7 @@ function IJ_ShowAllSearchResults(results, query)
     local rowHeight = 40
 
     if not IJ_SearchResultsTitle then
-        IJ_SearchResultsTitle = IJ_SearchResultsPanel:CreateFontString("IJ_SearchResultsTitle", "OVERLAY",
-            "IJ_QuestTitleFontLarge")
+        IJ_SearchResultsTitle = IJ_SearchResultsPanel:CreateFontString("IJ_SearchResultsTitle", "OVERLAY", "IJ_QuestTitleFontLarge")
         IJ_SearchResultsTitle:SetPoint("TOPLEFT", IJ_SearchResultsPanel, "TOPLEFT", 10, -10)
         IJ_SearchResultsTitle:SetTextColor(0.9, 0.78, 0.3)
     end
@@ -278,6 +280,7 @@ function IJ_ShowAllSearchResults(results, query)
     end
 
     child:SetHeight(math.max(IJ_SearchScroll:GetHeight(), yOffset + 20))
+
     if IJ_SearchScroll.UpdateScrollBar then
         IJ_SearchScroll:UpdateScrollBar()
     end
