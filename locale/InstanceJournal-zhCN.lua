@@ -9570,4 +9570,6 @@ if GetLocale() == "zhCN" then
     IJ_QUEST_NAME_41939 = "沃塔罗斯法令"
     IJ_QUEST_OBJECTIVE_41939 = "放逐风角峡谷内的元素领袖并向石爪山脉土环的修武报告。"
     IJ_NPC_NAME_63019 = "绍武"
+    IJ_QUEST_NAME_2041 = "与肖尼交谈"
+    IJ_QUEST_OBJECTIVE_2041 = "与暴风城的沉默者肖尼交谈。"
 end

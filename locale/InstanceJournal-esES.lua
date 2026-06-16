@@ -4521,4 +4521,6 @@ if GetLocale() == "esES" then
     IJ_QUEST_NAME_41939 = "Edicto de Vortalus"
     IJ_QUEST_OBJECTIVE_41939 = "Desterrar el mascarón de proa elemental dentro del Cañón Windhorn e informar a Shovu en el Anillo de la Tierra en las Montañas Espolón."
     IJ_NPC_NAME_63019 = "Shovu"
+    IJ_QUEST_NAME_2041 = "Habla con Shoni"
+    IJ_QUEST_OBJECTIVE_2041 = "Habla con Shoni la Shilent en Ventormenta."
 end

@@ -2,13 +2,27 @@
 
 All changes to this project will be documented in this file.
 
-## [1.4.1] - 2026-06-03
+## [1.4.2] - 2026-06-16
+
+### Added
+
+- Added the NPC `Gryphon Master Talonaxe` which was missing from the database
+- Added the NPC `Korfax, Champion of the Light` which was missing from the database
+- Added the quest `Speak with Shoni` which was missing from the database
+
+### Fixed
+
+- Fixed the quest `Suitable Accommodations` being duplicated in the database
+- Fixed some loot drop chances being 0%
+- Fixed CHANGELOG.md inconsistencies
+
+## [1.4.1] - 2026-06-14
 
 ### Added
 
 - Added compatibility with pfQuest to hide pins when showing the start or end of a quest on the map
-- Added fade in and fade out effects to the quest indicator pins on the map
-- Added slash commands "/ij" and "/instancejournal" to toggle the instance journal
+- Added fade-in and fade-out effects to the quest indicator pins on the map
+- Added slash commands `/ij` and `/instancejournal` to toggle the instance journal
 - Added `IJ_FilterClass` to saved variables to remember the class loot filter between sessions
 
 ### Changed
@@ -25,45 +39,45 @@ All changes to this project will be documented in this file.
 
 ### Fixed
 
-- Fixed Pusillin position in Dire Maul East
-- Fixed Lethtendris position in Dire Maul East
+- Fixed `Pusillin` position in Dire Maul East
+- Fixed `Lethtendris` position in Dire Maul East
 
 ## [1.3.10] - 2026-04-13
 
 ### Fixed
 
-- Fixed Bixxle Screwfuse position
+- Fixed `Bixxle Screwfuse` position
 
 ## [1.3.9] - 2026-04-13
 
 ### Fixed
 
-- Fixed Ysondre and Lethon position being inverted
+- Fixed `Ysondre` and `Lethon` position being inverted
 
 ## [1.3.8] - 2026-04-13
 
 ### Added
 
-- Added the quest The Wrath of Malgan to WHC
-- Added the quest Vortalus’ Edict to WHC
+- Added the quest `The Wrath of Malgan` to WHC
+- Added the quest `Vortalus’` Edict to WHC
 
 ## [1.3.7] - 2026-04-12
 
 ### Fixed
 
-- Fixed Secret of the Circle pre-requisite quests order
+- Fixed `Secret of the Circle` pre-requisite quests order
 
 ## [1.3.6] - 2026-04-10
 
 ### Changed
 
-- Changed Klockmort Spannerspan location from Ironforge to Dun Morogh
+- Changed `Klockmort Spannerspan` location from Ironforge to Dun Morogh
 
 ## [1.3.5] - 2026-04-10
 
 ### Fixed
 
-- Fixed Vangros medias using the wrong model
+- Fixed `Vangros` medias using the wrong model
 
 ## [1.3.4] - 2026-04-09
 
@@ -75,23 +89,23 @@ All changes to this project will be documented in this file.
 
 ### Added
 
-- Added Wail of Ysera to Solnius
+- Added `Wail of Ysera` to Solnius
 
 ## [1.3.2] - 2026-04-09
 
 ### Added
 
-- Added Pristine Chromatic Scale to Chromaggus
+- Added `Pristine Chromatic Scale` to Chromaggus
 
 ## [1.3.1] - 2026-04-09
 
 ### Added
 
-- Added mage class requirement to Mastering the Arcane and Arcane Arms
+- Added mage class requirement to `Mastering the Arcane` and `Arcane Arms`
 
 ### Changed
 
-- Changed Ureda's position to be inside of Orgrimmar
+- Changed `Ureda`'s position to be inside of Orgrimmar
 
 ### Fixed
 
@@ -112,7 +126,7 @@ All changes to this project will be documented in this file.
 
 ### Added
 
-- Added Rite of Resurrection to Majodormo
+- Added `Rite of Resurrection` to Majodormo
 
 ## [1.2.4] - 2026-04-02
 
@@ -126,7 +140,7 @@ All changes to this project will be documented in this file.
 
 ### Added
 
-- Added Egg Collection as a pre-required quest
+- Added `Egg Collection` as a pre-required quest
 
 ## [1.2.2] - 2026-04-02
 
@@ -146,8 +160,8 @@ All changes to this project will be documented in this file.
 
 - Added the quest tab
 - Added quest search through the search bar
-- Added Elementium Sharpening Stone to Broodlord Lashlayer
-- Added Peroth'arn to TH
+- Added `Elementium Sharpening Stone` to Broodlord Lashlayer
+- Added `Peroth'arn` to TH
 - Added loot for all bosses in TH
 - Added missing loot to FH bosses
 - Added missing loot to WHC bosses
@@ -175,13 +189,13 @@ All changes to this project will be documented in this file.
 
 ### Added
 
-- Added Ursol's media
+- Added `Ursol`'s media
 
 ## [1.1.5] - 2026-03-28
 
 ### Added
 
-- Added Timbermaw Hold's bosses' medias
+- Added `Timbermaw Hold`'s bosses' medias
 
 ## [1.1.4] - 2026-03-25
 
@@ -198,28 +212,28 @@ All changes to this project will be documented in this file.
 
 ### Fixed
 
-- Fixed Chieftain Shalk Blackwind's Hawkfeather Crown icon
+- Fixed Chieftain Shalk Blackwind's `Hawkfeather Crown` icon
 
 ## [1.1.2] - 2026-03-23
 
 ### Added
 
-- Added Ezzel Darkbrewer's medias
-- Added Ezzel Darkbrewer's loot
-- Added Battle Standard of the Broodcommander to Broodcommander Axelus
-- Added Crypt Lord's Beckoning to Anub'Rekhan
+- Added `Ezzel Darkbrewer`'s medias
+- Added `Ezzel Darkbrewer`'s loot
+- Added `Battle Standard of the Broodcommander` to Broodcommander Axelus
+- Added `Crypt Lord's Beckoning` to Anub'Rekhan
 
 ## [1.1.1] - 2026-03-23
 
 ### Added
 
-- Added Lord Blackwald II's Riding Whistle to Lord Blackwald II
+- Added `Lord Blackwald II's Riding Whistle` to Lord Blackwald II
 
 ## [1.1.0] - 2026-03-22
 
 ### Added
 
-- Added level requirement for Scaleshield of Obsidian Flight
+- Added level requirement for `Scaleshield of Obsidian Flight`
 - Added the ability to link abilities directly into the chat
 - Added missing loot in Frostmane Hollow
 - Added missing loot in Windhorn Canyon
@@ -247,9 +261,9 @@ All changes to this project will be documented in this file.
 
 ### Added
 
-- Added an icon to Shade of Jin'do's Melee Attack
-- Added a Heal flag to High Priestess Arlokk's Mark of Arlokk ability
-- Added a Deadly flag to High Priestess Arlokk's Whirwind ability
+- Added an icon to `Shade of Jin'do`'s Melee Attack
+- Added a Heal flag to High Priestess Arlokk's `Mark of Arlokk` ability
+- Added a Deadly flag to High Priestess Arlokk's `Whirwind` ability
 
 ### Changed
 
@@ -269,13 +283,13 @@ All changes to this project will be documented in this file.
 
 ### Fixed
 
-- Fixed Axelus's media being missing
+- Fixed `Axelus`'s media being missing
 
 ## [1.0.1] - 2026-03-21
 
 ### Fixed
 
-- Fixed Ezzel's media being missing
+- Fixed `Ezzel`'s media being missing
 
 ## [1.0.0] - 2026-03-21
 

@@ -4538,4 +4538,6 @@ if GetLocale() == "frFR" then
     IJ_QUEST_NAME_41939 = "L'édit de Vortalus"
     IJ_QUEST_OBJECTIVE_41939 = "Bannissez la figure de proue élémentaire à l’intérieur du Canyon Windhorn et faites votre rapport à Shovu au Cercle terrestre dans les montagnes Stonetalon."
     IJ_NPC_NAME_63019 = "Shovu"
+    IJ_QUEST_NAME_2041 = "Parler à Shoni"
+    IJ_QUEST_OBJECTIVE_2041 = "Parlez à Shoni le Shilent à Hurlevent."
 end

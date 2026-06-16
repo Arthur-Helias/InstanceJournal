@@ -1920,7 +1920,7 @@ Q[8412] = {
     RequiredClass = {IMCL.Shaman},
     RequiredFaction = {IF.Horde},
     RewardExperience = 5100,
-    RequiredQuests = {Q[8410]}
+    RequiredQuests = {Q[8411]}
 }
 
 Q[8413] = {
@@ -4514,6 +4514,19 @@ Q[373] = {
     RewardExperience = 870,
     RewardCoin = 700,
     RewardReputations = {{Name = IR.Stormwind, Amount = 50}}
+}
+
+Q[2041] = {
+    Id = "2041",
+    Name = IJ_QUEST_NAME_2041,
+    Objective = IJ_QUEST_OBJECTIVE_2041,
+    RequiredLevel = 15,
+    Level = 15,
+    StartingPoints = {NPC[6569]},
+    EndingPoints = {NPC[6579]},
+    RequiredFaction = {IF.Alliance},
+    RewardExperience = 270,
+    RewardReputations = {{Name = IR.GnomereganExiles, Amount = 25}},
 }
 
 Q[2040] = {
@@ -12369,17 +12382,6 @@ Q[41015] = {
     RewardExperience = 7800,
     RewardCoin = 46800,
     RewardItems = {{IJDB.I[61731]}}
-}
-
-Q[41083] = {
-    Id = "41083",
-    Name = IJ_QUEST_NAME_41083,
-    Objective = IJ_QUEST_OBJECTIVE_41083,
-    RequiredLevel = 55,
-    Level = 60,
-    StartingPoints = {NPC[61322]},
-    EndingPoints = {NPC[61322]},
-    RequiredFaction = {IF.Alliance, IF.Horde}
 }
 
 Q[41084] = {

@@ -325,12 +325,12 @@ NAXX.Bosses = {
             [2] = {IJDB.I[22350], DropChance = 33},
             [3] = {IJDB.I[22351], DropChance = 33},
             [4] = {IJDB.I[22726], DropChance = 30},
-            [5] = {IJDB.I[22691], DropChance = 0},
-            [6] = {IJDB.I[22809], DropChance = 0},
-            [7] = {IJDB.I[22811], DropChance = 0},
-            [8] = {IJDB.I[23025], DropChance = 0},
-            [9] = {IJDB.I[23027], DropChance = 0},
-            [10] = {IJDB.I[23071], DropChance = 0}
+            [5] = {IJDB.I[22691], DropChance = 1},
+            [6] = {IJDB.I[22809], DropChance = 1},
+            [7] = {IJDB.I[22811], DropChance = 1},
+            [8] = {IJDB.I[23025], DropChance = 1},
+            [9] = {IJDB.I[23027], DropChance = 1},
+            [10] = {IJDB.I[23071], DropChance = 1}
         }
     },
     [14] = { -- NOTE: Missing abilities

@@ -8716,6 +8716,10 @@ IJ_LOOT_NAME_6087 = "Chausses of Westfall"
 IJ_LOOT_NAME_2041 = "Tunic of Westfall"
 IJ_LOOT_NAME_2042 = "Staff of Westfall"
 
+-- Quest 2041
+IJ_QUEST_NAME_2041 = "Speak with Shoni"
+IJ_QUEST_OBJECTIVE_2041 = "Speak with Shoni the Shilent in Stormwind."
+
 -- Quest 2040
 IJ_QUEST_NAME_2040 = "Underground Assault"
 IJ_QUEST_OBJECTIVE_2040 = "Retrieve the Gnoam Sprecklesprocket from the Deadmines and return it to Shoni the Shilent in Stormwind."

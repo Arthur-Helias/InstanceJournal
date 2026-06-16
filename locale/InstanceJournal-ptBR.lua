@@ -4502,4 +4502,6 @@ if GetLocale() == "ptBR" then
     IJ_QUEST_NAME_41939 = "Édito de Vortalus"
     IJ_QUEST_OBJECTIVE_41939 = "Banir a figura de proa elemental dentro do Cânion Chifre de Vento e reportar-se a Shovu no Anel Telúrico nas Montanhas das Torres de Pedra."
     IJ_NPC_NAME_63019 = "Shovu"
+    IJ_QUEST_NAME_2041 = "Fale com Shoni"
+    IJ_QUEST_OBJECTIVE_2041 = "Fale com Shoni, o Shilent, em Ventobravo."
 end

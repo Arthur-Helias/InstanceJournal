@@ -623,6 +623,10 @@ NPC[3979] = {Id = "3979", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.
 
 NPC[3981] = {Id = "3981", MapContinentId = IMI.ScarletMonastery, MapZoneId = IZI.SMGy, MapCoordinateX = 72.2, MapCoordinateY = 60.0, Name = IJ_NPC_NAME_3981}
 
+NPC[5636] = {Id = "5636", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.TheHinterlands, MapCoordinateX = 9.7, MapCoordinateY = 44.4, Name = IJ_NPC_NAME_5636}
+
+NPC[16112] = {Id = "16112", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.EasternPlaguelands, MapCoordinateX = 81.7, MapCoordinateY = 58.1, Name = IJ_NPC_NAME_16112}
+
 NPC[3982] = {Id = "3982", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.HillsbradFoothills, MapCoordinateX = 62.6, MapCoordinateY = 19.0, Name = IJ_NPC_NAME_3982}
 
 NPC[12336] = {Id = "12336", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 57.2, MapCoordinateY = 37.3, Name = IJ_NPC_NAME_12336}

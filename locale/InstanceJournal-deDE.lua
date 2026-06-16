@@ -4540,4 +4540,6 @@ if GetLocale() == "deDE" then
     IJ_QUEST_NAME_41939 = "Edikt des Vortalus"
     IJ_QUEST_OBJECTIVE_41939 = "Verbannen Sie die Galionsfigur der Elemente in die Windhornschlucht und melden Sie sich bei Shovu am Irdenen Ring im Steinkrallengebirge."
     IJ_NPC_NAME_63019 = "Shovu"
+    IJ_QUEST_NAME_2041 = "Sprich mit Shoni"
+    IJ_QUEST_OBJECTIVE_2041 = "Sprecht mit Shoni dem Shilent in Sturmwind."
 end
