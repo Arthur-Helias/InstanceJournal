@@ -60,7 +60,7 @@ If you encounter any incompatibilities that are not listed here, please report t
 Some features are enhanced when certain third-party mods are installed alongside Instance Journal.
 
 | Mod | Minimum Version | Enhanced Feature |
-| --- | --------------- | ---------------- |
+| :-: | :-------------: | :--------------: |
 | [Nampower](https://gitea.com/Drakensangs/nampower) | 4.6.0 | Improved quest detection using quest IDs for more accurate and reliable quest tracking. |
 
 If a listed mod is not installed, or if the installed version is below the minimum required, the original behaviour is used as a fallback automatically.
