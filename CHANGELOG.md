@@ -2,6 +2,14 @@
 
 All changes to this project will be documented in this file.
 
+## [1.4.3] - 2026-11-26
+
+### Changed
+
+- Moved `Lost to the Sands` quest to the Zul'Gurub quest list to reflect Octowow changes
+- Rename the quest `Lost to the Sands` to `The Hexxer's Ward`
+- Updated `The Hexxer's Ward` title in all suported locales
+
 ## [1.4.2] - 2026-06-16
 
 ### Added

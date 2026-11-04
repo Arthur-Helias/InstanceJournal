@@ -2273,7 +2273,7 @@ if GetLocale() == "ptBR" then
     IJ_QUEST_OBJECTIVE_40828 = "Encontre “Tratado sobre Fechaduras e Chaves Mágicas” e leve-o de volta para Vandol. Há rumores de que é mantido em Blackwing Lair."
     IJ_QUEST_NAME_70000 = "Um tipo especial de convocação"
     IJ_QUEST_OBJECTIVE_70000 = "Visite o Arquimago Xylem em Azshara."
-    IJ_QUEST_NAME_70001 = "Perdido nas areias"
+    IJ_QUEST_NAME_70001 = "A Proteção do Bagateiro"
     IJ_QUEST_OBJECTIVE_70001 = "Leve um Fragmento de Obsidiana Perfeito para o Arquimago Xylem."
     IJ_NPC_NAME_14368 = "Guardião do Conhecimento Lydros"
     IJ_NPC_NAME_1498 = "Bethor Fragmento de Gelo"
