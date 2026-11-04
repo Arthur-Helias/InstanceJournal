@@ -403,6 +403,6 @@ AQ20.Bosses = {
         }
     }
 }
-AQ20.Quests = {IJDB.Q[8791], IJDB.Q[9023], IJDB.Q[70001]}
+AQ20.Quests = {IJDB.Q[8791], IJDB.Q[9023]}
 
 IJDB.R.AQ20 = AQ20

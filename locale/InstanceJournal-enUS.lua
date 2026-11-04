@@ -5111,7 +5111,7 @@ IJ_QUEST_NAME_70000 = "A Special Kind of Summons"
 IJ_QUEST_OBJECTIVE_70000 = "Visit Archmage Xylem in Azshara."
 
 -- Quest 70001
-IJ_QUEST_NAME_70001 = "Lost to the Sands"
+IJ_QUEST_NAME_70001 = "The Hexxer's Ward"
 IJ_QUEST_OBJECTIVE_70001 = "Bring a Perfect Obsidian Shard to Archmage Xylem."
 IJ_NPC_NAME_14368 = "Lorekeeper Lydros"
 IJ_NPC_NAME_1498 = "Bethor Iceshard"

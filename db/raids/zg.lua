@@ -694,6 +694,6 @@ ZG.Bosses = {
         }
     }
 }
-ZG.Quests = {IJDB.Q[8201], IJDB.Q[8183], IJDB.Q[8227], IJDB.Q[9023]}
+ZG.Quests = {IJDB.Q[8201], IJDB.Q[8183], IJDB.Q[8227], IJDB.Q[9023], IJDB.Q[70001]}
 
 IJDB.R.ZG = ZG

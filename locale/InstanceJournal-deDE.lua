@@ -2290,7 +2290,7 @@ if GetLocale() == "deDE" then
     IJ_QUEST_OBJECTIVE_40828 = "Finde „Abhandlung über magische Schlösser und Schlüssel“ und bringe sie zu Vandol zurück. Es wird gemunkelt, dass es im Pechschwingenhort aufbewahrt wird."
     IJ_QUEST_NAME_70000 = "Eine besondere Art von Beschwörung"
     IJ_QUEST_OBJECTIVE_70000 = "Besuchen Sie Erzmagier Xylem in Azshara."
-    IJ_QUEST_NAME_70001 = "Im Sand verloren"
+    IJ_QUEST_NAME_70001 = "Der Schutzzauber des Verhexers"
     IJ_QUEST_OBJECTIVE_70001 = "Bringt Erzmagier Xylem einen perfekten Obsidiansplitter."
     IJ_NPC_NAME_14368 = "Wissenshüter Lydros"
     IJ_NPC_NAME_1498 = "Bethor Iceshard"

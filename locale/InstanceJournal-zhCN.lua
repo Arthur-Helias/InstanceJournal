@@ -5217,7 +5217,7 @@ if GetLocale() == "zhCN" then
     IJ_QUEST_OBJECTIVE_70000 = "拜访艾萨拉的大法师克希雷姆。"
 
     -- Quest 70001
-    IJ_QUEST_NAME_70001 = "遗失于沙漠之中"
+    IJ_QUEST_NAME_70001 = "妖术师的结界"
     IJ_QUEST_OBJECTIVE_70001 = "将一块完美黑曜石碎片带给大法师克希雷姆。"
     IJ_NPC_NAME_14368 = "博学者莱德罗斯"
     IJ_NPC_NAME_1498 = "比索·埃斯沙德"
