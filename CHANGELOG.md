@@ -27,6 +27,9 @@ All changes to this project will be documented in this file.
 - Added Ignite Mana, Inferno, Living Bomb, and Armageddon to the Baron Geddon encounter
 - Added Explosion, Molten Ground, and Catastrophic Reaction under Living Bomb, with bomb placement guidance and the final phase at 5% health
 
+- Added Arcane Explosion, Shazzrah's Curse, Deaden Magic, Counterspell, and Gate of Shazzrah to the Shazzrah encounter
+- Added descriptions covering curse removal, offensive dispelling, casting precautions, and repositioning after teleportation
+
 ### Changed
 
 - Clarified that Firesworn moved too far from Garr can gain Separation Anxiety

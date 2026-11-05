@@ -3421,6 +3421,21 @@ IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20478 =
 IJ_DB_RAID_MC_BOSS_NAME_12264 = "Shazzrah"
 IJ_DB_RAID_MC_BOSS_STORY_12264 =
     "Of all the flamewakers who followed Ragnaros into the world of Azeroth, Shazzrah is the most talented in the realm of the arcane. He is aware that his colleague Baron Geddon suspects the elemental Garr of treachery. The conflict between Baron Geddon and Garr suits Shazzrah well, for in fact it is Shazzrah who seeks to posses both halves of the Talisman of Elemental Binding so that he might find a way to siphon its energies for his own use. Ragnaros was very likely aware of his underling's penchant for duplicity when he split the talisman in half and entrusted the pieces to Baron Geddon and Garr."
+IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19712 = "Arcane Explosion"
+IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19712 =
+    "Deals Arcane damage to enemies within 30 yards of Shazzrah."
+IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19713 = "Shazzrah's Curse"
+IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19713 =
+    "Increases the magical damage taken by nearby enemies by 100% for 5 minutes. Remove the curse promptly."
+IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19714 = "Deaden Magic"
+IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19714 =
+    "Reduces the magical damage taken by Shazzrah by 50% for 30 seconds. Remove the buff with an offensive dispel."
+IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19715 = "Counterspell"
+IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19715 =
+    "Interrupts nearby enemies who are casting and prevents spells from the interrupted school from being cast for 10 seconds. Time your casts to avoid being interrupted."
+IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_23139 = "Gate of Shazzrah"
+IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_23139 =
+    "Shazzrah teleports during combat. Tanks should quickly pick him up after he repositions."
 IJ_DB_RAID_MC_BOSS_NAME_12098 = "Sulfuron Harbinger"
 IJ_DB_RAID_MC_BOSS_STORY_12098 =
     "Among the most favored of the flamewakers, Sulfuron Harbinger is the terrifying herald of Ragnaros himself. From the infernal depths of the Molten Core, the Harbinger commands Ambassador Flamelash and the other lesser flamewakers in the outside world. Sulfuron Harbinger answers only to Executus and guards the rune of Koro, one of several runes that empower the Firelord's servants. Sulfuron Harbinger keeps Shazzrah in particular under close watch, believing that Shazzrah seeks to betray Ragnaros. Flanked by four of the Firelord's most fervid priests, the Harbinger prepares for the day when the elemental lord of fire claims the world of Azeroth for his own."

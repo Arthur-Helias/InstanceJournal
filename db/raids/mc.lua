@@ -469,7 +469,7 @@ MC.Bosses = {
             [28] = {IJDB.I[18824], DropChance = 8}
         }
     },
-    [6] = { -- NOTE: Missing abilities
+    [6] = {
         Id = "12264",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "shazzrah" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "shazzrah" .. IMPF,
@@ -477,6 +477,42 @@ MC.Bosses = {
         Story = IJ_DB_RAID_MC_BOSS_STORY_12264,
         MapCoordinateX = 54.1,
         MapCoordinateY = 85.2,
+        Abilities = {
+            [1] = {
+                Id = "19712",
+                Icon = "Spell_Nature_WispSplode",
+                Name = IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19712,
+                Effect = IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19712
+            },
+            [2] = {
+                Id = "19713",
+                Icon = "Spell_Shadow_AntiShadow",
+                Name = IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19713,
+                Effect = IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19713,
+                Flags = {IMAF.Curse, IMAF.Important}
+            },
+            [3] = {
+                Id = "19714",
+                Icon = "Spell_Holy_SealOfSalvation",
+                Name = IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19714,
+                Effect = IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19714,
+                Flags = {IMAF.Magic, IMAF.Important}
+            },
+            [4] = {
+                Id = "19715",
+                Icon = "Spell_Frost_IceShock",
+                Name = IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19715,
+                Effect = IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19715,
+                Flags = {IMAF.Important}
+            },
+            [5] = {
+                Id = "23139",
+                Icon = "Spell_Arcane_PortalIronForge",
+                Name = IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_23139,
+                Effect = IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_23139,
+                Flags = {IMAF.Tank, IMAF.Important}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18252], DropChance = 1},
             [2] = {IJDB.I[18257], DropChance = 1},
