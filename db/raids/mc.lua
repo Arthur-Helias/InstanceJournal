@@ -100,7 +100,7 @@ MC.Bosses = {
             [31] = {IJDB.I[58209], DropChance = 20}
         }
     },
-    [2] = { -- NOTE: Missing abilities
+    [2] = {
         Id = "12118",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "lucifron" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "lucifron" .. IMPF,
@@ -108,6 +108,49 @@ MC.Bosses = {
         Story = IJ_DB_RAID_MC_BOSS_STORY_12118,
         MapCoordinateX = 63.6,
         MapCoordinateY = 44.9,
+        Abilities = {
+            [1] = {
+                Id = "19460",
+                Icon = "Spell_Shadow_ShadowBolt",
+                Name = IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19460,
+                Effect = IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19460
+            },
+            [2] = {
+                Id = "19702",
+                Icon = "Spell_Shadow_NightOfTheDead",
+                Name = IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19702,
+                Effect = IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19702,
+                Flags = {IMAF.Magic, IMAF.Important}
+            },
+            [3] = {
+                Id = "19703",
+                Icon = "Spell_Shadow_BlackPlague",
+                Name = IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19703,
+                Effect = IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19703,
+                Flags = {IMAF.Curse, IMAF.Important}
+            },
+            [4] = {
+                Id = "flamewakerprotectors",
+                Name = IJ_DB_RAID_MC_BOSS_12118_NAME_flamewakerprotectors,
+                Effect = IJ_DB_RAID_MC_BOSS_12118_DESCRIPTION_flamewakerprotectors,
+                SubAbilities = {
+                    [1] = {
+                        Id = "20604",
+                        Icon = "Spell_Shadow_ShadowWordDominate",
+                        Name = IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_20604,
+                        Effect = IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_20604,
+                        Flags = {IMAF.Magic, IMAF.Important}
+                    },
+                    [2] = {
+                        Id = "20605",
+                        Icon = "Ability_Warrior_Cleave",
+                        Name = IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_20605,
+                        Effect = IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_20605,
+                        Flags = {IMAF.Tank}
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[16665], DropChance = 100},
             [2] = {IJDB.I[18252], DropChance = 1},

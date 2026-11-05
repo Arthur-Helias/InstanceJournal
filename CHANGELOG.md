@@ -8,6 +8,8 @@ All changes to this project will be documented in this file.
 
 - Added Quaking Stomp, Fire Nova, and Molten Bite to the Incindis encounter, with Molten Armor as a sub-ability of Molten Bite
 - Added English ability names and descriptions for Incindis, highlighting the Stomp-to-Nova sequence and tank-related effects
+- Added Shadow Shock, Impending Doom, and Lucifron's Curse to the Lucifron encounter, with Dominate Mind and Cleave grouped under Flamewaker Protectors
+- Added English ability names and descriptions for Lucifron and the Flamewaker Protectors, highlighting magic and curse removal
 
 ### Changed
 
