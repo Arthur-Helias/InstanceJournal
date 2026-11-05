@@ -15,6 +15,9 @@ All changes to this project will be documented in this file.
 - Added English ability names and descriptions for Magmadar, highlighting fear removal, Tranquilizing Shot, and Magma Spit stacks
 - Added Conflagration as a sub-ability of Magmadar's Lava Bomb
 
+- Added Molten Bulwark and the attacks of Basalthar and Smoldaris to the Twin Golems encounter
+- Added English descriptions for the Twin Golems, including shared health and target switching during Molten Bulwark
+
 ### Changed
 
 - Updated Incindis' English lore description to identify him as an ancient incendosaur and describe his lair as a hatching ground

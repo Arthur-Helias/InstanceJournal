@@ -473,7 +473,7 @@ MC.Bosses = {
             [34] = {IJDB.I[19144], DropChance = 2}
         }
     },
-    [9] = { -- NOTE: Missing abilities
+    [9] = {
         Id = "65020",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "golems" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "golems" .. IMPF,
@@ -481,6 +481,55 @@ MC.Bosses = {
         Story = IJ_DB_RAID_MC_BOSS_STORY_65020,
         MapCoordinateX = 67.1,
         MapCoordinateY = 49.6,
+        Abilities = {
+            [1] = {
+                Id = "47375",
+                Icon = "Ability_Mage_MoltenArmor",
+                Name = IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47375,
+                Effect = IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47375,
+                Flags = {IMAF.Important}
+            },
+            [2] = {
+                Id = "basalthar",
+                Name = IJ_DB_RAID_MC_BOSS_65020_NAME_basalthar,
+                Effect = IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_basalthar,
+                SubAbilities = {
+                    [1] = {
+                        Id = "47373",
+                        Icon = "INV_Gauntlets_05",
+                        Name = IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47373,
+                        Effect = IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47373,
+                        Flags = {IMAF.Tank}
+                    },
+                    [2] = {
+                        Id = "47374",
+                        Icon = "INV_Gauntlets_05",
+                        Name = IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47374,
+                        Effect = IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47374,
+                        Flags = {IMAF.Tank, IMAF.Important}
+                    }
+                }
+            },
+            [3] = {
+                Id = "smoldaris",
+                Name = IJ_DB_RAID_MC_BOSS_65020_NAME_smoldaris,
+                Effect = IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_smoldaris,
+                SubAbilities = {
+                    [1] = {
+                        Id = "47377",
+                        Icon = "Spell_Fire_Incinerate",
+                        Name = IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47377,
+                        Effect = IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47377
+                    },
+                    [2] = {
+                        Id = "47378",
+                        Icon = "Spell_Fire_FlameBolt",
+                        Name = IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47378,
+                        Effect = IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47378
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18820], DropChance = 11},
             [2] = {IJDB.I[18821], DropChance = 11},

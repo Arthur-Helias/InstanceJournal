@@ -3387,6 +3387,28 @@ IJ_DB_RAID_MC_BOSS_STORY_11988 =
     "The most feared soldiers of Ragnaros's elemental forces are the molten giants, and among them Golemagg the Incinerator is unrivaled for his sheer brutality and savage efficiency. So absolute is the molten behemoth's power that he has cowed two core ragers - offspring of the colossal beast Magmadar - which he now uses as pets. For this affront, he has earned Magmadar's eternal and unwavering ire, although the fearsome creature has yet to act on his savage impulses."
 IJ_DB_RAID_MC_BOSS_NAME_65020 = "Twin Golems"
 IJ_DB_RAID_MC_BOSS_STORY_65020 = "Apart from their confirmed status as guardians of the Firelord's domain, the history of the Twin Golems remains entirely unrecorded."
+IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47375 = "Molten Bulwark"
+IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47375 =
+    "The golems alternate a shield that reduces damage taken by 95% and deals 200 Fire damage to melee attackers when struck for 15 seconds. Switch attacks to the golem without the shield."
+IJ_DB_RAID_MC_BOSS_65020_NAME_basalthar = "Basalthar"
+IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_basalthar =
+    "Basalthar fights alongside Smoldaris. The golems share health and are defeated together."
+IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47373 = "Wide Backhand"
+IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47373 =
+    "Basalthar strikes an enemy and nearby allies with a physical attack, knocking them back."
+IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47374 = "Crushing Slam"
+IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47374 =
+    "Basalthar reduces an enemy's armor by 50% and stuns them for 5 seconds."
+IJ_DB_RAID_MC_BOSS_65020_NAME_smoldaris = "Smoldaris"
+IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_smoldaris =
+    "Smoldaris supports Basalthar with Fire attacks."
+IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47377 = "Gout of Flame"
+IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47377 =
+    "Smoldaris channels for 8 seconds, dealing Fire damage to nearby enemies every second."
+IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47378 = "Cover Fire"
+IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47378 =
+    "Smoldaris deals Fire damage to nearby enemies every second for 3 seconds."
+
 IJ_DB_RAID_MC_BOSS_NAME_57642 = "Sorcerer-Thane Thaurissan"
 IJ_DB_RAID_MC_BOSS_STORY_57642 =
     "Sorcerer-Thane Thaurissan was the leader of the shadowy sorcerers of the Dark Iron clan before and during the War of the Three Hammers. He was the one responsible for summoning the Firelord Ragnaros into Azeroth."
