@@ -3386,7 +3386,7 @@ IJ_DB_RAID_MC_BOSS_NAME_11988 = "Golemagg the Incinerator"
 IJ_DB_RAID_MC_BOSS_STORY_11988 =
     "The most feared soldiers of Ragnaros's elemental forces are the molten giants, and among them Golemagg the Incinerator is unrivaled for his sheer brutality and savage efficiency. So absolute is the molten behemoth's power that he has cowed two core ragers - offspring of the colossal beast Magmadar - which he now uses as pets. For this affront, he has earned Magmadar's eternal and unwavering ire, although the fearsome creature has yet to act on his savage impulses."
 IJ_DB_RAID_MC_BOSS_NAME_65020 = "Twin Golems"
-IJ_DB_RAID_MC_BOSS_STORY_65020 = "Apart from their confirmed status as guardians of the Firelord's domain, the history of the Twin Golems remains entirely unrecorded."
+IJ_DB_RAID_MC_BOSS_STORY_65020 = "Basalthar and Smoldaris are twin golems found in Molten Core. Associated with the Dark Iron dwarves, they fight together with crushing blows and torrents of flame."
 IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47375 = "Molten Bulwark"
 IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47375 =
     "The golems alternate a shield that reduces damage taken by 95% and deals 200 Fire damage to melee attackers when struck for 15 seconds. Switch attacks to the golem without the shield."

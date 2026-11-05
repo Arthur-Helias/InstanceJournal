@@ -20,6 +20,8 @@ All changes to this project will be documented in this file.
 
 ### Changed
 
+- Updated the Twin Golems' English lore to identify Basalthar and Smoldaris and their association with the Dark Iron dwarves
+
 - Updated Incindis' English lore description to identify him as an ancient incendosaur and describe his lair as a hatching ground
 - Documented Lucifron's Protector restoration and Enrage behavior at 50% and 20% health
 - Updated Panic's English description to mention Fear Ward as a way to prevent the fear effect
