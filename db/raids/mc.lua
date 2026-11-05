@@ -639,7 +639,7 @@ MC.Bosses = {
             [15] = {IJDB.I[17074], DropChance = 33}
         }
     },
-    [8] = { -- NOTE: Missing abilities
+    [8] = {
         Id = "11988",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "golemagg" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "golemagg" .. IMPF,
@@ -647,6 +647,63 @@ MC.Bosses = {
         Story = IJ_DB_RAID_MC_BOSS_STORY_11988,
         MapCoordinateX = 66.0,
         MapCoordinateY = 65.0,
+        Abilities = {
+            [1] = {
+                Id = "13880",
+                Icon = "Spell_Fire_Immolation",
+                Name = IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_13880,
+                Effect = IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_13880,
+                Flags = {IMAF.Tank}
+            },
+            [2] = {
+                Id = "20228",
+                Icon = "Spell_Fire_Fireball02",
+                Name = IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_20228,
+                Effect = IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_20228
+            },
+            [3] = {
+                Id = "19798",
+                Icon = "Spell_Nature_Earthquake",
+                Name = IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19798,
+                Effect = IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19798,
+                Flags = {IMAF.Important}
+            },
+            [4] = {
+                Id = "19953",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19953,
+                Effect = IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19953,
+                Flags = {IMAF.Tank, IMAF.Important}
+            },
+            [5] = {
+                Id = "20553",
+                Icon = "Ability_Hunter_BeastTaming",
+                Name = IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_20553,
+                Effect = IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_20553,
+                Flags = {IMAF.Tank, IMAF.Important}
+            },
+            [6] = {
+                Id = "coreragers",
+                Name = IJ_DB_RAID_MC_BOSS_11988_NAME_coreragers,
+                Effect = IJ_DB_RAID_MC_BOSS_11988_DESCRIPTION_coreragers,
+                SubAbilities = {
+                    [1] = {
+                        Id = "19820",
+                        Icon = "Ability_Druid_Disembowel",
+                        Name = IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19820,
+                        Effect = IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19820,
+                        Flags = {IMAF.Tank}
+                    },
+                    [2] = {
+                        Id = "45998",
+                        Icon = "Ability_Hunter_BeastCall",
+                        Name = IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_45998,
+                        Effect = IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_45998,
+                        Flags = {IMAF.Tank, IMAF.Important}
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[17203], DropChance = 80},
             [2] = {IJDB.I[18252], DropChance = 1},

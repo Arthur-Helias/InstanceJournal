@@ -3469,6 +3469,30 @@ IJ_DB_RAID_MC_BOSS_12098_DESCRIPTION_flamewakerpriests =
 IJ_DB_RAID_MC_BOSS_NAME_11988 = "Golemagg the Incinerator"
 IJ_DB_RAID_MC_BOSS_STORY_11988 =
     "The most feared soldiers of Ragnaros's elemental forces are the molten giants, and among them Golemagg the Incinerator is unrivaled for his sheer brutality and savage efficiency. So absolute is the molten behemoth's power that he has cowed two core ragers - offspring of the colossal beast Magmadar - which he now uses as pets. For this affront, he has earned Magmadar's eternal and unwavering ire, although the fearsome creature has yet to act on his savage impulses."
+IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_13880 = "Magma Splash"
+IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_13880 =
+    "Deals Fire damage and applies a stacking effect that deals additional Fire damage over time and reduces armor."
+IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_20228 = "Pyroblast"
+IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_20228 =
+    "Hurls a fiery blast at an enemy, dealing Fire damage and additional Fire damage every 3 seconds for 12 seconds."
+IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19798 = "Earthquake"
+IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19798 =
+    "Deals Physical damage to enemies within 18 yards of Golemagg. He begins using Earthquake near 25% health."
+IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19953 = "Enrage"
+IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19953 =
+    "At 25% health, Golemagg gains Enrage, increasing his physical damage dealt by 500 and melee attack speed by 50% for 10 seconds."
+IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_20553 = "Golemagg's Trust"
+IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_20553 =
+    "Empowers nearby Core Ragers, increasing their physical damage dealt by 500 and melee attack speed by 50%. Keep the adds away from Golemagg to avoid this buff."
+IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19820 = "Mangle"
+IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19820 =
+    "Core Ragers apply an effect that deals Physical damage every 2 seconds and reduces movement speed by 50% for 20 seconds."
+IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_45998 = "Ragers Unchained"
+IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_45998 =
+    "At 60% of Golemagg's health, the Core Ragers become unchained and begin switching targets. Their movement speed is reduced by 25%. Tanks can taunt them back."
+IJ_DB_RAID_MC_BOSS_11988_NAME_coreragers = "Core Ragers"
+IJ_DB_RAID_MC_BOSS_11988_DESCRIPTION_coreragers =
+    "Two Core Ragers accompany Golemagg. Tank them separately from the boss."
 IJ_DB_RAID_MC_BOSS_NAME_65020 = "Twin Golems"
 IJ_DB_RAID_MC_BOSS_STORY_65020 = "Basalthar and Smoldaris are twin golems found in Molten Core. Associated with the Dark Iron dwarves, they fight together with crushing blows and torrents of flame."
 IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47375 = "Molten Bulwark"
