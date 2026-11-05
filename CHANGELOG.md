@@ -30,6 +30,9 @@ All changes to this project will be documented in this file.
 - Added Arcane Explosion, Shazzrah's Curse, Deaden Magic, Counterspell, and Gate of Shazzrah to the Shazzrah encounter
 - Added descriptions covering curse removal, offensive dispelling, casting precautions, and repositioning after teleportation
 
+- Added Demoralizing Shout, Inspire, Hand of Ragnaros, Flame Spear, and Dark Strike to the Sulfuron Harbinger encounter
+- Added Flamewaker Priest abilities, highlighting Dark Mending interrupts and magic removal for Shadow Word: Pain and Immolate
+
 ### Changed
 
 - Clarified that Firesworn moved too far from Garr can gain Separation Anxiety

@@ -3439,6 +3439,33 @@ IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_23139 =
 IJ_DB_RAID_MC_BOSS_NAME_12098 = "Sulfuron Harbinger"
 IJ_DB_RAID_MC_BOSS_STORY_12098 =
     "Among the most favored of the flamewakers, Sulfuron Harbinger is the terrifying herald of Ragnaros himself. From the infernal depths of the Molten Core, the Harbinger commands Ambassador Flamelash and the other lesser flamewakers in the outside world. Sulfuron Harbinger answers only to Executus and guards the rune of Koro, one of several runes that empower the Firelord's servants. Sulfuron Harbinger keeps Shazzrah in particular under close watch, believing that Shazzrah seeks to betray Ragnaros. Flanked by four of the Firelord's most fervid priests, the Harbinger prepares for the day when the elemental lord of fire claims the world of Azeroth for his own."
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19778 = "Demoralizing Shout"
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19778 =
+    "Reduces the melee and ranged attack power of nearby enemies by 300 for 30 seconds."
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19779 = "Inspire"
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19779 =
+    "Empowers Sulfuron or a nearby Flamewaker Priest, increasing physical damage dealt by 25% and melee attack speed by 100% for 10 seconds."
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19780 = "Hand of Ragnaros"
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19780 =
+    "Deals Fire damage to enemies within 10 yards of Sulfuron, knocking them back and stunning them for 2 seconds."
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19781 = "Flame Spear"
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19781 =
+    "Throws a flaming spear at an enemy, dealing Fire damage to the target and other enemies within 10 yards of them. Spread out to limit the damage."
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19777 = "Dark Strike"
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19777 =
+    "Strikes an enemy with an empowered weapon attack that deals Shadow damage."
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19775 = "Dark Mending"
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19775 =
+    "Flamewaker Priests cast a powerful heal on an ally. Interrupt the 2-second cast."
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19776 = "Shadow Word: Pain"
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19776 =
+    "Flamewaker Priests apply an effect that deals Shadow damage every 3 seconds for 18 seconds. Dispel the magical effect."
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_20294 = "Immolate"
+IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_20294 =
+    "Flamewaker Priests inflict Fire damage and apply an effect that deals additional Fire damage every 3 seconds for 21 seconds. Dispel the magical effect."
+IJ_DB_RAID_MC_BOSS_12098_NAME_flamewakerpriests = "Flamewaker Priests"
+IJ_DB_RAID_MC_BOSS_12098_DESCRIPTION_flamewakerpriests =
+    "Four Flamewaker Priests accompany Sulfuron. Interrupt their heals and dispel their harmful magical effects."
 IJ_DB_RAID_MC_BOSS_NAME_11988 = "Golemagg the Incinerator"
 IJ_DB_RAID_MC_BOSS_STORY_11988 =
     "The most feared soldiers of Ragnaros's elemental forces are the molten giants, and among them Golemagg the Incinerator is unrivaled for his sheer brutality and savage efficiency. So absolute is the molten behemoth's power that he has cowed two core ragers - offspring of the colossal beast Magmadar - which he now uses as pets. For this affront, he has earned Magmadar's eternal and unwavering ire, although the fearsome creature has yet to act on his savage impulses."

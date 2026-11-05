@@ -542,7 +542,7 @@ MC.Bosses = {
             [26] = {IJDB.I[16852], DropChance = 33}
         }
     },
-    [7] = { -- NOTE: Missing abilities
+    [7] = {
         Id = "12098",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "sulfuron" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "sulfuron" .. IMPF,
@@ -550,6 +550,77 @@ MC.Bosses = {
         Story = IJ_DB_RAID_MC_BOSS_STORY_12098,
         MapCoordinateX = 77.9,
         MapCoordinateY = 84.9,
+        Abilities = {
+            [1] = {
+                Id = "19778",
+                Icon = "Ability_Warrior_WarCry",
+                Name = IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19778,
+                Effect = IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19778
+            },
+            [2] = {
+                Id = "19779",
+                Icon = "Ability_Warrior_BattleShout",
+                Name = IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19779,
+                Effect = IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19779,
+                Flags = {IMAF.Tank, IMAF.Important}
+            },
+            [3] = {
+                Id = "19780",
+                Icon = "Spell_Fire_Fireball",
+                Name = IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19780,
+                Effect = IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19780,
+                Flags = {IMAF.Important}
+            },
+            [4] = {
+                Id = "19781",
+                Icon = "Ability_Throw",
+                Name = IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19781,
+                Effect = IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19781,
+                Flags = {IMAF.Important}
+            },
+            [5] = {
+                Id = "19777",
+                Icon = "Ability_ThunderBolt",
+                Name = IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19777,
+                Effect = IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19777,
+                Flags = {IMAF.Tank}
+            },
+            [6] = {
+                Id = "flamewakerpriests",
+                Name = IJ_DB_RAID_MC_BOSS_12098_NAME_flamewakerpriests,
+                Effect = IJ_DB_RAID_MC_BOSS_12098_DESCRIPTION_flamewakerpriests,
+                SubAbilities = {
+                    [1] = {
+                        Id = "19775",
+                        Icon = "Spell_Shadow_ChillTouch",
+                        Name = IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19775,
+                        Effect = IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19775,
+                        Flags = {IMAF.Heal, IMAF.Interruptible, IMAF.Important}
+                    },
+                    [2] = {
+                        Id = "19776",
+                        Icon = "Spell_Shadow_ShadowWordPain",
+                        Name = IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19776,
+                        Effect = IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19776,
+                        Flags = {IMAF.Magic}
+                    },
+                    [3] = {
+                        Id = "20294",
+                        Icon = "Spell_Fire_Immolation",
+                        Name = IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_20294,
+                        Effect = IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_20294,
+                        Flags = {IMAF.Magic}
+                    },
+                    [4] = {
+                        Id = "19777",
+                        Icon = "Ability_ThunderBolt",
+                        Name = IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19777,
+                        Effect = IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19777,
+                        Flags = {IMAF.Tank}
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[16823], DropChance = 30},
             [2] = {IJDB.I[16868], DropChance = 30},
