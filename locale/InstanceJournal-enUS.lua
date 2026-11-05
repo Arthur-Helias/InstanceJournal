@@ -3311,7 +3311,20 @@ IJ_DB_RAID_MC_STORY =
 
 -- MC Bosses
 IJ_DB_RAID_MC_BOSS_NAME_52145 = "Incindis"
-IJ_DB_RAID_MC_BOSS_STORY_52145 = "Documentation regarding Incindis is remarkably scarce, noting him only as a formidable resident of the Molten Core."
+IJ_DB_RAID_MC_BOSS_STORY_52145 =
+    "Incindis, an ancient incendosaur, dwells within Molten Core. Deep beneath Blackrock Mountain, the lair that bears his name serves as a hatching ground."
+IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42036 = "Quaking Stomp"
+IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42036 =
+    "Incindis stomps the ground, dealing Physical damage and pulling nearby enemies toward him. Move away before the following Fire Nova."
+IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42037 = "Fire Nova"
+IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42037 =
+    "After Quaking Stomp, Incindis casts Fire Nova for 4.5 seconds, then deals heavy Fire damage to nearby enemies and slows their movement for 8 seconds. Move away from him before the cast finishes."
+IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42040 = "Molten Bite"
+IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42040 =
+    "Incindis bites an enemy, dealing Fire damage and applying Molten Armor."
+IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42039 = "Molten Armor"
+IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42039 =
+    "Molten Bite leaves a stacking effect on its target that causes additional Fire damage to the affected unit."
 IJ_DB_RAID_MC_BOSS_NAME_12118 = "Lucifron"
 IJ_DB_RAID_MC_BOSS_STORY_12118 =
     "Among the ranks of the flamewakers, overseers and their guards constantly jockey for higher status among the hierarchy of elementals in hopes of gaining favor with Ragnaros. Lucifron is no exception. He has clashed with Gehennas on several occasions, particularly during their incarceration within the Elemental Plane. This rivalry has now extended to the Molten Core where Lucifron quietly waits for his opportunity to capitalize on any weakness shown by the other flamewakers. Lucifron, and his two Flamewaker Protector guards, can be found watching over the enormous core hound Magmadar, favored pet of Ragnaros."

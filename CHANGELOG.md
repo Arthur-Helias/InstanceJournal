@@ -2,6 +2,17 @@
 
 All changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Added
+
+- Added Quaking Stomp, Fire Nova, and Molten Bite to the Incindis encounter, with Molten Armor as a sub-ability of Molten Bite
+- Added English ability names and descriptions for Incindis, highlighting the Stomp-to-Nova sequence and tank-related effects
+
+### Changed
+
+- Updated Incindis' English lore description to identify him as an ancient incendosaur and describe his lair as a hatching ground
+
 ## [1.4.3] - 2026-11-26
 
 ### Changed

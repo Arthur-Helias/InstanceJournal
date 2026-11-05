@@ -26,7 +26,7 @@ MC.Entrances = {
     [2] = {MapContinentId = IMI.BlackrockDepths, MapZoneId = 1, MapCoordinateX = 66.5, MapCoordinateY = 29.3}
 }
 MC.Bosses = {
-    [1] = { -- NOTE: Missing abilities
+    [1] = {
         Id = "52145",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "incindis" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "incindis" .. IMPF,
@@ -34,6 +34,38 @@ MC.Bosses = {
         Story = IJ_DB_RAID_MC_BOSS_STORY_52145,
         MapCoordinateX = 55.1,
         MapCoordinateY = 11.1,
+        Abilities = {
+            [1] = {
+                Id = "42036",
+                Icon = "Spell_Nature_ThunderClap",
+                Name = IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42036,
+                Effect = IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42036,
+                Flags = {IMAF.Important}
+            },
+            [2] = {
+                Id = "42037",
+                Icon = "Spell_Holy_Excorcism_02",
+                Name = IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42037,
+                Effect = IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42037,
+                Flags = {IMAF.Important}
+            },
+            [3] = {
+                Id = "42040",
+                Icon = "Ability_Racial_Cannibalize",
+                Name = IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42040,
+                Effect = IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42040,
+                Flags = {IMAF.Tank},
+                SubAbilities = {
+                    [1] = {
+                        Id = "42039",
+                        Icon = "Spell_Fire_Fireball",
+                        Name = IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42039,
+                        Effect = IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42039,
+                        Flags = {IMAF.Tank}
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[16812], DropChance = 25},
             [2] = {IJDB.I[16826], DropChance = 25},
