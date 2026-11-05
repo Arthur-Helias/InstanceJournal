@@ -24,6 +24,9 @@ All changes to this project will be documented in this file.
 - Added Antimagic Pulse, Magma Shackles, and stacking Enrage to the Garr encounter
 - Added Firesworn abilities and descriptions covering Immolate, Eruption, and Separation Anxiety
 
+- Added Ignite Mana, Inferno, Living Bomb, and Armageddon to the Baron Geddon encounter
+- Added Explosion, Molten Ground, and Catastrophic Reaction under Living Bomb, with bomb placement guidance and the final phase at 5% health
+
 ### Changed
 
 - Clarified that Firesworn moved too far from Garr can gain Separation Anxiety

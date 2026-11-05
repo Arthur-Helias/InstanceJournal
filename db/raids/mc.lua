@@ -377,7 +377,7 @@ MC.Bosses = {
             [36] = {IJDB.I[19144], DropChance = 5}
         }
     },
-    [5] = { -- NOTE: Missing abilities
+    [5] = {
         Id = "12056",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "geddon" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "geddon" .. IMPF,
@@ -385,6 +385,59 @@ MC.Bosses = {
         Story = IJ_DB_RAID_MC_BOSS_STORY_12056,
         MapCoordinateX = 51.8,
         MapCoordinateY = 80.0,
+        Abilities = {
+            [1] = {
+                Id = "19659",
+                Icon = "Spell_Fire_Incinerate",
+                Name = IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_19659,
+                Effect = IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_19659,
+                Flags = {IMAF.Magic, IMAF.Important}
+            },
+            [2] = {
+                Id = "19695",
+                Icon = "Spell_Fire_Incinerate",
+                Name = IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_19695,
+                Effect = IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_19695,
+                Flags = {IMAF.Important}
+            },
+            [3] = {
+                Id = "20475",
+                Icon = "INV_Enchant_EssenceAstralSmall",
+                Name = IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20475,
+                Effect = IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20475,
+                Flags = {IMAF.Important},
+                SubAbilities = {
+                    [1] = {
+                        Id = "20476",
+                        Icon = "Spell_Fire_SelfDestruct",
+                        Name = IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20476,
+                        Effect = IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20476,
+                        Flags = {IMAF.Important}
+                    },
+                    [2] = {
+                        Id = "44060",
+                        Icon = "Spell_Fire_SelfDestruct",
+                        Name = IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44060,
+                        Effect = IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44060,
+                        Flags = {IMAF.Important}
+                    },
+                    [3] = {
+                        Id = "44061",
+                        Icon = "Spell_Holy_Excorcism_02",
+                        Name = IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44061,
+                        Effect = IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44061,
+                        Flags = {IMAF.Important}
+                    }
+                }
+            },
+            [4] = {
+                Id = "20478",
+                Icon = "Spell_Fire_SelfDestruct",
+                Name = IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20478,
+                Effect = IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20478,
+                Flags = {IMAF.Important}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18563], DropChance = 6},
             [2] = {IJDB.I[18252], DropChance = 1},

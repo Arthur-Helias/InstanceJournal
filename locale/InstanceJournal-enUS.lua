@@ -3397,6 +3397,27 @@ IJ_DB_RAID_MC_BOSS_12057_DESCRIPTION_firesworn =
 IJ_DB_RAID_MC_BOSS_NAME_12056 = "Baron Geddon"
 IJ_DB_RAID_MC_BOSS_STORY_12056 =
     "When Ragnaros was ripped from the Elemental Plane by the Sorcerer-Thane Thaurissan, several subjects from the Firelands followed in his wake. Baron Geddon fought against the titans and aided in the betrayal of Thunderaan, Prince of Air. The Firelord devoured the essence of the prince, but was unable to consume him entirely. Thus, the remaining energies were trapped within a talisman of elemental binding, which Ragnaros split into two perfect halves which he gave to his two lieutenants."
+IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_19659 = "Ignite Mana"
+IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_19659 =
+    "Burns 400 mana every 3 seconds, dealing Fire damage equal to the mana burned. Dispel the magical effect promptly."
+IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_19695 = "Inferno"
+IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_19695 =
+    "Baron Geddon channels pulses of Fire damage for 8 seconds, affecting enemies within 20 yards. Move away from him during the channel."
+IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20475 = "Living Bomb"
+IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20475 =
+    "Marks a player to explode after 8 seconds. Move away from the raid and leave the bomb in a clear area, away from Molten Ground left by earlier bombs."
+IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20476 = "Explosion"
+IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20476 =
+    "Living Bomb explodes, dealing 3200 Fire damage to the marked player and nearby allies within 18 yards, knocking them back."
+IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44060 = "Molten Ground"
+IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44060 =
+    "Living Bomb leaves a patch of fire that deals 500 Fire damage every 2 seconds within 5 yards for 60 seconds. Avoid the fire and choose a different location for subsequent bombs."
+IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44061 = "Catastrophic Reaction"
+IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44061 =
+    "Carrying Living Bomb into existing Molten Ground can trigger an additional blast, dealing 2500 Fire damage within 100 yards. Keep the bomb away from earlier patches of fire."
+IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20478 = "Armageddon"
+IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20478 =
+    "At 5% health, Baron Geddon prepares a massive Fire explosion. Defeat him within 8 seconds to prevent it."
 IJ_DB_RAID_MC_BOSS_NAME_12264 = "Shazzrah"
 IJ_DB_RAID_MC_BOSS_STORY_12264 =
     "Of all the flamewakers who followed Ragnaros into the world of Azeroth, Shazzrah is the most talented in the realm of the arcane. He is aware that his colleague Baron Geddon suspects the elemental Garr of treachery. The conflict between Baron Geddon and Garr suits Shazzrah well, for in fact it is Shazzrah who seeks to posses both halves of the Talisman of Elemental Binding so that he might find a way to siphon its energies for his own use. Ragnaros was very likely aware of his underling's penchant for duplicity when he split the talisman in half and entrusted the pieces to Baron Geddon and Garr."
