@@ -3427,38 +3427,317 @@ if GetLocale() == "zhCN" then
 
     -- MC Bosses
     IJ_DB_RAID_MC_BOSS_NAME_52145 = "因辛迪斯"
-    IJ_DB_RAID_MC_BOSS_STORY_52145 = "关于因辛迪斯的文献非常稀少，仅指出他是熔火之心的强大居民。"
+    IJ_DB_RAID_MC_BOSS_STORY_52145 =
+        "古老的火鳞龙因辛迪斯栖息在熔火之心。黑石山深处，以它命名的巢穴是一处孵化场。"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42036 = "震地践踏"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42036 =
+        "因辛迪斯践踏地面，造成物理伤害，并将附近敌人拉向自己。下一次火焰新星施放前远离它。"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42037 = "火焰新星"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42037 =
+        "震地践踏后，因辛迪斯施放火焰新星，施法时间为4.5秒，随后对附近敌人造成大量火焰伤害，并使其移动速度降低，持续8秒。施法结束前远离它。"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42040 = "熔火撕咬"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42040 =
+        "因辛迪斯撕咬一名敌人，造成火焰伤害并施加熔火护甲。"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42039 = "熔火护甲"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42039 =
+        "熔火撕咬在目标身上留下可叠加的效果，对受影响的单位造成额外火焰伤害。"
     IJ_DB_RAID_MC_BOSS_NAME_12118 = "鲁西弗隆"
     IJ_DB_RAID_MC_BOSS_STORY_12118 =
         "在火焰唤醒者的队伍中，监督者和他们的守卫不断地在元素等级中争夺更高的地位，希望赢得拉格纳罗斯的青睐。路西弗隆也不例外。他曾多次与地狱火族发生冲突，尤其是在元素位面被监禁期间。这场竞争现在已经扩展到了熔火之心，路西弗隆静静地等待机会，利用其他火焰唤醒者表现出的任何弱点。路西弗隆和他的两名烈焰守护者守卫正在监视拉格纳罗斯最喜爱的宠物——巨大的核心猎犬玛格玛达尔。"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19460 = "暗影震击"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19460 =
+        "鲁西弗隆以暗影魔法攻击一名敌人，造成暗影伤害。"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19702 = "末日降临"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19702 =
+        "对附近敌人施加魔法效果，10秒后造成暗影伤害。在其造成伤害前驱散。"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19703 = "鲁西弗隆的诅咒"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19703 =
+        "诅咒附近敌人，提高其法术和技能的资源消耗。及时解除诅咒。"
+    IJ_DB_RAID_MC_BOSS_12118_NAME_flamewakerprotectors = "烈焰行者护卫"
+    IJ_DB_RAID_MC_BOSS_12118_DESCRIPTION_flamewakerprotectors =
+        "鲁西弗隆有两名烈焰行者护卫。生命值降至50%时，他会复活已死亡的护卫，并恢复仍存活护卫的生命值，使后者获得激怒。生命值降至20%时，他会恢复存活护卫的生命值，并使其获得激怒。"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_20604 = "统御意志"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_20604 =
+        "烈焰行者护卫试图控制一名玩家。驱散被控制玩家身上的魔法效果。"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_20605 = "顺劈斩"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_20605 =
+        "烈焰行者护卫以物理攻击击中一名敌人及其附近的盟友。"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_44057 = "激怒"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_44057 =
+        "被激怒的护卫造成的伤害提高25%，受到的伤害降低40%。"
     IJ_DB_RAID_MC_BOSS_NAME_11982 = "玛格曼达"
     IJ_DB_RAID_MC_BOSS_STORY_11982 =
         "玛格马达是一个由火成岩和翻腾的岩浆组成的可怕庞然大物，它是在熔火之心的土质大厅中漫游的核心猎犬的起源。玛格玛达尔深受拉格纳罗斯的宠物喜爱，受到火焰唤醒者路西弗隆的保护，并被一群凶恶的贪婪猎犬包围。据说，当拉格纳罗斯被囚禁在元素位面时，火焰领主会将他俘虏的敌人的遗骸喂给热切等待的玛格玛达尔的双胃。结果，猎犬变得强壮和忠诚，即使现在玛格玛达尔的野蛮凶猛仍然无可争议。"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19408 = "恐慌"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19408 =
+        "使附近敌人恐惧，持续8秒。防护恐惧结界可以预防恐惧，已生效的效果可以驱散。"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19451 = "狂乱"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19451 =
+        "玛格曼达陷入狂乱，大幅提高近战攻击速度。猎人应使用宁神射击移除狂乱。"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19272 = "熔岩吐息"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19272 =
+        "玛格曼达向前方敌人喷吐火焰。"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19411 = "熔岩炸弹"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19411 =
+        "向一名敌人投掷熔岩炸弹，在地面留下火焰区域。离开火焰。"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19428 = "燃烧"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19428 =
+        "熔岩炸弹留下的火焰会施加持续造成火焰伤害的效果。离开受影响区域。"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19450 = "熔岩喷吐"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19450 =
+        "造成火焰伤害并施加可叠加的效果，持续造成额外火焰伤害。"
     IJ_DB_RAID_MC_BOSS_NAME_12057 = "加尔"
     IJ_DB_RAID_MC_BOSS_STORY_12057 =
         "作为拉格纳罗斯麾下的两名首席副官之一，加尔在炎魔之王当前的成功及其影响力的传播中发挥着关键作用。加尔和吉登男爵一样，拥有一半的逐风者之缚，其中包含空气王子桑德兰剩余的精华。传说，经过几个世纪的合作，吉登对加尔产生了怀疑，并感觉到元素在寻找护身符的两半。因此，两国关系紧张。加尔和吉登男爵都从熔火之心地板深处刻下的炽热符文中汲取了巨大的力量。"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19492 = "反魔法脉冲"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19492 =
+        "移除附近敌人的一个有益魔法效果。"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19496 = "熔岩镣铐"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19496 =
+        "使附近敌人的移动速度降低60%，持续15秒。此魔法效果可以驱散。"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19516 = "激怒"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19516 =
+        "每击败一名火誓者，加尔就获得一层激怒，提高近战攻击速度并增大体型。"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_20294 = "献祭"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_20294 =
+        "火誓者造成火焰伤害并施加效果，每3秒造成额外火焰伤害，持续21秒。驱散此魔法效果。"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19497 = "爆发"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19497 =
+        "火誓者死亡时会爆炸，对15码范围内的敌人造成火焰伤害并将其击退。远离即将死亡的小怪。"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_23492 = "分离焦虑"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_23492 =
+        "火誓者离加尔太远时可能获得分离焦虑，使造成的伤害提高300%，并免疫放逐术，持续5秒。让它们留在加尔附近。"
+    IJ_DB_RAID_MC_BOSS_12057_NAME_firesworn = "火誓者"
+    IJ_DB_RAID_MC_BOSS_12057_DESCRIPTION_firesworn =
+        "加尔有八名火誓者。击败它们会强化加尔。"
     IJ_DB_RAID_MC_BOSS_NAME_12056 = "迦顿男爵"
     IJ_DB_RAID_MC_BOSS_STORY_12056 =
         "当拉格纳罗斯被巫师领主索瑞森从元素位面撕裂时，数名来自火焰之地的臣民紧随其后。吉顿男爵与泰坦作战，并协助背叛了空气王子桑德兰。火焰领主吞噬了王子的精华，但无法完全吞噬他。因此，剩余的能量被困在元素束缚的护身符中，拉格纳罗斯将其分成完美的两半，并将其交给了他的两名副官。"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_19659 = "点燃法力"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_19659 =
+        "每3秒燃烧400点法力值，并造成等同于所燃烧法力值的火焰伤害。及时驱散此魔法效果。"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_19695 = "地狱火"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_19695 =
+        "迦顿男爵引导火焰伤害脉冲，持续8秒，影响20码范围内的敌人。引导期间远离它。"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20475 = "活化炸弹"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20475 =
+        "标记一名玩家，使其在8秒后爆炸。远离团队，将炸弹带到空地，避开之前炸弹留下的熔火地面。"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20476 = "爆炸"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20476 =
+        "活化炸弹爆炸，对被标记的玩家及其18码范围内的盟友造成3200点火焰伤害，并将其击退。"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44060 = "熔火地面"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44060 =
+        "活化炸弹留下火焰区域，在5码范围内每2秒造成500点火焰伤害，持续60秒。避开火焰，并为后续炸弹选择其他位置。"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44061 = "灾难性反应"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44061 =
+        "将活化炸弹带入已有的熔火地面可能触发额外爆炸，对100码范围内造成2500点火焰伤害。让炸弹远离先前的火焰区域。"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20478 = "末日决战"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20478 =
+        "生命值降至5%时，迦顿男爵会准备一次巨大的火焰爆炸。在8秒内击败它以阻止爆炸。"
     IJ_DB_RAID_MC_BOSS_NAME_12264 = "沙斯拉尔"
     IJ_DB_RAID_MC_BOSS_STORY_12264 =
         "在跟随拉格纳罗斯进入艾泽拉斯世界的所有火焰唤醒者中，沙兹拉是奥术领域最有天赋的。他知道他的同事格登男爵怀疑元素加尔有背叛行为。吉登男爵和加尔之间的冲突很适合沙兹拉，因为事实上，正是沙兹拉试图同时拥有元素束缚护符的两半，这样他就可以找到一种方法来吸取其能量以供自己使用。当拉格纳罗斯将护身符分成两半并将碎片托付给吉顿男爵和加尔时，他很可能意识到了他的下属的口是心非的嗜好。"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19712 = "魔爆术"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19712 =
+        "对沙斯拉尔30码范围内的敌人造成奥术伤害。"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19713 = "沙斯拉尔的诅咒"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19713 =
+        "使附近敌人受到的魔法伤害提高100%，持续5分钟。及时解除诅咒。"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19714 = "衰减魔法"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19714 =
+        "使沙斯拉尔受到的魔法伤害降低50%，持续30秒。使用进攻性驱散移除此增益效果。"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19715 = "法术反制"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19715 =
+        "打断附近正在施法的敌人，并使其在10秒内无法施放被打断学派的法术。安排好施法时机以避免被打断。"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_23139 = "沙斯拉尔之门"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_23139 =
+        "沙斯拉尔会在战斗中传送。它改变位置后，坦克应迅速重新接住它。"
     IJ_DB_RAID_MC_BOSS_NAME_12098 = "萨弗隆先驱者"
     IJ_DB_RAID_MC_BOSS_STORY_12098 =
         "在最受欢迎的火焰唤醒者中，萨弗隆先驱者是拉格纳罗斯本人的可怕使者。在熔火之心的地狱深处，先驱者指挥着火焰鞭大使和外部世界的其他次级火焰唤醒者。萨弗隆先驱者只听命于执行者并守护科罗符文，这是赋予火焰领主仆人力量的几个符文之一。萨弗隆先驱者特别密切监视沙兹拉，认为沙兹拉试图背叛拉格纳罗斯。在四名火焰领主最狂热的牧师的陪伴下，先驱者正在为火元素领主将艾泽拉斯世界据为己有的那一天做好准备。"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19778 = "挫志怒吼"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19778 =
+        "使附近敌人的近战和远程攻击强度降低300点，持续30秒。"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19779 = "鼓舞"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19779 =
+        "强化萨弗隆或附近的一名烈焰行者祭司，使其造成的物理伤害提高25%，近战攻击速度提高100%，持续10秒。"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19780 = "拉格纳罗斯之手"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19780 =
+        "对萨弗隆10码范围内的敌人造成火焰伤害，将其击退并昏迷2秒。"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19781 = "烈焰之矛"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19781 =
+        "向一名敌人投掷烈焰之矛，对目标及其10码范围内的其他敌人造成火焰伤害。分散站位以减少伤害。"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19777 = "暗影打击"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19777 =
+        "以强化的武器攻击击中一名敌人，造成暗影伤害。"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19775 = "黑暗治疗"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19775 =
+        "烈焰行者祭司对一名盟友施放强力治疗法术。打断这个施法时间为2秒的法术。"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19776 = "暗言术：痛"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19776 =
+        "烈焰行者祭司施加效果，每3秒造成暗影伤害，持续18秒。驱散此魔法效果。"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_20294 = "献祭"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_20294 =
+        "烈焰行者祭司造成火焰伤害并施加效果，每3秒造成额外火焰伤害，持续21秒。驱散此魔法效果。"
+    IJ_DB_RAID_MC_BOSS_12098_NAME_flamewakerpriests = "烈焰行者祭司"
+    IJ_DB_RAID_MC_BOSS_12098_DESCRIPTION_flamewakerpriests =
+        "萨弗隆有四名烈焰行者祭司。打断它们的治疗，并驱散其有害魔法效果。"
+    IJ_DB_RAID_MC_BOSS_12098_NAME_sonsofflame = "烈焰之子"
+    IJ_DB_RAID_MC_BOSS_12098_DESCRIPTION_sonsofflame =
+        "萨弗隆会在整场战斗中召唤烈焰之子，即使四名烈焰行者祭司都被击败后仍会召唤。"
     IJ_DB_RAID_MC_BOSS_NAME_11988 = "焚化者古雷曼格"
     IJ_DB_RAID_MC_BOSS_STORY_11988 =
         "拉格纳罗斯的元素部队中最令人畏惧的士兵是熔岩巨人，其中焚化者戈莱马格以其纯粹的残暴和野蛮的效率而无与伦比。这头熔岩巨兽的力量如此绝对，以至于他吓坏了两只核心狂怒者——巨型野兽玛格玛达尔的后代——现在他把它们当作宠物。由于这一侮辱，他赢得了玛格玛达尔永恒而坚定的愤怒，尽管这个可怕的生物尚未对他的野蛮冲动采取行动。"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_13880 = "熔岩喷溅"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_13880 =
+        "造成火焰伤害并施加可叠加的效果，持续造成额外火焰伤害并降低护甲。"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_20228 = "炎爆术"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_20228 =
+        "向一名敌人投掷火焰冲击，造成火焰伤害，并每3秒造成额外火焰伤害，持续12秒。"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19798 = "地震"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19798 =
+        "对焚化者古雷曼格18码范围内的敌人造成物理伤害。它会在生命值约25%时开始使用地震。"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19953 = "激怒"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19953 =
+        "生命值降至25%时，焚化者古雷曼格获得激怒，使造成的物理伤害提高500点，近战攻击速度提高50%，持续10秒。"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_20553 = "古雷曼格的信任"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_20553 =
+        "强化附近的熔核怒犬，使其造成的物理伤害提高500点，近战攻击速度提高50%。让小怪远离古雷曼格以避免此增益效果。"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19820 = "裂伤"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19820 =
+        "熔核怒犬施加效果，每2秒造成物理伤害，并使移动速度降低50%，持续20秒。"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_45998 = "怒犬脱缰"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_45998 =
+        "古雷曼格的生命值降至60%时，熔核怒犬会挣脱束缚并开始切换目标。它们的移动速度降低25%。坦克可以使用嘲讽重新接住它们。"
+    IJ_DB_RAID_MC_BOSS_11988_NAME_coreragers = "熔核怒犬"
+    IJ_DB_RAID_MC_BOSS_11988_DESCRIPTION_coreragers =
+        "古雷曼格有两只熔核怒犬。坦克应将它们与首领分开。"
     IJ_DB_RAID_MC_BOSS_NAME_65020 = "双子魔像"
-    IJ_DB_RAID_MC_BOSS_STORY_65020 = "除了他们作为火焰领主领地守护者的确认身份外，双生魔像的历史仍然完全没有记录。"
+    IJ_DB_RAID_MC_BOSS_STORY_65020 =
+        "巴萨尔和斯莫达瑞斯是熔火之心中的双子魔像。它们与黑铁矮人有关联，以粉碎性的打击和烈焰洪流并肩作战。"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47375 = "熔火壁垒"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47375 =
+        "双子魔像交替获得护盾，持续15秒，使受到的伤害降低95%，并在受到近战攻击时对攻击者造成200点火焰伤害。转而攻击没有护盾的魔像。"
+    IJ_DB_RAID_MC_BOSS_65020_NAME_basalthar = "巴萨尔"
+    IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_basalthar =
+        "巴萨尔与斯莫达瑞斯并肩作战。双子魔像共享生命值，并会同时被击败。"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47373 = "横扫反击"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47373 =
+        "巴萨尔以物理攻击击中一名敌人及其附近的盟友，并将其击退。"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47374 = "粉碎猛击"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47374 =
+        "巴萨尔使一名敌人的护甲降低50%，并使其昏迷5秒。"
+    IJ_DB_RAID_MC_BOSS_65020_NAME_smoldaris = "斯莫达瑞斯"
+    IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_smoldaris =
+        "斯莫达瑞斯以火焰攻击支援巴萨尔。"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47377 = "烈焰喷涌"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47377 =
+        "斯莫达瑞斯引导8秒，每秒对附近敌人造成火焰伤害。"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47378 = "掩护火力"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47378 =
+        "斯莫达瑞斯每秒对附近敌人造成火焰伤害，持续3秒。"
     IJ_DB_RAID_MC_BOSS_NAME_57642 = "巫王索瑞森"
-    IJ_DB_RAID_MC_BOSS_STORY_57642 = "巫师领主索瑞森是三锤之战之前和期间黑铁氏族暗影巫师的领袖。他负责将炎魔拉格纳罗斯召唤到艾泽拉斯。"
+    IJ_DB_RAID_MC_BOSS_STORY_57642 =
+        "三锤之战期间，巫师领主索瑞森试图召唤一名强大的仆从，挽救即将战败的黑铁氏族。然而他释放的却是拉格纳罗斯，其降临使黑石山拔地而起，杀死了索瑞森，并奴役了幸存的黑铁矮人。如今，第一位皇帝以亡灵之躯出现在熔火之心，仍是为炎魔之王效力的威胁之一。"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52722 = "奥术裂隙"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52722 =
+        "对一名敌人造成奥术伤害，并使其受到的奥术伤害提高5%，持续30秒。"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52723 = "奥术弹幕"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52723 =
+        "向一名敌人发射奥术箭，造成伤害并将其击退。"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52724 = "能量符文"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52724 =
+        "站在符文内会使造成的伤害提高30%，受到的火焰伤害降低70%，其他学派的伤害降低20%。燃烧符文生效时进入，爆破符文生效时离开。"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52725 = "爆破符文"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52725 =
+        "标记敌人，使其在6秒后爆炸，造成奥术伤害。在标记爆炸前离开能量符文，以避免受到更高伤害。"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52726 = "燃烧符文"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52726 =
+        "标记敌人，使其在6秒后爆炸，造成大量火焰伤害。进入能量符文并留在其中，直到标记爆炸，以降低伤害。"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52727 = "镜像"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52727 =
+        "生命值降至50%时，索瑞森召唤自身的镜像，镜像也会施放奥术裂隙和奥术弹幕。"
     IJ_DB_RAID_MC_BOSS_NAME_12018 = "管理者埃克索图斯"
     IJ_DB_RAID_MC_BOSS_STORY_12018 =
         "埃克图斯总管位于元素等级的顶端，就在拉格纳罗斯本人之下。这位火焰唤醒者通过在元素位面激烈的战斗中几乎所向无敌而获得了崇高的地位。有传言说，埃克图斯取代了吉登男爵，从那时起，两人就一直是竞争对手。虽然这个传闻还有待证实，但毫无疑问的是，拉格纳罗斯并不容忍失败。因此，低等火焰唤醒者（当然还有吉顿男爵）热切地等待着埃克图斯的失误，期待着他们有机会争夺火焰领主梦寐以求的关注。"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20229 = "冲击波"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20229 =
+        "对10码范围内的敌人造成火焰伤害，并使其移动速度降低50%，持续8秒。"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20618 = "传送"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20618 =
+        "将一名敌人传送到燃烧的炭火中。立即离开火焰。"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20619 = "魔法反射"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20619 =
+        "使附近盟友有50%的几率反射有害法术，持续10秒。停止对受护盾保护的目标施放有害法术。"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_21075 = "伤害护盾"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_21075 =
+        "为附近的随从提供护盾，持续10秒，对攻击它们的攻击者造成100点奥术伤害。避免用武器攻击受护盾保护的目标。"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20620 = "拉格纳罗斯之盾"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20620 =
+        "为管理者提供持续最多300秒的护盾，吸收最多30000点物理或魔法伤害，并对近战攻击者造成250点伤害。该法术也会恢复他的生命值。"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20603 = "暗影震击"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20603 =
+        "烈焰行者医师对20码范围内的敌人造成暗影伤害。"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_21077 = "暗影箭"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_21077 =
+        "烈焰行者医师向一名敌人发射造成暗影伤害的箭。打断施法。"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_19632 = "顺劈斩"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_19632 =
+        "烈焰行者精英以强化的武器攻击击中一名敌人及其附近的盟友。"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20420 = "火球术"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20420 =
+        "烈焰行者精英对一名敌人施放火球术，造成火焰伤害。"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20623 = "火焰冲击"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20623 =
+        "烈焰行者精英立即对一名敌人造成火焰伤害。"
+    IJ_DB_RAID_MC_BOSS_12018_NAME_flamewakerhealers = "烈焰行者医师"
+    IJ_DB_RAID_MC_BOSS_12018_DESCRIPTION_flamewakerhealers =
+        "管理者有四名烈焰行者医师，可以使用变形术控制。当八名小怪中的四名死亡时，现有的变形术效果会解除，存活的小怪将免疫变形术。"
+    IJ_DB_RAID_MC_BOSS_12018_NAME_flamewakerelites = "烈焰行者精英"
+    IJ_DB_RAID_MC_BOSS_12018_DESCRIPTION_flamewakerelites =
+        "管理者有四名烈焰行者精英。击败全部八名小怪以迫使管理者投降。"
     IJ_DB_RAID_MC_BOSS_NAME_11502 = "拉格纳罗斯"
     IJ_DB_RAID_MC_BOSS_STORY_11502 =
         "躺在黑石山脚下的拉格纳罗斯正在努力寻找回家的路，并再次聚集力量，以便烧毁艾泽拉斯并将其据为己有。与此同时，在萨弗隆要塞和火焰之地的其他地方，他的元素王子们不断地争夺统治地位。他和他的矮人爪牙控制了黑石山的火山深处，并在黑石塔上层与兽人开战，黑石塔是黑龙奈法利安的权力宝座。拉格纳罗斯发现了用石头创造生命的秘密，并计划建立一支势不可挡的傀儡军队来帮助他征服整个黑石山。"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20564 = "元素火焰"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20564 =
+        "对一名敌人造成火焰伤害，并每秒造成额外火焰伤害，持续8秒。"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058 = "元素火焰"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058 =
+        "对10码区域内的敌人造成火焰伤害。分散站位以减少伤害。"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20566 = "拉格纳罗斯之怒"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20566 =
+        "对拉格纳罗斯25码范围内的敌人造成火焰伤害并将其击退。坦克应准备好返回近战范围。"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21154 = "拉格纳罗斯之力"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21154 =
+        "召唤一个会使用强烈热能的拉格纳罗斯之焰。"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21155 = "强烈热能"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21155 =
+        "拉格纳罗斯之焰释放火焰冲击，可能对附近敌人造成伤害并将其击退。"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20565 = "熔岩冲击"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20565 =
+        "从远距离对一名敌人造成大量火焰伤害。"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21388 = "熔化武器"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21388 =
+        "损坏受影响武器的耐久度。"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_26234 = "下潜"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_26234 =
+        "生命值约50%时，拉格纳罗斯下潜并召唤十个烈焰之子。击败小怪并准备迎接它的回归。"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20568 = "浮现"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20568 =
+        "烈焰之子阶段后，拉格纳罗斯浮现并继续战斗。"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21857 = "熔岩护盾"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21857 =
+        "烈焰之子对近战攻击者造成火焰伤害，并周期性燃烧10码范围内敌人的150点法力值，造成相当于所燃烧法力值一半的火焰伤害。使用法力值的玩家应远离小怪。"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21158 = "熔岩爆发"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21158 =
+        "环境中的熔岩喷发会对战斗区域造成火焰伤害。避开熔岩。"
+    IJ_DB_RAID_MC_BOSS_11502_NAME_sonsofflame = "烈焰之子"
+    IJ_DB_RAID_MC_BOSS_11502_DESCRIPTION_sonsofflame =
+        "下潜阶段会出现十个烈焰之子。趁拉格纳罗斯下潜时击败它们。"
+    IJ_DB_RAID_MC_BOSS_11502_NAME_environment = "环境"
+    IJ_DB_RAID_MC_BOSS_11502_DESCRIPTION_environment =
+        "拉格纳罗斯周围的熔岩在整场战斗中都很危险。"
     IJ_LOOT_NAME_42178 = "复活仪式典籍"
 
     -- MC Loot

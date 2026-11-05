@@ -1646,37 +1646,297 @@ if GetLocale() == "ptBR" then
 
     -- MC Bosses
     IJ_DB_RAID_MC_BOSS_NAME_52145 = "Incêndios"
-    IJ_DB_RAID_MC_BOSS_STORY_52145 = "A documentação sobre Incindis é extremamente escassa, notando-o apenas como um residente formidável do Núcleo Derretido."
+    IJ_DB_RAID_MC_BOSS_STORY_52145 =
+        "Incindis, um antigo incendossauro, habita o Núcleo Derretido. Nas profundezas da Montanha Rocha Negra, o covil que leva seu nome serve como local de incubação."
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42036 = "Pisada Sísmica"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42036 =
+        "Incindis pisa no chão, causando dano Físico e puxando os inimigos próximos em sua direção. Afaste-se antes da Nova de Fogo que vem em seguida."
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42037 = "Nova de Fogo"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42037 =
+        "Após a Pisada Sísmica, Incindis conjura Nova de Fogo por 4,5 segundos e então causa muito dano de Fogo aos inimigos próximos, reduzindo sua velocidade de movimento por 8 segundos. Afaste-se antes do fim da conjuração."
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42040 = "Mordida Derretida"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42040 =
+        "Incindis morde um inimigo, causando dano de Fogo e aplicando Armadura Derretida."
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42039 = "Armadura Derretida"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42039 =
+        "Mordida Derretida deixa um efeito cumulativo no alvo que causa dano de Fogo adicional à unidade afetada."
     IJ_DB_RAID_MC_BOSS_NAME_12118 = "Lucifrão"
     IJ_DB_RAID_MC_BOSS_STORY_12118 =
         "Entre as fileiras dos despertadores de chamas, os supervisores e seus guardas disputam constantemente um status mais elevado entre a hierarquia dos elementais na esperança de ganhar o favor de Ragnaros. Lucifron não é exceção. Ele entrou em confronto com Geenas em diversas ocasiões, principalmente durante seu encarceramento no Plano Elemental. Essa rivalidade agora se estende ao Núcleo Derretido, onde Lucifron espera silenciosamente por sua oportunidade de capitalizar qualquer fraqueza demonstrada pelos outros despertadores de chamas. Lucifron e seus dois guardas Protetores Flamewaker podem ser encontrados vigiando o enorme cão de caça Magmadar, animal de estimação favorito de Ragnaros."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19460 = "Choque Sombrio"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19460 =
+        "Lucifrão atinge um inimigo com magia sombria, causando dano de Sombra."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19702 = "Ruína Iminente"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19702 =
+        "Aplica aos inimigos próximos um efeito mágico que causa dano de Sombra após 10 segundos. Dissipe-o antes de causar dano."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19703 = "Maldição de Lucifrão"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19703 =
+        "Amaldiçoa os inimigos próximos, aumentando o custo de recursos de seus feitiços e habilidades. Remova a maldição rapidamente."
+    IJ_DB_RAID_MC_BOSS_12118_NAME_flamewakerprotectors = "Protetores Ardilantes"
+    IJ_DB_RAID_MC_BOSS_12118_DESCRIPTION_flamewakerprotectors =
+        "Lucifrão é acompanhado por dois Protetores Ardilantes. Aos 50% de vida, revive os Protetores mortos e restaura a vida dos que ainda estão vivos, que recebem Enfurecer. Aos 20% de vida, restaura a vida dos Protetores sobreviventes e concede Enfurecer a eles."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_20604 = "Dominar Mente"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_20604 =
+        "Os Protetores Ardilantes tentam controlar um jogador. Dissipe o efeito mágico do jogador controlado."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_20605 = "Cutilada"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_20605 =
+        "Os Protetores Ardilantes atingem um inimigo e aliados próximos com um ataque físico."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_44057 = "Enfurecer"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_44057 =
+        "Protetores enfurecidos causam 25% a mais de dano e recebem 40% a menos de dano."
     IJ_DB_RAID_MC_BOSS_NAME_11982 = "Magmadar"
     IJ_DB_RAID_MC_BOSS_STORY_11982 =
         "Um gigante aterrorizante composto de rocha ígnea e magma turbulento, Magmadar serve como origem dos cães de caça que vagam pelos corredores de terra do Núcleo Derretido. Favorito entre os animais de estimação de Ragnaros, Magmadar é protegido pelo despertador de chamas Lucifron e cercado por matilhas de cães vorazes. Diz-se que enquanto Ragnaros estava preso no Plano Elemental, o Senhor do Fogo alimentava com os restos mortais de seus inimigos capturados as ansiosamente aguardadas mandíbulas gêmeas de Magmadar. Como resultado, o cão tornou-se forte e leal, e mesmo agora a ferocidade selvagem de Magmadar permanece incontestada."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19408 = "Pânico"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19408 =
+        "Amedronta os inimigos próximos por 8 segundos. Proteção contra Medo pode prevenir o medo, e o efeito pode ser dissipado se for aplicado."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19451 = "Frenesi"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19451 =
+        "Magmadar entra em frenesi, aumentando muito a velocidade de seus ataques corpo a corpo. Caçadores devem remover o frenesi com Tiro Tranquilizante."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19272 = "Sopro de Lava"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19272 =
+        "Magmadar sopra fogo nos inimigos à sua frente."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19411 = "Bomba de Lava"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19411 =
+        "Lança uma bomba de lava em um inimigo, deixando uma área de fogo no chão. Saia do fogo."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19428 = "Conflagração"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19428 =
+        "O fogo deixado pela Bomba de Lava aplica um efeito que causa dano de Fogo ao longo do tempo. Saia da área afetada."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19450 = "Cuspe de Magma"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19450 =
+        "Causa dano de Fogo e aplica um efeito cumulativo que causa dano de Fogo adicional ao longo do tempo."
     IJ_DB_RAID_MC_BOSS_NAME_12057 = "Garr"
     IJ_DB_RAID_MC_BOSS_STORY_12057 =
         "Como um dos dois principais tenentes servindo sob o comando de Ragnaros, Garr desempenha um papel fundamental no sucesso atual do Senhor do Fogo e em sua crescente influência. Garr, como o Barão Geddon, detém metade de Bindings of the Windseeker, que contém a essência restante de Thunderaan, Príncipe do Ar. Os contos dizem que após séculos de parceria, Geddon suspeitou de Garr e sentiu que o elemental procurava as duas metades do talismã. Assim, as relações entre os dois poderes são tensas. Tanto Garr quanto o Barão Geddon extraem seu poder considerável das runas ardentes esculpidas profundamente no chão do Núcleo Derretido."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19492 = "Pulso Antimagia"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19492 =
+        "Remove um efeito mágico benéfico dos inimigos próximos."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19496 = "Grilhões de Magma"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19496 =
+        "Reduz a velocidade de movimento dos inimigos próximos em 60% por 15 segundos. O efeito mágico pode ser dissipado."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19516 = "Enfurecer"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19516 =
+        "Cada Devoto do Fogo derrotado concede a Garr uma aplicação de Enfurecer, aumentando sua velocidade de ataque corpo a corpo e seu tamanho."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_20294 = "Imolar"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_20294 =
+        "Devotos do Fogo causam dano de Fogo e aplicam um efeito que causa dano de Fogo adicional a cada 3 segundos por 21 segundos. Dissipe o efeito mágico."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19497 = "Erupção"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19497 =
+        "Quando um Devoto do Fogo morre, ele explode, causando dano de Fogo e repelindo inimigos em um raio de 15 metros. Afaste-se dos lacaios prestes a morrer."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_23492 = "Ansiedade de Separação"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_23492 =
+        "Devotos do Fogo afastados demais de Garr podem receber Ansiedade de Separação, aumentando o dano causado em 300% e concedendo imunidade a Banir por 5 segundos. Mantenha-os perto de Garr."
+    IJ_DB_RAID_MC_BOSS_12057_NAME_firesworn = "Devotos do Fogo"
+    IJ_DB_RAID_MC_BOSS_12057_DESCRIPTION_firesworn =
+        "Garr é acompanhado por oito Devotos do Fogo. Derrotá-los fortalece Garr."
     IJ_DB_RAID_MC_BOSS_NAME_12056 = "Barão Geddon"
     IJ_DB_RAID_MC_BOSS_STORY_12056 =
         "Quando Ragnaros foi arrancado do Plano Elemental pelo Feiticeiro-Thane Thaurissan, vários súditos das Terras do Fogo seguiram seu rastro. O Barão Geddon lutou contra os titãs e ajudou na traição de Thunderaan, Príncipe do Ar. O Senhor do Fogo devorou ​​a essência do príncipe, mas não conseguiu consumi-lo completamente. Assim, as energias restantes ficaram presas dentro de um talismã de ligação elementar, que Ragnaros dividiu em duas metades perfeitas que deu aos seus dois tenentes."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_19659 = "Incendiar Mana"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_19659 =
+        "Queima 400 de mana a cada 3 segundos, causando dano de Fogo igual à mana queimada. Dissipe o efeito mágico rapidamente."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_19695 = "Inferno"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_19695 =
+        "Barão Geddon canaliza pulsos de dano de Fogo por 8 segundos, atingindo inimigos em um raio de 20 metros. Afaste-se dele durante a canalização."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20475 = "Bomba Viva"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20475 =
+        "Marca um jogador para explodir após 8 segundos. Afaste-se do grupo e deixe a bomba em uma área livre, longe do Solo Derretido deixado por bombas anteriores."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20476 = "Explosão"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20476 =
+        "Bomba Viva explode, causando 3200 de dano de Fogo ao jogador marcado e a aliados próximos em um raio de 18 metros, repelindo-os."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44060 = "Solo Derretido"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44060 =
+        "Bomba Viva deixa uma área de fogo que causa 500 de dano de Fogo a cada 2 segundos em um raio de 5 metros por 60 segundos. Evite o fogo e escolha outro local para as próximas bombas."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44061 = "Reação Catastrófica"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44061 =
+        "Levar Bomba Viva para um Solo Derretido existente pode provocar uma explosão adicional, causando 2500 de dano de Fogo em um raio de 100 metros. Mantenha a bomba longe das áreas de fogo anteriores."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20478 = "Armagedom"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20478 =
+        "Aos 5% de vida, Barão Geddon prepara uma enorme explosão de Fogo. Derrote-o em até 8 segundos para impedi-la."
     IJ_DB_RAID_MC_BOSS_NAME_12264 = "Shazzrah"
     IJ_DB_RAID_MC_BOSS_STORY_12264 =
         "De todos os despertadores de chamas que seguiram Ragnaros até o mundo de Azeroth, Shazzrah é o mais talentoso no reino do arcano. Ele está ciente de que seu colega Barão Geddon suspeita de traição do elemental Garr. O conflito entre o Barão Geddon e Garr combina bem com Shazzrah, pois na verdade é Shazzrah quem busca possuir as duas metades do Talismã da Ligação Elemental para que ele possa encontrar uma maneira de drenar suas energias para seu próprio uso. Ragnaros provavelmente estava ciente da tendência de seu subordinado para a duplicidade quando dividiu o talismã ao meio e confiou as peças ao Barão Geddon e Garr."
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19712 = "Explosão Arcana"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19712 =
+        "Causa dano Arcano aos inimigos em um raio de 30 metros de Shazzrah."
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19713 = "Maldição de Shazzrah"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19713 =
+        "Aumenta o dano mágico recebido pelos inimigos próximos em 100% por 5 minutos. Remova a maldição rapidamente."
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19714 = "Amortecer Magia"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19714 =
+        "Reduz o dano mágico recebido por Shazzrah em 50% por 30 segundos. Remova o benefício com uma dissipação ofensiva."
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19715 = "Contrafeitiço"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19715 =
+        "Interrompe os inimigos próximos que estejam conjurando e impede a conjuração de feitiços da escola interrompida por 10 segundos. Planeje suas conjurações para evitar a interrupção."
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_23139 = "Portal de Shazzrah"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_23139 =
+        "Shazzrah se teleporta durante o combate. Os tanques devem retomar sua atenção rapidamente após ele mudar de posição."
     IJ_DB_RAID_MC_BOSS_NAME_12098 = "Precursor de Sulfuron"
     IJ_DB_RAID_MC_BOSS_STORY_12098 =
         "Entre os mais favorecidos dos despertadores, Sulfuron Harbinger é o terrível arauto do próprio Ragnaros. Das profundezas infernais do Núcleo Derretido, o Precursor comanda o Embaixador Flamelash e os outros despertadores de chamas menores no mundo exterior. Sulfuron Harbinger responde apenas a Executus e guarda a runa de Koro, uma das várias runas que capacitam os servos do Senhor do Fogo. Sulfuron Harbinger mantém Shazzrah em particular sob vigilância, acreditando que Shazzrah procura trair Ragnaros. Ladeado por quatro dos sacerdotes mais fervorosos do Senhor do Fogo, o Precursor se prepara para o dia em que o senhor elemental do fogo reivindicará o mundo de Azeroth para si."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19778 = "Brado Desmoralizador"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19778 =
+        "Reduz o poder de ataque corpo a corpo e à distância dos inimigos próximos em 300 por 30 segundos."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19779 = "Inspirar"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19779 =
+        "Fortalece Sulfuron ou um Sacerdote Ardilante próximo, aumentando o dano físico causado em 25% e a velocidade de ataque corpo a corpo em 100% por 10 segundos."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19780 = "Mão de Ragnaros"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19780 =
+        "Causa dano de Fogo aos inimigos em um raio de 10 metros de Sulfuron, repelindo-os e atordoando-os por 2 segundos."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19781 = "Lança Flamejante"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19781 =
+        "Arremessa uma lança flamejante em um inimigo, causando dano de Fogo ao alvo e a outros inimigos em um raio de 10 metros dele. Espalhem-se para limitar o dano."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19777 = "Golpe Sombrio"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19777 =
+        "Atinge um inimigo com um ataque de arma fortalecido que causa dano de Sombra."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19775 = "Recomposição Sombria"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19775 =
+        "Sacerdotes Ardilantes conjuram uma cura poderosa em um aliado. Interrompa a conjuração de 2 segundos."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19776 = "Palavra Sombria: Dor"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19776 =
+        "Sacerdotes Ardilantes aplicam um efeito que causa dano de Sombra a cada 3 segundos por 18 segundos. Dissipe o efeito mágico."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_20294 = "Imolar"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_20294 =
+        "Sacerdotes Ardilantes causam dano de Fogo e aplicam um efeito que causa dano de Fogo adicional a cada 3 segundos por 21 segundos. Dissipe o efeito mágico."
+    IJ_DB_RAID_MC_BOSS_12098_NAME_flamewakerpriests = "Sacerdotes Ardilantes"
+    IJ_DB_RAID_MC_BOSS_12098_DESCRIPTION_flamewakerpriests =
+        "Quatro Sacerdotes Ardilantes acompanham Sulfuron. Interrompa suas curas e dissipe seus efeitos mágicos nocivos."
+    IJ_DB_RAID_MC_BOSS_12098_NAME_sonsofflame = "Filhos da Chama"
+    IJ_DB_RAID_MC_BOSS_12098_DESCRIPTION_sonsofflame =
+        "Sulfuron invoca Filhos da Chama durante toda a luta, inclusive após os quatro Sacerdotes Ardilantes serem derrotados."
     IJ_DB_RAID_MC_BOSS_NAME_11988 = "Golemagg, o Incinerador"
     IJ_DB_RAID_MC_BOSS_STORY_11988 =
         "Os soldados mais temidos das forças elementais de Ragnaros são os gigantes derretidos, e entre eles Golemagg, o Incinerador, é incomparável por sua brutalidade e eficiência selvagem. O poder do gigante derretido é tão absoluto que ele intimidou dois furiosos centrais - descendentes da besta colossal Magmadar - que ele agora usa como animais de estimação. Por esta afronta, ele conquistou a ira eterna e inabalável de Magmadar, embora a temível criatura ainda não tenha agido de acordo com seus impulsos selvagens."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_13880 = "Borrifo de Magma"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_13880 =
+        "Causa dano de Fogo e aplica um efeito cumulativo que causa dano de Fogo adicional ao longo do tempo e reduz a armadura."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_20228 = "Piroexplosão"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_20228 =
+        "Lança uma explosão flamejante em um inimigo, causando dano de Fogo e dano de Fogo adicional a cada 3 segundos por 12 segundos."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19798 = "Terremoto"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19798 =
+        "Causa dano Físico aos inimigos em um raio de 18 metros de Golemagg. Ele começa a usar Terremoto perto de 25% de vida."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19953 = "Enfurecer"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19953 =
+        "Aos 25% de vida, Golemagg recebe Enfurecer, aumentando o dano físico causado em 500 e a velocidade de ataque corpo a corpo em 50% por 10 segundos."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_20553 = "Confiança de Golemagg"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_20553 =
+        "Fortalece os Furiosos do Núcleo próximos, aumentando o dano físico causado em 500 e a velocidade de ataque corpo a corpo em 50%. Mantenha os lacaios longe de Golemagg para evitar esse benefício."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19820 = "Destroçar"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19820 =
+        "Furiosos do Núcleo aplicam um efeito que causa dano Físico a cada 2 segundos e reduz a velocidade de movimento em 50% por 20 segundos."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_45998 = "Furiosos Desacorrentados"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_45998 =
+        "Aos 60% de vida de Golemagg, os Furiosos do Núcleo se libertam e começam a trocar de alvo. Sua velocidade de movimento é reduzida em 25%. Os tanques podem provocá-los para recuperar sua atenção."
+    IJ_DB_RAID_MC_BOSS_11988_NAME_coreragers = "Furiosos do Núcleo"
+    IJ_DB_RAID_MC_BOSS_11988_DESCRIPTION_coreragers =
+        "Dois Furiosos do Núcleo acompanham Golemagg. Mantenha-os sob controle de tanques, separados do chefe."
     IJ_DB_RAID_MC_BOSS_NAME_65020 = "Golens Gêmeos"
-    IJ_DB_RAID_MC_BOSS_STORY_65020 = "Além de seu status confirmado como guardiões do domínio do Senhor do Fogo, a história dos Golems Gêmeos permanece totalmente sem registro."
+    IJ_DB_RAID_MC_BOSS_STORY_65020 =
+        "Basalthar e Smoldaris são golens gêmeos encontrados no Núcleo Derretido. Associados aos anões Ferro Negro, lutam juntos com golpes esmagadores e torrentes de chamas."
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47375 = "Baluarte Derretido"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47375 =
+        "Os golens alternam um escudo que reduz o dano recebido em 95% e causa 200 de dano de Fogo aos atacantes corpo a corpo quando atingido, por 15 segundos. Passe a atacar o golem sem o escudo."
+    IJ_DB_RAID_MC_BOSS_65020_NAME_basalthar = "Basalthar"
+    IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_basalthar =
+        "Basalthar luta ao lado de Smoldaris. Os golens compartilham vida e são derrotados juntos."
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47373 = "Revés Amplo"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47373 =
+        "Basalthar atinge um inimigo e aliados próximos com um ataque físico, repelindo-os."
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47374 = "Impacto Esmagador"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47374 =
+        "Basalthar reduz a armadura de um inimigo em 50% e o atordoa por 5 segundos."
+    IJ_DB_RAID_MC_BOSS_65020_NAME_smoldaris = "Smoldaris"
+    IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_smoldaris =
+        "Smoldaris dá apoio a Basalthar com ataques de Fogo."
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47377 = "Jorro de Chamas"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47377 =
+        "Smoldaris canaliza por 8 segundos, causando dano de Fogo aos inimigos próximos a cada segundo."
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47378 = "Fogo de Cobertura"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47378 =
+        "Smoldaris causa dano de Fogo aos inimigos próximos a cada segundo por 3 segundos."
     IJ_DB_RAID_MC_BOSS_NAME_57642 = "Feiticeiro-Thane Thaurissan"
     IJ_DB_RAID_MC_BOSS_NAME_12018 = "Majordomo Executus"
     IJ_DB_RAID_MC_BOSS_STORY_12018 =
         "No topo da hierarquia elemental, logo abaixo do próprio Ragnaros, reside Majordomo Executus. Este despertador de chamas ganhou seu status exaltado ao provar ser quase invencível nas batalhas que ocorreram no plano elemental. Há rumores de que Executus suplantou o Barão Geddon, e os dois são rivais desde então. Embora este boato ainda não tenha sido confirmado, certamente não há dúvida de que Ragnaros não tolera o fracasso. Assim, os despertadores de chamas menores (e, claro, o Barão Geddon) aguardam ansiosamente um passo em falso de Executus, antecipando sua chance de disputar a cobiçada atenção do Senhor do Fogo."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20229 = "Onda de Impacto"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20229 =
+        "Causa dano de Fogo aos inimigos em um raio de 10 metros e reduz sua velocidade de movimento em 50% por 8 segundos."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20618 = "Teleporte"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20618 =
+        "Teleporta um inimigo para o meio de brasas ardentes. Saia do fogo imediatamente."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20619 = "Reflexão Mágica"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20619 =
+        "Concede aos aliados próximos 50% de chance de refletir feitiços nocivos por 10 segundos. Pare de lançar feitiços nocivos nos alvos protegidos pelo escudo."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_21075 = "Escudo de Dano"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_21075 =
+        "Protege os lacaios próximos por 10 segundos, causando 100 de dano Arcano aos atacantes que os atingirem. Evite ataques com armas contra alvos protegidos pelo escudo."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20620 = "Égide de Ragnaros"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20620 =
+        "Protege Majordomo por até 300 segundos, absorvendo até 30000 de dano Físico ou mágico e causando 250 de dano aos atacantes corpo a corpo. O feitiço também restaura sua vida."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20603 = "Choque Sombrio"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20603 =
+        "Curandeiros Ardilantes causam dano de Sombra aos inimigos em um raio de 20 metros."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_21077 = "Seta Sombria"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_21077 =
+        "Curandeiros Ardilantes lançam um projétil de dano de Sombra em um inimigo. Interrompa a conjuração."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_19632 = "Cutilada"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_19632 =
+        "Elites Ardilantes atingem um inimigo e aliados próximos com um ataque de arma fortalecido."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20420 = "Bola de Fogo"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20420 =
+        "Elites Ardilantes lançam uma Bola de Fogo em um inimigo, causando dano de Fogo."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20623 = "Impacto de Fogo"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20623 =
+        "Elites Ardilantes atingem instantaneamente um inimigo com dano de Fogo."
+    IJ_DB_RAID_MC_BOSS_12018_NAME_flamewakerhealers = "Curandeiros Ardilantes"
+    IJ_DB_RAID_MC_BOSS_12018_DESCRIPTION_flamewakerhealers =
+        "Quatro Curandeiros Ardilantes acompanham Majordomo e podem ser controlados com Polimorfia. Quando quatro dos oito lacaios morrem, as Polimorfias existentes são quebradas e os lacaios sobreviventes ficam imunes a Polimorfia."
+    IJ_DB_RAID_MC_BOSS_12018_NAME_flamewakerelites = "Elites Ardilantes"
+    IJ_DB_RAID_MC_BOSS_12018_DESCRIPTION_flamewakerelites =
+        "Quatro Elites Ardilantes acompanham Majordomo. Derrote os oito lacaios para forçar Majordomo a se render."
     IJ_DB_RAID_MC_BOSS_NAME_11502 = "Ragnaros"
     IJ_DB_RAID_MC_BOSS_STORY_11502 =
         "Deitado no sopé da Montanha Rocha Negra, Ragnaros está se esforçando para encontrar um caminho para casa, bem como para reunir forças mais uma vez para poder queimar Azeroth e tomá-la para si. Enquanto isso, em Sulfuron Keep e em outros lugares das Terras do Fogo, seus príncipes elementais lutam constantemente pelo domínio. Ele e seus asseclas anões assumiram o controle das profundezas vulcânicas da montanha Rocha Negra e travaram guerra contra os orcs no Pináculo da Rocha Negra Superior, que serviu como sede de poder para Nefarian, o dragão negro. Ragnaros descobriu o segredo para criar vida a partir da pedra e planeja construir um exército de golens imparáveis ​​para ajudá-lo a conquistar toda a Montanha Rocha Negra."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20564 = "Fogo Elemental"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20564 =
+        "Causa dano de Fogo a um inimigo e aplica dano de Fogo adicional a cada segundo por 8 segundos."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058 = "Fogo Elemental"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058 =
+        "Causa dano de Fogo aos inimigos em uma área de 10 metros. Espalhem-se para limitar o dano."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20566 = "Ira de Ragnaros"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20566 =
+        "Causa dano de Fogo aos inimigos em um raio de 25 metros de Ragnaros e os repele. Os tanques devem estar prontos para voltar ao alcance corpo a corpo."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21154 = "Poder de Ragnaros"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21154 =
+        "Invoca uma Chama de Ragnaros que usa Calor Intenso."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21155 = "Calor Intenso"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21155 =
+        "Chamas de Ragnaros liberam uma rajada de Fogo que pode causar dano e repelir os inimigos próximos."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20565 = "Explosão de Magma"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20565 =
+        "Atinge um inimigo com muito dano de Fogo a longa distância."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21388 = "Derreter Arma"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21388 =
+        "Danifica a durabilidade da arma afetada."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_26234 = "Submergir"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_26234 =
+        "Com aproximadamente 50% de vida, Ragnaros submerge e invoca dez Filhos da Chama. Derrote os lacaios e prepare-se para seu retorno."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20568 = "Emergir"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20568 =
+        "Ragnaros emerge após a fase dos Filhos da Chama e retoma a luta."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21857 = "Escudo de Lava"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21857 =
+        "Filhos da Chama causam dano de Fogo aos atacantes corpo a corpo e queimam periodicamente 150 de mana dos inimigos em um raio de 10 metros, causando dano de Fogo igual à metade da mana queimada. Mantenha os usuários de mana longe dos lacaios."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21158 = "Explosão de Lava"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21158 =
+        "Erupções de lava do ambiente causam dano de Fogo na área do encontro. Evite a lava."
+    IJ_DB_RAID_MC_BOSS_11502_NAME_sonsofflame = "Filhos da Chama"
+    IJ_DB_RAID_MC_BOSS_11502_DESCRIPTION_sonsofflame =
+        "Dez Filhos da Chama aparecem durante a fase submersa. Derrote-os enquanto Ragnaros estiver submerso."
+    IJ_DB_RAID_MC_BOSS_11502_NAME_environment = "Ambiente"
+    IJ_DB_RAID_MC_BOSS_11502_DESCRIPTION_environment =
+        "A lava ao redor de Ragnaros permanece perigosa durante todo o encontro."
 
     -- ES
     IJ_DB_RAID_ES_NAME = "Santuário Esmeralda"
@@ -2206,7 +2466,25 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_SWR_BOSS_STORY_62670 =
         "Esta abominação assustadora nasceu da intenção cruel do Concílio das Sombras, manifestando-se como uma massa de jovens almas atormentadas. O'jin e outros espíritos sensíveis podem ouvir os gritos dessas pobres crianças, que foram usadas como matéria-prima para os vis experimentos do Conselho. Somente matando esta abominação as almas inocentes poderão finalmente ser libertadas."
     IJ_DB_RAID_MC_BOSS_STORY_57642 =
-        "O Feiticeiro-Thane Thaurissan foi o líder dos feiticeiros sombrios do clã Ferro Negro antes e durante a Guerra dos Três Martelos. Ele foi o responsável por convocar o Senhor do Fogo Ragnaros para Azeroth."
+        "Durante a Guerra dos Três Martelos, o Feiticeiro-Thane Thaurissan tentou salvar o clã Ferro Negro da derrota invocando um servo poderoso. Em vez disso, libertou Ragnaros, cuja chegada ergueu a Montanha Rocha Negra, matou Thaurissan e deixou os Ferro Negro sobreviventes escravizados. Agora encontrado como um morto-vivo no Núcleo Derretido, o Primeiro Imperador permanece entre as ameaças a serviço do Senhor do Fogo."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52722 = "Ruptura Arcana"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52722 =
+        "Causa dano Arcano a um inimigo e aumenta o dano Arcano recebido por ele em 5% por 30 segundos."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52723 = "Barragem Arcana"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52723 =
+        "Lança um projétil Arcano em um inimigo, causando dano e repelindo-o."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52724 = "Runa de Poder"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52724 =
+        "Permanecer dentro da runa aumenta o dano causado em 30%, reduz o dano de Fogo recebido em 70% e reduz o dano recebido de outras escolas em 20%. Entre para Runa de Combustão e saia para Runa de Detonação."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52725 = "Runa de Detonação"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52725 =
+        "Marca os inimigos para detonar após 6 segundos, causando dano Arcano. Saia da Runa de Poder antes que a marca detone para evitar dano aumentado."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52726 = "Runa de Combustão"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52726 =
+        "Marca os inimigos para detonar após 6 segundos, causando muito dano de Fogo. Entre na Runa de Poder e permaneça dentro dela até a marca detonar para reduzir o dano."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52727 = "Imagem Espelhada"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52727 =
+        "Aos 50% de vida, Thaurissan invoca uma imagem de si mesmo que também conjura Ruptura Arcana e Barragem Arcana."
     IJ_DB_RAID_KARA40_BOSS_STORY_59981 =
         "Um Draenei cujo espírito foi ainda mais fraturado pelas anomalias espaciais nesta ala da torre. Preso na Rocha da Desolação, Sanv Tas'dal foi levado a um desespero selvagem, empunhando os restos de sua herança xamânica e vodu sombrio para defender seu escasso território de quaisquer intrusos."
     IJ_DB_RAID_BWL_BOSS_STORY_ezzel =

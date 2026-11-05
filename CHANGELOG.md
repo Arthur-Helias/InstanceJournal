@@ -2,61 +2,19 @@
 
 All changes to this project will be documented in this file.
 
-## [Unreleased]
+## [1.4.4] - 2026-11-05
 
 ### Added
 
-- Added Quaking Stomp, Fire Nova, and Molten Bite to the Incindis encounter, with Molten Armor as a sub-ability of Molten Bite
-- Added English ability names and descriptions for Incindis, highlighting the Stomp-to-Nova sequence and tank-related effects
-- Added Shadow Shock, Impending Doom, and Lucifron's Curse to the Lucifron encounter, with Dominate Mind and Cleave grouped under Flamewaker Protectors
-- Added English ability names and descriptions for Lucifron and the Flamewaker Protectors, highlighting magic and curse removal
-- Added Enrage to the Flamewaker Protectors in the Lucifron encounter
-- Added Panic, Frenzy, Lava Breath, Lava Bomb, and Magma Spit to the Magmadar encounter
-- Added English ability names and descriptions for Magmadar, highlighting fear removal, Tranquilizing Shot, and Magma Spit stacks
-- Added Conflagration as a sub-ability of Magmadar's Lava Bomb
-
-- Added Molten Bulwark and the attacks of Basalthar and Smoldaris to the Twin Golems encounter
-- Added English descriptions for the Twin Golems, including shared health and target switching during Molten Bulwark
-
-- Added Arcane Rupture, Arcane Barrage, Rune of Power, Rune of Detonation, Rune of Combustion, and Mirror Image to the Thaurissan encounter
-- Added English descriptions for Thaurissan, highlighting rune positioning and the image summoned at 50% health
-
-- Added Antimagic Pulse, Magma Shackles, and stacking Enrage to the Garr encounter
-- Added Firesworn abilities and descriptions covering Immolate, Eruption, and Separation Anxiety
-
-- Added Ignite Mana, Inferno, Living Bomb, and Armageddon to the Baron Geddon encounter
-- Added Explosion, Molten Ground, and Catastrophic Reaction under Living Bomb, with bomb placement guidance and the final phase at 5% health
-
-- Added Arcane Explosion, Shazzrah's Curse, Deaden Magic, Counterspell, and Gate of Shazzrah to the Shazzrah encounter
-- Added descriptions covering curse removal, offensive dispelling, casting precautions, and repositioning after teleportation
-
-- Added Demoralizing Shout, Inspire, Hand of Ragnaros, Flame Spear, and Dark Strike to the Sulfuron Harbinger encounter
-- Added Flamewaker Priest abilities, highlighting Dark Mending interrupts and magic removal for Shadow Word: Pain and Immolate
-- Added Sons of Flame to the Sulfuron Harbinger encounter, noting that summons continue after the Flamewaker Priests are defeated
-
-- Added Magma Splash, Pyroblast, Earthquake, Enrage, and Golemagg's Trust to the Golemagg encounter
-- Added Core Rager abilities, describing Ragers Unchained at 60% health, taunt recovery, and Golemagg's Enrage phase at 25% health
-
-- Added Majordomo Executus abilities and the attacks of his Flamewaker Healers and Elites
-- Added guidance for shields, teleportation, surrender, and Polymorph breaking after four adds are defeated
-
-- Added Ragnaros abilities, the Sons of Flame and Lava Shield, and environmental Lava Burst
-- Added guidance for the submerged phase near 50% health, ten Sons of Flame, knockback, and weapon durability damage
+- Added missing abilities to Molten Core encounters
+- Added translations for Molten Core abilities and updated lore in all supported locales
 
 ### Changed
 
-- Clarified that Firesworn moved too far from Garr can gain Separation Anxiety
+- Expanded `Thaurissan`'s lore with the consequences of summoning `Ragnaros` and his appearance as the undead `First Emperor`
+- Updated the `Twin Golems` and `Incindis` lore
 
-- Expanded Thaurissan's English lore with the consequences of summoning Ragnaros and his appearance as the undead First Emperor
-
-- Updated the Twin Golems' English lore to identify Basalthar and Smoldaris and their association with the Dark Iron dwarves
-
-- Updated Incindis' English lore description to identify him as an ancient incendosaur and describe his lair as a hatching ground
-- Documented Lucifron's Protector restoration and Enrage behavior at 50% and 20% health
-- Updated Panic's English description to mention Fear Ward as a way to prevent the fear effect
-- Updated Lava Bomb's English description to explain its ground fire and avoidance
-
-## [1.4.3] - 2026-11-26
+## [1.4.3] - 2026-11-04
 
 ### Changed
 
