@@ -3544,6 +3544,42 @@ IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52727 =
 IJ_DB_RAID_MC_BOSS_NAME_12018 = "Majordomo Executus"
 IJ_DB_RAID_MC_BOSS_STORY_12018 =
     "At the top of the elemental hierarchy, just beneath Ragnaros himself, resides Majordomo Executus. This flamewaker gained his exalted status by proving to be nearly invincible in the battles that raged within the elemental plane. Rumor has it that Executus supplanted Baron Geddon, and the two have been rivals ever since. Although this rumor has yet to be confirmed, there is certainly no doubt that Ragnaros does not tolerate failure. Thus, the lesser flamewakers (and, of course, Baron Geddon) eagerly await a misstep by Executus, anticipating their chance to vie for the coveted attention of the Firelord."
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20229 = "Blast Wave"
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20229 =
+    "Deals Fire damage to enemies within 10 yards and reduces their movement speed by 50% for 8 seconds."
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20618 = "Teleport"
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20618 =
+    "Teleports an enemy into burning coals. Move out of the fire immediately."
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20619 = "Magic Reflection"
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20619 =
+    "Grants nearby allies a 50% chance to reflect harmful spells for 10 seconds. Stop casting harmful spells at shielded targets."
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_21075 = "Damage Shield"
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_21075 =
+    "Shields nearby minions for 10 seconds, dealing 100 Arcane damage to attackers who strike them. Avoid weapon attacks against shielded targets."
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20620 = "Aegis of Ragnaros"
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20620 =
+    "Shields Majordomo for up to 300 seconds, absorbing up to 30000 Physical or magical damage and dealing 250 damage to melee attackers. The spell also restores his health."
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20603 = "Shadow Shock"
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20603 =
+    "Flamewaker Healers deal Shadow damage to enemies within 20 yards."
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_21077 = "Shadow Bolt"
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_21077 =
+    "Flamewaker Healers cast a bolt of Shadow damage at an enemy. Interrupt the cast."
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_19632 = "Cleave"
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_19632 =
+    "Flamewaker Elites strike an enemy and nearby allies with an empowered weapon attack."
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20420 = "Fireball"
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20420 =
+    "Flamewaker Elites cast a Fireball at an enemy, dealing Fire damage."
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20623 = "Fire Blast"
+IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20623 =
+    "Flamewaker Elites instantly blast an enemy with Fire damage."
+IJ_DB_RAID_MC_BOSS_12018_NAME_flamewakerhealers = "Flamewaker Healers"
+IJ_DB_RAID_MC_BOSS_12018_DESCRIPTION_flamewakerhealers =
+    "Four Flamewaker Healers accompany Majordomo and can be controlled with Polymorph. When four of the eight adds die, existing Polymorphs break and the surviving adds become immune to Polymorph."
+IJ_DB_RAID_MC_BOSS_12018_NAME_flamewakerelites = "Flamewaker Elites"
+IJ_DB_RAID_MC_BOSS_12018_DESCRIPTION_flamewakerelites =
+    "Four Flamewaker Elites accompany Majordomo. Defeat all eight adds to force Majordomo to surrender."
 IJ_DB_RAID_MC_BOSS_NAME_11502 = "Ragnaros"
 IJ_DB_RAID_MC_BOSS_STORY_11502 =
     "Lying at the bottom of Blackrock Mountain, Ragnaros is striving to find a way home, as well as to gather his strength once again so he can burn away Azeroth and take it for his own. Meanwhile, in Sulfuron Keep and elsewhere across the Firelands, his elemental princes battle constantly for dominance. He and his dwarven minions took control of the Blackrock mountain's volcanic depths and made war on the orcs in the Upper Blackrock Spire, which served as the seat of power for Nefarian the black dragon. Ragnaros has uncovered the secret to creating life from stone and plans to build an army of unstoppable golems to aid him in conquering the whole of Blackrock Mountain."

@@ -37,6 +37,9 @@ All changes to this project will be documented in this file.
 - Added Magma Splash, Pyroblast, Earthquake, Enrage, and Golemagg's Trust to the Golemagg encounter
 - Added Core Rager abilities, describing Ragers Unchained at 60% health, taunt recovery, and Golemagg's Enrage phase at 25% health
 
+- Added Majordomo Executus abilities and the attacks of his Flamewaker Healers and Elites
+- Added guidance for shields, teleportation, surrender, and Polymorph breaking after four adds are defeated
+
 ### Changed
 
 - Clarified that Firesworn moved too far from Garr can gain Separation Anxiety

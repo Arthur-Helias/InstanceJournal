@@ -945,6 +945,93 @@ MC.Bosses = {
         Story = IJ_DB_RAID_MC_BOSS_STORY_12018,
         MapCoordinateX = 79.3,
         MapCoordinateY = 70.8,
+        Abilities = {
+            [1] = {
+                Id = "20229",
+                Icon = "Spell_Holy_Excorcism_02",
+                Name = IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20229,
+                Effect = IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20229
+            },
+            [2] = {
+                Id = "20618",
+                Icon = "Spell_Arcane_Blink",
+                Name = IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20618,
+                Effect = IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20618,
+                Flags = {IMAF.Important}
+            },
+            [3] = {
+                Id = "20619",
+                Icon = "Spell_Frost_FrostShock",
+                Name = IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20619,
+                Effect = IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20619,
+                Flags = {IMAF.Important}
+            },
+            [4] = {
+                Id = "21075",
+                Icon = "Spell_Nature_LightningShield",
+                Name = IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_21075,
+                Effect = IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_21075,
+                Flags = {IMAF.Important}
+            },
+            [5] = {
+                Id = "20620",
+                Icon = "Spell_Shadow_AntiShadow",
+                Name = IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20620,
+                Effect = IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20620
+            },
+            [6] = {
+                Id = "flamewakerhealers",
+                Name = IJ_DB_RAID_MC_BOSS_12018_NAME_flamewakerhealers,
+                Effect = IJ_DB_RAID_MC_BOSS_12018_DESCRIPTION_flamewakerhealers,
+                SubAbilities = {
+                    [1] = {
+                        Id = "20603",
+                        Icon = "Spell_Shadow_ShadowBolt",
+                        Name = IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20603,
+                        Effect = IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20603
+                    },
+                    [2] = {
+                        Id = "21077",
+                        Icon = "Spell_Shadow_ShadowBolt",
+                        Name = IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_21077,
+                        Effect = IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_21077,
+                        Flags = {IMAF.Interruptible}
+                    }
+                }
+            },
+            [7] = {
+                Id = "flamewakerelites",
+                Name = IJ_DB_RAID_MC_BOSS_12018_NAME_flamewakerelites,
+                Effect = IJ_DB_RAID_MC_BOSS_12018_DESCRIPTION_flamewakerelites,
+                SubAbilities = {
+                    [1] = {
+                        Id = "19632",
+                        Icon = "Ability_Warrior_Cleave",
+                        Name = IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_19632,
+                        Effect = IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_19632,
+                        Flags = {IMAF.Tank}
+                    },
+                    [2] = {
+                        Id = "20229",
+                        Icon = "Spell_Holy_Excorcism_02",
+                        Name = IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20229,
+                        Effect = IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20229
+                    },
+                    [3] = {
+                        Id = "20420",
+                        Icon = "Spell_Fire_FlameBolt",
+                        Name = IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20420,
+                        Effect = IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20420
+                    },
+                    [4] = {
+                        Id = "20623",
+                        Icon = "Spell_Fire_Fireball",
+                        Name = IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20623,
+                        Effect = IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20623
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18806], DropChance = 20},
             [2] = {IJDB.I[18809], DropChance = 20},
