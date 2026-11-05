@@ -26,6 +26,8 @@ All changes to this project will be documented in this file.
 
 ### Changed
 
+- Clarified that Firesworn moved too far from Garr can gain Separation Anxiety
+
 - Expanded Thaurissan's English lore with the consequences of summoning Ragnaros and his appearance as the undead First Emperor
 
 - Updated the Twin Golems' English lore to identify Basalthar and Smoldaris and their association with the Dark Iron dwarves

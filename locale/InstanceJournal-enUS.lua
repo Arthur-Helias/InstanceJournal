@@ -3390,7 +3390,7 @@ IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19497 =
     "When a Firesworn dies, it explodes, dealing Fire damage and knocking back enemies within 15 yards. Move away from adds that are about to die."
 IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_23492 = "Separation Anxiety"
 IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_23492 =
-    "Firesworn can gain a buff that increases damage dealt by 300% and grants immunity to Banish for 5 seconds."
+    "Firesworn moved too far from Garr can gain Separation Anxiety, increasing damage dealt by 300% and granting immunity to Banish for 5 seconds. Keep them close to Garr."
 IJ_DB_RAID_MC_BOSS_12057_NAME_firesworn = "Firesworn"
 IJ_DB_RAID_MC_BOSS_12057_DESCRIPTION_firesworn =
     "Garr is accompanied by eight Firesworn. Defeating them empowers Garr."
