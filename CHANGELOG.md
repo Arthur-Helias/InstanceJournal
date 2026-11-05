@@ -21,6 +21,9 @@ All changes to this project will be documented in this file.
 - Added Arcane Rupture, Arcane Barrage, Rune of Power, Rune of Detonation, Rune of Combustion, and Mirror Image to the Thaurissan encounter
 - Added English descriptions for Thaurissan, highlighting rune positioning and the image summoned at 50% health
 
+- Added Antimagic Pulse, Magma Shackles, and stacking Enrage to the Garr encounter
+- Added Firesworn abilities and descriptions covering Immolate, Eruption, and Separation Anxiety
+
 ### Changed
 
 - Expanded Thaurissan's English lore with the consequences of summoning Ragnaros and his appearance as the undead First Emperor

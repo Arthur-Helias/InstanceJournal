@@ -279,7 +279,7 @@ MC.Bosses = {
             [34] = {IJDB.I[19144], DropChance = 5}
         }
     },
-    [4] = { -- NOTE: Missing abilities
+    [4] = {
         Id = "12057",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "garr" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "garr" .. IMPF,
@@ -287,6 +287,57 @@ MC.Bosses = {
         Story = IJ_DB_RAID_MC_BOSS_STORY_12057,
         MapCoordinateX = 32.7,
         MapCoordinateY = 74.8,
+        Abilities = {
+            [1] = {
+                Id = "19492",
+                Icon = "Spell_Holy_DispelMagic",
+                Name = IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19492,
+                Effect = IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19492,
+                Flags = {IMAF.Important}
+            },
+            [2] = {
+                Id = "19496",
+                Icon = "Spell_Nature_EarthBind",
+                Name = IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19496,
+                Effect = IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19496,
+                Flags = {IMAF.Magic}
+            },
+            [3] = {
+                Id = "19516",
+                Icon = "Ability_Warrior_BattleShout",
+                Name = IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19516,
+                Effect = IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19516,
+                Flags = {IMAF.Tank, IMAF.Important}
+            },
+            [4] = {
+                Id = "firesworn",
+                Name = IJ_DB_RAID_MC_BOSS_12057_NAME_firesworn,
+                Effect = IJ_DB_RAID_MC_BOSS_12057_DESCRIPTION_firesworn,
+                SubAbilities = {
+                    [1] = {
+                        Id = "20294",
+                        Icon = "Spell_Fire_Immolation",
+                        Name = IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_20294,
+                        Effect = IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_20294,
+                        Flags = {IMAF.Magic}
+                    },
+                    [2] = {
+                        Id = "19497",
+                        Icon = "Spell_Fire_Volcano",
+                        Name = IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19497,
+                        Effect = IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19497,
+                        Flags = {IMAF.Important}
+                    },
+                    [3] = {
+                        Id = "23492",
+                        Icon = "Spell_Fire_LavaSpawn",
+                        Name = IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_23492,
+                        Effect = IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_23492,
+                        Flags = {IMAF.Tank, IMAF.Important}
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[17782], DropChance = 4},
             [2] = {IJDB.I[18564], DropChance = 5},

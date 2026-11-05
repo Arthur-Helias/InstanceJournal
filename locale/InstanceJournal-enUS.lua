@@ -3373,6 +3373,27 @@ IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19450 =
 IJ_DB_RAID_MC_BOSS_NAME_12057 = "Garr"
 IJ_DB_RAID_MC_BOSS_STORY_12057 =
     "As one of the two chief lieutenants serving under Ragnaros, Garr plays a key role in the current success of the Firelord and his spreading influence. Garr, like Baron Geddon, holds half of Bindings of the Windseeker, which contains the remaining essence of Thunderaan, Prince of Air. Tales say that after centuries of partnership, Geddon became suspicious of Garr and felt the elemental sought both halves of the talisman. Thus, relations between the two powers are strained. Both Garr and Baron Geddon draw their considerable might from the blazing runes carved deep into the floor of Molten Core."
+IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19492 = "Antimagic Pulse"
+IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19492 =
+    "Removes one beneficial magical effect from nearby enemies."
+IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19496 = "Magma Shackles"
+IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19496 =
+    "Reduces the movement speed of nearby enemies by 60% for 15 seconds. The magical effect can be dispelled."
+IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19516 = "Enrage"
+IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19516 =
+    "Each defeated Firesworn grants Garr a stack of Enrage, increasing his melee attack speed and size."
+IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_20294 = "Immolate"
+IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_20294 =
+    "Firesworn inflict Fire damage and apply an effect that deals additional Fire damage every 3 seconds for 21 seconds. Dispel the magical effect."
+IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19497 = "Eruption"
+IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19497 =
+    "When a Firesworn dies, it explodes, dealing Fire damage and knocking back enemies within 15 yards. Move away from adds that are about to die."
+IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_23492 = "Separation Anxiety"
+IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_23492 =
+    "Firesworn can gain a buff that increases damage dealt by 300% and grants immunity to Banish for 5 seconds."
+IJ_DB_RAID_MC_BOSS_12057_NAME_firesworn = "Firesworn"
+IJ_DB_RAID_MC_BOSS_12057_DESCRIPTION_firesworn =
+    "Garr is accompanied by eight Firesworn. Defeating them empowers Garr."
 IJ_DB_RAID_MC_BOSS_NAME_12056 = "Baron Geddon"
 IJ_DB_RAID_MC_BOSS_STORY_12056 =
     "When Ragnaros was ripped from the Elemental Plane by the Sorcerer-Thane Thaurissan, several subjects from the Firelands followed in his wake. Baron Geddon fought against the titans and aided in the betrayal of Thunderaan, Prince of Air. The Firelord devoured the essence of the prince, but was unable to consume him entirely. Thus, the remaining energies were trapped within a talisman of elemental binding, which Ragnaros split into two perfect halves which he gave to his two lieutenants."
