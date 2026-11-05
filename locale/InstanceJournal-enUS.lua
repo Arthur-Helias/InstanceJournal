@@ -3583,6 +3583,45 @@ IJ_DB_RAID_MC_BOSS_12018_DESCRIPTION_flamewakerelites =
 IJ_DB_RAID_MC_BOSS_NAME_11502 = "Ragnaros"
 IJ_DB_RAID_MC_BOSS_STORY_11502 =
     "Lying at the bottom of Blackrock Mountain, Ragnaros is striving to find a way home, as well as to gather his strength once again so he can burn away Azeroth and take it for his own. Meanwhile, in Sulfuron Keep and elsewhere across the Firelands, his elemental princes battle constantly for dominance. He and his dwarven minions took control of the Blackrock mountain's volcanic depths and made war on the orcs in the Upper Blackrock Spire, which served as the seat of power for Nefarian the black dragon. Ragnaros has uncovered the secret to creating life from stone and plans to build an army of unstoppable golems to aid him in conquering the whole of Blackrock Mountain."
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20564 = "Elemental Fire"
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20564 =
+    "Deals Fire damage to an enemy and applies additional Fire damage every second for 8 seconds."
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058 = "Elemental Fire"
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058 =
+    "Deals Fire damage to enemies within a 10-yard area. Spread out to limit the damage."
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20566 = "Wrath of Ragnaros"
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20566 =
+    "Deals Fire damage to enemies within 25 yards of Ragnaros and knocks them back. Tanks should be ready to return to melee range."
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21154 = "Might of Ragnaros"
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21154 =
+    "Summons a Flame of Ragnaros that uses Intense Heat."
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21155 = "Intense Heat"
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21155 =
+    "Flames of Ragnaros unleash a burst of Fire that can damage and knock back nearby enemies."
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20565 = "Magma Blast"
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20565 =
+    "Blasts an enemy with powerful Fire damage at long range."
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21388 = "Melt Weapon"
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21388 =
+    "Damages the durability of the affected weapon."
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_26234 = "Submerge"
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_26234 =
+    "At approximately 50% health, Ragnaros submerges and summons ten Sons of Flame. Defeat the adds and prepare for his return."
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20568 = "Emerge"
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20568 =
+    "Ragnaros emerges after the Sons of Flame phase and resumes the fight."
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21857 = "Lava Shield"
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21857 =
+    "Sons of Flame deal Fire damage to melee attackers and periodically burn 150 mana from enemies within 10 yards, dealing Fire damage equal to half the mana burned. Keep mana users away from the adds."
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21158 = "Lava Burst"
+IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21158 =
+    "Environmental lava eruptions deal Fire damage in the encounter area. Avoid the lava."
+IJ_DB_RAID_MC_BOSS_11502_NAME_sonsofflame = "Sons of Flame"
+IJ_DB_RAID_MC_BOSS_11502_DESCRIPTION_sonsofflame =
+    "Ten Sons of Flame appear during the submerged phase. Defeat them while Ragnaros is submerged."
+IJ_DB_RAID_MC_BOSS_11502_NAME_environment = "Environment"
+IJ_DB_RAID_MC_BOSS_11502_DESCRIPTION_environment =
+    "Lava around Ragnaros remains dangerous throughout the encounter."
 
 -- MC Loot
 IJ_LOOT_NAME_42178 = "Rite of Resurrection"

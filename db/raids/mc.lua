@@ -1056,6 +1056,97 @@ MC.Bosses = {
         Story = IJ_DB_RAID_MC_BOSS_STORY_11502,
         MapCoordinateX = 55.3,
         MapCoordinateY = 60.3,
+        Abilities = {
+            [1] = {
+                Id = "20564",
+                Icon = "Spell_Fire_Fireball",
+                Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20564,
+                Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20564,
+                Flags = {IMAF.Tank}
+            },
+            [2] = {
+                Id = "44058",
+                Icon = "Spell_Fire_Fireball",
+                Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058,
+                Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058
+            },
+            [3] = {
+                Id = "20566",
+                Icon = "Spell_Fire_SoulBurn",
+                Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20566,
+                Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20566,
+                Flags = {IMAF.Tank, IMAF.Important}
+            },
+            [4] = {
+                Id = "21154",
+                Icon = "Spell_Fire_Fire",
+                Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21154,
+                Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21154,
+                SubAbilities = {
+                    [1] = {
+                        Id = "21155",
+                        Icon = "Spell_Fire_Fire",
+                        Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21155,
+                        Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21155
+                    }
+                }
+            },
+            [5] = {
+                Id = "20565",
+                Icon = "Spell_Fire_FlameBolt",
+                Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20565,
+                Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20565
+            },
+            [6] = {
+                Id = "21388",
+                Icon = "INV_Sword_36",
+                Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21388,
+                Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21388,
+                Flags = {IMAF.Tank}
+            },
+            [7] = {
+                Id = "26234",
+                Icon = "Spell_Fire_LavaSpawn",
+                Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_26234,
+                Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_26234,
+                Flags = {IMAF.Important},
+                SubAbilities = {
+                    [1] = {
+                        Id = "20568",
+                        Icon = "Spell_Fire_LavaSpawn",
+                        Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20568,
+                        Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20568,
+                        Flags = {IMAF.Tank}
+                    }
+                }
+            },
+            [8] = {
+                Id = "sonsofflame",
+                Name = IJ_DB_RAID_MC_BOSS_11502_NAME_sonsofflame,
+                Effect = IJ_DB_RAID_MC_BOSS_11502_DESCRIPTION_sonsofflame,
+                SubAbilities = {
+                    [1] = {
+                        Id = "21857",
+                        Icon = "Spell_Fire_Immolation",
+                        Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21857,
+                        Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21857
+                    }
+                }
+            },
+            [9] = {
+                Id = "environment",
+                Name = IJ_DB_RAID_MC_BOSS_11502_NAME_environment,
+                Effect = IJ_DB_RAID_MC_BOSS_11502_DESCRIPTION_environment,
+                SubAbilities = {
+                    [1] = {
+                        Id = "21158",
+                        Icon = "Spell_Fire_Fire",
+                        Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21158,
+                        Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21158
+                    }
+                }
+            }
+        },
 
         Loot = {
             [1] = {IJDB.I[17204], DropChance = 6},

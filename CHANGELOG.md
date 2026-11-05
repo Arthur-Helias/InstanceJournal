@@ -40,6 +40,9 @@ All changes to this project will be documented in this file.
 - Added Majordomo Executus abilities and the attacks of his Flamewaker Healers and Elites
 - Added guidance for shields, teleportation, surrender, and Polymorph breaking after four adds are defeated
 
+- Added Ragnaros abilities, the Sons of Flame and Lava Shield, and environmental Lava Burst
+- Added guidance for the submerged phase near 50% health, ten Sons of Flame, knockback, and weapon durability damage
+
 ### Changed
 
 - Clarified that Firesworn moved too far from Garr can gain Separation Anxiety
