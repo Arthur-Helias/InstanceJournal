@@ -189,7 +189,7 @@ MC.Bosses = {
             [28] = {IJDB.I[17109], DropChance = 20}
         }
     },
-    [3] = { -- NOTE: Missing abilities
+    [3] = {
         Id = "11982",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "magmadar" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "magmadar" .. IMPF,
@@ -197,6 +197,51 @@ MC.Bosses = {
         Story = IJ_DB_RAID_MC_BOSS_STORY_11982,
         MapCoordinateX = 67.0,
         MapCoordinateY = 32.8,
+        Abilities = {
+            [1] = {
+                Id = "19408",
+                Icon = "Spell_Shadow_DeathScream",
+                Name = IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19408,
+                Effect = IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19408,
+                Flags = {IMAF.Magic, IMAF.Important}
+            },
+            [2] = {
+                Id = "19451",
+                Icon = "Ability_Druid_ChallangingRoar",
+                Name = IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19451,
+                Effect = IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19451,
+                Flags = {IMAF.Enrage, IMAF.Important}
+            },
+            [3] = {
+                Id = "19272",
+                Icon = "Spell_Fire_WindsofWoe",
+                Name = IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19272,
+                Effect = IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19272,
+                Flags = {IMAF.Tank}
+            },
+            [4] = {
+                Id = "19411",
+                Icon = "Spell_Fire_SelfDestruct",
+                Name = IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19411,
+                Effect = IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19411,
+                Flags = {IMAF.Important},
+                SubAbilities = {
+                    [1] = {
+                        Id = "19428",
+                        Icon = "Spell_Fire_Incinerate",
+                        Name = IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19428,
+                        Effect = IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19428,
+                        Flags = {IMAF.Important}
+                    }
+                }
+            },
+            [5] = {
+                Id = "19450",
+                Icon = "Spell_Fire_MeteorStorm",
+                Name = IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19450,
+                Effect = IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19450
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18252], DropChance = 1},
             [2] = {IJDB.I[18257], DropChance = 1},

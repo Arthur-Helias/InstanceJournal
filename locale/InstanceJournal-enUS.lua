@@ -3352,6 +3352,24 @@ IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_44057 =
 IJ_DB_RAID_MC_BOSS_NAME_11982 = "Magmadar"
 IJ_DB_RAID_MC_BOSS_STORY_11982 =
     "A terrifying behemoth composed of igneous rock and roiling magma, Magmadar serves as the origin of the core hounds that roam the earthen halls of Molten Core. Favored among Ragnaros's pets, Magmadar is protected by the flamewaker Lucifron and surrounded by vicious packs of ravenous hounds. It is said that while Ragnaros was imprisoned in the Elemental Plane, the Firelord would feed the remains of his captured enemies to the eagerly awaiting twin maws of Magmadar. As a result, the hound grew strong and loyal, and even now Magmadar's savage ferocity remains uncontested."
+IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19408 = "Panic"
+IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19408 =
+    "Frightens nearby enemies for 8 seconds. Fear Ward can prevent the fear, and the effect can be dispelled if applied."
+IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19451 = "Frenzy"
+IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19451 =
+    "Magmadar frenzies, greatly increasing his melee attack speed. Hunters should remove the frenzy with Tranquilizing Shot."
+IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19272 = "Lava Breath"
+IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19272 =
+    "Magmadar breathes fire at enemies in front of him."
+IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19411 = "Lava Bomb"
+IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19411 =
+    "Throws a lava bomb at an enemy, leaving a patch of fire on the ground. Move out of the fire."
+IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19428 = "Conflagration"
+IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19428 =
+    "The fire left by Lava Bomb applies an effect that deals Fire damage over time. Move out of the affected area."
+IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19450 = "Magma Spit"
+IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19450 =
+    "Inflicts Fire damage and applies a stacking effect that deals additional Fire damage over time."
 IJ_DB_RAID_MC_BOSS_NAME_12057 = "Garr"
 IJ_DB_RAID_MC_BOSS_STORY_12057 =
     "As one of the two chief lieutenants serving under Ragnaros, Garr plays a key role in the current success of the Firelord and his spreading influence. Garr, like Baron Geddon, holds half of Bindings of the Windseeker, which contains the remaining essence of Thunderaan, Prince of Air. Tales say that after centuries of partnership, Geddon became suspicious of Garr and felt the elemental sought both halves of the talisman. Thus, relations between the two powers are strained. Both Garr and Baron Geddon draw their considerable might from the blazing runes carved deep into the floor of Molten Core."
