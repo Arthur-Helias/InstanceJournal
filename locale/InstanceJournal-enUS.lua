@@ -3338,13 +3338,17 @@ IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19703 = "Lucifron's Curse"
 IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19703 =
     "Curses nearby enemies, increasing the resource cost of their spells and abilities. Remove the curse promptly."
 IJ_DB_RAID_MC_BOSS_12118_NAME_flamewakerprotectors = "Flamewaker Protectors"
-IJ_DB_RAID_MC_BOSS_12118_DESCRIPTION_flamewakerprotectors = "Lucifron is accompanied by two Flamewaker Protectors."
+IJ_DB_RAID_MC_BOSS_12118_DESCRIPTION_flamewakerprotectors =
+    "Lucifron is accompanied by two Flamewaker Protectors. At 50% health, he revives fallen Protectors and restores the health of those still alive, who gain Enrage. At 20% health, he restores the health of surviving Protectors and grants them Enrage."
 IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_20604 = "Dominate Mind"
 IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_20604 =
     "Flamewaker Protectors attempt to take control of a player. Dispel the magical effect from the controlled player."
 IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_20605 = "Cleave"
 IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_20605 =
     "Flamewaker Protectors strike an enemy and nearby allies with a physical attack."
+IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_44057 = "Enrage"
+IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_44057 =
+    "Enraged Protectors deal 25% more damage and take 40% less damage."
 IJ_DB_RAID_MC_BOSS_NAME_11982 = "Magmadar"
 IJ_DB_RAID_MC_BOSS_STORY_11982 =
     "A terrifying behemoth composed of igneous rock and roiling magma, Magmadar serves as the origin of the core hounds that roam the earthen halls of Molten Core. Favored among Ragnaros's pets, Magmadar is protected by the flamewaker Lucifron and surrounded by vicious packs of ravenous hounds. It is said that while Ragnaros was imprisoned in the Elemental Plane, the Firelord would feed the remains of his captured enemies to the eagerly awaiting twin maws of Magmadar. As a result, the hound grew strong and loyal, and even now Magmadar's savage ferocity remains uncontested."

@@ -147,6 +147,13 @@ MC.Bosses = {
                         Name = IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_20605,
                         Effect = IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_20605,
                         Flags = {IMAF.Tank}
+                    },
+                    [3] = {
+                        Id = "44057",
+                        Icon = "Spell_Shadow_UnholyFrenzy",
+                        Name = IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_44057,
+                        Effect = IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_44057,
+                        Flags = {IMAF.Tank, IMAF.Important}
                     }
                 }
             }

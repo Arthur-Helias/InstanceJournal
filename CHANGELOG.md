@@ -11,9 +11,12 @@ All changes to this project will be documented in this file.
 - Added Shadow Shock, Impending Doom, and Lucifron's Curse to the Lucifron encounter, with Dominate Mind and Cleave grouped under Flamewaker Protectors
 - Added English ability names and descriptions for Lucifron and the Flamewaker Protectors, highlighting magic and curse removal
 
+- Added Enrage to the Flamewaker Protectors in the Lucifron encounter
+
 ### Changed
 
 - Updated Incindis' English lore description to identify him as an ancient incendosaur and describe his lair as a hatching ground
+- Documented Lucifron's Protector restoration and Enrage behavior at 50% and 20% health
 
 ## [1.4.3] - 2026-11-26
 
