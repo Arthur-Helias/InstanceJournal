@@ -3411,7 +3411,25 @@ IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47378 =
 
 IJ_DB_RAID_MC_BOSS_NAME_57642 = "Sorcerer-Thane Thaurissan"
 IJ_DB_RAID_MC_BOSS_STORY_57642 =
-    "Sorcerer-Thane Thaurissan was the leader of the shadowy sorcerers of the Dark Iron clan before and during the War of the Three Hammers. He was the one responsible for summoning the Firelord Ragnaros into Azeroth."
+    "During the War of the Three Hammers, Sorcerer-Thane Thaurissan sought to save the Dark Iron clan from defeat by summoning a powerful servant. Instead, he unleashed Ragnaros, whose arrival raised Blackrock Mountain, killed Thaurissan, and left the surviving Dark Irons enslaved. Now encountered as an undead figure in Molten Core, the First Emperor remains among the threats serving the Firelord."
+IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52722 = "Arcane Rupture"
+IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52722 =
+    "Deals Arcane damage to an enemy and increases their Arcane damage taken by 5% for 30 seconds."
+IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52723 = "Arcane Barrage"
+IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52723 =
+    "Hurls an Arcane bolt at an enemy, dealing damage and knocking them back."
+IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52724 = "Rune of Power"
+IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52724 =
+    "Standing within the rune increases damage dealt by 30%, reduces Fire damage taken by 70%, and reduces damage taken from other schools by 20%. Enter for Rune of Combustion and move out for Rune of Detonation."
+IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52725 = "Rune of Detonation"
+IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52725 =
+    "Marks enemies to detonate after 6 seconds, dealing Arcane damage. Move out of Rune of Power before the mark detonates to avoid increased damage."
+IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52726 = "Rune of Combustion"
+IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52726 =
+    "Marks enemies to detonate after 6 seconds, dealing heavy Fire damage. Move into Rune of Power and remain inside until the mark detonates to reduce the damage."
+IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52727 = "Mirror Image"
+IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52727 =
+    "At 50% health, Thaurissan summons an image of himself that also casts Arcane Rupture and Arcane Barrage."
 IJ_DB_RAID_MC_BOSS_NAME_12018 = "Majordomo Executus"
 IJ_DB_RAID_MC_BOSS_STORY_12018 =
     "At the top of the elemental hierarchy, just beneath Ragnaros himself, resides Majordomo Executus. This flamewaker gained his exalted status by proving to be nearly invincible in the battles that raged within the elemental plane. Rumor has it that Executus supplanted Baron Geddon, and the two have been rivals ever since. Although this rumor has yet to be confirmed, there is certainly no doubt that Ragnaros does not tolerate failure. Thus, the lesser flamewakers (and, of course, Baron Geddon) eagerly await a misstep by Executus, anticipating their chance to vie for the coveted attention of the Firelord."

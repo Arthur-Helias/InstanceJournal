@@ -18,7 +18,12 @@ All changes to this project will be documented in this file.
 - Added Molten Bulwark and the attacks of Basalthar and Smoldaris to the Twin Golems encounter
 - Added English descriptions for the Twin Golems, including shared health and target switching during Molten Bulwark
 
+- Added Arcane Rupture, Arcane Barrage, Rune of Power, Rune of Detonation, Rune of Combustion, and Mirror Image to the Thaurissan encounter
+- Added English descriptions for Thaurissan, highlighting rune positioning and the image summoned at 50% health
+
 ### Changed
+
+- Expanded Thaurissan's English lore with the consequences of summoning Ragnaros and his appearance as the undead First Emperor
 
 - Updated the Twin Golems' English lore to identify Basalthar and Smoldaris and their association with the Dark Iron dwarves
 

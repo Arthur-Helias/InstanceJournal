@@ -565,7 +565,7 @@ MC.Bosses = {
             [32] = {IJDB.I[58246], DropChance = 100}
         }
     },
-    [10] = { -- NOTE: Missing abilities
+    [10] = {
         Id = "57642",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "sorcerer" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "sorcerer" .. IMPF,
@@ -573,6 +573,62 @@ MC.Bosses = {
         Story = IJ_DB_RAID_MC_BOSS_STORY_57642,
         MapCoordinateX = 88.1,
         MapCoordinateY = 45.0,
+        Abilities = {
+            [1] = {
+                Id = "52722",
+                Icon = "Spell_Arcane_Blast",
+                Name = IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52722,
+                Effect = IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52722
+            },
+            [2] = {
+                Id = "52723",
+                Icon = "Spell_Arcane_StarFire",
+                Name = IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52723,
+                Effect = IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52723
+            },
+            [3] = {
+                Id = "52724",
+                Icon = "Spell_Nature_WispSplode",
+                Name = IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52724,
+                Effect = IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52724,
+                Flags = {IMAF.Important}
+            },
+            [4] = {
+                Id = "52725",
+                Icon = "Spell_Shadow_Teleport",
+                Name = IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52725,
+                Effect = IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52725,
+                Flags = {IMAF.Important}
+            },
+            [5] = {
+                Id = "52726",
+                Icon = "Spell_Fire_SealOfFire",
+                Name = IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52726,
+                Effect = IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52726,
+                Flags = {IMAF.Important}
+            },
+            [6] = {
+                Id = "52727",
+                Icon = "Spell_Shadow_DetectLesserInvisibility",
+                Name = IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52727,
+                Effect = IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52727,
+                Flags = {IMAF.Important},
+                SubAbilities = {
+                    [1] = {
+                        Id = "52722",
+                        Icon = "Spell_Arcane_Blast",
+                        Name = IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52722,
+                        Effect = IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52722
+                    },
+                    [2] = {
+                        Id = "52723",
+                        Icon = "Spell_Arcane_StarFire",
+                        Name = IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52723,
+                        Effect = IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52723
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18252], DropChance = 1},
             [2] = {IJDB.I[18257], DropChance = 1},
