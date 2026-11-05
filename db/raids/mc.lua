@@ -619,6 +619,12 @@ MC.Bosses = {
                         Flags = {IMAF.Tank}
                     }
                 }
+            },
+            [7] = {
+                Id = "sonsofflame",
+                Icon = "Spell_Fire_LavaSpawn",
+                Name = IJ_DB_RAID_MC_BOSS_12098_NAME_sonsofflame,
+                Effect = IJ_DB_RAID_MC_BOSS_12098_DESCRIPTION_sonsofflame
             }
         },
         Loot = {

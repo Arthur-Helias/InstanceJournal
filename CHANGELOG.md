@@ -32,6 +32,7 @@ All changes to this project will be documented in this file.
 
 - Added Demoralizing Shout, Inspire, Hand of Ragnaros, Flame Spear, and Dark Strike to the Sulfuron Harbinger encounter
 - Added Flamewaker Priest abilities, highlighting Dark Mending interrupts and magic removal for Shadow Word: Pain and Immolate
+- Added Sons of Flame to the Sulfuron Harbinger encounter, noting that summons continue after the Flamewaker Priests are defeated
 
 - Added Magma Splash, Pyroblast, Earthquake, Enrage, and Golemagg's Trust to the Golemagg encounter
 - Added Core Rager abilities, describing Ragers Unchained at 60% health, taunt recovery, and Golemagg's Enrage phase at 25% health

@@ -3466,6 +3466,9 @@ IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_20294 =
 IJ_DB_RAID_MC_BOSS_12098_NAME_flamewakerpriests = "Flamewaker Priests"
 IJ_DB_RAID_MC_BOSS_12098_DESCRIPTION_flamewakerpriests =
     "Four Flamewaker Priests accompany Sulfuron. Interrupt their heals and dispel their harmful magical effects."
+IJ_DB_RAID_MC_BOSS_12098_NAME_sonsofflame = "Sons of Flame"
+IJ_DB_RAID_MC_BOSS_12098_DESCRIPTION_sonsofflame =
+    "Sulfuron summons Sons of Flame throughout the fight, including after all four Flamewaker Priests have been defeated."
 IJ_DB_RAID_MC_BOSS_NAME_11988 = "Golemagg the Incinerator"
 IJ_DB_RAID_MC_BOSS_STORY_11988 =
     "The most feared soldiers of Ragnaros's elemental forces are the molten giants, and among them Golemagg the Incinerator is unrivaled for his sheer brutality and savage efficiency. So absolute is the molten behemoth's power that he has cowed two core ragers - offspring of the colossal beast Magmadar - which he now uses as pets. For this affront, he has earned Magmadar's eternal and unwavering ire, although the fearsome creature has yet to act on his savage impulses."
