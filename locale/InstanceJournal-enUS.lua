@@ -2951,21 +2951,47 @@ IJ_DB_RAID_ZG_BOSS_NAME_14517 = "High Priestess Jeklik"
 IJ_DB_RAID_ZG_BOSS_STORY_14517 =
     "High Priestess Jeklik is the Zandalari High Priestess of the Primal Jungle God Hir'eek, the Bat. Sent to Zul'Gurub to stop Hakkar the Soulflayer, she was eventually turned by the blood god."
 IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Stage One: Bat Form"
-IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 = "Jeklik assumes the form of a bat until she is at 50% health."
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Sonic Burst"
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 = "Jeklik emits a piercing shriek, dealing 1,750 to 2,250 physical damage and silencing all enemies within a 30-yard radius for 10 seconds."
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_22911 = "Charge"
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_22911 = "Jeklik charges towards an enemy between 8 and 40 yards away from her. The charge inflicts 1000 physical damage and silences its target for 5 seconds."
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_5570 = "Bat Swarm"
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_5570 = "Jeklik summons a swarm of 6 to 8 bats, to help her throughout the battle.\n\nThis occurs one minute into the fight and every minute after."
+IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 =
+    "Jeklik fights in bat form until she reaches 50% health."
 IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Stage Two: Troll Form"
-IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 = "Jeklik assumes her troll form when she reaches 50% health and alternates between her two spell casts."
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_25807 = "Great Heal"
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_25807 = "Jeklik begins casting a healing spell that restores 25% of her total health if not interrupted."
+IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 =
+    "At 50% health, Jeklik returns to troll form, using Shadow spells and healing while bat bombers attack the raid."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_12097 = "Pierce Armor"
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_12097 =
+    "Reduces an enemy's armor by 75% for 20 seconds."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Sonic Burst"
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 =
+    "Deals Physical damage and silences enemies within 20 yards for 10 seconds. The silence can be dispelled.\n\nHealers and ranged players should stay outside its range when possible."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_24408 = "Charge"
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_24408 =
+    "Charges an enemy, dealing Physical damage and stunning them for 2 seconds."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23919 = "Swoop"
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23919 =
+    "Strikes enemies in a cone in front of Jeklik, dealing Physical damage and stunning them for 2 seconds.\n\nKeep her facing away from the raid."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_batswarm = "Bat Swarm"
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_batswarm =
+    "Jeklik calls bats to assist her during the bat phase.\n\nTanks should gather the bats while damage dealers eliminate them."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_6605 = "Terrifying Screech"
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_6605 =
+    "Fears enemies within 5 yards for 4 seconds. Fear Ward can prevent the fear, and the magical effect can be dispelled if applied."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23952 = "Shadow Word: Pain"
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23952 =
+    "Applies a magical effect that deals Shadow damage every 3 seconds for 18 seconds. Dispel it promptly."
 IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "Mind Flay"
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 = "Jeklik channels a mind flay ability, dealing damage to a target and nearby allies if not interrupted."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 =
+    "Channels Shadow damage every second and slows affected players by 80% for up to 10 seconds.\n\nInterrupt the channel."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23954 = "Great Heal"
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23954 =
+    "Casts a powerful heal over 4 seconds.\n\nInterrupt the cast to prevent Jeklik from recovering health."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_16098 = "Curse of Blood"
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_16098 =
+    "Curses nearby enemies, increasing the Physical damage they take for 10 minutes. Remove the curse promptly."
 IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "Summon Bat Bombers"
-IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974 = "Jeklik summons bat bombers that drop fire bombs on enemies, leaving burning patches on the ground that deal damage to anyone standing in them."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974 =
+    "Bat bombers assist Jeklik during the troll phase."
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23970 = "Throw Liquid Fire"
+IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23970 =
+    "Bat bombers throw liquid fire at players, dealing Fire damage and leaving burning areas on the ground.\n\nMove out of the fire."
 IJ_DB_RAID_ZG_BOSS_NAME_14507 = "High Priest Venoxis"
 IJ_DB_RAID_ZG_BOSS_STORY_14507 = "High Priest Venoxis is the Zandalari High Priest of the Primal God Hethiss, the snake god. Sent to Zul'Gurub to stop Hakkar the Soulflayer, he was eventually turned by the blood god."
 IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "Stage One: Troll Form"

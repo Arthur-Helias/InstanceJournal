@@ -1394,24 +1394,48 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_NAME_14517 = "Suma Sacerdotisa Jeklik"
     IJ_DB_RAID_ZG_BOSS_STORY_14517 =
         "La Suma Sacerdotisa Jeklik es la Suma Sacerdotisa Zandalari del Dios Primordial de la Selva Hir'eek, el Murciélago. Enviada a Zul'Gurub para detener a Hakkar el Desollador de Almas, finalmente el dios de la sangre la convirtió."
-    IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Stage One: Bat Form"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 = "Jeklik assumes the form of a bat until she is at 50% health."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Explosión sónica"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 = "Jeklik emite un chillido penetrante, que inflige entre 1750 y 2250 de daño físico y silencia a todos los enemigos en un radio de 30 yardas durante 10 segundos."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_22911 = "Cargar"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_22911 = "Jeklik carga contra un enemigo a una distancia de entre 8 y 40 metros de ella. La carga inflige 1000 de daño físico y silencia a su objetivo durante 5 segundos."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_5570 = "Enjambre de murciélagos"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_5570 =
-        "Jeklik convoca un enjambre de 6 a 8 murciélagos para ayudarla durante la batalla. ||norte||  ||norte|| Esto ocurre un minuto después de la pelea y cada minuto posterior."
-    IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Etapa dos: forma de troll"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 = "Jeklik asume su forma de troll cuando alcanza el 50% de salud y alterna entre sus dos lanzamientos de hechizos."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_25807 = "Gran curación"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_25807 = "Jeklik comienza a lanzar un hechizo de curación que restaura el 25% de su salud total si no se interrumpe."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "Desollamiento mental"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 = "Jeklik canaliza una habilidad de azote mental, que inflige daño a un objetivo y a los aliados cercanos si no se interrumpe."
+    IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Fase uno: Forma de murciélago"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 =
+        "Jeklik lucha en forma de murciélago hasta alcanzar el 50% de salud."
+    IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Fase dos: Forma de trol"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 =
+        "Al 50% de salud, Jeklik vuelve a su forma de trol, usa hechizos de las Sombras y sanaciones mientras los murciélagos bombarderos atacan a la banda."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_12097 = "Perforar armadura"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_12097 =
+        "Reduce la armadura de un enemigo un 75% durante 20 segundos."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Ráfaga sónica"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 =
+        "Inflige daño físico y silencia a los enemigos en un radio de 20 metros durante 10 segundos. El silencio puede disiparse.\n\nLos sanadores y jugadores a distancia deben mantenerse fuera de su alcance siempre que sea posible."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_24408 = "Cargar"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_24408 =
+        "Carga contra un enemigo, le inflige daño físico y lo aturde durante 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23919 = "Picado"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23919 =
+        "Golpea a los enemigos en un cono frente a Jeklik, les inflige daño físico y los aturde durante 2 segundos.\n\nMantén a Jeklik de espaldas a la banda."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_batswarm = "Enjambre de murciélagos"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_batswarm =
+        "Jeklik llama a murciélagos para que la ayuden durante la fase de murciélago.\n\nLos tanques deben reunirlos mientras los jugadores de daño los eliminan."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_6605 = "Chillido aterrador"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_6605 =
+        "Aterroriza a los enemigos en un radio de 5 metros durante 4 segundos. Resguardo contra el miedo puede prevenir el miedo y el efecto mágico puede disiparse si se aplica."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23952 = "Palabra de las Sombras: dolor"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23952 =
+        "Aplica un efecto mágico que inflige daño de las Sombras cada 3 segundos durante 18 segundos. Disípalo cuanto antes."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "Tortura mental"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 =
+        "Canaliza daño de las Sombras cada segundo y reduce la velocidad de los jugadores afectados un 80% durante un máximo de 10 segundos.\n\nInterrumpe la canalización."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23954 = "Sanación superior"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23954 =
+        "Lanza una potente sanación durante 4 segundos.\n\nInterrumpe el lanzamiento para impedir que Jeklik recupere salud."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_16098 = "Maldición de sangre"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_16098 =
+        "Maldice a los enemigos cercanos y aumenta el daño físico que reciben durante 10 minutos. Elimina la maldición cuanto antes."
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "Invocar murciélagos bombarderos"
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974 =
-        "Jeklik convoca bombarderos murciélago que lanzan bombas incendiarias sobre los enemigos, dejando zonas ardientes en el suelo que causan daño a cualquiera que se encuentre en ellas."
+        "Los murciélagos bombarderos ayudan a Jeklik durante la fase de trol."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23970 = "Lanzar fuego líquido"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23970 =
+        "Los murciélagos bombarderos lanzan fuego líquido a los jugadores, infligen daño de Fuego y dejan zonas ardientes en el suelo.\n\nSal del fuego."
     IJ_DB_RAID_ZG_BOSS_NAME_14507 = "Sumo Sacerdote Venoxis"
     IJ_DB_RAID_ZG_BOSS_STORY_14507 =
         "El Sumo Sacerdote Venoxis es el Sumo Sacerdote Zandalari del Dios Primordial Hethiss, el dios serpiente. Enviado a Zul'Gurub para detener a Hakkar el Desollador de Almas, finalmente fue convertido por el dios de la sangre."

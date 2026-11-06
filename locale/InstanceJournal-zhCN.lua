@@ -3075,22 +3075,47 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_NAME_14517 = "高阶女祭司耶克里克"
     IJ_DB_RAID_ZG_BOSS_STORY_14517 = "高阶女祭司耶克里克是原始丛林神蝙蝠希里克的赞达拉高阶女祭司。她被派往祖尔格拉布阻止夺魂者哈卡，但最终被血神转变。"
     IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "第一阶段：蝙蝠形态"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 = "耶克里克会保持蝙蝠形态，直到生命值降至 50%。"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "音爆"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 = "耶克里克发出刺耳的尖叫声，造成 1,750 到 2,250 点物理伤害，并使 30 码半径内的所有敌人沉默 10 秒。"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_22911 = "冲锋"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_22911 = "耶克里克会冲向八码至 40 码外的一名敌人，造成 1000 点物理伤害，并使目标沉默 5 秒。"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_5570 = "蝙蝠群"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_5570 =
-        "耶克里克召唤了一群 6 到 8 只蝙蝠，在整个战斗中为她提供帮助。\n \n这种情况发生在战斗开始一分钟和战斗结束后的每一分钟。"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 =
+        "耶克里克以蝙蝠形态战斗，直到生命值降至50%。"
     IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "第二阶段：巨魔形态"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 = "当耶克里克的生命值达到 50% 时，她就会变成巨魔形态，并交替施放两次法术。"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_25807 = "强效治疗术"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_25807 = "耶克里克开始施放治疗法术，如果不被打断，可以恢复她总生命值的 25%。"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 =
+        "生命值降至50%时，耶克里克恢复巨魔形态，使用暗影法术和治疗，同时轰炸蝙蝠攻击团队。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_12097 = "穿刺护甲"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_12097 =
+        "使一名敌人的护甲降低75%，持续20秒。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "音爆"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 =
+        "对20码范围内的敌人造成物理伤害并使其沉默，持续10秒。沉默效果可以驱散。\n\n治疗者和远程玩家应尽量保持在技能范围之外。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_24408 = "冲锋"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_24408 =
+        "向一名敌人冲锋，造成物理伤害并使其昏迷2秒。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23919 = "俯冲"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23919 =
+        "攻击耶克里克前方锥形区域内的敌人，造成物理伤害并使其昏迷2秒。\n\n让她背对团队。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_batswarm = "蝙蝠群"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_batswarm =
+        "耶克里克在蝙蝠阶段呼唤蝙蝠协助战斗。\n\n坦克应聚拢蝙蝠，由输出玩家将其消灭。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_6605 = "恐怖尖啸"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_6605 =
+        "使5码范围内的敌人恐惧，持续4秒。防护恐惧结界可以预防恐惧，已生效的魔法效果可以驱散。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23952 = "暗言术：痛"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23952 =
+        "施加魔法效果，每3秒造成暗影伤害，持续18秒。及时驱散。"
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "精神鞭笞"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 = "耶克里克引导心灵鞭笞能力，如果不被打断，会对目标和附近的盟友造成伤害。"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "召唤投弹蝙蝠"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974 = "耶克里克召唤蝙蝠轰炸机，向敌人投掷火焰炸弹，在地面上留下燃烧的斑块，对站在其中的任何人造成伤害。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 =
+        "引导暗影伤害，每秒生效，并使受影响玩家的移动速度降低80%，最多持续10秒。\n\n打断引导。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23954 = "强效治疗术"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23954 =
+        "施放强力治疗法术，施法时间为4秒。\n\n打断施法，阻止耶克里克恢复生命值。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_16098 = "血之诅咒"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_16098 =
+        "诅咒附近敌人，使其受到的物理伤害提高，持续10分钟。及时解除诅咒。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "召唤轰炸蝙蝠"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974 =
+        "轰炸蝙蝠在巨魔阶段协助耶克里克战斗。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23970 = "投掷液态火焰"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23970 =
+        "轰炸蝙蝠向玩家投掷液态火焰，造成火焰伤害并在地面留下燃烧区域。\n\n离开火焰。"
     IJ_DB_RAID_ZG_BOSS_NAME_14507 = "高阶祭司温诺希斯"
     IJ_DB_RAID_ZG_BOSS_STORY_14507 = "高阶祭司维诺西斯是原始神蛇神赫西斯的赞达拉高阶祭司。被派往祖尔格拉布阻止夺魂者哈卡，他最终被血神转变。"
     IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "第一阶段：巨魔形态"

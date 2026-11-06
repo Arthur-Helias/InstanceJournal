@@ -33,29 +33,101 @@ ZG.Bosses = {
         MapCoordinateY = 73.3,
         Abilities = {
             [1] = {
+                Id = "12097",
+                Icon = "Spell_Shadow_VampiricAura",
+                Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_12097,
+                Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_12097,
+                Flags = {IMAF.Tank, IMAF.Important}
+            },
+            [2] = {
                 Id = "jeklikstage1",
                 Name = IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1,
                 Effect = IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1,
                 SubAbilities = {
-                    [1] = {Id = "23918", Icon = "Spell_Shadow_Teleport", Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918, Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918, Flags = {IMAF.Magic, IMAF.Important}},
-                    [2] = {Id = "22911", Icon = "Ability_Warrior_Charge", Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_22911, Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_22911, Flags = {IMAF.Magic}},
-                    [3] = {Id = "5570", Icon = "Spell_Nature_InsectSwarm", Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_5570, Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_5570, Flags = {IMAF.Tank, IMAF.Important}}
+                    [1] = {
+                        Id = "23918",
+                        Icon = "Spell_Shadow_Teleport",
+                        Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918,
+                        Flags = {IMAF.Magic, IMAF.Important}
+                    },
+                    [2] = {
+                        Id = "24408",
+                        Icon = "Ability_Warrior_Charge",
+                        Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_24408,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_24408
+                    },
+                    [3] = {
+                        Id = "23919",
+                        Icon = "Ability_Warrior_Cleave",
+                        Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23919,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23919,
+                        Flags = {IMAF.Tank}
+                    },
+                    [4] = {
+                        Id = "batswarm",
+                        Icon = "Ability_Hunter_Pet_Bat",
+                        Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_batswarm,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_batswarm,
+                        Flags = {IMAF.Tank, IMAF.DPS}
+                    }
                 }
             },
-            [2] = {
+            [3] = {
                 Id = "jeklikstage2",
                 Name = IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2,
                 Effect = IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2,
                 SubAbilities = {
-                    [1] = {Id = "25807", Icon = "Spell_Holy_Heal", Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_25807, Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_25807, Flags = {IMAF.Interruptible, IMAF.Important}},
+                    [1] = {
+                        Id = "6605",
+                        Icon = "Spell_Shadow_SummonImp",
+                        Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_6605,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_6605,
+                        Flags = {IMAF.Magic}
+                    },
                     [2] = {
+                        Id = "23952",
+                        Icon = "Spell_Shadow_ShadowWordPain",
+                        Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23952,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23952,
+                        Flags = {IMAF.Magic}
+                    },
+                    [3] = {
                         Id = "23953",
                         Icon = "Spell_Shadow_SiphonMana",
                         Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953,
                         Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953,
                         Flags = {IMAF.Interruptible, IMAF.Heal}
                     },
-                    [3] = {Id = "23974", Icon = "Ability_Hunter_Pet_Bat", Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974, Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974}
+                    [4] = {
+                        Id = "23954",
+                        Icon = "Spell_Holy_Heal",
+                        Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23954,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23954,
+                        Flags = {IMAF.Interruptible, IMAF.Heal, IMAF.Important}
+                    },
+                    [5] = {
+                        Id = "16098",
+                        Icon = "Spell_Shadow_RitualOfSacrifice",
+                        Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_16098,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_16098,
+                        Flags = {IMAF.Curse}
+                    },
+                    [6] = {
+                        Id = "23974",
+                        Icon = "Ability_Hunter_Pet_Bat",
+                        Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974,
+                        SubAbilities = {
+                            [1] = {
+                                Id = "23970",
+                                Icon = "Spell_Fire_Incinerate",
+                                Name = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23970,
+                                Effect = IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23970,
+                                Flags = {IMAF.Important}
+                            }
+                        }
+                    }
                 }
             }
         },

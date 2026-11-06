@@ -1395,26 +1395,48 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_ZG_BOSS_NAME_14517 = "Hohepriesterin Jeklik"
     IJ_DB_RAID_ZG_BOSS_STORY_14517 =
         "Hohepriesterin Jeklik ist die Zandalari-Hohepriesterin des Urdschungelgottes Hir'eek, der Fledermaus. Sie wurde nach Zul'Gurub geschickt, um Hakkar den Seelenschinder aufzuhalten, und wurde schließlich vom Blutgott verwandelt."
-    IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Stage One: Bat Form"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 = "Jeklik assumes the form of a bat until she is at 50% health."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Sonic Burst"
+    IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Phase eins: Fledermausform"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 =
+        "Jeklik kämpft in Fledermausform, bis sie 50% Gesundheit erreicht."
+    IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Phase zwei: Trollform"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 =
+        "Bei 50% Gesundheit kehrt Jeklik in ihre Trollform zurück und setzt Schattenzauber und Heilung ein, während Fledermausbomber den Schlachtzug angreifen."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_12097 = "Rüstung durchstechen"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_12097 =
+        "Verringert die Rüstung eines Gegners 20 Sekunden lang um 75%."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Schallexplosion"
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 =
-        "Jeklik stößt einen durchdringenden Schrei aus, der 1.750 bis 2.250 physischen Schaden verursacht und alle Feinde im Umkreis von 30 Metern 10 Sekunden lang zum Schweigen bringt."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_22911 = "Aufladung"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_22911 =
-        "Jeklik stürmt auf einen Feind zu, der 8 bis 40 Meter von ihr entfernt ist. Die Ladung verursacht 1000 physischen Schaden und bringt das Ziel 5 Sekunden lang zum Schweigen."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_5570 = "Fledermausschwarm"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_5570 =
-        "Jeklik ruft einen Schwarm von 6 bis 8 Fledermäusen herbei, um ihr während des Kampfes zu helfen.\n\nDies geschieht eine Minute nach Beginn des Kampfes und jede Minute danach."
-    IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Stufe zwei: Trollform"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 = "Jeklik nimmt ihre Trollform an, wenn sie 50 % Gesundheit erreicht, und wechselt zwischen ihren beiden Zaubersprüchen."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_25807 = "Große Heilung"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_25807 = "Jeklik beginnt, einen Heilzauber zu wirken, der 25 % ihrer gesamten Gesundheit wiederherstellt, wenn sie nicht unterbrochen wird."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "Mind Flay"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 = "Jeklik kanalisiert eine Fähigkeit zur Geistesschädigung, die einem Ziel und Verbündeten in der Nähe Schaden zufügt, wenn sie nicht unterbrochen wird."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "Beschwöre Fledermausbomber"
+        "Verursacht körperlichen Schaden und bringt Gegner im Umkreis von 20 Metern 10 Sekunden lang zum Schweigen. Der Stilleeffekt kann gebannt werden.\n\nHeiler und Fernkämpfer sollten nach Möglichkeit außerhalb der Reichweite bleiben."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_24408 = "Sturmangriff"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_24408 =
+        "Stürmt einen Gegner an, verursacht körperlichen Schaden und betäubt ihn 2 Sekunden lang."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23919 = "Sturzflug"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23919 =
+        "Trifft Gegner in einem kegelförmigen Bereich vor Jeklik, verursacht körperlichen Schaden und betäubt sie 2 Sekunden lang.\n\nLasst sie vom Schlachtzug wegschauen."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_batswarm = "Fledermausschwarm"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_batswarm =
+        "Jeklik ruft während der Fledermausphase Fledermäuse zu Hilfe.\n\nTanks sollten sie sammeln, während die Schadensausteiler sie beseitigen."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_6605 = "Schreckliches Kreischen"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_6605 =
+        "Versetzt Gegner im Umkreis von 5 Metern 4 Sekunden lang in Furcht. Furchtzauberschutz kann die Furcht verhindern; ein bereits angewandter magischer Effekt kann gebannt werden."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23952 = "Schattenwort: Schmerz"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23952 =
+        "Belegt das Ziel mit einem magischen Effekt, der 18 Sekunden lang alle 3 Sekunden Schattenschaden verursacht. Bannt ihn umgehend."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "Gedankenschinden"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 =
+        "Kanalisiert jede Sekunde Schattenschaden und verlangsamt betroffene Spieler bis zu 10 Sekunden lang um 80%.\n\nUnterbrecht das Kanalisieren."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23954 = "Große Heilung"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23954 =
+        "Wirkt innerhalb von 4 Sekunden eine starke Heilung.\n\nUnterbrecht den Zauber, damit Jeklik keine Gesundheit zurückgewinnt."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_16098 = "Fluch des Blutes"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_16098 =
+        "Verflucht nahe Gegner und erhöht ihren erlittenen körperlichen Schaden 10 Minuten lang. Entfernt den Fluch umgehend."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "Fledermausbomber beschwören"
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974 =
-        "Jeklik beschwört Fledermausbomber, die Feuerbomben auf Feinde abwerfen und dabei brennende Flecken auf dem Boden hinterlassen, die jedem, der sich darauf befindet, Schaden zufügen."
+        "Fledermausbomber unterstützen Jeklik während der Trollphase."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23970 = "Flüssiges Feuer werfen"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23970 =
+        "Fledermausbomber werfen flüssiges Feuer auf Spieler, verursachen Feuerschaden und hinterlassen brennende Bodenflächen.\n\nVerlasst das Feuer."
     IJ_DB_RAID_ZG_BOSS_NAME_14507 = "Hohepriester Venoxis"
     IJ_DB_RAID_ZG_BOSS_STORY_14507 =
         "Hohepriester Venoxis ist der Hohepriester der Zandalari des Urgottes Hethiss, des Schlangengottes. Er wurde nach Zul'Gurub geschickt, um Hakkar den Seelenschinder aufzuhalten, und wurde schließlich vom Blutgott verwandelt."

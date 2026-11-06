@@ -1394,25 +1394,48 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_ZG_BOSS_NAME_14517 = "Grande prêtresse Jeklik"
     IJ_DB_RAID_ZG_BOSS_STORY_14517 =
         "La grande prêtresse Jeklik est la grande prêtresse zandalari du dieu primordial de la jungle Hir'eek, la chauve-souris. Envoyée à Zul'Gurub pour arrêter Hakkar l'Écorcheur d'âmes, elle fut finalement transformée par le dieu du sang."
-    IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Stage One: Bat Form"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 = "Jeklik assumes the form of a bat until she is at 50% health."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Explosion sonique"
+    IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Phase un : Forme de chauve-souris"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 =
+        "Jeklik combat sous forme de chauve-souris jusqu'à atteindre 50% de ses points de vie."
+    IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Phase deux : Forme de troll"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 =
+        "À 50% de ses points de vie, Jeklik reprend sa forme de troll, utilise des sorts d'Ombre et des soins tandis que les chauves-souris bombardiers attaquent le raid."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_12097 = "Transpercer l'armure"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_12097 =
+        "Réduit l'armure d'un ennemi de 75% pendant 20 secondes."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Explosion sonore"
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 =
-        "Jeklik émet un cri perçant, infligeant 1 750 à 2 250 dégâts physiques et réduisant au silence tous les ennemis dans un rayon de 30 mètres pendant 10 secondes."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_22911 = "Charge"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_22911 = "Jeklik charge vers un ennemi situé entre 8 et 40 mètres d'elle. La charge inflige 1000 dégâts physiques et réduit au silence sa cible pendant 5 secondes."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_5570 = "Essaim de chauves-souris"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_5570 =
-        "Jeklik invoque un essaim de 6 à 8 chauves-souris pour l'aider tout au long de la bataille.\n\nCela se produit une minute après le début du combat et toutes les minutes suivantes."
-    IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Deuxième étape : forme de troll"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 = "Jeklik prend sa forme de troll lorsqu'elle atteint 50 % de santé et alterne entre ses deux lancers de sorts."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_25807 = "Grande guérison"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_25807 = "Jeklik commence à lancer un sort de guérison qui restaure 25 % de sa santé totale s'il n'est pas interrompu."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "Fou d'esprit"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 = "Jeklik canalise une capacité de flagellement mental, infligeant des dégâts à une cible et aux alliés proches s'il n'est pas interrompu."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "Invoquer des bombardiers de chauves-souris"
+        "Inflige des dégâts physiques et réduit au silence les ennemis dans un rayon de 20 mètres pendant 10 secondes. Le silence peut être dissipé.\n\nLes soigneurs et joueurs à distance doivent rester hors de portée si possible."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_24408 = "Charge"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_24408 =
+        "Charge un ennemi, lui inflige des dégâts physiques et l'étourdit pendant 2 secondes."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23919 = "Piqué"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23919 =
+        "Frappe les ennemis dans un cône devant Jeklik, leur inflige des dégâts physiques et les étourdit pendant 2 secondes.\n\nGardez-la dos au raid."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_batswarm = "Essaim de chauves-souris"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_batswarm =
+        "Jeklik appelle des chauves-souris à son aide pendant la phase de chauve-souris.\n\nLes tanks doivent les regrouper pendant que les joueurs infligeant des dégâts les éliminent."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_6605 = "Cri terrifiant"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_6605 =
+        "Effraie les ennemis dans un rayon de 5 mètres pendant 4 secondes. Gardien de peur peut empêcher la peur, et l'effet magique peut être dissipé s'il est appliqué."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23952 = "Mot de l'ombre : Douleur"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23952 =
+        "Applique un effet magique qui inflige des dégâts d'Ombre toutes les 3 secondes pendant 18 secondes. Dissipez-le rapidement."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "Fouet mental"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 =
+        "Canalise des dégâts d'Ombre toutes les secondes et ralentit les joueurs affectés de 80% pendant un maximum de 10 secondes.\n\nInterrompez la canalisation."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23954 = "Soins supérieurs"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23954 =
+        "Lance un puissant soin en 4 secondes.\n\nInterrompez l'incantation pour empêcher Jeklik de récupérer des points de vie."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_16098 = "Malédiction du sang"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_16098 =
+        "Maudit les ennemis proches et augmente les dégâts physiques qu'ils subissent pendant 10 minutes. Levez rapidement la malédiction."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "Invocation de chauves-souris bombardiers"
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974 =
-        "Jeklik invoque des bombardiers chauves-souris qui larguent des bombes incendiaires sur les ennemis, laissant des plaques brûlantes sur le sol qui infligent des dégâts à quiconque se trouve à l'intérieur."
+        "Des chauves-souris bombardiers assistent Jeklik pendant la phase de troll."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23970 = "Lancer de feu liquide"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23970 =
+        "Les chauves-souris bombardiers lancent du feu liquide sur les joueurs, infligent des dégâts de Feu et laissent des zones brûlantes au sol.\n\nSortez du feu."
     IJ_DB_RAID_ZG_BOSS_NAME_14507 = "Grand prêtre Venoxis"
     IJ_DB_RAID_ZG_BOSS_STORY_14507 =
         "Le Grand Prêtre Venoxis est le Grand Prêtre Zandalari du Dieu Primal Hethiss, le dieu serpent. Envoyé à Zul'Gurub pour arrêter Hakkar l'Écorcheur d'âmes, il fut finalement transformé par le dieu du sang."

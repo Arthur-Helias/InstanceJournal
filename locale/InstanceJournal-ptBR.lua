@@ -1387,23 +1387,48 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_ZG_BOSS_NAME_14517 = "Alta Sacerdotisa Jeklik"
     IJ_DB_RAID_ZG_BOSS_STORY_14517 =
         "A Alta Sacerdotisa Jeklik é a Alta Sacerdotisa Zandalari do Deus Primal da Selva Hir'eek, o Morcego. Enviada para Zul'Gurub para deter Hakkar, o Esfolador de Almas, ela acabou sendo transformada pelo deus do sangue."
-    IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Stage One: Bat Form"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 = "Jeklik assumes the form of a bat until she is at 50% health."
+    IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Estágio Um: Forma de Morcego"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 =
+        "Jeklik luta em forma de morcego até atingir 50% de vida."
+    IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Estágio Dois: Forma de Troll"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 =
+        "Aos 50% de vida, Jeklik volta à forma de troll, usando feitiços de Sombra e curas enquanto morcegos bombardeiros atacam o grupo."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_12097 = "Perfurar Armadura"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_12097 =
+        "Reduz a armadura de um inimigo em 75% por 20 segundos."
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Explosão Sônica"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 = "Jeklik emite um grito agudo, causando 1.750 a 2.250 de dano físico e silenciando todos os inimigos em um raio de 30 metros por 10 segundos."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_22911 = "Cobrar"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_22911 = "Jeklik ataca um inimigo entre 8 e 40 metros de distância dela. A carga causa 1.000 de dano físico e silencia seu alvo por 5 segundos."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_5570 = "Enxame de Morcegos"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_5570 = "Jeklik convoca um enxame de 6 a 8 morcegos para ajudá-la durante a batalha.\n\nIsso ocorre um minuto após o início da luta e a cada minuto depois."
-    IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Estágio Dois: Formulário Troll"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 = "Jeklik assume sua forma de troll quando atinge 50% da saúde e alterna entre seus dois lançamentos de feitiços."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_25807 = "Grande cura"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_25807 = "Jeklik começa a lançar um feitiço de cura que restaura 25% de sua saúde total se não for interrompido."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "Esfolar a mente"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 = "Jeklik canaliza uma habilidade de esfolamento mental, causando dano a um alvo e a aliados próximos se não for interrompido."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "Convocar Morcegos Bombardeiros"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 =
+        "Causa dano Físico e silencia os inimigos em um raio de 20 metros por 10 segundos. O silêncio pode ser dissipado.\n\nCurandeiros e jogadores à distância devem permanecer fora do alcance sempre que possível."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_24408 = "Investida"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_24408 =
+        "Investe contra um inimigo, causando dano Físico e atordoando-o por 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23919 = "Rasante"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23919 =
+        "Atinge inimigos em um cone à frente de Jeklik, causando dano Físico e atordoando-os por 2 segundos.\n\nMantenha-a de costas para o grupo."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_batswarm = "Enxame de Morcegos"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_batswarm =
+        "Jeklik chama morcegos para ajudá-la durante a fase de morcego.\n\nOs tanques devem reunir os morcegos enquanto os causadores de dano os eliminam."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_6605 = "Guincho Aterrorizante"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_6605 =
+        "Amedronta os inimigos em um raio de 5 metros por 4 segundos. Proteção contra Medo pode prevenir o medo, e o efeito mágico pode ser dissipado se for aplicado."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23952 = "Palavra Sombria: Dor"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23952 =
+        "Aplica um efeito mágico que causa dano de Sombra a cada 3 segundos por 18 segundos. Dissipe-o rapidamente."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "Tortura Mental"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 =
+        "Canaliza dano de Sombra a cada segundo e reduz a velocidade dos jogadores afetados em 80% por até 10 segundos.\n\nInterrompa a canalização."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23954 = "Cura Maior"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23954 =
+        "Conjura uma cura poderosa durante 4 segundos.\n\nInterrompa a conjuração para impedir que Jeklik recupere vida."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_16098 = "Maldição de Sangue"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_16098 =
+        "Amaldiçoa os inimigos próximos, aumentando o dano Físico recebido por eles por 10 minutos. Remova a maldição rapidamente."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "Invocar Morcegos Bombardeiros"
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974 =
-        "Jeklik invoca morcegos-bombardeiros que lançam bombas incendiárias sobre os inimigos, deixando manchas em chamas no chão que causam dano a qualquer um que estiver neles."
+        "Morcegos bombardeiros auxiliam Jeklik durante a fase de troll."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23970 = "Lançar Fogo Líquido"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23970 =
+        "Morcegos bombardeiros lançam fogo líquido nos jogadores, causando dano de Fogo e deixando áreas em chamas no chão.\n\nSaia do fogo."
     IJ_DB_RAID_ZG_BOSS_NAME_14507 = "Sumo Sacerdote Venoxis"
     IJ_DB_RAID_ZG_BOSS_STORY_14507 =
         "Sumo Sacerdote Venoxis é o Sumo Sacerdote Zandalari do Deus Primordial Hethiss, o deus cobra. Enviado para Zul'Gurub para deter Hakkar, o Esfolador de Almas, ele acabou sendo transformado pelo deus do sangue."
