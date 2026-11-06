@@ -3124,11 +3124,19 @@ IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_grilekroot = "Gri'lek roots an enemy, ma
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "Renataki"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Vanish"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =
-    "Renataki vanishes, preventing enemies from being able to see him. Once he reappears, he will ambush a random enemy, dealing heavy damage.\n\nPlayers need to find Renataki before he reappears. Use aoe abilities to try and break his stealth."
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakienrage = "Enrage"
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakienrage = "Renataki enrages, increasing the damage he deals to his enemies."
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakigouge = "Gouge"
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakigouge = "Renataki gouges an enemy, incapacitating them."
+    "Vanishes, then reappears and ambushes a player.\n\nHealers should prepare for his return."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24337 = "Ambush"
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24337 =
+    "Strikes a player when returning from Vanish, dealing Physical damage."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24698 = "Gouge"
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24698 =
+    "Deals Physical damage and incapacitates nearby enemies for up to 4 seconds. Damage breaks the effect.\n\nA second tank should be ready to take over if the current tank is incapacitated."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24649 = "Thousand Blades"
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24649 =
+    "Throws a blade at a player, dealing Physical damage."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_8269 = "Enrage"
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
+    "Increases melee attack speed by 60% and adds 50 Physical damage for 120 seconds.\n\nTanks and healers should prepare for increased incoming damage."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "Hazza'rah"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "Chain Mana Burn"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =

@@ -1622,11 +1622,19 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "Renataki"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Исчезновение"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =
-        "Ренатаки исчезает, не позволяя врагам увидеть его. Как только он появится снова, он устроит засаду на случайного врага, нанеся ему тяжелый урон. ||н||  ||н|| Игрокам необходимо найти Ренатаки до того, как он появится снова. Используйте способности по площади, чтобы попытаться разрушить его скрытность."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakienrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakienrage = "Renataki enrages, increasing the damage he deals to his enemies."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakigouge = "Gouge"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakigouge = "Renataki gouges an enemy, incapacitating them."
+        "Исчезает, затем появляется вновь и нападает на игрока из засады.\n\nЛекарям следует подготовиться к его возвращению."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24337 = "Внезапный удар"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24337 =
+        "Атакует игрока при возвращении после Исчезновения, нанося физический урон."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24698 = "Парализующий удар"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24698 =
+        "Наносит физический урон и выводит ближайших противников из строя на срок до 4 секунд. Получение урона прерывает эффект.\n\nВторой танк должен быть готов подхватить босса, если текущий танк выведен из строя."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24649 = "Тысяча клинков"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24649 =
+        "Бросает клинок в игрока, нанося физический урон."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_8269 = "Исступление"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
+        "Повышает скорость атак ближнего боя на 60% и добавляет 50 ед. физического урона на 120 секунд.\n\nТанкам и лекарям следует подготовиться к увеличению входящего урона."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "Hazza'rah"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "Цепное сжигание маны"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =

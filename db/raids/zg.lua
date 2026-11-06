@@ -570,15 +570,40 @@ ZG.Bosses = {
                 Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki,
                 Icon = "Ability_Stealth",
                 SubAbilities = {
-                    [1] = {Id = "24699", Icon = "Ability_Vanish", Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699, Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699, Flags = {IMAF.Deadly, IMAF.Important}},
-                    [2] = {
-                        Id = "renatakienrage",
-                        Icon = "spell_shadow_unholyfrenzy",
-                        Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakienrage,
-                        Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakienrage,
-                        Flags = {IMAF.Enrage}
+                    [1] = {
+                        Id = "24699",
+                        Icon = "Ability_Vanish",
+                        Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699,
+                        Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699,
+                        Flags = {IMAF.Important}
                     },
-                    [3] = {Id = "renatakigouge", Icon = "ability_gouge", Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakigouge, Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakigouge}
+                    [2] = {
+                        Id = "24337",
+                        Icon = "Ability_Rogue_Ambush",
+                        Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24337,
+                        Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24337,
+                        Flags = {IMAF.Heal, IMAF.Important}
+                    },
+                    [3] = {
+                        Id = "24698",
+                        Icon = "Ability_Gouge",
+                        Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24698,
+                        Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24698,
+                        Flags = {IMAF.Tank, IMAF.Important}
+                    },
+                    [4] = {
+                        Id = "24649",
+                        Icon = "INV_Sword_53",
+                        Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24649,
+                        Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24649
+                    },
+                    [5] = {
+                        Id = "8269",
+                        Icon = "Spell_Shadow_UnholyFrenzy",
+                        Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_8269,
+                        Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269,
+                        Flags = {IMAF.Tank, IMAF.Important}
+                    }
                 }
             },
             [3] = {

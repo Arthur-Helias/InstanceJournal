@@ -13,6 +13,8 @@ All changes to this project will be documented in this file.
 
 - Added `Forked Lightning` to the `Wushoolay` encounter in all supported locales
 
+- Added `Ambush` and `Thousand Blades` to the `Renataki` encounter in all supported locales
+
 ### Fixed
 
 - Fixed Molten Core ability links opening the boss entry instead of the corresponding add ability
@@ -22,6 +24,8 @@ All changes to this project will be documented in this file.
 - Corrected `Mandokir` guidance for `Threatening Gaze`, player deaths, and the effects of `Enrage`
 
 - Corrected `Wushoolay` spell IDs and the descriptions of `Chain Lightning` and `Lightning Cloud`
+
+- Corrected `Renataki` spell IDs and guidance for `Vanish`, `Gouge`, and `Enrage`
 
 ### Changed
 

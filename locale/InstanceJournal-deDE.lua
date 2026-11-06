@@ -1571,11 +1571,19 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "Renataki"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Verschwinden"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =
-        "Renataki verschwindet und verhindert, dass Feinde ihn sehen können. Sobald er wieder auftaucht, überfällt er einen zufälligen Feind und verursacht schweren Schaden.\n\nSpieler müssen Renataki finden, bevor er wieder auftaucht. Nutze AoE-Fähigkeiten, um seine Tarnung zu durchbrechen."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakienrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakienrage = "Renataki enrages, increasing the damage he deals to his enemies."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakigouge = "Gouge"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakigouge = "Renataki gouges an enemy, incapacitating them."
+        "Verschwindet und erscheint dann wieder, um einen Spieler aus dem Hinterhalt anzugreifen.\n\nHeiler sollten sich auf seine Rückkehr vorbereiten."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24337 = "Hinterhalt"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24337 =
+        "Greift bei der Rückkehr aus Verschwinden einen Spieler an und verursacht körperlichen Schaden."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24698 = "Solarplexus"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24698 =
+        "Verursacht körperlichen Schaden und setzt Gegner in der Nähe bis zu 4 Sekunden lang außer Gefecht. Schaden bricht den Effekt.\n\nEin zweiter Tank sollte bereit sein zu übernehmen, falls der aktuelle Tank außer Gefecht gesetzt wird."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24649 = "Tausend Klingen"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24649 =
+        "Wirft eine Klinge auf einen Spieler und verursacht körperlichen Schaden."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_8269 = "Wutanfall"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
+        "Erhöht das Nahkampfangriffstempo für 120 Sekunden um 60% und fügt 50 Punkte körperlichen Schaden hinzu.\n\nTanks und Heiler sollten sich auf erhöhten eingehenden Schaden vorbereiten."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "Hazza'rah"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "Kettenmanabrand"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =

@@ -1568,13 +1568,21 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilekroot = "Entangling Roots"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_grilekroot = "Gri'lek roots an enemy, making them unable to move."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "Renataki"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Disparaître"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Disparition"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =
-        "Renataki disparaît, empêchant les ennemis de le voir. Une fois réapparu, il tendra une embuscade à un ennemi aléatoire, lui infligeant de lourds dégâts.\n\nLes joueurs doivent trouver Renataki avant qu'il ne réapparaisse. Utilisez les capacités aoe pour essayer de briser sa furtivité."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakienrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakienrage = "Renataki enrages, increasing the damage he deals to his enemies."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakigouge = "Gouge"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakigouge = "Renataki gouges an enemy, incapacitating them."
+        "Disparaît, puis réapparaît pour tendre une embuscade à un joueur.\n\nLes soigneurs doivent se préparer à son retour."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24337 = "Embuscade"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24337 =
+        "Frappe un joueur à son retour de Disparition et inflige des dégâts physiques."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24698 = "Suriner"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24698 =
+        "Inflige des dégâts physiques et stupéfie les ennemis proches pendant un maximum de 4 secondes. Les dégâts interrompent cet effet.\n\nUn second tank doit être prêt à prendre le relais si le tank actuel est neutralisé."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24649 = "Mille lames"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24649 =
+        "Lance une lame sur un joueur et inflige des dégâts physiques."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_8269 = "Enrager"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
+        "Augmente la vitesse des attaques de mêlée de 60% et ajoute 50 points de dégâts physiques pendant 120 secondes.\n\nLes tanks et les soigneurs doivent se préparer à une augmentation des dégâts subis."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "Hazza'rah"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "Brûlure de mana en chaîne"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =

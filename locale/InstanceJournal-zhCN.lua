@@ -3248,11 +3248,19 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "雷纳塔基"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "消失"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =
-        "雷纳塔基消失了，敌人就看不到他了。一旦他再次出现，他就会伏击随机的敌人，造成大量伤害。\n \n玩家需要在雷纳塔基再次出现之前找到他。使用 范围 能力来尝试打破他的潜行。"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakienrage = "激怒"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakienrage = "雷纳塔基进入激怒状态，提高其对敌人造成的伤害。"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakigouge = "凿击"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakigouge = "雷纳塔基凿击一名敌人，使其暂时失去行动能力。"
+        "消失后重新出现，并伏击一名玩家。\n\n治疗者应为他的返回做好准备。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24337 = "伏击"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24337 =
+        "在消失后重新出现时攻击一名玩家，造成物理伤害。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24698 = "凿击"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24698 =
+        "对附近敌人造成物理伤害，并使其瘫痪，最多持续4秒。受到伤害会打破此效果。\n\n当前坦克被瘫痪时，另一名坦克应准备接手。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24649 = "千刃"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24649 =
+        "向一名玩家投掷刀刃，造成物理伤害。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
+        "近战攻击速度提高60%，并额外造成50点物理伤害，持续120秒。\n\n坦克和治疗者应为承受更高伤害做好准备。"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "哈札拉尔"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "连锁法力燃烧"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =

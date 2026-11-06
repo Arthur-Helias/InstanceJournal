@@ -1568,13 +1568,21 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilekroot = "Entangling Roots"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_grilekroot = "Gri'lek roots an enemy, making them unable to move."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "Renataki"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Desaparecer"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Esfumarse"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =
-        "Renataki desaparece, impidiendo que los enemigos puedan verlo. Una vez que reaparece, tenderá una emboscada a un enemigo aleatorio y le causará un gran daño. ||norte||  ||norte|| Los jugadores deben encontrar a Renataki antes de que reaparezca. Usa habilidades de área para intentar romper su sigilo."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakienrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakienrage = "Renataki enrages, increasing the damage he deals to his enemies."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakigouge = "Gouge"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakigouge = "Renataki gouges an enemy, incapacitating them."
+        "Desaparece y luego reaparece para emboscar a un jugador.\n\nLos sanadores deben prepararse para su regreso."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24337 = "Emboscada"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24337 =
+        "Ataca a un jugador al regresar de Esfumarse e inflige daño Físico."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24698 = "Gubia"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24698 =
+        "Inflige daño Físico e incapacita a los enemigos cercanos durante un máximo de 4 segundos. El daño interrumpe el efecto.\n\nUn segundo tanque debe estar preparado para tomar el relevo si el tanque actual queda incapacitado."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24649 = "Mil hojas"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24649 =
+        "Lanza una hoja a un jugador e inflige daño Físico."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
+        "Aumenta la velocidad de ataque cuerpo a cuerpo un 60% y añade 50 puntos de daño Físico durante 120 segundos.\n\nLos tanques y sanadores deben prepararse para un aumento del daño recibido."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "Hazza'rah"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "Quema de maná en cadena"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =

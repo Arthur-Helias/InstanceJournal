@@ -1563,11 +1563,19 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "Renataki"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Desaparecer"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =
-        "Renataki desaparece, impedindo que os inimigos o vejam. Assim que reaparecer, ele emboscará um inimigo aleatório, causando grandes danos.\n\nOs jogadores precisam encontrar Renataki antes que ele reapareça. Use habilidades aoe para tentar quebrar sua furtividade."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakienrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakienrage = "Renataki enrages, increasing the damage he deals to his enemies."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakigouge = "Gouge"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakigouge = "Renataki gouges an enemy, incapacitating them."
+        "Desaparece e depois reaparece, emboscando um jogador.\n\nOs curadores devem se preparar para o retorno dele."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24337 = "Emboscar"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24337 =
+        "Ataca um jogador ao retornar de Desaparecer, causando dano Físico."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24698 = "Gouge"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24698 =
+        "Causa dano Físico e incapacita inimigos próximos por até 4 segundos. Receber dano interrompe o efeito.\n\nUm segundo tanque deve estar pronto para assumir caso o tanque atual seja incapacitado."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24649 = "Mil Lâminas"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24649 =
+        "Arremessa uma lâmina contra um jogador, causando dano Físico."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
+        "Aumenta a velocidade dos ataques corpo a corpo em 60% e adiciona 50 pontos de dano Físico por 120 segundos.\n\nTanques e curadores devem se preparar para o aumento do dano recebido."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "Hazza'rah"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "Queima de Mana em Cadeia"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =
