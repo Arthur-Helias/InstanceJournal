@@ -1718,28 +1718,25 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_ZG_BOSS_STORY_11380 =
         "Jin'do ist ein Gurubashi-Dschungeltroll-Hexendoktor mit beträchtlicher Macht. Er ist dafür verantwortlich, die Zandalari-Priester Jeklik, Venoxis, Mar'li, Thekal und Arlokk einer Gehirnwäsche zu unterziehen und sie in den Dienst von Hakkar, dem Loa des Blutes, zu stellen."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24306 = "Wahnvorstellungen von Jin'do"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 =
-        "Jin'do verflucht einen Spieler, verursacht alle 2 Sekunden 175 Schaden und erzeugt einen Schatten von Jin'do.\n\nDennoch wird den Spielern empfohlen, diese Fähigkeit nicht zu entfluchen, da nur diejenigen, die vom Fluch betroffen sind, die Schatten von Jin'do sehen und beschädigen können."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24053 = "Verhexen"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24053 = "Jin'do verwandelt den Spieler mit der höchsten Bedrohung in einen Frosch."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoteleportskeletonpit = "Teleport to Skeleton Pit"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoteleportskeletonpit = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 = "Jin'do verflucht einen Spieler und verursacht 20 Sekunden lang alle 2 Sekunden 175 Schattenschaden. Er beschwört mit einer separaten Fähigkeit Schatten von Jin'do.\n\nEntfernt diesen Fluch nicht: Nur verfluchte Spieler können die Schatten von Jin'do sehen und ihnen Schaden zufügen."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_17172 = "Verhexen"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_17172 = "Jin'do verwandelt den Spieler mit der höchsten Bedrohung in einen Frosch für bis zu 5 Sekunden und verhindert Angriffe und Zauber. Dieser magische Effekt kann gebannt werden."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24466 = "Teleport to Skeleton Pit"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24466 = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoadds = "Jin'do's Adds"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds =
-        "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds = "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14986 = "Schatten von Jin'do"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 =
-        "Obwohl Shades of Jin'do nur für diejenigen sichtbar sind, die durch Delusions of Jin'do verflucht sind, können Shades jeden im Raid angreifen. Sie sind außerdem immun gegen AoE-Schaden und müssen sich auf Einzelzielfähigkeiten und -zauber konzentrieren.\n\nShades of Jin'do sollten als erstes getötet werden."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoshademelee = "Melee Attack"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoshademelee = "Shade of Jin'do's melee attacks can interrupt spellcasts."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 = "Obwohl die Schatten von Jin'do nur für Spieler sichtbar sind, die von Jin'dos Wahnvorstellungen betroffen sind, können sie jeden im Schlachtzug angreifen."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24458 = "Schattenschock"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Shades of Jin'do wirkt dunkle Magie, die Feinde sofort peitscht und ihnen Schattenschaden zufügt."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Trifft Gegner sofort mit dunkler Magie und verursacht Schattenschaden."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14987 = "Leistungsstarke Heilstation"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14987 =
         "Jin'do beschwört einen mächtigen Heilzauber, der Jin'do mehr Schaden zufügt, als der Raid verursachen kann.\n\nAlle Spieler, die nicht aktiv einen Schatten von Jin'do töten, sollten sich auf dieses Totem konzentrieren.\n\nDer mächtige Heilschutz sollte die zweite Priorität sein, die getötet werden muss."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_15112 = "Gehirnwäsche-Totem"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_15112 =
         "Jin'do beschwört ein Gehirnwäsche-Totem, das die Gedanken der Spieler kontrolliert. Die Gedankenkontrolle kann nicht aufgehoben werden, ohne dieses Totem zu zerstören.\n\nDas Gehirnwäsche-Totem sollte die dritte Priorität sein, die getötet werden muss."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24261 = "Gehirnwäsche"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24261 = "Übernimmt die Kontrolle über einen Spieler. Zerstört das Gehirnwäschetotem, um den Spieler zu befreien."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14826 = "Geopferter Troll"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14826 =
         "Wenn Jin'do Spieler in die Skelettgrube teleportiert, erscheinen geopferte Trolle und greifen die beschworene Person an.\n\nBenutze AoE-Angriffe, um das herbeigerufene Raid-Mitglied schnell zu befreien."

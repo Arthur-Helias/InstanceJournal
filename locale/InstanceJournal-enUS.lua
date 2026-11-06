@@ -3270,28 +3270,25 @@ IJ_DB_RAID_ZG_BOSS_NAME_11380 = "Jin'do the Hexxer"
 IJ_DB_RAID_ZG_BOSS_STORY_11380 =
     "Jin'do is a Gurubashi jungle troll witch doctor of considerable power. He is responsible for brainwashing the Zandalari priests Jeklik, Venoxis, Mar'li, Thekal, and Arlokk into the service of Hakkar, the Loa of Blood."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24306 = "Delusions of Jin'do"
-IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 =
-    "Jin'do curses a player, inflicting 175 damage every 2 seconds and spawns a Shade of Jin'do.\n\nDespite this, players are advised not to decurse this ability since only those afflicted by the curse can see and damage the Shades of Jin'do."
-IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24053 = "Hex"
-IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24053 = "Jin'do transforms the player with the highest threat into a frog."
-IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoteleportskeletonpit = "Teleport to Skeleton Pit"
-IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoteleportskeletonpit = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
+IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 = "Jin'do curses a player, dealing 175 Shadow damage every 2 seconds for 20 seconds. He summons Shades of Jin'do with a separate ability.\n\nDo not remove this curse: only cursed players can see and damage the Shades of Jin'do."
+IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_17172 = "Hex"
+IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_17172 = "Jin'do transforms the player with the highest threat into a frog for up to 5 seconds, preventing attacks and spellcasting. This Magic effect can be dispelled."
+IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24466 = "Teleport to Skeleton Pit"
+IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24466 = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoadds = "Jin'do's Adds"
-IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds =
-    "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
+IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds = "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14986 = "Shade of Jin'do"
-IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 =
-    "Though Shades of Jin'do are only visible to those cursed by Delusions of Jin'do, shades can attack anyone in the raid. They are also immune to AoE damage, and must be focused with single-target abilities and spells.\n\nShades of Jin'do should be the first priority add to be killed."
-IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoshademelee = "Melee Attack"
-IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoshademelee = "Shade of Jin'do's melee attacks can interrupt spellcasts."
+IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 = "Though Shades of Jin'do are only visible to players afflicted by Delusions of Jin'do, they can attack anyone in the raid."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24458 = "Shadow Shock"
-IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Shades of Jin'do casts dark magic that instantly lashes enemies, inflicting shadow damage."
+IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Instantly lashes enemies with dark magic, dealing Shadow damage."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14987 = "Powerful Healing Ward"
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14987 =
     "Jin'do summons a powerful healing ward that heals Jin'do for more damage than the raid can deal.\n\nAll players not actively killing a Shade of Jin'do should focus on this totem.\n\nPowerful Healing Ward should be the second priority add to be killed."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_15112 = "Brain Wash Totem"
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_15112 =
     "Jin'do summons a brainwashing totem that mind controls players. The mind control cannot be dispelled without breaking this totem.\n\nBrain Wash Totem should be the third priority add to be killed."
+IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24261 = "Brain Wash"
+IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24261 = "Takes control of a player. Destroy the Brain Wash Totem to free the player."
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14826 = "Sacrificed Troll"
 IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14826 =
     "When Jin'do teleports players into the skeleton pit, Sacrificed Trolls will spawn and attack the summoned person.\n\nUse AoE attacks to quickly free the summoned raid member."

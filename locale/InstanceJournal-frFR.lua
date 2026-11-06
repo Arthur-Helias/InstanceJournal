@@ -1717,28 +1717,25 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_ZG_BOSS_STORY_11380 =
         "Jin'do est un sorcier guérisseur troll de la jungle Gurubashi doté d'un pouvoir considérable. Il est responsable du lavage de cerveau des prêtres Zandalari Jeklik, Venoxis, Mar'li, Thekal et Arlokk pour les mettre au service de Hakkar, le Loa du Sang."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24306 = "Les délires de Jin'do"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 =
-        "Jin'do maudit un joueur, lui infligeant 175 dégâts toutes les 2 secondes et engendre une Ombre de Jin'do.\n\nMalgré cela, il est conseillé aux joueurs de ne pas maudire cette capacité puisque seules les personnes affectées par la malédiction peuvent voir et endommager les Ombres de Jin'do."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24053 = "Hex"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24053 = "Jin'do transforme le joueur le plus menacé en grenouille."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoteleportskeletonpit = "Teleport to Skeleton Pit"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoteleportskeletonpit = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 = "Jin'do maudit un joueur et lui inflige 175 points de dégâts d’Ombre toutes les 2 secondes pendant 20 secondes. Il invoque des Ombres de Jin'do avec une capacité distincte.\n\nNe dissipez pas cette malédiction : seuls les joueurs maudits peuvent voir les Ombres de Jin'do et leur infliger des dégâts."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_17172 = "Hex"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_17172 = "Jin'do transforme le joueur le plus menacé en grenouille pendant un maximum de 5 secondes, l’empêchant d’attaquer et de lancer des sorts. Cet effet magique peut être dissipé."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24466 = "Teleport to Skeleton Pit"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24466 = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoadds = "Jin'do's Adds"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds =
-        "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds = "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14986 = "Ombre de Jin'do"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 =
-        "Bien que les Ombres de Jin'do ne soient visibles que par ceux maudits par les Illusions de Jin'do, les ombres peuvent attaquer n'importe qui dans le raid. Ils sont également immunisés contre les dégâts de zone et doivent être concentrés avec des capacités et des sorts à cible unique.\n\nShades of Jin'do devrait être la première priorité à tuer."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoshademelee = "Melee Attack"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoshademelee = "Shade of Jin'do's melee attacks can interrupt spellcasts."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 = "Bien que les Ombres de Jin'do ne soient visibles que par les joueurs affectés par les Illusions de Jin'do, elles peuvent attaquer n’importe quel membre du raid."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24458 = "Choc de l'Ombre"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Shades of Jin'do lance une magie noire qui fouette instantanément les ennemis, leur infligeant des dégâts d'ombre."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Frappe instantanément les ennemis avec de la magie noire et leur inflige des dégâts d’Ombre."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14987 = "Puissante salle de guérison"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14987 =
         "Jin'do invoque une puissante protection de guérison qui soigne Jin'do pour plus de dégâts que le raid ne peut en infliger.\n\nTous les joueurs qui ne tuent pas activement une Ombre de Jin'do devraient se concentrer sur ce totem.\n\nLa puissante protection de guérison devrait être la deuxième priorité à ajouter pour être tué."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_15112 = "Totem de lavage de cerveau"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_15112 =
         "Jin'do invoque un totem de lavage de cerveau qui contrôle l'esprit des joueurs. Le contrôle mental ne peut être dissipé sans briser ce totem.\n\nBrain Wash Totem devrait être la troisième priorité à ajouter pour être tué."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24261 = "Lavage de cerveau"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24261 = "Prend le contrôle d’un joueur. Détruisez le Totem de lavage de cerveau pour libérer le joueur."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14826 = "Troll sacrifié"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14826 =
         "Lorsque Jin'do téléporte les joueurs dans la fosse aux squelettes, des trolls sacrifiés apparaîtront et attaqueront la personne invoquée.\n\nUtilisez les attaques AoE pour libérer rapidement le membre du raid invoqué."

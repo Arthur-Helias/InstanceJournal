@@ -885,8 +885,8 @@ ZG.Bosses = {
         MapCoordinateY = 24.9,
         Abilities = {
             [1] = {Id = "24306", Icon = "Spell_Shadow_UnholyFrenzy", Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24306, Effect = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306, Flags = {IMAF.Curse}},
-            [2] = {Id = "24053", Icon = "Spell_Shaman_Hex", Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24053, Effect = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24053, Flags = {IMAF.Interruptible}},
-            [3] = {Id = "jindoteleportskeletonpit", Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoteleportskeletonpit, Effect = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoteleportskeletonpit},
+            [2] = {Id = "17172", Icon = "Spell_Shaman_Hex", Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_17172, Effect = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_17172, Flags = {IMAF.Magic}},
+            [3] = {Id = "24466", Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24466, Effect = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24466},
             [4] = {
                 Id = "jindoadds",
                 Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoadds,
@@ -899,12 +899,19 @@ ZG.Bosses = {
                         Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14986,
                         Effect = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986,
                         SubAbilities = {
-                            [1] = {Id = "jindoshademelee", Icon = "ability_meleedamage", Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoshademelee, Effect = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoshademelee},
-                            [2] = {Id = "24458", Icon = "Spell_Shadow_ShadowBolt", Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24458, Effect = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458}
+                            [1] = {Id = "24458", Icon = "Spell_Shadow_ShadowBolt", Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24458, Effect = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458}
                         }
                     },
                     [2] = {Id = "14987", Icon = "INV_Relics_TotemofLife", Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14987, Effect = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14987, Flags = {IMAF.Heal, IMAF.Important}},
-                    [3] = {Id = "15112", Icon = "INV_QirajIdol_Life", Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_15112, Effect = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_15112},
+                    [3] = {
+                        Id = "15112",
+                        Icon = "INV_QirajIdol_Life",
+                        Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_15112,
+                        Effect = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_15112,
+                        SubAbilities = {
+                            [1] = {Id = "24261", Icon = "Spell_Shadow_ShadowWordDominate", Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24261, Effect = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24261}
+                        }
+                    },
                     [4] = {Id = "14826", Icon = "INV_Misc_Bone_02", Name = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14826, Effect = IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14826}
                 }
             }

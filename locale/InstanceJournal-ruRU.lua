@@ -1772,28 +1772,25 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_ZG_BOSS_STORY_11380 =
         "Джин'до — тролль-колдун Гурубаши, обладающий значительной силой. Он ответственен за «промывание мозгов» зандаларским жрецам Джеклику, Веноксису, Мар'ли, Текалу и Арлокку, чтобы они служили Хаккару, Лоа Крови."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24306 = "Иллюзии Джин'до"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 =
-        "Джин'до проклинает игрока, нанося 175 ед. урона каждые 2 секунды и порождает Тень Джин'до. ||н||  ||н|| Несмотря на это, игрокам не рекомендуется снимать проклятие с этой способности, поскольку только те, кто пострадал от проклятия, могут видеть и наносить урон Теням Джин'до."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24053 = "Шестигранник"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24053 = "Джин'до превращает игрока с наибольшей угрозой в лягушку."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoteleportskeletonpit = "Teleport to Skeleton Pit"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoteleportskeletonpit = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 = "Джин'до проклинает игрока, нанося 175 ед. урона от темной магии каждые 2 секунды в течение 20 секунд. Тени Джин'до призываются отдельной способностью.\n\nНе снимайте это проклятие: только проклятые игроки могут видеть тени Джин'до и наносить им урон."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_17172 = "Шестигранник"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_17172 = "Джин'до превращает игрока с наибольшей угрозой в лягушку на срок до 5 секунд, не позволяя атаковать и произносить заклинания. Этот магический эффект можно рассеять."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24466 = "Teleport to Skeleton Pit"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24466 = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoadds = "Jin'do's Adds"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds =
-        "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds = "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14986 = "Тень Джин'до"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 =
-        "Хотя Тени Джин'до видны только тем, кто проклят Иллюзиями Джин'до, тени могут атаковать любого в рейде. Они также невосприимчивы к урону по площади и должны быть сосредоточены с помощью способностей и заклинаний, нацеленных на одну цель. ||н||  ||н|| Тени Джин'до должны быть первым приоритетным дополнением, которого нужно убить."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoshademelee = "Melee Attack"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoshademelee = "Shade of Jin'do's melee attacks can interrupt spellcasts."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 = "Хотя тени Джин'до видны только игрокам под действием Заблуждений Джин'до, они могут атаковать любого участника рейда."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24458 = "Теневой шок"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Тени Джин'до использует темную магию, которая мгновенно бьет врагов, нанося темный урон."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Мгновенно поражает врагов темной магией, нанося урон от темной магии."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14987 = "Мощный исцеляющий оберег"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14987 =
         "Джин'до призывает мощный исцеляющий оберег, который лечит Джин'до, нанося больший урон, чем может нанести рейд. ||н||  ||н|| Всем игрокам, которые не убивают Тень Джин'до активно, следует сосредоточиться на этом тотеме. ||н||  ||н|| Powerful Healing Ward должен быть вторым по приоритету дополнением, которое нужно убить."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_15112 = "Тотем промывания мозгов"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_15112 =
         "Джин'до вызывает тотем «промывания мозгов», который управляет разумом игроков. Контроль над разумом невозможно рассеять, не разрушив этот тотем. ||н||  ||н|| Тотем промывки мозгов должен быть третьим приоритетным дополнением, которое нужно убить."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24261 = "Промывание мозгов"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24261 = "Подчиняет игрока. Уничтожьте тотем промывания мозгов, чтобы освободить игрока."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14826 = "Принесенный в жертву тролль"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14826 =
         "Когда Джин'до телепортирует игроков в яму скелетов, появляются принесенные в жертву тролли и атакуют призванного человека. ||н||  ||н|| Используйте атаки по площади, чтобы быстро освободить призванного участника рейда."

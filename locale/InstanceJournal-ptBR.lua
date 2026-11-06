@@ -1709,28 +1709,25 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_ZG_BOSS_STORY_11380 =
         "Jin'do é um feiticeiro troll da selva Gurubashi de poder considerável. Ele é responsável pela lavagem cerebral nos sacerdotes Zandalari Jeklik, Venoxis, Mar'li, Thekal e Arlokk para o serviço de Hakkar, o Loa do Sangue."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24306 = "Delírios de Jin'do"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 =
-        "Jin'do amaldiçoa um jogador, causando 175 de dano a cada 2 segundos e gerando uma Sombra de Jin'do.\n\nApesar disso, os jogadores são aconselhados a não abandonar esta habilidade, já que apenas aqueles afetados pela maldição podem ver e danificar as Sombras de Jin'do."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24053 = "Feitiço"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24053 = "Jin'do transforma o jogador com maior ameaça em um sapo."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoteleportskeletonpit = "Teleport to Skeleton Pit"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoteleportskeletonpit = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 = "Jin'do amaldiçoa um jogador, causando 175 de dano de Sombra a cada 2 segundos por 20 segundos. Ele invoca Sombras de Jin'do com uma habilidade separada.\n\nNão remova esta maldição: apenas jogadores amaldiçoados podem ver e causar dano às Sombras de Jin'do."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_17172 = "Feitiço"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_17172 = "Jin'do transforma o jogador com maior ameaça em um sapo por até 5 segundos, impedindo ataques e conjurações. Este efeito mágico pode ser dissipado."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24466 = "Teleport to Skeleton Pit"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24466 = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoadds = "Jin'do's Adds"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds =
-        "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds = "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14986 = "Sombra de Jin'do"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 =
-        "Embora as Sombras de Jin'do sejam visíveis apenas para aqueles amaldiçoados pelos Delírios de Jin'do, as sombras podem atacar qualquer pessoa no ataque. Eles também são imunes a danos AoE e devem ser focados em habilidades e feitiços de alvo único.\n\nShades of Jin'do deve ser a primeira prioridade a ser morta."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoshademelee = "Melee Attack"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoshademelee = "Shade of Jin'do's melee attacks can interrupt spellcasts."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 = "Embora as Sombras de Jin'do só sejam visíveis para jogadores afetados por Delírios de Jin'do, elas podem atacar qualquer integrante da raide."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24458 = "Choque Sombrio"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Shades of Jin'do lança magia negra que ataca instantaneamente os inimigos, causando dano de sombra."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Atinge instantaneamente os inimigos com magia sombria, causando dano de Sombra."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14987 = "Ala de Cura Poderosa"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14987 =
         "Jin'do invoca uma poderosa proteção de cura que cura Jin'do causando mais danos do que o ataque pode causar.\n\nTodos os jogadores que não estão matando ativamente um Shade of Jin'do devem se concentrar neste totem.\n\nPowerful Healing Ward deve ser a segunda prioridade adicionada a ser morta."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_15112 = "Totem de lavagem cerebral"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_15112 =
         "Jin'do invoca um totem de lavagem cerebral que controla a mente dos jogadores. O controle da mente não pode ser dissipado sem quebrar este totem.\n\nBrain Wash Totem deve ser o terceiro acréscimo prioritário a ser morto."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24261 = "Lavagem Cerebral"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24261 = "Controla um jogador. Destrua o Totem de Lavagem Cerebral para libertar o jogador."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14826 = "Troll sacrificado"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14826 =
         "Quando Jin'do teletransporta os jogadores para o poço do esqueleto, os Trolls Sacrificados irão aparecer e atacar a pessoa convocada.\n\nUse ataques AoE para libertar rapidamente o membro convocado do ataque."
