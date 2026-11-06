@@ -1572,25 +1572,42 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_ZG_BOSS_NAME_11382 = "Повелитель крови Мандокир"
     IJ_DB_RAID_ZG_BOSS_STORY_11382 =
         "Повелитель крови Мандокир — могущественный тролль джунглей и лидер племени Гурубаши. Его постоянным спутником является его хищник Оган. Он служит злому богу Хаккару Свежевателю Душ в Зул'Гурубе вместе с остальными членами своего племени."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgan = "Ohgan"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan = "Ohgan also becomes enraged when Mandakir is attacked, defending his master until death."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgansunder = "Sunder Armor"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgansunder = "Ohgan sunders his target's armor, increasing the amount of damage they receive for every stack of Sunder Armor they are afflicted with."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokir = "Mandokir"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgan = "Охган"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan =
+        "Охган сопровождает Мандокира и использует Раскол брони и Взбучку.\n\nТанк должен держать его отдельно от босса."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokir = "Мандокир"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokir =
+        "Мандокир сражается вместе с Охганом и становится сильнее, когда игроки погибают."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24317 = "Раскол брони"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24317 =
+        "Охган снижает броню цели на 1000 за заряд, эффект суммируется до 5 раз и длится 20 секунд."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_3391 = "Взбучка"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_3391 =
+        "Дает Охгану 2 дополнительные атаки ближнего боя."
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24314 = "Угрожающий взгляд"
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 =
-        "Мандокир угрожающе смотрит на случайного врага. Если целевой враг применяет какое-либо заклинание, Мандокир атакует его, нанося тяжелый урон."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirwhirlwind = "Whirlwind"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirwhirlwind = "Mandokir whirlwind into the enemies, dealing damage to every one of them in melee range."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokircleave = "Cleave"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokircleave = "Mandokir cleaves, dealing physical damage to all the enemies in front of him."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24408 = "Заряжать"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 = "Мандокир атакует врага, нанося ему физический урон и оглушая его на 2 секунды."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirlevelup = "Level Up"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirlevelup =
-        "Every time three player gets resurrected by a Chained Spirit, Mandokir levels up, increasing the amount of damage he deals and reducing the amount of damage he receives."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirenrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirenrage = "If Ohgan dies before Mandokir does, Mandokir becomes enraged for 1 minute, increasing the damage he deals to his enemies."
+        "Наблюдает за игроком в течение 6 секунд.\n\nПрекратите атаки и применение заклинаний до окончания взгляда, чтобы избежать карающего рывка."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_13736 = "Вихрь"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_13736 =
+        "Поддерживает вихрь в течение 2 секунд, нанося физический урон противникам в радиусе 8 м.\n\nВыйдите из зоны действия во время поддержания заклинания."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_16856 = "Смертельный удар"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_16856 =
+        "Наносит 200% урона от оружия и снижает получаемое целью исцеление на 50% на 5 секунд."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24408 = "Рывок"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 =
+        "Бросается к противнику, нанося физический урон и оглушая его на 2 секунды."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_19134 = "Устрашающий крик"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_19134 =
+        "Пугает цель и заставляет ближайших противников бежать в страхе на срок до 8 секунд.\n\nЗащита от страха может предотвратить страх."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24312 = "Повышение уровня"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24312 =
+        "Гибель игроков дает Мандокиру заряды Повышения уровня, увеличивающие физический урон на 10% за заряд.\n\nИзбегайте смертей, даже если доступно воскрешение."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24318 = "Исступление"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24318 =
+        "Если Охган погибает раньше Мандокира, наносимый Мандокиром физический урон увеличивается на 50%, а скорость атак ближнего боя — на 65% на 90 секунд.\n\nТанки и лекари должны подготовиться к увеличению входящего урона."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_15117 = "Скованные духи"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117 =
+        "Скованные духи могут воскрешать погибших игроков во время боя."
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "Грань безумия"
     IJ_DB_RAID_ZG_BOSS_STORY_15082 =
         "О Грани безумия почти ничего не известно, кроме слухов, что если правильно выполнить неизвестное заклинание, то будет вызван один из четырех возможных легендарных троллей..."

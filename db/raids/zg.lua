@@ -429,39 +429,83 @@ ZG.Bosses = {
                 Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgan,
                 Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan,
                 SubAbilities = {
-                    [1] = {Id = "ohgansunder", Icon = "ability_warrior_sunder", Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgansunder, Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgansunder, Flags = {IMAF.Tank}}
+                    [1] = {
+                        Id = "24317",
+                        Icon = "Ability_Warrior_Sunder",
+                        Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24317,
+                        Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24317,
+                        Flags = {IMAF.Tank}
+                    },
+                    [2] = {
+                        Id = "3391",
+                        Icon = "Ability_Warrior_PunishingBlow",
+                        Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_3391,
+                        Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_3391,
+                        Flags = {IMAF.Tank}
+                    }
                 }
             },
             [2] = {
                 Id = "mandokir",
                 Icon = "INV_Misc_Head_Troll_01",
                 Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokir,
+                Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokir,
                 SubAbilities = {
-                    [1] = {Id = "24314", Icon = "Spell_Shadow_Charm", Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24314, Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314, Flags = {IMAF.Deadly, IMAF.Important}},
-                    [2] = {
-                        Id = "mandokirwhirlwind",
-                        Icon = "Ability_Whirlwind",
-                        Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirwhirlwind,
-                        Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirwhirlwind,
-                        Flags = {IMAF.Deadly}
+                    [1] = {
+                        Id = "24314",
+                        Icon = "Spell_Shadow_Charm",
+                        Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24314,
+                        Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314,
+                        Flags = {IMAF.Deadly, IMAF.Important}
                     },
-                    [3] = {Id = "mandokircleave", Icon = "Ability_Warrior_Cleave", Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokircleave, Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokircleave},
-                    [4] = {Id = "24408", Icon = "Ability_Warrior_Charge", Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24408, Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408},
+                    [2] = {
+                        Id = "13736",
+                        Icon = "Ability_Whirlwind",
+                        Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_13736,
+                        Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_13736,
+                        Flags = {IMAF.Important}
+                    },
+                    [3] = {
+                        Id = "16856",
+                        Icon = "Ability_Warrior_SavageBlow",
+                        Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_16856,
+                        Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_16856,
+                        Flags = {IMAF.Tank, IMAF.Heal}
+                    },
+                    [4] = {
+                        Id = "24408",
+                        Icon = "Ability_Warrior_Charge",
+                        Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24408,
+                        Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408
+                    },
                     [5] = {
-                        Id = "mandokirlevelup",
-                        Icon = "Spell_Holy_InnerFire",
-                        Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirlevelup,
-                        Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirlevelup,
+                        Id = "19134",
+                        Icon = "Ability_GolemThunderClap",
+                        Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_19134,
+                        Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_19134,
                         Flags = {IMAF.Important}
                     },
                     [6] = {
-                        Id = "mandokirenrage",
-                        Icon = "Ability_BullRush",
-                        Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirenrage,
-                        Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirenrage,
-                        Flags = {IMAF.Deadly, IMAF.Enrage}
+                        Id = "24312",
+                        Icon = "Spell_Holy_InnerFire",
+                        Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24312,
+                        Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24312,
+                        Flags = {IMAF.Important}
+                    },
+                    [7] = {
+                        Id = "24318",
+                        Icon = "Spell_Shadow_UnholyFrenzy",
+                        Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24318,
+                        Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24318,
+                        Flags = {IMAF.Tank, IMAF.Important}
                     }
                 }
+            },
+            [3] = {
+                Id = "15117",
+                Icon = "Spell_Holy_Resurrection",
+                Name = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_15117,
+                Effect = IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117
             }
         },
         Loot = {

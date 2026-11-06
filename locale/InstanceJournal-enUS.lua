@@ -3076,23 +3076,41 @@ IJ_DB_RAID_ZG_BOSS_NAME_11382 = "Bloodlord Mandokir"
 IJ_DB_RAID_ZG_BOSS_STORY_11382 =
     "Bloodlord Mandokir is a powerful jungle troll and leader of the Gurubashi tribe. His constant companion is his raptor mount, Ohgan. He serves the evil god Hakkar the Soulflayer in Zul'Gurub along with the rest of his tribe."
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgan = "Ohgan"
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan = "Ohgan also becomes enraged when Mandakir is attacked, defending his master until death."
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgansunder = "Sunder Armor"
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgansunder = "Ohgan sunders his target's armor, increasing the amount of damage they receive for every stack of Sunder Armor they are afflicted with."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan =
+    "Ohgan accompanies Mandokir and uses Sunder Armor and Thrash.\n\nTank him separately from the boss."
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokir = "Mandokir"
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokir =
+    "Mandokir fights alongside Ohgan and grows stronger when players die."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24317 = "Sunder Armor"
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24317 =
+    "Ohgan reduces his target's armor by 1000 per stack, stacking up to 5 times for 20 seconds."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_3391 = "Thrash"
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_3391 =
+    "Grants Ohgan 2 additional melee attacks."
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24314 = "Threatening Gaze"
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 = "Mandokir gazes threateningly at a random enemy. If the targeted enemy casts any spell, Mandokir will charge them, inflicting heavy damage."
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirwhirlwind = "Whirlwind"
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirwhirlwind = "Mandokir whirlwind into the enemies, dealing damage to every one of them in melee range."
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokircleave = "Cleave"
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokircleave = "Mandokir cleaves, dealing physical damage to all the enemies in front of him."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 =
+    "Watches a player for 6 seconds.\n\nStop attacking and casting until the gaze fades to avoid a punishing charge."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_13736 = "Whirlwind"
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_13736 =
+    "Channels a whirlwind for 2 seconds, dealing Physical damage to enemies within 8 yards.\n\nMove out of its range during the channel."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_16856 = "Mortal Strike"
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_16856 =
+    "Deals 200% weapon damage and reduces healing received by the target by 50% for 5 seconds."
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24408 = "Charge"
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 = "Mandokir charges at an enemy, dealing physical damage to them and stunning them for 2 seconds."
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirlevelup = "Level Up"
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirlevelup =
-    "Every time three player gets resurrected by a Chained Spirit, Mandokir levels up, increasing the amount of damage he deals and reducing the amount of damage he receives."
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirenrage = "Enrage"
-IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirenrage = "If Ohgan dies before Mandokir does, Mandokir becomes enraged for 1 minute, increasing the damage he deals to his enemies."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 =
+    "Charges an enemy, dealing Physical damage and stunning them for 2 seconds."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_19134 = "Intimidating Shout"
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_19134 =
+    "Terrifies a target and causes nearby enemies to flee in fear for up to 8 seconds.\n\nFear Ward can prevent the fear."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24312 = "Level Up"
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24312 =
+    "Player deaths grant Mandokir stacks of Level Up, increasing his Physical damage by 10% per stack.\n\nAvoid deaths even when a resurrection is available."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24318 = "Enrage"
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24318 =
+    "When Ohgan dies before Mandokir, Mandokir gains 50% Physical damage and 65% melee attack speed for 90 seconds.\n\nTanks and healers should prepare for increased incoming damage."
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_15117 = "Chained Spirits"
+IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117 =
+    "Chained Spirits can revive fallen players during the fight."
 IJ_DB_RAID_ZG_BOSS_NAME_15082 = "Edge of Madness"
 IJ_DB_RAID_ZG_BOSS_STORY_15082 = "Nearly nothing is known about the Edge of Madness, only the rumor that if you were to do an unknown invocation properly, one out of four possible legendary troll would be summoned..."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "Gri'lek"

@@ -1514,23 +1514,41 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_ZG_BOSS_STORY_11382 =
         "Bloodlord Mandokir é um poderoso troll da selva e líder da tribo Gurubashi. Seu companheiro constante é sua montaria raptor, Ohgan. Ele serve ao deus maligno Hakkar, o Devorador de Almas, em Zul'Gurub junto com o resto de sua tribo."
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgan = "Ohgan"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan = "Ohgan also becomes enraged when Mandakir is attacked, defending his master until death."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgansunder = "Sunder Armor"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgansunder = "Ohgan sunders his target's armor, increasing the amount of damage they receive for every stack of Sunder Armor they are afflicted with."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan =
+        "Ohgan acompanha Mandokir e usa Fendadura de Armadura e Surra.\n\nUm tanque deve mantê-lo separado do chefe."
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokir = "Mandokir"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokir =
+        "Mandokir luta ao lado de Ohgan e fica mais forte quando jogadores morrem."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24317 = "Fendadura de Armadura"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24317 =
+        "Ohgan reduz a armadura do alvo em 1000 por aplicação, acumulando até 5 vezes por 20 segundos."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_3391 = "Surra"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_3391 =
+        "Concede a Ohgan 2 ataques corpo a corpo adicionais."
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24314 = "Olhar Ameaçador"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 = "Mandokir olha ameaçadoramente para um inimigo aleatório. Se o inimigo alvo lançar qualquer feitiço, Mandokir irá atacá-lo, causando grandes danos."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirwhirlwind = "Whirlwind"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirwhirlwind = "Mandokir whirlwind into the enemies, dealing damage to every one of them in melee range."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokircleave = "Cleave"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokircleave = "Mandokir cleaves, dealing physical damage to all the enemies in front of him."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24408 = "Cobrar"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 = "Mandokir ataca um inimigo, causando dano físico a ele e atordoando-o por 2 segundos."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirlevelup = "Level Up"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirlevelup =
-        "Every time three player gets resurrected by a Chained Spirit, Mandokir levels up, increasing the amount of damage he deals and reducing the amount of damage he receives."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirenrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirenrage = "If Ohgan dies before Mandokir does, Mandokir becomes enraged for 1 minute, increasing the damage he deals to his enemies."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 =
+        "Observa um jogador por 6 segundos.\n\nPare de atacar e conjurar até o olhar terminar para evitar uma investida punitiva."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_13736 = "Redemoinho"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_13736 =
+        "Canaliza um redemoinho por 2 segundos, causando dano Físico aos inimigos em um raio de 8 metros.\n\nSaia do alcance durante a canalização."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_16856 = "Golpe Mortal"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_16856 =
+        "Causa 200% de dano de arma e reduz a cura recebida pelo alvo em 50% por 5 segundos."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24408 = "Investida"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 =
+        "Investe contra um inimigo, causando dano Físico e atordoando-o por 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_19134 = "Brado Intimidador"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_19134 =
+        "Aterroriza um alvo e faz os inimigos próximos fugirem de medo por até 8 segundos.\n\nProteção contra Medo pode prevenir o medo."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24312 = "Subir de Nível"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24312 =
+        "Mortes de jogadores concedem aplicações de Subir de Nível a Mandokir, aumentando seu dano Físico em 10% por aplicação.\n\nEvite mortes mesmo quando uma ressurreição estiver disponível."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24318 = "Enfurecer"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24318 =
+        "Quando Ohgan morre antes de Mandokir, Mandokir ganha 50% de dano Físico e 65% de velocidade de ataque corpo a corpo por 90 segundos.\n\nTanques e curandeiros devem se preparar para o aumento do dano recebido."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_15117 = "Espíritos Acorrentados"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117 =
+        "Espíritos Acorrentados podem reviver jogadores mortos durante a luta."
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "Limite da Loucura"
     IJ_DB_RAID_ZG_BOSS_STORY_15082 =
         "Quase nada se sabe sobre o Limite da Loucura, apenas o boato de que se você fizesse uma invocação desconhecida corretamente, um em cada quatro possíveis trolls lendários seria convocado..."

@@ -3200,22 +3200,41 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_STORY_11382 =
         "血领主曼多基尔是一位强大的丛林巨魔，也是古拉巴什部落的领袖。他不变的伴侣是他的猛禽坐骑奥根。他与部落的其他成员一起侍奉祖尔格拉布的邪神夺魂者哈卡。"
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgan = "奥根"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan = "奥根在曼多基尔受到攻击时也会进入激怒状态，誓死保护自己的主人。"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgansunder = "破甲攻击"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgansunder = "奥根对目标施加破甲攻击，使其每层破甲攻击效果都会承受更多伤害。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan =
+        "奥根与曼多基尔并肩作战，使用破甲和痛击。\n\n坦克应将它与首领分开。"
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokir = "曼多基尔"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokir =
+        "曼多基尔与奥根并肩作战，并在玩家死亡时变得更强。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24317 = "破甲"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24317 =
+        "奥根每层效果使目标的护甲降低1000点，最多叠加5层，持续20秒。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_3391 = "痛击"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_3391 =
+        "使奥根获得2次额外近战攻击。"
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24314 = "威慑凝视"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 = "曼多基尔威胁性地注视着随机的敌人。如果目标敌人施展任何法术，曼多基尔就会向他们发起冲锋，造成严重伤害。"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirwhirlwind = "旋风斩"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirwhirlwind = "曼多基尔冲入敌群施放旋风斩，对近战范围内的所有敌人造成伤害。"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokircleave = "顺劈斩"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokircleave = "曼多基尔顺劈前方所有敌人，造成物理伤害。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 =
+        "凝视一名玩家，持续6秒。\n\n在凝视结束前停止攻击和施法，以避免惩罚性的冲锋。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_13736 = "旋风斩"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_13736 =
+        "引导旋风斩，持续2秒，对8码范围内的敌人造成物理伤害。\n\n引导期间离开其范围。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_16856 = "致死打击"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_16856 =
+        "造成200%的武器伤害，并使目标受到的治疗降低50%，持续5秒。"
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24408 = "冲锋"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 = "曼多基尔冲向敌人，对其造成物理伤害并使其晕眩 2 秒。"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirlevelup = "升级"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirlevelup = "每当有三名玩家被锁链之魂复活时，曼多基尔就会升级，提高造成的伤害并降低受到的伤害。"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirenrage = "激怒"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirenrage = "如果奥根先于曼多基尔死亡，曼多基尔会激怒 1 分钟，提高其对敌人造成的伤害。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 =
+        "向一名敌人冲锋，造成物理伤害并使其昏迷2秒。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_19134 = "破胆怒吼"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_19134 =
+        "使一个目标受到惊吓，并使附近敌人恐惧逃跑，最多持续8秒。\n\n防护恐惧结界可以预防恐惧。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24312 = "升级"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24312 =
+        "玩家死亡会使曼多基尔获得升级效果，每层使其物理伤害提高10%。\n\n即使能够复活，也应避免死亡。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24318 = "激怒"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24318 =
+        "如果奥根先于曼多基尔死亡，曼多基尔造成的物理伤害提高50%，近战攻击速度提高65%，持续90秒。\n\n坦克和治疗者应准备应对更高的伤害。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_15117 = "被禁锢的灵魂"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117 =
+        "被禁锢的灵魂可以在战斗中复活阵亡玩家。"
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "疯狂之缘"
     IJ_DB_RAID_ZG_BOSS_STORY_15082 = "关于疯狂边缘几乎一无所知，只有传言说，如果你正确地进行未知的调用，四分之一的传奇巨魔将被召唤......"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "格里雷克"

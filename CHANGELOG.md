@@ -9,6 +9,7 @@ All changes to this project will be documented in this file.
 - Added missing abilities to the `Jeklik` encounter in all supported locales
 - Added missing abilities to the `Venoxis` encounter and its Razzashi Cobras in all supported locales
 - Added `Corrosive Poison` and growth effects for the `Mar'li` encounter in all supported locales
+- Added missing abilities and `Chained Spirits` to the `Mandokir` encounter in all supported locales
 
 ### Fixed
 
@@ -16,6 +17,7 @@ All changes to this project will be documented in this file.
 - Corrected `Jeklik` spell IDs, ranges, crowd control effects, and healing description
 - Corrected `Venoxis` spell versions, poison removal guidance, and the descriptions of `Parasitic Serpent` and `Enrage`
 - Corrected `Mar'li` ability grouping and guidance for `Charge`, `Drain Life`, and `Enveloping Webs`
+- Corrected `Mandokir` guidance for `Threatening Gaze`, player deaths, and the effects of `Enrage`
 
 ### Changed
 
