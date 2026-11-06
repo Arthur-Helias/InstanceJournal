@@ -11,6 +11,8 @@ All changes to this project will be documented in this file.
 - Added `Corrosive Poison` and growth effects for the `Mar'li` encounter in all supported locales
 - Added missing abilities and `Chained Spirits` to the `Mandokir` encounter in all supported locales
 
+- Added `Forked Lightning` to the `Wushoolay` encounter in all supported locales
+
 ### Fixed
 
 - Fixed Molten Core ability links opening the boss entry instead of the corresponding add ability
@@ -18,6 +20,8 @@ All changes to this project will be documented in this file.
 - Corrected `Venoxis` spell versions, poison removal guidance, and the descriptions of `Parasitic Serpent` and `Enrage`
 - Corrected `Mar'li` ability grouping and guidance for `Charge`, `Drain Life`, and `Enveloping Webs`
 - Corrected `Mandokir` guidance for `Threatening Gaze`, player deaths, and the effects of `Enrage`
+
+- Corrected `Wushoolay` spell IDs and the descriptions of `Chain Lightning` and `Lightning Cloud`
 
 ### Changed
 

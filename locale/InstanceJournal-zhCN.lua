@@ -3263,11 +3263,15 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "睡眠"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 = "哈扎拉使所有正在攻击他的敌人陷入睡眠。\n \n萨满可以使用震颤图腾来唤醒他们的盟友。"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "乌苏雷"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_23106 = "闪电链"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_23106 = "乌舒雷创造了一道闪电，将他周围的所有敌人链在一起。"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26550 = "闪电之云"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26550 =
-        "乌苏雷 创造出一片闪电云。所有被困在云层打击半径内的敌人都会受到每次伤害。\n \n玩家需要立即离开云端，因为它会造成严重伤害。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "闪电链"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =
+        "施放一道可在最多10个目标之间跳跃的闪电，每次跳跃造成的自然伤害都会提高。\n\n分散站位以减少跳跃次数。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24682 = "叉状闪电"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24682 =
+        "对乌苏雷面前锥形区域内的敌人造成1157至1344点自然伤害。\n\n除坦克外，其他玩家应站在首领身后。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "闪电之云"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
+        "制造一片半径10码、持续15秒的闪电云，初始造成463至538点自然伤害，之后每5秒额外造成875至1126点伤害。\n\n立即离开闪电云。"
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "加兹兰卡"
     IJ_DB_RAID_ZG_BOSS_STORY_15114 = "据说，如果一个熟练的渔夫用一种非常特殊的诱饵在帕格角投下鱼钩，那么一个可怕的生物就会从水中出现来吞噬他们......"
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_21099 = "冰息术"

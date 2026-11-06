@@ -1586,11 +1586,15 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 =
         "Hazza'rah pone a dormir a todos los enemigos que lo atacan actualmente. ||norte||  ||norte|| Los chamanes pueden utilizar tótems de temblor para despertar a sus aliados."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "Wushoolay"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_23106 = "Cadena de relámpagos"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_23106 = "Wushoolay crea un rayo que se encadena entre todos los enemigos frente a él."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26550 = "Nube de relámpagos"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26550 =
-        "Wushoolay crea una nube de relámpagos. Todos los enemigos atrapados dentro del radio de ataque de la nube recibirán todo el daño. ||norte||  ||norte|| Los jugadores deben salir de la nube de inmediato, ya que causa grandes daños."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "Cadena de relámpagos"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =
+        "Lanza un relámpago que salta entre un máximo de 10 objetivos e inflige daño de Naturaleza creciente con cada salto.\n\nDispersaos para limitar los saltos."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24682 = "Relámpago bifurcado"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24682 =
+        "Inflige de 1157 a 1344 de daño de Naturaleza a los enemigos en un cono frente a Wushoolay.\n\nLos jugadores que no sean el tanque deben situarse detrás de él."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "Nube de relámpagos"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
+        "Crea una nube de relámpagos de 10 metros de radio durante 15 segundos, que inflige de 463 a 538 de daño de Naturaleza inicialmente y de 875 a 1126 de daño adicional cada 5 segundos.\n\nSal de la nube inmediatamente."
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Gahz'ranka"
     IJ_DB_RAID_ZG_BOSS_STORY_15114 = "Se dice que si un pescador experto lanzara su anzuelo con un cebo muy específico en Pagle's Pointe, entonces una criatura terrible emergería del agua para devorarlos..."
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_21099 = "Aliento de escarcha"

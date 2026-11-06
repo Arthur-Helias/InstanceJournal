@@ -1578,11 +1578,15 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Dormir"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 = "Hazza'rah adormece todos os inimigos que o atacam no momento.\n\nOs xamãs podem usar totens trêmulos para acordar seus aliados."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "Wushoolay"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_23106 = "Cadeia de Relâmpagos"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_23106 = "Wushoolay cria um raio que atinge todos os inimigos a partir dele."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26550 = "Nuvem relâmpago"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26550 =
-        "Wushoolay cria uma nuvem relâmpago. Todos os inimigos pegos dentro do raio de ataque da nuvem receberão todos os danos.\n\nOs jogadores precisam sair da nuvem imediatamente, pois ela causa grandes danos."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "Cadeia de Relâmpagos"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =
+        "Lança um relâmpago que salta entre até 10 alvos, causando dano de Natureza crescente a cada salto.\n\nEspalhem-se para limitar os saltos."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24682 = "Relâmpago Bifurcado"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24682 =
+        "Causa de 1157 a 1344 de dano de Natureza aos inimigos em um cone à frente de Wushoolay.\n\nJogadores que não sejam o tanque devem ficar atrás dele."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "Nuvem de Relâmpagos"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
+        "Cria uma nuvem de relâmpagos com raio de 10 jardas por 15 segundos, causando de 463 a 538 de dano de Natureza inicialmente e de 875 a 1126 de dano adicional a cada 5 segundos.\n\nSaia da nuvem imediatamente."
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Gahz'ranka"
     IJ_DB_RAID_ZG_BOSS_STORY_15114 = "Diz-se que se um pescador habilidoso lançasse seu anzol com uma isca muito específica em Pagle's Pointe, uma criatura terrível emergiria da água para devorá-los..."
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_21099 = "Respiração Gélida"

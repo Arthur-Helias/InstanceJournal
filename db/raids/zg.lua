@@ -602,8 +602,9 @@ ZG.Bosses = {
                 Icon = "Spell_Nature_Lightning",
                 Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay,
                 SubAbilities = {
-                    [1] = {Id = "23106", Icon = "Spell_Nature_ChainLightning", Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_23106, Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_23106},
-                    [2] = {Id = "26550", Icon = "Spell_Nature_CallStorm", Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26550, Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26550, Flags = {IMAF.Deadly, IMAF.Important}}
+                    [1] = {Id = "24680", Icon = "Spell_Nature_ChainLightning", Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680, Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680},
+                    [2] = {Id = "24682", Icon = "Spell_Nature_ChainLightning", Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24682, Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24682, Flags = {IMAF.Tank, IMAF.Important}},
+                    [3] = {Id = "24683", Icon = "Spell_Nature_CallStorm", Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683, Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683, Flags = {IMAF.Deadly, IMAF.Important}}
                 }
             }
         },

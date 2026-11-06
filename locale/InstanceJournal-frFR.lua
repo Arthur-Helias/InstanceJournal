@@ -1585,11 +1585,15 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Dormir"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 = "Hazza'rah endort tous les ennemis qui l'attaquent actuellement.\n\nLes chamans peuvent utiliser des totems de tremblement pour réveiller leurs alliés."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "Wushoolay"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_23106 = "Chaîne d'éclairs"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_23106 = "Wushoolay crée un éclair qui s'enchaîne entre tous les ennemis autour de lui."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26550 = "Nuage de foudre"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26550 =
-        "Wushoolay crée un nuage d'éclair. Tous les ennemis pris dans le rayon de frappe du nuage subiront tous les dégâts.\n\nLes joueurs doivent quitter le cloud immédiatement car il inflige de gros dégâts."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "Chaîne d'éclairs"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =
+        "Lance un éclair qui rebondit entre un maximum de 10 cibles et inflige des dégâts de Nature croissants à chaque rebond.\n\nEspacez-vous pour limiter les rebonds."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24682 = "Éclair fourchu"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24682 =
+        "Inflige de 1157 à 1344 points de dégâts de Nature aux ennemis dans un cône devant Wushoolay.\n\nLes joueurs autres que le tank doivent rester derrière lui."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "Nuage de foudre"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
+        "Crée pendant 15 secondes un nuage de foudre de 10 mètres de rayon, infligeant initialement de 463 à 538 points de dégâts de Nature, puis de 875 à 1126 points de dégâts supplémentaires toutes les 5 secondes.\n\nSortez immédiatement du nuage."
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Gahz'ranka"
     IJ_DB_RAID_ZG_BOSS_STORY_15114 =
         "On raconte que si un pêcheur expérimenté jetait son hameçon avec un appât bien spécifique à la Pointe de Pagle, alors une terrible créature sortirait de l'eau pour les dévorer..."

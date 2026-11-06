@@ -3139,11 +3139,15 @@ IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24729 =
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Sleep"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 = "Hazza'rah puts to sleep all enemies currently attacking him.\n\nShamans can use tremor totems to wake up their allies."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "Wushoolay"
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_23106 = "Chain Lightning"
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_23106 = "Wushoolay creates a lightning bolt that chains between all enemies in from of him."
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26550 = "Lightning Cloud"
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26550 =
-    "Wushoolay creates a lightning cloud. All enemies caught inside of the cloud's striking radius will be dealt every damage.\n\nPlayers need to move out of the cloud immediately as it deals heavy damage."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "Chain Lightning"
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =
+    "Casts a lightning bolt that jumps between up to 10 targets, dealing increasing Nature damage with each jump.\n\nSpread out to limit the chain."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24682 = "Forked Lightning"
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24682 =
+    "Deals 1157 to 1344 Nature damage to enemies in a cone in front of Wushoolay.\n\nPlayers other than the tank should stay behind him."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "Lightning Cloud"
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
+    "Creates a lightning cloud with a 10-yard radius for 15 seconds, dealing 463 to 538 Nature damage initially and 875 to 1126 additional damage every 5 seconds.\n\nMove out of the cloud immediately."
 IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Gahz'ranka"
 IJ_DB_RAID_ZG_BOSS_STORY_15114 = "It is said that if a skilled fisherman were to cast his hook with a very specific bait at Pagle's Pointe, then a terrible creature would emerge from the water to devour them..."
 IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_21099 = "Frost Breath"

@@ -1586,11 +1586,15 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Schlafen"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 = "Hazza'rah schläft alle Feinde ein, die ihn gerade angreifen.\n\nSchamanen können Tremor-Totems verwenden, um ihre Verbündeten aufzuwecken."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "Wushoolay"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_23106 = "Kettenblitz"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_23106 = "Wushoolay erzeugt einen Blitz, der sich zwischen allen Feinden in seinem Umkreis ausbreitet."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26550 = "Blitzwolke"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26550 =
-        "Wushoolay erzeugt eine Blitzwolke. Allen Feinden, die sich innerhalb des Einschlagradius der Wolke befinden, wird jeglicher Schaden zugefügt.\n\nSpieler müssen die Wolke sofort verlassen, da sie schweren Schaden verursacht."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "Kettenblitz"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =
+        "Wirkt einen Blitz, der zwischen bis zu 10 Zielen überspringt und mit jedem Sprung zunehmenden Naturschaden verursacht.\n\nVerteilt euch, um die Sprünge zu begrenzen."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24682 = "Gabelblitz"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24682 =
+        "Verursacht 1157 bis 1344 Naturschaden an Gegnern in einem kegelförmigen Bereich vor Wushoolay.\n\nAlle außer dem Tank sollten hinter ihm stehen."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "Blitzwolke"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
+        "Erzeugt für 15 Sekunden eine Blitzwolke mit einem Radius von 10 Metern, die anfangs 463 bis 538 Naturschaden und alle 5 Sekunden zusätzlich 875 bis 1126 Schaden verursacht.\n\nVerlasst die Wolke sofort."
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Gahz'ranka"
     IJ_DB_RAID_ZG_BOSS_STORY_15114 =
         "Es heißt, dass, wenn ein erfahrener Fischer seinen Haken mit einem ganz bestimmten Köder an Pagle's Pointe auswerfen würde, eine schreckliche Kreatur aus dem Wasser auftauchen würde, um sie zu verschlingen ..."
