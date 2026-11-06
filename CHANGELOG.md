@@ -6,20 +6,16 @@ All changes to this project will be documented in this file.
 
 ### Added
 
-- Added missing abilities to the `Jeklik` encounter in all supported locales
-- Added missing abilities to the `Venoxis` encounter and its Razzashi Cobras in all supported locales
-- Added `Corrosive Poison` and growth effects for the `Mar'li` encounter in all supported locales
-- Added missing abilities and `Chained Spirits` to the `Mandokir` encounter in all supported locales
-
-- Added `Forked Lightning` to the `Wushoolay` encounter in all supported locales
-
-- Added `Ambush` and `Thousand Blades` to the `Renataki` encounter in all supported locales
-
-- Added the stun at the start of `Gri'lek`'s `Avatar` in all supported locales
-
-- Added `Earth Shock` to the `Hazza'rah` encounter in all supported locales
-- Added `Sinister Strike` and `Claw` to the `Thekal` encounter in all supported locales
-- Added `Shadow Word: Pain`, `Backstab`, `Ravage`, and `Thrash` to the `Arlokk` encounter in all supported locales
+- Added missing abilities to the `Jeklik` encounter
+- Added missing abilities to the `Venoxis` encounter and its Razzashi Cobras
+- Added `Corrosive Poison` and growth effects for the `Mar'li` encounter
+- Added missing abilities and `Chained Spirits` to the `Mandokir` encounter
+- Added `Forked Lightning` to the `Wushoolay` encounter
+- Added `Ambush` and `Thousand Blades` to the `Renataki` encounter
+- Added the stun at the start of `Gri'lek`'s `Avatar`
+- Added `Earth Shock` to the `Hazza'rah` encounter
+- Added `Sinister Strike` and `Claw` to the `Thekal` encounter
+- Added `Shadow Word: Pain`, `Backstab`, `Ravage`, and `Thrash` to the `Arlokk` encounter
 
 ### Fixed
 
@@ -28,33 +24,28 @@ All changes to this project will be documented in this file.
 - Corrected `Venoxis` spell versions, poison removal guidance, and the descriptions of `Parasitic Serpent` and `Enrage`
 - Corrected `Mar'li` ability grouping and guidance for `Charge`, `Drain Life`, and `Enveloping Webs`
 - Corrected `Mandokir` guidance for `Threatening Gaze`, player deaths, and the effects of `Enrage`
-
 - Corrected `Wushoolay` spell IDs and the descriptions of `Chain Lightning` and `Lightning Cloud`
-
 - Corrected `Renataki` spell IDs and guidance for `Vanish`, `Gouge`, and `Enrage`
-
 - Corrected `Gri'lek` ability descriptions and the spell ID and dispel guidance for `Entangling Roots`
-
 - Corrected `Hazza'rah` spell IDs and guidance for `Chain Burn`, `Sleep`, and `Summon Nightmare Illusions`
-- Corrected `Gahz'ranka`'s `Frost Breath` spell ID and the descriptions of `Frost Breath`, `Slam`, and `Massive Geyser` in all supported locales
-
-- Corrected `Thekal` encounter spell IDs, ability descriptions, and phase links in all supported locales
+- Corrected `Gahz'ranka`'s `Frost Breath` spell ID and the descriptions of `Frost Breath`, `Slam`, and `Massive Geyser`
+- Corrected `Thekal` encounter spell IDs, ability descriptions, and phase links
 - Corrected `Arlokk` ability grouping for `Gouge` and `Mark of Arlokk`
-- Corrected `Arlokk`'s `Whirlwind` spell ID and damage description in all supported locales
+- Corrected `Arlokk`'s `Whirlwind` spell ID and damage description
 
 ### Changed
 
-- Separated effects and player guidance into paragraphs in longer Molten Core ability descriptions across all supported locales
-- Expanded `Edge of Madness` lore with the four troll spirits and their summoning ritual in all supported locales
-- Expanded `Gahz'ranka` lore with Nat Pagle and the summoning lure in all supported locales
-- Grouped `Ragnaros`'s `Elemental Fire` area damage under the main ability and clarified that it triggers around the struck target in all supported locales
+- Separated effects and player guidance into paragraphs in longer Molten Core ability descriptions
+- Expanded `Edge of Madness` lore with the four troll spirits and their summoning ritual
+- Expanded `Gahz'ranka` lore with Nat Pagle and the summoning lure
+- Grouped `Ragnaros`'s `Elemental Fire` area damage under the main ability and clarified that it triggers around the struck target
 
 ## [1.4.4] - 2026-11-05
 
 ### Added
 
 - Added missing abilities to Molten Core encounters
-- Added translations for Molten Core abilities and updated lore in all supported locales
+- Added translations for Molten Core abilities and updated lore
 
 ### Changed
 
