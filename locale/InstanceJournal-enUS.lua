@@ -3112,7 +3112,8 @@ IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_15117 = "Chained Spirits"
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117 =
     "Chained Spirits can revive fallen players during the fight."
 IJ_DB_RAID_ZG_BOSS_NAME_15082 = "Edge of Madness"
-IJ_DB_RAID_ZG_BOSS_STORY_15082 = "Nearly nothing is known about the Edge of Madness, only the rumor that if you were to do an unknown invocation properly, one out of four possible legendary troll would be summoned..."
+IJ_DB_RAID_ZG_BOSS_STORY_15082 =
+    "At the Edge of Madness in Zul'Gurub, ancient tablets preserve the memory of four troll spirits: Gri'lek, the wanderer of the Iron Blood; Renataki, of the Thousand Blades, whose legend revels in pain and bloodshed; Hazza'rah, the Dreamweaver, wielder of nightmares; and Wushoolay, the Storm Witch, whose power is bound to the sky, rain, and earth.\n\nThe Tablet of Madness reveals the formula for Gurubashi Mojo Madness. Used to extinguish the Brazier of Madness, this alchemical offering calls one of these spirits back into the world of the living."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "Gri'lek"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646 = "Avatar"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646 =

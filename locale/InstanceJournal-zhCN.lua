@@ -3236,7 +3236,8 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117 =
         "被禁锢的灵魂可以在战斗中复活阵亡玩家。"
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "疯狂之缘"
-    IJ_DB_RAID_ZG_BOSS_STORY_15082 = "关于疯狂边缘几乎一无所知，只有传言说，如果你正确地进行未知的调用，四分之一的传奇巨魔将被召唤......"
+    IJ_DB_RAID_ZG_BOSS_STORY_15082 =
+        "在祖尔格拉布的疯狂之缘，古老的石板记载着四位巨魔之灵：拥有铁血之名的游荡者格里雷克；以痛苦和杀戮闻名的千刃雷纳塔基；掌控梦魇的织梦者哈扎拉；以及力量与天空、雨水和大地相连的风暴巫师乌苏雷。\n\n疯狂石板记载着古拉巴什疯狂魔精的配方。用这种炼金祭品熄灭疯狂火盆的火焰，便能将其中一位巨魔之灵召回生者的世界。"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "格里雷克"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646 = "天神下凡"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646 =

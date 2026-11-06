@@ -1551,7 +1551,7 @@ if GetLocale() == "ptBR" then
         "Espíritos Acorrentados podem reviver jogadores mortos durante a luta."
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "Limite da Loucura"
     IJ_DB_RAID_ZG_BOSS_STORY_15082 =
-        "Quase nada se sabe sobre o Limite da Loucura, apenas o boato de que se você fizesse uma invocação desconhecida corretamente, um em cada quatro possíveis trolls lendários seria convocado..."
+        "No Limite da Loucura, em Zul'Gurub, tabuletas antigas preservam a memória de quatro espíritos trolls: Gri'lek, o andarilho do Sangue de Ferro; Renataki, das Mil Lâminas, cuja lenda celebra a dor e o derramamento de sangue; Hazza'rah, o Tecelão dos Sonhos, senhor dos pesadelos; e Wushoolay, o Bruxo da Tempestade, cujo poder está ligado ao céu, à chuva e à terra.\n\nA Tabuleta da Loucura revela a fórmula da Loucura Mojo Gurubashi. Usada para apagar o Braseiro da Loucura, essa oferenda alquímica traz um desses espíritos de volta ao mundo dos vivos."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "Gri'lek"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646 = "avatar"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646 =

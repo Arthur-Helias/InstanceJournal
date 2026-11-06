@@ -1558,7 +1558,7 @@ if GetLocale() == "esES" then
         "Los Espíritus encadenados pueden revivir a los jugadores caídos durante la lucha."
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "Borde de la locura"
     IJ_DB_RAID_ZG_BOSS_STORY_15082 =
-        "Casi no se sabe nada sobre el Filo de la Locura, sólo el rumor de que si hicieras correctamente una invocación desconocida, uno de cada cuatro posibles trolls legendarios sería convocado..."
+        "En el Filo de la Locura de Zul'Gurub, antiguas tablillas conservan la memoria de cuatro espíritus trol: Gri'lek, el vagabundo de Sangre de Hierro; Renataki, de las Mil Hojas, cuya leyenda celebra el dolor y el derramamiento de sangre; Hazza'rah, el Tejesueños, señor de las pesadillas; y Wushoolay, el Brujo de la Tormenta, cuyo poder está ligado al cielo, la lluvia y la tierra.\n\nLa Tablilla de la Locura revela la fórmula de la Locura de mojo Gurubashi. Utilizada para apagar el Brasero de la Locura, esta ofrenda alquímica devuelve a uno de estos espíritus al mundo de los vivos."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "Gri'lek"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646 = "Avatar"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646 =

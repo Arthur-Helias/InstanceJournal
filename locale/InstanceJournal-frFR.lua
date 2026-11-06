@@ -1558,7 +1558,7 @@ if GetLocale() == "frFR" then
         "Les Esprits enchaînés peuvent ressusciter les joueurs morts pendant le combat."
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "Au bord de la folie"
     IJ_DB_RAID_ZG_BOSS_STORY_15082 =
-        "On ne sait presque rien de Edge of Madness, seulement la rumeur selon laquelle si vous faisiez correctement une invocation inconnue, un troll légendaire sur quatre possible serait invoqué..."
+        "Aux confins de la folie, à Zul'Gurub, d'antiques tablettes préservent la mémoire de quatre esprits trolls : Gri'lek, le vagabond au Sang de fer ; Renataki aux Mille lames, dont la légende célèbre la douleur et le sang versé ; Hazza'rah, le Tisseur de rêves, maître des cauchemars ; et Wushoolay, le Sorcier des tempêtes, dont le pouvoir est lié au ciel, à la pluie et à la terre.\n\nLa Tablette de la folie révèle la formule de la Folie mojo des Gurubashi. Utilisée pour éteindre le Brasero de la folie, cette offrande alchimique rappelle l'un de ces esprits dans le monde des vivants."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "Gri'lek"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646 = "Avatar"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646 =

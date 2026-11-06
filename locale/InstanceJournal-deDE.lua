@@ -1559,7 +1559,7 @@ if GetLocale() == "deDE" then
         "Angekettete Geister können gefallene Spieler während des Kampfes wiederbeleben."
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "Rand des Wahnsinns"
     IJ_DB_RAID_ZG_BOSS_STORY_15082 =
-        "Über den Rand des Wahnsinns ist fast nichts bekannt, nur das Gerücht, dass, wenn man eine unbekannte Beschwörung richtig ausführen würde, einer von vier möglichen legendären Trollen beschworen würde ..."
+        "Am Rand des Wahnsinns in Zul'Gurub bewahren uralte Tafeln die Erinnerung an vier Trollgeister: Gri'lek, den Wanderer mit dem Eisenblut; Renataki von den Tausend Klingen, dessen Legende Schmerz und Blutvergießen verherrlicht; Hazza'rah, den Traumweber und Gebieter über Albträume; und Wushoolay, den Sturmhexer, dessen Macht mit Himmel, Regen und Erde verbunden ist.\n\nDie Tafel des Wahnsinns offenbart die Formel für den Mojowahnsinn der Gurubashi. Wird diese alchemistische Opfergabe verwendet, um das Kohlenbecken des Wahnsinns zu löschen, ruft sie einen dieser Geister in die Welt der Lebenden zurück."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "Gri'lek"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646 = "Avatar"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646 =

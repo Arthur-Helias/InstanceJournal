@@ -34,6 +34,7 @@ All changes to this project will be documented in this file.
 ### Changed
 
 - Separated effects and player guidance into paragraphs in longer Molten Core ability descriptions across all supported locales
+- Expanded `Edge of Madness` lore with the four troll spirits and their summoning ritual in all supported locales
 
 ## [1.4.4] - 2026-11-05
 
