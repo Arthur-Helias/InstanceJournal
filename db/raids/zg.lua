@@ -313,37 +313,75 @@ ZG.Bosses = {
         MapCoordinateY = 78.8,
         Abilities = {
             [1] = {
+                Id = "marlitroll",
+                Icon = "INV_Misc_Head_Troll_02",
+                Name = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll,
+                Effect = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll,
+                SubAbilities = {
+                    [1] = {
+                        Id = "24300",
+                        Icon = "Spell_Shadow_LifeDrain02",
+                        Name = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300,
+                        Flags = {IMAF.Magic, IMAF.Interruptible, IMAF.Important}
+                    }
+                }
+            },
+            [2] = {
                 Id = "marlispider",
                 Icon = "INV_Misc_MonsterSpiderCarapace_01",
                 Name = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider,
                 Effect = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider,
-                Flags = {IMAF.Important},
                 SubAbilities = {
                     [1] = {
                         Id = "24110",
                         Icon = "Spell_Nature_EarthBind",
                         Name = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110,
                         Effect = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24110,
-                        Flags = {IMAF.Tank, IMAF.Deadly, IMAF.Important}
+                        Flags = {IMAF.Tank, IMAF.Important}
+                    },
+                    [2] = {
+                        Id = "24408",
+                        Icon = "Ability_Warrior_Charge",
+                        Name = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24408,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24408
+                    },
+                    [3] = {
+                        Id = "24111",
+                        Icon = "Spell_Nature_CorrosiveBreath",
+                        Name = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24111,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24111,
+                        Flags = {IMAF.Poison, IMAF.Tank, IMAF.Important}
                     }
                 }
             },
-            [2] = {
-                Id = "marlitroll",
-                Icon = "inv_misc_head_troll_02",
-                Name = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll,
-                Effect = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll,
+            [3] = {
+                Id = "24099",
+                Icon = "Spell_Nature_CorrosiveBreath",
+                Name = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099,
+                Effect = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099,
+                Flags = {IMAF.Poison, IMAF.Heal}
+            },
+            [4] = {
+                Id = "marliadds",
+                Icon = "INV_Egg_04",
+                Name = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds,
+                Effect = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds,
+                Flags = {IMAF.DPS},
                 SubAbilities = {
-                    [1] = {Id = "marlicharge", Icon = "ability_warrior_charge", Name = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlicharge, Effect = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlicharge},
-                    [2] = {
-                        Id = "24300",
-                        Icon = "Spell_Shadow_LifeDrain02",
-                        Name = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300,
-                        Effect = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300,
-                        Flags = {IMAF.Magic, IMAF.Interruptible, IMAF.Important}
+                    [1] = {
+                        Id = "24087",
+                        Icon = "Spell_Nature_Strength",
+                        Name = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24087,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24087
                     },
-                    [3] = {Id = "marliadds", Icon = "inv_egg_04", Name = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds, Effect = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds, Flags = {IMAF.DPS}},
-                    [4] = {Id = "24099", Icon = "Spell_Nature_CorrosiveBreath", Name = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099, Effect = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099, Flags = {IMAF.Poison}}
+                    [2] = {
+                        Id = "24088",
+                        Icon = "Spell_Nature_Strength",
+                        Name = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24088,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24088,
+                        Flags = {IMAF.Important}
+                    }
                 }
             }
         },

@@ -3166,21 +3166,36 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_NAME_14510 = "高阶女祭司玛尔里"
     IJ_DB_RAID_ZG_BOSS_STORY_14510 =
         "玛莉是蜘蛛神灵沙德拉的高级女祭司。拉斯塔哈大王派她前往祖尔格拉布与其他神灵高阶祭司一起阻止夺魂者哈卡，但她最终被血神腐蚀。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "巨魔形态"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll =
+        "玛尔里以巨魔形态开始战斗，并在两次蜘蛛变形之间恢复此形态。"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "蜘蛛形态"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider = "在战斗过程中，玛尔里会随机变为蜘蛛形态，并获得新的技能。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider =
+        "玛尔里周期性地变成蜘蛛，使用蛛网、冲锋和腐蚀之毒。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "吸取生命"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 =
+        "引导暗影伤害，每秒生效并恢复玛尔里的生命值，最多持续7秒。\n\n打断引导，或驱散受影响玩家身上的魔法效果。"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "包围之网"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24110 =
-        "玛莉用她的网将 10 码半径内的所有敌人包裹起来，将他们固定在地上，使他们的攻击间隔时间增加 100%，并在 8 秒内阻止他们施展法术。\n \n副坦克需要准备好立即产生威胁，因为这将重置每个被固定玩家的威胁。"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "巨魔形态"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll = "变为蜘蛛形态后，玛尔里最终会回到原本的巨魔形态，并恢复常规技能。"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlicharge = "冲锋"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlicharge = "玛尔里冲锋目标，造成物理伤害并将其击昏。"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "吸取生命"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 = "玛莉会耗尽目标的生命，每 1 秒消耗 500 点生命值，持续 7 秒。"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "玛尔里的爪牙"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds = "玛尔里孵化虫卵，召出 4 只玛尔里的爪牙协助她战斗。\n\n这些蜘蛛必须尽快处理，因为它们会随着战斗进行而越来越强。"
+        "使10码范围内的敌人无法移动，近战攻击间隔延长100%，并使其沉默，持续8秒。\n\n主坦克被蛛网困住时，副坦克应准备接住玛尔里。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24408 = "冲锋"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24408 =
+        "在蜘蛛形态下向一名敌人冲锋，造成物理伤害并使其昏迷2秒。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24111 = "腐蚀之毒"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24111 =
+        "使一名敌人的护甲降低5000点，并每5秒造成自然伤害，持续30秒。\n\n及时解除毒药。"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "毒箭之雨"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 = "玛莉向 30 码范围内的所有敌人发射毒液，每 2 秒造成 375 点直接自然伤害和 290 点周期性伤害，持续 10 秒。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 =
+        "对30码范围内的敌人造成自然伤害并施加毒药，每2秒造成额外自然伤害，持续10秒。\n\n解除毒药。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "玛尔里的子嗣"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
+        "玛尔里的子嗣加入战斗，并随着时间推移变得更强。\n\n在它们完全长大之前迅速消灭它们。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24087 = "成长"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24087 =
+        "玛尔里的子嗣随时间成长，体型和物理伤害随之提高。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24088 = "完全成长"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24088 =
+        "完全长大的子嗣获得50%的近战攻击速度，并免疫变形术、恐惧和睡眠。"
     IJ_DB_RAID_ZG_BOSS_NAME_11382 = "血领主曼多基尔"
     IJ_DB_RAID_ZG_BOSS_STORY_11382 =
         "血领主曼多基尔是一位强大的丛林巨魔，也是古拉巴什部落的领袖。他不变的伴侣是他的猛禽坐骑奥根。他与部落的其他成员一起侍奉祖尔格拉布的邪神夺魂者哈卡。"

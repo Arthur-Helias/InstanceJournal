@@ -3042,22 +3042,36 @@ IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_27919 =
 IJ_DB_RAID_ZG_BOSS_NAME_14510 = "High Priestess Mar'li"
 IJ_DB_RAID_ZG_BOSS_STORY_14510 =
     "Mar'li is the high priestess of the spider loa, Shadra. Sent by King Rastakhan to Zul'Gurub to stop Hakkar the Soulflayer with the other loa high priests, she was eventually corrupted by the blood god."
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Troll Form"
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll =
+    "Mar'li begins in troll form and returns to it between spider transformations."
 IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Spider Form"
-IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider = "Randomly throughout the fight, Mar'li will assume her spider form, gaining new abilities."
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider =
+    "Mar'li periodically transforms into a spider, using webs, Charge, and Corrosive Poison."
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Drain Life"
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 =
+    "Channels Shadow damage every second for up to 7 seconds, restoring Mar'li's health.\n\nInterrupt the channel or dispel the magical effect from the affected player."
 IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "Enveloping Webs"
 IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24110 =
-    "Mar'li envelopes all enemies in a 10 yards radius with her webs, rooting them to the ground, increasing the time between their attacks by 100%, and preventing them from casting spells for 8 seconds.\n\nThe off-tank needs to be ready to generate threat instantly as this will reset every rooted player's threat."
-IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Troll Form"
-IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll = "After assuming her spider form, Mar'li will eventually return to her orignal troll form, regaining her standard abilities."
-IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlicharge = "Charge"
-IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlicharge = "Mar'li charges her target, dealing physical damage and stunning them."
-IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Drain Life"
-IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 = "Mar'li drains the life out of her target, draining 500 health every 1 second for 7 seconds."
+    "Roots enemies within 10 yards, increases the time between their melee attacks by 100%, and silences them for 8 seconds.\n\nAn off-tank should be ready to pick up Mar'li while the main tank is webbed."
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24408 = "Charge"
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24408 =
+    "Charges an enemy in spider form, dealing Physical damage and stunning them for 2 seconds."
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24111 = "Corrosive Poison"
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24111 =
+    "Reduces an enemy's armor by 5000 and deals Nature damage every 5 seconds for 30 seconds.\n\nRemove the poison promptly."
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Poison Bolt Volley"
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 =
+    "Deals Nature damage to enemies within 30 yards and applies a poison that deals additional Nature damage every 2 seconds for 10 seconds.\n\nRemove the poison."
 IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Spawns of Mar'li"
 IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
-    "Mar'li hatches her eggs, birthing 4 Spawns of Mar'li that helps her throughout the fight.\n\nThese spiders need to be dealt with as soon as possible as they will grow stronger as the fight goes on."
-IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Poison Bolt Volley"
-IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 = "Mar'li shoots poison to all enemies in a 30 yards range, dealing 375 immediate nature damage and 290 periodic damage every 2 seconds for 10 seconds."
+    "Spawns of Mar'li join the fight and grow stronger over time.\n\nEliminate them quickly, before they fully grow."
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24087 = "Growth"
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24087 =
+    "Spawns of Mar'li grow over time, increasing their size and Physical damage."
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24088 = "Full Grown"
+IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24088 =
+    "Fully grown spawns gain 50% melee attack speed and immunity to Polymorph, fear, and sleep."
 IJ_DB_RAID_ZG_BOSS_NAME_11382 = "Bloodlord Mandokir"
 IJ_DB_RAID_ZG_BOSS_STORY_11382 =
     "Bloodlord Mandokir is a powerful jungle troll and leader of the Gurubashi tribe. His constant companion is his raptor mount, Ohgan. He serves the evil god Hakkar the Soulflayer in Zul'Gurub along with the rest of his tribe."

@@ -1480,22 +1480,36 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_ZG_BOSS_NAME_14510 = "Alta Sacerdotisa Mar'li"
     IJ_DB_RAID_ZG_BOSS_STORY_14510 =
         "Mar'li é a suma sacerdotisa da aranha loa, Shadra. Enviada pelo Rei Rastakhan a Zul'Gurub para deter Hakkar, o Esfolador de Almas, com os outros sumos sacerdotes loa, ela acabou sendo corrompida pelo deus do sangue."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Spider Form"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider = "Randomly throughout the fight, Mar'li will assume her spider form, gaining new abilities."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "Teias envolventes"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24110 =
-        "Mar'li envolve todos os inimigos em um raio de 10 metros com suas teias, prendendo-os no chão, aumentando o tempo entre seus ataques em 100% e impedindo-os de lançar feitiços por 8 segundos.\n\nO off-tank precisa estar pronto para gerar ameaças instantaneamente, pois isso redefinirá a ameaça de todos os jogadores enraizados."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Troll Form"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll = "After assuming her spider form, Mar'li will eventually return to her orignal troll form, regaining her standard abilities."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlicharge = "Charge"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlicharge = "Mar'li charges her target, dealing physical damage and stunning them."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Forma de Troll"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll =
+        "Mar'li começa em forma de troll e retorna a ela entre as transformações em aranha."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Forma de Aranha"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider =
+        "Mar'li se transforma periodicamente em aranha, usando teias, Investida e Veneno Corrosivo."
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Drenar Vida"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 = "Mar'li drena a vida de seu alvo, drenando 500 pontos de vida a cada 1 segundo por 7 segundos."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Spawns of Mar'li"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 =
+        "Canaliza dano de Sombra a cada segundo por até 7 segundos, restaurando a vida de Mar'li.\n\nInterrompa a canalização ou dissipe o efeito mágico do jogador afetado."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "Teias Envolventes"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24110 =
+        "Enraíza os inimigos em um raio de 10 metros, aumenta o intervalo entre seus ataques corpo a corpo em 100% e os silencia por 8 segundos.\n\nUm segundo tanque deve estar pronto para assumir Mar'li enquanto o tanque principal estiver preso nas teias."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24408 = "Investida"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24408 =
+        "Investe contra um inimigo em forma de aranha, causando dano Físico e atordoando-o por 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24111 = "Veneno Corrosivo"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24111 =
+        "Reduz a armadura de um inimigo em 5000 e causa dano de Natureza a cada 5 segundos por 30 segundos.\n\nRemova o veneno rapidamente."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Salva de Setas Venenosas"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 =
+        "Causa dano de Natureza aos inimigos em um raio de 30 metros e aplica um veneno que causa dano de Natureza adicional a cada 2 segundos por 10 segundos.\n\nRemova o veneno."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Crias de Mar'li"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
-        "Mar'li hatches her eggs, birthing 4 Spawns of Mar'li that helps her throughout the fight.\n\nThese spiders need to be dealt with as soon as possible as they will grow stronger as the fight goes on."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Salva de Seta Venenosa"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 = "Mar'li atira veneno em todos os inimigos em um alcance de 30 metros, causando 375 de dano natural imediato e 290 de dano periódico a cada 2 segundos por 10 segundos."
+        "Crias de Mar'li entram na luta e ficam mais fortes com o tempo.\n\nElimine-as rapidamente, antes que cresçam por completo."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24087 = "Crescimento"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24087 =
+        "Crias de Mar'li crescem com o tempo, aumentando seu tamanho e dano Físico."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24088 = "Crescimento Completo"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24088 =
+        "Crias totalmente crescidas ganham 50% de velocidade de ataque corpo a corpo e imunidade a Polimorfia, medo e sono."
     IJ_DB_RAID_ZG_BOSS_NAME_11382 = "Senhor do Sangue Mandokir"
     IJ_DB_RAID_ZG_BOSS_STORY_11382 =
         "Bloodlord Mandokir é um poderoso troll da selva e líder da tribo Gurubashi. Seu companheiro constante é sua montaria raptor, Ohgan. Ele serve ao deus maligno Hakkar, o Devorador de Almas, em Zul'Gurub junto com o resto de sua tribo."

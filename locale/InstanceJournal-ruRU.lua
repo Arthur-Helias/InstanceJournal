@@ -1539,24 +1539,36 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_ZG_BOSS_NAME_14510 = "Верховная жрица Мар'ли"
     IJ_DB_RAID_ZG_BOSS_STORY_14510 =
         "Мар'ли — верховная жрица паука-лоа Шадры. Посланная королем Растаханом в Зул'Гуруб, чтобы остановить Хаккара Свежевателя Душ вместе с другими первосвященниками лоа, она в конечном итоге была осквернена богом крови."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Spider Form"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider = "Randomly throughout the fight, Mar'li will assume her spider form, gaining new abilities."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "Обволакивающая паутина"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24110 =
-        "Мар'ли окутывает своей паутиной всех врагов в радиусе 10 м, приковывая их к земле, увеличивая время между атаками на 100% и не позволяя им произносить заклинания в течение 8 секунд. ||н||  ||н|| Офф-танк должен быть готов мгновенно создать угрозу, поскольку это сбросит угрозу каждого укоренившегося игрока."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Troll Form"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll = "After assuming her spider form, Mar'li will eventually return to her orignal troll form, regaining her standard abilities."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlicharge = "Charge"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlicharge = "Mar'li charges her target, dealing physical damage and stunning them."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Выкачивать жизнь"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Облик тролля"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll =
+        "Мар'ли начинает бой в облике тролля и возвращается в него между превращениями в паука."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Облик паука"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider =
+        "Мар'ли периодически превращается в паука, используя паутину, Рывок и Разъедающий яд."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Похищение жизни"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 =
-        "Мар'ли высасывает жизнь из своей цели, вытягивая 500 единиц здоровья каждую 1 секунду в течение 7 секунд."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Spawns of Mar'li"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
-        "Mar'li hatches her eggs, birthing 4 Spawns of Mar'li that helps her throughout the fight.\n\nThese spiders need to be dealt with as soon as possible as they will grow stronger as the fight goes on."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Залп ядовитых стрел"
+        "Поддерживает заклинание, каждую секунду нанося урон от темной магии и восстанавливая здоровье Мар'ли в течение не более 7 секунд.\n\nПрервите поддержание заклинания или рассейте магический эффект с пораженного игрока."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "Окутывающая паутина"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24110 =
+        "Обездвиживает противников в радиусе 10 м, увеличивает время между их атаками ближнего боя на 100% и лишает возможности произносить заклинания на 8 секунд.\n\nВторой танк должен быть готов забрать Мар'ли, пока основной танк опутан паутиной."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24408 = "Рывок"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24408 =
+        "В облике паука бросается к противнику, нанося физический урон и оглушая его на 2 секунды."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24111 = "Разъедающий яд"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24111 =
+        "Снижает броню противника на 5000 и наносит урон от сил природы каждые 5 секунд в течение 30 секунд.\n\nБыстро снимите яд."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Ядовитый залп"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 =
-        "Мар'ли стреляет ядом во всех врагов в радиусе 30 метров, нанося 375 мгновенного урона от сил природы и 290 периодического урона каждые 2 секунды в течение 10 секунд."
+        "Наносит урон от сил природы противникам в радиусе 30 м и накладывает яд, наносящий дополнительный урон от сил природы каждые 2 секунды в течение 10 секунд.\n\nСнимите яд."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Порождения Мар'ли"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
+        "Порождения Мар'ли вступают в бой и со временем становятся сильнее.\n\nБыстро уничтожайте их, пока они не выросли полностью."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24087 = "Рост"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24087 =
+        "Порождения Мар'ли со временем растут, увеличивая размер и физический урон."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24088 = "Полный рост"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24088 =
+        "Полностью выросшие порождения получают 50% скорости атак ближнего боя и невосприимчивость к Превращению, страху и сну."
     IJ_DB_RAID_ZG_BOSS_NAME_11382 = "Повелитель крови Мандокир"
     IJ_DB_RAID_ZG_BOSS_STORY_11382 =
         "Повелитель крови Мандокир — могущественный тролль джунглей и лидер племени Гурубаши. Его постоянным спутником является его хищник Оган. Он служит злому богу Хаккару Свежевателю Душ в Зул'Гурубе вместе с остальными членами своего племени."

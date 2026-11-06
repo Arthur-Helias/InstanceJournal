@@ -1488,23 +1488,36 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_ZG_BOSS_NAME_14510 = "Hohepriesterin Mar'li"
     IJ_DB_RAID_ZG_BOSS_STORY_14510 =
         "Mar'li ist die Hohepriesterin des Spinnen-Loa Shadra. Von König Rastakhan nach Zul'Gurub geschickt, um Hakkar, den Seelenschinder, zusammen mit den anderen Loa-Hohepriestern aufzuhalten, wurde sie schließlich vom Blutgott korrumpiert."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Spider Form"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider = "Randomly throughout the fight, Mar'li will assume her spider form, gaining new abilities."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "Umhüllende Netze"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Trollform"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll =
+        "Mar'li beginnt in Trollform und kehrt zwischen ihren Spinnenverwandlungen in diese zurück."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Spinnenform"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider =
+        "Mar'li verwandelt sich regelmäßig in eine Spinne und setzt Netze, Sturmangriff und Ätzendes Gift ein."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Blutsauger"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 =
+        "Kanalisiert bis zu 7 Sekunden lang jede Sekunde Schattenschaden und stellt dabei Mar'lis Gesundheit wieder her.\n\nUnterbrecht das Kanalisieren oder bannt den magischen Effekt vom betroffenen Spieler."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "Einhüllende Gespinste"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24110 =
-        "Mar'li umhüllt alle Feinde in einem Umkreis von 10 Metern mit ihren Netzen, hält sie am Boden fest, verlängert die Zeit zwischen ihren Angriffen um 100 % und hindert sie 8 Sekunden lang daran, Zauber zu wirken.\n\nDer Off-Tank muss bereit sein, sofort eine Bedrohung zu erzeugen, da dadurch die Bedrohung jedes gerooteten Spielers zurückgesetzt wird."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Troll Form"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll = "After assuming her spider form, Mar'li will eventually return to her orignal troll form, regaining her standard abilities."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlicharge = "Charge"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlicharge = "Mar'li charges her target, dealing physical damage and stunning them."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Leben entleeren"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 = "Mar'li entzieht ihrem Ziel das Leben und entzieht ihr 7 Sekunden lang jede Sekunde 500 Gesundheit."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Spawns of Mar'li"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
-        "Mar'li hatches her eggs, birthing 4 Spawns of Mar'li that helps her throughout the fight.\n\nThese spiders need to be dealt with as soon as possible as they will grow stronger as the fight goes on."
+        "Hält Gegner im Umkreis von 10 Metern fest, erhöht die Zeit zwischen ihren Nahkampfangriffen um 100% und bringt sie 8 Sekunden lang zum Schweigen.\n\nEin zweiter Tank sollte bereit sein, Mar'li zu übernehmen, während der Haupttank im Netz gefangen ist."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24408 = "Sturmangriff"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24408 =
+        "Stürmt in Spinnenform einen Gegner an, verursacht körperlichen Schaden und betäubt ihn 2 Sekunden lang."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24111 = "Ätzendes Gift"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24111 =
+        "Verringert die Rüstung eines Gegners um 5000 und verursacht 30 Sekunden lang alle 5 Sekunden Naturschaden.\n\nEntfernt das Gift umgehend."
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Giftblitzsalve"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 =
-        "Mar'li schießt Gift auf alle Feinde im Umkreis von 30 Metern und verursacht 10 Sekunden lang alle 2 Sekunden 375 sofortigen Naturschaden und 290 regelmäßigen Schaden."
+        "Verursacht Naturschaden bei Gegnern im Umkreis von 30 Metern und belegt sie mit einem Gift, das 10 Sekunden lang alle 2 Sekunden zusätzlichen Naturschaden verursacht.\n\nEntfernt das Gift."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Brut von Mar'li"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
+        "Mar'lis Brut schließt sich dem Kampf an und wird mit der Zeit stärker.\n\nBeseitigt sie schnell, bevor sie vollständig ausgewachsen ist."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24087 = "Wachstum"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24087 =
+        "Mar'lis Brut wächst mit der Zeit und erhöht dabei ihre Größe und ihren körperlichen Schaden."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24088 = "Ausgewachsen"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24088 =
+        "Ausgewachsene Brut erhält 50% Nahkampfangriffstempo und wird immun gegen Verwandlung, Furcht und Schlaf."
     IJ_DB_RAID_ZG_BOSS_NAME_11382 = "Blutlord Mandokir"
     IJ_DB_RAID_ZG_BOSS_STORY_11382 =
         "Bloodlord Mandokir ist ein mächtiger Dschungeltroll und Anführer des Gurubashi-Stammes. Sein ständiger Begleiter ist sein Raubvogel-Reittier Ohgan. Zusammen mit dem Rest seines Stammes dient er dem bösen Gott Hakkar, dem Seelenschinder, in Zul'Gurub."

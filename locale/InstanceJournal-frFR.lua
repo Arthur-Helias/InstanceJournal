@@ -1487,23 +1487,36 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_ZG_BOSS_NAME_14510 = "Grande prêtresse Mar'li"
     IJ_DB_RAID_ZG_BOSS_STORY_14510 =
         "Mar'li est la grande prêtresse du loa araignée, Shadra. Envoyée par le roi Rastakhan à Zul'Gurub pour arrêter Hakkar l'Écorcheur d'âmes avec les autres grands prêtres loa, elle fut finalement corrompue par le dieu du sang."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Spider Form"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider = "Randomly throughout the fight, Mar'li will assume her spider form, gaining new abilities."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Forme de troll"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll =
+        "Mar'li commence sous forme de troll et y revient entre ses transformations en araignée."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Forme d'araignée"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider =
+        "Mar'li se transforme périodiquement en araignée et utilise des toiles, Charge et Poison corrosif."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Drain de vie"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 =
+        "Canalise des dégâts d'Ombre toutes les secondes pendant un maximum de 7 secondes et restaure les points de vie de Mar'li.\n\nInterrompez la canalisation ou dissipez l'effet magique sur le joueur affecté."
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "Toiles enveloppantes"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24110 =
-        "Mar'li enveloppe tous les ennemis dans un rayon de 10 mètres avec ses toiles, les enracinant au sol, augmentant le temps entre leurs attaques de 100 % et les empêchant de lancer des sorts pendant 8 secondes.\n\nLe tank secondaire doit être prêt à générer une menace instantanément, car cela réinitialisera la menace de chaque joueur enraciné."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Troll Form"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll = "After assuming her spider form, Mar'li will eventually return to her orignal troll form, regaining her standard abilities."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlicharge = "Charge"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlicharge = "Mar'li charges her target, dealing physical damage and stunning them."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Vider la vie"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 = "Mar'li draine la vie de sa cible, drainant 500 points de vie toutes les 1 seconde pendant 7 secondes."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Spawns of Mar'li"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
-        "Mar'li hatches her eggs, birthing 4 Spawns of Mar'li that helps her throughout the fight.\n\nThese spiders need to be dealt with as soon as possible as they will grow stronger as the fight goes on."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Volée d'éclair empoisonné"
+        "Immobilise les ennemis dans un rayon de 10 mètres, augmente le temps entre leurs attaques de mêlée de 100% et les réduit au silence pendant 8 secondes.\n\nUn tank secondaire doit être prêt à reprendre Mar'li pendant que le tank principal est pris dans les toiles."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24408 = "Charge"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24408 =
+        "Charge un ennemi sous forme d'araignée, inflige des dégâts physiques et l'étourdit pendant 2 secondes."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24111 = "Poison corrosif"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24111 =
+        "Réduit l'armure d'un ennemi de 5000 et inflige des dégâts de Nature toutes les 5 secondes pendant 30 secondes.\n\nSupprimez rapidement le poison."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Salve d'éclairs de poison"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 =
-        "Mar'li tire du poison sur tous les ennemis dans un rayon de 30 mètres, infligeant 375 dégâts de nature immédiats et 290 dégâts périodiques toutes les 2 secondes pendant 10 secondes."
+        "Inflige des dégâts de Nature aux ennemis dans un rayon de 30 mètres et applique un poison qui inflige des dégâts de Nature supplémentaires toutes les 2 secondes pendant 10 secondes.\n\nSupprimez le poison."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Rejetons de Mar'li"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
+        "Les Rejetons de Mar'li rejoignent le combat et deviennent plus forts avec le temps.\n\nÉliminez-les rapidement, avant la fin de leur croissance."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24087 = "Croissance"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24087 =
+        "Les Rejetons de Mar'li grandissent avec le temps, augmentant leur taille et leurs dégâts physiques."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24088 = "Croissance achevée"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24088 =
+        "Les rejetons adultes gagnent 50% de vitesse d'attaque en mêlée et deviennent insensibles à Métamorphose, à la peur et au sommeil."
     IJ_DB_RAID_ZG_BOSS_NAME_11382 = "Seigneur de sang Mandokir"
     IJ_DB_RAID_ZG_BOSS_STORY_11382 =
         "Bloodlord Mandokir est un puissant troll de la jungle et chef de la tribu Gurubashi. Son compagnon constant est sa monture rapace, Ohgan. Il sert le dieu maléfique Hakkar l'Écorcheur d'âmes à Zul'Gurub avec le reste de sa tribu."
