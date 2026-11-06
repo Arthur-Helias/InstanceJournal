@@ -3318,7 +3318,7 @@ IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42036 =
     "Incindis stomps the ground, dealing Physical damage and pulling nearby enemies toward him. Move away before the following Fire Nova."
 IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42037 = "Fire Nova"
 IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42037 =
-    "After Quaking Stomp, Incindis casts Fire Nova for 4.5 seconds, then deals heavy Fire damage to nearby enemies and slows their movement for 8 seconds. Move away from him before the cast finishes."
+    "After Quaking Stomp, Incindis casts Fire Nova for 4.5 seconds, then deals heavy Fire damage to nearby enemies and slows their movement for 8 seconds.\n\nMove away from him before the cast finishes."
 IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42040 = "Molten Bite"
 IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42040 =
     "Incindis bites an enemy, dealing Fire damage and applying Molten Armor."
@@ -3390,7 +3390,7 @@ IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19497 =
     "When a Firesworn dies, it explodes, dealing Fire damage and knocking back enemies within 15 yards. Move away from adds that are about to die."
 IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_23492 = "Separation Anxiety"
 IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_23492 =
-    "Firesworn moved too far from Garr can gain Separation Anxiety, increasing damage dealt by 300% and granting immunity to Banish for 5 seconds. Keep them close to Garr."
+    "Firesworn moved too far from Garr can gain Separation Anxiety, increasing damage dealt by 300% and granting immunity to Banish for 5 seconds.\n\nKeep them close to Garr."
 IJ_DB_RAID_MC_BOSS_12057_NAME_firesworn = "Firesworn"
 IJ_DB_RAID_MC_BOSS_12057_DESCRIPTION_firesworn =
     "Garr is accompanied by eight Firesworn. Defeating them empowers Garr."
@@ -3411,10 +3411,10 @@ IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20476 =
     "Living Bomb explodes, dealing 3200 Fire damage to the marked player and nearby allies within 18 yards, knocking them back."
 IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44060 = "Molten Ground"
 IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44060 =
-    "Living Bomb leaves a patch of fire that deals 500 Fire damage every 2 seconds within 5 yards for 60 seconds. Avoid the fire and choose a different location for subsequent bombs."
+    "Living Bomb leaves a patch of fire that deals 500 Fire damage every 2 seconds within 5 yards for 60 seconds.\n\nAvoid the fire and choose a different location for subsequent bombs."
 IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44061 = "Catastrophic Reaction"
 IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44061 =
-    "Carrying Living Bomb into existing Molten Ground can trigger an additional blast, dealing 2500 Fire damage within 100 yards. Keep the bomb away from earlier patches of fire."
+    "Carrying Living Bomb into existing Molten Ground can trigger an additional blast, dealing 2500 Fire damage within 100 yards.\n\nKeep the bomb away from earlier patches of fire."
 IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20478 = "Armageddon"
 IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20478 =
     "At 5% health, Baron Geddon prepares a massive Fire explosion. Defeat him within 8 seconds to prevent it."
@@ -3432,7 +3432,7 @@ IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19714 =
     "Reduces the magical damage taken by Shazzrah by 50% for 30 seconds. Remove the buff with an offensive dispel."
 IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19715 = "Counterspell"
 IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19715 =
-    "Interrupts nearby enemies who are casting and prevents spells from the interrupted school from being cast for 10 seconds. Time your casts to avoid being interrupted."
+    "Interrupts nearby enemies who are casting and prevents spells from the interrupted school from being cast for 10 seconds.\n\nTime your casts to avoid being interrupted."
 IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_23139 = "Gate of Shazzrah"
 IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_23139 =
     "Shazzrah teleports during combat. Tanks should quickly pick him up after he repositions."
@@ -3500,7 +3500,7 @@ IJ_DB_RAID_MC_BOSS_NAME_65020 = "Twin Golems"
 IJ_DB_RAID_MC_BOSS_STORY_65020 = "Basalthar and Smoldaris are twin golems found in Molten Core. Associated with the Dark Iron dwarves, they fight together with crushing blows and torrents of flame."
 IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47375 = "Molten Bulwark"
 IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47375 =
-    "The golems alternate a shield that reduces damage taken by 95% and deals 200 Fire damage to melee attackers when struck for 15 seconds. Switch attacks to the golem without the shield."
+    "The golems alternate a shield that reduces damage taken by 95% and deals 200 Fire damage to melee attackers when struck for 15 seconds.\n\nSwitch attacks to the golem without the shield."
 IJ_DB_RAID_MC_BOSS_65020_NAME_basalthar = "Basalthar"
 IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_basalthar =
     "Basalthar fights alongside Smoldaris. The golems share health and are defeated together."
@@ -3531,7 +3531,7 @@ IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52723 =
     "Hurls an Arcane bolt at an enemy, dealing damage and knocking them back."
 IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52724 = "Rune of Power"
 IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52724 =
-    "Standing within the rune increases damage dealt by 30%, reduces Fire damage taken by 70%, and reduces damage taken from other schools by 20%. Enter for Rune of Combustion and move out for Rune of Detonation."
+    "Standing within the rune increases damage dealt by 30%, reduces Fire damage taken by 70%, and reduces damage taken from other schools by 20%.\n\nEnter for Rune of Combustion and move out for Rune of Detonation."
 IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52725 = "Rune of Detonation"
 IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52725 =
     "Marks enemies to detonate after 6 seconds, dealing Arcane damage. Move out of Rune of Power before the mark detonates to avoid increased damage."
@@ -3612,7 +3612,7 @@ IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20568 =
     "Ragnaros emerges after the Sons of Flame phase and resumes the fight."
 IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21857 = "Lava Shield"
 IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21857 =
-    "Sons of Flame deal Fire damage to melee attackers and periodically burn 150 mana from enemies within 10 yards, dealing Fire damage equal to half the mana burned. Keep mana users away from the adds."
+    "Sons of Flame deal Fire damage to melee attackers and periodically burn 150 mana from enemies within 10 yards, dealing Fire damage equal to half the mana burned.\n\nKeep mana users away from the adds."
 IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21158 = "Lava Burst"
 IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21158 =
     "Environmental lava eruptions deal Fire damage in the encounter area. Avoid the lava."

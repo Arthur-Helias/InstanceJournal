@@ -2,6 +2,16 @@
 
 All changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Fixed
+
+- Fixed Molten Core ability links opening the boss entry instead of the corresponding add ability
+
+### Changed
+
+- Separated effects and player guidance into paragraphs in longer Molten Core ability descriptions across all supported locales
+
 ## [1.4.4] - 2026-11-05
 
 ### Added

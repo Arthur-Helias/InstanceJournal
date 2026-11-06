@@ -1668,7 +1668,7 @@ if GetLocale() == "deDE" then
         "Incindis stampft auf den Boden, verursacht körperlichen Schaden und zieht nahe Gegner zu sich. Entfernt Euch vor der anschließenden Feuernova."
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42037 = "Feuernova"
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42037 =
-        "Nach Bebendes Stampfen wirkt Incindis 4,5 Sekunden lang Feuernova. Danach erleiden nahe Gegner hohen Feuerschaden und werden 8 Sekunden lang verlangsamt. Entfernt Euch vor Ende des Zaubers von ihm."
+        "Nach Bebendes Stampfen wirkt Incindis 4,5 Sekunden lang Feuernova. Danach erleiden nahe Gegner hohen Feuerschaden und werden 8 Sekunden lang verlangsamt.\n\nEntfernt Euch vor Ende des Zaubers von ihm."
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42040 = "Geschmolzener Biss"
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42040 =
         "Incindis beißt einen Gegner, verursacht Feuerschaden und belegt ihn mit Glühender Rüstung."
@@ -1740,7 +1740,7 @@ if GetLocale() == "deDE" then
         "Wenn ein Feueranbeter stirbt, explodiert er, verursacht Feuerschaden und stößt Gegner im Umkreis von 15 Metern zurück. Entfernt Euch von Dienern, die kurz vor dem Tod stehen."
     IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_23492 = "Trennungsangst"
     IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_23492 =
-        "Feueranbeter, die zu weit von Garr entfernt sind, können Trennungsangst erhalten. Dies erhöht ihren verursachten Schaden um 300% und macht sie 5 Sekunden lang immun gegen Verbannen. Haltet sie in Garrs Nähe."
+        "Feueranbeter, die zu weit von Garr entfernt sind, können Trennungsangst erhalten. Dies erhöht ihren verursachten Schaden um 300% und macht sie 5 Sekunden lang immun gegen Verbannen.\n\nHaltet sie in Garrs Nähe."
     IJ_DB_RAID_MC_BOSS_12057_NAME_firesworn = "Feueranbeter"
     IJ_DB_RAID_MC_BOSS_12057_DESCRIPTION_firesworn =
         "Garr wird von acht Feueranbetern begleitet. Ihr Tod verstärkt Garr."
@@ -1761,10 +1761,10 @@ if GetLocale() == "deDE" then
         "Lebende Bombe explodiert und fügt dem markierten Spieler sowie nahen Verbündeten im Umkreis von 18 Metern 3200 Feuerschaden zu und stößt sie zurück."
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44060 = "Geschmolzener Boden"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44060 =
-        "Lebende Bombe hinterlässt eine Feuerfläche, die 60 Sekunden lang alle 2 Sekunden 500 Feuerschaden im Umkreis von 5 Metern verursacht. Meidet das Feuer und wählt für spätere Bomben einen anderen Ort."
+        "Lebende Bombe hinterlässt eine Feuerfläche, die 60 Sekunden lang alle 2 Sekunden 500 Feuerschaden im Umkreis von 5 Metern verursacht.\n\nMeidet das Feuer und wählt für spätere Bomben einen anderen Ort."
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44061 = "Katastrophale Reaktion"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44061 =
-        "Wird Lebende Bombe auf bestehenden Geschmolzenen Boden getragen, kann dies eine zusätzliche Explosion auslösen, die im Umkreis von 100 Metern 2500 Feuerschaden verursacht. Haltet die Bombe von früheren Feuerflächen fern."
+        "Wird Lebende Bombe auf bestehenden Geschmolzenen Boden getragen, kann dies eine zusätzliche Explosion auslösen, die im Umkreis von 100 Metern 2500 Feuerschaden verursacht.\n\nHaltet die Bombe von früheren Feuerflächen fern."
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20478 = "Armageddon"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20478 =
         "Bei 5% Gesundheit bereitet Baron Geddon eine gewaltige Feuerexplosion vor. Besiegt ihn innerhalb von 8 Sekunden, um sie zu verhindern."
@@ -1782,7 +1782,7 @@ if GetLocale() == "deDE" then
         "Verringert Shazzrahs erlittenen magischen Schaden 30 Sekunden lang um 50%. Entfernt den Stärkungseffekt mit einem offensiven Bannzauber."
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19715 = "Gegenzauber"
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19715 =
-        "Unterbricht nahe Gegner beim Zaubern und verhindert 10 Sekunden lang Zauber der unterbrochenen Magieschule. Stimmt Eure Zauber so ab, dass Ihr nicht unterbrochen werdet."
+        "Unterbricht nahe Gegner beim Zaubern und verhindert 10 Sekunden lang Zauber der unterbrochenen Magieschule.\n\nStimmt Eure Zauber so ab, dass Ihr nicht unterbrochen werdet."
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_23139 = "Tor von Shazzrah"
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_23139 =
         "Shazzrah teleportiert sich im Kampf. Tanks sollten nach seinem Positionswechsel schnell wieder seine Aufmerksamkeit auf sich ziehen."
@@ -1851,7 +1851,7 @@ if GetLocale() == "deDE" then
         "Basalthar und Smoldaris sind Zwillingsgolems im Geschmolzenen Kern. Sie stehen mit den Dunkeleisenzwergen in Verbindung und kämpfen gemeinsam mit zermalmenden Schlägen und Flammenströmen."
     IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47375 = "Glühendes Bollwerk"
     IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47375 =
-        "Die Golems wechseln sich mit einem Schild ab, der 15 Sekunden lang den erlittenen Schaden um 95% verringert und Nahkampfangreifern bei einem Treffer 200 Feuerschaden zufügt. Greift den Golem ohne Schild an."
+        "Die Golems wechseln sich mit einem Schild ab, der 15 Sekunden lang den erlittenen Schaden um 95% verringert und Nahkampfangreifern bei einem Treffer 200 Feuerschaden zufügt.\n\nGreift den Golem ohne Schild an."
     IJ_DB_RAID_MC_BOSS_65020_NAME_basalthar = "Basalthar"
     IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_basalthar =
         "Basalthar kämpft an Smoldaris' Seite. Die Golems teilen sich ihre Gesundheit und werden gemeinsam besiegt."
@@ -1942,7 +1942,7 @@ if GetLocale() == "deDE" then
         "Ragnaros taucht nach der Phase der Söhne der Flamme wieder auf und setzt den Kampf fort."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21857 = "Lavaschild"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21857 =
-        "Söhne der Flamme fügen Nahkampfangreifern Feuerschaden zu und verbrennen regelmäßig 150 Mana von Gegnern im Umkreis von 10 Metern. Dabei verursachen sie Feuerschaden in Höhe der Hälfte des verbrannten Manas. Haltet Mananutzer von den Dienern fern."
+        "Söhne der Flamme fügen Nahkampfangreifern Feuerschaden zu und verbrennen regelmäßig 150 Mana von Gegnern im Umkreis von 10 Metern. Dabei verursachen sie Feuerschaden in Höhe der Hälfte des verbrannten Manas.\n\nHaltet Mananutzer von den Dienern fern."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21158 = "Lavaexplosion"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21158 =
         "Lavaeruptionen in der Umgebung verursachen Feuerschaden im Kampfbereich. Meidet die Lava."
@@ -2492,7 +2492,7 @@ if GetLocale() == "deDE" then
         "Schleudert ein arkanes Geschoss auf einen Gegner, verursacht Schaden und stößt ihn zurück."
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52724 = "Rune der Kraft"
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52724 =
-        "Innerhalb der Rune wird der verursachte Schaden um 30% erhöht, erlittener Feuerschaden um 70% und erlittener Schaden anderer Magieschulen um 20% verringert. Betretet sie für Rune der Verbrennung und verlasst sie für Rune der Detonation."
+        "Innerhalb der Rune wird der verursachte Schaden um 30% erhöht, erlittener Feuerschaden um 70% und erlittener Schaden anderer Magieschulen um 20% verringert.\n\nBetretet sie für Rune der Verbrennung und verlasst sie für Rune der Detonation."
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52725 = "Rune der Detonation"
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52725 =
         "Markiert Gegner, die nach 6 Sekunden detonieren und Arkanschaden verursachen. Verlasst Rune der Kraft vor der Detonation der Markierung, um erhöhten Schaden zu vermeiden."

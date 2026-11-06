@@ -1666,7 +1666,7 @@ if GetLocale() == "frFR" then
         "Incindis frappe le sol, inflige des dégâts physiques et attire les ennemis proches vers lui. Éloignez-vous avant la Nova de feu qui suit."
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42037 = "Nova de feu"
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42037 =
-        "Après Piétinement sismique, Incindis incante Nova de feu pendant 4,5 secondes, puis inflige de lourds dégâts de Feu aux ennemis proches et ralentit leurs déplacements pendant 8 secondes. Éloignez-vous avant la fin de l'incantation."
+        "Après Piétinement sismique, Incindis incante Nova de feu pendant 4,5 secondes, puis inflige de lourds dégâts de Feu aux ennemis proches et ralentit leurs déplacements pendant 8 secondes.\n\nÉloignez-vous avant la fin de l'incantation."
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42040 = "Morsure de magma"
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42040 =
         "Incindis mord un ennemi, lui inflige des dégâts de Feu et applique Armure de magma."
@@ -1738,7 +1738,7 @@ if GetLocale() == "frFR" then
         "Lorsqu'un Ligefeu meurt, il explose, inflige des dégâts de Feu et repousse les ennemis dans un rayon de 15 mètres. Éloignez-vous des serviteurs sur le point de mourir."
     IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_23492 = "Angoisse de séparation"
     IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_23492 =
-        "Les Ligefeu trop éloignés de Garr peuvent gagner Angoisse de séparation, qui augmente les dégâts infligés de 300% et les immunise contre Bannir pendant 5 secondes. Gardez-les près de Garr."
+        "Les Ligefeu trop éloignés de Garr peuvent gagner Angoisse de séparation, qui augmente les dégâts infligés de 300% et les immunise contre Bannir pendant 5 secondes.\n\nGardez-les près de Garr."
     IJ_DB_RAID_MC_BOSS_12057_NAME_firesworn = "Ligefeu"
     IJ_DB_RAID_MC_BOSS_12057_DESCRIPTION_firesworn =
         "Garr est accompagné de huit Ligefeu. Les vaincre renforce Garr."
@@ -1759,10 +1759,10 @@ if GetLocale() == "frFR" then
         "Bombe vivante explose, inflige 3200 points de dégâts de Feu au joueur marqué et à ses alliés dans un rayon de 18 mètres, et les repousse."
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44060 = "Sol en fusion"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44060 =
-        "Bombe vivante laisse une zone de feu qui inflige 500 points de dégâts de Feu toutes les 2 secondes dans un rayon de 5 mètres pendant 60 secondes. Évitez le feu et choisissez un autre emplacement pour les bombes suivantes."
+        "Bombe vivante laisse une zone de feu qui inflige 500 points de dégâts de Feu toutes les 2 secondes dans un rayon de 5 mètres pendant 60 secondes.\n\nÉvitez le feu et choisissez un autre emplacement pour les bombes suivantes."
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44061 = "Réaction catastrophique"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44061 =
-        "Porter Bombe vivante sur un Sol en fusion existant peut déclencher une explosion supplémentaire, infligeant 2500 points de dégâts de Feu dans un rayon de 100 mètres. Gardez la bombe loin des zones de feu précédentes."
+        "Porter Bombe vivante sur un Sol en fusion existant peut déclencher une explosion supplémentaire, infligeant 2500 points de dégâts de Feu dans un rayon de 100 mètres.\n\nGardez la bombe loin des zones de feu précédentes."
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20478 = "Armageddon"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20478 =
         "À 5% de ses points de vie, le baron Geddon prépare une énorme explosion de Feu. Vainquez-le en moins de 8 secondes pour l'empêcher."
@@ -1780,7 +1780,7 @@ if GetLocale() == "frFR" then
         "Réduit les dégâts magiques subis par Shazzrah de 50% pendant 30 secondes. Supprimez l'amélioration avec une dissipation offensive."
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19715 = "Contresort"
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19715 =
-        "Interrompt les ennemis proches en train d'incanter et empêche l'utilisation de sorts de l'école interrompue pendant 10 secondes. Planifiez vos incantations pour éviter d'être interrompu."
+        "Interrompt les ennemis proches en train d'incanter et empêche l'utilisation de sorts de l'école interrompue pendant 10 secondes.\n\nPlanifiez vos incantations pour éviter d'être interrompu."
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_23139 = "Porte de Shazzrah"
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_23139 =
         "Shazzrah se téléporte pendant le combat. Les tanks doivent rapidement reprendre son attention après son déplacement."
@@ -1849,7 +1849,7 @@ if GetLocale() == "frFR" then
         "Basalthar et Smoldaris sont des golems jumeaux du Cœur du Magma. Associés aux nains Sombrefer, ils combattent ensemble à coups écrasants et torrents de flammes."
     IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47375 = "Rempart de magma"
     IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47375 =
-        "Les golems alternent un bouclier qui réduit les dégâts subis de 95% et inflige 200 points de dégâts de Feu aux attaquants en mêlée lorsqu'il est frappé, pendant 15 secondes. Attaquez le golem sans bouclier."
+        "Les golems alternent un bouclier qui réduit les dégâts subis de 95% et inflige 200 points de dégâts de Feu aux attaquants en mêlée lorsqu'il est frappé, pendant 15 secondes.\n\nAttaquez le golem sans bouclier."
     IJ_DB_RAID_MC_BOSS_65020_NAME_basalthar = "Basalthar"
     IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_basalthar =
         "Basalthar combat aux côtés de Smoldaris. Les golems partagent leurs points de vie et sont vaincus ensemble."
@@ -1940,7 +1940,7 @@ if GetLocale() == "frFR" then
         "Ragnaros émerge après la phase des Fils des flammes et reprend le combat."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21857 = "Bouclier de lave"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21857 =
-        "Les Fils des flammes infligent des dégâts de Feu aux attaquants en mêlée et brûlent périodiquement 150 points de mana aux ennemis dans un rayon de 10 mètres, infligeant des dégâts de Feu égaux à la moitié du mana brûlé. Gardez les utilisateurs de mana loin des serviteurs."
+        "Les Fils des flammes infligent des dégâts de Feu aux attaquants en mêlée et brûlent périodiquement 150 points de mana aux ennemis dans un rayon de 10 mètres, infligeant des dégâts de Feu égaux à la moitié du mana brûlé.\n\nGardez les utilisateurs de mana loin des serviteurs."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21158 = "Explosion de lave"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21158 =
         "Des éruptions de lave ambiantes infligent des dégâts de Feu dans la zone du combat. Évitez la lave."
@@ -2493,7 +2493,7 @@ if GetLocale() == "frFR" then
         "Projette un trait arcanique sur un ennemi, lui inflige des dégâts et le repousse."
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52724 = "Rune de puissance"
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52724 =
-        "Se tenir dans la rune augmente les dégâts infligés de 30%, réduit les dégâts de Feu subis de 70% et les dégâts des autres écoles subis de 20%. Entrez pour Rune de combustion et sortez pour Rune de détonation."
+        "Se tenir dans la rune augmente les dégâts infligés de 30%, réduit les dégâts de Feu subis de 70% et les dégâts des autres écoles subis de 20%.\n\nEntrez pour Rune de combustion et sortez pour Rune de détonation."
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52725 = "Rune de détonation"
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52725 =
         "Marque les ennemis pour qu'ils explosent après 6 secondes en infligeant des dégâts des Arcanes. Sortez de Rune de puissance avant l'explosion de la marque pour éviter les dégâts accrus."

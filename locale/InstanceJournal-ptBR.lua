@@ -1653,7 +1653,7 @@ if GetLocale() == "ptBR" then
         "Incindis pisa no chão, causando dano Físico e puxando os inimigos próximos em sua direção. Afaste-se antes da Nova de Fogo que vem em seguida."
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42037 = "Nova de Fogo"
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42037 =
-        "Após a Pisada Sísmica, Incindis conjura Nova de Fogo por 4,5 segundos e então causa muito dano de Fogo aos inimigos próximos, reduzindo sua velocidade de movimento por 8 segundos. Afaste-se antes do fim da conjuração."
+        "Após a Pisada Sísmica, Incindis conjura Nova de Fogo por 4,5 segundos e então causa muito dano de Fogo aos inimigos próximos, reduzindo sua velocidade de movimento por 8 segundos.\n\nAfaste-se antes do fim da conjuração."
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42040 = "Mordida Derretida"
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42040 =
         "Incindis morde um inimigo, causando dano de Fogo e aplicando Armadura Derretida."
@@ -1725,7 +1725,7 @@ if GetLocale() == "ptBR" then
         "Quando um Devoto do Fogo morre, ele explode, causando dano de Fogo e repelindo inimigos em um raio de 15 metros. Afaste-se dos lacaios prestes a morrer."
     IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_23492 = "Ansiedade de Separação"
     IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_23492 =
-        "Devotos do Fogo afastados demais de Garr podem receber Ansiedade de Separação, aumentando o dano causado em 300% e concedendo imunidade a Banir por 5 segundos. Mantenha-os perto de Garr."
+        "Devotos do Fogo afastados demais de Garr podem receber Ansiedade de Separação, aumentando o dano causado em 300% e concedendo imunidade a Banir por 5 segundos.\n\nMantenha-os perto de Garr."
     IJ_DB_RAID_MC_BOSS_12057_NAME_firesworn = "Devotos do Fogo"
     IJ_DB_RAID_MC_BOSS_12057_DESCRIPTION_firesworn =
         "Garr é acompanhado por oito Devotos do Fogo. Derrotá-los fortalece Garr."
@@ -1746,10 +1746,10 @@ if GetLocale() == "ptBR" then
         "Bomba Viva explode, causando 3200 de dano de Fogo ao jogador marcado e a aliados próximos em um raio de 18 metros, repelindo-os."
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44060 = "Solo Derretido"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44060 =
-        "Bomba Viva deixa uma área de fogo que causa 500 de dano de Fogo a cada 2 segundos em um raio de 5 metros por 60 segundos. Evite o fogo e escolha outro local para as próximas bombas."
+        "Bomba Viva deixa uma área de fogo que causa 500 de dano de Fogo a cada 2 segundos em um raio de 5 metros por 60 segundos.\n\nEvite o fogo e escolha outro local para as próximas bombas."
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44061 = "Reação Catastrófica"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44061 =
-        "Levar Bomba Viva para um Solo Derretido existente pode provocar uma explosão adicional, causando 2500 de dano de Fogo em um raio de 100 metros. Mantenha a bomba longe das áreas de fogo anteriores."
+        "Levar Bomba Viva para um Solo Derretido existente pode provocar uma explosão adicional, causando 2500 de dano de Fogo em um raio de 100 metros.\n\nMantenha a bomba longe das áreas de fogo anteriores."
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20478 = "Armagedom"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20478 =
         "Aos 5% de vida, Barão Geddon prepara uma enorme explosão de Fogo. Derrote-o em até 8 segundos para impedi-la."
@@ -1767,7 +1767,7 @@ if GetLocale() == "ptBR" then
         "Reduz o dano mágico recebido por Shazzrah em 50% por 30 segundos. Remova o benefício com uma dissipação ofensiva."
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19715 = "Contrafeitiço"
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19715 =
-        "Interrompe os inimigos próximos que estejam conjurando e impede a conjuração de feitiços da escola interrompida por 10 segundos. Planeje suas conjurações para evitar a interrupção."
+        "Interrompe os inimigos próximos que estejam conjurando e impede a conjuração de feitiços da escola interrompida por 10 segundos.\n\nPlaneje suas conjurações para evitar a interrupção."
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_23139 = "Portal de Shazzrah"
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_23139 =
         "Shazzrah se teleporta durante o combate. Os tanques devem retomar sua atenção rapidamente após ele mudar de posição."
@@ -1836,7 +1836,7 @@ if GetLocale() == "ptBR" then
         "Basalthar e Smoldaris são golens gêmeos encontrados no Núcleo Derretido. Associados aos anões Ferro Negro, lutam juntos com golpes esmagadores e torrentes de chamas."
     IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47375 = "Baluarte Derretido"
     IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47375 =
-        "Os golens alternam um escudo que reduz o dano recebido em 95% e causa 200 de dano de Fogo aos atacantes corpo a corpo quando atingido, por 15 segundos. Passe a atacar o golem sem o escudo."
+        "Os golens alternam um escudo que reduz o dano recebido em 95% e causa 200 de dano de Fogo aos atacantes corpo a corpo quando atingido, por 15 segundos.\n\nPasse a atacar o golem sem o escudo."
     IJ_DB_RAID_MC_BOSS_65020_NAME_basalthar = "Basalthar"
     IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_basalthar =
         "Basalthar luta ao lado de Smoldaris. Os golens compartilham vida e são derrotados juntos."
@@ -1927,7 +1927,7 @@ if GetLocale() == "ptBR" then
         "Ragnaros emerge após a fase dos Filhos da Chama e retoma a luta."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21857 = "Escudo de Lava"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21857 =
-        "Filhos da Chama causam dano de Fogo aos atacantes corpo a corpo e queimam periodicamente 150 de mana dos inimigos em um raio de 10 metros, causando dano de Fogo igual à metade da mana queimada. Mantenha os usuários de mana longe dos lacaios."
+        "Filhos da Chama causam dano de Fogo aos atacantes corpo a corpo e queimam periodicamente 150 de mana dos inimigos em um raio de 10 metros, causando dano de Fogo igual à metade da mana queimada.\n\nMantenha os usuários de mana longe dos lacaios."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21158 = "Explosão de Lava"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21158 =
         "Erupções de lava do ambiente causam dano de Fogo na área do encontro. Evite a lava."
@@ -2475,7 +2475,7 @@ if GetLocale() == "ptBR" then
         "Lança um projétil Arcano em um inimigo, causando dano e repelindo-o."
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52724 = "Runa de Poder"
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52724 =
-        "Permanecer dentro da runa aumenta o dano causado em 30%, reduz o dano de Fogo recebido em 70% e reduz o dano recebido de outras escolas em 20%. Entre para Runa de Combustão e saia para Runa de Detonação."
+        "Permanecer dentro da runa aumenta o dano causado em 30%, reduz o dano de Fogo recebido em 70% e reduz o dano recebido de outras escolas em 20%.\n\nEntre para Runa de Combustão e saia para Runa de Detonação."
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52725 = "Runa de Detonação"
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52725 =
         "Marca os inimigos para detonar após 6 segundos, causando dano Arcano. Saia da Runa de Poder antes que a marca detone para evitar dano aumentado."
