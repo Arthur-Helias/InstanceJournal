@@ -34,11 +34,13 @@ All changes to this project will be documented in this file.
 - Corrected `Gri'lek` ability descriptions and the spell ID and dispel guidance for `Entangling Roots`
 
 - Corrected `Hazza'rah` spell IDs and guidance for `Chain Burn`, `Sleep`, and `Summon Nightmare Illusions`
+- Corrected `Gahz'ranka`'s `Frost Breath` spell ID and the descriptions of `Frost Breath`, `Slam`, and `Massive Geyser` in all supported locales
 
 ### Changed
 
 - Separated effects and player guidance into paragraphs in longer Molten Core ability descriptions across all supported locales
 - Expanded `Edge of Madness` lore with the four troll spirits and their summoning ritual in all supported locales
+- Expanded `Gahz'ranka` lore with Nat Pagle and the summoning lure in all supported locales
 - Grouped `Ragnaros`'s `Elemental Fire` area damage under the main ability and clarified that it triggers around the struck target in all supported locales
 
 ## [1.4.4] - 2026-11-05

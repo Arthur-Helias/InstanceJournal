@@ -1613,14 +1613,16 @@ if GetLocale() == "frFR" then
         "Crée pendant 15 secondes un nuage de foudre de 10 mètres de rayon, infligeant initialement de 463 à 538 points de dégâts de Nature, puis de 875 à 1126 points de dégâts supplémentaires toutes les 5 secondes.\n\nSortez immédiatement du nuage."
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Gahz'ranka"
     IJ_DB_RAID_ZG_BOSS_STORY_15114 =
-        "On raconte que si un pêcheur expérimenté jetait son hameçon avec un appât bien spécifique à la Pointe de Pagle, alors une terrible créature sortirait de l'eau pour les dévorer..."
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_21099 = "Souffle de givre"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_21099 = "Gahz'ranka inflige 850 dégâts de gel aux ennemis dans un cône devant lui, leur volant leur mana et réduisant leur vitesse de déplacement pendant 5 secondes."
+        "Gahz'ranka est une hydre légendaire qui rôde dans les eaux de Zul'Gurub, près de la pointe de Pagle. Nat Pagle visita autrefois ces rives, y laissant son matériel de pêche et son mètre ruban préféré.\n\nLes aventuriers qui rapportent le ruban apprennent à attirer la créature hors des profondeurs : un Appât au Puant de vase, garni de cinq Puants de vase zuliens et lancé depuis la pointe de Pagle, fait remonter l'insaisissable hydre à la surface."
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_16099 = "Souffle de givre"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_16099 =
+        "Inflige des dégâts de Givre et draine le mana des ennemis dans un cône devant Gahz'ranka, réduisant leur vitesse de déplacement de 50% pendant 10 secondes.\n\nOrientez le boss dos au raid."
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_24326 = "Gahz'ranka Slam"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 = "Gahz'ranka frappe toutes les cibles devant lui, leur infligeant 250 dégâts physiques et les repoussant."
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 =
+        "Inflige des dégâts physiques aux ennemis proches et les repousse."
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_22421 = "Geyser massif"
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 =
-        "Gahz'ranka crée un énorme geyser, projetant les ennemis dans les airs.\n\nLes joueurs doivent viser à atterrir dans l’eau pour éviter de subir des dégâts inutiles."
+        "Crée un geyser qui inflige des dégâts de Givre et projette en l'air les joueurs et familiers dans un rayon de 10 mètres autour du geyser.\n\nPlacez-vous pour retomber dans l'eau et éviter les dégâts de chute."
     IJ_DB_RAID_ZG_BOSS_NAME_14509 = "Grand prêtre Thekal"
     IJ_DB_RAID_ZG_BOSS_STORY_14509 =
         "Le Grand Prêtre Thekal est le Grand Prêtre Zandalari de Shirvallah, le loa tigre. Envoyé à Zul'Gurub pour arrêter Hakkar l'Écorcheur d'âmes, il fut finalement transformé par le dieu du sang."

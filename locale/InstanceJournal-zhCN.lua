@@ -3291,13 +3291,17 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
         "制造一片半径10码、持续15秒的闪电云，初始造成463至538点自然伤害，之后每5秒额外造成875至1126点伤害。\n\n立即离开闪电云。"
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "加兹兰卡"
-    IJ_DB_RAID_ZG_BOSS_STORY_15114 = "据说，如果一个熟练的渔夫用一种非常特殊的诱饵在帕格角投下鱼钩，那么一个可怕的生物就会从水中出现来吞噬他们......"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_21099 = "冰息术"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_21099 = "加兹兰卡对前方锥形范围内的敌人造成 850 点冰霜伤害，窃取他们的法力并降低他们的移动速度，持续 5 秒。"
+    IJ_DB_RAID_ZG_BOSS_STORY_15114 =
+        "加兹兰卡是一头传说中的多头蛇，潜伏在祖尔格拉布帕格渔点附近的水域中。纳特·帕格曾到访这片河岸，并将渔具和最心爱的卷尺遗落在此。\n\n归还卷尺的冒险者会得知如何将这头巨兽引出深水：把五条祖利安臭泥鱼装入臭泥鱼诱饵，再从帕格渔点抛入水中，便能引出这头难觅踪影的多头蛇。"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_16099 = "冰息术"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_16099 =
+        "对加兹兰卡面前锥形区域内的敌人造成冰霜伤害并吸取法力，使其移动速度降低50%，持续10秒。\n\n让首领背对团队。"
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_24326 = "加兹兰卡猛击"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 = "加兹兰卡猛击面前的所有目标，造成 250 点物理伤害并将其击退。"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 =
+        "对附近敌人造成物理伤害，并将其击退。"
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_22421 = "巨型喷泉"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 = "加兹兰卡创造了一个巨大的间歇泉，将敌人发射到空中。\n \n玩家应该瞄准落在水中以避免受到不必要的伤害。"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 =
+        "制造一道喷泉，对喷泉周围10码内的玩家和宠物造成冰霜伤害并将其击飞。\n\n调整站位，确保落入水中以避免坠落伤害。"
     IJ_DB_RAID_ZG_BOSS_NAME_14509 = "高阶祭司塞卡尔"
     IJ_DB_RAID_ZG_BOSS_STORY_14509 = "高阶祭司塞卡尔是虎神灵希尔瓦拉的赞达拉高阶祭司。被派往祖尔格拉布阻止夺魂者哈卡，他最终被血神转变。"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_lorkhan = "狂热者洛卡恩"

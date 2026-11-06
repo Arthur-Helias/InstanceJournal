@@ -1605,13 +1605,17 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
         "Cria uma nuvem de relâmpagos com raio de 10 jardas por 15 segundos, causando de 463 a 538 de dano de Natureza inicialmente e de 875 a 1126 de dano adicional a cada 5 segundos.\n\nSaia da nuvem imediatamente."
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Gahz'ranka"
-    IJ_DB_RAID_ZG_BOSS_STORY_15114 = "Diz-se que se um pescador habilidoso lançasse seu anzol com uma isca muito específica em Pagle's Pointe, uma criatura terrível emergiria da água para devorá-los..."
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_21099 = "Respiração Gélida"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_21099 = "Gahz'ranka causa 850 de dano de gelo aos inimigos em um cone à sua frente, roubando sua mana e reduzindo sua velocidade de movimento por 5 segundos."
+    IJ_DB_RAID_ZG_BOSS_STORY_15114 =
+        "Gahz'ranka é uma hidra lendária que espreita nas águas de Zul'Gurub, perto da Ponta de Pagle. Nat Pagle esteve nessas margens, deixando para trás seus apetrechos de pesca e sua fita métrica favorita.\n\nAventureiros que devolvem a fita descobrem como atrair a criatura das profundezas: uma Isca de Gambá-da-lama, carregada com cinco Gambás-da-lama Zulianos e lançada da Ponta de Pagle, faz a esquiva hidra emergir."
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_16099 = "Respiração Gélida"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_16099 =
+        "Causa dano de Gelo e drena mana dos inimigos em um cone à frente de Gahz'ranka, reduzindo a velocidade de movimento em 50% por 10 segundos.\n\nMantenha o boss de costas para a raide."
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_24326 = "Gahz'ranka Slam"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 = "Gahz'ranka atinge todos os alvos à sua frente, causando 250 de dano físico e repelindo-os."
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 =
+        "Causa dano Físico aos inimigos próximos e os repele."
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_22421 = "Gêiser enorme"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 = "Gahz'ranka cria um enorme gêiser, lançando inimigos no ar.\n\nOs jogadores devem tentar pousar na água para evitar danos desnecessários."
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 =
+        "Cria um gêiser que causa dano de Gelo e lança ao ar jogadores e ajudantes em um raio de 10 jardas ao redor do gêiser.\n\nPosicione-se para cair na água e evitar dano de queda."
     IJ_DB_RAID_ZG_BOSS_NAME_14509 = "Sumo Sacerdote Thekal"
     IJ_DB_RAID_ZG_BOSS_STORY_14509 =
         "Sumo Sacerdote Thekal é o Sumo Sacerdote Zandalari de Shirvallah, o tigre loa. Enviado para Zul'Gurub para deter Hakkar, o Esfolador de Almas, ele acabou sendo transformado pelo deus do sangue."

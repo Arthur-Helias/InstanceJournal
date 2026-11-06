@@ -680,7 +680,7 @@ ZG.Bosses = {
         MapCoordinateX = 55.8,
         MapCoordinateY = 36.1,
         Abilities = {
-            [1] = {Id = "21099", Icon = "Spell_Frost_FrostNova", Name = IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_21099, Effect = IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_21099},
+            [1] = {Id = "16099", Icon = "Spell_Frost_FrostNova", Name = IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_16099, Effect = IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_16099, Flags = {IMAF.Tank, IMAF.Important}},
             [2] = {Id = "24326", Icon = "Ability_Devour", Name = IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_24326, Effect = IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326},
             [3] = {
                 Id = "22421",

@@ -1614,13 +1614,16 @@ if GetLocale() == "deDE" then
         "Erzeugt für 15 Sekunden eine Blitzwolke mit einem Radius von 10 Metern, die anfangs 463 bis 538 Naturschaden und alle 5 Sekunden zusätzlich 875 bis 1126 Schaden verursacht.\n\nVerlasst die Wolke sofort."
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Gahz'ranka"
     IJ_DB_RAID_ZG_BOSS_STORY_15114 =
-        "Es heißt, dass, wenn ein erfahrener Fischer seinen Haken mit einem ganz bestimmten Köder an Pagle's Pointe auswerfen würde, eine schreckliche Kreatur aus dem Wasser auftauchen würde, um sie zu verschlingen ..."
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_21099 = "Frostatem"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_21099 = "Gahz'ranka fügt Gegnern in einem kegelförmigen Bereich vor ihm 850 Frostschaden zu, stiehlt ihnen Mana und verringert 5 Sekunden lang ihre Bewegungsgeschwindigkeit."
+        "Gahz'ranka ist eine sagenumwobene Hydra, die in den Gewässern von Zul'Gurub nahe Pagles Spitze lauert. Nat Pagle besuchte einst diese Ufer und ließ dort seine Angelausrüstung und sein Lieblingsmaßband zurück.\n\nAbenteurer, die das Maßband zurückbringen, erfahren, wie sie die Kreatur aus der Tiefe locken können: Ein mit fünf Zulianischen Matschstinkern bestückter Matschstinkerköder, der von Pagles Spitze ausgeworfen wird, bringt die scheue Hydra an die Oberfläche."
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_16099 = "Frostatem"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_16099 =
+        "Verursacht Frostschaden und entzieht Gegnern in einem kegelförmigen Bereich vor Gahz'ranka Mana. Ihre Bewegungsgeschwindigkeit wird für 10 Sekunden um 50% verringert.\n\nDreht den Boss von der Schlachtgruppe weg."
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_24326 = "Gahz'ranka Slam"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 = "Gahz'ranka trifft alle Ziele vor sich, verursacht 250 physischen Schaden und stößt sie zurück."
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 =
+        "Verursacht körperlichen Schaden an Gegnern in der Nähe und stößt sie zurück."
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_22421 = "Riesiger Geysir"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 = "Gahz'ranka erzeugt einen gewaltigen Geysir, der Feinde in die Luft schleudert.\n\nSpieler sollten versuchen, im Wasser zu landen, um unnötigen Schaden zu vermeiden."
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 =
+        "Erzeugt einen Geysir, der Frostschaden verursacht und Spieler sowie Begleiter im Umkreis von 10 Metern um den Geysir in die Luft schleudert.\n\nPositioniert euch so, dass ihr im Wasser landet, um Fallschaden zu vermeiden."
     IJ_DB_RAID_ZG_BOSS_NAME_14509 = "Hohepriester Thekal"
     IJ_DB_RAID_ZG_BOSS_STORY_14509 =
         "Hohepriester Thekal ist der Zandalari-Hohepriester von Shirvallah, dem Tiger-Loa. Er wurde nach Zul'Gurub geschickt, um Hakkar den Seelenschinder aufzuhalten, und wurde schließlich vom Blutgott verwandelt."

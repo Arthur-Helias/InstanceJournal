@@ -3167,13 +3167,17 @@ IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "Lightning Cloud"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
     "Creates a lightning cloud with a 10-yard radius for 15 seconds, dealing 463 to 538 Nature damage initially and 875 to 1126 additional damage every 5 seconds.\n\nMove out of the cloud immediately."
 IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Gahz'ranka"
-IJ_DB_RAID_ZG_BOSS_STORY_15114 = "It is said that if a skilled fisherman were to cast his hook with a very specific bait at Pagle's Pointe, then a terrible creature would emerge from the water to devour them..."
-IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_21099 = "Frost Breath"
-IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_21099 = "Gahz'ranka inflicts 850 frost damage to enemies in a cone in front him, stealing their mana and reducing their movement speed for 5 seconds."
+IJ_DB_RAID_ZG_BOSS_STORY_15114 =
+    "Gahz'ranka is a legendary hydra lurking in the waters of Zul'Gurub near Pagle's Pointe. Nat Pagle once visited these shores, leaving behind his fishing tackle and favorite measuring tape.\n\nAdventurers who return the tape learn how to lure the creature from the depths: a Mudskunk Lure, loaded with five Zulian Mudskunks and cast from Pagle's Pointe, brings the elusive hydra to the surface."
+IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_16099 = "Frost Breath"
+IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_16099 =
+    "Deals Frost damage and drains mana from enemies in a cone in front of Gahz'ranka, reducing their movement speed by 50% for 10 seconds.\n\nFace the boss away from the raid."
 IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_24326 = "Gahz'ranka Slam"
-IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 = "Gahz'ranka slams all target in front of him, dealing 250 physical damage and knocking them back."
+IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 =
+    "Deals Physical damage to nearby enemies and knocks them back."
 IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_22421 = "Massive Geyser"
-IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 = "Gahz'ranka creates a massive geyser, lauching enemies into the air.\n\nPlayers should aim to land in the water to avoid taking unnecessary damage."
+IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 =
+    "Creates a geyser that deals Frost damage and launches players and pets within 10 yards of the geyser into the air.\n\nPosition to land in water to avoid fall damage."
 IJ_DB_RAID_ZG_BOSS_NAME_14509 = "High Priest Thekal"
 IJ_DB_RAID_ZG_BOSS_STORY_14509 = "High Priest Thekal is the Zandalari High Priest of Shirvallah, the tiger loa. Sent to Zul'Gurub to stop Hakkar the Soulflayer, he was eventually turned by the blood god."
 IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_lorkhan = "Zealot Lor'Khan"
