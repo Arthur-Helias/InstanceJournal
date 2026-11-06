@@ -15,6 +15,8 @@ All changes to this project will be documented in this file.
 
 - Added `Ambush` and `Thousand Blades` to the `Renataki` encounter in all supported locales
 
+- Added the stun at the start of `Gri'lek`'s `Avatar` in all supported locales
+
 ### Fixed
 
 - Fixed Molten Core ability links opening the boss entry instead of the corresponding add ability
@@ -26,6 +28,8 @@ All changes to this project will be documented in this file.
 - Corrected `Wushoolay` spell IDs and the descriptions of `Chain Lightning` and `Lightning Cloud`
 
 - Corrected `Renataki` spell IDs and guidance for `Vanish`, `Gouge`, and `Enrage`
+
+- Corrected `Gri'lek` ability descriptions and the spell ID and dispel guidance for `Entangling Roots`
 
 ### Changed
 

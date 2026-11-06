@@ -1614,11 +1614,16 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "Gri'lek"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646 = "Аватар"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646 =
-        "На протяжении всего боя Гри'лек превращается в аватара, значительно увеличивая свой размер и урон, но также уменьшая свою скорость. Затем он начнет преследовать случайного врага, независимо от угрозы. ||н||  ||н|| Целевой игрок должен убежать на время действия способности."
+        "На 15 секунд увеличивает физический урон на 500% и снижает скорость передвижения на 75%.\n\nПреследуемый игрок должен убегать и держаться вне радиуса ближнего боя."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24647 = "Оглушение"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24647 =
+        "Гри'лек оглушается на 2 секунды в начале действия Аватары."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_6524 = "Тремор земли"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 = "Гри'лек вызывает дрожь земли, оглушая всех врагов в радиусе 20 м на 2 секунды."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilekroot = "Entangling Roots"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_grilekroot = "Gri'lek roots an enemy, making them unable to move."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 =
+        "Оглушает противников в радиусе 20 м на 2 секунды."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24648 = "Entangling Roots"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24648 =
+        "Обездвиживает игрока на срок до 10 секунд, нанося урон от сил природы каждые 3 секунды.\n\nБыстро рассейте магический эффект, особенно если игрока преследуют во время Аватары."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "Renataki"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Исчезновение"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =

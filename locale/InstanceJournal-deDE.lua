@@ -1563,11 +1563,16 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "Gri'lek"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646 = "Avatar"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646 =
-        "Im Laufe des Kampfes verwandelt sich Gri'lek in einen Avatar, wodurch seine Größe und sein Schaden erheblich steigen, aber auch seine Geschwindigkeit verringert wird. Anschließend beginnt er, einen zufälligen Feind zu verfolgen, unabhängig von der Bedrohung.\n\nDer Zielspieler muss für die Dauer der Fähigkeit weglaufen."
+        "Erhöht für 15 Sekunden den körperlichen Schaden um 500% und verringert die Bewegungsgeschwindigkeit um 75%.\n\nDer verfolgte Spieler muss weglaufen und außerhalb der Nahkampfreichweite bleiben."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24647 = "Betäubung"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24647 =
+        "Gri'lek wird zu Beginn von Avatar für 2 Sekunden betäubt."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_6524 = "Bodenbeben"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 = "Gri'lek erzeugt Bodenbeben und betäubt alle Feinde im Umkreis von 20 Metern für 2 Sekunden."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilekroot = "Entangling Roots"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_grilekroot = "Gri'lek roots an enemy, making them unable to move."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 =
+        "Betäubt Gegner im Umkreis von 20 Metern für 2 Sekunden."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24648 = "Entangling Roots"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24648 =
+        "Macht einen Spieler bis zu 10 Sekunden lang bewegungsunfähig und verursacht alle 3 Sekunden Naturschaden.\n\nBannt den magischen Effekt umgehend, besonders wenn der Spieler während Avatar verfolgt wird."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "Renataki"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Verschwinden"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =

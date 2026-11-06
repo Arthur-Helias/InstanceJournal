@@ -3116,11 +3116,16 @@ IJ_DB_RAID_ZG_BOSS_STORY_15082 = "Nearly nothing is known about the Edge of Madn
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "Gri'lek"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646 = "Avatar"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646 =
-    "Throughout the fight, Gri'lek will turn into an avatar, increasing his size and damage significantly but also reducing his speed. He will then start pursuing a random enemy regardless of threat.\n\nThe targeted player must run away for the duration of the ability."
+    "For 15 seconds, increases Physical damage by 500% and reduces movement speed by 75%.\n\nThe pursued player must run away and keep out of melee range."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24647 = "Stun"
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24647 =
+    "Gri'lek is stunned for 2 seconds when Avatar begins."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_6524 = "Ground Tremor"
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 = "Gri'lek creates ground tremors, stunning every enemies in a 20 yards radius for 2 seconds."
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilekroot = "Entangling Roots"
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_grilekroot = "Gri'lek roots an enemy, making them unable to move."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 =
+    "Stuns enemies within 20 yards for 2 seconds."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24648 = "Entangling Roots"
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24648 =
+    "Immobilizes a player for up to 10 seconds, dealing Nature damage every 3 seconds.\n\nDispel the Magic effect promptly, especially if the player is being pursued during Avatar."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "Renataki"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Vanish"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =

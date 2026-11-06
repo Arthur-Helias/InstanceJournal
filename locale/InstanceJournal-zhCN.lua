@@ -3240,11 +3240,16 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "格里雷克"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646 = "天神下凡"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646 =
-        "在整个战斗中，格里莱克会变成一个化身，显着增加他的体型和伤害，但也会降低他的速度。然后他将开始追捕随机的敌人，无论威胁如何。\n \n目标玩家必须在该能力持续时间内逃跑。"
+        "持续15秒，物理伤害提高500%，移动速度降低75%。\n\n被追赶的玩家必须逃跑，并保持在近战范围之外。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24647 = "昏迷"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24647 =
+        "格里雷克在天神下凡开始时昏迷2秒。"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_6524 = "大地震颤"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 = "格里莱克制造地面震动，使 20 码半径内的所有敌人昏迷 2 秒。"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilekroot = "纠缠根须"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_grilekroot = "格里雷克用纠缠根须束缚一名敌人，使其无法移动。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 =
+        "使20码范围内的敌人昏迷2秒。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24648 = "纠缠根须"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24648 =
+        "使一名玩家无法移动，最多持续10秒，每3秒造成自然伤害。\n\n尽快驱散此魔法效果，尤其是目标在天神下凡期间被追赶时。"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "雷纳塔基"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "消失"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =

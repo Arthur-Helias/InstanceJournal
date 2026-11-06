@@ -553,15 +553,23 @@ ZG.Bosses = {
                         Icon = "Ability_Creature_Cursed_05",
                         Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646,
                         Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646,
-                        Flags = {IMAF.Deadly, IMAF.Important}
+                        Flags = {IMAF.Deadly, IMAF.Important},
+                        SubAbilities = {
+                            [1] = {
+                                Id = "24647",
+                                Icon = "Spell_Frost_Stun",
+                                Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24647,
+                                Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24647
+                            }
+                        }
                     },
                     [2] = {Id = "6524", Icon = "Spell_Nature_Earthquake", Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_6524, Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524},
                     [3] = {
-                        Id = "grilekroot",
+                        Id = "24648",
                         Icon = "Spell_Nature_StrangleVines",
-                        Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilekroot,
-                        Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_grilekroot,
-                        Flags = {IMAF.Magic}
+                        Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24648,
+                        Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24648,
+                        Flags = {IMAF.Magic, IMAF.Important}
                     }
                 }
             },
