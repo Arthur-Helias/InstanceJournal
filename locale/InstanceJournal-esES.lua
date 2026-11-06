@@ -1627,30 +1627,41 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_STORY_14509 =
         "El Sumo Sacerdote Thekal es el Sumo Sacerdote Zandalari de Shirvallah, el tigre loa. Enviado a Zul'Gurub para detener a Hakkar el Desollador de Almas, finalmente fue convertido por el dios de la sangre."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_lorkhan = "Zealot Lor'Khan"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_25807 = "Gran curación"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25807 = "Lor'Khan lanza una gran curación sobre sí mismo o sobre un aliado, curándolo por 69375 de salud."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_23552 = "Escudo relámpago"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_23552 = "Lor'Khan se rodea con un escudo relámpago, devolviendo parte del daño que recibe al atacante."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24208 = "Gran curación"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24208 =
+        "Restaura una gran cantidad de salud a Lor'Khan o a un aliado.\n\nInterrumpe el lanzamiento de 4 segundos."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_25020 = "Escudo relámpago"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25020 =
+        "Rodea a Lor'Khan con un Escudo de relámpagos que puede infligir daño de Naturaleza a los atacantes."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22691 = "Desarmar"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22691 = "Lor'Khan desarma a su objetivo, obligándolo a dejar de empuñar su arma durante 6 segundos."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24185 = "Sed de sangre"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24185 = "Lor'Khan y sus aliados son superados por la sed de sangre, lo que aumenta su velocidad de ataque en un 75% durante 30 segundos."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_zath = "Zealot Zath"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_26654 = "Golpes de barrido"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_26654 = "Zath realiza golpes de barrido que infligen daño adicional a otro objetivo para su próximo ataque cuerpo a cuerpo."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_18765 = "Golpes de barrido"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_18765 =
+        "Los siguientes 5 ataques cuerpo a cuerpo de Zath golpean a un enemigo cercano adicional. Dura un máximo de 20 segundos."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24698 = "Gubia"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24698 = "Zath ataca a su objetivo, incapacitándolo."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_21060 = "Ciego"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_21060 = "Zath ciega a su objetivo, provocando que deambule confundido durante hasta 10 segundos."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27613 = "Patada"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27613 = "Zath patea a su objetivo, causando daño físico e interrumpiendo cualquier hechizo que se esté lanzando durante 6 segundos."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_15614 = "Patada"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_15614 =
+        "Inflige daño Físico e interrumpe el lanzamiento de hechizos, impidiendo lanzar hechizos de la escuela interrumpida durante 6 segundos."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_15667 = "Golpe siniestro"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_15667 =
+        "Inflige daño Físico a un enemigo."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24187 = "Zarpa"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24187 =
+        "Los guardianes zulianos usan Zarpa para infligir daño Físico a un enemigo."
     IJ_DB_RAID_ZG_BOSS_14509_NAME_STAGE_1 = "Etapa uno: forma de troll"
     IJ_DB_RAID_ZG_BOSS_14509_DESCRIPTION_STAGE_1 = "Thekal asume su forma de troll durante la etapa hasta que él y todos los agregados mueren al mismo tiempo."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaladds = "Thekal's Adds"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaladds =
         "Thekal starts the fight with Zealot Lor'Khan, Zealot Zath and 2 Zulian tigers.\n\nBoth zealots need to be tanked while the 2 tigers can easily be killed.\n\nThekal, Lor'Khan, and Zath all need to die around the same time as they will otherwise resurrect each other."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27559 = "Silencio"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27559 = "Thekal silencia a un enemigo aleatorio, impidiéndole lanzar hechizos durante 3 segundos."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22666 = "Silencio"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22666 =
+        "Silencia a un enemigo durante 6 segundos.\n\nDisipa el efecto Mágico rápidamente, especialmente de los sanadores."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22859 = "División mortal"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22859 =
         "Thekal divide a su objetivo actual, infligiendo un 150% de daño con arma y dejando al objetivo herido, lo que reduce la efectividad de cualquier curación en un 50% durante 5 segundos."
@@ -1662,12 +1673,14 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaltigers = "Summon Tigers"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaltigers =
         "Thekal summons 2 Zulian tigers, assisting him for the duration of the fight.\n\nJust like the Zulian tigers in stage one, these tigers can easily be killed and should be prioritized."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalcharge = "Charge"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalcharge = "Thekal charges an enemy, dealing damage and stunning them."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24408 = "Charge"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24408 =
+        "Carga contra un enemigo, inflige daño Físico y lo aturde durante 2 segundos."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalfrenzy = "Frenzy"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalfrenzy = "Thekal goes into a frenzy, increasing his size and his attack speed by 50%.\n\nHunters can use Tranquilizing Shot to remove frenzy from Thekal."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalenrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalenrage = "At 20% health remaining, Thekal becomes enraged, increasing the damage he deals to his enemies."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_8269 = "Enrage"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_8269 =
+        "Con poca salud, aumenta la velocidad de ataque cuerpo a cuerpo un 60% y añade 50 puntos de daño Físico durante 120 segundos.\n\nLos tanques y sanadores deben prepararse para un aumento del daño recibido."
     IJ_DB_RAID_ZG_BOSS_NAME_14515 = "Suma Sacerdotisa Arlokk"
     IJ_DB_RAID_ZG_BOSS_STORY_14515 =
         "La Suma Sacerdotisa Arlokk es la Suma Sacerdotisa Zandalari del Dios Primordial Bethekk, la diosa pantera. Enviada a Zul'Gurub para detener a Hakkar el Desollador de Almas, finalmente el dios de la sangre la convirtió."

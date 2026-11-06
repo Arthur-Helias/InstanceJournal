@@ -1679,35 +1679,42 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_ZG_BOSS_STORY_14509 =
         "Верховный жрец Текал — зандаларский верховный жрец Ширваллы, тигрового лоа. Посланный в Зул'Гуруб, чтобы остановить Хаккара Свежевателя Душ, он в конце концов был обращен богом крови."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_lorkhan = "Zealot Lor'Khan"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_25807 = "Великое исцеление"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25807 = "Лор'Хан исцеляет себя или союзника, восстанавливая ему 69375 ед. здоровья."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_23552 = "Молниеносный щит"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_23552 =
-        "Лор'Хан окружает себя молниеносным щитом, возвращая атакующему часть полученного им урона."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24208 = "Великое исцеление"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24208 =
+        "Восстанавливает большой запас здоровья Лор'Кхан или союзнику.\n\nПрервите заклинание с временем произнесения 4 секунды."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_25020 = "Молниеносный щит"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25020 =
+        "Окружает Лор'Кхан Щитом молний, способным наносить урон от сил природы атакующим."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22691 = "Разоружение"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22691 = "Лор'Хан обезоруживает свою цель, заставляя ее прекратить использование оружия на 6 секунд."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24185 = "Жажда крови"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24185 =
         "Лор'Хана и его союзников охватывает жажда крови, и их скорость атаки увеличивается на 75% на 30 секунд."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_zath = "Zealot Zath"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_26654 = "Размашистые удары"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_26654 =
-        "Зат наносит размашистые удары, нанося дополнительный урон другой цели при следующей атаке ближнего боя."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_18765 = "Размашистые удары"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_18765 =
+        "Следующие 5 атак Зата в ближнем бою поражают дополнительного противника поблизости. Действует до 20 секунд."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24698 = "Гуж"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24698 = "Зат наносит удар своей цели, выводя ее из строя."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_21060 = "Слепой"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_21060 = "Зат ослепляет свою цель, заставляя ее бродить в замешательстве до 10 секунд."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27613 = "Пинать"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27613 =
-        "Зат пинает свою цель, нанося физический урон и прерывая любое произнесенное в данный момент заклинание на 6 секунд."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_15614 = "Пинать"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_15614 =
+        "Наносит физический урон и прерывает заклинание, запрещая произнесение заклинаний прерванной школы на 6 секунд."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_15667 = "Коварный удар"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_15667 =
+        "Наносит физический урон противнику."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24187 = "Цапнуть"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24187 =
+        "Зулианские стражи используют Цапнуть, нанося физический урон противнику."
     IJ_DB_RAID_ZG_BOSS_14509_NAME_STAGE_1 = "Этап первый: форма тролля"
     IJ_DB_RAID_ZG_BOSS_14509_DESCRIPTION_STAGE_1 = "Текал принимает форму тролля на время этапа, пока он и все адды не умрут одновременно."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaladds = "Thekal's Adds"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaladds =
         "Thekal starts the fight with Zealot Lor'Khan, Zealot Zath and 2 Zulian tigers.\n\nBoth zealots need to be tanked while the 2 tigers can easily be killed.\n\nThekal, Lor'Khan, and Zath all need to die around the same time as they will otherwise resurrect each other."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27559 = "Тишина"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27559 =
-        "Текал заставляет случайного врага замолчать, не позволяя ему произносить заклинания в течение 3 секунд."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22666 = "Тишина"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22666 =
+        "Накладывает немоту на противника на 6 секунд.\n\nБыстро рассейте магический эффект, особенно с лекарей."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22859 = "Смертельный раскол"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22859 =
         "Текал рассекает свою текущую цель, нанося 150% урона от оружия и оставляя цель раненой, снижая эффективность любого исцеления на 50% на 5 секунд."
@@ -1720,12 +1727,14 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaltigers = "Summon Tigers"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaltigers =
         "Thekal summons 2 Zulian tigers, assisting him for the duration of the fight.\n\nJust like the Zulian tigers in stage one, these tigers can easily be killed and should be prioritized."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalcharge = "Charge"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalcharge = "Thekal charges an enemy, dealing damage and stunning them."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24408 = "Charge"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24408 =
+        "Совершает рывок к противнику, нанося физический урон и оглушая его на 2 секунды."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalfrenzy = "Frenzy"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalfrenzy = "Thekal goes into a frenzy, increasing his size and his attack speed by 50%.\n\nHunters can use Tranquilizing Shot to remove frenzy from Thekal."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalenrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalenrage = "At 20% health remaining, Thekal becomes enraged, increasing the damage he deals to his enemies."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_8269 = "Enrage"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_8269 =
+        "При низком запасе здоровья повышает скорость атак ближнего боя на 60% и добавляет 50 ед. физического урона на 120 секунд.\n\nТанкам и лекарям следует подготовиться к увеличению входящего урона."
     IJ_DB_RAID_ZG_BOSS_NAME_14515 = "Верховная жрица Арлокк"
     IJ_DB_RAID_ZG_BOSS_STORY_14515 =
         "Верховная жрица Арлокк — зандаларская верховная жрица Изначального Бога Бетекка, богини-пантеры. Отправленная в Зул'Гуруб, чтобы остановить Хаккара Свежевателя Душ, она в конце концов была обращена богом крови."

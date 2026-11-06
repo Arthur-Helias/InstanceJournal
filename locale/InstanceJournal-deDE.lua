@@ -1628,30 +1628,41 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_ZG_BOSS_STORY_14509 =
         "Hohepriester Thekal ist der Zandalari-Hohepriester von Shirvallah, dem Tiger-Loa. Er wurde nach Zul'Gurub geschickt, um Hakkar den Seelenschinder aufzuhalten, und wurde schließlich vom Blutgott verwandelt."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_lorkhan = "Zealot Lor'Khan"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_25807 = "Große Heilung"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25807 = "Lor'Khan wirkt eine große Heilung auf sich selbst oder einen Verbündeten und heilt sie um 69375 Gesundheit."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_23552 = "Blitzschild"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_23552 = "Lor'Khan umgibt sich mit einem Blitzschild, der einen Teil des Schadens, den er erleidet, an den Angreifer zurückgibt."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24208 = "Große Heilung"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24208 =
+        "Heilt Lor'Khan oder einen Verbündeten um eine große Menge Gesundheit.\n\nUnterbrecht den Zauber mit 4 Sekunden Wirkzeit."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_25020 = "Blitzschild"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25020 =
+        "Umhüllt Lor'Khan mit einem Blitzschlagschild, der Angreifern Naturschaden zufügen kann."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22691 = "Entwaffnen"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22691 = "Lor'Khan entwaffnet sein Ziel und zwingt es, für 6 Sekunden den Waffengebrauch einzustellen."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24185 = "Blutdurst"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24185 = "Lor'Khan und seine Verbündeten werden von Blutrausch überwältigt und erhöhen ihre Angriffsgeschwindigkeit 30 Sekunden lang um 75 %."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_zath = "Zealot Zath"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_26654 = "Weitreichende Schläge"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_26654 = "Zath führt weitreichende Schläge aus und fügt einem anderen Ziel bei seinem nächsten Nahkampfangriff zusätzlichen Schaden zu."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_18765 = "Weitreichende Schläge"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_18765 =
+        "Zaths nächste 5 Nahkampfangriffe treffen einen zusätzlichen Gegner in der Nähe. Hält bis zu 20 Sekunden an."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24698 = "Gouge"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24698 = "Zath zerfleischt sein Ziel und macht es außer Gefecht."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_21060 = "Blind"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_21060 = "Zath blendet sein Ziel und lässt es bis zu 10 Sekunden lang verwirrt umherwandern."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27613 = "Kick"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27613 = "Zath tritt gegen sein Ziel, verursacht physischen Schaden und unterbricht jeden gerade gewirkten Zauber für 6 Sekunden."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_15614 = "Kick"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_15614 =
+        "Verursacht körperlichen Schaden und unterbricht das Zauberwirken. Zauber der unterbrochenen Magieschule können 6 Sekunden lang nicht gewirkt werden."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_15667 = "Finsterer Stoß"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_15667 =
+        "Verursacht körperlichen Schaden an einem Gegner."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24187 = "Klaue"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24187 =
+        "Zulianische Wächter verursachen mit Klaue körperlichen Schaden an einem Gegner."
     IJ_DB_RAID_ZG_BOSS_14509_NAME_STAGE_1 = "Stufe eins: Trollform"
     IJ_DB_RAID_ZG_BOSS_14509_DESCRIPTION_STAGE_1 = "Thekal nimmt für die Dauer der Phase seine Trollform an, bis er und alle Adds gleichzeitig tot sind."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaladds = "Thekal's Adds"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaladds =
         "Thekal starts the fight with Zealot Lor'Khan, Zealot Zath and 2 Zulian tigers.\n\nBoth zealots need to be tanked while the 2 tigers can easily be killed.\n\nThekal, Lor'Khan, and Zath all need to die around the same time as they will otherwise resurrect each other."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27559 = "Schweigen"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27559 = "Thekal bringt einen zufälligen Feind zum Schweigen und hindert ihn 3 Sekunden lang daran, Zauber zu wirken."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22666 = "Schweigen"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22666 =
+        "Bringt einen Gegner für 6 Sekunden zum Schweigen.\n\nBannt den magischen Effekt umgehend, besonders bei Heilern."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22859 = "Tödliche Spaltung"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22859 =
         "Thekal spaltet sein aktuelles Ziel, verursacht 150 % Waffenschaden und verwundet das Ziel, wodurch die Wirksamkeit jeglicher Heilung 5 Sekunden lang um 50 % verringert wird."
@@ -1663,12 +1674,14 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaltigers = "Summon Tigers"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaltigers =
         "Thekal summons 2 Zulian tigers, assisting him for the duration of the fight.\n\nJust like the Zulian tigers in stage one, these tigers can easily be killed and should be prioritized."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalcharge = "Charge"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalcharge = "Thekal charges an enemy, dealing damage and stunning them."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24408 = "Charge"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24408 =
+        "Stürmt einen Gegner an, verursacht körperlichen Schaden und betäubt ihn für 2 Sekunden."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalfrenzy = "Frenzy"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalfrenzy = "Thekal goes into a frenzy, increasing his size and his attack speed by 50%.\n\nHunters can use Tranquilizing Shot to remove frenzy from Thekal."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalenrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalenrage = "At 20% health remaining, Thekal becomes enraged, increasing the damage he deals to his enemies."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_8269 = "Enrage"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_8269 =
+        "Erhöht bei geringer Gesundheit das Nahkampfangriffstempo für 120 Sekunden um 60% und fügt 50 Punkte körperlichen Schaden hinzu.\n\nTanks und Heiler sollten sich auf erhöhten eingehenden Schaden vorbereiten."
     IJ_DB_RAID_ZG_BOSS_NAME_14515 = "Hohepriesterin Arlokk"
     IJ_DB_RAID_ZG_BOSS_STORY_14515 =
         "Hohepriesterin Arlokk ist die Zandalari-Hohepriesterin des Urgottes Bethekk, der Panthergöttin. Sie wurde nach Zul'Gurub geschickt, um Hakkar den Seelenschinder aufzuhalten, und wurde schließlich vom Blutgott verwandelt."

@@ -18,6 +18,7 @@ All changes to this project will be documented in this file.
 - Added the stun at the start of `Gri'lek`'s `Avatar` in all supported locales
 
 - Added `Earth Shock` to the `Hazza'rah` encounter in all supported locales
+- Added `Sinister Strike` and `Claw` to the `Thekal` encounter in all supported locales
 
 ### Fixed
 
@@ -35,6 +36,8 @@ All changes to this project will be documented in this file.
 
 - Corrected `Hazza'rah` spell IDs and guidance for `Chain Burn`, `Sleep`, and `Summon Nightmare Illusions`
 - Corrected `Gahz'ranka`'s `Frost Breath` spell ID and the descriptions of `Frost Breath`, `Slam`, and `Massive Geyser` in all supported locales
+
+- Corrected `Thekal` encounter spell IDs, ability descriptions, and phase links in all supported locales
 
 ### Changed
 
