@@ -1690,9 +1690,21 @@ if GetLocale() == "ptBR" then
         "Arlokk vanishes and assumes her panther form. \n\nShe alternates between troll and panther forms throughout the fight, with transitions occurring more rapidly as the encounter progresses."
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24210 = "Marca de Arlokk"
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24210 = "Enquanto Arlokk está furtivo, ela pode marcar um jogador aleatório, o que faz com que cada pantera se concentre no alvo marcado."
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24236 = "Redemoinho"
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24236 =
-        "Quando Arlokk reaparece em sua forma de pantera, ela imediatamente lança Whirlwind, causando grande dano AoE às pessoas próximas por dois segundos.\n\nCorpo a corpo deve esperar o Redemoinho desaparecer antes de atacar Arlokk."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15589 = "Redemoinho"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15589 =
+        "Causa dano Físico aos inimigos em um raio de 8 jardas."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24212 = "Palavra Sombria: Dor"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24212 =
+        "Causa dano de Sombra a cada 3 segundos por 18 segundos.\n\nDissipe o efeito Mágico."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15582 = "Punhalada"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15582 =
+        "Causa dano Físico quando Arlokk ataca um inimigo pelas costas."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24213 = "Devastar"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24213 =
+        "Causa dano Físico e atordoa o alvo por 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_3391 = "Açoite"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_3391 =
+        "Concede 2 ataques corpo a corpo adicionais."
     IJ_DB_RAID_ZG_BOSS_NAME_11380 = "Jin'do, o Hexxer"
     IJ_DB_RAID_ZG_BOSS_STORY_11380 =
         "Jin'do é um feiticeiro troll da selva Gurubashi de poder considerável. Ele é responsável pela lavagem cerebral nos sacerdotes Zandalari Jeklik, Venoxis, Mar'li, Thekal e Arlokk para o serviço de Hakkar, o Loa do Sangue."

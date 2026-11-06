@@ -3372,9 +3372,21 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_arlokkpanther = "阿洛克消失并变为豹形态。\n\n她会在整个战斗中不断在巨魔形态和豹形态之间切换，而且战斗越往后切换越频繁。"
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24210 = "娅尔罗的印记"
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24210 = "当阿洛克处于隐身状态时，她可以标记随机玩家，从而使每只黑豹都集中在标记的目标上。"
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24236 = "旋风斩"
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24236 =
-        "当阿洛克以黑豹形态重新出现时，她会立即施放旋风斩，对附近的敌人造成大量群体伤害，持续两秒。\n \n近战应该等待旋风消散后再攻击阿洛克。"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15589 = "旋风斩"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15589 =
+        "对8码范围内的敌人造成物理伤害。"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24212 = "暗言术：痛"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24212 =
+        "每3秒造成暗影伤害，持续18秒。\n\n驱散此魔法效果。"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15582 = "背刺"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15582 =
+        "娅尔罗从背后攻击敌人时造成物理伤害。"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24213 = "毁灭"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24213 =
+        "造成物理伤害，并使目标昏迷2秒。"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_3391 = "痛击"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_3391 =
+        "获得2次额外的近战攻击。"
     IJ_DB_RAID_ZG_BOSS_NAME_11380 = "妖术师金度"
     IJ_DB_RAID_ZG_BOSS_STORY_11380 =
         "金度是一位拥有相当力量的古拉巴什丛林巨魔巫医。他负责对赞达拉祭司耶克里克、维诺西斯、玛利、塞卡尔和阿尔洛克进行洗脑，让他们为血之神哈卡服务。"

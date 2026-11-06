@@ -1699,9 +1699,21 @@ if GetLocale() == "deDE" then
         "Arlokk vanishes and assumes her panther form. \n\nShe alternates between troll and panther forms throughout the fight, with transitions occurring more rapidly as the encounter progresses."
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24210 = "Zeichen von Arlokk"
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24210 = "Während Arlokk sich versteckt, kann sie einen zufälligen Spieler markieren, wodurch sich alle Panther auf das markierte Ziel konzentrieren."
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24236 = "Wirbelwind"
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24236 =
-        "Wenn Arlokk in ihrer Pantherform wieder auftaucht, wirkt sie sofort „Wirbelwind“, der allen in der Nähe befindlichen Personen zwei Sekunden lang schweren Flächenschaden zufügt.\n\nNahkämpfer sollten warten, bis der Wirbelwind nachlässt, bevor sie Arlokk angreifen."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15589 = "Wirbelwind"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15589 =
+        "Verursacht körperlichen Schaden an Gegnern im Umkreis von 8 Metern."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24212 = "Schattenwort: Schmerz"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24212 =
+        "Verursacht 18 Sekunden lang alle 3 Sekunden Schattenschaden.\n\nBannt den magischen Effekt."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15582 = "Meucheln"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15582 =
+        "Verursacht körperlichen Schaden, wenn Arlokk einen Gegner von hinten angreift."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24213 = "Verheeren"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24213 =
+        "Verursacht körperlichen Schaden und betäubt das Ziel für 2 Sekunden."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_3391 = "Hauen"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_3391 =
+        "Gewährt 2 zusätzliche Nahkampfangriffe."
     IJ_DB_RAID_ZG_BOSS_NAME_11380 = "Jin'do der Verhexer"
     IJ_DB_RAID_ZG_BOSS_STORY_11380 =
         "Jin'do ist ein Gurubashi-Dschungeltroll-Hexendoktor mit beträchtlicher Macht. Er ist dafür verantwortlich, die Zandalari-Priester Jeklik, Venoxis, Mar'li, Thekal und Arlokk einer Gehirnwäsche zu unterziehen und sie in den Dienst von Hakkar, dem Loa des Blutes, zu stellen."

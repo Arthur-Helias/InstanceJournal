@@ -3251,9 +3251,21 @@ IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_arlokkpanther =
     "Arlokk vanishes and assumes her panther form. \n\nShe alternates between troll and panther forms throughout the fight, with transitions occurring more rapidly as the encounter progresses."
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24210 = "Mark of Arlokk"
 IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24210 = "While Arlokk is in stealth, she can mark a random player which causes every panther to focus on the marked target."
-IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24236 = "Whirlwind"
-IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24236 =
-    "When Arlokk reappears in her Panther Form, she immediately casts Whirlwind, dealing heavy AoE damage to those nearby for two seconds.\n\nMelee should wait for the Whirlwind to fade before attacking Arlokk."
+IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15589 = "Whirlwind"
+IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15589 =
+    "Deals Physical damage to enemies within 8 yards."
+IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24212 = "Shadow Word: Pain"
+IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24212 =
+    "Deals Shadow damage every 3 seconds for 18 seconds.\n\nDispel the Magic effect."
+IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15582 = "Backstab"
+IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15582 =
+    "Deals Physical damage when Arlokk attacks an enemy from behind."
+IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24213 = "Ravage"
+IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24213 =
+    "Deals Physical damage and stuns the target for 2 seconds."
+IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_3391 = "Thrash"
+IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_3391 =
+    "Grants 2 additional melee attacks."
 IJ_DB_RAID_ZG_BOSS_NAME_11380 = "Jin'do the Hexxer"
 IJ_DB_RAID_ZG_BOSS_STORY_11380 =
     "Jin'do is a Gurubashi jungle troll witch doctor of considerable power. He is responsible for brainwashing the Zandalari priests Jeklik, Venoxis, Mar'li, Thekal, and Arlokk into the service of Hakkar, the Loa of Blood."

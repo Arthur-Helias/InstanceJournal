@@ -1698,9 +1698,21 @@ if GetLocale() == "esES" then
         "Arlokk vanishes and assumes her panther form. \n\nShe alternates between troll and panther forms throughout the fight, with transitions occurring more rapidly as the encounter progresses."
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24210 = "Marca de Arlokk"
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24210 = "Mientras Arlokk está en sigilo, puede marcar a un jugador aleatorio, lo que hace que cada pantera se concentre en el objetivo marcado."
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24236 = "Torbellino"
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24236 =
-        "Cuando Arlokk reaparece en su forma de pantera, inmediatamente lanza Torbellino, lo que inflige un gran daño de área de efecto a quienes están cerca durante dos segundos. ||norte||  ||norte|| Melee debería esperar a que el Torbellino se desvanezca antes de atacar a Arlokk."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15589 = "Torbellino"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15589 =
+        "Inflige daño Físico a los enemigos en un radio de 8 metros."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24212 = "Palabra de las Sombras: dolor"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24212 =
+        "Inflige daño de las Sombras cada 3 segundos durante 18 segundos.\n\nDisipa el efecto Mágico."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15582 = "Puñalada"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15582 =
+        "Inflige daño Físico cuando Arlokk ataca a un enemigo por la espalda."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24213 = "Devastar"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24213 =
+        "Inflige daño Físico y aturde al objetivo durante 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_3391 = "Vapulear"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_3391 =
+        "Otorga 2 ataques cuerpo a cuerpo adicionales."
     IJ_DB_RAID_ZG_BOSS_NAME_11380 = "Jin'do el Hexxer"
     IJ_DB_RAID_ZG_BOSS_STORY_11380 =
         "Jin'do es un médico brujo trol de la jungla Gurubashi de considerable poder. Es responsable del lavado de cerebro de los sacerdotes Zandalari Jeklik, Venoxis, Mar'li, Thekal y Arlokk para ponerlos al servicio de Hakkar, el Loa de Sangre."

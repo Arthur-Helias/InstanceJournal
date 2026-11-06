@@ -1698,9 +1698,21 @@ if GetLocale() == "frFR" then
         "Arlokk vanishes and assumes her panther form. \n\nShe alternates between troll and panther forms throughout the fight, with transitions occurring more rapidly as the encounter progresses."
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24210 = "Marque d'Arlokk"
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24210 = "Pendant qu'Arlokk est furtive, elle peut marquer un joueur aléatoire, ce qui amène chaque panthère à se concentrer sur la cible marquée."
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24236 = "Tourbillon"
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24236 =
-        "Lorsqu'Arlokk réapparaît sous sa forme de panthère, elle lance immédiatement Tourbillon, infligeant de lourds dégâts de zone aux personnes à proximité pendant deux secondes.\n\nMêlée devrait attendre que le tourbillon disparaisse avant d'attaquer Arlokk."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15589 = "Tourbillon"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15589 =
+        "Inflige des dégâts physiques aux ennemis dans un rayon de 8 mètres."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24212 = "Mot de l'ombre : Douleur"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24212 =
+        "Inflige des dégâts d'Ombre toutes les 3 secondes pendant 18 secondes.\n\nDissipez cet effet magique."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15582 = "Attaque sournoise"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15582 =
+        "Inflige des dégâts physiques lorsque Arlokk attaque un ennemi par derrière."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24213 = "Ravage"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24213 =
+        "Inflige des dégâts physiques et étourdit la cible pendant 2 secondes."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_3391 = "Rosser"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_3391 =
+        "Accorde 2 attaques de mêlée supplémentaires."
     IJ_DB_RAID_ZG_BOSS_NAME_11380 = "Jin'do le Hexxer"
     IJ_DB_RAID_ZG_BOSS_STORY_11380 =
         "Jin'do est un sorcier guérisseur troll de la jungle Gurubashi doté d'un pouvoir considérable. Il est responsable du lavage de cerveau des prêtres Zandalari Jeklik, Venoxis, Mar'li, Thekal et Arlokk pour les mettre au service de Hakkar, le Loa du Sang."

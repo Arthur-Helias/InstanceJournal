@@ -812,23 +812,38 @@ ZG.Bosses = {
         MapCoordinateX = 47.6,
         MapCoordinateY = 20.8,
         Abilities = {
-            [1] = {Id = "arlokkadds", Icon = "Ability_Mount_BlackPanther", Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_arlokkadds, Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_arlokkadds, Flags = {IMAF.Tank}},
+            [1] = {
+                Id = "arlokkadds",
+                Icon = "Ability_Mount_BlackPanther",
+                Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_arlokkadds,
+                Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_arlokkadds,
+                Flags = {IMAF.Tank},
+                SubAbilities = {
+                    [1] = {Id = "panthers-3391", Icon = "Ability_Warrior_PunishingBlow", Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_3391, Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_3391, Flags = {IMAF.Tank}}
+                }
+            },
             [2] = {
                 Id = "arlokktroll",
                 Icon = "inv_misc_head_troll_02",
                 Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_arlokktroll,
                 Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_arlokktroll,
                 Flags = {IMAF.DPS},
-                SubAbilities = {[1] = {Id = "12540", Icon = "Ability_Gouge", Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_12540, Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_12540, Flags = {IMAF.Tank}}}
+                SubAbilities = {
+                    [1] = {Id = "24212", Icon = "Spell_Shadow_ShadowWordPain", Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24212, Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24212, Flags = {IMAF.Magic, IMAF.Heal}},
+                    [2] = {Id = "15582", Icon = "Ability_BackStab", Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15582, Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15582, Flags = {IMAF.Tank}}
+                }
             },
-            [3] = {
+            [3] = {Id = "24210", Icon = "Ability_Hunter_SniperShot", Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24210, Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24210, Flags = {IMAF.Heal}},
+            [4] = {
                 Id = "arlokkpanther",
                 Icon = "Ability_Mount_BlackPanther",
                 Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_arlokkpanther,
                 Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_arlokkpanther,
                 SubAbilities = {
-                    [1] = {Id = "24210", Icon = "Ability_Hunter_SniperShot", Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24210, Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24210, Flags = {IMAF.Heal}},
-                    [2] = {Id = "24236", Icon = "Ability_Whirlwind", Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24236, Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24236, Flags = {IMAF.Deadly}}
+                    [1] = {Id = "12540", Icon = "Ability_Gouge", Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_12540, Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_12540, Flags = {IMAF.Tank}},
+                    [2] = {Id = "15589", Icon = "Ability_Whirlwind", Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15589, Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15589, Flags = {IMAF.Deadly}},
+                    [3] = {Id = "24213", Icon = "Ability_Druid_Ravage", Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24213, Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24213, Flags = {IMAF.Tank}},
+                    [4] = {Id = "3391", Icon = "Ability_Warrior_PunishingBlow", Name = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_3391, Effect = IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_3391, Flags = {IMAF.Tank}}
                 }
             }
         },

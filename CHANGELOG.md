@@ -19,6 +19,7 @@ All changes to this project will be documented in this file.
 
 - Added `Earth Shock` to the `Hazza'rah` encounter in all supported locales
 - Added `Sinister Strike` and `Claw` to the `Thekal` encounter in all supported locales
+- Added `Shadow Word: Pain`, `Backstab`, `Ravage`, and `Thrash` to the `Arlokk` encounter in all supported locales
 
 ### Fixed
 
@@ -38,6 +39,8 @@ All changes to this project will be documented in this file.
 - Corrected `Gahz'ranka`'s `Frost Breath` spell ID and the descriptions of `Frost Breath`, `Slam`, and `Massive Geyser` in all supported locales
 
 - Corrected `Thekal` encounter spell IDs, ability descriptions, and phase links in all supported locales
+- Corrected `Arlokk` ability grouping for `Gouge` and `Mark of Arlokk`
+- Corrected `Arlokk`'s `Whirlwind` spell ID and damage description in all supported locales
 
 ### Changed
 
