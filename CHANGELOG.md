@@ -7,11 +7,13 @@ All changes to this project will be documented in this file.
 ### Added
 
 - Added missing abilities to the `Jeklik` encounter in all supported locales
+- Added missing abilities to the `Venoxis` encounter and its Razzashi Cobras in all supported locales
 
 ### Fixed
 
 - Fixed Molten Core ability links opening the boss entry instead of the corresponding add ability
 - Corrected `Jeklik` spell IDs, ranges, crowd control effects, and healing description
+- Corrected `Venoxis` spell versions, poison removal guidance, and the descriptions of `Parasitic Serpent` and `Enrage`
 
 ### Changed
 

@@ -2995,27 +2995,50 @@ IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23970 =
 IJ_DB_RAID_ZG_BOSS_NAME_14507 = "High Priest Venoxis"
 IJ_DB_RAID_ZG_BOSS_STORY_14507 = "High Priest Venoxis is the Zandalari High Priest of the Primal God Hethiss, the snake god. Sent to Zul'Gurub to stop Hakkar the Soulflayer, he was eventually turned by the blood god."
 IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "Stage One: Troll Form"
-IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 = "Venoxis assumes his troll form until he is at 50% health."
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_10713 = "Venoxis' Snake Adds"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_10713 = "Venoxis's four snake adds will start the encounter with him, helping him during the fight.\n\nThese adds should be killed before the beginning of stage two."
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "Holy Wrath"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 = "Venoxis casts holy wrath, dealing 300 holy damage which increases for each enemy the spell bounces off of."
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895 = "Renew"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 = "Venoxis casts renew, healing himself for 2000 health every 3 seconds for 15 seconds."
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "Holy Nova"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 = "Venoxis creates an explosion of divine light, inflicting 875 to 1126 holy damage to nearby enemies."
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860 = "Holy Fire"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 = "Venoxis cast holy fire, consuming an enemy in flames, dealing 2200 fire damage plus 125 fire damage every 2 seconds for 8 seconds."
+IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 =
+    "Venoxis fights in troll form until he reaches 50% health."
 IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "Stage Two: Snake Form"
-IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 = "Venoxis assumes the form of a snake when he reaches 50% health.\n\nVenoxis' damage is increased for the duration of the stage."
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_12766 = "Poison Cloud"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_12766 = "Venoxis creates a poison cloud, dealing poison damage when stood in."
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_6917 = "Venom Spit"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_6917 = "Venoxis spits venom at an enemy, inflicting nature damage plus additional damage every 5 seconds for 10 seconds."
+IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 =
+    "At 50% health, Venoxis transforms into a snake and uses Nature attacks."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_razzashicobras = "Razzashi Cobras"
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_razzashicobras =
+    "Four Razzashi Cobras accompany Venoxis at the start of the fight.\n\nDefeat them before the snake phase."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "Holy Wrath"
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 =
+    "Chains Holy damage between nearby players, increasing damage with each jump.\n\nSpread out to limit the chain."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895 = "Renew"
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 =
+    "Heals Venoxis every 3 seconds for 15 seconds.\n\nRemove the buff with an offensive dispel."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "Holy Nova"
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 =
+    "Deals Holy damage to enemies within 15 yards."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860 = "Holy Fire"
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 =
+    "Deals Fire damage and additional Fire damage every 2 seconds for 8 seconds.\n\nDispel the magical effect."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23859 = "Dispel Magic"
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23859 =
+    "Removes one harmful magical effect from Venoxis."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23861 = "Poison Cloud"
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23861 =
+    "Creates a cloud that deals Nature damage every second within 8 yards for 10 seconds.\n\nLeave the cloud immediately."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23862 = "Venom Spit"
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23862 =
+    "Deals Nature damage and applies a poison that deals additional Nature damage every 2 seconds for 10 seconds.\n\nRemove the poison."
 IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865 = "Parasitic Serpent"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 = "Venoxis spawns a parasitic serpent which attacks an enemy and poisoning them, dealing 300 nature damage every 2 seconds for 10 seconds."
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3019 = "Enrage"
-IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3019 = "At 20% remaining health, Venoxis becomes enraged, increasing the damage he deals to his enemies significantly."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 =
+    "Summons a Parasitic Serpent and applies an effect that deals Nature damage every 2 seconds for 10 seconds."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3391 = "Thrash"
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3391 =
+    "Grants Venoxis 2 additional melee attacks."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_8269 = "Enrage"
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_8269 =
+    "Near 20% health, Venoxis gains 60% melee attack speed and 50 additional Physical damage.\n\nTanks and healers should prepare for increased incoming damage."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_24097 = "Poison"
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_24097 =
+    "Razzashi Cobras apply a poison that deals Nature damage every 3 seconds for 30 seconds.\n\nRemove the poison."
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_27919 = "Spit"
+IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_27919 =
+    "Razzashi Cobras spit at an enemy, dealing Nature damage and knocking the target back."
 IJ_DB_RAID_ZG_BOSS_NAME_14510 = "High Priestess Mar'li"
 IJ_DB_RAID_ZG_BOSS_STORY_14510 =
     "Mar'li is the high priestess of the spider loa, Shadra. Sent by King Rastakhan to Zul'Gurub to stop Hakkar the Soulflayer with the other loa high priests, she was eventually corrupted by the blood god."

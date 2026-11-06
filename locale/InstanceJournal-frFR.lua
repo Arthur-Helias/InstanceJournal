@@ -1439,29 +1439,51 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_ZG_BOSS_NAME_14507 = "Grand prêtre Venoxis"
     IJ_DB_RAID_ZG_BOSS_STORY_14507 =
         "Le Grand Prêtre Venoxis est le Grand Prêtre Zandalari du Dieu Primal Hethiss, le dieu serpent. Envoyé à Zul'Gurub pour arrêter Hakkar l'Écorcheur d'âmes, il fut finalement transformé par le dieu du sang."
-    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "Première étape : forme de troll"
-    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 = "Venoxis prend sa forme de troll jusqu'à ce qu'il ait 50 % de santé."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_10713 = "Le serpent de Venoxis ajoute"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_10713 =
-        "Les quatre serpents ajoutés de Venoxis commenceront la rencontre avec lui, l'aidant pendant le combat.\n\nCes ajouts doivent être supprimés avant le début de la deuxième étape."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "Sainte colère"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 = "Venoxis lance une colère sacrée, infligeant 300 dégâts sacrés qui augmentent pour chaque ennemi sur lequel le sort rebondit."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895 = "Renouveler"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 = "Venoxis lance un nouveau sort, se soignant de 2 000 points de vie toutes les 3 secondes pendant 15 secondes."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "Sainte Nova"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 = "Venoxis crée une explosion de lumière divine, infligeant 875 à 1126 dégâts sacrés aux ennemis proches."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860 = "Feu sacré"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 = "Venoxis lance un feu sacré, consumant un ennemi dans les flammes, infligeant 2 200 dégâts de feu plus 125 dégâts de feu toutes les 2 secondes pendant 8 secondes."
-    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "Deuxième étape : forme de serpent"
-    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 = "Venoxis prend la forme d'un serpent lorsqu'il atteint 50% de santé.\n\nLes dégâts de Venoxis sont augmentés pendant toute la durée de l'étape."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_12766 = "Nuage de poison"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_12766 = "Venoxis crée un nuage de poison, infligeant des dégâts de poison lorsqu'il s'y trouve."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_6917 = "Crachat de venin"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_6917 = "Venoxis crache du venin sur un ennemi, lui infligeant des dégâts de nature plus des dégâts supplémentaires toutes les 5 secondes pendant 10 secondes."
+    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "Phase un : Forme de troll"
+    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 =
+        "Venoxis combat sous forme de troll jusqu'à atteindre 50% de ses points de vie."
+    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "Phase deux : Forme de serpent"
+    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 =
+        "À 50% de ses points de vie, Venoxis se transforme en serpent et utilise des attaques de Nature."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_razzashicobras = "Cobras Razzashi"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_razzashicobras =
+        "Quatre Cobras Razzashi accompagnent Venoxis au début du combat.\n\nVainquez-les avant la phase de serpent."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "Colère divine"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 =
+        "Fait rebondir des dégâts du Sacré entre les joueurs proches, augmentant les dégâts à chaque rebond.\n\nEspacez-vous pour limiter les rebonds."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895 = "Rénovation"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 =
+        "Soigne Venoxis toutes les 3 secondes pendant 15 secondes.\n\nSupprimez l'amélioration avec une dissipation offensive."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "Nova sacrée"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 =
+        "Inflige des dégâts du Sacré aux ennemis dans un rayon de 15 mètres."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860 = "Flammes sacrées"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 =
+        "Inflige des dégâts de Feu et des dégâts de Feu supplémentaires toutes les 2 secondes pendant 8 secondes.\n\nDissipez l'effet magique."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23859 = "Dissipation de la magie"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23859 =
+        "Supprime un effet magique néfaste sur Venoxis."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23861 = "Nuage de poison"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23861 =
+        "Crée un nuage qui inflige des dégâts de Nature toutes les secondes dans un rayon de 8 mètres pendant 10 secondes.\n\nSortez immédiatement du nuage."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23862 = "Crachat venimeux"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23862 =
+        "Inflige des dégâts de Nature et applique un poison qui inflige des dégâts de Nature supplémentaires toutes les 2 secondes pendant 10 secondes.\n\nSupprimez le poison."
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865 = "Serpent parasite"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 = "Venoxis engendre un serpent parasite qui attaque un ennemi et l'empoisonne, lui infligeant 300 dégâts de nature toutes les 2 secondes pendant 10 secondes."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3019 = "Enrager"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3019 = "À 20% de santé restante, Venoxis devient enragé, augmentant considérablement les dégâts qu'il inflige à ses ennemis."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 =
+        "Invoque un Serpent parasite et applique un effet qui inflige des dégâts de Nature toutes les 2 secondes pendant 10 secondes."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3391 = "Rosser"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3391 =
+        "Accorde à Venoxis 2 attaques de mêlée supplémentaires."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_8269 = "Enrager"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_8269 =
+        "Vers 20% de ses points de vie, Venoxis gagne 60% de vitesse d'attaque en mêlée et 50 points de dégâts physiques supplémentaires.\n\nLes tanks et les soigneurs doivent se préparer à l'augmentation des dégâts subis."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_24097 = "Poison"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_24097 =
+        "Les Cobras Razzashi appliquent un poison qui inflige des dégâts de Nature toutes les 3 secondes pendant 30 secondes.\n\nSupprimez le poison."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_27919 = "Crachat"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_27919 =
+        "Les Cobras Razzashi crachent sur un ennemi, infligent des dégâts de Nature et repoussent la cible."
     IJ_DB_RAID_ZG_BOSS_NAME_14510 = "Grande prêtresse Mar'li"
     IJ_DB_RAID_ZG_BOSS_STORY_14510 =
         "Mar'li est la grande prêtresse du loa araignée, Shadra. Envoyée par le roi Rastakhan à Zul'Gurub pour arrêter Hakkar l'Écorcheur d'âmes avec les autres grands prêtres loa, elle fut finalement corrompue par le dieu du sang."

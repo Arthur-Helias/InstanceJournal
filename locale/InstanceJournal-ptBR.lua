@@ -1432,29 +1432,51 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_ZG_BOSS_NAME_14507 = "Sumo Sacerdote Venoxis"
     IJ_DB_RAID_ZG_BOSS_STORY_14507 =
         "Sumo Sacerdote Venoxis é o Sumo Sacerdote Zandalari do Deus Primordial Hethiss, o deus cobra. Enviado para Zul'Gurub para deter Hakkar, o Esfolador de Almas, ele acabou sendo transformado pelo deus do sangue."
-    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "Estágio Um: Formulário Troll"
-    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 = "Venoxis assume sua forma de troll até atingir 50% da saúde."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_10713 = "Cobra de Venoxis acrescenta"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_10713 =
-        "Os quatro acréscimos de cobra de Venoxis iniciarão o encontro com ele, ajudando-o durante a luta.\n\nEsses acréscimos devem ser eliminados antes do início do estágio dois."
+    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "Estágio Um: Forma de Troll"
+    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 =
+        "Venoxis luta em forma de troll até atingir 50% de vida."
+    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "Estágio Dois: Forma de Serpente"
+    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 =
+        "Aos 50% de vida, Venoxis se transforma em uma serpente e usa ataques de Natureza."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_razzashicobras = "Najas Razzashi"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_razzashicobras =
+        "Quatro Najas Razzashi acompanham Venoxis no início da luta.\n\nDerrote-as antes da fase de serpente."
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "Ira Sagrada"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 = "Venoxis lança ira sagrada, causando 300 de dano sagrado, que aumenta para cada inimigo em que o feitiço rebate."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 =
+        "Encadeia dano Sagrado entre jogadores próximos, aumentando o dano a cada salto.\n\nEspalhem-se para limitar os saltos."
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895 = "Renovar"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 = "Venoxis lança Renovar, curando-se em 2.000 pontos de vida a cada 3 segundos por 15 segundos."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "Santa Nova"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 = "Venoxis cria uma explosão de luz divina, causando 875 to 1126 de dano sagrado aos inimigos próximos."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 =
+        "Cura Venoxis a cada 3 segundos por 15 segundos.\n\nRemova o benefício com uma dissipação ofensiva."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "Nova Sagrada"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 =
+        "Causa dano Sagrado aos inimigos em um raio de 15 metros."
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860 = "Fogo Sagrado"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 = "Venoxis lançou fogo sagrado, consumindo um inimigo em chamas, causando 2.200 de dano de fogo mais 125 de dano de fogo a cada 2 segundos por 8 segundos."
-    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "Estágio Dois: Forma de Cobra"
-    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 = "Venoxis assume a forma de uma cobra quando atinge 50% dos pontos de vida.\n\nO dano de Venoxis aumenta durante o estágio."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_12766 = "Nuvem Venenosa"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_12766 = "Venoxis cria uma nuvem venenosa, causando dano venenoso quando entrado."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_6917 = "Cuspe de Veneno"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_6917 = "Venoxis cospe veneno em um inimigo, causando dano natural e dano adicional a cada 5 segundos por 10 segundos."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 =
+        "Causa dano de Fogo e dano de Fogo adicional a cada 2 segundos por 8 segundos.\n\nDissipe o efeito mágico."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23859 = "Dissipar Magia"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23859 =
+        "Remove um efeito mágico nocivo de Venoxis."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23861 = "Nuvem Venenosa"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23861 =
+        "Cria uma nuvem que causa dano de Natureza a cada segundo em um raio de 8 metros por 10 segundos.\n\nSaia da nuvem imediatamente."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23862 = "Cuspe Venenoso"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23862 =
+        "Causa dano de Natureza e aplica um veneno que causa dano de Natureza adicional a cada 2 segundos por 10 segundos.\n\nRemova o veneno."
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865 = "Serpente Parasita"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 = "Venoxis gera uma serpente parasita que ataca um inimigo e o envenena, causando 300 de dano natural a cada 2 segundos por 10 segundos."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3019 = "Enfurecer"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3019 = "Com 20% da saúde restante, Venoxis fica furioso, aumentando significativamente o dano que causa aos seus inimigos."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 =
+        "Invoca uma Serpente Parasita e aplica um efeito que causa dano de Natureza a cada 2 segundos por 10 segundos."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3391 = "Surra"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3391 =
+        "Concede a Venoxis 2 ataques corpo a corpo adicionais."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_8269 =
+        "Perto de 20% de vida, Venoxis ganha 60% de velocidade de ataque corpo a corpo e 50 de dano Físico adicional.\n\nTanques e curandeiros devem se preparar para o aumento do dano recebido."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_24097 = "Veneno"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_24097 =
+        "Najas Razzashi aplicam um veneno que causa dano de Natureza a cada 3 segundos por 30 segundos.\n\nRemova o veneno."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_27919 = "Cuspe"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_27919 =
+        "Najas Razzashi cospem em um inimigo, causando dano de Natureza e repelindo o alvo."
     IJ_DB_RAID_ZG_BOSS_NAME_14510 = "Alta Sacerdotisa Mar'li"
     IJ_DB_RAID_ZG_BOSS_STORY_14510 =
         "Mar'li é a suma sacerdotisa da aranha loa, Shadra. Enviada pelo Rei Rastakhan a Zul'Gurub para deter Hakkar, o Esfolador de Almas, com os outros sumos sacerdotes loa, ela acabou sendo corrompida pelo deus do sangue."

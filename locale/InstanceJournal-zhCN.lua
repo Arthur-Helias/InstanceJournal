@@ -3119,27 +3119,50 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_NAME_14507 = "高阶祭司温诺希斯"
     IJ_DB_RAID_ZG_BOSS_STORY_14507 = "高阶祭司维诺西斯是原始神蛇神赫西斯的赞达拉高阶祭司。被派往祖尔格拉布阻止夺魂者哈卡，他最终被血神转变。"
     IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "第一阶段：巨魔形态"
-    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 = "维诺西斯会呈现巨魔形态，直到他的生命值达到 50%。"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_10713 = "温诺希斯的毒蛇爪牙"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_10713 = "维诺西斯的四名蛇小怪将开始与他的遭遇，并在战斗中帮助他。\n \n这些小怪应该在第二阶段开始之前被杀死。"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "神圣怒火"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 = "维诺克西斯施放神圣之怒，造成 300 点神圣伤害，法术每反弹一个敌人，伤害就会增加。"
+    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 =
+        "温诺希斯以巨魔形态战斗，直到生命值降至50%。"
+    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "第二阶段：毒蛇形态"
+    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 =
+        "生命值降至50%时，温诺希斯变成毒蛇并使用自然攻击。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_razzashicobras = "拉扎什眼镜蛇"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_razzashicobras =
+        "战斗开始时，温诺希斯有四条拉扎什眼镜蛇相伴。\n\n在毒蛇阶段前击败它们。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "神圣愤怒"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 =
+        "在附近玩家之间连锁造成神圣伤害，每次跳跃都会提高伤害。\n\n分散站位以减少跳跃次数。"
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895 = "恢复"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 = "维诺西斯施放更新，每 3 秒为自己治疗 2000 点生命值，持续 15 秒。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 =
+        "每3秒治疗温诺希斯，持续15秒。\n\n使用进攻性驱散移除此增益效果。"
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "神圣新星"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 = "维诺西斯制造出神圣之光爆炸，对附近的敌人造成 875 到 1126 点神圣伤害。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 =
+        "对15码范围内的敌人造成神圣伤害。"
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860 = "神圣之火"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 = "维诺西斯施放圣火，在火焰中吞噬一名敌人，造成 2200 点火焰伤害，加上每 2 秒 125 点火焰伤害，持续 8 秒。"
-    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "第二阶段：蛇形态"
-    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 = "当维诺西斯生命值达到 50% 时，他会变成蛇的形态。\n \n维诺西斯的伤害在该阶段持续时间内增加。"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_12766 = "毒云术"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_12766 = "维诺西斯会制造毒云，站在其中时会造成毒伤害。"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_6917 = "毒液喷吐"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_6917 = "维诺西斯向敌人吐出毒液，每 5 秒造成自然伤害并附加额外伤害，持续 10 秒。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 =
+        "造成火焰伤害，并每2秒造成额外火焰伤害，持续8秒。\n\n驱散此魔法效果。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23859 = "驱散魔法"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23859 =
+        "移除温诺希斯身上的一个有害魔法效果。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23861 = "毒云"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23861 =
+        "制造一团云雾，在8码范围内每秒造成自然伤害，持续10秒。\n\n立即离开云雾。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23862 = "毒液喷吐"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23862 =
+        "造成自然伤害并施加毒药，每2秒造成额外自然伤害，持续10秒。\n\n解除毒药。"
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865 = "寄生蛇"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 = "维诺西斯会生成一条寄生蛇，它会攻击敌人并使他们中毒，每 2 秒造成 300 点自然伤害，持续 10 秒。"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3019 = "激怒"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3019 = "当生命值剩余 20% 时，维诺西斯变得愤怒，显着增加他对敌人造成的伤害。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 =
+        "召唤一条寄生蛇并施加效果，每2秒造成自然伤害，持续10秒。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3391 = "痛击"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3391 =
+        "使温诺希斯获得2次额外近战攻击。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_8269 =
+        "生命值接近20%时，温诺希斯获得60%的近战攻击速度和50点额外物理伤害。\n\n坦克和治疗者应准备应对更高的伤害。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_24097 = "毒药"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_24097 =
+        "拉扎什眼镜蛇施加毒药，每3秒造成自然伤害，持续30秒。\n\n解除毒药。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_27919 = "喷吐"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_27919 =
+        "拉扎什眼镜蛇向敌人喷吐，造成自然伤害并击退目标。"
     IJ_DB_RAID_ZG_BOSS_NAME_14510 = "高阶女祭司玛尔里"
     IJ_DB_RAID_ZG_BOSS_STORY_14510 =
         "玛莉是蜘蛛神灵沙德拉的高级女祭司。拉斯塔哈大王派她前往祖尔格拉布与其他神灵高阶祭司一起阻止夺魂者哈卡，但她最终被血神腐蚀。"

@@ -1440,29 +1440,51 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_ZG_BOSS_NAME_14507 = "Hohepriester Venoxis"
     IJ_DB_RAID_ZG_BOSS_STORY_14507 =
         "Hohepriester Venoxis ist der Hohepriester der Zandalari des Urgottes Hethiss, des Schlangengottes. Er wurde nach Zul'Gurub geschickt, um Hakkar den Seelenschinder aufzuhalten, und wurde schließlich vom Blutgott verwandelt."
-    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "Stufe eins: Trollform"
-    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 = "Venoxis nimmt seine Trollform an, bis er 50 % seiner Gesundheit erreicht hat."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_10713 = "Venoxis‘ Schlange fügt hinzu"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_10713 =
-        "Die vier Schlangen-Adds von Venoxis beginnen die Begegnung mit ihm und helfen ihm während des Kampfes.\n\nDiese Adds sollten vor Beginn der zweiten Stufe getötet werden."
+    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "Phase eins: Trollform"
+    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 =
+        "Venoxis kämpft in Trollform, bis er 50% Gesundheit erreicht."
+    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "Phase zwei: Schlangenform"
+    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 =
+        "Bei 50% Gesundheit verwandelt sich Venoxis in eine Schlange und setzt Naturangriffe ein."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_razzashicobras = "Razzashikobras"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_razzashicobras =
+        "Vier Razzashikobras begleiten Venoxis zu Kampfbeginn.\n\nBesiegt sie vor der Schlangenphase."
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "Heiliger Zorn"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 = "Venoxis wirkt heiligen Zorn und verursacht 300 heiligen Schaden, der sich mit jedem Feind erhöht, von dem der Zauber abprallt."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895 = "Erneuern"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 = "Venoxis wirkt „erneuern“ und heilt sich 15 Sekunden lang alle 3 Sekunden um 2.000 Gesundheit."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 =
+        "Lässt Heiligschaden zwischen nahen Spielern überspringen, wobei der Schaden mit jedem Sprung steigt.\n\nVerteilt Euch, um die Sprünge zu begrenzen."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895 = "Erneuerung"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 =
+        "Heilt Venoxis 15 Sekunden lang alle 3 Sekunden.\n\nEntfernt den Stärkungseffekt mit einem offensiven Bannzauber."
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "Heilige Nova"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 = "Venoxis erzeugt eine Explosion göttlichen Lichts, die nahen Feinden 875 bis 1126 heiligen Schaden zufügt."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 =
+        "Verursacht Heiligschaden bei Gegnern im Umkreis von 15 Metern."
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860 = "Heiliges Feuer"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 = "Venoxis wirkt heiliges Feuer, verzehrt einen Feind in Flammen und verursacht 8 Sekunden lang alle 2 Sekunden 2200 Feuerschaden plus 125 Feuerschaden."
-    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "Stufe zwei: Schlangenform"
-    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 = "Venoxis nimmt die Form einer Schlange an, wenn seine Gesundheit 50 % erreicht.\n\nDer Schaden von Venoxis ist für die Dauer der Phase erhöht."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_12766 = "Giftwolke"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_12766 = "Venoxis erzeugt eine Giftwolke, die beim Eintreten Giftschaden verursacht."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_6917 = "Giftspucke"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_6917 = "Venoxis spuckt Gift auf einen Feind und verursacht 10 Sekunden lang alle 5 Sekunden Naturschaden und zusätzlichen Schaden."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865 = "Parasitäre Schlange"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 = "Venoxis bringt eine parasitäre Schlange hervor, die einen Feind angreift, ihn vergiftet und 10 Sekunden lang alle 2 Sekunden 300 Naturschaden verursacht."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3019 = "Wütend"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3019 = "Bei 20 % verbleibender Gesundheit wird Venoxis wütend, was den Schaden, den er seinen Feinden zufügt, deutlich erhöht."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 =
+        "Verursacht Feuerschaden und 8 Sekunden lang alle 2 Sekunden zusätzlichen Feuerschaden.\n\nBannt den magischen Effekt."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23859 = "Magiebannung"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23859 =
+        "Entfernt einen schädlichen magischen Effekt von Venoxis."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23861 = "Giftwolke"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23861 =
+        "Erzeugt eine Wolke, die 10 Sekunden lang jede Sekunde Naturschaden im Umkreis von 8 Metern verursacht.\n\nVerlasst die Wolke sofort."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23862 = "Giftspucke"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23862 =
+        "Verursacht Naturschaden und belegt das Ziel mit einem Gift, das 10 Sekunden lang alle 2 Sekunden zusätzlichen Naturschaden verursacht.\n\nEntfernt das Gift."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865 = "Parasitenschlange"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 =
+        "Beschwört eine Parasitenschlange und belegt das Ziel mit einem Effekt, der 10 Sekunden lang alle 2 Sekunden Naturschaden verursacht."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3391 = "Hauen"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3391 =
+        "Gewährt Venoxis 2 zusätzliche Nahkampfangriffe."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_8269 = "Wutanfall"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_8269 =
+        "Bei etwa 20% Gesundheit erhält Venoxis 60% Nahkampfangriffstempo und 50 zusätzlichen körperlichen Schaden.\n\nTanks und Heiler sollten sich auf erhöhten eingehenden Schaden vorbereiten."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_24097 = "Gift"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_24097 =
+        "Razzashikobras belegen das Ziel mit einem Gift, das 30 Sekunden lang alle 3 Sekunden Naturschaden verursacht.\n\nEntfernt das Gift."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_27919 = "Spucken"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_27919 =
+        "Razzashikobras spucken einen Gegner an, verursachen Naturschaden und stoßen das Ziel zurück."
     IJ_DB_RAID_ZG_BOSS_NAME_14510 = "Hohepriesterin Mar'li"
     IJ_DB_RAID_ZG_BOSS_STORY_14510 =
         "Mar'li ist die Hohepriesterin des Spinnen-Loa Shadra. Von König Rastakhan nach Zul'Gurub geschickt, um Hakkar, den Seelenschinder, zusammen mit den anderen Loa-Hohepriestern aufzuhalten, wurde sie schließlich vom Blutgott korrumpiert."

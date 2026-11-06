@@ -174,11 +174,62 @@ ZG.Bosses = {
                 Name = IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1,
                 Effect = IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1,
                 SubAbilities = {
-                    [1] = {Id = "10713", Icon = "Spell_Nature_GuardianWard", Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_10713, Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_10713, Flags = {IMAF.DPS}},
-                    [2] = {Id = "23979", Icon = "Spell_Shadow_SiphonMana", Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979, Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979, Flags = {IMAF.Heal}},
-                    [3] = {Id = "23895", Icon = "Spell_Holy_Renew", Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895, Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895},
-                    [4] = {Id = "23858", Icon = "Spell_Holy_HolyBolt", Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858, Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858, Flags = {IMAF.Heal}},
-                    [5] = {Id = "23860", Icon = "Spell_Holy_SearingLight", Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860, Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860, Flags = {IMAF.Heal, IMAF.Magic}}
+                    [1] = {
+                        Id = "razzashicobras",
+                        Icon = "Spell_Nature_GuardianWard",
+                        Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_razzashicobras,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_razzashicobras,
+                        Flags = {IMAF.DPS},
+                        SubAbilities = {
+                            [1] = {
+                                Id = "24097",
+                                Icon = "Spell_Nature_CorrosiveBreath",
+                                Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_24097,
+                                Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_24097,
+                                Flags = {IMAF.Poison}
+                            },
+                            [2] = {
+                                Id = "27919",
+                                Icon = "Spell_Nature_CorrosiveBreath",
+                                Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_27919,
+                                Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_27919
+                            }
+                        }
+                    },
+                    [2] = {
+                        Id = "23979",
+                        Icon = "Spell_Shadow_SiphonMana",
+                        Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979,
+                        Flags = {IMAF.Heal}
+                    },
+                    [3] = {
+                        Id = "23895",
+                        Icon = "Spell_Holy_Renew",
+                        Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895,
+                        Flags = {IMAF.Magic}
+                    },
+                    [4] = {
+                        Id = "23858",
+                        Icon = "Spell_Holy_HolyBolt",
+                        Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858,
+                        Flags = {IMAF.Heal}
+                    },
+                    [5] = {
+                        Id = "23860",
+                        Icon = "Spell_Holy_SearingLight",
+                        Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860,
+                        Flags = {IMAF.Heal, IMAF.Magic}
+                    },
+                    [6] = {
+                        Id = "23859",
+                        Icon = "Spell_Holy_DispelMagic",
+                        Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23859,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23859
+                    }
                 }
             },
             [2] = {
@@ -187,15 +238,40 @@ ZG.Bosses = {
                 Effect = IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2,
                 SubAbilities = {
                     [1] = {
-                        Id = "12766",
+                        Id = "23861",
                         Icon = "Spell_Nature_Regenerate",
-                        Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_12766,
-                        Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_12766,
-                        Flags = {IMAF.Poison, IMAF.Deadly, IMAF.Important}
+                        Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23861,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23861,
+                        Flags = {IMAF.Deadly, IMAF.Important}
                     },
-                    [2] = {Id = "6917", Icon = "Spell_Nature_CorrosiveBreath", Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_6917, Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_6917, Flags = {IMAF.Poison}},
-                    [3] = {Id = "23865", Icon = "INV_Misc_MonsterHead_03", Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865, Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865, Flags = {IMAF.DPS, IMAF.Poison}},
-                    [4] = {Id = "3019", Icon = "Spell_Shadow_UnholyFrenzy", Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3019, Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3019, Flags = {IMAF.Tank, IMAF.Enrage}}
+                    [2] = {
+                        Id = "23862",
+                        Icon = "Spell_Nature_CorrosiveBreath",
+                        Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23862,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23862,
+                        Flags = {IMAF.Poison}
+                    },
+                    [3] = {
+                        Id = "23865",
+                        Icon = "INV_Misc_MonsterHead_03",
+                        Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865,
+                        Flags = {IMAF.Heal}
+                    },
+                    [4] = {
+                        Id = "3391",
+                        Icon = "Ability_Warrior_PunishingBlow",
+                        Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3391,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3391,
+                        Flags = {IMAF.Tank}
+                    },
+                    [5] = {
+                        Id = "8269",
+                        Icon = "Spell_Shadow_UnholyFrenzy",
+                        Name = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_8269,
+                        Effect = IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_8269,
+                        Flags = {IMAF.Tank, IMAF.Important}
+                    }
                 }
             }
         },
