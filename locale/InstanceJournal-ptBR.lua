@@ -2003,7 +2003,7 @@ if GetLocale() == "ptBR" then
         "Causa dano de Fogo a um inimigo e aplica dano de Fogo adicional a cada segundo por 8 segundos."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058 = "Fogo Elemental"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058 =
-        "Causa dano de Fogo aos inimigos em uma área de 10 metros. Espalhem-se para limitar o dano."
+        "Quando Fogo Elemental atinge um alvo, também causa dano de Fogo a outros jogadores e ajudantes em um raio de 10 jardas desse alvo.\n\nEspalhem-se para limitar o dano."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20566 = "Ira de Ragnaros"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20566 =
         "Causa dano de Fogo aos inimigos em um raio de 25 metros de Ragnaros e os repele. Os tanques devem estar prontos para voltar ao alcance corpo a corpo."

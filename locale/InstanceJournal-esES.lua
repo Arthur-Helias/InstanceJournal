@@ -2012,7 +2012,7 @@ if GetLocale() == "esES" then
         "Inflige daño de Fuego a un enemigo y aplica daño de Fuego adicional cada segundo durante 8 segundos."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058 = "Fuego elemental"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058 =
-        "Inflige daño de Fuego a los enemigos en una zona de 10 metros. Dispersaos para limitar el daño."
+        "Cuando Fuego elemental golpea a un objetivo, también inflige daño de Fuego a otros jugadores y mascotas en un radio de 10 metros alrededor de ese objetivo.\n\nDispersaos para limitar el daño."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20566 = "Cólera de Ragnaros"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20566 =
         "Inflige daño de Fuego a los enemigos en un radio de 25 metros de Ragnaros y los repele. Los tanques deben estar listos para volver al alcance cuerpo a cuerpo."

@@ -3808,7 +3808,7 @@ if GetLocale() == "zhCN" then
         "对一名敌人造成火焰伤害，并每秒造成额外火焰伤害，持续8秒。"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058 = "元素火焰"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058 =
-        "对10码区域内的敌人造成火焰伤害。分散站位以减少伤害。"
+        "元素之火击中目标时，还会对该目标周围10码内的其他玩家和宠物造成火焰伤害。\n\n分散站位以减少伤害。"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20566 = "拉格纳罗斯之怒"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20566 =
         "对拉格纳罗斯25码范围内的敌人造成火焰伤害并将其击退。坦克应准备好返回近战范围。"

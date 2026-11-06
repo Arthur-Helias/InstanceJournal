@@ -39,6 +39,7 @@ All changes to this project will be documented in this file.
 
 - Separated effects and player guidance into paragraphs in longer Molten Core ability descriptions across all supported locales
 - Expanded `Edge of Madness` lore with the four troll spirits and their summoning ritual in all supported locales
+- Grouped `Ragnaros`'s `Elemental Fire` area damage under the main ability and clarified that it triggers around the struck target in all supported locales
 
 ## [1.4.4] - 2026-11-05
 

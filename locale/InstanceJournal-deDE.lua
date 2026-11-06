@@ -2013,7 +2013,7 @@ if GetLocale() == "deDE" then
         "Verursacht Feuerschaden bei einem Gegner und fügt ihm 8 Sekunden lang jede Sekunde zusätzlichen Feuerschaden zu."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058 = "Elementarfeuer"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058 =
-        "Verursacht Feuerschaden bei Gegnern in einem Bereich von 10 Metern. Verteilt Euch, um den Schaden zu begrenzen."
+        "Wenn Elementarfeuer ein Ziel trifft, verursacht es auch Feuerschaden an anderen Spielern und Begleitern im Umkreis von 10 Metern um dieses Ziel.\n\nVerteilt euch, um den Schaden zu begrenzen."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20566 = "Zorn des Ragnaros"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20566 =
         "Verursacht Feuerschaden bei Gegnern im Umkreis von 25 Metern um Ragnaros und stößt sie zurück. Tanks sollten bereit sein, wieder in Nahkampfreichweite zu gelangen."

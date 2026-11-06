@@ -3691,7 +3691,7 @@ IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20564 =
     "Deals Fire damage to an enemy and applies additional Fire damage every second for 8 seconds."
 IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058 = "Elemental Fire"
 IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058 =
-    "Deals Fire damage to enemies within a 10-yard area. Spread out to limit the damage."
+    "When Elemental Fire strikes a target, it also deals Fire damage to other players and pets within 10 yards of that target.\n\nSpread out to limit the damage."
 IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20566 = "Wrath of Ragnaros"
 IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20566 =
     "Deals Fire damage to enemies within 25 yards of Ragnaros and knocks them back. Tanks should be ready to return to melee range."

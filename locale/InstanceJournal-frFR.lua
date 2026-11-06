@@ -2013,7 +2013,7 @@ if GetLocale() == "frFR" then
         "Inflige des dégâts de Feu à un ennemi et applique des dégâts de Feu supplémentaires toutes les secondes pendant 8 secondes."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058 = "Feu élémentaire"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058 =
-        "Inflige des dégâts de Feu aux ennemis dans une zone de 10 mètres. Espacez-vous pour limiter les dégâts."
+        "Lorsque Feu élémentaire touche une cible, il inflige aussi des dégâts de Feu aux autres joueurs et familiers dans un rayon de 10 mètres autour de cette cible.\n\nEspacez-vous pour limiter les dégâts."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20566 = "Colère de Ragnaros"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20566 =
         "Inflige des dégâts de Feu aux ennemis dans un rayon de 25 mètres autour de Ragnaros et les repousse. Les tanks doivent être prêts à revenir à portée de mêlée."
