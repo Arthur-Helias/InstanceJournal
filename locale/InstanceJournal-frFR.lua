@@ -1589,14 +1589,18 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
         "Augmente la vitesse des attaques de mêlée de 60% et ajoute 50 points de dégâts physiques pendant 120 secondes.\n\nLes tanks et les soigneurs doivent se préparer à une augmentation des dégâts subis."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "Hazza'rah"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "Brûlure de mana en chaîne"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =
-        "Hazza'rah lance une brûlure de mana en chaîne, infligeant de lourds dégâts de mana et de points de vie aux ennemis à proximité.\n\nLe chasseur et les sorciers doivent continuer à drainer le mana de Hazza'rah, sinon il continuera à lancer cette capacité."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24729 = "Invoquer des illusions de cauchemar"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24729 =
-        "Hazza'rah invoque 3 illusions de cauchemars qui l'assisteront tout au long du combat.\n\nLes donneurs de dégâts doivent cibler instantanément ces ajouts car ils ont très peu de santé mais infligent beaucoup de dégâts."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Dormir"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 = "Hazza'rah endort tous les ennemis qui l'attaquent actuellement.\n\nLes chamans peuvent utiliser des totems de tremblement pour réveiller leurs alliés."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24684 = "Brûlure en chaîne"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24684 =
+        "Brûle le mana d'un maximum de 3 cibles, rebondit sur les ennemis proches et inflige 0,5 point de dégâts d'Ombre par point de mana consommé.\n\nEspacez-vous pour limiter les rebonds."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24685 = "Horion de terre"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24685 =
+        "Inflige des dégâts de Nature et interrompt l'incantation, empêchant de lancer des sorts de l'école interrompue pendant 4 secondes."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24728 = "Invocation d'illusions cauchemardesques"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24728 =
+        "Invoque 3 illusions cauchemardesques disposant de peu de points de vie, mais d'attaques de mêlée puissantes.\n\nLes joueurs infligeant des dégâts, surtout à distance, doivent tuer rapidement les illusions avant qu'elles n'atteignent les autres joueurs."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Sommeil"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 =
+        "Endort les ennemis pendant un maximum de 6 secondes. Les dégâts réveillent les joueurs affectés.\n\nLe Totem de séisme peut supprimer l'effet de sommeil."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "Wushoolay"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "Chaîne d'éclairs"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =

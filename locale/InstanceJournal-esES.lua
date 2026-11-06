@@ -1589,15 +1589,18 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
         "Aumenta la velocidad de ataque cuerpo a cuerpo un 60% y añade 50 puntos de daño Físico durante 120 segundos.\n\nLos tanques y sanadores deben prepararse para un aumento del daño recibido."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "Hazza'rah"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "Quema de maná en cadena"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =
-        "Hazza'rah lanza una quemadura de maná en cadena, que inflige un gran daño de maná y puntos de vida a los enemigos que se encuentran cerca. ||norte||  ||norte|| Los cazadores y los brujos deben seguir drenando el maná de Hazza'rah ya que, de lo contrario, seguirá lanzando esta habilidad."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24729 = "Invocar ilusiones de pesadilla"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24729 =
-        "Hazza'rah invoca 3 ilusiones de pesadilla que lo ayudarán durante la pelea. ||norte||  ||norte|| Los que causan daños deben apuntar instantáneamente a estos agregados, ya que tienen muy poca salud pero causan mucho daño."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24684 = "Quemadura en cadena"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24684 =
+        "Quema maná de un máximo de 3 objetivos, salta a enemigos cercanos e inflige 0,5 de daño de las Sombras por punto de maná consumido.\n\nDispersaos para limitar los saltos."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24685 = "Choque de tierra"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24685 =
+        "Inflige daño de Naturaleza e interrumpe el lanzamiento de hechizos, impidiendo lanzar hechizos de la escuela interrumpida durante 4 segundos."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24728 = "Invocar ilusiones de pesadilla"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24728 =
+        "Invoca 3 ilusiones de pesadilla con poca salud, pero potentes ataques cuerpo a cuerpo.\n\nLos jugadores de daño, especialmente los de distancia, deben eliminar las ilusiones rápidamente antes de que alcancen a otros jugadores."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Dormir"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 =
-        "Hazza'rah pone a dormir a todos los enemigos que lo atacan actualmente. ||norte||  ||norte|| Los chamanes pueden utilizar tótems de temblor para despertar a sus aliados."
+        "Duerme a los enemigos durante un máximo de 6 segundos. El daño despierta a los jugadores afectados.\n\nEl Tótem de tremor puede eliminar el efecto de sueño."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "Wushoolay"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "Cadena de relámpagos"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =

@@ -3268,14 +3268,18 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
         "近战攻击速度提高60%，并额外造成50点物理伤害，持续120秒。\n\n坦克和治疗者应为承受更高伤害做好准备。"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "哈札拉尔"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "连锁法力燃烧"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =
-        "哈扎拉施放连锁法力燃烧，对其附近的敌人造成大量法力和生命值伤害。\n \n猎人和术士需要不断吸取哈扎拉的法力，否则他会继续施放此能力。"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24729 = "召唤梦魇幻象"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24729 =
-        "哈扎拉召唤 3 个噩梦幻象，在整个战斗中为他提供帮助。\n \n伤害输出者必须立即瞄准这些小怪，因为它们的生命值很少，但会造成大量伤害。"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "睡眠"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 = "哈扎拉使所有正在攻击他的敌人陷入睡眠。\n \n萨满可以使用震颤图腾来唤醒他们的盟友。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24684 = "法力燃烧链"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24684 =
+        "燃烧最多3个目标的法力，并跳跃至附近敌人，每消耗一点法力造成0.5点暗影伤害。\n\n分散站位以减少跳跃次数。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24685 = "地震术"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24685 =
+        "造成自然伤害并打断施法，使目标在4秒内无法施放被打断法术所属学派的法术。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24728 = "召唤梦魇幻象"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24728 =
+        "召唤3个生命值较低但近战攻击强大的梦魇幻象。\n\n伤害输出者，尤其是远程玩家，应在幻象接近其他玩家之前迅速将其击杀。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "沉睡"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 =
+        "使敌人沉睡，最多持续6秒。受到伤害会唤醒受影响的玩家。\n\n战栗图腾可以移除沉睡效果。"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "乌苏雷"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "闪电链"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =

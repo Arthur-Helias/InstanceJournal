@@ -17,6 +17,8 @@ All changes to this project will be documented in this file.
 
 - Added the stun at the start of `Gri'lek`'s `Avatar` in all supported locales
 
+- Added `Earth Shock` to the `Hazza'rah` encounter in all supported locales
+
 ### Fixed
 
 - Fixed Molten Core ability links opening the boss entry instead of the corresponding add ability
@@ -30,6 +32,8 @@ All changes to this project will be documented in this file.
 - Corrected `Renataki` spell IDs and guidance for `Vanish`, `Gouge`, and `Enrage`
 
 - Corrected `Gri'lek` ability descriptions and the spell ID and dispel guidance for `Entangling Roots`
+
+- Corrected `Hazza'rah` spell IDs and guidance for `Chain Burn`, `Sleep`, and `Summon Nightmare Illusions`
 
 ### Changed
 

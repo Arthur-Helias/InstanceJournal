@@ -1582,14 +1582,18 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
         "Aumenta a velocidade dos ataques corpo a corpo em 60% e adiciona 50 pontos de dano Físico por 120 segundos.\n\nTanques e curadores devem se preparar para o aumento do dano recebido."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "Hazza'rah"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "Queima de Mana em Cadeia"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =
-        "Hazza'rah lança uma queimadura de mana em cadeia, causando grande dano em mana e pontos de vida aos inimigos próximos.\n\nCaçadores e bruxos precisam continuar drenando a mana de Hazza'rah, caso contrário ele continuará lançando essa habilidade."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24729 = "Convocar Ilusões de Pesadelo"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24729 =
-        "Hazza'rah invoca 3 ilusões de pesadelo que o ajudarão durante a luta.\n\nOs causadores de dano devem mirar instantaneamente nesses add-ons, pois eles têm muito pouca saúde, mas causam muito dano."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Dormir"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 = "Hazza'rah adormece todos os inimigos que o atacam no momento.\n\nOs xamãs podem usar totens trêmulos para acordar seus aliados."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24684 = "Queima em Cadeia"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24684 =
+        "Queima mana de até 3 alvos, saltando para inimigos próximos e causando 0,5 de dano de Sombra por ponto de mana consumido.\n\nEspalhem-se para limitar os saltos."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24685 = "Choque Terreno"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24685 =
+        "Causa dano de Natureza e interrompe a conjuração, impedindo o uso de feitiços da escola interrompida por 4 segundos."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24728 = "Evocar Ilusões do Pesadelo"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24728 =
+        "Evoca 3 Ilusões do Pesadelo com pouca vida, mas ataques corpo a corpo poderosos.\n\nOs causadores de dano, especialmente os de longo alcance, devem eliminar as ilusões rapidamente antes que alcancem outros jogadores."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Sono"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 =
+        "Coloca inimigos para dormir por até 6 segundos. Receber dano acorda os jogadores afetados.\n\nTotem Sísmico pode remover o efeito de sono."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "Wushoolay"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "Cadeia de Relâmpagos"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =

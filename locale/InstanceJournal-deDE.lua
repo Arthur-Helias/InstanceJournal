@@ -1590,14 +1590,18 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
         "Erhöht das Nahkampfangriffstempo für 120 Sekunden um 60% und fügt 50 Punkte körperlichen Schaden hinzu.\n\nTanks und Heiler sollten sich auf erhöhten eingehenden Schaden vorbereiten."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "Hazza'rah"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "Kettenmanabrand"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =
-        "Hazza'rah wirkt einen Kettenmanabrand, der Gegnern in seiner Nähe hohen Mana- und Gesundheitspunktschaden zufügt.\n\nJäger und Hexenmeister müssen Hazza'rah weiterhin Mana entziehen, da er diese Fähigkeit sonst weiterhin wirken wird."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24729 = "Beschwöre Albtraumillusionen"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24729 =
-        "Hazza'rah beschwört 3 Albtraum-Illusionen, die ihn während des Kampfes unterstützen.\n\nSchadensverursacher müssen diese Adds sofort ins Visier nehmen, da sie über sehr wenig Gesundheit verfügen, aber viel Schaden anrichten."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Schlafen"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 = "Hazza'rah schläft alle Feinde ein, die ihn gerade angreifen.\n\nSchamanen können Tremor-Totems verwenden, um ihre Verbündeten aufzuwecken."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24684 = "Kettenbrand"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24684 =
+        "Verbrennt Mana von bis zu 3 Zielen, springt auf nahe Gegner über und verursacht 0,5 Schattenschaden pro verbranntem Manapunkt.\n\nVerteilt euch, um die Sprünge zu begrenzen."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24685 = "Erdschock"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24685 =
+        "Verursacht Naturschaden und unterbricht das Zauberwirken. Zauber der unterbrochenen Magieschule können 4 Sekunden lang nicht gewirkt werden."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24728 = "Alptraumillusionen beschwören"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24728 =
+        "Beschwört 3 Alptraumillusionen mit wenig Gesundheit, aber mächtigen Nahkampfangriffen.\n\nSchadensklassen, besonders Fernkämpfer, sollten die Illusionen schnell töten, bevor sie andere Spieler erreichen."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Schlaf"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 =
+        "Versetzt Gegner bis zu 6 Sekunden lang in Schlaf. Schaden weckt betroffene Spieler auf.\n\nTotem des Erdstoßes kann den Schlafeffekt entfernen."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "Wushoolay"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "Kettenblitz"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =

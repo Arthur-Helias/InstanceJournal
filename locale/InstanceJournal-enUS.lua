@@ -3144,14 +3144,18 @@ IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_8269 = "Enrage"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
     "Increases melee attack speed by 60% and adds 50 Physical damage for 120 seconds.\n\nTanks and healers should prepare for increased incoming damage."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "Hazza'rah"
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "Chain Mana Burn"
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =
-    "Hazza'rah casts a chain mana burn, inflicting heavy mana and health point damage to enemies in his vicinity.\n\nHunter and warlocks need to keep draining the mana of Hazza'rah as he will otherwise keep casting this ability."
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24729 = "Summon Nightmare Illusions"
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24729 =
-    "Hazza'rah summons 3 nightmares illusions that will assist him throughout the fight.\n\nDamage dealers must instantly target these adds as they have very little health but deal a lot of damage."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24684 = "Chain Burn"
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24684 =
+    "Burns mana from up to 3 targets, jumping to nearby enemies and dealing 0.5 Shadow damage per point of mana consumed.\n\nSpread out to limit the jumps."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24685 = "Earth Shock"
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24685 =
+    "Deals Nature damage and interrupts spellcasting, preventing spells from the interrupted school from being cast for 4 seconds."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24728 = "Summon Nightmare Illusions"
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24728 =
+    "Summons 3 Nightmare Illusions with little health but powerful melee attacks.\n\nDamage dealers, especially ranged players, should kill the illusions quickly before they reach other players."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Sleep"
-IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 = "Hazza'rah puts to sleep all enemies currently attacking him.\n\nShamans can use tremor totems to wake up their allies."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 =
+    "Puts enemies to sleep for up to 6 seconds. Damage wakes affected players.\n\nTremor Totem can remove the sleep effect."
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "Wushoolay"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "Chain Lightning"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =

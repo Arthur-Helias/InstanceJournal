@@ -619,15 +619,33 @@ ZG.Bosses = {
                 Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah,
                 Icon = "Spell_Shadow_Metamorphosis",
                 SubAbilities = {
-                    [1] = {Id = "26046", Icon = "Spell_Shadow_ManaBurn", Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046, Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046, Flags = {IMAF.Deadly, IMAF.Important}},
+                    [1] = {
+                        Id = "24684",
+                        Icon = "Spell_Shadow_ManaBurn",
+                        Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24684,
+                        Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24684,
+                        Flags = {IMAF.Important}
+                    },
                     [2] = {
-                        Id = "24729",
+                        Id = "24685",
+                        Icon = "Spell_Nature_EarthShock",
+                        Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24685,
+                        Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24685
+                    },
+                    [3] = {
+                        Id = "24728",
                         Icon = "Spell_Fire_SealOfFire",
-                        Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24729,
-                        Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24729,
+                        Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24728,
+                        Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24728,
                         Flags = {IMAF.DPS, IMAF.Deadly, IMAF.Important}
                     },
-                    [3] = {Id = "24664", Icon = "Spell_Nature_Sleep", Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664, Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664}
+                    [4] = {
+                        Id = "24664",
+                        Icon = "Spell_Nature_Sleep",
+                        Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664,
+                        Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664,
+                        Flags = {IMAF.Important}
+                    }
                 }
             },
             [4] = {
