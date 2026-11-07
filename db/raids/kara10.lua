@@ -89,7 +89,7 @@ KARA10.Bosses = {
             [29] = {IJDB.I[70102], DropChance = 1}
         }
     },
-    [3] = { -- NOTE: Missing abilities
+    [3] = {
         Id = "61224",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "grizikil" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "grizikil" .. IMPF,
@@ -97,6 +97,11 @@ KARA10.Bosses = {
         Story = IJ_DB_RAID_KARA10_BOSS_STORY_61224,
         MapCoordinateX = 90.6,
         MapCoordinateY = 38.6,
+        Abilities = {
+            [1] = {Id = "57091", Icon = "Spell_Fire_Incinerate", Name = IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57091, Effect = IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57091},
+            [2] = {Id = "57093", Icon = "Spell_Shadow_RainOfFire", Name = IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57093, Effect = IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57093},
+            [3] = {Id = "57094", Icon = "Spell_Fire_FlameBolt", Name = IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57094, Effect = IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57094}
+        },
         Loot = {
             [1] = {IJDB.I[8547], DropChance = 1},
             [2] = {IJDB.I[13517], DropChance = 1},

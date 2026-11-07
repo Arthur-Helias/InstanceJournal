@@ -4682,6 +4682,12 @@ IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_61206 = "Each Skitterweb Egg that is
 IJ_DB_RAID_KARA10_BOSS_NAME_61224 = "Grizikil"
 IJ_DB_RAID_KARA10_BOSS_STORY_61224 =
     "A hoarder by nature, the creature known as Grizikil lurks at the end of the guest halls, surrounded by a mountain of stolen trinkets. Among his most bizarre treasures is a comically large candle, a colossal candlestick said to be essential for strange experiments within the Master's Library. He is fiercely protective of his stash, viewing any who approach as common thieves looking to plunder his 'status symbols'."
+IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57091 = "Flamewave"
+IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57091 = "Channels for 9 seconds, dealing Fire damage to himself and enemies within 10 yards every 3 seconds.\n\nMove away from Grizikil while he channels."
+IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57093 = "Grellkin Rain of Fire"
+IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57093 = "Creates an area of fire that lasts 20 seconds, dealing Fire damage every 3 seconds to enemies inside it.\n\nMove out of the affected area."
+IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57094 = "Grellkin Fireball"
+IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57094 = "Deals Fire damage to an enemy and additional Fire damage every 2 seconds for 6 seconds."
 IJ_DB_RAID_KARA10_BOSS_NAME_61223 = "Clawlord Howlfang"
 IJ_DB_RAID_KARA10_BOSS_STORY_61223 =
     "Clawlord Howlfang is the tyrannical leader of the worgen that have infested Karazhan. Attracted by the presence of the Scythe of Elune-which was brought to the tower by a mysterious Dark Rider-Howlfang has asserted his dominance over the various tribes lurking in the shadows. By severing his grasp, one might hope to quell the feral devastation that threatens to consume the lower halls."

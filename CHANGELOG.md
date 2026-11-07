@@ -7,6 +7,7 @@ All changes to this project will be documented in this file.
 ### Added
 
 - Added `Leeching Bite`, `Brood Venom Volley`, and `Skitterweb Eggs` to the `Araxxna` encounter
+- Added `Flamewave`, `Grellkin Rain of Fire`, and `Grellkin Fireball` to the `Grizikil` encounter
 
 ## [1.4.5] - 2026-11-07
 

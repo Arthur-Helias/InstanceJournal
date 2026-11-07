@@ -2279,6 +2279,12 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_KARA10_BOSS_NAME_61224 = "Grizikil"
     IJ_DB_RAID_KARA10_BOSS_STORY_61224 =
         "Accusatrice par nature, la créature connue sous le nom de Grizikil se cache au bout des salles des invités, entourée d'une montagne de bibelots volés. Parmi ses trésors les plus bizarres se trouve une bougie d'une taille comique, un chandelier colossal considéré comme essentiel pour d'étranges expériences au sein de la bibliothèque du Maître. Il protège farouchement sa réserve, considérant tous ceux qui l'approchent comme de simples voleurs cherchant à piller ses « symboles de statut »."
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57091 = "Vague de flammes"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57091 = "Canalise pendant 9 secondes, infligeant des dégâts de Feu à lui-même et aux ennemis à moins de 10 mètres toutes les 3 secondes.\n\nÉloignez-vous de Grizikil pendant la canalisation."
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57093 = "Pluie de feu grell"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57093 = "Crée une zone de feu qui dure 20 secondes et inflige des dégâts de Feu toutes les 3 secondes aux ennemis qui s’y trouvent.\n\nSortez de la zone affectée."
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57094 = "Boule de feu grell"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57094 = "Inflige des dégâts de Feu à un ennemi et des dégâts de Feu supplémentaires toutes les 2 secondes pendant 6 secondes."
     IJ_DB_RAID_KARA10_BOSS_NAME_61223 = "Seigneur des griffes Croc Hurlant"
     IJ_DB_RAID_KARA10_BOSS_STORY_61223 =
         "Clawlord Howlfang est le chef tyrannique des worgens qui ont infesté Karazhan. Attiré par la présence de la Faux d'Élune, qui a été amenée à la tour par un mystérieux Cavalier Noir, Howlfang a affirmé sa domination sur les différentes tribus cachées dans l'ombre. En lui coupant l’emprise, on pourrait espérer apaiser la dévastation sauvage qui menace de consumer les salles inférieures."

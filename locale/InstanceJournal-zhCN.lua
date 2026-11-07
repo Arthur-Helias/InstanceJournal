@@ -4794,6 +4794,12 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_KARA10_BOSS_NAME_61224 = "格里齐基尔"
     IJ_DB_RAID_KARA10_BOSS_STORY_61224 =
         "被称为格里兹基尔的生物本质上是个囤积者，潜伏在客房的尽头，周围是堆积如山的偷来的小饰品。他最奇异的宝藏之一是一根滑稽的大蜡烛，这是一个巨大的烛台，据说对于大师图书馆内的奇怪实验至关重要。他极力保护自己的藏品，将任何接近他的人视为想要掠夺他“地位象征”的普通小偷。"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57091 = "烈焰波"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57091 = "引导9秒，每3秒对自身及10码内的敌人造成火焰伤害。\n\n引导期间远离格里兹基尔。"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57093 = "劣魔火焰之雨"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57093 = "制造一片持续20秒的火焰区域，每3秒对区域内的敌人造成火焰伤害。\n\n离开受影响的区域。"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57094 = "劣魔火球术"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57094 = "对一名敌人造成火焰伤害，并每2秒造成额外的火焰伤害，持续6秒。"
     IJ_DB_RAID_KARA10_BOSS_NAME_61223 = "爪王嚎牙"
     IJ_DB_RAID_KARA10_BOSS_STORY_61223 =
         "爪牙领主嚎牙是侵扰卡拉赞的狼人的暴虐首领。被一位神秘的黑暗骑士带到塔楼的艾露恩镰刀所吸引，嚎牙宣称自己对潜伏在阴影中的各个部落的统治地位。通过切断他的掌控，人们可能希望平息威胁要吞噬下层大厅的野蛮破坏。"

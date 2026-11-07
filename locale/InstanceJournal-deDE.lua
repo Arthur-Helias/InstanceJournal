@@ -2279,6 +2279,12 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_KARA10_BOSS_NAME_61224 = "Grizikil"
     IJ_DB_RAID_KARA10_BOSS_STORY_61224 =
         "Die als Grizikil bekannte Kreatur ist von Natur aus ein Sammler und lauert am Ende der Gästehallen, umgeben von einem Berg gestohlener Schmuckstücke. Zu seinen bizarrsten Schätzen gehört eine komisch große Kerze, ein kolossaler Kerzenständer, der angeblich für seltsame Experimente in der Meisterbibliothek unerlässlich ist. Er schützt seine Vorräte aufs Schärfste und betrachtet jeden, der sich ihm nähert, als gewöhnliche Diebe, die seine „Statussymbole“ plündern wollen."
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57091 = "Flammenwelle"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57091 = "Kanalisiert 9 Sekunden lang und fügt sich selbst sowie Gegnern im Umkreis von 10 Metern alle 3 Sekunden Feuerschaden zu.\n\nEntfernt euch während der Kanalisierung von Grizikil."
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57093 = "Grellkin-Feuerregen"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57093 = "Erzeugt einen Feuerbereich, der 20 Sekunden lang bestehen bleibt und Gegnern darin alle 3 Sekunden Feuerschaden zufügt.\n\nVerlasst den betroffenen Bereich."
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57094 = "Grellkin-Feuerball"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57094 = "Fügt einem Gegner Feuerschaden und 6 Sekunden lang alle 2 Sekunden zusätzlichen Feuerschaden zu."
     IJ_DB_RAID_KARA10_BOSS_NAME_61223 = "Klauenfürst Heulenfang"
     IJ_DB_RAID_KARA10_BOSS_STORY_61223 =
         "Klauenfürst Howlfang ist der tyrannische Anführer der Worgen, die Karazhan heimgesucht haben. Angezogen von der Anwesenheit der Sense von Elune – die von einem mysteriösen Dunklen Reiter zum Turm gebracht wurde – hat Howlfang seine Dominanz über die verschiedenen Stämme behauptet, die im Schatten lauern. Indem man seinen Griff durchtrennt, könnte man hoffen, die wilde Verwüstung zu unterdrücken, die die unteren Hallen zu verschlingen droht."

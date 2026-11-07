@@ -2267,6 +2267,12 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_KARA10_BOSS_NAME_61224 = "Grizikil"
     IJ_DB_RAID_KARA10_BOSS_STORY_61224 =
         "Colecionador por natureza, a criatura conhecida como Grizikil espreita no final dos salões de hóspedes, cercada por uma montanha de bugigangas roubadas. Entre seus tesouros mais bizarros está uma vela comicamente grande, um castiçal colossal considerado essencial para experimentos estranhos na Biblioteca do Mestre. Ele protege ferozmente seu estoque, vendo qualquer um que se aproxima como ladrões comuns procurando saquear seus “símbolos de status”."
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57091 = "Onda de Chamas"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57091 = "Canaliza por 9 segundos, causando dano de Fogo a si mesmo e aos inimigos em um raio de 10 jardas a cada 3 segundos.\n\nAfaste-se de Grizikil enquanto ele canaliza."
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57093 = "Chuva de Fogo Grell"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57093 = "Cria uma área de fogo que dura 20 segundos, causando dano de Fogo a cada 3 segundos aos inimigos dentro dela.\n\nSaia da área afetada."
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57094 = "Bola de Fogo Grell"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57094 = "Causa dano de Fogo a um inimigo e dano adicional de Fogo a cada 2 segundos por 6 segundos."
     IJ_DB_RAID_KARA10_BOSS_NAME_61223 = "Senhor das Garras Howlfang"
     IJ_DB_RAID_KARA10_BOSS_STORY_61223 =
         "Clawlord Howlfang é o líder tirânico dos worgens que infestaram Karazhan. Atraído pela presença da Foice de Eluna – que foi trazida para a torre por um misterioso Cavaleiro das Trevas – Howlfang afirmou seu domínio sobre as várias tribos que espreitam nas sombras. Ao cortar seu domínio, pode-se esperar reprimir a devastação selvagem que ameaça consumir os salões inferiores."
