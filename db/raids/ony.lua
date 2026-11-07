@@ -23,7 +23,7 @@ ONY.MinLevel = 60
 ONY.MaxLevel = 60
 ONY.Entrances = {[1] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.DustwallowMarsh, MapCoordinateX = 53.4, MapCoordinateY = 77.0}}
 ONY.Bosses = {
-    [1] = { -- NOTE: Missing abilities
+    [1] = {
         Id = "axelus",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "axelus" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "axelus" .. IMPF,
@@ -31,6 +31,29 @@ ONY.Bosses = {
         Story = IJ_DB_RAID_ONY_BOSS_STORY_axelus,
         MapCoordinateX = 46.6,
         MapCoordinateY = 76.6,
+        Abilities = {
+            [1] = {Id = "36883", Icon = "Ability_ThunderClap", Name = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_36883, Effect = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_36883},
+            [2] = {Id = "47403", Icon = "Ability_UpgradeMoonGlaive", Name = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_47403, Effect = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_47403, Flags = {IMAF.Heal}},
+            [3] = {Id = "47404", Icon = "Ability_Warrior_WarCry", Name = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_47404, Effect = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_47404, Flags = {IMAF.Important}},
+            [4] = {
+                Id = "41537", Icon = "Spell_Fire_SoulBurn", Name = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_41537, Effect = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_41537, Flags = {IMAF.Important},
+                SubAbilities = {
+                    [1] = {Id = "47411", Icon = "Spell_Fire_Immolation", Name = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_47411, Effect = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_47411},
+                    [2] = {Id = "47409", Icon = "Spell_Fire_Fireball", Name = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_47409, Effect = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_47409, Flags = {IMAF.Deadly}},
+                    [3] = {Id = "48312", Icon = "Spell_Fire_Fire", Name = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_48312, Effect = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_48312, Flags = {IMAF.Deadly}}
+                }
+            },
+            [5] = {Id = "47408", Icon = "INV_Banner_03", Name = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_47408, Effect = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_47408, Flags = {IMAF.Important}},
+            [6] = {
+                Id = "40068", Icon = "INV_Misc_Head_Dragon_Black", Name = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_40068, Effect = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_40068, Flags = {IMAF.Tank, IMAF.Important},
+                SubAbilities = {
+                    [1] = {Id = "20203", Icon = "Spell_Fire_SealOfFire", Name = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_20203, Effect = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_20203},
+                    [2] = {Id = "18958", Icon = "Spell_Fire_Fireball", Name = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_18958, Effect = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_18958, Flags = {IMAF.Magic}},
+                    [3] = {Id = "12097", Icon = "Spell_Shadow_VampiricAura", Name = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_12097, Effect = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_12097, Flags = {IMAF.Tank}},
+                    [4] = {Id = "19983", Icon = "Ability_Warrior_Cleave", Name = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_19983, Effect = IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_19983}
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[33087], DropChance = 8},
             [2] = {IJDB.I[33089], DropChance = 8},
