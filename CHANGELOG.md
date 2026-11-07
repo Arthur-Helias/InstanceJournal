@@ -6,6 +6,8 @@ All changes to this project will be documented in this file.
 
 ### Added
 
+- Added missing abilities to the `Lord Blackwald II` encounter and its `Shadowbane Ragefang`
+- Documented `Bloodfrenzy` at around 30% health for `Shadowbane Ragefang`
 - Added `Leeching Bite`, `Brood Venom Volley`, and `Skitterweb Eggs` to the `Araxxna` encounter
 - Added `Flamewave`, `Grellkin Rain of Fire`, and `Grellkin Fireball` to the `Grizikil` encounter
 - Added `Slavering Bite`, `Terrifying Presence`, `Shadowbane Curse`, and `Bloodfrenzy` to the `Clawlord Howlfang` encounter

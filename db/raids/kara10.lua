@@ -178,7 +178,7 @@ KARA10.Bosses = {
             [29] = {IJDB.I[70226], DropChance = 3}
         }
     },
-    [5] = { -- NOTE: Missing abilities
+    [5] = {
         Id = "61222",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "blackwald" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "blackwald" .. IMPF,
@@ -186,6 +186,22 @@ KARA10.Bosses = {
         Story = IJ_DB_RAID_KARA10_BOSS_STORY_61222,
         MapCoordinateX = 69.1,
         MapCoordinateY = 74.3,
+        Abilities = {
+            [1] = {Id = "57066", Icon = "Ability_Whirlwind", Name = IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57066, Effect = IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57066},
+            [2] = {Id = "57073", Icon = "Spell_Shadow_ChillTouch", Name = IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57073, Effect = IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57073, Flags = {IMAF.Curse}},
+            [3] = {Id = "57074", Icon = "Spell_Shadow_UnholyFrenzy", Name = IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57074, Effect = IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57074},
+            [4] = {Id = "57075", Icon = "Spell_Shadow_Haunting", Name = IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57075, Effect = IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57075},
+            [5] = {
+                Id = "61194",
+                Icon = "INV_Misc_Bone_OrcSkull_01",
+                Name = IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_61194,
+                Effect = IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_61194,
+                SubAbilities = {
+                    [1] = {Id = "57081", Icon = "Ability_GhoulFrenzy", Name = IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57081, Effect = IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57081},
+                    [2] = {Id = "57082", Icon = "Spell_Shadow_UnholyFrenzy", Name = IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57082, Effect = IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57082, Flags = {IMAF.Enrage}}
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[8547], DropChance = 1},
             [2] = {IJDB.I[13517], DropChance = 1},
