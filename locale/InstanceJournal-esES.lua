@@ -1743,14 +1743,16 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_STORY_14834 =
         "Hakkar el Desollador de Almas, el Dios de la Sangre, es un loa malévolo y destructivo adorado notablemente por los trolls Gurubashi, y conocido en el panteón troll como el Loa de la Sangre. Ha tomado el control de la capital caída del Imperio Gurubashi, Zul'Gurub."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_11357 = "Hijo de Hakkar"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 =
-        "A lo largo del encuentro, los Hijos de Hakkar aparecen en las escaleras que conducen a la cámara de Hakkar. ||norte||  ||norte|| Cuando son asesinados, liberan una nube de veneno que aflige Sangre Venenosa a cualquier jugador que entre en contacto con ella."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 = "Los Hijos de Hakkar reaparecen periódicamente en las escaleras que llevan a la cámara de Hakkar.\n\nAl morir, liberan una nube de veneno que aplica Sangre venenosa a los jugadores que entran en ella. Este veneno puede usarse para contrarrestar Sifón de sangre."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_16790 = "Derribo"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_16790 = "Inflige daño físico a un enemigo y a sus aliados cercanos y aturde hasta a 3 objetivos durante 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_3391 = "Vapulear"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_3391 = "Otorga 2 ataques cuerpo a cuerpo adicionales."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24321 = "sangre venenosa"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24321 =
         "Envenena al jugador, causando 100 de daño cada 3 segundos durante 1,5 minutos. ||norte||  ||norte|| Mientras esté afligido, Blood Siphon dañará a Hakkar en lugar de curarlo."
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24322 = "Sifón de sangre"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24322 =
-        "Hakkar aturde a toda la banda y drena la salud de todos los jugadores cada segundo durante 8 segundos, curándose a sí mismo significativamente. ||norte||  ||norte|| Los jugadores afectados por Sangre Venenosa hacen que Hakkar sufra daño por este efecto. ||norte||  ||norte|| Para contrarrestar esta habilidad, la mayor parte de la incursión debe estar envenenada antes de que comience Blood Siphon."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24324 = "Sifón de sangre"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24324 = "Hakkar aturde a toda la banda y drena la salud de todos los jugadores cada segundo durante 8 segundos, curándose a sí mismo significativamente. ||norte||  ||norte|| Los jugadores afectados por Sangre Venenosa hacen que Hakkar sufra daño por este efecto. ||norte||  ||norte|| Para contrarrestar esta habilidad, la mayor parte de la incursión debe estar envenenada antes de que comience Blood Siphon.\n\nLos jugadores pueden obtener Sangre venenosa de un Hijo de Hakkar muerto antes de que comience Sifón de sangre para volver el efecto contra Hakkar."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkaraspects = "Aspects of the High Priests"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkaraspects =
         "Hakkar can be engaged immediately upon entering the instance. However, if any High Priests remain alive, they empower him with additional abilities based on their aspects."
@@ -1765,11 +1767,9 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24690 = "Aspecto de Arlokk"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24690 = "Golpea al jugador con mayor amenaza y lo aturde durante 2 segundos."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24327 = "Causa locura"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 =
-        "Lleva al jugador con la mayor amenaza a un frenesí durante 10 segundos, aumentando su velocidad de ataque en un 100% y su velocidad de movimiento en un 150%, y provoca que ataque a los aliados cercanos."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 = "Lleva al jugador con la mayor amenaza a un frenesí durante 10 segundos, aumentando su velocidad de ataque en un 100% y su velocidad de movimiento en un 150%, y provoca que ataque a los aliados cercanos.\n\nEl tanque secundario debe permanecer segundo en amenaza para tomar el relevo mientras el tanque principal esté controlado. Usa Polimorfia sobre el jugador controlado hasta que termine el efecto."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24328 = "Sangre corrupta"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 =
-        "Aproximadamente cada 20 segundos, un jugador se ve afectado por Sangre corrupta, que recibe 200 de daño cada 2 segundos durante 10 segundos. ||norte||  ||norte|| Este efecto se extiende a los jugadores cercanos."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 = "Aproximadamente cada 15 segundos, Hakkar inflige daño inicial de las Sombras y afecta a jugadores con Sangre corrupta, que inflige 200 de daño de las Sombras cada 2 segundos durante 10 segundos.\n\nEste efecto se propaga a los jugadores cercanos."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkarenrage = "Enrage"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkarenrage = "After 10 minutes, Hakkar becomes enraged, greatly increasing his damage output."
 

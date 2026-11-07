@@ -7,6 +7,7 @@ All changes to this project will be documented in this file.
 ### Added
 
 - Added `Brain Wash` to the `Jin'do` encounter
+- Added `Knockdown` and `Thrash` to the `Sons of Hakkar`
 - Added missing abilities to the `Jeklik` encounter
 - Added missing abilities to the `Venoxis` encounter and its Razzashi Cobras
 - Added `Corrosive Poison` and growth effects for the `Mar'li` encounter
@@ -22,6 +23,8 @@ All changes to this project will be documented in this file.
 
 - Corrected `Jin'do` spell IDs, `Hex` dispel guidance, and the description of `Delusions of Jin'do`
 - Simplified `Shade of Jin'do` and `Shadow Shock` descriptions and removed the melee interruption entry
+- Corrected `Hakkar`'s `Blood Siphon` spell ID and `Corrupted Blood` damage and timing description
+- Clarified `Sons of Hakkar` respawns and guidance for `Blood Siphon` and `Cause Insanity`
 - Fixed Molten Core ability links opening the boss entry instead of the corresponding add ability
 - Corrected `Jeklik` spell IDs, ranges, crowd control effects, and healing description
 - Corrected `Venoxis` spell versions, poison removal guidance, and the descriptions of `Parasitic Serpent` and `Enrage`

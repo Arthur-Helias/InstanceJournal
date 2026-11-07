@@ -3296,13 +3296,15 @@ IJ_DB_RAID_ZG_BOSS_NAME_14834 = "Hakkar"
 IJ_DB_RAID_ZG_BOSS_STORY_14834 =
     "Hakkar the Soulflayer, the Blood God, is a malevolent and destructive loa notably worshipped by the Gurubashi trolls, and known in the troll pantheon as the Loa of Blood. He has taken control the Gurubashi Empire's fallen capital, Zul'Gurub."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_11357 = "Son of Hakkar"
-IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 =
-    "Throughout the encounter, Sons of Hakkar spawn from the stairways leading into Hakkar’s chamber.\n\nWhen slain, they release a poison cloud that afflicts Poisonous Blood on any player who comes into contact with it."
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 = "Sons of Hakkar respawn periodically on the stairways leading into Hakkar’s chamber.\n\nWhen slain, they release a poison cloud that afflicts players who enter it with Poisonous Blood. This poison can be used to counter Blood Siphon."
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_16790 = "Knockdown"
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_16790 = "Deals Physical damage to an enemy and nearby allies, stunning up to 3 targets for 2 seconds."
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_3391 = "Thrash"
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_3391 = "Grants 2 additional melee attacks."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24321 = "Poisonous Blood"
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24321 = "Poisons the player, dealing 100 damage every 3 seconds for 1.5 minutes.\n\nWhile afflicted, Blood Siphon will damage Hakkar instead of healing him."
-IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24322 = "Blood Siphon"
-IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24322 =
-    "Hakkar stuns the entire raid and drains health from all players every second for 8 seconds, healing himself significantly.\n\nPlayers afflicted with Poisonous Blood instead cause Hakkar to take damage from this effect.\n\nTo counter this ability, most of the raid must be poisoned before Blood Siphon begins."
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24324 = "Blood Siphon"
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24324 = "Hakkar stuns the entire raid and drains health from all players every second for 8 seconds, healing himself significantly.\n\nPlayers afflicted with Poisonous Blood instead cause Hakkar to take damage from this effect.\n\nPlayers can obtain Poisonous Blood from a slain Son of Hakkar before Blood Siphon begins to turn the effect against him."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkaraspects = "Aspects of the High Priests"
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkaraspects =
     "Hakkar can be engaged immediately upon entering the instance. However, if any High Priests remain alive, they empower him with additional abilities based on their aspects."
@@ -3317,10 +3319,9 @@ IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24689 = "Increases Hakkar’s attack spe
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24690 = "Aspect of Arlokk"
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24690 = "Gouges the player with the highest threat, stunning them for 2 seconds."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24327 = "Cause Insanity"
-IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 =
-    "Drives the player with the highest threat into a frenzy for 10 seconds, increasing their attack speed by 100% and movement speed by 150%, and causing them to attack nearby allies."
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 = "Drives the player with the highest threat into a frenzy for 10 seconds, increasing their attack speed by 100% and movement speed by 150%, and causing them to attack nearby allies.\n\nThe off-tank should remain second on threat to take over while the main tank is controlled. Use Polymorph on the controlled player until the effect ends."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24328 = "Corrupted Blood"
-IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 = "Approximately every 20 seconds, a player is afflicted with Corrupted Blood, taking 200 damage every 2 seconds for 10 seconds.\n\nThis effect spreads to nearby players."
+IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 = "Approximately every 15 seconds, Hakkar deals initial Shadow damage and afflicts players with Corrupted Blood, dealing 200 Shadow damage every 2 seconds for 10 seconds.\n\nThis effect spreads to nearby players."
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkarenrage = "Enrage"
 IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkarenrage = "After 10 minutes, Hakkar becomes enraged, greatly increasing his damage output."
 

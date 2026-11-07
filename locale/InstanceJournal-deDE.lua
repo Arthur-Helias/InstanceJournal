@@ -1744,14 +1744,16 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_ZG_BOSS_STORY_14834 =
         "Hakkar der Seelenschinder, der Blutgott, ist ein bösartiger und zerstörerischer Loa, der vor allem von den Gurubashi-Trollen verehrt wird und im Pantheon der Trolle als Loa des Blutes bekannt ist. Er hat die Kontrolle über die gefallene Hauptstadt des Gurubashi-Reiches, Zul'Gurub, übernommen."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_11357 = "Sohn von Hakkar"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 =
-        "Während der Begegnung erscheinen Söhne von Hakkar auf den Treppen, die zu Hakkars Kammer führen.\n\nWenn sie getötet werden, setzen sie eine Giftwolke frei, die jedem Spieler, der damit in Kontakt kommt, Giftiges Blut zufügt."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 = "Söhne von Hakkar erscheinen regelmäßig erneut auf den Treppen zu Hakkars Kammer.\n\nBei ihrem Tod hinterlassen sie eine Giftwolke, die Spieler beim Betreten mit Giftigem Blut belegt. Dieses Gift kann verwendet werden, um Blutsiphon entgegenzuwirken."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_16790 = "Niederschlagen"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_16790 = "Fügt einem Gegner und Verbündeten in dessen Nähe körperlichen Schaden zu und betäubt bis zu 3 Ziele für 2 Sekunden."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_3391 = "Hauen"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_3391 = "Gewährt 2 zusätzliche Nahkampfangriffe."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24321 = "Giftiges Blut"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24321 =
         "Vergiftet den Spieler und verursacht 1,5 Minuten lang alle 3 Sekunden 100 Schaden.\n\nWährend er betroffen ist, fügt Blood Siphon Hakkar Schaden zu, anstatt ihn zu heilen."
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24322 = "Blutsiphon"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24322 =
-        "Hakkar betäubt den gesamten Schlachtzug und entzieht allen Spielern 8 Sekunden lang jede Sekunde die Gesundheit, wodurch er sich erheblich heilt.\n\nSpieler, die von Giftigem Blut betroffen sind, verursachen stattdessen, dass Hakkar durch diesen Effekt Schaden erleidet.\n\nUm dieser Fähigkeit entgegenzuwirken, muss der Großteil des Raids vergiftet werden, bevor Blood Siphon beginnt."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24324 = "Blutsiphon"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24324 = "Hakkar betäubt den gesamten Schlachtzug und entzieht allen Spielern 8 Sekunden lang jede Sekunde die Gesundheit, wodurch er sich erheblich heilt.\n\nSpieler, die von Giftigem Blut betroffen sind, verursachen stattdessen, dass Hakkar durch diesen Effekt Schaden erleidet.\n\nSpieler können sich vor Beginn von Blutsiphon bei einem getöteten Sohn von Hakkar mit Giftigem Blut infizieren, um den Effekt gegen Hakkar zu wenden."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkaraspects = "Aspects of the High Priests"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkaraspects =
         "Hakkar can be engaged immediately upon entering the instance. However, if any High Priests remain alive, they empower him with additional abilities based on their aspects."
@@ -1766,11 +1768,9 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24690 = "Aspekt von Arlokk"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24690 = "Verstümmelt den Spieler mit der höchsten Bedrohung und betäubt ihn 2 Sekunden lang."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24327 = "Wahnsinn verursachen"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 =
-        "Versetzt den Spieler mit der höchsten Bedrohung 10 Sekunden lang in Raserei, erhöht seine Angriffsgeschwindigkeit um 100 % und seine Bewegungsgeschwindigkeit um 150 % und veranlasst ihn, Verbündete in der Nähe anzugreifen."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 = "Versetzt den Spieler mit der höchsten Bedrohung 10 Sekunden lang in Raserei, erhöht seine Angriffsgeschwindigkeit um 100 % und seine Bewegungsgeschwindigkeit um 150 % und veranlasst ihn, Verbündete in der Nähe anzugreifen.\n\nDer zweite Tank sollte auf dem zweiten Platz der Bedrohungsliste bleiben, um zu übernehmen, während der Haupttank kontrolliert wird. Wirkt Verwandlung auf den kontrollierten Spieler, bis der Effekt endet."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24328 = "Verdorbenes Blut"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 =
-        "Ungefähr alle 20 Sekunden wird ein Spieler von „Verderbtes Blut“ befallen und erleidet 10 Sekunden lang alle 2 Sekunden 200 Schaden.\n\nDieser Effekt breitet sich auf Spieler in der Nähe aus."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 = "Etwa alle 15 Sekunden verursacht Hakkar anfänglichen Schattenschaden und belegt Spieler mit Verdorbenem Blut, das 10 Sekunden lang alle 2 Sekunden 200 Schattenschaden verursacht.\n\nDieser Effekt breitet sich auf Spieler in der Nähe aus."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkarenrage = "Enrage"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkarenrage = "After 10 minutes, Hakkar becomes enraged, greatly increasing his damage output."
 

@@ -963,10 +963,12 @@ ZG.Bosses = {
                         Name = IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24321,
                         Effect = IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24321,
                         Flags = {IMAF.Poison, IMAF.Important}
-                    }
+                    },
+                    [2] = {Id = "16790", Icon = "Ability_GolemThunderClap", Name = IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_16790, Effect = IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_16790},
+                    [3] = {Id = "3391", Icon = "Ability_Warrior_PunishingBlow", Name = IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_3391, Effect = IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_3391}
                 }
             },
-            [2] = {Id = "24322", Icon = "Spell_Shadow_LifeDrain", Name = IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24322, Effect = IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24322},
+            [2] = {Id = "24324", Icon = "Spell_Shadow_LifeDrain", Name = IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24324, Effect = IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24324},
             [3] = {
                 Id = "hakkaraspects",
                 Name = IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkaraspects,

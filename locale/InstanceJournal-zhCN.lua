@@ -3416,13 +3416,15 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_STORY_14834 =
         "噬魂者哈卡，血神，是一位恶毒且具有破坏性的神灵，深受古拉巴什巨魔的崇拜，在巨魔万神殿中被称为血之神灵。他控制了古拉巴什帝国沦陷的首都祖尔格拉布。"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_11357 = "哈卡之子"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 =
-        "在整个遭遇过程中，哈卡之子从通向哈卡房间的楼梯中生成。\n \n当被杀死时，它们会释放出毒云，使任何接触到毒云的玩家受到毒血的影响。"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 = "哈卡之子会在通往哈卡房间的楼梯上定期重生。\n\n它们死亡时会释放毒云，使进入其中的玩家受到酸性血液影响。此毒药可用于反制血液虹吸。"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_16790 = "击倒"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_16790 = "对一名敌人及其附近的盟友造成物理伤害，使最多3个目标昏迷2秒。"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_3391 = "痛击"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_3391 = "获得2次额外的近战攻击。"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24321 = "酸性血液"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24321 = "使玩家中毒，每 3 秒造成 100 点伤害，持续 1.5 分钟。\n \n受到折磨时，吸血管会伤害哈卡而不是治愈他。"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24322 = "血液虹吸"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24322 =
-        "哈卡会击晕整个团队，并每秒消耗所有玩家的生命值，持续 8 秒，显着治愈自己。\n \n受到毒血影响的玩家反而会导致哈卡受到此效果的伤害。\n \n为了对抗这个能力，大多数团队成员必须在吸血开始之前中毒。"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24324 = "血液虹吸"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24324 = "哈卡会击晕整个团队，并每秒消耗所有玩家的生命值，持续 8 秒，显着治愈自己。\n \n受到毒血影响的玩家反而会导致哈卡受到此效果的伤害。\n \n为了对抗这个能力，大多数团队成员必须在吸血开始之前中毒。\n\n玩家可以在血液虹吸开始前，从被击杀的哈卡之子留下的毒云中获得酸性血液，将该效果反作用于哈卡。"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkaraspects = "高阶祭司的化身"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkaraspects = "进入副本后即可立即与哈卡交战。但如果仍有高阶祭司存活，他们会根据各自的化身为哈卡赋予额外技能。"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24687 = "耶克里克的守护"
@@ -3436,9 +3438,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24690 = "娅尔罗的守护"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24690 = "凿击威胁最高的玩家，使其晕眩 2 秒。"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24327 = "疯狂"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 = "使威胁最大的玩家陷入疯狂状态，持续10秒，攻击速度提高100%，移动速度提高150%，并攻击附近的盟友。"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 = "使威胁最大的玩家陷入疯狂状态，持续10秒，攻击速度提高100%，移动速度提高150%，并攻击附近的盟友。\n\n副坦克应保持第二仇恨，以便在主坦克被控制时接手。对被控制的玩家使用变形术，直到控制效果结束。"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24328 = "堕落之血"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 = "大约每 20 秒就有一名玩家受到腐化之血的影响，每 2 秒受到 200 点伤害，持续 10 秒。\n \n该效果会传播到附近的玩家。"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 = "哈卡大约每15秒造成一次初始暗影伤害，并使玩家受到堕落之血影响，每2秒造成200点暗影伤害，持续10秒。\n\n此效果会传播给附近的玩家。"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkarenrage = "激怒"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkarenrage = "10 分钟后，哈卡会激怒，大幅提高伤害输出。"
 
