@@ -2288,6 +2288,14 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_KARA10_BOSS_NAME_61223 = "Klauenfürst Heulenfang"
     IJ_DB_RAID_KARA10_BOSS_STORY_61223 =
         "Klauenfürst Howlfang ist der tyrannische Anführer der Worgen, die Karazhan heimgesucht haben. Angezogen von der Anwesenheit der Sense von Elune – die von einem mysteriösen Dunklen Reiter zum Turm gebracht wurde – hat Howlfang seine Dominanz über die verschiedenen Stämme behauptet, die im Schatten lauern. Indem man seinen Griff durchtrennt, könnte man hoffen, die wilde Verwüstung zu unterdrücken, die die unteren Hallen zu verschlingen droht."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57076 = "Geifernder Biss"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57076 = "Verursacht körperlichen Schaden und lässt das Ziel 12 Sekunden lang alle 1,5 Sekunden bluten."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57083 = "Schreckliche Präsenz"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57083 = "Verringert die Rüstung und den verursachten Schaden von Gegnern im Umkreis von 10 Metern. Dieser Effekt ist stapelbar und hält 10 Sekunden lang an.\n\nNur ein Tank sollte bei Howlfang stehen, während der andere außerhalb der Sichtlinie wartet. Tauscht bei zunehmenden Stapeln die Positionen, damit der vorherige Tank die Sichtlinie verlassen und den Effekt auslaufen lassen kann. Etwa 15 Stapel können als Richtwert dienen, aber der Schlachtzug sollte den Zeitpunkt festlegen.\n\nAuch Schadensausteiler sollten bei Bedarf die Sichtlinie verlassen, um ihre Stapel zurückzusetzen, meist seltener als die Tanks."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57084 = "Schattenbannfluch"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57084 = "Verflucht Gegner in der Nähe und verringert die erhaltene Heilung 10 Minuten lang um 50%.\n\nEntfernt den Fluch sofort und priorisiert dabei die Tanks."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57082 = "Blutrausch"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57082 = "Erhöht bei etwa 30% Gesundheit das Nahkampfangriffstempo 2 Minuten lang um 35%."
     IJ_DB_RAID_KARA10_BOSS_NAME_61222 = "Lord Blackwald II"
     IJ_DB_RAID_KARA10_BOSS_STORY_61222 =
         "Lord Blackwald II ist ein elendes Wesen, das sich über den düsteren Erwerb der Sense von Elune freute. Seine Böswilligkeit hallt durch die Hallen und findet im Besitz des mächtigen, verfluchten Relikts eine verdrehte Befriedigung. Er bewacht das Artefakt mit einem Fanatismus, der aus der langfristigen Einwirkung seiner schattengebundenen Macht resultiert, und dient als düstere Erinnerung daran, dass Karazhans Bewohner ebenso Gefangene ihrer eigenen Wünsche sind wie der Mauern des Turms."

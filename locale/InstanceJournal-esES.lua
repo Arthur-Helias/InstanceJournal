@@ -2288,6 +2288,14 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_KARA10_BOSS_NAME_61223 = "Señor de las garras Colmillo Aullido"
     IJ_DB_RAID_KARA10_BOSS_STORY_61223 =
         "Clawlord Howlfang es el líder tiránico de los huargen que han infestado Karazhan. Atraído por la presencia de la Guadaña de Elune, que fue llevada a la torre por un misterioso Jinete Oscuro, Howlfang ha afirmado su dominio sobre las diversas tribus que acechan en las sombras. Al cortarlo, uno podría esperar sofocar la devastación salvaje que amenaza con consumir los pasillos inferiores."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57076 = "Mordedura babeante"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57076 = "Inflige daño físico y hace que el objetivo sangre cada 1,5 segundos durante 12 segundos."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57083 = "Presencia aterradora"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57083 = "Reduce la armadura y el daño infligido por los enemigos en un radio de 10 metros. Este efecto se acumula y dura 10 segundos.\n\nMantén solo a un tanque cerca de Howlfang mientras el otro espera fuera de la línea de visión. Intercambiad posiciones al acumular cargas para que el tanque anterior salga de la línea de visión y deje que el efecto expire. Unas 15 cargas pueden servir de referencia, pero la banda debe decidir cuándo cambiar.\n\nLos jugadores de daño también deben salir de la línea de visión para reiniciar sus cargas cuando sea necesario, normalmente con menos frecuencia que los tanques."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57084 = "Maldición de Shadowbane"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57084 = "Maldice a los enemigos cercanos y reduce la sanación recibida un 50% durante 10 minutos.\n\nElimina la maldición inmediatamente, dando prioridad a los tanques."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57082 = "Frenesí sangriento"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57082 = "Al alcanzar aproximadamente un 30% de salud, aumenta la velocidad de ataque cuerpo a cuerpo un 35% durante 2 minutos."
     IJ_DB_RAID_KARA10_BOSS_NAME_61222 = "Señor Blackwald II"
     IJ_DB_RAID_KARA10_BOSS_STORY_61222 =
         "Lord Blackwald II es un ser miserable que se deleitaba con la oscura adquisición de la Guadaña de Elune. Su malevolencia resuena por los pasillos y encuentra una retorcida satisfacción en la posesión de la poderosa y maldita reliquia. Guarda el artefacto con un fanatismo nacido de la exposición prolongada a su poder vinculado a las sombras, lo que sirve como un sombrío recordatorio de que los residentes de Karazhan son tan prisioneros de sus propios deseos como lo son de los muros de la torre."

@@ -2276,6 +2276,14 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_KARA10_BOSS_NAME_61223 = "Senhor das Garras Howlfang"
     IJ_DB_RAID_KARA10_BOSS_STORY_61223 =
         "Clawlord Howlfang é o líder tirânico dos worgens que infestaram Karazhan. Atraído pela presença da Foice de Eluna – que foi trazida para a torre por um misterioso Cavaleiro das Trevas – Howlfang afirmou seu domínio sobre as várias tribos que espreitam nas sombras. Ao cortar seu domínio, pode-se esperar reprimir a devastação selvagem que ameaça consumir os salões inferiores."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57076 = "Mordida Babante"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57076 = "Causa dano Físico e faz o alvo sangrar a cada 1,5 segundo por 12 segundos."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57083 = "Presença Aterrorizante"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57083 = "Reduz a armadura e o dano causado pelos inimigos em um raio de 10 jardas. Este efeito acumula e dura 10 segundos.\n\nMantenha apenas um tanque próximo de Howlfang enquanto o outro espera fora da linha de visão. Troquem de posição conforme os acúmulos aumentam, permitindo que o tanque anterior saia da linha de visão e deixe o efeito expirar. Cerca de 15 acúmulos podem servir de referência para a troca, mas a raid deve decidir o momento.\n\nOs causadores de dano também devem sair da linha de visão para resetar os acúmulos conforme necessário, geralmente com menos frequência que os tanques."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57084 = "Maldição de Shadowbane"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57084 = "Amaldiçoa os inimigos próximos, reduzindo a cura recebida em 50% por 10 minutos.\n\nRemova a maldição imediatamente, priorizando os tanques."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57082 = "Frenesi de Sangue"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57082 = "Ao atingir cerca de 30% de vida, aumenta a velocidade de ataque corpo a corpo em 35% por 2 minutos."
     IJ_DB_RAID_KARA10_BOSS_NAME_61222 = "Lorde Blackwald II"
     IJ_DB_RAID_KARA10_BOSS_STORY_61222 =
         "Lorde Blackwald II é um ser miserável que se deleitou com a sombria aquisição da Foice de Eluna. Sua malevolência ressoa pelos corredores, encontrando uma satisfação distorcida na posse da poderosa e amaldiçoada relíquia. Ele guarda o artefato com um fanatismo nascido da exposição de longo prazo ao seu poder limitado pelas sombras, servindo como um lembrete sombrio de que os residentes de Karazhan são tão prisioneiros de seus próprios desejos quanto das paredes da torre."

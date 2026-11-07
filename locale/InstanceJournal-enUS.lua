@@ -4691,6 +4691,14 @@ IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57094 = "Deals Fire damage to an ene
 IJ_DB_RAID_KARA10_BOSS_NAME_61223 = "Clawlord Howlfang"
 IJ_DB_RAID_KARA10_BOSS_STORY_61223 =
     "Clawlord Howlfang is the tyrannical leader of the worgen that have infested Karazhan. Attracted by the presence of the Scythe of Elune-which was brought to the tower by a mysterious Dark Rider-Howlfang has asserted his dominance over the various tribes lurking in the shadows. By severing his grasp, one might hope to quell the feral devastation that threatens to consume the lower halls."
+IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57076 = "Slavering Bite"
+IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57076 = "Deals Physical damage and causes the target to bleed every 1.5 seconds for 12 seconds."
+IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57083 = "Terrifying Presence"
+IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57083 = "Reduces the armor and damage dealt by enemies within 10 yards. This effect stacks and lasts 10 seconds.\n\nKeep only one tank near Howlfang while the other waits out of line of sight. Swap positions as stacks build up so the previous tank can move out of line of sight and let the effect expire. Around 15 stacks can be used as a swap point, but the raid should choose the timing.\n\nDamage dealers should also move out of line of sight to reset their stacks as needed, usually less frequently than the tanks."
+IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57084 = "Shadowbane Curse"
+IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57084 = "Curses nearby enemies, reducing healing received by 50% for 10 minutes.\n\nRemove the curse immediately, prioritizing the tanks."
+IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57082 = "Bloodfrenzy"
+IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57082 = "At around 30% health, increases melee attack speed by 35% for 2 minutes."
 IJ_DB_RAID_KARA10_BOSS_NAME_61222 = "Lord Blackwald II"
 IJ_DB_RAID_KARA10_BOSS_STORY_61222 =
     "Lord Blackwald II is a wretched being who reveled in the dark acquisition of the Scythe of Elune. His malevolence resonates through the halls, finding a twisted satisfaction in the possession of the powerful, cursed relic. He guards the artifact with a fanaticism born of long-term exposure to its shadow-bound power, serving as a grim reminder that Karazhan's residents are as much prisoners of their own desires as they are of the tower's walls."

@@ -132,7 +132,7 @@ KARA10.Bosses = {
             [27] = {IJDB.I[70102], DropChance = 1}
         }
     },
-    [4] = { -- NOTE: Missing abilities
+    [4] = {
         Id = "61223",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "clawlord" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "clawlord" .. IMPF,
@@ -140,6 +140,12 @@ KARA10.Bosses = {
         Story = IJ_DB_RAID_KARA10_BOSS_STORY_61223,
         MapCoordinateX = 69.1,
         MapCoordinateY = 55.5,
+        Abilities = {
+            [1] = {Id = "57076", Icon = "Ability_GhoulFrenzy", Name = IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57076, Effect = IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57076},
+            [2] = {Id = "57083", Icon = "Spell_Shadow_VampiricAura", Name = IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57083, Effect = IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57083},
+            [3] = {Id = "57084", Icon = "Spell_Shadow_GatherShadows", Name = IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57084, Effect = IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57084, Flags = {IMAF.Curse}},
+            [4] = {Id = "57082", Icon = "Spell_Shadow_UnholyFrenzy", Name = IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57082, Effect = IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57082, Flags = {IMAF.Enrage}}
+        },
         Loot = {
             [1] = {IJDB.I[8547], DropChance = 1},
             [2] = {IJDB.I[13517], DropChance = 1},

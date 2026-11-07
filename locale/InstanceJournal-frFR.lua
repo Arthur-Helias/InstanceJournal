@@ -2288,6 +2288,14 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_KARA10_BOSS_NAME_61223 = "Seigneur des griffes Croc Hurlant"
     IJ_DB_RAID_KARA10_BOSS_STORY_61223 =
         "Clawlord Howlfang est le chef tyrannique des worgens qui ont infesté Karazhan. Attiré par la présence de la Faux d'Élune, qui a été amenée à la tour par un mystérieux Cavalier Noir, Howlfang a affirmé sa domination sur les différentes tribus cachées dans l'ombre. En lui coupant l’emprise, on pourrait espérer apaiser la dévastation sauvage qui menace de consumer les salles inférieures."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57076 = "Morsure baveuse"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57076 = "Inflige des dégâts physiques et fait saigner la cible toutes les 1,5 secondes pendant 12 secondes."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57083 = "Présence terrifiante"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57083 = "Réduit l’armure et les dégâts infligés par les ennemis à moins de 10 mètres. Cet effet se cumule et dure 10 secondes.\n\nGardez un seul tank près de Howlfang pendant que l’autre attend hors de sa ligne de vue. Échangez vos positions lorsque les charges s’accumulent afin que le tank précédent puisse sortir de la ligne de vue et laisser l’effet expirer. Environ 15 charges peuvent servir de repère, mais le raid doit décider du moment de l’échange.\n\nLes joueurs infligeant des dégâts doivent également sortir de la ligne de vue pour réinitialiser leurs charges si nécessaire, généralement moins souvent que les tanks."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57084 = "Malédiction de Shadowbane"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57084 = "Maudit les ennemis proches et réduit les soins reçus de 50% pendant 10 minutes.\n\nSupprimez immédiatement la malédiction, en donnant la priorité aux tanks."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57082 = "Frénésie sanguinaire"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57082 = "À environ 30% de ses points de vie, augmente sa vitesse d’attaque en mêlée de 35% pendant 2 minutes."
     IJ_DB_RAID_KARA10_BOSS_NAME_61222 = "Seigneur Blackwald II"
     IJ_DB_RAID_KARA10_BOSS_STORY_61222 =
         "Lord Blackwald II est un être misérable qui s'est délecté de la sombre acquisition de la Faux d'Elune. Sa malveillance résonne dans les couloirs, trouvant une satisfaction tordue dans la possession de la puissante et maudite relique. Il garde l'artefact avec un fanatisme né d'une exposition à long terme à son pouvoir lié à l'ombre, rappelant sombrement que les habitants de Karazhan sont autant prisonniers de leurs propres désirs que des murs de la tour."
