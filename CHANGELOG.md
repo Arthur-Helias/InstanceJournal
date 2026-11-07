@@ -2,6 +2,12 @@
 
 All changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Added
+
+- Added `Leeching Bite`, `Brood Venom Volley`, and `Skitterweb Eggs` to the `Araxxna` encounter
+
 ## [1.4.5] - 2026-11-07
 
 ### Added

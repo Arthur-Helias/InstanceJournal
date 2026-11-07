@@ -2256,6 +2256,14 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_KARA10_BOSS_NAME_61221 = "Rainha da Ninhada Araxxna"
     IJ_DB_RAID_KARA10_BOSS_STORY_61221 =
         "A energia misteriosa e misteriosa que vaza dos experimentos de Medivh distorceu a vida selvagem natural dentro das fundações da torre. Araxxna, um enorme aracnídeo, reivindicou os cantos sombreados dos corredores inferiores como seu local de nidificação. Ela e sua ninhada interminável festejam com os espíritos perdidos e exploradores incautos que vagam muito longe dos aposentos dos hóspedes, tecendo teias de mana solidificada para capturar suas presas."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57056 = "Mordida Sanguessuga"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57056 = "Causa dano de Natureza e reduz a cura recebida em 25% por 10 segundos.\n\nEste efeito de Veneno pode ser removido."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57063 = "Salva de Veneno da Ninhada"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57063 = "Causa dano de Natureza aos inimigos próximos e os envenena, causando dano adicional de Natureza a cada 3 segundos por 12 segundos.\n\nRemova o veneno rapidamente."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_30008 = "Ovos de Teiatece"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_30008 = "Aproximadamente a cada 30 segundos, Araxxna gera dois Ovos de Teiatece. Cada ovo eclode em um Rastejante Teiatece após cerca de 20 segundos se não for destruído.\n\nDestrua os ovos antes que eclodam. Os ovos restantes ainda podem eclodir após a morte de Araxxna."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_61206 = "Rastejante Teiatece"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_61206 = "Cada Ovo de Teiatece que não for destruído a tempo eclode em um Rastejante Teiatece."
     IJ_DB_RAID_KARA10_BOSS_NAME_61224 = "Grizikil"
     IJ_DB_RAID_KARA10_BOSS_STORY_61224 =
         "Colecionador por natureza, a criatura conhecida como Grizikil espreita no final dos salões de hóspedes, cercada por uma montanha de bugigangas roubadas. Entre seus tesouros mais bizarros está uma vela comicamente grande, um castiçal colossal considerado essencial para experimentos estranhos na Biblioteca do Mestre. Ele protege ferozmente seu estoque, vendo qualquer um que se aproxima como ladrões comuns procurando saquear seus “símbolos de status”."

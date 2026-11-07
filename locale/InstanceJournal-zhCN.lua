@@ -4783,6 +4783,14 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_KARA10_BOSS_NAME_61221 = "巢穴女王阿拉克萨娜"
     IJ_DB_RAID_KARA10_BOSS_STORY_61221 =
         "麦迪文实验中泄漏的黑暗奥术能量扭曲了塔内的自然野兽。阿拉克萨娜是一只巨大的蛛形生物，她将下层大厅阴影中的角落据为巢穴。她和无穷无尽的子嗣以迷失的灵魂和粗心的探险者为食；这些人远离客房徘徊时，便会被她织就的凝固法力之网困住。"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57056 = "吸血撕咬"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57056 = "造成自然伤害，并使受到的治疗效果降低25%，持续10秒。\n\n此中毒效果可以被移除。"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57063 = "蛛群毒液箭雨"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57063 = "对附近的敌人造成自然伤害并使其中毒，每3秒造成额外的自然伤害，持续12秒。\n\n及时移除毒药。"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_30008 = "掠网蛛卵"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_30008 = "阿拉克丝娜大约每30秒生成两枚掠网蛛卵。如果未被摧毁，每枚蛛卵会在约20秒后孵化出一只掠网爬行者。\n\n在孵化前摧毁蛛卵。阿拉克丝娜死亡后，剩余的蛛卵仍可能孵化。"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_61206 = "掠网爬行者"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_61206 = "每枚未被及时摧毁的掠网蛛卵都会孵化出一只掠网爬行者。"
     IJ_DB_RAID_KARA10_BOSS_NAME_61224 = "格里齐基尔"
     IJ_DB_RAID_KARA10_BOSS_STORY_61224 =
         "被称为格里兹基尔的生物本质上是个囤积者，潜伏在客房的尽头，周围是堆积如山的偷来的小饰品。他最奇异的宝藏之一是一根滑稽的大蜡烛，这是一个巨大的烛台，据说对于大师图书馆内的奇怪实验至关重要。他极力保护自己的藏品，将任何接近他的人视为想要掠夺他“地位象征”的普通小偷。"

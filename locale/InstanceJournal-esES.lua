@@ -2268,6 +2268,14 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_KARA10_BOSS_NAME_61221 = "Reina de cría Araxxna"
     IJ_DB_RAID_KARA10_BOSS_STORY_61221 =
         "La oscura energía arcana que se escapa de los experimentos de Medivh ha retorcido la vida silvestre natural dentro de los cimientos de la torre. Araxxna, un enorme arácnido, ha reclamado los rincones sombreados de los pasillos inferiores como su lugar de anidación. Ella y su interminable prole se dan un festín con los espíritus perdidos y los exploradores desprevenidos que se alejan demasiado de las habitaciones de invitados, tejiendo redes de maná solidificado para atrapar a sus presas."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57056 = "Mordedura parasitaria"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57056 = "Inflige daño de Naturaleza y reduce la sanación recibida un 25% durante 10 segundos.\n\nEste efecto de veneno se puede eliminar."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57063 = "Salva de veneno de la prole"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57063 = "Inflige daño de Naturaleza a los enemigos cercanos y los envenena, causando daño de Naturaleza adicional cada 3 segundos durante 12 segundos.\n\nElimina el veneno rápidamente."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_30008 = "Huevos de Telaraña"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_30008 = "Aproximadamente cada 30 segundos, Araxxna genera dos Huevos de Telaraña. De cada huevo nace un Reptador de Telaraña tras unos 20 segundos si no se destruye.\n\nDestruye los huevos antes de que eclosionen. Los huevos restantes pueden eclosionar incluso después de la muerte de Araxxna."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_61206 = "Reptador de Telaraña"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_61206 = "De cada Huevo de Telaraña que no se destruya a tiempo nace un Reptador de Telaraña."
     IJ_DB_RAID_KARA10_BOSS_NAME_61224 = "Grizikil"
     IJ_DB_RAID_KARA10_BOSS_STORY_61224 =
         "Acaparador por naturaleza, la criatura conocida como Grizikil acecha al final de las salas de invitados, rodeada por una montaña de baratijas robadas. Entre sus tesoros más extraños se encuentra una vela cómicamente grande, un candelabro colosal que se dice que es esencial para extraños experimentos dentro de la Biblioteca del Maestro. Es ferozmente protector con su alijo y considera a cualquiera que se acerque como ladrones comunes que buscan saquear sus \"símbolos de estatus\"."

@@ -2268,6 +2268,14 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_KARA10_BOSS_NAME_61221 = "Brutkönigin Araxxna"
     IJ_DB_RAID_KARA10_BOSS_STORY_61221 =
         "Die dunkle arkane Energie, die aus Medivhs Experimenten austritt, hat die natürliche Tierwelt in den Fundamenten des Turms verändert. Araxxna, ein riesiges Spinnentier, hat die schattigen Ecken der unteren Hallen als seinen Nistplatz beansprucht. Sie und ihre endlose Brut ernähren sich von den verlorenen Geistern und unvorsichtigen Entdeckern, die sich zu weit von den Gästezimmern entfernen und Netze aus erstarrtem Mana weben, um ihre Beute zu fangen."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57056 = "Blutsaugerbiss"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57056 = "Verursacht Naturschaden und verringert die erhaltene Heilung 10 Sekunden lang um 25%.\n\nDieser Gifteffekt kann entfernt werden."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57063 = "Brutgift-Salve"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57063 = "Fügt Gegnern in der Nähe Naturschaden zu und vergiftet sie, wodurch sie 12 Sekunden lang alle 3 Sekunden zusätzlichen Naturschaden erleiden.\n\nEntfernt das Gift umgehend."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_30008 = "Huschernetzeier"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_30008 = "Etwa alle 30 Sekunden erzeugt Araxxna zwei Huschernetzeier. Aus jedem Ei schlüpft nach etwa 20 Sekunden ein Huschernetzkrabbler, wenn es nicht zerstört wird.\n\nZerstört die Eier, bevor sie schlüpfen. Verbleibende Eier können auch nach Araxxnas Tod noch schlüpfen."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_61206 = "Huschernetzkrabbler"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_61206 = "Aus jedem Huschernetzei, das nicht rechtzeitig zerstört wird, schlüpft ein Huschernetzkrabbler."
     IJ_DB_RAID_KARA10_BOSS_NAME_61224 = "Grizikil"
     IJ_DB_RAID_KARA10_BOSS_STORY_61224 =
         "Die als Grizikil bekannte Kreatur ist von Natur aus ein Sammler und lauert am Ende der Gästehallen, umgeben von einem Berg gestohlener Schmuckstücke. Zu seinen bizarrsten Schätzen gehört eine komisch große Kerze, ein kolossaler Kerzenständer, der angeblich für seltsame Experimente in der Meisterbibliothek unerlässlich ist. Er schützt seine Vorräte aufs Schärfste und betrachtet jeden, der sich ihm nähert, als gewöhnliche Diebe, die seine „Statussymbole“ plündern wollen."

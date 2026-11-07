@@ -2268,6 +2268,14 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_KARA10_BOSS_NAME_61221 = "Reine couveuse Araxxna"
     IJ_DB_RAID_KARA10_BOSS_STORY_61221 =
         "L'énergie obscure des arcanes qui s'échappe des expériences de Medivh a perturbé la faune naturelle présente dans les fondations de la tour. Araxxna, un arachnide massif, a revendiqué les coins ombragés des salles inférieures comme terrain de nidification. Elle et sa couvée sans fin se régalent des esprits perdus et des explorateurs imprudents qui s'éloignent trop des chambres d'hôtes, tissant des toiles de mana solidifié pour piéger ses proies."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57056 = "Morsure drainante"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57056 = "Inflige des dégâts de Nature et réduit les soins reçus de 25% pendant 10 secondes.\n\nCet effet de poison peut être supprimé."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57063 = "Salve de venin de couvée"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57063 = "Inflige des dégâts de Nature aux ennemis proches et les empoisonne, infligeant des dégâts de Nature supplémentaires toutes les 3 secondes pendant 12 secondes.\n\nSupprimez rapidement le poison."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_30008 = "Œufs de Tisse-toile"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_30008 = "Environ toutes les 30 secondes, Araxxna fait apparaître deux Œufs de Tisse-toile. Chaque œuf éclot après environ 20 secondes et libère un Rampant Tisse-toile s’il n’est pas détruit.\n\nDétruisez les œufs avant leur éclosion. Les œufs restants peuvent encore éclore après la mort d’Araxxna."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_61206 = "Rampant Tisse-toile"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_61206 = "Chaque Œuf de Tisse-toile qui n’est pas détruit à temps éclot et libère un Rampant Tisse-toile."
     IJ_DB_RAID_KARA10_BOSS_NAME_61224 = "Grizikil"
     IJ_DB_RAID_KARA10_BOSS_STORY_61224 =
         "Accusatrice par nature, la créature connue sous le nom de Grizikil se cache au bout des salles des invités, entourée d'une montagne de bibelots volés. Parmi ses trésors les plus bizarres se trouve une bougie d'une taille comique, un chandelier colossal considéré comme essentiel pour d'étranges expériences au sein de la bibliothèque du Maître. Il protège farouchement sa réserve, considérant tous ceux qui l'approchent comme de simples voleurs cherchant à piller ses « symboles de statut »."

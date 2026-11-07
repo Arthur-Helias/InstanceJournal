@@ -4671,6 +4671,14 @@ IJ_DB_RAID_KARA10_BOSS_STORY_61319 =
 IJ_DB_RAID_KARA10_BOSS_NAME_61221 = "Brood Queen Araxxna"
 IJ_DB_RAID_KARA10_BOSS_STORY_61221 =
     "The dark arcane energy leaking from Medivh's experiments has twisted the natural wildlife within the tower's foundations. Araxxna, a massive arachnid, has claimed the shadowed corners of the lower halls as her nesting ground. She and her endless brood feast on the lost spirits and unwary explorers who wander too far from the guest chambers, weaving webs of solidified mana to trap her prey."
+IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57056 = "Leeching Bite"
+IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57056 = "Deals Nature damage and reduces healing received by 25% for 10 seconds.\n\nThis Poison effect can be removed."
+IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57063 = "Brood Venom Volley"
+IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57063 = "Deals Nature damage to nearby enemies and poisons them, dealing additional Nature damage every 3 seconds for 12 seconds.\n\nRemove the poison promptly."
+IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_30008 = "Skitterweb Eggs"
+IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_30008 = "Approximately every 30 seconds, Araxxna spawns two Skitterweb Eggs. Each egg hatches into a Skitterweb Crawler after about 20 seconds if not destroyed.\n\nDestroy the eggs before they hatch. Remaining eggs can still hatch after Araxxna dies."
+IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_61206 = "Skitterweb Crawler"
+IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_61206 = "Each Skitterweb Egg that is not destroyed in time hatches into one Skitterweb Crawler."
 IJ_DB_RAID_KARA10_BOSS_NAME_61224 = "Grizikil"
 IJ_DB_RAID_KARA10_BOSS_STORY_61224 =
     "A hoarder by nature, the creature known as Grizikil lurks at the end of the guest halls, surrounded by a mountain of stolen trinkets. Among his most bizarre treasures is a comically large candle, a colossal candlestick said to be essential for strange experiments within the Master's Library. He is fiercely protective of his stash, viewing any who approach as common thieves looking to plunder his 'status symbols'."

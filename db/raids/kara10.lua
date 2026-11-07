@@ -34,7 +34,7 @@ KARA10.Bosses = {
         MapIsBelow = true,
         Loot = {[1] = {IJDB.I[61805], DropChance = 1}, [2] = {IJDB.I[61806], DropChance = 1}, [3] = {IJDB.I[61807], DropChance = 1}, [4] = {IJDB.I[61808], DropChance = 1}}
     },
-    [2] = { -- NOTE: Missing abilities
+    [2] = {
         Id = "61221",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "araxxna" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "araxxna" .. IMPF,
@@ -43,6 +43,20 @@ KARA10.Bosses = {
         MapCoordinateX = 82.6,
         MapCoordinateY = 25.3,
         MapIsBelow = true,
+        Abilities = {
+            [1] = {Id = "57056", Icon = "Ability_PoisonSting", Name = IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57056, Effect = IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57056, Flags = {IMAF.Poison}},
+            [2] = {Id = "57063", Icon = "Spell_Nature_InsectSwarm", Name = IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57063, Effect = IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57063, Flags = {IMAF.Poison}},
+            [3] = {
+                Id = "30008",
+                Icon = "INV_Egg_02",
+                Name = IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_30008,
+                Effect = IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_30008,
+                Flags = {IMAF.Important},
+                SubAbilities = {
+                    [1] = {Id = "61206", Icon = "Ability_Hunter_Pet_Spider", Name = IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_61206, Effect = IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_61206}
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[8547], DropChance = 1},
             [2] = {IJDB.I[13517], DropChance = 1},
