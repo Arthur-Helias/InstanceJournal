@@ -235,7 +235,7 @@ KARA10.Bosses = {
             [30] = {IJDB.I[42166], DropChance = 10}
         }
     },
-    [6] = { -- NOTE: Missing abilities
+    [6] = {
         Id = "61225",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "moroes" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "moroes" .. IMPF,
@@ -243,6 +243,15 @@ KARA10.Bosses = {
         Story = IJ_DB_RAID_KARA10_BOSS_STORY_61225,
         MapCoordinateX = 34.9,
         MapCoordinateY = 25.3,
+        Abilities = {
+            [1] = {Id = "57095", Icon = "INV_Misc_Dust_02", Name = IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57095, Effect = IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57095},
+            [2] = {Id = "57096", Icon = "INV_Misc_Bomb_02", Name = IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57096, Effect = IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57096, Flags = {IMAF.Magic}},
+            [3] = {Id = "57097", Icon = "Ability_Kick", Name = IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57097, Effect = IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57097},
+            [4] = {Id = "57098", Icon = "Ability_Daze", Name = IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57098, Effect = IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57098},
+            [5] = {Id = "57099", Icon = "Spell_Shadow_ShadowBolt", Name = IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57099, Effect = IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57099},
+            [6] = {Id = "27564", Icon = "Spell_Shadow_Teleport", Name = IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_27564, Effect = IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_27564, Flags = {IMAF.Magic}},
+            [7] = {Id = "57100", Icon = "Spell_Shadow_CurseOfTounges", Name = IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57100, Effect = IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57100, Flags = {IMAF.Curse}}
+        },
         Loot = {
             [1] = {IJDB.I[8547], DropChance = 1},
             [2] = {IJDB.I[13517], DropChance = 2},

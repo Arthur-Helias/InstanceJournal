@@ -2314,6 +2314,21 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57082 = "Blutrausch"
     IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57082 = "Erhöht bei etwa 30% Gesundheit das Nahkampfangriffstempo 2 Minuten lang um 35%."
     IJ_DB_RAID_KARA10_BOSS_NAME_61225 = "Moroes"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57095 = "Glitzernder Staub"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57095 = "Betäubt einen Gegner, meist den aktuellen Tank, für 10 Sekunden.\n\nBenutzt vor Glitzerndem Staub einen Trank der freien Aktion, um die Betäubung zu verhindern."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57096 = "Rauchbombe"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57096 = "Bringt Gegner im betroffenen Bereich 10 Sekunden lang zum Schweigen und verhindert das Zaubern.\n\nBannt den magischen Effekt umgehend und priorisiert Tanks und Heiler.\n\nVerteilt euch und stellt Heiler auf gegenüberliegenden Seiten auf, um das Risiko zu verringern, dass mehrere Heiler gleichzeitig zum Schweigen gebracht werden."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57097 = "Wirbeltritt"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57097 = "Fügt einem Gegner körperlichen Schaden zu, stößt ihn zurück und betäubt ihn für 4 Sekunden.\n\nDie Tanks sollten abwechselnd spotten, um Moroes auf sich zu halten. Schadensausteiler sollten in der Bedrohungsliste unter beiden Tanks bleiben."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57098 = "Peinigende Gehirnerschütterung"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57098 = "Verringert das Bewegungstempo um 50% und das Angriffstempo um 30% für 30 Sekunden."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57099 = "Schattenexplosion"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57099 = "Fügt einem Gegner Schattenschaden zu."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_27564 = "Reflexion"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_27564 = "Reflektiert 5 Sekunden lang schädliche Zauber.\n\nEntfernt den magischen Stärkungseffekt oder wirkt bis zu seinem Ende keine schädlichen Zauber auf Moroes."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57100 = "Moroes’ Fluch"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57100 = "Verringert das Zaubertempo von Gegnern in der Nähe 15 Sekunden lang um 60%.\n\nEntfernt den Fluch umgehend."
+
     IJ_DB_RAID_KARA10_BOSS_STORY_61225 =
         "Moroes, der verfluchte und untote Kastellan von Karazhan, führt seine Pflichten fort, als ob der Meister noch zu Hause wäre. Er ist ein gerissener und erbitterter Beschützer des Innenlebens des Turms und bewacht insbesondere den Schlüssel zu den oberen Kammern. Obwohl er als einfacher Diener erscheint, ist er aufgrund seiner Kampfkraft und seiner Weigerung, neugierige Blicke in die verbotenen Bereiche des Turms zu lassen, eines der größten Hindernisse in Unter-Karazhan."
 

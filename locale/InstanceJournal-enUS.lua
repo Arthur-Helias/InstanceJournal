@@ -4720,6 +4720,21 @@ IJ_DB_RAID_KARA10_BOSS_NAME_61225 = "Moroes"
 IJ_DB_RAID_KARA10_BOSS_STORY_61225 =
     "The cursed and undead castellan of Karazhan, Moroes continues his duties as if the master were still in residence. He is a cunning and fierce protector of the tower's inner workings, specifically guarding the Key to the Upper Chambers. While he appears as a simple servant, his combat prowess and refusal to allow prying eyes into the forbidden sections of the tower make him one of the most formidable obstacles in Lower Karazhan."
 
+IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57095 = "Glittering Dust"
+IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57095 = "Stuns an enemy, usually the current tank, for 10 seconds.\n\nUse a Free Action Potion before Glittering Dust to prevent the stun."
+IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57096 = "Smoke Bomb"
+IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57096 = "Silences enemies in the affected area for 10 seconds, preventing spellcasting.\n\nDispel the Magic effect promptly, prioritizing tanks and healers.\n\nSpread out and position healers on opposite sides to reduce the risk of multiple healers being silenced together."
+IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57097 = "Shuffle Kick"
+IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57097 = "Deals Physical damage to an enemy, knocks them back, and stuns them for 4 seconds.\n\nTanks should alternate taunts to keep Moroes on them. Damage dealers should stay below both tanks on threat."
+IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57098 = "Agonizing Concussion"
+IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57098 = "Reduces movement speed by 50% and attack speed by 30% for 30 seconds."
+IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57099 = "Shadow Blast"
+IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57099 = "Deals Shadow damage to an enemy."
+IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_27564 = "Reflection"
+IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_27564 = "Reflects harmful spells for 5 seconds.\n\nRemove the Magic buff or stop casting harmful spells at Moroes until it expires."
+IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57100 = "Moroes Curse"
+IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57100 = "Reduces the casting speed of nearby enemies by 60% for 15 seconds.\n\nRemove the curse promptly."
+
 -- KARA10 Loot
 IJ_LOOT_NAME_51326 = "Scribbled Cooking Notes"
 IJ_LOOT_NAME_8547 = "Formula: Powerful Smelling Salts"

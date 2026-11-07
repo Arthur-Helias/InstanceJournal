@@ -2314,6 +2314,21 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57082 = "Frénésie sanguinaire"
     IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57082 = "À environ 30% de ses points de vie, augmente sa vitesse d’attaque en mêlée de 35% pendant 2 minutes."
     IJ_DB_RAID_KARA10_BOSS_NAME_61225 = "Moroès"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57095 = "Poussière scintillante"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57095 = "Étourdit un ennemi, généralement le tank actuel, pendant 10 secondes.\n\nUtilisez une Potion de libre action avant Poussière scintillante pour empêcher l’étourdissement."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57096 = "Bombe fumigène"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57096 = "Réduit au silence les ennemis dans la zone affectée pendant 10 secondes, les empêchant de lancer des sorts.\n\nDissipez rapidement l’effet magique, en donnant la priorité aux tanks et aux soigneurs.\n\nEspacez-vous et placez les soigneurs sur des côtés opposés pour réduire le risque que plusieurs soigneurs soient réduits au silence en même temps."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57097 = "Coup de pied déséquilibrant"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57097 = "Inflige des dégâts physiques à un ennemi, le repousse et l’étourdit pendant 4 secondes.\n\nLes tanks doivent alterner leurs provocations pour garder Moroes sur eux. Les joueurs infligeant des dégâts doivent rester en dessous des deux tanks dans la liste de menace."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57098 = "Commotion atroce"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57098 = "Réduit la vitesse de déplacement de 50% et la vitesse d’attaque de 30% pendant 30 secondes."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57099 = "Explosion d’Ombre"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57099 = "Inflige des dégâts d’Ombre à un ennemi."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_27564 = "Réflexion"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_27564 = "Renvoie les sorts néfastes pendant 5 secondes.\n\nSupprimez l’amélioration magique ou cessez de lancer des sorts néfastes sur Moroes jusqu’à son expiration."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57100 = "Malédiction de Moroes"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57100 = "Réduit la vitesse d’incantation des ennemis proches de 60% pendant 15 secondes.\n\nSupprimez rapidement la malédiction."
+
     IJ_DB_RAID_KARA10_BOSS_STORY_61225 =
         "Château maudit et mort-vivant de Karazhan, Moroes continue ses fonctions comme si le maître était toujours en résidence. Il est un protecteur rusé et féroce du fonctionnement interne de la tour, gardant spécifiquement la clé des chambres hautes. Bien qu'il apparaît comme un simple serviteur, ses prouesses au combat et son refus de laisser les regards indiscrets pénétrer dans les sections interdites de la tour font de lui l'un des obstacles les plus redoutables du Bas Karazhan."
 

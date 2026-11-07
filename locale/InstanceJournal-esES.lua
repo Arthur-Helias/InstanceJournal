@@ -2314,6 +2314,21 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57082 = "Frenesí sangriento"
     IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57082 = "Al alcanzar aproximadamente un 30% de salud, aumenta la velocidad de ataque cuerpo a cuerpo un 35% durante 2 minutos."
     IJ_DB_RAID_KARA10_BOSS_NAME_61225 = "Moroes"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57095 = "Polvo reluciente"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57095 = "Aturde a un enemigo, normalmente al tanque actual, durante 10 segundos.\n\nUsa una Poción de acción libre antes de Polvo reluciente para evitar el aturdimiento."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57096 = "Bomba de humo"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57096 = "Silencia a los enemigos en la zona afectada durante 10 segundos, impidiéndoles lanzar hechizos.\n\nDisipa el efecto mágico rápidamente, dando prioridad a los tanques y sanadores.\n\nDispersaos y colocad a los sanadores en lados opuestos para reducir el riesgo de que varios sanadores sean silenciados a la vez."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57097 = "Patada desequilibrante"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57097 = "Inflige daño físico a un enemigo, lo repele y lo aturde durante 4 segundos.\n\nLos tanques deben alternar provocaciones para mantener a Moroes sobre ellos. Los jugadores de daño deben permanecer por debajo de ambos tanques en amenaza."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57098 = "Conmoción agónica"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57098 = "Reduce la velocidad de movimiento un 50% y la velocidad de ataque un 30% durante 30 segundos."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57099 = "Explosión de las Sombras"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57099 = "Inflige daño de las Sombras a un enemigo."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_27564 = "Reflejo"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_27564 = "Refleja hechizos dañinos durante 5 segundos.\n\nElimina el beneficio mágico o deja de lanzar hechizos dañinos contra Moroes hasta que expire."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57100 = "Maldición de Moroes"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57100 = "Reduce la velocidad de lanzamiento de los enemigos cercanos un 60% durante 15 segundos.\n\nElimina la maldición rápidamente."
+
     IJ_DB_RAID_KARA10_BOSS_STORY_61225 =
         "Moroes, el castellano maldito y no-muerto de Karazhan, continúa con sus deberes como si el maestro todavía estuviera en su residencia. Es un protector astuto y feroz del funcionamiento interno de la torre, específicamente custodiando la Llave de las Cámaras Superiores. Si bien parece un simple sirviente, su destreza en combate y su negativa a permitir que miradas indiscretas entren en las secciones prohibidas de la torre lo convierten en uno de los obstáculos más formidables del Bajo Karazhan."
 

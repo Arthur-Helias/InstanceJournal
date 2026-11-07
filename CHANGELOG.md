@@ -6,6 +6,8 @@ All changes to this project will be documented in this file.
 
 ### Added
 
+- Added missing abilities to the `Moroes` encounter
+- Added guidance for `Moroes` tank taunts, healer spacing, and `Free Action Potion` use against `Glittering Dust`
 - Added missing abilities to the `Lord Blackwald II` encounter and its `Shadowbane Ragefang`
 - Documented `Bloodfrenzy` at around 30% health for `Shadowbane Ragefang`
 - Added `Leeching Bite`, `Brood Venom Volley`, and `Skitterweb Eggs` to the `Araxxna` encounter
