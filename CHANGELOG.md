@@ -2,12 +2,56 @@
 
 All changes to this project will be documented in this file.
 
+## [1.4.5] - 2026-11-07
+
+### Added
+
+- Added `Brain Wash` to the `Jin'do` encounter
+- Added `Knockdown` and `Thrash` to the `Sons of Hakkar`
+- Added missing abilities to the `Jeklik` encounter
+- Added missing abilities to the `Venoxis` encounter and its Razzashi Cobras
+- Added `Corrosive Poison` and growth effects for the `Mar'li` encounter
+- Added missing abilities and `Chained Spirits` to the `Mandokir` encounter
+- Added `Forked Lightning` to the `Wushoolay` encounter
+- Added `Ambush` and `Thousand Blades` to the `Renataki` encounter
+- Added the stun at the start of `Gri'lek`'s `Avatar`
+- Added `Earth Shock` to the `Hazza'rah` encounter
+- Added `Sinister Strike` and `Claw` to the `Thekal` encounter
+- Added `Shadow Word: Pain`, `Backstab`, `Ravage`, and `Thrash` to the `Arlokk` encounter
+
+### Fixed
+
+- Corrected `Jin'do` spell IDs, `Hex` dispel guidance, and the description of `Delusions of Jin'do`
+- Simplified `Shade of Jin'do` and `Shadow Shock` descriptions and removed the melee interruption entry
+- Corrected `Hakkar`'s `Blood Siphon` spell ID and `Corrupted Blood` damage and timing description
+- Clarified `Sons of Hakkar` respawns and guidance for `Blood Siphon` and `Cause Insanity`
+- Fixed Molten Core ability links opening the boss entry instead of the corresponding add ability
+- Corrected `Jeklik` spell IDs, ranges, crowd control effects, and healing description
+- Corrected `Venoxis` spell versions, poison removal guidance, and the descriptions of `Parasitic Serpent` and `Enrage`
+- Corrected `Mar'li` ability grouping and guidance for `Charge`, `Drain Life`, and `Enveloping Webs`
+- Corrected `Mandokir` guidance for `Threatening Gaze`, player deaths, and the effects of `Enrage`
+- Corrected `Wushoolay` spell IDs and the descriptions of `Chain Lightning` and `Lightning Cloud`
+- Corrected `Renataki` spell IDs and guidance for `Vanish`, `Gouge`, and `Enrage`
+- Corrected `Gri'lek` ability descriptions and the spell ID and dispel guidance for `Entangling Roots`
+- Corrected `Hazza'rah` spell IDs and guidance for `Chain Burn`, `Sleep`, and `Summon Nightmare Illusions`
+- Corrected `Gahz'ranka`'s `Frost Breath` spell ID and the descriptions of `Frost Breath`, `Slam`, and `Massive Geyser`
+- Corrected `Thekal` encounter spell IDs, ability descriptions, and phase links
+- Corrected `Arlokk` ability grouping for `Gouge` and `Mark of Arlokk`
+- Corrected `Arlokk`'s `Whirlwind` spell ID and damage description
+
+### Changed
+
+- Separated effects and player guidance into paragraphs in longer Molten Core ability descriptions
+- Expanded `Edge of Madness` lore with the four troll spirits and their summoning ritual
+- Expanded `Gahz'ranka` lore with Nat Pagle and the summoning lure
+- Grouped `Ragnaros`'s `Elemental Fire` area damage under the main ability and clarified that it triggers around the struck target
+
 ## [1.4.4] - 2026-11-05
 
 ### Added
 
 - Added missing abilities to Molten Core encounters
-- Added translations for Molten Core abilities and updated lore in all supported locales
+- Added translations for Molten Core abilities and updated lore
 
 ### Changed
 

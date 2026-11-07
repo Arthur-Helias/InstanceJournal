@@ -612,7 +612,7 @@ MC.Bosses = {
                         Flags = {IMAF.Magic}
                     },
                     [4] = {
-                        Id = "19777",
+                        Id = "flamewakerpriests-19777",
                         Icon = "Ability_ThunderBolt",
                         Name = IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19777,
                         Effect = IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19777,
@@ -889,13 +889,13 @@ MC.Bosses = {
                 Flags = {IMAF.Important},
                 SubAbilities = {
                     [1] = {
-                        Id = "52722",
+                        Id = "mirrorimage-52722",
                         Icon = "Spell_Arcane_Blast",
                         Name = IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52722,
                         Effect = IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52722
                     },
                     [2] = {
-                        Id = "52723",
+                        Id = "mirrorimage-52723",
                         Icon = "Spell_Arcane_StarFire",
                         Name = IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52723,
                         Effect = IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52723
@@ -1012,7 +1012,7 @@ MC.Bosses = {
                         Flags = {IMAF.Tank}
                     },
                     [2] = {
-                        Id = "20229",
+                        Id = "flamewakerelites-20229",
                         Icon = "Spell_Holy_Excorcism_02",
                         Name = IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20229,
                         Effect = IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20229
@@ -1062,22 +1062,24 @@ MC.Bosses = {
                 Icon = "Spell_Fire_Fireball",
                 Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20564,
                 Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20564,
-                Flags = {IMAF.Tank}
+                Flags = {IMAF.Tank},
+                SubAbilities = {
+                    [1] = {
+                        Id = "44058",
+                        Icon = "Spell_Fire_Fireball",
+                        Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058,
+                        Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058
+                    }
+                }
             },
             [2] = {
-                Id = "44058",
-                Icon = "Spell_Fire_Fireball",
-                Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058,
-                Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058
-            },
-            [3] = {
                 Id = "20566",
                 Icon = "Spell_Fire_SoulBurn",
                 Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20566,
                 Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20566,
                 Flags = {IMAF.Tank, IMAF.Important}
             },
-            [4] = {
+            [3] = {
                 Id = "21154",
                 Icon = "Spell_Fire_Fire",
                 Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21154,
@@ -1091,20 +1093,20 @@ MC.Bosses = {
                     }
                 }
             },
-            [5] = {
+            [4] = {
                 Id = "20565",
                 Icon = "Spell_Fire_FlameBolt",
                 Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20565,
                 Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20565
             },
-            [6] = {
+            [5] = {
                 Id = "21388",
                 Icon = "INV_Sword_36",
                 Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21388,
                 Effect = IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21388,
                 Flags = {IMAF.Tank}
             },
-            [7] = {
+            [6] = {
                 Id = "26234",
                 Icon = "Spell_Fire_LavaSpawn",
                 Name = IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_26234,
@@ -1120,7 +1122,7 @@ MC.Bosses = {
                     }
                 }
             },
-            [8] = {
+            [7] = {
                 Id = "sonsofflame",
                 Name = IJ_DB_RAID_MC_BOSS_11502_NAME_sonsofflame,
                 Effect = IJ_DB_RAID_MC_BOSS_11502_DESCRIPTION_sonsofflame,
@@ -1133,7 +1135,7 @@ MC.Bosses = {
                     }
                 }
             },
-            [9] = {
+            [8] = {
                 Id = "environment",
                 Name = IJ_DB_RAID_MC_BOSS_11502_NAME_environment,
                 Effect = IJ_DB_RAID_MC_BOSS_11502_DESCRIPTION_environment,

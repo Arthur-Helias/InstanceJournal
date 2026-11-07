@@ -1394,163 +1394,274 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_NAME_14517 = "Suma Sacerdotisa Jeklik"
     IJ_DB_RAID_ZG_BOSS_STORY_14517 =
         "La Suma Sacerdotisa Jeklik es la Suma Sacerdotisa Zandalari del Dios Primordial de la Selva Hir'eek, el Murciélago. Enviada a Zul'Gurub para detener a Hakkar el Desollador de Almas, finalmente el dios de la sangre la convirtió."
-    IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Stage One: Bat Form"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 = "Jeklik assumes the form of a bat until she is at 50% health."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Explosión sónica"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 = "Jeklik emite un chillido penetrante, que inflige entre 1750 y 2250 de daño físico y silencia a todos los enemigos en un radio de 30 yardas durante 10 segundos."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_22911 = "Cargar"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_22911 = "Jeklik carga contra un enemigo a una distancia de entre 8 y 40 metros de ella. La carga inflige 1000 de daño físico y silencia a su objetivo durante 5 segundos."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_5570 = "Enjambre de murciélagos"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_5570 =
-        "Jeklik convoca un enjambre de 6 a 8 murciélagos para ayudarla durante la batalla. ||norte||  ||norte|| Esto ocurre un minuto después de la pelea y cada minuto posterior."
-    IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Etapa dos: forma de troll"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 = "Jeklik asume su forma de troll cuando alcanza el 50% de salud y alterna entre sus dos lanzamientos de hechizos."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_25807 = "Gran curación"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_25807 = "Jeklik comienza a lanzar un hechizo de curación que restaura el 25% de su salud total si no se interrumpe."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "Desollamiento mental"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 = "Jeklik canaliza una habilidad de azote mental, que inflige daño a un objetivo y a los aliados cercanos si no se interrumpe."
+    IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Fase uno: Forma de murciélago"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 =
+        "Jeklik lucha en forma de murciélago hasta alcanzar el 50% de salud."
+    IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Fase dos: Forma de trol"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 =
+        "Al 50% de salud, Jeklik vuelve a su forma de trol, usa hechizos de las Sombras y sanaciones mientras los murciélagos bombarderos atacan a la banda."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_12097 = "Perforar armadura"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_12097 =
+        "Reduce la armadura de un enemigo un 75% durante 20 segundos."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Ráfaga sónica"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 =
+        "Inflige daño físico y silencia a los enemigos en un radio de 20 metros durante 10 segundos. El silencio puede disiparse.\n\nLos sanadores y jugadores a distancia deben mantenerse fuera de su alcance siempre que sea posible."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_24408 = "Cargar"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_24408 =
+        "Carga contra un enemigo, le inflige daño físico y lo aturde durante 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23919 = "Picado"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23919 =
+        "Golpea a los enemigos en un cono frente a Jeklik, les inflige daño físico y los aturde durante 2 segundos.\n\nMantén a Jeklik de espaldas a la banda."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_batswarm = "Enjambre de murciélagos"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_batswarm =
+        "Jeklik llama a murciélagos para que la ayuden durante la fase de murciélago.\n\nLos tanques deben reunirlos mientras los jugadores de daño los eliminan."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_6605 = "Chillido aterrador"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_6605 =
+        "Aterroriza a los enemigos en un radio de 5 metros durante 4 segundos. Resguardo contra el miedo puede prevenir el miedo y el efecto mágico puede disiparse si se aplica."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23952 = "Palabra de las Sombras: dolor"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23952 =
+        "Aplica un efecto mágico que inflige daño de las Sombras cada 3 segundos durante 18 segundos. Disípalo cuanto antes."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "Tortura mental"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 =
+        "Canaliza daño de las Sombras cada segundo y reduce la velocidad de los jugadores afectados un 80% durante un máximo de 10 segundos.\n\nInterrumpe la canalización."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23954 = "Sanación superior"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23954 =
+        "Lanza una potente sanación durante 4 segundos.\n\nInterrumpe el lanzamiento para impedir que Jeklik recupere salud."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_16098 = "Maldición de sangre"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_16098 =
+        "Maldice a los enemigos cercanos y aumenta el daño físico que reciben durante 10 minutos. Elimina la maldición cuanto antes."
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "Invocar murciélagos bombarderos"
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974 =
-        "Jeklik convoca bombarderos murciélago que lanzan bombas incendiarias sobre los enemigos, dejando zonas ardientes en el suelo que causan daño a cualquiera que se encuentre en ellas."
+        "Los murciélagos bombarderos ayudan a Jeklik durante la fase de trol."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23970 = "Lanzar fuego líquido"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23970 =
+        "Los murciélagos bombarderos lanzan fuego líquido a los jugadores, infligen daño de Fuego y dejan zonas ardientes en el suelo.\n\nSal del fuego."
     IJ_DB_RAID_ZG_BOSS_NAME_14507 = "Sumo Sacerdote Venoxis"
     IJ_DB_RAID_ZG_BOSS_STORY_14507 =
         "El Sumo Sacerdote Venoxis es el Sumo Sacerdote Zandalari del Dios Primordial Hethiss, el dios serpiente. Enviado a Zul'Gurub para detener a Hakkar el Desollador de Almas, finalmente fue convertido por el dios de la sangre."
-    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "Etapa uno: forma de troll"
-    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 = "Venoxis asume su forma de troll hasta que tiene un 50% de salud."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_10713 = "La serpiente de Venoxis agrega"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_10713 =
-        "Las cuatro serpientes de Venoxis iniciarán el encuentro con él, ayudándolo durante la pelea. ||norte||  ||norte|| Estos agregados deben eliminarse antes del comienzo de la etapa dos."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "Santa ira"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 = "Venoxis lanza ira sagrada, que inflige 300 de daño sagrado que aumenta por cada enemigo en el que rebota el hechizo."
+    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "Fase uno: Forma de trol"
+    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 =
+        "Venoxis lucha en forma de trol hasta alcanzar el 50% de salud."
+    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "Fase dos: Forma de serpiente"
+    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 =
+        "Al 50% de salud, Venoxis se transforma en serpiente y usa ataques de Naturaleza."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_razzashicobras = "Cobras Razzashi"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_razzashicobras =
+        "Cuatro Cobras Razzashi acompañan a Venoxis al inicio de la lucha.\n\nDerrótalas antes de la fase de serpiente."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "Cólera Sagrada"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 =
+        "Encadena daño Sagrado entre jugadores cercanos y aumenta el daño con cada salto.\n\nDispersaos para limitar los saltos."
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895 = "Renovar"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 = "Los lanzamientos de Venoxis se renuevan, curándose a sí mismo por 2000 de salud cada 3 segundos durante 15 segundos."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "Santa Nova"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 = "Venoxis crea una explosión de luz divina que inflige de 875 a 1126 de daño sagrado a los enemigos cercanos."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860 = "Fuego Santo"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 = "Venoxis lanza fuego sagrado, consumiendo a un enemigo en llamas, causando 2200 de daño de fuego más 125 de daño de fuego cada 2 segundos durante 8 segundos."
-    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "Etapa dos: forma de serpiente"
-    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 = "Venoxis asume la forma de una serpiente cuando alcanza el 50% de salud. ||norte||  ||norte|| El daño de Venoxis aumenta durante la etapa."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_12766 = "Nube venenosa"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_12766 = "Venoxis crea una nube de veneno que inflige daño por veneno cuando se coloca dentro."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_6917 = "Escupir veneno"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_6917 = "Venoxis escupe veneno a un enemigo, lo que inflige daño natural más daño adicional cada 5 segundos durante 10 segundos."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865 = "Serpiente parásita"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 = "Venoxis genera una serpiente parásita que ataca a un enemigo y lo envenena, causando 300 de daño natural cada 2 segundos durante 10 segundos."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3019 = "Enfurecer"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3019 = "Con un 20% de salud restante, Venoxis se enfurece, lo que aumenta significativamente el daño que inflige a sus enemigos."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 =
+        "Sana a Venoxis cada 3 segundos durante 15 segundos.\n\nElimina el beneficio con una disipación ofensiva."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "Nova Sagrada"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 =
+        "Inflige daño Sagrado a los enemigos en un radio de 15 metros."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860 = "Fuego Sagrado"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 =
+        "Inflige daño de Fuego y daño de Fuego adicional cada 2 segundos durante 8 segundos.\n\nDisipa el efecto mágico."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23859 = "Disipar magia"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23859 =
+        "Elimina un efecto mágico dañino de Venoxis."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23861 = "Nube de veneno"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23861 =
+        "Crea una nube que inflige daño de Naturaleza cada segundo en un radio de 8 metros durante 10 segundos.\n\nSal de la nube inmediatamente."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23862 = "Escupitajo venenoso"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23862 =
+        "Inflige daño de Naturaleza y aplica un veneno que inflige daño de Naturaleza adicional cada 2 segundos durante 10 segundos.\n\nElimina el veneno."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865 = "Serpiente parasitaria"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 =
+        "Invoca una Serpiente parasitaria y aplica un efecto que inflige daño de Naturaleza cada 2 segundos durante 10 segundos."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3391 = "Vapulear"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3391 =
+        "Otorga a Venoxis 2 ataques cuerpo a cuerpo adicionales."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_8269 =
+        "Cerca del 20% de salud, Venoxis obtiene un 60% de velocidad de ataque cuerpo a cuerpo y 50 de daño físico adicional.\n\nLos tanques y sanadores deben prepararse para el aumento del daño recibido."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_24097 = "Veneno"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_24097 =
+        "Las Cobras Razzashi aplican un veneno que inflige daño de Naturaleza cada 3 segundos durante 30 segundos.\n\nElimina el veneno."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_27919 = "Escupir"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_27919 =
+        "Las Cobras Razzashi escupen a un enemigo, infligen daño de Naturaleza y repelen al objetivo."
     IJ_DB_RAID_ZG_BOSS_NAME_14510 = "Suma Sacerdotisa Mar'li"
     IJ_DB_RAID_ZG_BOSS_STORY_14510 =
         "Mar'li es la suma sacerdotisa de la araña loa, Shadra. Enviada por el rey Rastakhan a Zul'Gurub para detener a Hakkar el Desollador de Almas junto con los otros sumos sacerdotes loa, finalmente fue corrompida por el dios de la sangre."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Spider Form"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider = "Randomly throughout the fight, Mar'li will assume her spider form, gaining new abilities."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "Webs envolventes"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Forma de trol"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll =
+        "Mar'li comienza en forma de trol y vuelve a ella entre las transformaciones en araña."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Forma de araña"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider =
+        "Mar'li se transforma periódicamente en araña y usa telarañas, Cargar y Veneno corrosivo."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Drenar vida"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 =
+        "Canaliza daño de las Sombras cada segundo durante un máximo de 7 segundos y restaura la salud de Mar'li.\n\nInterrumpe la canalización o disipa el efecto mágico del jugador afectado."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "Telarañas envolventes"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24110 =
-        "Mar'li envuelve a todos los enemigos en un radio de 10 yardas con sus redes, enraizándolos al suelo, aumentando el tiempo entre sus ataques en un 100% e impidiéndoles lanzar hechizos durante 8 segundos. ||norte||  ||norte|| El tanque externo debe estar listo para generar amenaza instantáneamente, ya que esto restablecerá la amenaza de cada jugador rooteado."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Troll Form"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll = "After assuming her spider form, Mar'li will eventually return to her orignal troll form, regaining her standard abilities."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlicharge = "Charge"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlicharge = "Mar'li charges her target, dealing physical damage and stunning them."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Drenar la vida"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 = "Mar'li drena la vida de su objetivo, drenando 500 de salud cada 1 segundo durante 7 segundos."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Spawns of Mar'li"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
-        "Mar'li hatches her eggs, birthing 4 Spawns of Mar'li that helps her throughout the fight.\n\nThese spiders need to be dealt with as soon as possible as they will grow stronger as the fight goes on."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Volea de rayo venenoso"
+        "Enraíza a los enemigos en un radio de 10 metros, aumenta el tiempo entre sus ataques cuerpo a cuerpo un 100% y los silencia durante 8 segundos.\n\nUn tanque secundario debe estar listo para recoger a Mar'li mientras el tanque principal esté atrapado."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24408 = "Cargar"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24408 =
+        "Carga contra un enemigo en forma de araña, inflige daño físico y lo aturde durante 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24111 = "Veneno corrosivo"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24111 =
+        "Reduce la armadura de un enemigo en 5000 e inflige daño de Naturaleza cada 5 segundos durante 30 segundos.\n\nElimina el veneno cuanto antes."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Salva de descarga de veneno"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 =
-        "Mar'li dispara veneno a todos los enemigos en un rango de 30 yardas, causando 375 de daño de naturaleza inmediato y 290 de daño periódico cada 2 segundos durante 10 segundos."
+        "Inflige daño de Naturaleza a los enemigos en un radio de 30 metros y aplica un veneno que inflige daño de Naturaleza adicional cada 2 segundos durante 10 segundos.\n\nElimina el veneno."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Proles de Mar'li"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
+        "Las Proles de Mar'li se unen al combate y se fortalecen con el tiempo.\n\nElimínalas rápidamente, antes de que crezcan por completo."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24087 = "Crecimiento"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24087 =
+        "Las Proles de Mar'li crecen con el tiempo y aumentan su tamaño y daño físico."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24088 = "Desarrollo completo"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24088 =
+        "Las proles completamente desarrolladas obtienen un 50% de velocidad de ataque cuerpo a cuerpo e inmunidad a Polimorfia, miedo y sueño."
     IJ_DB_RAID_ZG_BOSS_NAME_11382 = "Señor de la sangre Mandokir"
     IJ_DB_RAID_ZG_BOSS_STORY_11382 =
         "Bloodlord Mandokir es un poderoso troll de la jungla y líder de la tribu Gurubashi. Su compañero constante es su montura raptor, Ohgan. Sirve al dios malvado Hakkar the Soulflayer en Zul'Gurub junto con el resto de su tribu."
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgan = "Ohgan"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan = "Ohgan also becomes enraged when Mandakir is attacked, defending his master until death."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgansunder = "Sunder Armor"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgansunder = "Ohgan sunders his target's armor, increasing the amount of damage they receive for every stack of Sunder Armor they are afflicted with."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan =
+        "Ohgan acompaña a Mandokir y usa Hender armadura y Vapulear.\n\nUn tanque debe mantenerlo separado del jefe."
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokir = "Mandokir"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24314 = "Mirada amenazante"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 = "Mandokir mira amenazadoramente a un enemigo aleatorio. Si el enemigo objetivo lanza algún hechizo, Mandokir cargará contra él y le infligirá un gran daño."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirwhirlwind = "Whirlwind"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirwhirlwind = "Mandokir whirlwind into the enemies, dealing damage to every one of them in melee range."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokircleave = "Cleave"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokircleave = "Mandokir cleaves, dealing physical damage to all the enemies in front of him."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokir =
+        "Mandokir lucha junto a Ohgan y se fortalece cuando mueren jugadores."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24317 = "Hender armadura"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24317 =
+        "Ohgan reduce la armadura de su objetivo en 1000 por acumulación, hasta 5 veces durante 20 segundos."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_3391 = "Vapulear"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_3391 =
+        "Otorga a Ohgan 2 ataques cuerpo a cuerpo adicionales."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24314 = "Mirada amenazadora"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 =
+        "Observa a un jugador durante 6 segundos.\n\nDeja de atacar y lanzar hechizos hasta que termine la mirada para evitar una carga de castigo."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_13736 = "Torbellino"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_13736 =
+        "Canaliza un torbellino durante 2 segundos e inflige daño físico a los enemigos en un radio de 8 metros.\n\nSal de su alcance durante la canalización."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_16856 = "Golpe mortal"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_16856 =
+        "Inflige un 200% de daño de arma y reduce la sanación recibida por el objetivo un 50% durante 5 segundos."
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24408 = "Cargar"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 = "Mandokir carga contra un enemigo, le inflige daño físico y lo aturde durante 2 segundos."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirlevelup = "Level Up"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirlevelup =
-        "Every time three player gets resurrected by a Chained Spirit, Mandokir levels up, increasing the amount of damage he deals and reducing the amount of damage he receives."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirenrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirenrage = "If Ohgan dies before Mandokir does, Mandokir becomes enraged for 1 minute, increasing the damage he deals to his enemies."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 =
+        "Carga contra un enemigo, inflige daño físico y lo aturde durante 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_19134 = "Grito intimidador"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_19134 =
+        "Aterroriza a un objetivo y hace huir de miedo a los enemigos cercanos durante un máximo de 8 segundos.\n\nResguardo contra el miedo puede prevenir el miedo."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24312 = "Subir de nivel"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24312 =
+        "Las muertes de jugadores otorgan a Mandokir acumulaciones de Subir de nivel, que aumentan su daño físico un 10% por acumulación.\n\nEvita morir incluso si hay una resurrección disponible."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24318 = "Enfurecer"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24318 =
+        "Cuando Ohgan muere antes que Mandokir, Mandokir obtiene un 50% de daño físico y un 65% de velocidad de ataque cuerpo a cuerpo durante 90 segundos.\n\nLos tanques y sanadores deben prepararse para el aumento del daño recibido."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_15117 = "Espíritus encadenados"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117 =
+        "Los Espíritus encadenados pueden revivir a los jugadores caídos durante la lucha."
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "Borde de la locura"
     IJ_DB_RAID_ZG_BOSS_STORY_15082 =
-        "Casi no se sabe nada sobre el Filo de la Locura, sólo el rumor de que si hicieras correctamente una invocación desconocida, uno de cada cuatro posibles trolls legendarios sería convocado..."
+        "En el Filo de la Locura de Zul'Gurub, antiguas tablillas conservan la memoria de cuatro espíritus trol: Gri'lek, el vagabundo de Sangre de Hierro; Renataki, de las Mil Hojas, cuya leyenda celebra el dolor y el derramamiento de sangre; Hazza'rah, el Tejesueños, señor de las pesadillas; y Wushoolay, el Brujo de la Tormenta, cuyo poder está ligado al cielo, la lluvia y la tierra.\n\nLa Tablilla de la Locura revela la fórmula de la Locura de mojo Gurubashi. Utilizada para apagar el Brasero de la Locura, esta ofrenda alquímica devuelve a uno de estos espíritus al mundo de los vivos."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "Gri'lek"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646 = "Avatar"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646 =
-        "A lo largo de la pelea, Gri'lek se convertirá en un avatar, aumentando significativamente su tamaño y daño pero también reduciendo su velocidad. Luego comenzará a perseguir a un enemigo aleatorio independientemente de la amenaza. ||norte||  ||norte|| El jugador objetivo debe huir mientras dure la habilidad."
+        "Durante 15 segundos, aumenta el daño Físico un 500% y reduce la velocidad de movimiento un 75%.\n\nEl jugador perseguido debe huir y mantenerse fuera del alcance cuerpo a cuerpo."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24647 = "Aturdir"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24647 =
+        "Gri'lek queda aturdido durante 2 segundos al comenzar Avatar."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_6524 = "Temblor de tierra"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 = "Gri'lek crea temblores en el suelo, aturdiendo a todos los enemigos en un radio de 20 metros durante 2 segundos."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilekroot = "Entangling Roots"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_grilekroot = "Gri'lek roots an enemy, making them unable to move."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 =
+        "Aturde a los enemigos en un radio de 20 metros durante 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24648 = "Entangling Roots"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24648 =
+        "Inmoviliza a un jugador durante un máximo de 10 segundos e inflige daño de Naturaleza cada 3 segundos.\n\nDisipa el efecto Mágico rápidamente, especialmente si el jugador está siendo perseguido durante Avatar."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "Renataki"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Desaparecer"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Esfumarse"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =
-        "Renataki desaparece, impidiendo que los enemigos puedan verlo. Una vez que reaparece, tenderá una emboscada a un enemigo aleatorio y le causará un gran daño. ||norte||  ||norte|| Los jugadores deben encontrar a Renataki antes de que reaparezca. Usa habilidades de área para intentar romper su sigilo."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakienrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakienrage = "Renataki enrages, increasing the damage he deals to his enemies."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakigouge = "Gouge"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakigouge = "Renataki gouges an enemy, incapacitating them."
+        "Desaparece y luego reaparece para emboscar a un jugador.\n\nLos sanadores deben prepararse para su regreso."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24337 = "Emboscada"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24337 =
+        "Ataca a un jugador al regresar de Esfumarse e inflige daño Físico."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24698 = "Gubia"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24698 =
+        "Inflige daño Físico e incapacita a los enemigos cercanos durante un máximo de 4 segundos. El daño interrumpe el efecto.\n\nUn segundo tanque debe estar preparado para tomar el relevo si el tanque actual queda incapacitado."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24649 = "Mil hojas"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24649 =
+        "Lanza una hoja a un jugador e inflige daño Físico."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
+        "Aumenta la velocidad de ataque cuerpo a cuerpo un 60% y añade 50 puntos de daño Físico durante 120 segundos.\n\nLos tanques y sanadores deben prepararse para un aumento del daño recibido."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "Hazza'rah"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "Quema de maná en cadena"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =
-        "Hazza'rah lanza una quemadura de maná en cadena, que inflige un gran daño de maná y puntos de vida a los enemigos que se encuentran cerca. ||norte||  ||norte|| Los cazadores y los brujos deben seguir drenando el maná de Hazza'rah ya que, de lo contrario, seguirá lanzando esta habilidad."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24729 = "Invocar ilusiones de pesadilla"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24729 =
-        "Hazza'rah invoca 3 ilusiones de pesadilla que lo ayudarán durante la pelea. ||norte||  ||norte|| Los que causan daños deben apuntar instantáneamente a estos agregados, ya que tienen muy poca salud pero causan mucho daño."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24684 = "Quemadura en cadena"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24684 =
+        "Quema maná de un máximo de 3 objetivos, salta a enemigos cercanos e inflige 0,5 de daño de las Sombras por punto de maná consumido.\n\nDispersaos para limitar los saltos."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24685 = "Choque de tierra"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24685 =
+        "Inflige daño de Naturaleza e interrumpe el lanzamiento de hechizos, impidiendo lanzar hechizos de la escuela interrumpida durante 4 segundos."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24728 = "Invocar ilusiones de pesadilla"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24728 =
+        "Invoca 3 ilusiones de pesadilla con poca salud, pero potentes ataques cuerpo a cuerpo.\n\nLos jugadores de daño, especialmente los de distancia, deben eliminar las ilusiones rápidamente antes de que alcancen a otros jugadores."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Dormir"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 =
-        "Hazza'rah pone a dormir a todos los enemigos que lo atacan actualmente. ||norte||  ||norte|| Los chamanes pueden utilizar tótems de temblor para despertar a sus aliados."
+        "Duerme a los enemigos durante un máximo de 6 segundos. El daño despierta a los jugadores afectados.\n\nEl Tótem de tremor puede eliminar el efecto de sueño."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "Wushoolay"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_23106 = "Cadena de relámpagos"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_23106 = "Wushoolay crea un rayo que se encadena entre todos los enemigos frente a él."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26550 = "Nube de relámpagos"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26550 =
-        "Wushoolay crea una nube de relámpagos. Todos los enemigos atrapados dentro del radio de ataque de la nube recibirán todo el daño. ||norte||  ||norte|| Los jugadores deben salir de la nube de inmediato, ya que causa grandes daños."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "Cadena de relámpagos"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =
+        "Lanza un relámpago que salta entre un máximo de 10 objetivos e inflige daño de Naturaleza creciente con cada salto.\n\nDispersaos para limitar los saltos."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24682 = "Relámpago bifurcado"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24682 =
+        "Inflige de 1157 a 1344 de daño de Naturaleza a los enemigos en un cono frente a Wushoolay.\n\nLos jugadores que no sean el tanque deben situarse detrás de él."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "Nube de relámpagos"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
+        "Crea una nube de relámpagos de 10 metros de radio durante 15 segundos, que inflige de 463 a 538 de daño de Naturaleza inicialmente y de 875 a 1126 de daño adicional cada 5 segundos.\n\nSal de la nube inmediatamente."
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Gahz'ranka"
-    IJ_DB_RAID_ZG_BOSS_STORY_15114 = "Se dice que si un pescador experto lanzara su anzuelo con un cebo muy específico en Pagle's Pointe, entonces una criatura terrible emergería del agua para devorarlos..."
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_21099 = "Aliento de escarcha"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_21099 = "Gahz'ranka inflige 850 de daño por escarcha a los enemigos en un cono frente a él, robándoles maná y reduciendo su velocidad de movimiento durante 5 segundos."
+    IJ_DB_RAID_ZG_BOSS_STORY_15114 =
+        "Gahz'ranka es una hidra legendaria que acecha en las aguas de Zul'Gurub, cerca de la Punta de Pagle. Nat Pagle visitó estas orillas y dejó allí sus aparejos de pesca y su cinta métrica favorita.\n\nLos aventureros que devuelven la cinta descubren cómo atraer a la criatura desde las profundidades: un Cebo de Fangoapestoso, cargado con cinco Fangoapestosos zulianos y lanzado desde la Punta de Pagle, hace emerger a la esquiva hidra."
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_16099 = "Aliento de escarcha"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_16099 =
+        "Inflige daño de Escarcha y drena maná de los enemigos en un cono frente a Gahz'ranka, reduciendo su velocidad de movimiento un 50% durante 10 segundos.\n\nMantén al jefe de espaldas a la banda."
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_24326 = "Golpe de Gahz'ranka"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 = "Gahz'ranka golpea a todos los objetivos frente a él, infligiendo 250 de daño físico y derribándolos."
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 =
+        "Inflige daño Físico a los enemigos cercanos y los repele."
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_22421 = "Géiser masivo"
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 =
-        "Gahz'ranka crea un enorme géiser que lanza a los enemigos por los aires. ||norte||  ||norte|| Los jugadores deben intentar aterrizar en el agua para evitar sufrir daños innecesarios."
+        "Crea un géiser que inflige daño de Escarcha y lanza por los aires a jugadores y mascotas en un radio de 10 metros alrededor del géiser.\n\nColócate para aterrizar en el agua y evitar daño de caída."
     IJ_DB_RAID_ZG_BOSS_NAME_14509 = "Sumo Sacerdote Thekal"
     IJ_DB_RAID_ZG_BOSS_STORY_14509 =
         "El Sumo Sacerdote Thekal es el Sumo Sacerdote Zandalari de Shirvallah, el tigre loa. Enviado a Zul'Gurub para detener a Hakkar el Desollador de Almas, finalmente fue convertido por el dios de la sangre."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_lorkhan = "Zealot Lor'Khan"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_25807 = "Gran curación"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25807 = "Lor'Khan lanza una gran curación sobre sí mismo o sobre un aliado, curándolo por 69375 de salud."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_23552 = "Escudo relámpago"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_23552 = "Lor'Khan se rodea con un escudo relámpago, devolviendo parte del daño que recibe al atacante."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24208 = "Gran curación"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24208 =
+        "Restaura una gran cantidad de salud a Lor'Khan o a un aliado.\n\nInterrumpe el lanzamiento de 4 segundos."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_25020 = "Escudo relámpago"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25020 =
+        "Rodea a Lor'Khan con un Escudo de relámpagos que puede infligir daño de Naturaleza a los atacantes."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22691 = "Desarmar"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22691 = "Lor'Khan desarma a su objetivo, obligándolo a dejar de empuñar su arma durante 6 segundos."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24185 = "Sed de sangre"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24185 = "Lor'Khan y sus aliados son superados por la sed de sangre, lo que aumenta su velocidad de ataque en un 75% durante 30 segundos."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_zath = "Zealot Zath"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_26654 = "Golpes de barrido"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_26654 = "Zath realiza golpes de barrido que infligen daño adicional a otro objetivo para su próximo ataque cuerpo a cuerpo."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_18765 = "Golpes de barrido"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_18765 =
+        "Los siguientes 5 ataques cuerpo a cuerpo de Zath golpean a un enemigo cercano adicional. Dura un máximo de 20 segundos."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24698 = "Gubia"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24698 = "Zath ataca a su objetivo, incapacitándolo."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_21060 = "Ciego"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_21060 = "Zath ciega a su objetivo, provocando que deambule confundido durante hasta 10 segundos."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27613 = "Patada"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27613 = "Zath patea a su objetivo, causando daño físico e interrumpiendo cualquier hechizo que se esté lanzando durante 6 segundos."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_15614 = "Patada"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_15614 =
+        "Inflige daño Físico e interrumpe el lanzamiento de hechizos, impidiendo lanzar hechizos de la escuela interrumpida durante 6 segundos."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_15667 = "Golpe siniestro"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_15667 =
+        "Inflige daño Físico a un enemigo."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24187 = "Zarpa"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24187 =
+        "Los guardianes zulianos usan Zarpa para infligir daño Físico a un enemigo."
     IJ_DB_RAID_ZG_BOSS_14509_NAME_STAGE_1 = "Etapa uno: forma de troll"
     IJ_DB_RAID_ZG_BOSS_14509_DESCRIPTION_STAGE_1 = "Thekal asume su forma de troll durante la etapa hasta que él y todos los agregados mueren al mismo tiempo."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaladds = "Thekal's Adds"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaladds =
         "Thekal starts the fight with Zealot Lor'Khan, Zealot Zath and 2 Zulian tigers.\n\nBoth zealots need to be tanked while the 2 tigers can easily be killed.\n\nThekal, Lor'Khan, and Zath all need to die around the same time as they will otherwise resurrect each other."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27559 = "Silencio"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27559 = "Thekal silencia a un enemigo aleatorio, impidiéndole lanzar hechizos durante 3 segundos."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22666 = "Silencio"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22666 =
+        "Silencia a un enemigo durante 6 segundos.\n\nDisipa el efecto Mágico rápidamente, especialmente de los sanadores."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22859 = "División mortal"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22859 =
         "Thekal divide a su objetivo actual, infligiendo un 150% de daño con arma y dejando al objetivo herido, lo que reduce la efectividad de cualquier curación en un 50% durante 5 segundos."
@@ -1562,12 +1673,14 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaltigers = "Summon Tigers"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaltigers =
         "Thekal summons 2 Zulian tigers, assisting him for the duration of the fight.\n\nJust like the Zulian tigers in stage one, these tigers can easily be killed and should be prioritized."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalcharge = "Charge"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalcharge = "Thekal charges an enemy, dealing damage and stunning them."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24408 = "Charge"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24408 =
+        "Carga contra un enemigo, inflige daño Físico y lo aturde durante 2 segundos."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalfrenzy = "Frenzy"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalfrenzy = "Thekal goes into a frenzy, increasing his size and his attack speed by 50%.\n\nHunters can use Tranquilizing Shot to remove frenzy from Thekal."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalenrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalenrage = "At 20% health remaining, Thekal becomes enraged, increasing the damage he deals to his enemies."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_8269 = "Enrage"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_8269 =
+        "Con poca salud, aumenta la velocidad de ataque cuerpo a cuerpo un 60% y añade 50 puntos de daño Físico durante 120 segundos.\n\nLos tanques y sanadores deben prepararse para un aumento del daño recibido."
     IJ_DB_RAID_ZG_BOSS_NAME_14515 = "Suma Sacerdotisa Arlokk"
     IJ_DB_RAID_ZG_BOSS_STORY_14515 =
         "La Suma Sacerdotisa Arlokk es la Suma Sacerdotisa Zandalari del Dios Primordial Bethekk, la diosa pantera. Enviada a Zul'Gurub para detener a Hakkar el Desollador de Almas, finalmente el dios de la sangre la convirtió."
@@ -1585,35 +1698,44 @@ if GetLocale() == "esES" then
         "Arlokk vanishes and assumes her panther form. \n\nShe alternates between troll and panther forms throughout the fight, with transitions occurring more rapidly as the encounter progresses."
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24210 = "Marca de Arlokk"
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24210 = "Mientras Arlokk está en sigilo, puede marcar a un jugador aleatorio, lo que hace que cada pantera se concentre en el objetivo marcado."
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24236 = "Torbellino"
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24236 =
-        "Cuando Arlokk reaparece en su forma de pantera, inmediatamente lanza Torbellino, lo que inflige un gran daño de área de efecto a quienes están cerca durante dos segundos. ||norte||  ||norte|| Melee debería esperar a que el Torbellino se desvanezca antes de atacar a Arlokk."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15589 = "Torbellino"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15589 =
+        "Inflige daño Físico a los enemigos en un radio de 8 metros."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24212 = "Palabra de las Sombras: dolor"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24212 =
+        "Inflige daño de las Sombras cada 3 segundos durante 18 segundos.\n\nDisipa el efecto Mágico."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15582 = "Puñalada"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15582 =
+        "Inflige daño Físico cuando Arlokk ataca a un enemigo por la espalda."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24213 = "Devastar"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24213 =
+        "Inflige daño Físico y aturde al objetivo durante 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_3391 = "Vapulear"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_3391 =
+        "Otorga 2 ataques cuerpo a cuerpo adicionales."
     IJ_DB_RAID_ZG_BOSS_NAME_11380 = "Jin'do el Hexxer"
     IJ_DB_RAID_ZG_BOSS_STORY_11380 =
         "Jin'do es un médico brujo trol de la jungla Gurubashi de considerable poder. Es responsable del lavado de cerebro de los sacerdotes Zandalari Jeklik, Venoxis, Mar'li, Thekal y Arlokk para ponerlos al servicio de Hakkar, el Loa de Sangre."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24306 = "Delirios de Jin'do"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 =
-        "Jin'do maldice a un jugador, inflige 175 de daño cada 2 segundos y genera una Sombra de Jin'do. ||norte||  ||norte|| A pesar de esto, se recomienda a los jugadores que no utilicen esta habilidad, ya que solo aquellos afectados por la maldición pueden ver y dañar las Sombras de Jin'do."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24053 = "Maleficio"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24053 = "Jin'do transforma al jugador con mayor amenaza en una rana."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoteleportskeletonpit = "Teleport to Skeleton Pit"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoteleportskeletonpit = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 = "Jin'do maldice a un jugador y le inflige 175 de daño de las Sombras cada 2 segundos durante 20 segundos. Invoca Sombras de Jin'do mediante una habilidad independiente.\n\nNo elimines esta maldición: solo los jugadores malditos pueden ver y dañar a las Sombras de Jin'do."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_17172 = "Maleficio"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_17172 = "Jin'do transforma al jugador con mayor amenaza en una rana durante un máximo de 5 segundos, impidiéndole atacar y lanzar hechizos. Este efecto mágico se puede disipar."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24466 = "Teleport to Skeleton Pit"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24466 = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoadds = "Jin'do's Adds"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds =
-        "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds = "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14986 = "Sombra de Jin'do"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 =
-        "Aunque Shades of Jin'do solo es visible para aquellos maldecidos por Delusions of Jin'do, las sombras pueden atacar a cualquiera en la incursión. También son inmunes al daño de área de efecto y deben centrarse con habilidades y hechizos de un solo objetivo. ||norte||  ||norte|| Shades of Jin'do debería ser el primer agregado prioritario en ser asesinado."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoshademelee = "Melee Attack"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoshademelee = "Shade of Jin'do's melee attacks can interrupt spellcasts."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 = "Aunque las Sombras de Jin'do solo son visibles para los jugadores afectados por Delirios de Jin'do, pueden atacar a cualquier miembro de la banda."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24458 = "Choque de sombras"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Shades of Jin'do lanza magia oscura que azota instantáneamente a los enemigos e inflige daño de las sombras."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Azota instantáneamente a los enemigos con magia oscura y les inflige daño de las Sombras."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14987 = "Potente protección curativa"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14987 =
         "Jin'do invoca una poderosa protección curativa que cura a Jin'do infligiendo más daño del que la incursión puede causar. ||norte||  ||norte|| Todos los jugadores que no maten activamente a una Sombra de Jin'do deben centrarse en este tótem. ||norte||  ||norte|| El poderoso Healing Ward debería ser la segunda prioridad para matar."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_15112 = "Tótem de lavado de cerebro"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_15112 =
         "Jin'do invoca un tótem de lavado de cerebro que controla la mente de los jugadores. El control mental no puede disiparse sin romper este tótem. ||norte||  ||norte|| Brain Wash Totem debería ser el tercer complemento prioritario en ser eliminado."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24261 = "Lavado de cerebro"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24261 = "Controla a un jugador. Destruye el Tótem de lavado de cerebro para liberarlo."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14826 = "Troll sacrificado"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14826 =
         "Cuando Jin'do teletransporta a los jugadores al pozo de esqueletos, aparecerán Trolls sacrificados y atacarán a la persona convocada. ||norte||  ||norte|| Utilice ataques AoE para liberar rápidamente al miembro de la banda convocado."
@@ -1621,14 +1743,16 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_STORY_14834 =
         "Hakkar el Desollador de Almas, el Dios de la Sangre, es un loa malévolo y destructivo adorado notablemente por los trolls Gurubashi, y conocido en el panteón troll como el Loa de la Sangre. Ha tomado el control de la capital caída del Imperio Gurubashi, Zul'Gurub."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_11357 = "Hijo de Hakkar"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 =
-        "A lo largo del encuentro, los Hijos de Hakkar aparecen en las escaleras que conducen a la cámara de Hakkar. ||norte||  ||norte|| Cuando son asesinados, liberan una nube de veneno que aflige Sangre Venenosa a cualquier jugador que entre en contacto con ella."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 = "Los Hijos de Hakkar reaparecen periódicamente en las escaleras que llevan a la cámara de Hakkar.\n\nAl morir, liberan una nube de veneno que aplica Sangre venenosa a los jugadores que entran en ella. Este veneno puede usarse para contrarrestar Sifón de sangre."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_16790 = "Derribo"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_16790 = "Inflige daño físico a un enemigo y a sus aliados cercanos y aturde hasta a 3 objetivos durante 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_3391 = "Vapulear"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_3391 = "Otorga 2 ataques cuerpo a cuerpo adicionales."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24321 = "sangre venenosa"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24321 =
         "Envenena al jugador, causando 100 de daño cada 3 segundos durante 1,5 minutos. ||norte||  ||norte|| Mientras esté afligido, Blood Siphon dañará a Hakkar en lugar de curarlo."
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24322 = "Sifón de sangre"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24322 =
-        "Hakkar aturde a toda la banda y drena la salud de todos los jugadores cada segundo durante 8 segundos, curándose a sí mismo significativamente. ||norte||  ||norte|| Los jugadores afectados por Sangre Venenosa hacen que Hakkar sufra daño por este efecto. ||norte||  ||norte|| Para contrarrestar esta habilidad, la mayor parte de la incursión debe estar envenenada antes de que comience Blood Siphon."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24324 = "Sifón de sangre"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24324 = "Hakkar aturde a toda la banda y drena la salud de todos los jugadores cada segundo durante 8 segundos, curándose a sí mismo significativamente. ||norte||  ||norte|| Los jugadores afectados por Sangre Venenosa hacen que Hakkar sufra daño por este efecto. ||norte||  ||norte|| Para contrarrestar esta habilidad, la mayor parte de la incursión debe estar envenenada antes de que comience Blood Siphon.\n\nLos jugadores pueden obtener Sangre venenosa de un Hijo de Hakkar muerto antes de que comience Sifón de sangre para volver el efecto contra Hakkar."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkaraspects = "Aspects of the High Priests"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkaraspects =
         "Hakkar can be engaged immediately upon entering the instance. However, if any High Priests remain alive, they empower him with additional abilities based on their aspects."
@@ -1643,11 +1767,9 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24690 = "Aspecto de Arlokk"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24690 = "Golpea al jugador con mayor amenaza y lo aturde durante 2 segundos."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24327 = "Causa locura"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 =
-        "Lleva al jugador con la mayor amenaza a un frenesí durante 10 segundos, aumentando su velocidad de ataque en un 100% y su velocidad de movimiento en un 150%, y provoca que ataque a los aliados cercanos."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 = "Lleva al jugador con la mayor amenaza a un frenesí durante 10 segundos, aumentando su velocidad de ataque en un 100% y su velocidad de movimiento en un 150%, y provoca que ataque a los aliados cercanos.\n\nEl tanque secundario debe permanecer segundo en amenaza para tomar el relevo mientras el tanque principal esté controlado. Usa Polimorfia sobre el jugador controlado hasta que termine el efecto."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24328 = "Sangre corrupta"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 =
-        "Aproximadamente cada 20 segundos, un jugador se ve afectado por Sangre corrupta, que recibe 200 de daño cada 2 segundos durante 10 segundos. ||norte||  ||norte|| Este efecto se extiende a los jugadores cercanos."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 = "Aproximadamente cada 15 segundos, Hakkar inflige daño inicial de las Sombras y afecta a jugadores con Sangre corrupta, que inflige 200 de daño de las Sombras cada 2 segundos durante 10 segundos.\n\nEste efecto se propaga a los jugadores cercanos."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkarenrage = "Enrage"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkarenrage = "After 10 minutes, Hakkar becomes enraged, greatly increasing his damage output."
 
@@ -1665,7 +1787,7 @@ if GetLocale() == "esES" then
         "Incindis golpea el suelo, inflige daño físico y atrae hacia él a los enemigos cercanos. Aléjate antes de la siguiente Nova de Fuego."
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42037 = "Nova de Fuego"
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42037 =
-        "Tras Pisotón sísmico, Incindis lanza Nova de Fuego durante 4,5 segundos y luego inflige mucho daño de Fuego a los enemigos cercanos y reduce su velocidad de movimiento durante 8 segundos. Aléjate antes de que termine el lanzamiento."
+        "Tras Pisotón sísmico, Incindis lanza Nova de Fuego durante 4,5 segundos y luego inflige mucho daño de Fuego a los enemigos cercanos y reduce su velocidad de movimiento durante 8 segundos.\n\nAléjate antes de que termine el lanzamiento."
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42040 = "Mordisco de magma"
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42040 =
         "Incindis muerde a un enemigo, le inflige daño de Fuego y le aplica Armadura de magma."
@@ -1737,7 +1859,7 @@ if GetLocale() == "esES" then
         "Cuando un Jurafuegos muere, explota e inflige daño de Fuego y repele a los enemigos en un radio de 15 metros. Aléjate de los esbirros que estén a punto de morir."
     IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_23492 = "Ansiedad por separación"
     IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_23492 =
-        "Los Jurafuegos que se alejan demasiado de Garr pueden obtener Ansiedad por separación, que aumenta el daño infligido un 300% y otorga inmunidad a Desterrar durante 5 segundos. Mantenlos cerca de Garr."
+        "Los Jurafuegos que se alejan demasiado de Garr pueden obtener Ansiedad por separación, que aumenta el daño infligido un 300% y otorga inmunidad a Desterrar durante 5 segundos.\n\nMantenlos cerca de Garr."
     IJ_DB_RAID_MC_BOSS_12057_NAME_firesworn = "Jurafuegos"
     IJ_DB_RAID_MC_BOSS_12057_DESCRIPTION_firesworn =
         "Garr está acompañado por ocho Jurafuegos. Derrotarlos potencia a Garr."
@@ -1758,10 +1880,10 @@ if GetLocale() == "esES" then
         "Bomba viva explota, inflige 3200 de daño de Fuego al jugador marcado y a sus aliados en un radio de 18 metros, y los repele."
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44060 = "Suelo de magma"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44060 =
-        "Bomba viva deja una zona de fuego que inflige 500 de daño de Fuego cada 2 segundos en un radio de 5 metros durante 60 segundos. Evita el fuego y elige otro lugar para las siguientes bombas."
+        "Bomba viva deja una zona de fuego que inflige 500 de daño de Fuego cada 2 segundos en un radio de 5 metros durante 60 segundos.\n\nEvita el fuego y elige otro lugar para las siguientes bombas."
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44061 = "Reacción catastrófica"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44061 =
-        "Llevar Bomba viva a un Suelo de magma existente puede provocar una explosión adicional que inflige 2500 de daño de Fuego en un radio de 100 metros. Mantén la bomba lejos de las zonas de fuego anteriores."
+        "Llevar Bomba viva a un Suelo de magma existente puede provocar una explosión adicional que inflige 2500 de daño de Fuego en un radio de 100 metros.\n\nMantén la bomba lejos de las zonas de fuego anteriores."
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20478 = "Armagedón"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20478 =
         "Al 5% de salud, el Barón Geddon prepara una enorme explosión de Fuego. Derrótalo en 8 segundos para impedirla."
@@ -1779,7 +1901,7 @@ if GetLocale() == "esES" then
         "Reduce el daño mágico recibido por Shazzrah un 50% durante 30 segundos. Elimina el beneficio con una disipación ofensiva."
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19715 = "Contrahechizo"
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19715 =
-        "Interrumpe a los enemigos cercanos que estén lanzando hechizos e impide lanzar hechizos de la escuela interrumpida durante 10 segundos. Calcula tus lanzamientos para evitar la interrupción."
+        "Interrumpe a los enemigos cercanos que estén lanzando hechizos e impide lanzar hechizos de la escuela interrumpida durante 10 segundos.\n\nCalcula tus lanzamientos para evitar la interrupción."
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_23139 = "Portal de Shazzrah"
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_23139 =
         "Shazzrah se teletransporta durante el combate. Los tanques deben recuperar su atención rápidamente tras el cambio de posición."
@@ -1848,7 +1970,7 @@ if GetLocale() == "esES" then
         "Basalthar y Smoldaris son gólems gemelos del Núcleo de Magma. Vinculados a los enanos Hierro Negro, luchan juntos con golpes aplastantes y torrentes de llamas."
     IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47375 = "Baluarte de magma"
     IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47375 =
-        "Los gólems alternan un escudo que reduce el daño recibido un 95% e inflige 200 de daño de Fuego a los atacantes cuerpo a cuerpo cuando es golpeado, durante 15 segundos. Cambia al gólem que no tenga el escudo."
+        "Los gólems alternan un escudo que reduce el daño recibido un 95% e inflige 200 de daño de Fuego a los atacantes cuerpo a cuerpo cuando es golpeado, durante 15 segundos.\n\nCambia al gólem que no tenga el escudo."
     IJ_DB_RAID_MC_BOSS_65020_NAME_basalthar = "Basalthar"
     IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_basalthar =
         "Basalthar lucha junto a Smoldaris. Los gólems comparten salud y son derrotados juntos."
@@ -1915,7 +2037,7 @@ if GetLocale() == "esES" then
         "Inflige daño de Fuego a un enemigo y aplica daño de Fuego adicional cada segundo durante 8 segundos."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058 = "Fuego elemental"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058 =
-        "Inflige daño de Fuego a los enemigos en una zona de 10 metros. Dispersaos para limitar el daño."
+        "Cuando Fuego elemental golpea a un objetivo, también inflige daño de Fuego a otros jugadores y mascotas en un radio de 10 metros alrededor de ese objetivo.\n\nDispersaos para limitar el daño."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20566 = "Cólera de Ragnaros"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20566 =
         "Inflige daño de Fuego a los enemigos en un radio de 25 metros de Ragnaros y los repele. Los tanques deben estar listos para volver al alcance cuerpo a cuerpo."
@@ -1939,7 +2061,7 @@ if GetLocale() == "esES" then
         "Ragnaros emerge tras la fase de los Hijos de la Llama y reanuda la lucha."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21857 = "Escudo de lava"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21857 =
-        "Los Hijos de la Llama infligen daño de Fuego a los atacantes cuerpo a cuerpo y queman periódicamente 150 de maná de los enemigos en un radio de 10 metros, infligiendo daño de Fuego equivalente a la mitad del maná quemado. Mantén a los usuarios de maná lejos de los esbirros."
+        "Los Hijos de la Llama infligen daño de Fuego a los atacantes cuerpo a cuerpo y queman periódicamente 150 de maná de los enemigos en un radio de 10 metros, infligiendo daño de Fuego equivalente a la mitad del maná quemado.\n\nMantén a los usuarios de maná lejos de los esbirros."
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21158 = "Estallido de lava"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21158 =
         "Las erupciones de lava del entorno infligen daño de Fuego en la zona del encuentro. Evita la lava."
@@ -2492,7 +2614,7 @@ if GetLocale() == "esES" then
         "Lanza un proyectil Arcano a un enemigo, le inflige daño y lo repele."
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52724 = "Runa de poder"
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52724 =
-        "Permanecer dentro de la runa aumenta el daño infligido un 30%, reduce el daño de Fuego recibido un 70% y reduce el daño recibido de otras escuelas un 20%. Entra para Runa de combustión y sal para Runa de detonación."
+        "Permanecer dentro de la runa aumenta el daño infligido un 30%, reduce el daño de Fuego recibido un 70% y reduce el daño recibido de otras escuelas un 20%.\n\nEntra para Runa de combustión y sal para Runa de detonación."
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52725 = "Runa de detonación"
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52725 =
         "Marca a los enemigos para que detonen tras 6 segundos e inflijan daño Arcano. Sal de Runa de poder antes de que detone la marca para evitar daño aumentado."

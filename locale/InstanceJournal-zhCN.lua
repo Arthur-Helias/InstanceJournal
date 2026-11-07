@@ -3075,152 +3075,271 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_NAME_14517 = "高阶女祭司耶克里克"
     IJ_DB_RAID_ZG_BOSS_STORY_14517 = "高阶女祭司耶克里克是原始丛林神蝙蝠希里克的赞达拉高阶女祭司。她被派往祖尔格拉布阻止夺魂者哈卡，但最终被血神转变。"
     IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "第一阶段：蝙蝠形态"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 = "耶克里克会保持蝙蝠形态，直到生命值降至 50%。"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "音爆"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 = "耶克里克发出刺耳的尖叫声，造成 1,750 到 2,250 点物理伤害，并使 30 码半径内的所有敌人沉默 10 秒。"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_22911 = "冲锋"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_22911 = "耶克里克会冲向八码至 40 码外的一名敌人，造成 1000 点物理伤害，并使目标沉默 5 秒。"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_5570 = "蝙蝠群"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_5570 =
-        "耶克里克召唤了一群 6 到 8 只蝙蝠，在整个战斗中为她提供帮助。\n \n这种情况发生在战斗开始一分钟和战斗结束后的每一分钟。"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 =
+        "耶克里克以蝙蝠形态战斗，直到生命值降至50%。"
     IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "第二阶段：巨魔形态"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 = "当耶克里克的生命值达到 50% 时，她就会变成巨魔形态，并交替施放两次法术。"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_25807 = "强效治疗术"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_25807 = "耶克里克开始施放治疗法术，如果不被打断，可以恢复她总生命值的 25%。"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 =
+        "生命值降至50%时，耶克里克恢复巨魔形态，使用暗影法术和治疗，同时轰炸蝙蝠攻击团队。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_12097 = "穿刺护甲"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_12097 =
+        "使一名敌人的护甲降低75%，持续20秒。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "音爆"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 =
+        "对20码范围内的敌人造成物理伤害并使其沉默，持续10秒。沉默效果可以驱散。\n\n治疗者和远程玩家应尽量保持在技能范围之外。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_24408 = "冲锋"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_24408 =
+        "向一名敌人冲锋，造成物理伤害并使其昏迷2秒。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23919 = "俯冲"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23919 =
+        "攻击耶克里克前方锥形区域内的敌人，造成物理伤害并使其昏迷2秒。\n\n让她背对团队。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_batswarm = "蝙蝠群"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_batswarm =
+        "耶克里克在蝙蝠阶段呼唤蝙蝠协助战斗。\n\n坦克应聚拢蝙蝠，由输出玩家将其消灭。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_6605 = "恐怖尖啸"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_6605 =
+        "使5码范围内的敌人恐惧，持续4秒。防护恐惧结界可以预防恐惧，已生效的魔法效果可以驱散。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23952 = "暗言术：痛"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23952 =
+        "施加魔法效果，每3秒造成暗影伤害，持续18秒。及时驱散。"
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "精神鞭笞"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 = "耶克里克引导心灵鞭笞能力，如果不被打断，会对目标和附近的盟友造成伤害。"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "召唤投弹蝙蝠"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974 = "耶克里克召唤蝙蝠轰炸机，向敌人投掷火焰炸弹，在地面上留下燃烧的斑块，对站在其中的任何人造成伤害。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 =
+        "引导暗影伤害，每秒生效，并使受影响玩家的移动速度降低80%，最多持续10秒。\n\n打断引导。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23954 = "强效治疗术"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23954 =
+        "施放强力治疗法术，施法时间为4秒。\n\n打断施法，阻止耶克里克恢复生命值。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_16098 = "血之诅咒"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_16098 =
+        "诅咒附近敌人，使其受到的物理伤害提高，持续10分钟。及时解除诅咒。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "召唤轰炸蝙蝠"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974 =
+        "轰炸蝙蝠在巨魔阶段协助耶克里克战斗。"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23970 = "投掷液态火焰"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23970 =
+        "轰炸蝙蝠向玩家投掷液态火焰，造成火焰伤害并在地面留下燃烧区域。\n\n离开火焰。"
     IJ_DB_RAID_ZG_BOSS_NAME_14507 = "高阶祭司温诺希斯"
     IJ_DB_RAID_ZG_BOSS_STORY_14507 = "高阶祭司维诺西斯是原始神蛇神赫西斯的赞达拉高阶祭司。被派往祖尔格拉布阻止夺魂者哈卡，他最终被血神转变。"
     IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "第一阶段：巨魔形态"
-    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 = "维诺西斯会呈现巨魔形态，直到他的生命值达到 50%。"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_10713 = "温诺希斯的毒蛇爪牙"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_10713 = "维诺西斯的四名蛇小怪将开始与他的遭遇，并在战斗中帮助他。\n \n这些小怪应该在第二阶段开始之前被杀死。"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "神圣怒火"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 = "维诺克西斯施放神圣之怒，造成 300 点神圣伤害，法术每反弹一个敌人，伤害就会增加。"
+    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 =
+        "温诺希斯以巨魔形态战斗，直到生命值降至50%。"
+    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "第二阶段：毒蛇形态"
+    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 =
+        "生命值降至50%时，温诺希斯变成毒蛇并使用自然攻击。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_razzashicobras = "拉扎什眼镜蛇"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_razzashicobras =
+        "战斗开始时，温诺希斯有四条拉扎什眼镜蛇相伴。\n\n在毒蛇阶段前击败它们。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "神圣愤怒"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 =
+        "在附近玩家之间连锁造成神圣伤害，每次跳跃都会提高伤害。\n\n分散站位以减少跳跃次数。"
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895 = "恢复"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 = "维诺西斯施放更新，每 3 秒为自己治疗 2000 点生命值，持续 15 秒。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 =
+        "每3秒治疗温诺希斯，持续15秒。\n\n使用进攻性驱散移除此增益效果。"
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "神圣新星"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 = "维诺西斯制造出神圣之光爆炸，对附近的敌人造成 875 到 1126 点神圣伤害。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 =
+        "对15码范围内的敌人造成神圣伤害。"
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860 = "神圣之火"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 = "维诺西斯施放圣火，在火焰中吞噬一名敌人，造成 2200 点火焰伤害，加上每 2 秒 125 点火焰伤害，持续 8 秒。"
-    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "第二阶段：蛇形态"
-    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 = "当维诺西斯生命值达到 50% 时，他会变成蛇的形态。\n \n维诺西斯的伤害在该阶段持续时间内增加。"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_12766 = "毒云术"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_12766 = "维诺西斯会制造毒云，站在其中时会造成毒伤害。"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_6917 = "毒液喷吐"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_6917 = "维诺西斯向敌人吐出毒液，每 5 秒造成自然伤害并附加额外伤害，持续 10 秒。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 =
+        "造成火焰伤害，并每2秒造成额外火焰伤害，持续8秒。\n\n驱散此魔法效果。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23859 = "驱散魔法"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23859 =
+        "移除温诺希斯身上的一个有害魔法效果。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23861 = "毒云"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23861 =
+        "制造一团云雾，在8码范围内每秒造成自然伤害，持续10秒。\n\n立即离开云雾。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23862 = "毒液喷吐"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23862 =
+        "造成自然伤害并施加毒药，每2秒造成额外自然伤害，持续10秒。\n\n解除毒药。"
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865 = "寄生蛇"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 = "维诺西斯会生成一条寄生蛇，它会攻击敌人并使他们中毒，每 2 秒造成 300 点自然伤害，持续 10 秒。"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3019 = "激怒"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3019 = "当生命值剩余 20% 时，维诺西斯变得愤怒，显着增加他对敌人造成的伤害。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 =
+        "召唤一条寄生蛇并施加效果，每2秒造成自然伤害，持续10秒。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3391 = "痛击"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3391 =
+        "使温诺希斯获得2次额外近战攻击。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_8269 =
+        "生命值接近20%时，温诺希斯获得60%的近战攻击速度和50点额外物理伤害。\n\n坦克和治疗者应准备应对更高的伤害。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_24097 = "毒药"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_24097 =
+        "拉扎什眼镜蛇施加毒药，每3秒造成自然伤害，持续30秒。\n\n解除毒药。"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_27919 = "喷吐"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_27919 =
+        "拉扎什眼镜蛇向敌人喷吐，造成自然伤害并击退目标。"
     IJ_DB_RAID_ZG_BOSS_NAME_14510 = "高阶女祭司玛尔里"
     IJ_DB_RAID_ZG_BOSS_STORY_14510 =
         "玛莉是蜘蛛神灵沙德拉的高级女祭司。拉斯塔哈大王派她前往祖尔格拉布与其他神灵高阶祭司一起阻止夺魂者哈卡，但她最终被血神腐蚀。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "巨魔形态"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll =
+        "玛尔里以巨魔形态开始战斗，并在两次蜘蛛变形之间恢复此形态。"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "蜘蛛形态"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider = "在战斗过程中，玛尔里会随机变为蜘蛛形态，并获得新的技能。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider =
+        "玛尔里周期性地变成蜘蛛，使用蛛网、冲锋和腐蚀之毒。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "吸取生命"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 =
+        "引导暗影伤害，每秒生效并恢复玛尔里的生命值，最多持续7秒。\n\n打断引导，或驱散受影响玩家身上的魔法效果。"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "包围之网"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24110 =
-        "玛莉用她的网将 10 码半径内的所有敌人包裹起来，将他们固定在地上，使他们的攻击间隔时间增加 100%，并在 8 秒内阻止他们施展法术。\n \n副坦克需要准备好立即产生威胁，因为这将重置每个被固定玩家的威胁。"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "巨魔形态"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll = "变为蜘蛛形态后，玛尔里最终会回到原本的巨魔形态，并恢复常规技能。"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlicharge = "冲锋"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlicharge = "玛尔里冲锋目标，造成物理伤害并将其击昏。"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "吸取生命"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 = "玛莉会耗尽目标的生命，每 1 秒消耗 500 点生命值，持续 7 秒。"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "玛尔里的爪牙"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds = "玛尔里孵化虫卵，召出 4 只玛尔里的爪牙协助她战斗。\n\n这些蜘蛛必须尽快处理，因为它们会随着战斗进行而越来越强。"
+        "使10码范围内的敌人无法移动，近战攻击间隔延长100%，并使其沉默，持续8秒。\n\n主坦克被蛛网困住时，副坦克应准备接住玛尔里。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24408 = "冲锋"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24408 =
+        "在蜘蛛形态下向一名敌人冲锋，造成物理伤害并使其昏迷2秒。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24111 = "腐蚀之毒"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24111 =
+        "使一名敌人的护甲降低5000点，并每5秒造成自然伤害，持续30秒。\n\n及时解除毒药。"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "毒箭之雨"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 = "玛莉向 30 码范围内的所有敌人发射毒液，每 2 秒造成 375 点直接自然伤害和 290 点周期性伤害，持续 10 秒。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 =
+        "对30码范围内的敌人造成自然伤害并施加毒药，每2秒造成额外自然伤害，持续10秒。\n\n解除毒药。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "玛尔里的子嗣"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
+        "玛尔里的子嗣加入战斗，并随着时间推移变得更强。\n\n在它们完全长大之前迅速消灭它们。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24087 = "成长"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24087 =
+        "玛尔里的子嗣随时间成长，体型和物理伤害随之提高。"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24088 = "完全成长"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24088 =
+        "完全长大的子嗣获得50%的近战攻击速度，并免疫变形术、恐惧和睡眠。"
     IJ_DB_RAID_ZG_BOSS_NAME_11382 = "血领主曼多基尔"
     IJ_DB_RAID_ZG_BOSS_STORY_11382 =
         "血领主曼多基尔是一位强大的丛林巨魔，也是古拉巴什部落的领袖。他不变的伴侣是他的猛禽坐骑奥根。他与部落的其他成员一起侍奉祖尔格拉布的邪神夺魂者哈卡。"
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgan = "奥根"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan = "奥根在曼多基尔受到攻击时也会进入激怒状态，誓死保护自己的主人。"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgansunder = "破甲攻击"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgansunder = "奥根对目标施加破甲攻击，使其每层破甲攻击效果都会承受更多伤害。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan =
+        "奥根与曼多基尔并肩作战，使用破甲和痛击。\n\n坦克应将它与首领分开。"
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokir = "曼多基尔"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokir =
+        "曼多基尔与奥根并肩作战，并在玩家死亡时变得更强。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24317 = "破甲"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24317 =
+        "奥根每层效果使目标的护甲降低1000点，最多叠加5层，持续20秒。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_3391 = "痛击"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_3391 =
+        "使奥根获得2次额外近战攻击。"
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24314 = "威慑凝视"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 = "曼多基尔威胁性地注视着随机的敌人。如果目标敌人施展任何法术，曼多基尔就会向他们发起冲锋，造成严重伤害。"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirwhirlwind = "旋风斩"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirwhirlwind = "曼多基尔冲入敌群施放旋风斩，对近战范围内的所有敌人造成伤害。"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokircleave = "顺劈斩"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokircleave = "曼多基尔顺劈前方所有敌人，造成物理伤害。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 =
+        "凝视一名玩家，持续6秒。\n\n在凝视结束前停止攻击和施法，以避免惩罚性的冲锋。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_13736 = "旋风斩"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_13736 =
+        "引导旋风斩，持续2秒，对8码范围内的敌人造成物理伤害。\n\n引导期间离开其范围。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_16856 = "致死打击"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_16856 =
+        "造成200%的武器伤害，并使目标受到的治疗降低50%，持续5秒。"
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24408 = "冲锋"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 = "曼多基尔冲向敌人，对其造成物理伤害并使其晕眩 2 秒。"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirlevelup = "升级"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirlevelup = "每当有三名玩家被锁链之魂复活时，曼多基尔就会升级，提高造成的伤害并降低受到的伤害。"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirenrage = "激怒"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirenrage = "如果奥根先于曼多基尔死亡，曼多基尔会激怒 1 分钟，提高其对敌人造成的伤害。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 =
+        "向一名敌人冲锋，造成物理伤害并使其昏迷2秒。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_19134 = "破胆怒吼"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_19134 =
+        "使一个目标受到惊吓，并使附近敌人恐惧逃跑，最多持续8秒。\n\n防护恐惧结界可以预防恐惧。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24312 = "升级"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24312 =
+        "玩家死亡会使曼多基尔获得升级效果，每层使其物理伤害提高10%。\n\n即使能够复活，也应避免死亡。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24318 = "激怒"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24318 =
+        "如果奥根先于曼多基尔死亡，曼多基尔造成的物理伤害提高50%，近战攻击速度提高65%，持续90秒。\n\n坦克和治疗者应准备应对更高的伤害。"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_15117 = "被禁锢的灵魂"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117 =
+        "被禁锢的灵魂可以在战斗中复活阵亡玩家。"
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "疯狂之缘"
-    IJ_DB_RAID_ZG_BOSS_STORY_15082 = "关于疯狂边缘几乎一无所知，只有传言说，如果你正确地进行未知的调用，四分之一的传奇巨魔将被召唤......"
+    IJ_DB_RAID_ZG_BOSS_STORY_15082 =
+        "在祖尔格拉布的疯狂之缘，古老的石板记载着四位巨魔之灵：拥有铁血之名的游荡者格里雷克；以痛苦和杀戮闻名的千刃雷纳塔基；掌控梦魇的织梦者哈扎拉；以及力量与天空、雨水和大地相连的风暴巫师乌苏雷。\n\n疯狂石板记载着古拉巴什疯狂魔精的配方。用这种炼金祭品熄灭疯狂火盆的火焰，便能将其中一位巨魔之灵召回生者的世界。"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "格里雷克"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646 = "天神下凡"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646 =
-        "在整个战斗中，格里莱克会变成一个化身，显着增加他的体型和伤害，但也会降低他的速度。然后他将开始追捕随机的敌人，无论威胁如何。\n \n目标玩家必须在该能力持续时间内逃跑。"
+        "持续15秒，物理伤害提高500%，移动速度降低75%。\n\n被追赶的玩家必须逃跑，并保持在近战范围之外。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24647 = "昏迷"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24647 =
+        "格里雷克在天神下凡开始时昏迷2秒。"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_6524 = "大地震颤"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 = "格里莱克制造地面震动，使 20 码半径内的所有敌人昏迷 2 秒。"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilekroot = "纠缠根须"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_grilekroot = "格里雷克用纠缠根须束缚一名敌人，使其无法移动。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 =
+        "使20码范围内的敌人昏迷2秒。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24648 = "纠缠根须"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24648 =
+        "使一名玩家无法移动，最多持续10秒，每3秒造成自然伤害。\n\n尽快驱散此魔法效果，尤其是目标在天神下凡期间被追赶时。"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "雷纳塔基"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "消失"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =
-        "雷纳塔基消失了，敌人就看不到他了。一旦他再次出现，他就会伏击随机的敌人，造成大量伤害。\n \n玩家需要在雷纳塔基再次出现之前找到他。使用 范围 能力来尝试打破他的潜行。"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakienrage = "激怒"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakienrage = "雷纳塔基进入激怒状态，提高其对敌人造成的伤害。"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakigouge = "凿击"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakigouge = "雷纳塔基凿击一名敌人，使其暂时失去行动能力。"
+        "消失后重新出现，并伏击一名玩家。\n\n治疗者应为他的返回做好准备。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24337 = "伏击"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24337 =
+        "在消失后重新出现时攻击一名玩家，造成物理伤害。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24698 = "凿击"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24698 =
+        "对附近敌人造成物理伤害，并使其瘫痪，最多持续4秒。受到伤害会打破此效果。\n\n当前坦克被瘫痪时，另一名坦克应准备接手。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24649 = "千刃"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24649 =
+        "向一名玩家投掷刀刃，造成物理伤害。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
+        "近战攻击速度提高60%，并额外造成50点物理伤害，持续120秒。\n\n坦克和治疗者应为承受更高伤害做好准备。"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "哈札拉尔"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "连锁法力燃烧"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =
-        "哈扎拉施放连锁法力燃烧，对其附近的敌人造成大量法力和生命值伤害。\n \n猎人和术士需要不断吸取哈扎拉的法力，否则他会继续施放此能力。"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24729 = "召唤梦魇幻象"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24729 =
-        "哈扎拉召唤 3 个噩梦幻象，在整个战斗中为他提供帮助。\n \n伤害输出者必须立即瞄准这些小怪，因为它们的生命值很少，但会造成大量伤害。"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "睡眠"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 = "哈扎拉使所有正在攻击他的敌人陷入睡眠。\n \n萨满可以使用震颤图腾来唤醒他们的盟友。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24684 = "法力燃烧链"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24684 =
+        "燃烧最多3个目标的法力，并跳跃至附近敌人，每消耗一点法力造成0.5点暗影伤害。\n\n分散站位以减少跳跃次数。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24685 = "地震术"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24685 =
+        "造成自然伤害并打断施法，使目标在4秒内无法施放被打断法术所属学派的法术。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24728 = "召唤梦魇幻象"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24728 =
+        "召唤3个生命值较低但近战攻击强大的梦魇幻象。\n\n伤害输出者，尤其是远程玩家，应在幻象接近其他玩家之前迅速将其击杀。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "沉睡"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 =
+        "使敌人沉睡，最多持续6秒。受到伤害会唤醒受影响的玩家。\n\n战栗图腾可以移除沉睡效果。"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "乌苏雷"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_23106 = "闪电链"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_23106 = "乌舒雷创造了一道闪电，将他周围的所有敌人链在一起。"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26550 = "闪电之云"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26550 =
-        "乌苏雷 创造出一片闪电云。所有被困在云层打击半径内的敌人都会受到每次伤害。\n \n玩家需要立即离开云端，因为它会造成严重伤害。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "闪电链"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =
+        "施放一道可在最多10个目标之间跳跃的闪电，每次跳跃造成的自然伤害都会提高。\n\n分散站位以减少跳跃次数。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24682 = "叉状闪电"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24682 =
+        "对乌苏雷面前锥形区域内的敌人造成1157至1344点自然伤害。\n\n除坦克外，其他玩家应站在首领身后。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "闪电之云"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
+        "制造一片半径10码、持续15秒的闪电云，初始造成463至538点自然伤害，之后每5秒额外造成875至1126点伤害。\n\n立即离开闪电云。"
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "加兹兰卡"
-    IJ_DB_RAID_ZG_BOSS_STORY_15114 = "据说，如果一个熟练的渔夫用一种非常特殊的诱饵在帕格角投下鱼钩，那么一个可怕的生物就会从水中出现来吞噬他们......"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_21099 = "冰息术"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_21099 = "加兹兰卡对前方锥形范围内的敌人造成 850 点冰霜伤害，窃取他们的法力并降低他们的移动速度，持续 5 秒。"
+    IJ_DB_RAID_ZG_BOSS_STORY_15114 =
+        "加兹兰卡是一头传说中的多头蛇，潜伏在祖尔格拉布帕格渔点附近的水域中。纳特·帕格曾到访这片河岸，并将渔具和最心爱的卷尺遗落在此。\n\n归还卷尺的冒险者会得知如何将这头巨兽引出深水：把五条祖利安臭泥鱼装入臭泥鱼诱饵，再从帕格渔点抛入水中，便能引出这头难觅踪影的多头蛇。"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_16099 = "冰息术"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_16099 =
+        "对加兹兰卡面前锥形区域内的敌人造成冰霜伤害并吸取法力，使其移动速度降低50%，持续10秒。\n\n让首领背对团队。"
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_24326 = "加兹兰卡猛击"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 = "加兹兰卡猛击面前的所有目标，造成 250 点物理伤害并将其击退。"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 =
+        "对附近敌人造成物理伤害，并将其击退。"
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_22421 = "巨型喷泉"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 = "加兹兰卡创造了一个巨大的间歇泉，将敌人发射到空中。\n \n玩家应该瞄准落在水中以避免受到不必要的伤害。"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 =
+        "制造一道喷泉，对喷泉周围10码内的玩家和宠物造成冰霜伤害并将其击飞。\n\n调整站位，确保落入水中以避免坠落伤害。"
     IJ_DB_RAID_ZG_BOSS_NAME_14509 = "高阶祭司塞卡尔"
     IJ_DB_RAID_ZG_BOSS_STORY_14509 = "高阶祭司塞卡尔是虎神灵希尔瓦拉的赞达拉高阶祭司。被派往祖尔格拉布阻止夺魂者哈卡，他最终被血神转变。"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_lorkhan = "狂热者洛卡恩"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_25807 = "强效治疗术"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25807 = "洛尔汗对自己或盟友施展强力治疗，治愈他们 69375 点生命值。"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_23552 = "闪电护盾"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_23552 = "洛汗用闪电护盾包围自己，将他受到的部分伤害返还给攻击者。"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24208 = "强效治疗术"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24208 =
+        "为洛卡恩或一名盟友恢复大量生命值。\n\n打断这次施法时间为4秒的治疗。"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_25020 = "闪电护盾"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25020 =
+        "以闪电之盾环绕洛卡恩，可能对攻击者造成自然伤害。"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22691 = "缴械"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22691 = "洛尔汗解除了目标的武装，迫使他们停止使用武器 6 秒。"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24185 = "嗜血"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24185 = "洛尔汗和他的盟友陷入嗜血之中，他们的攻击速度提高了 75%，持续 30 秒。"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_zath = "狂热者札斯"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_26654 = "横扫攻击"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_26654 = "扎斯进行横扫攻击，在下一次近战攻击中对另一个目标造成额外伤害。"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_18765 = "横扫攻击"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_18765 =
+        "扎斯接下来的5次近战攻击会额外击中附近一名敌人。最多持续20秒。"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24698 = "凿击"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24698 = "扎斯刺伤他的目标，使他们丧失行动能力。"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_21060 = "致盲"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_21060 = "扎斯致盲他的目标，导致他困惑地徘徊长达 10 秒。"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27613 = "脚踢"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27613 = "扎斯踢他的目标，造成物理伤害并打断当前施放的任何法术，持续 6 秒。"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_15614 = "脚踢"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_15614 =
+        "造成物理伤害并打断施法，使目标在6秒内无法施放被打断法术所属学派的法术。"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_15667 = "邪恶攻击"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_15667 =
+        "对一名敌人造成物理伤害。"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24187 = "爪击"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24187 =
+        "祖利安守护者使用爪击对一名敌人造成物理伤害。"
     IJ_DB_RAID_ZG_BOSS_14509_NAME_STAGE_1 = "第一阶段：巨魔形态"
     IJ_DB_RAID_ZG_BOSS_14509_DESCRIPTION_STAGE_1 = "塞卡尔在整个阶段中都会呈现巨魔形态，直到他和所有小怪同时死亡为止。"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaladds = "塞卡尔的随从"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaladds =
         "塞卡尔会与狂热者洛卡恩、狂热者札斯以及 2 只祖利安猛虎一同开战。\n\n两个狂热者都需要由坦克控制，而 2 只猛虎可以很快击杀。\n\n塞卡尔、洛卡恩和札斯必须几乎同时死亡，否则他们会互相复活。"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27559 = "沉默"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27559 = "塞卡尔随机沉默一名敌人，使其无法施展任何法术，持续 3 秒。"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22666 = "沉默"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22666 =
+        "使一名敌人沉默6秒。\n\n尽快驱散此魔法效果，尤其是治疗者身上的效果。"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22859 = "致死顺劈"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22859 = "塞卡尔劈开他当前的目标，造成 150% 的武器伤害并使目标受伤，使任何治疗效果降低 50%，持续 5 秒。"
     IJ_DB_RAID_ZG_BOSS_14509_NAME_STAGE_2 = "第二阶段：虎形态"
@@ -3231,12 +3350,14 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaltigers = "召唤猛虎"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaltigers =
         "塞卡尔召唤 2 只祖利安猛虎，在整个战斗中协助他。\n\n与第一阶段的祖利安猛虎一样，这些老虎很容易被击杀，应优先处理。"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalcharge = "冲锋"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalcharge = "塞卡尔冲锋一名敌人，造成伤害并将其击昏。"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24408 = "冲锋"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24408 =
+        "冲向一名敌人，造成物理伤害并使其昏迷2秒。"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalfrenzy = "狂乱"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalfrenzy = "塞卡尔进入狂乱状态，体型增大，攻击速度提高 50%。\n\n猎人可以使用宁神射击移除塞卡尔的狂乱。"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalenrage = "激怒"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalenrage = "当生命值剩余 20% 时，塞卡尔会激怒，提高其对敌人造成的伤害。"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_8269 =
+        "生命值较低时，近战攻击速度提高60%，并额外造成50点物理伤害，持续120秒。\n\n坦克和治疗者应为承受更高伤害做好准备。"
     IJ_DB_RAID_ZG_BOSS_NAME_14515 = "高阶女祭司娅尔罗"
     IJ_DB_RAID_ZG_BOSS_STORY_14515 = "高阶女祭司阿尔洛克是原始神黑豹女神贝泰克的赞达拉高阶女祭司。她被派往祖尔格拉布阻止夺魂者哈卡，但最终被血神转变。"
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_arlokkadds = "潜行黑豹"
@@ -3251,47 +3372,59 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_arlokkpanther = "阿洛克消失并变为豹形态。\n\n她会在整个战斗中不断在巨魔形态和豹形态之间切换，而且战斗越往后切换越频繁。"
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24210 = "娅尔罗的印记"
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24210 = "当阿洛克处于隐身状态时，她可以标记随机玩家，从而使每只黑豹都集中在标记的目标上。"
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24236 = "旋风斩"
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24236 =
-        "当阿洛克以黑豹形态重新出现时，她会立即施放旋风斩，对附近的敌人造成大量群体伤害，持续两秒。\n \n近战应该等待旋风消散后再攻击阿洛克。"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15589 = "旋风斩"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15589 =
+        "对8码范围内的敌人造成物理伤害。"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24212 = "暗言术：痛"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24212 =
+        "每3秒造成暗影伤害，持续18秒。\n\n驱散此魔法效果。"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15582 = "背刺"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15582 =
+        "娅尔罗从背后攻击敌人时造成物理伤害。"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24213 = "毁灭"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24213 =
+        "造成物理伤害，并使目标昏迷2秒。"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_3391 = "痛击"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_3391 =
+        "获得2次额外的近战攻击。"
     IJ_DB_RAID_ZG_BOSS_NAME_11380 = "妖术师金度"
     IJ_DB_RAID_ZG_BOSS_STORY_11380 =
         "金度是一位拥有相当力量的古拉巴什丛林巨魔巫医。他负责对赞达拉祭司耶克里克、维诺西斯、玛利、塞卡尔和阿尔洛克进行洗脑，让他们为血之神哈卡服务。"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24306 = "金度的欺骗"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 =
-        "金度诅咒一名玩家，每 2 秒造成 175 点伤害，并产生金度之影。\n \n尽管如此，还是建议玩家不要诅咒这个能力，因为只有那些受到诅咒的人才能看到并伤害金度之影。"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24053 = "妖术"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24053 = "金度将威胁最大的玩家变成青蛙。"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoteleportskeletonpit = "传送至骸骨坑"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoteleportskeletonpit = "金度会将一名随机玩家传送到房间中央的骸骨坑中。"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 = "金度诅咒一名玩家，每2秒造成175点暗影伤害，持续20秒。他通过另一项独立技能召唤金度之影。\n\n不要移除此诅咒：只有被诅咒的玩家才能看见金度之影并对其造成伤害。"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_17172 = "妖术"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_17172 = "金度将威胁最大的玩家变成青蛙，持续最多5秒，期间无法攻击或施法。此魔法效果可以被驱散。"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24466 = "传送至骸骨坑"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24466 = "金度会将一名随机玩家传送到房间中央的骸骨坑中。"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoadds = "金度的爪牙"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds = "金度会诅咒玩家，召出自己的阴影，并召唤治疗和洗脑结界来协助作战。\n\n在攻击金度之前，玩家应优先清掉所有小怪。"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14986 = "金度之影"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 =
-        "虽然金岛之影只有那些受到金岛妄想诅咒的人才能看到，但金岛之影可以攻击团队中的任何人。他们还免疫 范围 伤害，并且必须专注于单一目标的能力和法术。\n \n金度之影应该是第一个被杀死的小怪。"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoshademelee = "近战攻击"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoshademelee = "金度之影的近战攻击会打断施法。"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 = "虽然只有受到金度的欺骗影响的玩家才能看见金度之影，但它们可以攻击团队中的任何人。"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24458 = "暗影震击"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "金度之影施放黑暗魔法，立即鞭打敌人，造成暗影伤害。"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "立即以黑暗魔法打击敌人，造成暗影伤害。"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14987 = "强力治疗结界"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14987 =
         "金度召唤一个强大的治疗结界，可以治疗金度，造成比团队所能造成的更多伤害。\n \n所有不主动杀死金度之影的玩家都应该关注这个图腾。\n \n强力治疗结界应该是第二优先被杀的。"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_15112 = "洗脑图腾"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_15112 =
         "金度召唤一个洗脑图腾，对玩家进行精神控制。如果不破坏这个图腾，就无法驱散精神控制。\n \n洗脑图腾应该是第三优先被杀的。"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24261 = "洗脑"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24261 = "控制一名玩家。摧毁洗脑图腾即可使玩家恢复自由。"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14826 = "祭品巨魔"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14826 = "当金度将玩家传送到骷髅坑时，牺牲巨魔将会生成并攻击被召唤的人。\n \n使用 范围 攻击快速释放召唤的团队成员。"
     IJ_DB_RAID_ZG_BOSS_NAME_14834 = "哈卡"
     IJ_DB_RAID_ZG_BOSS_STORY_14834 =
         "噬魂者哈卡，血神，是一位恶毒且具有破坏性的神灵，深受古拉巴什巨魔的崇拜，在巨魔万神殿中被称为血之神灵。他控制了古拉巴什帝国沦陷的首都祖尔格拉布。"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_11357 = "哈卡之子"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 =
-        "在整个遭遇过程中，哈卡之子从通向哈卡房间的楼梯中生成。\n \n当被杀死时，它们会释放出毒云，使任何接触到毒云的玩家受到毒血的影响。"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 = "哈卡之子会在通往哈卡房间的楼梯上定期重生。\n\n它们死亡时会释放毒云，使进入其中的玩家受到酸性血液影响。此毒药可用于反制血液虹吸。"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_16790 = "击倒"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_16790 = "对一名敌人及其附近的盟友造成物理伤害，使最多3个目标昏迷2秒。"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_3391 = "痛击"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_3391 = "获得2次额外的近战攻击。"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24321 = "酸性血液"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24321 = "使玩家中毒，每 3 秒造成 100 点伤害，持续 1.5 分钟。\n \n受到折磨时，吸血管会伤害哈卡而不是治愈他。"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24322 = "血液虹吸"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24322 =
-        "哈卡会击晕整个团队，并每秒消耗所有玩家的生命值，持续 8 秒，显着治愈自己。\n \n受到毒血影响的玩家反而会导致哈卡受到此效果的伤害。\n \n为了对抗这个能力，大多数团队成员必须在吸血开始之前中毒。"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24324 = "血液虹吸"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24324 = "哈卡会击晕整个团队，并每秒消耗所有玩家的生命值，持续 8 秒，显着治愈自己。\n \n受到毒血影响的玩家反而会导致哈卡受到此效果的伤害。\n \n为了对抗这个能力，大多数团队成员必须在吸血开始之前中毒。\n\n玩家可以在血液虹吸开始前，从被击杀的哈卡之子留下的毒云中获得酸性血液，将该效果反作用于哈卡。"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkaraspects = "高阶祭司的化身"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkaraspects = "进入副本后即可立即与哈卡交战。但如果仍有高阶祭司存活，他们会根据各自的化身为哈卡赋予额外技能。"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24687 = "耶克里克的守护"
@@ -3305,9 +3438,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24690 = "娅尔罗的守护"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24690 = "凿击威胁最高的玩家，使其晕眩 2 秒。"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24327 = "疯狂"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 = "使威胁最大的玩家陷入疯狂状态，持续10秒，攻击速度提高100%，移动速度提高150%，并攻击附近的盟友。"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 = "使威胁最大的玩家陷入疯狂状态，持续10秒，攻击速度提高100%，移动速度提高150%，并攻击附近的盟友。\n\n副坦克应保持第二仇恨，以便在主坦克被控制时接手。对被控制的玩家使用变形术，直到控制效果结束。"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24328 = "堕落之血"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 = "大约每 20 秒就有一名玩家受到腐化之血的影响，每 2 秒受到 200 点伤害，持续 10 秒。\n \n该效果会传播到附近的玩家。"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 = "哈卡大约每15秒造成一次初始暗影伤害，并使玩家受到堕落之血影响，每2秒造成200点暗影伤害，持续10秒。\n\n此效果会传播给附近的玩家。"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkarenrage = "激怒"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkarenrage = "10 分钟后，哈卡会激怒，大幅提高伤害输出。"
 
@@ -3434,7 +3567,7 @@ if GetLocale() == "zhCN" then
         "因辛迪斯践踏地面，造成物理伤害，并将附近敌人拉向自己。下一次火焰新星施放前远离它。"
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42037 = "火焰新星"
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42037 =
-        "震地践踏后，因辛迪斯施放火焰新星，施法时间为4.5秒，随后对附近敌人造成大量火焰伤害，并使其移动速度降低，持续8秒。施法结束前远离它。"
+        "震地践踏后，因辛迪斯施放火焰新星，施法时间为4.5秒，随后对附近敌人造成大量火焰伤害，并使其移动速度降低，持续8秒。\n\n施法结束前远离它。"
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42040 = "熔火撕咬"
     IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42040 =
         "因辛迪斯撕咬一名敌人，造成火焰伤害并施加熔火护甲。"
@@ -3506,7 +3639,7 @@ if GetLocale() == "zhCN" then
         "火誓者死亡时会爆炸，对15码范围内的敌人造成火焰伤害并将其击退。远离即将死亡的小怪。"
     IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_23492 = "分离焦虑"
     IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_23492 =
-        "火誓者离加尔太远时可能获得分离焦虑，使造成的伤害提高300%，并免疫放逐术，持续5秒。让它们留在加尔附近。"
+        "火誓者离加尔太远时可能获得分离焦虑，使造成的伤害提高300%，并免疫放逐术，持续5秒。\n\n让它们留在加尔附近。"
     IJ_DB_RAID_MC_BOSS_12057_NAME_firesworn = "火誓者"
     IJ_DB_RAID_MC_BOSS_12057_DESCRIPTION_firesworn =
         "加尔有八名火誓者。击败它们会强化加尔。"
@@ -3527,10 +3660,10 @@ if GetLocale() == "zhCN" then
         "活化炸弹爆炸，对被标记的玩家及其18码范围内的盟友造成3200点火焰伤害，并将其击退。"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44060 = "熔火地面"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44060 =
-        "活化炸弹留下火焰区域，在5码范围内每2秒造成500点火焰伤害，持续60秒。避开火焰，并为后续炸弹选择其他位置。"
+        "活化炸弹留下火焰区域，在5码范围内每2秒造成500点火焰伤害，持续60秒。\n\n避开火焰，并为后续炸弹选择其他位置。"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44061 = "灾难性反应"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44061 =
-        "将活化炸弹带入已有的熔火地面可能触发额外爆炸，对100码范围内造成2500点火焰伤害。让炸弹远离先前的火焰区域。"
+        "将活化炸弹带入已有的熔火地面可能触发额外爆炸，对100码范围内造成2500点火焰伤害。\n\n让炸弹远离先前的火焰区域。"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20478 = "末日决战"
     IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20478 =
         "生命值降至5%时，迦顿男爵会准备一次巨大的火焰爆炸。在8秒内击败它以阻止爆炸。"
@@ -3548,7 +3681,7 @@ if GetLocale() == "zhCN" then
         "使沙斯拉尔受到的魔法伤害降低50%，持续30秒。使用进攻性驱散移除此增益效果。"
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19715 = "法术反制"
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19715 =
-        "打断附近正在施法的敌人，并使其在10秒内无法施放被打断学派的法术。安排好施法时机以避免被打断。"
+        "打断附近正在施法的敌人，并使其在10秒内无法施放被打断学派的法术。\n\n安排好施法时机以避免被打断。"
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_23139 = "沙斯拉尔之门"
     IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_23139 =
         "沙斯拉尔会在战斗中传送。它改变位置后，坦克应迅速重新接住它。"
@@ -3617,7 +3750,7 @@ if GetLocale() == "zhCN" then
         "巴萨尔和斯莫达瑞斯是熔火之心中的双子魔像。它们与黑铁矮人有关联，以粉碎性的打击和烈焰洪流并肩作战。"
     IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47375 = "熔火壁垒"
     IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47375 =
-        "双子魔像交替获得护盾，持续15秒，使受到的伤害降低95%，并在受到近战攻击时对攻击者造成200点火焰伤害。转而攻击没有护盾的魔像。"
+        "双子魔像交替获得护盾，持续15秒，使受到的伤害降低95%，并在受到近战攻击时对攻击者造成200点火焰伤害。\n\n转而攻击没有护盾的魔像。"
     IJ_DB_RAID_MC_BOSS_65020_NAME_basalthar = "巴萨尔"
     IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_basalthar =
         "巴萨尔与斯莫达瑞斯并肩作战。双子魔像共享生命值，并会同时被击败。"
@@ -3647,7 +3780,7 @@ if GetLocale() == "zhCN" then
         "向一名敌人发射奥术箭，造成伤害并将其击退。"
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52724 = "能量符文"
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52724 =
-        "站在符文内会使造成的伤害提高30%，受到的火焰伤害降低70%，其他学派的伤害降低20%。燃烧符文生效时进入，爆破符文生效时离开。"
+        "站在符文内会使造成的伤害提高30%，受到的火焰伤害降低70%，其他学派的伤害降低20%。\n\n燃烧符文生效时进入，爆破符文生效时离开。"
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52725 = "爆破符文"
     IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52725 =
         "标记敌人，使其在6秒后爆炸，造成奥术伤害。在标记爆炸前离开能量符文，以避免受到更高伤害。"
@@ -3704,7 +3837,7 @@ if GetLocale() == "zhCN" then
         "对一名敌人造成火焰伤害，并每秒造成额外火焰伤害，持续8秒。"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058 = "元素火焰"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058 =
-        "对10码区域内的敌人造成火焰伤害。分散站位以减少伤害。"
+        "元素之火击中目标时，还会对该目标周围10码内的其他玩家和宠物造成火焰伤害。\n\n分散站位以减少伤害。"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20566 = "拉格纳罗斯之怒"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20566 =
         "对拉格纳罗斯25码范围内的敌人造成火焰伤害并将其击退。坦克应准备好返回近战范围。"
@@ -3728,7 +3861,7 @@ if GetLocale() == "zhCN" then
         "烈焰之子阶段后，拉格纳罗斯浮现并继续战斗。"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21857 = "熔岩护盾"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21857 =
-        "烈焰之子对近战攻击者造成火焰伤害，并周期性燃烧10码范围内敌人的150点法力值，造成相当于所燃烧法力值一半的火焰伤害。使用法力值的玩家应远离小怪。"
+        "烈焰之子对近战攻击者造成火焰伤害，并周期性燃烧10码范围内敌人的150点法力值，造成相当于所燃烧法力值一半的火焰伤害。\n\n使用法力值的玩家应远离小怪。"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21158 = "熔岩爆发"
     IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21158 =
         "环境中的熔岩喷发会对战斗区域造成火焰伤害。避开熔岩。"
