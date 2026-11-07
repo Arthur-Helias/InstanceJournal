@@ -23,7 +23,7 @@ KARA10.MinLevel = 60
 KARA10.MaxLevel = 60
 KARA10.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.DeadwindPass, MapCoordinateX = 43.6, MapCoordinateY = 75.6}}
 KARA10.Bosses = {
-    [1] = { -- NOTE: Missing abilities
+    [1] = { -- No special abilities identified in the reviewed logs or references; only auto-attacks observed.
         Id = "61319",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "rolfen" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "rolfen" .. IMPF,
