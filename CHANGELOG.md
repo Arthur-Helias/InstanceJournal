@@ -2,6 +2,19 @@
 
 All changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Added
+
+- Added missing abilities to the `Moroes` encounter
+- Added guidance for `Moroes` tank taunts, healer spacing, and `Free Action Potion` use against `Glittering Dust`
+- Added missing abilities to the `Lord Blackwald II` encounter and its `Shadowbane Ragefang`
+- Documented `Bloodfrenzy` at around 30% health for `Shadowbane Ragefang`
+- Added `Leeching Bite`, `Brood Venom Volley`, and `Skitterweb Eggs` to the `Araxxna` encounter
+- Added `Flamewave`, `Grellkin Rain of Fire`, and `Grellkin Fireball` to the `Grizikil` encounter
+- Added `Slavering Bite`, `Terrifying Presence`, `Shadowbane Curse`, and `Bloodfrenzy` to the `Clawlord Howlfang` encounter
+- Added guidance for `Terrifying Presence` tank swaps and urgent curse removal, and clarified the `Bloodfrenzy` health threshold
+
 ## [1.4.5] - 2026-11-07
 
 ### Added
