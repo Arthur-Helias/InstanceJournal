@@ -84,15 +84,12 @@ ONY.Bosses = {
                 Name = IJ_DB_RAID_ONY_BOSS_10184_NAME_onyxiastage1,
                 Effect = IJ_DB_RAID_ONY_BOSS_10184_DESCRIPTION_onyxiastage1,
                 SubAbilities = {
-                    [1] = {
-                        Id = "15847",
-                        Icon = "INV_Misc_MonsterScales_05",
-                        Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_15847,
-                        Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_15847,
-                        Flags = {IMAF.Tank, IMAF.Important}
-                    },
+                    [1] = {Id = "15847", Icon = "INV_Misc_MonsterScales_05", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_15847, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_15847, Flags = {IMAF.Tank, IMAF.Important}},
                     [2] = {Id = "18500", Icon = "INV_Misc_MonsterScales_14", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18500, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18500, Flags = {IMAF.Tank}},
-                    [3] = {Id = "18435", Icon = "Spell_Fire_Fire", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18435, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18435}
+                    [3] = {Id = "18435", Icon = "Spell_Fire_Fire", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18435, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18435},
+                    [4] = {Id = "19983", Icon = "Ability_Warrior_Cleave", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_19983, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_19983},
+                    [5] = {Id = "21919", Icon = "Ability_Warrior_PunishingBlow", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_21919, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_21919, Flags = {IMAF.Tank}},
+                    [6] = {Id = "19633", Icon = "INV_Gauntlets_05", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_19633, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_19633, Flags = {IMAF.Tank}}
                 }
             },
             [3] = {
@@ -101,21 +98,28 @@ ONY.Bosses = {
                 Effect = IJ_DB_RAID_ONY_BOSS_10184_DESCRIPTION_onyxiastage2,
                 SubAbilities = {
                     [1] = {Id = "18392", Icon = "Spell_Fire_FlameBolt", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18392, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18392, Flags = {IMAF.Important}},
-                    [2] = {Id = "17086", Icon = "Spell_Fire_Fire", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_17086, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_17086, Flags = {IMAF.Deadly, IMAF.Important}},
+                    [2] = {
+                        Id = "17086",
+                        Icon = "Spell_Fire_Fire",
+                        Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_17086,
+                        Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_17086,
+                        Flags = {IMAF.Deadly, IMAF.Important},
+                        SubAbilities = {
+                            [1] = {Id = "22191", Icon = "Spell_Fire_Fire", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_22191, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_22191}
+                        }
+                    },
                     [3] = {
-                        Id = "cindarion",
+                        Id = "50143",
                         Icon = "INV_Misc_Head_Dragon_Black",
                         Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarion,
                         Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarion,
                         Flags = {IMAF.Tank, IMAF.Important},
                         SubAbilities = {
-                            [1] = {
-                                Id = "cindarionflamebreath",
-                                Icon = "Spell_Fire_Fire",
-                                Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarionflamebreath,
-                                Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarionflamebreath,
-                                Flags = {IMAF.Deadly}
-                            }
+                            [1] = {Id = "33439", Icon = "Spell_Fire_Fire", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarionflamebreath, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarionflamebreath, Flags = {IMAF.Deadly}},
+                            [2] = {Id = "33437", Icon = "Spell_Fire_FlameBolt", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_33437, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_33437},
+                            [3] = {Id = "33438", Icon = "Ability_GhoulFrenzy", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_33438, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_33438, Flags = {IMAF.Tank}},
+                            [4] = {Id = "cindarionthrash", Icon = "Ability_Warrior_PunishingBlow", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_21919, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_21919, Flags = {IMAF.Tank}},
+                            [5] = {Id = "33446", Icon = "Spell_Shadow_UnholyFrenzy", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_33446, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_33446, Flags = {IMAF.Tank}}
                         }
                     }
                 }
@@ -125,29 +129,23 @@ ONY.Bosses = {
                 Name = IJ_DB_RAID_ONY_BOSS_10184_NAME_onyxiastage3,
                 Effect = IJ_DB_RAID_ONY_BOSS_10184_DESCRIPTION_onyxiastage3,
                 SubAbilities = {
-                    [1] = {
-                        Id = "15847",
-                        Icon = "INV_Misc_MonsterScales_05",
-                        Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_15847,
-                        Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_15847,
-                        Flags = {IMAF.Tank, IMAF.Important}
-                    },
-                    [2] = {Id = "18500", Icon = "INV_Misc_MonsterScales_14", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18500, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18500, Flags = {IMAF.Tank}},
-                    [3] = {Id = "18435", Icon = "Spell_Fire_Fire", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18435, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18435},
-                    [4] = {Id = "18431", Icon = "spell_shadow_charm", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18431, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18431, Flags = {IMAF.Important}},
-                    [5] = {
-                        Id = "onyxianhatcher",
+                    [1] = {Id = "onyxiastage3spell15847", Icon = "INV_Misc_MonsterScales_05", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_15847, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_15847, Flags = {IMAF.Tank, IMAF.Important}},
+                    [2] = {Id = "onyxiastage3spell18500", Icon = "INV_Misc_MonsterScales_14", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18500, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18500, Flags = {IMAF.Tank}},
+                    [3] = {Id = "onyxiastage3spell18435", Icon = "Spell_Fire_Fire", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18435, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18435},
+                    [4] = {Id = "onyxiastage3spell19983", Icon = "Ability_Warrior_Cleave", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_19983, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_19983},
+                    [5] = {Id = "onyxiastage3spell21919", Icon = "Ability_Warrior_PunishingBlow", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_21919, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_21919, Flags = {IMAF.Tank}},
+                    [6] = {Id = "onyxiastage3spell19633", Icon = "INV_Gauntlets_05", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_19633, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_19633, Flags = {IMAF.Tank}},
+                    [7] = {Id = "18431", Icon = "Spell_Shadow_Charm", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18431, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18431, Flags = {IMAF.Important}},
+                    [8] = {Id = "17731", Icon = "Spell_Fire_Volcano", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_17731, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_17731, Flags = {IMAF.Important}},
+                    [9] = {
+                        Id = "50144",
+                        Icon = "INV_Misc_Head_Dragon_Black",
                         Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_onyxianhatcher,
                         Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_onyxianhatcher,
                         Flags = {IMAF.Tank, IMAF.Important},
                         SubAbilities = {
-                            [1] = {
-                                Id = "rainoffire",
-                                Icon = "spell_shadow_rainoffire",
-                                Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_rainoffire,
-                                Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire,
-                                Flags = {IMAF.Deadly, IMAF.Important}
-                            }
+                            [1] = {Id = "19717", Icon = "Spell_Shadow_RainOfFire", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_rainoffire, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire, Flags = {IMAF.Deadly, IMAF.Important}},
+                            [2] = {Id = "33441", Icon = "Ability_Warrior_Cleave", Name = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_33441, Effect = IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_33441, Flags = {IMAF.Tank}}
                         }
                     }
                 }
