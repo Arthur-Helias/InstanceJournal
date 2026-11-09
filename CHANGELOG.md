@@ -2,6 +2,13 @@
 
 All changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Added
+
+- Added missing abilities and egg mechanics to the `Razorgore the Untamed` encounter and its reinforcements
+- Added guidance for `Razorgore` tank positioning, threat management, premature egg explosions, and `Free Action Potion` use against `War Stomp`
+
 ## [1.4.6] - 2026-11-09
 
 ### Added

@@ -23,7 +23,7 @@ BWL.MinLevel = 60
 BWL.MaxLevel = 60
 BWL.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.BlackrockMountain, MapCoordinateX = 64.1, MapCoordinateY = 71.7}}
 BWL.Bosses = {
-    [1] = { -- NOTE: Missing abilities
+    [1] = {
         Id = "12435",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "razorgore" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "razorgore" .. IMPF,
@@ -32,6 +32,98 @@ BWL.Bosses = {
         MapCoordinateX = 54.1,
         MapCoordinateY = 72.5,
         MapIsBelow = true,
+        Abilities = {
+            [1] = {
+                Id = "eggs",
+                Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_eggs,
+                Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_eggs,
+                Flags = {IMAF.Important},
+                SubAbilities = {
+                    [1] = {
+                        Id = "19832",
+                        Icon = "Spell_Shadow_ShadowWordDominate",
+                        Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_19832,
+                        Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_19832,
+                        Flags = {IMAF.Important},
+                        SubAbilities = {
+                            [1] = {Id = "19873", Icon = "INV_Egg_03", Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_19873, Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_19873, Flags = {IMAF.Important}},
+                            [2] = {Id = "19872", Icon = "Spell_Nature_InvisibilityTotem", Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_19872, Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_19872}
+                        }
+                    },
+                    [2] = {
+                        Id = "12416",
+                        Icon = "INV_Misc_Head_Orc_01",
+                        Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_12416,
+                        Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_12416,
+                        Flags = {IMAF.Tank},
+                        SubAbilities = {
+                            [1] = {Id = "legionnairecleave", Icon = "Ability_Warrior_Cleave", Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_15284, Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_15284},
+                            [2] = {Id = "legionnairestrike", Icon = "Ability_Rogue_Ambush", Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_15580, Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_15580}
+                        }
+                    },
+                    [3] = {
+                        Id = "12420",
+                        Icon = "Spell_Fire_FlameBolt",
+                        Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_12420,
+                        Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_12420,
+                        SubAbilities = {
+                            [1] = {Id = "17290", Icon = "Spell_Fire_FlameBolt", Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_17290, Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_17290},
+                            [2] = {Id = "22271", Icon = "Spell_Nature_WispSplode", Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_22271, Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_22271}
+                        }
+                    },
+                    [4] = {
+                        Id = "12422",
+                        Icon = "INV_Misc_Head_Dragon_Black",
+                        Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_12422,
+                        Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_12422,
+                        Flags = {IMAF.Tank},
+                        SubAbilities = {
+                            [1] = {Id = "dragonspawncleave", Icon = "Ability_Warrior_Cleave", Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_15284, Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_15284},
+                            [2] = {Id = "dragonspawnstrike", Icon = "Ability_Rogue_Ambush", Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_15580, Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_15580}
+                        }
+                    },
+                    [5] = {
+                        Id = "50142",
+                        Icon = "Ability_Marksmanship",
+                        Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_50142,
+                        Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_50142,
+                        SubAbilities = {
+                            [1] = {Id = "41832", Icon = "INV_Spear_07", Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_41832, Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_41832}
+                        }
+                    },
+                    [6] = {
+                        Id = "52153",
+                        Icon = "Spell_Fire_Scorch",
+                        Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_52153,
+                        Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_52153,
+                        SubAbilities = {
+                            [1] = {Id = "41831", Icon = "Spell_Fire_SoulBurn", Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_41831, Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_41831, Flags = {IMAF.Heal}}
+                        }
+                    }
+                }
+            },
+            [2] = {
+                Id = "combat",
+                Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_combat,
+                Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_combat,
+                SubAbilities = {
+                    [1] = {Id = "23040", Icon = "Spell_Fire_Fire", Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_23040, Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_23040, Flags = {IMAF.Important}},
+                    [2] = {Id = "19632", Icon = "Ability_Warrior_Cleave", Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_19632, Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_19632, Flags = {IMAF.Tank}},
+                    [3] = {Id = "22425", Icon = "Spell_Fire_FlameBolt", Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_22425, Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_22425},
+                    [4] = {
+                        Id = "23023",
+                        Icon = "Spell_Fire_Incinerate",
+                        Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_23023,
+                        Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_23023,
+                        Flags = {IMAF.Important},
+                        SubAbilities = {
+                            [1] = {Id = "16806", Icon = "Spell_Fire_Immolation", Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_16806, Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_16806}
+                        }
+                    },
+                    [5] = {Id = "24375", Icon = "Ability_WarStomp", Name = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_24375, Effect = IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_24375, Flags = {IMAF.Tank}}
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[16904], DropChance = 11},
             [2] = {IJDB.I[16911], DropChance = 11},
