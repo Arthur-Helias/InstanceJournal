@@ -2132,7 +2132,7 @@ if GetLocale() == "deDE" then
     -- BWL Bosses
     IJ_DB_RAID_BWL_BOSS_NAME_12435 = "Razorgore der Ungezähmte"
     IJ_DB_RAID_BWL_BOSS_STORY_12435 =
-        "Razorgore der Ungezähmte ist eine Drachenbrut des schwarzen Drachenschwarms. Er wurde vom Herrn des Pechschwingenhorts, Nefarian, damit beauftragt, die zahlreichen und kostbaren schwarzen Dracheneier zu bewachen, die sich im ersten Raum der Instanz befinden. Zu diesem Zweck wurde Razorgore das Kommando über eine Kohorte von Orks und anderen Streitkräften übertragen und er wird vor nichts zurückschrecken, um sicherzustellen, dass seinen Schützlingen kein Schaden zugefügt wird."
+        "Razorgore der Ungezähmte ist eine Drachenbrut des schwarzen Drachenschwarms. Nefarian hat ihn damit betraut, die schwarzen Dracheneier im Pechschwingenhort zu beschützen und zu pflegen. Orcsoldaten und Drachkin verteidigen die Kammer an seiner Seite.\n\nTrotz seines Beinamens steht Razorgore durch den Orb der Herrschaft unter Grethoks Kontrolle. Eindringlinge, die den Orb an sich bringen, können den Wächter gegen genau jene Eier wenden, die er beschützen soll."
     IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_eggs = "Phase Eins: Die Eier zerstören"
     IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_eggs = "Besiegt Grethok den Aufseher und seine Wachen. Kontrolliert dann Razorgore mit dem Orb der Herrschaft und zerstört alle 20 Eier.\n\nHaltet Verstärkung von Razorgore fern, während die Eier zerstört werden. Stirbt er, bevor alle Eier zerstört wurden, explodieren die verbleibenden Eier und vernichten den Schlachtzug."
     IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_combat = "Phase Zwei: Razorgore"

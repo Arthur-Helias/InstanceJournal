@@ -2123,7 +2123,7 @@ if GetLocale() == "ptBR" then
     -- BWL Bosses
     IJ_DB_RAID_BWL_BOSS_NAME_12435 = "Razorgore, o Indomável"
     IJ_DB_RAID_BWL_BOSS_STORY_12435 =
-        "Razorgore, o Indomável, é uma cria de dragão da revoada negra. Ele foi encarregado pelo senhor de Blackwing Lair, Nefarian, de guardar os numerosos e preciosos ovos de dragão negro localizados na primeira sala da instância. Para este fim, Razorgore recebeu o comando de uma coorte de orcs e outras forças, e não irá parar até garantir que nenhum dano aconteça aos seus graves protegidos."
+        "Razorgore, o Indomado, é um draconiano da revoada negra, encarregado por Nefarian de proteger e cuidar dos ovos de dragão negro no Covil Asa Negra. Soldados orcs e draconianos defendem a câmara ao seu lado.\n\nApesar de seu título, Razorgore é mantido sob o controle de Grethok por meio do Orbe de Dominação. Invasores que tomem o orbe podem voltar o guardião contra os próprios ovos que ele deveria proteger."
     IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_eggs = "Primeira Fase: Destrua os Ovos"
     IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_eggs = "Derrote Grethok, o Controlador, e seus guardas. Depois, use o Orbe de Dominação para controlar Razorgore e destruir todos os 20 ovos.\n\nMantenha os reforços longe de Razorgore enquanto os ovos são destruídos. Se ele morrer antes da destruição de todos os ovos, os ovos restantes explodem, causando um wipe na raid."
     IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_combat = "Segunda Fase: Razorgore"

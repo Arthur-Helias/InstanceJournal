@@ -2131,7 +2131,7 @@ if GetLocale() == "esES" then
     -- BWL Bosses
     IJ_DB_RAID_BWL_BOSS_NAME_12435 = "Razorgore el Indomable"
     IJ_DB_RAID_BWL_BOSS_STORY_12435 =
-        "Razorgore the Untamed es un engendro del Vuelo Negro. El señor de Blackwing Lair, Nefarian, le ha encomendado la tarea de proteger los numerosos y preciosos huevos de dragón negro ubicados en la primera sala de la instancia. Con este fin, a Razorgore se le ha dado el mando de una cohorte de orcos y otras fuerzas, y no se detendrá ante nada para garantizar que sus graves cargas no sufran ningún daño."
+        "Sangrevaja el Indomable es un dracoleante del Vuelo Negro al que Nefarian confió la protección y el cuidado de los huevos de dragón negro en la Guarida de Alanegra. Soldados orcos y dragonantes defienden la cámara junto a él.\n\nPese a su título, Sangrevaja está sometido al control de Grethok mediante el Orbe de dominación. Los intrusos que se apoderen del orbe pueden volver al guardián contra los mismos huevos que debía proteger."
     IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_eggs = "Primera fase: Destruir los huevos"
     IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_eggs = "Derrota a Grethok el Controlador y a sus guardias. Después, usa el Orbe de dominación para controlar a Sangrevaja y destruir los 20 huevos.\n\nMantén a los refuerzos alejados de Sangrevaja mientras se destruyen los huevos. Si muere antes de que se destruyan todos los huevos, los restantes explotan y aniquilan a la banda."
     IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_combat = "Segunda fase: Sangrevaja"

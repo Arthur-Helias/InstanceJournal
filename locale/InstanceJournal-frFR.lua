@@ -2131,7 +2131,7 @@ if GetLocale() == "frFR" then
     -- BWL Bosses
     IJ_DB_RAID_BWL_BOSS_NAME_12435 = "Razorgore l'Indompté"
     IJ_DB_RAID_BWL_BOSS_STORY_12435 =
-        "Razorgore l'Indompté est un rejeton du Vol draconique noir. Il a été chargé par le seigneur de Blackwing Lair, Nefarian, de garder les nombreux et précieux œufs de dragon noir situés dans la première salle de l'instance. À cette fin, Razorgore s'est vu confier le commandement d'une cohorte d'orcs et d'autres forces, et ne reculera devant rien pour s'assurer qu'aucun mal ne soit causé à ses graves charges."
+        "Tranchetripe l’Indompté est un draconide du Vol noir auquel Nefarian a confié la protection et le soin des œufs de dragons noirs du Repaire de l’Aile noire. Des soldats orcs et des draconiens défendent la chambre à ses côtés.\n\nMalgré son titre, Tranchetripe est soumis à Grethok par l’intermédiaire de l’Orbe de domination. Les intrus qui s’emparent de l’orbe peuvent retourner le gardien contre les œufs mêmes qu’il devait protéger."
     IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_eggs = "Première phase : Détruire les œufs"
     IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_eggs = "Battez Grethok le Contrôleur et ses gardes, puis utilisez l’Orbe de domination pour contrôler Tranchetripe et détruire les 20 œufs.\n\nGardez les renforts à l’écart de Tranchetripe pendant la destruction des œufs. S’il meurt avant la destruction de tous les œufs, les œufs restants explosent et anéantissent le raid."
     IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_combat = "Deuxième phase : Tranchetripe"

@@ -4124,7 +4124,7 @@ IJ_DB_RAID_BWL_STORY =
 -- BWL Bosses
 IJ_DB_RAID_BWL_BOSS_NAME_12435 = "Razorgore the Untamed"
 IJ_DB_RAID_BWL_BOSS_STORY_12435 =
-    "Razorgore the Untamed is a dragonspawn of the black dragonflight. He has been tasked by the lord of Blackwing Lair, Nefarian, with guarding the numerous and precious black dragon eggs located in the first room of the instance. To this end, Razorgore has been given command of a cohort of orcs and other forces, and will stop at nothing to ensure that no harm comes to his grave charges."
+    "Razorgore the Untamed is a dragonspawn of the black dragonflight, entrusted by Nefarian with protecting and tending the black dragon eggs within Blackwing Lair. Orcish soldiers and dragonkin defend the chamber alongside him.\n\nDespite his title, Razorgore is held under the control of Grethok through the Orb of Domination. Intruders who seize the orb can turn the guardian against the very eggs he was charged with protecting."
 IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_eggs = "Stage One: Destroy the Eggs"
 IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_eggs = "Defeat Grethok the Controller and his guards, then use the Orb of Domination to control Razorgore and destroy all 20 eggs.\n\nKeep reinforcements away from Razorgore while the eggs are destroyed. If he dies before all eggs are destroyed, the remaining eggs explode, wiping the raid."
 IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_combat = "Stage Two: Razorgore"
