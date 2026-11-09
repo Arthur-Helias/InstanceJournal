@@ -6,6 +6,8 @@ All changes to this project will be documented in this file.
 
 ### Added
 
+- Expanded the lore of `Firemaw` with his role guarding the laboratories and his loyalty to Deathwing
+- Added missing abilities to the `Firemaw` encounter, including `Shadowflame Jets` and guidance for occupying the dark zones
 - Added missing abilities to the `Broodlord Lashlayer` encounter, including `Serrated Wound`
 - Expanded the lore of `Razorgore the Untamed` with his guardianship of Nefarian's eggs and Grethok's control
 - Added missing abilities and positioning guidance to the `Vaelastrasz the Corrupt` encounter, including `Blaze of Glory`

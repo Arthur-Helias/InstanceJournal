@@ -218,7 +218,7 @@ BWL.Bosses = {
             [17] = {IJDB.I[33083], DropChance = 7}
         }
     },
-    [4] = { -- NOTE: Missing abilities
+    [4] = {
         Id = "11983",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "firemaw" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "firemaw" .. IMPF,
@@ -226,6 +226,24 @@ BWL.Bosses = {
         Story = IJ_DB_RAID_BWL_BOSS_STORY_11983,
         MapCoordinateX = 44.3,
         MapCoordinateY = 42.1,
+        Abilities = {
+            [1] = {
+                Id = "22539", Icon = "Spell_Fire_Incinerate", Name = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_22539, Effect = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_22539, Flags = {IMAF.Tank, IMAF.Important},
+                SubAbilities = {
+                    [1] = {Id = "22682", Icon = "Spell_Fire_Incinerate", Name = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_22682, Effect = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_22682, Flags = {IMAF.Deadly}}
+                }
+            },
+            [2] = {Id = "23339", Icon = "INV_Misc_MonsterScales_14", Name = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_23339, Effect = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_23339, Flags = {IMAF.Tank}},
+            [3] = {Id = "23341", Icon = "Spell_Fire_Fireball", Name = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_23341, Effect = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_23341, Flags = {IMAF.Important, IMAF.Heal}},
+            [4] = {Id = "3417", Icon = "Ability_GhoulFrenzy", Name = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_3417, Effect = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_3417, Flags = {IMAF.Tank}},
+            [5] = {
+                Id = "29476", Icon = "Spell_Fire_Incinerate", Name = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_29476, Effect = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_29476, Flags = {IMAF.Important, IMAF.Heal},
+                SubAbilities = {
+                    [1] = {Id = "46855", Icon = "Spell_Fire_Incinerate", Name = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_46855, Effect = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_46855},
+                    [2] = {Id = "46856", Icon = "Spell_Fire_SelfDestruct", Name = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_46856, Effect = IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_46856, Flags = {IMAF.Deadly}}
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[19343], DropChance = 12},
             [2] = {IJDB.I[19344], DropChance = 12},
