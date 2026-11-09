@@ -183,7 +183,7 @@ BWL.Bosses = {
             [15] = {IJDB.I[19372], DropChance = 20}
         }
     },
-    [3] = { -- NOTE: Missing abilities
+    [3] = {
         Id = "12017",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "broodlord" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "broodlord" .. IMPF,
@@ -191,6 +191,13 @@ BWL.Bosses = {
         Story = IJ_DB_RAID_BWL_BOSS_STORY_12017,
         MapCoordinateX = 52.0,
         MapCoordinateY = 66.3,
+        Abilities = {
+            [1] = {Id = "15284", Icon = "Ability_Warrior_Cleave", Name = IJ_DB_RAID_BWL_BOSS_12017_ABILITY_NAME_15284, Effect = IJ_DB_RAID_BWL_BOSS_12017_ABILITY_EFFECT_15284, Flags = {IMAF.Tank}},
+            [2] = {Id = "23331", Icon = "Spell_Holy_Excorcism_02", Name = IJ_DB_RAID_BWL_BOSS_12017_ABILITY_NAME_23331, Effect = IJ_DB_RAID_BWL_BOSS_12017_ABILITY_EFFECT_23331},
+            [3] = {Id = "18670", Icon = "INV_Gauntlets_05", Name = IJ_DB_RAID_BWL_BOSS_12017_ABILITY_NAME_18670, Effect = IJ_DB_RAID_BWL_BOSS_12017_ABILITY_EFFECT_18670, Flags = {IMAF.Tank, IMAF.Important}},
+            [4] = {Id = "24573", Icon = "Ability_Warrior_SavageBlow", Name = IJ_DB_RAID_BWL_BOSS_12017_ABILITY_NAME_24573, Effect = IJ_DB_RAID_BWL_BOSS_12017_ABILITY_EFFECT_24573, Flags = {IMAF.Tank, IMAF.Heal}},
+            [5] = {Id = "52754", Icon = "Ability_Rogue_Rupture", Name = IJ_DB_RAID_BWL_BOSS_12017_ABILITY_NAME_52754, Effect = IJ_DB_RAID_BWL_BOSS_12017_ABILITY_EFFECT_52754, Flags = {IMAF.Heal}}
+        },
         Loot = {
             [1] = {IJDB.I[20383], DropChance = 100},
             [2] = {IJDB.I[16898], DropChance = 11},

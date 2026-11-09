@@ -6,6 +6,7 @@ All changes to this project will be documented in this file.
 
 ### Added
 
+- Added missing abilities to the `Broodlord Lashlayer` encounter, including `Serrated Wound`
 - Expanded the lore of `Razorgore the Untamed` with his guardianship of Nefarian's eggs and Grethok's control
 - Added missing abilities and positioning guidance to the `Vaelastrasz the Corrupt` encounter, including `Blaze of Glory`
 - Expanded the lore of `Vaelastrasz the Corrupt` with his aid to adventurers and resistance to Nefarian's control
