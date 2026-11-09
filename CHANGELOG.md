@@ -2,10 +2,12 @@
 
 All changes to this project will be documented in this file.
 
-## [Unreleased]
+## [1.4.6] - 2026-11-09
 
 ### Added
 
+- Added missing abilities to the `Onyxia` encounter, `Cindarion`, and `Onyxian Hatchers`, and clarified encounter mechanics
+- Added missing abilities to the `Broodcommander Axelus` encounter and its `Onyxian Warders`
 - Added missing abilities to the `Moroes` encounter
 - Added guidance for `Moroes` tank taunts, healer spacing, and `Free Action Potion` use against `Glittering Dust`
 - Added missing abilities to the `Lord Blackwald II` encounter and its `Shadowbane Ragefang`
