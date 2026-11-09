@@ -142,7 +142,7 @@ BWL.Bosses = {
             [15] = {IJDB.I[19370], DropChance = 20}
         }
     },
-    [2] = { -- NOTE: Missing abilities
+    [2] = {
         Id = "13020",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "vaelastrasz" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "vaelastrasz" .. IMPF,
@@ -151,6 +151,20 @@ BWL.Bosses = {
         MapCoordinateX = 46.5,
         MapCoordinateY = 47.0,
         MapIsBelow = true,
+        Abilities = {
+            [1] = {Id = "23513", Icon = "Spell_Fire_LavaSpawn", Name = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_23513, Effect = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_23513, Flags = {IMAF.Important}},
+            [2] = {Id = "52755", Icon = "Ability_Mage_Firestarter", Name = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_52755, Effect = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_52755, Flags = {IMAF.Heal}},
+            [3] = {
+                Id = "23620", Icon = "INV_Gauntlets_03", Name = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_23620, Effect = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_23620, Flags = {IMAF.Deadly, IMAF.Important},
+                SubAbilities = {
+                    [1] = {Id = "23478", Icon = "INV_Gauntlets_03", Name = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_23478, Effect = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_23478, Flags = {IMAF.Deadly}}
+                }
+            },
+            [4] = {Id = "23461", Icon = "Spell_Fire_Fire", Name = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_23461, Effect = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_23461, Flags = {IMAF.Tank, IMAF.Heal}},
+            [5] = {Id = "23462", Icon = "Spell_Fire_SealOfFire", Name = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_23462, Effect = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_23462, Flags = {IMAF.Heal}},
+            [6] = {Id = "19983", Icon = "Ability_Warrior_Cleave", Name = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_19983, Effect = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_19983, Flags = {IMAF.Tank}},
+            [7] = {Id = "15847", Icon = "INV_Misc_MonsterScales_05", Name = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_15847, Effect = IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_15847}
+        },
         Loot = {
             [1] = {IJDB.I[16818], DropChance = 11},
             [2] = {IJDB.I[16903], DropChance = 11},

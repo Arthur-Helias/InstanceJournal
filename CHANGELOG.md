@@ -7,6 +7,8 @@ All changes to this project will be documented in this file.
 ### Added
 
 - Expanded the lore of `Razorgore the Untamed` with his guardianship of Nefarian's eggs and Grethok's control
+- Added missing abilities and positioning guidance to the `Vaelastrasz the Corrupt` encounter, including `Blaze of Glory`
+- Expanded the lore of `Vaelastrasz the Corrupt` with his aid to adventurers and resistance to Nefarian's control
 - Added missing abilities and egg mechanics to the `Razorgore the Untamed` encounter and its reinforcements
 - Added guidance for `Razorgore` tank positioning, threat management, premature egg explosions, and `Free Action Potion` use against `War Stomp`
 
