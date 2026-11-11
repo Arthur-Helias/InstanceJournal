@@ -6,6 +6,8 @@ All changes to this project will be documented in this file.
 
 ### Added
 
+- Expanded the lore of `Ezzel Darkbrewer` with Nefarian's role and Ton'Raka's name
+- Added missing abilities to the `Ezzel Darkbrewer` encounter and guidance for charge positioning and `Transmute to Gold`
 - Expanded the lore of `Firemaw` with his role guarding the laboratories and his loyalty to Deathwing
 - Added missing abilities to the `Firemaw` encounter, including `Shadowflame Jets` and guidance for occupying the dark zones
 - Added missing abilities to the `Broodlord Lashlayer` encounter, including `Serrated Wound`

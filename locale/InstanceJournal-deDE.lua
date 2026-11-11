@@ -2807,7 +2807,7 @@ if GetLocale() == "deDE" then
     IJ_DB_RAID_KARA40_BOSS_STORY_59981 =
         "Ein Draenei, dessen Geist durch die räumlichen Anomalien in diesem Flügel des Turms noch weiter gebrochen wurde. Gefangen im Felsen der Verwüstung wurde Sanv Tas'dal in eine wilde Verzweiflung getrieben und nutzte die Überreste seines schamanischen Erbes und dunklen Voodoo, um sein karges Territorium vor Eindringlingen zu verteidigen."
     IJ_DB_RAID_BWL_BOSS_STORY_ezzel =
-        "Ezzel Darkbrewer mag ein Goblin von kleiner Statur sein, aber er ist keineswegs ein Schwächling. Mit einem Arsenal an chemischen Präparaten und einem brillanten Verstand, der durch viele Jahre auf diesem Gebiet geschärft wurde, ist er bereit, jeden Eindringling zu vereiteln, der das Labor seines Arbeitgebers betritt. Oh, und vergessen Sie nicht den schwerfälligen Oger, auf dem er sitzt."
+        "Ezzel Darkbrewer mag ein Goblin von kleiner Statur sein, aber er ist keineswegs ein Schwächling. Mit einem Arsenal an chemischen Präparaten und einem brillanten Verstand, der durch viele Jahre auf diesem Gebiet geschärft wurde, ist er bereit, jeden Eindringling zu vereiteln, der das Labor seines Arbeitgebers betritt. Oh, und vergessen Sie nicht den schwerfälligen Oger, auf dem er sitzt.\n\nVon Nefarian angeheuert, um die Verteidigung des Pechschwingenhorts zu verstärken, bewacht Ezzel das Alchemielabor gemeinsam mit seinem schwerfälligen Gefährten Ton'Raka."
     IJ_DB_RAID_NAXX_BOSS_STORY_16061 =
         "Ausbilder Razuvious, der am meisten gefürchtete Todesritterausbilder der Geißel, war einst der Lordaeronische Ritter Razuv Ivaldi, ein Veteran der Belagerung durch die Horde im Zweiten Krieg. Im Leben war er ein disziplinierter Soldat, aber im Untoten ist er zu einem rücksichtslosen Ausbilder geworden, der durch Brutalität und absoluten Gehorsam neue Todesritter formt. Umgeben von seinen treuen Schülern setzt Razuvious den Willen der Geißel mit unerbittlicher Härte durch und schmiedet aus seinen Schülern Waffen, die ebenso gnadenlos sind wie er selbst."
     IJ_QUEST_NAME_41386 = "Pricolich Lycan"
@@ -5123,3 +5123,21 @@ if GetLocale() == "deDE" then
     IJ_QUEST_NAME_2041 = "Sprich mit Shoni"
     IJ_QUEST_OBJECTIVE_2041 = "Sprecht mit Shoni dem Shilent in Sturmwind."
 end
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30194 = "Säurebombe"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30194 = "Fügt Gegnern im Umkreis von 10 Metern um den Einschlag Naturschaden zu und hinterlässt eine Säurepfütze."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30195 = "Säurepfütze"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30195 = "Verursacht in einem Bereich von 10 Metern 15 Sekunden lang jede Sekunde Naturschaden, verringert das Bewegungstempo um 20% und die Rüstung um 50%.\n\nVerlasst die Säure."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30196 = "Chemische Wut"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30196 = "Bei etwa 75%, 50% und 25% Gesundheit verringert Ezzel seinen erlittenen Schaden um 80%. Dieser Schutz endet, wenn Ton'Raka mit einer Säule kollidiert und eine Gehirnerschütterung erleidet."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30205 = "Ansturm"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30205 = "Markiert einen Spieler und bereitet 8 Sekunden lang einen Ansturm vor.\n\nDer markierte Spieler sollte eine Säule zwischen sich und den Boss bringen, damit Ton'Raka mit ihr kollidiert."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30202 = "Gehirnerschütterung"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30202 = "Betäubt den Boss nach einer Kollision mit einer Säule 5 Sekunden lang und entfernt Chemische Wut."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30198 = "Herabfallende Trümmer"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30198 = "Fügt dem Schlachtzug körperlichen Schaden zu."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30203 = "Säulenbrecher"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30203 = "Fügt Gegnern im Umkreis von 10 Metern körperlichen Schaden zu und stößt sie zurück."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30201 = "Einsturz"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30201 = "Fügt dem Schlachtzug hohen körperlichen Schaden zu."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30204 = "In Gold verwandeln"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30204 = "Bei etwa 10% Gesundheit beginnt Ezzel einen 8-sekündigen Zauber, der bei Abschluss den Schlachtzug tötet.\n\nBesiegt ihn vor Abschluss des Zaubers. Wirkt vor dieser Phase Fluch der Sprachen, um mehr Zeit zu gewinnen."

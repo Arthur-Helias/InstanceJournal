@@ -2809,7 +2809,7 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_KARA40_BOSS_STORY_59981 =
         "Un Draenei cuyo espíritu fue fracturado aún más por las anomalías espaciales dentro de esta ala de la torre. Atrapado dentro de la Roca de la Desolación, Sanv Tas'dal se ha visto llevado a una desesperación salvaje, empuñando los restos de su herencia chamánica y su oscuro vudú para defender su exiguo territorio de cualquier intruso."
     IJ_DB_RAID_BWL_BOSS_STORY_ezzel =
-        "Ezzel Darkbrewer puede ser un duende de pequeña estatura, pero de ninguna manera es un presa fácil. Con un arsenal de brebajes químicos y una mente brillante agudizada por muchos años en el campo, está listo para frustrar a cualquier intruso que entre en el laboratorio de su empleador. Ah, y no te olvides del pesado ogro sobre el que está encima."
+        "Ezzel Darkbrewer puede ser un duende de pequeña estatura, pero de ninguna manera es un presa fácil. Con un arsenal de brebajes químicos y una mente brillante agudizada por muchos años en el campo, está listo para frustrar a cualquier intruso que entre en el laboratorio de su empleador. Ah, y no te olvides del pesado ogro sobre el que está encima.\n\nContratado por Nefarian para reforzar las defensas de la Guarida Alanegra, Ezzel custodia el Laboratorio de Alquimia junto a su corpulento compañero, Ton'Raka."
     IJ_DB_RAID_NAXX_BOSS_STORY_16061 =
         "El más temido de los entrenadores de caballeros de la Muerte de la Plaga, el Instructor Razuvious, fue una vez el caballero Lordaeroniano Razuv Ivaldi, un veterano del asedio de la Horda durante la Segunda Guerra. En vida fue un soldado disciplinado, pero en la vida no muerta se ha convertido en un instructor despiadado, formando nuevos caballeros de la muerte a través de la brutalidad y la obediencia absoluta. Rodeado de sus leales suplentes, Razuvious hace cumplir la voluntad de la Plaga con implacable severidad, convirtiendo a sus alumnos en armas tan despiadadas como él mismo."
     IJ_QUEST_NAME_41386 = "licántropo pricólich"
@@ -5106,3 +5106,21 @@ if GetLocale() == "esES" then
     IJ_QUEST_NAME_2041 = "Habla con Shoni"
     IJ_QUEST_OBJECTIVE_2041 = "Habla con Shoni la Shilent en Ventormenta."
 end
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30194 = "Bomba de ácido"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30194 = "Inflige daño de Naturaleza a los enemigos a menos de 10 metros del impacto y deja un charco de ácido."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30195 = "Charco de ácido"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30195 = "Inflige daño de Naturaleza cada segundo durante 15 segundos en un área de 10 metros, reduce la velocidad de movimiento un 20% y la armadura un 50%.\n\nSal del ácido."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30196 = "Furia química"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30196 = "Al llegar aproximadamente al 75%, 50% y 25% de salud, Ezzel reduce el daño recibido un 80%. Esta protección termina cuando Ton'Raka choca con un pilar y sufre Conmoción."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30205 = "Cargar"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30205 = "Marca a un jugador y prepara una carga durante 8 segundos.\n\nEl jugador marcado debe colocar un pilar entre él y el jefe para que Ton'Raka choque contra él."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30202 = "Conmoción"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30202 = "Aturde al jefe durante 5 segundos tras chocar con un pilar y elimina Furia química."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30198 = "Escombros desprendidos"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30198 = "Inflige daño físico a la banda."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30203 = "Rompepilares"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30203 = "Inflige daño físico a los enemigos en un radio de 10 metros y los repele."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30201 = "Derrumbe"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30201 = "Inflige mucho daño físico a la banda."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30204 = "Transmutar en oro"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30204 = "Al llegar aproximadamente al 10% de salud, Ezzel comienza un lanzamiento de 8 segundos que mata a la banda si se completa.\n\nDerrótalo antes de que termine. Aplica Maldición de las Lenguas antes de esta fase para disponer de más tiempo."

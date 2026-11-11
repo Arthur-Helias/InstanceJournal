@@ -2809,7 +2809,7 @@ if GetLocale() == "frFR" then
     IJ_DB_RAID_KARA40_BOSS_STORY_59981 =
         "Un Draeneï dont l'esprit a été encore plus fracturé par les anomalies spatiales au sein de cette aile de la tour. Piégé dans le Rocher de la Désolation, Sanv Tas'dal a été plongé dans un désespoir sauvage, brandissant les restes de son héritage chamanique et de son sombre vaudou pour défendre son maigre territoire contre tout intrus."
     IJ_DB_RAID_BWL_BOSS_STORY_ezzel =
-        "Ezzel Darkbrewer est peut-être un gobelin de petite taille, mais il n'est en aucun cas un jeu d'enfant. Doté d'un arsenal de préparations chimiques et d'un esprit brillant aiguisé par de nombreuses années de travail sur le terrain, il est prêt à contrecarrer tout intrus s'introduisant dans le laboratoire de son employeur. Oh, et n'oubliez pas l'ogre lourd sur lequel il se trouve."
+        "Ezzel Darkbrewer est peut-être un gobelin de petite taille, mais il n'est en aucun cas un jeu d'enfant. Doté d'un arsenal de préparations chimiques et d'un esprit brillant aiguisé par de nombreuses années de travail sur le terrain, il est prêt à contrecarrer tout intrus s'introduisant dans le laboratoire de son employeur. Oh, et n'oubliez pas l'ogre lourd sur lequel il se trouve.\n\nEngagé par Nefarian pour renforcer les défenses du Repaire de l'Aile noire, Ezzel garde le laboratoire d'alchimie aux côtés de son imposant compagnon, Ton'Raka."
     IJ_DB_RAID_NAXX_BOSS_STORY_16061 =
         "Le plus redouté des entraîneurs de chevaliers de la mort du Fléau, l'instructeur Razuvious était autrefois le chevalier Lordaeronien Razuv Ivaldi, un vétéran du siège de la Horde pendant la Seconde Guerre. Dans sa vie, il était un soldat discipliné, mais dans sa vie, il est devenu un instructeur impitoyable, formant de nouveaux chevaliers de la mort par la brutalité et l'obéissance absolue. Entouré de ses fidèles doublures, Razuvious impose la volonté du Fléau avec une sévérité implacable, forgeant ses élèves dans des armes aussi impitoyables que lui."
     IJ_QUEST_NAME_41386 = "Pricolich Lycan"
@@ -5122,3 +5122,21 @@ if GetLocale() == "frFR" then
     IJ_QUEST_NAME_2041 = "Parler à Shoni"
     IJ_QUEST_OBJECTIVE_2041 = "Parlez à Shoni le Shilent à Hurlevent."
 end
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30194 = "Bombe d’acide"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30194 = "Inflige des dégâts de Nature aux ennemis à moins de 10 mètres du point d’impact et laisse une flaque d’acide."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30195 = "Flaque d’acide"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30195 = "Inflige des dégâts de Nature chaque seconde pendant 15 secondes dans une zone de 10 mètres, réduit la vitesse de déplacement de 20% et l’armure de 50%.\n\nSortez de l’acide."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30196 = "Rage chimique"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30196 = "À environ 75%, 50% et 25% de points de vie, Ezzel réduit les dégâts subis de 80%. Cette protection prend fin lorsque Ton'Raka heurte un pilier et subit une Commotion."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30205 = "Charge"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30205 = "Marque un joueur et prépare une charge pendant 8 secondes.\n\nLe joueur marqué doit placer un pilier entre lui et le boss afin que Ton'Raka le percute."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30202 = "Commotion"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30202 = "Étourdit le boss pendant 5 secondes après une collision avec un pilier et retire Rage chimique."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30198 = "Chute de débris"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30198 = "Inflige des dégâts physiques au raid."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30203 = "Brise-pilier"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30203 = "Inflige des dégâts physiques aux ennemis dans un rayon de 10 mètres et les repousse."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30201 = "Effondrement"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30201 = "Inflige de lourds dégâts physiques au raid."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30204 = "Transmutation en or"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30204 = "À environ 10% de points de vie, Ezzel commence une incantation de 8 secondes qui tue le raid si elle aboutit.\n\nBattez-le avant la fin de l’incantation. Appliquez Malédiction des langages avant cette phase pour disposer de plus de temps."

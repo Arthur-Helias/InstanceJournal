@@ -270,7 +270,7 @@ BWL.Bosses = {
             [23] = {IJDB.I[19397], DropChance = 7}
         }
     },
-    [5] = { -- NOTE: Missing abilities
+    [5] = {
         Id = "ezzel",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "ezzel" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "ezzel" .. IMPF,
@@ -278,6 +278,74 @@ BWL.Bosses = {
         Story = IJ_DB_RAID_BWL_BOSS_STORY_ezzel,
         MapCoordinateX = 16.8,
         MapCoordinateY = 55.8,
+        Abilities = {
+            [1] = {
+                Id = "30194",
+                Icon = "Spell_Nature_Acid_01",
+                Name = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30194,
+                Effect = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30194,
+                SubAbilities = {
+                    [1] = {
+                        Id = "30195",
+                        Icon = "Spell_Nature_Acid_01",
+                        Name = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30195,
+                        Effect = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30195,
+                        Flags = {IMAF.Important}
+                    }
+                }
+            },
+            [2] = {
+                Id = "30196",
+                Icon = "Spell_Nature_AncestralGuardian",
+                Name = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30196,
+                Effect = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30196,
+                Flags = {IMAF.Important}
+            },
+            [3] = {
+                Id = "30205",
+                Icon = "Spell_Nature_ChainLightning",
+                Name = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30205,
+                Effect = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30205,
+                Flags = {IMAF.Important},
+                SubAbilities = {
+                    [1] = {
+                        Id = "30202",
+                        Icon = "Spell_Frost_Stun",
+                        Name = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30202,
+                        Effect = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30202
+                    },
+                    [2] = {
+                        Id = "30198",
+                        Icon = "Spell_Nature_Earthquake",
+                        Name = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30198,
+                        Effect = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30198,
+                        Flags = {IMAF.Heal}
+                    },
+                    [3] = {
+                        -- TODO: Confirm the exact trigger for Pillar Breaker.
+                        Id = "30203",
+                        Icon = "Spell_Nature_ThunderClap",
+                        Name = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30203,
+                        Effect = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30203
+                    },
+                    [4] = {
+                        -- TODO: Confirm the exact trigger for Cave In; observed during repeated charges without Concussion.
+                        Id = "30201",
+                        Icon = "Spell_Nature_Earthquake",
+                        Name = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30201,
+                        Effect = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30201,
+                        Flags = {IMAF.Deadly}
+                    }
+                }
+            },
+            [4] = {
+                Id = "30204",
+                Icon = "INV_Ingot_03",
+                Name = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30204,
+                Effect = IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30204,
+                Flags = {IMAF.Deadly, IMAF.Important}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[33073], DropChance = 7},
             [2] = {IJDB.I[33074], DropChance = 7},

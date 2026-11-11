@@ -2796,7 +2796,7 @@ if GetLocale() == "ptBR" then
     IJ_DB_RAID_KARA40_BOSS_STORY_59981 =
         "Um Draenei cujo espírito foi ainda mais fraturado pelas anomalias espaciais nesta ala da torre. Preso na Rocha da Desolação, Sanv Tas'dal foi levado a um desespero selvagem, empunhando os restos de sua herança xamânica e vodu sombrio para defender seu escasso território de quaisquer intrusos."
     IJ_DB_RAID_BWL_BOSS_STORY_ezzel =
-        "Ezzel Darkbrewer pode ser um goblin de pequena estatura, mas não é de forma alguma uma tarefa simples. Com um arsenal de misturas químicas e uma mente brilhante aguçada por muitos anos na área, ele está pronto para impedir qualquer intruso que entre no laboratório de seu empregador. Ah, e não se esqueça do ogro pesado sobre o qual ele está."
+        "Ezzel Darkbrewer pode ser um goblin de pequena estatura, mas não é de forma alguma uma tarefa simples. Com um arsenal de misturas químicas e uma mente brilhante aguçada por muitos anos na área, ele está pronto para impedir qualquer intruso que entre no laboratório de seu empregador. Ah, e não se esqueça do ogro pesado sobre o qual ele está.\n\nContratado por Nefarian para reforçar as defesas do Covil Asa Negra, Ezzel protege o Laboratório Alquímico ao lado de seu corpulento companheiro, Ton'Raka."
     IJ_DB_RAID_NAXX_BOSS_STORY_16061 =
         "O mais temido dos treinadores de cavaleiros da morte do Flagelo, o Instrutor Razuvious já foi o cavaleiro Lordaeroniano Razuv Ivaldi, um veterano do cerco da Horda durante a Segunda Guerra. Em vida ele foi um soldado disciplinado, mas na morte ele se tornou um instrutor implacável, moldando novos cavaleiros da morte através da brutalidade e da obediência absoluta. Cercado por seus leais substitutos, Razuvious impõe a vontade do Flagelo com severidade implacável, transformando seus alunos em armas tão impiedosas quanto ele."
     IJ_QUEST_NAME_41386 = "Pricolich Lycan"
@@ -5091,3 +5091,21 @@ if GetLocale() == "ptBR" then
     IJ_QUEST_NAME_2041 = "Fale com Shoni"
     IJ_QUEST_OBJECTIVE_2041 = "Fale com Shoni, o Shilent, em Ventobravo."
 end
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30194 = "Bomba Ácida"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30194 = "Causa dano de Natureza aos inimigos em um raio de 10 metros do impacto e deixa uma poça de ácido."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30195 = "Poça de Ácido"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30195 = "Causa dano de Natureza a cada segundo por 15 segundos em uma área de 10 metros, reduz a velocidade de movimento em 20% e a armadura em 50%.\n\nSaia do ácido."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30196 = "Fúria Química"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30196 = "Com aproximadamente 75%, 50% e 25% de vida, Ezzel reduz o dano recebido em 80%. Essa proteção termina quando Ton'Raka colide com um pilar e sofre Concussão."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30205 = "Investida"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30205 = "Marca um jogador e prepara uma investida durante 8 segundos.\n\nO jogador marcado deve posicionar um pilar entre si e o boss para que Ton'Raka colida com ele."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30202 = "Concussão"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30202 = "Atordoa o boss por 5 segundos após uma colisão com um pilar e remove Fúria Química."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30198 = "Destroços em Queda"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30198 = "Causa dano Físico à raid."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30203 = "Quebra-pilar"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30203 = "Causa dano Físico aos inimigos em um raio de 10 metros e os repele."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30201 = "Desabamento"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30201 = "Causa dano Físico elevado à raid."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30204 = "Transmutar em Ouro"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30204 = "Com aproximadamente 10% de vida, Ezzel inicia um lançamento de 8 segundos que mata a raid se concluído.\n\nDerrote-o antes do fim do lançamento. Aplique Maldição das Línguas antes dessa fase para aumentar o tempo disponível."
