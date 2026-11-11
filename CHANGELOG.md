@@ -6,6 +6,8 @@ All changes to this project will be documented in this file.
 
 ### Added
 
+- Added missing abilities to the `Ebonroc` encounter, including `Shadowflame Sparks` and tank-switching guidance
+- Expanded the lore of `Ebonroc` with his allegiance to Nefarian and Deathwing
 - Expanded the lore of `Ezzel Darkbrewer` with Nefarian's role and Ton'Raka's name
 - Added missing abilities to the `Ezzel Darkbrewer` encounter and guidance for charge positioning and `Transmute to Gold`
 - Expanded the lore of `Firemaw` with his role guarding the laboratories and his loyalty to Deathwing

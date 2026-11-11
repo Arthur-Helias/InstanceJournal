@@ -362,7 +362,7 @@ BWL.Bosses = {
             [13] = {IJDB.I[33085], DropChance = 7}
         }
     },
-    [6] = { -- NOTE: Missing abilities
+    [6] = {
         Id = "14601",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "ebonroc" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "ebonroc" .. IMPF,
@@ -370,6 +370,61 @@ BWL.Bosses = {
         Story = IJ_DB_RAID_BWL_BOSS_STORY_14601,
         MapCoordinateX = 38.4,
         MapCoordinateY = 32.0,
+        Abilities = {
+            [1] = {
+                Id = "22539",
+                Icon = "Spell_Fire_Incinerate",
+                Name = IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_22539,
+                Effect = IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_22539,
+                Flags = {IMAF.Tank, IMAF.Important},
+                SubAbilities = {
+                    [1] = {
+                        Id = "22682",
+                        Icon = "Spell_Fire_Incinerate",
+                        Name = IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_22682,
+                        Effect = IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_22682,
+                        Flags = {IMAF.Deadly}
+                    }
+                }
+            },
+            [2] = {
+                Id = "23339",
+                Icon = "INV_Misc_MonsterScales_14",
+                Name = IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_23339,
+                Effect = IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_23339,
+                Flags = {IMAF.Tank}
+            },
+            [3] = {
+                Id = "23340",
+                Icon = "Spell_Shadow_GatherShadows",
+                Name = IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_23340,
+                Effect = IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_23340,
+                Flags = {IMAF.Tank, IMAF.Important}
+            },
+            [4] = {
+                Id = "3391",
+                Icon = "Ability_GhoulFrenzy",
+                Name = IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_3391,
+                Effect = IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_3391,
+                Flags = {IMAF.Tank}
+            },
+            [5] = {
+                -- TODO: Confirm the exact despawn duration and target selection rules for Shadowflame Sparks.
+                Id = "65151",
+                Icon = "Spell_Fire_Fire",
+                Name = IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_65151,
+                Effect = IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_65151,
+                Flags = {IMAF.Important, IMAF.Heal},
+                SubAbilities = {
+                    [1] = {
+                        Id = "30207",
+                        Icon = "Spell_Shadow_ShadowBolt",
+                        Name = IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_30207,
+                        Effect = IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_30207
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[16899], DropChance = 7},
             [2] = {IJDB.I[16907], DropChance = 7},
