@@ -5812,7 +5812,7 @@ if GetLocale() == "zhCN" then
 
     -- Quest 70001
     IJ_QUEST_NAME_70001 = "妖术师的结界"
-    IJ_QUEST_OBJECTIVE_70001 = "将一块完美黑曜石碎片带给大法师克希雷姆。"
+    IJ_QUEST_OBJECTIVE_70001 = "将一个妖术师的结界带给大法师克希雷姆。"
     IJ_NPC_NAME_14368 = "博学者莱德罗斯"
     IJ_NPC_NAME_1498 = "比索·埃斯沙德"
     IJ_NPC_NAME_2708 = "大法师马林"

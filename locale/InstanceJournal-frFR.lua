@@ -2873,7 +2873,7 @@ if GetLocale() == "frFR" then
     IJ_QUEST_NAME_70000 = "Un type spécial d'invocation"
     IJ_QUEST_OBJECTIVE_70000 = "Visitez l’archimage Xylem à Azshara."
     IJ_QUEST_NAME_70001 = "La protection du maléficieur"
-    IJ_QUEST_OBJECTIVE_70001 = "Apportez un éclat d'obsidienne parfait à l'archimage Xylem."
+    IJ_QUEST_OBJECTIVE_70001 = "Apportez une protection du maléficieur à l'archimage Xylem."
     IJ_NPC_NAME_14368 = "Gardien du savoir Lydros"
     IJ_NPC_NAME_1498 = "Bethor Éclat de Glace"
     IJ_NPC_NAME_2708 = "Archimage Malin"

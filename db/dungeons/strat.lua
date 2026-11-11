@@ -208,8 +208,8 @@ STRAT.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "barthilas" .. IMPF,
         Name = IJ_DB_DUNGEON_STRAT_BOSS_NAME_10435,
         Story = IJ_DB_DUNGEON_STRAT_BOSS_STORY_10435,
-        MapCoordinateX = 81.6,
-        MapCoordinateY = 62.5,
+        MapCoordinateX = 75.6,
+        MapCoordinateY = 11.9,
         Loot = {
             [1] = {IJDB.I[12382], DropChance = 100},
             [2] = {IJDB.I[13376], DropChance = 17},

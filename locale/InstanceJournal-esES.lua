@@ -2873,7 +2873,7 @@ if GetLocale() == "esES" then
     IJ_QUEST_NAME_70000 = "Un tipo especial de convocatoria"
     IJ_QUEST_OBJECTIVE_70000 = "Visita al archimago Xylem en Azshara."
     IJ_QUEST_NAME_70001 = "La protección del malhechor"
-    IJ_QUEST_OBJECTIVE_70001 = "Llévale un fragmento de obsidiana perfecta al archimago Xylem."
+    IJ_QUEST_OBJECTIVE_70001 = "Llévale una protección del malhechor al archimago Xylem."
     IJ_NPC_NAME_14368 = "Guardián de la tradición Lydros"
     IJ_NPC_NAME_1498 = "Bethor Fragmento de Hielo"
     IJ_NPC_NAME_2708 = "Archimago Malin"

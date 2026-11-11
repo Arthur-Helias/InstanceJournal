@@ -15,6 +15,11 @@ All changes to this project will be documented in this file.
 - Added missing abilities and egg mechanics to the `Razorgore the Untamed` encounter and its reinforcements
 - Added guidance for `Razorgore` tank positioning, threat management, premature egg explosions, and `Free Action Potion` use against `War Stomp`
 
+### Fixed
+
+- Corrected the map position of `Magistrate Barthilas` in `Stratholme`
+- Updated the objective of `The Hexxer's Ward` to request a `Hexxer's Ward` instead of a `Perfect Obsidian Shard`
+
 ## [1.4.6] - 2026-11-09
 
 ### Added

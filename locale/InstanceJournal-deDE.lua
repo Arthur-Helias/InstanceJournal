@@ -2871,7 +2871,7 @@ if GetLocale() == "deDE" then
     IJ_QUEST_NAME_70000 = "Eine besondere Art von Beschwörung"
     IJ_QUEST_OBJECTIVE_70000 = "Besuchen Sie Erzmagier Xylem in Azshara."
     IJ_QUEST_NAME_70001 = "Der Schutzzauber des Verhexers"
-    IJ_QUEST_OBJECTIVE_70001 = "Bringt Erzmagier Xylem einen perfekten Obsidiansplitter."
+    IJ_QUEST_OBJECTIVE_70001 = "Bringt Erzmagier Xylem einen Schutzzauber des Verhexers."
     IJ_NPC_NAME_14368 = "Wissenshüter Lydros"
     IJ_NPC_NAME_1498 = "Bethor Iceshard"
     IJ_NPC_NAME_2708 = "Erzmagier Malin"
