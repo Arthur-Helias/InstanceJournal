@@ -449,7 +449,7 @@ BWL.Bosses = {
             [21] = {IJDB.I[19407], DropChance = 17}
         }
     },
-    [7] = { -- NOTE: Missing abilities
+    [7] = {
         Id = "11981",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "flamegor" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "flamegor" .. IMPF,
@@ -457,6 +457,54 @@ BWL.Bosses = {
         Story = IJ_DB_RAID_BWL_BOSS_STORY_11981,
         MapCoordinateX = 45.7,
         MapCoordinateY = 22.2,
+        Abilities = {
+            [1] = {
+                Id = "22539",
+                Icon = "Spell_Fire_Incinerate",
+                Name = IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_22539,
+                Effect = IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_22539,
+                Flags = {IMAF.Tank, IMAF.Important},
+                SubAbilities = {
+                    [1] = {
+                        Id = "22682",
+                        Icon = "Spell_Fire_Incinerate",
+                        Name = IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_22682,
+                        Effect = IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_22682,
+                        Flags = {IMAF.Deadly}
+                    }
+                }
+            },
+            [2] = {
+                Id = "23339",
+                Icon = "INV_Misc_MonsterScales_14",
+                Name = IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_23339,
+                Effect = IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_23339,
+                Flags = {IMAF.Tank}
+            },
+            [3] = {
+                Id = "23342",
+                Icon = "Ability_Druid_ChallangingRoar",
+                Name = IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_23342,
+                Effect = IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_23342,
+                Flags = {IMAF.Enrage, IMAF.Important},
+                SubAbilities = {
+                    [1] = {
+                        Id = "23462",
+                        Icon = "Spell_Fire_SealOfFire",
+                        Name = IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_23462,
+                        Effect = IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_23462,
+                        Flags = {IMAF.Heal}
+                    }
+                }
+            },
+            [4] = {
+                Id = "52756",
+                Icon = "Spell_Shadow_ShadowWordDominate",
+                Name = IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_52756,
+                Effect = IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_52756,
+                Flags = {IMAF.Important}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[19357], DropChance = 17},
             [2] = {IJDB.I[19367], DropChance = 17},

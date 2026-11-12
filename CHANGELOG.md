@@ -6,6 +6,8 @@ All changes to this project will be documented in this file.
 
 ### Added
 
+- Added missing abilities to the `Flamegor` encounter, including `Overbearing Rage` and guidance for its control immunities and `Hamstring` exception
+- Expanded the lore of `Flamegor` with his allegiance to Nefarian and Deathwing
 - Added missing abilities to the `Ebonroc` encounter, including `Shadowflame Sparks` and tank-switching guidance
 - Expanded the lore of `Ebonroc` with his allegiance to Nefarian and Deathwing
 - Expanded the lore of `Ezzel Darkbrewer` with Nefarian's role and Ton'Raka's name
