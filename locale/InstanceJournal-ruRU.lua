@@ -1446,186 +1446,275 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_ZG_BOSS_NAME_14517 = "Верховная жрица Джеклик"
     IJ_DB_RAID_ZG_BOSS_STORY_14517 =
         "Верховная жрица Джеклик — зандаларская верховная жрица первобытного бога джунглей Хир'ика, Летучей мыши. Отправленная в Зул'Гуруб, чтобы остановить Хаккара Свежевателя Душ, она в конце концов была обращена богом крови."
-    IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Stage One: Bat Form"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 = "Jeklik assumes the form of a bat until she is at 50% health."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Звуковой взрыв"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 =
-        "Джеклик издает пронзительный вопль, наносящий от 1750 до 2250 физического урона и заставляющий замолчать всех врагов в радиусе 30 ярдов на 10 секунд."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_22911 = "Заряжать"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_22911 =
-        "Джеклик бросается на врага, находящегося на расстоянии от 8 до 40 ярдов от нее. Заряд наносит 1000 физического урона и заставляет цель замолчать на 5 секунд."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_5570 = "Рой летучих мышей"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_5570 =
-        "Джеклик вызывает рой из 6–8 летучих мышей, чтобы помочь ей на протяжении всей битвы. ||н||  ||н|| Это происходит через одну минуту боя и каждую минуту после него."
-    IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Этап второй: форма тролля"
+    IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Первая фаза: облик летучей мыши"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 =
+        "Джеклик сражается в облике летучей мыши, пока ее здоровье не снизится до 50%."
+    IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Вторая фаза: облик тролля"
     IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 =
-        "Джеклик принимает форму тролля, когда ее здоровье достигает 50%, и поочередно произносит два заклинания."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_25807 = "Великое исцеление"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_25807 =
-        "Джеклик начинает произносить исцеляющее заклинание, которое восстанавливает 25% ее общего здоровья, если его не прервать."
+        "При 50% здоровья Джеклик возвращается в облик тролля, применяет заклинания темной магии и исцеление, пока летучие мыши-бомбардировщики атакуют рейд."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_12097 = "Прокалывание брони"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_12097 =
+        "Снижает броню противника на 75% на 20 секунд."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Звуковой удар"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 =
+        "Наносит физический урон и лишает противников в радиусе 20 м возможности произносить заклинания на 10 секунд. Эффект немоты можно рассеять.\n\nЛекари и бойцы дальнего боя должны по возможности оставаться вне радиуса действия."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_24408 = "Рывок"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_24408 =
+        "Бросается к противнику, нанося физический урон и оглушая его на 2 секунды."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23919 = "Налет"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23919 =
+        "Поражает противников в конусе перед Джеклик, нанося физический урон и оглушая их на 2 секунды.\n\nДержите ее спиной к рейду."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_batswarm = "Стая летучих мышей"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_batswarm =
+        "Джеклик зовет летучих мышей на помощь в фазе летучей мыши.\n\nТанки должны собрать их, пока бойцы уничтожают стаю."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_6605 = "Ужасающий визг"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_6605 =
+        "Пугает противников в радиусе 5 м на 4 секунды. Защита от страха может предотвратить страх, а уже наложенный магический эффект можно рассеять."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23952 = "Слово Тьмы: Боль"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23952 =
+        "Накладывает магический эффект, наносящий урон от темной магии каждые 3 секунды в течение 18 секунд. Быстро рассейте его."
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "Пытка разума"
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 =
-        "Джеклик использует способность «Пытка разума», наносящую урон цели и ближайшим союзникам, если ее не прервать."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "Призвать летучих мышей-бомбардировщиков"
+        "Поддерживает заклинание, каждую секунду нанося урон от темной магии и замедляя пораженных игроков на 80% на срок до 10 секунд.\n\nПрервите поддержание заклинания."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23954 = "Великое исцеление"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23954 =
+        "В течение 4 секунд произносит мощное исцеляющее заклинание.\n\nПрервите его, чтобы Джеклик не восстановила здоровье."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_16098 = "Проклятие крови"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_16098 =
+        "Проклинает ближайших противников, увеличивая получаемый ими физический урон на 10 минут. Быстро снимите проклятие."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "Призыв летучих мышей-бомбардировщиков"
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974 =
-        "Джеклик вызывает летучих мышей-бомбардировщиков, которые сбрасывают на врагов зажигательные бомбы, оставляя на земле горящие пятна, наносящие урон всем, кто в них стоит."
+        "Летучие мыши-бомбардировщики помогают Джеклик в фазе тролля."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23970 = "Бросок жидкого огня"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23970 =
+        "Летучие мыши-бомбардировщики бросают в игроков жидкий огонь, нанося урон от огня и оставляя горящие участки земли.\n\nВыйдите из огня."
     IJ_DB_RAID_ZG_BOSS_NAME_14507 = "Верховный жрец Веноксис"
     IJ_DB_RAID_ZG_BOSS_STORY_14507 =
         "Верховный жрец Веноксис — зандаларский верховный жрец Изначального бога Хетисса, змеиного бога. Посланный в Зул'Гуруб, чтобы остановить Хаккара Свежевателя Душ, он в конце концов был обращен богом крови."
-    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "Этап первый: форма тролля"
-    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 = "Веноксис принимает форму тролля, пока его здоровье не достигнет 50%."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_10713 = "Змея Веноксиса добавляет"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_10713 =
-        "Четыре змеи-адда Веноксиса начнут с ним бой, помогая ему во время боя. ||н||  ||н|| Этих аддов следует убить до начала второго этапа."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "Святой гнев"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 =
-        "Веноксис произносит священный гнев, нанося 300 священного урона, который увеличивается с каждым врагом, от которого отскакивает заклинание."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895 = "Продлить"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 =
-        "Применения Веноксиса обновляются, восстанавливая ему 2000 здоровья каждые 3 секунды в течение 15 секунд."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "Святая Нова"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 =
-        "Веноксис создает взрыв божественного света, нанося от 875 до 1126 святого урона ближайшим врагам."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860 = "Благодатный огонь"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 =
-        "Веноксис бросает священный огонь, охватывая врага пламенем, нанося 2200 урона от огня плюс 125 урона от огня каждые 2 секунды в течение 8 секунд."
-    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "Этап второй: форма змеи"
+    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "Первая фаза: облик тролля"
+    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 =
+        "Веноксис сражается в облике тролля, пока его здоровье не снизится до 50%."
+    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "Вторая фаза: облик змеи"
     IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 =
-        "Веноксис принимает форму змеи, когда у него остается 50% здоровья. ||н||  ||н|| Урон Веноксиса увеличивается на время этапа."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_12766 = "Ядовитое облако"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_12766 = "Веноксис создает ядовитое облако, нанося урон ядом, когда находится в нем."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_6917 = "Ядовитая плевка"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_6917 =
-        "Веноксис плюет во врага ядом, нанося урон от сил природы и дополнительный урон каждые 5 секунд в течение 10 секунд."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865 = "Паразитический змей"
+        "При 50% здоровья Веноксис превращается в змею и использует атаки сил природы."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_razzashicobras = "Кобры Раззаши"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_razzashicobras =
+        "Четыре кобры Раззаши сопровождают Веноксиса в начале боя.\n\nПобедите их до фазы змеи."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "Гнев небес"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 =
+        "Наносит урон от светлой магии, перескакивающий между ближайшими игроками и возрастающий с каждым переходом.\n\nРассредоточьтесь, чтобы ограничить переходы."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895 = "Обновление"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 =
+        "Исцеляет Веноксиса каждые 3 секунды в течение 15 секунд.\n\nСнимите положительный эффект с босса рассеиванием."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "Кольцо света"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 =
+        "Наносит урон от светлой магии противникам в радиусе 15 м."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860 = "Священный огонь"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 =
+        "Наносит урон от огня и дополнительный урон от огня каждые 2 секунды в течение 8 секунд.\n\nРассейте магический эффект."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23859 = "Рассеивание заклинаний"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23859 =
+        "Снимает с Веноксиса один вредоносный магический эффект."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23861 = "Ядовитое облако"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23861 =
+        "Создает облако, наносящее урон от сил природы каждую секунду в радиусе 8 м в течение 10 секунд.\n\nНемедленно выйдите из облака."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23862 = "Ядовитый плевок"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23862 =
+        "Наносит урон от сил природы и накладывает яд, наносящий дополнительный урон от сил природы каждые 2 секунды в течение 10 секунд.\n\nСнимите яд."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865 = "Паразитирующая змея"
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 =
-        "Веноксис порождает змею-паразита, которая атакует врага и отравляет его, нанося 300 урона от сил природы каждые 2 секунды в течение 10 секунд."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3019 = "Разгневать"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3019 =
-        "Когда у Веноксиса остается 20% здоровья, он приходит в ярость, значительно увеличивая урон, который он наносит своим врагам."
+        "Призывает Паразитирующую змею и накладывает эффект, наносящий урон от сил природы каждые 2 секунды в течение 10 секунд."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3391 = "Взбучка"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3391 =
+        "Дает Веноксису 2 дополнительные атаки ближнего боя."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_8269 = "Исступление"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_8269 =
+        "Примерно при 20% здоровья Веноксис получает 60% скорости атак ближнего боя и 50 дополнительного физического урона.\n\nТанки и лекари должны подготовиться к увеличению входящего урона."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_24097 = "Яд"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_24097 =
+        "Кобры Раззаши накладывают яд, наносящий урон от сил природы каждые 3 секунды в течение 30 секунд.\n\nСнимите яд."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_27919 = "Плевок"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_27919 =
+        "Кобры Раззаши плюют в противника, нанося урон от сил природы и отбрасывая цель."
     IJ_DB_RAID_ZG_BOSS_NAME_14510 = "Верховная жрица Мар'ли"
     IJ_DB_RAID_ZG_BOSS_STORY_14510 =
         "Мар'ли — верховная жрица паука-лоа Шадры. Посланная королем Растаханом в Зул'Гуруб, чтобы остановить Хаккара Свежевателя Душ вместе с другими первосвященниками лоа, она в конечном итоге была осквернена богом крови."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Spider Form"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider = "Randomly throughout the fight, Mar'li will assume her spider form, gaining new abilities."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "Обволакивающая паутина"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24110 =
-        "Мар'ли окутывает своей паутиной всех врагов в радиусе 10 м, приковывая их к земле, увеличивая время между атаками на 100% и не позволяя им произносить заклинания в течение 8 секунд. ||н||  ||н|| Офф-танк должен быть готов мгновенно создать угрозу, поскольку это сбросит угрозу каждого укоренившегося игрока."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Troll Form"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll = "After assuming her spider form, Mar'li will eventually return to her orignal troll form, regaining her standard abilities."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlicharge = "Charge"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlicharge = "Mar'li charges her target, dealing physical damage and stunning them."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Выкачивать жизнь"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Облик тролля"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll =
+        "Мар'ли начинает бой в облике тролля и возвращается в него между превращениями в паука."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Облик паука"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider =
+        "Мар'ли периодически превращается в паука, используя паутину, Рывок и Разъедающий яд."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Похищение жизни"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 =
-        "Мар'ли высасывает жизнь из своей цели, вытягивая 500 единиц здоровья каждую 1 секунду в течение 7 секунд."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Spawns of Mar'li"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
-        "Mar'li hatches her eggs, birthing 4 Spawns of Mar'li that helps her throughout the fight.\n\nThese spiders need to be dealt with as soon as possible as they will grow stronger as the fight goes on."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Залп ядовитых стрел"
+        "Поддерживает заклинание, каждую секунду нанося урон от темной магии и восстанавливая здоровье Мар'ли в течение не более 7 секунд.\n\nПрервите поддержание заклинания или рассейте магический эффект с пораженного игрока."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "Окутывающая паутина"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24110 =
+        "Обездвиживает противников в радиусе 10 м, увеличивает время между их атаками ближнего боя на 100% и лишает возможности произносить заклинания на 8 секунд.\n\nВторой танк должен быть готов забрать Мар'ли, пока основной танк опутан паутиной."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24408 = "Рывок"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24408 =
+        "В облике паука бросается к противнику, нанося физический урон и оглушая его на 2 секунды."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24111 = "Разъедающий яд"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24111 =
+        "Снижает броню противника на 5000 и наносит урон от сил природы каждые 5 секунд в течение 30 секунд.\n\nБыстро снимите яд."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Ядовитый залп"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 =
-        "Мар'ли стреляет ядом во всех врагов в радиусе 30 метров, нанося 375 мгновенного урона от сил природы и 290 периодического урона каждые 2 секунды в течение 10 секунд."
+        "Наносит урон от сил природы противникам в радиусе 30 м и накладывает яд, наносящий дополнительный урон от сил природы каждые 2 секунды в течение 10 секунд.\n\nСнимите яд."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Порождения Мар'ли"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
+        "Порождения Мар'ли вступают в бой и со временем становятся сильнее.\n\nБыстро уничтожайте их, пока они не выросли полностью."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24087 = "Рост"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24087 =
+        "Порождения Мар'ли со временем растут, увеличивая размер и физический урон."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24088 = "Полный рост"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24088 =
+        "Полностью выросшие порождения получают 50% скорости атак ближнего боя и невосприимчивость к Превращению, страху и сну."
     IJ_DB_RAID_ZG_BOSS_NAME_11382 = "Повелитель крови Мандокир"
     IJ_DB_RAID_ZG_BOSS_STORY_11382 =
         "Повелитель крови Мандокир — могущественный тролль джунглей и лидер племени Гурубаши. Его постоянным спутником является его хищник Оган. Он служит злому богу Хаккару Свежевателю Душ в Зул'Гурубе вместе с остальными членами своего племени."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgan = "Ohgan"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan = "Ohgan also becomes enraged when Mandakir is attacked, defending his master until death."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgansunder = "Sunder Armor"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgansunder = "Ohgan sunders his target's armor, increasing the amount of damage they receive for every stack of Sunder Armor they are afflicted with."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokir = "Mandokir"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgan = "Охган"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan =
+        "Охган сопровождает Мандокира и использует Раскол брони и Взбучку.\n\nТанк должен держать его отдельно от босса."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokir = "Мандокир"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokir =
+        "Мандокир сражается вместе с Охганом и становится сильнее, когда игроки погибают."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24317 = "Раскол брони"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24317 =
+        "Охган снижает броню цели на 1000 за заряд, эффект суммируется до 5 раз и длится 20 секунд."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_3391 = "Взбучка"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_3391 =
+        "Дает Охгану 2 дополнительные атаки ближнего боя."
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24314 = "Угрожающий взгляд"
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 =
-        "Мандокир угрожающе смотрит на случайного врага. Если целевой враг применяет какое-либо заклинание, Мандокир атакует его, нанося тяжелый урон."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirwhirlwind = "Whirlwind"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirwhirlwind = "Mandokir whirlwind into the enemies, dealing damage to every one of them in melee range."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokircleave = "Cleave"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokircleave = "Mandokir cleaves, dealing physical damage to all the enemies in front of him."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24408 = "Заряжать"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 = "Мандокир атакует врага, нанося ему физический урон и оглушая его на 2 секунды."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirlevelup = "Level Up"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirlevelup =
-        "Every time three player gets resurrected by a Chained Spirit, Mandokir levels up, increasing the amount of damage he deals and reducing the amount of damage he receives."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirenrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirenrage = "If Ohgan dies before Mandokir does, Mandokir becomes enraged for 1 minute, increasing the damage he deals to his enemies."
+        "Наблюдает за игроком в течение 6 секунд.\n\nПрекратите атаки и применение заклинаний до окончания взгляда, чтобы избежать карающего рывка."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_13736 = "Вихрь"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_13736 =
+        "Поддерживает вихрь в течение 2 секунд, нанося физический урон противникам в радиусе 8 м.\n\nВыйдите из зоны действия во время поддержания заклинания."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_16856 = "Смертельный удар"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_16856 =
+        "Наносит 200% урона от оружия и снижает получаемое целью исцеление на 50% на 5 секунд."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24408 = "Рывок"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 =
+        "Бросается к противнику, нанося физический урон и оглушая его на 2 секунды."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_19134 = "Устрашающий крик"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_19134 =
+        "Пугает цель и заставляет ближайших противников бежать в страхе на срок до 8 секунд.\n\nЗащита от страха может предотвратить страх."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24312 = "Повышение уровня"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24312 =
+        "Гибель игроков дает Мандокиру заряды Повышения уровня, увеличивающие физический урон на 10% за заряд.\n\nИзбегайте смертей, даже если доступно воскрешение."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24318 = "Исступление"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24318 =
+        "Если Охган погибает раньше Мандокира, наносимый Мандокиром физический урон увеличивается на 50%, а скорость атак ближнего боя — на 65% на 90 секунд.\n\nТанки и лекари должны подготовиться к увеличению входящего урона."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_15117 = "Скованные духи"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117 =
+        "Скованные духи могут воскрешать погибших игроков во время боя."
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "Грань безумия"
     IJ_DB_RAID_ZG_BOSS_STORY_15082 =
-        "О Грани безумия почти ничего не известно, кроме слухов, что если правильно выполнить неизвестное заклинание, то будет вызван один из четырех возможных легендарных троллей..."
+        "На Грани безумия в Зул'Гурубе древние таблички хранят память о четырех духах троллей: Гри'леке, страннике с Железной Кровью; Ренатаки Тысячи Клинков, чья легенда воспевает боль и кровопролитие; Хазза'рахе, Ткаче Снов, повелителе кошмаров; и Вушулае, Заклинателе Бурь, чья сила связана с небом, дождем и землей.\n\nТабличка Безумия раскрывает рецепт Моджо безумия Гурубаши. Это алхимическое подношение используют, чтобы погасить Жаровню Безумия и призвать одного из этих духов обратно в мир живых."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "Gri'lek"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646 = "Аватар"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646 =
-        "На протяжении всего боя Гри'лек превращается в аватара, значительно увеличивая свой размер и урон, но также уменьшая свою скорость. Затем он начнет преследовать случайного врага, независимо от угрозы. ||н||  ||н|| Целевой игрок должен убежать на время действия способности."
+        "На 15 секунд увеличивает физический урон на 500% и снижает скорость передвижения на 75%.\n\nПреследуемый игрок должен убегать и держаться вне радиуса ближнего боя."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24647 = "Оглушение"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24647 =
+        "Гри'лек оглушается на 2 секунды в начале действия Аватары."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_6524 = "Тремор земли"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 = "Гри'лек вызывает дрожь земли, оглушая всех врагов в радиусе 20 м на 2 секунды."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilekroot = "Entangling Roots"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_grilekroot = "Gri'lek roots an enemy, making them unable to move."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 =
+        "Оглушает противников в радиусе 20 м на 2 секунды."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24648 = "Entangling Roots"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24648 =
+        "Обездвиживает игрока на срок до 10 секунд, нанося урон от сил природы каждые 3 секунды.\n\nБыстро рассейте магический эффект, особенно если игрока преследуют во время Аватары."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "Renataki"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Исчезновение"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =
-        "Ренатаки исчезает, не позволяя врагам увидеть его. Как только он появится снова, он устроит засаду на случайного врага, нанеся ему тяжелый урон. ||н||  ||н|| Игрокам необходимо найти Ренатаки до того, как он появится снова. Используйте способности по площади, чтобы попытаться разрушить его скрытность."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakienrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakienrage = "Renataki enrages, increasing the damage he deals to his enemies."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakigouge = "Gouge"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakigouge = "Renataki gouges an enemy, incapacitating them."
+        "Исчезает, затем появляется вновь и нападает на игрока из засады.\n\nЛекарям следует подготовиться к его возвращению."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24337 = "Внезапный удар"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24337 =
+        "Атакует игрока при возвращении после Исчезновения, нанося физический урон."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24698 = "Парализующий удар"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24698 =
+        "Наносит физический урон и выводит ближайших противников из строя на срок до 4 секунд. Получение урона прерывает эффект.\n\nВторой танк должен быть готов подхватить босса, если текущий танк выведен из строя."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24649 = "Тысяча клинков"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24649 =
+        "Бросает клинок в игрока, нанося физический урон."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_8269 = "Исступление"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
+        "Повышает скорость атак ближнего боя на 60% и добавляет 50 ед. физического урона на 120 секунд.\n\nТанкам и лекарям следует подготовиться к увеличению входящего урона."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "Hazza'rah"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "Цепное сжигание маны"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =
-        "Хазза'ра вызывает цепной ожог маны, нанося тяжелый урон по мане и очкам здоровья врагам, находящимся поблизости. ||н||  ||н|| Охотнику и чернокнижникам необходимо продолжать истощать ману Хазза'ры, поскольку в противном случае он будет продолжать использовать эту способность."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24729 = "Вызов кошмарных иллюзий"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24729 =
-        "Хазза'ра вызывает 3 кошмарные иллюзии, которые будут помогать ему на протяжении всего боя. ||н||  ||н|| Дилеры урона должны немедленно нацеливаться на этих аддов, поскольку у них очень мало здоровья, но они наносят большой урон."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Спать"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24684 = "Цепное выжигание"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24684 =
+        "Выжигает ману у максимум 3 целей, перескакивая на ближайших противников и нанося 0,5 ед. урона от темной магии за каждую единицу сожженной маны.\n\nРассредоточьтесь, чтобы ограничить число скачков."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24685 = "Земной шок"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24685 =
+        "Наносит урон от сил природы и прерывает заклинание, запрещая произнесение заклинаний прерванной школы на 4 секунды."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24728 = "Призыв кошмарных иллюзий"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24728 =
+        "Призывает 3 кошмарные иллюзии с малым запасом здоровья, но мощными атаками ближнего боя.\n\nБойцы, особенно дальнего боя, должны быстро убивать иллюзии, прежде чем те доберутся до других игроков."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Сон"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 =
-        "Хазза'ра усыпляет всех врагов, атакующих его в данный момент. ||н||  ||н|| Шаманы могут использовать тотемы тремора, чтобы разбудить своих союзников."
+        "Погружает противников в сон на срок до 6 секунд. Урон пробуждает затронутых игроков.\n\nТотем трепета может снять эффект сна."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "Wushoolay"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_23106 = "Цепная молния"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_23106 = "Ушулай создает молнию, которая сковывает всех врагов, находящихся рядом с ним."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26550 = "Молниеносное облако"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26550 =
-        "Ушулай создает облако молний. Всем врагам, оказавшимся в радиусе поражения облака, будет нанесен полный урон. ||н||  ||н|| Игрокам необходимо немедленно покинуть облако, поскольку оно наносит тяжелый урон."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "Цепная молния"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =
+        "Выпускает молнию, которая перескакивает между максимум 10 целями, нанося возрастающий урон от сил природы с каждым скачком.\n\nРассредоточьтесь, чтобы ограничить число скачков."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24682 = "Разветвленная молния"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24682 =
+        "Наносит от 1157 до 1344 ед. урона от сил природы противникам в конусе перед Вушулаем.\n\nВсем, кроме танка, следует находиться позади босса."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "Молниеносное облако"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
+        "Создает на 15 секунд грозовое облако радиусом 10 м, наносящее от 463 до 538 ед. урона от сил природы при появлении и от 875 до 1126 ед. дополнительного урона каждые 5 секунд.\n\nНемедленно выйдите из облака."
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Газ'ранка"
     IJ_DB_RAID_ZG_BOSS_STORY_15114 =
-        "Говорят, что если бы опытный рыбак закинул свой крючок с очень специфической наживкой на мыс Пэглс-Пойнт, то из воды вылезло бы ужасное существо и сожрало бы его..."
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_21099 = "Ледяное дыхание"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_21099 =
-        "Газ'ранка наносит 850 ед. урона от холода противникам в конусе перед ним, крадя их ману и снижая скорость их передвижения на 5 секунд."
+        "Газ'ранка — легендарная гидра, скрывающаяся в водах Зул'Гуруба у мыса Пэгла. Нат Пэгл некогда побывал на этих берегах и оставил там свои рыболовные снасти и любимую измерительную ленту.\n\nИскатели приключений, вернувшие ленту, узнают, как выманить существо из глубин: приманка на грязнотинника с пятью зулианскими грязнотинниками, заброшенная с мыса Пэгла, заставляет неуловимую гидру подняться на поверхность."
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_16099 = "Ледяное дыхание"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_16099 =
+        "Наносит урон от магии льда и похищает ману у противников в конусе перед Газ'ранкой, снижая их скорость передвижения на 50% на 10 секунд.\n\nРазверните босса спиной к рейду."
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_24326 = "Газ'ранка Удар"
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 =
-        "Газ'ранка бьет всех целей перед собой, нанося 250 ед. физического урона и отбрасывая их назад."
+        "Наносит физический урон противникам поблизости и отбрасывает их."
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_22421 = "Массивный Гейзер"
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 =
-        "Газ'ранка создает огромный гейзер, подбрасывающий врагов в воздух. ||н||  ||н|| Игрокам следует стремиться приземлиться в воду, чтобы избежать ненужного урона."
+        "Создает гейзер, который наносит урон от магии льда и подбрасывает в воздух игроков и питомцев в радиусе 10 м от гейзера.\n\nЗаймите позицию так, чтобы приземлиться в воду и избежать урона от падения."
     IJ_DB_RAID_ZG_BOSS_NAME_14509 = "Верховный жрец Текал"
     IJ_DB_RAID_ZG_BOSS_STORY_14509 =
         "Верховный жрец Текал — зандаларский верховный жрец Ширваллы, тигрового лоа. Посланный в Зул'Гуруб, чтобы остановить Хаккара Свежевателя Душ, он в конце концов был обращен богом крови."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_lorkhan = "Zealot Lor'Khan"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_25807 = "Великое исцеление"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25807 = "Лор'Хан исцеляет себя или союзника, восстанавливая ему 69375 ед. здоровья."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_23552 = "Молниеносный щит"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_23552 =
-        "Лор'Хан окружает себя молниеносным щитом, возвращая атакующему часть полученного им урона."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24208 = "Великое исцеление"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24208 =
+        "Восстанавливает большой запас здоровья Лор'Кхан или союзнику.\n\nПрервите заклинание с временем произнесения 4 секунды."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_25020 = "Молниеносный щит"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25020 =
+        "Окружает Лор'Кхан Щитом молний, способным наносить урон от сил природы атакующим."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22691 = "Разоружение"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22691 = "Лор'Хан обезоруживает свою цель, заставляя ее прекратить использование оружия на 6 секунд."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24185 = "Жажда крови"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24185 =
         "Лор'Хана и его союзников охватывает жажда крови, и их скорость атаки увеличивается на 75% на 30 секунд."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_zath = "Zealot Zath"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_26654 = "Размашистые удары"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_26654 =
-        "Зат наносит размашистые удары, нанося дополнительный урон другой цели при следующей атаке ближнего боя."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_18765 = "Размашистые удары"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_18765 =
+        "Следующие 5 атак Зата в ближнем бою поражают дополнительного противника поблизости. Действует до 20 секунд."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24698 = "Гуж"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24698 = "Зат наносит удар своей цели, выводя ее из строя."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_21060 = "Слепой"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_21060 = "Зат ослепляет свою цель, заставляя ее бродить в замешательстве до 10 секунд."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27613 = "Пинать"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27613 =
-        "Зат пинает свою цель, нанося физический урон и прерывая любое произнесенное в данный момент заклинание на 6 секунд."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_15614 = "Пинать"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_15614 =
+        "Наносит физический урон и прерывает заклинание, запрещая произнесение заклинаний прерванной школы на 6 секунд."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_15667 = "Коварный удар"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_15667 =
+        "Наносит физический урон противнику."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24187 = "Цапнуть"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24187 =
+        "Зулианские стражи используют Цапнуть, нанося физический урон противнику."
     IJ_DB_RAID_ZG_BOSS_14509_NAME_STAGE_1 = "Этап первый: форма тролля"
     IJ_DB_RAID_ZG_BOSS_14509_DESCRIPTION_STAGE_1 = "Текал принимает форму тролля на время этапа, пока он и все адды не умрут одновременно."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaladds = "Thekal's Adds"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaladds =
         "Thekal starts the fight with Zealot Lor'Khan, Zealot Zath and 2 Zulian tigers.\n\nBoth zealots need to be tanked while the 2 tigers can easily be killed.\n\nThekal, Lor'Khan, and Zath all need to die around the same time as they will otherwise resurrect each other."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27559 = "Тишина"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27559 =
-        "Текал заставляет случайного врага замолчать, не позволяя ему произносить заклинания в течение 3 секунд."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22666 = "Тишина"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22666 =
+        "Накладывает немоту на противника на 6 секунд.\n\nБыстро рассейте магический эффект, особенно с лекарей."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22859 = "Смертельный раскол"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22859 =
         "Текал рассекает свою текущую цель, нанося 150% урона от оружия и оставляя цель раненой, снижая эффективность любого исцеления на 50% на 5 секунд."
@@ -1638,12 +1727,14 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaltigers = "Summon Tigers"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaltigers =
         "Thekal summons 2 Zulian tigers, assisting him for the duration of the fight.\n\nJust like the Zulian tigers in stage one, these tigers can easily be killed and should be prioritized."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalcharge = "Charge"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalcharge = "Thekal charges an enemy, dealing damage and stunning them."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24408 = "Charge"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24408 =
+        "Совершает рывок к противнику, нанося физический урон и оглушая его на 2 секунды."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalfrenzy = "Frenzy"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalfrenzy = "Thekal goes into a frenzy, increasing his size and his attack speed by 50%.\n\nHunters can use Tranquilizing Shot to remove frenzy from Thekal."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalenrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalenrage = "At 20% health remaining, Thekal becomes enraged, increasing the damage he deals to his enemies."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_8269 = "Enrage"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_8269 =
+        "При низком запасе здоровья повышает скорость атак ближнего боя на 60% и добавляет 50 ед. физического урона на 120 секунд.\n\nТанкам и лекарям следует подготовиться к увеличению входящего урона."
     IJ_DB_RAID_ZG_BOSS_NAME_14515 = "Верховная жрица Арлокк"
     IJ_DB_RAID_ZG_BOSS_STORY_14515 =
         "Верховная жрица Арлокк — зандаларская верховная жрица Изначального Бога Бетекка, богини-пантеры. Отправленная в Зул'Гуруб, чтобы остановить Хаккара Свежевателя Душ, она в конце концов была обращена богом крови."
@@ -1662,35 +1753,44 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24210 = "Знак Арлокка"
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24210 =
         "Пока Арлокк находится в режиме невидимости, она может пометить случайного игрока, в результате чего каждая пантера сосредоточится на отмеченной цели."
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24236 = "Вихрь"
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24236 =
-        "Когда Арлокк снова появляется в форме пантеры, она немедленно применяет «Вихрь», нанося тяжелый AoE-урон всем, кто находится рядом, в течение двух секунд. ||н||  ||н|| В ближнем бою следует дождаться, пока Вихрь исчезнет, ​​прежде чем атаковать Арлокка."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15589 = "Вихрь"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15589 =
+        "Наносит физический урон противникам в радиусе 8 м."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24212 = "Слово Тьмы: Боль"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24212 =
+        "Наносит урон от темной магии каждые 3 секунды в течение 18 секунд.\n\nРассейте магический эффект."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15582 = "Удар в спину"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15582 =
+        "Наносит физический урон, когда Арлокк атакует противника со спины."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24213 = "Накинуться"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24213 =
+        "Наносит физический урон и оглушает цель на 2 секунды."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_3391 = "Взбучка"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_3391 =
+        "Дает 2 дополнительные атаки ближнего боя."
     IJ_DB_RAID_ZG_BOSS_NAME_11380 = "Джин'до Проклинатель"
     IJ_DB_RAID_ZG_BOSS_STORY_11380 =
         "Джин'до — тролль-колдун Гурубаши, обладающий значительной силой. Он ответственен за «промывание мозгов» зандаларским жрецам Джеклику, Веноксису, Мар'ли, Текалу и Арлокку, чтобы они служили Хаккару, Лоа Крови."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24306 = "Иллюзии Джин'до"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 =
-        "Джин'до проклинает игрока, нанося 175 ед. урона каждые 2 секунды и порождает Тень Джин'до. ||н||  ||н|| Несмотря на это, игрокам не рекомендуется снимать проклятие с этой способности, поскольку только те, кто пострадал от проклятия, могут видеть и наносить урон Теням Джин'до."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24053 = "Шестигранник"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24053 = "Джин'до превращает игрока с наибольшей угрозой в лягушку."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoteleportskeletonpit = "Teleport to Skeleton Pit"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoteleportskeletonpit = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 = "Джин'до проклинает игрока, нанося 175 ед. урона от темной магии каждые 2 секунды в течение 20 секунд. Тени Джин'до призываются отдельной способностью.\n\nНе снимайте это проклятие: только проклятые игроки могут видеть тени Джин'до и наносить им урон."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_17172 = "Шестигранник"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_17172 = "Джин'до превращает игрока с наибольшей угрозой в лягушку на срок до 5 секунд, не позволяя атаковать и произносить заклинания. Этот магический эффект можно рассеять."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24466 = "Teleport to Skeleton Pit"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24466 = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoadds = "Jin'do's Adds"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds =
-        "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds = "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14986 = "Тень Джин'до"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 =
-        "Хотя Тени Джин'до видны только тем, кто проклят Иллюзиями Джин'до, тени могут атаковать любого в рейде. Они также невосприимчивы к урону по площади и должны быть сосредоточены с помощью способностей и заклинаний, нацеленных на одну цель. ||н||  ||н|| Тени Джин'до должны быть первым приоритетным дополнением, которого нужно убить."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoshademelee = "Melee Attack"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoshademelee = "Shade of Jin'do's melee attacks can interrupt spellcasts."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 = "Хотя тени Джин'до видны только игрокам под действием Заблуждений Джин'до, они могут атаковать любого участника рейда."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24458 = "Теневой шок"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Тени Джин'до использует темную магию, которая мгновенно бьет врагов, нанося темный урон."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Мгновенно поражает врагов темной магией, нанося урон от темной магии."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14987 = "Мощный исцеляющий оберег"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14987 =
         "Джин'до призывает мощный исцеляющий оберег, который лечит Джин'до, нанося больший урон, чем может нанести рейд. ||н||  ||н|| Всем игрокам, которые не убивают Тень Джин'до активно, следует сосредоточиться на этом тотеме. ||н||  ||н|| Powerful Healing Ward должен быть вторым по приоритету дополнением, которое нужно убить."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_15112 = "Тотем промывания мозгов"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_15112 =
         "Джин'до вызывает тотем «промывания мозгов», который управляет разумом игроков. Контроль над разумом невозможно рассеять, не разрушив этот тотем. ||н||  ||н|| Тотем промывки мозгов должен быть третьим приоритетным дополнением, которое нужно убить."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24261 = "Промывание мозгов"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24261 = "Подчиняет игрока. Уничтожьте тотем промывания мозгов, чтобы освободить игрока."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14826 = "Принесенный в жертву тролль"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14826 =
         "Когда Джин'до телепортирует игроков в яму скелетов, появляются принесенные в жертву тролли и атакуют призванного человека. ||н||  ||н|| Используйте атаки по площади, чтобы быстро освободить призванного участника рейда."
@@ -1698,14 +1798,16 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_ZG_BOSS_STORY_14834 =
         "Хаккар Душерез, Кровавый Бог, — злобный и разрушительный лоа, которому особенно поклоняются тролли Гурубаши и известный в пантеоне троллей как Лоа Крови. Он взял под свой контроль павшую столицу Империи Гурубаши, Зул'Гуруб."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_11357 = "Сын Хаккара"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 =
-        "На протяжении всего боя Сыны Хаккара появляются на лестницах, ведущих в покои Хаккара. ||н||  ||н|| Убитые они выпускают ядовитое облако, которое поражает Ядовитой кровью любого игрока, вступающего с ним в контакт."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 = "Сыны Хаккара периодически возрождаются на лестницах, ведущих в зал Хаккара.\n\nПосле смерти они оставляют ядовитое облако, которое заражает вошедших в него игроков Ядовитой кровью. Этот яд можно использовать против Сифона крови."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_16790 = "Сбивание с ног"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_16790 = "Наносит физический урон противнику и его ближайшим союзникам, оглушая до 3 целей на 2 секунды."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_3391 = "Взбучка"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_3391 = "Дает 2 дополнительные атаки ближнего боя."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24321 = "Ядовитая кровь"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24321 =
         "Отравляет игрока, нанося 100 урона каждые 3 секунды в течение 1,5 минут. ||н||  ||н|| Во время воздействия Blood Siphon нанесет Хаккару урон, а не исцелит его."
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24322 = "Сифон крови"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24322 =
-        "Хаккар оглушает весь рейд и вытягивает здоровье у всех игроков каждую секунду в течение 8 секунд, значительно исцеляя себя. ||н||  ||н|| Игроки, пораженные «Ядовитой кровью», вместо этого заставляют Хаккара получать урон от этого эффекта. ||н||  ||н|| Чтобы противостоять этой способности, большая часть рейда должна быть отравлена ​​до того, как начнется Blood Siphon."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24324 = "Сифон крови"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24324 = "Хаккар оглушает весь рейд и вытягивает здоровье у всех игроков каждую секунду в течение 8 секунд, значительно исцеляя себя. ||н||  ||н|| Игроки, пораженные «Ядовитой кровью», вместо этого заставляют Хаккара получать урон от этого эффекта. ||н||  ||н|| Чтобы противостоять этой способности, большая часть рейда должна быть отравлена ​​до того, как начнется Blood Siphon.\n\nИгроки могут заразиться Ядовитой кровью от убитого Сына Хаккара до начала Сифона крови, чтобы обратить эффект против Хаккара."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkaraspects = "Aspects of the High Priests"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkaraspects =
         "Hakkar can be engaged immediately upon entering the instance. However, if any High Priests remain alive, they empower him with additional abilities based on their aspects."
@@ -1721,11 +1823,9 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24690 = "Аспект Арлокка"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24690 = "Наносит удары игроку с наибольшей угрозой, оглушая его на 2 секунды."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24327 = "Причина безумия"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 =
-        "Вводит игрока с наибольшей угрозой в безумие на 10 секунд, увеличивая его скорость атаки на 100% и скорость передвижения на 150%, а также заставляя его атаковать ближайших союзников."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 = "Вводит игрока с наибольшей угрозой в безумие на 10 секунд, увеличивая его скорость атаки на 100% и скорость передвижения на 150%, а также заставляя его атаковать ближайших союзников.\n\nВторой танк должен оставаться вторым по угрозе, чтобы подхватить босса, пока основной танк находится под контролем. Используйте Превращение на подконтрольном игроке до окончания эффекта."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24328 = "Порченная кровь"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 =
-        "Примерно каждые 20 секунд игрок подвергается воздействию Порченой крови, получая 200 урона каждые 2 секунды в течение 10 секунд. ||н||  ||н|| Этот эффект распространяется на ближайших игроков."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 = "Примерно каждые 15 секунд Хаккар наносит первоначальный урон от темной магии и поражает игроков Порченой кровью, которая наносит 200 ед. урона от темной магии каждые 2 секунды в течение 10 секунд.\n\nЭтот эффект распространяется на ближайших игроков."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkarenrage = "Enrage"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkarenrage = "After 10 minutes, Hakkar becomes enraged, greatly increasing his damage output."
 
@@ -1737,38 +1837,296 @@ if GetLocale() == "ruRU" then
     -- MC Bosses
     IJ_DB_RAID_MC_BOSS_NAME_52145 = "Инциндис"
     IJ_DB_RAID_MC_BOSS_STORY_52145 =
-        "Документация об Инциндисе чрезвычайно скудна, и он упоминается только как грозный житель Огненных Недр."
+        "Инциндис, древний пламезавр, обитает в Огненных Недрах. Глубоко под Черной горой логово, носящее его имя, служит местом выведения потомства."
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42036 = "Сотрясающий топот"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42036 =
+        "Инциндис ударяет по земле, нанося физический урон и притягивая ближайших противников к себе. Отойдите до следующего Кольца огня."
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42037 = "Кольцо огня"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42037 =
+        "После Сотрясающего топота Инциндис в течение 4,5 секунды произносит Кольцо огня, затем наносит большой урон от огня ближайшим противникам и замедляет их передвижение на 8 секунд.\n\nОтойдите от него до завершения заклинания."
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42040 = "Раскаленный укус"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42040 =
+        "Инциндис кусает противника, нанося урон от огня и накладывая Раскаленный доспех."
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42039 = "Раскаленный доспех"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42039 =
+        "Раскаленный укус оставляет на цели суммирующийся эффект, наносящий пораженному существу дополнительный урон от огня."
     IJ_DB_RAID_MC_BOSS_NAME_12118 = "Люцифрон"
     IJ_DB_RAID_MC_BOSS_STORY_12118 =
         "В рядах поджигателей надзиратели и их стражи постоянно борются за более высокий статус в иерархии элементалей в надежде завоевать благосклонность Рагнароса. Люцифрон не является исключением. Он несколько раз сталкивался с Гееннами, особенно во время их заключения на Плане Стихий. Это соперничество теперь распространилось на Огненные Недра, где Люцифрон спокойно ждет возможности извлечь выгоду из любой слабости, проявленной другими поджигателями. Люцифрона и двух его охранников-поджигателей-защитников можно увидеть наблюдающими за огромным гончим Магмадаром, любимым питомцем Рагнароса."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19460 = "Удар Тьмы"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19460 =
+        "Люцифрон поражает противника темной магией, нанося урон от темной магии."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19702 = "Надвигающийся рок"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19702 =
+        "Накладывает на ближайших противников магический эффект, наносящий урон от темной магии через 10 секунд. Рассейте его до нанесения урона."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19703 = "Проклятие Люцифрона"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19703 =
+        "Проклинает ближайших противников, увеличивая затраты ресурсов на их заклинания и способности. Быстро снимите проклятие."
+    IJ_DB_RAID_MC_BOSS_12118_NAME_flamewakerprotectors = "Заступники-поджигатели"
+    IJ_DB_RAID_MC_BOSS_12118_DESCRIPTION_flamewakerprotectors =
+        "Люцифрона сопровождают два Заступника-поджигателя. При 50% здоровья он воскрешает павших заступников и восстанавливает здоровье оставшихся в живых, которые получают Исступление. При 20% здоровья он восстанавливает здоровье выживших заступников и наделяет их Исступлением."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_20604 = "Подчинение разума"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_20604 =
+        "Заступники-поджигатели пытаются взять игрока под контроль. Рассейте магический эффект с подконтрольного игрока."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_20605 = "Рассекающий удар"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_20605 =
+        "Заступники-поджигатели поражают противника и его ближайших союзников физической атакой."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_44057 = "Исступление"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_44057 =
+        "Заступники в исступлении наносят на 25% больше урона и получают на 40% меньше урона."
     IJ_DB_RAID_MC_BOSS_NAME_11982 = "Магмадар"
     IJ_DB_RAID_MC_BOSS_STORY_11982 =
         "Ужасающее чудовище, состоящее из вулканической породы и бурлящей магмы, Магмадар служит источником гончих ядра, которые бродят по земляным залам Огненных Недр. Любимый среди питомцев Рагнароса, Магмадар находится под защитой поджигателя Люцифрона и окружен свирепыми стаями хищных гончих. Говорят, что пока Рагнарос был заключен в тюрьму на Плане Стихий, Повелитель Огня скармливал останки своих захваченных врагов с нетерпением ожидающим близнецовым пастям Магмадара. В результате пес стал сильным и преданным, и даже сейчас дикая свирепость Магмадара остается неоспоримой."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19408 = "Паника"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19408 =
+        "Пугает ближайших противников на 8 секунд. Защита от страха может предотвратить страх, а уже наложенный эффект можно рассеять."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19451 = "Бешенство"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19451 =
+        "Магмадар впадает в бешенство, значительно повышая скорость атак ближнего боя. Охотники должны снимать бешенство Усмиряющим выстрелом."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19272 = "Дыхание лавы"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19272 =
+        "Магмадар извергает огонь на противников перед собой."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19411 = "Лавовая бомба"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19411 =
+        "Бросает в противника лавовую бомбу, оставляющую участок огня на земле. Выйдите из огня."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19428 = "Воспламенение"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19428 =
+        "Огонь, оставленный Лавовой бомбой, накладывает эффект периодического урона от огня. Покиньте пораженную область."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19450 = "Магматический плевок"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19450 =
+        "Наносит урон от огня и накладывает суммирующийся эффект дополнительного периодического урона от огня."
     IJ_DB_RAID_MC_BOSS_NAME_12057 = "Гарр"
     IJ_DB_RAID_MC_BOSS_STORY_12057 =
         "Будучи одним из двух главных лейтенантов, служащих под началом Рагнароса, Гарр играет ключевую роль в нынешнем успехе Повелителя Огня и расширении его влияния. Гарр, как и барон Геддон, владеет половиной Наручников Искателя Ветра, в которых содержится оставшаяся сущность Громораана, Принца Воздуха. В легендах говорится, что после столетий партнерства Геддон стал подозрительно относиться к Гарру и почувствовал, что элементаль ищет обе половины талисмана. Таким образом, отношения между двумя державами обострились. И Гарр, и барон Геддон черпают свою значительную силу из пылающих рун, высеченных глубоко в полу Огненных Недр."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19492 = "Антимагический импульс"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19492 =
+        "Снимает один положительный магический эффект с ближайших противников."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19496 = "Магматические оковы"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19496 =
+        "Снижает скорость передвижения ближайших противников на 60% на 15 секунд. Магический эффект можно рассеять."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19516 = "Исступление"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19516 =
+        "Каждый погибший Огнекамень дает Гарру заряд Исступления, увеличивающий его размер и скорость атак ближнего боя."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_20294 = "Жертвенный огонь"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_20294 =
+        "Огнекамни наносят урон от огня и накладывают эффект, наносящий дополнительный урон от огня каждые 3 секунды в течение 21 секунды. Рассейте магический эффект."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19497 = "Извержение"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19497 =
+        "При смерти Огнекамень взрывается, нанося урон от огня и отбрасывая противников в радиусе 15 м. Отходите от прислужников, которые вот-вот погибнут."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_23492 = "Тревога разлуки"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_23492 =
+        "Огнекамни, отошедшие слишком далеко от Гарра, могут получить Тревогу разлуки, повышающую наносимый урон на 300% и дающую невосприимчивость к Изгнанию на 5 секунд.\n\nДержите их рядом с Гарром."
+    IJ_DB_RAID_MC_BOSS_12057_NAME_firesworn = "Огнекамни"
+    IJ_DB_RAID_MC_BOSS_12057_DESCRIPTION_firesworn =
+        "Гарра сопровождают восемь Огнекамней. Их гибель усиливает Гарра."
     IJ_DB_RAID_MC_BOSS_NAME_12056 = "Барон Геддон"
     IJ_DB_RAID_MC_BOSS_STORY_12056 =
         "Когда Рагнарос был вырван из Плана Элементалей Таном-Колдуном Тауриссаном, несколько подданных из Огненных Просторов последовали за ним. Барон Геддон сражался против титанов и способствовал предательству Громораана, Принца Воздуха. Повелитель Огня поглотил сущность принца, но не смог поглотить его полностью. Таким образом, оставшиеся энергии оказались заключены в талисман связывания стихий, который Рагнарос разделил на две идеальные половины и отдал двум своим помощникам."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_19659 = "Воспламенение маны"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_19659 =
+        "Сжигает 400 ед. маны каждые 3 секунды, нанося урон от огня, равный сожженной мане. Быстро рассейте магический эффект."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_19695 = "Инферно"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_19695 =
+        "Барон Геддон в течение 8 секунд поддерживает волны урона от огня, поражающие противников в радиусе 20 м. Отойдите от него на время поддержания заклинания."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20475 = "Живая бомба"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20475 =
+        "Помечает игрока, который взорвется через 8 секунд. Отойдите от рейда и оставьте бомбу на свободном участке, вдали от Расплавленной земли, оставшейся после предыдущих бомб."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20476 = "Взрыв"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20476 =
+        "Живая бомба взрывается, нанося 3200 ед. урона от огня помеченному игроку и его союзникам в радиусе 18 м и отбрасывая их."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44060 = "Расплавленная земля"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44060 =
+        "Живая бомба оставляет участок огня, наносящий 500 ед. урона от огня каждые 2 секунды в радиусе 5 м в течение 60 секунд.\n\nИзбегайте огня и выбирайте другое место для следующих бомб."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44061 = "Катастрофическая реакция"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44061 =
+        "Если занести Живую бомбу на существующую Расплавленную землю, это может вызвать дополнительный взрыв, наносящий 2500 ед. урона от огня в радиусе 100 м.\n\nДержите бомбу вдали от предыдущих участков огня."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20478 = "Армагеддон"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20478 =
+        "При 5% здоровья барон Геддон готовит мощный огненный взрыв. Победите его за 8 секунд, чтобы предотвратить взрыв."
     IJ_DB_RAID_MC_BOSS_NAME_12264 = "Шаззра"
     IJ_DB_RAID_MC_BOSS_STORY_12264 =
         "Из всех подстрекателей, которые последовали за Рагнаросом в мир Азерота, Шаззра является самым талантливым в сфере тайной магии. Ему известно, что его коллега барон Геддон подозревает элементаля Гарра в предательстве. Конфликт между бароном Геддоном и Гарром вполне устраивает Шазру, поскольку на самом деле именно Шазра стремится завладеть обеими половинками Талисмана Связывания Элементалей, чтобы найти способ перекачивать его энергию для своих собственных нужд. Рагнарос, скорее всего, осознавал склонность своего подчиненного к двуличности, когда разделил талисман пополам и доверил части барону Геддону и Гарру."
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19712 = "Чародейский взрыв"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19712 =
+        "Наносит урон от тайной магии противникам в радиусе 30 м от Шаззраха."
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19713 = "Проклятие Шаззраха"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19713 =
+        "Увеличивает получаемый ближайшими противниками магический урон на 100% на 5 минут. Быстро снимите проклятие."
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19714 = "Подавление магии"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19714 =
+        "Снижает получаемый Шаззрахом магический урон на 50% на 30 секунд. Снимите положительный эффект с босса рассеиванием."
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19715 = "Антимагия"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19715 =
+        "Прерывает заклинания ближайших противников и запрещает им использовать заклинания прерванной школы на 10 секунд.\n\nПланируйте применение заклинаний так, чтобы избежать прерывания."
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_23139 = "Врата Шаззраха"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_23139 =
+        "Шаззрах телепортируется во время боя. После смены его позиции танки должны быстро вернуть его внимание."
     IJ_DB_RAID_MC_BOSS_NAME_12098 = "Сульфурон Предвестник"
     IJ_DB_RAID_MC_BOSS_STORY_12098 =
         "Среди наиболее любимых поджигателей Сульфурон Предвестник — устрашающий вестник самого Рагнароса. Из адских глубин Огненных Недр Предвестник командует послом Огненной Пламени и другими меньшими поджигателями во внешнем мире. Сульфурон Предвестник подчиняется только Экзекутусу и охраняет руну Коро, одну из нескольких рун, которые наделяют силой слуг Повелителя Огня. Сульфурон Предвестник особенно внимательно следит за Шазрой, полагая, что Шаззра пытается предать Рагнароса. В окружении четырех самых пылких жрецов Повелителя Огня Предвестник готовится к тому дню, когда стихийный повелитель огня заберет мир Азерота под свой контроль."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19778 = "Деморализующий крик"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19778 =
+        "Снижает силу атаки ближнего и дальнего боя ближайших противников на 300 на 30 секунд."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19779 = "Воодушевление"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19779 =
+        "Усиливает Сульфурона или ближайшего Жреца-поджигателя, увеличивая наносимый физический урон на 25% и скорость атак ближнего боя на 100% на 10 секунд."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19780 = "Рука Рагнароса"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19780 =
+        "Наносит урон от огня противникам в радиусе 10 м от Сульфурона, отбрасывает их и оглушает на 2 секунды."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19781 = "Пламенное копье"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19781 =
+        "Бросает в противника пламенное копье, нанося урон от огня цели и другим противникам в радиусе 10 м от нее. Рассредоточьтесь, чтобы ограничить урон."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19777 = "Темный удар"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19777 =
+        "Поражает противника усиленной атакой оружием, наносящей урон от темной магии."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19775 = "Темное восстановление"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19775 =
+        "Жрецы-поджигатели применяют мощное исцеление к союзнику. Прервите заклинание с временем произнесения 2 секунды."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19776 = "Слово Тьмы: Боль"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19776 =
+        "Жрецы-поджигатели накладывают эффект, наносящий урон от темной магии каждые 3 секунды в течение 18 секунд. Рассейте магический эффект."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_20294 = "Жертвенный огонь"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_20294 =
+        "Жрецы-поджигатели наносят урон от огня и накладывают эффект, наносящий дополнительный урон от огня каждые 3 секунды в течение 21 секунды. Рассейте магический эффект."
+    IJ_DB_RAID_MC_BOSS_12098_NAME_flamewakerpriests = "Жрецы-поджигатели"
+    IJ_DB_RAID_MC_BOSS_12098_DESCRIPTION_flamewakerpriests =
+        "Четыре Жреца-поджигателя сопровождают Сульфурона. Прерывайте их исцеление и рассеивайте вредоносные магические эффекты."
+    IJ_DB_RAID_MC_BOSS_12098_NAME_sonsofflame = "Сыны Пламени"
+    IJ_DB_RAID_MC_BOSS_12098_DESCRIPTION_sonsofflame =
+        "Сульфурон призывает Сынов Пламени на протяжении всего боя, в том числе после гибели всех четырех Жрецов-поджигателей."
     IJ_DB_RAID_MC_BOSS_NAME_11988 = "Големагг Мусоросжигатель"
     IJ_DB_RAID_MC_BOSS_STORY_11988 =
         "Самыми грозными солдатами стихийных сил Рагнароса являются расплавленные гиганты, и среди них Големагг Испепелитель не имеет себе равных по своей абсолютной жестокости и дикой эффективности. Сила расплавленного чудовища настолько абсолютна, что он запугал двух основных разъяренников — потомков колоссального зверя Магмадара — которых теперь использует в качестве домашних животных. За это оскорбление он заслужил вечный и непоколебимый гнев Магмадара, хотя грозное существо еще не поддалось его диким порывам."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_13880 = "Магматические брызги"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_13880 =
+        "Наносит урон от огня и накладывает суммирующийся эффект, наносящий дополнительный периодический урон от огня и снижающий броню."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_20228 = "Огненная глыба"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_20228 =
+        "Обрушивает на противника огненный взрыв, нанося урон от огня и дополнительный урон от огня каждые 3 секунды в течение 12 секунд."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19798 = "Землетрясение"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19798 =
+        "Наносит физический урон противникам в радиусе 18 м от Големагга. Он начинает применять Землетрясение примерно при 25% здоровья."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19953 = "Исступление"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19953 =
+        "При 25% здоровья Големагг получает Исступление, повышающее наносимый физический урон на 500 и скорость атак ближнего боя на 50% на 10 секунд."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_20553 = "Доверие Големагга"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_20553 =
+        "Усиливает ближайших Гончих Недр, повышая наносимый физический урон на 500 и скорость атак ближнего боя на 50%. Держите прислужников подальше от Големагга, чтобы избежать этого усиления."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19820 = "Увечье"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19820 =
+        "Гончие Недр накладывают эффект, наносящий физический урон каждые 2 секунды и снижающий скорость передвижения на 50% на 20 секунд."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_45998 = "Сорвавшиеся с цепи"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_45998 =
+        "При 60% здоровья Големагга Гончие Недр освобождаются и начинают менять цели. Их скорость передвижения снижается на 25%. Танки могут вернуть их внимание провокацией."
+    IJ_DB_RAID_MC_BOSS_11988_NAME_coreragers = "Гончие Недр"
+    IJ_DB_RAID_MC_BOSS_11988_DESCRIPTION_coreragers =
+        "Две Гончие Недр сопровождают Големагга. Танки должны держать их отдельно от босса."
     IJ_DB_RAID_MC_BOSS_NAME_65020 = "Двойные големы"
     IJ_DB_RAID_MC_BOSS_STORY_65020 =
-        "Помимо подтвержденного статуса хранителей владений Повелителя Огня, история Големов-близнецов остается совершенно незаписанной."
+        "Базальтар и Смолдарис — големы-близнецы, обитающие в Огненных Недрах. Связанные с дворфами Черного Железа, они сражаются вместе, обрушивая сокрушительные удары и потоки пламени."
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47375 = "Раскаленный бастион"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47375 =
+        "Големы поочередно получают щит, который на 15 секунд снижает получаемый урон на 95% и при ударе наносит атакующим в ближнем бою 200 ед. урона от огня.\n\nПереключайтесь на голема без щита."
+    IJ_DB_RAID_MC_BOSS_65020_NAME_basalthar = "Базальтар"
+    IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_basalthar =
+        "Базальтар сражается вместе со Смолдарисом. Големы имеют общий запас здоровья и побеждаются одновременно."
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47373 = "Широкий удар наотмашь"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47373 =
+        "Базальтар поражает противника и его ближайших союзников физической атакой, отбрасывая их."
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47374 = "Сокрушительный удар"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47374 =
+        "Базальтар снижает броню противника на 50% и оглушает его на 5 секунд."
+    IJ_DB_RAID_MC_BOSS_65020_NAME_smoldaris = "Смолдарис"
+    IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_smoldaris =
+        "Смолдарис поддерживает Базальтара огненными атаками."
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47377 = "Струя пламени"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47377 =
+        "Смолдарис в течение 8 секунд поддерживает заклинание, каждую секунду нанося урон от огня ближайшим противникам."
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47378 = "Прикрывающий огонь"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47378 =
+        "Смолдарис каждую секунду наносит урон от огня ближайшим противникам в течение 3 секунд."
     IJ_DB_RAID_MC_BOSS_NAME_57642 = "Тан-чародей Тауриссан"
     IJ_DB_RAID_MC_BOSS_NAME_12018 = "Мажордом Экзектус"
     IJ_DB_RAID_MC_BOSS_STORY_12018 =
         "На вершине иерархии элементалей, прямо под самим Рагнаросом, находится Majordomo Executus. Этот подстрекатель обрел свой высокий статус, доказав, что он почти непобедим в битвах, которые бушевали на плане стихий. Ходят слухи, что Экзектус заменил барона Геддона, и с тех пор они являются соперниками. Хотя этот слух еще не подтвердился, нет никаких сомнений в том, что Рагнарос не терпит неудач. Таким образом, меньшие подстрекатели (и, конечно же, барон Геддон) с нетерпением ждут ошибки Экзекутуса, предвкушая свой шанс побороться за желанное внимание Повелителя Огня."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20229 = "Взрывная волна"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20229 =
+        "Наносит урон от огня противникам в радиусе 10 м и снижает их скорость передвижения на 50% на 8 секунд."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20618 = "Телепортация"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20618 =
+        "Телепортирует противника в горящие угли. Немедленно выйдите из огня."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20619 = "Отражение магии"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20619 =
+        "На 10 секунд дает ближайшим союзникам 50% вероятности отразить вредоносные заклинания. Прекратите применять вредоносные заклинания к защищенным щитом целям."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_21075 = "Щит урона"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_21075 =
+        "Защищает ближайших прислужников на 10 секунд, нанося 100 ед. урона от тайной магии атакующим их противникам. Избегайте атак оружием по защищенным щитом целям."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20620 = "Эгида Рагнароса"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20620 =
+        "Защищает Мажордома на срок до 300 секунд, поглощая до 30000 ед. физического или магического урона и нанося 250 ед. урона атакующим в ближнем бою. Заклинание также восстанавливает его здоровье."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20603 = "Удар Тьмы"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20603 =
+        "Целители-поджигатели наносят урон от темной магии противникам в радиусе 20 м."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_21077 = "Стрела Тьмы"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_21077 =
+        "Целители-поджигатели выпускают в противника стрелу, наносящую урон от темной магии. Прервите заклинание."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_19632 = "Рассекающий удар"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_19632 =
+        "Элитные поджигатели поражают противника и его ближайших союзников усиленной атакой оружием."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20420 = "Огненный шар"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20420 =
+        "Элитные поджигатели выпускают в противника Огненный шар, нанося урон от огня."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20623 = "Огненный взрыв"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20623 =
+        "Элитные поджигатели мгновенно поражают противника уроном от огня."
+    IJ_DB_RAID_MC_BOSS_12018_NAME_flamewakerhealers = "Целители-поджигатели"
+    IJ_DB_RAID_MC_BOSS_12018_DESCRIPTION_flamewakerhealers =
+        "Четыре Целителя-поджигателя сопровождают Мажордома; их можно контролировать с помощью Превращения. Когда погибают четверо из восьми прислужников, действующие Превращения спадают, а выжившие прислужники становятся невосприимчивы к Превращению."
+    IJ_DB_RAID_MC_BOSS_12018_NAME_flamewakerelites = "Элитные поджигатели"
+    IJ_DB_RAID_MC_BOSS_12018_DESCRIPTION_flamewakerelites =
+        "Четыре Элитных поджигателя сопровождают Мажордома. Победите всех восьмерых прислужников, чтобы вынудить Мажордома сдаться."
     IJ_DB_RAID_MC_BOSS_NAME_11502 = "Рагнарос"
     IJ_DB_RAID_MC_BOSS_STORY_11502 =
         "Лежа у подножия Черной горы, Рагнарос стремится найти дорогу домой, а также снова собраться с силами, чтобы сжечь Азерот и забрать его себе. Тем временем в Крепости Сульфурона и других местах Огненных Просторов его принцы стихий постоянно сражаются за господство. Он и его приспешники-гномы взяли под свой контроль вулканические глубины Черной горы и начали войну с орками в Верхнем Пике Черной горы, который служил центром власти черного дракона Нефариана. Рагнарос раскрыл секрет создания жизни из камня и планирует создать армию неудержимых големов, которые помогут ему завоевать всю Черную гору."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20564 = "Стихийный огонь"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20564 =
+        "Наносит противнику урон от огня и дополнительный урон от огня каждую секунду в течение 8 секунд."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058 = "Стихийный огонь"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058 =
+        "Когда Стихийный огонь поражает цель, он также наносит урон от огня другим игрокам и питомцам в радиусе 10 м от этой цели.\n\nРассредоточьтесь, чтобы ограничить урон."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20566 = "Гнев Рагнароса"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20566 =
+        "Наносит урон от огня противникам в радиусе 25 м от Рагнароса и отбрасывает их. Танки должны быть готовы вернуться в зону ближнего боя."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21154 = "Мощь Рагнароса"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21154 =
+        "Призывает Пламя Рагнароса, использующее Сильный жар."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21155 = "Сильный жар"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21155 =
+        "Пламя Рагнароса выпускает вспышку огня, которая может ранить и отбросить ближайших противников."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20565 = "Всплеск магмы"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20565 =
+        "Поражает противника мощным уроном от огня с большого расстояния."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21388 = "Расплавление оружия"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21388 =
+        "Повреждает прочность пораженного оружия."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_26234 = "Погружение"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_26234 =
+        "Примерно при 50% здоровья Рагнарос погружается и призывает десять Сынов Пламени. Победите прислужников и приготовьтесь к его возвращению."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20568 = "Появление"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20568 =
+        "Рагнарос появляется после фазы Сынов Пламени и продолжает бой."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21857 = "Лавовый щит"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21857 =
+        "Сыны Пламени наносят урон от огня атакующим в ближнем бою и периодически сжигают 150 ед. маны у противников в радиусе 10 м, нанося урон от огня, равный половине сожженной маны.\n\nДержите использующих ману игроков подальше от прислужников."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21158 = "Выброс лавы"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21158 =
+        "Извержения лавы в окружении наносят урон от огня в области боя. Избегайте лавы."
+    IJ_DB_RAID_MC_BOSS_11502_NAME_sonsofflame = "Сыны Пламени"
+    IJ_DB_RAID_MC_BOSS_11502_DESCRIPTION_sonsofflame =
+        "Десять Сынов Пламени появляются во время фазы погружения. Победите их, пока Рагнарос находится под лавой."
+    IJ_DB_RAID_MC_BOSS_11502_NAME_environment = "Окружение"
+    IJ_DB_RAID_MC_BOSS_11502_DESCRIPTION_environment =
+        "Лава вокруг Рагнароса остается опасной на протяжении всего боя."
 
     -- ES
     IJ_DB_RAID_ES_NAME = "Изумрудное святилище"
@@ -1829,27 +2187,259 @@ if GetLocale() == "ruRU" then
     -- BWL Bosses
     IJ_DB_RAID_BWL_BOSS_NAME_12435 = "Разоргор Неукротимый"
     IJ_DB_RAID_BWL_BOSS_STORY_12435 =
-        "Разоргор Неукротимый — драконье порождение стаи черных драконов. Лорд Логова Крыла Тьмы, Нефариан, поручил ему охранять многочисленные и драгоценные яйца черного дракона, расположенные в первой комнате подземелья. С этой целью Разоргору было поручено командовать когортой орков и другими силами, и он не остановится ни перед чем, чтобы гарантировать, что его серьёзным подопечным не будет нанесен вред."
+        "Бритвосмерт Неукротимый — драконид черной стаи, которому Нефариан поручил охранять яйца черных драконов и заботиться о них в Логове Крыла Тьмы. Солдаты-орки и драконы защищают зал вместе с ним.\n\nНесмотря на свое прозвище, Бритвосмерт находится под контролем Гретока благодаря Сфере подчинения. Захватившие сферу незваные гости могут обратить стража против тех самых яиц, которые он должен защищать."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_eggs = "Первая фаза: Уничтожение яиц"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_eggs = "Победите Гретока Регулятора и его стражей, затем используйте Сферу подчинения, чтобы управлять Бритвосмертом и уничтожить все 20 яиц.\n\nДержите подкрепления вдали от Бритвосмерта, пока уничтожаются яйца. Если он погибнет до уничтожения всех яиц, оставшиеся яйца взорвутся и уничтожат рейд."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_combat = "Вторая фаза: Бритвосмерт"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_combat = "После уничтожения всех яиц Бритвосмерт освобождается от сферы и восстанавливает здоровье. Победите его, чтобы завершить бой."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_19832 = "Сфера подчинения"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_19832 = "Позволяет игроку управлять Бритвосмертом до 90 сек.\n\nИспользуйте его способности для уничтожения яиц и контроля ближайших драконов."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_19873 = "Уничтожение яйца"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_19873 = "Уничтожает ближайшее яйцо после 3 сек. произнесения. Уничтожьте все 20 яиц, чтобы завершить первую фазу."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_19872 = "Усмирение дракона"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_19872 = "Оглушает дракона на 30 сек. Доступно при управлении Бритвосмертом."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_23040 = "Согревающее пламя"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_23040 = "Полностью восстанавливает здоровье Бритвосмерта при уничтожении последнего яйца."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_19632 = "Рассекающий удар"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_19632 = "Наносит физический урон ближайшим противникам."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_22425 = "Залп огненных шаров"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_22425 = "Наносит урон от огня противникам в области действия."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_23023 = "Поджигание"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_23023 = "Дезориентирует пораженных игроков и наносит урон от огня каждую секунду в течение 10 сек. Пораженные игроки также наносят урон ближайшим союзникам.\n\nОсновной танк должен стоять перед Бритвосмертом, а второй танк — сбоку. Держите танков раздельно, чтобы они не попали под Поджигание одновременно. Второй танк должен оставаться вторым по угрозе, чтобы принять босса, когда основной танк окажется под действием способности.\n\nДругим игрокам следует держаться подальше от пораженных игроков. Зелье свободы действий не предотвращает Поджигание."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_16806 = "Урон от поджигания"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_16806 = "Наносит урон от огня противникам в радиусе 5 м от пораженного игрока."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_24375 = "Громовая поступь"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_24375 = "Наносит физический урон и оглушает противников в радиусе 15 м на 5 сек.\n\nИспользуйте Зелье свободы действий до применения способности, чтобы предотвратить ее эффекты. Второй танк должен оставаться вторым по угрозе, чтобы помочь удержать контроль над боссом."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_12416 = "Легионер Крыла Тьмы"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_12416 = "Подкрепления, использующие Рассекающий удар и Удар. Держите их вдали от Бритвосмерта, пока он находится под контролем."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_12420 = "Маг Крыла Тьмы"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_12420 = "Подкрепления, использующие Огненный шар и Чародейский взрыв."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_12422 = "Драконид Когтя Смерти"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_12422 = "Драконьи подкрепления, использующие Рассекающий удар и Удар. Для их контроля можно использовать Усмирение дракона."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_50142 = "Стрелок Крыла Тьмы"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_50142 = "Стрелки подкрепления, использующие Прицельный выстрел."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_52153 = "Опалитель Когтя Смерти"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_52153 = "Подкрепления, использующие Ожог, повышающий получаемый целью урон от огня."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_15284 = "Рассекающий удар"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_15284 = "Наносит физический урон ближайшим противникам."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_15580 = "Удар"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_15580 = "Наносит физический урон противнику."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_17290 = "Огненный шар"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_17290 = "Наносит урон от огня противнику."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_22271 = "Чародейский взрыв"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_22271 = "Наносит урон от тайной магии противникам в радиусе 10 м."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_41832 = "Прицельный выстрел"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_41832 = "Наносит физический урон противнику после 3 сек. произнесения."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_41831 = "Ожог"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_41831 = "Наносит урон от огня и повышает получаемый урон от огня на 75 на 15 сек."
     IJ_DB_RAID_BWL_BOSS_NAME_13020 = "Валестраз Порочный"
-    IJ_DB_RAID_BWL_BOSS_STORY_13020 = "Валестраз Порочный был развращен Нефарианом и теперь неохотно служит ему."
+    IJ_DB_RAID_BWL_BOSS_STORY_13020 = "Валестраз — красный дракон, выступивший против Нефариана и черной стаи. Под видом Ваелана он помог искателям приключений восстановить Печать Вознесения, а затем поддержал их в бою с Рендом Черноруком. Его преследование Нефариана закончилось поражением: дракон был осквернен и порабощен в Логове Крыла Тьмы.\n\nПродолжая бороться с властью Нефариана, Валестраз дарует искателям приключений Сущность красных драконов, прежде чем его вынуждают обратиться против них."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_23513 = "Сущность красных драконов"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_23513 = "Быстро восстанавливает ману, энергию и ярость в течение 3 мин."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_52755 = "Пламя славы"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_52755 = "Периодически накладывает на рейд суммирующийся эффект, который за каждый заряд повышает скорость атак и произнесения заклинаний на 5% и наносит 50 ед. урона от огня каждую секунду."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_23620 = "Горящий адреналин"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_23620 = "Повышает наносимый урон на 100% и делает заклинания мгновенными, но постепенно снижает максимальный запас здоровья в течение 20 сек. По окончании эффекта пораженный игрок погибает и взрывается.\n\nОтойдите от рейда до окончания эффекта."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_23478 = "Взрыв горящего адреналина"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_23478 = "Наносит урон от огня противникам в радиусе 10 м от пораженного игрока."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_23461 = "Пламенное дыхание"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_23461 = "Наносит урон от огня в конусе перед собой и дополнительный урон от огня каждые 3 сек. в течение 15 сек. Периодический эффект суммируется.\n\nОтворачивайте Валестраза от рейда."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_23462 = "Кольцо огня"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_23462 = "Наносит урон от огня противникам в радиусе 100 м."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_19983 = "Рассекающий удар"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_19983 = "Наносит физический урон ближайшим противникам перед Валестразом.\n\nПеред боссом должен стоять только танк."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_15847 = "Взмах хвостом"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_15847 = "Наносит физический урон противникам позади Валестраза в радиусе 30 м и отбрасывает их.\n\nРейд должен стоять по бокам от босса, подальше от хвоста."
     IJ_DB_RAID_BWL_BOSS_NAME_12017 = "Повелитель племени плеточник"
     IJ_DB_RAID_BWL_BOSS_STORY_12017 =
         "Повелитель плетей — черный драконид на службе Нефариана, который охраняет Залы Раздора в Логове Крыла Тьмы, преграждая путь во внутреннее святилище Нефариана."
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_NAME_15284 = "Рассекающий удар"
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_EFFECT_15284 = "Наносит физический урон ближайшим противникам перед Предводителем драконов Разящим Бичом."
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_NAME_23331 = "Взрывная волна"
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_EFFECT_23331 = "Наносит урон от огня противникам в радиусе 20 м, отбрасывает их и снижает скорость передвижения на 50% на 8 сек."
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_NAME_18670 = "Отбрасывание"
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_EFFECT_18670 = "Наносит физический урон текущей цели, отбрасывает ее и снижает создаваемую ею угрозу.\n\nВторой танк должен поддерживать высокий уровень угрозы, чтобы принять босса при смене цели."
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_NAME_24573 = "Смертельный удар"
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_EFFECT_24573 = "Наносит большой физический урон и снижает получаемое исцеление на 50% на 5 сек.\n\nЛекари должны быть готовы поддержать пораженного танка."
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_NAME_52754 = "Рваная рана"
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_EFFECT_52754 = "Наносит физический урон сразу и каждую секунду в течение 10 сек., а также снижает получаемое исцеление на 25%.\n\nЛекарям следует внимательно следить за пораженными игроками."
     IJ_DB_RAID_BWL_BOSS_NAME_11983 = "Огненная пасть"
     IJ_DB_RAID_BWL_BOSS_STORY_11983 =
-        "Огненная Чрево — черный дракон, патрулирующий Багровые Лаборатории. Он один из трех могущественных черных драконов, охраняющих путь к своему хозяину Нефариану."
+        "Огнечрев — черный дракон, патрулирующий Багровые лаборатории Логова Крыла Тьмы. Вместе с Черноскалом и Пламегором он охраняет залы, где Нефариан проводит свои эксперименты, и защищает проход к логову своего хозяина. Хотя эти драконы служат Нефариану, прежде всего они верны Смертокрылу."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30194 = "Кислотная бомба"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30194 = "Наносит урон от сил природы противникам в радиусе 10 м от места попадания и оставляет лужу кислоты."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30195 = "Лужа кислоты"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30195 = "Наносит урон от сил природы каждую секунду в течение 15 сек. в области радиусом 10 м, снижает скорость передвижения на 20% и броню на 50%.\n\nВыйдите из кислоты."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30196 = "Химическая ярость"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30196 = "Приблизительно при 75%, 50% и 25% здоровья Эззел снижает получаемый урон на 80%. Защита прекращается, когда Тон'Рака врезается в колонну и получает Сотрясение."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30205 = "Рывок"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30205 = "Отмечает игрока и готовится к рывку в течение 8 сек.\n\nОтмеченный игрок должен встать так, чтобы между ним и боссом оказалась колонна, в которую врежется Тон'Рака."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30202 = "Сотрясение"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30202 = "Оглушает босса на 5 сек. после столкновения с колонной и снимает Химическую ярость."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30198 = "Падающие обломки"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30198 = "Наносит физический урон рейду."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30203 = "Разрушитель колонн"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30203 = "Наносит физический урон противникам в радиусе 10 м и отбрасывает их."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30201 = "Обвал"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30201 = "Наносит большой физический урон рейду."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30204 = "Превращение в золото"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30204 = "Приблизительно при 10% здоровья Эззел начинает произносить заклинание в течение 8 сек., которое убьет рейд по завершении.\n\nПобедите его до завершения заклинания. Заранее наложите Проклятие косноязычия, чтобы получить больше времени."
     IJ_DB_RAID_BWL_BOSS_NAME_14601 = "Эбонрок"
     IJ_DB_RAID_BWL_BOSS_STORY_14601 =
-        "Эбонрок — черный дракон, патрулирующий Багровые лаборатории. Он один из трех могущественных черных драконов, охраняющих путь к своему хозяину Нефариану."
+        "Эбонрок — черный дракон, патрулирующий Багровые лаборатории. Он один из трех могущественных черных драконов, охраняющих путь к своему хозяину Нефариану.\n\nБудучи представителем черной стаи, Эбонрок служит под командованием Нефариана, но в конечном счете хранит верность Смертокрылу."
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_22539 = "Темное пламя"
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_22539 = "Наносит урон от темной магии противникам в конусе перед собой.\n\nОтворачивайте Огнечрева от рейда."
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_22682 = "Урон от темного пламени"
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_22682 = "Наносит дополнительный урон от темной магии каждую секунду в течение 10 сек.\n\nТанкам следует надеть Плащ из чешуи Ониксии, чтобы предотвратить этот периодический эффект. Остальным участникам рейда плащ не нужен, если они избегают фронтального дыхания. Плащ не предотвращает первоначальный удар."
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_23339 = "Удар крылом"
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_23339 = "Наносит физический урон противникам перед Огнечревом в радиусе 20 м, отбрасывает их и снижает их угрозу.\n\nВторой танк должен быть готов принять босса при смене цели."
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_23340 = "Тень Эбонрока"
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_23340 = "В течение 8 сек. Эбонрок исцеляется, когда бьет пораженную цель. Базовое исцеление составляет 25 000 ед. здоровья за удар.\n\nВторой танк должен немедленно спровоцировать босса, чтобы предотвратить это исцеление."
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_3391 = "Взбучка"
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_3391 = "Дает две дополнительные атаки."
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_65151 = "Искры пламени Тьмы"
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_65151 = "Во время боя появляются искры пламени Тьмы и атакуют игроков. Они невосприимчивы к урону.\n\nДержитесь на расстоянии и отходите от них, пока они не исчезнут, особенно во время исцеления."
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_30207 = "Теневой шок"
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_30207 = "Мгновенно наносит противнику урон от темной магии."
     IJ_DB_RAID_BWL_BOSS_NAME_11981 = "Фламегор"
     IJ_DB_RAID_BWL_BOSS_STORY_11981 =
-        "Фламегор — черный дракон, патрулирующий Багровые лаборатории. Он один из трех могущественных черных драконов, охраняющих путь к своему хозяину Нефариану."
+        "Фламегор — черный дракон, патрулирующий Багровые лаборатории. Он один из трех могущественных черных драконов, охраняющих путь к своему хозяину Нефариану.\n\nБудучи представителем черной стаи, Фламегор служит под командованием Нефариана, но в конечном счете хранит верность Смертокрылу."
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_22539 = "Темное пламя"
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_22539 = "Наносит урон от темной магии противникам в конусе перед собой.\n\nОтворачивайте Огнечрева от рейда."
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_22682 = "Урон от темного пламени"
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_22682 = "Наносит дополнительный урон от темной магии каждую секунду в течение 10 сек.\n\nТанкам следует надеть Плащ из чешуи Ониксии, чтобы предотвратить этот периодический эффект. Остальным участникам рейда плащ не нужен, если они избегают фронтального дыхания. Плащ не предотвращает первоначальный удар."
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_23339 = "Удар крылом"
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_23339 = "Наносит физический урон противникам перед Огнечревом в радиусе 20 м, отбрасывает их и снижает их угрозу.\n\nВторой танк должен быть готов принять босса при смене цели."
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_23342 = "Исступление"
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_23342 = "Повышает скорость атаки на 150% на 10 сек. и вызывает Кольцо огня каждые 2 сек.\n\nОхотники должны немедленно снимать Исступление Усмиряющим выстрелом."
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_23462 = "Кольцо огня"
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_23462 = "Наносит рейду урон от огня, пока действует Исступление."
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_52756 = "Подавляющая ярость"
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_52756 = "Подчиняет игрока, увеличивая наносимый им урон на 25% и снижая получаемый урон на 80%.\n\nСнизьте его здоровье примерно до 25%, чтобы прекратить действие эффекта. Подчиненный игрок невосприимчив к Превращению, страху, оглушению и обездвиживанию, но Подрезать сухожилия может его замедлить."
     IJ_DB_RAID_BWL_BOSS_NAME_14020 = "Хромаггус"
     IJ_DB_RAID_BWL_BOSS_STORY_14020 =
         "Хромаггус — двуглавый зверь-дракон, созданный Нефарианом, который действует как послушный защитник Логова Крыла Тьмы. Несмотря на свою собачью внешность, на самом деле он драконий (точнее, дракеадон). Жертвы излучающего недуга Хромаггуса превратились в драконидов."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_breaths = "Атаки дыханием"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_breaths = "Для сохранения рейда выбираются два из пяти возможных видов дыхания. Они чередуются примерно каждые 30 сек., время применения составляет 2 сек.\n\nУходите из поля зрения, чтобы избежать наносящего урон дыхания. Промежуток времени требует отдельной координации танков."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23187 = "Обморожение"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23187 = "Наносит урон от магии льда, сжигает ману и замедляет атаки ближнего боя на 15 сек."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23308 = "Испепеление"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23308 = "Наносит сильный урон от огня."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23310 = "Промежуток времени"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23310 = "Оглушает пораженных игроков и снижает их максимальный запас здоровья на 50% на 8 сек. Во время действия эффекта Хромаггус меняет цель и может вернуться к прежнему танку после его окончания.\n\nВторой танк и назначенные лекари должны избегать дыхания, уходя из поля зрения. Второй танк должен быть готов принять босса, пока основной оглушен."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23313 = "Разъедающая кислота"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23313 = "Наносит урон от сил природы каждые 3 сек. и снижает броню на 15 сек."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23315 = "Воспламенение плоти"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23315 = "Наносит урон от огня каждые 3 сек. в течение 60 сек. Эффект суммируется."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23173 = "Поражения стаи"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23173 = "Накладывает поражения, связанные с пятью драконьими стаями. Каждое снимается своим способом.\n\nСнимайте их быстро, чтобы на игроке не оказались все пять одновременно."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23154 = "Поражение стаи: черное"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23154 = "Повышает получаемый урон от огня на 100%.\n\nСнимайте это проклятие, особенно при наличии огненного дыхания."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23153 = "Поражение стаи: синее"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23153 = "Похищает ману, замедляет произнесение заклинаний и снижает скорость передвижения на 30%.\n\nБыстро рассеивайте этот магический эффект, особенно с лекарей и охотников, отвечающих за Усмиряющий выстрел."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23155 = "Поражение стаи: красное"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23155 = "Наносит урон от огня каждые 3 сек. Хромаггус исцеляется, если пораженный игрок умирает.\n\nСнимайте эту болезнь."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23169 = "Поражение стаи: зеленое"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23169 = "Наносит урон от сил природы каждые 5 сек. и снижает получаемое исцеление на 50%.\n\nНемедленно снимайте этот яд с танков."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23170 = "Поражение стаи: бронзовое"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23170 = "Периодически оглушает пораженного игрока на 4 сек.\n\nИспользуйте Песок из песочных часов, чтобы снять поражение. Танкам, лекарям и охотникам, отвечающим за Усмиряющий выстрел, следует иметь его при себе."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23174 = "Хроматическая мутация"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23174 = "Превращает игрока во враждебного хроматического драконида, если на нем одновременно действуют все пять Поражений стаи.\n\nПредотвращайте превращение, быстро снимая поражения."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_22276 = "Щит стихий"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_22276 = "Периодически меняет щит стихий, становясь уязвимым к одной из пяти школ магии и снижая урон от остальных. Смена происходит примерно каждые 20 сек.\n\nПо возможности используйте текущую уязвимую школу."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23128 = "Бешенство"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23128 = "Повышает скорость атаки на 150% на 8 сек.\n\nОхотники должны немедленно снимать Бешенство Усмиряющим выстрелом."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_28747 = "Исступление"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_28747 = "Примерно при 20% здоровья повышает наносимый физический урон на 100% и скорость атаки на 50% до конца боя.\n\nЭто отдельный эффект, а не Бешенство, снимаемое Усмиряющим выстрелом."
     IJ_DB_RAID_BWL_BOSS_NAME_11583 = "Нефариан"
     IJ_DB_RAID_BWL_BOSS_STORY_11583 =
         "Нефариан — старший сын Смертокрыла и его главной супруги Синтарии. Как и его отец и его младшая сестра-близнец Ониксия, он имеет человеческий облик и появляется как Виктор Нефариус, Лорд Черной горы. Держа под своим контролем клан Черной горы и различные кланы огров, Нефариан правит из своего логова на вершине Пика Черной горы."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23410 = "Маг: Дикая магия"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23410 = "Накладывает Дикую магию на магов на 30 сек.\n\nНа OctoWoW этот классовый призыв, по-видимому, не вызывает Превращение."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_phaseone = "Первая фаза: Виктор Нефариус"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_phaseone = "Сражайтесь с Виктором Нефариусом и драконидами, входящими с обеих сторон зала."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_phasetwo = "Вторая фаза: Нефариан"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_phasetwo = "Нефариан спускается в облике дракона. Добейте оставшихся драконидов и противостойте его атакам и классовым призывам. Примерно при 20% здоровья к бою присоединяются костяные создания.\n\nНа OctoWoW Нефариан не наносит всему рейду урон Пламенем Тьмы во время спуска, поэтому рейду не нужны Плащи из чешуи Ониксии для приземления."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_10162 = "Лорд Виктор Нефариус"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_10162 = "Начинает бой в человеческом облике, пока в зал входят дракониды. После гибели примерно 40 драконидов начинается превращение в Нефариана.\n\nРазделите рейд между двумя входами и добейте оставшихся драконидов во время перехода."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22677 = "Стрела Тьмы"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22677 = "Наносит цели урон от темной магии."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22665 = "Залп стрел Тьмы"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22665 = "Наносит урон от темной магии нескольким целям."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22666 = "Безмолвие"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22666 = "Не дает пораженным игрокам произносить заклинания в течение 6 сек."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22678 = "Страх"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22678 = "Заставляет цель бежать в страхе в течение 6 сек."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22667 = "Темный приказ"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22667 = "Подчиняет игрока на 15 сек. и увеличивает наносимый им урон на 300%.\n\nЗащищайте рейд от подчиненных игроков до окончания эффекта."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_drakonids = "Дракониды"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_drakonids = "Для сохранения рейда выбираются два цвета драконидов. Также могут появляться хроматические дракониды.\n\nТанки должны собирать каждую волну, пока рейд уничтожает противников."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14261 = "Синий драконид"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14261 = "Наносит урон от магии льда, сжигает ману и замедляет атаки ближнего боя ближайших противников на 6 сек."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14262 = "Зеленый драконид"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14262 = "Оглушает ближайших противников на 1 сек."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14263 = "Бронзовый драконид"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14263 = "Наносит урон от тайной магии и замедляет атаки и произнесение заклинаний ближайших противников на 6 сек."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14264 = "Красный драконид"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14264 = "Наносит ближайшим противникам урон от огня каждую секунду в течение 5 сек."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14265 = "Черный драконид"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14265 = "Наносит ближайшим противникам урон от огня."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14302 = "Хроматический драконид"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14302 = "Также использует Силу стаи: черная, нанося ближайшим противникам урон от огня."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22539 = "Пламя Тьмы"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22539 = "Наносит урон от темной магии в конусе перед собой.\n\nОтворачивайте Нефариана от рейда."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22682 = "Урон Пламени Тьмы"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22682 = "Наносит дополнительный урон от темной магии каждую секунду в течение 10 сек.\n\nТанкам следует надеть Плащ из чешуи Ониксии, чтобы предотвратить этот периодический эффект. Остальным участникам рейда плащ не нужен, если они избегают фронтального дыхания. Плащ не предотвращает первоначальный удар."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_20691 = "Рассекающий удар"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_20691 = "Наносит физический урон противникам перед Нефарианом.\n\nПеред ним должны находиться только танки."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22686 = "Раскатистый рев"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22686 = "После применения в течение 1,5 сек. пугает ближайших противников в радиусе 35 м на 4 сек.\n\nИспользуйте Защиту от страха или невосприимчивость к страху для защиты танка."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22687 = "Завеса Тени"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22687 = "Снижает получаемое исцеление на 75% на 6 сек.\n\nНемедленно снимайте это проклятие с танка."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23364 = "Взмах хвостом"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23364 = "Наносит физический урон противникам позади Нефариана и оглушает их на 2 сек.\n\nНе стойте непосредственно за ним."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23365 = "Выбитое оружие"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23365 = "Обезоруживает пораженные цели на 8 сек."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_classcalls = "Классовые призывы"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_classcalls = "Призывает классы примерно каждые 30 сек. Одновременно могут быть затронуты два разных класса.\n\nСледите за обоими призывами и меняйте действия танков, лекарей и бойцов."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23397 = "Воин: Берсерк"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23397 = "Заставляет воинов принять Стойку берсерка и повышает получаемый ими урон на 30% на 30 сек.\n\nЛекари должны быть готовы к повышенному урону по танкам."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23398 = "Друид: Невольное превращение"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23398 = "Заставляет друидов принять Облик кошки на 30 сек.\n\nДругие танки и лекари должны выполнять их задачи."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23436 = "Охотник: Повреждение оружия дальнего боя"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23436 = "Полностью расходует прочность экипированного оружия дальнего боя.\n\nИмейте запасное оружие дальнего боя и снимайте основное перед классовыми призывами."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23414 = "Разбойник: Паралич"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23414 = "Телепортирует разбойников к Нефариану и обездвиживает их на 30 сек.\n\nБудьте готовы к опасному расположению во время призыва."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23418 = "Паладин: Похищение благословения"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23418 = "В течение 30 сек. паладины периодически накладывают вредные благословения на участников рейда. Каждое благословение действует 15 сек."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_52873 = "Благословение крестьян"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_52873 = "Снижает все характеристики на 10%."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_52874 = "Благословение слабости"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_52874 = "Снижает силу атаки на 300."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_52875 = "Благословение невежества"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_52875 = "Похищает 76 ед. маны каждую секунду."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_52876 = "Благословение проклятия"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_52876 = "Повышает создаваемую угрозу на 50%."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_52877 = "Благословение опасности"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_52877 = "Повышает получаемый урон на 20%."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23401 = "Жрец: Порочное исцеление"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23401 = "В течение 30 сек. прямое исцеление жрецов, включая Кольцо света, накладывает на цели Порочное исцеление.\n\nИспользуйте Обновление и Слово силы: Щит. Прямое исцеление должны обеспечивать другие лекари."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23402 = "Урон Порочного исцеления"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23402 = "Наносит урон от темной магии каждую секунду в течение 30 сек."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23425 = "Шаман: Оскверненные тотемы"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23425 = "Вызывает эффекты оскверненных тотемов, усиливающие Нефариана и его союзников: исцеление, броню и дополнительные атаки.\n\nУничтожайте оскверненные тотемы при их появлении."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23427 = "Чернокнижник: Призыв инферналов"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23427 = "Призывает оскверненных инферналов рядом с чернокнижниками.\n\nСоберите и уничтожьте инферналов, прежде чем вернуться к боссу."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14668 = "Оскверненный инфернал"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14668 = "Атакует рейд и наносит урон от огня по области.\n\nДержите инферналов вдали от уязвимых участников рейда."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_20153 = "Обжигающий жар"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_20153 = "Наносит ближайшим противникам урон от огня."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22703 = "Удар инфернала"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22703 = "Наносит урон от огня и оглушает противников вблизи места падения."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14605 = "Костяные создания"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14605 = "Примерно при 20% здоровья павшие дракониды возвращаются в виде костяных созданий.\n\nТанки должны собрать их для урона по области, защищая рейд."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_8355 = "Использование слабости"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_8355 = "Наносит физический урон ближайшей цели."
 
     -- ONY
     IJ_DB_RAID_ONY_NAME = "Логово Ониксии"
@@ -1857,6 +2447,32 @@ if GetLocale() == "ruRU" then
         "Ониксия построила логово. Вход в логово был вырезан так, чтобы выглядеть как пасть самой матери выводка: его внутренний проход был выложен магмой, а земля потрескалась, светясь огнем снизу. Сводчатый каменный потолок стонет и сдвигается, создавая постоянные камнепады. Стены проливают лаву там, где невозможно сдержать жар."
 
     -- ONY Bosses
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_36883 = "Сотрясающий топот"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_36883 = "Наносит физический урон противникам в радиусе 15 м и отбрасывает их."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_47403 = "Бросок глефы"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_47403 = "Отбрасывает противника, снижает получаемое им исцеление на 25% и наносит физический урон в течение 5 сек."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_47404 = "Командирский крик"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_47404 = "Наносит физический урон противникам в радиусе 10 м и прерывает произнесение заклинаний.\n\nЗаклинатели должны оставаться вне радиуса действия."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_41537 = "Обжигающие цепи"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_41537 = "Связывает двух игроков цепями, снижая скорость передвижения на 30% и нанося урон от огня каждые 2 сек. в течение максимум 12 сек.\n\nСвязанные игроки должны расположиться так, чтобы цепь прошла через Акселуса и разорвалась."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_47411 = "Горящие цепи"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_47411 = "Наносит урон от огня противникам в радиусе 5 м от скованного игрока."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_47409 = "Поджигание"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_47409 = "Если Обжигающие цепи заканчиваются, не будучи разорванными, каждый связанный игрок получает 6000 ед. урона от огня."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_48312 = "Расплавленные цепи"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_48312 = "Наносит 5000 ед. урона от огня противникам в радиусе 100 м и снижает их скорость передвижения на 50% на 8 сек."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_47408 = "Знамя командования"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_47408 = "При 5% здоровья Акселус полностью восстанавливает здоровье и использует Знамя командования, повышая максимальный запас здоровья себе и ближайшим союзникам на 20%, а скорость атак ближнего боя — на 25%."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_40068 = "Ониксийский страж"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_40068 = "Акселус призывает ониксийских стражей на помощь.\n\nНазначьте танка, который будет держать их вдали от рейда. Остальные игроки должны оставаться вне радиуса их Кольца огня."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_20203 = "Кольцо огня"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_20203 = "Наносит урон от огня противникам в радиусе 20 м."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_18958 = "Огненная плеть"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_18958 = "Наносит урон от огня и снижает сопротивление огню на 20 на 45 сек."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_12097 = "Пробивание брони"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_12097 = "Снижает броню противника на 75% на 20 сек."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_19983 = "Рассекающий удар"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_19983 = "Наносит физический урон ближайшим противникам."
     IJ_DB_RAID_ONY_BOSS_NAME_10184 = "Ониксия"
     IJ_DB_RAID_ONY_BOSS_STORY_10184 =
         "Ониксия — дочь Смертокрыла и его главной супруги Синтарии, а также мать племени черных драконов Азерота. Как и ее отец и ее старший брат-близнец Нефариан, она имеет человеческий облик, выглядя как аристократка Штормграда леди Катрана Престор, хотя считается, что у нее также есть несколько других гуманоидных обличий."
@@ -1879,10 +2495,10 @@ if GetLocale() == "ruRU" then
         "Once Onyxia reaches 65% health, she will start walking towards the center of the room before taking flight.\n\nThis stage will continue until Onyxia is at 40% health."
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18392 = "Огненный шар"
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18392 =
-        "Ониксия случайным образом нацеливается на игроков, нанося от 800 до 1200 ед. урона от огня игроку и всем, кто находится в радиусе 8 ярдов. ||н||  ||н|| Игроки должны рассредоточиться на расстоянии не менее 8 ярдов друг от друга, чтобы минимизировать урон, когда Ониксия не использует «Глубокое дыхание»."
+        "Ониксия выпускает огненный шар в игрока, также поражая всех в радиусе 8 м.\n\nИгрокам следует держаться на расстоянии не менее 8 м друг от друга."
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_17086 = "Глубокий вдох"
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_17086 =
-        "Ониксия время от времени летит по линии через середину комнаты, выдыхая огонь, нанося тяжелый урон от огня всем, кто находится на ее пути. ||н||  ||н|| Игроки должны бежать в любую сторону, в какую бы сторону она ни смотрела, чтобы не получить урон."
+        "Ониксия делает глубокий вдох, а затем пролетает через зал по прямой.\n\nУйдите с траектории ее полета."
     IJ_DB_RAID_ONY_BOSS_10184_NAME_onyxiastage3 = "Stage Three: Ground Phase"
     IJ_DB_RAID_ONY_BOSS_10184_DESCRIPTION_onyxiastage3 = "Once Onyxia reaches 40% health, she will land back on the ground."
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18431 = "Ревущий рев"
@@ -1972,16 +2588,67 @@ if GetLocale() == "ruRU" then
     IJ_DB_RAID_KARA10_BOSS_NAME_61221 = "Королева выводка Аракшна"
     IJ_DB_RAID_KARA10_BOSS_STORY_61221 =
         "Темная тайная энергия, просачивающаяся в результате экспериментов Медива, исказила естественную дикую природу в фундаменте башни. Аракшна, массивный паукообразный, заняла затененные углы нижних залов своим гнездовьем. Она и ее бесконечный выводок пируют заблудшими духами и неосторожными исследователями, которые забредают слишком далеко от гостевых покоев, плетя паутину застывшей маны, чтобы поймать свою добычу."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57056 = "Похищающий укус"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57056 = "Наносит урон от сил природы и снижает получаемое исцеление на 25% на 10 секунд.\n\nЭтот эффект яда можно снять."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57063 = "Залп яда выводка"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57063 = "Наносит урон от сил природы ближайшим противникам и отравляет их, нанося дополнительный урон от сил природы каждые 3 секунды в течение 12 секунд.\n\nБыстро снимайте яд."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_30008 = "Яйца пауков"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_30008 = "Примерно каждые 30 секунд Араксна создает два паучьих яйца. Если яйцо не уничтожить, примерно через 20 секунд из него вылупится паук-ползун.\n\nУничтожайте яйца до вылупления. Оставшиеся яйца могут вылупиться даже после смерти Араксны."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_61206 = "Паук-ползун"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_61206 = "Из каждого паучьего яйца, не уничтоженного вовремя, вылупляется один паук-ползун."
     IJ_DB_RAID_KARA10_BOSS_NAME_61224 = "Гризикил"
     IJ_DB_RAID_KARA10_BOSS_STORY_61224 =
         "Собиратель по натуре, существо, известное как Гризикил, скрывается в конце гостевых залов, окруженное горой украденных безделушек. Среди его самых причудливых сокровищ — комично большая свеча, колоссальный подсвечник, который, как говорят, необходим для странных экспериментов в Библиотеке Мастера. Он яростно защищает свои запасы, рассматривая любого, кто приближается к нему, как обычных воров, стремящихся ограбить его «символы статуса»."
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57091 = "Огненная волна"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57091 = "Поддерживает заклинание в течение 9 секунд, нанося урон от огня себе и противникам в радиусе 10 м каждые 3 секунды.\n\nОтойдите от Гризикила, пока он поддерживает заклинание."
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57093 = "Огненный ливень греллей"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57093 = "Создает область огня на 20 секунд, нанося урон от огня каждые 3 секунды находящимся в ней противникам.\n\nВыйдите из области действия."
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57094 = "Огненный шар греллей"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57094 = "Наносит противнику урон от огня и дополнительный урон от огня каждые 2 секунды в течение 6 секунд."
     IJ_DB_RAID_KARA10_BOSS_NAME_61223 = "Клолорд Волевой Клык"
     IJ_DB_RAID_KARA10_BOSS_STORY_61223 =
         "Повелитель Когтей Вольфанг — тиранический лидер воргенов, наводнивших Каражан. Привлеченный присутствием Косы Элуны, которую принес в башню таинственный Темный Всадник, Хоулфанг утвердил свое господство над различными племенами, скрывающимися в тени. Разорвав его хватку, можно надеяться подавить дикое опустошение, грозящее поглотить нижние залы."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57076 = "Слюнявый укус"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57076 = "Наносит физический урон и вызывает кровотечение каждые 1,5 секунды в течение 12 секунд."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57083 = "Ужасающее присутствие"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57083 = "Снижает броню и наносимый урон противников в радиусе 10 м. Эффект суммируется и длится 10 секунд.\n\nРядом с Хоулфангом должен находиться только один танк, пока второй ждет вне линии видимости. Меняйтесь местами по мере накопления эффектов, чтобы предыдущий танк мог выйти из линии видимости и дождаться их окончания. Около 15 эффектов можно использовать как ориентир для смены, но рейд должен сам выбрать момент.\n\nБойцам также следует при необходимости выходить из линии видимости для сброса эффектов, обычно реже, чем танкам."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57084 = "Проклятие Шэдоубейна"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57084 = "Проклинает ближайших противников, снижая получаемое исцеление на 50% на 10 минут.\n\nНемедленно снимайте проклятие, в первую очередь с танков."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57082 = "Кровавое бешенство"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57082 = "Примерно при 30% здоровья повышает скорость атак ближнего боя на 35% на 2 минуты."
     IJ_DB_RAID_KARA10_BOSS_NAME_61222 = "Лорд Блэквальд II"
     IJ_DB_RAID_KARA10_BOSS_STORY_61222 =
         "Лорд Блэквальд II — несчастное существо, упивающееся темным приобретением Косы Элуны. Его злоба разносится по залам, он находит извращенное удовлетворение от обладания могущественной проклятой реликвией. Он охраняет артефакт с фанатизмом, порожденным длительным воздействием его теневой силы, служа мрачным напоминанием о том, что жители Каражана являются такими же пленниками своих собственных желаний, как и стен башни."
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57066 = "Буря разорителя"
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57066 = "Наносит физический урон противникам в радиусе 8 м после произнесения заклинания в течение 1,5 секунды.\n\nОтойдите от Блэквальда, пока он произносит заклинание."
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57073 = "Дар Блэквальда"
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57073 = "Проклинает противника, снижая все характеристики на 20% на 1 час.\n\nБыстро снимайте проклятие."
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57074 = "Благословение Блэквальда"
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57074 = "Повышает скорость атак и произнесения заклинаний, а также размер Блэквальда на 11% на 2 минуты. Эффект суммируется."
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57075 = "Усиленная душа"
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57075 = "Повышает скорость атак и размер противника на 25%, нанося ему урон от темной магии каждые 2 секунды в течение 10 секунд."
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_61194 = "Яростный клык Шэдоубейна"
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_61194 = "Блэквальд призывает Яростного клыка Шэдоубейна примерно через 30 секунд после начала боя, а затем примерно каждые 45 секунд."
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57081 = "Шквал когтей"
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57081 = "Наносит физический урон ближайшим противникам, снижает их броню на 499 и вызывает кровотечение каждую секунду в течение 12 секунд."
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57082 = "Кровавое бешенство"
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57082 = "Примерно при 30% здоровья повышает скорость атак ближнего боя на 35% на 2 минуты."
     IJ_DB_RAID_KARA10_BOSS_NAME_61225 = "Мороэс"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57095 = "Сверкающая пыль"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57095 = "Оглушает противника, обычно текущего танка, на 10 секунд.\n\nИспользуйте Зелье свободы действий до применения Сверкающей пыли, чтобы предотвратить оглушение."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57096 = "Дымовая бомба"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57096 = "Накладывает немоту на противников в области действия на 10 секунд, не позволяя произносить заклинания.\n\nБыстро рассеивайте магический эффект, в первую очередь с танков и лекарей.\n\nРассредоточьтесь и разместите лекарей на противоположных сторонах, чтобы снизить риск одновременной немоты у нескольких лекарей."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57097 = "Сбивающий удар ногой"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57097 = "Наносит физический урон противнику, отбрасывает его и оглушает на 4 секунды.\n\nТанкам следует поочередно провоцировать Мороуза, чтобы удерживать его на себе. Бойцы должны оставаться ниже обоих танков по уровню угрозы."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57098 = "Мучительное сотрясение"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57098 = "Снижает скорость передвижения на 50% и скорость атак на 30% на 30 секунд."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57099 = "Взрыв тьмы"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57099 = "Наносит противнику урон от темной магии."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_27564 = "Отражение"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_27564 = "Отражает вредоносные заклинания в течение 5 секунд.\n\nСнимите магический положительный эффект или прекратите применять вредоносные заклинания к Мороузу, пока эффект не закончится."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57100 = "Проклятие Мороуза"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57100 = "Снижает скорость произнесения заклинаний ближайших противников на 60% на 15 секунд.\n\nБыстро снимайте проклятие."
+
     IJ_DB_RAID_KARA10_BOSS_STORY_61225 =
         "Проклятый кастелян-нежить Каражана, Мороуз продолжает выполнять свои обязанности, как если бы хозяин все еще находился здесь. Он хитрый и яростный защитник внутреннего устройства башни, особенно охраняющий Ключ от верхних палат. Хотя он выглядит простым слугой, его боевое мастерство и нежелание допускать посторонних глаз в запретные части башни делают его одним из самых грозных препятствий в Нижнем Каражане."
 
@@ -2161,6 +2828,22 @@ if GetLocale() == "ruRU" then
         "Пророки говорят о будущем. Если Пророк Штормовое Копытце когда-либо и сделал это, то некому было бы это записать."
     IJ_DB_DUNGEON_WHC_BOSS_NAME_shalk = "Вождь Шалк Черный Ветер"
     IJ_DB_DUNGEON_WHC_BOSS_STORY_shalk = "Он победил. Он правит. Помимо этого, в каньоне нет ничего от вождя Шалка Блэквинда."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_22539 = "Темное пламя"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_22539 = "Наносит урон от темной магии противникам в конусе перед собой.\n\nОтворачивайте Огнечрева от рейда."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_22682 = "Урон от темного пламени"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_22682 = "Наносит дополнительный урон от темной магии каждую секунду в течение 10 сек.\n\nТанкам следует надеть Плащ из чешуи Ониксии, чтобы предотвратить этот периодический эффект. Остальным участникам рейда плащ не нужен, если они избегают фронтального дыхания. Плащ не предотвращает первоначальный удар."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_23339 = "Удар крылом"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_23339 = "Наносит физический урон противникам перед Огнечревом в радиусе 20 м, отбрасывает их и снижает их угрозу.\n\nВторой танк должен быть готов принять босса при смене цели."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_23341 = "Огненный удар"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_23341 = "Наносит урон от огня и повышает получаемый урон от огня на 150 за каждый заряд на 20 сек. Повторные применения обновляют длительность и добавляют заряды.\n\nУйдите из поля зрения Огнечрева и дождитесь окончания эффекта, чтобы сбросить заряды."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_3417 = "Взбучка"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_3417 = "Предоставляет дополнительные атаки ближнего боя."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_29476 = "Струя темного пламени"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_29476 = "Создает темные зоны в зале. Занятые зоны наносят локальный урон от огня, а незанятые вызывают взрывы, поражающие рейд.\n\nНазначьте игроков, которые будут стоять в каждой зоне и принимать ее урон, предотвращая взрывы. Лекари должны поддерживать этих игроков."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_46855 = "Выброс темного пламени"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_46855 = "Наносит урон от огня игроку, стоящему в Струе темного пламени."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_46856 = "Взрыв темного пламени"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_46856 = "Незанятая Струя темного пламени наносит урон от огня противникам в радиусе 100 м."
     IJ_DB_RAID_BWL_BOSS_NAME_ezzel = "Ezzel Darkbrewer"
     IJ_DB_RAID_ONY_BOSS_NAME_axelus = "Командир выводка Акселус"
     IJ_DB_RAID_ONY_BOSS_STORY_axelus =
@@ -2241,10 +2924,29 @@ if GetLocale() == "ruRU" then
         "Синдарион издает огненное дыхание, нанося огненный урон всем противникам перед ним."
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_onyxianhatcher = "Ониксийский инкубатор"
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_onyxianhatcher =
-        "Два Ониксианских Хэтчера появляются после того, как Ониксия снова приземляется на землю, помогая ей до конца боя."
+        "Два ониксийских выводителя вступают в бой вскоре после приземления Ониксии. Они остаются активными, пока их не убьют."
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_rainoffire = "Огненный дождь"
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire =
-        "Ониксийский Хэтчер выпускает огненные дожди, которые появляются по комнате, нанося тяжелый урон от огня всем врагам внутри."
+        "Наносит урон от огня каждые 2 сек. в течение 6 сек. противникам в выбранной области радиусом 10 м.\n\nПокиньте пораженную область."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_19983 = "Рассекающий удар"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_19983 = "Наносит физический урон ближайшим противникам."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_21919 = "Взбучка"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_21919 = "Предоставляет дополнительные атаки ближнего боя."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_19633 = "Отбрасывание"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_19633 = "Наносит физический урон текущей цели, отбрасывает ее и снижает создаваемую ею угрозу."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_22191 = "Раскаленная земля"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_22191 = "Волна огня распространяется вдоль траектории полета Ониксии, нанося урон от огня попавшим в нее противникам."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_17731 = "Извержение"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_17731 = "Раскатистый рев вызывает извержение лавовых трещин, нанося урон от огня ближайшим противникам.\n\nНе стойте на трещинах."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_33437 = "Залп огненных шаров"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_33437 = "Наносит урон от огня противникам в области действия."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_33438 = "Раздирающие когти"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_33438 = "Наносит физический урон сразу и каждую секунду, а также снижает броню на 1000 на 12 сек."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_33446 = "Исступление"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_33446 = "Приблизительно при 50% и 20% здоровья Синдарион повышает скорость атак ближнего боя на 30%."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_33441 = "Огненный рассекающий удар"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_33441 = "Наносит урон от огня противникам перед выводителем."
+
     IJ_DB_RAID_TH_BOSS_NAME_karrsh = "Каррш Страж"
     IJ_DB_RAID_TH_BOSS_STORY_karrsh =
         "Страж стоит на страже того, что стоит защитить. То, что Каррш охраняет сейчас во тьме Крепости Древесной Пасти, никто не вернулся и не сообщил об этом."
@@ -2338,11 +3040,29 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_SWR_BOSS_STORY_62670 =
         "Эта преследующая мерзость родилась из жестоких намерений Совета Теней, проявившись в виде массы измученных молодых душ. О'джин и другие чувствительные духи могут слышать крики этих бедных детей, которых использовали в качестве сырья для гнусных экспериментов Совета. Только убив эту мерзость, можно наконец освободить невинные души."
     IJ_DB_RAID_MC_BOSS_STORY_57642 =
-        "Тан-чародей Тауриссан был лидером призрачных колдунов клана Черного Железа до и во время Войны Трех Молотов. Именно он был ответственным за призыв Повелителя Огня Рагнароса в Азерот."
+        "Во время Войны Трех Молотов колдун-тан Тауриссан попытался спасти клан Черного Железа от поражения, призвав могущественного слугу. Вместо этого он освободил Рагнароса, чье появление породило Черную гору, убило Тауриссана и обрекло выживших дворфов Черного Железа на рабство. Теперь Первый Император предстает нежитью в Огненных Недрах и остается одной из угроз на службе Повелителя Огня."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52722 = "Чародейский разлом"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52722 =
+        "Наносит противнику урон от тайной магии и увеличивает получаемый им урон от тайной магии на 5% на 30 секунд."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52723 = "Чародейский обстрел"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52723 =
+        "Выпускает в противника чародейский снаряд, нанося урон и отбрасывая его."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52724 = "Руна силы"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52724 =
+        "Нахождение внутри руны увеличивает наносимый урон на 30%, снижает получаемый урон от огня на 70% и урон от других школ на 20%.\n\nВойдите для Руны возгорания и выйдите для Руны детонации."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52725 = "Руна детонации"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52725 =
+        "Помечает противников для взрыва через 6 секунд, наносящего урон от тайной магии. Выйдите из Руны силы до взрыва метки, чтобы избежать повышенного урона."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52726 = "Руна возгорания"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52726 =
+        "Помечает противников для взрыва через 6 секунд, наносящего большой урон от огня. Войдите в Руну силы и оставайтесь внутри до взрыва метки, чтобы снизить урон."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52727 = "Зеркальное изображение"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52727 =
+        "При 50% здоровья Тауриссан призывает свое изображение, которое также применяет Чародейский разлом и Чародейский обстрел."
     IJ_DB_RAID_KARA40_BOSS_STORY_59981 =
         "Дреней, чей дух был еще больше сломлен пространственными аномалиями в этом крыле башни. Запертый в Скале Запустения, Санв Тас'дал впал в дикое отчаяние, используя остатки своего шаманского наследия и темного вуду, чтобы защитить свою скудную территорию от любых злоумышленников."
     IJ_DB_RAID_BWL_BOSS_STORY_ezzel =
-        "Эззель Даркбрюэр, может быть, и гоблин небольшого роста, но он ни в коем случае не слабак. Обладая арсеналом химических смесей и блестящим умом, отточенным многими годами работы в этой области, он готов помешать любому злоумышленнику проникнуть в лабораторию его работодателя. Да, и не забудь неуклюжего огра, на вершине которого он сидит."
+        "Эззель Даркбрюэр, может быть, и гоблин небольшого роста, но он ни в коем случае не слабак. Обладая арсеналом химических смесей и блестящим умом, отточенным многими годами работы в этой области, он готов помешать любому злоумышленнику проникнуть в лабораторию его работодателя. Да, и не забудь неуклюжего огра, на вершине которого он сидит.\n\nНанятый Нефарианом для укрепления обороны Логова Крыла Тьмы, Эззель охраняет алхимическую лабораторию вместе со своим неповоротливым спутником Тон'Ракой."
     IJ_DB_RAID_NAXX_BOSS_STORY_16061 =
         "Инструктор Разувиус, самый грозный из тренеров рыцарей смерти Плети, когда-то был лордеронским рыцарем Разувом Ивальди, ветераном осады Орды во время Второй войны. При жизни он был дисциплинированным солдатом, но в нежити он стал безжалостным инструктором, формирующим новых рыцарей смерти посредством жестокости и абсолютного послушания. Окруженный своими верными учениками, Разувиус с неумолимой строгостью исполняет волю Плети, превращая своих учеников в оружие, столь же беспощадное, как и он сам."
     IJ_QUEST_NAME_41386 = "Приколич Ликан"
@@ -2411,8 +3131,8 @@ if GetLocale() == "ruRU" then
         "Найдите «Трактат о магических замках и ключах» и принесите его Вандолу. Ходят слухи, что он хранится в Логове Крыла Тьмы."
     IJ_QUEST_NAME_70000 = "Особый вид призыва"
     IJ_QUEST_OBJECTIVE_70000 = "Посетите верховного мага Ксилема в Азшаре."
-    IJ_QUEST_NAME_70001 = "Затерянный в песках"
-    IJ_QUEST_OBJECTIVE_70001 = "Принесите совершенный осколок обсидиана верховному магу Ксилему."
+    IJ_QUEST_NAME_70001 = "Оберег проклинателя"
+    IJ_QUEST_OBJECTIVE_70001 = "Принесите оберег проклинателя верховному магу Ксилему."
     IJ_NPC_NAME_14368 = "Хранитель мудрости Лидрос"
     IJ_NPC_NAME_1498 = "Бетор Ледяной Осколок"
     IJ_NPC_NAME_2708 = "Верховный маг Малин"

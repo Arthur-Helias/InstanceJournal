@@ -21,7 +21,13 @@ ES.MapId = IMI.EmeraldSanctum
 ES.IconScale = 1.0
 ES.MinLevel = 60
 ES.MaxLevel = 60
-ES.Entrances = {[1] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Hyjal, MapCoordinateX = 20.6, MapCoordinateY = 60.6}}
+ES.Entrances = {
+    [1] = {
+        MapContinentId = IMI.Kalimdor, 
+        MapZoneId = IZI.Hyjal, 
+        MapCoordinateX = 20.6, MapCoordinateY = 60.6
+    }
+}
 ES.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "60747",

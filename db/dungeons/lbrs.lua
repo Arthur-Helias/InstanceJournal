@@ -21,7 +21,14 @@ LBRS.MapId = IMI.BlackrockSpire
 LBRS.IconScale = 0.9
 LBRS.MinLevel = 55
 LBRS.MaxLevel = 60
-LBRS.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.BlackrockMountain, MapCoordinateX = 81.7, MapCoordinateY = 43.4}}
+LBRS.Entrances = {
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.BlackrockMountain, 
+        MapCoordinateX = 81.7, 
+        MapCoordinateY = 43.4
+    }
+}
 LBRS.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "9219",
@@ -30,7 +37,10 @@ LBRS.Bosses = {
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_9219,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_9219,
         IsRare = true,
-        Loot = {[1] = {IJDB.I[12608], DropChance = 50}, [2] = {IJDB.I[13286], DropChance = 50}}
+        Loot = {
+            [1] = {IJDB.I[12608], DropChance = 50}, 
+            [2] = {IJDB.I[13286], DropChance = 50}
+        }
     },
     [2] = { -- NOTE: Missing abilities
         Id = "9196",
@@ -57,7 +67,10 @@ LBRS.Bosses = {
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_9218,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_9218,
         IsRare = true,
-        Loot = {[1] = {IJDB.I[13285], DropChance = 60}, [2] = {IJDB.I[13284], DropChance = 40}}
+        Loot = {
+            [1] = {IJDB.I[13285], DropChance = 60}, 
+            [2] = {IJDB.I[13284], DropChance = 40}
+        }
     },
     [4] = { -- NOTE: Missing abilities
         Id = "9217",
@@ -66,7 +79,11 @@ LBRS.Bosses = {
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_9217,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_9217,
         IsRare = true,
-        Loot = {[1] = {IJDB.I[13261], DropChance = 33}, [2] = {IJDB.I[13282], DropChance = 33}, [3] = {IJDB.I[13283], DropChance = 33}}
+        Loot = {
+            [1] = {IJDB.I[13261], DropChance = 33}, 
+            [2] = {IJDB.I[13282], DropChance = 33}, 
+            [3] = {IJDB.I[13283], DropChance = 33}
+        }
     },
     [5] = { -- NOTE: Missing abilities
         Id = "9236",
@@ -115,7 +132,12 @@ LBRS.Bosses = {
         MapCoordinateX = 47.9,
         MapCoordinateY = 60.0,
         IsRare = true,
-        Loot = {[1] = {IJDB.I[12621], DropChance = 33}, [2] = {IJDB.I[12634], DropChance = 33}, [3] = {IJDB.I[12637], DropChance = 33}, [4] = {IJDB.I[12838], DropChance = 7}}
+        Loot = {
+            [1] = {IJDB.I[12621], DropChance = 33}, 
+            [2] = {IJDB.I[12634], DropChance = 33}, 
+            [3] = {IJDB.I[12637], DropChance = 33}, 
+            [4] = {IJDB.I[12838], DropChance = 7}
+        }
     },
     [8] = { -- NOTE: Missing abilities
         Id = "10596",
@@ -140,7 +162,11 @@ LBRS.Bosses = {
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_10376,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_10376,
         IsRare = true,
-        Loot = {[1] = {IJDB.I[13184], DropChance = 33}, [2] = {IJDB.I[13185], DropChance = 33}, [3] = {IJDB.I[13218], DropChance = 33}}
+        Loot = {
+            [1] = {IJDB.I[13184], DropChance = 33}, 
+            [2] = {IJDB.I[13185], DropChance = 33}, 
+            [3] = {IJDB.I[13218], DropChance = 33}
+        }
     },
     [10] = { -- NOTE: Missing abilities
         Id = "10584",
@@ -218,7 +244,11 @@ LBRS.Bosses = {
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718,
         IsRare = true,
-        Loot = {[1] = {IJDB.I[13198], DropChance = 33}, [2] = {IJDB.I[13203], DropChance = 33}, [3] = {IJDB.I[13204], DropChance = 33}}
+        Loot = {
+            [1] = {IJDB.I[13198], DropChance = 33}, 
+            [2] = {IJDB.I[13203], DropChance = 33}, 
+            [3] = {IJDB.I[13204], DropChance = 33}
+        }
     },
     [15] = { -- NOTE: Missing abilities
         Id = "9568",

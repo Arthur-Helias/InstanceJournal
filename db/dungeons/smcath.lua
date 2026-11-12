@@ -22,7 +22,15 @@ SMCATH.ZoneId = IZI.SMCath
 SMCATH.IconScale = 0.8
 SMCATH.MinLevel = 35
 SMCATH.MaxLevel = 45
-SMCATH.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.ScarletMonastery, MapCoordinateX = 78.9, MapCoordinateY = 28.2, MapDestinationZoneId = IZI.SMCath}}
+SMCATH.Entrances = {
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.ScarletMonastery, 
+        MapCoordinateX = 78.9, 
+        MapCoordinateY = 28.2, 
+        MapDestinationZoneId = IZI.SMCath
+    }
+}
 SMCATH.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "4542",
@@ -33,7 +41,11 @@ SMCATH.Bosses = {
         MapCoordinateX = 55.5,
         MapCoordinateY = 25.2,
         MapId = IZI.SMCath,
-        Loot = {[1] = {IJDB.I[19507], DropChance = 33}, [2] = {IJDB.I[19508], DropChance = 33}, [3] = {IJDB.I[19509], DropChance = 33}}
+        Loot = {
+            [1] = {IJDB.I[19507], DropChance = 33}, 
+            [2] = {IJDB.I[19508], DropChance = 33}, 
+            [3] = {IJDB.I[19509], DropChance = 33}
+        }
     },
     [2] = { -- NOTE: Missing abilities
         Id = "3976",
@@ -62,7 +74,12 @@ SMCATH.Bosses = {
         MapCoordinateX = 49.1,
         MapCoordinateY = 16.8,
         MapId = IZI.SMCath,
-        Loot = {[1] = {IJDB.I[7720], DropChance = 33}, [2] = {IJDB.I[7721], DropChance = 33}, [3] = {IJDB.I[7722], DropChance = 33}, [4] = {IJDB.I[51217], DropChance = 1}}
+        Loot = {
+            [1] = {IJDB.I[7720], DropChance = 33}, 
+            [2] = {IJDB.I[7721], DropChance = 33}, 
+            [3] = {IJDB.I[7722], DropChance = 33}, 
+            [4] = {IJDB.I[51217], DropChance = 1}
+        }
     }
 }
 SMCATH.Quests = {IJDB.Q[1053], IJDB.Q[1113], IJDB.Q[1048], IJDB.Q[40233], IJDB.Q[40935]}

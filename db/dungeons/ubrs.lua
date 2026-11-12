@@ -21,7 +21,14 @@ UBRS.MapId = IMI.BlackrockSpire
 UBRS.IconScale = 0.8
 UBRS.MinLevel = 60
 UBRS.MaxLevel = 60
-UBRS.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.BlackrockMountain, MapCoordinateX = 79.0, MapCoordinateY = 33.0}}
+UBRS.Entrances = {
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.BlackrockMountain, 
+        MapCoordinateX = 79.0, 
+        MapCoordinateY = 33.0
+    }
+}
 UBRS.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "9816",
@@ -70,7 +77,12 @@ UBRS.Bosses = {
         Name = IJ_DB_DUNGEON_UBRS_BOSS_NAME_10509,
         Story = IJ_DB_DUNGEON_UBRS_BOSS_STORY_10509,
         IsRare = true,
-        Loot = {[1] = {IJDB.I[12604], DropChance = 33}, [2] = {IJDB.I[12605], DropChance = 33}, [3] = {IJDB.I[12930], DropChance = 33}, [4] = {IJDB.I[70226], DropChance = 2}}
+        Loot = {
+            [1] = {IJDB.I[12604], DropChance = 33}, 
+            [2] = {IJDB.I[12605], DropChance = 33}, 
+            [3] = {IJDB.I[12930], DropChance = 33}, 
+            [4] = {IJDB.I[70226], DropChance = 2}
+        }
     },
     [4] = { -- NOTE: Missing abilities
         Id = "10899",

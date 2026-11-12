@@ -21,7 +21,14 @@ SCHOLO.MapId = IMI.Scholomance
 SCHOLO.IconScale = 0.9
 SCHOLO.MinLevel = 58
 SCHOLO.MaxLevel = 60
-SCHOLO.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.WesternPlaguelands, MapCoordinateX = 69.0, MapCoordinateY = 74.9}}
+SCHOLO.Entrances = {
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.WesternPlaguelands, 
+        MapCoordinateX = 69.0, 
+        MapCoordinateY = 74.9
+    }
+}
 SCHOLO.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "10506",
@@ -85,7 +92,12 @@ SCHOLO.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "darkreaver" .. IMPF,
         Name = IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_14516,
         Story = IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_14516,
-        Loot = {[1] = {IJDB.I[18758], DropChance = 25}, [2] = {IJDB.I[18759], DropChance = 25}, [3] = {IJDB.I[18760], DropChance = 25}, [4] = {IJDB.I[18761], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[18758], DropChance = 25}, 
+            [2] = {IJDB.I[18759], DropChance = 25}, 
+            [3] = {IJDB.I[18760], DropChance = 25}, 
+            [4] = {IJDB.I[18761], DropChance = 25}
+        }
     },
     [5] = { -- NOTE: Missing abilities
         Id = "10433",
@@ -93,7 +105,12 @@ SCHOLO.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "marduk" .. IMPF,
         Name = IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10433,
         Story = IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10433,
-        Loot = {[1] = {IJDB.I[14576], DropChance = 7}, [2] = {IJDB.I[18692], DropChance = 7}, [3] = {IJDB.I[51217], DropChance = 5}, [4] = {IJDB.I[70226], DropChance = 2}}
+        Loot = {
+            [1] = {IJDB.I[14576], DropChance = 7}, 
+            [2] = {IJDB.I[18692], DropChance = 7}, 
+            [3] = {IJDB.I[51217], DropChance = 5}, 
+            [4] = {IJDB.I[70226], DropChance = 2}
+        }
     },
     [6] = { -- NOTE: Missing abilities
         Id = "10432",
@@ -101,7 +118,12 @@ SCHOLO.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "vectus" .. IMPF,
         Name = IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10432,
         Story = IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10432,
-        Loot = {[1] = {IJDB.I[14577], DropChance = 7}, [2] = {IJDB.I[18691], DropChance = 7}, [3] = {IJDB.I[51217], DropChance = 5}, [4] = {IJDB.I[70226], DropChance = 2}}
+        Loot = {
+            [1] = {IJDB.I[14577], DropChance = 7}, 
+            [2] = {IJDB.I[18691], DropChance = 7}, 
+            [3] = {IJDB.I[51217], DropChance = 5}, 
+            [4] = {IJDB.I[70226], DropChance = 2}
+        }
     },
     [7] = { -- NOTE: Missing abilities
         Id = "10508",
@@ -134,7 +156,13 @@ SCHOLO.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "kormok" .. IMPF,
         Name = IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_16118,
         Story = IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_16118,
-        Loot = {[1] = {IJDB.I[22303], DropChance = 20}, [2] = {IJDB.I[22326], DropChance = 20}, [3] = {IJDB.I[22331], DropChance = 20}, [4] = {IJDB.I[22332], DropChance = 20}, [5] = {IJDB.I[22333], DropChance = 20}}
+        Loot = {
+            [1] = {IJDB.I[22303], DropChance = 20}, 
+            [2] = {IJDB.I[22326], DropChance = 20}, 
+            [3] = {IJDB.I[22331], DropChance = 20}, 
+            [4] = {IJDB.I[22332], DropChance = 20}, 
+            [5] = {IJDB.I[22333], DropChance = 20}
+        }
     },
     [9] = { -- NOTE: Missing abilities
         Id = "10505",

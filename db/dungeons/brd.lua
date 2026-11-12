@@ -21,7 +21,14 @@ BRD.MapId = IMI.BlackrockDepths
 BRD.IconScale = 0.6
 BRD.MinLevel = 50
 BRD.MaxLevel = 60
-BRD.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.BlackrockMountain, MapCoordinateX = 24.6, MapCoordinateY = 12.6}}
+BRD.Entrances = {
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.BlackrockMountain, 
+        MapCoordinateX = 24.6, 
+        MapCoordinateY = 12.6
+    }
+}
 BRD.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "9018",
@@ -164,7 +171,11 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9476,
         MapCoordinateX = 61.8,
         MapCoordinateY = 54.6,
-        Loot = {[1] = {IJDB.I[22256], DropChance = 2}, [2] = {IJDB.I[22205], DropChance = 2}, [3] = {IJDB.I[22254], DropChance = 1}}
+        Loot = {
+            [1] = {IJDB.I[22256], DropChance = 2}, 
+            [2] = {IJDB.I[22205], DropChance = 2}, 
+            [3] = {IJDB.I[22254], DropChance = 1}
+        }
     },
     [8] = { -- NOTE: Missing abilities
         Id = "9056",
@@ -262,7 +273,13 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9537,
         MapCoordinateX = 51.2,
         MapCoordinateY = 47.8,
-        Loot = {[1] = {IJDB.I[11735], DropChance = 25}, [2] = {IJDB.I[18043], DropChance = 25}, [3] = {IJDB.I[18044], DropChance = 25}, [4] = {IJDB.I[22275], DropChance = 25}, [5] = {IJDB.I[70226], DropChance = 2}}
+        Loot = {
+            [1] = {IJDB.I[11735], DropChance = 25}, 
+            [2] = {IJDB.I[18043], DropChance = 25}, 
+            [3] = {IJDB.I[18044], DropChance = 25}, 
+            [4] = {IJDB.I[22275], DropChance = 25}, 
+            [5] = {IJDB.I[70226], DropChance = 2}
+        }
     },
     [14] = { -- NOTE: Missing abilities
         Id = "9543",
@@ -272,7 +289,12 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9543,
         MapCoordinateX = 51.9,
         MapCoordinateY = 51.3,
-        Loot = {[1] = {IJDB.I[2663], DropChance = 25}, [2] = {IJDB.I[2662], DropChance = 25}, [3] = {IJDB.I[11742], DropChance = 25}, [4] = {IJDB.I[11612], DropChance = 3}}
+        Loot = {
+            [1] = {IJDB.I[2663], DropChance = 25}, 
+            [2] = {IJDB.I[2662], DropChance = 25}, 
+            [3] = {IJDB.I[11742], DropChance = 25}, 
+            [4] = {IJDB.I[11612], DropChance = 3}
+        }
     },
     [15] = { -- NOTE: Missing abilities
         Id = "9502",
@@ -282,7 +304,12 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9502,
         MapCoordinateX = 54.5,
         MapCoordinateY = 50.6,
-        Loot = {[1] = {IJDB.I[11744], DropChance = 33}, [2] = {IJDB.I[11745], DropChance = 33}, [3] = {IJDB.I[22212], DropChance = 33}, [4] = {IJDB.I[70226], DropChance = 2}}
+        Loot = {
+            [1] = {IJDB.I[11744], DropChance = 33}, 
+            [2] = {IJDB.I[11745], DropChance = 33}, 
+            [3] = {IJDB.I[22212], DropChance = 33}, 
+            [4] = {IJDB.I[70226], DropChance = 2}
+        }
     },
     [16] = { -- NOTE: Missing abilities
         Id = "9499",
@@ -292,7 +319,11 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9499,
         MapCoordinateX = 53.1,
         MapCoordinateY = 49.4,
-        Loot = {[1] = {IJDB.I[18653], DropChance = 18}, [2] = {IJDB.I[12793], DropChance = 18}, [3] = {IJDB.I[12791], DropChance = 18}}
+        Loot = {
+            [1] = {IJDB.I[18653], DropChance = 18}, 
+            [2] = {IJDB.I[12793], DropChance = 18}, 
+            [3] = {IJDB.I[12791], DropChance = 18}
+        }
     },
     [17] = { -- NOTE: Missing abilities
         Id = "9156",
@@ -321,7 +352,12 @@ BRD.Bosses = {
         MapCoordinateX = 50.6,
         MapCoordinateY = 29.2,
         IsRare = true,
-        Loot = {[1] = {IJDB.I[11785], DropChance = 25}, [2] = {IJDB.I[11786], DropChance = 25}, [3] = {IJDB.I[11787], DropChance = 25}, [4] = {IJDB.I[22245], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[11785], DropChance = 25}, 
+            [2] = {IJDB.I[11786], DropChance = 25}, 
+            [3] = {IJDB.I[11787], DropChance = 25}, 
+            [4] = {IJDB.I[22245], DropChance = 25}
+        }
     },
     [19] = { -- NOTE: Missing abilities
         Id = "9040",

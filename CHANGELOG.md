@@ -2,6 +2,118 @@
 
 All changes to this project will be documented in this file.
 
+## [1.4.7] - 2026-11-12
+
+### Added
+
+- Added missing abilities to the `Nefarian` encounter, organized into two phases, including drakonids, class calls, Bone Constructs, and an OctoWoW note for `Wild Magic`
+- Added missing abilities to the `Chromaggus` encounter, including breath positioning, affliction removal, `Chromatic Mutation`, and elemental vulnerabilities
+- Added missing abilities to the `Flamegor` encounter, including `Overbearing Rage` and guidance for its control immunities and `Hamstring` exception
+- Expanded the lore of `Flamegor` with his allegiance to Nefarian and Deathwing
+- Added missing abilities to the `Ebonroc` encounter, including `Shadowflame Sparks` and tank-switching guidance
+- Expanded the lore of `Ebonroc` with his allegiance to Nefarian and Deathwing
+- Expanded the lore of `Ezzel Darkbrewer` with Nefarian's role and Ton'Raka's name
+- Added missing abilities to the `Ezzel Darkbrewer` encounter and guidance for charge positioning and `Transmute to Gold`
+- Expanded the lore of `Firemaw` with his role guarding the laboratories and his loyalty to Deathwing
+- Added missing abilities to the `Firemaw` encounter, including `Shadowflame Jets` and guidance for occupying the dark zones
+- Added missing abilities to the `Broodlord Lashlayer` encounter, including `Serrated Wound`
+- Expanded the lore of `Razorgore the Untamed` with his guardianship of Nefarian's eggs and Grethok's control
+- Added missing abilities and positioning guidance to the `Vaelastrasz the Corrupt` encounter, including `Blaze of Glory`
+- Expanded the lore of `Vaelastrasz the Corrupt` with his aid to adventurers and resistance to Nefarian's control
+- Added missing abilities and egg mechanics to the `Razorgore the Untamed` encounter and its reinforcements
+- Added guidance for `Razorgore` tank positioning, threat management, premature egg explosions, and `Free Action Potion` use against `War Stomp`
+
+### Changed
+
+- Clarified `Shadow Flame` cloak requirements for tanks and other raid members
+- Expanded dungeon and raid data tables into multiline layouts
+
+### Fixed
+
+- Kept BWL translations inside their locale conditions to prevent other languages from overriding encounter text
+- Corrected the map position of `Magistrate Barthilas` in `Stratholme`
+- Updated the objective of `The Hexxer's Ward` to request a `Hexxer's Ward` instead of a `Perfect Obsidian Shard`
+- Removed outdated missing-ability notes for `Majordomo Executus` and `Ragnaros`
+
+## [1.4.6] - 2026-11-09
+
+### Added
+
+- Added missing abilities to the `Onyxia` encounter, `Cindarion`, and `Onyxian Hatchers`, and clarified encounter mechanics
+- Added missing abilities to the `Broodcommander Axelus` encounter and its `Onyxian Warders`
+- Added missing abilities to the `Moroes` encounter
+- Added guidance for `Moroes` tank taunts, healer spacing, and `Free Action Potion` use against `Glittering Dust`
+- Added missing abilities to the `Lord Blackwald II` encounter and its `Shadowbane Ragefang`
+- Documented `Bloodfrenzy` at around 30% health for `Shadowbane Ragefang`
+- Added `Leeching Bite`, `Brood Venom Volley`, and `Skitterweb Eggs` to the `Araxxna` encounter
+- Added `Flamewave`, `Grellkin Rain of Fire`, and `Grellkin Fireball` to the `Grizikil` encounter
+- Added `Slavering Bite`, `Terrifying Presence`, `Shadowbane Curse`, and `Bloodfrenzy` to the `Clawlord Howlfang` encounter
+- Added guidance for `Terrifying Presence` tank swaps and urgent curse removal, and clarified the `Bloodfrenzy` health threshold
+
+## [1.4.5] - 2026-11-07
+
+### Added
+
+- Added `Brain Wash` to the `Jin'do` encounter
+- Added `Knockdown` and `Thrash` to the `Sons of Hakkar`
+- Added missing abilities to the `Jeklik` encounter
+- Added missing abilities to the `Venoxis` encounter and its Razzashi Cobras
+- Added `Corrosive Poison` and growth effects for the `Mar'li` encounter
+- Added missing abilities and `Chained Spirits` to the `Mandokir` encounter
+- Added `Forked Lightning` to the `Wushoolay` encounter
+- Added `Ambush` and `Thousand Blades` to the `Renataki` encounter
+- Added the stun at the start of `Gri'lek`'s `Avatar`
+- Added `Earth Shock` to the `Hazza'rah` encounter
+- Added `Sinister Strike` and `Claw` to the `Thekal` encounter
+- Added `Shadow Word: Pain`, `Backstab`, `Ravage`, and `Thrash` to the `Arlokk` encounter
+
+### Fixed
+
+- Corrected `Jin'do` spell IDs, `Hex` dispel guidance, and the description of `Delusions of Jin'do`
+- Simplified `Shade of Jin'do` and `Shadow Shock` descriptions and removed the melee interruption entry
+- Corrected `Hakkar`'s `Blood Siphon` spell ID and `Corrupted Blood` damage and timing description
+- Clarified `Sons of Hakkar` respawns and guidance for `Blood Siphon` and `Cause Insanity`
+- Fixed Molten Core ability links opening the boss entry instead of the corresponding add ability
+- Corrected `Jeklik` spell IDs, ranges, crowd control effects, and healing description
+- Corrected `Venoxis` spell versions, poison removal guidance, and the descriptions of `Parasitic Serpent` and `Enrage`
+- Corrected `Mar'li` ability grouping and guidance for `Charge`, `Drain Life`, and `Enveloping Webs`
+- Corrected `Mandokir` guidance for `Threatening Gaze`, player deaths, and the effects of `Enrage`
+- Corrected `Wushoolay` spell IDs and the descriptions of `Chain Lightning` and `Lightning Cloud`
+- Corrected `Renataki` spell IDs and guidance for `Vanish`, `Gouge`, and `Enrage`
+- Corrected `Gri'lek` ability descriptions and the spell ID and dispel guidance for `Entangling Roots`
+- Corrected `Hazza'rah` spell IDs and guidance for `Chain Burn`, `Sleep`, and `Summon Nightmare Illusions`
+- Corrected `Gahz'ranka`'s `Frost Breath` spell ID and the descriptions of `Frost Breath`, `Slam`, and `Massive Geyser`
+- Corrected `Thekal` encounter spell IDs, ability descriptions, and phase links
+- Corrected `Arlokk` ability grouping for `Gouge` and `Mark of Arlokk`
+- Corrected `Arlokk`'s `Whirlwind` spell ID and damage description
+
+### Changed
+
+- Separated effects and player guidance into paragraphs in longer Molten Core ability descriptions
+- Expanded `Edge of Madness` lore with the four troll spirits and their summoning ritual
+- Expanded `Gahz'ranka` lore with Nat Pagle and the summoning lure
+- Grouped `Ragnaros`'s `Elemental Fire` area damage under the main ability and clarified that it triggers around the struck target
+
+## [1.4.4] - 2026-11-05
+
+### Added
+
+- Added missing abilities to Molten Core encounters
+- Added translations for Molten Core abilities and updated lore
+
+### Changed
+
+- Expanded `Thaurissan`'s lore with the consequences of summoning `Ragnaros` and his appearance as the undead `First Emperor`
+- Updated the `Twin Golems` and `Incindis` lore
+
+## [1.4.3] - 2026-11-04
+
+### Changed
+
+- Moved `Lost to the Sands` quest to the Zul'Gurub quest list to reflect Octowow changes
+- Rename the quest `Lost to the Sands` to `The Hexxer's Ward`
+- Updated `The Hexxer's Ward` title in all suported locales
+
 ## [1.4.2] - 2026-06-16
 
 ### Added

@@ -21,7 +21,14 @@ CG.MapId = IMI.CrescentGrove
 CG.IconScale = 0.9
 CG.MinLevel = 33
 CG.MaxLevel = 39
-CG.Entrances = {[1] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Ashenvale, MapCoordinateX = 51.0, MapCoordinateY = 77.3}}
+CG.Entrances = {
+    [1] = {
+        MapContinentId = IMI.Kalimdor, 
+        MapZoneId = IZI.Ashenvale, 
+        MapCoordinateX = 51.0, 
+        MapCoordinateY = 77.3
+    }
+}
 CG.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "92107",
@@ -65,7 +72,13 @@ CG.Bosses = {
         Story = IJ_DB_DUNGEON_CG_BOSS_STORY_92108,
         MapCoordinateX = 57.6,
         MapCoordinateY = 68.1,
-        Loot = {[1] = {IJDB.I[51217], DropChance = 1}, [2] = {IJDB.I[83210], DropChance = 10}, [3] = {IJDB.I[83211], DropChance = 30}, [4] = {IJDB.I[83209], DropChance = 30}, [5] = {IJDB.I[83208], DropChance = 30}}
+        Loot = {
+            [1] = {IJDB.I[51217], DropChance = 1}, 
+            [2] = {IJDB.I[83210], DropChance = 10}, 
+            [3] = {IJDB.I[83211], DropChance = 30}, 
+            [4] = {IJDB.I[83209], DropChance = 30}, 
+            [5] = {IJDB.I[83208], DropChance = 30}
+        }
     },
     [4] = { -- NOTE: Missing abilities
         Id = "92111",
@@ -75,7 +88,13 @@ CG.Bosses = {
         Story = IJ_DB_DUNGEON_CG_BOSS_STORY_92111,
         MapCoordinateX = 44.0,
         MapCoordinateY = 78.9,
-        Loot = {[1] = {IJDB.I[83212], DropChance = 25}, [2] = {IJDB.I[83213], DropChance = 25}, [3] = {IJDB.I[83214], DropChance = 25}, [4] = {IJDB.I[83215], DropChance = 25}, [5] = {IJDB.I[51217], DropChance = 1}}
+        Loot = {
+            [1] = {IJDB.I[83212], DropChance = 25}, 
+            [2] = {IJDB.I[83213], DropChance = 25}, 
+            [3] = {IJDB.I[83214], DropChance = 25}, 
+            [4] = {IJDB.I[83215], DropChance = 25}, 
+            [5] = {IJDB.I[51217], DropChance = 1}
+        }
     },
     [5] = { -- NOTE: Missing abilities
         Id = "92110",

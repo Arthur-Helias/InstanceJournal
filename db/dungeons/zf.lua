@@ -69,7 +69,13 @@ ZF.Bosses = {
         Story = IJ_DB_DUNGEON_ZF_BOSS_STORY_7271,
         MapCoordinateX = 44.2,
         MapCoordinateY = 17.5,
-        Loot = {[1] = {IJDB.I[18082], DropChance = 50}, [2] = {IJDB.I[18083], DropChance = 50}, [3] = {IJDB.I[51803], DropChance = 8}, [4] = {IJDB.I[9243], DropChance = 2}, [5] = {IJDB.I[51217], DropChance = 1}}
+        Loot = {
+            [1] = {IJDB.I[18082], DropChance = 50}, 
+            [2] = {IJDB.I[18083], DropChance = 50}, 
+            [3] = {IJDB.I[51803], DropChance = 8}, 
+            [4] = {IJDB.I[9243], DropChance = 2}, 
+            [5] = {IJDB.I[51217], DropChance = 1}
+        }
     },
     [5] = { -- NOTE: Missing abilities
         Id = "7275",
@@ -114,7 +120,12 @@ ZF.Bosses = {
         Story = IJ_DB_DUNGEON_ZF_BOSS_STORY_7273,
         MapCoordinateX = 31.5,
         MapCoordinateY = 41.3,
-        Loot = {[1] = {IJDB.I[9469], DropChance = 50}, [2] = {IJDB.I[9467], DropChance = 30}, [3] = {IJDB.I[80747], DropChance = 20}, [4] = {IJDB.I[51217], DropChance = 1}}
+        Loot = {
+            [1] = {IJDB.I[9469], DropChance = 50}, 
+            [2] = {IJDB.I[9467], DropChance = 30}, 
+            [3] = {IJDB.I[80747], DropChance = 20}, 
+            [4] = {IJDB.I[51217], DropChance = 1}
+        }
     },
     [8] = { -- NOTE: Missing abilities
         Id = "62495",
@@ -124,7 +135,12 @@ ZF.Bosses = {
         Story = IJ_DB_DUNGEON_ZF_BOSS_STORY_62495,
         MapCoordinateX = 14.1,
         MapCoordinateY = 32.0,
-        Loot = {[1] = {IJDB.I[58116], DropChance = 25}, [2] = {IJDB.I[58117], DropChance = 25}, [3] = {IJDB.I[58118], DropChance = 25}, [4] = {IJDB.I[58119], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[58116], DropChance = 25}, 
+            [2] = {IJDB.I[58117], DropChance = 25}, 
+            [3] = {IJDB.I[58118], DropChance = 25}, 
+            [4] = {IJDB.I[58119], DropChance = 25}
+        }
     },
     [9] = { -- NOTE: Missing abilities
         Id = "62498",
@@ -134,7 +150,12 @@ ZF.Bosses = {
         Story = IJ_DB_DUNGEON_ZF_BOSS_STORY_62498,
         MapCoordinateX = 43.8,
         MapCoordinateY = 58.3,
-        Loot = {[1] = {IJDB.I[58092], DropChance = 25}, [2] = {IJDB.I[58093], DropChance = 25}, [3] = {IJDB.I[58094], DropChance = 25}, [4] = {IJDB.I[58095], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[58092], DropChance = 25}, 
+            [2] = {IJDB.I[58093], DropChance = 25}, 
+            [3] = {IJDB.I[58094], DropChance = 25}, 
+            [4] = {IJDB.I[58095], DropChance = 25}
+        }
     }
 }
 ZF.Quests = {IJDB.Q[2991], IJDB.Q[2936], IJDB.Q[3042], IJDB.Q[2865], IJDB.Q[2846], IJDB.Q[3527], IJDB.Q[2768], IJDB.Q[2770], IJDB.Q[40519], IJDB.Q[41811], IJDB.Q[40527]}

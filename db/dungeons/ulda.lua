@@ -22,8 +22,18 @@ ULDA.IconScale = 0.8
 ULDA.MinLevel = 41
 ULDA.MaxLevel = 50
 ULDA.Entrances = {
-    [1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Uldaman, MapCoordinateX = 36.8, MapCoordinateY = 28.1},
-    [2] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Badlands, MapCoordinateX = 65.5, MapCoordinateY = 43.4}
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.Uldaman, 
+        MapCoordinateX = 36.8, 
+        MapCoordinateY = 28.1
+    },
+    [2] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.Badlands, 
+        MapCoordinateX = 65.5, 
+        MapCoordinateY = 43.4
+    }
 }
 ULDA.Bosses = {
     [1] = { -- NOTE: Missing abilities
@@ -52,7 +62,12 @@ ULDA.Bosses = {
         Story = IJ_DB_DUNGEON_ULDA_BOSS_STORY_6910,
         MapCoordinateX = 53.2,
         MapCoordinateY = 72.5,
-        Loot = {[1] = {IJDB.I[9387], DropChance = 25}, [2] = {IJDB.I[9388], DropChance = 25}, [3] = {IJDB.I[9389], DropChance = 25}, [4] = {IJDB.I[9390], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[9387], DropChance = 25}, 
+            [2] = {IJDB.I[9388], DropChance = 25}, 
+            [3] = {IJDB.I[9389], DropChance = 25}, 
+            [4] = {IJDB.I[9390], DropChance = 25}
+        }
     },
     [3] = { -- NOTE: Missing abilities
         Id = "7228",
@@ -62,7 +77,12 @@ ULDA.Bosses = {
         Story = IJ_DB_DUNGEON_ULDA_BOSS_STORY_7228,
         MapCoordinateX = 37.0,
         MapCoordinateY = 73.8,
-        Loot = {[1] = {IJDB.I[9407], DropChance = 33}, [2] = {IJDB.I[9408], DropChance = 33}, [3] = {IJDB.I[9409], DropChance = 33}, [4] = {IJDB.I[51217], DropChance = 1}}
+        Loot = {
+            [1] = {IJDB.I[9407], DropChance = 33}, 
+            [2] = {IJDB.I[9408], DropChance = 33}, 
+            [3] = {IJDB.I[9409], DropChance = 33}, 
+            [4] = {IJDB.I[51217], DropChance = 1}
+        }
     },
     [4] = { -- NOTE: Missing abilities
         Id = "7023",
@@ -82,7 +102,11 @@ ULDA.Bosses = {
         Story = IJ_DB_DUNGEON_ULDA_BOSS_STORY_7206,
         MapCoordinateX = 47.5,
         MapCoordinateY = 44.3,
-        Loot = {[1] = {IJDB.I[9410], DropChance = 50}, [2] = {IJDB.I[9411], DropChance = 35}, [3] = {IJDB.I[80746], DropChance = 15}}
+        Loot = {
+            [1] = {IJDB.I[9410], DropChance = 50}, 
+            [2] = {IJDB.I[9411], DropChance = 35}, 
+            [3] = {IJDB.I[80746], DropChance = 15}
+        }
     },
     [6] = { -- NOTE: Missing abilities
         Id = "7291",
@@ -92,7 +116,12 @@ ULDA.Bosses = {
         Story = IJ_DB_DUNGEON_ULDA_BOSS_STORY_7291,
         MapCoordinateX = 26.6,
         MapCoordinateY = 32.6,
-        Loot = {[1] = {IJDB.I[11311], DropChance = 25}, [2] = {IJDB.I[11310], DropChance = 25}, [3] = {IJDB.I[9419], DropChance = 25}, [4] = {IJDB.I[9412], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[11311], DropChance = 25}, 
+            [2] = {IJDB.I[11310], DropChance = 25}, 
+            [3] = {IJDB.I[9419], DropChance = 25}, 
+            [4] = {IJDB.I[9412], DropChance = 25}
+        }
     },
     [7] = { -- NOTE: Missing abilities
         Id = "4854",
@@ -102,7 +131,12 @@ ULDA.Bosses = {
         Story = IJ_DB_DUNGEON_ULDA_BOSS_STORY_4854,
         MapCoordinateX = 22.1,
         MapCoordinateY = 26.0,
-        Loot = {[1] = {IJDB.I[9414], DropChance = 33}, [2] = {IJDB.I[9415], DropChance = 33}, [3] = {IJDB.I[9416], DropChance = 33}, [4] = {IJDB.I[51217], DropChance = 1}}
+        Loot = {
+            [1] = {IJDB.I[9414], DropChance = 33}, 
+            [2] = {IJDB.I[9415], DropChance = 33}, 
+            [3] = {IJDB.I[9416], DropChance = 33}, 
+            [4] = {IJDB.I[51217], DropChance = 1}
+        }
     },
     [8] = { -- NOTE: Missing abilities
         Id = "2748",
@@ -113,7 +147,12 @@ ULDA.Bosses = {
         MapCoordinateX = 41.6,
         MapCoordinateY = 16.6,
         MapIsBelow = true,
-        Loot = {[1] = {IJDB.I[9413], DropChance = 33}, [2] = {IJDB.I[9418], DropChance = 33}, [3] = {IJDB.I[11118], DropChance = 33}, [4] = {IJDB.I[51217], DropChance = 5}}
+        Loot = {
+            [1] = {IJDB.I[9413], DropChance = 33}, 
+            [2] = {IJDB.I[9418], DropChance = 33}, 
+            [3] = {IJDB.I[11118], DropChance = 33}, 
+            [4] = {IJDB.I[51217], DropChance = 5}
+        }
     }
 }
 ULDA.Quests = {

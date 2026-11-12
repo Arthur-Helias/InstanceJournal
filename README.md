@@ -1,11 +1,11 @@
 # Instance Journal
 
-Instance Journal is a reimagining of World of Warcraft's original Encounter Journal, built for Turtle WoW.  
+Instance Journal is a reimagining of World of Warcraft's original Encounter Journal, built for OctoWoW.  
 You can access the journal by pressing Shift+J by default, or by rebinding the key in the key binding menu.
 
 ## Features
 
-- Lists all dungeons and raids, including custom Turtle WoW content
+- Lists all dungeons and raids, including custom OctoWoW content
 - Details every boss's abilities and loot
 - Displays all available quests for an instance, including their pre-quest requirements
 - Allows linking abilities, loot, and quests in the chat
@@ -33,9 +33,9 @@ You can access the journal by pressing Shift+J by default, or by rebinding the k
 
 ## Installation
 
-### Turtle WoW Launcher (**Recommended**)
+### Octo WoW Launcher (**Recommended**)
   
-1. Open the Turtle WoW Launcher and navigate to the `ADDONS` tab at the top.
+1. Open the Octo WoW Launcher and navigate to the `ADDONS` tab at the top.
 2. Click the `Add new addon` button and paste the following URL into the field: `https://github.com/Arthur-Helias/InstanceJournal.git`.
 3. Enable the addon from the addons menu on the character selection screen.
 
@@ -49,7 +49,7 @@ You can access the journal by pressing Shift+J by default, or by rebinding the k
 
 ## Compatibility
 
-This addon was designed and tested for Turtle WoW, and is incompatible with the following addons:
+This addon was designed and tested for Octo WoW, and is incompatible with the following addons:
 
 - Cartographer
 
@@ -110,6 +110,7 @@ No original Blizzard Encounter Journal code was used; the addon was recreated fr
 [Blizzard](https://www.blizzard.com) - Original Encounter Journal, UI elements  
 [Speedz](https://forum.turtlecraft.gg/viewtopic.php?t=14904) - Boss artwork assistance  
 [cat-nep](https://github.com/cat-nep) - Ability writing assistance  
+[thetimel3ss](https://github.com/thetimel3ss) - Boss abilities, OctoWoW data changes and cleanup  
 [byCFM2](https://github.com/byCFM2) - AtlasTW Data  
 [tilare](https://github.com/tilare)  
 Aeliren - Boss stories lore fact-checking and assistance
@@ -123,4 +124,4 @@ Please note that some UI assets used in this addon are the intellectual property
 [Blizzard Entertainment](https://www.blizzard.com) and are included without their explicit
 authorization. These assets are **not** covered by the Unlicense and remain subject to
 Blizzard's own copyright. This project is a fan-made, non-commercial addon with no
-affiliation with or endorsement by Blizzard Entertainment or Turtle WoW.
+affiliation with or endorsement by Blizzard Entertainment or OctoWoW.

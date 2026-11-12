@@ -21,7 +21,14 @@ AQ20.MapId = IMI.RuinsOfAhnQiraj
 AQ20.IconScale = 0.8
 AQ20.MinLevel = 60
 AQ20.MaxLevel = 60
-AQ20.Entrances = {[1] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.GatesOfAhnQiraj, MapCoordinateX = 58.7, MapCoordinateY = 14.1}}
+AQ20.Entrances = {
+    [1] = {
+        MapContinentId = IMI.Kalimdor, 
+        MapZoneId = IZI.GatesOfAhnQiraj, 
+        MapCoordinateX = 58.7, 
+        MapCoordinateY = 14.1
+    }
+}
 AQ20.Bosses = {
     [1] = {
         Id = "15348",
@@ -48,7 +55,12 @@ AQ20.Bosses = {
                     }
                 }
             },
-            [2] = {Id = "25656", Icon = "INV_Misc_Dust_02", Name = IJ_DB_RAID_AQ20_BOSS_15348_ABILITY_NAME_25656, Effect = IJ_DB_RAID_AQ20_BOSS_15348_ABILITY_EFFECT_25656},
+            [2] = {
+                Id = "25656", 
+                Icon = "INV_Misc_Dust_02", 
+                Name = IJ_DB_RAID_AQ20_BOSS_15348_ABILITY_NAME_25656, 
+                Effect = IJ_DB_RAID_AQ20_BOSS_15348_ABILITY_EFFECT_25656
+            },
             [3] = {
                 Id = "kurinnaxxenrage",
                 Icon = "Spell_Shadow_UnholyFrenzy",
@@ -403,6 +415,6 @@ AQ20.Bosses = {
         }
     }
 }
-AQ20.Quests = {IJDB.Q[8791], IJDB.Q[9023], IJDB.Q[70001]}
+AQ20.Quests = {IJDB.Q[8791], IJDB.Q[9023]}
 
 IJDB.R.AQ20 = AQ20

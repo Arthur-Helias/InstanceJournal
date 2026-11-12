@@ -22,8 +22,18 @@ DME.IconScale = 0.7
 DME.MinLevel = 55
 DME.MaxLevel = 60
 DME.Entrances = {
-    [1] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.DireMaul, MapCoordinateX = 81.5, MapCoordinateY = 40.7},
-    [2] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.DireMaul, MapCoordinateX = 94.3, MapCoordinateY = 66.4}
+    [1] = {
+        MapContinentId = IMI.Kalimdor, 
+        MapZoneId = IZI.DireMaul, 
+        MapCoordinateX = 81.5, 
+        MapCoordinateY = 40.7
+    },
+    [2] = {
+        MapContinentId = IMI.Kalimdor, 
+        MapZoneId = IZI.DireMaul, 
+        MapCoordinateX = 94.3, 
+        MapCoordinateY = 66.4
+    }
 }
 DME.Bosses = {
     [1] = { -- NOTE: Missing abilities

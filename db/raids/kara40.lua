@@ -22,7 +22,15 @@ KARA40.ZoneId = IZI.KARA402
 KARA40.IconScale = 1.0
 KARA40.MinLevel = 60
 KARA40.MaxLevel = 60
-KARA40.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.DeadwindPass, MapCoordinateX = 45.9, MapCoordinateY = 71.1, MapDestinationZoneId = IZI.KARA402}}
+KARA40.Entrances = {
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.DeadwindPass, 
+        MapCoordinateX = 45.9, 
+        MapCoordinateY = 71.1, 
+        MapDestinationZoneId = IZI.KARA402
+    }
+}
 KARA40.Links = {
     [1] = {
         OriginMapContinentId = IMI.TowerOfKarazhan,

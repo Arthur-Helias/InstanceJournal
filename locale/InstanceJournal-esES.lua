@@ -1394,163 +1394,274 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_NAME_14517 = "Suma Sacerdotisa Jeklik"
     IJ_DB_RAID_ZG_BOSS_STORY_14517 =
         "La Suma Sacerdotisa Jeklik es la Suma Sacerdotisa Zandalari del Dios Primordial de la Selva Hir'eek, el Murciélago. Enviada a Zul'Gurub para detener a Hakkar el Desollador de Almas, finalmente el dios de la sangre la convirtió."
-    IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Stage One: Bat Form"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 = "Jeklik assumes the form of a bat until she is at 50% health."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Explosión sónica"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 = "Jeklik emite un chillido penetrante, que inflige entre 1750 y 2250 de daño físico y silencia a todos los enemigos en un radio de 30 yardas durante 10 segundos."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_22911 = "Cargar"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_22911 = "Jeklik carga contra un enemigo a una distancia de entre 8 y 40 metros de ella. La carga inflige 1000 de daño físico y silencia a su objetivo durante 5 segundos."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_5570 = "Enjambre de murciélagos"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_5570 =
-        "Jeklik convoca un enjambre de 6 a 8 murciélagos para ayudarla durante la batalla. ||norte||  ||norte|| Esto ocurre un minuto después de la pelea y cada minuto posterior."
-    IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Etapa dos: forma de troll"
-    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 = "Jeklik asume su forma de troll cuando alcanza el 50% de salud y alterna entre sus dos lanzamientos de hechizos."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_25807 = "Gran curación"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_25807 = "Jeklik comienza a lanzar un hechizo de curación que restaura el 25% de su salud total si no se interrumpe."
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "Desollamiento mental"
-    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 = "Jeklik canaliza una habilidad de azote mental, que inflige daño a un objetivo y a los aliados cercanos si no se interrumpe."
+    IJ_DB_RAID_ZG_BOSS_14517_NAME_jeklikstage1 = "Fase uno: Forma de murciélago"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_jeklikstage1 =
+        "Jeklik lucha en forma de murciélago hasta alcanzar el 50% de salud."
+    IJ_DB_RAID_ZG_BOSS_14517_NAME_STAGE_2 = "Fase dos: Forma de trol"
+    IJ_DB_RAID_ZG_BOSS_14517_DESCRIPTION_STAGE_2 =
+        "Al 50% de salud, Jeklik vuelve a su forma de trol, usa hechizos de las Sombras y sanaciones mientras los murciélagos bombarderos atacan a la banda."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_12097 = "Perforar armadura"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_12097 =
+        "Reduce la armadura de un enemigo un 75% durante 20 segundos."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23918 = "Ráfaga sónica"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23918 =
+        "Inflige daño físico y silencia a los enemigos en un radio de 20 metros durante 10 segundos. El silencio puede disiparse.\n\nLos sanadores y jugadores a distancia deben mantenerse fuera de su alcance siempre que sea posible."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_24408 = "Cargar"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_24408 =
+        "Carga contra un enemigo, le inflige daño físico y lo aturde durante 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23919 = "Picado"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23919 =
+        "Golpea a los enemigos en un cono frente a Jeklik, les inflige daño físico y los aturde durante 2 segundos.\n\nMantén a Jeklik de espaldas a la banda."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_batswarm = "Enjambre de murciélagos"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_batswarm =
+        "Jeklik llama a murciélagos para que la ayuden durante la fase de murciélago.\n\nLos tanques deben reunirlos mientras los jugadores de daño los eliminan."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_6605 = "Chillido aterrador"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_6605 =
+        "Aterroriza a los enemigos en un radio de 5 metros durante 4 segundos. Resguardo contra el miedo puede prevenir el miedo y el efecto mágico puede disiparse si se aplica."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23952 = "Palabra de las Sombras: dolor"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23952 =
+        "Aplica un efecto mágico que inflige daño de las Sombras cada 3 segundos durante 18 segundos. Disípalo cuanto antes."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23953 = "Tortura mental"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23953 =
+        "Canaliza daño de las Sombras cada segundo y reduce la velocidad de los jugadores afectados un 80% durante un máximo de 10 segundos.\n\nInterrumpe la canalización."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23954 = "Sanación superior"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23954 =
+        "Lanza una potente sanación durante 4 segundos.\n\nInterrumpe el lanzamiento para impedir que Jeklik recupere salud."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_16098 = "Maldición de sangre"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_16098 =
+        "Maldice a los enemigos cercanos y aumenta el daño físico que reciben durante 10 minutos. Elimina la maldición cuanto antes."
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23974 = "Invocar murciélagos bombarderos"
     IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23974 =
-        "Jeklik convoca bombarderos murciélago que lanzan bombas incendiarias sobre los enemigos, dejando zonas ardientes en el suelo que causan daño a cualquiera que se encuentre en ellas."
+        "Los murciélagos bombarderos ayudan a Jeklik durante la fase de trol."
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_NAME_23970 = "Lanzar fuego líquido"
+    IJ_DB_RAID_ZG_BOSS_14517_ABILITY_EFFECT_23970 =
+        "Los murciélagos bombarderos lanzan fuego líquido a los jugadores, infligen daño de Fuego y dejan zonas ardientes en el suelo.\n\nSal del fuego."
     IJ_DB_RAID_ZG_BOSS_NAME_14507 = "Sumo Sacerdote Venoxis"
     IJ_DB_RAID_ZG_BOSS_STORY_14507 =
         "El Sumo Sacerdote Venoxis es el Sumo Sacerdote Zandalari del Dios Primordial Hethiss, el dios serpiente. Enviado a Zul'Gurub para detener a Hakkar el Desollador de Almas, finalmente fue convertido por el dios de la sangre."
-    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "Etapa uno: forma de troll"
-    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 = "Venoxis asume su forma de troll hasta que tiene un 50% de salud."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_10713 = "La serpiente de Venoxis agrega"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_10713 =
-        "Las cuatro serpientes de Venoxis iniciarán el encuentro con él, ayudándolo durante la pelea. ||norte||  ||norte|| Estos agregados deben eliminarse antes del comienzo de la etapa dos."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "Santa ira"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 = "Venoxis lanza ira sagrada, que inflige 300 de daño sagrado que aumenta por cada enemigo en el que rebota el hechizo."
+    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_1 = "Fase uno: Forma de trol"
+    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_1 =
+        "Venoxis lucha en forma de trol hasta alcanzar el 50% de salud."
+    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "Fase dos: Forma de serpiente"
+    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 =
+        "Al 50% de salud, Venoxis se transforma en serpiente y usa ataques de Naturaleza."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_razzashicobras = "Cobras Razzashi"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_razzashicobras =
+        "Cuatro Cobras Razzashi acompañan a Venoxis al inicio de la lucha.\n\nDerrótalas antes de la fase de serpiente."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23979 = "Cólera Sagrada"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23979 =
+        "Encadena daño Sagrado entre jugadores cercanos y aumenta el daño con cada salto.\n\nDispersaos para limitar los saltos."
     IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23895 = "Renovar"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 = "Los lanzamientos de Venoxis se renuevan, curándose a sí mismo por 2000 de salud cada 3 segundos durante 15 segundos."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "Santa Nova"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 = "Venoxis crea una explosión de luz divina que inflige de 875 a 1126 de daño sagrado a los enemigos cercanos."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860 = "Fuego Santo"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 = "Venoxis lanza fuego sagrado, consumiendo a un enemigo en llamas, causando 2200 de daño de fuego más 125 de daño de fuego cada 2 segundos durante 8 segundos."
-    IJ_DB_RAID_ZG_BOSS_14507_NAME_STAGE_2 = "Etapa dos: forma de serpiente"
-    IJ_DB_RAID_ZG_BOSS_14507_DESCRIPTION_STAGE_2 = "Venoxis asume la forma de una serpiente cuando alcanza el 50% de salud. ||norte||  ||norte|| El daño de Venoxis aumenta durante la etapa."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_12766 = "Nube venenosa"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_12766 = "Venoxis crea una nube de veneno que inflige daño por veneno cuando se coloca dentro."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_6917 = "Escupir veneno"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_6917 = "Venoxis escupe veneno a un enemigo, lo que inflige daño natural más daño adicional cada 5 segundos durante 10 segundos."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865 = "Serpiente parásita"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 = "Venoxis genera una serpiente parásita que ataca a un enemigo y lo envenena, causando 300 de daño natural cada 2 segundos durante 10 segundos."
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3019 = "Enfurecer"
-    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3019 = "Con un 20% de salud restante, Venoxis se enfurece, lo que aumenta significativamente el daño que inflige a sus enemigos."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23895 =
+        "Sana a Venoxis cada 3 segundos durante 15 segundos.\n\nElimina el beneficio con una disipación ofensiva."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23858 = "Nova Sagrada"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23858 =
+        "Inflige daño Sagrado a los enemigos en un radio de 15 metros."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23860 = "Fuego Sagrado"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23860 =
+        "Inflige daño de Fuego y daño de Fuego adicional cada 2 segundos durante 8 segundos.\n\nDisipa el efecto mágico."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23859 = "Disipar magia"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23859 =
+        "Elimina un efecto mágico dañino de Venoxis."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23861 = "Nube de veneno"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23861 =
+        "Crea una nube que inflige daño de Naturaleza cada segundo en un radio de 8 metros durante 10 segundos.\n\nSal de la nube inmediatamente."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23862 = "Escupitajo venenoso"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23862 =
+        "Inflige daño de Naturaleza y aplica un veneno que inflige daño de Naturaleza adicional cada 2 segundos durante 10 segundos.\n\nElimina el veneno."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_23865 = "Serpiente parasitaria"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_23865 =
+        "Invoca una Serpiente parasitaria y aplica un efecto que inflige daño de Naturaleza cada 2 segundos durante 10 segundos."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_3391 = "Vapulear"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_3391 =
+        "Otorga a Venoxis 2 ataques cuerpo a cuerpo adicionales."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_8269 =
+        "Cerca del 20% de salud, Venoxis obtiene un 60% de velocidad de ataque cuerpo a cuerpo y 50 de daño físico adicional.\n\nLos tanques y sanadores deben prepararse para el aumento del daño recibido."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_24097 = "Veneno"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_24097 =
+        "Las Cobras Razzashi aplican un veneno que inflige daño de Naturaleza cada 3 segundos durante 30 segundos.\n\nElimina el veneno."
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_NAME_27919 = "Escupir"
+    IJ_DB_RAID_ZG_BOSS_14507_ABILITY_EFFECT_27919 =
+        "Las Cobras Razzashi escupen a un enemigo, infligen daño de Naturaleza y repelen al objetivo."
     IJ_DB_RAID_ZG_BOSS_NAME_14510 = "Suma Sacerdotisa Mar'li"
     IJ_DB_RAID_ZG_BOSS_STORY_14510 =
         "Mar'li es la suma sacerdotisa de la araña loa, Shadra. Enviada por el rey Rastakhan a Zul'Gurub para detener a Hakkar el Desollador de Almas junto con los otros sumos sacerdotes loa, finalmente fue corrompida por el dios de la sangre."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Spider Form"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider = "Randomly throughout the fight, Mar'li will assume her spider form, gaining new abilities."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "Webs envolventes"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Forma de trol"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll =
+        "Mar'li comienza en forma de trol y vuelve a ella entre las transformaciones en araña."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlispider = "Forma de araña"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlispider =
+        "Mar'li se transforma periódicamente en araña y usa telarañas, Cargar y Veneno corrosivo."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Drenar vida"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 =
+        "Canaliza daño de las Sombras cada segundo durante un máximo de 7 segundos y restaura la salud de Mar'li.\n\nInterrumpe la canalización o disipa el efecto mágico del jugador afectado."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24110 = "Telarañas envolventes"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24110 =
-        "Mar'li envuelve a todos los enemigos en un radio de 10 yardas con sus redes, enraizándolos al suelo, aumentando el tiempo entre sus ataques en un 100% e impidiéndoles lanzar hechizos durante 8 segundos. ||norte||  ||norte|| El tanque externo debe estar listo para generar amenaza instantáneamente, ya que esto restablecerá la amenaza de cada jugador rooteado."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlitroll = "Troll Form"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlitroll = "After assuming her spider form, Mar'li will eventually return to her orignal troll form, regaining her standard abilities."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marlicharge = "Charge"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marlicharge = "Mar'li charges her target, dealing physical damage and stunning them."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24300 = "Drenar la vida"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24300 = "Mar'li drena la vida de su objetivo, drenando 500 de salud cada 1 segundo durante 7 segundos."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Spawns of Mar'li"
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
-        "Mar'li hatches her eggs, birthing 4 Spawns of Mar'li that helps her throughout the fight.\n\nThese spiders need to be dealt with as soon as possible as they will grow stronger as the fight goes on."
-    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Volea de rayo venenoso"
+        "Enraíza a los enemigos en un radio de 10 metros, aumenta el tiempo entre sus ataques cuerpo a cuerpo un 100% y los silencia durante 8 segundos.\n\nUn tanque secundario debe estar listo para recoger a Mar'li mientras el tanque principal esté atrapado."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24408 = "Cargar"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24408 =
+        "Carga contra un enemigo en forma de araña, inflige daño físico y lo aturde durante 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24111 = "Veneno corrosivo"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24111 =
+        "Reduce la armadura de un enemigo en 5000 e inflige daño de Naturaleza cada 5 segundos durante 30 segundos.\n\nElimina el veneno cuanto antes."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24099 = "Salva de descarga de veneno"
     IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24099 =
-        "Mar'li dispara veneno a todos los enemigos en un rango de 30 yardas, causando 375 de daño de naturaleza inmediato y 290 de daño periódico cada 2 segundos durante 10 segundos."
+        "Inflige daño de Naturaleza a los enemigos en un radio de 30 metros y aplica un veneno que inflige daño de Naturaleza adicional cada 2 segundos durante 10 segundos.\n\nElimina el veneno."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_marliadds = "Proles de Mar'li"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_marliadds =
+        "Las Proles de Mar'li se unen al combate y se fortalecen con el tiempo.\n\nElimínalas rápidamente, antes de que crezcan por completo."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24087 = "Crecimiento"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24087 =
+        "Las Proles de Mar'li crecen con el tiempo y aumentan su tamaño y daño físico."
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_NAME_24088 = "Desarrollo completo"
+    IJ_DB_RAID_ZG_BOSS_14510_ABILITY_EFFECT_24088 =
+        "Las proles completamente desarrolladas obtienen un 50% de velocidad de ataque cuerpo a cuerpo e inmunidad a Polimorfia, miedo y sueño."
     IJ_DB_RAID_ZG_BOSS_NAME_11382 = "Señor de la sangre Mandokir"
     IJ_DB_RAID_ZG_BOSS_STORY_11382 =
         "Bloodlord Mandokir es un poderoso troll de la jungla y líder de la tribu Gurubashi. Su compañero constante es su montura raptor, Ohgan. Sirve al dios malvado Hakkar the Soulflayer en Zul'Gurub junto con el resto de su tribu."
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgan = "Ohgan"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan = "Ohgan also becomes enraged when Mandakir is attacked, defending his master until death."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_ohgansunder = "Sunder Armor"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgansunder = "Ohgan sunders his target's armor, increasing the amount of damage they receive for every stack of Sunder Armor they are afflicted with."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_ohgan =
+        "Ohgan acompaña a Mandokir y usa Hender armadura y Vapulear.\n\nUn tanque debe mantenerlo separado del jefe."
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokir = "Mandokir"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24314 = "Mirada amenazante"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 = "Mandokir mira amenazadoramente a un enemigo aleatorio. Si el enemigo objetivo lanza algún hechizo, Mandokir cargará contra él y le infligirá un gran daño."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirwhirlwind = "Whirlwind"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirwhirlwind = "Mandokir whirlwind into the enemies, dealing damage to every one of them in melee range."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokircleave = "Cleave"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokircleave = "Mandokir cleaves, dealing physical damage to all the enemies in front of him."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokir =
+        "Mandokir lucha junto a Ohgan y se fortalece cuando mueren jugadores."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24317 = "Hender armadura"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24317 =
+        "Ohgan reduce la armadura de su objetivo en 1000 por acumulación, hasta 5 veces durante 20 segundos."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_3391 = "Vapulear"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_3391 =
+        "Otorga a Ohgan 2 ataques cuerpo a cuerpo adicionales."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24314 = "Mirada amenazadora"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24314 =
+        "Observa a un jugador durante 6 segundos.\n\nDeja de atacar y lanzar hechizos hasta que termine la mirada para evitar una carga de castigo."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_13736 = "Torbellino"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_13736 =
+        "Canaliza un torbellino durante 2 segundos e inflige daño físico a los enemigos en un radio de 8 metros.\n\nSal de su alcance durante la canalización."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_16856 = "Golpe mortal"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_16856 =
+        "Inflige un 200% de daño de arma y reduce la sanación recibida por el objetivo un 50% durante 5 segundos."
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24408 = "Cargar"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 = "Mandokir carga contra un enemigo, le inflige daño físico y lo aturde durante 2 segundos."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirlevelup = "Level Up"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirlevelup =
-        "Every time three player gets resurrected by a Chained Spirit, Mandokir levels up, increasing the amount of damage he deals and reducing the amount of damage he receives."
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_mandokirenrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_mandokirenrage = "If Ohgan dies before Mandokir does, Mandokir becomes enraged for 1 minute, increasing the damage he deals to his enemies."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24408 =
+        "Carga contra un enemigo, inflige daño físico y lo aturde durante 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_19134 = "Grito intimidador"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_19134 =
+        "Aterroriza a un objetivo y hace huir de miedo a los enemigos cercanos durante un máximo de 8 segundos.\n\nResguardo contra el miedo puede prevenir el miedo."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24312 = "Subir de nivel"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24312 =
+        "Las muertes de jugadores otorgan a Mandokir acumulaciones de Subir de nivel, que aumentan su daño físico un 10% por acumulación.\n\nEvita morir incluso si hay una resurrección disponible."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_24318 = "Enfurecer"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24318 =
+        "Cuando Ohgan muere antes que Mandokir, Mandokir obtiene un 50% de daño físico y un 65% de velocidad de ataque cuerpo a cuerpo durante 90 segundos.\n\nLos tanques y sanadores deben prepararse para el aumento del daño recibido."
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_15117 = "Espíritus encadenados"
+    IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117 =
+        "Los Espíritus encadenados pueden revivir a los jugadores caídos durante la lucha."
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "Borde de la locura"
     IJ_DB_RAID_ZG_BOSS_STORY_15082 =
-        "Casi no se sabe nada sobre el Filo de la Locura, sólo el rumor de que si hicieras correctamente una invocación desconocida, uno de cada cuatro posibles trolls legendarios sería convocado..."
+        "En el Filo de la Locura de Zul'Gurub, antiguas tablillas conservan la memoria de cuatro espíritus trol: Gri'lek, el vagabundo de Sangre de Hierro; Renataki, de las Mil Hojas, cuya leyenda celebra el dolor y el derramamiento de sangre; Hazza'rah, el Tejesueños, señor de las pesadillas; y Wushoolay, el Brujo de la Tormenta, cuyo poder está ligado al cielo, la lluvia y la tierra.\n\nLa Tablilla de la Locura revela la fórmula de la Locura de mojo Gurubashi. Utilizada para apagar el Brasero de la Locura, esta ofrenda alquímica devuelve a uno de estos espíritus al mundo de los vivos."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek = "Gri'lek"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24646 = "Avatar"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24646 =
-        "A lo largo de la pelea, Gri'lek se convertirá en un avatar, aumentando significativamente su tamaño y daño pero también reduciendo su velocidad. Luego comenzará a perseguir a un enemigo aleatorio independientemente de la amenaza. ||norte||  ||norte|| El jugador objetivo debe huir mientras dure la habilidad."
+        "Durante 15 segundos, aumenta el daño Físico un 500% y reduce la velocidad de movimiento un 75%.\n\nEl jugador perseguido debe huir y mantenerse fuera del alcance cuerpo a cuerpo."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24647 = "Aturdir"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24647 =
+        "Gri'lek queda aturdido durante 2 segundos al comenzar Avatar."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_6524 = "Temblor de tierra"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 = "Gri'lek crea temblores en el suelo, aturdiendo a todos los enemigos en un radio de 20 metros durante 2 segundos."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilekroot = "Entangling Roots"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_grilekroot = "Gri'lek roots an enemy, making them unable to move."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_6524 =
+        "Aturde a los enemigos en un radio de 20 metros durante 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24648 = "Entangling Roots"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24648 =
+        "Inmoviliza a un jugador durante un máximo de 10 segundos e inflige daño de Naturaleza cada 3 segundos.\n\nDisipa el efecto Mágico rápidamente, especialmente si el jugador está siendo perseguido durante Avatar."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki = "Renataki"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Desaparecer"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24699 = "Esfumarse"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24699 =
-        "Renataki desaparece, impidiendo que los enemigos puedan verlo. Una vez que reaparece, tenderá una emboscada a un enemigo aleatorio y le causará un gran daño. ||norte||  ||norte|| Los jugadores deben encontrar a Renataki antes de que reaparezca. Usa habilidades de área para intentar romper su sigilo."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakienrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakienrage = "Renataki enrages, increasing the damage he deals to his enemies."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renatakigouge = "Gouge"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_renatakigouge = "Renataki gouges an enemy, incapacitating them."
+        "Desaparece y luego reaparece para emboscar a un jugador.\n\nLos sanadores deben prepararse para su regreso."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24337 = "Emboscada"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24337 =
+        "Ataca a un jugador al regresar de Esfumarse e inflige daño Físico."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24698 = "Gubia"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24698 =
+        "Inflige daño Físico e incapacita a los enemigos cercanos durante un máximo de 4 segundos. El daño interrumpe el efecto.\n\nUn segundo tanque debe estar preparado para tomar el relevo si el tanque actual queda incapacitado."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24649 = "Mil hojas"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24649 =
+        "Lanza una hoja a un jugador e inflige daño Físico."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_8269 =
+        "Aumenta la velocidad de ataque cuerpo a cuerpo un 60% y añade 50 puntos de daño Físico durante 120 segundos.\n\nLos tanques y sanadores deben prepararse para un aumento del daño recibido."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah = "Hazza'rah"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26046 = "Quema de maná en cadena"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26046 =
-        "Hazza'rah lanza una quemadura de maná en cadena, que inflige un gran daño de maná y puntos de vida a los enemigos que se encuentran cerca. ||norte||  ||norte|| Los cazadores y los brujos deben seguir drenando el maná de Hazza'rah ya que, de lo contrario, seguirá lanzando esta habilidad."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24729 = "Invocar ilusiones de pesadilla"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24729 =
-        "Hazza'rah invoca 3 ilusiones de pesadilla que lo ayudarán durante la pelea. ||norte||  ||norte|| Los que causan daños deben apuntar instantáneamente a estos agregados, ya que tienen muy poca salud pero causan mucho daño."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24684 = "Quemadura en cadena"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24684 =
+        "Quema maná de un máximo de 3 objetivos, salta a enemigos cercanos e inflige 0,5 de daño de las Sombras por punto de maná consumido.\n\nDispersaos para limitar los saltos."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24685 = "Choque de tierra"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24685 =
+        "Inflige daño de Naturaleza e interrumpe el lanzamiento de hechizos, impidiendo lanzar hechizos de la escuela interrumpida durante 4 segundos."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24728 = "Invocar ilusiones de pesadilla"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24728 =
+        "Invoca 3 ilusiones de pesadilla con poca salud, pero potentes ataques cuerpo a cuerpo.\n\nLos jugadores de daño, especialmente los de distancia, deben eliminar las ilusiones rápidamente antes de que alcancen a otros jugadores."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24664 = "Dormir"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24664 =
-        "Hazza'rah pone a dormir a todos los enemigos que lo atacan actualmente. ||norte||  ||norte|| Los chamanes pueden utilizar tótems de temblor para despertar a sus aliados."
+        "Duerme a los enemigos durante un máximo de 6 segundos. El daño despierta a los jugadores afectados.\n\nEl Tótem de tremor puede eliminar el efecto de sueño."
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay = "Wushoolay"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_23106 = "Cadena de relámpagos"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_23106 = "Wushoolay crea un rayo que se encadena entre todos los enemigos frente a él."
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_26550 = "Nube de relámpagos"
-    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_26550 =
-        "Wushoolay crea una nube de relámpagos. Todos los enemigos atrapados dentro del radio de ataque de la nube recibirán todo el daño. ||norte||  ||norte|| Los jugadores deben salir de la nube de inmediato, ya que causa grandes daños."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24680 = "Cadena de relámpagos"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24680 =
+        "Lanza un relámpago que salta entre un máximo de 10 objetivos e inflige daño de Naturaleza creciente con cada salto.\n\nDispersaos para limitar los saltos."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24682 = "Relámpago bifurcado"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24682 =
+        "Inflige de 1157 a 1344 de daño de Naturaleza a los enemigos en un cono frente a Wushoolay.\n\nLos jugadores que no sean el tanque deben situarse detrás de él."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "Nube de relámpagos"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
+        "Crea una nube de relámpagos de 10 metros de radio durante 15 segundos, que inflige de 463 a 538 de daño de Naturaleza inicialmente y de 875 a 1126 de daño adicional cada 5 segundos.\n\nSal de la nube inmediatamente."
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Gahz'ranka"
-    IJ_DB_RAID_ZG_BOSS_STORY_15114 = "Se dice que si un pescador experto lanzara su anzuelo con un cebo muy específico en Pagle's Pointe, entonces una criatura terrible emergería del agua para devorarlos..."
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_21099 = "Aliento de escarcha"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_21099 = "Gahz'ranka inflige 850 de daño por escarcha a los enemigos en un cono frente a él, robándoles maná y reduciendo su velocidad de movimiento durante 5 segundos."
+    IJ_DB_RAID_ZG_BOSS_STORY_15114 =
+        "Gahz'ranka es una hidra legendaria que acecha en las aguas de Zul'Gurub, cerca de la Punta de Pagle. Nat Pagle visitó estas orillas y dejó allí sus aparejos de pesca y su cinta métrica favorita.\n\nLos aventureros que devuelven la cinta descubren cómo atraer a la criatura desde las profundidades: un Cebo de Fangoapestoso, cargado con cinco Fangoapestosos zulianos y lanzado desde la Punta de Pagle, hace emerger a la esquiva hidra."
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_16099 = "Aliento de escarcha"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_16099 =
+        "Inflige daño de Escarcha y drena maná de los enemigos en un cono frente a Gahz'ranka, reduciendo su velocidad de movimiento un 50% durante 10 segundos.\n\nMantén al jefe de espaldas a la banda."
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_24326 = "Golpe de Gahz'ranka"
-    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 = "Gahz'ranka golpea a todos los objetivos frente a él, infligiendo 250 de daño físico y derribándolos."
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326 =
+        "Inflige daño Físico a los enemigos cercanos y los repele."
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_22421 = "Géiser masivo"
     IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_22421 =
-        "Gahz'ranka crea un enorme géiser que lanza a los enemigos por los aires. ||norte||  ||norte|| Los jugadores deben intentar aterrizar en el agua para evitar sufrir daños innecesarios."
+        "Crea un géiser que inflige daño de Escarcha y lanza por los aires a jugadores y mascotas en un radio de 10 metros alrededor del géiser.\n\nColócate para aterrizar en el agua y evitar daño de caída."
     IJ_DB_RAID_ZG_BOSS_NAME_14509 = "Sumo Sacerdote Thekal"
     IJ_DB_RAID_ZG_BOSS_STORY_14509 =
         "El Sumo Sacerdote Thekal es el Sumo Sacerdote Zandalari de Shirvallah, el tigre loa. Enviado a Zul'Gurub para detener a Hakkar el Desollador de Almas, finalmente fue convertido por el dios de la sangre."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_lorkhan = "Zealot Lor'Khan"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_25807 = "Gran curación"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25807 = "Lor'Khan lanza una gran curación sobre sí mismo o sobre un aliado, curándolo por 69375 de salud."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_23552 = "Escudo relámpago"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_23552 = "Lor'Khan se rodea con un escudo relámpago, devolviendo parte del daño que recibe al atacante."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24208 = "Gran curación"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24208 =
+        "Restaura una gran cantidad de salud a Lor'Khan o a un aliado.\n\nInterrumpe el lanzamiento de 4 segundos."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_25020 = "Escudo relámpago"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_25020 =
+        "Rodea a Lor'Khan con un Escudo de relámpagos que puede infligir daño de Naturaleza a los atacantes."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22691 = "Desarmar"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22691 = "Lor'Khan desarma a su objetivo, obligándolo a dejar de empuñar su arma durante 6 segundos."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24185 = "Sed de sangre"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24185 = "Lor'Khan y sus aliados son superados por la sed de sangre, lo que aumenta su velocidad de ataque en un 75% durante 30 segundos."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_zath = "Zealot Zath"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_26654 = "Golpes de barrido"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_26654 = "Zath realiza golpes de barrido que infligen daño adicional a otro objetivo para su próximo ataque cuerpo a cuerpo."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_18765 = "Golpes de barrido"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_18765 =
+        "Los siguientes 5 ataques cuerpo a cuerpo de Zath golpean a un enemigo cercano adicional. Dura un máximo de 20 segundos."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24698 = "Gubia"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24698 = "Zath ataca a su objetivo, incapacitándolo."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_21060 = "Ciego"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_21060 = "Zath ciega a su objetivo, provocando que deambule confundido durante hasta 10 segundos."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27613 = "Patada"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27613 = "Zath patea a su objetivo, causando daño físico e interrumpiendo cualquier hechizo que se esté lanzando durante 6 segundos."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_15614 = "Patada"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_15614 =
+        "Inflige daño Físico e interrumpe el lanzamiento de hechizos, impidiendo lanzar hechizos de la escuela interrumpida durante 6 segundos."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_15667 = "Golpe siniestro"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_15667 =
+        "Inflige daño Físico a un enemigo."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24187 = "Zarpa"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24187 =
+        "Los guardianes zulianos usan Zarpa para infligir daño Físico a un enemigo."
     IJ_DB_RAID_ZG_BOSS_14509_NAME_STAGE_1 = "Etapa uno: forma de troll"
     IJ_DB_RAID_ZG_BOSS_14509_DESCRIPTION_STAGE_1 = "Thekal asume su forma de troll durante la etapa hasta que él y todos los agregados mueren al mismo tiempo."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaladds = "Thekal's Adds"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaladds =
         "Thekal starts the fight with Zealot Lor'Khan, Zealot Zath and 2 Zulian tigers.\n\nBoth zealots need to be tanked while the 2 tigers can easily be killed.\n\nThekal, Lor'Khan, and Zath all need to die around the same time as they will otherwise resurrect each other."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_27559 = "Silencio"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_27559 = "Thekal silencia a un enemigo aleatorio, impidiéndole lanzar hechizos durante 3 segundos."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22666 = "Silencio"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22666 =
+        "Silencia a un enemigo durante 6 segundos.\n\nDisipa el efecto Mágico rápidamente, especialmente de los sanadores."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_22859 = "División mortal"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_22859 =
         "Thekal divide a su objetivo actual, infligiendo un 150% de daño con arma y dejando al objetivo herido, lo que reduce la efectividad de cualquier curación en un 50% durante 5 segundos."
@@ -1562,12 +1673,14 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekaltigers = "Summon Tigers"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekaltigers =
         "Thekal summons 2 Zulian tigers, assisting him for the duration of the fight.\n\nJust like the Zulian tigers in stage one, these tigers can easily be killed and should be prioritized."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalcharge = "Charge"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalcharge = "Thekal charges an enemy, dealing damage and stunning them."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_24408 = "Charge"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_24408 =
+        "Carga contra un enemigo, inflige daño Físico y lo aturde durante 2 segundos."
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalfrenzy = "Frenzy"
     IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalfrenzy = "Thekal goes into a frenzy, increasing his size and his attack speed by 50%.\n\nHunters can use Tranquilizing Shot to remove frenzy from Thekal."
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_thekalenrage = "Enrage"
-    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_thekalenrage = "At 20% health remaining, Thekal becomes enraged, increasing the damage he deals to his enemies."
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_NAME_8269 = "Enrage"
+    IJ_DB_RAID_ZG_BOSS_14509_ABILITY_EFFECT_8269 =
+        "Con poca salud, aumenta la velocidad de ataque cuerpo a cuerpo un 60% y añade 50 puntos de daño Físico durante 120 segundos.\n\nLos tanques y sanadores deben prepararse para un aumento del daño recibido."
     IJ_DB_RAID_ZG_BOSS_NAME_14515 = "Suma Sacerdotisa Arlokk"
     IJ_DB_RAID_ZG_BOSS_STORY_14515 =
         "La Suma Sacerdotisa Arlokk es la Suma Sacerdotisa Zandalari del Dios Primordial Bethekk, la diosa pantera. Enviada a Zul'Gurub para detener a Hakkar el Desollador de Almas, finalmente el dios de la sangre la convirtió."
@@ -1585,35 +1698,44 @@ if GetLocale() == "esES" then
         "Arlokk vanishes and assumes her panther form. \n\nShe alternates between troll and panther forms throughout the fight, with transitions occurring more rapidly as the encounter progresses."
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24210 = "Marca de Arlokk"
     IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24210 = "Mientras Arlokk está en sigilo, puede marcar a un jugador aleatorio, lo que hace que cada pantera se concentre en el objetivo marcado."
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24236 = "Torbellino"
-    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24236 =
-        "Cuando Arlokk reaparece en su forma de pantera, inmediatamente lanza Torbellino, lo que inflige un gran daño de área de efecto a quienes están cerca durante dos segundos. ||norte||  ||norte|| Melee debería esperar a que el Torbellino se desvanezca antes de atacar a Arlokk."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15589 = "Torbellino"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15589 =
+        "Inflige daño Físico a los enemigos en un radio de 8 metros."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24212 = "Palabra de las Sombras: dolor"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24212 =
+        "Inflige daño de las Sombras cada 3 segundos durante 18 segundos.\n\nDisipa el efecto Mágico."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_15582 = "Puñalada"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_15582 =
+        "Inflige daño Físico cuando Arlokk ataca a un enemigo por la espalda."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_24213 = "Devastar"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_24213 =
+        "Inflige daño Físico y aturde al objetivo durante 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_NAME_3391 = "Vapulear"
+    IJ_DB_RAID_ZG_BOSS_14515_ABILITY_EFFECT_3391 =
+        "Otorga 2 ataques cuerpo a cuerpo adicionales."
     IJ_DB_RAID_ZG_BOSS_NAME_11380 = "Jin'do el Hexxer"
     IJ_DB_RAID_ZG_BOSS_STORY_11380 =
         "Jin'do es un médico brujo trol de la jungla Gurubashi de considerable poder. Es responsable del lavado de cerebro de los sacerdotes Zandalari Jeklik, Venoxis, Mar'li, Thekal y Arlokk para ponerlos al servicio de Hakkar, el Loa de Sangre."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24306 = "Delirios de Jin'do"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 =
-        "Jin'do maldice a un jugador, inflige 175 de daño cada 2 segundos y genera una Sombra de Jin'do. ||norte||  ||norte|| A pesar de esto, se recomienda a los jugadores que no utilicen esta habilidad, ya que solo aquellos afectados por la maldición pueden ver y dañar las Sombras de Jin'do."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24053 = "Maleficio"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24053 = "Jin'do transforma al jugador con mayor amenaza en una rana."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoteleportskeletonpit = "Teleport to Skeleton Pit"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoteleportskeletonpit = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24306 = "Jin'do maldice a un jugador y le inflige 175 de daño de las Sombras cada 2 segundos durante 20 segundos. Invoca Sombras de Jin'do mediante una habilidad independiente.\n\nNo elimines esta maldición: solo los jugadores malditos pueden ver y dañar a las Sombras de Jin'do."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_17172 = "Maleficio"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_17172 = "Jin'do transforma al jugador con mayor amenaza en una rana durante un máximo de 5 segundos, impidiéndole atacar y lanzar hechizos. Este efecto mágico se puede disipar."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24466 = "Teleport to Skeleton Pit"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24466 = "Jin'do teleports a random player into the skeleton pit in the middle of the room."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoadds = "Jin'do's Adds"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds =
-        "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoadds = "Jin'do curses players, spawning shades in his image, and summons wards that heal and brainwash throughout the battle to help him.\n\nPlayers should focus on killing all adds before attacking Jin'do."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14986 = "Sombra de Jin'do"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 =
-        "Aunque Shades of Jin'do solo es visible para aquellos maldecidos por Delusions of Jin'do, las sombras pueden atacar a cualquiera en la incursión. También son inmunes al daño de área de efecto y deben centrarse con habilidades y hechizos de un solo objetivo. ||norte||  ||norte|| Shades of Jin'do debería ser el primer agregado prioritario en ser asesinado."
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_jindoshademelee = "Melee Attack"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_jindoshademelee = "Shade of Jin'do's melee attacks can interrupt spellcasts."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14986 = "Aunque las Sombras de Jin'do solo son visibles para los jugadores afectados por Delirios de Jin'do, pueden atacar a cualquier miembro de la banda."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24458 = "Choque de sombras"
-    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Shades of Jin'do lanza magia oscura que azota instantáneamente a los enemigos e inflige daño de las sombras."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24458 = "Azota instantáneamente a los enemigos con magia oscura y les inflige daño de las Sombras."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14987 = "Potente protección curativa"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14987 =
         "Jin'do invoca una poderosa protección curativa que cura a Jin'do infligiendo más daño del que la incursión puede causar. ||norte||  ||norte|| Todos los jugadores que no maten activamente a una Sombra de Jin'do deben centrarse en este tótem. ||norte||  ||norte|| El poderoso Healing Ward debería ser la segunda prioridad para matar."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_15112 = "Tótem de lavado de cerebro"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_15112 =
         "Jin'do invoca un tótem de lavado de cerebro que controla la mente de los jugadores. El control mental no puede disiparse sin romper este tótem. ||norte||  ||norte|| Brain Wash Totem debería ser el tercer complemento prioritario en ser eliminado."
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_24261 = "Lavado de cerebro"
+    IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_24261 = "Controla a un jugador. Destruye el Tótem de lavado de cerebro para liberarlo."
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_NAME_14826 = "Troll sacrificado"
     IJ_DB_RAID_ZG_BOSS_11380_ABILITY_EFFECT_14826 =
         "Cuando Jin'do teletransporta a los jugadores al pozo de esqueletos, aparecerán Trolls sacrificados y atacarán a la persona convocada. ||norte||  ||norte|| Utilice ataques AoE para liberar rápidamente al miembro de la banda convocado."
@@ -1621,14 +1743,16 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_STORY_14834 =
         "Hakkar el Desollador de Almas, el Dios de la Sangre, es un loa malévolo y destructivo adorado notablemente por los trolls Gurubashi, y conocido en el panteón troll como el Loa de la Sangre. Ha tomado el control de la capital caída del Imperio Gurubashi, Zul'Gurub."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_11357 = "Hijo de Hakkar"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 =
-        "A lo largo del encuentro, los Hijos de Hakkar aparecen en las escaleras que conducen a la cámara de Hakkar. ||norte||  ||norte|| Cuando son asesinados, liberan una nube de veneno que aflige Sangre Venenosa a cualquier jugador que entre en contacto con ella."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_11357 = "Los Hijos de Hakkar reaparecen periódicamente en las escaleras que llevan a la cámara de Hakkar.\n\nAl morir, liberan una nube de veneno que aplica Sangre venenosa a los jugadores que entran en ella. Este veneno puede usarse para contrarrestar Sifón de sangre."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_16790 = "Derribo"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_16790 = "Inflige daño físico a un enemigo y a sus aliados cercanos y aturde hasta a 3 objetivos durante 2 segundos."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_3391 = "Vapulear"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_3391 = "Otorga 2 ataques cuerpo a cuerpo adicionales."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24321 = "sangre venenosa"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24321 =
         "Envenena al jugador, causando 100 de daño cada 3 segundos durante 1,5 minutos. ||norte||  ||norte|| Mientras esté afligido, Blood Siphon dañará a Hakkar en lugar de curarlo."
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24322 = "Sifón de sangre"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24322 =
-        "Hakkar aturde a toda la banda y drena la salud de todos los jugadores cada segundo durante 8 segundos, curándose a sí mismo significativamente. ||norte||  ||norte|| Los jugadores afectados por Sangre Venenosa hacen que Hakkar sufra daño por este efecto. ||norte||  ||norte|| Para contrarrestar esta habilidad, la mayor parte de la incursión debe estar envenenada antes de que comience Blood Siphon."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24324 = "Sifón de sangre"
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24324 = "Hakkar aturde a toda la banda y drena la salud de todos los jugadores cada segundo durante 8 segundos, curándose a sí mismo significativamente. ||norte||  ||norte|| Los jugadores afectados por Sangre Venenosa hacen que Hakkar sufra daño por este efecto. ||norte||  ||norte|| Para contrarrestar esta habilidad, la mayor parte de la incursión debe estar envenenada antes de que comience Blood Siphon.\n\nLos jugadores pueden obtener Sangre venenosa de un Hijo de Hakkar muerto antes de que comience Sifón de sangre para volver el efecto contra Hakkar."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkaraspects = "Aspects of the High Priests"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkaraspects =
         "Hakkar can be engaged immediately upon entering the instance. However, if any High Priests remain alive, they empower him with additional abilities based on their aspects."
@@ -1643,11 +1767,9 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24690 = "Aspecto de Arlokk"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24690 = "Golpea al jugador con mayor amenaza y lo aturde durante 2 segundos."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24327 = "Causa locura"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 =
-        "Lleva al jugador con la mayor amenaza a un frenesí durante 10 segundos, aumentando su velocidad de ataque en un 100% y su velocidad de movimiento en un 150%, y provoca que ataque a los aliados cercanos."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24327 = "Lleva al jugador con la mayor amenaza a un frenesí durante 10 segundos, aumentando su velocidad de ataque en un 100% y su velocidad de movimiento en un 150%, y provoca que ataque a los aliados cercanos.\n\nEl tanque secundario debe permanecer segundo en amenaza para tomar el relevo mientras el tanque principal esté controlado. Usa Polimorfia sobre el jugador controlado hasta que termine el efecto."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_24328 = "Sangre corrupta"
-    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 =
-        "Aproximadamente cada 20 segundos, un jugador se ve afectado por Sangre corrupta, que recibe 200 de daño cada 2 segundos durante 10 segundos. ||norte||  ||norte|| Este efecto se extiende a los jugadores cercanos."
+    IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_24328 = "Aproximadamente cada 15 segundos, Hakkar inflige daño inicial de las Sombras y afecta a jugadores con Sangre corrupta, que inflige 200 de daño de las Sombras cada 2 segundos durante 10 segundos.\n\nEste efecto se propaga a los jugadores cercanos."
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_NAME_hakkarenrage = "Enrage"
     IJ_DB_RAID_ZG_BOSS_14834_ABILITY_EFFECT_hakkarenrage = "After 10 minutes, Hakkar becomes enraged, greatly increasing his damage output."
 
@@ -1658,37 +1780,297 @@ if GetLocale() == "esES" then
 
     -- MC Bosses
     IJ_DB_RAID_MC_BOSS_NAME_52145 = "Incindis"
-    IJ_DB_RAID_MC_BOSS_STORY_52145 = "La documentación sobre Incindis es notablemente escasa, y se le señala sólo como un residente formidable del Núcleo Fundido."
+    IJ_DB_RAID_MC_BOSS_STORY_52145 =
+        "Incindis, un antiguo incendosaurio, habita en el Núcleo de Magma. En las profundidades de la Montaña Roca Negra, la guarida que lleva su nombre sirve de criadero."
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42036 = "Pisotón sísmico"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42036 =
+        "Incindis golpea el suelo, inflige daño físico y atrae hacia él a los enemigos cercanos. Aléjate antes de la siguiente Nova de Fuego."
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42037 = "Nova de Fuego"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42037 =
+        "Tras Pisotón sísmico, Incindis lanza Nova de Fuego durante 4,5 segundos y luego inflige mucho daño de Fuego a los enemigos cercanos y reduce su velocidad de movimiento durante 8 segundos.\n\nAléjate antes de que termine el lanzamiento."
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42040 = "Mordisco de magma"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42040 =
+        "Incindis muerde a un enemigo, le inflige daño de Fuego y le aplica Armadura de magma."
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_NAME_42039 = "Armadura de magma"
+    IJ_DB_RAID_MC_BOSS_52145_ABILITY_EFFECT_42039 =
+        "Mordisco de magma deja un efecto acumulable en el objetivo que inflige daño de Fuego adicional a la unidad afectada."
     IJ_DB_RAID_MC_BOSS_NAME_12118 = "Lucifrón"
     IJ_DB_RAID_MC_BOSS_STORY_12118 =
         "Entre las filas de los despiertallamas, los supervisores y sus guardias compiten constantemente por un estatus más alto entre la jerarquía de elementales con la esperanza de ganarse el favor de Ragnaros. Lucifron no es una excepción. Ha chocado con Gehennas en varias ocasiones, particularmente durante su encarcelamiento dentro del Plano Elemental. Esta rivalidad ahora se ha extendido al Núcleo Molten, donde Lucifron espera silenciosamente su oportunidad de aprovechar cualquier debilidad mostrada por los otros despiertallamas. Lucifron y sus dos guardias protectores Flamewaker se encuentran vigilando al enorme sabueso central Magmadar, la mascota favorita de Ragnaros."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19460 = "Choque de las Sombras"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19460 =
+        "Lucifron golpea a un enemigo con magia oscura e inflige daño de las Sombras."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19702 = "Fatalidad inminente"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19702 =
+        "Aplica a los enemigos cercanos un efecto mágico que inflige daño de las Sombras tras 10 segundos. Disípalo antes de que inflija daño."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_19703 = "Maldición de Lucifron"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_19703 =
+        "Maldice a los enemigos cercanos y aumenta el coste de recursos de sus hechizos y facultades. Elimina la maldición cuanto antes."
+    IJ_DB_RAID_MC_BOSS_12118_NAME_flamewakerprotectors = "Protectores despiertallamas"
+    IJ_DB_RAID_MC_BOSS_12118_DESCRIPTION_flamewakerprotectors =
+        "Lucifron está acompañado por dos Protectores despiertallamas. Al 50% de salud, revive a los Protectores caídos y restaura la salud de los que siguen vivos, que obtienen Enfurecer. Al 20% de salud, restaura la salud de los Protectores supervivientes y les otorga Enfurecer."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_20604 = "Dominar mente"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_20604 =
+        "Los Protectores despiertallamas intentan controlar a un jugador. Disipa el efecto mágico del jugador controlado."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_20605 = "Rajar"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_20605 =
+        "Los Protectores despiertallamas golpean a un enemigo y a sus aliados cercanos con un ataque físico."
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_NAME_44057 = "Enfurecer"
+    IJ_DB_RAID_MC_BOSS_12118_ABILITY_EFFECT_44057 =
+        "Los Protectores enfurecidos infligen un 25% más de daño y reciben un 40% menos de daño."
     IJ_DB_RAID_MC_BOSS_NAME_11982 = "Magmadar"
     IJ_DB_RAID_MC_BOSS_STORY_11982 =
         "Magmadar, un gigante aterrador compuesto de roca ígnea y magma turbulento, sirve como origen de los perros centrales que deambulan por los pasillos de tierra de Molten Core. Magmadar, favorita entre las mascotas de Ragnaros, está protegida por el despiertallamas Lucifron y rodeada de feroces jaurías de perros voraces. Se dice que mientras Ragnaros estaba encarcelado en el Plano Elemental, el Señor del Fuego alimentaría con los restos de sus enemigos capturados a las ansiosas fauces gemelas de Magmadar. Como resultado, el perro se volvió fuerte y leal, e incluso ahora la ferocidad salvaje de Magmadar sigue siendo indiscutible."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19408 = "Pánico"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19408 =
+        "Aterroriza a los enemigos cercanos durante 8 segundos. Resguardo contra el miedo puede prevenir el miedo y el efecto puede disiparse si se aplica."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19451 = "Frenesí"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19451 =
+        "Magmadar entra en frenesí y aumenta mucho su velocidad de ataque cuerpo a cuerpo. Los cazadores deben eliminar el frenesí con Disparo tranquilizante."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19272 = "Aliento de lava"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19272 =
+        "Magmadar exhala fuego sobre los enemigos que tiene delante."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19411 = "Bomba de lava"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19411 =
+        "Lanza una bomba de lava a un enemigo y deja una zona de fuego en el suelo. Sal del fuego."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19428 = "Conflagración"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19428 =
+        "El fuego que deja Bomba de lava aplica un efecto que inflige daño de Fuego en el tiempo. Sal de la zona afectada."
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_NAME_19450 = "Escupitajo de magma"
+    IJ_DB_RAID_MC_BOSS_11982_ABILITY_EFFECT_19450 =
+        "Inflige daño de Fuego y aplica un efecto acumulable que inflige daño de Fuego adicional en el tiempo."
     IJ_DB_RAID_MC_BOSS_NAME_12057 = "garr"
     IJ_DB_RAID_MC_BOSS_STORY_12057 =
         "Como uno de los dos lugartenientes principales que sirven bajo las órdenes de Ragnaros, Garr desempeña un papel clave en el éxito actual del Señor del Fuego y su creciente influencia. Garr, al igual que el barón Geddon, posee la mitad de Bindings of the Windseeker, que contiene la esencia restante de Thunderaan, Príncipe del Aire. Los cuentos dicen que después de siglos de asociación, Geddon empezó a sospechar de Garr y sintió que el elemental buscaba ambas mitades del talismán. Por tanto, las relaciones entre las dos potencias son tensas. Tanto Garr como el barón Geddon obtienen su considerable poder de las runas ardientes talladas profundamente en el suelo de Molten Core."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19492 = "Pulso antimagia"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19492 =
+        "Elimina un efecto mágico beneficioso de los enemigos cercanos."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19496 = "Grilletes de magma"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19496 =
+        "Reduce la velocidad de movimiento de los enemigos cercanos un 60% durante 15 segundos. El efecto mágico puede disiparse."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19516 = "Enfurecer"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19516 =
+        "Cada Jurafuegos derrotado otorga a Garr una acumulación de Enfurecer, que aumenta su tamaño y su velocidad de ataque cuerpo a cuerpo."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_20294 = "Inmolar"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_20294 =
+        "Los Jurafuegos infligen daño de Fuego y aplican un efecto que inflige daño de Fuego adicional cada 3 segundos durante 21 segundos. Disipa el efecto mágico."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_19497 = "Erupción"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_19497 =
+        "Cuando un Jurafuegos muere, explota e inflige daño de Fuego y repele a los enemigos en un radio de 15 metros. Aléjate de los esbirros que estén a punto de morir."
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_NAME_23492 = "Ansiedad por separación"
+    IJ_DB_RAID_MC_BOSS_12057_ABILITY_EFFECT_23492 =
+        "Los Jurafuegos que se alejan demasiado de Garr pueden obtener Ansiedad por separación, que aumenta el daño infligido un 300% y otorga inmunidad a Desterrar durante 5 segundos.\n\nMantenlos cerca de Garr."
+    IJ_DB_RAID_MC_BOSS_12057_NAME_firesworn = "Jurafuegos"
+    IJ_DB_RAID_MC_BOSS_12057_DESCRIPTION_firesworn =
+        "Garr está acompañado por ocho Jurafuegos. Derrotarlos potencia a Garr."
     IJ_DB_RAID_MC_BOSS_NAME_12056 = "Barón Geddon"
     IJ_DB_RAID_MC_BOSS_STORY_12056 =
         "Cuando Ragnaros fue arrancado del Plano Elemental por el Hechicero Thane Thaurissan, varios súbditos de las Tierras de Fuego lo siguieron. El barón Geddon luchó contra los titanes y ayudó en la traición de Thunderaan, Príncipe del Aire. El Señor del Fuego devoró la esencia del príncipe, pero no pudo consumirlo por completo. Por lo tanto, las energías restantes quedaron atrapadas dentro de un talismán de unión elemental, que Ragnaros dividió en dos mitades perfectas que entregó a sus dos lugartenientes."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_19659 = "Ignición de maná"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_19659 =
+        "Quema 400 de maná cada 3 segundos e inflige daño de Fuego equivalente al maná quemado. Disipa el efecto mágico cuanto antes."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_19695 = "Inferno"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_19695 =
+        "El Barón Geddon canaliza pulsos de daño de Fuego durante 8 segundos, que afectan a los enemigos en un radio de 20 metros. Aléjate de él durante la canalización."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20475 = "Bomba viva"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20475 =
+        "Marca a un jugador para que explote tras 8 segundos. Aléjate de la banda y deja la bomba en una zona despejada, lejos del Suelo de magma dejado por bombas anteriores."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20476 = "Explosión"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20476 =
+        "Bomba viva explota, inflige 3200 de daño de Fuego al jugador marcado y a sus aliados en un radio de 18 metros, y los repele."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44060 = "Suelo de magma"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44060 =
+        "Bomba viva deja una zona de fuego que inflige 500 de daño de Fuego cada 2 segundos en un radio de 5 metros durante 60 segundos.\n\nEvita el fuego y elige otro lugar para las siguientes bombas."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_44061 = "Reacción catastrófica"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_44061 =
+        "Llevar Bomba viva a un Suelo de magma existente puede provocar una explosión adicional que inflige 2500 de daño de Fuego en un radio de 100 metros.\n\nMantén la bomba lejos de las zonas de fuego anteriores."
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_NAME_20478 = "Armagedón"
+    IJ_DB_RAID_MC_BOSS_12056_ABILITY_EFFECT_20478 =
+        "Al 5% de salud, el Barón Geddon prepara una enorme explosión de Fuego. Derrótalo en 8 segundos para impedirla."
     IJ_DB_RAID_MC_BOSS_NAME_12264 = "Shazzra"
     IJ_DB_RAID_MC_BOSS_STORY_12264 =
         "De todos los despiertallamas que siguieron a Ragnaros al mundo de Azeroth, Shazzrah es el más talentoso en el reino de lo arcano. Es consciente de que su colega, el barón Geddon, sospecha que el elemental Garr es traidor. El conflicto entre el barón Geddon y Garr le conviene a Shazzrah, porque de hecho es Shazzrah quien busca poseer ambas mitades del Talismán de vinculación elemental para poder encontrar una manera de desviar sus energías para su propio uso. Es muy probable que Ragnaros fuera consciente de la inclinación de su subordinado por la duplicidad cuando dividió el talismán por la mitad y confió las piezas al barón Geddon y Garr."
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19712 = "Explosión Arcana"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19712 =
+        "Inflige daño Arcano a los enemigos en un radio de 30 metros de Shazzrah."
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19713 = "Maldición de Shazzrah"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19713 =
+        "Aumenta el daño mágico recibido por los enemigos cercanos un 100% durante 5 minutos. Elimina la maldición cuanto antes."
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19714 = "Atenuar magia"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19714 =
+        "Reduce el daño mágico recibido por Shazzrah un 50% durante 30 segundos. Elimina el beneficio con una disipación ofensiva."
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_19715 = "Contrahechizo"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_19715 =
+        "Interrumpe a los enemigos cercanos que estén lanzando hechizos e impide lanzar hechizos de la escuela interrumpida durante 10 segundos.\n\nCalcula tus lanzamientos para evitar la interrupción."
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_NAME_23139 = "Portal de Shazzrah"
+    IJ_DB_RAID_MC_BOSS_12264_ABILITY_EFFECT_23139 =
+        "Shazzrah se teletransporta durante el combate. Los tanques deben recuperar su atención rápidamente tras el cambio de posición."
     IJ_DB_RAID_MC_BOSS_NAME_12098 = "Presagio de sulfurón"
     IJ_DB_RAID_MC_BOSS_STORY_12098 =
         "Entre los despiertallamas más favorecidos, Sulfuron Harbinger es el aterrador heraldo del propio Ragnaros. Desde las profundidades infernales del Núcleo Fundido, el Heraldo comanda al Embajador Flamelash y a los otros despiertallamas menores en el mundo exterior. Sulfuron Harbinger responde sólo ante Executus y guarda la runa de Koro, una de varias runas que empoderan a los sirvientes del Señor del Fuego. Sulfuron Harbinger mantiene a Shazzrah en particular bajo estrecha vigilancia, creyendo que Shazzrah busca traicionar a Ragnaros. Flanqueado por cuatro de los sacerdotes más fervientes del Señor del Fuego, el Heraldo se prepara para el día en que el señor elemental del fuego reclame el mundo de Azeroth para suyo."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19778 = "Grito desmoralizador"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19778 =
+        "Reduce en 300 el poder de ataque cuerpo a cuerpo y a distancia de los enemigos cercanos durante 30 segundos."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19779 = "Inspirar"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19779 =
+        "Potencia a Sulfuron o a un Sacerdote despiertallamas cercano, aumenta el daño físico infligido un 25% y la velocidad de ataque cuerpo a cuerpo un 100% durante 10 segundos."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19780 = "Mano de Ragnaros"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19780 =
+        "Inflige daño de Fuego a los enemigos en un radio de 10 metros de Sulfuron, los repele y los aturde durante 2 segundos."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19781 = "Lanza de llamas"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19781 =
+        "Arroja una lanza de llamas a un enemigo e inflige daño de Fuego al objetivo y a otros enemigos en un radio de 10 metros de él. Dispersaos para limitar el daño."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19777 = "Golpe oscuro"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19777 =
+        "Golpea a un enemigo con un ataque de arma potenciado que inflige daño de las Sombras."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19775 = "Sanación oscura"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19775 =
+        "Los Sacerdotes despiertallamas lanzan una potente sanación sobre un aliado. Interrumpe el lanzamiento de 2 segundos."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_19776 = "Palabra de las Sombras: dolor"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_19776 =
+        "Los Sacerdotes despiertallamas aplican un efecto que inflige daño de las Sombras cada 3 segundos durante 18 segundos. Disipa el efecto mágico."
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_NAME_20294 = "Inmolar"
+    IJ_DB_RAID_MC_BOSS_12098_ABILITY_EFFECT_20294 =
+        "Los Sacerdotes despiertallamas infligen daño de Fuego y aplican un efecto que inflige daño de Fuego adicional cada 3 segundos durante 21 segundos. Disipa el efecto mágico."
+    IJ_DB_RAID_MC_BOSS_12098_NAME_flamewakerpriests = "Sacerdotes despiertallamas"
+    IJ_DB_RAID_MC_BOSS_12098_DESCRIPTION_flamewakerpriests =
+        "Cuatro Sacerdotes despiertallamas acompañan a Sulfuron. Interrumpe sus sanaciones y disipa sus efectos mágicos dañinos."
+    IJ_DB_RAID_MC_BOSS_12098_NAME_sonsofflame = "Hijos de la Llama"
+    IJ_DB_RAID_MC_BOSS_12098_DESCRIPTION_sonsofflame =
+        "Sulfuron invoca Hijos de la Llama durante toda la lucha, incluso después de derrotar a los cuatro Sacerdotes despiertallamas."
     IJ_DB_RAID_MC_BOSS_NAME_11988 = "Golemagg el Incinerador"
     IJ_DB_RAID_MC_BOSS_STORY_11988 =
         "Los soldados más temidos de las fuerzas elementales de Ragnaros son los gigantes fundidos, y entre ellos Golemagg el Incinerador no tiene rival por su absoluta brutalidad y salvaje eficiencia. El poder del gigante fundido es tan absoluto que ha intimidado a dos furiosos principales, descendientes de la bestia colosal Magmadar, que ahora usa como mascotas. Por esta afrenta, se ha ganado la ira eterna e inquebrantable de Magmadar, aunque la temible criatura aún tiene que actuar según sus salvajes impulsos."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_13880 = "Salpicadura de magma"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_13880 =
+        "Inflige daño de Fuego y aplica un efecto acumulable que inflige daño de Fuego adicional en el tiempo y reduce la armadura."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_20228 = "Piroexplosión"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_20228 =
+        "Lanza una explosión ígnea a un enemigo e inflige daño de Fuego y daño de Fuego adicional cada 3 segundos durante 12 segundos."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19798 = "Terremoto"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19798 =
+        "Inflige daño físico a los enemigos en un radio de 18 metros de Golemagg. Comienza a usar Terremoto cerca del 25% de salud."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19953 = "Enfurecer"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19953 =
+        "Al 25% de salud, Golemagg obtiene Enfurecer, que aumenta su daño físico infligido en 500 y su velocidad de ataque cuerpo a cuerpo un 50% durante 10 segundos."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_20553 = "Confianza de Golemagg"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_20553 =
+        "Potencia a los Furibundos del Núcleo cercanos, aumenta su daño físico infligido en 500 y su velocidad de ataque cuerpo a cuerpo un 50%. Mantén a los esbirros lejos de Golemagg para evitar este beneficio."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_19820 = "Destrozar"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_19820 =
+        "Los Furibundos del Núcleo aplican un efecto que inflige daño físico cada 2 segundos y reduce la velocidad de movimiento un 50% durante 20 segundos."
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_NAME_45998 = "Furibundos desencadenados"
+    IJ_DB_RAID_MC_BOSS_11988_ABILITY_EFFECT_45998 =
+        "Al 60% de salud de Golemagg, los Furibundos del Núcleo se liberan y empiezan a cambiar de objetivo. Su velocidad de movimiento se reduce un 25%. Los tanques pueden provocarlos para recuperar su atención."
+    IJ_DB_RAID_MC_BOSS_11988_NAME_coreragers = "Furibundos del Núcleo"
+    IJ_DB_RAID_MC_BOSS_11988_DESCRIPTION_coreragers =
+        "Dos Furibundos del Núcleo acompañan a Golemagg. Los tanques deben mantenerlos separados del jefe."
     IJ_DB_RAID_MC_BOSS_NAME_65020 = "Gólems gemelos"
-    IJ_DB_RAID_MC_BOSS_STORY_65020 = "Aparte de su estatus confirmado como guardianes del dominio del Señor del Fuego, la historia de los Gólems Gemelos permanece completamente desconocida."
+    IJ_DB_RAID_MC_BOSS_STORY_65020 =
+        "Basalthar y Smoldaris son gólems gemelos del Núcleo de Magma. Vinculados a los enanos Hierro Negro, luchan juntos con golpes aplastantes y torrentes de llamas."
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47375 = "Baluarte de magma"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47375 =
+        "Los gólems alternan un escudo que reduce el daño recibido un 95% e inflige 200 de daño de Fuego a los atacantes cuerpo a cuerpo cuando es golpeado, durante 15 segundos.\n\nCambia al gólem que no tenga el escudo."
+    IJ_DB_RAID_MC_BOSS_65020_NAME_basalthar = "Basalthar"
+    IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_basalthar =
+        "Basalthar lucha junto a Smoldaris. Los gólems comparten salud y son derrotados juntos."
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47373 = "Revés amplio"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47373 =
+        "Basalthar golpea a un enemigo y a sus aliados cercanos con un ataque físico y los repele."
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47374 = "Embate aplastante"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47374 =
+        "Basalthar reduce la armadura de un enemigo un 50% y lo aturde durante 5 segundos."
+    IJ_DB_RAID_MC_BOSS_65020_NAME_smoldaris = "Smoldaris"
+    IJ_DB_RAID_MC_BOSS_65020_DESCRIPTION_smoldaris =
+        "Smoldaris apoya a Basalthar con ataques de Fuego."
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47377 = "Chorro de llamas"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47377 =
+        "Smoldaris canaliza durante 8 segundos e inflige daño de Fuego a los enemigos cercanos cada segundo."
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_NAME_47378 = "Fuego de cobertura"
+    IJ_DB_RAID_MC_BOSS_65020_ABILITY_EFFECT_47378 =
+        "Smoldaris inflige daño de Fuego a los enemigos cercanos cada segundo durante 3 segundos."
     IJ_DB_RAID_MC_BOSS_NAME_57642 = "Hechicero Thane Thaurissan"
     IJ_DB_RAID_MC_BOSS_NAME_12018 = "Mayordomo ejecutivo"
     IJ_DB_RAID_MC_BOSS_STORY_12018 =
         "En la cima de la jerarquía elemental, justo debajo del propio Ragnaros, reside el Majordomo Executus. Este despiertallamas obtuvo su estatus exaltado al demostrar ser casi invencible en las batallas que se libraban en el plano elemental. Se rumorea que Executus suplantó al barón Geddon, y los dos han sido rivales desde entonces. Aunque este rumor aún no se ha confirmado, no hay duda de que Ragnaros no tolera el fracaso. Por lo tanto, los despiertallamas menores (y, por supuesto, el barón Geddon) esperan ansiosamente un paso en falso por parte de Executus, anticipando su oportunidad de competir por la codiciada atención del Señor del Fuego."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20229 = "Ola explosiva"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20229 =
+        "Inflige daño de Fuego a los enemigos en un radio de 10 metros y reduce su velocidad de movimiento un 50% durante 8 segundos."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20618 = "Teletransporte"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20618 =
+        "Teletransporta a un enemigo al centro de unas brasas ardientes. Sal del fuego inmediatamente."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20619 = "Reflejo de magia"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20619 =
+        "Otorga a los aliados cercanos un 50% de probabilidad de reflejar hechizos dañinos durante 10 segundos. Deja de lanzar hechizos dañinos a los objetivos protegidos por el escudo."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_21075 = "Escudo de daño"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_21075 =
+        "Protege a los esbirros cercanos durante 10 segundos e inflige 100 de daño Arcano a los atacantes que los golpeen. Evita los ataques con armas contra objetivos protegidos por el escudo."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20620 = "Égida de Ragnaros"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20620 =
+        "Protege a Majordomo durante un máximo de 300 segundos, absorbe hasta 30000 de daño físico o mágico e inflige 250 de daño a los atacantes cuerpo a cuerpo. El hechizo también restaura su salud."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20603 = "Choque de las Sombras"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20603 =
+        "Los Sanadores despiertallamas infligen daño de las Sombras a los enemigos en un radio de 20 metros."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_21077 = "Descarga de las Sombras"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_21077 =
+        "Los Sanadores despiertallamas lanzan un proyectil de daño de las Sombras a un enemigo. Interrumpe el lanzamiento."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_19632 = "Rajar"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_19632 =
+        "Los Élites despiertallamas golpean a un enemigo y a sus aliados cercanos con un ataque de arma potenciado."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20420 = "Bola de Fuego"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20420 =
+        "Los Élites despiertallamas lanzan una Bola de Fuego a un enemigo e infligen daño de Fuego."
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_NAME_20623 = "Explosión de Fuego"
+    IJ_DB_RAID_MC_BOSS_12018_ABILITY_EFFECT_20623 =
+        "Los Élites despiertallamas golpean instantáneamente a un enemigo con daño de Fuego."
+    IJ_DB_RAID_MC_BOSS_12018_NAME_flamewakerhealers = "Sanadores despiertallamas"
+    IJ_DB_RAID_MC_BOSS_12018_DESCRIPTION_flamewakerhealers =
+        "Cuatro Sanadores despiertallamas acompañan a Majordomo y pueden controlarse con Polimorfia. Cuando mueren cuatro de los ocho esbirros, se rompen las Polimorfias existentes y los esbirros supervivientes se vuelven inmunes a Polimorfia."
+    IJ_DB_RAID_MC_BOSS_12018_NAME_flamewakerelites = "Élites despiertallamas"
+    IJ_DB_RAID_MC_BOSS_12018_DESCRIPTION_flamewakerelites =
+        "Cuatro Élites despiertallamas acompañan a Majordomo. Derrota a los ocho esbirros para obligar a Majordomo a rendirse."
     IJ_DB_RAID_MC_BOSS_NAME_11502 = "Ragnaros"
     IJ_DB_RAID_MC_BOSS_STORY_11502 =
         "Tumbado al pie de la Montaña Roca Negra, Ragnaros se esfuerza por encontrar el camino a casa, así como por reunir fuerzas una vez más para poder quemar Azeroth y tomarlo para sí. Mientras tanto, en Sulfuron Keep y en otras partes de las Tierras de Fuego, sus príncipes elementales luchan constantemente por el dominio. Él y sus secuaces enanos tomaron el control de las profundidades volcánicas de la montaña Roca Negra e hicieron la guerra a los orcos en la Aguja Superior de Roca Negra, que sirvió como sede del poder de Nefarian, el dragón negro. Ragnaros ha descubierto el secreto para crear vida a partir de piedra y planea construir un ejército de golems imparables que le ayuden a conquistar toda la Montaña Roca Negra."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20564 = "Fuego elemental"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20564 =
+        "Inflige daño de Fuego a un enemigo y aplica daño de Fuego adicional cada segundo durante 8 segundos."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_44058 = "Fuego elemental"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_44058 =
+        "Cuando Fuego elemental golpea a un objetivo, también inflige daño de Fuego a otros jugadores y mascotas en un radio de 10 metros alrededor de ese objetivo.\n\nDispersaos para limitar el daño."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20566 = "Cólera de Ragnaros"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20566 =
+        "Inflige daño de Fuego a los enemigos en un radio de 25 metros de Ragnaros y los repele. Los tanques deben estar listos para volver al alcance cuerpo a cuerpo."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21154 = "Poderío de Ragnaros"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21154 =
+        "Invoca una Llama de Ragnaros que usa Calor intenso."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21155 = "Calor intenso"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21155 =
+        "Las Llamas de Ragnaros liberan una ráfaga de Fuego que puede dañar y repeler a los enemigos cercanos."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20565 = "Explosión de magma"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20565 =
+        "Golpea a un enemigo con mucho daño de Fuego a larga distancia."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21388 = "Fundir arma"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21388 =
+        "Daña la durabilidad del arma afectada."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_26234 = "Sumergirse"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_26234 =
+        "Con aproximadamente un 50% de salud, Ragnaros se sumerge e invoca diez Hijos de la Llama. Derrota a los esbirros y prepárate para su regreso."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_20568 = "Emerger"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_20568 =
+        "Ragnaros emerge tras la fase de los Hijos de la Llama y reanuda la lucha."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21857 = "Escudo de lava"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21857 =
+        "Los Hijos de la Llama infligen daño de Fuego a los atacantes cuerpo a cuerpo y queman periódicamente 150 de maná de los enemigos en un radio de 10 metros, infligiendo daño de Fuego equivalente a la mitad del maná quemado.\n\nMantén a los usuarios de maná lejos de los esbirros."
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_NAME_21158 = "Estallido de lava"
+    IJ_DB_RAID_MC_BOSS_11502_ABILITY_EFFECT_21158 =
+        "Las erupciones de lava del entorno infligen daño de Fuego en la zona del encuentro. Evita la lava."
+    IJ_DB_RAID_MC_BOSS_11502_NAME_sonsofflame = "Hijos de la Llama"
+    IJ_DB_RAID_MC_BOSS_11502_DESCRIPTION_sonsofflame =
+        "Diez Hijos de la Llama aparecen durante la fase sumergida. Derrótalos mientras Ragnaros esté sumergido."
+    IJ_DB_RAID_MC_BOSS_11502_NAME_environment = "Entorno"
+    IJ_DB_RAID_MC_BOSS_11502_DESCRIPTION_environment =
+        "La lava alrededor de Ragnaros sigue siendo peligrosa durante todo el encuentro."
 
     -- ES
     IJ_DB_RAID_ES_NAME = "Santuario Esmeralda"
@@ -1749,24 +2131,256 @@ if GetLocale() == "esES" then
     -- BWL Bosses
     IJ_DB_RAID_BWL_BOSS_NAME_12435 = "Razorgore el Indomable"
     IJ_DB_RAID_BWL_BOSS_STORY_12435 =
-        "Razorgore the Untamed es un engendro del Vuelo Negro. El señor de Blackwing Lair, Nefarian, le ha encomendado la tarea de proteger los numerosos y preciosos huevos de dragón negro ubicados en la primera sala de la instancia. Con este fin, a Razorgore se le ha dado el mando de una cohorte de orcos y otras fuerzas, y no se detendrá ante nada para garantizar que sus graves cargas no sufran ningún daño."
+        "Sangrevaja el Indomable es un dracoleante del Vuelo Negro al que Nefarian confió la protección y el cuidado de los huevos de dragón negro en la Guarida de Alanegra. Soldados orcos y dragonantes defienden la cámara junto a él.\n\nPese a su título, Sangrevaja está sometido al control de Grethok mediante el Orbe de dominación. Los intrusos que se apoderen del orbe pueden volver al guardián contra los mismos huevos que debía proteger."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_eggs = "Primera fase: Destruir los huevos"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_eggs = "Derrota a Grethok el Controlador y a sus guardias. Después, usa el Orbe de dominación para controlar a Sangrevaja y destruir los 20 huevos.\n\nMantén a los refuerzos alejados de Sangrevaja mientras se destruyen los huevos. Si muere antes de que se destruyan todos los huevos, los restantes explotan y aniquilan a la banda."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_combat = "Segunda fase: Sangrevaja"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_combat = "Cuando se destruyen todos los huevos, Sangrevaja se libera del orbe y recupera su salud. Derrótalo para completar el encuentro."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_19832 = "Orbe de dominación"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_19832 = "Permite que un jugador controle a Sangrevaja durante un máximo de 90 segundos.\n\nUsa sus habilidades para destruir huevos y controlar a los dragonantes cercanos."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_19873 = "Destruir huevo"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_19873 = "Destruye un huevo cercano tras 3 segundos de lanzamiento. Destruye los 20 huevos para terminar la primera fase."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_19872 = "Calmar dragonante"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_19872 = "Aturde a un dragonante durante 30 segundos. Disponible mientras se controla a Sangrevaja."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_23040 = "Llamas cálidas"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_23040 = "Restaura toda la salud de Sangrevaja cuando se destruye el último huevo."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_19632 = "Rajar"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_19632 = "Inflige daño físico a los enemigos cercanos."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_22425 = "Salva de bolas de Fuego"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_22425 = "Inflige daño de Fuego a los enemigos en el área."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_23023 = "Conflagración"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_23023 = "Desorienta a los jugadores afectados e inflige daño de Fuego cada segundo durante 10 segundos. Los jugadores afectados también dañan a los aliados cercanos.\n\nColoca al tanque principal frente a Sangrevaja y al tanque secundario a un lado, manteniéndolos separados para evitar que ambos reciban Conflagración. El tanque secundario debe permanecer segundo en amenaza para tomar el relevo cuando el principal resulte afectado.\n\nLos demás jugadores deben mantenerse alejados de los afectados. La Poción de acción libre no previene Conflagración."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_16806 = "Daño de conflagración"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_16806 = "Inflige daño de Fuego a los enemigos a menos de 5 metros del jugador afectado."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_24375 = "Pisotón de guerra"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_24375 = "Inflige daño físico y aturde a los enemigos en un radio de 15 metros durante 5 segundos.\n\nUsa una Poción de acción libre antes del lanzamiento para prevenir sus efectos. Mantén al tanque secundario segundo en amenaza para ayudar a controlar al jefe."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_12416 = "Legionario Alanegra"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_12416 = "Refuerzos que usan Rajar y Golpear. Mantenlos alejados de Sangrevaja mientras está controlado."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_12420 = "Mago Alanegra"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_12420 = "Refuerzos que usan Bola de Fuego y Explosión Arcana."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_12422 = "Dracoleante Garramortal"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_12422 = "Refuerzos dragonantes que usan Rajar y Golpear. Se pueden controlar con Calmar dragonante."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_50142 = "Tirador Alanegra"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_50142 = "Refuerzos a distancia que usan Disparo de puntería."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_52153 = "Abrasador Garramortal"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_52153 = "Refuerzos que usan Agostar, aumentando el daño de Fuego recibido por su objetivo."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_15284 = "Rajar"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_15284 = "Inflige daño físico a los enemigos cercanos."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_15580 = "Golpear"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_15580 = "Inflige daño físico a un enemigo."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_17290 = "Bola de Fuego"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_17290 = "Inflige daño de Fuego a un enemigo."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_22271 = "Explosión Arcana"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_22271 = "Inflige daño Arcano a los enemigos en un radio de 10 metros."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_41832 = "Disparo de puntería"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_41832 = "Inflige daño físico a un enemigo tras 3 segundos de lanzamiento."
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_NAME_41831 = "Agostar"
+    IJ_DB_RAID_BWL_BOSS_12435_ABILITY_EFFECT_41831 = "Inflige daño de Fuego y aumenta el daño de Fuego recibido en 75 durante 15 segundos."
     IJ_DB_RAID_BWL_BOSS_NAME_13020 = "Vaelastrasz el corrupto"
-    IJ_DB_RAID_BWL_BOSS_STORY_13020 = "Vaelastrasz el Corrupto fue corrompido por Nefarian y ahora le sirve de mala gana."
+    IJ_DB_RAID_BWL_BOSS_STORY_13020 = "Vaelastrasz es un dragón rojo que se opuso a Nefarian y al Vuelo Negro. Disfrazado de Vaelan, ayudó a unos aventureros a restaurar el Sello de Ascensión y después los apoyó contra Rend Puño Negro. Su persecución de Nefarian terminó en derrota, dejándolo corrupto y esclavizado en la Guarida de Alanegra.\n\nMientras aún lucha contra el control de Nefarian, Vaelastrasz concede a los aventureros la Esencia del Rojo antes de verse obligado a volverse contra ellos."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_23513 = "Esencia del Rojo"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_23513 = "Regenera rápidamente maná, energía e ira durante 3 minutos."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_52755 = "Llamarada de gloria"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_52755 = "Aplica periódicamente a la banda un efecto acumulable que aumenta la velocidad de ataque y lanzamiento un 5% e inflige 50 de daño de Fuego cada segundo por acumulación."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_23620 = "Adrenalina ardiente"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_23620 = "Aumenta el daño infligido un 100% y hace que los hechizos sean instantáneos, pero reduce progresivamente la salud máxima durante 20 segundos. El jugador afectado muere y explota cuando termina el efecto.\n\nAléjate de la banda antes de que termine el efecto."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_23478 = "Explosión de adrenalina ardiente"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_23478 = "Inflige daño de Fuego a los enemigos a menos de 10 metros del jugador afectado."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_23461 = "Aliento de llamas"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_23461 = "Inflige daño de Fuego en un cono frontal y daño de Fuego adicional cada 3 segundos durante 15 segundos. El efecto periódico se acumula.\n\nMantén a Vaelastrasz de espaldas a la banda."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_23462 = "Nova de Fuego"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_23462 = "Inflige daño de Fuego a los enemigos en un radio de 100 metros."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_19983 = "Rajar"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_19983 = "Inflige daño físico a los enemigos cercanos frente a Vaelastrasz.\n\nSolo el tanque debe colocarse frente al jefe."
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_NAME_15847 = "Barrido de cola"
+    IJ_DB_RAID_BWL_BOSS_13020_ABILITY_EFFECT_15847 = "Inflige daño físico a los enemigos detrás de Vaelastrasz en un radio de 30 metros y los repele.\n\nLa banda debe colocarse a sus lados, lejos de la cola."
     IJ_DB_RAID_BWL_BOSS_NAME_12017 = "Señor de la progenie Azotachadores"
     IJ_DB_RAID_BWL_BOSS_STORY_12017 =
         "Broodlord Lashlayer es un dracónido negro al servicio de Nefarian que protege los Salones de los Conflictos en Blackwing Lair, bloqueando el camino hacia el santuario interior de Nefarian."
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_NAME_15284 = "Rajar"
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_EFFECT_15284 = "Inflige daño físico a los enemigos cercanos frente al Señor de linaje Capazote."
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_NAME_23331 = "Ola explosiva"
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_EFFECT_23331 = "Inflige daño de Fuego a los enemigos en un radio de 20 metros, los repele y reduce su velocidad de movimiento un 50% durante 8 segundos."
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_NAME_18670 = "Repeler"
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_EFFECT_18670 = "Inflige daño físico al objetivo actual, lo repele y reduce su amenaza.\n\nMantén al tanque secundario con una amenaza alta para tomar el relevo si el jefe cambia de objetivo."
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_NAME_24573 = "Golpe mortal"
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_EFFECT_24573 = "Inflige mucho daño físico y reduce la sanación recibida un 50% durante 5 segundos.\n\nLos sanadores deben estar preparados para apoyar al tanque afectado."
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_NAME_52754 = "Herida dentada"
+    IJ_DB_RAID_BWL_BOSS_12017_ABILITY_EFFECT_52754 = "Inflige daño físico inmediatamente y cada segundo durante 10 segundos, y reduce la sanación recibida un 25%.\n\nLos sanadores deben vigilar de cerca a los jugadores afectados."
     IJ_DB_RAID_BWL_BOSS_NAME_11983 = "Fauces de fuego"
-    IJ_DB_RAID_BWL_BOSS_STORY_11983 = "Firemaw es un dragón negro que se encuentra patrullando los Laboratorios Crimson. Es uno de los tres poderosos dragones negros que guardan el camino hacia su maestro, Nefarian."
+    IJ_DB_RAID_BWL_BOSS_STORY_11983 = "Faucefogo es un draco negro que patrulla los Laboratorios Carmesí de la Guarida de Alanegra. Junto a Ebanorroca y Flamagor, custodia las cámaras donde Nefarian realiza sus experimentos y protege el acceso a la guarida de su amo. Aunque estos dracos sirven a Nefarian, su lealtad última pertenece a Alamuerte."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30194 = "Bomba de ácido"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30194 = "Inflige daño de Naturaleza a los enemigos a menos de 10 metros del impacto y deja un charco de ácido."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30195 = "Charco de ácido"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30195 = "Inflige daño de Naturaleza cada segundo durante 15 segundos en un área de 10 metros, reduce la velocidad de movimiento un 20% y la armadura un 50%.\n\nSal del ácido."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30196 = "Furia química"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30196 = "Al llegar aproximadamente al 75%, 50% y 25% de salud, Ezzel reduce el daño recibido un 80%. Esta protección termina cuando Ton'Raka choca con un pilar y sufre Conmoción."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30205 = "Cargar"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30205 = "Marca a un jugador y prepara una carga durante 8 segundos.\n\nEl jugador marcado debe colocar un pilar entre él y el jefe para que Ton'Raka choque contra él."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30202 = "Conmoción"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30202 = "Aturde al jefe durante 5 segundos tras chocar con un pilar y elimina Furia química."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30198 = "Escombros desprendidos"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30198 = "Inflige daño físico a la banda."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30203 = "Rompepilares"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30203 = "Inflige daño físico a los enemigos en un radio de 10 metros y los repele."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30201 = "Derrumbe"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30201 = "Inflige mucho daño físico a la banda."
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30204 = "Transmutar en oro"
+    IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30204 = "Al llegar aproximadamente al 10% de salud, Ezzel comienza un lanzamiento de 8 segundos que mata a la banda si se completa.\n\nDerrótalo antes de que termine. Aplica Maldición de las Lenguas antes de esta fase para disponer de más tiempo."
     IJ_DB_RAID_BWL_BOSS_NAME_14601 = "Ébano"
-    IJ_DB_RAID_BWL_BOSS_STORY_14601 = "Ebonroc es un dragón negro que se encuentra patrullando los Laboratorios Crimson. Es uno de los tres poderosos dragones negros que guardan el camino hacia su maestro, Nefarian."
+    IJ_DB_RAID_BWL_BOSS_STORY_14601 = "Ebonroc es un dragón negro que se encuentra patrullando los Laboratorios Crimson. Es uno de los tres poderosos dragones negros que guardan el camino hacia su maestro, Nefarian.\n\nComo miembro del Vuelo Negro, Ébano sirve bajo el mando de Nefarian, pero su lealtad última pertenece a Alamuerte."
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_22539 = "Llama de las Sombras"
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_22539 = "Inflige daño de las Sombras a los enemigos en un cono frontal.\n\nMantén a Faucefogo de espaldas a la banda."
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_22682 = "Daño de Llama de las Sombras"
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_22682 = "Inflige daño de las Sombras adicional cada segundo durante 10 segundos.\n\nLos tanques deben equipar una Capa de escamas de Onyxia para prevenir este efecto periódico. Los demás miembros de la banda no necesitan la capa si evitan el aliento frontal. La capa no evita el impacto inicial."
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_23339 = "Sacudida de alas"
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_23339 = "Inflige daño físico a los enemigos frente a Faucefogo en un radio de 20 metros, los repele y reduce su amenaza.\n\nEl tanque secundario debe estar preparado para tomar el relevo si el jefe cambia de objetivo."
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_23340 = "Sombra de Ébano"
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_23340 = "Durante 8 segundos, Ébano se cura cuando golpea al objetivo afectado. La sanación base es de 25.000 puntos de salud por golpe.\n\nEl tanque secundario debe provocar inmediatamente para evitar esta sanación."
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_3391 = "Azote"
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_3391 = "Otorga dos ataques adicionales."
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_65151 = "Chispas de llama de las Sombras"
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_65151 = "Durante el combate aparecen chispas de llama de las Sombras que atacan a los jugadores. Son inmunes al daño.\n\nMantén la distancia y aléjate de ellas hasta que desaparezcan, especialmente al sanar."
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_NAME_30207 = "Choque de las Sombras"
+    IJ_DB_RAID_BWL_BOSS_14601_ABILITY_EFFECT_30207 = "Inflige daño de las Sombras instantáneamente a un enemigo."
     IJ_DB_RAID_BWL_BOSS_NAME_11981 = "llamagor"
-    IJ_DB_RAID_BWL_BOSS_STORY_11981 = "Flamegor es un dragón negro que se encuentra patrullando los Laboratorios Crimson. Es uno de los tres poderosos dragones negros que guardan el camino hacia su maestro, Nefarian."
+    IJ_DB_RAID_BWL_BOSS_STORY_11981 = "Flamegor es un dragón negro que se encuentra patrullando los Laboratorios Crimson. Es uno de los tres poderosos dragones negros que guardan el camino hacia su maestro, Nefarian.\n\nComo miembro del Vuelo Negro, llamagor sirve bajo el mando de Nefarian, pero su lealtad última pertenece a Alamuerte."
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_22539 = "Llama de las Sombras"
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_22539 = "Inflige daño de las Sombras a los enemigos en un cono frontal.\n\nMantén a Faucefogo de espaldas a la banda."
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_22682 = "Daño de Llama de las Sombras"
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_22682 = "Inflige daño de las Sombras adicional cada segundo durante 10 segundos.\n\nLos tanques deben equipar una Capa de escamas de Onyxia para prevenir este efecto periódico. Los demás miembros de la banda no necesitan la capa si evitan el aliento frontal. La capa no evita el impacto inicial."
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_23339 = "Sacudida de alas"
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_23339 = "Inflige daño físico a los enemigos frente a Faucefogo en un radio de 20 metros, los repele y reduce su amenaza.\n\nEl tanque secundario debe estar preparado para tomar el relevo si el jefe cambia de objetivo."
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_23342 = "Frenesí"
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_23342 = "Aumenta la velocidad de ataque un 150% durante 10 segundos y activa Nova de Fuego cada 2 segundos.\n\nLos cazadores deben eliminar Frenesí inmediatamente con Disparo tranquilizante."
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_23462 = "Nova de Fuego"
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_23462 = "Inflige daño de Fuego a la banda mientras Frenesí está activo."
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_NAME_52756 = "Furia abrumadora"
+    IJ_DB_RAID_BWL_BOSS_11981_ABILITY_EFFECT_52756 = "Controla a un jugador, aumentando su daño infligido un 25% y reduciendo su daño recibido un 80%.\n\nReduce su salud aproximadamente al 25% para terminar el efecto. El jugador controlado es inmune a Polimorfia, miedo, aturdimientos e inmovilizaciones, pero Seccionar puede ralentizarlo."
     IJ_DB_RAID_BWL_BOSS_NAME_14020 = "cromagus"
     IJ_DB_RAID_BWL_BOSS_STORY_14020 =
         "Chromaggus es una bestia dragón de dos cabezas creada por Nefarian, que actúa como un obediente protector de Blackwing Lair. A pesar de su apariencia canina, en realidad es un dragonante (más específicamente un drakeadon). Las víctimas de la aflicción radiante de Chromaggus se transformaron en dracónidos."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_breaths = "Ataques de aliento"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_breaths = "Se seleccionan dos de cinco alientos posibles para el período de guardado de la banda. Se alternan aproximadamente cada 30 segundos, con un lanzamiento de 2 segundos.\n\nUsa la línea de visión para evitar los alientos dañinos. Lapso de tiempo requiere coordinación específica de los tanques."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23187 = "Quemadura de Escarcha"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23187 = "Inflige daño de Escarcha, quema maná y ralentiza los ataques cuerpo a cuerpo durante 15 segundos."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23308 = "Incinerar"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23308 = "Inflige daño elevado de Fuego."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23310 = "Lapso de tiempo"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23310 = "Aturde a los jugadores afectados y reduce su salud máxima un 50% durante 8 segundos. Chromaggus cambia de objetivo durante el efecto y puede volver al tanque anterior al terminar.\n\nEl tanque secundario y los sanadores asignados deben evitar el aliento usando la línea de visión. El tanque secundario debe estar preparado para tomar el relevo mientras el principal está aturdido."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23313 = "Ácido corrosivo"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23313 = "Inflige daño de Naturaleza cada 3 segundos y reduce la armadura durante 15 segundos."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23315 = "Ignición de carne"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23315 = "Inflige daño de Fuego cada 3 segundos durante 60 segundos. Este efecto se acumula."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23173 = "Aflicciones del linaje"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23173 = "Aplica aflicciones asociadas a los cinco Vuelos. Cada una requiere su propio método de eliminación.\n\nElimínalas rápidamente para evitar que un jugador tenga las cinco a la vez."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23154 = "Aflicción del linaje: Negra"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23154 = "Aumenta el daño de Fuego recibido un 100%.\n\nElimina esta maldición, especialmente si hay alientos de Fuego."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23153 = "Aflicción del linaje: Azul"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23153 = "Drena maná, ralentiza el lanzamiento de hechizos y reduce la velocidad de movimiento un 30%.\n\nDisipa este efecto mágico rápidamente, sobre todo de sanadores y cazadores encargados de Disparo tranquilizante."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23155 = "Aflicción del linaje: Roja"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23155 = "Inflige daño de Fuego cada 3 segundos. Chromaggus se cura si muere el jugador afectado.\n\nElimina esta enfermedad."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23169 = "Aflicción del linaje: Verde"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23169 = "Inflige daño de Naturaleza cada 5 segundos y reduce la sanación recibida un 50%.\n\nElimina este veneno de los tanques inmediatamente."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23170 = "Aflicción del linaje: Bronce"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23170 = "Aturde periódicamente al jugador afectado durante 4 segundos.\n\nUsa Arena de reloj para eliminar la aflicción. Los tanques, sanadores y cazadores encargados de Disparo tranquilizante deben llevar reservas."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23174 = "Mutación cromática"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23174 = "Transforma a un jugador en un dracónido cromático hostil si las cinco Aflicciones del linaje están activas en él simultáneamente.\n\nEvita la transformación eliminando las aflicciones rápidamente."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_22276 = "Escudo elemental"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_22276 = "Cambia periódicamente de escudo elemental, volviéndose vulnerable a una de cinco escuelas de magia mientras reduce el daño de las demás. Los cambios ocurren aproximadamente cada 20 segundos.\n\nUsa la escuela vulnerable actual cuando sea posible."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23128 = "Frenesí"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23128 = "Aumenta la velocidad de ataque un 150% durante 8 segundos.\n\nLos cazadores deben eliminar Frenesí inmediatamente con Disparo tranquilizante."
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_28747 = "Enfurecer"
+    IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_28747 = "Aproximadamente al 20% de salud, aumenta el daño físico infligido un 100% y la velocidad de ataque un 50% durante el resto del combate.\n\nEste efecto es distinto del Frenesí eliminado con Disparo tranquilizante."
     IJ_DB_RAID_BWL_BOSS_NAME_11583 = "Nefarian"
     IJ_DB_RAID_BWL_BOSS_STORY_11583 =
         "Nefarian es el hijo mayor de Deathwing y su primera consorte Sintharia. Al igual que su padre y su hermana gemela menor Onyxia, tiene una apariencia humana y aparece como Victor Nefarius, Señor de Blackrock. Manteniendo al clan Roca Negra y a varios clanes de ogros bajo su control, Nefarian gobierna desde su guarida en la cima de Blackrock Spire."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23410 = "Mago: Magia salvaje"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23410 = "Aplica Magia salvaje a los magos durante 30 segundos.\n\nEn OctoWoW, esta llamada de clase parece no tener efecto de Polimorfia."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_phaseone = "Fase uno: Victor Nefarius"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_phaseone = "Enfréntate a Victor Nefarius y a los dracónidos que entran por ambos lados de la sala."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_phasetwo = "Fase dos: Nefarian"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_phasetwo = "Nefarian desciende en forma de dragón. Elimina a los dracónidos restantes y afronta sus ataques y llamadas de clase. Los constructos de huesos se unen al combate aproximadamente al 20% de salud.\n\nEn OctoWoW, Nefarian no causa daño de Llama de las Sombras a toda la banda durante su descenso, por lo que la banda no necesita Capas de escamas de Onyxia para el aterrizaje."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_10162 = "Lord Victor Nefarius"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_10162 = "Inicia el encuentro en forma humana mientras entran dracónidos. Derrotar aproximadamente a 40 inicia su transformación en Nefarian.\n\nDivide la banda entre las dos entradas y elimina los dracónidos restantes durante la transición."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22677 = "Descarga de las Sombras"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22677 = "Inflige daño de las Sombras a un objetivo."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22665 = "Salva de descarga de las Sombras"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22665 = "Inflige daño de las Sombras a varios objetivos."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22666 = "Silencio"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22666 = "Impide que los jugadores afectados lancen hechizos durante 6 segundos."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22678 = "Miedo"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22678 = "Hace que el objetivo huya de miedo durante 6 segundos."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22667 = "Orden de las Sombras"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22667 = "Controla a un jugador durante 15 segundos y aumenta su daño infligido un 300%.\n\nProtege a la banda de los jugadores controlados hasta que termine el efecto."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_drakonids = "Dracónidos"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_drakonids = "Se seleccionan dos colores de dracónidos para el período de guardado de la banda. También pueden aparecer dracónidos cromáticos.\n\nLos tanques deben reunir cada oleada mientras la banda elimina a los enemigos."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14261 = "Dracónido azul"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14261 = "Inflige daño de Escarcha, quema maná y ralentiza los ataques cuerpo a cuerpo de enemigos cercanos durante 6 segundos."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14262 = "Dracónido verde"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14262 = "Aturde a los enemigos cercanos durante 1 segundo."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14263 = "Dracónido de bronce"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14263 = "Inflige daño Arcano y ralentiza los ataques y el lanzamiento de hechizos de enemigos cercanos durante 6 segundos."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14264 = "Dracónido rojo"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14264 = "Aplica daño de Fuego cada segundo durante 5 segundos a enemigos cercanos."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14265 = "Dracónido negro"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14265 = "Inflige daño de Fuego a enemigos cercanos."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14302 = "Dracónido cromático"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14302 = "También usa Poder del linaje: Negro para infligir daño de Fuego a enemigos cercanos."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22539 = "Llama de las Sombras"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22539 = "Inflige daño de las Sombras en un cono frontal.\n\nMantén a Nefarian de espaldas a la banda."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22682 = "Daño de Llama de las Sombras"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22682 = "Inflige daño de las Sombras adicional cada segundo durante 10 segundos.\n\nLos tanques deben equipar una Capa de escamas de Onyxia para prevenir este efecto periódico. Los demás miembros de la banda no necesitan la capa si evitan el aliento frontal. La capa no evita el impacto inicial."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_20691 = "Rajar"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_20691 = "Inflige daño físico a enemigos frente a Nefarian.\n\nSolo los tanques deben colocarse delante de él."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22686 = "Rugido bramante"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22686 = "Tras un lanzamiento de 1,5 segundos, causa miedo durante 4 segundos a enemigos cercanos en un radio de 35 metros.\n\nUsa Resguardo de miedo o inmunidad al miedo para proteger al tanque."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22687 = "Velo de las Sombras"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22687 = "Reduce la sanación recibida un 75% durante 6 segundos.\n\nElimina esta maldición del tanque inmediatamente."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23364 = "Latigazo de cola"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23364 = "Inflige daño físico a enemigos detrás de Nefarian y los aturde durante 2 segundos.\n\nEvita colocarte directamente detrás de él."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23365 = "Arma caída"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23365 = "Desarma a los objetivos afectados durante 8 segundos."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_classcalls = "Llamadas de clase"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_classcalls = "Llama a clases aproximadamente cada 30 segundos. Dos clases distintas pueden verse afectadas a la vez.\n\nAtiende a ambas llamadas y ajusta las tareas de tanque, sanación y daño."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23397 = "Guerrero: Rabia"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23397 = "Obliga a los guerreros a adoptar Actitud rabiosa y aumenta su daño recibido un 30% durante 30 segundos.\n\nLos sanadores deben prepararse para un mayor daño a los tanques."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23398 = "Druida: Transformación involuntaria"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23398 = "Obliga a los druidas a adoptar Forma felina durante 30 segundos.\n\nOtros tanques y sanadores deben cubrir sus funciones."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23436 = "Cazador: Daño al arma a distancia"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23436 = "Agota la durabilidad de las armas a distancia equipadas.\n\nLleva un arma a distancia de repuesto y desequipa tu arma principal antes de las llamadas de clase."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23414 = "Pícaro: Paralizar"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23414 = "Teletransporta a los pícaros cerca de Nefarian y los inmoviliza durante 30 segundos.\n\nPrepárate para una posición peligrosa durante la llamada."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23418 = "Paladín: Succionar bendición"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23418 = "Durante 30 segundos, los paladines aplican periódicamente bendiciones perjudiciales a miembros de la banda. Cada bendición dura 15 segundos."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_52873 = "Bendición de los campesinos"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_52873 = "Reduce todos los atributos un 10%."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_52874 = "Bendición de debilidad"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_52874 = "Reduce el poder de ataque en 300."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_52875 = "Bendición de ignorancia"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_52875 = "Drena 76 de maná cada segundo."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_52876 = "Bendición de condenación"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_52876 = "Aumenta la amenaza generada un 50%."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_52877 = "Bendición de peligro"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_52877 = "Aumenta el daño recibido un 20%."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23401 = "Sacerdote: Sanación corrupta"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23401 = "Durante 30 segundos, las curas directas de sacerdotes, incluida Nova Sagrada, aplican Sanación corrupta a sus objetivos.\n\nUsa Renovar y Palabra de poder: escudo. Otros sanadores deben cubrir la sanación directa."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23402 = "Daño de Sanación corrupta"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23402 = "Inflige daño de las Sombras cada segundo durante 30 segundos."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23425 = "Chamán: Tótems corruptos"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23425 = "Provoca efectos de tótems corruptos que benefician a Nefarian y sus aliados, incluyendo sanación, armadura y ataques adicionales.\n\nDestruye los tótems corruptos cuando aparezcan."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_23427 = "Brujo: Invocar infernales"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_23427 = "Invoca infernales corruptos cerca de los brujos.\n\nReúne y derrota a los infernales antes de volver al jefe."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14668 = "Infernal corrupto"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14668 = "Ataca a la banda y causa daño de Fuego en área.\n\nMantén a los infernales lejos de los miembros vulnerables de la banda."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_20153 = "Inmolación"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_20153 = "Inflige daño de Fuego a enemigos cercanos."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_22703 = "Impacto infernal"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_22703 = "Inflige daño de Fuego y aturde a enemigos cerca del impacto."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_14605 = "Constructos de huesos"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_14605 = "Aproximadamente al 20% de salud, los dracónidos caídos regresan como constructos de huesos.\n\nLos tanques deben reunirlos para daño de área mientras protegen a la banda."
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_NAME_8355 = "Explotar debilidad"
+    IJ_DB_RAID_BWL_BOSS_11583_ABILITY_EFFECT_8355 = "Inflige daño físico a un objetivo cercano."
 
     -- ONY
     IJ_DB_RAID_ONY_NAME = "La guarida de Onyxia"
@@ -1774,6 +2388,32 @@ if GetLocale() == "esES" then
         "Onyxia construyó la guarida. La entrada a la guarida fue tallada para parecerse a las fauces de la madre de la cría, con su camino interior revestido de magma y el suelo agrietado, brillando con fuego desde abajo. El techo arqueado de piedra cruje y se mueve, creando constantes desprendimientos de rocas. Las paredes derraman lava donde el calor no se puede contener."
 
     -- ONY Bosses
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_36883 = "Pisotón sísmico"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_36883 = "Inflige daño físico a los enemigos en un radio de 15 metros y los repele."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_47403 = "Lanzar guja"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_47403 = "Repele a un enemigo, reduce la sanación recibida un 25% e inflige daño físico durante 5 segundos."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_47404 = "Grito de orden"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_47404 = "Inflige daño físico a los enemigos en un radio de 10 metros e interrumpe el lanzamiento de hechizos.\n\nLos lanzadores de hechizos deben permanecer fuera de su alcance."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_41537 = "Cadenas abrasadoras"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_41537 = "Une a dos jugadores con cadenas, reduce su velocidad de movimiento un 30% e inflige daño de Fuego cada 2 segundos durante un máximo de 12 segundos.\n\nLos jugadores unidos deben colocarse de modo que la cadena atraviese a Axelus para romperla."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_47411 = "Cadenas ardientes"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_47411 = "Inflige daño de Fuego a los enemigos a menos de 5 metros de un jugador encadenado."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_47409 = "Conflagrar"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_47409 = "Si Cadenas abrasadoras expira sin romperse, cada jugador unido recibe 6.000 de daño de Fuego."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_48312 = "Cadenas fundidas"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_48312 = "Inflige 5.000 de daño de Fuego a los enemigos en un radio de 100 metros y reduce su velocidad de movimiento un 50% durante 8 segundos."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_47408 = "Estandarte de mando"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_47408 = "Al llegar al 5% de salud, Axelus recupera toda su salud y usa Estandarte de mando, aumentando su salud máxima y la de los aliados cercanos un 20%, y su velocidad de ataque cuerpo a cuerpo un 25%."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_40068 = "Guardián de Onyxia"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_40068 = "Axelus invoca guardianes de Onyxia para ayudarlo.\n\nAsigna un tanque para mantenerlos lejos de la banda. Los demás jugadores deben permanecer fuera del alcance de su Nova de Fuego."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_20203 = "Nova de Fuego"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_20203 = "Inflige daño de Fuego a los enemigos en un radio de 20 metros."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_18958 = "Latigazo de llamas"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_18958 = "Inflige daño de Fuego y reduce la resistencia al Fuego en 20 durante 45 segundos."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_12097 = "Perforar armadura"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_12097 = "Reduce la armadura de un enemigo un 75% durante 20 segundos."
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_NAME_19983 = "Rajar"
+    IJ_DB_RAID_ONY_BOSS_axelus_ABILITY_EFFECT_19983 = "Inflige daño físico a los enemigos cercanos."
     IJ_DB_RAID_ONY_BOSS_NAME_10184 = "Onixia"
     IJ_DB_RAID_ONY_BOSS_STORY_10184 =
         "Onyxia es la hija de Alamuerte y su primera consorte Sintharia y la madre de cría del Vuelo Negro en Azeroth. Al igual que su padre y su hermano gemelo mayor Nefarian, tiene una apariencia humana, apareciendo como la noble de Ventormenta Lady Katrana Prestor, aunque se cree que también tiene otras apariencias humanoides."
@@ -1795,10 +2435,10 @@ if GetLocale() == "esES" then
         "Once Onyxia reaches 65% health, she will start walking towards the center of the room before taking flight.\n\nThis stage will continue until Onyxia is at 40% health."
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18392 = "bola de fuego"
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_18392 =
-        "Onyxia apunta aleatoriamente a los jugadores, infligiendo entre 800 y 1200 de daño de fuego al jugador y a cualquiera que se encuentre dentro de un radio de 8 yardas. ||norte||  ||norte|| Los jugadores deben separarse al menos 8 yardas entre sí para minimizar el daño cuando Onyxia no esté lanzando Deep Breath."
+        "Onyxia lanza una bola de fuego a un jugador que también alcanza a cualquiera a menos de 8 metros.\n\nLos jugadores deben mantener al menos 8 metros de separación."
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_17086 = "Respiración Profunda"
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_17086 =
-        "Onyxia ocasionalmente volará en línea por el centro de la habitación mientras escupe fuego, causando un gran daño a cualquiera que se cruce en su camino. ||norte||  ||norte|| Los jugadores deben correr hacia cualquier lado en el que mire para evitar sufrir daños."
+        "Onyxia respira hondo antes de cruzar la sala volando en línea recta.\n\nApártate de su trayectoria de vuelo."
     IJ_DB_RAID_ONY_BOSS_10184_NAME_onyxiastage3 = "Stage Three: Ground Phase"
     IJ_DB_RAID_ONY_BOSS_10184_DESCRIPTION_onyxiastage3 = "Once Onyxia reaches 40% health, she will land back on the ground."
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_18431 = "Rugido bramido"
@@ -1886,16 +2526,67 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_KARA10_BOSS_NAME_61221 = "Reina de cría Araxxna"
     IJ_DB_RAID_KARA10_BOSS_STORY_61221 =
         "La oscura energía arcana que se escapa de los experimentos de Medivh ha retorcido la vida silvestre natural dentro de los cimientos de la torre. Araxxna, un enorme arácnido, ha reclamado los rincones sombreados de los pasillos inferiores como su lugar de anidación. Ella y su interminable prole se dan un festín con los espíritus perdidos y los exploradores desprevenidos que se alejan demasiado de las habitaciones de invitados, tejiendo redes de maná solidificado para atrapar a sus presas."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57056 = "Mordedura parasitaria"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57056 = "Inflige daño de Naturaleza y reduce la sanación recibida un 25% durante 10 segundos.\n\nEste efecto de veneno se puede eliminar."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_57063 = "Salva de veneno de la prole"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_57063 = "Inflige daño de Naturaleza a los enemigos cercanos y los envenena, causando daño de Naturaleza adicional cada 3 segundos durante 12 segundos.\n\nElimina el veneno rápidamente."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_30008 = "Huevos de Telaraña"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_30008 = "Aproximadamente cada 30 segundos, Araxxna genera dos Huevos de Telaraña. De cada huevo nace un Reptador de Telaraña tras unos 20 segundos si no se destruye.\n\nDestruye los huevos antes de que eclosionen. Los huevos restantes pueden eclosionar incluso después de la muerte de Araxxna."
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_NAME_61206 = "Reptador de Telaraña"
+    IJ_DB_RAID_KARA10_BOSS_61221_ABILITY_EFFECT_61206 = "De cada Huevo de Telaraña que no se destruya a tiempo nace un Reptador de Telaraña."
     IJ_DB_RAID_KARA10_BOSS_NAME_61224 = "Grizikil"
     IJ_DB_RAID_KARA10_BOSS_STORY_61224 =
         "Acaparador por naturaleza, la criatura conocida como Grizikil acecha al final de las salas de invitados, rodeada por una montaña de baratijas robadas. Entre sus tesoros más extraños se encuentra una vela cómicamente grande, un candelabro colosal que se dice que es esencial para extraños experimentos dentro de la Biblioteca del Maestro. Es ferozmente protector con su alijo y considera a cualquiera que se acerque como ladrones comunes que buscan saquear sus \"símbolos de estatus\"."
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57091 = "Oleada de llamas"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57091 = "Canaliza durante 9 segundos e inflige daño de Fuego a sí mismo y a los enemigos en un radio de 10 metros cada 3 segundos.\n\nAléjate de Grizikil mientras canaliza."
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57093 = "Lluvia de Fuego grell"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57093 = "Crea una zona de fuego que dura 20 segundos e inflige daño de Fuego cada 3 segundos a los enemigos en su interior.\n\nSal de la zona afectada."
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_NAME_57094 = "Bola de Fuego grell"
+    IJ_DB_RAID_KARA10_BOSS_61224_ABILITY_EFFECT_57094 = "Inflige daño de Fuego a un enemigo y daño de Fuego adicional cada 2 segundos durante 6 segundos."
     IJ_DB_RAID_KARA10_BOSS_NAME_61223 = "Señor de las garras Colmillo Aullido"
     IJ_DB_RAID_KARA10_BOSS_STORY_61223 =
         "Clawlord Howlfang es el líder tiránico de los huargen que han infestado Karazhan. Atraído por la presencia de la Guadaña de Elune, que fue llevada a la torre por un misterioso Jinete Oscuro, Howlfang ha afirmado su dominio sobre las diversas tribus que acechan en las sombras. Al cortarlo, uno podría esperar sofocar la devastación salvaje que amenaza con consumir los pasillos inferiores."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57076 = "Mordedura babeante"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57076 = "Inflige daño físico y hace que el objetivo sangre cada 1,5 segundos durante 12 segundos."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57083 = "Presencia aterradora"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57083 = "Reduce la armadura y el daño infligido por los enemigos en un radio de 10 metros. Este efecto se acumula y dura 10 segundos.\n\nMantén solo a un tanque cerca de Howlfang mientras el otro espera fuera de la línea de visión. Intercambiad posiciones al acumular cargas para que el tanque anterior salga de la línea de visión y deje que el efecto expire. Unas 15 cargas pueden servir de referencia, pero la banda debe decidir cuándo cambiar.\n\nLos jugadores de daño también deben salir de la línea de visión para reiniciar sus cargas cuando sea necesario, normalmente con menos frecuencia que los tanques."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57084 = "Maldición de Shadowbane"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57084 = "Maldice a los enemigos cercanos y reduce la sanación recibida un 50% durante 10 minutos.\n\nElimina la maldición inmediatamente, dando prioridad a los tanques."
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_NAME_57082 = "Frenesí sangriento"
+    IJ_DB_RAID_KARA10_BOSS_61223_ABILITY_EFFECT_57082 = "Al alcanzar aproximadamente un 30% de salud, aumenta la velocidad de ataque cuerpo a cuerpo un 35% durante 2 minutos."
     IJ_DB_RAID_KARA10_BOSS_NAME_61222 = "Señor Blackwald II"
     IJ_DB_RAID_KARA10_BOSS_STORY_61222 =
         "Lord Blackwald II es un ser miserable que se deleitaba con la oscura adquisición de la Guadaña de Elune. Su malevolencia resuena por los pasillos y encuentra una retorcida satisfacción en la posesión de la poderosa y maldita reliquia. Guarda el artefacto con un fanatismo nacido de la exposición prolongada a su poder vinculado a las sombras, lo que sirve como un sombrío recordatorio de que los residentes de Karazhan son tan prisioneros de sus propios deseos como lo son de los muros de la torre."
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57066 = "Tormenta del devastador"
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57066 = "Inflige daño físico a los enemigos en un radio de 8 metros tras un lanzamiento de 1,5 segundos.\n\nAléjate de Blackwald mientras lanza el hechizo."
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57073 = "Don de Blackwald"
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57073 = "Maldice a un enemigo y reduce todos sus atributos un 20% durante 1 hora.\n\nElimina la maldición rápidamente."
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57074 = "Bendición de Blackwald"
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57074 = "Aumenta las velocidades de ataque y lanzamiento y el tamaño de Blackwald un 11% durante 2 minutos. Este efecto se acumula."
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57075 = "Alma potenciada"
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57075 = "Aumenta la velocidad de ataque y el tamaño de un enemigo un 25%, mientras inflige daño de las Sombras cada 2 segundos durante 10 segundos."
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_61194 = "Colmillo Furioso de Shadowbane"
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_61194 = "Blackwald invoca a un Colmillo Furioso de Shadowbane aproximadamente 30 segundos después de comenzar el combate y, a partir de entonces, aproximadamente cada 45 segundos."
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57081 = "Aluvión de garras"
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57081 = "Inflige daño físico a los enemigos cercanos, reduce su armadura en 499 y hace que sangren cada segundo durante 12 segundos."
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_NAME_57082 = "Frenesí sangriento"
+    IJ_DB_RAID_KARA10_BOSS_61222_ABILITY_EFFECT_57082 = "Al alcanzar aproximadamente un 30% de salud, aumenta la velocidad de ataque cuerpo a cuerpo un 35% durante 2 minutos."
     IJ_DB_RAID_KARA10_BOSS_NAME_61225 = "Moroes"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57095 = "Polvo reluciente"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57095 = "Aturde a un enemigo, normalmente al tanque actual, durante 10 segundos.\n\nUsa una Poción de acción libre antes de Polvo reluciente para evitar el aturdimiento."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57096 = "Bomba de humo"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57096 = "Silencia a los enemigos en la zona afectada durante 10 segundos, impidiéndoles lanzar hechizos.\n\nDisipa el efecto mágico rápidamente, dando prioridad a los tanques y sanadores.\n\nDispersaos y colocad a los sanadores en lados opuestos para reducir el riesgo de que varios sanadores sean silenciados a la vez."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57097 = "Patada desequilibrante"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57097 = "Inflige daño físico a un enemigo, lo repele y lo aturde durante 4 segundos.\n\nLos tanques deben alternar provocaciones para mantener a Moroes sobre ellos. Los jugadores de daño deben permanecer por debajo de ambos tanques en amenaza."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57098 = "Conmoción agónica"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57098 = "Reduce la velocidad de movimiento un 50% y la velocidad de ataque un 30% durante 30 segundos."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57099 = "Explosión de las Sombras"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57099 = "Inflige daño de las Sombras a un enemigo."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_27564 = "Reflejo"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_27564 = "Refleja hechizos dañinos durante 5 segundos.\n\nElimina el beneficio mágico o deja de lanzar hechizos dañinos contra Moroes hasta que expire."
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_NAME_57100 = "Maldición de Moroes"
+    IJ_DB_RAID_KARA10_BOSS_61225_ABILITY_EFFECT_57100 = "Reduce la velocidad de lanzamiento de los enemigos cercanos un 60% durante 15 segundos.\n\nElimina la maldición rápidamente."
+
     IJ_DB_RAID_KARA10_BOSS_STORY_61225 =
         "Moroes, el castellano maldito y no-muerto de Karazhan, continúa con sus deberes como si el maestro todavía estuviera en su residencia. Es un protector astuto y feroz del funcionamiento interno de la torre, específicamente custodiando la Llave de las Cámaras Superiores. Si bien parece un simple sirviente, su destreza en combate y su negativa a permitir que miradas indiscretas entren en las secciones prohibidas de la torre lo convierten en uno de los obstáculos más formidables del Bajo Karazhan."
 
@@ -2065,6 +2756,22 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_WHC_BOSS_STORY_stormhoof = "Los profetas hablan de lo que vendrá. Si el Profeta Stormhoof alguna vez lo hizo, no quedó nadie para escribirlo."
     IJ_DB_DUNGEON_WHC_BOSS_NAME_shalk = "Cacique Chalk Viento Negro"
     IJ_DB_DUNGEON_WHC_BOSS_STORY_shalk = "Él conquistó. Él gobierna. Más allá de eso, el cañón no ofrece nada del Cacique Shalk Blackwind."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_22539 = "Llama de las Sombras"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_22539 = "Inflige daño de las Sombras a los enemigos en un cono frontal.\n\nMantén a Faucefogo de espaldas a la banda."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_22682 = "Daño de Llama de las Sombras"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_22682 = "Inflige daño de las Sombras adicional cada segundo durante 10 segundos.\n\nLos tanques deben equipar una Capa de escamas de Onyxia para prevenir este efecto periódico. Los demás miembros de la banda no necesitan la capa si evitan el aliento frontal. La capa no evita el impacto inicial."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_23339 = "Sacudida de alas"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_23339 = "Inflige daño físico a los enemigos frente a Faucefogo en un radio de 20 metros, los repele y reduce su amenaza.\n\nEl tanque secundario debe estar preparado para tomar el relevo si el jefe cambia de objetivo."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_23341 = "Sacudida de llamas"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_23341 = "Inflige daño de Fuego y aumenta el daño de Fuego recibido en 150 por acumulación durante 20 segundos. Las aplicaciones posteriores renuevan la duración y añaden acumulaciones.\n\nSal de la línea de visión de Faucefogo hasta que expire el perjuicio para eliminar tus acumulaciones."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_3417 = "Vapulear"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_3417 = "Otorga ataques cuerpo a cuerpo adicionales."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_29476 = "Chorro de pirotinieblas"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_29476 = "Crea zonas oscuras en la sala. Las zonas ocupadas infligen daño de Fuego localizado; las desocupadas provocan explosiones que alcanzan a la banda.\n\nAsigna jugadores para permanecer en cada zona y absorber su daño para evitar las explosiones. Los sanadores deben apoyar a estos jugadores."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_46855 = "Estallido de pirotinieblas"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_46855 = "Inflige daño de Fuego al jugador que ocupa un Chorro de pirotinieblas."
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_NAME_46856 = "Explosión de pirotinieblas"
+    IJ_DB_RAID_BWL_BOSS_11983_ABILITY_EFFECT_46856 = "Un Chorro de pirotinieblas desocupado inflige daño de Fuego a los enemigos en un radio de 100 metros."
     IJ_DB_RAID_BWL_BOSS_NAME_ezzel = "Ezzel Darkbrewer"
     IJ_DB_RAID_ONY_BOSS_NAME_axelus = "Comandante de cría Axelus"
     IJ_DB_RAID_ONY_BOSS_STORY_axelus = "La prole no habla de sus comandantes con los forasteros, y menos aún el comandante de progenie Axelus."
@@ -2136,9 +2843,28 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_cindarionflamebreath = "Aliento de llama"
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_cindarionflamebreath = "Cindarion lanza aliento de llamas, lo que inflige daño de fuego a todos los enemigos frente a él."
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_onyxianhatcher = "Nacedor Onixiano"
-    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_onyxianhatcher = "Dos Onyxian Hatcher aparecen después de que Onyxia aterriza nuevamente en el suelo, ayudándola durante el resto de la pelea."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_onyxianhatcher = "Dos criadores de Onyxia se unen al combate poco después de que Onyxia aterrice. Permanecen activos hasta que mueren."
     IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_rainoffire = "lluvia de fuego"
-    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire = "Onyxian Hatcher lanza lluvias de fuego que aparecen alrededor de la habitación, causando un gran daño de fuego a los enemigos que se encuentren dentro."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_rainoffire = "Inflige daño de Fuego cada 2 segundos durante 6 segundos a los enemigos en el área seleccionada de 10 metros.\n\nSal del área afectada."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_19983 = "Rajar"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_19983 = "Inflige daño físico a los enemigos cercanos."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_21919 = "Vapulear"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_21919 = "Otorga ataques cuerpo a cuerpo adicionales."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_19633 = "Repeler"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_19633 = "Inflige daño físico al objetivo actual, lo repele y reduce su amenaza."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_22191 = "Suelo ardiente"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_22191 = "Una oleada de fuego se extiende por la trayectoria de vuelo de Onyxia e inflige daño de Fuego a los enemigos alcanzados."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_17731 = "Erupción"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_17731 = "Clamor bramante hace que las fisuras de lava entren en erupción, infligiendo daño de Fuego a los enemigos cercanos.\n\nEvita permanecer sobre las fisuras."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_33437 = "Salva de bolas de Fuego"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_33437 = "Inflige daño de Fuego a los enemigos en el área."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_33438 = "Desgarrón de garras"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_33438 = "Inflige daño físico inmediatamente y cada segundo, y reduce la armadura en 1.000 durante 12 segundos."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_33446 = "Enfurecer"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_33446 = "Al llegar aproximadamente al 50% y al 20% de salud, Cindarion aumenta su velocidad de ataque cuerpo a cuerpo un 30%."
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_NAME_33441 = "Rajar llameante"
+    IJ_DB_RAID_ONY_BOSS_10184_ABILITY_EFFECT_33441 = "Inflige daño de Fuego a los enemigos frente al criador."
+
     IJ_DB_RAID_TH_BOSS_NAME_karrsh = "Karrsh el centinela"
     IJ_DB_RAID_TH_BOSS_STORY_karrsh = "Un centinela vigila algo que vale la pena proteger. Lo que Karrsh guarda ahora en la oscuridad del Bastión Fauces de Madera, nadie ha regresado para informarlo."
     IJ_DB_RAID_TH_BOSS_NAME_rotgrowl = "gruñido podrido"
@@ -2223,11 +2949,29 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_SWR_BOSS_STORY_62670 =
         "Esta inquietante abominación nació de la cruel intención del Consejo de la Sombra, manifestándose como una masa de almas jóvenes atormentadas. O'jin y otros espíritus sensibles pueden escuchar los gritos de estos pobres niños, que fueron utilizados como materia prima para los viles experimentos del Consejo. Sólo matando esta abominación podrán finalmente liberarse las almas inocentes."
     IJ_DB_RAID_MC_BOSS_STORY_57642 =
-        "El Hechicero Thane Thaurissan fue el líder de los sombríos hechiceros del clan Hierro Negro antes y durante la Guerra de los Tres Martillos. Él fue el responsable de convocar al Señor del Fuego Ragnaros a Azeroth."
+        "Durante la Guerra de los Tres Martillos, el hechicero-thane Thaurissan intentó salvar al clan Hierro Negro de la derrota invocando a un poderoso sirviente. En su lugar, liberó a Ragnaros, cuya llegada alzó la Montaña Roca Negra, mató a Thaurissan y dejó esclavizados a los Hierro Negro supervivientes. Ahora, como no-muerto en el Núcleo de Magma, el Primer Emperador sigue siendo una de las amenazas al servicio del Señor del Fuego."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52722 = "Ruptura Arcana"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52722 =
+        "Inflige daño Arcano a un enemigo y aumenta el daño Arcano que recibe un 5% durante 30 segundos."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52723 = "Tromba Arcana"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52723 =
+        "Lanza un proyectil Arcano a un enemigo, le inflige daño y lo repele."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52724 = "Runa de poder"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52724 =
+        "Permanecer dentro de la runa aumenta el daño infligido un 30%, reduce el daño de Fuego recibido un 70% y reduce el daño recibido de otras escuelas un 20%.\n\nEntra para Runa de combustión y sal para Runa de detonación."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52725 = "Runa de detonación"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52725 =
+        "Marca a los enemigos para que detonen tras 6 segundos e inflijan daño Arcano. Sal de Runa de poder antes de que detone la marca para evitar daño aumentado."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52726 = "Runa de combustión"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52726 =
+        "Marca a los enemigos para que detonen tras 6 segundos e inflijan mucho daño de Fuego. Entra en Runa de poder y permanece dentro hasta que detone la marca para reducir el daño."
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_NAME_52727 = "Imagen especular"
+    IJ_DB_RAID_MC_BOSS_57642_ABILITY_EFFECT_52727 =
+        "Al 50% de salud, Thaurissan invoca una imagen de sí mismo que también lanza Ruptura Arcana y Tromba Arcana."
     IJ_DB_RAID_KARA40_BOSS_STORY_59981 =
         "Un Draenei cuyo espíritu fue fracturado aún más por las anomalías espaciales dentro de esta ala de la torre. Atrapado dentro de la Roca de la Desolación, Sanv Tas'dal se ha visto llevado a una desesperación salvaje, empuñando los restos de su herencia chamánica y su oscuro vudú para defender su exiguo territorio de cualquier intruso."
     IJ_DB_RAID_BWL_BOSS_STORY_ezzel =
-        "Ezzel Darkbrewer puede ser un duende de pequeña estatura, pero de ninguna manera es un presa fácil. Con un arsenal de brebajes químicos y una mente brillante agudizada por muchos años en el campo, está listo para frustrar a cualquier intruso que entre en el laboratorio de su empleador. Ah, y no te olvides del pesado ogro sobre el que está encima."
+        "Ezzel Darkbrewer puede ser un duende de pequeña estatura, pero de ninguna manera es un presa fácil. Con un arsenal de brebajes químicos y una mente brillante agudizada por muchos años en el campo, está listo para frustrar a cualquier intruso que entre en el laboratorio de su empleador. Ah, y no te olvides del pesado ogro sobre el que está encima.\n\nContratado por Nefarian para reforzar las defensas de la Guarida Alanegra, Ezzel custodia el Laboratorio de Alquimia junto a su corpulento compañero, Ton'Raka."
     IJ_DB_RAID_NAXX_BOSS_STORY_16061 =
         "El más temido de los entrenadores de caballeros de la Muerte de la Plaga, el Instructor Razuvious, fue una vez el caballero Lordaeroniano Razuv Ivaldi, un veterano del asedio de la Horda durante la Segunda Guerra. En vida fue un soldado disciplinado, pero en la vida no muerta se ha convertido en un instructor despiadado, formando nuevos caballeros de la muerte a través de la brutalidad y la obediencia absoluta. Rodeado de sus leales suplentes, Razuvious hace cumplir la voluntad de la Plaga con implacable severidad, convirtiendo a sus alumnos en armas tan despiadadas como él mismo."
     IJ_QUEST_NAME_41386 = "licántropo pricólich"
@@ -2290,8 +3034,8 @@ if GetLocale() == "esES" then
     IJ_QUEST_OBJECTIVE_40828 = "Encuentra el \"Tratado sobre llaves y cerraduras mágicas\" y tráelo a Vandol. Se rumorea que se guarda en Blackwing Lair."
     IJ_QUEST_NAME_70000 = "Un tipo especial de convocatoria"
     IJ_QUEST_OBJECTIVE_70000 = "Visita al archimago Xylem en Azshara."
-    IJ_QUEST_NAME_70001 = "Perdido en las arenas"
-    IJ_QUEST_OBJECTIVE_70001 = "Llévale un fragmento de obsidiana perfecta al archimago Xylem."
+    IJ_QUEST_NAME_70001 = "La protección del malhechor"
+    IJ_QUEST_OBJECTIVE_70001 = "Llévale una protección del malhechor al archimago Xylem."
     IJ_NPC_NAME_14368 = "Guardián de la tradición Lydros"
     IJ_NPC_NAME_1498 = "Bethor Fragmento de Hielo"
     IJ_NPC_NAME_2708 = "Archimago Malin"

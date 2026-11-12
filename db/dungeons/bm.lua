@@ -22,7 +22,15 @@ BM.ZoneId = IZI.BM2
 BM.IconScale = 1.0
 BM.MinLevel = 60
 BM.MaxLevel = 60
-BM.Entrances = {[1] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.CavernsOfTime, MapCoordinateX = 34.3, MapCoordinateY = 85.2, MapDestinationZoneId = IZI.BM2}}
+BM.Entrances = {
+    [1] = {
+        MapContinentId = IMI.Kalimdor, 
+        MapZoneId = IZI.CavernsOfTime, 
+        MapCoordinateX = 34.3, 
+        MapCoordinateY = 85.2, 
+        MapDestinationZoneId = IZI.BM2
+    }
+}
 BM.Links = {
     [1] = {
         OriginMapContinentId = IMI.TheBlackMorass,
