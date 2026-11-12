@@ -5105,7 +5105,6 @@ if GetLocale() == "esES" then
     IJ_NPC_NAME_63019 = "Shovu"
     IJ_QUEST_NAME_2041 = "Habla con Shoni"
     IJ_QUEST_OBJECTIVE_2041 = "Habla con Shoni la Shilent en Ventormenta."
-end
     IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30194 = "Bomba de ácido"
     IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30194 = "Inflige daño de Naturaleza a los enemigos a menos de 10 metros del impacto y deja un charco de ácido."
     IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30195 = "Charco de ácido"
@@ -5182,3 +5181,4 @@ end
     IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23128 = "Aumenta la velocidad de ataque un 150% durante 8 segundos.\n\nLos cazadores deben eliminar Frenesí inmediatamente con Disparo tranquilizante."
     IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_28747 = "Enfurecer"
     IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_28747 = "Aproximadamente al 20% de salud, aumenta el daño físico infligido un 100% y la velocidad de ataque un 50% durante el resto del combate.\n\nEste efecto es distinto del Frenesí eliminado con Disparo tranquilizante."
+end

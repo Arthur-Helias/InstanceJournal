@@ -5090,7 +5090,6 @@ if GetLocale() == "ptBR" then
     IJ_NPC_NAME_63019 = "Shovu"
     IJ_QUEST_NAME_2041 = "Fale com Shoni"
     IJ_QUEST_OBJECTIVE_2041 = "Fale com Shoni, o Shilent, em Ventobravo."
-end
     IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30194 = "Bomba Ácida"
     IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30194 = "Causa dano de Natureza aos inimigos em um raio de 10 metros do impacto e deixa uma poça de ácido."
     IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30195 = "Poça de Ácido"
@@ -5167,3 +5166,4 @@ end
     IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23128 = "Aumenta a velocidade de ataque em 150% por 8 segundos.\n\nCaçadores devem remover Frenesi imediatamente com Tiro Tranquilizante."
     IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_28747 = "Enfurecer"
     IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_28747 = "Aproximadamente a 20% de vida, aumenta o dano Físico causado em 100% e a velocidade de ataque em 50% pelo restante da luta.\n\nEste efeito é separado do Frenesi removido por Tiro Tranquilizante."
+end

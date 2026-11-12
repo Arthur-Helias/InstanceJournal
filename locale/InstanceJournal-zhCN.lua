@@ -10166,7 +10166,6 @@ if GetLocale() == "zhCN" then
     IJ_NPC_NAME_63019 = "绍武"
     IJ_QUEST_NAME_2041 = "与肖尼交谈"
     IJ_QUEST_OBJECTIVE_2041 = "与暴风城的沉默者肖尼交谈。"
-end
     IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30194 = "酸性炸弹"
     IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30194 = "对落点周围10码内的敌人造成自然伤害，并留下酸液池。"
     IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30195 = "酸液池"
@@ -10243,3 +10242,4 @@ end
     IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23128 = "攻击速度提高150%，持续8秒。\n\n猎人应立即使用宁神射击移除狂暴。"
     IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_28747 = "激怒"
     IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_28747 = "生命值约降至20%时，造成的物理伤害提高100%，攻击速度提高50%，持续至战斗结束。\n\n此效果与宁神射击移除的狂暴不同。"
+end

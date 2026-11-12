@@ -5122,7 +5122,6 @@ if GetLocale() == "deDE" then
     IJ_NPC_NAME_63019 = "Shovu"
     IJ_QUEST_NAME_2041 = "Sprich mit Shoni"
     IJ_QUEST_OBJECTIVE_2041 = "Sprecht mit Shoni dem Shilent in Sturmwind."
-end
     IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30194 = "Säurebombe"
     IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30194 = "Fügt Gegnern im Umkreis von 10 Metern um den Einschlag Naturschaden zu und hinterlässt eine Säurepfütze."
     IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30195 = "Säurepfütze"
@@ -5199,3 +5198,4 @@ end
     IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23128 = "Erhöht das Angriffstempo 8 Sekunden lang um 150%.\n\nJäger sollten Raserei sofort mit Einlullender Schuss entfernen."
     IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_28747 = "Wutanfall"
     IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_28747 = "Erhöht bei etwa 20% Gesundheit den verursachten körperlichen Schaden für den restlichen Kampf um 100% und das Angriffstempo um 50%.\n\nDies ist ein anderer Effekt als die durch Einlullender Schuss entfernte Raserei."
+end

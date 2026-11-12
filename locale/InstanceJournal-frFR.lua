@@ -5121,7 +5121,6 @@ if GetLocale() == "frFR" then
     IJ_NPC_NAME_63019 = "Shovu"
     IJ_QUEST_NAME_2041 = "Parler à Shoni"
     IJ_QUEST_OBJECTIVE_2041 = "Parlez à Shoni le Shilent à Hurlevent."
-end
     IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30194 = "Bombe d’acide"
     IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_EFFECT_30194 = "Inflige des dégâts de Nature aux ennemis à moins de 10 mètres du point d’impact et laisse une flaque d’acide."
     IJ_DB_RAID_BWL_BOSS_ezzel_ABILITY_NAME_30195 = "Flaque d’acide"
@@ -5198,3 +5197,4 @@ end
     IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23128 = "Augmente la vitesse d'attaque de 150% pendant 8 secondes.\n\nLes chasseurs doivent dissiper immédiatement Frénésie avec Tir tranquillisant."
     IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_28747 = "Enrager"
     IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_28747 = "À environ 20% de vie, augmente les dégâts physiques infligés de 100% et la vitesse d'attaque de 50% jusqu'à la fin du combat.\n\nCet effet est distinct de la Frénésie dissipée par Tir tranquillisant."
+end

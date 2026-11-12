@@ -24,6 +24,7 @@ All changes to this project will be documented in this file.
 
 ### Fixed
 
+- Kept BWL translations inside their locale conditions to prevent other languages from overriding encounter text
 - Corrected the map position of `Magistrate Barthilas` in `Stratholme`
 - Updated the objective of `The Hexxer's Ward` to request a `Hexxer's Ward` instead of a `Perfect Obsidian Shard`
 
