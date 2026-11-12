@@ -83,6 +83,7 @@ All changes to this project will be documented in this file.
 
 ### Changed
 
+- Clarified `Shadow Flame` cloak requirements for tanks and other raid members
 - Separated effects and player guidance into paragraphs in longer Molten Core ability descriptions
 - Expanded `Edge of Madness` lore with the four troll spirits and their summoning ritual
 - Expanded `Gahz'ranka` lore with Nat Pagle and the summoning lure
