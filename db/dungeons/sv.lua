@@ -22,8 +22,18 @@ SV.IconScale = 1.0
 SV.MinLevel = 60
 SV.MaxLevel = 60
 SV.Entrances = {
-    [1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 62.8, MapCoordinateY = 58.6},
-    [2] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.ElwynnForest, MapCoordinateX = 29.4, MapCoordinateY = 61.8}
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.StormwindCity, 
+        MapCoordinateX = 62.8, 
+        MapCoordinateY = 58.6
+    },
+    [2] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.ElwynnForest, 
+        MapCoordinateX = 29.4, 
+        MapCoordinateY = 61.8
+    }
 }
 SV.Bosses = {
     [1] = {
@@ -35,8 +45,19 @@ SV.Bosses = {
         MapCoordinateX = 37.7,
         MapCoordinateY = 38.5,
         Abilities = {
-            [1] = {Id = "10212", Icon = "Spell_Nature_StarFall", Name = IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_10212, Effect = IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_10212},
-            [2] = {Id = "18702", Icon = "Spell_Shadow_AntiShadow", Name = IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_18702, Effect = IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_18702, Flags = {IMAF.Curse}}
+            [1] = {
+                Id = "10212", 
+                Icon = "Spell_Nature_StarFall", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_10212, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_10212
+            },
+            [2] = {
+                Id = "18702", 
+                Icon = "Spell_Shadow_AntiShadow", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_18702, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_18702, 
+                Flags = {IMAF.Curse}
+            }
         },
         Loot = {
             [1] = {IJDB.I[60504], DropChance = 17},
@@ -58,9 +79,27 @@ SV.Bosses = {
         MapCoordinateX = 68.6,
         MapCoordinateY = 90.1,
         Abilities = { -- NOTE: Something about ice block?
-            [1] = {Id = "5246", Icon = "Ability_GolemThunderClap", Name = IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_5246, Effect = IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_5246, Flags = {IMAF.Important}},
-            [2] = {Id = "22859", Icon = "Ability_Warrior_SavageBlow", Name = IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_22859, Effect = IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_22859, Flags = {IMAF.Heal}},
-            [3] = {Id = "22857", Icon = "Ability_Warrior_Challange", Name = IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_22857, Effect = IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_22857, Flags = {IMAF.DPS, IMAF.Important}}
+            [1] = {
+                Id = "5246", 
+                Icon = "Ability_GolemThunderClap", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_5246, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_5246, 
+                Flags = {IMAF.Important}
+            },
+            [2] = {
+                Id = "22859", 
+                Icon = "Ability_Warrior_SavageBlow", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_22859, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_22859, 
+                Flags = {IMAF.Heal}
+            },
+            [3] = {
+                Id = "22857", 
+                Icon = "Ability_Warrior_Challange", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_22857, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_22857, 
+                Flags = {IMAF.DPS, IMAF.Important}
+            }
         },
         Loot = {
             [1] = {IJDB.I[60502], DropChance = 17},
@@ -82,10 +121,33 @@ SV.Bosses = {
         MapCoordinateX = 55.9,
         MapCoordinateY = 10.8,
         Abilities = {
-            [1] = {Id = "16867", Icon = "Spell_Nature_Drowsy", Name = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_16867, Effect = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_16867, Flags = {IMAF.Curse}},
-            [2] = {Id = "16565", Icon = "Spell_Shadow_ShadowBolt", Name = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_16565, Effect = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_16565},
-            [3] = {Id = "17244", Icon = "Spell_Shadow_Charm", Name = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_17244, Effect = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_17244, Flags = {IMAF.Important}},
-            [4] = {Id = "18327", Icon = "Spell_Holy_Silence", Name = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_18327, Effect = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_18327, Flags = {IMAF.Magic}}
+            [1] = {
+                Id = "16867", 
+                Icon = "Spell_Nature_Drowsy", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_16867, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_16867, 
+                Flags = {IMAF.Curse}
+            },
+            [2] = {
+                Id = "16565", 
+                Icon = "Spell_Shadow_ShadowBolt", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_16565, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_16565
+            },
+            [3] = {
+                Id = "17244", 
+                Icon = "Spell_Shadow_Charm", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_17244, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_17244, 
+                Flags = {IMAF.Important}
+            },
+            [4] = {
+                Id = "18327", 
+                Icon = "Spell_Holy_Silence", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_18327, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_18327, 
+                Flags = {IMAF.Magic}
+            }
         },
         Loot = {
             [1] = {IJDB.I[60408], DropChance = 20},
@@ -107,10 +169,34 @@ SV.Bosses = {
         MapCoordinateY = 43.1,
         MapIsBelow = true,
         Abilities = {
-            [1] = {Id = "9256", Icon = "Spell_Nature_Sleep", Name = IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_NAME_9256, Effect = IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_9256, Flags = {IMAF.Important}},
-            [2] = {Id = "15398", Icon = "Spell_Shadow_PsychicScream", Name = IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_15398, Effect = IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_15398, Flags = {IMAF.Important}},
-            [3] = {Id = "20741", Icon = "Spell_Shadow_ShadowBolt", Name = IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_20741, Effect = IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_20741, Flags = {IMAF.Heal}},
-            [4] = {Id = "20603", Icon = "Spell_Shadow_ShadowBolt", Name = IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_20603, Effect = IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_20603, Flags = {IMAF.Heal}}
+            [1] = {
+                Id = "9256", 
+                Icon = "Spell_Nature_Sleep", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_NAME_9256, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_9256, 
+                Flags = {IMAF.Important}
+            },
+            [2] = {
+                Id = "15398", 
+                Icon = "Spell_Shadow_PsychicScream", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_15398, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_15398, 
+                Flags = {IMAF.Important}
+            },
+            [3] = {
+                Id = "20741", 
+                Icon = "Spell_Shadow_ShadowBolt", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_20741, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_20741, 
+                Flags = {IMAF.Heal}
+            },
+            [4] = {
+                Id = "20603", 
+                Icon = "Spell_Shadow_ShadowBolt", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_20603, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_20603, 
+                Flags = {IMAF.Heal}
+            }
         },
         Loot = {
             [1] = {IJDB.I[60412], DropChance = 20},
@@ -131,9 +217,26 @@ SV.Bosses = {
         MapCoordinateX = 46.5,
         MapCoordinateY = 43.4,
         Abilities = {
-            [1] = {Id = "11700", Icon = "Spell_Shadow_LifeDrain02", Name = IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_11700, Effect = IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11700, Flags = {IMAF.Interruptible}},
-            [2] = {Id = "11668", Icon = "Spell_Fire_Immolation", Name = IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_11668, Effect = IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11668, Flags = {IMAF.Heal, IMAF.Magic}},
-            [3] = {Id = "1856", Icon = "Ability_Vanish", Name = IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_1856, Effect = IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_1856}
+            [1] = {
+                Id = "11700", 
+                Icon = "Spell_Shadow_LifeDrain02", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_11700, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11700, 
+                Flags = {IMAF.Interruptible}
+            },
+            [2] = {
+                Id = "11668", 
+                Icon = "Spell_Fire_Immolation", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_11668, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11668, 
+                Flags = {IMAF.Heal, IMAF.Magic}
+            },
+            [3] = {
+                Id = "1856", 
+                Icon = "Ability_Vanish", 
+                Name = IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_1856, 
+                Effect = IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_1856
+            }
         },
         Loot = {
             [1] = {IJDB.I[60421], DropChance = 20},

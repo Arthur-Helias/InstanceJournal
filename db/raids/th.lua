@@ -21,7 +21,14 @@ TH.MapId = IMI.TimbermawHold
 TH.IconScale = 0.8
 TH.MinLevel = 60
 TH.MaxLevel = 60
-TH.Entrances = {[1] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.TimbermawHold, MapCoordinateX = 16.8, MapCoordinateY = 43.2}}
+TH.Entrances = {
+    [1] = {
+        MapContinentId = IMI.Kalimdor, 
+        MapZoneId = IZI.TimbermawHold, 
+        MapCoordinateX = 16.8, 
+        MapCoordinateY = 43.2
+    }
+}
 TH.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "karrsh",

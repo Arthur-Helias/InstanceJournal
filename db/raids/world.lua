@@ -166,9 +166,21 @@ WORLD.Bosses = {
         MapCoordinateY = 54.7,
         MapId = IMI.MoomooGrove,
         Abilities = {
-            [1] = {Id = "moomoo", Icon = "Spell_Nature_Polymorph_Cow", Name = IJ_DB_RAID_WORLD_BOSS_91799_ABILITY_NAME_moomoo, Effect = IJ_DB_RAID_WORLD_BOSS_91799_ABILITY_EFFECT_moomoo, Flags = {IMAF.Tank, IMAF.Deadly}}
+            [1] = {
+                Id = "moomoo", 
+                Icon = "Spell_Nature_Polymorph_Cow", 
+                Name = IJ_DB_RAID_WORLD_BOSS_91799_ABILITY_NAME_moomoo, 
+                Effect = IJ_DB_RAID_WORLD_BOSS_91799_ABILITY_EFFECT_moomoo, 
+                Flags = {IMAF.Tank, IMAF.Deadly}
+            }
         },
-        Loot = {[1] = {IJDB.I[51261], DropChance = 100}, [2] = {IJDB.I[60486], DropChance = 25}, [3] = {IJDB.I[60487], DropChance = 50}, [4] = {IJDB.I[60489], DropChance = 50}, [5] = {IJDB.I[60490], DropChance = 50}}
+        Loot = {
+            [1] = {IJDB.I[51261], DropChance = 100}, 
+            [2] = {IJDB.I[60486], DropChance = 25}, 
+            [3] = {IJDB.I[60487], DropChance = 50}, 
+            [4] = {IJDB.I[60489], DropChance = 50}, 
+            [5] = {IJDB.I[60490], DropChance = 50}
+        }
     },
     [7] = { -- NOTE: Missing abilities
         Id = "16184",

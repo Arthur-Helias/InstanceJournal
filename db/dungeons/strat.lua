@@ -22,8 +22,18 @@ STRAT.IconScale = 0.7
 STRAT.MinLevel = 58
 STRAT.MaxLevel = 60
 STRAT.Entrances = {
-    [1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.EasternPlaguelands, MapCoordinateX = 30.8, MapCoordinateY = 14.8},
-    [2] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.EasternPlaguelands, MapCoordinateX = 47.7, MapCoordinateY = 23.4}
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.EasternPlaguelands, 
+        MapCoordinateX = 30.8, 
+        MapCoordinateY = 14.8
+    },
+    [2] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.EasternPlaguelands, 
+        MapCoordinateX = 47.7, 
+        MapCoordinateY = 23.4
+    }
 }
 STRAT.Bosses = {
     [1] = { -- NOTE: Missing abilities
@@ -35,7 +45,12 @@ STRAT.Bosses = {
         MapCoordinateX = 56.4,
         MapCoordinateY = 84.9,
         IsRare = true,
-        Loot = {[1] = {IJDB.I[13395], DropChance = 33}, [2] = {IJDB.I[13394], DropChance = 33}, [3] = {IJDB.I[13396], DropChance = 33}, [4] = {IJDB.I[70226], DropChance = 2}}
+        Loot = {
+            [1] = {IJDB.I[13395], DropChance = 33}, 
+            [2] = {IJDB.I[13394], DropChance = 33}, 
+            [3] = {IJDB.I[13396], DropChance = 33}, 
+            [4] = {IJDB.I[70226], DropChance = 2}
+        }
     },
     [2] = { -- NOTE: Missing abilities
         Id = "10558",
@@ -122,7 +137,10 @@ STRAT.Bosses = {
         Story = IJ_DB_DUNGEON_STRAT_BOSS_STORY_11120,
         MapCoordinateX = 29.8,
         MapCoordinateY = 73.5,
-        Loot = {[1] = {IJDB.I[18781], DropChance = 40}, [2] = {IJDB.I[124], DropChance = 6}}
+        Loot = {
+            [1] = {IJDB.I[18781], DropChance = 40}, 
+            [2] = {IJDB.I[124], DropChance = 6}
+        }
     },
     [7] = { -- NOTE: Missing abilities
         Id = "10997",
@@ -231,7 +249,12 @@ STRAT.Bosses = {
         MapCoordinateX = 83.5,
         MapCoordinateY = 43.0,
         IsRare = true,
-        Loot = {[1] = {IJDB.I[13397], DropChance = 33}, [2] = {IJDB.I[13399], DropChance = 33}, [3] = {IJDB.I[13954], DropChance = 33}, [4] = {IJDB.I[70226], DropChance = 2}}
+        Loot = {
+            [1] = {IJDB.I[13397], DropChance = 33}, 
+            [2] = {IJDB.I[13399], DropChance = 33}, 
+            [3] = {IJDB.I[13954], DropChance = 33}, 
+            [4] = {IJDB.I[70226], DropChance = 2}
+        }
     },
     [12] = { -- NOTE: Missing abilities
         Id = "10437",

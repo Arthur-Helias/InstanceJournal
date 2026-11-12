@@ -22,8 +22,18 @@ DMW.IconScale = 0.7
 DMW.MinLevel = 57
 DMW.MaxLevel = 60
 DMW.Entrances = {
-    [1] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.DireMaul, MapCoordinateX = 57.4, MapCoordinateY = 39.2},
-    [2] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.DireMaul, MapCoordinateX = 57.4, MapCoordinateY = 49.9}
+    [1] = {
+        MapContinentId = IMI.Kalimdor, 
+        MapZoneId = IZI.DireMaul, 
+        MapCoordinateX = 57.4, 
+        MapCoordinateY = 39.2
+    },
+    [2] = {
+        MapContinentId = IMI.Kalimdor, 
+        MapZoneId = IZI.DireMaul, 
+        MapCoordinateX = 57.4, 
+        MapCoordinateY = 49.9
+    }
 }
 DMW.Bosses = {
     [1] = { -- NOTE: Missing abilities
@@ -118,7 +128,11 @@ DMW.Bosses = {
         Story = IJ_DB_DUNGEON_DMW_BOSS_STORY_11467,
         MapCoordinateX = 29.1,
         MapCoordinateY = 66.5,
-        Loot = {[1] = {IJDB.I[18345], DropChance = 33}, [2] = {IJDB.I[18346], DropChance = 33}, [3] = {IJDB.I[18387], DropChance = 33}}
+        Loot = {
+            [1] = {IJDB.I[18345], DropChance = 33}, 
+            [2] = {IJDB.I[18346], DropChance = 33}, 
+            [3] = {IJDB.I[18387], DropChance = 33}
+        }
     },
     [5] = { -- NOTE: Missing abilities
         Id = "11496",

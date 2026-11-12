@@ -21,7 +21,14 @@ HQ.MapId = IMI.HateforgeQuarry
 HQ.IconScale = 0.9
 HQ.MinLevel = 51
 HQ.MaxLevel = 60
-HQ.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.BurningSteppes, MapCoordinateX = 97.5, MapCoordinateY = 59.1}}
+HQ.Entrances = {
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.BurningSteppes, 
+        MapCoordinateX = 97.5, 
+        MapCoordinateY = 59.1
+    }
+}
 HQ.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "60735",
@@ -70,7 +77,13 @@ HQ.Bosses = {
         Story = IJ_DB_DUNGEON_HQ_BOSS_STORY_60829,
         MapCoordinateX = 72.7,
         MapCoordinateY = 73.3,
-        Loot = {[1] = {IJDB.I[80670], DropChance = 20}, [2] = {IJDB.I[80671], DropChance = 20}, [3] = {IJDB.I[80674], DropChance = 20}, [4] = {IJDB.I[80673], DropChance = 20}, [5] = {IJDB.I[80672], DropChance = 20}}
+        Loot = {
+            [1] = {IJDB.I[80670], DropChance = 20}, 
+            [2] = {IJDB.I[80671], DropChance = 20}, 
+            [3] = {IJDB.I[80674], DropChance = 20}, 
+            [4] = {IJDB.I[80673], DropChance = 20}, 
+            [5] = {IJDB.I[80672], DropChance = 20}
+        }
     },
     [4] = { -- NOTE: Missing abilities
         Id = "60734",

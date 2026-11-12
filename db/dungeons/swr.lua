@@ -22,8 +22,18 @@ SWR.IconScale = 0.6
 SWR.MinLevel = 32
 SWR.MaxLevel = 44
 SWR.Entrances = {
-    [1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Balor, MapCoordinateX = 57.1, MapCoordinateY = 60.1},
-    [2] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Balor, MapCoordinateX = 56.2, MapCoordinateY = 84.9}
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.Balor, 
+        MapCoordinateX = 57.1, 
+        MapCoordinateY = 60.1
+    },
+    [2] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.Balor, 
+        MapCoordinateX = 56.2, 
+        MapCoordinateY = 84.9
+    }
 }
 SWR.Bosses = {
     [1] = { -- NOTE: Missing abilities
@@ -34,7 +44,12 @@ SWR.Bosses = {
         Story = IJ_DB_DUNGEON_SWR_BOSS_STORY_62548,
         MapCoordinateX = 45.1,
         MapCoordinateY = 25.7,
-        Loot = {[1] = {IJDB.I[58135], DropChance = 25}, [2] = {IJDB.I[58136], DropChance = 25}, [3] = {IJDB.I[58137], DropChance = 25}, [4] = {IJDB.I[58177], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[58135], DropChance = 25}, 
+            [2] = {IJDB.I[58136], DropChance = 25}, 
+            [3] = {IJDB.I[58137], DropChance = 25}, 
+            [4] = {IJDB.I[58177], DropChance = 25}
+        }
     },
     [2] = { -- NOTE: Missing abilities
         Id = "62547",
@@ -44,7 +59,12 @@ SWR.Bosses = {
         Story = IJ_DB_DUNGEON_SWR_BOSS_STORY_62547,
         MapCoordinateX = 50.5,
         MapCoordinateY = 27.0,
-        Loot = {[1] = {IJDB.I[58130], DropChance = 25}, [2] = {IJDB.I[58132], DropChance = 25}, [3] = {IJDB.I[58133], DropChance = 25}, [4] = {IJDB.I[58176], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[58130], DropChance = 25}, 
+            [2] = {IJDB.I[58132], DropChance = 25}, 
+            [3] = {IJDB.I[58133], DropChance = 25}, 
+            [4] = {IJDB.I[58176], DropChance = 25}
+        }
     },
     [3] = { -- NOTE: Missing abilities
         Id = "62552",
@@ -54,7 +74,12 @@ SWR.Bosses = {
         Story = IJ_DB_DUNGEON_SWR_BOSS_STORY_62552,
         MapCoordinateX = 47.4,
         MapCoordinateY = 35.9,
-        Loot = {[1] = {IJDB.I[58138], DropChance = 25}, [2] = {IJDB.I[58139], DropChance = 25}, [3] = {IJDB.I[58140], DropChance = 25}, [4] = {IJDB.I[58141], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[58138], DropChance = 25}, 
+            [2] = {IJDB.I[58139], DropChance = 25}, 
+            [3] = {IJDB.I[58140], DropChance = 25}, 
+            [4] = {IJDB.I[58141], DropChance = 25}
+        }
     },
     [4] = { -- NOTE: Missing abilities
         Id = "62549",
@@ -64,7 +89,12 @@ SWR.Bosses = {
         Story = IJ_DB_DUNGEON_SWR_BOSS_STORY_62549,
         MapCoordinateX = 50.4,
         MapCoordinateY = 39.5,
-        Loot = {[1] = {IJDB.I[58145], DropChance = 25}, [2] = {IJDB.I[58144], DropChance = 25}, [3] = {IJDB.I[58143], DropChance = 25}, [4] = {IJDB.I[58142], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[58145], DropChance = 25}, 
+            [2] = {IJDB.I[58144], DropChance = 25}, 
+            [3] = {IJDB.I[58143], DropChance = 25}, 
+            [4] = {IJDB.I[58142], DropChance = 25}
+        }
     },
     [5] = { -- NOTE: Missing abilities
         Id = "62551",
@@ -74,7 +104,13 @@ SWR.Bosses = {
         Story = IJ_DB_DUNGEON_SWR_BOSS_STORY_62551,
         MapCoordinateX = 39.5,
         MapCoordinateY = 47.9,
-        Loot = {[1] = {IJDB.I[75], DropChance = 6}, [2] = {IJDB.I[58149], DropChance = 25}, [3] = {IJDB.I[58148], DropChance = 25}, [4] = {IJDB.I[58147], DropChance = 25}, [5] = {IJDB.I[58146], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[75], DropChance = 6}, 
+            [2] = {IJDB.I[58149], DropChance = 25}, 
+            [3] = {IJDB.I[58148], DropChance = 25}, 
+            [4] = {IJDB.I[58147], DropChance = 25}, 
+            [5] = {IJDB.I[58146], DropChance = 25}
+        }
     },
     [6] = { -- NOTE: Missing abilities
         Id = "62550",
@@ -103,7 +139,13 @@ SWR.Bosses = {
         Story = IJ_DB_DUNGEON_SWR_BOSS_STORY_62652,
         MapCoordinateX = 32.8,
         MapCoordinateY = 91.9,
-        Loot = {[1] = {IJDB.I[58183], DropChance = 25}, [2] = {IJDB.I[58184], DropChance = 25}, [3] = {IJDB.I[58185], DropChance = 25}, [4] = {IJDB.I[58186], DropChance = 25}, [5] = {IJDB.I[83], DropChance = 6}}
+        Loot = {
+            [1] = {IJDB.I[58183], DropChance = 25}, 
+            [2] = {IJDB.I[58184], DropChance = 25}, 
+            [3] = {IJDB.I[58185], DropChance = 25}, 
+            [4] = {IJDB.I[58186], DropChance = 25}, 
+            [5] = {IJDB.I[83], DropChance = 6}
+        }
     },
     [8] = { -- NOTE: Missing abilities
         Id = "62664",
@@ -113,7 +155,12 @@ SWR.Bosses = {
         Story = IJ_DB_DUNGEON_SWR_BOSS_STORY_62664,
         MapCoordinateX = 23.9,
         MapCoordinateY = 38.3,
-        Loot = {[1] = {IJDB.I[58179], DropChance = 25}, [2] = {IJDB.I[58180], DropChance = 25}, [3] = {IJDB.I[58181], DropChance = 25}, [4] = {IJDB.I[58182], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[58179], DropChance = 25}, 
+            [2] = {IJDB.I[58180], DropChance = 25}, 
+            [3] = {IJDB.I[58181], DropChance = 25}, 
+            [4] = {IJDB.I[58182], DropChance = 25}
+        }
     },
     [9] = { -- NOTE: Missing abilities
         Id = "62661",
@@ -123,7 +170,12 @@ SWR.Bosses = {
         Story = IJ_DB_DUNGEON_SWR_BOSS_STORY_62661,
         MapCoordinateX = 22.5,
         MapCoordinateY = 25.7,
-        Loot = {[1] = {IJDB.I[58190], DropChance = 25}, [2] = {IJDB.I[58189], DropChance = 25}, [3] = {IJDB.I[58188], DropChance = 25}, [4] = {IJDB.I[58187], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[58190], DropChance = 25}, 
+            [2] = {IJDB.I[58189], DropChance = 25}, 
+            [3] = {IJDB.I[58188], DropChance = 25}, 
+            [4] = {IJDB.I[58187], DropChance = 25}
+        }
     },
     [10] = { -- NOTE: Missing abilities
         Id = "62665",
@@ -133,7 +185,12 @@ SWR.Bosses = {
         Story = IJ_DB_DUNGEON_SWR_BOSS_STORY_62665,
         MapCoordinateX = 30.7,
         MapCoordinateY = 19.3,
-        Loot = {[1] = {IJDB.I[58194], DropChance = 25}, [2] = {IJDB.I[58193], DropChance = 25}, [3] = {IJDB.I[58192], DropChance = 25}, [4] = {IJDB.I[58191], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[58194], DropChance = 25}, 
+            [2] = {IJDB.I[58193], DropChance = 25}, 
+            [3] = {IJDB.I[58192], DropChance = 25}, 
+            [4] = {IJDB.I[58191], DropChance = 25}
+        }
     },
     [11] = { -- NOTE: Missing abilities
         Id = "62670",
@@ -143,7 +200,12 @@ SWR.Bosses = {
         Story = IJ_DB_DUNGEON_SWR_BOSS_STORY_62670,
         MapCoordinateX = 26.4,
         MapCoordinateY = 10.2,
-        Loot = {[1] = {IJDB.I[58195], DropChance = 25}, [2] = {IJDB.I[58196], DropChance = 25}, [3] = {IJDB.I[58197], DropChance = 25}, [4] = {IJDB.I[58198], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[58195], DropChance = 25}, 
+            [2] = {IJDB.I[58196], DropChance = 25}, 
+            [3] = {IJDB.I[58197], DropChance = 25}, 
+            [4] = {IJDB.I[58198], DropChance = 25}
+        }
     },
     [12] = { -- NOTE: Missing abilities
         Id = "62673",

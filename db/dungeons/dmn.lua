@@ -21,7 +21,14 @@ DMN.MapId = IMI.DireMaul
 DMN.IconScale = 0.7
 DMN.MinLevel = 57
 DMN.MaxLevel = 60
-DMN.Entrances = {[1] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.DireMaul, MapCoordinateX = 70.2, MapCoordinateY = 13.5}}
+DMN.Entrances = {
+    [1] = {
+        MapContinentId = IMI.Kalimdor, 
+        MapZoneId = IZI.DireMaul, 
+        MapCoordinateX = 70.2, 
+        MapCoordinateY = 13.5
+    }
+}
 DMN.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "14326",

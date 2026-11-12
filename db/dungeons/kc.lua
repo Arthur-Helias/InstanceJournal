@@ -21,7 +21,14 @@ KC.MapId = IMI.KarazhanCrypt
 KC.IconScale = 0.8
 KC.MinLevel = 60
 KC.MaxLevel = 60
-KC.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.DeadwindPass, MapCoordinateX = 39.6, MapCoordinateY = 73.1}}
+KC.Entrances = {
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.DeadwindPass, 
+        MapCoordinateX = 39.6, 
+        MapCoordinateY = 73.1
+    }
+}
 KC.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "91920",

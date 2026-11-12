@@ -22,8 +22,18 @@ GNOMEREGAN.IconScale = 0.9
 GNOMEREGAN.MinLevel = 28
 GNOMEREGAN.MaxLevel = 37
 GNOMEREGAN.Entrances = {
-    [1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Gnomeregan, MapCoordinateX = 29.5, MapCoordinateY = 74.8},
-    [2] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Gnomeregan, MapCoordinateX = 42.5, MapCoordinateY = 12.7}
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.Gnomeregan, 
+        MapCoordinateX = 29.5, 
+        MapCoordinateY = 74.8
+    },
+    [2] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.Gnomeregan, 
+        MapCoordinateX = 42.5, 
+        MapCoordinateY = 12.7
+    }
 }
 GNOMEREGAN.Bosses = {
     [1] = { -- NOTE: Missing abilities
@@ -34,7 +44,12 @@ GNOMEREGAN.Bosses = {
         Story = IJ_DB_DUNGEON_GNOMEREGAN_BOSS_STORY_7361,
         MapCoordinateX = 87.0,
         MapCoordinateY = 38.2,
-        Loot = {[1] = {IJDB.I[9445], DropChance = 25}, [2] = {IJDB.I[80737], DropChance = 25}, [3] = {IJDB.I[80738], DropChance = 25}, [4] = {IJDB.I[80739], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[9445], DropChance = 25}, 
+            [2] = {IJDB.I[80737], DropChance = 25}, 
+            [3] = {IJDB.I[80738], DropChance = 25}, 
+            [4] = {IJDB.I[80739], DropChance = 25}
+        }
     },
     [2] = { -- NOTE: Missing abilities
         Id = "7079",
@@ -44,7 +59,11 @@ GNOMEREGAN.Bosses = {
         Story = IJ_DB_DUNGEON_GNOMEREGAN_BOSS_STORY_7079,
         MapCoordinateX = 65.6,
         MapCoordinateY = 29.9,
-        Loot = {[1] = {IJDB.I[9452], DropChance = 33}, [2] = {IJDB.I[9453], DropChance = 33}, [3] = {IJDB.I[9454], DropChance = 33}}
+        Loot = {
+            [1] = {IJDB.I[9452], DropChance = 33}, 
+            [2] = {IJDB.I[9453], DropChance = 33}, 
+            [3] = {IJDB.I[9454], DropChance = 33}
+        }
     },
     [3] = { -- NOTE: Missing abilities
         Id = "6235",
@@ -54,7 +73,11 @@ GNOMEREGAN.Bosses = {
         Story = IJ_DB_DUNGEON_GNOMEREGAN_BOSS_STORY_6235,
         MapCoordinateX = 32.6,
         MapCoordinateY = 41.4,
-        Loot = {[1] = {IJDB.I[9446], DropChance = 33}, [2] = {IJDB.I[9447], DropChance = 33}, [3] = {IJDB.I[9448], DropChance = 33}}
+        Loot = {
+            [1] = {IJDB.I[9446], DropChance = 33}, 
+            [2] = {IJDB.I[9447], DropChance = 33}, 
+            [3] = {IJDB.I[9448], DropChance = 33}
+        }
     },
     [4] = { -- NOTE: Missing abilities
         Id = "6229",
@@ -64,7 +87,11 @@ GNOMEREGAN.Bosses = {
         Story = IJ_DB_DUNGEON_GNOMEREGAN_BOSS_STORY_6229,
         MapCoordinateX = 44.7,
         MapCoordinateY = 88.5,
-        Loot = {[1] = {IJDB.I[9449], DropChance = 33}, [2] = {IJDB.I[9450], DropChance = 33}, [3] = {IJDB.I[80740], DropChance = 33}}
+        Loot = {
+            [1] = {IJDB.I[9449], DropChance = 33}, 
+            [2] = {IJDB.I[9450], DropChance = 33}, 
+            [3] = {IJDB.I[80740], DropChance = 33}
+        }
     },
     [5] = { -- NOTE: Missing abilities
         Id = "6228",
@@ -75,7 +102,11 @@ GNOMEREGAN.Bosses = {
         IsRare = true,
         MapCoordinateX = 19.5,
         MapCoordinateY = 67.3,
-        Loot = {[1] = {IJDB.I[9455], DropChance = 33}, [2] = {IJDB.I[9456], DropChance = 33}, [3] = {IJDB.I[9457], DropChance = 33}}
+        Loot = {
+            [1] = {IJDB.I[9455], DropChance = 33}, 
+            [2] = {IJDB.I[9456], DropChance = 33}, 
+            [3] = {IJDB.I[9457], DropChance = 33}
+        }
     },
     [6] = { -- NOTE: Missing abilities
         Id = "7800",

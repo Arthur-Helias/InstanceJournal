@@ -22,8 +22,18 @@ MARA.IconScale = 0.6
 MARA.MinLevel = 43
 MARA.MaxLevel = 54
 MARA.Entrances = {
-    [1] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Maraudon, MapCoordinateX = 72.0, MapCoordinateY = 73.6},
-    [2] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Maraudon, MapCoordinateX = 45.3, MapCoordinateY = 20.8}
+    [1] = {
+        MapContinentId = IMI.Kalimdor, 
+        MapZoneId = IZI.Maraudon, 
+        MapCoordinateX = 72.0, 
+        MapCoordinateY = 73.6
+    },
+    [2] = {
+        MapContinentId = IMI.Kalimdor, 
+        MapZoneId = IZI.Maraudon, 
+        MapCoordinateX = 45.3, 
+        MapCoordinateY = 20.8
+    }
 }
 MARA.Bosses = {
     [1] = { -- NOTE: Missing abilities
@@ -34,7 +44,11 @@ MARA.Bosses = {
         Story = IJ_DB_DUNGEON_MARA_BOSS_STORY_13282,
         MapCoordinateX = 32.3,
         MapCoordinateY = 4.7,
-        Loot = {[1] = {IJDB.I[17746], DropChance = 33}, [2] = {IJDB.I[17745], DropChance = 33}, [3] = {IJDB.I[17744], DropChance = 33}}
+        Loot = {
+            [1] = {IJDB.I[17746], DropChance = 33}, 
+            [2] = {IJDB.I[17745], DropChance = 33}, 
+            [3] = {IJDB.I[17744], DropChance = 33}
+        }
     },
     [2] = { -- NOTE: Missing abilities
         Id = "12258",
@@ -62,7 +76,12 @@ MARA.Bosses = {
         MapCoordinateX = 26.2,
         MapCoordinateY = 30.6,
         IsRare = true,
-        Loot = {[1] = {IJDB.I[60780], DropChance = 10}, [2] = {IJDB.I[17767], DropChance = 33}, [3] = {IJDB.I[17742], DropChance = 33}, [4] = {IJDB.I[17741], DropChance = 33}}
+        Loot = {
+            [1] = {IJDB.I[60780], DropChance = 10}, 
+            [2] = {IJDB.I[17767], DropChance = 33}, 
+            [3] = {IJDB.I[17742], DropChance = 33}, 
+            [4] = {IJDB.I[17741], DropChance = 33}
+        }
     },
     [4] = { -- NOTE: Missing abilities
         Id = "12236",
@@ -72,7 +91,12 @@ MARA.Bosses = {
         Story = IJ_DB_DUNGEON_MARA_BOSS_STORY_12236,
         MapCoordinateX = 33.0,
         MapCoordinateY = 32.8,
-        Loot = {[1] = {IJDB.I[17752], DropChance = 33}, [2] = {IJDB.I[17754], DropChance = 33}, [3] = {IJDB.I[17755], DropChance = 33}, [4] = {IJDB.I[51217], DropChance = 1}}
+        Loot = {
+            [1] = {IJDB.I[17752], DropChance = 33}, 
+            [2] = {IJDB.I[17754], DropChance = 33}, 
+            [3] = {IJDB.I[17755], DropChance = 33}, 
+            [4] = {IJDB.I[51217], DropChance = 1}
+        }
     },
     [5] = { -- NOTE: Missing abilities
         Id = "12225",
@@ -82,7 +106,13 @@ MARA.Bosses = {
         Story = IJ_DB_DUNGEON_MARA_BOSS_STORY_12225,
         MapCoordinateX = 19.1,
         MapCoordinateY = 32.9,
-        Loot = {[1] = {IJDB.I[17738], DropChance = 33}, [2] = {IJDB.I[17739], DropChance = 33}, [3] = {IJDB.I[17740], DropChance = 33}, [4] = {IJDB.I[60780], DropChance = 3}, [5] = {IJDB.I[51217], DropChance = 1}}
+        Loot = {
+            [1] = {IJDB.I[17738], DropChance = 33}, 
+            [2] = {IJDB.I[17739], DropChance = 33}, 
+            [3] = {IJDB.I[17740], DropChance = 33}, 
+            [4] = {IJDB.I[60780], DropChance = 3}, 
+            [5] = {IJDB.I[51217], DropChance = 1}
+        }
     },
     [6] = { -- NOTE: Missing abilities
         Id = "13601",
@@ -92,7 +122,13 @@ MARA.Bosses = {
         Story = IJ_DB_DUNGEON_MARA_BOSS_STORY_13601,
         MapCoordinateX = 37.7,
         MapCoordinateY = 75.1,
-        Loot = {[1] = {IJDB.I[17717], DropChance = 33}, [2] = {IJDB.I[17718], DropChance = 33}, [3] = {IJDB.I[17719], DropChance = 33}, [4] = {IJDB.I[40083], DropChance = 8}, [5] = {IJDB.I[51809], DropChance = 8}}
+        Loot = {
+            [1] = {IJDB.I[17717], DropChance = 33}, 
+            [2] = {IJDB.I[17718], DropChance = 33}, 
+            [3] = {IJDB.I[17719], DropChance = 33}, 
+            [4] = {IJDB.I[40083], DropChance = 8}, 
+            [5] = {IJDB.I[51809], DropChance = 8}
+        }
     },
     [7] = { -- NOTE: Missing abilities
         Id = "12203",
@@ -102,7 +138,12 @@ MARA.Bosses = {
         Story = IJ_DB_DUNGEON_MARA_BOSS_STORY_12203,
         MapCoordinateX = 32.2,
         MapCoordinateY = 60.3,
-        Loot = {[1] = {IJDB.I[17734], DropChance = 25}, [2] = {IJDB.I[17736], DropChance = 25}, [3] = {IJDB.I[17737], DropChance = 25}, [4] = {IJDB.I[17943], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[17734], DropChance = 25}, 
+            [2] = {IJDB.I[17736], DropChance = 25}, 
+            [3] = {IJDB.I[17737], DropChance = 25}, 
+            [4] = {IJDB.I[17943], DropChance = 25}
+        }
     },
     [8] = { -- NOTE: Missing abilities
         Id = "13596",
@@ -112,7 +153,11 @@ MARA.Bosses = {
         Story = IJ_DB_DUNGEON_MARA_BOSS_STORY_13596,
         MapCoordinateX = 32.1,
         MapCoordinateY = 86.1,
-        Loot = {[1] = {IJDB.I[17728], DropChance = 33}, [2] = {IJDB.I[17730], DropChance = 33}, [3] = {IJDB.I[17732], DropChance = 33}}
+        Loot = {
+            [1] = {IJDB.I[17728], DropChance = 33}, 
+            [2] = {IJDB.I[17730], DropChance = 33}, 
+            [3] = {IJDB.I[17732], DropChance = 33}
+        }
     },
     [9] = { -- NOTE: Missing abilities
         Id = "12201",

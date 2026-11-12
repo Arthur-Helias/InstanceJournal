@@ -21,7 +21,14 @@ ST.MapId = IMI.TheTempleOfAtalHakkar
 ST.IconScale = 0.9
 ST.MinLevel = 46
 ST.MaxLevel = 54
-ST.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.SwampOfSorrows, MapCoordinateX = 70.1, MapCoordinateY = 54.6}}
+ST.Entrances = {
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.SwampOfSorrows, 
+        MapCoordinateX = 70.1, 
+        MapCoordinateY = 54.6
+    }
+}
 ST.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "8580",
@@ -32,7 +39,13 @@ ST.Bosses = {
         MapCoordinateX = 50.0,
         MapCoordinateY = 45.5,
         MapIsBelow = true,
-        Loot = {[1] = {IJDB.I[10798], DropChance = 33}, [2] = {IJDB.I[10799], DropChance = 33}, [3] = {IJDB.I[10800], DropChance = 33}, [4] = {IJDB.I[51217], DropChance = 5}, [5] = {IJDB.I[70226], DropChance = 2}}
+        Loot = {
+            [1] = {IJDB.I[10798], DropChance = 33}, 
+            [2] = {IJDB.I[10799], DropChance = 33}, 
+            [3] = {IJDB.I[10800], DropChance = 33}, 
+            [4] = {IJDB.I[51217], DropChance = 5}, 
+            [5] = {IJDB.I[70226], DropChance = 2}
+        }
     },
     [2] = { -- NOTE: Missing abilities
         Id = "5708",
@@ -43,7 +56,10 @@ ST.Bosses = {
         MapCoordinateX = 50.0,
         MapCoordinateY = 66.3,
         MapIsBelow = true,
-        Loot = {[1] = {IJDB.I[10801], DropChance = 47}, [2] = {IJDB.I[10802], DropChance = 26}}
+        Loot = {
+            [1] = {IJDB.I[10801], DropChance = 47}, 
+            [2] = {IJDB.I[10802], DropChance = 26}
+        }
     },
     [3] = { -- NOTE: Missing abilities
         Id = "5713",

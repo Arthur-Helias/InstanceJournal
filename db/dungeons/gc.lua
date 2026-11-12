@@ -21,7 +21,14 @@ GC.MapId = IMI.GilneasCity
 GC.IconScale = 0.9
 GC.MinLevel = 43
 GC.MaxLevel = 52
-GC.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Gilneas, MapCoordinateX = 27.4, MapCoordinateY = 30.1}}
+GC.Entrances = {
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.Gilneas, 
+        MapCoordinateX = 27.4, 
+        MapCoordinateY = 30.1
+    }
+}
 GC.Bosses = {
     [1] = { -- NOTE: Missing abilities
         Id = "61419",
@@ -31,7 +38,12 @@ GC.Bosses = {
         Story = IJ_DB_DUNGEON_GC_BOSS_STORY_61419,
         MapCoordinateX = 75.8,
         MapCoordinateY = 40.5,
-        Loot = {[1] = {IJDB.I[61305], DropChance = 33}, [2] = {IJDB.I[61304], DropChance = 33}, [3] = {IJDB.I[61306], DropChance = 33}, [4] = {IJDB.I[61307], DropChance = 2}}
+        Loot = {
+            [1] = {IJDB.I[61305], DropChance = 33}, 
+            [2] = {IJDB.I[61304], DropChance = 33}, 
+            [3] = {IJDB.I[61306], DropChance = 33}, 
+            [4] = {IJDB.I[61307], DropChance = 2}
+        }
     },
     [2] = { -- NOTE: Missing abilities
         Id = "61420",
@@ -41,7 +53,12 @@ GC.Bosses = {
         Story = IJ_DB_DUNGEON_GC_BOSS_STORY_61420,
         MapCoordinateX = 84.6,
         MapCoordinateY = 63.5,
-        Loot = {[1] = {IJDB.I[61300], DropChance = 33}, [2] = {IJDB.I[61301], DropChance = 33}, [3] = {IJDB.I[61302], DropChance = 33}, [4] = {IJDB.I[61303], DropChance = 2}}
+        Loot = {
+            [1] = {IJDB.I[61300], DropChance = 33}, 
+            [2] = {IJDB.I[61301], DropChance = 33}, 
+            [3] = {IJDB.I[61302], DropChance = 33}, 
+            [4] = {IJDB.I[61303], DropChance = 2}
+        }
     },
     [3] = { -- NOTE: Missing abilities
         Id = "61421",
@@ -51,7 +68,13 @@ GC.Bosses = {
         Story = IJ_DB_DUNGEON_GC_BOSS_STORY_61421,
         MapCoordinateX = 77.2,
         MapCoordinateY = 84.1,
-        Loot = {[1] = {IJDB.I[61308], DropChance = 25}, [2] = {IJDB.I[61309], DropChance = 25}, [3] = {IJDB.I[61310], DropChance = 25}, [4] = {IJDB.I[61311], DropChance = 25}, [5] = {IJDB.I[61312], DropChance = 2}}
+        Loot = {
+            [1] = {IJDB.I[61308], DropChance = 25}, 
+            [2] = {IJDB.I[61309], DropChance = 25}, 
+            [3] = {IJDB.I[61310], DropChance = 25}, 
+            [4] = {IJDB.I[61311], DropChance = 25}, 
+            [5] = {IJDB.I[61312], DropChance = 2}
+        }
     },
     [4] = { -- NOTE: Missing abilities
         Id = "61422",
@@ -61,7 +84,13 @@ GC.Bosses = {
         Story = IJ_DB_DUNGEON_GC_BOSS_STORY_61422,
         MapCoordinateX = 57.6,
         MapCoordinateY = 83.2,
-        Loot = {[1] = {IJDB.I[61330], DropChance = 25}, [2] = {IJDB.I[61331], DropChance = 25}, [3] = {IJDB.I[61332], DropChance = 25}, [4] = {IJDB.I[61333], DropChance = 25}, [5] = {IJDB.I[61334], DropChance = 5}}
+        Loot = {
+            [1] = {IJDB.I[61330], DropChance = 25}, 
+            [2] = {IJDB.I[61331], DropChance = 25}, 
+            [3] = {IJDB.I[61332], DropChance = 25}, 
+            [4] = {IJDB.I[61333], DropChance = 25}, 
+            [5] = {IJDB.I[61334], DropChance = 5}
+        }
     },
     [5] = { -- NOTE: Missing abilities
         Id = "61423",
@@ -89,7 +118,13 @@ GC.Bosses = {
         Story = IJ_DB_DUNGEON_GC_BOSS_STORY_61605,
         MapCoordinateX = 29.0,
         MapCoordinateY = 19.2,
-        Loot = {[1] = {IJDB.I[83157], DropChance = 1}, [2] = {IJDB.I[61737], DropChance = 25}, [3] = {IJDB.I[61736], DropChance = 25}, [4] = {IJDB.I[61735], DropChance = 25}, [5] = {IJDB.I[61734], DropChance = 25}}
+        Loot = {
+            [1] = {IJDB.I[83157], DropChance = 1}, 
+            [2] = {IJDB.I[61737], DropChance = 25}, 
+            [3] = {IJDB.I[61736], DropChance = 25}, 
+            [4] = {IJDB.I[61735], DropChance = 25}, 
+            [5] = {IJDB.I[61734], DropChance = 25}
+        }
     },
     [7] = { -- NOTE: Missing abilities
         Id = "61263",
@@ -99,7 +134,13 @@ GC.Bosses = {
         Story = IJ_DB_DUNGEON_GC_BOSS_STORY_61263,
         MapCoordinateX = 28.1,
         MapCoordinateY = 23.8,
-        Loot = {[1] = {IJDB.I[61318], DropChance = 24}, [2] = {IJDB.I[61319], DropChance = 24}, [3] = {IJDB.I[61320], DropChance = 24}, [4] = {IJDB.I[61321], DropChance = 24}, [5] = {IJDB.I[61322], DropChance = 5}}
+        Loot = {
+            [1] = {IJDB.I[61318], DropChance = 24}, 
+            [2] = {IJDB.I[61319], DropChance = 24}, 
+            [3] = {IJDB.I[61320], DropChance = 24}, 
+            [4] = {IJDB.I[61321], DropChance = 24}, 
+            [5] = {IJDB.I[61322], DropChance = 5}
+        }
     },
     [8] = { -- NOTE: Missing abilities
         Id = "61418",

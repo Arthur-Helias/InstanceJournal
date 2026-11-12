@@ -22,7 +22,15 @@ AQ40.ZoneId = IZI.AQ402
 AQ40.IconScale = 0.8
 AQ40.MinLevel = 60
 AQ40.MaxLevel = 60
-AQ40.Entrances = {[1] = {MapContinentId = IMI.Kalimdor, MapZoneId = IZI.GatesOfAhnQiraj, MapCoordinateX = 46.4, MapCoordinateY = 7.7, MapDestinationZoneId = IZI.AQ402}}
+AQ40.Entrances = {
+    [1] = {
+        MapContinentId = IMI.Kalimdor, 
+        MapZoneId = IZI.GatesOfAhnQiraj, 
+        MapCoordinateX = 46.4, 
+        MapCoordinateY = 7.7, 
+        MapDestinationZoneId = IZI.AQ402
+    }
+}
 AQ40.Links = {
     [1] = {
         OriginMapContinentId = IMI.TempleOfAhnQiraj,

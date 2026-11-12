@@ -23,11 +23,17 @@ All changes to this project will be documented in this file.
 - Added missing abilities and egg mechanics to the `Razorgore the Untamed` encounter and its reinforcements
 - Added guidance for `Razorgore` tank positioning, threat management, premature egg explosions, and `Free Action Potion` use against `War Stomp`
 
+### Changed
+
+- Clarified `Shadow Flame` cloak requirements for tanks and other raid members
+- Expanded dungeon and raid data tables into multiline layouts
+
 ### Fixed
 
 - Kept BWL translations inside their locale conditions to prevent other languages from overriding encounter text
 - Corrected the map position of `Magistrate Barthilas` in `Stratholme`
 - Updated the objective of `The Hexxer's Ward` to request a `Hexxer's Ward` instead of a `Perfect Obsidian Shard`
+- Removed outdated missing-ability notes for `Majordomo Executus` and `Ragnaros`
 
 ## [1.4.6] - 2026-11-09
 
@@ -83,7 +89,6 @@ All changes to this project will be documented in this file.
 
 ### Changed
 
-- Clarified `Shadow Flame` cloak requirements for tanks and other raid members
 - Separated effects and player guidance into paragraphs in longer Molten Core ability descriptions
 - Expanded `Edge of Madness` lore with the four troll spirits and their summoning ritual
 - Expanded `Gahz'ranka` lore with Nat Pagle and the summoning lure

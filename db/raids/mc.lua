@@ -22,8 +22,18 @@ MC.IconScale = 0.9
 MC.MinLevel = 58
 MC.MaxLevel = 60
 MC.Entrances = {
-    [1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.BlackrockMountain, MapCoordinateX = 38.3, MapCoordinateY = 36.1},
-    [2] = {MapContinentId = IMI.BlackrockDepths, MapZoneId = 1, MapCoordinateX = 66.5, MapCoordinateY = 29.3}
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.BlackrockMountain, 
+        MapCoordinateX = 38.3, 
+        MapCoordinateY = 36.1
+    },
+    [2] = {
+        MapContinentId = IMI.BlackrockDepths, 
+        MapZoneId = 1, 
+        MapCoordinateX = 66.5, 
+        MapCoordinateY = 29.3
+    }
 }
 MC.Bosses = {
     [1] = {
@@ -937,7 +947,7 @@ MC.Bosses = {
             [31] = {IJDB.I[58244], DropChance = 25}
         }
     },
-    [11] = { -- NOTE: Missing abilities
+    [11] = {
         Id = "12018",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "executus" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "executus" .. IMPF,
@@ -1048,7 +1058,7 @@ MC.Bosses = {
             [13] = {IJDB.I[42178], DropChance = 30}
         }
     },
-    [12] = { -- NOTE: Missing abilities
+    [12] = {
         Id = "11502",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "ragnaros" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "ragnaros" .. IMPF,

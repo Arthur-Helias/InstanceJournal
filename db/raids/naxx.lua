@@ -22,7 +22,15 @@ NAXX.ZoneId = IZI.NAXX1
 NAXX.IconScale = 0.8
 NAXX.MinLevel = 60
 NAXX.MaxLevel = 60
-NAXX.Entrances = {[1] = {MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.EasternPlaguelands, MapCoordinateX = 41.0, MapCoordinateY = 29.5, MapDestinationZoneId = IZI.NAXX1}}
+NAXX.Entrances = {
+    [1] = {
+        MapContinentId = IMI.EasternKingdoms, 
+        MapZoneId = IZI.EasternPlaguelands, 
+        MapCoordinateX = 41.0, 
+        MapCoordinateY = 29.5, 
+        MapDestinationZoneId = IZI.NAXX1
+    }
+}
 NAXX.Links = {
     [1] = {
         OriginMapContinentId = IMI.Naxxramas,
