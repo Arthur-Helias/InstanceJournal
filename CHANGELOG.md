@@ -6,6 +6,7 @@ All changes to this project will be documented in this file.
 
 ### Added
 
+- Added missing abilities to the `Nefarian` encounter, organized into two phases, including drakonids, class calls, Bone Constructs, and an OctoWoW note for `Wild Magic`
 - Added missing abilities to the `Chromaggus` encounter, including breath positioning, affliction removal, `Chromatic Mutation`, and elemental vulnerabilities
 - Added missing abilities to the `Flamegor` encounter, including `Overbearing Rage` and guidance for its control immunities and `Hamstring` exception
 - Expanded the lore of `Flamegor` with his allegiance to Nefarian and Deathwing
