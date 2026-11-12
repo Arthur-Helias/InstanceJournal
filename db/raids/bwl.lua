@@ -529,7 +529,7 @@ BWL.Bosses = {
             [21] = {IJDB.I[19397], DropChance = 7}
         }
     },
-    [8] = { -- NOTE: Missing abilities
+    [8] = {
         Id = "14020",
         Portrait = IMP .. IMPR .. instanceMediaAcronym .. "chromaggus" .. IMPP,
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "chromaggus" .. IMPF,
@@ -537,6 +537,124 @@ BWL.Bosses = {
         Story = IJ_DB_RAID_BWL_BOSS_STORY_14020,
         MapCoordinateX = 49.4,
         MapCoordinateY = 52.0,
+        Abilities = {
+            [1] = {
+                Id = "breaths",
+                Icon = "Spell_Fire_Incinerate",
+                Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_breaths,
+                Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_breaths,
+                Flags = {IMAF.Important},
+                SubAbilities = {
+                    [1] = {
+                        Id = "23187",
+                        Icon = "Spell_Frost_ChillingBlast",
+                        Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23187,
+                        Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23187,
+                        Flags = {IMAF.Important}
+                    },
+                    [2] = {
+                        Id = "23308",
+                        Icon = "Spell_Fire_FlameShock",
+                        Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23308,
+                        Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23308,
+                        Flags = {IMAF.Deadly}
+                    },
+                    [3] = {
+                        Id = "23310",
+                        Icon = "Spell_Arcane_PortalOrgrimmar",
+                        Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23310,
+                        Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23310,
+                        Flags = {IMAF.Tank, IMAF.Important}
+                    },
+                    [4] = {
+                        Id = "23313",
+                        Icon = "Spell_Nature_Acid_01",
+                        Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23313,
+                        Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23313,
+                        Flags = {IMAF.Tank}
+                    },
+                    [5] = {
+                        Id = "23315",
+                        Icon = "Spell_Fire_Fire",
+                        Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23315,
+                        Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23315,
+                        Flags = {IMAF.Heal}
+                    }
+                }
+            },
+            [2] = {
+                Id = "23173",
+                Icon = "Spell_Shadow_Metamorphosis",
+                Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23173,
+                Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23173,
+                Flags = {IMAF.Important},
+                SubAbilities = {
+                    [1] = {
+                        Id = "23154",
+                        Icon = "INV_Misc_Head_Dragon_Black",
+                        Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23154,
+                        Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23154,
+                        Flags = {IMAF.Curse}
+                    },
+                    [2] = {
+                        Id = "23153",
+                        Icon = "INV_Misc_Head_Dragon_Blue",
+                        Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23153,
+                        Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23153,
+                        Flags = {IMAF.Magic}
+                    },
+                    [3] = {
+                        Id = "23155",
+                        Icon = "INV_Misc_Head_Dragon_01",
+                        Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23155,
+                        Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23155,
+                        Flags = {IMAF.Disease}
+                    },
+                    [4] = {
+                        Id = "23169",
+                        Icon = "INV_Misc_Head_Dragon_Green",
+                        Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23169,
+                        Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23169,
+                        Flags = {IMAF.Poison}
+                    },
+                    [5] = {
+                        Id = "23170",
+                        Icon = "INV_Misc_Head_Dragon_Bronze",
+                        Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23170,
+                        Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23170,
+                        Flags = {IMAF.Important}
+                    },
+                    [6] = {
+                        Id = "23174",
+                        Icon = "Spell_Shadow_Metamorphosis",
+                        Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23174,
+                        Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23174,
+                        Flags = {IMAF.Deadly}
+                    }
+                }
+            },
+            [3] = {
+                Id = "22276",
+                Icon = "Spell_Nature_EnchantArmor",
+                Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_22276,
+                Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_22276,
+                Flags = {IMAF.DPS}
+            },
+            [4] = {
+                Id = "23128",
+                Icon = "Ability_Druid_ChallangingRoar",
+                Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_23128,
+                Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_23128,
+                Flags = {IMAF.Enrage, IMAF.Tank}
+            },
+            [5] = {
+                Id = "28747",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_NAME_28747,
+                Effect = IJ_DB_RAID_BWL_BOSS_14020_ABILITY_EFFECT_28747,
+                Flags = {IMAF.Tank, IMAF.Heal}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[16832], DropChance = 11},
             [2] = {IJDB.I[16902], DropChance = 11},
