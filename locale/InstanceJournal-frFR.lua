@@ -1277,6 +1277,12 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9596 = "Bannok Grimaxe"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9596 =
         "Un orc insaisissable, rarement vu parmi la population générale de Lower Blackrock Spire. On dit qu'il possède de nombreux objets convoités sur lesquels beaucoup souhaiteraient pouvoir mettre la main, si seulement ils pouvaient le rencontrer en premier lieu..."
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_13737 = "Frappe mortelle"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_13737 =
+        "Inflige des dégâts physiques et réduit les soins reçus de 50% pendant 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_15128 = "Marque de flammes"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_15128 =
+        "Augmente les dégâts de Feu subis pendant 2 min. Peut être dissipé."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10596 = "Mère Smolderweb"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10596 =
         "Il y a des siècles, les nains Sombrefer ont creusé le repaire de Mère Smolderweb, libérant l'énorme arachnide dans les couloirs de la flèche. Depuis lors, sa couvée n'a cessé de croître en nombre, à tel point que même les forces de Main Noire craignent de traverser le domaine de Smolderweb."

@@ -1883,6 +1883,12 @@ IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27545 =
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9596 = "Bannok Grimaxe"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9596 =
     "An elusive orc, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_13737 = "Mortal Strike"
+IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_13737 =
+    "Deals physical damage and reduces healing received by 50% for 5 sec."
+IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_15128 = "Mark of Flames"
+IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_15128 =
+    "Increases Fire damage taken for 2 min. Can be dispelled."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_10596 = "Mother Smolderweb"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_10596 =
     "Centuries ago, the Dark Iron dwarves dug into the lair of Mother Smolderweb, releasing the massive arachnid into the spire's halls. Her brood has continued to swell in number since that time, so much so that even Blackhand's forces fear traveling through Smolderweb's domain."

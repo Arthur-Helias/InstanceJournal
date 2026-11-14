@@ -1976,6 +1976,12 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9596 = "班诺克·巨斧"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9596 =
         "难以捉摸的兽人，在黑石塔下层的普通人群中很少见到。据说他拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到他就好了……"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_13737 = "致死打击"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_13737 =
+        "造成物理伤害，并使受到的治疗效果降低50%，持续5秒。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_15128 = "烈焰印记"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_15128 =
+        "提高受到的火焰伤害，持续2分钟。可以被驱散。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10596 = "烟网蛛后"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10596 =
         "几个世纪前，黑铁矮人挖掘了闷网母亲的巢穴，将巨大的蜘蛛释放到了尖塔的大厅中。从那时起，她的后代数量持续膨胀，以至于连黑手的军队都不敢穿越闷网的领地。"

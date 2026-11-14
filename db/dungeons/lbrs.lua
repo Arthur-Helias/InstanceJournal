@@ -307,7 +307,7 @@ LBRS.Bosses = {
             [5] = {IJDB.I[22398], DropChance = 20}
         }
     },
-    [8] = { -- NOTE: Missing abilities
+    [8] = {
         Id = "9596",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "bannok" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "bannok" .. IMPF,
@@ -316,6 +316,22 @@ LBRS.Bosses = {
         MapCoordinateX = 47.9,
         MapCoordinateY = 60.0,
         IsRare = true,
+        Abilities = {
+            [1] = {
+                Id = "13737",
+                Icon = "Ability_Warrior_SavageBlow",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_13737,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_13737,
+                Flags = {IMAF.Tank, IMAF.Heal}
+            },
+            [2] = {
+                Id = "15128",
+                Icon = "Spell_Fire_Fireball",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_15128,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_15128,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[12621], DropChance = 33}, 
             [2] = {IJDB.I[12634], DropChance = 33}, 

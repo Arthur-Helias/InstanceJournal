@@ -1277,6 +1277,12 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9596 = "Bannok Grimaxe"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9596 =
         "Un orco esquivo, rara vez visto entre la población general de Lower Blackrock Spire. Se dice que posee muchos objetos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarlo en primer lugar..."
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_13737 = "Golpe mortal"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_13737 =
+        "Inflige daño físico y reduce la sanación recibida un 50% durante 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_15128 = "Marca de llamas"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_15128 =
+        "Aumenta el daño de Fuego recibido durante 2 min. Se puede disipar."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10596 = "Madre Telaraña"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10596 =
         "Hace siglos, los enanos Hierro Negro excavaron en la guarida de Madre Smolderweb, liberando al enorme arácnido en los pasillos de la aguja. Su prole ha seguido aumentando en número desde entonces, hasta el punto de que incluso las fuerzas de Blackhand temen viajar a través de los dominios de Smolderweb."

@@ -1274,6 +1274,12 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9596 = "Bannok Grimaxe"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9596 =
         "Um orc indescritível, raramente visto entre a população em geral do Pináculo da Rocha Negra Inferior. Diz-se que ele possui muitos itens cobiçados que muitos gostariam de poder colocar em suas mãos, se ao menos pudessem encontrá-lo em primeiro lugar..."
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_13737 = "Golpe Mortal"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_13737 =
+        "Causa dano físico e reduz a cura recebida em 50% por 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_15128 = "Marca das Chamas"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_15128 =
+        "Aumenta o dano de Fogo recebido por 2 min. Pode ser dissipado."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10596 = "Mãe Smolderweb"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10596 =
         "Séculos atrás, os anões Ferro Negro cavaram o covil da Mãe Teia Fumegante, liberando o enorme aracnídeo nos corredores da torre. Sua ninhada continuou a aumentar em número desde aquela época, tanto que até mesmo as forças de Blackhand temem viajar através dos domínios de Smolderweb."
