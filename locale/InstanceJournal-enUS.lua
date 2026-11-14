@@ -3133,7 +3133,7 @@ IJ_DB_DUNGEON_KC_BOSS_NAME_91916 = "Archlich Enkhraz"
 IJ_DB_DUNGEON_KC_BOSS_STORY_91916 = "The legacy of Archlich Enkhraz is entirely unknown, establishing him merely as a powerful undead force occupying the Karazhan Crypts."
 IJ_DB_DUNGEON_KC_BOSS_NAME_91919 = "Commander Andreon"
 IJ_DB_DUNGEON_KC_BOSS_STORY_91919 =
-    "Commander Andreon once counted among the tower’s guard alongside his twin brother, Captain Rothynn, he was entrusted with a Mark of Karazhan, a symbol of his station and duty. While Rothynn’s fate is known, his spirit bound to the cellars below, Andreon’s disappearance was never explained. Now he lingers within the crypts as a restless presence, a fallen guardian whose purpose endures even in death."
+    "Commander Andreon and his twin brother, Captain Rothynn, were accepted into the tower guard and each received a Mark of Karazhan, enchanted with the tower’s ley energy. While Rothynn’s spirit haunted the Master’s Cellar, Andreon’s whereabouts remained unknown to the mages investigating Karazhan. He is now found among the undead within the crypts beneath the tower."
 IJ_DB_DUNGEON_KC_BOSS_NAME_91928 = "Alarus"
 IJ_DB_DUNGEON_KC_BOSS_STORY_91928 =
     "Alarus, the Watcher of the Crypts, briefly studied under Medivh before spending his later days tending the catacombs beneath Karazhan. When necromantic power began stirring the dead around the tower, Gunther Arcanus attributed the disturbance to Alarus, while Ansirem Runeweaver suspected the former student after examining traces of necromancy mixed with arcane energy. Both the Kirin Tor and the Horde called for his defeat; afterward, the oppressive darkness began to recede."

@@ -14,7 +14,7 @@ All changes to this project will be documented in this file.
 
 ### Changed
 
-- Expanded the lore of `Alarus` in `Karazhan Crypts`
+- Expanded the lore of `Alarus` and `Commander Andreon` in `Karazhan Crypts`
 - Updated boss abilities in `Stormwind Vault`
 - Expanded the lore of `Tham'Grarr` with his two heads and their personalities
 - Expanded the lore of `Arc'Tiras` with Malygos's experiment and the crystal's confinement in Stormwind
