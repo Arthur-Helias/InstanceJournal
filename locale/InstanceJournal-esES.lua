@@ -1334,6 +1334,15 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268 = "Gizrul el esclavista"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268 =
         "Muy pocos miembros de la Horda Oscura han visto al solitario e impredecible Gizrul. La bestia emerge de su oscura guarida sólo cuando su compañero, Halycon, lo llama. Las dos monstruosas criaturas han producido algunos de los huargos más grandes y feroces jamás criados en la historia de los orcos."
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16128 = "Mordedura infectada"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16128 =
+        "Enferma al objetivo, infligiendo daño de Naturaleza periódico y aumentando el daño físico recibido durante 3 min. Elimina la enfermedad."
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_8269 =
+        "Aumenta la velocidad de ataque y el daño físico infligido."
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16495 = "Mordedura fatal"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16495 =
+        "Drena salud del objetivo y sana al jefe."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718 = "Ghok Bashguud"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718 =
         "Un orco esquivo, rara vez visto entre la población general de Lower Blackrock Spire. Se dice que posee muchos objetos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarlo en primer lugar..."

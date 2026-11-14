@@ -497,12 +497,33 @@ LBRS.Bosses = {
             [6] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [14] = { -- NOTE: Missing abilities
+    [14] = {
         Id = "10268",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "gizrul" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "gizrul" .. IMPF,
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268,
+        Abilities = {
+            [1] = {
+                Id = "16128",
+                Icon = "Spell_Shadow_CallofBone",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16128,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16128,
+                Flags = {IMAF.Disease}
+            },
+            [2] = {
+                Id = "8269",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_8269,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_8269
+            },
+            [3] = {
+                Id = "16495",
+                Icon = "Ability_BackStab",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16495,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16495
+            }
+        },
         Loot = {
             [1] = {IJDB.I[13205], DropChance = 25},
             [2] = {IJDB.I[13206], DropChance = 25},

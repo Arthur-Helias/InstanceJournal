@@ -1335,6 +1335,15 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268 = "Gizrul der Sklavenhändler"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268 =
         "Nur sehr wenige Mitglieder der Dunklen Horde haben den zurückgezogen lebenden und unberechenbaren Gizrul gesehen. Das Biest kommt erst aus seiner schattigen Höhle heraus, als sein Gefährte Halycon nach ihm ruft. Die beiden monströsen Kreaturen haben einige der größten – und wildesten – Worgs hervorgebracht, die jemals in der Geschichte der Orcs gezüchtet wurden."
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16128 = "Infizierter Biss"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16128 =
+        "Infiziert das Ziel mit einer Krankheit, die 3 Min. lang regelmäßig Naturschaden verursacht und den erlittenen körperlichen Schaden erhöht. Entfernt die Krankheit."
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_8269 = "Wutanfall"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_8269 =
+        "Erhöht das Angriffstempo und den verursachten körperlichen Schaden."
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16495 = "Tödlicher Biss"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16495 =
+        "Entzieht dem Ziel Gesundheit und heilt den Boss."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718 = "Ghok Bashguud"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718 =
         "Ein schwer fassbarer Ork, der in der allgemeinen Bevölkerung der Unteren Schwarzfelsspitze selten zu sehen ist. Es wird gesagt, dass er viele begehrte Gegenstände besitzt, von denen sich viele wünschen, sie könnten sie in die Hände bekommen, wenn sie ihm nur überhaupt begegnen könnten ..."

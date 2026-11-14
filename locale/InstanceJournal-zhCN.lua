@@ -2033,6 +2033,15 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268 = "奴役者基兹卢尔"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268 =
         "黑暗部落中很少有人见过隐居且难以预测的吉兹鲁尔。只有当它的伴侣哈利肯呼唤它时，这只野兽才会从它阴暗的巢穴中出现。这两种怪物创造了兽人历史上最大、最凶猛的座狼。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16128 = "感染之咬"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16128 =
+        "使目标感染疾病，在3分钟内持续造成自然伤害，并提高其受到的物理伤害。移除疾病。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_8269 =
+        "提高攻击速度和造成的物理伤害。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16495 = "致命撕咬"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16495 =
+        "吸取目标的生命值，为首领恢复生命值。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718 = "霍克·巴什古德"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718 =
         "难以捉摸的兽人，在黑石塔下层的普通人群中很少见到。据说他拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到他就好了……"

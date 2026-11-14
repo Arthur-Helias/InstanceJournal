@@ -1940,6 +1940,15 @@ IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_14099 =
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268 = "Gizrul the Slavener"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268 =
     "Very few of the Dark Horde have seen the reclusive and unpredictable Gizrul. The beast emerges from his shadowy den only when his mate, Halycon, calls to him. The two monstrous creatures have produced some of the largest--and most ferocious--worgs ever bred in orcish history."
+IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16128 = "Infected Bite"
+IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16128 =
+    "Diseases the target, dealing Nature damage over time and increasing physical damage taken for 3 min. Remove the disease."
+IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_8269 = "Enrage"
+IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_8269 =
+    "Increases attack speed and physical damage dealt."
+IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16495 = "Fatal Bite"
+IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16495 =
+    "Drains health from the target, healing the boss."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718 = "Ghok Bashguud"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718 =
     "An elusive orc, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."

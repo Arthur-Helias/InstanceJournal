@@ -1334,6 +1334,15 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268 = "Gizrul l'esclave"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268 =
         "Très peu de membres de la Horde Noire ont vu Gizrul, solitaire et imprévisible. La bête ne sort de sa tanière sombre que lorsque son compagnon, Halycon, l'appelle. Les deux créatures monstrueuses ont donné naissance à certains des worgs les plus grands, et les plus féroces, jamais élevés dans l'histoire des Orcs."
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16128 = "Morsure infectée"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16128 =
+        "Infecte la cible avec une maladie qui inflige des dégâts de Nature sur la durée et augmente les dégâts physiques subis pendant 3 min. Soignez la maladie."
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_8269 = "Enrager"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_8269 =
+        "Augmente la vitesse d’attaque et les dégâts physiques infligés."
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16495 = "Morsure fatale"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16495 =
+        "Draine les points de vie de la cible et soigne le boss."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718 = "Ghok Bashguud"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718 =
         "Un orc insaisissable, rarement vu parmi la population générale de Lower Blackrock Spire. On dit qu'il possède de nombreux objets convoités sur lesquels beaucoup souhaiteraient pouvoir mettre la main, si seulement ils pouvaient le rencontrer en premier lieu..."

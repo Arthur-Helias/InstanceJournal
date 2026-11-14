@@ -1331,6 +1331,15 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268 = "Gizrul, o Escravista"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268 =
         "Muito poucos membros da Horda Negra viram o recluso e imprevisível Gizrul. A fera emerge de seu covil sombrio apenas quando sua companheira, Halycon, o chama. As duas criaturas monstruosas produziram alguns dos maiores – e mais ferozes – worgs já criados na história dos orcs."
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16128 = "Mordida Infectada"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16128 =
+        "Infecta o alvo com uma doença que causa dano de Natureza ao longo do tempo e aumenta o dano físico recebido por 3 min. Remova a doença."
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_8269 =
+        "Aumenta a velocidade de ataque e o dano físico causado."
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16495 = "Mordida Fatal"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16495 =
+        "Drena a vida do alvo, curando o boss."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718 = "Ghok Bashguud"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718 =
         "Um orc indescritível, raramente visto entre a população em geral do Pináculo da Rocha Negra Inferior. Diz-se que ele possui muitos itens cobiçados que muitos gostariam de poder colocar em suas mãos, se ao menos pudessem encontrá-lo em primeiro lugar..."
