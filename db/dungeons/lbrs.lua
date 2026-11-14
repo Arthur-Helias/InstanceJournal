@@ -112,13 +112,28 @@ LBRS.Bosses = {
             [2] = {IJDB.I[13284], DropChance = 40}
         }
     },
-    [4] = { -- NOTE: Missing abilities
+    [4] = {
         Id = "9217",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "magus" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "magus" .. IMPF,
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_9217,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_9217,
         IsRare = true,
+        Abilities = {
+            [1] = {
+                Id = "15230",
+                Icon = "Spell_Arcane_StarFire",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_15230,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_15230
+            },
+            [2] = {
+                Id = "13323",
+                Icon = "Spell_Nature_Polymorph",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_13323,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_13323,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[13261], DropChance = 33}, 
             [2] = {IJDB.I[13282], DropChance = 33}, 

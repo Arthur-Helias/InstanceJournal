@@ -1208,6 +1208,12 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9217 = "Seigneur Mage Spirestone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9217 =
         "Un ogre insaisissable, rarement vu parmi la population générale de Lower Blackrock Spire. On dit qu'il possède de nombreux objets convoités sur lesquels beaucoup souhaiteraient pouvoir mettre la main, si seulement ils pouvaient le rencontrer en premier lieu..."
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_15230 = "Éclair des Arcanes"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_15230 =
+        "Inflige des dégâts des Arcanes à la cible."
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_13323 = "Métamorphose"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_13323 =
+        "Transforme la cible en mouton pendant 20 s au maximum, l’empêchant d’attaquer et de lancer des sorts. Les dégâts interrompent l’effet. Peut être dissipé."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9236 = "Chasseur d'Ombres Vosh'gajin"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 =
         "Vosh'gajin est réputée pour sa beauté (et ses tendances psychotiques) parmi les trolls. Maître de l'art des chasseurs d'ombres, elle utilise de redoutables sortilèges, malédictions et magies de guérison."

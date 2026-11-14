@@ -1208,6 +1208,12 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9217 = "Señor Mago de Piedra Aguja"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9217 =
         "Un ogro esquivo, rara vez visto entre la población general de Lower Blackrock Spire. Se dice que posee muchos objetos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarlo en primer lugar..."
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_15230 = "Descarga Arcana"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_15230 =
+        "Inflige daño Arcano al objetivo."
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_13323 = "Polimorfia"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_13323 =
+        "Transforma al objetivo en una oveja durante un máximo de 20 s, impidiendo atacar y lanzar hechizos. El daño interrumpe el efecto. Se puede disipar."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9236 = "Cazador de Sombras Vosh'gajin"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 =
         "Vosh'gajin es famosa por su belleza y sus tendencias psicóticas entre los trolls. Una maestra de las artes de los cazadores de sombras, ejerce formidables maleficios, maldiciones y magias curativas."

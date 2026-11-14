@@ -1908,6 +1908,12 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9217 = "尖石首席法师"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9217 =
         "一种难以捉摸的食人魔，在黑石塔下层的普通居民中很少见到。据说他拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到他就好了……"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_15230 = "奥术箭"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_15230 =
+        "对目标造成奥术伤害。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_13323 = "变形术"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_13323 =
+        "将目标变成绵羊，最多持续20秒，使其无法攻击或施法。伤害会打断此效果。可以被驱散。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9236 = "暗影猎手沃许加斯"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 = "沃什加金在巨魔中以她的美丽和精神病倾向而闻名。她是暗影猎手艺术的大师，能够使用强大的咒语、诅咒和治疗魔法。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "指挥官沃恩"

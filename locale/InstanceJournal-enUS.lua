@@ -1815,6 +1815,12 @@ IJ_DB_DUNGEON_LBRS_BOSS_STORY_9218 =
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9217 = "Spirestone Lord Magus"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9217 =
     "An elusive ogre, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_15230 = "Arcane Bolt"
+IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_15230 =
+    "Deals Arcane damage to the target."
+IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_13323 = "Polymorph"
+IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_13323 =
+    "Transforms the target into a sheep for up to 20 sec., preventing attacks and spellcasting. Damage breaks the effect. Can be dispelled."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9236 = "Shadow Hunter Vosh'gajin"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 = "Vosh'gajin is renowned for her beauty--and psychotic tendencies--among the trolls. A master of the shadow hunter arts, she wields formidable hexes, curses, and healing magics."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "War Master Voone"

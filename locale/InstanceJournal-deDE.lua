@@ -1209,6 +1209,12 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9217 = "Spirestone Lord Magus"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9217 =
         "Ein schwer fassbarer Oger, der in der allgemeinen Bevölkerung der Unteren Schwarzfelsspitze selten zu sehen ist. Es wird gesagt, dass er viele begehrte Gegenstände besitzt, von denen sich viele wünschen, sie könnten sie in die Hände bekommen, wenn sie ihm nur überhaupt begegnen könnten ..."
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_15230 = "Arkanblitz"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_15230 =
+        "Fügt dem Ziel Arkanschaden zu."
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_13323 = "Verwandlung"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_13323 =
+        "Verwandelt das Ziel für bis zu 20 Sek. in ein Schaf und verhindert Angriffe und Zauber. Schaden hebt den Effekt auf. Kann gebannt werden."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9236 = "Schattenjäger Vosh'gajin"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 =
         "Vosh'gajin ist bei den Trollen für ihre Schönheit – und ihre psychotischen Neigungen – bekannt. Als Meisterin der Schattenjägerkunst verfügt sie über beeindruckende Verhexungen, Flüche und Heilmagie."

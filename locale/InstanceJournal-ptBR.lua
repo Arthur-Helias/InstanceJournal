@@ -1205,6 +1205,12 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9217 = "Spirestone Lorde Mago"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9217 =
         "Um ogro esquivo, raramente visto entre a população em geral do Pináculo da Rocha Negra Inferior. Diz-se que ele possui muitos itens cobiçados que muitos gostariam de poder colocar em suas mãos, se ao menos pudessem encontrá-lo em primeiro lugar..."
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_15230 = "Seta Arcana"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_15230 =
+        "Causa dano Arcano ao alvo."
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_13323 = "Polimorfia"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_13323 =
+        "Transforma o alvo em uma ovelha por até 20 s, impedindo ataques e lançamento de feitiços. Dano interrompe o efeito. Pode ser dissipado."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9236 = "Caçador das Sombras Vosh'gajin"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 =
         "Vosh'gajin é conhecida por sua beleza - e tendências psicóticas - entre os trolls. Uma mestre nas artes dos caçadores de sombras, ela exerce formidáveis ​​feitiços, maldições e magias de cura."
