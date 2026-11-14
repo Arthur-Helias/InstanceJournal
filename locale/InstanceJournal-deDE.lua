@@ -1287,6 +1287,15 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10596 = "Mutter Smolderweb"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10596 =
         "Vor Jahrhunderten gruben die Dunkeleisenzwerge in das Versteck von Mutter Smolderweb und ließen das riesige Spinnentier in den Hallen des Turms frei. Seitdem ist ihre Brut immer zahlreicher geworden, und zwar so sehr, dass sogar Blackhands Truppen Angst davor haben, durch das Reich von Smolderweb zu reisen."
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16104 = "Kristallisieren"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16104 =
+        "Betäubt Gegner vor dem Boss 6 Sek. lang. Dreht sie von der Gruppe weg und bannt die Betäubung."
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16468 = "Muttermilch"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16468 =
+        "Belegt einen Spieler mit Gift, das ihn und nahe Verbündete regelmäßig bewegungsunfähig macht. Entfernt es mit einer Giftreinigungsfähigkeit oder einem Unreifen Giftbeutel von den Spinnen im Dungeon.\n\nFür die Quest Muttermilch müsst ihr das Gift behalten, bis ihr zu Struppiger John zurückkehrt. Entfernt ihr es vorher, könnt ihr die Quest erst abgeben, nachdem ihr erneut vergiftet wurdet."
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16103 = "Spitzenspinnling beschwören"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16103 =
+        "Beschwört Spitzenspinnlinge. Fangt die zusätzlichen Gegner ab und tötet sie."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10376 = "Kristallzahn"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10376 =
         "Eine schwer fassbare Spinne, die in der allgemeinen Bevölkerung der Unteren Schwarzfelsspitze selten zu sehen ist. Es wird gesagt, dass er viele begehrte Gegenstände besitzt, von denen sich viele wünschen, sie könnten sie in die Hände bekommen, wenn sie ihnen nur überhaupt begegnen könnten ..."

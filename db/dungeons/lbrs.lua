@@ -339,12 +339,34 @@ LBRS.Bosses = {
             [4] = {IJDB.I[12838], DropChance = 7}
         }
     },
-    [9] = { -- NOTE: Missing abilities
+    [9] = {
         Id = "10596",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "mother" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "mother" .. IMPF,
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_10596,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_10596,
+        Abilities = {
+            [1] = {
+                Id = "16104",
+                Icon = "Spell_Shadow_Teleport",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16104,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16104,
+                Flags = {IMAF.Magic}
+            },
+            [2] = {
+                Id = "16468",
+                Icon = "Ability_Creature_Poison_02",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16468,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16468,
+                Flags = {IMAF.Poison}
+            },
+            [3] = {
+                Id = "16103",
+                Icon = "Spell_Frost_FrostShock",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16103,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16103
+            }
+        },
         Loot = {
             [1] = {IJDB.I[13183], DropChance = 20},
             [2] = {IJDB.I[70226], DropChance = 2},

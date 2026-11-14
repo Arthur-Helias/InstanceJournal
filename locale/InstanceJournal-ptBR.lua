@@ -1283,6 +1283,15 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10596 = "Mãe Smolderweb"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10596 =
         "Séculos atrás, os anões Ferro Negro cavaram o covil da Mãe Teia Fumegante, liberando o enorme aracnídeo nos corredores da torre. Sua ninhada continuou a aumentar em número desde aquela época, tanto que até mesmo as forças de Blackhand temem viajar através dos domínios de Smolderweb."
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16104 = "Cristalizar"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16104 =
+        "Atordoa os inimigos à frente do boss por 6 s. Mantenha-a de costas para o grupo e dissipe o atordoamento."
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16468 = "Leite Materno"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16468 =
+        "Aplica um veneno que imobiliza periodicamente o jogador afetado e seus aliados próximos. Remova-o com uma habilidade de remoção de venenos ou um Immature Venom Sac encontrado nas aranhas da masmorra.\n\nSe estiver fazendo a quest Mother's Milk, mantenha o veneno até voltar a Ragged John. Se removê-lo antes, será necessário ser envenenado novamente para entregar a quest."
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16103 = "Invocar Aranhiço do Pico"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16103 =
+        "Invoca Spire Spiderlings. Controle e mate os adds."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10376 = "Presa de Cristal"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10376 =
         "Uma aranha esquiva, raramente vista entre a população geral de Lower Blackrock Spire. Diz-se que possui muitos itens cobiçados que muitos gostariam de poder colocar as mãos, se ao menos pudessem encontrá-los em primeiro lugar..."

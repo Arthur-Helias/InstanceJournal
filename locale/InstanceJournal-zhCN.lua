@@ -1985,6 +1985,15 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10596 = "烟网蛛后"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10596 =
         "几个世纪前，黑铁矮人挖掘了闷网母亲的巢穴，将巨大的蜘蛛释放到了尖塔的大厅中。从那时起，她的后代数量持续膨胀，以至于连黑手的军队都不敢穿越闷网的领地。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16104 = "结晶"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16104 =
+        "使首领前方的敌人昏迷6秒。让首领背对队伍，并驱散昏迷效果。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16468 = "蛛后的乳汁"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16468 =
+        "施加毒药，周期性地使中毒的玩家及其附近的盟友定身。使用解毒技能，或使用地下城内蜘蛛掉落的不成熟的毒囊将其移除。\n\n如果正在完成蛛后的乳汁任务，请保留毒药效果，直到返回狼狈不堪的约翰身边。提前移除后，需要再次中毒才能交付任务。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16103 = "召唤尖塔小蜘蛛"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16103 =
+        "召唤尖塔小蜘蛛。拉住并击杀增援。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10376 = "水晶之牙"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10376 =
         "一种难以捉摸的蜘蛛，在黑石塔下层的普通人群中很少见到。据说它拥有许多令人垂涎的物品，很多人都希望能亲手得到它们，如果他们能一开始就遇到它就好了……"

@@ -1286,6 +1286,15 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10596 = "Mère Smolderweb"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10596 =
         "Il y a des siècles, les nains Sombrefer ont creusé le repaire de Mère Smolderweb, libérant l'énorme arachnide dans les couloirs de la flèche. Depuis lors, sa couvée n'a cessé de croître en nombre, à tel point que même les forces de Main Noire craignent de traverser le domaine de Smolderweb."
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16104 = "Cristallisation"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16104 =
+        "Étourdit les ennemis devant le boss pendant 6 s. Orientez-la dos au groupe et dissipez l’étourdissement."
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16468 = "Le lait matriarcal"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16468 =
+        "Applique un poison qui immobilise périodiquement le joueur affecté et ses alliés proches. Retirez-le avec une capacité de dissipation des poisons ou une Glande à venin immature trouvée sur les araignées du donjon.\n\nPour la quête Le lait matriarcal, gardez le poison jusqu’à votre retour auprès de John le Rude. Si vous le retirez avant, vous devrez être empoisonné à nouveau pour rendre la quête."
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16103 = "Invocation de jeune araignée du pic"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16103 =
+        "Invoque de jeunes araignées du pic. Récupérez et tuez les renforts."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10376 = "Croc de cristal"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10376 =
         "Une araignée insaisissable, rarement vue parmi la population générale de Lower Blackrock Spire. On dit qu'il possède de nombreux objets convoités sur lesquels beaucoup souhaiteraient pouvoir mettre la main, si seulement ils pouvaient les trouver en premier lieu..."

@@ -1286,6 +1286,15 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10596 = "Madre Telaraña"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10596 =
         "Hace siglos, los enanos Hierro Negro excavaron en la guarida de Madre Smolderweb, liberando al enorme arácnido en los pasillos de la aguja. Su prole ha seguido aumentando en número desde entonces, hasta el punto de que incluso las fuerzas de Blackhand temen viajar a través de los dominios de Smolderweb."
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16104 = "Cristalizar"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16104 =
+        "Aturde a los enemigos frente al jefe durante 6 s. Orienta al jefe de espaldas al grupo y disipa el aturdimiento."
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16468 = "Leche materna"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16468 =
+        "Aplica un veneno que inmoviliza periódicamente al jugador afectado y a sus aliados cercanos. Elimínalo con una habilidad de limpieza de venenos o un Saco de veneno inmaduro que sueltan las arañas de la mazmorra.\n\nSi estás completando la misión Leche materna, conserva el veneno hasta volver con John Andrajoso. Si lo eliminas antes, tendrás que envenenarte de nuevo para entregar la misión."
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16103 = "Invocar cría de araña de la cumbre"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16103 =
+        "Invoca crías de araña de la cumbre. Controla y mata a los refuerzos."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10376 = "Colmillo de cristal"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10376 =
         "Una araña esquiva, rara vez vista entre la población general de Lower Blackrock Spire. Se dice que posee muchos artículos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarlos en primer lugar..."

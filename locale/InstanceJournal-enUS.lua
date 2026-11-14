@@ -1892,6 +1892,15 @@ IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_15128 =
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_10596 = "Mother Smolderweb"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_10596 =
     "Centuries ago, the Dark Iron dwarves dug into the lair of Mother Smolderweb, releasing the massive arachnid into the spire's halls. Her brood has continued to swell in number since that time, so much so that even Blackhand's forces fear traveling through Smolderweb's domain."
+IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16104 = "Crystallize"
+IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16104 =
+    "Stuns enemies in front of the boss for 6 sec. Face her away from the group and dispel the stun."
+IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16468 = "Mother's Milk"
+IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16468 =
+    "Applies a poison that periodically immobilizes the afflicted player and nearby allies. Remove it with a poison-cleansing ability or an Immature Venom Sac dropped by spiders in the dungeon.\n\nIf completing the Mother's Milk quest, keep the poison until you return to Ragged John. Removing it beforehand prevents turning in the quest until you are poisoned again."
+IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16103 = "Summon Spire Spiderling"
+IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16103 =
+    "Summons Spire Spiderlings. Pick up the adds and kill them."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_10376 = "Crystal Fang"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_10376 =
     "An elusive spider, rarely seen among the general population of Lower Blackrock Spire. It is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter it in the first place..."
