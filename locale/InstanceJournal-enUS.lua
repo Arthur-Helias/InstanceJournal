@@ -1336,6 +1336,21 @@ IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_21060 =
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11496 = "Immol'thar"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11496 =
     "In a desperate bid to restore the power and immortality they lost when the Well of Eternity was destroyed, the Shen'dralar summoned a demon into the western wing of Dire Maul and captured him within a force field, allowing them to use the void terror's energy for their own spells. Unable to fight back or even move for nearly 10,000 years, Immol'thar could only watch and wait for the day he might break free and rend the flesh of his captors."
+IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_16128 = "Infected Bite"
+IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_16128 =
+    "Diseases the target, dealing Nature damage over time and increasing physical damage taken for 3 min. Remove the disease."
+IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_5568 = "Trample"
+IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_5568 =
+    "Deals physical damage to nearby enemies."
+IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_8269 = "Enrage"
+IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_8269 =
+    "Increases attack speed and physical damage dealt."
+IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22899 = "Eye of Immol’thar"
+IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22899 =
+    "Summons Eyes of Immol’thar during the fight. Kill the eyes to prevent their slowing effects."
+IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22909 = "Eye of Immol’thar"
+IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22909 =
+    "Reduces the target’s movement speed, melee attack speed and casting speed for 4 sec."
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11486 = "Prince Tortheldrin"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11486 =
     "After the Well of Eternity's destruction, Prince Tortheldrin maintained control over the surviving Shen'dralar by imprisoning a demon in the ruins of Eldre'Thalas and letting his subjects siphon its strength. The exposure to demonic power twisted Tortheldrin's mind, and when the creature faltered, the prince ordered the deaths of many of his vassals so only he and his most fanatical followers would be left to enjoy the corrupt energy."

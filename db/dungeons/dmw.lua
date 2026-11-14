@@ -284,7 +284,7 @@ DMW.Bosses = {
             [3] = {IJDB.I[18387], DropChance = 33}
         }
     },
-    [5] = { -- NOTE: Missing abilities
+    [5] = {
         Id = "11496",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "immolthar" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "immolthar" .. IMPF,
@@ -292,6 +292,41 @@ DMW.Bosses = {
         Story = IJ_DB_DUNGEON_DMW_BOSS_STORY_11496,
         MapCoordinateX = 10.2,
         MapCoordinateY = 78.8,
+        Abilities = {
+            [1] = {
+                Id = "16128",
+                Icon = "Spell_Shadow_CallofBone",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_16128,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_16128,
+                Flags = {IMAF.Disease}
+            },
+            [2] = {
+                Id = "5568",
+                Icon = "Spell_Nature_NaturesWrath",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_5568,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_5568
+            },
+            [3] = {
+                Id = "8269",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_8269,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_8269
+            },
+            [4] = {
+                Id = "22899",
+                Icon = "Spell_Shadow_DetectInvisibility",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22899,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22899,
+                SubAbilities = {
+                    [1] = {
+                        Id = "22909",
+                        Icon = "Spell_Shadow_AntiMagicShell",
+                        Name = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22909,
+                        Effect = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22909
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18370], DropChance = 10},
             [2] = {IJDB.I[18372], DropChance = 10},

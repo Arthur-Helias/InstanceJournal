@@ -929,6 +929,21 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11496 = "Immol'thar"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11496 =
         "En un intento desesperado por restaurar el poder y la inmortalidad que perdieron cuando el Pozo de la Eternidad fue destruido, los Shen'dralar convocaron a un demonio en el ala occidental de Dire Maul y lo capturaron dentro de un campo de fuerza, permitiéndoles usar la energía del terror del vacío para sus propios hechizos. Incapaz de defenderse o incluso moverse durante casi 10.000 años, Immol'thar sólo pudo observar y esperar el día en que pudiera liberarse y desgarrar la carne de sus captores."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_16128 = "Mordedura infectada"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_16128 =
+        "Enferma al objetivo, infligiendo daño de Naturaleza periódico y aumentando el daño físico recibido durante 3 min. Elimina la enfermedad."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_5568 = "Pisotear"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_5568 =
+        "Inflige daño físico a los enemigos cercanos."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_8269 =
+        "Aumenta la velocidad de ataque y el daño físico infligido."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22899 = "Ojo de Immol’thar"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22899 =
+        "Invoca Ojos de Immol’thar durante el combate. Mata a los ojos para evitar sus efectos de ralentización."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22909 = "Ojo de Immol’thar"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22909 =
+        "Reduce la velocidad de movimiento, de ataque cuerpo a cuerpo y de lanzamiento de hechizos del objetivo durante 4 s."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11486 = "Príncipe Tortheldrin"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11486 =
         "Después de la destrucción del Pozo de la Eternidad, el Príncipe Tortheldrin mantuvo el control sobre los Shen'dralar supervivientes encarcelando a un demonio en las ruinas de Eldre'Thalas y dejando que sus súbditos desviaran su fuerza. La exposición al poder demoníaco retorció la mente de Tortheldrin, y cuando la criatura vaciló, el príncipe ordenó la muerte de muchos de sus vasallos para que sólo él y sus seguidores más fanáticos pudieran disfrutar de la energía corrupta."

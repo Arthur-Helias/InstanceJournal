@@ -929,6 +929,21 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11496 = "Immol'thar"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11496 =
         "Dans une tentative désespérée de restaurer le pouvoir et l'immortalité qu'ils ont perdus lors de la destruction du Puits d'éternité, les Shen'dralar ont invoqué un démon dans l'aile ouest de Dire Maul et l'ont capturé dans un champ de force, leur permettant d'utiliser l'énergie de la terreur du vide pour leurs propres sorts. Incapable de riposter ou même de bouger pendant près de 10 000 ans, Immol'thar ne pouvait que regarder et attendre le jour où il pourrait se libérer et déchirer la chair de ses ravisseurs."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_16128 = "Morsure infectée"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_16128 =
+        "Infecte la cible avec une maladie qui inflige des dégâts de Nature sur la durée et augmente les dégâts physiques subis pendant 3 min. Soignez la maladie."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_5568 = "Piétinement"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_5568 =
+        "Inflige des dégâts physiques aux ennemis proches."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_8269 = "Enrager"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_8269 =
+        "Augmente la vitesse d’attaque et les dégâts physiques infligés."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22899 = "Œil d’Immol’thar"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22899 =
+        "Invoque des Yeux d’Immol’thar pendant le combat. Tuez les yeux pour éviter leurs effets de ralentissement."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22909 = "Œil d’Immol’thar"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22909 =
+        "Réduit les vitesses de déplacement, d’attaque en mêlée et d’incantation de la cible pendant 4 s."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11486 = "Prince Tortheldrin"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11486 =
         "Après la destruction du Puits d'éternité, le prince Tortheldrin maintint le contrôle sur Shen'dralar survivant en emprisonnant un démon dans les ruines d'Eldre'Thalas et en laissant ses sujets siphonner sa force. L'exposition au pouvoir démoniaque a tordu l'esprit de Tortheldrin, et lorsque la créature a faibli, le prince a ordonné la mort de plusieurs de ses vassaux afin que seuls lui et ses partisans les plus fanatiques puissent profiter de l'énergie corrompue."

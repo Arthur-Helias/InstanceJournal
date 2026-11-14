@@ -1430,6 +1430,21 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11496 = "伊莫塔尔"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11496 =
         "为了恢复他们在永恒之井被摧毁时失去的力量和不朽，沈德拉拉召唤了一个恶魔进入厄运之槌的西翼，并在力场中捕获了他，允许他们将虚空恐怖的能量用于自己的法术。伊莫塔尔在近万年的时间里无法反击，甚至无法移动，只能眼睁睁地等待着有一天他能挣脱束缚，撕碎俘虏他的人的血肉。"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_16128 = "感染之咬"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_16128 =
+        "使目标感染疾病，在3分钟内持续造成自然伤害，并提高其受到的物理伤害。移除疾病。"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_5568 = "践踏"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_5568 =
+        "对附近的敌人造成物理伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_8269 =
+        "提高攻击速度和造成的物理伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22899 = "伊莫塔尔之眼"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22899 =
+        "战斗中召唤伊莫塔尔之眼。击杀眼睛，避免受到其减速效果的影响。"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22909 = "伊莫塔尔之眼"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22909 =
+        "降低目标的移动速度、近战攻击速度和施法速度，持续4秒。"
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11486 = "托塞德林王子"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11486 =
         "永恒之井被毁后，托塞德林王子通过在艾德萨拉斯废墟中囚禁恶魔并让他的臣民吸取其力量来维持对幸存的申德拉拉的控制。接触恶魔力量扭曲了托塞德林的思想，当这个生物摇摇欲坠时，王子下令杀死他的许多封臣，这样只有他和他最狂热的追随者才能享受腐败的能量。"

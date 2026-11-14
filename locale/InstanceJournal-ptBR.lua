@@ -926,6 +926,21 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11496 = "Immol'thar"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11496 =
         "Em uma tentativa desesperada de restaurar o poder e a imortalidade que perderam quando a Nascente da Eternidade foi destruída, os Shen'dralar invocaram um demônio na ala oeste de Dire Maul e o capturaram dentro de um campo de força, permitindo-lhes usar a energia do terror do vazio para seus próprios feitiços. Incapaz de revidar ou mesmo de se mover por quase 10.000 anos, Immol'thar só pôde observar e esperar pelo dia em que ele poderia se libertar e dilacerar a carne de seus captores."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_16128 = "Mordida Infectada"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_16128 =
+        "Infecta o alvo com uma doença que causa dano de Natureza ao longo do tempo e aumenta o dano físico recebido por 3 min. Remova a doença."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_5568 = "Atropelar"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_5568 =
+        "Causa dano físico aos inimigos próximos."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_8269 =
+        "Aumenta a velocidade de ataque e o dano físico causado."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22899 = "Olho de Immol’thar"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22899 =
+        "Invoca Olhos de Immol’thar durante a luta. Mate os olhos para evitar seus efeitos de lentidão."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22909 = "Olho de Immol’thar"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22909 =
+        "Reduz a velocidade de movimento, de ataque corpo a corpo e de lançamento de feitiços do alvo por 4 s."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11486 = "Príncipe Tortheldrin"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11486 =
         "Após a destruição da Nascente da Eternidade, o Príncipe Tortheldrin manteve o controle sobre os sobreviventes Shen'dralar aprisionando um demônio nas ruínas de Eldre'Thalas e deixando seus súditos sugarem sua força. A exposição ao poder demoníaco distorceu a mente de Tortheldrin, e quando a criatura vacilou, o príncipe ordenou a morte de muitos de seus vassalos para que apenas ele e seus seguidores mais fanáticos restassem para desfrutar da energia corrupta."

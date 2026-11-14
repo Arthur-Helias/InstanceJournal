@@ -930,6 +930,21 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11496 = "Immol'thar"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11496 =
         "In einem verzweifelten Versuch, die Macht und Unsterblichkeit wiederherzustellen, die sie verloren hatten, als der Brunnen der Ewigkeit zerstört wurde, riefen die Shen'dralar einen Dämon in den Westflügel von Dire Maul und fingen ihn in einem Kraftfeld ein, sodass sie die Energie des Leerenschreckens für ihre eigenen Zauber nutzen konnten. Fast 10.000 Jahre lang war Immol'thar nicht in der Lage, sich zu wehren oder sich auch nur zu bewegen. Er konnte nur zusehen und auf den Tag warten, an dem er sich befreien und das Fleisch seiner Häscher zerreißen konnte."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_16128 = "Infizierter Biss"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_16128 =
+        "Infiziert das Ziel mit einer Krankheit, die 3 Min. lang regelmäßig Naturschaden verursacht und den erlittenen körperlichen Schaden erhöht. Entfernt die Krankheit."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_5568 = "Trampeln"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_5568 =
+        "Fügt Gegnern in der Nähe körperlichen Schaden zu."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_8269 = "Wutanfall"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_8269 =
+        "Erhöht das Angriffstempo und den verursachten körperlichen Schaden."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22899 = "Auge von Immol’thar"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22899 =
+        "Beschwört während des Kampfes Augen von Immol’thar. Tötet die Augen, um ihre Verlangsamungseffekte zu verhindern."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22909 = "Auge von Immol’thar"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22909 =
+        "Verringert das Bewegungs-, Nahkampfangriffs- und Zaubertempo des Ziels 4 Sek. lang."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11486 = "Prinz Tortheldrin"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11486 =
         "Nach der Zerstörung des Brunnens der Ewigkeit behielt Prinz Tortheldrin die Kontrolle über das überlebende Shen'dralar, indem er einen Dämon in den Ruinen von Eldre'Thalas einsperrte und seine Untertanen seine Kräfte entziehen ließ. Der Kontakt mit dämonischer Macht verdrehte Tortheldrins Verstand, und als die Kreatur ins Wanken geriet, ordnete der Prinz den Tod vieler seiner Vasallen an, sodass nur noch er und seine fanatischsten Anhänger übrig blieben, die sich an der verdorbenen Energie erfreuen konnten."
