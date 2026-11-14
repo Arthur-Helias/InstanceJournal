@@ -1230,6 +1230,24 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "Kriegsmeister Voone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "Während des Zweiten Krieges führte Voone kleine Einsatztrupps auf waghalsigen Missionen ins Herz des Hochelfengebiets. Der listige Troll schloss sich der falschen Horde an, weil er ihr Chefstratege sein wollte, nicht weil er an Blackhands Ideologie glaubte. Voone betrachtet die Splitterfraktion als Außenseiter und genießt die Genugtuung, unüberwindliche Widrigkeiten überwunden zu haben."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_10966 = "Aufwärtshaken"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_10966 =
+        "Fügt dem Ziel körperlichen Schaden zu und stößt es zurück."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15284 = "Spalten"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15284 =
+        "Fügt dem Ziel und dessen Verbündeten in der Nähe körperlichen Schaden zu und trifft bis zu 3 Gegner."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15615 = "Zuschlagen"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15615 =
+        "Verursacht körperlichen Schaden und unterbricht den Zauber des Ziels. Verhindert 5 Sek. lang Zauber dieser Magieschule."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15618 = "Schneller Tritt"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15618 =
+        "Verursacht körperlichen Schaden und betäubt das Ziel 2 Sek. lang."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15708 = "Tödlicher Stoß"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15708 =
+        "Verursacht körperlichen Schaden und verringert die erhaltene Heilung 5 Sek. lang um 50%."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_16075 = "Axt werfen"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_16075 =
+        "Wirft eine Axt auf das Ziel, verursacht körperlichen Schaden und betäubt es 2 Sek. lang."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080 = "Mor Grauhuf"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080 =
         "Mor Grauhuf floh mit Bodley aus der Schwarzfelsspitze, nachdem sie Lord Valthalaks Zauberbuch und Amulett gestohlen hatten. Er überlebte einen Sturz in den unteren Teil der Spitze, wurde jedoch von Kriegsmeister Voone gefangen genommen und gefoltert. Später töteten ihn spektrale Assassinen vor den Augen seines Peinigers. Sein ruheloser Geist kann beschworen werden, um das Amulett zurückzuerlangen und Valthalak entgegenzutreten."

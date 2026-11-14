@@ -1835,6 +1835,24 @@ IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_20691 =
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "War Master Voone"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
     "During the Second War, Voone led small strike teams on daring missions into the heart of high elven territory. The cunning troll joined the false Horde because he wanted to be its chief strategist, not because he believed in Blackhand's ideology. Voone sees the splinter faction as an underdog, and he enjoys the satisfaction of overcoming insurmountable odds."
+IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_10966 = "Uppercut"
+IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_10966 =
+    "Deals physical damage to the target and knocks it back."
+IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15284 = "Cleave"
+IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15284 =
+    "Deals physical damage to the target and nearby allies, hitting up to 3 enemies."
+IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15615 = "Pummel"
+IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15615 =
+    "Deals physical damage and interrupts the target’s spell, preventing spells from that school for 5 sec."
+IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15618 = "Snap Kick"
+IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15618 =
+    "Deals physical damage and stuns the target for 2 sec."
+IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15708 = "Mortal Strike"
+IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15708 =
+    "Deals physical damage and reduces healing received by 50% for 5 sec."
+IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_16075 = "Throw Axe"
+IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_16075 =
+    "Throws an axe at the target, dealing physical damage and stunning it for 2 sec."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080 = "Mor Grayhoof"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080 =
     "Mor Grayhoof fled Blackrock Spire with Bodley after stealing Lord Valthalak's spellbook and amulet. He survived a fall into the lower spire, only to be captured and tortured by War Master Voone. Spectral assassins later killed him before his captor. His troubled spirit can be summoned as part of the effort to recover the amulet and confront Valthalak."

@@ -1229,6 +1229,24 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "Maestro de guerra Voone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "Durante la Segunda Guerra, Voone dirigió pequeños equipos de ataque en atrevidas misiones en el corazón del territorio de los altos elfos. El astuto troll se unió a la falsa Horda porque quería ser su principal estratega, no porque creyera en la ideología de Blackhand. Voone ve a la facción disidente como un perdedor y disfruta de la satisfacción de superar obstáculos insuperables."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_10966 = "Gancho"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_10966 =
+        "Inflige daño físico al objetivo y lo repele."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15284 = "Rajar"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15284 =
+        "Inflige daño físico al objetivo y a sus aliados cercanos y alcanza hasta 3 enemigos."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15615 = "Zurrar"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15615 =
+        "Inflige daño físico e interrumpe el hechizo del objetivo, impidiendo los hechizos de esa escuela durante 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15618 = "Patada rápida"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15618 =
+        "Inflige daño físico y aturde al objetivo durante 2 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15708 = "Golpe mortal"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15708 =
+        "Inflige daño físico y reduce la sanación recibida un 50% durante 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_16075 = "Lanzar hacha"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_16075 =
+        "Lanza un hacha al objetivo, le inflige daño físico y lo aturde durante 2 s."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080 = "Mor Pezuña Gris"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080 =
         "Mor Pezuña Gris huyó de la Cumbre de Roca Negra con Bodley tras robar el libro de hechizos y el amuleto de Lord Valthalak. Sobrevivió a una caída a la parte inferior de la cumbre, pero fue capturado y torturado por el Maestro de guerra Voone. Más tarde, unos asesinos espectrales lo mataron ante su captor. Su espíritu atormentado puede ser invocado para recuperar el amuleto y enfrentarse a Valthalak."

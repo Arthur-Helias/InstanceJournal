@@ -1928,6 +1928,24 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "指挥官沃恩"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "在第二次战争期间，沃恩带领小型突击队执行大胆的任务，进入高等精灵领地的中心地带。狡猾的巨魔加入虚假部落是因为他想成为部落的首席战略家，而不是因为他相信布莱克汉的意识形态。沃恩将分裂派视为失败者，他享受克服难以克服的困难的满足感。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_10966 = "上勾拳"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_10966 =
+        "对目标造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15284 = "顺劈斩"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15284 =
+        "对目标及其附近的盟友造成物理伤害，最多命中3个敌人。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15615 = "拳击"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15615 =
+        "造成物理伤害并打断目标施法，使其在5秒内无法施放同系法术。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15618 = "快速踢击"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15618 =
+        "造成物理伤害并使目标昏迷2秒。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15708 = "致死打击"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15708 =
+        "造成物理伤害，并使受到的治疗效果降低50%，持续5秒。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_16075 = "投掷斧头"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_16075 =
+        "向目标投掷斧头，造成物理伤害并使其昏迷2秒。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080 = "莫尔·灰蹄"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080 =
         "莫尔·灰蹄与伯德雷偷走瓦塔拉克公爵的法术书和护符后，一同逃离黑石塔。他坠入塔的下层并幸存下来，却被指挥官沃恩俘获并遭受折磨。随后，幽灵刺客当着沃恩的面杀死了他。为了找回护符并对抗瓦塔拉克，人们可以召唤他饱受折磨的灵魂。"

@@ -1229,6 +1229,24 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "Maître de guerre Voone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "Pendant la Seconde Guerre, Voone dirigea de petites équipes d'attaque dans des missions audacieuses au cœur du territoire des hauts elfes. Le troll rusé a rejoint la fausse Horde parce qu'il voulait en être le stratège en chef, et non parce qu'il croyait en l'idéologie de Blackhand. Voone considère la faction dissidente comme un outsider et il apprécie la satisfaction de surmonter des obstacles insurmontables."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_10966 = "Uppercut"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_10966 =
+        "Inflige des dégâts physiques à la cible et la repousse."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15284 = "Enchaînement"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15284 =
+        "Inflige des dégâts physiques à la cible et à ses alliés proches, touchant jusqu’à 3 ennemis."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15615 = "Volée de coups"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15615 =
+        "Inflige des dégâts physiques et interrompt le sort de la cible, empêchant les sorts de cette école pendant 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15618 = "Coup de pied rapide"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15618 =
+        "Inflige des dégâts physiques et étourdit la cible pendant 2 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15708 = "Frappe mortelle"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15708 =
+        "Inflige des dégâts physiques et réduit les soins reçus de 50% pendant 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_16075 = "Lancer de hache"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_16075 =
+        "Lance une hache sur la cible, lui inflige des dégâts physiques et l’étourdit pendant 2 s."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080 = "Mor Sabot-Gris"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080 =
         "Mor Sabot-Gris s’enfuit du pic Rochenoire avec Bodley après avoir dérobé le grimoire et l’amulette du seigneur Valthalak. Il survécut à une chute dans la partie inférieure du pic, mais fut capturé et torturé par le maître de guerre Voone. Des assassins spectraux le tuèrent ensuite sous les yeux de son geôlier. Son esprit tourmenté peut être invoqué afin de récupérer l’amulette et d’affronter Valthalak."

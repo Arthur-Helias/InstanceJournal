@@ -1226,6 +1226,24 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "Mestre de Guerra Voone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "Durante a Segunda Guerra, Voone liderou pequenas equipes de ataque em missões ousadas no coração do território dos Altos Elfos. O astuto troll juntou-se à falsa Horda porque queria ser seu estrategista-chefe, não porque acreditasse na ideologia de Blackhand. Voone vê a facção dissidente como uma oprimida e gosta da satisfação de superar dificuldades intransponíveis."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_10966 = "Gancho"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_10966 =
+        "Causa dano físico ao alvo e o repele."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15284 = "Cutilada"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15284 =
+        "Causa dano físico ao alvo e a seus aliados próximos, atingindo até 3 inimigos."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15615 = "Murro"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15615 =
+        "Causa dano físico e interrompe o feitiço do alvo, impedindo feitiços daquela escola por 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15618 = "Chute Rápido"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15618 =
+        "Causa dano físico e atordoa o alvo por 2 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15708 = "Golpe Mortal"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15708 =
+        "Causa dano físico e reduz a cura recebida em 50% por 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_16075 = "Arremessar Machado"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_16075 =
+        "Arremessa um machado no alvo, causando dano físico e atordoando-o por 2 s."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080 = "Mor Casco Cinza"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080 =
         "Mor Casco Cinza fugiu do Pico da Rocha Negra com Bodley após roubarem o grimório e o amuleto de Lord Valthalak. Ele sobreviveu a uma queda na parte inferior do pico, mas foi capturado e torturado por War Master Voone. Assassinos espectrais posteriormente o mataram diante de seu captor. Seu espírito atormentado pode ser invocado como parte dos esforços para recuperar o amuleto e enfrentar Valthalak."
