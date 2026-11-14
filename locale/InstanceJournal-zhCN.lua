@@ -1418,6 +1418,15 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11467 = "苏斯"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11467 =
         "难以捉摸的暗夜精灵幽灵，在首都花园的居民中很少见到。据说她拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到她就好了……"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_12540 = "凿击"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_12540 =
+        "造成物理伤害，并使目标瘫痪，最多持续4秒。任何伤害都会打断此效果。"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_14873 = "邪恶攻击"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_14873 =
+        "对目标造成物理伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_21060 = "致盲"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_21060 =
+        "使目标失明并困惑地四处游荡，最多持续10秒。任何伤害都会打断此效果。"
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11496 = "伊莫塔尔"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11496 =
         "为了恢复他们在永恒之井被摧毁时失去的力量和不朽，沈德拉拉召唤了一个恶魔进入厄运之槌的西翼，并在力场中捕获了他，允许他们将虚空恐怖的能量用于自己的法术。伊莫塔尔在近万年的时间里无法反击，甚至无法移动，只能眼睁睁地等待着有一天他能挣脱束缚，撕碎俘虏他的人的血肉。"

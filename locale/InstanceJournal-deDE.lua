@@ -918,6 +918,15 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11467 = "Tsu'zee"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11467 =
         "Ein schwer fassbarer Geist eines Nachtelfen, der unter den Bewohnern der Hauptstadtgärten selten zu sehen ist. Sie soll viele begehrte Gegenstände besitzen, von denen sich viele wünschen, sie könnten sie in die Hände bekommen, wenn sie ihr nur überhaupt begegnen könnten ..."
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_12540 = "Gouge"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_12540 =
+        "Verursacht körperlichen Schaden und macht das Ziel bis zu 4 Sek. lang handlungsunfähig. Jeglicher Schaden hebt den Effekt auf."
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_14873 = "Unheimlicher Schlag"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_14873 =
+        "Fügt dem Ziel körperlichen Schaden zu."
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_21060 = "Blind"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_21060 =
+        "Blendet das Ziel und lässt es bis zu 10 Sek. lang verwirrt umherwandern. Jeglicher Schaden hebt den Effekt auf."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11496 = "Immol'thar"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11496 =
         "In einem verzweifelten Versuch, die Macht und Unsterblichkeit wiederherzustellen, die sie verloren hatten, als der Brunnen der Ewigkeit zerstört wurde, riefen die Shen'dralar einen Dämon in den Westflügel von Dire Maul und fingen ihn in einem Kraftfeld ein, sodass sie die Energie des Leerenschreckens für ihre eigenen Zauber nutzen konnten. Fast 10.000 Jahre lang war Immol'thar nicht in der Lage, sich zu wehren oder sich auch nur zu bewegen. Er konnte nur zusehen und auf den Tag warten, an dem er sich befreien und das Fleisch seiner Häscher zerreißen konnte."

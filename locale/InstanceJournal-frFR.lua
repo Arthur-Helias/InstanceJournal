@@ -917,6 +917,15 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11467 = "Tsu'zee"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11467 =
         "Le fantôme insaisissable d'un elfe de la nuit, rarement vu parmi les habitants des jardins de la capitale. On dit qu'elle possède de nombreux objets convoités sur lesquels beaucoup souhaiteraient pouvoir mettre la main, si seulement ils pouvaient la rencontrer en premier lieu..."
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_12540 = "Gouge"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_12540 =
+        "Inflige des dégâts physiques et stupéfie la cible pendant 4 s au maximum. Tout dégât interrompt cet effet."
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_14873 = "Frappe sinistre"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_14873 =
+        "Inflige des dégâts physiques à la cible."
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_21060 = "Aveugle"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_21060 =
+        "Aveugle la cible, la faisant errer, désorientée, pendant 10 s au maximum. Tout dégât interrompt cet effet."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11496 = "Immol'thar"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11496 =
         "Dans une tentative désespérée de restaurer le pouvoir et l'immortalité qu'ils ont perdus lors de la destruction du Puits d'éternité, les Shen'dralar ont invoqué un démon dans l'aile ouest de Dire Maul et l'ont capturé dans un champ de force, leur permettant d'utiliser l'énergie de la terreur du vide pour leurs propres sorts. Incapable de riposter ou même de bouger pendant près de 10 000 ans, Immol'thar ne pouvait que regarder et attendre le jour où il pourrait se libérer et déchirer la chair de ses ravisseurs."

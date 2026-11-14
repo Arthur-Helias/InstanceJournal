@@ -917,6 +917,15 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11467 = "Tsu'zee"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11467 =
         "Un esquivo fantasma de un elfo de la noche, rara vez visto entre los habitantes de Capital Gardens. Se dice que posee muchos objetos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarla en primer lugar..."
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_12540 = "Gubia"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_12540 =
+        "Inflige daño físico e incapacita al objetivo durante un máximo de 4 s. Cualquier daño interrumpe el efecto."
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_14873 = "Golpe siniestro"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_14873 =
+        "Inflige daño físico al objetivo."
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_21060 = "Ciego"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_21060 =
+        "Ciega al objetivo y hace que deambule confuso durante un máximo de 10 s. Cualquier daño interrumpe el efecto."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11496 = "Immol'thar"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11496 =
         "En un intento desesperado por restaurar el poder y la inmortalidad que perdieron cuando el Pozo de la Eternidad fue destruido, los Shen'dralar convocaron a un demonio en el ala occidental de Dire Maul y lo capturaron dentro de un campo de fuerza, permitiéndoles usar la energía del terror del vacío para sus propios hechizos. Incapaz de defenderse o incluso moverse durante casi 10.000 años, Immol'thar sólo pudo observar y esperar el día en que pudiera liberarse y desgarrar la carne de sus captores."

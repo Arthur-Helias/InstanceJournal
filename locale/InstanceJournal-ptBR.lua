@@ -914,6 +914,15 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11467 = "Tsu'zee"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11467 =
         "Um fantasma indescritível de um elfo noturno, raramente visto entre os habitantes dos Jardins da Capital. Diz-se que ela possui muitos itens cobiçados que muitos gostariam de poder colocar as mãos, se ao menos pudessem encontrá-la em primeiro lugar..."
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_12540 = "Goivar"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_12540 =
+        "Causa dano físico e incapacita o alvo por até 4 s. Qualquer dano interrompe o efeito."
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_14873 = "Ataque Sinistro"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_14873 =
+        "Causa dano físico ao alvo."
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_21060 = "Cegueira"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_21060 =
+        "Cega o alvo, fazendo com que vagueie confuso por até 10 s. Qualquer dano interrompe o efeito."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11496 = "Immol'thar"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11496 =
         "Em uma tentativa desesperada de restaurar o poder e a imortalidade que perderam quando a Nascente da Eternidade foi destruída, os Shen'dralar invocaram um demônio na ala oeste de Dire Maul e o capturaram dentro de um campo de força, permitindo-lhes usar a energia do terror do vazio para seus próprios feitiços. Incapaz de revidar ou mesmo de se mover por quase 10.000 anos, Immol'thar só pôde observar e esperar pelo dia em que ele poderia se libertar e dilacerar a carne de seus captores."

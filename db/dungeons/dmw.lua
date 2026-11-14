@@ -250,7 +250,7 @@ DMW.Bosses = {
             [18] = {IJDB.I[18401], DropChance = 1}
         }
     },
-    [4] = { -- NOTE: Missing abilities
+    [4] = {
         Id = "11467",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "tsuzee" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "tsuzee" .. IMPF,
@@ -258,6 +258,26 @@ DMW.Bosses = {
         Story = IJ_DB_DUNGEON_DMW_BOSS_STORY_11467,
         MapCoordinateX = 29.1,
         MapCoordinateY = 66.5,
+        Abilities = {
+            [1] = {
+                Id = "12540",
+                Icon = "Ability_Gouge",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_12540,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_12540
+            },
+            [2] = {
+                Id = "14873",
+                Icon = "Spell_Shadow_RitualOfSacrifice",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_14873,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_14873
+            },
+            [3] = {
+                Id = "21060",
+                Icon = "Spell_Shadow_MindSteal",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_21060,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_21060
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18345], DropChance = 33}, 
             [2] = {IJDB.I[18346], DropChance = 33}, 

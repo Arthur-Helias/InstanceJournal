@@ -1324,6 +1324,15 @@ IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_7645 =
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11467 = "Tsu'zee"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11467 =
     "An elusive ghost of a night elf, rarely seen among the denizens of the Capital Gardens. She is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter her in the first place..."
+IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_12540 = "Gouge"
+IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_12540 =
+    "Deals physical damage and incapacitates the target for up to 4 sec. Any damage breaks the effect."
+IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_14873 = "Sinister Strike"
+IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_14873 =
+    "Deals physical damage to the target."
+IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_21060 = "Blind"
+IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_21060 =
+    "Blinds the target, causing it to wander confused for up to 10 sec. Any damage breaks the effect."
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11496 = "Immol'thar"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11496 =
     "In a desperate bid to restore the power and immortality they lost when the Well of Eternity was destroyed, the Shen'dralar summoned a demon into the western wing of Dire Maul and captured him within a force field, allowing them to use the void terror's energy for their own spells. Unable to fight back or even move for nearly 10,000 years, Immol'thar could only watch and wait for the day he might break free and rend the flesh of his captors."
