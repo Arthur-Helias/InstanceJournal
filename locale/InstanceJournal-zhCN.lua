@@ -1895,6 +1895,33 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "指挥官沃恩"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "在第二次战争期间，沃恩带领小型突击队执行大胆的任务，进入高等精灵领地的中心地带。狡猾的巨魔加入虚假部落是因为他想成为部落的首席战略家，而不是因为他相信布莱克汉的意识形态。沃恩将分裂派视为失败者，他享受克服难以克服的困难的满足感。"
+    IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080 = "莫尔·灰蹄"
+    IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080 =
+        "莫尔·灰蹄与伯德雷偷走瓦塔拉克公爵的法术书和护符后，一同逃离黑石塔。他坠入塔的下层并幸存下来，却被指挥官沃恩俘获并遭受折磨。随后，幽灵刺客当着沃恩的面杀死了他。为了找回护符并对抗瓦塔拉克，人们可以召唤他饱受折磨的灵魂。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_summoning = "召唤"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_summoning =
+        "在地下城套装2的任务链中，使用召唤火盆在指挥官沃恩的房间内召唤。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27532 = "回春术"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27532 =
+        "在12秒内持续恢复生命值。可以从首领身上驱散。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27527 = "治疗之触"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27527 =
+        "施放法术，为自己恢复生命值。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27737 = "月火术"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27737 =
+        "对附近的敌人造成奥术伤害，并在12秒内持续造成额外伤害。持续伤害效果可以被驱散。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27543 = "熊形态"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27543 =
+        "变为熊形态，持续10秒，受到的物理伤害降低50%。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27553 = "槌击"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27553 =
+        "造成物理伤害并使目标昏迷2秒。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27554 = "挥击"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27554 =
+        "对目标造成物理伤害。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27545 = "猎豹形态"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27545 =
+        "变为猎豹形态，持续10秒，提高近战攻击速度。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9596 = "班诺克·巨斧"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9596 =
         "难以捉摸的兽人，在黑石塔下层的普通人群中很少见到。据说他拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到他就好了……"
@@ -1952,6 +1979,11 @@ if GetLocale() == "zhCN" then
     IJ_LOOT_NAME_16676 = "野兽追猎者手套"
     IJ_LOOT_NAME_22231 = "凯瑟尔的精准之靴"
     IJ_LOOT_NAME_13175 = "沃恩的迅捷弓"
+    IJ_LOOT_NAME_22306 = "铁纹腰带"
+    IJ_LOOT_NAME_22319 = "神圣权力之书"
+    IJ_LOOT_NAME_22322 = "碎颚者"
+    IJ_LOOT_NAME_22325 = "狡诈腰带"
+    IJ_LOOT_NAME_22398 = "回春神像"
     IJ_LOOT_NAME_12621 = "恶魔之叉"
     IJ_LOOT_NAME_12634 = "凿刻束带"
     IJ_LOOT_NAME_12637 = "班诺克护手"

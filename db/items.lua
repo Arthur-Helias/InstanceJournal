@@ -1552,6 +1552,25 @@ I[22231] = {Id = "22231", Icon = "inv_boots_cloth_02", Name = IJ_LOOT_NAME_22231
 
 I[13175] = {Id = "13175", Icon = "inv_weapon_bow_10", Name = IJ_LOOT_NAME_13175, Quality = IQ.Uncommon, ItemSlot = IS.Ranged, ItemType = IT.Bow, LevelRequirement = 55}
 
+I[22306] = {
+    Id = "22306",
+    Icon = "INV_Belt_03",
+    Name = IJ_LOOT_NAME_22306,
+    Quality = IQ.Rare,
+    ItemSlot = IS.Waist,
+    ItemType = IT.Cloth,
+    LevelRequirement = 56,
+    ClassRestriction = {IMCL.Priest, IMCL.Mage, IMCL.Warlock, IMCL.Druid}
+}
+
+I[22319] = {Id = "22319", Icon = "INV_Misc_Book_07", Name = IJ_LOOT_NAME_22319, Quality = IQ.Rare, ItemSlot = IS.HeldInOffHand, LevelRequirement = 56}
+
+I[22322] = {Id = "22322", Icon = "INV_Mace_15", Name = IJ_LOOT_NAME_22322, Quality = IQ.Rare, ItemSlot = IS.OneHand, ItemType = IT.Mace, LevelRequirement = 56}
+
+I[22325] = {Id = "22325", Icon = "INV_Belt_26", Name = IJ_LOOT_NAME_22325, Quality = IQ.Rare, ItemSlot = IS.Waist, ItemType = IT.Leather, LevelRequirement = 56}
+
+I[22398] = {Id = "22398", Icon = "INV_Relics_IdolofRejuvenation", Name = IJ_LOOT_NAME_22398, Quality = IQ.Rare, ItemSlot = IS.Relic, ItemType = IT.Idol, LevelRequirement = 57}
+
 I[12621] = {Id = "12621", Icon = "inv_weapon_halberd_11", Name = IJ_LOOT_NAME_12621, Quality = IQ.Rare, ItemSlot = IS.MainHand, ItemType = IT.Axe, LevelRequirement = 54}
 
 I[12634] = {Id = "12634", Icon = "inv_belt_13", Name = IJ_LOOT_NAME_12634, Quality = IQ.Rare, ItemSlot = IS.Waist, ItemType = IT.Mail, LevelRequirement = 55}

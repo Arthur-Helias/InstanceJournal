@@ -1196,6 +1196,33 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "Maître de guerre Voone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "Pendant la Seconde Guerre, Voone dirigea de petites équipes d'attaque dans des missions audacieuses au cœur du territoire des hauts elfes. Le troll rusé a rejoint la fausse Horde parce qu'il voulait en être le stratège en chef, et non parce qu'il croyait en l'idéologie de Blackhand. Voone considère la faction dissidente comme un outsider et il apprécie la satisfaction de surmonter des obstacles insurmontables."
+    IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080 = "Mor Sabot-Gris"
+    IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080 =
+        "Mor Sabot-Gris s’enfuit du pic Rochenoire avec Bodley après avoir dérobé le grimoire et l’amulette du seigneur Valthalak. Il survécut à une chute dans la partie inférieure du pic, mais fut capturé et torturé par le maître de guerre Voone. Des assassins spectraux le tuèrent ensuite sous les yeux de son geôlier. Son esprit tourmenté peut être invoqué afin de récupérer l’amulette et d’affronter Valthalak."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_summoning = "Invocation"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_summoning =
+        "Invoqué dans la salle du maître de guerre Voone avec le Brasero de signal pendant la suite de quêtes de l’ensemble de donjon 2."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27532 = "Récupération"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27532 =
+        "Rend des points de vie pendant 12 s. Peut être dissipé sur le boss."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27527 = "Toucher guérisseur"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27527 =
+        "Lance un sort qui lui rend des points de vie."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27737 = "Éclat lunaire"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27737 =
+        "Inflige des dégâts des Arcanes aux ennemis proches, puis des dégâts supplémentaires pendant 12 s. L’effet périodique peut être dissipé."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27543 = "Forme d’ours"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27543 =
+        "Prend une forme d’ours pendant 10 s, réduisant les dégâts physiques subis de 50%."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27553 = "Mutiler"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27553 =
+        "Inflige des dégâts physiques et étourdit la cible pendant 2 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27554 = "Balayage"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27554 =
+        "Inflige des dégâts physiques à la cible."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27545 = "Forme de félin"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27545 =
+        "Prend une forme de félin pendant 10 s, augmentant la vitesse d’attaque en mêlée."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9596 = "Bannok Grimaxe"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9596 =
         "Un orc insaisissable, rarement vu parmi la population générale de Lower Blackrock Spire. On dit qu'il possède de nombreux objets convoités sur lesquels beaucoup souhaiteraient pouvoir mettre la main, si seulement ils pouvaient le rencontrer en premier lieu..."
@@ -1223,6 +1250,13 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Seigneur Wyrmthalak"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "Le dragon noir Wyrmthalak supervise les forces de la flèche inférieure alors qu'elles se préparent à leur assaut contre les nains. Il n'aime pas la fausse Horde ni ses membres brutaux, et il sacrifiera un certain nombre de serviteurs de Blackhand pour protéger son maître, Nefarian."
+
+    -- LBRS Loot
+    IJ_LOOT_NAME_22306 = "Ceinture Tisse-fer"
+    IJ_LOOT_NAME_22319 = "Tome du droit divin"
+    IJ_LOOT_NAME_22322 = "Le Casse-mâchoire"
+    IJ_LOOT_NAME_22325 = "Ceinture de l’Entourloupe"
+    IJ_LOOT_NAME_22398 = "Idole de récupération"
 
     -- UBRS
     IJ_DB_DUNGEON_UBRS_NAME = "Flèche supérieure de Rochenoire"

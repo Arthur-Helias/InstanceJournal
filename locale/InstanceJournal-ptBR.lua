@@ -1193,6 +1193,33 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "Mestre de Guerra Voone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "Durante a Segunda Guerra, Voone liderou pequenas equipes de ataque em missões ousadas no coração do território dos Altos Elfos. O astuto troll juntou-se à falsa Horda porque queria ser seu estrategista-chefe, não porque acreditasse na ideologia de Blackhand. Voone vê a facção dissidente como uma oprimida e gosta da satisfação de superar dificuldades intransponíveis."
+    IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080 = "Mor Casco Cinza"
+    IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080 =
+        "Mor Casco Cinza fugiu do Pico da Rocha Negra com Bodley após roubarem o grimório e o amuleto de Lord Valthalak. Ele sobreviveu a uma queda na parte inferior do pico, mas foi capturado e torturado por War Master Voone. Assassinos espectrais posteriormente o mataram diante de seu captor. Seu espírito atormentado pode ser invocado como parte dos esforços para recuperar o amuleto e enfrentar Valthalak."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_summoning = "Invocação"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_summoning =
+        "É invocado na sala de War Master Voone com o Brazier of Beckoning durante a sequência de quests do conjunto de masmorra 2."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27532 = "Rejuvenescer"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27532 =
+        "Restaura vida ao longo de 12 s. Pode ser dissipado do boss."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27527 = "Toque de Cura"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27527 =
+        "Lança um feitiço que restaura sua própria vida."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27737 = "Fogo Lunar"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27737 =
+        "Causa dano Arcano aos inimigos próximos e dano adicional ao longo de 12 s. O efeito periódico pode ser dissipado."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27543 = "Forma de Urso"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27543 =
+        "Assume a forma de urso por 10 s, reduzindo o dano físico recebido em 50%."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27553 = "Espancar"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27553 =
+        "Causa dano físico e atordoa o alvo por 2 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27554 = "Patada"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27554 =
+        "Causa dano físico ao alvo."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27545 = "Forma de Felino"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27545 =
+        "Assume a forma de felino por 10 s, aumentando a velocidade de ataque corpo a corpo."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9596 = "Bannok Grimaxe"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9596 =
         "Um orc indescritível, raramente visto entre a população em geral do Pináculo da Rocha Negra Inferior. Diz-se que ele possui muitos itens cobiçados que muitos gostariam de poder colocar em suas mãos, se ao menos pudessem encontrá-lo em primeiro lugar..."
@@ -1220,6 +1247,13 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Senhor Supremo Wyrmthalak"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "A cria do dragão negro Wyrmthalak supervisiona as forças da torre inferior enquanto elas se preparam para o ataque contra os anões. Ele não tem amor pela falsa Horda ou por seus membros brutais, e sacrificará qualquer número de asseclas de Blackhand para proteger seu mestre, Nefarian."
+
+    -- LBRS Loot
+    IJ_LOOT_NAME_22306 = "Cinto de Tramaferro"
+    IJ_LOOT_NAME_22319 = "Tomo do Direito Divino"
+    IJ_LOOT_NAME_22322 = "Quebra-Queixo"
+    IJ_LOOT_NAME_22325 = "Cinto do Trapaceiro"
+    IJ_LOOT_NAME_22398 = "Ídolo de Rejuvenescimento"
 
     -- UBRS
     IJ_DB_DUNGEON_UBRS_NAME = "Pináculo Superior da Rocha Negra"

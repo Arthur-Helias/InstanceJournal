@@ -1197,6 +1197,33 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "Kriegsmeister Voone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "Während des Zweiten Krieges führte Voone kleine Einsatztrupps auf waghalsigen Missionen ins Herz des Hochelfengebiets. Der listige Troll schloss sich der falschen Horde an, weil er ihr Chefstratege sein wollte, nicht weil er an Blackhands Ideologie glaubte. Voone betrachtet die Splitterfraktion als Außenseiter und genießt die Genugtuung, unüberwindliche Widrigkeiten überwunden zu haben."
+    IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080 = "Mor Grauhuf"
+    IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080 =
+        "Mor Grauhuf floh mit Bodley aus der Schwarzfelsspitze, nachdem sie Lord Valthalaks Zauberbuch und Amulett gestohlen hatten. Er überlebte einen Sturz in den unteren Teil der Spitze, wurde jedoch von Kriegsmeister Voone gefangen genommen und gefoltert. Später töteten ihn spektrale Assassinen vor den Augen seines Peinigers. Sein ruheloser Geist kann beschworen werden, um das Amulett zurückzuerlangen und Valthalak entgegenzutreten."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_summoning = "Beschwörung"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_summoning =
+        "Wird während der Questreihe für das Dungeonset 2 mit dem Räuchergefäß der Anrufung in Kriegsmeister Voones Kammer beschworen."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27532 = "Verjüngung"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27532 =
+        "Stellt über 12 Sek. Gesundheit wieder her. Kann vom Boss gebannt werden."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27527 = "Heilende Berührung"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27527 =
+        "Wirkt einen Zauber, der seine Gesundheit wiederherstellt."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27737 = "Mondfeuer"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27737 =
+        "Fügt Gegnern in der Nähe Arkanschaden und über 12 Sek. weiteren Schaden zu. Der regelmäßige Schadenseffekt kann gebannt werden."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27543 = "Bärengestalt"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27543 =
+        "Nimmt für 10 Sek. Bärengestalt an und verringert den erlittenen körperlichen Schaden um 50%."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27553 = "Zermalmen"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27553 =
+        "Verursacht körperlichen Schaden und betäubt das Ziel 2 Sek. lang."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27554 = "Prankenhieb"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27554 =
+        "Fügt dem Ziel körperlichen Schaden zu."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27545 = "Katzengestalt"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27545 =
+        "Nimmt für 10 Sek. Katzengestalt an und erhöht das Nahkampfangriffstempo."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9596 = "Bannok Grimaxe"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9596 =
         "Ein schwer fassbarer Ork, der in der allgemeinen Bevölkerung der Unteren Schwarzfelsspitze selten zu sehen ist. Es wird gesagt, dass er viele begehrte Gegenstände besitzt, von denen sich viele wünschen, sie könnten sie in die Hände bekommen, wenn sie ihm nur überhaupt begegnen könnten ..."
@@ -1224,6 +1251,13 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Oberherr Wyrmthalak"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "Der schwarze Drachenbrut Wyrmthalak beaufsichtigt die Streitkräfte des unteren Turms, während sie sich auf ihren Angriff gegen die Zwerge vorbereiten. Er liebt die falsche Horde oder ihre brutalen Mitglieder nicht und opfert jede Menge von Blackhands Dienern, um seinen Meister Nefarian zu beschützen."
+
+    -- LBRS Loot
+    IJ_LOOT_NAME_22306 = "Eisengewebter Gürtel"
+    IJ_LOOT_NAME_22319 = "Foliant des göttlichen Rechts"
+    IJ_LOOT_NAME_22322 = "Der Kieferbrecher"
+    IJ_LOOT_NAME_22325 = "Gürtel des Schwindlers"
+    IJ_LOOT_NAME_22398 = "Götze der Verjüngung"
 
     -- UBRS
     IJ_DB_DUNGEON_UBRS_NAME = "Oberer Schwarzfelsturm"

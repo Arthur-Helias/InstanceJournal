@@ -1196,6 +1196,33 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "Maestro de guerra Voone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "Durante la Segunda Guerra, Voone dirigió pequeños equipos de ataque en atrevidas misiones en el corazón del territorio de los altos elfos. El astuto troll se unió a la falsa Horda porque quería ser su principal estratega, no porque creyera en la ideología de Blackhand. Voone ve a la facción disidente como un perdedor y disfruta de la satisfacción de superar obstáculos insuperables."
+    IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080 = "Mor Pezuña Gris"
+    IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080 =
+        "Mor Pezuña Gris huyó de la Cumbre de Roca Negra con Bodley tras robar el libro de hechizos y el amuleto de Lord Valthalak. Sobrevivió a una caída a la parte inferior de la cumbre, pero fue capturado y torturado por el Maestro de guerra Voone. Más tarde, unos asesinos espectrales lo mataron ante su captor. Su espíritu atormentado puede ser invocado para recuperar el amuleto y enfrentarse a Valthalak."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_summoning = "Invocación"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_summoning =
+        "Se invoca en la cámara del Maestro de guerra Voone con el Blandón de Señalización durante la cadena de misiones del conjunto de mazmorra 2."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27532 = "Rejuvenecimiento"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27532 =
+        "Restaura salud durante 12 s. Se puede disipar del jefe."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27527 = "Toque de sanación"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27527 =
+        "Lanza un hechizo que le restaura salud."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27737 = "Fuego lunar"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27737 =
+        "Inflige daño Arcano a los enemigos cercanos y daño adicional durante 12 s. El efecto periódico se puede disipar."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27543 = "Forma de oso"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27543 =
+        "Adopta forma de oso durante 10 s y reduce el daño físico recibido un 50%."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27553 = "Magullar"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27553 =
+        "Inflige daño físico y aturde al objetivo durante 2 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27554 = "Flagelo"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27554 =
+        "Inflige daño físico al objetivo."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27545 = "Forma felina"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27545 =
+        "Adopta forma felina durante 10 s y aumenta la velocidad de ataque cuerpo a cuerpo."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9596 = "Bannok Grimaxe"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9596 =
         "Un orco esquivo, rara vez visto entre la población general de Lower Blackrock Spire. Se dice que posee muchos objetos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarlo en primer lugar..."
@@ -1223,6 +1250,13 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Señor supremo Wyrmthalak"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "El engendro del dragón negro Wyrmthalak supervisa las fuerzas de la aguja inferior mientras se preparan para su asalto contra los enanos. No ama a la falsa Horda ni a sus brutales miembros, y sacrificará cualquier cantidad de secuaces de Blackhand para proteger a su maestro, Nefarian."
+
+    -- LBRS Loot
+    IJ_LOOT_NAME_22306 = "Cinturón de filohierro"
+    IJ_LOOT_NAME_22319 = "Escrito sobre Derecho divino"
+    IJ_LOOT_NAME_22322 = "El Rompemandíbulas"
+    IJ_LOOT_NAME_22325 = "Cinturón del embaucador"
+    IJ_LOOT_NAME_22398 = "Ídolo de Rejuvenecimiento"
 
     -- UBRS
     IJ_DB_DUNGEON_UBRS_NAME = "Aguja de Roca Negra superior"

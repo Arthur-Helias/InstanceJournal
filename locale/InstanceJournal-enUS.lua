@@ -1802,6 +1802,33 @@ IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 = "Vosh'gajin is renowned for her beauty--and
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "War Master Voone"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
     "During the Second War, Voone led small strike teams on daring missions into the heart of high elven territory. The cunning troll joined the false Horde because he wanted to be its chief strategist, not because he believed in Blackhand's ideology. Voone sees the splinter faction as an underdog, and he enjoys the satisfaction of overcoming insurmountable odds."
+IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080 = "Mor Grayhoof"
+IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080 =
+    "Mor Grayhoof fled Blackrock Spire with Bodley after stealing Lord Valthalak's spellbook and amulet. He survived a fall into the lower spire, only to be captured and tortured by War Master Voone. Spectral assassins later killed him before his captor. His troubled spirit can be summoned as part of the effort to recover the amulet and confront Valthalak."
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_summoning = "Summoning"
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_summoning =
+    "Summoned in War Master Voone’s chamber using the Brazier of Beckoning during the Dungeon Set 2 questline."
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27532 = "Rejuvenation"
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27532 =
+    "Restores health over 12 sec. Can be dispelled from the boss."
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27527 = "Healing Touch"
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27527 =
+    "Casts a spell that restores health to himself."
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27737 = "Moonfire"
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27737 =
+    "Deals Arcane damage to nearby enemies and additional damage over 12 sec. The periodic effect can be dispelled."
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27543 = "Bear Form"
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27543 =
+    "Assumes bear form for 10 sec., reducing physical damage taken by 50%."
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27553 = "Maul"
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27553 =
+    "Deals physical damage and stuns the target for 2 sec."
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27554 = "Swipe"
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27554 =
+    "Deals physical damage to the target."
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27545 = "Cat Form"
+IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27545 =
+    "Assumes cat form for 10 sec., increasing melee attack speed."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9596 = "Bannok Grimaxe"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9596 =
     "An elusive orc, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
@@ -1859,6 +1886,11 @@ IJ_LOOT_NAME_13179 = "Brazecore Armguards"
 IJ_LOOT_NAME_16676 = "Beaststalker's Gloves"
 IJ_LOOT_NAME_22231 = "Kayser's Boots of Precision"
 IJ_LOOT_NAME_13175 = "Voone's Twitchbow"
+IJ_LOOT_NAME_22306 = "Ironweave Belt"
+IJ_LOOT_NAME_22319 = "Tome of Divine Right"
+IJ_LOOT_NAME_22322 = "The Jaw Breaker"
+IJ_LOOT_NAME_22325 = "Belt of the Trickster"
+IJ_LOOT_NAME_22398 = "Idol of Rejuvenation"
 IJ_LOOT_NAME_12621 = "Demonfork"
 IJ_LOOT_NAME_12634 = "Chiselbrand Girdle"
 IJ_LOOT_NAME_12637 = "Backusarian Gauntlets"

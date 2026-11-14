@@ -6,6 +6,7 @@ All changes to this project will be documented in this file.
 
 ### Added
 
+- Added `Mor Grayhoof` to `Lower Blackrock Spire`, including abilities and loot
 - Added missing abilities and Tribute guidance to the bosses in `Dire Maul North`
 - Added missing abilities to the bosses in `Dire Maul West`
 - Added missing abilities to the bosses in `Scholomance`

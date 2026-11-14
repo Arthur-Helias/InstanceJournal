@@ -123,7 +123,75 @@ LBRS.Bosses = {
             [10] = {IJDB.I[13175], DropChance = 1}
         }
     },
-    [7] = { -- NOTE: Missing abilities
+    [7] = {
+        Id = "16080",
+        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "morgrayhoof" .. IMPP,
+        Frame = IMP .. IMPD .. instanceMediaAcronym .. "morgrayhoof" .. IMPF,
+        Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080,
+        Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080,
+        Abilities = {
+            [1] = {
+                Id = "summoning",
+                Icon = "INV_Misc_Bowl_01",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_summoning,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_summoning
+            },
+            [2] = {
+                Id = "27532",
+                Icon = "Spell_Nature_Rejuvenation",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27532,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27532,
+                Flags = {IMAF.Magic}
+            },
+            [3] = {
+                Id = "27527",
+                Icon = "Spell_Nature_HealingTouch",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27527,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27527
+            },
+            [4] = {
+                Id = "27737",
+                Icon = "Spell_Nature_StarFall",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27737,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27737,
+                Flags = {IMAF.Magic}
+            },
+            [5] = {
+                Id = "27543",
+                Icon = "Ability_Racial_BearForm",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27543,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27543,
+                SubAbilities = {
+                    [1] = {
+                        Id = "27553",
+                        Icon = "Ability_Druid_Maul",
+                        Name = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27553,
+                        Effect = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27553
+                    },
+                    [2] = {
+                        Id = "27554",
+                        Icon = "INV_Misc_MonsterClaw_03",
+                        Name = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27554,
+                        Effect = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27554
+                    }
+                }
+            },
+            [6] = {
+                Id = "27545",
+                Icon = "Ability_Racial_BearForm",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27545,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27545
+            }
+        },
+        Loot = {
+            [1] = {IJDB.I[22306], DropChance = 20},
+            [2] = {IJDB.I[22319], DropChance = 20},
+            [3] = {IJDB.I[22322], DropChance = 20},
+            [4] = {IJDB.I[22325], DropChance = 20},
+            [5] = {IJDB.I[22398], DropChance = 20}
+        }
+    },
+    [8] = { -- NOTE: Missing abilities
         Id = "9596",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "bannok" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "bannok" .. IMPF,
@@ -139,7 +207,7 @@ LBRS.Bosses = {
             [4] = {IJDB.I[12838], DropChance = 7}
         }
     },
-    [8] = { -- NOTE: Missing abilities
+    [9] = { -- NOTE: Missing abilities
         Id = "10596",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "mother" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "mother" .. IMPF,
@@ -155,7 +223,7 @@ LBRS.Bosses = {
             [7] = {IJDB.I[80758], DropChance = 20}
         }
     },
-    [9] = { -- NOTE: Missing abilities
+    [10] = { -- NOTE: Missing abilities
         Id = "10376",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "fang" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "fang" .. IMPF,
@@ -168,7 +236,7 @@ LBRS.Bosses = {
             [3] = {IJDB.I[13218], DropChance = 33}
         }
     },
-    [10] = { -- NOTE: Missing abilities
+    [11] = { -- NOTE: Missing abilities
         Id = "10584",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "urok" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "urok" .. IMPF,
@@ -184,7 +252,7 @@ LBRS.Bosses = {
             [7] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [11] = { -- NOTE: Missing abilities
+    [12] = { -- NOTE: Missing abilities
         Id = "9736",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "zigris" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "zigris" .. IMPF,
@@ -206,7 +274,7 @@ LBRS.Bosses = {
             [13] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [12] = { -- NOTE: Missing abilities
+    [13] = { -- NOTE: Missing abilities
         Id = "10220",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "halycon" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "halycon" .. IMPF,
@@ -221,7 +289,7 @@ LBRS.Bosses = {
             [6] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [13] = { -- NOTE: Missing abilities
+    [14] = { -- NOTE: Missing abilities
         Id = "10268",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "gizrul" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "gizrul" .. IMPF,
@@ -237,7 +305,7 @@ LBRS.Bosses = {
             [7] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [14] = { -- NOTE: Missing abilities
+    [15] = { -- NOTE: Missing abilities
         Id = "9718",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "ghok" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "ghok" .. IMPF,
@@ -250,7 +318,7 @@ LBRS.Bosses = {
             [3] = {IJDB.I[13204], DropChance = 33}
         }
     },
-    [15] = { -- NOTE: Missing abilities
+    [16] = { -- NOTE: Missing abilities
         Id = "9568",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "wyrmthalak" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "wyrmthalak" .. IMPF,
