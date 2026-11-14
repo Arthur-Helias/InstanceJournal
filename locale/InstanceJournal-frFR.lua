@@ -899,6 +899,21 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11487 = "Magistère Kalendris"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11487 =
         "Lorsque le prince Tortheldrin exigea le massacre de la majorité de ses sujets, ses plus fidèles lieutenants furent chargés d'exécuter sa volonté. Le Magister Kalendris a assassiné sans hésitation de nombreux Shen'dralar sans méfiance, mais l'un des elfes condamnés l'a mortellement blessé au cours d'une bataille destructrice. Malgré sa disparition, l'esprit de Kalendris parcourt toujours Dire Maul en tant que défenseur du règne de Tortheldrin."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17146 = "Mot de l’ombre : Douleur"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17146 =
+        "Inflige des dégâts d’Ombre pendant 18 s. Peut être dissipé."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17287 = "Attaque mentale"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17287 =
+        "Inflige des dégâts d’Ombre à la cible."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22919 = "Fouet mental"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22919 =
+        "Canalise des dégâts d’Ombre sur la cible pendant 3 s et réduit sa vitesse de déplacement de 50%."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22917 = "Forme d’Ombre"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22917 =
+        "Adopte une Forme d’Ombre, augmentant les dégâts d’Ombre infligés de 40% et réduisant les dégâts de mêlée subis de 40%."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_7645 = "Domination mentale"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_7645 =
+        "Prend le contrôle d’un joueur pendant 10 s au maximum. Peut être dissipé."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11467 = "Tsu'zee"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11467 =
         "Le fantôme insaisissable d'un elfe de la nuit, rarement vu parmi les habitants des jardins de la capitale. On dit qu'elle possède de nombreux objets convoités sur lesquels beaucoup souhaiteraient pouvoir mettre la main, si seulement ils pouvaient la rencontrer en premier lieu..."

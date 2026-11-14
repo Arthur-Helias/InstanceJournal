@@ -1400,6 +1400,21 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11487 = "卡雷迪斯镇长"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11487 =
         "当托塞德林王子要求屠杀他的大多数臣民时，他最忠诚的副官们就肩负着执行他的意志的任务。魔导师卡伦德里斯毫不犹豫地谋杀了许多毫无戒心的申德拉拉，但其中一名注定失败的精灵在一场毁灭性的战斗中对他造成了致命伤。尽管卡伦德里斯去世了，他的灵魂仍然作为托塞德林统治的捍卫者在厄运之槌中游荡。"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17146 = "暗言术：痛"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17146 =
+        "在18秒内持续造成暗影伤害。可以被驱散。"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17287 = "心灵震爆"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17287 =
+        "对目标造成暗影伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22919 = "精神鞭笞"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22919 =
+        "引导暗影伤害，持续3秒，并使目标的移动速度降低50%。"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22917 = "暗影形态"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22917 =
+        "进入暗影形态，使造成的暗影伤害提高40%，受到的近战伤害降低40%。"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_7645 = "控制心智"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_7645 =
+        "控制一名玩家，最多持续10秒。可以被驱散。"
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11467 = "苏斯"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11467 =
         "难以捉摸的暗夜精灵幽灵，在首都花园的居民中很少见到。据说她拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到她就好了……"

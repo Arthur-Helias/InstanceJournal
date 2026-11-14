@@ -900,6 +900,21 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11487 = "Magister Kalendris"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11487 =
         "Als Prinz Tortheldrin die Ermordung der meisten seiner Untertanen forderte, wurden seine treuesten Leutnants mit der Ausführung seines Willens beauftragt. Magister Kalendris ermordete ohne zu zögern viele ahnungslose Shen'dralar, doch einer der zum Scheitern verurteilten Elfen verwundete ihn während einer zerstörerischen Schlacht tödlich. Trotz seines Ablebens durchstreift Kalendris‘ Geist immer noch Düsterbruch als Verteidiger von Tortheldrins Herrschaft."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17146 = "Schattenwort: Schmerz"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17146 =
+        "Verursacht 18 Sek. lang Schattenschaden. Kann gebannt werden."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17287 = "Gedankenschlag"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17287 =
+        "Fügt dem Ziel Schattenschaden zu."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22919 = "Gedankenschinden"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22919 =
+        "Kanalisiert 3 Sek. lang Schattenschaden auf das Ziel und verringert dessen Bewegungstempo um 50%."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22917 = "Schattengestalt"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22917 =
+        "Nimmt eine Schattengestalt an, die den verursachten Schattenschaden um 40% erhöht und den erlittenen Nahkampfschaden um 40% verringert."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_7645 = "Gedankenkontrolle"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_7645 =
+        "Übernimmt bis zu 10 Sek. lang die Kontrolle über einen Spieler. Kann gebannt werden."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11467 = "Tsu'zee"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11467 =
         "Ein schwer fassbarer Geist eines Nachtelfen, der unter den Bewohnern der Hauptstadtgärten selten zu sehen ist. Sie soll viele begehrte Gegenstände besitzen, von denen sich viele wünschen, sie könnten sie in die Hände bekommen, wenn sie ihr nur überhaupt begegnen könnten ..."

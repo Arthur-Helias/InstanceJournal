@@ -899,6 +899,21 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11487 = "Maestro Kalendris"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11487 =
         "Cuando el príncipe Tortheldrin exigió la matanza de la mayoría de sus súbditos, a sus lugartenientes más leales se les encomendó la tarea de ejecutar su voluntad. El Magister Kalendris asesinó a muchos Shen'dralar desprevenidos sin dudarlo, pero uno de los elfos condenados lo hirió de muerte durante una batalla destructiva. A pesar de su fallecimiento, el espíritu de Kalendris todavía deambula por Dire Maul como defensor del gobierno de Tortheldrin."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17146 = "Palabra de las Sombras: dolor"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17146 =
+        "Inflige daño de las Sombras durante 18 s. Se puede disipar."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17287 = "Explosión mental"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17287 =
+        "Inflige daño de las Sombras al objetivo."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22919 = "Tortura mental"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22919 =
+        "Canaliza daño de las Sombras sobre el objetivo durante 3 s y reduce su velocidad de movimiento un 50%."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22917 = "Forma de las Sombras"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22917 =
+        "Adopta la Forma de las Sombras, aumentando un 40% el daño de las Sombras infligido y reduciendo un 40% el daño cuerpo a cuerpo recibido."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_7645 = "Dominar mente"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_7645 =
+        "Controla a un jugador durante un máximo de 10 s. Se puede disipar."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11467 = "Tsu'zee"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11467 =
         "Un esquivo fantasma de un elfo de la noche, rara vez visto entre los habitantes de Capital Gardens. Se dice que posee muchos objetos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarla en primer lugar..."

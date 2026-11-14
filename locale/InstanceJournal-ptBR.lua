@@ -896,6 +896,21 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11487 = "Mestre Kalendris"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11487 =
         "Quando o Príncipe Tortheldrin exigiu o massacre da maioria dos seus súbditos, os seus tenentes mais leais foram encarregados de executar o seu testamento. Magister Kalendris assassinou muitos Shen'dralar desavisados ​​sem hesitação, mas um dos elfos condenados o feriu mortalmente durante uma batalha destrutiva. Apesar de sua morte, o espírito de Kalendris ainda perambula por Dire Maul como um defensor do governo de Tortheldrin."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17146 = "Palavra Sombria: Dor"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17146 =
+        "Causa dano de Sombra por 18 s. Pode ser dissipado."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17287 = "Impacto Mental"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17287 =
+        "Causa dano de Sombra ao alvo."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22919 = "Açoite Mental"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22919 =
+        "Canaliza dano de Sombra no alvo por 3 s, reduzindo sua velocidade de movimento em 50%."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22917 = "Forma de Sombra"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22917 =
+        "Assume a Forma de Sombra, aumentando o dano de Sombra causado em 40% e reduzindo o dano corpo a corpo recebido em 40%."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_7645 = "Dominar Mente"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_7645 =
+        "Controla um jogador por até 10 s. Pode ser dissipado."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11467 = "Tsu'zee"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11467 =
         "Um fantasma indescritível de um elfo noturno, raramente visto entre os habitantes dos Jardins da Capital. Diz-se que ela possui muitos itens cobiçados que muitos gostariam de poder colocar as mãos, se ao menos pudessem encontrá-la em primeiro lugar..."

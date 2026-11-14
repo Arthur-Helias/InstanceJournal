@@ -1306,6 +1306,21 @@ IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22911 =
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11487 = "Magister Kalendris"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11487 =
     "When Prince Tortheldrin demanded the slaughter of the majority of his subjects, his most loyal lieutenants were tasked with executing his will. Magister Kalendris murdered many unsuspecting Shen'dralar without hesitation, but one of the doomed elves mortally wounded him during a destructive battle. Despite his demise, Kalendris's spirit still roams Dire Maul as a defender of Tortheldrin's rule."
+IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17146 = "Shadow Word: Pain"
+IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17146 =
+    "Deals Shadow damage over 18 sec. Can be dispelled."
+IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17287 = "Mind Blast"
+IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17287 =
+    "Deals Shadow damage to the target."
+IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22919 = "Mind Flay"
+IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22919 =
+    "Channels Shadow damage into the target for 3 sec., reducing its movement speed by 50%."
+IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22917 = "Shadowform"
+IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22917 =
+    "Assumes Shadowform, increasing Shadow damage dealt by 40% and reducing melee damage taken by 40%."
+IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_7645 = "Dominate Mind"
+IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_7645 =
+    "Takes control of a player for up to 10 sec. Can be dispelled."
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11467 = "Tsu'zee"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11467 =
     "An elusive ghost of a night elf, rarely seen among the denizens of the Capital Gardens. She is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter her in the first place..."
