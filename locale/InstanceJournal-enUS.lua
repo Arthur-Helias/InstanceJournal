@@ -1958,6 +1958,15 @@ IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_EFFECT_11972 =
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Overlord Wyrmthalak"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
     "The black dragonspawn Wyrmthalak oversees the lower spire's forces as they prepare for their assault against the dwarves. He has no love for the false Horde or its brutish members, and he will sacrifice any number of Blackhand's minions to protect his master, Nefarian."
+IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20691 = "Cleave"
+IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20691 =
+    "Deals physical damage to the target and nearby allies, hitting up to 5 enemies."
+IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_23511 = "Demoralizing Shout"
+IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_23511 =
+    "Reduces the melee attack power of nearby enemies for 30 sec."
+IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20686 = "Knock Away"
+IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20686 =
+    "Deals physical damage to nearby enemies and knocks them back."
 
 -- LBRS Loot
 IJ_LOOT_NAME_12608 = "Butcher's Apron"

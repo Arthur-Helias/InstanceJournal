@@ -555,12 +555,32 @@ LBRS.Bosses = {
             [3] = {IJDB.I[13204], DropChance = 33}
         }
     },
-    [16] = { -- NOTE: Missing abilities
+    [16] = {
         Id = "9568",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "wyrmthalak" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "wyrmthalak" .. IMPF,
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568,
+        Abilities = {
+            [1] = {
+                Id = "20691",
+                Icon = "Ability_Warrior_Cleave",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20691,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20691
+            },
+            [2] = {
+                Id = "23511",
+                Icon = "Ability_Warrior_WarCry",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_23511,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_23511
+            },
+            [3] = {
+                Id = "20686",
+                Icon = "INV_Gauntlets_05",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20686,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20686
+            }
+        },
         Loot = {
             [1] = {IJDB.I[51217], DropChance = 100},
             [2] = {IJDB.I[12337], DropChance = 30},

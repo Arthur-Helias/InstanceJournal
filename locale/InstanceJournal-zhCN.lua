@@ -2051,6 +2051,15 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "维姆萨拉克"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "黑色龙裔维姆萨拉克负责监督下尖塔的部队，准备进攻矮人。他对虚假的部落或其野蛮的成员没有任何感情，他会牺牲任何数量的黑手爪牙来保护他的主人奈法利安。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20691 = "顺劈斩"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20691 =
+        "对目标及其附近的盟友造成物理伤害，最多命中5个敌人。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_23511 = "挫志怒吼"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_23511 =
+        "降低附近敌人的近战攻击强度，持续30秒。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20686 = "击退"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20686 =
+        "对附近的敌人造成物理伤害并将其击退。"
 
     -- LBRS Loot
     IJ_LOOT_NAME_12608 = "屠夫披风"

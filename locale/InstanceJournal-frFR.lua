@@ -1352,6 +1352,15 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Seigneur Wyrmthalak"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "Le dragon noir Wyrmthalak supervise les forces de la flèche inférieure alors qu'elles se préparent à leur assaut contre les nains. Il n'aime pas la fausse Horde ni ses membres brutaux, et il sacrifiera un certain nombre de serviteurs de Blackhand pour protéger son maître, Nefarian."
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20691 = "Enchaînement"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20691 =
+        "Inflige des dégâts physiques à la cible et à ses alliés proches, touchant jusqu’à 5 ennemis."
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_23511 = "Cri démoralisant"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_23511 =
+        "Réduit la puissance d’attaque en mêlée des ennemis proches pendant 30 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20686 = "Repousser"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20686 =
+        "Inflige des dégâts physiques aux ennemis proches et les repousse."
 
     -- LBRS Loot
     IJ_LOOT_NAME_22306 = "Ceinture Tisse-fer"

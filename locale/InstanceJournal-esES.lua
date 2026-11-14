@@ -1352,6 +1352,15 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Señor supremo Wyrmthalak"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "El engendro del dragón negro Wyrmthalak supervisa las fuerzas de la aguja inferior mientras se preparan para su asalto contra los enanos. No ama a la falsa Horda ni a sus brutales miembros, y sacrificará cualquier cantidad de secuaces de Blackhand para proteger a su maestro, Nefarian."
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20691 = "Rajar"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20691 =
+        "Inflige daño físico al objetivo y a sus aliados cercanos y alcanza hasta 5 enemigos."
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_23511 = "Grito desmoralizador"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_23511 =
+        "Reduce el poder de ataque cuerpo a cuerpo de los enemigos cercanos durante 30 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20686 = "Repeler"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20686 =
+        "Inflige daño físico a los enemigos cercanos y los repele."
 
     -- LBRS Loot
     IJ_LOOT_NAME_22306 = "Cinturón de filohierro"

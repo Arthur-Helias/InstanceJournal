@@ -1349,6 +1349,15 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Senhor Supremo Wyrmthalak"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "A cria do dragão negro Wyrmthalak supervisiona as forças da torre inferior enquanto elas se preparam para o ataque contra os anões. Ele não tem amor pela falsa Horda ou por seus membros brutais, e sacrificará qualquer número de asseclas de Blackhand para proteger seu mestre, Nefarian."
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20691 = "Cutilada"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20691 =
+        "Causa dano físico ao alvo e a seus aliados próximos, atingindo até 5 inimigos."
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_23511 = "Brado Desmoralizador"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_23511 =
+        "Reduz o poder de ataque corpo a corpo dos inimigos próximos por 30 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20686 = "Repelir"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20686 =
+        "Causa dano físico aos inimigos próximos e os repele."
 
     -- LBRS Loot
     IJ_LOOT_NAME_22306 = "Cinto de Tramaferro"

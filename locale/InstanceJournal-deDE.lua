@@ -1353,6 +1353,15 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Oberherr Wyrmthalak"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "Der schwarze Drachenbrut Wyrmthalak beaufsichtigt die Streitkräfte des unteren Turms, während sie sich auf ihren Angriff gegen die Zwerge vorbereiten. Er liebt die falsche Horde oder ihre brutalen Mitglieder nicht und opfert jede Menge von Blackhands Dienern, um seinen Meister Nefarian zu beschützen."
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20691 = "Spalten"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20691 =
+        "Fügt dem Ziel und dessen Verbündeten in der Nähe körperlichen Schaden zu und trifft bis zu 5 Gegner."
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_23511 = "Demoralisierender Ruf"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_23511 =
+        "Verringert die Nahkampfangriffskraft von Gegnern in der Nähe 30 Sek. lang."
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20686 = "Wegschlagen"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20686 =
+        "Fügt Gegnern in der Nähe körperlichen Schaden zu und stößt sie zurück."
 
     -- LBRS Loot
     IJ_LOOT_NAME_22306 = "Eisengewebter Gürtel"
