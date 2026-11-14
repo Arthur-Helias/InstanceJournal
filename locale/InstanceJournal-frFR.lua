@@ -1346,6 +1346,9 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718 = "Ghok Bashguud"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718 =
         "Un orc insaisissable, rarement vu parmi la population générale de Lower Blackrock Spire. On dit qu'il possède de nombreux objets convoités sur lesquels beaucoup souhaiteraient pouvoir mettre la main, si seulement ils pouvaient le rencontrer en premier lieu..."
+    IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_NAME_11972 = "Coup de bouclier"
+    IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_EFFECT_11972 =
+        "Inflige des dégâts physiques et interrompt le sort de la cible, empêchant les sorts de cette école pendant 8 s."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Seigneur Wyrmthalak"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "Le dragon noir Wyrmthalak supervise les forces de la flèche inférieure alors qu'elles se préparent à leur assaut contre les nains. Il n'aime pas la fausse Horde ni ses membres brutaux, et il sacrifiera un certain nombre de serviteurs de Blackhand pour protéger son maître, Nefarian."

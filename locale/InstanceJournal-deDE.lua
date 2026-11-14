@@ -1347,6 +1347,9 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718 = "Ghok Bashguud"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718 =
         "Ein schwer fassbarer Ork, der in der allgemeinen Bevölkerung der Unteren Schwarzfelsspitze selten zu sehen ist. Es wird gesagt, dass er viele begehrte Gegenstände besitzt, von denen sich viele wünschen, sie könnten sie in die Hände bekommen, wenn sie ihm nur überhaupt begegnen könnten ..."
+    IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_NAME_11972 = "Schildhieb"
+    IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_EFFECT_11972 =
+        "Verursacht körperlichen Schaden und unterbricht den Zauber des Ziels. Verhindert 8 Sek. lang Zauber dieser Magieschule."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Oberherr Wyrmthalak"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "Der schwarze Drachenbrut Wyrmthalak beaufsichtigt die Streitkräfte des unteren Turms, während sie sich auf ihren Angriff gegen die Zwerge vorbereiten. Er liebt die falsche Horde oder ihre brutalen Mitglieder nicht und opfert jede Menge von Blackhands Dienern, um seinen Meister Nefarian zu beschützen."

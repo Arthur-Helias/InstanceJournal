@@ -534,13 +534,21 @@ LBRS.Bosses = {
             [7] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [15] = { -- NOTE: Missing abilities
+    [15] = {
         Id = "9718",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "ghok" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "ghok" .. IMPF,
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718,
         IsRare = true,
+        Abilities = {
+            [1] = {
+                Id = "11972",
+                Icon = "Ability_Warrior_ShieldBash",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_NAME_11972,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_EFFECT_11972
+            }
+        },
         Loot = {
             [1] = {IJDB.I[13198], DropChance = 33}, 
             [2] = {IJDB.I[13203], DropChance = 33}, 

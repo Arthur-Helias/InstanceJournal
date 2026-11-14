@@ -1952,6 +1952,9 @@ IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16495 =
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718 = "Ghok Bashguud"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718 =
     "An elusive orc, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."
+IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_NAME_11972 = "Shield Bash"
+IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_EFFECT_11972 =
+    "Deals physical damage and interrupts the target’s spell, preventing spells from that school for 8 sec."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Overlord Wyrmthalak"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
     "The black dragonspawn Wyrmthalak oversees the lower spire's forces as they prepare for their assault against the dwarves. He has no love for the false Horde or its brutish members, and he will sacrifice any number of Blackhand's minions to protect his master, Nefarian."

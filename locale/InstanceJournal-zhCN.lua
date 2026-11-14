@@ -2045,6 +2045,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718 = "霍克·巴什古德"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718 =
         "难以捉摸的兽人，在黑石塔下层的普通人群中很少见到。据说他拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到他就好了……"
+    IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_NAME_11972 = "盾击"
+    IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_EFFECT_11972 =
+        "造成物理伤害并打断目标施法，使其在8秒内无法施放同系法术。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "维姆萨拉克"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "黑色龙裔维姆萨拉克负责监督下尖塔的部队，准备进攻矮人。他对虚假的部落或其野蛮的成员没有任何感情，他会牺牲任何数量的黑手爪牙来保护他的主人奈法利安。"

@@ -1346,6 +1346,9 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718 = "Ghok Bashguud"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718 =
         "Un orco esquivo, rara vez visto entre la población general de Lower Blackrock Spire. Se dice que posee muchos objetos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarlo en primer lugar..."
+    IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_NAME_11972 = "Azote de escudo"
+    IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_EFFECT_11972 =
+        "Inflige daño físico e interrumpe el hechizo del objetivo, impidiendo los hechizos de esa escuela durante 8 s."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Señor supremo Wyrmthalak"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "El engendro del dragón negro Wyrmthalak supervisa las fuerzas de la aguja inferior mientras se preparan para su asalto contra los enanos. No ama a la falsa Horda ni a sus brutales miembros, y sacrificará cualquier cantidad de secuaces de Blackhand para proteger a su maestro, Nefarian."

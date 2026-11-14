@@ -1343,6 +1343,9 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718 = "Ghok Bashguud"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718 =
         "Um orc indescritível, raramente visto entre a população em geral do Pináculo da Rocha Negra Inferior. Diz-se que ele possui muitos itens cobiçados que muitos gostariam de poder colocar em suas mãos, se ao menos pudessem encontrá-lo em primeiro lugar..."
+    IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_NAME_11972 = "Pancada com Escudo"
+    IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_EFFECT_11972 =
+        "Causa dano físico e interrompe o feitiço do alvo, impedindo o uso de feitiços daquela escola por 8 s."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Senhor Supremo Wyrmthalak"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "A cria do dragão negro Wyrmthalak supervisiona as forças da torre inferior enquanto elas se preparam para o ataque contra os anões. Ele não tem amor pela falsa Horda ou por seus membros brutais, e sacrificará qualquer número de asseclas de Blackhand para proteger seu mestre, Nefarian."
