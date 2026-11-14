@@ -1267,6 +1267,21 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14326 = "卫兵摩尔达"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14326 =
         "莫尔达是来自戈多克食人魔的狂热忠诚守卫。他确信戈多克国王送给他一双魔法手套，这使他能够连续六年成为人民的扳手腕冠军。事实上，戈多克国王扔掉了强大的盔甲；莫尔达首先发现了它。"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_14516 = "打击"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_14516 =
+        "对目标造成物理伤害。"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_11972 = "盾击"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_11972 =
+        "造成物理伤害并打断目标施法，使其在8秒内无法施放同系法术。"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_15749 = "盾牌冲锋"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_15749 =
+        "向一名敌人冲锋，造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_10101 = "击飞"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_10101 =
+        "对目标造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_8269 =
+        "提高攻击速度和造成的物理伤害。"
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14322 = "践踏者克雷格"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14322 =
         "潜伏的刺客不止一次因不小心扰乱了克雷格的啤酒杯而遭遇厄运。尽管他经常在值班时喝得醉醺醺的，但没有什么比他珍贵的饮料溅到石头地板上的声音更能激起食人魔的狂怒了。"

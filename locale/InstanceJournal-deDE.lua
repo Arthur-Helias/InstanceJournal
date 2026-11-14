@@ -827,6 +827,21 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14326 = "Wache Mol'dar"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14326 =
         "Mol'dar ist ein äußerst treuer Wächter der Gordok-Oger. Er ist überzeugt, dass König Gordok ihm ein Paar verzauberter Panzerhandschuhe geschenkt hat, die es ihm ermöglicht haben, sechs Jahre in Folge der Champion seines Volkes im Armdrücken zu werden. Tatsächlich warf König Gordok die mächtige Rüstung weg; Mol'dar hat es einfach zuerst gefunden."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_14516 = "Schlag"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_14516 =
+        "Fügt dem Ziel körperlichen Schaden zu."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_11972 = "Schildhieb"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_11972 =
+        "Verursacht körperlichen Schaden und unterbricht den Zauber des Ziels. Verhindert 8 Sek. lang Zauber dieser Magieschule."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_15749 = "Schildansturm"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_15749 =
+        "Stürmt einen Gegner an, verursacht körperlichen Schaden und stößt ihn zurück."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_10101 = "Wegschlagen"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_10101 =
+        "Fügt dem Ziel körperlichen Schaden zu und stößt es zurück."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_8269 = "Wutanfall"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_8269 =
+        "Erhöht das Angriffstempo und den verursachten körperlichen Schaden."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14322 = "Stomper Kreeg"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14322 =
         "Mehr als einmal wurde heimlichen Attentätern ihr Unglück widerfahren, nachdem sie versehentlich Kreegs Bierkrug gestört hatten. Obwohl er im Dienst oft betrunken ohnmächtig wird, versetzt ihn nichts schneller in Berserkerwut als das Geräusch, wenn sein kostbares Getränk auf den Steinboden spritzt."

@@ -1172,6 +1172,21 @@ IJ_DB_DUNGEON_DMN_STORY =
 IJ_DB_DUNGEON_DMN_BOSS_NAME_14326 = "Guard Mol'dar"
 IJ_DB_DUNGEON_DMN_BOSS_STORY_14326 =
     "Mol'dar is a zealously loyal guard from the Gordok ogres. He is convinced King Gordok gifted him with a pair of enchanted gauntlets that have enabled him to become his people's arm wrestling champion for six years running. In truth, King Gordok threw the powerful armor away; Mol'dar simply found it first."
+IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_14516 = "Strike"
+IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_14516 =
+    "Deals physical damage to the target."
+IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_11972 = "Shield Bash"
+IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_11972 =
+    "Deals physical damage and interrupts the target’s spell, preventing spells from that school for 8 sec."
+IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_15749 = "Shield Charge"
+IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_15749 =
+    "Charges an enemy, dealing physical damage and knocking it back."
+IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_10101 = "Knock Away"
+IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_10101 =
+    "Deals physical damage to the target and knocks it back."
+IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_8269 = "Enrage"
+IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_8269 =
+    "Increases attack speed and physical damage dealt."
 IJ_DB_DUNGEON_DMN_BOSS_NAME_14322 = "Stomper Kreeg"
 IJ_DB_DUNGEON_DMN_BOSS_STORY_14322 =
     "On more than one occasion, skulking assassins have met their doom after accidentally disturbing Kreeg's ale mug. Though he's often passed out drunk on duty, nothing rouses the ogre into a berserker fury faster than the sound of his precious drink splattering on the stone floor."

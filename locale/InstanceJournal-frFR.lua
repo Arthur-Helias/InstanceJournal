@@ -826,6 +826,21 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14326 = "Garde Mol'dar"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14326 =
         "Mol'dar est un garde zélé et loyal des ogres Gordok. Il est convaincu que le roi Gordok lui a offert une paire de gantelets enchantés qui lui ont permis de devenir le champion de bras de fer de son peuple pendant six années consécutives. En vérité, le roi Gordok a jeté la puissante armure ; Mol'dar l'a simplement trouvé en premier."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_14516 = "Frappe"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_14516 =
+        "Inflige des dégâts physiques à la cible."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_11972 = "Coup de bouclier"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_11972 =
+        "Inflige des dégâts physiques et interrompt le sort de la cible, empêchant les sorts de cette école pendant 8 s."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_15749 = "Charge de bouclier"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_15749 =
+        "Charge un ennemi, lui inflige des dégâts physiques et le repousse."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_10101 = "Repousser"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_10101 =
+        "Inflige des dégâts physiques à la cible et la repousse."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_8269 = "Enrager"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_8269 =
+        "Augmente la vitesse d’attaque et les dégâts physiques infligés."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14322 = "Piétineur Kreeg"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14322 =
         "À plusieurs reprises, des assassins furtifs ont connu leur perte après avoir accidentellement dérangé la chope de bière de Kreeg. Bien qu'il s'évanouisse souvent ivre pendant son service, rien n'excite l'ogre dans une fureur berserker plus rapidement que le bruit de sa précieuse boisson éclaboussant le sol en pierre."

@@ -823,6 +823,21 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14326 = "Guarda Mol'dar"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14326 =
         "Mol'dar é um guarda zelosamente leal dos ogros Gordok. Ele está convencido de que o Rei Gordok o presenteou com um par de manoplas encantadas que lhe permitiram se tornar o campeão de queda de braço de seu povo por seis anos consecutivos. Na verdade, o Rei Gordok jogou fora a poderosa armadura; Mol'dar simplesmente encontrou primeiro."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_14516 = "Golpe"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_14516 =
+        "Causa dano físico ao alvo."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_11972 = "Pancada com Escudo"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_11972 =
+        "Causa dano físico e interrompe o feitiço do alvo, impedindo o uso de feitiços daquela escola por 8 s."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_15749 = "Investida com Escudo"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_15749 =
+        "Investe contra um inimigo, causando dano físico e repelindo-o."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_10101 = "Repelir"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_10101 =
+        "Causa dano físico ao alvo e o repele."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_8269 =
+        "Aumenta a velocidade de ataque e o dano físico causado."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14322 = "Stomper Kreeg"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14322 =
         "Em mais de uma ocasião, assassinos furtivos encontraram seu destino após acidentalmente perturbarem a caneca de cerveja de Kreeg. Embora muitas vezes ele desmaie bêbado em serviço, nada desperta o ogro em uma fúria frenética mais rápido do que o som de sua preciosa bebida respingando no chão de pedra."
