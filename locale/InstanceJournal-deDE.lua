@@ -1218,6 +1218,15 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9236 = "Schattenjäger Vosh'gajin"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 =
         "Vosh'gajin ist bei den Trollen für ihre Schönheit – und ihre psychotischen Neigungen – bekannt. Als Meisterin der Schattenjägerkunst verfügt sie über beeindruckende Verhexungen, Flüche und Heilmagie."
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_16708 = "Verhexen"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_16708 =
+        "Verwandelt und desorientiert das Ziel bis zu 20 Sek. lang. Kann gebannt werden."
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_24673 = "Fluch des Blutes"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_24673 =
+        "Erhöht den erlittenen körperlichen Schaden für 10 Min. Entfernt den Fluch umgehend."
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_20691 = "Spalten"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_20691 =
+        "Fügt dem Ziel und dessen Verbündeten in der Nähe körperlichen Schaden zu und trifft bis zu 5 Gegner."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "Kriegsmeister Voone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "Während des Zweiten Krieges führte Voone kleine Einsatztrupps auf waghalsigen Missionen ins Herz des Hochelfengebiets. Der listige Troll schloss sich der falschen Horde an, weil er ihr Chefstratege sein wollte, nicht weil er an Blackhands Ideologie glaubte. Voone betrachtet die Splitterfraktion als Außenseiter und genießt die Genugtuung, unüberwindliche Widrigkeiten überwunden zu haben."

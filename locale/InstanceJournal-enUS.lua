@@ -1823,6 +1823,15 @@ IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_13323 =
     "Transforms the target into a sheep for up to 20 sec., preventing attacks and spellcasting. Damage breaks the effect. Can be dispelled."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9236 = "Shadow Hunter Vosh'gajin"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 = "Vosh'gajin is renowned for her beauty--and psychotic tendencies--among the trolls. A master of the shadow hunter arts, she wields formidable hexes, curses, and healing magics."
+IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_16708 = "Hex"
+IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_16708 =
+    "Transforms and disorients the target for up to 20 sec. Can be dispelled."
+IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_24673 = "Curse of Blood"
+IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_24673 =
+    "Increases physical damage taken for 10 min. Remove the curse promptly."
+IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_20691 = "Cleave"
+IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_20691 =
+    "Deals physical damage to the target and nearby allies, hitting up to 5 enemies."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "War Master Voone"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
     "During the Second War, Voone led small strike teams on daring missions into the heart of high elven territory. The cunning troll joined the false Horde because he wanted to be its chief strategist, not because he believed in Blackhand's ideology. Voone sees the splinter faction as an underdog, and he enjoys the satisfaction of overcoming insurmountable odds."

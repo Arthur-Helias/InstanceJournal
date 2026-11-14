@@ -1214,6 +1214,15 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9236 = "Caçador das Sombras Vosh'gajin"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 =
         "Vosh'gajin é conhecida por sua beleza - e tendências psicóticas - entre os trolls. Uma mestre nas artes dos caçadores de sombras, ela exerce formidáveis ​​feitiços, maldições e magias de cura."
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_16708 = "Bagata"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_16708 =
+        "Transforma e desorienta o alvo por até 20 s. Pode ser dissipado."
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_24673 = "Maldição de Sangue"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_24673 =
+        "Aumenta o dano físico recebido por 10 min. Remova a maldição rapidamente."
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_20691 = "Cutilada"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_20691 =
+        "Causa dano físico ao alvo e a seus aliados próximos, atingindo até 5 inimigos."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "Mestre de Guerra Voone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "Durante a Segunda Guerra, Voone liderou pequenas equipes de ataque em missões ousadas no coração do território dos Altos Elfos. O astuto troll juntou-se à falsa Horda porque queria ser seu estrategista-chefe, não porque acreditasse na ideologia de Blackhand. Voone vê a facção dissidente como uma oprimida e gosta da satisfação de superar dificuldades intransponíveis."

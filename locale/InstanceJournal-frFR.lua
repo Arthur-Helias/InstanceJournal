@@ -1217,6 +1217,15 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9236 = "Chasseur d'Ombres Vosh'gajin"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 =
         "Vosh'gajin est réputée pour sa beauté (et ses tendances psychotiques) parmi les trolls. Maître de l'art des chasseurs d'ombres, elle utilise de redoutables sortilèges, malédictions et magies de guérison."
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_16708 = "Maléfice"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_16708 =
+        "Transforme et désoriente la cible pendant 20 s au maximum. Peut être dissipé."
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_24673 = "Malédiction du sang"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_24673 =
+        "Augmente les dégâts physiques subis pendant 10 min. Dissipez rapidement la malédiction."
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_20691 = "Enchaînement"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_20691 =
+        "Inflige des dégâts physiques à la cible et à ses alliés proches, touchant jusqu’à 5 ennemis."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "Maître de guerre Voone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "Pendant la Seconde Guerre, Voone dirigea de petites équipes d'attaque dans des missions audacieuses au cœur du territoire des hauts elfes. Le troll rusé a rejoint la fausse Horde parce qu'il voulait en être le stratège en chef, et non parce qu'il croyait en l'idéologie de Blackhand. Voone considère la faction dissidente comme un outsider et il apprécie la satisfaction de surmonter des obstacles insurmontables."

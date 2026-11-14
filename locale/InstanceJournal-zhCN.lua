@@ -1916,6 +1916,15 @@ if GetLocale() == "zhCN" then
         "将目标变成绵羊，最多持续20秒，使其无法攻击或施法。伤害会打断此效果。可以被驱散。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9236 = "暗影猎手沃许加斯"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 = "沃什加金在巨魔中以她的美丽和精神病倾向而闻名。她是暗影猎手艺术的大师，能够使用强大的咒语、诅咒和治疗魔法。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_16708 = "妖术"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_16708 =
+        "使目标变形并迷惑，最多持续20秒。可以被驱散。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_24673 = "血之诅咒"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_24673 =
+        "提高受到的物理伤害，持续10分钟。尽快解除诅咒。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_20691 = "顺劈斩"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_20691 =
+        "对目标及其附近的盟友造成物理伤害，最多命中5个敌人。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "指挥官沃恩"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "在第二次战争期间，沃恩带领小型突击队执行大胆的任务，进入高等精灵领地的中心地带。狡猾的巨魔加入虚假部落是因为他想成为部落的首席战略家，而不是因为他相信布莱克汉的意识形态。沃恩将分裂派视为失败者，他享受克服难以克服的困难的满足感。"

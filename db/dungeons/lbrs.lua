@@ -140,12 +140,34 @@ LBRS.Bosses = {
             [3] = {IJDB.I[13283], DropChance = 33}
         }
     },
-    [5] = { -- NOTE: Missing abilities
+    [5] = {
         Id = "9236",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "voshgajin" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "voshgajin" .. IMPF,
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_9236,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236,
+        Abilities = {
+            [1] = {
+                Id = "16708",
+                Icon = "Spell_Nature_Polymorph",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_16708,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_16708,
+                Flags = {IMAF.Magic}
+            },
+            [2] = {
+                Id = "24673",
+                Icon = "Spell_Shadow_RitualOfSacrifice",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_24673,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_24673,
+                Flags = {IMAF.Curse}
+            },
+            [3] = {
+                Id = "20691",
+                Icon = "Ability_Warrior_Cleave",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_20691,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_20691
+            }
+        },
         Loot = {
             [1] = {IJDB.I[12626], DropChance = 17},
             [2] = {IJDB.I[12651], DropChance = 17},
