@@ -841,6 +841,18 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14322 = "Stomper Kreeg"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14322 =
         "Em mais de uma ocasião, assassinos furtivos encontraram seu destino após acidentalmente perturbarem a caneca de cerveja de Kreeg. Embora muitas vezes ele desmaie bêbado em serviço, nada desperta o ogro em uma fúria frenética mais rápido do que o som de sua preciosa bebida respingando no chão de pedra."
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_22833 = "Cuspe de Bebida"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_22833 =
+        "Cospe bebida nos inimigos próximos, reduzindo a chance de acerto por 10 s e deixando-os embriagados."
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_16740 = "Pisada de Guerra"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_16740 =
+        "Repele os inimigos em um raio de 5 metros."
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_15577 = "Redemoinho"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_15577 =
+        "Causa dano físico aos inimigos em um raio de 8 metros."
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_8269 =
+        "Aumenta a velocidade de ataque e o dano físico causado."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14321 = "Guarda Fengus"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14321 =
         "Desde que Cho'Rush, o Observador, lhe disse que estava destinado a encontrar um companheiro durante o serviço, Fengus passou quase todo momento patrulhando o território Gordok."

@@ -845,6 +845,18 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14322 = "Stomper Kreeg"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14322 =
         "Mehr als einmal wurde heimlichen Attentätern ihr Unglück widerfahren, nachdem sie versehentlich Kreegs Bierkrug gestört hatten. Obwohl er im Dienst oft betrunken ohnmächtig wird, versetzt ihn nichts schneller in Berserkerwut als das Geräusch, wenn sein kostbares Getränk auf den Steinboden spritzt."
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_22833 = "Alkoholatem"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_22833 =
+        "Spuckt Alkohol auf Gegner in der Nähe, verringert ihre Trefferchance 10 Sek. lang und macht sie betrunken."
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_16740 = "Kriegsdonner"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_16740 =
+        "Stößt Gegner im Umkreis von 5 Metern zurück."
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_15577 = "Wirbelwind"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_15577 =
+        "Fügt Gegnern im Umkreis von 8 Metern körperlichen Schaden zu."
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_8269 = "Wutanfall"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_8269 =
+        "Erhöht das Angriffstempo und den verursachten körperlichen Schaden."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14321 = "Wache Fengus"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14321 =
         "Seitdem Cho'Rush, der Beobachter, ihm gesagt hat, dass er dazu bestimmt sei, während seines Dienstes einen Gefährten zu treffen, hat Fengus fast jeden wachen Moment damit verbracht, das Gebiet von Gordok zu patrouillieren."

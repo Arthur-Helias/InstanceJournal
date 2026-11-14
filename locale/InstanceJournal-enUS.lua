@@ -1190,6 +1190,18 @@ IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_8269 =
 IJ_DB_DUNGEON_DMN_BOSS_NAME_14322 = "Stomper Kreeg"
 IJ_DB_DUNGEON_DMN_BOSS_STORY_14322 =
     "On more than one occasion, skulking assassins have met their doom after accidentally disturbing Kreeg's ale mug. Though he's often passed out drunk on duty, nothing rouses the ogre into a berserker fury faster than the sound of his precious drink splattering on the stone floor."
+IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_22833 = "Booze Spit"
+IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_22833 =
+    "Spits booze at nearby enemies, reducing their chance to hit for 10 sec. and making them drunk."
+IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_16740 = "War Stomp"
+IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_16740 =
+    "Knocks back enemies within 5 yards."
+IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_15577 = "Whirlwind"
+IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_15577 =
+    "Deals physical damage to enemies within 8 yards."
+IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_8269 = "Enrage"
+IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_8269 =
+    "Increases attack speed and physical damage dealt."
 IJ_DB_DUNGEON_DMN_BOSS_NAME_14321 = "Guard Fengus"
 IJ_DB_DUNGEON_DMN_BOSS_STORY_14321 = "Ever since Cho'Rush the Observer told him he was destined to meet a mate while on duty, Fengus has spent almost every waking moment patrolling Gordok territory."
 IJ_DB_DUNGEON_DMN_BOSS_NAME_14323 = "Guard Slip'kik"

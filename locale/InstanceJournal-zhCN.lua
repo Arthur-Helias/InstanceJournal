@@ -1285,6 +1285,18 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14322 = "践踏者克雷格"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14322 =
         "潜伏的刺客不止一次因不小心扰乱了克雷格的啤酒杯而遭遇厄运。尽管他经常在值班时喝得醉醺醺的，但没有什么比他珍贵的饮料溅到石头地板上的声音更能激起食人魔的狂怒了。"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_22833 = "醉酒喷吐"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_22833 =
+        "向附近的敌人喷吐酒液，降低其命中几率，持续10秒，同时使其醉酒。"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_16740 = "战争践踏"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_16740 =
+        "击退5码范围内的敌人。"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_15577 = "旋风斩"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_15577 =
+        "对8码范围内的敌人造成物理伤害。"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_8269 =
+        "提高攻击速度和造成的物理伤害。"
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14321 = "卫兵芬古斯"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14321 = "自从观察者科拉什告诉他他注定会在执勤时遇到一位伴侣以来，芬古斯几乎醒着的每一刻都在戈多克领地巡逻。"
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14323 = "卫兵斯里基克"

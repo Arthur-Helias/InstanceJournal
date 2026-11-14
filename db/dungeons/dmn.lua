@@ -88,7 +88,7 @@ DMN.Bosses = {
             [15] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [2] = { -- NOTE: Missing abilities
+    [2] = {
         Id = "14322",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "kreeg" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "kreeg" .. IMPF,
@@ -96,6 +96,32 @@ DMN.Bosses = {
         Story = IJ_DB_DUNGEON_DMN_BOSS_STORY_14322,
         MapCoordinateX = 46.3,
         MapCoordinateY = 38.5,
+        Abilities = {
+            [1] = {
+                Id = "22833",
+                Icon = "INV_Drink_05",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_22833,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_22833
+            },
+            [2] = {
+                Id = "16740",
+                Icon = "Ability_BullRush",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_16740,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_16740
+            },
+            [3] = {
+                Id = "15577",
+                Icon = "Ability_Whirlwind",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_15577,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_15577
+            },
+            [4] = {
+                Id = "8269",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_8269,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_8269
+            }
+        },
         Loot = {[1] = {IJDB.I[18425], DropChance = 40}, [2] = {IJDB.I[70226], DropChance = 2}}
     },
     [3] = { -- NOTE: Missing abilities
