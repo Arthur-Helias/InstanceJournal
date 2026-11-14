@@ -1301,6 +1301,18 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10584 = "Urok Hurlement funeste"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10584 =
         "Doomhowl est le véritable chef des ogres de la flèche. Ce sinistre personnage a charmé son fidèle assistant, le généralissime Omokk, avec une magie insidieuse pour contrôler les serviteurs de Doomhowl à sa place. Il a fait de grands efforts pour maintenir cette mascarade, tuant sans pitié tous les ogres qui contestaient le règne du généralissime."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_uroksummoning = "Invocation"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_uroksummoning =
+        "Utilisez la Tête d’Omokk avec une Pique de fortune sur le Tas d’offrandes à Urok pour commencer l’invocation."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16508 = "Rugissement d’intimidation"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16508 =
+        "Immobilise la cible principale et fait fuir de peur les ennemis proches pendant 8 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16509 = "Pourfendre"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16509 =
+        "Fait saigner la cible, infligeant des dégâts physiques pendant 15 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_15580 = "Frappe"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_15580 =
+        "Inflige des dégâts physiques à la cible."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9736 = "Intendant Zigris"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9736 =
         "Après la Première Guerre, le chasseur d'orcs Zigris est devenu tristement célèbre pour avoir traqué les réfugiés de Hurlevent et les avoir massacrés comme du gibier. Il déteste les salles claustrophobes de Blackrock Spire, mais il est certain qu'un jour viendra où il chassera à nouveau en plein air."

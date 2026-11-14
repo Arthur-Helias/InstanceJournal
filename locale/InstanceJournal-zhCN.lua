@@ -2000,6 +2000,18 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10584 = "乌洛克"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10584 =
         "末日嚎是尖塔食人魔的真正领袖。这个邪恶的人物用阴险的魔法迷住了他信任的助手奥莫克大领主，以代替他控制末日嚎的爪牙。他不遗余力地维持着这种伪装，无情地杀死了任何挑战大领主统治的食人魔。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_uroksummoning = "召唤"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_uroksummoning =
+        "在乌洛克的贡品堆处，将欧莫克的头颅与尖锐长矛组合使用，开始召唤事件。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16508 = "破胆咆哮"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16508 =
+        "使主要目标定身，并使附近的敌人因恐惧而逃跑，持续8秒。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16509 = "撕裂"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16509 =
+        "使目标流血，在15秒内持续造成物理伤害。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_15580 = "打击"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_15580 =
+        "对目标造成物理伤害。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9736 = "军需官兹格雷斯"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9736 =
         "第一次战争结束后，兽人猎人吉格里斯因追踪暴风城难民并像猎物一样屠杀他们而臭名昭著。他讨厌黑石塔幽闭恐怖的大厅，但他确信有一天他会再次在露天狩猎。"

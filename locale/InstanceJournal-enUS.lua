@@ -1907,6 +1907,18 @@ IJ_DB_DUNGEON_LBRS_BOSS_STORY_10376 =
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_10584 = "Urok Doomhowl"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_10584 =
     "Doomhowl is the true leader of the spire's ogres. This sinister figure has charmed his trusted aid, Highlord Omokk, with insidious magic to control Doomhowl's minions in his stead. He has gone to great lengths to keep up this charade, ruthlessly killing any ogres who challenge the highlord's rule."
+IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_uroksummoning = "Summoning"
+IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_uroksummoning =
+    "Use Omokk's Head with a Roughshod Pike at Urok's Tribute Pile to begin the summoning event."
+IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16508 = "Intimidating Roar"
+IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16508 =
+    "Immobilizes the primary target and causes nearby enemies to flee in fear for 8 sec."
+IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16509 = "Rend"
+IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16509 =
+    "Causes the target to bleed, dealing physical damage over 15 sec."
+IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_15580 = "Strike"
+IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_15580 =
+    "Deals physical damage to the target."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9736 = "Quartermaster Zigris"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9736 =
     "After the First War, the orc hunter Zigris became infamous for tracking down Stormwind refugees and slaughtering them like game. He loathes Blackrock Spire's claustrophobic halls, but he is certain a day will come when he'll hunt in the open air again."

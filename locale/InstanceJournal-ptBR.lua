@@ -1298,6 +1298,18 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10584 = "Urok Doomhowl"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10584 =
         "Doomhowl é o verdadeiro líder dos ogros da torre. Esta figura sinistra encantou seu ajudante de confiança, o Grão-lorde Omokk, com magia insidiosa para controlar os asseclas de Doomhowl em seu lugar. Ele não mediu esforços para manter essa farsa, matando implacavelmente qualquer ogro que desafiasse o governo do senhor supremo."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_uroksummoning = "Invocação"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_uroksummoning =
+        "Use Omokk's Head com uma Roughshod Pike em Urok's Tribute Pile para iniciar o evento de invocação."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16508 = "Rugido Intimidador"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16508 =
+        "Imobiliza o alvo principal e faz os inimigos próximos fugirem de medo por 8 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16509 = "Dilacerar"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16509 =
+        "Faz o alvo sangrar, causando dano físico ao longo de 15 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_15580 = "Golpe"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_15580 =
+        "Causa dano físico ao alvo."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9736 = "Intendente Zigris"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9736 =
         "Após a Primeira Guerra, o caçador de orcs Zigris tornou-se famoso por rastrear refugiados de Ventobravo e matá-los como se fossem caça. Ele detesta os corredores claustrofóbicos do Pico da Rocha Negra, mas tem certeza de que chegará o dia em que ele caçará ao ar livre novamente."

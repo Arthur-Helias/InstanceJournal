@@ -1302,6 +1302,18 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10584 = "Urok Doomhowl"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10584 =
         "Doomhowl ist der wahre Anführer der Oger der Turmspitze. Diese finstere Gestalt hat seinen treuen Helfer, Hochlord Omokk, mit heimtückischer Magie bezaubert, um an seiner Stelle Doomhowls Diener zu kontrollieren. Er hat große Anstrengungen unternommen, um diese Farce aufrechtzuerhalten und alle Oger rücksichtslos zu töten, die die Herrschaft des Hochlords in Frage stellen."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_uroksummoning = "Beschwörung"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_uroksummoning =
+        "Verwendet Omokks Kopf zusammen mit einer Groben Pike bei Uroks Tributhaufen, um die Beschwörung zu beginnen."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16508 = "Einschüchterndes Gebrüll"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16508 =
+        "Macht das Hauptziel bewegungsunfähig und lässt Gegner in der Nähe 8 Sek. lang vor Furcht fliehen."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16509 = "Verwunden"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16509 =
+        "Lässt das Ziel bluten und fügt ihm über 15 Sek. körperlichen Schaden zu."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_15580 = "Schlag"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_15580 =
+        "Fügt dem Ziel körperlichen Schaden zu."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9736 = "Quartiermeister Zigris"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9736 =
         "Nach dem Ersten Krieg wurde der Ork-Jäger Zigris dafür berüchtigt, Flüchtlinge aus Sturmwind aufzuspüren und sie wie Wild abzuschlachten. Er verabscheut die klaustrophobischen Hallen der Schwarzfelsspitze, ist sich aber sicher, dass eines Tages wieder unter freiem Himmel auf die Jagd gehen wird."

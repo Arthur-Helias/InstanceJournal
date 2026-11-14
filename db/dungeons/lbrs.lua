@@ -390,12 +390,38 @@ LBRS.Bosses = {
             [3] = {IJDB.I[13218], DropChance = 33}
         }
     },
-    [11] = { -- NOTE: Missing abilities
+    [11] = {
         Id = "10584",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "urok" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "urok" .. IMPF,
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_10584,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_10584,
+        Abilities = {
+            [1] = {
+                Id = "uroksummoning",
+                Icon = "INV_Misc_Head_Ogre_01",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_uroksummoning,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_uroksummoning
+            },
+            [2] = {
+                Id = "16508",
+                Icon = "Ability_GolemThunderClap",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16508,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16508
+            },
+            [3] = {
+                Id = "16509",
+                Icon = "Ability_Gouge",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16509,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16509
+            },
+            [4] = {
+                Id = "15580",
+                Icon = "Ability_Rogue_Ambush",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_15580,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_15580
+            }
+        },
         Loot = {
             [1] = {IJDB.I[13178], DropChance = 25},
             [2] = {IJDB.I[13258], DropChance = 25},
