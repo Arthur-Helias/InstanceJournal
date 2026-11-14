@@ -432,12 +432,26 @@ LBRS.Bosses = {
             [7] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [12] = { -- NOTE: Missing abilities
+    [12] = {
         Id = "9736",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "zigris" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "zigris" .. IMPF,
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_9736,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_9736,
+        Abilities = {
+            [1] = {
+                Id = "16496",
+                Icon = "Ability_Marksmanship",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16496,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16496
+            },
+            [2] = {
+                Id = "16497",
+                Icon = "Spell_Fire_SelfDestruct",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16497,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16497
+            }
+        },
         Loot = {
             [1] = {IJDB.I[56101], DropChance = 30},
             [2] = {IJDB.I[12835], DropChance = 10},

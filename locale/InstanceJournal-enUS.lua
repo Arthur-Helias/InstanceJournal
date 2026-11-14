@@ -1922,6 +1922,12 @@ IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_15580 =
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9736 = "Quartermaster Zigris"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9736 =
     "After the First War, the orc hunter Zigris became infamous for tracking down Stormwind refugees and slaughtering them like game. He loathes Blackrock Spire's claustrophobic halls, but he is certain a day will come when he'll hunt in the open air again."
+IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16496 = "Shoot"
+IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16496 =
+    "Shoots the target, dealing physical damage."
+IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16497 = "Stun Bomb"
+IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16497 =
+    "Throws a bomb that deals Fire damage to enemies in the targeted area and stuns them for 5 sec."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220 = "Halycon"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220 =
     "Halycon comes from a long line of great worgs bred for their ferocity and loyalty. Over the years, the den mother has produced an astonishing number of savage offspring. Rumors have spread that she is a demonic hound gifted to Rend Blackhand by a pit lord of the Burning Legion."

@@ -1317,6 +1317,12 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9736 = "Quartiermeister Zigris"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9736 =
         "Nach dem Ersten Krieg wurde der Ork-Jäger Zigris dafür berüchtigt, Flüchtlinge aus Sturmwind aufzuspüren und sie wie Wild abzuschlachten. Er verabscheut die klaustrophobischen Hallen der Schwarzfelsspitze, ist sich aber sicher, dass eines Tages wieder unter freiem Himmel auf die Jagd gehen wird."
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16496 = "Schießen"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16496 =
+        "Beschießt das Ziel und verursacht körperlichen Schaden."
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16497 = "Betäubungsbombe"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16497 =
+        "Wirft eine Bombe, die Gegnern im Zielgebiet Feuerschaden zufügt und sie 5 Sek. lang betäubt."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220 = "Halykon"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220 =
         "Halycon stammt aus einer langen Linie großer Worgs, die aufgrund ihrer Wildheit und Loyalität gezüchtet wurden. Im Laufe der Jahre hat die Höhlenmutter eine erstaunliche Anzahl wilder Nachkommen hervorgebracht. Gerüchten zufolge handelt es sich bei ihr um einen dämonischen Hund, der Rend Blackhand von einem Grubenlord der Brennenden Legion geschenkt wurde."

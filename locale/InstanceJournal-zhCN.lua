@@ -2015,6 +2015,12 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9736 = "军需官兹格雷斯"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9736 =
         "第一次战争结束后，兽人猎人吉格里斯因追踪暴风城难民并像猎物一样屠杀他们而臭名昭著。他讨厌黑石塔幽闭恐怖的大厅，但他确信有一天他会再次在露天狩猎。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16496 = "射击"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16496 =
+        "射击目标，造成物理伤害。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16497 = "昏迷炸弹"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16497 =
+        "投掷炸弹，对目标区域内的敌人造成火焰伤害，并使其昏迷5秒。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220 = "哈雷肯"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220 =
         "哈雷肯 源自一长串因凶猛和忠诚而培育出来的巨座狼。多年来，巢穴母亲生育了数量惊人的野蛮后代。有传言称她是燃烧军团深渊领主送给雷德·黑手的恶魔猎犬。"

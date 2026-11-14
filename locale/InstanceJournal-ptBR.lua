@@ -1313,6 +1313,12 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9736 = "Intendente Zigris"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9736 =
         "Após a Primeira Guerra, o caçador de orcs Zigris tornou-se famoso por rastrear refugiados de Ventobravo e matá-los como se fossem caça. Ele detesta os corredores claustrofóbicos do Pico da Rocha Negra, mas tem certeza de que chegará o dia em que ele caçará ao ar livre novamente."
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16496 = "Disparar"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16496 =
+        "Dispara contra o alvo, causando dano físico."
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16497 = "Bomba Atordoante"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16497 =
+        "Arremessa uma bomba que causa dano de Fogo aos inimigos na área selecionada e os atordoa por 5 s."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220 = "Halycon"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220 =
         "Halycon vem de uma longa linhagem de grandes worgs criados por sua ferocidade e lealdade. Ao longo dos anos, a mãe da toca produziu um número surpreendente de descendentes selvagens. Espalharam-se rumores de que ela é um cão demoníaco presenteado a Rend Blackhand por um pit lord da Burning Legion."

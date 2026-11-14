@@ -1316,6 +1316,12 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9736 = "Intendente Zigris"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9736 =
         "Después de la Primera Guerra, el cazador de orcos Zigris se hizo famoso por localizar a los refugiados de Ventormenta y masacrarlos como si fueran presa. Odia los claustrofóbicos pasillos de Blackrock Spire, pero está seguro de que llegará el día en que volverá a cazar al aire libre."
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16496 = "Disparar"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16496 =
+        "Dispara al objetivo e inflige daño físico."
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16497 = "Bomba de aturdimiento"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16497 =
+        "Lanza una bomba que inflige daño de Fuego a los enemigos del área seleccionada y los aturde durante 5 s."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220 = "Halycón"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220 =
         "Halycon proviene de una larga línea de grandes huargos criados por su ferocidad y lealtad. A lo largo de los años, la madre de la guarida ha producido una asombrosa cantidad de crías salvajes. Se han difundido rumores de que ella es un perro demoníaco que un señor del foso de la Legión Ardiente le regaló a Rend Blackhand."

@@ -1316,6 +1316,12 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9736 = "Intendant Zigris"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9736 =
         "Après la Première Guerre, le chasseur d'orcs Zigris est devenu tristement célèbre pour avoir traqué les réfugiés de Hurlevent et les avoir massacrés comme du gibier. Il déteste les salles claustrophobes de Blackrock Spire, mais il est certain qu'un jour viendra où il chassera à nouveau en plein air."
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16496 = "Tir"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16496 =
+        "Tire sur la cible et lui inflige des dégâts physiques."
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16497 = "Bombe étourdissante"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16497 =
+        "Lance une bombe qui inflige des dégâts de Feu aux ennemis dans la zone ciblée et les étourdit pendant 5 s."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220 = "Halycon"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220 =
         "Halycon vient d'une longue lignée de grands worgs élevés pour leur férocité et leur loyauté. Au fil des années, la mère de la tanière a produit un nombre étonnant de petits sauvages. Des rumeurs se sont répandues selon lesquelles elle serait un chien démoniaque offert à Rend Blackhand par un seigneur des fosses de la Légion ardente."
