@@ -1322,6 +1322,12 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220 = "Halycon"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220 =
         "Halycon vem de uma longa linhagem de grandes worgs criados por sua ferocidade e lealdade. Ao longo dos anos, a mãe da toca produziu um número surpreendente de descendentes selvagens. Espalharam-se rumores de que ela é um cão demoníaco presenteado a Rend Blackhand por um pit lord da Burning Legion."
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_10887 = "Soco na Multidão"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_10887 =
+        "Causa dano físico aos inimigos próximos, os repele e pode interromper seus feitiços por 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_14099 = "Golpe Poderoso"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_14099 =
+        "Causa dano físico ao alvo e o repele."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268 = "Gizrul, o Escravista"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268 =
         "Muito poucos membros da Horda Negra viram o recluso e imprevisível Gizrul. A fera emerge de seu covil sombrio apenas quando sua companheira, Halycon, o chama. As duas criaturas monstruosas produziram alguns dos maiores – e mais ferozes – worgs já criados na história dos orcs."

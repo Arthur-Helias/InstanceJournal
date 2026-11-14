@@ -468,12 +468,26 @@ LBRS.Bosses = {
             [13] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [13] = { -- NOTE: Missing abilities
+    [13] = {
         Id = "10220",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "halycon" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "halycon" .. IMPF,
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220,
+        Abilities = {
+            [1] = {
+                Id = "10887",
+                Icon = "INV_Gauntlets_04",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_10887,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_10887
+            },
+            [2] = {
+                Id = "14099",
+                Icon = "INV_Gauntlets_05",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_14099,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_14099
+            }
+        },
         Loot = {
             [1] = {IJDB.I[13210], DropChance = 25},
             [2] = {IJDB.I[13211], DropChance = 25},

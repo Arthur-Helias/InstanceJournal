@@ -1325,6 +1325,12 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220 = "Halycón"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220 =
         "Halycon proviene de una larga línea de grandes huargos criados por su ferocidad y lealtad. A lo largo de los años, la madre de la guarida ha producido una asombrosa cantidad de crías salvajes. Se han difundido rumores de que ella es un perro demoníaco que un señor del foso de la Legión Ardiente le regaló a Rend Blackhand."
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_10887 = "Paliza de grupo"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_10887 =
+        "Inflige daño físico a los enemigos cercanos, los repele y puede interrumpir sus hechizos durante 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_14099 = "Golpe poderoso"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_14099 =
+        "Inflige daño físico al objetivo y lo repele."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268 = "Gizrul el esclavista"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268 =
         "Muy pocos miembros de la Horda Oscura han visto al solitario e impredecible Gizrul. La bestia emerge de su oscura guarida sólo cuando su compañero, Halycon, lo llama. Las dos monstruosas criaturas han producido algunos de los huargos más grandes y feroces jamás criados en la historia de los orcos."

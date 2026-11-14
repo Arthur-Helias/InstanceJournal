@@ -1325,6 +1325,12 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220 = "Halycon"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220 =
         "Halycon vient d'une longue lignée de grands worgs élevés pour leur férocité et leur loyauté. Au fil des années, la mère de la tanière a produit un nombre étonnant de petits sauvages. Des rumeurs se sont répandues selon lesquelles elle serait un chien démoniaque offert à Rend Blackhand par un seigneur des fosses de la Légion ardente."
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_10887 = "Volée de coups collective"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_10887 =
+        "Inflige des dégâts physiques aux ennemis proches, les repousse et peut interrompre leurs sorts pendant 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_14099 = "Coup puissant"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_14099 =
+        "Inflige des dégâts physiques à la cible et la repousse."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268 = "Gizrul l'esclave"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268 =
         "Très peu de membres de la Horde Noire ont vu Gizrul, solitaire et imprévisible. La bête ne sort de sa tanière sombre que lorsque son compagnon, Halycon, l'appelle. Les deux créatures monstrueuses ont donné naissance à certains des worgs les plus grands, et les plus féroces, jamais élevés dans l'histoire des Orcs."

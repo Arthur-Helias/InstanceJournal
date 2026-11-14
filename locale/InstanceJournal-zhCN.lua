@@ -2024,6 +2024,12 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220 = "哈雷肯"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220 =
         "哈雷肯 源自一长串因凶猛和忠诚而培育出来的巨座狼。多年来，巢穴母亲生育了数量惊人的野蛮后代。有传言称她是燃烧军团深渊领主送给雷德·黑手的恶魔猎犬。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_10887 = "群体打击"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_10887 =
+        "对附近的敌人造成物理伤害，将其击退，并有几率打断其施法，使其在5秒内无法施放被打断的法术。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_14099 = "强力打击"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_14099 =
+        "对目标造成物理伤害并将其击退。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268 = "奴役者基兹卢尔"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268 =
         "黑暗部落中很少有人见过隐居且难以预测的吉兹鲁尔。只有当它的伴侣哈利肯呼唤它时，这只野兽才会从它阴暗的巢穴中出现。这两种怪物创造了兽人历史上最大、最凶猛的座狼。"

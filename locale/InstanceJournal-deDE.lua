@@ -1326,6 +1326,12 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220 = "Halykon"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220 =
         "Halycon stammt aus einer langen Linie großer Worgs, die aufgrund ihrer Wildheit und Loyalität gezüchtet wurden. Im Laufe der Jahre hat die Höhlenmutter eine erstaunliche Anzahl wilder Nachkommen hervorgebracht. Gerüchten zufolge handelt es sich bei ihr um einen dämonischen Hund, der Rend Blackhand von einem Grubenlord der Brennenden Legion geschenkt wurde."
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_10887 = "Massenprügel"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_10887 =
+        "Fügt Gegnern in der Nähe körperlichen Schaden zu, stößt sie zurück und kann ihre Zauber 5 Sek. lang unterbrechen."
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_14099 = "Mächtiger Schlag"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_14099 =
+        "Fügt dem Ziel körperlichen Schaden zu und stößt es zurück."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268 = "Gizrul der Sklavenhändler"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268 =
         "Nur sehr wenige Mitglieder der Dunklen Horde haben den zurückgezogen lebenden und unberechenbaren Gizrul gesehen. Das Biest kommt erst aus seiner schattigen Höhle heraus, als sein Gefährte Halycon nach ihm ruft. Die beiden monströsen Kreaturen haben einige der größten – und wildesten – Worgs hervorgebracht, die jemals in der Geschichte der Orcs gezüchtet wurden."

@@ -1931,6 +1931,12 @@ IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16497 =
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220 = "Halycon"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220 =
     "Halycon comes from a long line of great worgs bred for their ferocity and loyalty. Over the years, the den mother has produced an astonishing number of savage offspring. Rumors have spread that she is a demonic hound gifted to Rend Blackhand by a pit lord of the Burning Legion."
+IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_10887 = "Crowd Pummel"
+IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_10887 =
+    "Deals physical damage to nearby enemies, knocks them back and can interrupt their spellcasting for 5 sec."
+IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_14099 = "Mighty Blow"
+IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_14099 =
+    "Deals physical damage to the target and knocks it back."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268 = "Gizrul the Slavener"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268 =
     "Very few of the Dark Horde have seen the reclusive and unpredictable Gizrul. The beast emerges from his shadowy den only when his mate, Halycon, calls to him. The two monstrous creatures have produced some of the largest--and most ferocious--worgs ever bred in orcish history."
