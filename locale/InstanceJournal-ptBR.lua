@@ -869,6 +869,30 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11488 = "Illyanna Ravenoak"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11488 =
         "Illyanna Ravenoak, junto com sua fiel companheira Ferra, já foi a caçadora mais valiosa do Príncipe Tortheldrin, até que ela se recusou a cumprir a ordem de seu líder de executar seus amigos. Como punição, ele matou Illyanna e seu urso, mas usou seu poder demoníaco para prender seus espíritos aos seus corpos, condenando-os a permanecer em Dire Maul como protetores mortos-vivos."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_20735 = "Tiro Múltiplo"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_20735 =
+        "Dispara contra o alvo e seus aliados próximos, causando dano Arcano a até 10 inimigos."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22908 = "Salva"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22908 =
+        "Causa dano Arcano a cada segundo aos inimigos na área selecionada por 6 s. Saia da área."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22914 = "Tiro de Concussão"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22914 =
+        "Reduz a velocidade de movimento do alvo em 50% por 3 s. A lentidão pode ser dissipada."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22915 = "Tiro de Concussão Aprimorado"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22915 =
+        "Tiro de Concussão também atordoa o alvo por 3 s."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22910 = "Armadilha Imolante"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22910 =
+        "Coloca uma armadilha que queima o primeiro inimigo a se aproximar, causando dano de Fogo por 15 s. O efeito de queimadura pode ser dissipado."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_ferra = "Ferra"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_ferra =
+        "Illyanna luta ao lado de Ferra, seu companheiro urso. Mantenha ambos os inimigos sob controle dos tanks."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_17156 = "Espancar"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_17156 =
+        "Ferra causa dano físico adicional com seu próximo ataque corpo a corpo."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22911 = "Investida"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22911 =
+        "Ferra investe contra um inimigo, causando dano físico e atordoando-o por 2 s."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11487 = "Mestre Kalendris"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11487 =
         "Quando o Príncipe Tortheldrin exigiu o massacre da maioria dos seus súbditos, os seus tenentes mais leais foram encarregados de executar o seu testamento. Magister Kalendris assassinou muitos Shen'dralar desavisados ​​sem hesitação, mas um dos elfos condenados o feriu mortalmente durante uma batalha destrutiva. Apesar de sua morte, o espírito de Kalendris ainda perambula por Dire Maul como um defensor do governo de Tortheldrin."

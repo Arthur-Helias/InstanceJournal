@@ -104,7 +104,7 @@ DMW.Bosses = {
             [16] = {IJDB.I[18401], DropChance = 1}
         }
     },
-    [2] = { -- NOTE: Missing abilities
+    [2] = {
         Id = "11488",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "ravenoak" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "ravenoak" .. IMPF,
@@ -112,6 +112,61 @@ DMW.Bosses = {
         Story = IJ_DB_DUNGEON_DMW_BOSS_STORY_11488,
         MapCoordinateX = 24.4,
         MapCoordinateY = 81.5,
+        Abilities = {
+            [1] = {
+                Id = "20735",
+                Icon = "Ability_UpgradeMoonGlaive",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_20735,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_20735
+            },
+            [2] = {
+                Id = "22908",
+                Icon = "Ability_Marksmanship",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22908,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22908
+            },
+            [3] = {
+                Id = "22914",
+                Icon = "Spell_Frost_Stun",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22914,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22914,
+                Flags = {IMAF.Magic},
+                SubAbilities = {
+                    [1] = {
+                        Id = "22915",
+                        Icon = "Spell_Frost_Stun",
+                        Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22915,
+                        Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22915
+                    }
+                }
+            },
+            [4] = {
+                Id = "22910",
+                Icon = "Spell_Fire_FlameShock",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22910,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22910
+            },
+            [5] = {
+                Id = "ferra",
+                Icon = "Ability_Hunter_Pet_Bear",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_ferra,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_ferra,
+                SubAbilities = {
+                    [1] = {
+                        Id = "17156",
+                        Icon = "Ability_Druid_Maul",
+                        Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_17156,
+                        Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_17156
+                    },
+                    [2] = {
+                        Id = "22911",
+                        Icon = "Ability_Warrior_Charge",
+                        Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22911,
+                        Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22911
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18347], DropChance = 25},
             [2] = {IJDB.I[18349], DropChance = 25},

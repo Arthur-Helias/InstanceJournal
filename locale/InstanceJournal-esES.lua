@@ -872,6 +872,30 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11488 = "Illyanna Ravenoak"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11488 =
         "Illyanna Ravenoak, junto con su fiel compañera Ferra, fue una vez la cazadora más valiosa del Príncipe Tortheldrin, hasta que se negó a cumplir la orden de su líder de ejecutar a sus amigos. Como castigo, mató a Illyanna y su oso, pero usó su poder demoníaco para unir sus espíritus a sus cuerpos, condenándolos a permanecer en Dire Maul como protectores no-muertos."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_20735 = "Multidisparo"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_20735 =
+        "Dispara al objetivo y a sus aliados cercanos e inflige daño Arcano a un máximo de 10 enemigos."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22908 = "Lluvia"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22908 =
+        "Inflige daño Arcano cada segundo a los enemigos del área seleccionada durante 6 s. Sal del área."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22914 = "Disparo de conmoción"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22914 =
+        "Reduce un 50% la velocidad de movimiento del objetivo durante 3 s. La ralentización se puede disipar."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22915 = "Disparo de conmoción mejorado"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22915 =
+        "El disparo de conmoción también aturde al objetivo durante 3 s."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22910 = "Trampa de inmolación"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22910 =
+        "Coloca una trampa que quema al primer enemigo que se acerque e inflige daño de Fuego durante 15 s. El efecto de quemadura se puede disipar."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_ferra = "Ferra"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_ferra =
+        "Illyanna lucha junto a su compañero oso, Ferra. Los tanques deben mantener el control de ambos enemigos."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_17156 = "Magullar"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_17156 =
+        "Ferra inflige daño físico adicional con su siguiente ataque cuerpo a cuerpo."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22911 = "Cargar"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22911 =
+        "Ferra carga contra un enemigo, le inflige daño físico y lo aturde durante 2 s."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11487 = "Maestro Kalendris"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11487 =
         "Cuando el príncipe Tortheldrin exigió la matanza de la mayoría de sus súbditos, a sus lugartenientes más leales se les encomendó la tarea de ejecutar su voluntad. El Magister Kalendris asesinó a muchos Shen'dralar desprevenidos sin dudarlo, pero uno de los elfos condenados lo hirió de muerte durante una batalla destructiva. A pesar de su fallecimiento, el espíritu de Kalendris todavía deambula por Dire Maul como defensor del gobierno de Tortheldrin."

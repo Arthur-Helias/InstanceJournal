@@ -873,6 +873,30 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11488 = "Illyanna Ravenoak"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11488 =
         "Illyanna Ravenoak war zusammen mit ihrer treuen Gefährtin Ferra einst die geschätzteste Jägerin von Prinz Tortheldrin, bis sie sich weigerte, dem Befehl ihres Anführers Folge zu leisten und ihre Freunde hinzurichten. Zur Strafe tötete er Illyanna und ihren Bären, aber er nutzte seine dämonische Macht, um ihre Geister an ihre Körper zu binden und verurteilte sie dazu, als untote Beschützer in Düsterbruch zu bleiben."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_20735 = "Mehrfachschuss"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_20735 =
+        "Beschießt das Ziel und dessen Verbündete in der Nähe und fügt bis zu 10 Gegnern Arkanschaden zu."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22908 = "Salve"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22908 =
+        "Fügt Gegnern im Zielgebiet 6 Sek. lang jede Sekunde Arkanschaden zu. Verlasst den Bereich."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22914 = "Erschütternder Schuss"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22914 =
+        "Verringert das Bewegungstempo des Ziels 3 Sek. lang um 50%. Die Verlangsamung kann gebannt werden."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22915 = "Verbesserter erschütternder Schuss"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22915 =
+        "Erschütternder Schuss betäubt das Ziel zusätzlich 3 Sek. lang."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22910 = "Feuerbrandfalle"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22910 =
+        "Platziert eine Falle, die den ersten sich nähernden Gegner verbrennt und 15 Sek. lang Feuerschaden verursacht. Der Brandeffekt kann gebannt werden."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_ferra = "Ferra"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_ferra =
+        "Illyanna kämpft an der Seite ihres Bären Ferra. Beide Gegner müssen getankt werden."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_17156 = "Zermalmen"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_17156 =
+        "Ferra verursacht mit seinem nächsten Nahkampfangriff zusätzlichen körperlichen Schaden."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22911 = "Sturmangriff"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22911 =
+        "Ferra stürmt einen Gegner an, verursacht körperlichen Schaden und betäubt ihn 2 Sek. lang."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11487 = "Magister Kalendris"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11487 =
         "Als Prinz Tortheldrin die Ermordung der meisten seiner Untertanen forderte, wurden seine treuesten Leutnants mit der Ausführung seines Willens beauftragt. Magister Kalendris ermordete ohne zu zögern viele ahnungslose Shen'dralar, doch einer der zum Scheitern verurteilten Elfen verwundete ihn während einer zerstörerischen Schlacht tödlich. Trotz seines Ablebens durchstreift Kalendris‘ Geist immer noch Düsterbruch als Verteidiger von Tortheldrins Herrschaft."

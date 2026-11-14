@@ -1373,6 +1373,30 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11488 = "伊琳娜·暗木"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11488 =
         "伊莉安娜·拉文诺克（伊琳娜·暗木）和她忠实的同伴费拉（费拉）曾经是托塞德林王子最有价值的猎人，直到她拒绝执行领袖的命令处决她的朋友。作为惩罚，他杀死了伊莉安娜和她的熊，但他用自己的恶魔力量将他们的灵魂束缚在他们的身体上，谴责他们留在厄运之槌作为不死的保护者。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_20735 = "多重射击"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_20735 =
+        "射击目标及其附近的盟友，对最多10个敌人造成奥术伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22908 = "乱射"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22908 =
+        "每秒对目标区域内的敌人造成奥术伤害，持续6秒。离开该区域。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22914 = "震荡射击"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22914 =
+        "使目标的移动速度降低50%，持续3秒。减速效果可以被驱散。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22915 = "强化震荡射击"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22915 =
+        "震荡射击还会使目标昏迷3秒。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22910 = "献祭陷阱"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22910 =
+        "放置陷阱，灼烧第一个靠近的敌人，在15秒内持续造成火焰伤害。燃烧效果可以被驱散。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_ferra = "费拉"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_ferra =
+        "伊琳娜与她的熊伙伴费拉并肩作战。坦克需要拉住两个敌人。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_17156 = "槌击"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_17156 =
+        "费拉的下一次近战攻击造成额外物理伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22911 = "冲锋"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22911 =
+        "费拉向一名敌人冲锋，造成物理伤害并使其昏迷2秒。"
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11487 = "卡雷迪斯镇长"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11487 =
         "当托塞德林王子要求屠杀他的大多数臣民时，他最忠诚的副官们就肩负着执行他的意志的任务。魔导师卡伦德里斯毫不犹豫地谋杀了许多毫无戒心的申德拉拉，但其中一名注定失败的精灵在一场毁灭性的战斗中对他造成了致命伤。尽管卡伦德里斯去世了，他的灵魂仍然作为托塞德林统治的捍卫者在厄运之槌中游荡。"

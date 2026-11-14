@@ -1279,6 +1279,30 @@ IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_8269 =
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11488 = "Illyanna Ravenoak"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11488 =
     "Illyanna Ravenoak, along with her faithful companion Ferra, was once Prince Tortheldrin's most valued hunter, until she refused to carry out her leader's order to execute her friends. As punishment, he killed Illyanna and her bear, but he used his demonic power to bind their spirits to their bodies, condemning them to remain in Dire Maul as undead protectors."
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_20735 = "Multi-Shot"
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_20735 =
+    "Fires at the target and nearby allies, dealing Arcane damage to up to 10 enemies."
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22908 = "Volley"
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22908 =
+    "Deals Arcane damage every second to enemies within the targeted area for 6 sec. Move out of the area."
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22914 = "Concussive Shot"
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22914 =
+    "Reduces the target’s movement speed by 50% for 3 sec. The slow can be dispelled."
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22915 = "Improved Concussive Shot"
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22915 =
+    "Concussive Shot also stuns the target for 3 sec."
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22910 = "Immolation Trap"
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22910 =
+    "Places a trap that burns the first enemy to approach, dealing Fire damage over 15 sec. The burning effect can be dispelled."
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_ferra = "Ferra"
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_ferra =
+    "Illyanna fights alongside her bear companion, Ferra. Tank both enemies."
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_17156 = "Maul"
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_17156 =
+    "Ferra deals additional physical damage with his next melee attack."
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22911 = "Charge"
+IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22911 =
+    "Ferra charges an enemy, dealing physical damage and stunning it for 2 sec."
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11487 = "Magister Kalendris"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11487 =
     "When Prince Tortheldrin demanded the slaughter of the majority of his subjects, his most loyal lieutenants were tasked with executing his will. Magister Kalendris murdered many unsuspecting Shen'dralar without hesitation, but one of the doomed elves mortally wounded him during a destructive battle. Despite his demise, Kalendris's spirit still roams Dire Maul as a defender of Tortheldrin's rule."
