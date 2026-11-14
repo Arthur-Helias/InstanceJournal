@@ -892,6 +892,21 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14325 = "Capitão Kromcrush"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14325 =
         "Mesmo entre os ogros, o Capitão Kromcrush é famoso por sua raiva incontrolável contra qualquer um que se atreva a insultá-lo ou ao Rei Gordok. Ele esmaga a dissidência impiedosamente, mas tem ainda menos paciência com aqueles que continuam a espalhar o boato de seu tórrido caso com um gnoll há muito tempo."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_19134 = "Brado Intimidador"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_19134 =
+        "Faz os inimigos próximos fugirem de medo por 8 s."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_29544 = "Brado Intimidador"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_29544 =
+        "O alvo principal do grito fica atordoado no lugar por 8 s."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22857 = "Retaliação"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22857 =
+        "Por 15 s, contra-ataca os inimigos que o atingem pela frente em combate corpo a corpo. Os DPS corpo a corpo devem atacar por trás."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22858 = "Retaliação"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22858 =
+        "Retaliação dispara um contra-ataque físico contra o atacante."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22859 = "Cutilada Mortal"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22859 =
+        "Causa dano físico e reduz a cura recebida em 50% por 5 s."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "Rei Gordok"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
         "Para governar os ogros Gordok, basta proclamar-se rei... e depois destruir todos os que possam discordar. O rei Gordok – então conhecido apenas como Ulrok – solidificou seu poder ao convencer uma dúzia dos guerreiros mais fortes de seu povo a desafiar o rei ao mesmo tempo. O corpo a corpo selvagem deixou a maioria dos competidores mortos ou feridos, e a lâmina de Ulrok derrubou facilmente os sobreviventes e o rei cansado da batalha. Até hoje, os ogros Gordok falam em voz baixa sobre o “Dia do Da Blood”."

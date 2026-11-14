@@ -895,6 +895,21 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14325 = "Capitán Kromcrush"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14325 =
         "Incluso entre los ogros, el Capitán Kromcrush es famoso por su furia hacia cualquiera que se atreva a insultarlo a él o al Rey Gordok. Aplasta la disidencia sin piedad, pero tiene aún menos paciencia con aquellos que continúan difundiendo el rumor de su tórrido romance con un gnoll hace mucho tiempo."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_19134 = "Grito intimidador"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_19134 =
+        "Hace que los enemigos cercanos huyan aterrorizados durante 8 s."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_29544 = "Grito intimidador"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_29544 =
+        "El objetivo principal del grito queda aturdido en el sitio durante 8 s."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22857 = "Represalias"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22857 =
+        "Durante 15 s, contraataca a los enemigos que lo golpean de frente en cuerpo a cuerpo. Los atacantes cuerpo a cuerpo deben atacar por detrás."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22858 = "Represalias"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22858 =
+        "Represalias provoca un contraataque físico contra el atacante."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22859 = "División mortal"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22859 =
+        "Inflige daño físico y reduce la sanación recibida un 50% durante 5 s."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "Rey Gordok"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
         "Para gobernar a los ogros Gordok, uno simplemente debe proclamarse rey... y luego destruir a todos los que puedan no estar de acuerdo. El rey Gordok, entonces conocido simplemente como Ulrok, ​​solidificó su poder convenciendo a una docena de los guerreros más fuertes de su pueblo para que desafiaran al rey al mismo tiempo. El salvaje combate cuerpo a cuerpo dejó a la mayoría de los contendientes muertos o heridos, y la espada de Ulrok mató fácilmente a los supervivientes y al rey cansado de la batalla. Hasta el día de hoy, los ogros Gordok hablan en voz baja sobre el \"Día de la Sangre\"."

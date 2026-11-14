@@ -895,6 +895,21 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14325 = "Capitaine Kromcrush"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14325 =
         "Même parmi les ogres, le capitaine Kromcrush est tristement célèbre pour sa rage à couper le souffle envers quiconque ose l'insulter ou insulter le roi Gordok. Il écrase impitoyablement toute dissidence, mais il a encore moins de patience envers ceux qui continuent de répandre la rumeur de sa torride liaison avec un gnoll il y a bien longtemps."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_19134 = "Cri d'intimidation"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_19134 =
+        "Fait fuir de peur les ennemis proches pendant 8 s."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_29544 = "Cri d’intimidation"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_29544 =
+        "La cible principale du cri est étourdie sur place pendant 8 s."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22857 = "Représailles"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22857 =
+        "Pendant 15 s, contre-attaque les ennemis qui le frappent de face en mêlée. Les combattants de mêlée doivent attaquer par derrière."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22858 = "Représailles"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22858 =
+        "Représailles déclenche une contre-attaque physique contre l’attaquant."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22859 = "Fendoir mortel"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22859 =
+        "Inflige des dégâts physiques et réduit les soins reçus de 50% pendant 5 s."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "Roi Gordok"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
         "Pour gouverner les ogres Gordok, il suffit de se proclamer roi... puis de détruire tous ceux qui pourraient être en désaccord. Le roi Gordok – alors simplement connu sous le nom d'Ulrok – a consolidé son pouvoir en convainquant une douzaine des plus puissants guerriers de son peuple de défier le roi en même temps. La mêlée sauvage a laissé la plupart des concurrents morts ou blessés, et la lame d'Ulrok a facilement abattu les survivants et le roi fatigué du combat. À ce jour, les ogres Gordok parlent à voix basse du « Jour de Da Blood »."

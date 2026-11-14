@@ -1335,6 +1335,21 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14325 = "克罗卡斯"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14325 =
         "即使在食人魔中，克罗姆克鲁什船长也因其对任何胆敢侮辱他或戈多克国王的人一触即发的愤怒而臭名昭著。他无情地镇压异见，但对于那些继续散布他很久以前与豺狼人的热恋传闻的人来说，他仍然缺乏耐心。"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_19134 = "破胆怒吼"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_19134 =
+        "使附近的敌人因恐惧而逃跑，持续8秒。"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_29544 = "破胆怒吼"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_29544 =
+        "怒吼的主要目标会昏迷在原地，持续8秒。"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22857 = "反击风暴"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22857 =
+        "在15秒内反击从正面进行近战攻击的敌人。近战输出应从背后攻击。"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22858 = "反击风暴"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22858 =
+        "反击风暴会对攻击者发动一次物理反击。"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22859 = "致死顺劈"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22859 =
+        "造成物理伤害，并使受到的治疗效果降低50%，持续5秒。"
     IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "戈多克大王"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
         "为了统治戈多克食人魔，人们必须简单地宣布自己为王……然后消灭所有可能不同意的人。戈多克国王（当时仅被称为乌尔罗克）通过说服十几个他的人民中最强大的战士同时挑战国王来巩固自己的权力。狂野的混战导致大多数参赛者死伤，而乌尔洛克的利刃轻易地砍倒了幸存者和疲惫不堪的国王。直到今天，戈多克食人魔仍然低声谈论着“大血之日”。"

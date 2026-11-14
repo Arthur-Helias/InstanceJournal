@@ -896,6 +896,21 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14325 = "Kapitän Kromcrush"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14325 =
         "Selbst unter Ogern ist Kapitän Kromcrush für seine rasende Wut auf jeden berüchtigt, der es wagt, ihn oder König Gordok zu beleidigen. Er unterdrückt Andersdenkende rücksichtslos, aber er hat immer noch weniger Geduld mit denen, die weiterhin das Gerücht über seine heiße Affäre mit einem Gnoll vor langer Zeit verbreiten."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_19134 = "Drohruf"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_19134 =
+        "Lässt Gegner in der Nähe 8 Sek. lang vor Furcht fliehen."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_29544 = "Drohruf"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_29544 =
+        "Das Hauptziel des Schreis wird 8 Sek. lang auf der Stelle betäubt."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22857 = "Gegenschlag"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22857 =
+        "Kontert 15 Sek. lang Nahkampfangriffe von Gegnern vor ihm. Nahkämpfer sollten von hinten angreifen."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22858 = "Gegenschlag"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22858 =
+        "Gegenschlag löst einen körperlichen Gegenangriff auf den Angreifer aus."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22859 = "Tödliche Spaltung"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22859 =
+        "Verursacht körperlichen Schaden und verringert die erhaltene Heilung 5 Sek. lang um 50%."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "König Gordok"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
         "Um über die Gordok-Oger zu herrschen, muss man sich einfach selbst zum König ausrufen ... und dann alle vernichten, die anderer Meinung sein könnten. König Gordok – damals nur als Ulrok bekannt – festigte seine Macht, indem er ein Dutzend der stärksten Krieger seines Volkes davon überzeugte, den König gleichzeitig herauszufordern. Bei dem wilden Handgemenge kamen die meisten Teilnehmer ums Leben oder wurden verwundet, und Ulroks Klinge tötete mühelos die Überlebenden und den kampfmüden König. Bis heute sprechen Gordok-Oger mit gedämpfter Stimme über den „Tag des Da-Bluts“."

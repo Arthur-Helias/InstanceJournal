@@ -1240,6 +1240,21 @@ IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_8269 =
 IJ_DB_DUNGEON_DMN_BOSS_NAME_14325 = "Captain Kromcrush"
 IJ_DB_DUNGEON_DMN_BOSS_STORY_14325 =
     "Even among ogres, Captain Kromcrush is infamous for his hair-trigger rage toward anyone who dares to insult him or King Gordok. He crushes dissent ruthlessly, but he has still less patience for those who continue to spread the rumor of his torrid affair with a gnoll long ago."
+IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_19134 = "Intimidating Shout"
+IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_19134 =
+    "Causes nearby enemies to flee in fear for 8 sec."
+IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_29544 = "Intimidating Shout"
+IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_29544 =
+    "The shout’s primary target is stunned in place for 8 sec."
+IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22857 = "Retaliation"
+IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22857 =
+    "For 15 sec., counterattacks enemies that strike from the front in melee. Melee damage dealers should attack from behind."
+IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22858 = "Retaliation"
+IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22858 =
+    "Retaliation triggers a physical counterattack against the attacker."
+IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22859 = "Mortal Cleave"
+IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22859 =
+    "Deals physical damage and reduces healing received by 50% for 5 sec."
 IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "King Gordok"
 IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
     "To rule the Gordok ogres, one must simply proclaim oneself king... and then destroy all who might disagree. King Gordok--then merely known as Ulrok--solidified his power by convincing a dozen of his people's strongest warriors to challenge the king at the same time. The wild melee left most of the contestants dead or wounded, and Ulrok's blade easily cut down the survivors and the battle-weary king. To this day, Gordok ogres speak in hushed tones about the \"Day of Da Blood.\""

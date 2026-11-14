@@ -254,7 +254,7 @@ DMN.Bosses = {
             [25] = {IJDB.I[18401], DropChance = 1}
         }
     },
-    [5] = { -- NOTE: Missing abilities
+    [5] = {
         Id = "14325",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "kromcrush" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "kromcrush" .. IMPF,
@@ -262,6 +262,42 @@ DMN.Bosses = {
         Story = IJ_DB_DUNGEON_DMN_BOSS_STORY_14325,
         MapCoordinateX = 27.5,
         MapCoordinateY = 28.4,
+        Abilities = {
+            [1] = {
+                Id = "19134",
+                Icon = "Ability_GolemThunderClap",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_19134,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_19134,
+                SubAbilities = {
+                    [1] = {
+                        Id = "29544",
+                        Icon = "Ability_GolemThunderClap",
+                        Name = IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_29544,
+                        Effect = IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_29544
+                    }
+                }
+            },
+            [2] = {
+                Id = "22857",
+                Icon = "Ability_Warrior_Challange",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22857,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22857,
+                SubAbilities = {
+                    [1] = {
+                        Id = "22858",
+                        Icon = "Ability_Warrior_Challange",
+                        Name = IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22858,
+                        Effect = IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22858
+                    }
+                }
+            },
+            [3] = {
+                Id = "22859",
+                Icon = "Ability_Warrior_SavageBlow",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22859,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22859
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18502], DropChance = 25},
             [2] = {IJDB.I[18503], DropChance = 25},
