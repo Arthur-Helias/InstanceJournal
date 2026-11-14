@@ -848,6 +848,24 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Warpwood"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
         "Tendris Warpwood era um defensor ferrenho de Eldre'Thalas, seu coração inexoravelmente ligado ao destino da cidade. Quando a Separação destruiu a terra, sua determinação nunca vacilou, mas à medida que a corrupção se infiltrou nas ruínas ao longo dos próximos 10.000 anos, ela também infectou o espírito do antigo."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5568 = "Atropelar"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5568 =
+        "Causa dano físico aos inimigos próximos."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22924 = "Vinhas Aprisionadoras"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22924 =
+        "Causa dano físico aos inimigos próximos e os enraíza por 10 s. As raízes podem ser dissipadas."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5164 = "Derrubar"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5164 =
+        "Vinhas Aprisionadoras também atordoa os inimigos afetados por 2 s."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22916 = "Gancho"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22916 =
+        "Causa dano físico ao alvo e o repele."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22994 = "Enredar"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22994 =
+        "Enraíza o alvo por até 10 s, causando dano de Natureza ao longo do tempo."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_8269 =
+        "Aumenta a velocidade de ataque e o dano físico causado."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11488 = "Illyanna Ravenoak"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11488 =
         "Illyanna Ravenoak, junto com sua fiel companheira Ferra, já foi a caçadora mais valiosa do Príncipe Tortheldrin, até que ela se recusou a cumprir a ordem de seu líder de executar seus amigos. Como punição, ele matou Illyanna e seu urso, mas usou seu poder demoníaco para prender seus espíritos aos seus corpos, condenando-os a permanecer em Dire Maul como protetores mortos-vivos."

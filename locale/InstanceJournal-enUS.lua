@@ -1258,6 +1258,24 @@ IJ_DB_DUNGEON_DMW_STORY =
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Warpwood"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
     "Tendris Warpwood was a staunch defender of Eldre'Thalas, his heart inexorably entwined with the fate of the city. When the Sundering shattered the land, his resolve never wavered, but as corruption seeped into the ruins over the next 10,000 years, so too did it infect the ancient's spirit."
+IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5568 = "Trample"
+IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5568 =
+    "Deals physical damage to nearby enemies."
+IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22924 = "Grasping Vines"
+IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22924 =
+    "Deals physical damage to nearby enemies and roots them for 10 sec. The roots can be dispelled."
+IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5164 = "Knockdown"
+IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5164 =
+    "Grasping Vines also stuns affected enemies for 2 sec."
+IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22916 = "Uppercut"
+IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22916 =
+    "Deals physical damage to the target and knocks it back."
+IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22994 = "Entangle"
+IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22994 =
+    "Roots the target for up to 10 sec., dealing Nature damage over time."
+IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_8269 = "Enrage"
+IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_8269 =
+    "Increases attack speed and physical damage dealt."
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11488 = "Illyanna Ravenoak"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11488 =
     "Illyanna Ravenoak, along with her faithful companion Ferra, was once Prince Tortheldrin's most valued hunter, until she refused to carry out her leader's order to execute her friends. As punishment, he killed Illyanna and her bear, but he used his demonic power to bind their spirits to their bodies, condemning them to remain in Dire Maul as undead protectors."

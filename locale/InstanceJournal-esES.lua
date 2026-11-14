@@ -851,6 +851,24 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Madera Alabeada"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
         "Tendris Warpwood era un firme defensor de Eldre'Thalas, y su corazón estaba inexorablemente entrelazado con el destino de la ciudad. Cuando la División destrozó la tierra, su determinación nunca flaqueó, pero a medida que la corrupción se filtró en las ruinas durante los siguientes 10.000 años, también infectó el espíritu del antiguo."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5568 = "Pisotear"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5568 =
+        "Inflige daño físico a los enemigos cercanos."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22924 = "Enredaderas"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22924 =
+        "Inflige daño físico a los enemigos cercanos y los enraíza durante 10 s. Las raíces se pueden disipar."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5164 = "Derribo"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5164 =
+        "Las enredaderas también aturden a los enemigos afectados durante 2 s."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22916 = "Gancho"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22916 =
+        "Inflige daño físico al objetivo y lo repele."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22994 = "Enredar"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22994 =
+        "Enraíza al objetivo durante un máximo de 10 s y le inflige daño de Naturaleza periódico."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_8269 =
+        "Aumenta la velocidad de ataque y el daño físico infligido."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11488 = "Illyanna Ravenoak"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11488 =
         "Illyanna Ravenoak, junto con su fiel compañera Ferra, fue una vez la cazadora más valiosa del Príncipe Tortheldrin, hasta que se negó a cumplir la orden de su líder de ejecutar a sus amigos. Como castigo, mató a Illyanna y su oso, pero usó su poder demoníaco para unir sus espíritus a sus cuerpos, condenándolos a permanecer en Dire Maul como protectores no-muertos."

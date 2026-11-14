@@ -36,7 +36,7 @@ DMW.Entrances = {
     }
 }
 DMW.Bosses = {
-    [1] = { -- NOTE: Missing abilities
+    [1] = {
         Id = "11489",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "tendris" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "tendris" .. IMPF,
@@ -44,6 +44,47 @@ DMW.Bosses = {
         Story = IJ_DB_DUNGEON_DMW_BOSS_STORY_11489,
         MapCoordinateX = 28.1,
         MapCoordinateY = 75.0,
+        Abilities = {
+            [1] = {
+                Id = "5568",
+                Icon = "Spell_Nature_NaturesWrath",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5568,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5568
+            },
+            [2] = {
+                Id = "22924",
+                Icon = "Spell_Nature_Earthquake",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22924,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22924,
+                Flags = {IMAF.Magic},
+                SubAbilities = {
+                    [1] = {
+                        Id = "5164",
+                        Icon = "Ability_GolemThunderClap",
+                        Name = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5164,
+                        Effect = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5164
+                    }
+                }
+            },
+            [3] = {
+                Id = "22916",
+                Icon = "INV_Gauntlets_05",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22916,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22916
+            },
+            [4] = {
+                Id = "22994",
+                Icon = "Spell_Nature_StrangleVines",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22994,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22994
+            },
+            [5] = {
+                Id = "8269",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_8269,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_8269
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18352], DropChance = 25},
             [2] = {IJDB.I[18353], DropChance = 25},

@@ -1352,6 +1352,24 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "特迪斯·扭木"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
         "坦德里斯·沃普伍德是艾德雷萨拉斯的坚定捍卫者，他的心与这座城市的命运无情地交织在一起。当大地分裂时，他的决心从未动摇，但在接下来的一万年里，随着腐败渗透到废墟中，它也感染了古人的精神。"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5568 = "践踏"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5568 =
+        "对附近的敌人造成物理伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22924 = "纠缠藤蔓"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22924 =
+        "对附近的敌人造成物理伤害并使其定身10秒。定身效果可以被驱散。"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5164 = "击倒"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5164 =
+        "纠缠藤蔓还会使受影响的敌人昏迷2秒。"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22916 = "上勾拳"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22916 =
+        "对目标造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22994 = "纠缠"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22994 =
+        "使目标定身，最多持续10秒，并持续造成自然伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_8269 =
+        "提高攻击速度和造成的物理伤害。"
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11488 = "伊琳娜·暗木"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11488 =
         "伊莉安娜·拉文诺克（伊琳娜·暗木）和她忠实的同伴费拉（费拉）曾经是托塞德林王子最有价值的猎人，直到她拒绝执行领袖的命令处决她的朋友。作为惩罚，他杀死了伊莉安娜和她的熊，但他用自己的恶魔力量将他们的灵魂束缚在他们的身体上，谴责他们留在厄运之槌作为不死的保护者。"

@@ -6,6 +6,7 @@ All changes to this project will be documented in this file.
 
 ### Added
 
+- Added missing abilities to the bosses in `Dire Maul West`
 - Added missing abilities to the bosses in `Scholomance`
 - Added missing abilities to the bosses in `Stratholme`
 - Added missing abilities to the bosses in `Upper Blackrock Spire`

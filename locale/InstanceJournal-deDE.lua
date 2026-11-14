@@ -852,6 +852,24 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Warpwood"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
         "Tendris Warpwood war ein überzeugter Verteidiger von Eldre'Thalas, sein Herz war untrennbar mit dem Schicksal der Stadt verbunden. Als die Teilung das Land erschütterte, gab er nie nach, doch als in den nächsten 10.000 Jahren die Verderbnis in die Ruinen eindrang, infizierte sie auch den Geist des Alten."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5568 = "Trampeln"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5568 =
+        "Fügt Gegnern in der Nähe körperlichen Schaden zu."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22924 = "Umschlingende Ranken"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22924 =
+        "Fügt Gegnern in der Nähe körperlichen Schaden zu und macht sie 10 Sek. lang bewegungsunfähig. Die Wurzeln können gebannt werden."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5164 = "Niederschlagen"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5164 =
+        "Umschlingende Ranken betäubt betroffene Gegner zusätzlich 2 Sek. lang."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22916 = "Aufwärtshaken"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22916 =
+        "Fügt dem Ziel körperlichen Schaden zu und stößt es zurück."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22994 = "Umschlingen"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22994 =
+        "Macht das Ziel bis zu 10 Sek. lang bewegungsunfähig und verursacht regelmäßig Naturschaden."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_8269 = "Wutanfall"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_8269 =
+        "Erhöht das Angriffstempo und den verursachten körperlichen Schaden."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11488 = "Illyanna Ravenoak"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11488 =
         "Illyanna Ravenoak war zusammen mit ihrer treuen Gefährtin Ferra einst die geschätzteste Jägerin von Prinz Tortheldrin, bis sie sich weigerte, dem Befehl ihres Anführers Folge zu leisten und ihre Freunde hinzurichten. Zur Strafe tötete er Illyanna und ihren Bären, aber er nutzte seine dämonische Macht, um ihre Geister an ihre Körper zu binden und verurteilte sie dazu, als untote Beschützer in Düsterbruch zu bleiben."

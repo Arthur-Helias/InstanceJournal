@@ -851,6 +851,24 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Warpwood"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
         "Tendris Warpwood était un ardent défenseur d'Eldre'Thalas, son cœur étant inexorablement lié au sort de la ville. Lorsque la Fracture a détruit le pays, sa détermination n'a jamais faibli, mais à mesure que la corruption s'est infiltrée dans les ruines au cours des 10 000 années suivantes, elle a également infecté l'esprit de l'ancien."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5568 = "Piétinement"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5568 =
+        "Inflige des dégâts physiques aux ennemis proches."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22924 = "Lianes avides"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22924 =
+        "Inflige des dégâts physiques aux ennemis proches et les immobilise pendant 10 s. Les racines peuvent être dissipées."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5164 = "Renversement"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5164 =
+        "Les lianes étourdissent également les ennemis affectés pendant 2 s."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22916 = "Uppercut"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22916 =
+        "Inflige des dégâts physiques à la cible et la repousse."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22994 = "Enchevêtrement"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22994 =
+        "Immobilise la cible pendant 10 s au maximum et lui inflige des dégâts de Nature sur la durée."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_8269 = "Enrager"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_8269 =
+        "Augmente la vitesse d’attaque et les dégâts physiques infligés."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11488 = "Illyanna Ravenoak"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11488 =
         "Illyanna Ravenoak, avec sa fidèle compagne Ferra, était autrefois la chasseuse la plus appréciée du prince Tortheldrin, jusqu'à ce qu'elle refuse d'exécuter l'ordre de son chef d'exécuter ses amis. En guise de punition, il tua Illyanna et son ours, mais il utilisa son pouvoir démoniaque pour lier leurs esprits à leur corps, les condamnant à rester à Dire Maul en tant que protecteurs morts-vivants."
