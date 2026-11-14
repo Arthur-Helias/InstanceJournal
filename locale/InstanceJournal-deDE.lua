@@ -1841,7 +1841,7 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_KC_BOSS_NAME_91919 = "Kommandant Andreon"
     IJ_DB_DUNGEON_KC_BOSS_NAME_91928 = "Alarus"
     IJ_DB_DUNGEON_KC_BOSS_STORY_91928 =
-        "Alarus, bekannt als der Wächter der Krypten, ist der wichtigste Wächter der widerlichen Magie, die unter dem Turm brodelt. Die Kirin Tor betrachten seine Zerstörung als entscheidend für die Sicherheit Azeroths, während die Horde versucht, ihn niederzuschlagen, als einen Akt des Ruhms, wohlwissend, dass nur durch die Besiegung dieses „großen Übels“ der erstickende Nebel und der Wahnsinn der Tiefen aufgehoben werden können."
+        "Alarus, der Wächter der Krypten, lernte kurzzeitig bei Medivh, bevor er sich später um die Katakomben unter Karazhan kümmerte. Als nekromantische Kräfte die Toten um den Turm aufrüttelten, schrieb Gunther Arkanus die Störung Alarus zu. Auch Ansirem Runenweber verdächtigte den einstigen Schüler, nachdem er Spuren von mit arkaner Energie vermischter Nekromantie untersucht hatte. Sowohl die Kirin Tor als auch die Horde verlangten seinen Tod; danach begann die bedrückende Finsternis zu weichen."
 
     -- DMR
     IJ_DB_DUNGEON_DMR_NAME = "Rückzugsort des Drachenmals"

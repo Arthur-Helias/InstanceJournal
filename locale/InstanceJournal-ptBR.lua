@@ -1835,7 +1835,7 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_KC_BOSS_NAME_91919 = "Comandante Andréon"
     IJ_DB_DUNGEON_KC_BOSS_NAME_91928 = "Alarus"
     IJ_DB_DUNGEON_KC_BOSS_STORY_91928 =
-        "Conhecido como o Vigilante das Criptas, Alarus é o principal sentinela da magia maligna que se espalha sob a torre. O Kirin Tor considera a sua destruição vital para a segurança de Azeroth, enquanto a Horda procura derrubá-lo como um acto de glória, sabendo que só derrotando este “grande mal” é que o nevoeiro sufocante e a loucura das profundezas podem ser dissipados."
+        "Alarus, o Vigia das Criptas, estudou brevemente com Medivh antes de passar seus últimos dias cuidando das catacumbas sob Karazhan. Quando um poder necromântico começou a agitar os mortos ao redor da torre, Gunther Arcanus atribuiu a perturbação a Alarus, enquanto Ansirem Tecerruna suspeitou do antigo aluno após examinar vestígios de necromancia misturada à energia arcana. Tanto o Kirin Tor quanto a Horda pediram sua derrota; depois disso, a escuridão opressora começou a recuar."
 
     -- DMR
     IJ_DB_DUNGEON_DMR_NAME = "Retiro Presa do Dragão"

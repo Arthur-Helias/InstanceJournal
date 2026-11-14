@@ -1839,7 +1839,7 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_KC_BOSS_NAME_91919 = "Commandant Andréon"
     IJ_DB_DUNGEON_KC_BOSS_NAME_91928 = "Alarus"
     IJ_DB_DUNGEON_KC_BOSS_STORY_91928 =
-        "Connu sous le nom de Gardien des cryptes, Alarus est la principale sentinelle de la magie infecte qui s'infecte sous la tour. Le Kirin Tor considère sa destruction comme vitale pour la sécurité d'Azeroth, tandis que la Horde cherche à l'abattre comme un acte de gloire, sachant que ce n'est qu'en vainquant ce « grand mal » que le brouillard suffocant et la folie des profondeurs pourront être dissipés."
+        "Alarus, le Gardien des cryptes, étudia brièvement auprès de Medivh avant de consacrer ses derniers jours aux catacombes sous Karazhan. Lorsqu’une puissance nécromantique commença à agiter les morts autour de la tour, Gunther Arcanus attribua ces troubles à Alarus. Ansirem Tisserune soupçonna lui aussi l’ancien élève après avoir examiné des traces de nécromancie mêlée d’énergie arcanique. Le Kirin Tor comme la Horde réclamèrent sa défaite ; par la suite, les ténèbres oppressantes commencèrent à se dissiper."
 
     -- DMR
     IJ_DB_DUNGEON_DMR_NAME = "Retraite Gueule-de-Dragon"

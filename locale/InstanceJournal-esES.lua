@@ -1840,7 +1840,7 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_KC_BOSS_NAME_91919 = "Comandante Andreón"
     IJ_DB_DUNGEON_KC_BOSS_NAME_91928 = "Alarus"
     IJ_DB_DUNGEON_KC_BOSS_STORY_91928 =
-        "Alarus, conocido como el Vigilante de las Criptas, es el centinela principal de la magia repugnante que se encona bajo la torre. El Kirin Tor considera que su destrucción es vital para la seguridad de Azeroth, mientras que la Horda busca derribarlo como un acto de gloria, sabiendo que sólo venciendo este \"gran mal\" se podrá eliminar la niebla sofocante y la locura de las profundidades."
+        "Alarus, el Vigilante de las Criptas, estudió brevemente con Medivh antes de dedicar sus últimos días al cuidado de las catacumbas bajo Karazhan. Cuando un poder nigromántico comenzó a agitar a los muertos alrededor de la torre, Gunther Arcanus atribuyó la perturbación a Alarus, mientras Ansirem Tejerruna sospechó del antiguo alumno tras examinar rastros de nigromancia mezclada con energía arcana. Tanto el Kirin Tor como la Horda exigieron su derrota; después, la opresiva oscuridad comenzó a disiparse."
 
     -- DMR
     IJ_DB_DUNGEON_DMR_NAME = "Retiro Faucedraco"
