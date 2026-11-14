@@ -937,6 +937,57 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "Король Гордок"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
         "Чтобы править ограми Гордока, нужно просто провозгласить себя королем... а затем уничтожить всех, кто не согласен. Король Гордок, тогда известный просто как Улрок, укрепил свою власть, убедив дюжину сильнейших воинов своего народа одновременно бросить вызов королю. В дикой схватке большинство участников были убиты или ранены, а клинок Улрока легко сразил выживших и утомленного битвой короля. По сей день огры Гордока приглушенно говорят о «Дне Крови»."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15572 = "Раскол брони"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15572 =
+        "Снижает броню цели на 30 сек. Суммируется до 5 раз."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15708 = "Смертельный удар"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15708 =
+        "Наносит физический урон и снижает получаемое исцеление на 50% на 5 сек."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16727 = "Громовая поступь"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16727 =
+        "Наносит физический урон противникам в радиусе 5 м и оглушает их на 5 сек."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22886 = "Рывок берсерка"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22886 =
+        "Совершает рывок к противнику, нанося физический урон и отбрасывая его."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_chorush = "Чо'Раш Наблюдатель"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_chorush =
+        "Чо’Раш сражается вместе с королем Гордоком. Его заклинания различаются в разных боях.\n\nДля получения дани оставьте его в живых и победите короля."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_8376 = "Тотем хватки земли"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_8376 =
+        "Призывает тотем, периодически обездвиживающий ближайших противников. Уничтожьте тотем."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_13745 = "Чародейский взрыв"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_13745 =
+        "Наносит урон от тайной магии противникам в радиусе 10 м."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15234 = "Молния"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15234 =
+        "Наносит цели урон от сил природы."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15305 = "Цепная молния"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15305 =
+        "Наносит урон от сил природы, перескакивающий между ближайшими противниками и поражающий до 5 целей. Рассредоточьтесь."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15982 = "Волна исцеления"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15982 =
+        "Восстанавливает здоровье союзника."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16170 = "Жажда крови"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16170 =
+        "Повышает скорость атаки союзника на 60% на 30 сек. Можно рассеять с противника."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17139 = "Слово силы: Щит"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17139 =
+        "Окружает союзника щитом, поглощающим урон в течение до 30 сек. Можно рассеять с противника."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17194 = "Взрыв разума"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17194 =
+        "Наносит цели урон от темной магии."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17290 = "Огненный шар"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17290 =
+        "Наносит цели урон от огня."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22883 = "Исцеление"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22883 =
+        "Восстанавливает здоровье союзника."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22884 = "Ментальный крик"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22884 =
+        "Обращает до 5 противников в радиусе 8 м в бегство от страха на 4 сек."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_tribute = "Дань Гордока"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_tribute =
+        "Чтобы получить наилучшую награду из дани Гордока, обойдите остальных боссов и победите короля Гордока, оставив Чо’Раша в живых.\n\nПосле гибели короля огры Гордока признают группу своими новыми правителями. Оставленные в живых стражники могут дать положительные эффекты."
 
     -- DMW
     IJ_DB_DUNGEON_DMW_NAME = "Запад Забытого Города"

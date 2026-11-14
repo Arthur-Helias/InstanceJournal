@@ -914,6 +914,57 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "König Gordok"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
         "Um über die Gordok-Oger zu herrschen, muss man sich einfach selbst zum König ausrufen ... und dann alle vernichten, die anderer Meinung sein könnten. König Gordok – damals nur als Ulrok bekannt – festigte seine Macht, indem er ein Dutzend der stärksten Krieger seines Volkes davon überzeugte, den König gleichzeitig herauszufordern. Bei dem wilden Handgemenge kamen die meisten Teilnehmer ums Leben oder wurden verwundet, und Ulroks Klinge tötete mühelos die Überlebenden und den kampfmüden König. Bis heute sprechen Gordok-Oger mit gedämpfter Stimme über den „Tag des Da-Bluts“."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15572 = "Rüstung zerreißen"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15572 =
+        "Verringert die Rüstung des Ziels 30 Sek. lang. Bis zu 5-mal stapelbar."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15708 = "Tödlicher Stoß"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15708 =
+        "Verursacht körperlichen Schaden und verringert die erhaltene Heilung 5 Sek. lang um 50%."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16727 = "Kriegsdonner"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16727 =
+        "Fügt Gegnern im Umkreis von 5 Metern körperlichen Schaden zu und betäubt sie 5 Sek. lang."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22886 = "Berserkeransturm"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22886 =
+        "Stürmt einen Gegner an, verursacht körperlichen Schaden und stößt ihn zurück."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_chorush = "Cho'Rush der Beobachter"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_chorush =
+        "Cho’Rush kämpft an der Seite von König Gordok. Seine Zauber variieren zwischen den Begegnungen.\n\nLasst ihn für einen Tributlauf am Leben und besiegt den König."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_8376 = "Totem des Erdengriffs"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_8376 =
+        "Beschwört ein Totem, das Gegner in der Nähe regelmäßig bewegungsunfähig macht. Zerstört das Totem."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_13745 = "Arkane Explosion"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_13745 =
+        "Fügt Gegnern im Umkreis von 10 Metern Arkanschaden zu."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15234 = "Blitzschlag"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15234 =
+        "Fügt dem Ziel Naturschaden zu."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15305 = "Kettenblitzschlag"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15305 =
+        "Verursacht Naturschaden, der zwischen Gegnern in der Nähe überspringt und bis zu 5 Ziele trifft. Verteilt euch."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15982 = "Welle der Heilung"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15982 =
+        "Stellt die Gesundheit eines Verbündeten wieder her."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16170 = "Kampfrausch"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16170 =
+        "Erhöht das Angriffstempo eines Verbündeten 30 Sek. lang um 60%. Kann vom Gegner gebannt werden."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17139 = "Machtwort: Schild"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17139 =
+        "Schützt einen Verbündeten mit einem Schild, der bis zu 30 Sek. lang Schaden absorbiert. Kann vom Gegner gebannt werden."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17194 = "Gedankenschlag"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17194 =
+        "Fügt dem Ziel Schattenschaden zu."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17290 = "Feuerball"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17290 =
+        "Fügt dem Ziel Feuerschaden zu."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22883 = "Heilen"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22883 =
+        "Stellt die Gesundheit eines Verbündeten wieder her."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22884 = "Psychischer Schrei"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22884 =
+        "Lässt bis zu 5 Gegner im Umkreis von 8 Metern 4 Sek. lang vor Furcht fliehen."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_tribute = "Gordoktribut"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_tribute =
+        "Um die Belohnung des Gordoktributs zu maximieren, umgeht die anderen Bosse und besiegt König Gordok, während Cho’Rush am Leben bleibt.\n\nNach dem Tod des Königs erkennen die Gordok die Gruppe als ihre neuen Herrscher an. Verschonte Wachen können Stärkungseffekte gewähren."
 
     -- DMW
     IJ_DB_DUNGEON_DMW_NAME = "Dire Maul West"

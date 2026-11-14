@@ -317,7 +317,7 @@ DMN.Bosses = {
             [16] = {IJDB.I[18401], DropChance = 1}
         }
     },
-    [6] = { -- NOTE: Missing abilities
+    [6] = {
         Id = "11501",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "gordok" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "gordok" .. IMPF,
@@ -325,6 +325,115 @@ DMN.Bosses = {
         Story = IJ_DB_DUNGEON_DMN_BOSS_STORY_11501,
         MapCoordinateX = 27.8,
         MapCoordinateY = 11.8,
+        Abilities = {
+            [1] = {
+                Id = "15572",
+                Icon = "Ability_Warrior_Sunder",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15572,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15572
+            },
+            [2] = {
+                Id = "15708",
+                Icon = "Ability_Warrior_SavageBlow",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15708,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15708,
+                Flags = {IMAF.Tank, IMAF.Heal}
+            },
+            [3] = {
+                Id = "16727",
+                Icon = "Ability_BullRush",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16727,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16727
+            },
+            [4] = {
+                Id = "22886",
+                Icon = "Ability_Warrior_Charge",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22886,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22886
+            },
+            [5] = {
+                Id = "chorush",
+                Icon = "INV_Misc_Head_Ogre_01",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_chorush,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_chorush,
+                SubAbilities = {
+                    [1] = {
+                        Id = "8376",
+                        Icon = "Spell_Nature_NatureTouchDecay",
+                        Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_8376,
+                        Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_8376
+                    },
+                    [2] = {
+                        Id = "13745",
+                        Icon = "Spell_Nature_WispSplode",
+                        Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_13745,
+                        Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_13745
+                    },
+                    [3] = {
+                        Id = "15234",
+                        Icon = "Spell_Nature_Lightning",
+                        Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15234,
+                        Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15234
+                    },
+                    [4] = {
+                        Id = "15305",
+                        Icon = "Spell_Nature_ChainLightning",
+                        Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15305,
+                        Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15305
+                    },
+                    [5] = {
+                        Id = "15982",
+                        Icon = "Spell_Nature_MagicImmunity",
+                        Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15982,
+                        Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15982
+                    },
+                    [6] = {
+                        Id = "16170",
+                        Icon = "Spell_Nature_BloodLust",
+                        Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16170,
+                        Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16170,
+                        Flags = {IMAF.Magic}
+                    },
+                    [7] = {
+                        Id = "17139",
+                        Icon = "Spell_Holy_PowerWordShield",
+                        Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17139,
+                        Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17139,
+                        Flags = {IMAF.Magic}
+                    },
+                    [8] = {
+                        Id = "17194",
+                        Icon = "Spell_Shadow_UnholyFrenzy",
+                        Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17194,
+                        Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17194
+                    },
+                    [9] = {
+                        Id = "17290",
+                        Icon = "Spell_Fire_FlameBolt",
+                        Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17290,
+                        Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17290
+                    },
+                    [10] = {
+                        Id = "22883",
+                        Icon = "Spell_Holy_Heal",
+                        Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22883,
+                        Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22883
+                    },
+                    [11] = {
+                        Id = "22884",
+                        Icon = "Spell_Shadow_PsychicScream",
+                        Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22884,
+                        Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22884
+                    }
+                }
+            },
+            [6] = {
+                Id = "tribute",
+                Icon = "INV_Crown_02",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_tribute,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_tribute
+            }
+        },
         Loot = {
             [1] = {IJDB.I[51217], DropChance = 100},
             [2] = {IJDB.I[18520], DropChance = 13},

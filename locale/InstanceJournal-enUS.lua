@@ -1258,6 +1258,57 @@ IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22859 =
 IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "King Gordok"
 IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
     "To rule the Gordok ogres, one must simply proclaim oneself king... and then destroy all who might disagree. King Gordok--then merely known as Ulrok--solidified his power by convincing a dozen of his people's strongest warriors to challenge the king at the same time. The wild melee left most of the contestants dead or wounded, and Ulrok's blade easily cut down the survivors and the battle-weary king. To this day, Gordok ogres speak in hushed tones about the \"Day of Da Blood.\""
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15572 = "Sunder Armor"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15572 =
+    "Reduces the target’s armor for 30 sec. Stacks up to 5 times."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15708 = "Mortal Strike"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15708 =
+    "Deals physical damage and reduces healing received by 50% for 5 sec."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16727 = "War Stomp"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16727 =
+    "Deals physical damage to enemies within 5 yards and stuns them for 5 sec."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22886 = "Berserker Charge"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22886 =
+    "Charges an enemy, dealing physical damage and knocking it back."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_chorush = "Cho'Rush the Observer"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_chorush =
+    "Cho’Rush fights alongside King Gordok. His spells vary between encounters.\n\nFor a Tribute run, keep him alive and defeat the king."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_8376 = "Earthgrab Totem"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_8376 =
+    "Summons a totem that periodically roots nearby enemies. Destroy the totem."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_13745 = "Arcane Explosion"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_13745 =
+    "Deals Arcane damage to enemies within 10 yards."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15234 = "Lightning Bolt"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15234 =
+    "Deals Nature damage to the target."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15305 = "Chain Lightning"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15305 =
+    "Deals Nature damage that jumps between nearby enemies, hitting up to 5 targets. Spread out."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15982 = "Healing Wave"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15982 =
+    "Restores health to an ally."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16170 = "Bloodlust"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16170 =
+    "Increases an ally’s attack speed by 60% for 30 sec. Can be dispelled from the enemy."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17139 = "Power Word: Shield"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17139 =
+    "Shields an ally, absorbing damage for up to 30 sec. Can be dispelled from the enemy."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17194 = "Mind Blast"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17194 =
+    "Deals Shadow damage to the target."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17290 = "Fireball"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17290 =
+    "Deals Fire damage to the target."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22883 = "Heal"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22883 =
+    "Restores health to an ally."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22884 = "Psychic Scream"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22884 =
+    "Causes up to 5 enemies within 8 yards to flee in fear for 4 sec."
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_tribute = "Gordok Tribute"
+IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_tribute =
+    "To maximize the Gordok Tribute reward, bypass the other bosses and defeat King Gordok while keeping Cho’Rush alive.\n\nAfter the king falls, the Gordok recognize the party as their new rulers. Spared guards can grant buffs."
 
 -- DMN Loot
 IJ_LOOT_NAME_18450 = "Robe of Combustion"

@@ -913,6 +913,57 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "Roi Gordok"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
         "Pour gouverner les ogres Gordok, il suffit de se proclamer roi... puis de détruire tous ceux qui pourraient être en désaccord. Le roi Gordok – alors simplement connu sous le nom d'Ulrok – a consolidé son pouvoir en convainquant une douzaine des plus puissants guerriers de son peuple de défier le roi en même temps. La mêlée sauvage a laissé la plupart des concurrents morts ou blessés, et la lame d'Ulrok a facilement abattu les survivants et le roi fatigué du combat. À ce jour, les ogres Gordok parlent à voix basse du « Jour de Da Blood »."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15572 = "Fracasser armure"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15572 =
+        "Réduit l’armure de la cible pendant 30 s. Cumulable jusqu’à 5 fois."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15708 = "Frappe mortelle"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15708 =
+        "Inflige des dégâts physiques et réduit les soins reçus de 50% pendant 5 s."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16727 = "Choc martial"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16727 =
+        "Inflige des dégâts physiques aux ennemis dans un rayon de 5 mètres et les étourdit pendant 5 s."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22886 = "Charge de berserker"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22886 =
+        "Charge un ennemi, lui inflige des dégâts physiques et le repousse."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_chorush = "Cho'Rush l’Observateur"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_chorush =
+        "Cho’Rush combat aux côtés du roi Gordok. Ses sorts varient selon les rencontres.\n\nPour une course au tribut, gardez-le en vie et vainquez le roi."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_8376 = "Totem de poigne de terre"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_8376 =
+        "Invoque un totem qui immobilise périodiquement les ennemis proches. Détruisez le totem."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_13745 = "Explosion des Arcanes"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_13745 =
+        "Inflige des dégâts des Arcanes aux ennemis dans un rayon de 10 mètres."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15234 = "Éclair"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15234 =
+        "Inflige des dégâts de Nature à la cible."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15305 = "Chaîne d’éclairs"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15305 =
+        "Inflige des dégâts de Nature qui rebondissent entre les ennemis proches et touchent jusqu’à 5 cibles. Espacez-vous."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15982 = "Vague de soins"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15982 =
+        "Rend des points de vie à un allié."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16170 = "Furie sanguinaire"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16170 =
+        "Augmente la vitesse d’attaque d’un allié de 60% pendant 30 s. Peut être dissipé sur l’ennemi."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17139 = "Mot de pouvoir : Bouclier"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17139 =
+        "Protège un allié avec un bouclier qui absorbe les dégâts pendant 30 s au maximum. Peut être dissipé sur l’ennemi."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17194 = "Attaque mentale"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17194 =
+        "Inflige des dégâts d’Ombre à la cible."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17290 = "Boule de feu"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17290 =
+        "Inflige des dégâts de Feu à la cible."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22883 = "Soins"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22883 =
+        "Rend des points de vie à un allié."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22884 = "Cri psychique"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22884 =
+        "Fait fuir de peur jusqu’à 5 ennemis dans un rayon de 8 mètres pendant 4 s."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_tribute = "Tribut des Gordok"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_tribute =
+        "Pour maximiser la récompense du tribut des Gordok, évitez les autres boss et vainquez le roi Gordok en gardant Cho’Rush en vie.\n\nAprès la chute du roi, les Gordok reconnaissent le groupe comme leurs nouveaux souverains. Les gardes épargnés peuvent accorder des améliorations."
 
     -- DMW
     IJ_DB_DUNGEON_DMW_NAME = "Dire Maul Ouest"

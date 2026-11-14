@@ -910,6 +910,57 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "Rei Gordok"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
         "Para governar os ogros Gordok, basta proclamar-se rei... e depois destruir todos os que possam discordar. O rei Gordok – então conhecido apenas como Ulrok – solidificou seu poder ao convencer uma dúzia dos guerreiros mais fortes de seu povo a desafiar o rei ao mesmo tempo. O corpo a corpo selvagem deixou a maioria dos competidores mortos ou feridos, e a lâmina de Ulrok derrubou facilmente os sobreviventes e o rei cansado da batalha. Até hoje, os ogros Gordok falam em voz baixa sobre o “Dia do Da Blood”."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15572 = "Fender Armadura"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15572 =
+        "Reduz a armadura do alvo por 30 s. Acumula até 5 vezes."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15708 = "Golpe Mortal"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15708 =
+        "Causa dano físico e reduz a cura recebida em 50% por 5 s."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16727 = "Pisada de Guerra"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16727 =
+        "Causa dano físico aos inimigos em um raio de 5 metros e os atordoa por 5 s."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22886 = "Investida Berserker"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22886 =
+        "Investe contra um inimigo, causando dano físico e repelindo-o."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_chorush = "Cho'Rush, o Observador"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_chorush =
+        "Cho’Rush luta ao lado de King Gordok. Seus feitiços variam entre os encontros.\n\nEm uma run de Tribute, mantenha-o vivo e derrote o rei."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_8376 = "Totem de Garra Terrena"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_8376 =
+        "Invoca um totem que enraíza periodicamente os inimigos próximos. Destrua o totem."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_13745 = "Explosão Arcana"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_13745 =
+        "Causa dano Arcano aos inimigos em um raio de 10 metros."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15234 = "Raio"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15234 =
+        "Causa dano de Natureza ao alvo."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15305 = "Cadeia de Raios"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15305 =
+        "Causa dano de Natureza que salta entre inimigos próximos, atingindo até 5 alvos. Espalhem-se."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15982 = "Onda Curativa"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15982 =
+        "Restaura a vida de um aliado."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16170 = "Sede de Sangue"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16170 =
+        "Aumenta a velocidade de ataque de um aliado em 60% por 30 s. Pode ser dissipado do inimigo."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17139 = "Palavra de Poder: Escudo"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17139 =
+        "Protege um aliado com um escudo que absorve dano por até 30 s. Pode ser dissipado do inimigo."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17194 = "Impacto Mental"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17194 =
+        "Causa dano de Sombra ao alvo."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17290 = "Bola de Fogo"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17290 =
+        "Causa dano de Fogo ao alvo."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22883 = "Curar"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22883 =
+        "Restaura a vida de um aliado."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22884 = "Grito Psíquico"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22884 =
+        "Faz até 5 inimigos em um raio de 8 metros fugirem de medo por 4 s."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_tribute = "Gordok Tribute"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_tribute =
+        "Para maximizar a recompensa do Gordok Tribute, evite os outros bosses e derrote King Gordok mantendo Cho’Rush vivo.\n\nApós a queda do rei, os Gordok reconhecem o grupo como seus novos governantes. Os guardas poupados podem conceder buffs."
 
     -- DMW
     IJ_DB_DUNGEON_DMW_NAME = "Mau Mau Oeste"

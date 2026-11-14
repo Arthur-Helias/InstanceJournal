@@ -1353,6 +1353,57 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "戈多克大王"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
         "为了统治戈多克食人魔，人们必须简单地宣布自己为王……然后消灭所有可能不同意的人。戈多克国王（当时仅被称为乌尔罗克）通过说服十几个他的人民中最强大的战士同时挑战国王来巩固自己的权力。狂野的混战导致大多数参赛者死伤，而乌尔洛克的利刃轻易地砍倒了幸存者和疲惫不堪的国王。直到今天，戈多克食人魔仍然低声谈论着“大血之日”。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15572 = "破甲攻击"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15572 =
+        "降低目标的护甲值，持续30秒。最多叠加5层。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15708 = "致死打击"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15708 =
+        "造成物理伤害，并使受到的治疗效果降低50%，持续5秒。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16727 = "战争践踏"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16727 =
+        "对5码范围内的敌人造成物理伤害并使其昏迷5秒。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22886 = "狂暴冲锋"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22886 =
+        "向一名敌人冲锋，造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_chorush = "观察者克鲁什"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_chorush =
+        "观察者克鲁什与戈多克大王并肩作战。他使用的法术会随不同战斗而变化。\n\n进行贡品路线时，保留他的性命并击败大王。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_8376 = "陷地图腾"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_8376 =
+        "召唤一个图腾，周期性地使附近的敌人定身。摧毁图腾。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_13745 = "魔爆术"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_13745 =
+        "对10码范围内的敌人造成奥术伤害。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15234 = "闪电箭"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15234 =
+        "对目标造成自然伤害。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15305 = "闪电链"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15305 =
+        "造成自然伤害，并在附近的敌人之间跳跃，最多命中5个目标。分散站位。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15982 = "治疗波"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15982 =
+        "恢复一名盟友的生命值。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16170 = "嗜血"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16170 =
+        "使一名盟友的攻击速度提高60%，持续30秒。可以从敌人身上驱散。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17139 = "真言术：盾"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17139 =
+        "为一名盟友施加吸收伤害的护盾，最多持续30秒。可以从敌人身上驱散。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17194 = "心灵震爆"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17194 =
+        "对目标造成暗影伤害。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17290 = "火球术"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17290 =
+        "对目标造成火焰伤害。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22883 = "治疗术"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22883 =
+        "恢复一名盟友的生命值。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22884 = "心灵尖啸"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22884 =
+        "使8码范围内最多5个敌人因恐惧而逃跑，持续4秒。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_tribute = "戈多克贡品"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_tribute =
+        "为了获得最佳的戈多克贡品奖励，绕过其他首领，并在保留克鲁什性命的情况下击败戈多克大王。\n\n大王倒下后，戈多克食人魔会承认队伍为新的统治者。存活的卫兵可以提供增益效果。"
 
     -- DMN Loot
     IJ_LOOT_NAME_18450 = "燃烧法袍"

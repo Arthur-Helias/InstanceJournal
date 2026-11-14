@@ -913,6 +913,57 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "Rey Gordok"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
         "Para gobernar a los ogros Gordok, uno simplemente debe proclamarse rey... y luego destruir a todos los que puedan no estar de acuerdo. El rey Gordok, entonces conocido simplemente como Ulrok, ​​solidificó su poder convenciendo a una docena de los guerreros más fuertes de su pueblo para que desafiaran al rey al mismo tiempo. El salvaje combate cuerpo a cuerpo dejó a la mayoría de los contendientes muertos o heridos, y la espada de Ulrok mató fácilmente a los supervivientes y al rey cansado de la batalla. Hasta el día de hoy, los ogros Gordok hablan en voz baja sobre el \"Día de la Sangre\"."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15572 = "Hender armadura"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15572 =
+        "Reduce la armadura del objetivo durante 30 s. Se acumula hasta 5 veces."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15708 = "Golpe mortal"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15708 =
+        "Inflige daño físico y reduce la sanación recibida un 50% durante 5 s."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16727 = "Pisotón de guerra"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16727 =
+        "Inflige daño físico a los enemigos en un radio de 5 m y los aturde durante 5 s."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22886 = "Carga de rabioso"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22886 =
+        "Carga contra un enemigo, le inflige daño físico y lo repele."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_chorush = "Cho'Rush el Observador"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_chorush =
+        "Cho’Rush lucha junto al Rey Gordok. Sus hechizos varían entre encuentros.\n\nPara una carrera de tributo, mantenlo con vida y derrota al rey."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_8376 = "Tótem Pillaterra"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_8376 =
+        "Invoca un tótem que inmoviliza periódicamente a los enemigos cercanos. Destruye el tótem."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_13745 = "Deflagración Arcana"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_13745 =
+        "Inflige daño Arcano a los enemigos en un radio de 10 m."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15234 = "Descarga de relámpagos"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15234 =
+        "Inflige daño de Naturaleza al objetivo."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15305 = "Cadena de relámpagos"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15305 =
+        "Inflige daño de Naturaleza que salta entre enemigos cercanos y alcanza hasta 5 objetivos. Sepárate de los demás."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15982 = "Ola de sanación"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15982 =
+        "Restaura la salud de un aliado."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16170 = "Ansia de sangre"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16170 =
+        "Aumenta un 60% la velocidad de ataque de un aliado durante 30 s. Se puede disipar del enemigo."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17139 = "Palabra de poder: escudo"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17139 =
+        "Protege a un aliado con un escudo que absorbe daño durante un máximo de 30 s. Se puede disipar del enemigo."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17194 = "Explosión mental"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17194 =
+        "Inflige daño de las Sombras al objetivo."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17290 = "Bola de Fuego"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17290 =
+        "Inflige daño de Fuego al objetivo."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22883 = "Sanar"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22883 =
+        "Restaura la salud de un aliado."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22884 = "Alarido psíquico"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22884 =
+        "Hace que hasta 5 enemigos en un radio de 8 m huyan aterrorizados durante 4 s."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_tribute = "Tributo de Gordok"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_tribute =
+        "Para maximizar la recompensa del Tributo de Gordok, evita a los demás jefes y derrota al Rey Gordok manteniendo con vida a Cho’Rush.\n\nTras la caída del rey, los Gordok reconocen al grupo como sus nuevos gobernantes. Los guardias que sobrevivan pueden otorgar beneficios."
 
     -- DMW
     IJ_DB_DUNGEON_DMW_NAME = "La Masacre Terrible Oeste"
