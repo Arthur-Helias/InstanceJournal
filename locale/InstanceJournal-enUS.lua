@@ -1791,6 +1791,24 @@ IJ_DB_DUNGEON_LBRS_BOSS_STORY_9219 =
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9196 = "Highlord Omokk"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9196 =
     "Omokk rules over the spire's ogres with an iron fist. Many underlings have challenged him to single combat in the hopes of seizing the highlord's title, but all have fallen without landing a solitary blow. This mysterious phenomenon has led to rumors that dark magic is protecting Omokk."
+IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18368 = "Strike"
+IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18368 =
+    "Deals physical damage to the target."
+IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18106 = "Rend"
+IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18106 =
+    "Causes the target to bleed, dealing physical damage over 30 sec."
+IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_20686 = "Knock Away"
+IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_20686 =
+    "Deals physical damage to nearby enemies and knocks them back."
+IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_22356 = "Slow"
+IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_22356 =
+    "Slows nearby enemies’ movement and melee attacks for 10 sec. Can be dispelled."
+IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24317 = "Sunder Armor"
+IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24317 =
+    "Reduces the target’s armor by 1,000 for 20 sec. Stacks up to 5 times."
+IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24375 = "War Stomp"
+IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24375 =
+    "Deals physical damage to enemies within 15 yards and stuns them for 5 sec."
 IJ_DB_DUNGEON_LBRS_BOSS_NAME_9218 = "Spirestone Battle Lord"
 IJ_DB_DUNGEON_LBRS_BOSS_STORY_9218 =
     "An elusive ogre, rarely seen among the general population of Lower Blackrock Spire. He is said to possess lots of coveted items that many wish they could lay their hands on, if only they could encounter him in the first place..."

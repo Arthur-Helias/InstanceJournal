@@ -1184,6 +1184,24 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9196 = "Alto señor Omokk"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9196 =
         "Omokk gobierna a los ogros de la torre con mano de hierro. Muchos subordinados lo han desafiado a un combate singular con la esperanza de hacerse con el título de señor supremo, pero todos han caído sin asestar un solo golpe. Este misterioso fenómeno ha dado lugar a rumores de que la magia oscura está protegiendo a Omokk."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18368 = "Golpe"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18368 =
+        "Inflige daño físico al objetivo."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18106 = "Desgarrar"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18106 =
+        "Hace sangrar al objetivo e inflige daño físico durante 30 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_20686 = "Repeler"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_20686 =
+        "Inflige daño físico a los enemigos cercanos y los repele."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_22356 = "Ralentizar"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_22356 =
+        "Ralentiza el movimiento y los ataques cuerpo a cuerpo de los enemigos cercanos durante 10 s. Se puede disipar."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24317 = "Hender armadura"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24317 =
+        "Reduce la armadura del objetivo en 1000 durante 20 s. Se acumula hasta 5 veces."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24375 = "Pisotón de guerra"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24375 =
+        "Inflige daño físico a los enemigos en un radio de 15 m y los aturde durante 5 s."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9218 = "Señor de batalla de Spirestone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9218 =
         "Un ogro esquivo, rara vez visto entre la población general de Lower Blackrock Spire. Se dice que posee muchos objetos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarlo en primer lugar..."

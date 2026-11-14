@@ -42,12 +42,52 @@ LBRS.Bosses = {
             [2] = {IJDB.I[13286], DropChance = 50}
         }
     },
-    [2] = { -- NOTE: Missing abilities
+    [2] = {
         Id = "9196",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "omokk" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "omokk" .. IMPF,
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_9196,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_9196,
+        Abilities = {
+            [1] = {
+                Id = "18368",
+                Icon = "Ability_Rogue_Ambush",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18368,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18368
+            },
+            [2] = {
+                Id = "18106",
+                Icon = "Ability_Gouge",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18106,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18106
+            },
+            [3] = {
+                Id = "20686",
+                Icon = "INV_Gauntlets_05",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_20686,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_20686
+            },
+            [4] = {
+                Id = "22356",
+                Icon = "Spell_Nature_GroundingTotem",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_22356,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_22356,
+                Flags = {IMAF.Magic}
+            },
+            [5] = {
+                Id = "24317",
+                Icon = "Ability_Warrior_Sunder",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24317,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24317,
+                Flags = {IMAF.Tank}
+            },
+            [6] = {
+                Id = "24375",
+                Icon = "Ability_BullRush",
+                Name = IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24375,
+                Effect = IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24375
+            }
+        },
         Loot = {
             [1] = {IJDB.I[13166], DropChance = 17},
             [2] = {IJDB.I[13167], DropChance = 17},

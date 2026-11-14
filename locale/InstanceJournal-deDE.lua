@@ -1185,6 +1185,24 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9196 = "Hochlord Omokk"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9196 =
         "Omokk herrscht mit eiserner Faust über die Oger des Turms. Viele Untergebene haben ihn zum Zweikampf herausgefordert, in der Hoffnung, den Titel des Hochlords zu erlangen, aber alle sind gefallen, ohne einen einzigen Schlag zu landen. Dieses mysteriöse Phänomen hat zu Gerüchten geführt, dass dunkle Magie Omokk beschützt."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18368 = "Schlag"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18368 =
+        "Fügt dem Ziel körperlichen Schaden zu."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18106 = "Verwunden"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18106 =
+        "Lässt das Ziel bluten und fügt ihm über 30 Sek. körperlichen Schaden zu."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_20686 = "Wegschlagen"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_20686 =
+        "Fügt Gegnern in der Nähe körperlichen Schaden zu und stößt sie zurück."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_22356 = "Verlangsamen"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_22356 =
+        "Verlangsamt 10 Sek. lang die Bewegung und Nahkampfangriffe von Gegnern in der Nähe. Kann gebannt werden."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24317 = "Rüstung zerreißen"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24317 =
+        "Verringert die Rüstung des Ziels 20 Sek. lang um 1.000. Bis zu 5-mal stapelbar."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24375 = "Kriegsdonner"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24375 =
+        "Fügt Gegnern im Umkreis von 15 Metern körperlichen Schaden zu und betäubt sie 5 Sek. lang."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9218 = "Spirestone Battle Lord"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9218 =
         "Ein schwer fassbarer Oger, der in der allgemeinen Bevölkerung der Unteren Schwarzfelsspitze selten zu sehen ist. Es wird gesagt, dass er viele begehrte Gegenstände besitzt, von denen sich viele wünschen, sie könnten sie in die Hände bekommen, wenn sie ihm nur überhaupt begegnen könnten ..."

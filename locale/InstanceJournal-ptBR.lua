@@ -1181,6 +1181,24 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9196 = "Grão-lorde Omokk"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9196 =
         "Omokk governa os ogros da torre com mão de ferro. Muitos subordinados o desafiaram para um combate individual na esperança de tomar o título de Lorde Supremo, mas todos caíram sem desferir um golpe solitário. Este fenômeno misterioso gerou rumores de que a magia negra está protegendo Omokk."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18368 = "Golpe"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18368 =
+        "Causa dano físico ao alvo."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18106 = "Dilacerar"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18106 =
+        "Faz o alvo sangrar, causando dano físico ao longo de 30 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_20686 = "Repelir"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_20686 =
+        "Causa dano físico aos inimigos próximos e os repele."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_22356 = "Lentidão"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_22356 =
+        "Reduz a velocidade de movimento e de ataque corpo a corpo dos inimigos próximos por 10 s. Pode ser dissipado."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24317 = "Fendadura de Armadura"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24317 =
+        "Reduz a armadura do alvo em 1.000 por 20 s. Acumula até 5 vezes."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24375 = "Pisada de Guerra"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24375 =
+        "Causa dano físico aos inimigos em um raio de 15 metros e os atordoa por 5 s."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9218 = "Senhor da Batalha de Spirestone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9218 =
         "Um ogro esquivo, raramente visto entre a população em geral do Pináculo da Rocha Negra Inferior. Diz-se que ele possui muitos itens cobiçados que muitos gostariam de poder colocar em suas mãos, se ao menos pudessem encontrá-lo em primeiro lugar..."

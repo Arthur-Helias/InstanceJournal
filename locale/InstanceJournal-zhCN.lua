@@ -1884,6 +1884,24 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9196 = "欧莫克大王"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9196 =
         "奥莫克用铁拳统治着尖塔的食人魔。许多下属向他发起单挑挑战，希望夺取大领主的头衔，但他们都没有受到一击而倒下。这种神秘现象引发了关于黑魔法正在保护奥莫克的谣言。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18368 = "打击"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18368 =
+        "对目标造成物理伤害。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18106 = "撕裂"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18106 =
+        "使目标流血，在30秒内持续造成物理伤害。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_20686 = "击退"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_20686 =
+        "对附近的敌人造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_22356 = "减速术"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_22356 =
+        "降低附近敌人的移动速度和近战攻击速度，持续10秒。可以被驱散。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24317 = "破甲"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24317 =
+        "使目标的护甲值降低1000点，持续20秒。最多叠加5层。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24375 = "战争践踏"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24375 =
+        "对15码范围内的敌人造成物理伤害并使其昏迷5秒。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9218 = "尖石统帅"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9218 =
         "一种难以捉摸的食人魔，在黑石塔下层的普通居民中很少见到。据说他拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到他就好了……"

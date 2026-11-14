@@ -1184,6 +1184,24 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9196 = "Généralissime Omokk"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9196 =
         "Omokk règne sur les ogres de la flèche d'une main de fer. De nombreux subalternes l'ont défié en combat singulier dans l'espoir de s'emparer du titre de généralissime, mais tous sont tombés sans porter un seul coup. Ce phénomène mystérieux a donné lieu à des rumeurs selon lesquelles la magie noire protégerait Omokk."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18368 = "Frappe"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18368 =
+        "Inflige des dégâts physiques à la cible."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18106 = "Pourfendre"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18106 =
+        "Fait saigner la cible, infligeant des dégâts physiques pendant 30 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_20686 = "Repousser"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_20686 =
+        "Inflige des dégâts physiques aux ennemis proches et les repousse."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_22356 = "Lenteur"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_22356 =
+        "Ralentit les déplacements et les attaques de mêlée des ennemis proches pendant 10 s. Peut être dissipé."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24317 = "Fracasser armure"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24317 =
+        "Réduit l’armure de la cible de 1 000 pendant 20 s. Cumulable jusqu’à 5 fois."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24375 = "Choc martial"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24375 =
+        "Inflige des dégâts physiques aux ennemis dans un rayon de 15 mètres et les étourdit pendant 5 s."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9218 = "Seigneur de bataille de Spirestone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9218 =
         "Un ogre insaisissable, rarement vu parmi la population générale de Lower Blackrock Spire. On dit qu'il possède de nombreux objets convoités sur lesquels beaucoup souhaiteraient pouvoir mettre la main, si seulement ils pouvaient le rencontrer en premier lieu..."
