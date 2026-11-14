@@ -947,6 +947,18 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11486 = "Príncipe Tortheldrin"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11486 =
         "Después de la destrucción del Pozo de la Eternidad, el Príncipe Tortheldrin mantuvo el control sobre los Shen'dralar supervivientes encarcelando a un demonio en las ruinas de Eldre'Thalas y dejando que sus súbditos desviaran su fuerza. La exposición al poder demoníaco retorció la mente de Tortheldrin, y cuando la criatura vaciló, el príncipe ordenó la muerte de muchos de sus vasallos para que sólo él y sus seguidores más fanáticos pudieran disfrutar de la energía corrupta."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_15589 = "Torbellino"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_15589 =
+        "Inflige daño físico a los enemigos en un radio de 8 m."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_20537 = "Contrahechizo"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_20537 =
+        "Interrumpe el hechizo del objetivo e impide lanzar hechizos de esa escuela durante 15 s."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22920 = "Explosión Arcana"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22920 =
+        "Inflige daño Arcano al objetivo y lo repele."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22995 = "Invocar"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22995 =
+        "Atrae a un jugador hasta Tortheldrin."
 
     -- DME
     IJ_DB_DUNGEON_DME_NAME = "La Masacre Este"

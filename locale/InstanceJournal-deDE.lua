@@ -948,6 +948,18 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11486 = "Prinz Tortheldrin"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11486 =
         "Nach der Zerstörung des Brunnens der Ewigkeit behielt Prinz Tortheldrin die Kontrolle über das überlebende Shen'dralar, indem er einen Dämon in den Ruinen von Eldre'Thalas einsperrte und seine Untertanen seine Kräfte entziehen ließ. Der Kontakt mit dämonischer Macht verdrehte Tortheldrins Verstand, und als die Kreatur ins Wanken geriet, ordnete der Prinz den Tod vieler seiner Vasallen an, sodass nur noch er und seine fanatischsten Anhänger übrig blieben, die sich an der verdorbenen Energie erfreuen konnten."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_15589 = "Wirbelwind"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_15589 =
+        "Fügt Gegnern im Umkreis von 8 Metern körperlichen Schaden zu."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_20537 = "Gegenzauber"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_20537 =
+        "Unterbricht den Zauber des Ziels und verhindert 15 Sek. lang Zauber dieser Magieschule."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22920 = "Arkanschlag"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22920 =
+        "Fügt dem Ziel Arkanschaden zu und stößt es zurück."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22995 = "Beschwören"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22995 =
+        "Beschwört einen Spieler zu Tortheldrin."
 
     -- DME
     IJ_DB_DUNGEON_DME_NAME = "Dire Maul East"

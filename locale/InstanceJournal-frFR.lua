@@ -947,6 +947,18 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11486 = "Prince Tortheldrin"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11486 =
         "Après la destruction du Puits d'éternité, le prince Tortheldrin maintint le contrôle sur Shen'dralar survivant en emprisonnant un démon dans les ruines d'Eldre'Thalas et en laissant ses sujets siphonner sa force. L'exposition au pouvoir démoniaque a tordu l'esprit de Tortheldrin, et lorsque la créature a faibli, le prince a ordonné la mort de plusieurs de ses vassaux afin que seuls lui et ses partisans les plus fanatiques puissent profiter de l'énergie corrompue."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_15589 = "Tourbillon"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_15589 =
+        "Inflige des dégâts physiques aux ennemis dans un rayon de 8 mètres."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_20537 = "Contresort"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_20537 =
+        "Interrompt le sort de la cible et empêche les sorts de cette école pendant 15 s."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22920 = "Déflagration des Arcanes"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22920 =
+        "Inflige des dégâts des Arcanes à la cible et la repousse."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22995 = "Invocation"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22995 =
+        "Invoque un joueur auprès de Tortheldrin."
 
     -- DME
     IJ_DB_DUNGEON_DME_NAME = "Dire Maul Est"

@@ -944,6 +944,18 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11486 = "Príncipe Tortheldrin"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11486 =
         "Após a destruição da Nascente da Eternidade, o Príncipe Tortheldrin manteve o controle sobre os sobreviventes Shen'dralar aprisionando um demônio nas ruínas de Eldre'Thalas e deixando seus súditos sugarem sua força. A exposição ao poder demoníaco distorceu a mente de Tortheldrin, e quando a criatura vacilou, o príncipe ordenou a morte de muitos de seus vassalos para que apenas ele e seus seguidores mais fanáticos restassem para desfrutar da energia corrupta."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_15589 = "Redemoinho"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_15589 =
+        "Causa dano físico aos inimigos em um raio de 8 metros."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_20537 = "Contrafeitiço"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_20537 =
+        "Interrompe o feitiço do alvo e impede o uso de feitiços daquela escola por 15 s."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22920 = "Explosão Arcana"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22920 =
+        "Causa dano Arcano ao alvo e o repele."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22995 = "Invocar"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22995 =
+        "Invoca um jogador até Tortheldrin."
 
     -- DME
     IJ_DB_DUNGEON_DME_NAME = "Mau Mau Leste"

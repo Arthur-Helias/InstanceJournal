@@ -1354,6 +1354,18 @@ IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22909 =
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11486 = "Prince Tortheldrin"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11486 =
     "After the Well of Eternity's destruction, Prince Tortheldrin maintained control over the surviving Shen'dralar by imprisoning a demon in the ruins of Eldre'Thalas and letting his subjects siphon its strength. The exposure to demonic power twisted Tortheldrin's mind, and when the creature faltered, the prince ordered the deaths of many of his vassals so only he and his most fanatical followers would be left to enjoy the corrupt energy."
+IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_15589 = "Whirlwind"
+IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_15589 =
+    "Deals physical damage to enemies within 8 yards."
+IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_20537 = "Counterspell"
+IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_20537 =
+    "Interrupts the target’s spell and prevents spells from that school for 15 sec."
+IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22920 = "Arcane Blast"
+IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22920 =
+    "Deals Arcane damage to the target and knocks it back."
+IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22995 = "Summon"
+IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22995 =
+    "Summons a player to Tortheldrin."
 
 -- DMW Loot
 IJ_LOOT_NAME_18352 = "Petrified Bark Shield"

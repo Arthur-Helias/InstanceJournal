@@ -1448,6 +1448,18 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11486 = "托塞德林王子"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11486 =
         "永恒之井被毁后，托塞德林王子通过在艾德萨拉斯废墟中囚禁恶魔并让他的臣民吸取其力量来维持对幸存的申德拉拉的控制。接触恶魔力量扭曲了托塞德林的思想，当这个生物摇摇欲坠时，王子下令杀死他的许多封臣，这样只有他和他最狂热的追随者才能享受腐败的能量。"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_15589 = "旋风斩"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_15589 =
+        "对8码范围内的敌人造成物理伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_20537 = "法术反制"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_20537 =
+        "打断目标的施法，并使其在15秒内无法施放同系法术。"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22920 = "奥术冲击"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22920 =
+        "对目标造成奥术伤害并将其击退。"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22995 = "召唤"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22995 =
+        "将一名玩家召唤到托塞德林身边。"
 
     -- DMW Loot
     IJ_LOOT_NAME_18352 = "石化树皮盾牌"

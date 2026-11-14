@@ -354,7 +354,7 @@ DMW.Bosses = {
             [24] = {IJDB.I[18401], DropChance = 1}
         }
     },
-    [6] = { -- NOTE: Missing abilities
+    [6] = {
         Id = "11486",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "prince" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "prince" .. IMPF,
@@ -362,6 +362,32 @@ DMW.Bosses = {
         Story = IJ_DB_DUNGEON_DMW_BOSS_STORY_11486,
         MapCoordinateX = 20.9,
         MapCoordinateY = 65.7,
+        Abilities = {
+            [1] = {
+                Id = "15589",
+                Icon = "Ability_Whirlwind",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_15589,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_15589
+            },
+            [2] = {
+                Id = "20537",
+                Icon = "Spell_Frost_IceShock",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_20537,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_20537
+            },
+            [3] = {
+                Id = "22920",
+                Icon = "Spell_Shadow_DeathPact",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22920,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22920
+            },
+            [4] = {
+                Id = "22995",
+                Icon = "Spell_Arcane_PortalIronForge",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22995,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22995
+            }
+        },
         Loot = {
             [1] = {IJDB.I[51217], DropChance = 100},
             [2] = {IJDB.I[18373], DropChance = 10},
