@@ -1204,6 +1204,21 @@ IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_8269 =
     "Increases attack speed and physical damage dealt."
 IJ_DB_DUNGEON_DMN_BOSS_NAME_14321 = "Guard Fengus"
 IJ_DB_DUNGEON_DMN_BOSS_STORY_14321 = "Ever since Cho'Rush the Observer told him he was destined to meet a mate while on duty, Fengus has spent almost every waking moment patrolling Gordok territory."
+IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_14516 = "Strike"
+IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_14516 =
+    "Deals physical damage to the target."
+IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_11972 = "Shield Bash"
+IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_11972 =
+    "Deals physical damage and interrupts the target’s spell, preventing spells from that school for 8 sec."
+IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_15749 = "Shield Charge"
+IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_15749 =
+    "Charges an enemy, dealing physical damage and knocking it back."
+IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_10101 = "Knock Away"
+IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_10101 =
+    "Deals physical damage to the target and knocks it back."
+IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_8269 = "Enrage"
+IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_8269 =
+    "Increases attack speed and physical damage dealt."
 IJ_DB_DUNGEON_DMN_BOSS_NAME_14323 = "Guard Slip'kik"
 IJ_DB_DUNGEON_DMN_BOSS_STORY_14323 =
     "Some might think Slip'kik is merely cautious, but he's also lazy. Rather than challenge King Gordok directly, Slip'kik tinkers with traps and old, broken magical devices, hoping to eventually deliver a coup de grace without an ounce of risk or a drop of sweat."

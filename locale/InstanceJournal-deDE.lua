@@ -860,6 +860,21 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14321 = "Wache Fengus"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14321 =
         "Seitdem Cho'Rush, der Beobachter, ihm gesagt hat, dass er dazu bestimmt sei, während seines Dienstes einen Gefährten zu treffen, hat Fengus fast jeden wachen Moment damit verbracht, das Gebiet von Gordok zu patrouillieren."
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_14516 = "Schlag"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_14516 =
+        "Fügt dem Ziel körperlichen Schaden zu."
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_11972 = "Schildhieb"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_11972 =
+        "Verursacht körperlichen Schaden und unterbricht den Zauber des Ziels. Verhindert 8 Sek. lang Zauber dieser Magieschule."
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_15749 = "Schildansturm"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_15749 =
+        "Stürmt einen Gegner an, verursacht körperlichen Schaden und stößt ihn zurück."
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_10101 = "Wegschlagen"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_10101 =
+        "Fügt dem Ziel körperlichen Schaden zu und stößt es zurück."
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_8269 = "Wutanfall"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_8269 =
+        "Erhöht das Angriffstempo und den verursachten körperlichen Schaden."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14323 = "Wache Slip'kik"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14323 =
         "Manche denken vielleicht, Slip'kik sei nur vorsichtig, aber er ist auch faul. Anstatt König Gordok direkt herauszufordern, bastelt Slip'kik an Fallen und alten, kaputten magischen Geräten herum, in der Hoffnung, irgendwann ohne ein bisschen Risiko und ohne einen Tropfen Schweiß einen Gnadenstoß zu versetzen."

@@ -1299,6 +1299,21 @@ if GetLocale() == "zhCN" then
         "提高攻击速度和造成的物理伤害。"
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14321 = "卫兵芬古斯"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14321 = "自从观察者科拉什告诉他他注定会在执勤时遇到一位伴侣以来，芬古斯几乎醒着的每一刻都在戈多克领地巡逻。"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_14516 = "打击"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_14516 =
+        "对目标造成物理伤害。"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_11972 = "盾击"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_11972 =
+        "造成物理伤害并打断目标施法，使其在8秒内无法施放同系法术。"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_15749 = "盾牌冲锋"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_15749 =
+        "向一名敌人冲锋，造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_10101 = "击飞"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_10101 =
+        "对目标造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_8269 =
+        "提高攻击速度和造成的物理伤害。"
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14323 = "卫兵斯里基克"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14323 =
         "有些人可能认为斯利基克只是谨慎，但他也很懒。斯利基克没有直接挑战戈多克国王，而是修补陷阱和破旧的魔法装置，希望最终能在不冒任何风险或流汗的情况下发出致命一击。"
