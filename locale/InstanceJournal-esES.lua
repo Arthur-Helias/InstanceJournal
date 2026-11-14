@@ -877,6 +877,21 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14323 = "Guardia Slip'kik"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14323 =
         "Algunos podrían pensar que Slip'kik es simplemente cauteloso, pero también es vago. En lugar de desafiar directamente al rey Gordok, Slip'kik juguetea con trampas y dispositivos mágicos viejos y rotos, con la esperanza de dar un golpe de gracia sin una pizca de riesgo ni una gota de sudor."
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_14516 = "Golpe"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_14516 =
+        "Inflige daño físico al objetivo."
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_11972 = "Azote de escudo"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_11972 =
+        "Inflige daño físico e interrumpe el hechizo del objetivo, impidiendo los hechizos de esa escuela durante 8 s."
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_15749 = "Carga con escudo"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_15749 =
+        "Carga contra un enemigo, le inflige daño físico y lo repele."
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_10101 = "Repeler"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_10101 =
+        "Inflige daño físico al objetivo y lo repele."
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_8269 =
+        "Aumenta la velocidad de ataque y el daño físico infligido."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14325 = "Capitán Kromcrush"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14325 =
         "Incluso entre los ogros, el Capitán Kromcrush es famoso por su furia hacia cualquiera que se atreva a insultarlo a él o al Rey Gordok. Aplasta la disidencia sin piedad, pero tiene aún menos paciencia con aquellos que continúan difundiendo el rumor de su tórrido romance con un gnoll hace mucho tiempo."

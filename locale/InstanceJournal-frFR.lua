@@ -877,6 +877,21 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14323 = "Garde Slip'kik"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14323 =
         "Certains pourraient penser que Slip'kik est simplement prudent, mais il est aussi paresseux. Plutôt que de défier directement le roi Gordok, Slip'kik bricole des pièges et de vieux appareils magiques cassés, dans l'espoir de délivrer un coup de grâce sans une once de risque ni une goutte de sueur."
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_14516 = "Frappe"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_14516 =
+        "Inflige des dégâts physiques à la cible."
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_11972 = "Coup de bouclier"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_11972 =
+        "Inflige des dégâts physiques et interrompt le sort de la cible, empêchant les sorts de cette école pendant 8 s."
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_15749 = "Charge de bouclier"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_15749 =
+        "Charge un ennemi, lui inflige des dégâts physiques et le repousse."
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_10101 = "Repousser"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_10101 =
+        "Inflige des dégâts physiques à la cible et la repousse."
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_8269 = "Enrager"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_8269 =
+        "Augmente la vitesse d’attaque et les dégâts physiques infligés."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14325 = "Capitaine Kromcrush"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14325 =
         "Même parmi les ogres, le capitaine Kromcrush est tristement célèbre pour sa rage à couper le souffle envers quiconque ose l'insulter ou insulter le roi Gordok. Il écrase impitoyablement toute dissidence, mais il a encore moins de patience envers ceux qui continuent de répandre la rumeur de sa torride liaison avec un gnoll il y a bien longtemps."

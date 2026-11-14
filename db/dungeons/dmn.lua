@@ -186,7 +186,7 @@ DMN.Bosses = {
             [19] = {IJDB.I[18401], DropChance = 1}
         }
     },
-    [4] = { -- NOTE: Missing abilities
+    [4] = {
         Id = "14323",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "slipkik" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "slipkik" .. IMPF,
@@ -194,6 +194,38 @@ DMN.Bosses = {
         Story = IJ_DB_DUNGEON_DMN_BOSS_STORY_14323,
         MapCoordinateX = 21.8,
         MapCoordinateY = 37.5,
+        Abilities = {
+            [1] = {
+                Id = "14516",
+                Icon = "Ability_Rogue_Ambush",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_14516,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_14516
+            },
+            [2] = {
+                Id = "11972",
+                Icon = "Ability_Warrior_ShieldBash",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_11972,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_11972
+            },
+            [3] = {
+                Id = "15749",
+                Icon = "Ability_Warrior_Charge",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_15749,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_15749
+            },
+            [4] = {
+                Id = "10101",
+                Icon = "INV_Gauntlets_05",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_10101,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_10101
+            },
+            [5] = {
+                Id = "8269",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_8269,
+                Effect = IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_8269
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18450], DropChance = 8},
             [2] = {IJDB.I[18451], DropChance = 8},
