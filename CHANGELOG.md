@@ -6,6 +6,7 @@ All changes to this project will be documented in this file.
 
 ### Added
 
+- Added the paladin and shaman quests for `Death Knight Darkreaver` in `Scholomance`
 - Added a localized `[Summoned]` tag and summoning guidance for summoned encounters
 - Added quest event guidance for `Plaguemaw the Rotting`
 - Added `Isalien` to `Dire Maul East`, including abilities and loot

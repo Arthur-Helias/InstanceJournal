@@ -173,28 +173,35 @@ SCHOLO.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "darkreaver" .. IMPF,
         Name = IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_14516,
         Story = IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_14516,
+        IsSummoned = true,
         Abilities = {
             [1] = {
+                Id = "darkreaversummoning",
+                Icon = "INV_Misc_Orb_02",
+                Name = IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_darkreaversummoning,
+                Effect = IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_darkreaversummoning
+            },
+            [2] = {
                 Id = "15284",
                 Icon = "Ability_Warrior_Cleave",
                 Name = IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_15284,
                 Effect = IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_15284,
                 Flags = {IMAF.Tank}
             },
-            [2] = {
+            [3] = {
                 Id = "17393",
                 Icon = "Spell_Shadow_ShadowBolt",
                 Name = IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_17393,
                 Effect = IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_17393
             },
-            [3] = {
+            [4] = {
                 Id = "22644",
                 Icon = "Ability_Racial_Cannibalize",
                 Name = IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_22644,
                 Effect = IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_22644,
                 Flags = {IMAF.Heal}
             },
-            [4] = {
+            [5] = {
                 Id = "7645",
                 Icon = "Spell_Shadow_ShadowWordDominate",
                 Name = IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_7645,
@@ -852,6 +859,6 @@ SCHOLO.Bosses = {
         }
     }
 }
-SCHOLO.Quests = {IJDB.Q[5529], IJDB.Q[5582], IJDB.Q[5382], IJDB.Q[5515], IJDB.Q[5384], IJDB.Q[5466], IJDB.Q[5341], IJDB.Q[5343], IJDB.Q[4771], IJDB.Q[7629], IJDB.Q[8969], IJDB.Q[8992], IJDB.Q[40237]}
+SCHOLO.Quests = {IJDB.Q[5529], IJDB.Q[5582], IJDB.Q[5382], IJDB.Q[5515], IJDB.Q[5384], IJDB.Q[5466], IJDB.Q[5341], IJDB.Q[5343], IJDB.Q[4771], IJDB.Q[7647], IJDB.Q[7668], IJDB.Q[7629], IJDB.Q[8969], IJDB.Q[8992], IJDB.Q[40237]}
 
 IJDB.DG.SCHOLO = SCHOLO

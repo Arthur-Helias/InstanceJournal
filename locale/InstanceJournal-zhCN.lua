@@ -2809,6 +2809,15 @@ if GetLocale() == "zhCN" then
         "寻求掌握亡灵力量的人都非常了解通灵学院，这是一所臭名昭著的死灵学派，位于凯尔达隆地下黑暗而不祥的地窖中。近年来，几位导师发生了变化，但该机构仍然处于黑暗大师甘德林的控制之下，他是一个特别残暴和阴险的死灵魔法实践者。"
 
     -- Additional Dungeon Set 2 encounters and Darkreaver quests
+    IJ_QUEST_NAME_7647 = "审判和救赎"
+    IJ_QUEST_OBJECTIVE_7647 =
+        "在通灵学院大尸骨储藏所的地下室使用预言水晶球。击败灵魂和死亡骑士达克雷尔，然后将被救赎的战马之魂和被祝福的奥金马铠交给达克雷尔的堕落战马。"
+    IJ_QUEST_NAME_7668 = "达克雷尔的威胁"
+    IJ_QUEST_OBJECTIVE_7668 =
+        "在通灵学院大尸骨储藏所的地下室使用预言水晶球。击败灵魂和死亡骑士达克雷尔，然后将他的头颅交给奥格瑞玛智慧谷的萨格尼。"
+    IJ_NPC_NAME_13417 = "萨格尼"
+    IJ_QUEST_REWARD_SPELL_23214 = "召唤战马"
+    IJ_LOOT_NAME_18807 = "潜能头盔"
     -- SCHOLO Bosses
     IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_kirtonossummoning = "召唤"
     IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_kirtonossummoning =
@@ -2851,6 +2860,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_NAME_18368 = "打击"
     IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_EFFECT_18368 =
         "对一个目标造成物理伤害。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_darkreaversummoning = "召唤"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_darkreaversummoning =
+        "在“审判和救赎”（圣骑士）或“达克雷尔的威胁”（萨满祭司）任务期间，在大尸骨储藏所的地下室使用预言水晶球。击败一波波灵魂，以召唤死亡骑士达克雷尔。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_14516 = "死亡骑士达克雷尔"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_14516 =
         "这位后来被称为黑暗掠夺者的人曾经是一位著名的圣骑士，但受到巫妖王的召唤而成为一名阴险的死亡骑士。他的腐败蔓延到了他的坐骑上，他的坐骑变成了不死马。暗掠者被送往通灵学院。在大骨库下方的地牢中，他试图让精神领域屈服于他的心血来潮，召唤并腐蚀灵魂来执行他的命令。"

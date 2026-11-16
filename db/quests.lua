@@ -12752,4 +12752,35 @@ Q[41978] = {
     RewardItems = {{IJDB.I[42264]}, {IJDB.I[42265]}}
 }
 
+Q[7647] = {
+    Id = "7647",
+    Name = IJ_QUEST_NAME_7647,
+    Objective = IJ_QUEST_OBJECTIVE_7647,
+    RequiredLevel = 60,
+    Level = 60,
+    StartingPoints = {NPC[928]},
+    RequiredClass = {IMCL.Paladin},
+    RequiredFaction = {IF.Alliance},
+    RewardExperience = 9950,
+    RewardCoin = 59700,
+    RewardReputations = {{Name = IR.Stormwind, Amount = 500}},
+    RewardSpells = {{Id = "23214", Icon = "Ability_Mount_Charger", Name = IJ_QUEST_REWARD_SPELL_23214}}
+}
+
+Q[7668] = {
+    Id = "7668",
+    Name = IJ_QUEST_NAME_7668,
+    Objective = IJ_QUEST_OBJECTIVE_7668,
+    RequiredLevel = 58,
+    Level = 60,
+    StartingPoints = {NPC[13417]},
+    EndingPoints = {NPC[13417]},
+    RequiredClass = {IMCL.Shaman},
+    RequiredFaction = {IF.Horde},
+    RewardExperience = 9950,
+    RewardCoin = 59700,
+    RewardItems = {{IJDB.I[18807]}},
+    RewardReputations = {{Name = IR.DarkspearTrolls, Amount = 500}, {Name = IR.Orgrimmar, Amount = 500}, {Name = IR.ThunderBluff, Amount = 500}, {Name = IR.Undercity, Amount = 500}}
+}
+
 IJDB.Q = Q

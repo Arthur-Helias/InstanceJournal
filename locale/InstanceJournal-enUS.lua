@@ -2716,6 +2716,15 @@ IJ_DB_DUNGEON_SCHOLO_STORY =
     "Individuals seeking to master the powers of undeath know well of Scholomance, the infamous school of necromancy located in the dark and foreboding crypts beneath Caer Darrow. In recent years, several of the instructors have changed, but the institution remains under the control of Darkmaster Gandling, a particularly sadistic and insidious practitioner of necromantic magic."
 
 -- Additional Dungeon Set 2 encounters and Darkreaver quests
+IJ_QUEST_NAME_7647 = "Judgment and Redemption"
+IJ_QUEST_OBJECTIVE_7647 =
+    "Use the Divination Scryer in the Great Ossuary’s basement in Scholomance. Defeat the spirits and Death Knight Darkreaver, then bring the Charger’s Redeemed Soul and Blessed Arcanite Barding to Darkreaver’s Fallen Charger."
+IJ_QUEST_NAME_7668 = "The Darkreaver Menace"
+IJ_QUEST_OBJECTIVE_7668 =
+    "Use the Divination Scryer in the Great Ossuary’s basement in Scholomance. Defeat the spirits and Death Knight Darkreaver, then bring Darkreaver’s Head to Sagorne Creststrider in the Valley of Wisdom, Orgrimmar."
+IJ_NPC_NAME_13417 = "Sagorne Creststrider"
+IJ_QUEST_REWARD_SPELL_23214 = "Summon Charger"
+IJ_LOOT_NAME_18807 = "Helm of Latent Power"
 -- SCHOLO Bosses
 IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_kirtonossummoning = "Summoning"
 IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_kirtonossummoning =
@@ -2758,6 +2767,9 @@ IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_EFFECT_16727 =
 IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_NAME_18368 = "Strike"
 IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_EFFECT_18368 =
     "Deals Physical damage to a target."
+IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_darkreaversummoning = "Summoning"
+IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_darkreaversummoning =
+    "Use the Divination Scryer in the Great Ossuary’s basement during Judgment and Redemption (paladin) or The Darkreaver Menace (shaman). Defeat the waves of spirits to summon Death Knight Darkreaver."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_14516 = "Death Knight Darkreaver"
 IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_14516 =
     "Once a celebrated paladin, the man who would come to be known as Darkreaver was seduced by the call of the Lich King, and became an insidious death knight. His corruption spread to his steed, who was transformed into an undead horse. Darkreaver was sent to the Scholomance. In the dungeon below the Great Ossuary, he attempted to bend the spirit realm to his whim, summoning and corrupting spirits to do his bidding."

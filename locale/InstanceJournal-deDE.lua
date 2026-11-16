@@ -1810,6 +1810,15 @@ if GetLocale() == "deDE" then
         "Personen, die die Kräfte des Untodes meistern wollen, kennen Scholomance, die berüchtigte Schule der Nekromantie, die sich in den dunklen und unheilvollen Krypten unter Caer Darrow befindet. In den letzten Jahren haben mehrere Ausbilder gewechselt, aber die Institution steht weiterhin unter der Kontrolle von Dunkelmeister Gandling, einem besonders sadistischen und heimtückischen Praktiker der nekromantischen Magie."
 
     -- Additional Dungeon Set 2 encounters and Darkreaver quests
+    IJ_QUEST_NAME_7647 = "Urteil und Erlösung"
+    IJ_QUEST_OBJECTIVE_7647 =
+        "Benutzt den Divination Scryer im Keller des Großen Ossuariums in Scholomance. Besiegt die Geister und Todesritter Darkreaver und bringt dann die Erlöste Seele des Streitrosses und die Gesegnete Arkanitpferderüstung zu Darkreavers gefallenem Streitross."
+    IJ_QUEST_NAME_7668 = "Die Bedrohung durch Darkreaver"
+    IJ_QUEST_OBJECTIVE_7668 =
+        "Benutzt den Divination Scryer im Keller des Großen Ossuariums in Scholomance. Besiegt die Geister und Todesritter Darkreaver und bringt dann Darkreavers Kopf zu Sagorne Gratläufer im Tal der Weisheit in Orgrimmar."
+    IJ_NPC_NAME_13417 = "Sagorne Gratläufer"
+    IJ_QUEST_REWARD_SPELL_23214 = "Streitross beschwören"
+    IJ_LOOT_NAME_18807 = "Helm der latenten Macht"
     -- SCHOLO Bosses
     IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_kirtonossummoning = "Beschwörung"
     IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_kirtonossummoning =
@@ -1852,6 +1861,9 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_NAME_18368 = "Schlag"
     IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_EFFECT_18368 =
         "Fügt einem Ziel körperlichen Schaden zu."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_darkreaversummoning = "Beschwörung"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_darkreaversummoning =
+        "Benutzt den Divination Scryer im Keller des Großen Ossuariums während Urteil und Erlösung (Paladin) oder Die Bedrohung durch Darkreaver (Schamane). Besiegt die Geisterwellen, um den Boss zu beschwören."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_14516 = "Todesritter Darkreaver"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_14516 =
         "Einst ein berühmter Paladin, wurde der Mann, der später als Darkreaver bekannt wurde, vom Ruf des Lichkönigs verführt und wurde zu einem heimtückischen Todesritter. Seine Verderbnis breitete sich auf sein Ross aus, das sich in ein untotes Pferd verwandelte. Darkreaver wurde zur Scholomance geschickt. Im Kerker unter dem Großen Beinhaus versuchte er, das Geisterreich seinen Launen anzupassen, indem er Geister herbeirief und korrumpierte, damit sie seinen Befehlen gehorchten."

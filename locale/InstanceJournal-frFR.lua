@@ -1809,6 +1809,15 @@ if GetLocale() == "frFR" then
         "Les individus cherchant à maîtriser les pouvoirs de la non-mort connaissent bien la Scholomance, la tristement célèbre école de nécromancie située dans les cryptes sombres et inquiétantes sous Caer Darrow. Ces dernières années, plusieurs instructeurs ont changé, mais l'institution reste sous le contrôle du Darkmaster Gandling, un praticien particulièrement sadique et insidieux de la magie nécromantique."
 
     -- Additional Dungeon Set 2 encounters and Darkreaver quests
+    IJ_QUEST_NAME_7647 = "Jugement et rédemption"
+    IJ_QUEST_OBJECTIVE_7647 =
+        "Utilisez le Divination Scryer dans le sous-sol du Grand Ossuaire de Scholomance. Vainquez les esprits et le Chevalier de la mort Darkreaver, puis apportez l’Âme rachetée du destrier et le Caparaçon d’arcanite béni au Destrier déchu de Darkreaver."
+    IJ_QUEST_NAME_7668 = "La menace de Darkreaver"
+    IJ_QUEST_OBJECTIVE_7668 =
+        "Utilisez le Divination Scryer dans le sous-sol du Grand Ossuaire de Scholomance. Vainquez les esprits et le Chevalier de la mort Darkreaver, puis apportez sa tête à Sagorne Rôdeur-des-Crêtes dans la Vallée de la Sagesse, à Orgrimmar."
+    IJ_NPC_NAME_13417 = "Sagorne Rôdeur-des-Crêtes"
+    IJ_QUEST_REWARD_SPELL_23214 = "Invocation de destrier"
+    IJ_LOOT_NAME_18807 = "Heaume de puissance latente"
     -- SCHOLO Bosses
     IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_kirtonossummoning = "Invocation"
     IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_kirtonossummoning =
@@ -1851,6 +1860,9 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_NAME_18368 = "Frappe"
     IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_EFFECT_18368 =
         "Inflige des dégâts physiques à une cible."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_darkreaversummoning = "Invocation"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_darkreaversummoning =
+        "Utilisez le Divination Scryer dans le sous-sol du Grand Ossuaire pendant Jugement et rédemption (paladin) ou La menace de Darkreaver (chaman). Vainquez les vagues d’esprits pour invoquer le boss."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_14516 = "Chevalier de la mort Darkreaver"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_14516 =
         "Autrefois paladin célèbre, celui qui allait devenir connu sous le nom de Darkreaver fut séduit par l'appel du roi-liche et devint un insidieux chevalier de la mort. Sa corruption s'est propagée à son cheval, qui a été transformé en cheval mort-vivant. Darkreaver a été envoyé à la Scholomance. Dans le donjon situé sous le Grand Ossuaire, il tenta de plier le royaume des esprits à ses caprices, invoquant et corrompant les esprits pour qu'ils exécutent ses ordres."

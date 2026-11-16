@@ -975,4 +975,6 @@ NPC[63019] = {Id = "63019", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Stone
 
 NPC[62834] = {Id = "62834", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.ThousandNeedles, MapCoordinateX = 31.2, MapCoordinateY = 45.3, Name = IJ_NPC_NAME_62834}
 
+NPC[13417] = {Id = "13417", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Orgrimmar, MapCoordinateX = 38.6, MapCoordinateY = 36.0, Name = IJ_NPC_NAME_13417}
+
 IJDB.NPC = NPC

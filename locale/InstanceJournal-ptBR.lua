@@ -1806,6 +1806,15 @@ if GetLocale() == "ptBR" then
         "Indivíduos que buscam dominar os poderes dos mortos-vivos conhecem bem Scholomance, a infame escola de necromancia localizada nas criptas escuras e agourentas abaixo de Caer Darrow. Nos últimos anos, vários instrutores mudaram, mas a instituição permanece sob o controle do Darkmaster Gandling, um praticante de magia necromântica particularmente sádico e insidioso."
 
     -- Additional Dungeon Set 2 encounters and Darkreaver quests
+    IJ_QUEST_NAME_7647 = "Julgamento e Redenção"
+    IJ_QUEST_OBJECTIVE_7647 =
+        "Use o Divination Scryer no porão do Grande Ossuário em Scolomântia. Derrote os espíritos e o Cavaleiro da Morte Darkreaver e entregue a Alma Redimida do Corcel e a Barda de Arcanita Abençoada ao Corcel Caído de Darkreaver."
+    IJ_QUEST_NAME_7668 = "A Ameaça de Darkreaver"
+    IJ_QUEST_OBJECTIVE_7668 =
+        "Use o Divination Scryer no porão do Grande Ossuário em Scolomântia. Derrote os espíritos e o Cavaleiro da Morte Darkreaver e leve a Cabeça de Darkreaver a Sagorne Creststrider no Vale da Sabedoria, em Orgrimmar."
+    IJ_NPC_NAME_13417 = "Sagorne Creststrider"
+    IJ_QUEST_REWARD_SPELL_23214 = "Evocar Corcel"
+    IJ_LOOT_NAME_18807 = "Elmo do Poder Latente"
     -- SCHOLO Bosses
     IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_kirtonossummoning = "Invocação"
     IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_kirtonossummoning =
@@ -1848,6 +1857,9 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_NAME_18368 = "Golpe"
     IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_EFFECT_18368 =
         "Causa dano Físico a um alvo."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_darkreaversummoning = "Invocação"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_darkreaversummoning =
+        "Use o Divination Scryer no porão do Grande Ossuário durante Julgamento e Redenção (paladino) ou A Ameaça de Darkreaver (xamã). Derrote as ondas de espíritos para invocar o Cavaleiro da Morte Darkreaver."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_14516 = "Cavaleiro da Morte Darkreaver"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_14516 =
         "Outrora um célebre paladino, o homem que viria a ser conhecido como Darkreaver foi seduzido pelo chamado do Lich King e se tornou um insidioso cavaleiro da morte. Sua corrupção se espalhou para seu cavalo, que foi transformado em um cavalo morto-vivo. Darkreaver foi enviado para Scholomance. Na masmorra abaixo do Grande Ossuário, ele tentou dobrar o reino espiritual ao seu capricho, convocando e corrompendo espíritos para cumprir suas ordens."
