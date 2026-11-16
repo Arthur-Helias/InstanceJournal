@@ -1123,6 +1123,12 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715 = "Wasserstrahl"
     IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715 =
         "Hydrolinge stoßen Gegner in der Nähe zurück."
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22478 = "Starke Schmerzen"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22478 =
+        "Fügt Gegnern in der Nähe 15 Sek. lang alle 3 Sek. Schattenschaden zu. Dieser Magieeffekt kann gebannt werden."
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651 = "Opferung"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651 =
+        "Teleportiert einen Gegner zum Altar, betäubt ihn und entzieht ihm 8 Sek. lang Gesundheit. Heilt den geopferten Spieler während des Effekts."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillin"

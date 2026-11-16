@@ -1122,6 +1122,12 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715 = "Hydrojet"
     IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715 =
         "Les hydrogénitures repoussent les ennemis proches."
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22478 = "Douleur intense"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22478 =
+        "Inflige des dégâts d’Ombre aux ennemis proches toutes les 3 s pendant 15 s. Cet effet magique peut être dissipé."
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651 = "Sacrifice"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651 =
+        "Téléporte un ennemi sur l’autel, l’étourdit et draine sa vie pendant 8 s. Soignez le joueur sacrifié pendant l’effet."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusilline"

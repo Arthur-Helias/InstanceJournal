@@ -1122,6 +1122,12 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715 = "Chorro de agua"
     IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715 =
         "Los hidrolines repelen a los enemigos cercanos."
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22478 = "Dolor intenso"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22478 =
+        "Inflige daño de las Sombras a los enemigos cercanos cada 3 s durante 15 s. Este efecto mágico se puede disipar."
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651 = "Sacrificio"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651 =
+        "Teletransporta a un enemigo al altar, lo aturde y drena su salud durante 8 s. Sanad al jugador sacrificado mientras dure el efecto."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillín"

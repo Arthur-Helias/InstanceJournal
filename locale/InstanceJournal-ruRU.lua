@@ -1146,6 +1146,12 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715 = "Струя воды"
     IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715 =
         "Водяные порождения отбрасывают ближайших противников."
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22478 = "Сильная боль"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22478 =
+        "Наносит ближайшим противникам урон от темной магии раз в 3 сек. в течение 15 сек. Этот магический эффект можно рассеять."
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651 = "Жертвоприношение"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651 =
+        "Телепортирует противника к алтарю, оглушает и вытягивает его здоровье в течение 8 сек. Лечите принесенного в жертву игрока во время действия эффекта."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Пузилин"

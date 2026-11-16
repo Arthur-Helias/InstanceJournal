@@ -1119,6 +1119,12 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715 = "Hidrojato"
     IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715 =
         "Os Hidrolins repelem os inimigos próximos."
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22478 = "Dor Intensa"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22478 =
+        "Causa dano de Sombra aos inimigos próximos a cada 3 s por 15 s. Este efeito mágico pode ser dissipado."
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651 = "Sacrifício"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651 =
+        "Teleporta um inimigo para o altar, atordoando-o e drenando sua vida por 8 s. Cure o jogador sacrificado durante o efeito."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusilina"

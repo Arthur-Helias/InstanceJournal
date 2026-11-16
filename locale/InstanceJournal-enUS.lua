@@ -1569,6 +1569,12 @@ IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22714 =
 IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715 = "Hydrojet"
 IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715 =
     "Hydrolings knock back nearby enemies."
+IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22478 = "Intense Pain"
+IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22478 =
+    "Deals Shadow damage to nearby enemies every 3 sec. for 15 sec. This Magic effect can be dispelled."
+IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651 = "Sacrifice"
+IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651 =
+    "Teleports an enemy to the altar, stunning them and draining their health for 8 sec. Heal the sacrificed player through the effect."
 
 -- DME Bosses
 IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillin"

@@ -163,7 +163,7 @@ DME.Bosses = {
             [17] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [3] = { -- NOTE: Missing abilities
+    [3] = {
         Id = "11490",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "zevrim" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "zevrim" .. IMPF,
@@ -172,6 +172,22 @@ DME.Bosses = {
         MapCoordinateX = 76.4,
         MapCoordinateY = 79.4,
         MapIsBelow = true,
+        Abilities = {
+            [1] = {
+                Id = "22478",
+                Icon = "Spell_Shadow_ShadowWordPain",
+                Name = IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22478,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22478,
+                Flags = {IMAF.Magic}
+            },
+            [2] = {
+                Id = "22651",
+                Icon = "Spell_Shadow_AntiMagicShell",
+                Name = IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651,
+                Flags = {IMAF.Heal}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18306], DropChance = 20},
             [2] = {IJDB.I[18308], DropChance = 20},

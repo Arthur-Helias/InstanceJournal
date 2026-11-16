@@ -1663,6 +1663,12 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715 = "水流喷射"
     IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715 =
         "水浪幼崽击退附近的敌人。"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22478 = "剧烈痛楚"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22478 =
+        "每3秒对附近敌人造成暗影伤害，持续15秒。此魔法效果可以驱散。"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651 = "牺牲"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651 =
+        "将一名敌人传送至祭坛，使其昏迷并吸取其生命值，持续8秒。效果持续期间需治疗被献祭的玩家。"
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "普希林"
