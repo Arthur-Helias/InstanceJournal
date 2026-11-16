@@ -1128,6 +1128,36 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651 = "Sacrifice"
     IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651 =
         "Téléporte un ennemi sur l’autel, l’étourdit et draine sa vie pendant 8 s. Soignez le joueur sacrifié pendant l’effet."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_12742 = "Immoler"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_12742 =
+        "Inflige des dégâts de Feu à un ennemi, puis des dégâts de Feu supplémentaires pendant 21 s. Cet effet magique peut être dissipé."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_13338 = "Malédiction des langages"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_13338 =
+        "Réduit la vitesse d’incantation d’un ennemi de 50% pendant 15 s. Levez la malédiction."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16247 = "Malédiction d’épines"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16247 =
+        "Maudit un ennemi pendant 3 min. Ses attaques ont 50% de chances de déclencher les dégâts de Malédiction d’épines contre lui-même. Levez la malédiction."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16248 = "Malédiction d’épines"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16248 =
+        "Inflige des dégâts d’Ombre à l’attaquant maudit lorsque l’effet se déclenche."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_17228 = "Salve de Traits de l'ombre"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_17228 =
+        "Inflige des dégâts d’Ombre aux ennemis proches."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22709 = "Éclair du Vide"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22709 =
+        "Inflige des dégâts d’Ombre à un ennemi."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_PIMGIB = "Pimgib"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_PIMGIB =
+        "Pimgib combat aux côtés de Lethtendris et lance Boule de feu, Vague explosive et Rafale de flammes."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_15228 = "Boule de feu"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_15228 =
+        "Inflige des dégâts de Feu à un ennemi."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16046 = "Vague explosive"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16046 =
+        "Inflige des dégâts de Feu aux ennemis proches et ralentit leurs déplacements pendant 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22713 = "Rafale de flammes"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22713 =
+        "Inflige des dégâts de Feu et augmente les dégâts de Feu subis pendant 20 s. Cet effet magique peut être dissipé."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusilline"

@@ -1128,6 +1128,36 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651 = "Sacrificio"
     IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651 =
         "Teletransporta a un enemigo al altar, lo aturde y drena su salud durante 8 s. Sanad al jugador sacrificado mientras dure el efecto."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_12742 = "Inmolar"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_12742 =
+        "Inflige daño de Fuego a un enemigo y daño de Fuego adicional durante 21 s. Este efecto mágico se puede disipar."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_13338 = "Maldición de las lenguas"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_13338 =
+        "Reduce la velocidad de lanzamiento de un enemigo un 50% durante 15 s. Eliminad la maldición."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16247 = "Maldición de espinas"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16247 =
+        "Maldice a un enemigo durante 3 min. Sus ataques tienen un 50% de probabilidad de activar el daño de Maldición de espinas contra sí mismo. Eliminad la maldición."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16248 = "Maldición de espinas"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16248 =
+        "Inflige daño de las Sombras al atacante maldito al activarse."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_17228 = "Salva de descarga de las Sombras"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_17228 =
+        "Inflige daño de las Sombras a los enemigos cercanos."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22709 = "Descarga de vacío"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22709 =
+        "Inflige daño de las Sombras a un enemigo."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_PIMGIB = "Pimgib"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_PIMGIB =
+        "Pimgib combate junto a Lethtendris y lanza Bola de Fuego, Ola explosiva y Sacudida de llamas."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_15228 = "Bola de Fuego"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_15228 =
+        "Inflige daño de Fuego a un enemigo."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16046 = "Ola explosiva"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16046 =
+        "Inflige daño de Fuego a los enemigos cercanos y reduce su velocidad de movimiento durante 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22713 = "Sacudida de llamas"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22713 =
+        "Inflige daño de Fuego y aumenta el daño de Fuego recibido durante 20 s. Este efecto mágico se puede disipar."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillín"

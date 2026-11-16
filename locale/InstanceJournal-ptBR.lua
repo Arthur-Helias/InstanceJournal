@@ -1125,6 +1125,36 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651 = "Sacrifício"
     IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651 =
         "Teleporta um inimigo para o altar, atordoando-o e drenando sua vida por 8 s. Cure o jogador sacrificado durante o efeito."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_12742 = "Imolar"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_12742 =
+        "Causa dano de Fogo a um inimigo e dano adicional de Fogo ao longo de 21 s. Este efeito mágico pode ser dissipado."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_13338 = "Maldição das Línguas"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_13338 =
+        "Reduz a velocidade de conjuração de um inimigo em 50% por 15 s. Remova a maldição."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16247 = "Maldição dos Espinhos"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16247 =
+        "Amaldiçoa um inimigo por 3 min., dando aos ataques dele 50% de chance de causar o dano de Maldição dos Espinhos contra si mesmo. Remova a maldição."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16248 = "Maldição dos Espinhos"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16248 =
+        "Causa dano de Sombra ao atacante amaldiçoado quando ativado."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_17228 = "Salva de Setas Sombrias"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_17228 =
+        "Causa dano de Sombra aos inimigos próximos."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22709 = "Seta do Vazio"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22709 =
+        "Causa dano de Sombra a um inimigo."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_PIMGIB = "Pimgib"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_PIMGIB =
+        "Pimgib luta ao lado de Lethtendris, lançando Bola de Fogo, Onda de Impacto e Golpe Flamejante."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_15228 = "Bola de Fogo"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_15228 =
+        "Causa dano de Fogo a um inimigo."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16046 = "Onda de Impacto"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16046 =
+        "Causa dano de Fogo aos inimigos próximos e reduz sua velocidade de movimento por 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22713 = "Golpe Flamejante"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22713 =
+        "Causa dano de Fogo e aumenta o dano de Fogo recebido por 20 s. Este efeito mágico pode ser dissipado."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusilina"

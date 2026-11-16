@@ -208,7 +208,7 @@ DME.Bosses = {
             [17] = {IJDB.I[51217], DropChance = 5}
         }
     },
-    [4] = { -- NOTE: Missing abilities
+    [4] = {
         Id = "14327",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "lethtendris" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "lethtendris" .. IMPF,
@@ -216,6 +216,75 @@ DME.Bosses = {
         Story = IJ_DB_DUNGEON_DME_BOSS_STORY_14327,
         MapCoordinateX = 74.3,
         MapCoordinateY = 76.9,
+        Abilities = {
+            [1] = {
+                Id = "12742",
+                Icon = "Spell_Fire_Immolation",
+                Name = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_12742,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_12742,
+                Flags = {IMAF.Magic}
+            },
+            [2] = {
+                Id = "13338",
+                Icon = "Spell_Shadow_CurseOfTounges",
+                Name = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_13338,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_13338,
+                Flags = {IMAF.Curse}
+            },
+            [3] = {
+                Id = "16247",
+                Icon = "Spell_Shadow_AntiShadow",
+                Name = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16247,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16247,
+                Flags = {IMAF.Curse},
+                SubAbilities = {
+                    [1] = {
+                        Id = "16248",
+                        Icon = "Spell_Nature_NaturesWrath",
+                        Name = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16248,
+                        Effect = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16248
+                    }
+                }
+            },
+            [4] = {
+                Id = "17228",
+                Icon = "Spell_Shadow_ShadowBolt",
+                Name = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_17228,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_17228
+            },
+            [5] = {
+                Id = "22709",
+                Icon = "Spell_Shadow_ShadowBolt",
+                Name = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22709,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22709
+            },
+            [6] = {
+                Icon = "Spell_Shadow_SummonImp",
+                Name = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_PIMGIB,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_PIMGIB,
+                SubAbilities = {
+                    [1] = {
+                        Id = "15228",
+                        Icon = "Spell_Fire_FlameBolt",
+                        Name = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_15228,
+                        Effect = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_15228
+                    },
+                    [2] = {
+                        Id = "16046",
+                        Icon = "Spell_Holy_Excorcism_02",
+                        Name = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16046,
+                        Effect = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16046
+                    },
+                    [3] = {
+                        Id = "22713",
+                        Icon = "Spell_Fire_Fireball",
+                        Name = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22713,
+                        Effect = IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22713,
+                        Flags = {IMAF.Magic}
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18301], DropChance = 25},
             [2] = {IJDB.I[18302], DropChance = 25},

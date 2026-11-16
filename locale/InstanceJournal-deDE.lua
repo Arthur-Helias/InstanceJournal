@@ -1129,6 +1129,36 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651 = "Opferung"
     IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651 =
         "Teleportiert einen Gegner zum Altar, betäubt ihn und entzieht ihm 8 Sek. lang Gesundheit. Heilt den geopferten Spieler während des Effekts."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_12742 = "Opfern"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_12742 =
+        "Fügt einem Gegner Feuerschaden und über 21 Sek. weiteren Feuerschaden zu. Dieser Magieeffekt kann gebannt werden."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_13338 = "Fluch der Sprachen"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_13338 =
+        "Verringert das Zaubertempo eines Gegners 15 Sek. lang um 50%. Entfernt den Fluch."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16247 = "Fluch der Dornen"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16247 =
+        "Verflucht einen Gegner 3 Min. lang. Seine Angriffe haben eine Chance von 50%, den Schaden von Fluch der Dornen gegen ihn selbst auszulösen. Entfernt den Fluch."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16248 = "Fluch der Dornen"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16248 =
+        "Fügt dem verfluchten Angreifer bei Auslösung Schattenschaden zu."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_17228 = "Schattenblitzsalve"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_17228 =
+        "Fügt Gegnern in der Nähe Schattenschaden zu."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22709 = "Leerenblitz"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22709 =
+        "Fügt einem Gegner Schattenschaden zu."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_PIMGIB = "Pimgib"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_PIMGIB =
+        "Pimgib kämpft an Lethtendris’ Seite und wirkt Feuerball, Druckwelle und Flammenpuffer."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_15228 = "Feuerball"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_15228 =
+        "Fügt einem Gegner Feuerschaden zu."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16046 = "Druckwelle"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16046 =
+        "Fügt Gegnern in der Nähe Feuerschaden zu und verlangsamt sie 6 Sek. lang."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22713 = "Flammenpuffer"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22713 =
+        "Verursacht Feuerschaden und erhöht den erlittenen Feuerschaden 20 Sek. lang. Dieser Magieeffekt kann gebannt werden."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillin"

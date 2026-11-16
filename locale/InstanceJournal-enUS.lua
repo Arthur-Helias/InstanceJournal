@@ -1575,6 +1575,36 @@ IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22478 =
 IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651 = "Sacrifice"
 IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651 =
     "Teleports an enemy to the altar, stunning them and draining their health for 8 sec. Heal the sacrificed player through the effect."
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_12742 = "Immolate"
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_12742 =
+    "Deals Fire damage to an enemy, then additional Fire damage over 21 sec. This Magic effect can be dispelled."
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_13338 = "Curse of Tongues"
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_13338 =
+    "Reduces an enemy’s casting speed by 50% for 15 sec. Remove the curse."
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16247 = "Curse of Thorns"
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16247 =
+    "Curses an enemy for 3 min., giving their attacks a 50% chance to trigger Curse of Thorns damage against themselves. Remove the curse."
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16248 = "Curse of Thorns"
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16248 =
+    "Deals Shadow damage to the cursed attacker when triggered."
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_17228 = "Shadow Bolt Volley"
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_17228 =
+    "Deals Shadow damage to nearby enemies."
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22709 = "Void Bolt"
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22709 =
+    "Deals Shadow damage to an enemy."
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_PIMGIB = "Pimgib"
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_PIMGIB =
+    "Pimgib fights alongside Lethtendris, casting Fireball, Blast Wave, and Flame Buffet."
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_15228 = "Fireball"
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_15228 =
+    "Deals Fire damage to an enemy."
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16046 = "Blast Wave"
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16046 =
+    "Deals Fire damage to nearby enemies and slows their movement for 6 sec."
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22713 = "Flame Buffet"
+IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22713 =
+    "Deals Fire damage and increases Fire damage taken for 20 sec. This Magic effect can be dispelled."
 
 -- DME Bosses
 IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillin"

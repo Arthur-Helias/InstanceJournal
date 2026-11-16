@@ -1152,6 +1152,36 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651 = "Жертвоприношение"
     IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651 =
         "Телепортирует противника к алтарю, оглушает и вытягивает его здоровье в течение 8 сек. Лечите принесенного в жертву игрока во время действия эффекта."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_12742 = "Приносить в жертву"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_12742 =
+        "Наносит противнику урон от огня и дополнительный урон от огня в течение 21 сек. Этот магический эффект можно рассеять."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_13338 = "Проклятие косноязычия"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_13338 =
+        "Снижает скорость произнесения заклинаний противника на 50% на 15 сек. Снимайте проклятие."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16247 = "Проклятие шипов"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16247 =
+        "Проклинает противника на 3 мин. Его атаки с вероятностью 50% вызывают урон от «Проклятия шипов» по нему самому. Снимайте проклятие."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16248 = "Проклятие шипов"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16248 =
+        "При срабатывании наносит урон от темной магии проклятому атакующему."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_17228 = "Залп стрел Тьмы"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_17228 =
+        "Наносит ближайшим противникам урон от темной магии."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22709 = "Стрела Бездны"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22709 =
+        "Наносит противнику урон от темной магии."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_PIMGIB = "Пимгиб"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_PIMGIB =
+        "Пимгиб сражается вместе с Лефтендрис, применяя «Огненный шар», «Взрывную волну» и «Удар пламенем»."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_15228 = "Огненный шар"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_15228 =
+        "Наносит противнику урон от огня."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16046 = "Взрывная волна"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16046 =
+        "Наносит урон от огня ближайшим противникам и замедляет их на 6 сек."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22713 = "Удар пламенем"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22713 =
+        "Наносит урон от огня и увеличивает получаемый урон от огня на 20 сек. Этот магический эффект можно рассеять."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Пузилин"
