@@ -2719,8 +2719,16 @@ IJ_DB_DUNGEON_SCHOLO_STORY =
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_16101 = "Jarien and Sothos"
 IJ_DB_DUNGEON_STRAT_BOSS_STORY_16101 =
     "Jarien and Sothos were siblings in Bodley’s mercenary company. After the company disbanded, they took a fragment of Lord Valthalak’s amulet and sought admission to the Scarlet Crusade. Grand Crusader Dathrohan killed them for failing the initiation rites in his chamber. Their remains can be summoned there to recover the amulet fragment."
+IJ_DB_DUNGEON_BRD_BOSS_NAME_16059 = "Theldren and his Gladiators"
+IJ_DB_DUNGEON_BRD_BOSS_STORY_16059 =
+    "Theldren and his gladiators await challengers in Blackrock Depths’ Ring of Law. The Banner of Provocation draws them into a special arena challenge, where adventurers can recover the first fragment of Lord Valthalak’s amulet for Anthion Harmon."
 IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_jariensothossummoning =
     "Defeat Grand Crusader Dathrohan, then use the Brazier of Beckoning in his chamber to summon Jarien and Sothos during the Dungeon Set 2 questline."
+IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_theldrensummoning =
+    "During The Challenge, place the Banner of Provocation in the center of the Ring of Law as High Justice Grimstone sentences the group. This brings Theldren and his gladiators into the arena."
+IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_arenaspoils = "Arena Spoils"
+IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_arenaspoils =
+    "After defeating Theldren and his gladiators, collect equipment from the Arena Spoils chest."
 IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15284 = "Cleave"
 IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15284 =
     "Deals Physical damage to an enemy and nearby allies, striking up to 3 targets."
@@ -2760,8 +2768,14 @@ IJ_LOOT_NAME_22327 = "Amulet of the Redeemed"
 IJ_LOOT_NAME_22328 = "Legplates of Vigilance"
 IJ_LOOT_NAME_22329 = "Scepter of Interminable Focus"
 IJ_LOOT_NAME_22334 = "Band of Mending"
+IJ_LOOT_NAME_22305 = "Ironweave Mantle"
+IJ_LOOT_NAME_22317 = "Lefty's Brass Knuckle"
+IJ_LOOT_NAME_22318 = "Malgen's Long Bow"
+IJ_LOOT_NAME_22330 = "Shroud of Arcane Mastery"
 IJ_LOOT_NAME_18807 = "Helm of Latent Power"
 IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jariensothossummoning = "Summoning"
+IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_theldrensummoning = "Summoning"
+
 IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_siblingspirits = "Sibling Spirits"
 IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_siblingspirits =
     "When one sibling dies, their spirit appears and attacks the surviving sibling."

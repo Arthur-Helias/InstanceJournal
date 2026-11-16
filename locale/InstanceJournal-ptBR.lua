@@ -1809,8 +1809,16 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_16101 = "Jarien e Sothos"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_16101 =
         "Jarien e Sothos eram irmãos da companhia de mercenários de Bodley. Após a dissolução da companhia, levaram um fragmento do amuleto do Lorde Valthalak e tentaram ingressar na Cruzada Escarlate. O Grão-cruzado Dathrohan os matou por falharem nos ritos de iniciação em sua câmara. Seus restos podem ser invocados ali para recuperar o fragmento do amuleto."
+    IJ_DB_DUNGEON_BRD_BOSS_NAME_16059 = "Theldren e seus Gladiadores"
+    IJ_DB_DUNGEON_BRD_BOSS_STORY_16059 =
+        "Theldren e seus gladiadores aguardam desafiantes no Círculo da Lei das Profundezas Rocha Negra. O Estandarte da Provocação os atrai para um desafio especial na arena, onde aventureiros podem recuperar o primeiro fragmento do amuleto do Lorde Valthalak para Anthion Harmon."
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_jariensothossummoning =
         "Derrote o Grão-cruzado Dathrohan e use o Braseiro da Invocação na câmara dele para invocar Jarien e Sothos durante a série de missões do Conjunto de Masmorra 2."
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_theldrensummoning =
+        "Durante O Desafio, coloque o Estandarte da Provocação no centro do Círculo da Lei enquanto o Alto-juiz Grimstone sentencia o grupo. Isso traz Theldren e seus gladiadores à arena."
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_arenaspoils = "Espólios da Arena"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_arenaspoils =
+        "Após derrotar Theldren e seus gladiadores, recolha os equipamentos no baú de Espólios da Arena."
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15284 = "Dividir"
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15284 =
         "Causa dano Físico a um inimigo e seus aliados próximos, atingindo até 3 alvos."
@@ -1850,8 +1858,14 @@ if GetLocale() == "ptBR" then
     IJ_LOOT_NAME_22328 = "Coxotes da Vigilância"
     IJ_LOOT_NAME_22329 = "Cetro do Foco Interminável"
     IJ_LOOT_NAME_22334 = "Elo da Recomposição"
+    IJ_LOOT_NAME_22305 = "Dragonas de Tramaférrea"
+    IJ_LOOT_NAME_22317 = "Soco-inglês do Canhoto"
+    IJ_LOOT_NAME_22318 = "Arco Longo de Malgen"
+    IJ_LOOT_NAME_22330 = "Manto da Maestria Arcana"
     IJ_LOOT_NAME_18807 = "Elmo do Poder Latente"
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jariensothossummoning = "Invocação"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_theldrensummoning = "Invocação"
+
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_siblingspirits = "Espíritos dos Irmãos"
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_siblingspirits =
         "Quando um dos irmãos morre, seu espírito aparece e ataca o irmão sobrevivente."

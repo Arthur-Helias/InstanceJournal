@@ -6751,6 +6751,23 @@ I[22329] = {Id = "22329", Icon = "INV_Wand_07", Name = IJ_LOOT_NAME_22329, Quali
 
 I[22334] = {Id = "22334", Icon = "INV_Jewelry_Ring_05", Name = IJ_LOOT_NAME_22334, Quality = IQ.Rare, ItemSlot = IS.Finger, LevelRequirement = 57}
 
+I[22305] = {
+    Id = "22305",
+    Icon = "INV_Shoulder_05",
+    Name = IJ_LOOT_NAME_22305,
+    Quality = IQ.Rare,
+    ItemSlot = IS.Shoulder,
+    ItemType = IT.Cloth,
+    LevelRequirement = 56,
+    ClassRestriction = {IMCL.Priest, IMCL.Mage, IMCL.Warlock, IMCL.Druid}
+}
+
+I[22317] = {Id = "22317", Icon = "INV_Gauntlets_11", Name = IJ_LOOT_NAME_22317, Quality = IQ.Rare, ItemSlot = IS.OneHand, ItemType = IT.FistWeapon, LevelRequirement = 56}
+
+I[22318] = {Id = "22318", Icon = "INV_Weapon_Bow_12", Name = IJ_LOOT_NAME_22318, Quality = IQ.Rare, ItemSlot = IS.Ranged, ItemType = IT.Bow, LevelRequirement = 56}
+
+I[22330] = {Id = "22330", Icon = "INV_Misc_Cape_16", Name = IJ_LOOT_NAME_22330, Quality = IQ.Rare, ItemSlot = IS.Back, ItemType = IT.Cloth, LevelRequirement = 56}
+
 I[18807] = {Id = "18807", Icon = "INV_Helmet_24", Name = IJ_LOOT_NAME_18807, Quality = IQ.Rare, ItemSlot = IS.Head, ItemType = IT.Mail}
 
 

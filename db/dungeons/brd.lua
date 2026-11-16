@@ -126,7 +126,38 @@ BRD.Bosses = {
             [27] = {IJDB.I[11824], DropChance = 25}
         }
     },
-    [5] = { -- NOTE: Missing abilities
+    [5] = {
+        Id = "16059",
+        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "theldren" .. IMPP,
+        Frame = IMP .. IMPD .. instanceMediaAcronym .. "theldren" .. IMPF,
+        Name = IJ_DB_DUNGEON_BRD_BOSS_NAME_16059,
+        Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_16059,
+        IsSummoned = true,
+        MapCoordinateX = 53.7,
+        MapCoordinateY = 71.7,
+        Abilities = {
+            [1] = {
+                Id = "theldrensummoning",
+                Icon = "INV_Banner_03",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_theldrensummoning,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_theldrensummoning
+            },
+            [2] = {
+                Id = "arenaspoils",
+                Icon = "INV_Misc_TreasureChest03a",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_arenaspoils,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_arenaspoils
+            }
+        },
+        Loot = {
+            [1] = {IJDB.I[22305], DropChance = 38},
+            [2] = {IJDB.I[22317], DropChance = 17},
+            [3] = {IJDB.I[22318], DropChance = 26},
+            [4] = {IJDB.I[22330], DropChance = 19},
+            [5] = {IJDB.I[51217], DropChance = 5}
+        }
+    },
+    [6] = { -- NOTE: Missing abilities
         Id = "9024",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "loregrain" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "loregrain" .. IMPF,
@@ -144,7 +175,7 @@ BRD.Bosses = {
             [6] = {IJDB.I[11747], DropChance = 25}
         }
     },
-    [6] = { -- NOTE: Missing abilities
+    [7] = { -- NOTE: Missing abilities
         Id = "9041",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "stilgiss" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "stilgiss" .. IMPF,
@@ -163,7 +194,7 @@ BRD.Bosses = {
             [7] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [7] = { -- NOTE: Missing abilities
+    [8] = { -- NOTE: Missing abilities
         Id = "9476",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "vault" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "vault" .. IMPF,
@@ -177,7 +208,7 @@ BRD.Bosses = {
             [3] = {IJDB.I[22254], DropChance = 1}
         }
     },
-    [8] = { -- NOTE: Missing abilities
+    [9] = { -- NOTE: Missing abilities
         Id = "9056",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "darkvire" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "darkvire" .. IMPF,
@@ -196,7 +227,7 @@ BRD.Bosses = {
             [8] = {IJDB.I[11840], DropChance = 5}
         }
     },
-    [9] = { -- NOTE: Missing abilities
+    [10] = { -- NOTE: Missing abilities
         Id = "9017",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "incendius" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "incendius" .. IMPF,
@@ -213,7 +244,7 @@ BRD.Bosses = {
             [6] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [10] = { -- NOTE: Missing abilities
+    [11] = { -- NOTE: Missing abilities
         Id = "9016",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "baelgar" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "baelgar" .. IMPF,
@@ -230,7 +261,7 @@ BRD.Bosses = {
             [6] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [11] = { -- NOTE: Missing abilities
+    [12] = { -- NOTE: Missing abilities
         Id = "9033",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "angerforge" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "angerforge" .. IMPF,
@@ -248,7 +279,7 @@ BRD.Bosses = {
             [7] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [12] = { -- NOTE: Missing abilities
+    [13] = { -- NOTE: Missing abilities
         Id = "8983",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "argelmach" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "argelmach" .. IMPF,
@@ -265,7 +296,7 @@ BRD.Bosses = {
             [6] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [13] = { -- NOTE: Missing abilities
+    [14] = { -- NOTE: Missing abilities
         Id = "9537",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "blackbreath" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "blackbreath" .. IMPF,
@@ -281,7 +312,7 @@ BRD.Bosses = {
             [5] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [14] = { -- NOTE: Missing abilities
+    [15] = { -- NOTE: Missing abilities
         Id = "9543",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "ribbly" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "ribbly" .. IMPF,
@@ -296,7 +327,7 @@ BRD.Bosses = {
             [4] = {IJDB.I[11612], DropChance = 3}
         }
     },
-    [15] = { -- NOTE: Missing abilities
+    [16] = { -- NOTE: Missing abilities
         Id = "9502",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "phalanx" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "phalanx" .. IMPF,
@@ -311,7 +342,7 @@ BRD.Bosses = {
             [4] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [16] = { -- NOTE: Missing abilities
+    [17] = { -- NOTE: Missing abilities
         Id = "9499",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "spazzring" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "spazzring" .. IMPF,
@@ -325,7 +356,7 @@ BRD.Bosses = {
             [3] = {IJDB.I[12791], DropChance = 18}
         }
     },
-    [17] = { -- NOTE: Missing abilities
+    [18] = { -- NOTE: Missing abilities
         Id = "9156",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "flamelash" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "flamelash" .. IMPF,
@@ -343,7 +374,7 @@ BRD.Bosses = {
             [7] = {IJDB.I[51217], DropChance = 5}
         }
     },
-    [18] = { -- NOTE: Missing abilities
+    [19] = { -- NOTE: Missing abilities
         Id = "8923",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "panzor" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "panzor" .. IMPF,
@@ -359,7 +390,7 @@ BRD.Bosses = {
             [4] = {IJDB.I[22245], DropChance = 25}
         }
     },
-    [19] = { -- NOTE: Missing abilities
+    [20] = { -- NOTE: Missing abilities
         Id = "9040",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "seven" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "seven" .. IMPF,
@@ -378,7 +409,7 @@ BRD.Bosses = {
             [8] = {IJDB.I[11927], DropChance = 25}
         }
     },
-    [20] = { -- NOTE: Missing abilities
+    [21] = { -- NOTE: Missing abilities
         Id = "9938",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "magmus" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "magmus" .. IMPF,
@@ -396,7 +427,7 @@ BRD.Bosses = {
             [7] = {IJDB.I[51217], DropChance = 5}
         }
     },
-    [21] = { -- NOTE: Missing abilities
+    [22] = { -- NOTE: Missing abilities
         Id = "9019",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "emperor" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "emperor" .. IMPF,

@@ -1813,8 +1813,16 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_16101 = "Jarien und Sothos"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_16101 =
         "Jarien und Sothos waren Geschwister in Bodleys Söldnertruppe. Nach deren Auflösung nahmen sie ein Fragment von Lord Valthalaks Amulett an sich und wollten dem Scharlachroten Kreuzzug beitreten. Großkreuzfahrer Dathrohan tötete sie, weil sie die Aufnahmeriten in seiner Kammer nicht bestanden. Ihre Überreste können dort beschworen werden, um das Amulettfragment zurückzuerlangen."
+    IJ_DB_DUNGEON_BRD_BOSS_NAME_16059 = "Theldren und seine Gladiatoren"
+    IJ_DB_DUNGEON_BRD_BOSS_STORY_16059 =
+        "Theldren und seine Gladiatoren erwarten Herausforderer im Ring des Gesetzes der Schwarzfelstiefen. Das Banner der Provokation lockt sie zu einem besonderen Arenakampf, bei dem Abenteurer das erste Fragment von Lord Valthalaks Amulett für Anthion Harmon zurückerlangen können."
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_jariensothossummoning =
         "Besiegt Großkreuzfahrer Dathrohan und benutzt dann das Räuchergefäß der Anrufung in seiner Kammer, um Jarien und Sothos während der Questreihe des Dungeonsets 2 zu beschwören."
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_theldrensummoning =
+        "Platziert während Die Herausforderung das Banner der Provokation in der Mitte des Rings des Gesetzes, während Oberrichter Grimmstein die Gruppe verurteilt. Dadurch betreten Theldren und seine Gladiatoren die Arena."
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_arenaspoils = "Arenabeute"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_arenaspoils =
+        "Sammelt nach dem Sieg über Theldren und seine Gladiatoren die Ausrüstung aus der Arenabeutetruhe."
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15284 = "Spalten"
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15284 =
         "Fügt einem Gegner und nahen Verbündeten körperlichen Schaden zu und trifft bis zu 3 Ziele."
@@ -1854,8 +1862,14 @@ if GetLocale() == "deDE" then
     IJ_LOOT_NAME_22328 = "Beinplatten der Wachsamkeit"
     IJ_LOOT_NAME_22329 = "Szepter des endlosen Fokus"
     IJ_LOOT_NAME_22334 = "Band der Heilung"
+    IJ_LOOT_NAME_22305 = "Eisengewebter Mantel"
+    IJ_LOOT_NAME_22317 = "Leftys Schlagring"
+    IJ_LOOT_NAME_22318 = "Malgens Langbogen"
+    IJ_LOOT_NAME_22330 = "Schleier der arkanen Meisterschaft"
     IJ_LOOT_NAME_18807 = "Helm der latenten Macht"
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jariensothossummoning = "Beschwörung"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_theldrensummoning = "Beschwörung"
+
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_siblingspirits = "Geister der Geschwister"
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_siblingspirits =
         "Wenn eines der Geschwister stirbt, erscheint sein Geist und greift das überlebende Geschwister an."

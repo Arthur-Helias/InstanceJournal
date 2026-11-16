@@ -1812,8 +1812,16 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_16101 = "Jarien et Sothos"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_16101 =
         "Jarien et Sothos étaient frère et sœur dans la compagnie de mercenaires de Bodley. Après sa dissolution, ils emportèrent un fragment de l’amulette du seigneur Valthalak et cherchèrent à rejoindre la Croisade écarlate. Le Grand croisé Dathrohan les tua après leur échec aux rites d’initiation dans sa salle. Leurs dépouilles peuvent y être invoquées pour récupérer le fragment."
+    IJ_DB_DUNGEON_BRD_BOSS_NAME_16059 = "Theldren et ses gladiateurs"
+    IJ_DB_DUNGEON_BRD_BOSS_STORY_16059 =
+        "Theldren et ses gladiateurs attendent leurs adversaires dans le Cercle de la loi des Profondeurs de Rochenoire. La Bannière de provocation les attire dans un défi spécial de l’arène, où les aventuriers peuvent récupérer le premier fragment de l’amulette du seigneur Valthalak pour Anthion Harmon."
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_jariensothossummoning =
         "Vainquez le Grand croisé Dathrohan, puis utilisez le Brasero de signal dans sa salle pour invoquer Jarien et Sothos pendant la suite de quêtes de l’ensemble de donjon 2."
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_theldrensummoning =
+        "Pendant Le défi, placez la Bannière de provocation au centre du Cercle de la loi lorsque le Haut juge Mornepierre condamne le groupe. Theldren et ses gladiateurs entrent alors dans l’arène."
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_arenaspoils = "Butin de l’arène"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_arenaspoils =
+        "Après avoir vaincu Theldren et ses gladiateurs, récupérez l’équipement dans le coffre du Butin de l’arène."
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15284 = "Fendre"
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15284 =
         "Inflige des dégâts physiques à un ennemi et à ses alliés proches, touchant jusqu’à 3 cibles."
@@ -1853,8 +1861,14 @@ if GetLocale() == "frFR" then
     IJ_LOOT_NAME_22328 = "Cuissards de vigilance"
     IJ_LOOT_NAME_22329 = "Sceptre de focalisation interminable"
     IJ_LOOT_NAME_22334 = "Bague de guérison"
+    IJ_LOOT_NAME_22305 = "Mantelet Tisse-fer"
+    IJ_LOOT_NAME_22317 = "Coup-de-poing de Gaucher"
+    IJ_LOOT_NAME_22318 = "Arc long de Malgen"
+    IJ_LOOT_NAME_22330 = "Voile de maîtrise des arcanes"
     IJ_LOOT_NAME_18807 = "Heaume de puissance latente"
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jariensothossummoning = "Invocation"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_theldrensummoning = "Invocation"
+
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_siblingspirits = "Esprits des frère et sœur"
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_siblingspirits =
         "Lorsque l’un des deux meurt, son esprit apparaît et attaque le survivant."

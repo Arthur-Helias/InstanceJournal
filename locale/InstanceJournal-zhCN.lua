@@ -2812,8 +2812,16 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_16101 = "贾林与索索斯"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_16101 =
         "贾林与索索斯是伯德雷佣兵队伍中的一对姐弟。队伍解散后，他们带走了瓦塔拉克饰品的一块碎片，并试图加入血色十字军。两人在大十字军战士达索汉的房间内未能通过入会仪式，被达索汉杀死。可以在那里召唤他们的遗骸，夺回饰品碎片。"
+    IJ_DB_DUNGEON_BRD_BOSS_NAME_16059 = "塞尔德林及其角斗士"
+    IJ_DB_DUNGEON_BRD_BOSS_STORY_16059 =
+        "塞尔德林及其角斗士在黑石深渊的秩序竞技场等待挑战者。挑衅之旗会引来他们，开启一场特殊的竞技场挑战。冒险者可在此为安泰恩·哈尔蒙夺回瓦塔拉克饰品的第一块碎片。"
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_jariensothossummoning =
         "击败大十字军战士达索汉后，在他的房间使用召唤火盆，召唤贾林与索索斯，完成地下城套装2任务线的相关任务。"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_theldrensummoning =
+        "在“挑战”任务期间，当裁决者格里斯通对队伍宣判时，将挑衅之旗插在秩序竞技场中央，引出塞尔德林及其角斗士。"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_arenaspoils = "竞技场战利品"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_arenaspoils =
+        "击败塞尔德林及其角斗士后，从竞技场战利品箱中领取装备。"
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15284 = "顺劈斩"
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15284 =
         "对一名敌人及其附近盟友造成物理伤害，最多命中3个目标。"
@@ -2853,8 +2861,14 @@ if GetLocale() == "zhCN" then
     IJ_LOOT_NAME_22328 = "警觉腿铠"
     IJ_LOOT_NAME_22329 = "无尽专注节杖"
     IJ_LOOT_NAME_22334 = "修复之戒"
+    IJ_LOOT_NAME_22305 = "铁纹衬肩"
+    IJ_LOOT_NAME_22317 = "左撇子的黄铜指虎"
+    IJ_LOOT_NAME_22318 = "玛尔根的长弓"
+    IJ_LOOT_NAME_22330 = "奥术掌握披风"
     IJ_LOOT_NAME_18807 = "潜能头盔"
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jariensothossummoning = "召唤"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_theldrensummoning = "召唤"
+
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_siblingspirits = "姐弟之魂"
     IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_siblingspirits =
         "当其中一人死亡时，其灵魂会出现并攻击仍然存活的另一人。"
