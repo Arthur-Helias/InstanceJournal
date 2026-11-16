@@ -1811,6 +1811,19 @@ IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15041 = "Fire Ward"
 IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
     "Absorbs Fire damage for up to 60 sec.\n\nRemove this Magic buff."
 
+IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12674 = "Frost Nova"
+IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12674 =
+    "Deals Frost damage to nearby enemies and roots them for up to 8 sec.\n\nDispel this Magic effect."
+IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12675 = "Frostbolt"
+IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12675 =
+    "Deals Frost damage to an enemy. Reduces the target’s movement speed for 4 sec.\n\nDispel this Magic effect."
+IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12544 = "Frost Armor"
+IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12544 =
+    "Increases armor and slows the movement and attack speed of melee attackers.\n\nRemove this Magic buff."
+IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_15044 = "Frost Ward"
+IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
+    "Absorbs Frost damage for up to 60 sec.\n\nRemove this Magic buff."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

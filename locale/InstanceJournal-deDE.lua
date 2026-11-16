@@ -1335,6 +1335,19 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
         "Absorbiert bis zu 60 Sek. lang Feuerschaden.\n\nEntfernt diesen magischen Stärkungseffekt."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12674 = "Frostnova"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12674 =
+        "Fügt nahen Gegnern Frostschaden zu und macht sie bis zu 8 Sek. lang bewegungsunfähig.\n\nBannt diesen magischen Effekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12675 = "Frostblitz"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12675 =
+        "Fügt einem Gegner Frostschaden zu. Verringert das Bewegungstempo des Ziels für 4 Sek.\n\nBannt diesen magischen Effekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12544 = "Frostrüstung"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12544 =
+        "Erhöht die Rüstung und verringert Bewegungs- und Angriffstempo von Nahkampfangreifern.\n\nEntfernt diesen magischen Stärkungseffekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_15044 = "Frostzauberschutz"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
+        "Absorbiert bis zu 60 Sek. lang Frostschaden.\n\nEntfernt diesen magischen Stärkungseffekt."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

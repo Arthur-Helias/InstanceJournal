@@ -1905,6 +1905,19 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
         "吸收火焰伤害，最多持续60秒。\n\n驱散此增益魔法效果。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12674 = "冰霜新星"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12674 =
+        "对附近的敌人造成冰霜伤害，并使其无法移动，最多持续8秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12675 = "寒冰箭"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12675 =
+        "对一名敌人造成冰霜伤害。 降低目标的移动速度，持续4秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12544 = "霜甲术"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12544 =
+        "提高护甲，并降低近战攻击者的移动速度和攻击速度。\n\n驱散此增益魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_15044 = "防护冰霜结界"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
+        "吸收冰霜伤害，最多持续60秒。\n\n驱散此增益魔法效果。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

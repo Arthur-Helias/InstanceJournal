@@ -1359,6 +1359,19 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
         "Поглощает урон от огня до 60 сек.\n\nСнимите этот положительный магический эффект."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12674 = "Кольцо льда"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12674 =
+        "Наносит урон от магии льда ближайшим противникам и обездвиживает их до 8 сек.\n\nРассеяйте этот магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12675 = "Ледяная стрела"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12675 =
+        "Наносит противнику урон от магии льда. Снижает скорость передвижения цели на 4 сек.\n\nРассеяйте этот магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12544 = "Морозный доспех"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12544 =
+        "Повышает броню и снижает скорость передвижения и атаки противников, атакующих в ближнем бою.\n\nСнимите этот положительный магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_15044 = "Защита от магии льда"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
+        "Поглощает урон от магии льда до 60 сек.\n\nСнимите этот положительный магический эффект."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

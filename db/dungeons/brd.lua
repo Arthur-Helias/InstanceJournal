@@ -274,7 +274,7 @@ BRD.Bosses = {
             [6] = {IJDB.I[11747], DropChance = 25}
         }
     },
-    [7] = { -- NOTE: Missing abilities
+    [7] = {
         Id = "9041",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "stilgiss" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "stilgiss" .. IMPF,
@@ -283,6 +283,36 @@ BRD.Bosses = {
         MapCoordinateX = 60.6,
         MapCoordinateY = 53.0,
         IsRare = true,
+        Abilities = {
+            [1] = {
+                Id = "12674",
+                Icon = "Spell_Frost_FrostNova",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12674,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12674,
+                Flags = {IMAF.Magic}
+            },
+            [2] = {
+                Id = "12675",
+                Icon = "Spell_Frost_FrostBolt02",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12675,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12675,
+                Flags = {IMAF.Magic}
+            },
+            [3] = {
+                Id = "12544",
+                Icon = "Spell_Frost_FrostArmor02",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12544,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12544,
+                Flags = {IMAF.Magic}
+            },
+            [4] = {
+                Id = "15044",
+                Icon = "Spell_Frost_FrostWard",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_15044,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11782], DropChance = 25},
             [2] = {IJDB.I[11783], DropChance = 25},

@@ -1331,6 +1331,19 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
         "Absorve dano de Fogo por até 60 s.\n\nRemova este bônus mágico."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12674 = "Nova Congelante"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12674 =
+        "Causa dano de Gelo aos inimigos próximos e os enraíza por até 8 s.\n\nDissipe este efeito mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12675 = "Seta de Gelo"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12675 =
+        "Causa dano de Gelo a um inimigo. Reduz a velocidade de movimento do alvo por 4 s.\n\nDissipe este efeito mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12544 = "Armadura Gélida"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12544 =
+        "Aumenta a armadura e reduz a velocidade de movimento e de ataque dos atacantes corpo a corpo.\n\nRemova este bônus mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_15044 = "Proteção contra Gelo"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
+        "Absorve dano de Gelo por até 60 s.\n\nRemova este bônus mágico."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

@@ -1334,6 +1334,19 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
         "Absorbe daño de Fuego durante un máximo de 60 s.\n\nElimina este beneficio mágico."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12674 = "Nova de Escarcha"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12674 =
+        "Inflige daño de Escarcha a los enemigos cercanos y los inmoviliza durante un máximo de 8 s.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12675 = "Descarga de Escarcha"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12675 =
+        "Inflige daño de Escarcha a un enemigo. Reduce la velocidad de movimiento del objetivo durante 4 s.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12544 = "Armadura de Escarcha"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12544 =
+        "Aumenta la armadura y reduce la velocidad de movimiento y de ataque de los atacantes cuerpo a cuerpo.\n\nElimina este beneficio mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_15044 = "Resguardo contra la Escarcha"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
+        "Absorbe daño de Escarcha durante un máximo de 60 s.\n\nElimina este beneficio mágico."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

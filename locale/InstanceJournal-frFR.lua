@@ -1334,6 +1334,19 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
         "Absorbe les dégâts de Feu pendant 60 s au maximum.\n\nDissipez cet effet bénéfique magique."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12674 = "Nova de givre"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12674 =
+        "Inflige des dégâts de Givre aux ennemis proches et les immobilise pendant 8 s au maximum.\n\nDissipez cet effet magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12675 = "Éclair de givre"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12675 =
+        "Inflige des dégâts de Givre à un ennemi. Réduit la vitesse de déplacement de la cible pendant 4 s.\n\nDissipez cet effet magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12544 = "Armure de givre"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12544 =
+        "Augmente l’armure et ralentit les déplacements et la vitesse d’attaque des attaquants en mêlée.\n\nDissipez cet effet bénéfique magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_15044 = "Gardien de givre"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
+        "Absorbe les dégâts de Givre pendant 60 s au maximum.\n\nDissipez cet effet bénéfique magique."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
