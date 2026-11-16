@@ -1289,6 +1289,19 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_STORY =
         "Die schwelenden Schwarzfelstiefen sind die Heimat der Dunkeleisenzwerge und ihres Kaisers Dagran Thaurissan. Wie seine Vorgänger steht er unter der eisernen Herrschaft von Ragnaros, dem Feuerlord, einem gnadenlosen Wesen, das vor Jahrhunderten in die Welt gerufen wurde. Die Anwesenheit chaotischer Elementare hat Kultisten des Zwielichthammers in die Bergdomäne gelockt. Zusammen mit Ragnaros' Dienern haben sie die Zwerge zu immer zerstörerischeren Zielen gedrängt, die bald den Untergang für ganz Azeroth bedeuten könnten."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14033 = "Manabrand"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14033 =
+        "Verbrennt das Mana eines Gegners und verursacht abhängig von der verbrannten Menge Schattenschaden.\n\nUnterbrecht diesen Zauber."
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_13704 = "Psychischer Schrei"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_13704 =
+        "Lässt bis zu 5 Gegner innerhalb von 8 Metern 6 Sek. lang vor Furcht fliehen."
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14032 = "Schattenwort: Schmerz"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14032 =
+        "Verursacht 18 Sek. lang alle 3 Sek. Schattenschaden.\n\nBannt diesen magischen Effekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_12040 = "Schattenschild"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040 =
+        "Absorbiert bis zu 30 Sek. lang eingehenden körperlichen und magischen Schaden und schädigt Nahkampfangreifer.\n\nEntfernt diesen magischen Stärkungseffekt."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

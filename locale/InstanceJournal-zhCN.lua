@@ -1859,6 +1859,19 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_STORY =
         "闷烧的黑石深渊是黑铁矮人和他们的皇帝达格兰·索瑞森的家园。和他的前任一样，他在炎魔拉格纳罗斯的铁腕统治下服役，炎魔拉格纳罗斯是几个世纪前被召唤到这个世界的无情生物。混乱元素的存在吸引了暮光之锤信徒来到山域。他们与拉格纳罗斯的仆人一起，将矮人推向了日益具有破坏性的目的，这可能很快就会给整个艾泽拉斯带来毁灭。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14033 = "法力燃烧"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14033 =
+        "燃烧一名敌人的法力值，并根据燃烧的法力值造成暗影伤害。\n\n打断此施法。"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_13704 = "心灵尖啸"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_13704 =
+        "使8码内最多5名敌人因恐惧而逃跑，持续6秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14032 = "暗言术：痛"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14032 =
+        "每3秒造成一次暗影伤害，持续18秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_12040 = "暗影护盾"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040 =
+        "吸收受到的物理和魔法伤害，最多持续30秒，并对近战攻击者造成伤害。\n\n驱散此增益魔法效果。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

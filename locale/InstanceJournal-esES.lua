@@ -1288,6 +1288,19 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_STORY =
         "Las humeantes Profundidades de Roca Negra son el hogar de los enanos Hierro Negro y su emperador, Dagran Thaurissan. Al igual que sus predecesores, sirve bajo el gobierno de hierro de Ragnaros el Señor del Fuego, un ser despiadado convocado al mundo hace siglos. La presencia de elementales caóticos ha atraído a los cultistas del Martillo Crepuscular al dominio de la montaña. Junto con los sirvientes de Ragnaros, han empujado a los enanos hacia fines cada vez más destructivos que pronto podrían significar la perdición para todo Azeroth."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14033 = "Quemadura de maná"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14033 =
+        "Quema el maná de un enemigo e inflige daño de las Sombras según la cantidad quemada.\n\nInterrumpe este lanzamiento."
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_13704 = "Alarido psíquico"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_13704 =
+        "Hace que hasta 5 enemigos en un radio de 8 m huyan aterrorizados durante 6 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14032 = "Palabra de las Sombras: dolor"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14032 =
+        "Inflige daño de las Sombras cada 3 s durante 18 s.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_12040 = "Escudo de las Sombras"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040 =
+        "Absorbe el daño físico y mágico recibido durante un máximo de 30 s y daña a los atacantes cuerpo a cuerpo.\n\nElimina este beneficio mágico."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

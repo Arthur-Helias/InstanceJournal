@@ -1288,6 +1288,19 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_STORY =
         "Les Profondeurs fumantes de Rochenoire abritent les nains Sombrefer et leur empereur, Dagran Thaurissan. Comme ses prédécesseurs, il sert sous le règne de fer de Ragnaros, le Seigneur du Feu, un être impitoyable invoqué dans le monde il y a des siècles. La présence d'élémentaires chaotiques a attiré les adeptes du Marteau du Crépuscule vers le domaine montagneux. Avec les serviteurs de Ragnaros, ils ont poussé les nains vers des fins de plus en plus destructrices qui pourraient bientôt sonner le glas de tout Azeroth."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14033 = "Brûlure de mana"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14033 =
+        "Brûle le mana d’un ennemi et inflige des dégâts d’Ombre selon la quantité brûlée.\n\nInterrompez cette incantation."
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_13704 = "Cri psychique"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_13704 =
+        "Fait fuir de peur jusqu’à 5 ennemis dans un rayon de 8 mètres pendant 6 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14032 = "Mot de l’ombre : Douleur"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14032 =
+        "Inflige des dégâts d’Ombre toutes les 3 s pendant 18 s.\n\nDissipez cet effet magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_12040 = "Bouclier de l’ombre"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040 =
+        "Absorbe les dégâts physiques et magiques reçus pendant 30 s au maximum et blesse les attaquants en mêlée.\n\nDissipez cet effet bénéfique magique."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

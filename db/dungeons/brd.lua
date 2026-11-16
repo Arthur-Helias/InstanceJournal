@@ -30,7 +30,7 @@ BRD.Entrances = {
     }
 }
 BRD.Bosses = {
-    [1] = { -- NOTE: Missing abilities
+    [1] = {
         Id = "9018",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "gerstahn" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "gerstahn" .. IMPF,
@@ -38,6 +38,35 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9018,
         MapCoordinateX = 51.3,
         MapCoordinateY = 93.6,
+        Abilities = {
+            [1] = {
+                Id = "14033",
+                Icon = "Spell_Shadow_ManaBurn",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14033,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14033,
+                Flags = {IMAF.Interruptible}
+            },
+            [2] = {
+                Id = "13704",
+                Icon = "Spell_Shadow_PsychicScream",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_13704,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_13704
+            },
+            [3] = {
+                Id = "14032",
+                Icon = "Spell_Shadow_ShadowWordPain",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14032,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14032,
+                Flags = {IMAF.Magic}
+            },
+            [4] = {
+                Id = "12040",
+                Icon = "Spell_Shadow_AntiShadow",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_12040,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11624], DropChance = 25},
             [2] = {IJDB.I[11625], DropChance = 25},

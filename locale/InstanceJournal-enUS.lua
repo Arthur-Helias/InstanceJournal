@@ -1765,6 +1765,19 @@ IJ_DB_DUNGEON_BRD_NAME = "Blackrock Depths"
 IJ_DB_DUNGEON_BRD_STORY =
     "The smoldering Blackrock Depths are home to the Dark Iron dwarves and their emperor, Dagran Thaurissan. Like his predecessors, he serves under the iron rule of Ragnaros the Firelord, a merciless being summoned into the world centuries ago. The presence of chaotic elementals has attracted Twilight's Hammer cultists to the mountain domain. Along with Ragnaros' servants, they have pushed the dwarves toward increasingly destructive ends that could soon spell doom for all of Azeroth."
 
+IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14033 = "Mana Burn"
+IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14033 =
+    "Burns an enemy’s mana and deals Shadow damage based on the amount burned.\n\nInterrupt this cast."
+IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_13704 = "Psychic Scream"
+IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_13704 =
+    "Causes up to 5 enemies within 8 yards to flee in fear for 6 sec."
+IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14032 = "Shadow Word: Pain"
+IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14032 =
+    "Deals Shadow damage every 3 sec. for 18 sec.\n\nDispel this Magic effect."
+IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_12040 = "Shadow Shield"
+IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040 =
+    "Absorbs incoming Physical and magical damage for up to 30 sec. and damages melee attackers.\n\nRemove this Magic buff."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

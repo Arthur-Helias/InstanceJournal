@@ -1285,6 +1285,19 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_STORY =
         "As fumegantes Profundezas da Rocha Negra são o lar dos anões Ferro Negro e de seu imperador, Dagran Thaurissan. Assim como seus antecessores, ele serve sob o domínio férreo de Ragnaros, o Senhor do Fogo, um ser impiedoso convocado ao mundo séculos atrás. A presença de elementais caóticos atraiu os cultistas do Martelo do Crepúsculo para o domínio montanhoso. Junto com os servos de Ragnaros, eles empurraram os anões para fins cada vez mais destrutivos que em breve poderão significar a ruína para toda Azeroth."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14033 = "Queimadura de Mana"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14033 =
+        "Queima a mana de um inimigo e causa dano de Sombra com base na quantidade queimada.\n\nInterrompa o lançamento."
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_13704 = "Grito Psíquico"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_13704 =
+        "Faz até 5 inimigos em um raio de 8 m fugirem de medo por 6 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14032 = "Palavra Sombria: Dor"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14032 =
+        "Causa dano de Sombra a cada 3 s por 18 s.\n\nDissipe este efeito mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_12040 = "Escudo Sombrio"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040 =
+        "Absorve dano físico e mágico recebido por até 30 s e causa dano aos atacantes corpo a corpo.\n\nRemova este bônus mágico."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
