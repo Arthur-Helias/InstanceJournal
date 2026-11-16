@@ -2028,6 +2028,10 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
         "战斗中燃烧之魂会被吞噬，为首领施加可叠加的增益效果，提高伤害和体型，持续180秒。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_NAME_9941 = "法术反射"
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941 =
+        "有20%的几率反射受到的法术。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

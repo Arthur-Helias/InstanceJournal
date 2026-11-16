@@ -1457,6 +1457,10 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
         "Los espíritus ardientes son consumidos durante el combate y otorgan al jefe un beneficio acumulable que aumenta el daño y el tamaño durante 180 s."
 
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_NAME_9941 = "Reflejo de hechizos"
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941 =
+        "Tiene un 20% de probabilidad de reflejar los hechizos recibidos."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

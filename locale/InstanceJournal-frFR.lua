@@ -1457,6 +1457,10 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
         "Les esprits ardents sont consumés pendant le combat et confèrent au boss un effet cumulable qui augmente ses dégâts et sa taille pendant 180 s."
 
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_NAME_9941 = "Renvoi de sort"
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941 =
+        "A 20% de chances de renvoyer les sorts reçus."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

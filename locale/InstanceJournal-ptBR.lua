@@ -1454,6 +1454,10 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
         "Espíritos Ardentes são consumidos durante a luta, concedendo ao chefe um bônus cumulativo que aumenta o dano e o tamanho por 180 s."
 
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_NAME_9941 = "Reflexão de Feitiços"
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941 =
+        "Tem 20% de chance de refletir feitiços recebidos."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

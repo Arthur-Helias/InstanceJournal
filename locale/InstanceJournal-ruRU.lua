@@ -1482,6 +1482,10 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
         "Пылающие духи поглощаются во время боя, давая боссу суммирующийся эффект, повышающий урон и размер на 180 сек."
 
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_NAME_9941 = "Отражение заклинаний"
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941 =
+        "С вероятностью 20% отражает направленные на него заклинания."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

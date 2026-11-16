@@ -1934,6 +1934,10 @@ IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_14744 = "Burning Spirit"
 IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
     "Burning Spirits are consumed during the fight, granting the boss a stacking buff that increases damage and size for 180 sec."
 
+IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_NAME_9941 = "Spell Reflection"
+IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941 =
+    "Has a 20% chance to reflect incoming spells."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

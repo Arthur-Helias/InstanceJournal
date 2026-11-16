@@ -732,7 +732,7 @@ BRD.Bosses = {
             [7] = {IJDB.I[51217], DropChance = 5}
         }
     },
-    [19] = { -- NOTE: Missing abilities
+    [19] = {
         Id = "8923",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "panzor" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "panzor" .. IMPF,
@@ -741,6 +741,14 @@ BRD.Bosses = {
         MapCoordinateX = 50.6,
         MapCoordinateY = 29.2,
         IsRare = true,
+        Abilities = {
+            [1] = {
+                Id = "9941",
+                Icon = "Spell_Shadow_Teleport",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_NAME_9941,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11785], DropChance = 25}, 
             [2] = {IJDB.I[11786], DropChance = 25}, 

@@ -1458,6 +1458,10 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
         "Brennende Geister werden im Kampf verzehrt und gewähren dem Boss einen stapelbaren Stärkungseffekt, der Schaden und Größe für 180 Sek. erhöht."
 
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_NAME_9941 = "Zauberreflexion"
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941 =
+        "Hat eine Chance von 20%, eingehende Zauber zu reflektieren."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
