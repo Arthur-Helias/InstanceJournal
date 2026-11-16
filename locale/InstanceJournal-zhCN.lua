@@ -1974,6 +1974,16 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
         "战斗开始时有四名怒炉预备兵随行。生命值较低时，可能有更多预备兵和医师加入战斗。控制援军，并阻止医师治疗。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15305 = "闪电链"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15305 =
+        "造成自然伤害，并在最多5个目标之间跳跃，每次跳跃都会提高伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15605 = "震击"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15605 =
+        "对一名敌人造成自然伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15507 = "闪电之盾"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
+        "使施法者周围环绕闪电，受到攻击时可能对攻击者造成伤害。\n\n驱散此增益魔法效果。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

@@ -1428,6 +1428,16 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
         "Начинает бой с четырьмя резервистами Кузни Гнева. При низком уровне здоровья могут присоединиться новые резервисты и медики. Контролируйте подкрепления и не давайте медикам лечить."
 
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15305 = "Цепная молния"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15305 =
+        "Наносит урон от сил природы, перескакивая между максимум 5 целями и усиливаясь с каждым скачком."
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15605 = "Шок"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15605 =
+        "Наносит противнику урон от сил природы."
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15507 = "Щит молний"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
+        "Окружает заклинателя молниями, которые могут наносить урон атакующим при попадании.\n\nСнимите этот положительный магический эффект."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

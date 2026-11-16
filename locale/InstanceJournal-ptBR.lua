@@ -1400,6 +1400,16 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
         "Inicia a luta acompanhado de quatro reservistas. Mais reservistas e médicos podem entrar na luta quando sua vida está baixa. Controle os reforços e impeça as curas dos médicos."
 
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15305 = "Cadeia de Relâmpagos"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15305 =
+        "Causa dano de Natureza que salta entre até 5 alvos, aumentando a cada salto."
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15605 = "Choque"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15605 =
+        "Causa dano de Natureza a um inimigo."
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15507 = "Escudo de Raios"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
+        "Envolve o lançador em raios que podem causar dano aos atacantes quando eles acertam um ataque.\n\nRemova este bônus mágico."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

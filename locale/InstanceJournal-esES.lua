@@ -1403,6 +1403,16 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
         "Comienza el combate con cuatro reservistas Yunque Colérico. Pueden unirse más reservistas y médicos cuando le queda poca salud. Controla los refuerzos e impide las curas de los médicos."
 
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15305 = "Cadena de relámpagos"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15305 =
+        "Inflige daño de Naturaleza que salta entre un máximo de 5 objetivos y aumenta con cada salto."
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15605 = "Choque"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15605 =
+        "Inflige daño de Naturaleza a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15507 = "Escudo de relámpagos"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
+        "Rodea al taumaturgo de relámpagos que pueden dañar a los atacantes cuando lo golpean.\n\nElimina este beneficio mágico."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

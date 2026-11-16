@@ -1404,6 +1404,16 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
         "Beginnt den Kampf mit vier Reservisten der Zorneshämmer. Bei niedriger Gesundheit können weitere Reservisten und Sanitäter hinzukommen. Kontrolliert die Verstärkung und verhindert die Heilung durch die Sanitäter."
 
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15305 = "Kettenblitz"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15305 =
+        "Verursacht Naturschaden, der auf bis zu 5 Ziele überspringt und mit jedem Sprung zunimmt."
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15605 = "Schock"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15605 =
+        "Fügt einem Gegner Naturschaden zu."
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15507 = "Blitzschlagschild"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
+        "Umhüllt den Zaubernden mit Blitzen, die Angreifern bei Treffern Schaden zufügen können.\n\nEntfernt diesen magischen Stärkungseffekt."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

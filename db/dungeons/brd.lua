@@ -524,7 +524,7 @@ BRD.Bosses = {
             [7] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [13] = { -- NOTE: Missing abilities
+    [13] = {
         Id = "8983",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "argelmach" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "argelmach" .. IMPF,
@@ -532,6 +532,27 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_8983,
         MapCoordinateX = 42.4,
         MapCoordinateY = 52.1,
+        Abilities = {
+            [1] = {
+                Id = "15305",
+                Icon = "Spell_Nature_ChainLightning",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15305,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15305
+            },
+            [2] = {
+                Id = "15605",
+                Icon = "Spell_Nature_WispHeal",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15605,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15605
+            },
+            [3] = {
+                Id = "15507",
+                Icon = "Spell_Nature_LightningShield",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15507,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11669], DropChance = 25},
             [2] = {IJDB.I[11819], DropChance = 25},

@@ -1880,6 +1880,16 @@ IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_reinforcements = "Reinforcements"
 IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
     "Begins the fight with four Anvilrage Reservists. Additional Reservists and Medics can join when his health is low. Control the reinforcements and stop the Medics from healing."
 
+IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15305 = "Chain Lightning"
+IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15305 =
+    "Deals Nature damage that jumps between up to 5 targets, increasing with each jump."
+IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15605 = "Shock"
+IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15605 =
+    "Deals Nature damage to an enemy."
+IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15507 = "Lightning Shield"
+IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
+    "Surrounds the caster with lightning that can damage attackers when they hit.\n\nRemove this Magic buff."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

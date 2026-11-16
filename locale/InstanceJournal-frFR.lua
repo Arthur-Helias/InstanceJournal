@@ -1403,6 +1403,16 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
         "Commence le combat avec quatre réservistes Ragenclume. D’autres réservistes et médecins peuvent rejoindre le combat lorsqu’il lui reste peu de vie. Contrôlez les renforts et empêchez les médecins de soigner."
 
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15305 = "Chaîne d'éclairs"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15305 =
+        "Inflige des dégâts de Nature qui rebondissent entre 5 cibles au maximum et augmentent à chaque rebond."
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15605 = "Horion"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15605 =
+        "Inflige des dégâts de Nature à un ennemi."
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15507 = "Bouclier de foudre"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
+        "Entoure le lanceur d’éclairs pouvant blesser les attaquants lorsqu’ils le touchent.\n\nDissipez cet effet bénéfique magique."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
