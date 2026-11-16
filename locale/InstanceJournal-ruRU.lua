@@ -1182,6 +1182,36 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22713 = "Удар пламенем"
     IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22713 =
         "Наносит урон от огня и увеличивает получаемый урон от огня на 20 сек. Этот магический эффект можно рассеять."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22660 = "Облик лютого волка"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22660 =
+        "Превращается в лютого волка, повышая скорость атак ближнего боя и наносимый физический урон. Первой формой может быть как волк, так и дерево."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22688 = "Облик дерева"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22688 =
+        "Превращается в дерево, повышая броню и наносимый физический урон."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_7948 = "Дикая регенерация"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_7948 =
+        "Восстанавливает свое здоровье в течение 20 сек."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_10101 = "Отбрасывание"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_10101 =
+        "Наносит противнику физический урон и отбрасывает его."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_19319 = "Злобный укус"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_19319 =
+        "Кусает противника, нанося физический урон."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22661 = "Обессиливание"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22661 =
+        "Отравляет противника, вытягивая ману в течение 10 сек. Снимайте яд."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22662 = "Увядание"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22662 =
+        "Заражает противника болезнью, нанося урон от сил природы сразу и в течение 21 сек., а также снижая характеристики. Снимайте болезнь."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22689 = "Увечье"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22689 =
+        "Наносит физический урон в течение 20 сек. и снижает скорость передвижения цели на 50%."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22691 = "Разоружение"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22691 =
+        "Обезоруживает противника на 6 сек."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_MINIONS = "Прислужники Алззина"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS =
+        "Прислужники Алззина вступают в бой и атакуют группу. Будьте готовы перехватить их."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Пузилин"

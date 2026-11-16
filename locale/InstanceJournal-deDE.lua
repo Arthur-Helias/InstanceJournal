@@ -1159,6 +1159,36 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22713 = "Flammenpuffer"
     IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22713 =
         "Verursacht Feuerschaden und erhöht den erlittenen Feuerschaden 20 Sek. lang. Dieser Magieeffekt kann gebannt werden."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22660 = "Terrorwolfgestalt"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22660 =
+        "Verwandelt sich in einen Terrorwolf und erhöht Nahkampfangriffstempo und verursachten körperlichen Schaden. Die erste Verwandlung kann Wolf oder Baum sein."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22688 = "Baumgestalt"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22688 =
+        "Verwandelt sich in einen Baum und erhöht Rüstung und verursachten körperlichen Schaden."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_7948 = "Wilde Regeneration"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_7948 =
+        "Heilt sich selbst über 20 Sek."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_10101 = "Wegschlagen"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_10101 =
+        "Fügt einem Gegner körperlichen Schaden zu und stößt ihn zurück."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_19319 = "Heimtückischer Biss"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_19319 =
+        "Beißt einen Gegner und verursacht körperlichen Schaden."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22661 = "Entkräften"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22661 =
+        "Vergiftet einen Gegner und entzieht ihm über 10 Sek. Mana. Entfernt das Gift."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22662 = "Verdorren"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22662 =
+        "Belegt einen Gegner mit einer Krankheit, die sofort und über 21 Sek. Naturschaden verursacht und seine Attribute verringert. Entfernt die Krankheit."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22689 = "Zerfleischen"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22689 =
+        "Verursacht über 20 Sek. körperlichen Schaden und verringert das Bewegungstempo des Ziels um 50%."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22691 = "Entwaffnen"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22691 =
+        "Entwaffnet einen Gegner für 6 Sek."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_MINIONS = "Alzzins Diener"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS =
+        "Alzzins Diener greifen in den Kampf ein und attackieren die Gruppe. Seid bereit, sie abzufangen."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillin"

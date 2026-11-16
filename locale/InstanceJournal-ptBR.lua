@@ -1155,6 +1155,36 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22713 = "Golpe Flamejante"
     IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22713 =
         "Causa dano de Fogo e aumenta o dano de Fogo recebido por 20 s. Este efeito mágico pode ser dissipado."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22660 = "Forma de Lobo Atroz"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22660 =
+        "Transforma-se em lobo atroz, aumentando a velocidade dos ataques corpo a corpo e o dano Físico causado. A primeira transformação pode ser em lobo ou árvore."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22688 = "Forma de Árvore"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22688 =
+        "Transforma-se em árvore, aumentando a armadura e o dano Físico causado."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_7948 = "Regeneração Selvagem"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_7948 =
+        "Cura a si mesmo ao longo de 20 s."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_10101 = "Repelir"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_10101 =
+        "Causa dano Físico a um inimigo e o repele."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_19319 = "Mordida Cruel"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_19319 =
+        "Morde um inimigo, causando dano Físico."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22661 = "Enervar"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22661 =
+        "Envenena um inimigo, drenando mana ao longo de 10 s. Remova o veneno."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22662 = "Definhar"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22662 =
+        "Adoece um inimigo, causando dano de Natureza imediato e ao longo de 21 s, além de reduzir seus atributos. Remova a doença."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22689 = "Destroçar"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22689 =
+        "Causa dano Físico ao longo de 20 s e reduz a velocidade de movimento do alvo em 50%."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22691 = "Desarmar"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22691 =
+        "Desarma um inimigo por 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_MINIONS = "Lacaios de Alzzin"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS =
+        "Lacaios de Alzzin entram na luta e atacam o grupo. Prepare-se para segurá-los."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusilina"

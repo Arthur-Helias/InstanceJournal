@@ -1605,6 +1605,36 @@ IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16046 =
 IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22713 = "Flame Buffet"
 IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22713 =
     "Deals Fire damage and increases Fire damage taken for 20 sec. This Magic effect can be dispelled."
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22660 = "Dire Wolf Form"
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22660 =
+    "Transforms into a dire wolf, increasing melee attack speed and Physical damage dealt. Either wolf or tree form can be the first transformation."
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22688 = "Tree Form"
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22688 =
+    "Transforms into a tree, increasing armor and Physical damage dealt."
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_7948 = "Wild Regeneration"
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_7948 =
+    "Heals himself over 20 sec."
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_10101 = "Knock Away"
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_10101 =
+    "Deals Physical damage to an enemy and knocks them back."
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_19319 = "Vicious Bite"
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_19319 =
+    "Bites an enemy, dealing Physical damage."
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22661 = "Enervate"
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22661 =
+    "Poisons an enemy, draining mana over 10 sec. Remove the poison."
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22662 = "Wither"
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22662 =
+    "Diseases an enemy, dealing Nature damage immediately and over 21 sec., and reducing their attributes. Remove the disease."
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22689 = "Mangle"
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22689 =
+    "Deals Physical damage over 20 sec. and reduces the target’s movement speed by 50%."
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22691 = "Disarm"
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22691 =
+    "Disarms an enemy for 6 sec."
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_MINIONS = "Alzzin’s Minions"
+IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS =
+    "Alzzin’s Minions join the fight and attack the group. Be ready to pick them up."
 
 -- DME Bosses
 IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillin"

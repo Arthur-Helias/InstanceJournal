@@ -1158,6 +1158,36 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22713 = "Sacudida de llamas"
     IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22713 =
         "Inflige daño de Fuego y aumenta el daño de Fuego recibido durante 20 s. Este efecto mágico se puede disipar."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22660 = "Forma de lobo temible"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22660 =
+        "Se transforma en lobo temible, aumentando su velocidad de ataque cuerpo a cuerpo y su daño físico. La primera transformación puede ser en lobo o árbol."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22688 = "Forma de árbol"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22688 =
+        "Se transforma en árbol, aumentando su armadura y su daño físico."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_7948 = "Regeneración salvaje"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_7948 =
+        "Se sana durante 20 s."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_10101 = "Repeler"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_10101 =
+        "Inflige daño físico a un enemigo y lo repele."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_19319 = "Mordedura sañosa"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_19319 =
+        "Muerde a un enemigo e inflige daño físico."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22661 = "Enervar"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22661 =
+        "Envenena a un enemigo y drena su maná durante 10 s. Eliminad el veneno."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22662 = "Marchitar"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22662 =
+        "Enferma a un enemigo, infligiendo daño de Naturaleza inmediato y durante 21 s, y reduciendo sus atributos. Eliminad la enfermedad."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22689 = "Destrozar"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22689 =
+        "Inflige daño físico durante 20 s y reduce la velocidad de movimiento del objetivo un 50%."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22691 = "Desarmar"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22691 =
+        "Desarma a un enemigo durante 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_MINIONS = "Esbirros de Alzzin"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS =
+        "Los esbirros de Alzzin se unen al combate y atacan al grupo. Preparaos para recogerlos."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillín"

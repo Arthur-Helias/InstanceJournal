@@ -304,7 +304,7 @@ DME.Bosses = {
             [16] = {IJDB.I[18401], DropChance = 1}
         }
     },
-    [5] = { -- NOTE: Missing abilities
+    [5] = {
         Id = "11492",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "alzzin" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "alzzin" .. IMPF,
@@ -312,6 +312,70 @@ DME.Bosses = {
         Story = IJ_DB_DUNGEON_DME_BOSS_STORY_11492,
         MapCoordinateX = 75.8,
         MapCoordinateY = 55.3,
+        Abilities = {
+            [1] = {
+                Id = "22660",
+                Icon = "Spell_Nature_SpiritWolf",
+                Name = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22660,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22660
+            },
+            [2] = {
+                Id = "22688",
+                Icon = "Spell_Nature_SpiritWolf",
+                Name = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22688,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22688
+            },
+            [3] = {
+                Id = "7948",
+                Icon = "Spell_Nature_Rejuvenation",
+                Name = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_7948,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_7948
+            },
+            [4] = {
+                Id = "10101",
+                Icon = "INV_Gauntlets_05",
+                Name = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_10101,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_10101
+            },
+            [5] = {
+                Id = "19319",
+                Icon = "Ability_Racial_Cannibalize",
+                Name = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_19319,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_19319
+            },
+            [6] = {
+                Id = "22661",
+                Icon = "Ability_Creature_Poison_03",
+                Name = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22661,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22661,
+                Flags = {IMAF.Poison}
+            },
+            [7] = {
+                Id = "22662",
+                Icon = "Spell_Nature_NullifyDisease",
+                Name = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22662,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22662,
+                Flags = {IMAF.Disease}
+            },
+            [8] = {
+                Id = "22689",
+                Icon = "Ability_Druid_Disembowel",
+                Name = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22689,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22689
+            },
+            [9] = {
+                Id = "22691",
+                Icon = "Ability_Warrior_Disarm",
+                Name = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22691,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22691
+            },
+            [10] = {
+                Icon = "Spell_Shadow_SummonFelGuard",
+                Name = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_MINIONS,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS,
+                Flags = {IMAF.Tank}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[51217], DropChance = 100},
             [2] = {IJDB.I[18309], DropChance = 10},
@@ -339,7 +403,8 @@ DME.Bosses = {
             [24] = {IJDB.I[83574], DropChance = 10},
             [25] = {IJDB.I[70226], DropChance = 3}
         }
-    }
+    },
+
 }
 DME.Quests = {IJDB.Q[7441], IJDB.Q[7488], IJDB.Q[7489], IJDB.Q[5526], IJDB.Q[8967], IJDB.Q[8990], IJDB.Q[7581], IJDB.Q[7463], IJDB.Q[41016], IJDB.Q[41376]}
 

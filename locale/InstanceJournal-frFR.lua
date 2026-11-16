@@ -1158,6 +1158,36 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22713 = "Rafale de flammes"
     IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22713 =
         "Inflige des dégâts de Feu et augmente les dégâts de Feu subis pendant 20 s. Cet effet magique peut être dissipé."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22660 = "Forme de loup redoutable"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22660 =
+        "Se transforme en loup redoutable, augmentant sa vitesse d’attaque en mêlée et ses dégâts physiques. La première transformation peut être un loup ou un arbre."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22688 = "Forme d’arbre"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22688 =
+        "Se transforme en arbre, augmentant son armure et ses dégâts physiques."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_7948 = "Régénération sauvage"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_7948 =
+        "Se soigne pendant 20 s."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_10101 = "Repousser"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_10101 =
+        "Inflige des dégâts physiques à un ennemi et le repousse."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_19319 = "Morsure vicieuse"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_19319 =
+        "Mord un ennemi et lui inflige des dégâts physiques."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22661 = "Affaiblir"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22661 =
+        "Empoisonne un ennemi et draine son mana pendant 10 s. Dissipez le poison."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22662 = "Flétrissement"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22662 =
+        "Rend un ennemi malade, lui inflige des dégâts de Nature immédiats et pendant 21 s, et réduit ses caractéristiques. Dissipez la maladie."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22689 = "Mutilation"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22689 =
+        "Inflige des dégâts physiques pendant 20 s et réduit la vitesse de déplacement de la cible de 50%."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22691 = "Désarmer"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22691 =
+        "Désarme un ennemi pendant 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_MINIONS = "Serviteurs d’Alzzin"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS =
+        "Les serviteurs d’Alzzin rejoignent le combat et attaquent le groupe. Préparez-vous à les récupérer."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusilline"
