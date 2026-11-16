@@ -1809,6 +1809,37 @@ if GetLocale() == "esES" then
         "Las personas que buscan dominar los poderes de los no-muertos conocen bien la Scholomance, la infame escuela de nigromancia ubicada en las oscuras y siniestras criptas debajo de Caer Darrow. En los últimos años, varios de los instructores han cambiado, pero la institución permanece bajo el control del Darkmaster Gandling, un practicante de magia nigromántica particularmente sádico e insidioso."
 
     -- Additional Dungeon Set 2 encounters and Darkreaver quests
+    IJ_DB_DUNGEON_STRAT_BOSS_NAME_16101 = "Jarien y Sothos"
+    IJ_DB_DUNGEON_STRAT_BOSS_STORY_16101 =
+        "Jarien y Sothos eran hermanos de la compañía de mercenarios de Bodley. Tras su disolución, se llevaron un fragmento del amuleto de Lord Valthalak e intentaron unirse a la Cruzada Escarlata. El Gran Cruzado Dathrohan los mató por fracasar en los ritos de iniciación en su cámara. Sus restos pueden ser invocados allí para recuperar el fragmento."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_jariensothossummoning =
+        "Derrotad al Gran Cruzado Dathrohan y usad el Brasero de Señalización en su cámara para invocar a Jarien y Sothos durante la cadena de misiones del conjunto de mazmorra 2."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15284 = "Adherirse"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15284 =
+        "Inflige daño físico a un enemigo y sus aliados cercanos, alcanzando hasta 3 objetivos."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_22575 = "Choque de las Sombras"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_22575 =
+        "Inflige daño de las Sombras a un enemigo."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_16856 = "Golpe mortal"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_16856 =
+        "Inflige daño físico y reduce la sanación recibida un 50% durante 5 s."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_20812 = "Incapacitar"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_20812 =
+        "Reduce la velocidad de movimiento, la velocidad de ataque cuerpo a cuerpo y la fuerza durante 15 s. Disipad este efecto mágico."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15655 = "Golpe de escudo"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15655 =
+        "Inflige daño físico a un enemigo y lo aturde durante 2 s."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_27641 = "Miedo"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_27641 =
+        "Hace que un enemigo huya aterrorizado durante 6 s. Disipad este efecto mágico."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_27646 = "Salva de descarga de las Sombras"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_27646 =
+        "Inflige daño de las Sombras a los enemigos cercanos."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15749 = "Carga con escudo"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15749 =
+        "Carga contra un enemigo, inflige daño físico y lo repele."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jarien = "Jarien"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_sothos = "Sothos"
     IJ_QUEST_NAME_7647 = "Juicio y redención"
     IJ_QUEST_OBJECTIVE_7647 =
         "Usad el Divination Scryer en el sótano del Gran Osario de Scholomance. Derrotad a los espíritus y al Caballero de la Muerte Darkreaver y llevad el Alma redimida del cargador y la Barda de arcanita bendita al Cargador caído de Darkreaver."
@@ -1817,7 +1848,17 @@ if GetLocale() == "esES" then
         "Usad el Divination Scryer en el sótano del Gran Osario de Scholomance. Derrotad a los espíritus y al Caballero de la Muerte Darkreaver y llevad su cabeza a Sagorne Zancacresta en el Valle de la Sabiduría de Orgrimmar."
     IJ_NPC_NAME_13417 = "Sagorne Zancacresta"
     IJ_QUEST_REWARD_SPELL_23214 = "Invocar cargador"
+    IJ_LOOT_NAME_22301 = "Toga de hilacero"
+    IJ_LOOT_NAME_22327 = "Amuleto de los redimidos"
+    IJ_LOOT_NAME_22328 = "Quijotes de vigilancia"
+    IJ_LOOT_NAME_22329 = "Cetro de enfoque interminable"
+    IJ_LOOT_NAME_22334 = "Sortija de alivio"
     IJ_LOOT_NAME_18807 = "Yelmo de poder latente"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jariensothossummoning = "Invocación"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_siblingspirits = "Espíritus de los hermanos"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_siblingspirits =
+        "Cuando uno de los hermanos muere, aparece su espíritu y ataca al superviviente."
+
     -- SCHOLO Bosses
     IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_kirtonossummoning = "Invocación"
     IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_kirtonossummoning =

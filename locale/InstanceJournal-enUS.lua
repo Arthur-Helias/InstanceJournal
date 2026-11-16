@@ -2716,6 +2716,37 @@ IJ_DB_DUNGEON_SCHOLO_STORY =
     "Individuals seeking to master the powers of undeath know well of Scholomance, the infamous school of necromancy located in the dark and foreboding crypts beneath Caer Darrow. In recent years, several of the instructors have changed, but the institution remains under the control of Darkmaster Gandling, a particularly sadistic and insidious practitioner of necromantic magic."
 
 -- Additional Dungeon Set 2 encounters and Darkreaver quests
+IJ_DB_DUNGEON_STRAT_BOSS_NAME_16101 = "Jarien and Sothos"
+IJ_DB_DUNGEON_STRAT_BOSS_STORY_16101 =
+    "Jarien and Sothos were siblings in Bodley’s mercenary company. After the company disbanded, they took a fragment of Lord Valthalak’s amulet and sought admission to the Scarlet Crusade. Grand Crusader Dathrohan killed them for failing the initiation rites in his chamber. Their remains can be summoned there to recover the amulet fragment."
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_jariensothossummoning =
+    "Defeat Grand Crusader Dathrohan, then use the Brazier of Beckoning in his chamber to summon Jarien and Sothos during the Dungeon Set 2 questline."
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15284 = "Cleave"
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15284 =
+    "Deals Physical damage to an enemy and nearby allies, striking up to 3 targets."
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_22575 = "Shadow Shock"
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_22575 =
+    "Deals Shadow damage to an enemy."
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_16856 = "Mortal Strike"
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_16856 =
+    "Deals Physical damage and reduces healing received by 50% for 5 sec."
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_20812 = "Cripple"
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_20812 =
+    "Reduces movement speed, melee attack speed, and Strength for 15 sec. Dispel this Magic effect."
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15655 = "Shield Slam"
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15655 =
+    "Deals Physical damage to an enemy and stuns them for 2 sec."
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_27641 = "Fear"
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_27641 =
+    "Causes an enemy to flee in fear for 6 sec. Dispel this Magic effect."
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_27646 = "Shadow Bolt Volley"
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_27646 =
+    "Deals Shadow damage to nearby enemies."
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15749 = "Shield Charge"
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15749 =
+    "Charges an enemy, dealing Physical damage and knocking them back."
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jarien = "Jarien"
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_sothos = "Sothos"
 IJ_QUEST_NAME_7647 = "Judgment and Redemption"
 IJ_QUEST_OBJECTIVE_7647 =
     "Use the Divination Scryer in the Great Ossuary’s basement in Scholomance. Defeat the spirits and Death Knight Darkreaver, then bring the Charger’s Redeemed Soul and Blessed Arcanite Barding to Darkreaver’s Fallen Charger."
@@ -2724,7 +2755,17 @@ IJ_QUEST_OBJECTIVE_7668 =
     "Use the Divination Scryer in the Great Ossuary’s basement in Scholomance. Defeat the spirits and Death Knight Darkreaver, then bring Darkreaver’s Head to Sagorne Creststrider in the Valley of Wisdom, Orgrimmar."
 IJ_NPC_NAME_13417 = "Sagorne Creststrider"
 IJ_QUEST_REWARD_SPELL_23214 = "Summon Charger"
+IJ_LOOT_NAME_22301 = "Ironweave Robe"
+IJ_LOOT_NAME_22327 = "Amulet of the Redeemed"
+IJ_LOOT_NAME_22328 = "Legplates of Vigilance"
+IJ_LOOT_NAME_22329 = "Scepter of Interminable Focus"
+IJ_LOOT_NAME_22334 = "Band of Mending"
 IJ_LOOT_NAME_18807 = "Helm of Latent Power"
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jariensothossummoning = "Summoning"
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_siblingspirits = "Sibling Spirits"
+IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_siblingspirits =
+    "When one sibling dies, their spirit appears and attacks the surviving sibling."
+
 -- SCHOLO Bosses
 IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_kirtonossummoning = "Summoning"
 IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_kirtonossummoning =

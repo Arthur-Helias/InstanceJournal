@@ -6732,6 +6732,25 @@ I[22401] = {Id = "22401", Icon = "INV_Relics_LibramofHope", Name = IJ_LOOT_NAME_
 I[22472] = {Id = "22472", Icon = "INV_Boots_08", Name = IJ_LOOT_NAME_22472, Quality = IQ.Rare, ItemSlot = IS.Feet, ItemType = IT.Leather, LevelRequirement = 56}
 
 -- Additional Dungeon Set 2 encounters and Darkreaver quest reward
+I[22301] = {
+    Id = "22301",
+    Icon = "INV_Chest_Cloth_48",
+    Name = IJ_LOOT_NAME_22301,
+    Quality = IQ.Rare,
+    ItemSlot = IS.Chest,
+    ItemType = IT.Cloth,
+    LevelRequirement = 58,
+    ClassRestriction = {IMCL.Priest, IMCL.Mage, IMCL.Warlock, IMCL.Druid}
+}
+
+I[22327] = {Id = "22327", Icon = "INV_Jewelry_Necklace_08", Name = IJ_LOOT_NAME_22327, Quality = IQ.Rare, ItemSlot = IS.Neck, LevelRequirement = 58}
+
+I[22328] = {Id = "22328", Icon = "INV_Pants_04", Name = IJ_LOOT_NAME_22328, Quality = IQ.Rare, ItemSlot = IS.Legs, ItemType = IT.Plate, LevelRequirement = 58}
+
+I[22329] = {Id = "22329", Icon = "INV_Wand_07", Name = IJ_LOOT_NAME_22329, Quality = IQ.Rare, ItemSlot = IS.HeldInOffHand, LevelRequirement = 58}
+
+I[22334] = {Id = "22334", Icon = "INV_Jewelry_Ring_05", Name = IJ_LOOT_NAME_22334, Quality = IQ.Rare, ItemSlot = IS.Finger, LevelRequirement = 57}
+
 I[18807] = {Id = "18807", Icon = "INV_Helmet_24", Name = IJ_LOOT_NAME_18807, Quality = IQ.Rare, ItemSlot = IS.Head, ItemType = IT.Mail}
 
 

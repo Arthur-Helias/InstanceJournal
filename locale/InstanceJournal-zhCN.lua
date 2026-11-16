@@ -2809,6 +2809,37 @@ if GetLocale() == "zhCN" then
         "寻求掌握亡灵力量的人都非常了解通灵学院，这是一所臭名昭著的死灵学派，位于凯尔达隆地下黑暗而不祥的地窖中。近年来，几位导师发生了变化，但该机构仍然处于黑暗大师甘德林的控制之下，他是一个特别残暴和阴险的死灵魔法实践者。"
 
     -- Additional Dungeon Set 2 encounters and Darkreaver quests
+    IJ_DB_DUNGEON_STRAT_BOSS_NAME_16101 = "贾林与索索斯"
+    IJ_DB_DUNGEON_STRAT_BOSS_STORY_16101 =
+        "贾林与索索斯是伯德雷佣兵队伍中的一对姐弟。队伍解散后，他们带走了瓦塔拉克饰品的一块碎片，并试图加入血色十字军。两人在大十字军战士达索汉的房间内未能通过入会仪式，被达索汉杀死。可以在那里召唤他们的遗骸，夺回饰品碎片。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_jariensothossummoning =
+        "击败大十字军战士达索汉后，在他的房间使用召唤火盆，召唤贾林与索索斯，完成地下城套装2任务线的相关任务。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15284 = "顺劈斩"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15284 =
+        "对一名敌人及其附近盟友造成物理伤害，最多命中3个目标。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_22575 = "暗影震击"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_22575 =
+        "对一名敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_16856 = "致死打击"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_16856 =
+        "造成物理伤害，并使受到的治疗效果降低50%，持续5秒。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_20812 = "残废术"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_20812 =
+        "降低移动速度、近战攻击速度和力量，持续15秒。应驱散此魔法效果。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15655 = "盾牌猛击"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15655 =
+        "对一名敌人造成物理伤害，并使其昏迷2秒。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_27641 = "恐惧术"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_27641 =
+        "使一名敌人因恐惧而逃跑，持续6秒。应驱散此魔法效果。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_27646 = "暗影箭雨"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_27646 =
+        "对附近敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15749 = "盾牌冲锋"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15749 =
+        "冲向一名敌人，造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jarien = "贾林"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_sothos = "索索斯"
     IJ_QUEST_NAME_7647 = "审判和救赎"
     IJ_QUEST_OBJECTIVE_7647 =
         "在通灵学院大尸骨储藏所的地下室使用预言水晶球。击败灵魂和死亡骑士达克雷尔，然后将被救赎的战马之魂和被祝福的奥金马铠交给达克雷尔的堕落战马。"
@@ -2817,7 +2848,17 @@ if GetLocale() == "zhCN" then
         "在通灵学院大尸骨储藏所的地下室使用预言水晶球。击败灵魂和死亡骑士达克雷尔，然后将他的头颅交给奥格瑞玛智慧谷的萨格尼。"
     IJ_NPC_NAME_13417 = "萨格尼"
     IJ_QUEST_REWARD_SPELL_23214 = "召唤战马"
+    IJ_LOOT_NAME_22301 = "铁纹长袍"
+    IJ_LOOT_NAME_22327 = "救赎者的护符"
+    IJ_LOOT_NAME_22328 = "警觉腿铠"
+    IJ_LOOT_NAME_22329 = "无尽专注节杖"
+    IJ_LOOT_NAME_22334 = "修复之戒"
     IJ_LOOT_NAME_18807 = "潜能头盔"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jariensothossummoning = "召唤"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_siblingspirits = "姐弟之魂"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_siblingspirits =
+        "当其中一人死亡时，其灵魂会出现并攻击仍然存活的另一人。"
+
     -- SCHOLO Bosses
     IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_kirtonossummoning = "召唤"
     IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_kirtonossummoning =

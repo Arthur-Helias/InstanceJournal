@@ -465,6 +465,104 @@ STRAT.Bosses = {
         }
     },
     [10] = {
+        Id = "16101",
+        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "jarienandsothos" .. IMPP,
+        Frame = IMP .. IMPD .. instanceMediaAcronym .. "jarienandsothos" .. IMPF,
+        Name = IJ_DB_DUNGEON_STRAT_BOSS_NAME_16101,
+        Story = IJ_DB_DUNGEON_STRAT_BOSS_STORY_16101,
+        IsSummoned = true,
+        MapCoordinateX = 35.1,
+        MapCoordinateY = 93.4,
+        Abilities = {
+            [1] = {
+                Id = "jariensothossummoning",
+                Icon = "INV_Misc_Bowl_01",
+                Name = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jariensothossummoning,
+                Effect = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_jariensothossummoning
+            },
+            [2] = {
+                Id = "jarien",
+                Icon = "INV_Misc_Head_Undead_02",
+                Name = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jarien,
+                SubAbilities = {
+                    [1] = {
+                        Id = "15284",
+                        Icon = "Ability_Warrior_Cleave",
+                        Name = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15284,
+                        Effect = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15284,
+                        Flags = {IMAF.Tank}
+                    },
+                    [2] = {
+                        Id = "22575",
+                        Icon = "Spell_Shadow_ShadowBolt",
+                        Name = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_22575,
+                        Effect = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_22575
+                    },
+                    [3] = {
+                        Id = "16856",
+                        Icon = "Ability_Warrior_SavageBlow",
+                        Name = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_16856,
+                        Effect = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_16856,
+                        Flags = {IMAF.Heal}
+                    },
+                    [4] = {
+                        Id = "20812",
+                        Icon = "Spell_Shadow_Cripple",
+                        Name = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_20812,
+                        Effect = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_20812,
+                        Flags = {IMAF.Magic}
+                    }
+                }
+            },
+            [3] = {
+                Id = "sothos",
+                Icon = "INV_Misc_Head_Undead_01",
+                Name = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_sothos,
+                SubAbilities = {
+                    [1] = {
+                        Id = "15655",
+                        Icon = "Ability_Warrior_ShieldBash",
+                        Name = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15655,
+                        Effect = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15655,
+                        Flags = {IMAF.Tank}
+                    },
+                    [2] = {
+                        Id = "27641",
+                        Icon = "Spell_Shadow_Possession",
+                        Name = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_27641,
+                        Effect = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_27641,
+                        Flags = {IMAF.Magic}
+                    },
+                    [3] = {
+                        Id = "27646",
+                        Icon = "Spell_Shadow_ShadowBolt",
+                        Name = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_27646,
+                        Effect = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_27646
+                    },
+                    [4] = {
+                        Id = "15749",
+                        Icon = "Ability_Warrior_Charge",
+                        Name = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15749,
+                        Effect = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15749
+                    }
+                }
+            },
+            [4] = {
+                Id = "siblingspirits",
+                Icon = "Spell_Holy_Resurrection",
+                Name = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_siblingspirits,
+                Effect = IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_siblingspirits
+            }
+        },
+        Loot = {
+            [1] = {IJDB.I[22327], DropChance = 33.33},
+            [2] = {IJDB.I[22329], DropChance = 33.33},
+            [3] = {IJDB.I[22334], DropChance = 33.33},
+            [4] = {IJDB.I[22301], DropChance = 50},
+            [5] = {IJDB.I[22328], DropChance = 50}
+        }
+    },
+    [11] = {
         Id = "10435",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "barthilas" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "barthilas" .. IMPF,
@@ -513,7 +611,7 @@ STRAT.Bosses = {
             [9] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [11] = {
+    [12] = {
         Id = "10809",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "stonespine" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "stonespine" .. IMPF,
@@ -537,7 +635,7 @@ STRAT.Bosses = {
             [4] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [12] = {
+    [13] = {
         Id = "10437",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "nerubenkan" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "nerubenkan" .. IMPF,
@@ -574,7 +672,7 @@ STRAT.Bosses = {
             [11] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [13] = {
+    [14] = {
         Id = "10436",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "anastari" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "anastari" .. IMPF,
@@ -625,7 +723,7 @@ STRAT.Bosses = {
             [11] = {IJDB.I[51217], DropChance = 5}
         }
     },
-    [14] = {
+    [15] = {
         Id = "10438",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "maleki" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "maleki" .. IMPF,
@@ -677,7 +775,7 @@ STRAT.Bosses = {
             [12] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [15] = {
+    [16] = {
         Id = "10439",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "ramstein" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "ramstein" .. IMPF,
@@ -712,7 +810,7 @@ STRAT.Bosses = {
             [9] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [16] = {
+    [17] = {
         Id = "10440",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "rivendare" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "rivendare" .. IMPF,

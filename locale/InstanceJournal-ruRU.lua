@@ -1835,6 +1835,37 @@ if GetLocale() == "ruRU" then
         "Люди, стремящиеся овладеть силами нежити, хорошо знают Некроситет, печально известную школу некромантии, расположенную в темных и зловещих склепах под Каэр Дарроу. За последние годы сменилось несколько преподавателей, но учреждение остается под контролем Темного магистра Гандлинга, особенно садистского и коварного практика некромантской магии."
 
     -- Additional Dungeon Set 2 encounters and Darkreaver quests
+    IJ_DB_DUNGEON_STRAT_BOSS_NAME_16101 = "Джариен и Сотос"
+    IJ_DB_DUNGEON_STRAT_BOSS_STORY_16101 =
+        "Джариен и Сотос были братом и сестрой из отряда наемников Бодли. После его распада они забрали фрагмент амулета Лорда Вальтхалака и попытались вступить в Алый орден. Верховный рыцарь Датрохан убил их за провал обряда посвящения в его покоях. Их останки можно призвать там, чтобы вернуть фрагмент амулета."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_jariensothossummoning =
+        "Победите Верховного рыцаря Датрохана, затем используйте Жаровню Призыва в его покоях, чтобы призвать Джариен и Сотоса в цепочке заданий на комплект подземелий 2."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15284 = "Раскалывать"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15284 =
+        "Наносит физический урон противнику и его ближайшим союзникам, поражая до 3 целей."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_22575 = "Темный шок"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_22575 =
+        "Наносит противнику урон от темной магии."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_16856 = "Смертельный удар"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_16856 =
+        "Наносит физический урон и снижает получаемое исцеление на 50% на 5 сек."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_20812 = "Увечье"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_20812 =
+        "Снижает скорость передвижения, скорость атак ближнего боя и силу на 15 сек. Рассеивайте этот магический эффект."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15655 = "Удар щитом"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15655 =
+        "Наносит противнику физический урон и оглушает его на 2 сек."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_27641 = "Страх"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_27641 =
+        "Заставляет противника бежать в страхе в течение 6 сек. Рассеивайте этот магический эффект."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_27646 = "Залп стрел Тьмы"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_27646 =
+        "Наносит ближайшим противникам урон от темной магии."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15749 = "Рывок щитом"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15749 =
+        "Совершает рывок к противнику, нанося физический урон и отбрасывая его."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jarien = "Джариен"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_sothos = "Сотос"
     IJ_QUEST_NAME_7647 = "Правосудие и искупление"
     IJ_QUEST_OBJECTIVE_7647 =
         "Используйте Divination Scryer в подвале Великого Склепа в Некроситете. Победите духов и Рыцаря смерти Тёмного Похитителя, затем отнесите Искупленную душу скакуна и Благословенную арканитовую сбрую павшему скакуну Тёмного Похитителя."
@@ -1843,7 +1874,17 @@ if GetLocale() == "ruRU" then
         "Используйте Divination Scryer в подвале Великого Склепа в Некроситете. Победите духов и Рыцаря смерти Тёмного Похитителя, затем отнесите его голову Сагорну Гривастому в Долину Мудрости в Оргриммаре."
     IJ_NPC_NAME_13417 = "Сагорн Гривастый"
     IJ_QUEST_REWARD_SPELL_23214 = "Призыв скакуна"
+    IJ_LOOT_NAME_22301 = "Железнотканое одеяние"
+    IJ_LOOT_NAME_22327 = "Амулет Искупленных"
+    IJ_LOOT_NAME_22328 = "Ножные латы бдительности"
+    IJ_LOOT_NAME_22329 = "Скипетр бесконечного сосредоточения"
+    IJ_LOOT_NAME_22334 = "Кольцо исцеления"
     IJ_LOOT_NAME_18807 = "Шлем скрытой силы"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jariensothossummoning = "Призыв"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_siblingspirits = "Духи брата и сестры"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_siblingspirits =
+        "Когда один из них погибает, его дух появляется и атакует оставшегося в живых."
+
     -- SCHOLO Bosses
     IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_kirtonossummoning = "Призыв"
     IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_kirtonossummoning =
