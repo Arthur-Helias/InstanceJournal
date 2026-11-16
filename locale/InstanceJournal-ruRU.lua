@@ -1379,6 +1379,22 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504 =
         "Восстанавливает здоровье заклинателя."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_13953 = "Священный удар"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_13953 =
+        "Наносит противнику урон от светлой магии."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_8258 = "Аура благочестия"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_8258 =
+        "Повышает броню ближайших союзников."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15346 = "Печать расплаты"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15346 =
+        "Накладывает на союзника положительный магический эффект на 30 сек., восстанавливающий здоровье при ударах по противнику.\n\nСнимите этот положительный магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15493 = "Свет небес"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15493 =
+        "Восстанавливает здоровье союзника."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_11978 = "Пинать"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978 =
+        "Наносит противнику физический урон. Прерывает произнесение заклинаний цели на 6 сек."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

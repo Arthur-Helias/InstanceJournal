@@ -1354,6 +1354,22 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504 =
         "Restaura la salud del taumaturgo."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_13953 = "Golpe Sagrado"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_13953 =
+        "Inflige daño Sagrado a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_8258 = "Aura de devoción"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_8258 =
+        "Aumenta la armadura de los aliados cercanos."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15346 = "Sello de ajuste de cuentas"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15346 =
+        "Aplica un beneficio mágico a un aliado durante 30 s que restaura salud cada vez que golpea a un enemigo.\n\nElimina este beneficio mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15493 = "Luz Sagrada"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15493 =
+        "Restaura la salud de un aliado."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_11978 = "Patada"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978 =
+        "Inflige daño físico a un enemigo. Interrumpe el lanzamiento de hechizos del objetivo durante 6 s."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

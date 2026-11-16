@@ -352,7 +352,7 @@ BRD.Bosses = {
             [3] = {IJDB.I[22254], DropChance = 1}
         }
     },
-    [9] = { -- NOTE: Missing abilities
+    [9] = {
         Id = "9056",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "darkvire" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "darkvire" .. IMPF,
@@ -360,6 +360,39 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9056,
         MapCoordinateX = 62.8,
         MapCoordinateY = 41.2,
+        Abilities = {
+            [1] = {
+                Id = "13953",
+                Icon = "Ability_ThunderBolt",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_13953,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_13953
+            },
+            [2] = {
+                Id = "8258",
+                Icon = "Spell_Holy_DevotionAura",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_8258,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_8258
+            },
+            [3] = {
+                Id = "15346",
+                Icon = "Spell_Holy_SealOfWrath",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15346,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15346,
+                Flags = {IMAF.Magic}
+            },
+            [4] = {
+                Id = "15493",
+                Icon = "Spell_Holy_HolyBolt",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15493,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15493
+            },
+            [5] = {
+                Id = "11978",
+                Icon = "Ability_Kick",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_11978,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11839], DropChance = 25},
             [2] = {IJDB.I[11841], DropChance = 25},

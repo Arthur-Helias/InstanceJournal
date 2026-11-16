@@ -1355,6 +1355,22 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504 =
         "Stellt Gesundheit des Zaubernden wieder her."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_13953 = "Heiliger Schlag"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_13953 =
+        "Fügt einem Gegner Heiligschaden zu."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_8258 = "Aura der Hingabe"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_8258 =
+        "Erhöht die Rüstung naher Verbündeter."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15346 = "Siegel der Abrechnung"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15346 =
+        "Belegt einen Verbündeten 30 Sek. lang mit einem magischen Stärkungseffekt, der bei Treffern gegen Gegner Gesundheit wiederherstellt.\n\nEntfernt diesen magischen Stärkungseffekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15493 = "Heiliges Licht"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15493 =
+        "Stellt Gesundheit eines Verbündeten wieder her."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_11978 = "Kick"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978 =
+        "Fügt einem Gegner körperlichen Schaden zu. Unterbricht das Zauberwirken des Ziels für 6 Sek."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

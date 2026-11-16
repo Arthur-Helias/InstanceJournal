@@ -1831,6 +1831,22 @@ IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_15504 = "Drink Healing Potion"
 IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504 =
     "Restores the caster’s health."
 
+IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_13953 = "Holy Strike"
+IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_13953 =
+    "Deals Holy damage to an enemy."
+IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_8258 = "Devotion Aura"
+IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_8258 =
+    "Increases the armor of nearby allies."
+IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15346 = "Seal of Reckoning"
+IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15346 =
+    "Places a Magic buff on an ally for 30 sec., restoring health whenever they strike an enemy.\n\nRemove this Magic buff."
+IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15493 = "Holy Light"
+IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15493 =
+    "Restores an ally’s health."
+IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_11978 = "Kick"
+IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978 =
+    "Deals Physical damage to an enemy. Interrupts the target’s spellcasting for 6 sec."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

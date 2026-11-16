@@ -1354,6 +1354,22 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504 =
         "Rend des points de vie au lanceur."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_13953 = "Frappe sacrée"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_13953 =
+        "Inflige des dégâts du Sacré à un ennemi."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_8258 = "Aura de dévotion"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_8258 =
+        "Augmente l’armure des alliés proches."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15346 = "Sceau de rétribution"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15346 =
+        "Place sur un allié un effet bénéfique magique de 30 s qui lui rend de la vie à chaque coup porté à un ennemi.\n\nDissipez cet effet bénéfique magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15493 = "Lumière sacrée"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15493 =
+        "Rend des points de vie à un allié."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_11978 = "Coup"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978 =
+        "Inflige des dégâts physiques à un ennemi. Interrompt les incantations de la cible pendant 6 s."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

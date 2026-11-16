@@ -1351,6 +1351,22 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504 =
         "Restaura a vida do lançador."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_13953 = "Golpe Sagrado"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_13953 =
+        "Causa dano Sagrado a um inimigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_8258 = "Aura de Devoção"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_8258 =
+        "Aumenta a armadura dos aliados próximos."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15346 = "Selo do Ajuste de Contas"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15346 =
+        "Aplica um bônus mágico a um aliado por 30 s, restaurando vida sempre que ele acerta um inimigo.\n\nRemova este bônus mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15493 = "Luz Sagrada"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15493 =
+        "Restaura a vida de um aliado."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_11978 = "Chute"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978 =
+        "Causa dano físico a um inimigo. Interrompe o lançamento de feitiços do alvo por 6 s."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
