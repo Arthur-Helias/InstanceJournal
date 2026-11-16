@@ -700,7 +700,7 @@ BRD.Bosses = {
             [3] = {IJDB.I[12791], DropChance = 18}
         }
     },
-    [18] = { -- NOTE: Missing abilities
+    [18] = {
         Id = "9156",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "flamelash" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "flamelash" .. IMPF,
@@ -708,6 +708,20 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9156,
         MapCoordinateX = 56.2,
         MapCoordinateY = 39.5,
+        Abilities = {
+            [1] = {
+                Id = "15574",
+                Icon = "Spell_Fire_Fireball",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_15574,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_15574
+            },
+            [2] = {
+                Id = "14744",
+                Icon = "Spell_Fire_Fire",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_14744,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11809], DropChance = 25},
             [2] = {IJDB.I[11812], DropChance = 25},

@@ -1451,6 +1451,13 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
         "Verbannt einen Gegner bis zu 15 Sek. lang, verhindert alle Aktionen und macht ihn unverwundbar."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_15574 = "Feuerschlag"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_15574 =
+        "Fügt einem Gegner Feuerschaden zu."
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_14744 = "Brennender Geist"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
+        "Brennende Geister werden im Kampf verzehrt und gewähren dem Boss einen stapelbaren Stärkungseffekt, der Schaden und Größe für 180 Sek. erhöht."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

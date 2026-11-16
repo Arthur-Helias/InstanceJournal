@@ -1447,6 +1447,13 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
         "Bane um inimigo por até 15 s, impedindo todas as ações e tornando-o invulnerável."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_15574 = "Impacto de Fogo"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_15574 =
+        "Causa dano de Fogo a um inimigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_14744 = "Espírito Ardente"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
+        "Espíritos Ardentes são consumidos durante a luta, concedendo ao chefe um bônus cumulativo que aumenta o dano e o tamanho por 180 s."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

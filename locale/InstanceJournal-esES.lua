@@ -1450,6 +1450,13 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
         "Destierra a un enemigo durante un máximo de 15 s, impidiendo todas sus acciones y volviéndolo invulnerable."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_15574 = "Explosión de Fuego"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_15574 =
+        "Inflige daño de Fuego a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_14744 = "Espíritu ardiente"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
+        "Los espíritus ardientes son consumidos durante el combate y otorgan al jefe un beneficio acumulable que aumenta el daño y el tamaño durante 180 s."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

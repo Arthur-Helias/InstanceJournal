@@ -2021,6 +2021,13 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
         "放逐一名敌人，使其无法行动但免疫伤害，最多持续15秒。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_15574 = "火焰冲击"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_15574 =
+        "对一名敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_14744 = "燃烧之魂"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
+        "战斗中燃烧之魂会被吞噬，为首领施加可叠加的增益效果，提高伤害和体型，持续180秒。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

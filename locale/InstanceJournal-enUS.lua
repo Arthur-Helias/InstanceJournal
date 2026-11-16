@@ -1927,6 +1927,13 @@ IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_8994 = "Banish"
 IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
     "Banishes an enemy for up to 15 sec., preventing all actions while making them invulnerable."
 
+IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_15574 = "Fire Blast"
+IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_15574 =
+    "Deals Fire damage to an enemy."
+IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_14744 = "Burning Spirit"
+IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
+    "Burning Spirits are consumed during the fight, granting the boss a stacking buff that increases damage and size for 180 sec."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

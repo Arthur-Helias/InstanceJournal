@@ -1475,6 +1475,13 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
         "Изгоняет противника на срок до 15 сек., лишая возможности действовать, но делая неуязвимым."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_15574 = "Огненный взрыв"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_15574 =
+        "Наносит противнику урон от огня."
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_14744 = "Пылающий дух"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
+        "Пылающие духи поглощаются во время боя, давая боссу суммирующийся эффект, повышающий урон и размер на 180 сек."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

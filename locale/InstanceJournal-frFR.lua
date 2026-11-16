@@ -1450,6 +1450,13 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
         "Bannit un ennemi pendant 15 s au maximum, l’empêchant d’agir tout en le rendant invulnérable."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_15574 = "Trait de feu"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_15574 =
+        "Inflige des dégâts de Feu à un ennemi."
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_14744 = "Esprit ardent"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
+        "Les esprits ardents sont consumés pendant le combat et confèrent au boss un effet cumulable qui augmente ses dégâts et sa taille pendant 180 s."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
