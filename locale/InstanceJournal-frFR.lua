@@ -1370,6 +1370,19 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978 =
         "Inflige des dégâts physiques à un ennemi. Interrompt les incantations de la cible pendant 6 s."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13899 = "Tempête de feu"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13899 =
+        "Brûle les ennemis dans la zone affectée et inflige des dégâts de Feu immédiatement, puis toutes les 3 s pendant 30 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13900 = "Explosion ardente"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13900 =
+        "Inflige des dégâts de Feu aux ennemis dans la zone affectée."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_14099 = "Coup puissant"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_14099 =
+        "Inflige des dégâts physiques à un ennemi et le repousse."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_26977 = "Malédiction du seigneur élémentaire"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
+        "Réduit la résistance au Feu des ennemis proches.\n\nDissipez la malédiction."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

@@ -404,7 +404,7 @@ BRD.Bosses = {
             [8] = {IJDB.I[11840], DropChance = 5}
         }
     },
-    [10] = { -- NOTE: Missing abilities
+    [10] = {
         Id = "9017",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "incendius" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "incendius" .. IMPF,
@@ -412,6 +412,33 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9017,
         MapCoordinateX = 57.8,
         MapCoordinateY = 48.5,
+        Abilities = {
+            [1] = {
+                Id = "13899",
+                Icon = "Spell_Fire_SelfDestruct",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13899,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13899
+            },
+            [2] = {
+                Id = "13900",
+                Icon = "Spell_Fire_FireBolt",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13900,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13900
+            },
+            [3] = {
+                Id = "14099",
+                Icon = "INV_Gauntlets_05",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_14099,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_14099
+            },
+            [4] = {
+                Id = "26977",
+                Icon = "Spell_Fire_LavaSpawn",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_26977,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977,
+                Flags = {IMAF.Curse}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11764], DropChance = 25},
             [2] = {IJDB.I[11765], DropChance = 25},

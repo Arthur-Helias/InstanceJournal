@@ -1941,6 +1941,19 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978 =
         "对一名敌人造成物理伤害。 打断目标施法，使其6秒内无法施放同系法术。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13899 = "火焰风暴"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13899 =
+        "焚烧作用区域内的敌人，立即造成火焰伤害，并每3秒造成一次额外伤害，持续30秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13900 = "烈焰爆发"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13900 =
+        "对作用区域内的敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_14099 = "强力打击"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_14099 =
+        "对一名敌人造成物理伤害，并将其击退。"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_26977 = "元素领主的诅咒"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
+        "降低附近敌人的火焰抗性。\n\n解除此诅咒。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

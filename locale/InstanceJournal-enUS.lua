@@ -1847,6 +1847,19 @@ IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_11978 = "Kick"
 IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978 =
     "Deals Physical damage to an enemy. Interrupts the target’s spellcasting for 6 sec."
 
+IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13899 = "Fire Storm"
+IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13899 =
+    "Burns enemies in the affected area, dealing Fire damage immediately and every 3 sec. for 30 sec."
+IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13900 = "Fiery Burst"
+IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13900 =
+    "Deals Fire damage to enemies in the affected area."
+IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_14099 = "Mighty Blow"
+IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_14099 =
+    "Deals Physical damage to an enemy and knocks them back."
+IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_26977 = "Curse of the Elemental Lord"
+IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
+    "Reduces the Fire resistance of nearby enemies.\n\nRemove the curse."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

@@ -1367,6 +1367,19 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978 =
         "Causa dano físico a um inimigo. Interrompe o lançamento de feitiços do alvo por 6 s."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13899 = "Tempestade de Fogo"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13899 =
+        "Queima os inimigos na área afetada, causando dano de Fogo imediatamente e a cada 3 s por 30 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13900 = "Explosão Flamejante"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13900 =
+        "Causa dano de Fogo aos inimigos na área afetada."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_14099 = "Golpe Poderoso"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_14099 =
+        "Causa dano físico a um inimigo e o repele."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_26977 = "Maldição do Senhor Elemental"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
+        "Reduz a resistência a Fogo dos inimigos próximos.\n\nRemova a maldição."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

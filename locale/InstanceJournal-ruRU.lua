@@ -1395,6 +1395,19 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978 =
         "Наносит противнику физический урон. Прерывает произнесение заклинаний цели на 6 сек."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13899 = "Огненная буря"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13899 =
+        "Поджигает противников в области действия, нанося урон от огня мгновенно и каждые 3 сек. в течение 30 сек."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13900 = "Огненный взрыв"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13900 =
+        "Наносит урон от огня противникам в области действия."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_14099 = "Мощный удар"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_14099 =
+        "Наносит противнику физический урон и отбрасывает его."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_26977 = "Проклятие повелителя элементалей"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
+        "Снижает сопротивление огню ближайших противников.\n\nСнимите проклятие."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

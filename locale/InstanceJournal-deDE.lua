@@ -1371,6 +1371,19 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978 =
         "Fügt einem Gegner körperlichen Schaden zu. Unterbricht das Zauberwirken des Ziels für 6 Sek."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13899 = "Feuersturm"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13899 =
+        "Verbrennt Gegner im betroffenen Bereich und verursacht sofort sowie 30 Sek. lang alle 3 Sek. Feuerschaden."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13900 = "Feuriger Ausbruch"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13900 =
+        "Fügt Gegnern im betroffenen Bereich Feuerschaden zu."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_14099 = "Mächtiger Schlag"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_14099 =
+        "Fügt einem Gegner körperlichen Schaden zu und stößt ihn zurück."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_26977 = "Fluch des Elementarlords"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
+        "Verringert den Feuerwiderstand naher Gegner.\n\nEntfernt den Fluch."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

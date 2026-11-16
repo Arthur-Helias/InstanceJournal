@@ -1370,6 +1370,19 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978 =
         "Inflige daño físico a un enemigo. Interrumpe el lanzamiento de hechizos del objetivo durante 6 s."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13899 = "Tormenta de Fuego"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13899 =
+        "Quema a los enemigos de la zona afectada e inflige daño de Fuego inmediato y cada 3 s durante 30 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13900 = "Ráfaga ígnea"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13900 =
+        "Inflige daño de Fuego a los enemigos de la zona afectada."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_14099 = "Golpe poderoso"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_14099 =
+        "Inflige daño físico a un enemigo y lo repele."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_26977 = "Maldición del señor elemental"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
+        "Reduce la resistencia al Fuego de los enemigos cercanos.\n\nElimina la maldición."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
