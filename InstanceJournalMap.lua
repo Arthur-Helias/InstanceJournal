@@ -367,6 +367,10 @@ function IJ_ShowBossesIconFromInstance(instance)
                         bossName = bossName .. " " .. IJLib.Colors.LightGray.Hex .. "[" .. IJ_GUI_RARE .. "]|r"
                     end
 
+                    if this.boss.IsSummoned == true then
+                        bossName = bossName .. " " .. IJLib.Colors.LightGray.Hex .. "[" .. IJ_GUI_SUMMONED .. "]|r"
+                    end
+
                     GameTooltip:SetText(bossName)
 
                     if this.boss.Story then

@@ -118,8 +118,17 @@ ZF.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "gahzrilla" .. IMPF,
         Name = IJ_DB_DUNGEON_ZF_BOSS_NAME_7273,
         Story = IJ_DB_DUNGEON_ZF_BOSS_STORY_7273,
+        IsSummoned = true,
         MapCoordinateX = 31.5,
         MapCoordinateY = 41.3,
+        Abilities = {
+            [1] = {
+                Id = "gahzrillasummoning",
+                Icon = "INV_Hammer_19",
+                Name = IJ_DB_DUNGEON_ZF_BOSS_7273_ABILITY_NAME_gahzrillasummoning,
+                Effect = IJ_DB_DUNGEON_ZF_BOSS_7273_ABILITY_EFFECT_gahzrillasummoning
+            }
+        },
         Loot = {
             [1] = {IJDB.I[9469], DropChance = 50}, 
             [2] = {IJDB.I[9467], DropChance = 30}, 

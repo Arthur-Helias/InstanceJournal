@@ -30,12 +30,33 @@ UBRS.Entrances = {
     }
 }
 UBRS.Bosses = {
-    [1] = { -- NOTE: Missing abilities
+    [1] = {
         Id = "9816",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "pyroguard" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "pyroguard" .. IMPF,
         Name = IJ_DB_DUNGEON_UBRS_BOSS_NAME_9816,
         Story = IJ_DB_DUNGEON_UBRS_BOSS_STORY_9816,
+        Abilities = {
+            [1] = {
+                Id = "23341",
+                Icon = "Spell_Fire_Fireball",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_NAME_23341,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_EFFECT_23341
+            },
+            [2] = {
+                Id = "23462",
+                Icon = "Spell_Fire_SealOfFire",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_NAME_23462,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_EFFECT_23462,
+                Flags = {IMAF.Heal}
+            },
+            [3] = {
+                Id = "20228",
+                Icon = "Spell_Fire_Fireball02",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_NAME_20228,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_EFFECT_20228
+            }
+        },
         Loot = {
             [1] = {IJDB.I[58199], DropChance = 1},
             [2] = {IJDB.I[58204], DropChance = 20},
@@ -53,12 +74,26 @@ UBRS.Bosses = {
             [14] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [2] = { -- NOTE: Missing abilities
+    [2] = {
         Id = "10264",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "solakar" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "solakar" .. IMPF,
         Name = IJ_DB_DUNGEON_UBRS_BOSS_NAME_10264,
         Story = IJ_DB_DUNGEON_UBRS_BOSS_STORY_10264,
+        Abilities = {
+            [1] = {
+                Id = "16727",
+                Icon = "Ability_BullRush",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10264_ABILITY_NAME_16727,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10264_ABILITY_EFFECT_16727
+            },
+            [2] = {
+                Id = "10264",
+                Icon = "INV_Misc_Egg_03",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10264_ABILITY_NAME_10264,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10264_ABILITY_EFFECT_10264
+            }
+        },
         Loot = {
             [1] = {IJDB.I[12589], DropChance = 20},
             [2] = {IJDB.I[12603], DropChance = 20},
@@ -70,13 +105,33 @@ UBRS.Bosses = {
             [8] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [3] = { -- NOTE: Missing abilities
+    [3] = {
         Id = "10509",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "jed" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "jed" .. IMPF,
         Name = IJ_DB_DUNGEON_UBRS_BOSS_NAME_10509,
         Story = IJ_DB_DUNGEON_UBRS_BOSS_STORY_10509,
         IsRare = true,
+        Abilities = {
+            [1] = {
+                Id = "11972",
+                Icon = "Ability_Warrior_ShieldBash",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_NAME_11972,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_EFFECT_11972
+            },
+            [2] = {
+                Id = "15749",
+                Icon = "Ability_Warrior_Charge",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_NAME_15749,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_EFFECT_15749
+            },
+            [3] = {
+                Id = "14516",
+                Icon = "Ability_Rogue_Ambush",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_NAME_14516,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_EFFECT_14516
+            }
+        },
         Loot = {
             [1] = {IJDB.I[12604], DropChance = 33}, 
             [2] = {IJDB.I[12605], DropChance = 33}, 
@@ -84,12 +139,32 @@ UBRS.Bosses = {
             [4] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [4] = { -- NOTE: Missing abilities
+    [4] = {
         Id = "10899",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "goraluk" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "goraluk" .. IMPF,
         Name = IJ_DB_DUNGEON_UBRS_BOSS_NAME_10899,
         Story = IJ_DB_DUNGEON_UBRS_BOSS_STORY_10899,
+        Abilities = {
+            [1] = {
+                Id = "6253",
+                Icon = "INV_Gauntlets_05",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_NAME_6253,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_EFFECT_6253
+            },
+            [2] = {
+                Id = "16172",
+                Icon = "Ability_ThunderBolt",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_NAME_16172,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_EFFECT_16172
+            },
+            [3] = {
+                Id = "15580",
+                Icon = "Ability_Rogue_Ambush",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_NAME_15580,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_EFFECT_15580
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18779], DropChance = 15},
             [2] = {IJDB.I[12728], DropChance = 14},
@@ -102,12 +177,83 @@ UBRS.Bosses = {
             [9] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [5] = { -- NOTE: Missing abilities
+    [5] = {
         Id = "10429",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "rend" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "rend" .. IMPF,
         Name = IJ_DB_DUNGEON_UBRS_BOSS_NAME_10429,
         Story = IJ_DB_DUNGEON_UBRS_BOSS_STORY_10429,
+        Abilities = {
+            [1] = {
+                Id = "15754",
+                Icon = "Ability_Warrior_Cleave",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_15754,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_15754,
+                Flags = {IMAF.Tank}
+            },
+            [2] = {
+                Id = "15708",
+                Icon = "Ability_Warrior_SavageBlow",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_15708,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_15708,
+                Flags = {IMAF.Tank, IMAF.Heal}
+            },
+            [3] = {
+                Id = "13360",
+                Icon = "Ability_GolemThunderClap",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_13360,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_13360
+            },
+            [4] = {
+                -- The channel triggers Whirlwind damage (15589) after approximately 2 seconds.
+                Id = "13736",
+                Icon = "Ability_Whirlwind",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_13736,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_13736,
+                Flags = {IMAF.Important}
+            },
+            [5] = {
+                Id = "8269",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_8269,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_8269,
+                Flags = {IMAF.Tank, IMAF.Heal}
+            },
+            [6] = {
+                Id = "10339",
+                Icon = "INV_Misc_Head_Dragon_Black",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_10339,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_10339,
+                SubAbilities = {
+                    [1] = {
+                        Id = "16390",
+                        Icon = "Spell_Fire_Fire",
+                        Name = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_16390,
+                        Effect = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_16390
+                    },
+                    [2] = {
+                        Id = "16359",
+                        Icon = "Spell_Nature_Acid_01",
+                        Name = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_16359,
+                        Effect = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_16359
+                    },
+                    [3] = {
+                        Id = "16350",
+                        Icon = "Spell_Frost_Glacier",
+                        Name = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_16350,
+                        Effect = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_16350,
+                        Flags = {IMAF.Magic}
+                    },
+                    [4] = {
+                        Id = "10101",
+                        Icon = "INV_Gauntlets_05",
+                        Name = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_10101,
+                        Effect = IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_10101,
+                        Flags = {IMAF.Tank}
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[12587], DropChance = 23},
             [2] = {IJDB.I[12935], DropChance = 23},
@@ -133,12 +279,45 @@ UBRS.Bosses = {
             [22] = {IJDB.I[13522], DropChance = 3}
         }
     },
-    [6] = { -- NOTE: Missing abilities
+    [6] = {
         Id = "10430",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "beast" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "beast" .. IMPF,
         Name = IJ_DB_DUNGEON_UBRS_BOSS_NAME_10430,
         Story = IJ_DB_DUNGEON_UBRS_BOSS_STORY_10430,
+        Abilities = {
+            [1] = {
+                Id = "16788",
+                Icon = "Spell_Fire_FlameBolt",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_16788,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_16788
+            },
+            [2] = {
+                Id = "16785",
+                Icon = "Spell_Holy_Excorcism_02",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_16785,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_16785
+            },
+            [3] = {
+                Id = "14100",
+                Icon = "Ability_Devour",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_14100,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_14100
+            },
+            [4] = {
+                Id = "16636",
+                Icon = "Ability_Warrior_Charge",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_16636,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_16636
+            },
+            [5] = {
+                Id = "15570",
+                Icon = "Spell_Fire_Immolation",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_15570,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_15570,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[24101], DropChance = 13},
             [2] = {IJDB.I[12709], DropChance = 10},
@@ -155,12 +334,62 @@ UBRS.Bosses = {
             [13] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [7] = { -- NOTE: Missing abilities
+    [7] = {
         Id = "16042",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "valthalak" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "valthalak" .. IMPF,
         Name = IJ_DB_DUNGEON_UBRS_BOSS_NAME_16042,
         Story = IJ_DB_DUNGEON_UBRS_BOSS_STORY_16042,
+        IsSummoned = true,
+        Abilities = {
+            [1] = {
+                Id = "valthalaksummoning",
+                Icon = "INV_Misc_Bowl_01",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_valthalaksummoning,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_valthalaksummoning
+            },
+            [2] = {
+                Id = "27286",
+                Icon = "Spell_Shadow_SiphonMana",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_27286,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_27286
+            },
+            [3] = {
+                Id = "27249",
+                Icon = "Spell_Shadow_Charm",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_27249,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_27249,
+                Flags = {IMAF.Important},
+                SubAbilities = {
+                    [1] = {
+                        Id = "27177",
+                        Icon = "Spell_Shadow_GatherShadows",
+                        Name = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_27177,
+                        Effect = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_27177
+                    },
+                    [2] = {
+                        Id = "18663",
+                        Icon = "Spell_Shadow_ShadowBolt",
+                        Name = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_18663,
+                        Effect = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_18663
+                    }
+                }
+            },
+            [4] = {
+                Id = "8269",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_8269,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_8269,
+                Flags = {IMAF.Tank, IMAF.Heal}
+            },
+            [5] = {
+                Id = "27383",
+                Icon = "Spell_Shadow_ShadowBolt",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_27383,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_27383,
+                Flags = {IMAF.Heal}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[22302], DropChance = 25},
             [2] = {IJDB.I[22336], DropChance = 25},
@@ -173,12 +402,56 @@ UBRS.Bosses = {
             [9] = {IJDB.I[51217], DropChance = 5}
         }
     },
-    [8] = { -- NOTE: Missing abilities
+    [8] = {
         Id = "10363",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "drakkisath" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "drakkisath" .. IMPF,
         Name = IJ_DB_DUNGEON_UBRS_BOSS_NAME_10363,
         Story = IJ_DB_DUNGEON_UBRS_BOSS_STORY_10363,
+        Abilities = {
+            [1] = {
+                Id = "15588",
+                Icon = "Spell_Nature_ThunderClap",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_15588,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_15588,
+                Flags = {IMAF.Magic}
+            },
+            [2] = {
+                Id = "16419",
+                Icon = "Spell_Fire_SelfDestruct",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_16419,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_16419,
+                Flags = {IMAF.Important}
+            },
+            [3] = {
+                Id = "16805",
+                Icon = "Spell_Fire_Incinerate",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_16805,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_16805,
+                Flags = {IMAF.Important}
+            },
+            [4] = {
+                Id = "12097",
+                Icon = "Spell_Shadow_VampiricAura",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_12097,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_12097,
+                Flags = {IMAF.Tank, IMAF.Heal}
+            },
+            [5] = {
+                Id = "15754",
+                Icon = "Ability_Warrior_Cleave",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_15754,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_15754,
+                Flags = {IMAF.Tank}
+            },
+            [6] = {
+                Id = "16789",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_16789,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_16789,
+                Flags = {IMAF.Tank, IMAF.Heal}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[51217], DropChance = 100},
             [2] = {IJDB.I[22253], DropChance = 25},

@@ -36,7 +36,7 @@ DMW.Entrances = {
     }
 }
 DMW.Bosses = {
-    [1] = { -- NOTE: Missing abilities
+    [1] = {
         Id = "11489",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "tendris" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "tendris" .. IMPF,
@@ -44,6 +44,47 @@ DMW.Bosses = {
         Story = IJ_DB_DUNGEON_DMW_BOSS_STORY_11489,
         MapCoordinateX = 28.1,
         MapCoordinateY = 75.0,
+        Abilities = {
+            [1] = {
+                Id = "5568",
+                Icon = "Spell_Nature_NaturesWrath",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5568,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5568
+            },
+            [2] = {
+                Id = "22924",
+                Icon = "Spell_Nature_Earthquake",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22924,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22924,
+                Flags = {IMAF.Magic},
+                SubAbilities = {
+                    [1] = {
+                        Id = "5164",
+                        Icon = "Ability_GolemThunderClap",
+                        Name = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5164,
+                        Effect = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5164
+                    }
+                }
+            },
+            [3] = {
+                Id = "22916",
+                Icon = "INV_Gauntlets_05",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22916,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22916
+            },
+            [4] = {
+                Id = "22994",
+                Icon = "Spell_Nature_StrangleVines",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22994,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22994
+            },
+            [5] = {
+                Id = "8269",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_8269,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_8269
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18352], DropChance = 25},
             [2] = {IJDB.I[18353], DropChance = 25},
@@ -63,7 +104,7 @@ DMW.Bosses = {
             [16] = {IJDB.I[18401], DropChance = 1}
         }
     },
-    [2] = { -- NOTE: Missing abilities
+    [2] = {
         Id = "11488",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "ravenoak" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "ravenoak" .. IMPF,
@@ -71,6 +112,61 @@ DMW.Bosses = {
         Story = IJ_DB_DUNGEON_DMW_BOSS_STORY_11488,
         MapCoordinateX = 24.4,
         MapCoordinateY = 81.5,
+        Abilities = {
+            [1] = {
+                Id = "20735",
+                Icon = "Ability_UpgradeMoonGlaive",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_20735,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_20735
+            },
+            [2] = {
+                Id = "22908",
+                Icon = "Ability_Marksmanship",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22908,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22908
+            },
+            [3] = {
+                Id = "22914",
+                Icon = "Spell_Frost_Stun",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22914,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22914,
+                Flags = {IMAF.Magic},
+                SubAbilities = {
+                    [1] = {
+                        Id = "22915",
+                        Icon = "Spell_Frost_Stun",
+                        Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22915,
+                        Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22915
+                    }
+                }
+            },
+            [4] = {
+                Id = "22910",
+                Icon = "Spell_Fire_FlameShock",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22910,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22910
+            },
+            [5] = {
+                Id = "ferra",
+                Icon = "Ability_Hunter_Pet_Bear",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_ferra,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_ferra,
+                SubAbilities = {
+                    [1] = {
+                        Id = "17156",
+                        Icon = "Ability_Druid_Maul",
+                        Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_17156,
+                        Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_17156
+                    },
+                    [2] = {
+                        Id = "22911",
+                        Icon = "Ability_Warrior_Charge",
+                        Name = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22911,
+                        Effect = IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22911
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18347], DropChance = 25},
             [2] = {IJDB.I[18349], DropChance = 25},
@@ -91,7 +187,7 @@ DMW.Bosses = {
             [17] = {IJDB.I[18401], DropChance = 1}
         }
     },
-    [3] = { -- NOTE: Missing abilities
+    [3] = {
         Id = "11487",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "kalendris" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "kalendris" .. IMPF,
@@ -99,6 +195,40 @@ DMW.Bosses = {
         Story = IJ_DB_DUNGEON_DMW_BOSS_STORY_11487,
         MapCoordinateX = 24.4,
         MapCoordinateY = 68.7,
+        Abilities = {
+            [1] = {
+                Id = "17146",
+                Icon = "Spell_Shadow_ShadowWordPain",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17146,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17146,
+                Flags = {IMAF.Magic}
+            },
+            [2] = {
+                Id = "17287",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17287,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17287
+            },
+            [3] = {
+                Id = "22919",
+                Icon = "Spell_Shadow_SiphonMana",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22919,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22919
+            },
+            [4] = {
+                Id = "22917",
+                Icon = "Spell_Shadow_SummonVoidWalker",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22917,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22917
+            },
+            [5] = {
+                Id = "7645",
+                Icon = "Spell_Shadow_ShadowWordDominate",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_7645,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_7645,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18350], DropChance = 20},
             [2] = {IJDB.I[18351], DropChance = 20},
@@ -120,7 +250,7 @@ DMW.Bosses = {
             [18] = {IJDB.I[18401], DropChance = 1}
         }
     },
-    [4] = { -- NOTE: Missing abilities
+    [4] = {
         Id = "11467",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "tsuzee" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "tsuzee" .. IMPF,
@@ -128,13 +258,33 @@ DMW.Bosses = {
         Story = IJ_DB_DUNGEON_DMW_BOSS_STORY_11467,
         MapCoordinateX = 29.1,
         MapCoordinateY = 66.5,
+        Abilities = {
+            [1] = {
+                Id = "12540",
+                Icon = "Ability_Gouge",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_12540,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_12540
+            },
+            [2] = {
+                Id = "14873",
+                Icon = "Spell_Shadow_RitualOfSacrifice",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_14873,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_14873
+            },
+            [3] = {
+                Id = "21060",
+                Icon = "Spell_Shadow_MindSteal",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_21060,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_21060
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18345], DropChance = 33}, 
             [2] = {IJDB.I[18346], DropChance = 33}, 
             [3] = {IJDB.I[18387], DropChance = 33}
         }
     },
-    [5] = { -- NOTE: Missing abilities
+    [5] = {
         Id = "11496",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "immolthar" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "immolthar" .. IMPF,
@@ -142,6 +292,41 @@ DMW.Bosses = {
         Story = IJ_DB_DUNGEON_DMW_BOSS_STORY_11496,
         MapCoordinateX = 10.2,
         MapCoordinateY = 78.8,
+        Abilities = {
+            [1] = {
+                Id = "16128",
+                Icon = "Spell_Shadow_CallofBone",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_16128,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_16128,
+                Flags = {IMAF.Disease}
+            },
+            [2] = {
+                Id = "5568",
+                Icon = "Spell_Nature_NaturesWrath",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_5568,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_5568
+            },
+            [3] = {
+                Id = "8269",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_8269,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_8269
+            },
+            [4] = {
+                Id = "22899",
+                Icon = "Spell_Shadow_DetectInvisibility",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22899,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22899,
+                SubAbilities = {
+                    [1] = {
+                        Id = "22909",
+                        Icon = "Spell_Shadow_AntiMagicShell",
+                        Name = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22909,
+                        Effect = IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22909
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18370], DropChance = 10},
             [2] = {IJDB.I[18372], DropChance = 10},
@@ -169,7 +354,91 @@ DMW.Bosses = {
             [24] = {IJDB.I[18401], DropChance = 1}
         }
     },
-    [6] = { -- NOTE: Missing abilities
+    [6] = {
+        Id = "14502",
+        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "dreadsteed" .. IMPP, -- TODO: Redo portait/frame to match original's style
+        Frame = IMP .. IMPD .. instanceMediaAcronym .. "dreadsteed" .. IMPF, -- TODO: Redo portait/frame to match original's style
+        Name = IJ_DB_DUNGEON_DMW_BOSS_NAME_14502,
+        Story = IJ_DB_DUNGEON_DMW_BOSS_STORY_14502,
+        IsSummoned = true,
+        MapCoordinateX = 10.2,
+        MapCoordinateY = 78.8,
+        Abilities = {
+            [1] = {
+                Id = "dreadsteedsummoning",
+                Icon = "INV_Misc_Bag_10",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedsummoning,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedsummoning
+            },
+            [2] = {
+                Id = "dreadsteedritual",
+                Icon = "INV_Misc_Stone_04",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedritual,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedritual
+            },
+            [3] = {
+                Id = "dreadsteed",
+                Icon = "Ability_Mount_Dreadsteed",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteed,
+                SubAbilities = {
+                    [1] = {
+                        Id = "22713",
+                        Icon = "Spell_Fire_Fireball",
+                        Name = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_22713,
+                        Effect = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_22713,
+                        Flags = {IMAF.Magic}
+                    }
+                }
+            },
+            [4] = {
+                Id = "helnurath",
+                Icon = "Spell_Shadow_CarrionSwarm",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_helnurath,
+                SubAbilities = {
+                    [1] = {
+                        Id = "17146",
+                        Icon = "Spell_Shadow_ShadowWordPain",
+                        Name = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_17146,
+                        Effect = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_17146,
+                        Flags = {IMAF.Magic}
+                    },
+                    [2] = {
+                        Id = "23224",
+                        Icon = "Spell_Shadow_GatherShadows",
+                        Name = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_23224,
+                        Effect = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_23224,
+                        Flags = {IMAF.Curse}
+                    },
+                    [3] = {
+                        Id = "18670",
+                        Icon = "INV_Gauntlets_05",
+                        Name = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_18670,
+                        Effect = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_18670
+                    },
+                    [4] = {
+                        Id = "20989",
+                        Icon = "Spell_Nature_Sleep",
+                        Name = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_20989,
+                        Effect = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_20989,
+                        Flags = {IMAF.Magic}
+                    }
+                }
+            },
+            [5] = {
+                Id = "dreadsteedcompletion",
+                Icon = "Spell_Shadow_RaiseDead",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedcompletion,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedcompletion
+            }
+        },
+        Loot = {
+            [1] = {IJDB.I[18754], DropChance = 25},
+            [2] = {IJDB.I[18755], DropChance = 25},
+            [3] = {IJDB.I[18756], DropChance = 25},
+            [4] = {IJDB.I[18757], DropChance = 25}
+        }
+    },
+    [7] = {
         Id = "11486",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "prince" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "prince" .. IMPF,
@@ -177,6 +446,32 @@ DMW.Bosses = {
         Story = IJ_DB_DUNGEON_DMW_BOSS_STORY_11486,
         MapCoordinateX = 20.9,
         MapCoordinateY = 65.7,
+        Abilities = {
+            [1] = {
+                Id = "15589",
+                Icon = "Ability_Whirlwind",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_15589,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_15589
+            },
+            [2] = {
+                Id = "20537",
+                Icon = "Spell_Frost_IceShock",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_20537,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_20537
+            },
+            [3] = {
+                Id = "22920",
+                Icon = "Spell_Shadow_DeathPact",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22920,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22920
+            },
+            [4] = {
+                Id = "22995",
+                Icon = "Spell_Arcane_PortalIronForge",
+                Name = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22995,
+                Effect = IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22995
+            }
+        },
         Loot = {
             [1] = {IJDB.I[51217], DropChance = 100},
             [2] = {IJDB.I[18373], DropChance = 10},

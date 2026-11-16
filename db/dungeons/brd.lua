@@ -30,7 +30,7 @@ BRD.Entrances = {
     }
 }
 BRD.Bosses = {
-    [1] = { -- NOTE: Missing abilities
+    [1] = {
         Id = "9018",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "gerstahn" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "gerstahn" .. IMPF,
@@ -38,6 +38,35 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9018,
         MapCoordinateX = 51.3,
         MapCoordinateY = 93.6,
+        Abilities = {
+            [1] = {
+                Id = "14033",
+                Icon = "Spell_Shadow_ManaBurn",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14033,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14033,
+                Flags = {IMAF.Interruptible}
+            },
+            [2] = {
+                Id = "13704",
+                Icon = "Spell_Shadow_PsychicScream",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_13704,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_13704
+            },
+            [3] = {
+                Id = "14032",
+                Icon = "Spell_Shadow_ShadowWordPain",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14032,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14032,
+                Flags = {IMAF.Magic}
+            },
+            [4] = {
+                Id = "12040",
+                Icon = "Spell_Shadow_AntiShadow",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_12040,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11624], DropChance = 25},
             [2] = {IJDB.I[11625], DropChance = 25},
@@ -47,7 +76,7 @@ BRD.Bosses = {
             [6] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [2] = { -- NOTE: Missing abilities
+    [2] = {
         Id = "9025",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "roccor" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "roccor" .. IMPF,
@@ -56,6 +85,27 @@ BRD.Bosses = {
         MapCoordinateX = 54.3,
         MapCoordinateY = 77.9,
         IsRare = true,
+        Abilities = {
+            [1] = {
+                Id = "6524",
+                Icon = "Spell_Nature_Earthquake",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_6524,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_6524
+            },
+            [2] = {
+                Id = "13728",
+                Icon = "Spell_Nature_EarthShock",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13728,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13728
+            },
+            [3] = {
+                Id = "13729",
+                Icon = "Spell_Fire_FlameShock",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13729,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11624], DropChance = 25},
             [2] = {IJDB.I[11625], DropChance = 25},
@@ -71,7 +121,7 @@ BRD.Bosses = {
             [12] = {IJDB.I[11630], DropChance = 16}
         }
     },
-    [3] = { -- NOTE: Missing abilities
+    [3] = {
         Id = "9319",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "grebmar" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "grebmar" .. IMPF,
@@ -79,6 +129,27 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9319,
         MapCoordinateX = 56.3,
         MapCoordinateY = 69.1,
+        Abilities = {
+            [1] = {
+                Id = "13730",
+                Icon = "Ability_Warrior_WarCry",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_13730,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_13730
+            },
+            [2] = {
+                Id = "15615",
+                Icon = "INV_Gauntlets_04",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_15615,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_15615
+            },
+            [3] = {
+                Id = "21049",
+                Icon = "Spell_Nature_BloodLust",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_21049,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11623], DropChance = 25},
             [2] = {IJDB.I[11627], DropChance = 25},
@@ -126,7 +197,38 @@ BRD.Bosses = {
             [27] = {IJDB.I[11824], DropChance = 25}
         }
     },
-    [5] = { -- NOTE: Missing abilities
+    [5] = {
+        Id = "16059",
+        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "theldren" .. IMPP, -- TODO: Redo portait/frame to match original's style
+        Frame = IMP .. IMPD .. instanceMediaAcronym .. "theldren" .. IMPF, -- TODO: Redo portait/frame to match original's style
+        Name = IJ_DB_DUNGEON_BRD_BOSS_NAME_16059,
+        Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_16059,
+        IsSummoned = true,
+        MapCoordinateX = 53.7,
+        MapCoordinateY = 71.7,
+        Abilities = {
+            [1] = {
+                Id = "theldrensummoning",
+                Icon = "INV_Banner_03",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_theldrensummoning,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_theldrensummoning
+            },
+            [2] = {
+                Id = "arenaspoils",
+                Icon = "INV_Misc_TreasureChest03a",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_arenaspoils,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_arenaspoils
+            }
+        },
+        Loot = {
+            [1] = {IJDB.I[22305], DropChance = 38},
+            [2] = {IJDB.I[22317], DropChance = 17},
+            [3] = {IJDB.I[22318], DropChance = 26},
+            [4] = {IJDB.I[22330], DropChance = 19},
+            [5] = {IJDB.I[51217], DropChance = 5}
+        }
+    },
+    [6] = {
         Id = "9024",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "loregrain" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "loregrain" .. IMPF,
@@ -135,6 +237,34 @@ BRD.Bosses = {
         MapCoordinateX = 57.1,
         MapCoordinateY = 76.0,
         IsRare = true,
+        Abilities = {
+            [1] = {
+                Id = "15038",
+                Icon = "Spell_Fire_SearingTotem",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15038,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15038
+            },
+            [2] = {
+                Id = "15616",
+                Icon = "Spell_Fire_FlameShock",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15616,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15616,
+                Flags = {IMAF.Magic}
+            },
+            [3] = {
+                Id = "15095",
+                Icon = "Spell_Fire_Fire",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15095,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15095
+            },
+            [4] = {
+                Id = "15041",
+                Icon = "Spell_Fire_FireArmor",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15041,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[70226], DropChance = 2},
             [2] = {IJDB.I[11207], DropChance = 16},
@@ -144,7 +274,7 @@ BRD.Bosses = {
             [6] = {IJDB.I[11747], DropChance = 25}
         }
     },
-    [6] = { -- NOTE: Missing abilities
+    [7] = {
         Id = "9041",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "stilgiss" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "stilgiss" .. IMPF,
@@ -153,6 +283,36 @@ BRD.Bosses = {
         MapCoordinateX = 60.6,
         MapCoordinateY = 53.0,
         IsRare = true,
+        Abilities = {
+            [1] = {
+                Id = "12674",
+                Icon = "Spell_Frost_FrostNova",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12674,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12674,
+                Flags = {IMAF.Magic}
+            },
+            [2] = {
+                Id = "12675",
+                Icon = "Spell_Frost_FrostBolt02",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12675,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12675,
+                Flags = {IMAF.Magic}
+            },
+            [3] = {
+                Id = "12544",
+                Icon = "Spell_Frost_FrostArmor02",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12544,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12544,
+                Flags = {IMAF.Magic}
+            },
+            [4] = {
+                Id = "15044",
+                Icon = "Spell_Frost_FrostWard",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_15044,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11782], DropChance = 25},
             [2] = {IJDB.I[11783], DropChance = 25},
@@ -163,7 +323,7 @@ BRD.Bosses = {
             [7] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [7] = { -- NOTE: Missing abilities
+    [8] = {
         Id = "9476",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "vault" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "vault" .. IMPF,
@@ -171,13 +331,28 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9476,
         MapCoordinateX = 61.8,
         MapCoordinateY = 54.6,
+        Abilities = {
+            [1] = {
+                Id = "11971",
+                Icon = "Ability_Warrior_Sunder",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_11971,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_11971,
+                Flags = {IMAF.Tank}
+            },
+            [2] = {
+                Id = "15504",
+                Icon = "Spell_Holy_Heal",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_15504,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504
+            }
+        },
         Loot = {
             [1] = {IJDB.I[22256], DropChance = 2}, 
             [2] = {IJDB.I[22205], DropChance = 2}, 
             [3] = {IJDB.I[22254], DropChance = 1}
         }
     },
-    [8] = { -- NOTE: Missing abilities
+    [9] = {
         Id = "9056",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "darkvire" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "darkvire" .. IMPF,
@@ -185,6 +360,39 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9056,
         MapCoordinateX = 62.8,
         MapCoordinateY = 41.2,
+        Abilities = {
+            [1] = {
+                Id = "13953",
+                Icon = "Ability_ThunderBolt",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_13953,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_13953
+            },
+            [2] = {
+                Id = "8258",
+                Icon = "Spell_Holy_DevotionAura",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_8258,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_8258
+            },
+            [3] = {
+                Id = "15346",
+                Icon = "Spell_Holy_SealOfWrath",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15346,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15346,
+                Flags = {IMAF.Magic}
+            },
+            [4] = {
+                Id = "15493",
+                Icon = "Spell_Holy_HolyBolt",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15493,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15493
+            },
+            [5] = {
+                Id = "11978",
+                Icon = "Ability_Kick",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_11978,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11839], DropChance = 25},
             [2] = {IJDB.I[11841], DropChance = 25},
@@ -196,7 +404,7 @@ BRD.Bosses = {
             [8] = {IJDB.I[11840], DropChance = 5}
         }
     },
-    [9] = { -- NOTE: Missing abilities
+    [10] = {
         Id = "9017",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "incendius" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "incendius" .. IMPF,
@@ -204,6 +412,33 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9017,
         MapCoordinateX = 57.8,
         MapCoordinateY = 48.5,
+        Abilities = {
+            [1] = {
+                Id = "13899",
+                Icon = "Spell_Fire_SelfDestruct",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13899,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13899
+            },
+            [2] = {
+                Id = "13900",
+                Icon = "Spell_Fire_FireBolt",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13900,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13900
+            },
+            [3] = {
+                Id = "14099",
+                Icon = "INV_Gauntlets_05",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_14099,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_14099
+            },
+            [4] = {
+                Id = "26977",
+                Icon = "Spell_Fire_LavaSpawn",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_26977,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977,
+                Flags = {IMAF.Curse}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11764], DropChance = 25},
             [2] = {IJDB.I[11765], DropChance = 25},
@@ -213,7 +448,7 @@ BRD.Bosses = {
             [6] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [10] = { -- NOTE: Missing abilities
+    [11] = {
         Id = "9016",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "baelgar" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "baelgar" .. IMPF,
@@ -221,6 +456,20 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9016,
         MapCoordinateX = 35.1,
         MapCoordinateY = 64.6,
+        Abilities = {
+            [1] = {
+                Id = "13880",
+                Icon = "Spell_Fire_Immolation",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13880,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13880
+            },
+            [2] = {
+                Id = "13895",
+                Icon = "Spell_Fire_LavaSpawn",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13895,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11802], DropChance = 25},
             [2] = {IJDB.I[11803], DropChance = 25},
@@ -230,7 +479,7 @@ BRD.Bosses = {
             [6] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [11] = { -- NOTE: Missing abilities
+    [12] = {
         Id = "9033",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "angerforge" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "angerforge" .. IMPF,
@@ -238,6 +487,33 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9033,
         MapCoordinateX = 42.7,
         MapCoordinateY = 66.2,
+        Abilities = {
+            [1] = {
+                Id = "15572",
+                Icon = "Ability_Warrior_Sunder",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15572,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15572,
+                Flags = {IMAF.Tank}
+            },
+            [2] = {
+                Id = "15061",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15061,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15061
+            },
+            [3] = {
+                Id = "17687",
+                Icon = "Ability_GhoulFrenzy",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_17687,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_17687
+            },
+            [4] = {
+                Id = "reinforcements",
+                Icon = "Ability_Warrior_BattleShout",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_reinforcements,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11810], DropChance = 20},
             [2] = {IJDB.I[11816], DropChance = 20},
@@ -248,7 +524,7 @@ BRD.Bosses = {
             [7] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [12] = { -- NOTE: Missing abilities
+    [13] = {
         Id = "8983",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "argelmach" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "argelmach" .. IMPF,
@@ -256,6 +532,27 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_8983,
         MapCoordinateX = 42.4,
         MapCoordinateY = 52.1,
+        Abilities = {
+            [1] = {
+                Id = "15305",
+                Icon = "Spell_Nature_ChainLightning",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15305,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15305
+            },
+            [2] = {
+                Id = "15605",
+                Icon = "Spell_Nature_WispHeal",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15605,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15605
+            },
+            [3] = {
+                Id = "15507",
+                Icon = "Spell_Nature_LightningShield",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15507,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11669], DropChance = 25},
             [2] = {IJDB.I[11819], DropChance = 25},
@@ -265,7 +562,7 @@ BRD.Bosses = {
             [6] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [13] = { -- NOTE: Missing abilities
+    [14] = {
         Id = "9537",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "blackbreath" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "blackbreath" .. IMPF,
@@ -273,6 +570,20 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9537,
         MapCoordinateX = 51.2,
         MapCoordinateY = 47.8,
+        Abilities = {
+            [1] = {
+                Id = "9573",
+                Icon = "Spell_Fire_Fire",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_9573,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_9573
+            },
+            [2] = {
+                Id = "14872",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_14872,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11735], DropChance = 25}, 
             [2] = {IJDB.I[18043], DropChance = 25}, 
@@ -281,7 +592,7 @@ BRD.Bosses = {
             [5] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [14] = { -- NOTE: Missing abilities
+    [15] = {
         Id = "9543",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "ribbly" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "ribbly" .. IMPF,
@@ -289,6 +600,14 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9543,
         MapCoordinateX = 51.9,
         MapCoordinateY = 51.3,
+        Abilities = {
+            [1] = {
+                Id = "9080",
+                Icon = "Ability_ShockWave",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_NAME_9080,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080
+            }
+        },
         Loot = {
             [1] = {IJDB.I[2663], DropChance = 25}, 
             [2] = {IJDB.I[2662], DropChance = 25}, 
@@ -296,7 +615,7 @@ BRD.Bosses = {
             [4] = {IJDB.I[11612], DropChance = 3}
         }
     },
-    [15] = { -- NOTE: Missing abilities
+    [16] = {
         Id = "9502",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "phalanx" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "phalanx" .. IMPF,
@@ -304,6 +623,27 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9502,
         MapCoordinateX = 54.5,
         MapCoordinateY = 50.6,
+        Abilities = {
+            [1] = {
+                Id = "14099",
+                Icon = "INV_Gauntlets_05",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_14099,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_14099
+            },
+            [2] = {
+                Id = "15588",
+                Icon = "Spell_Nature_ThunderClap",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15588,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15588,
+                Flags = {IMAF.Magic}
+            },
+            [3] = {
+                Id = "15285",
+                Icon = "Spell_Fire_FlameBolt",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15285,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11744], DropChance = 33}, 
             [2] = {IJDB.I[11745], DropChance = 33}, 
@@ -311,7 +651,7 @@ BRD.Bosses = {
             [4] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [16] = { -- NOTE: Missing abilities
+    [17] = {
         Id = "9499",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "spazzring" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "spazzring" .. IMPF,
@@ -319,13 +659,48 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9499,
         MapCoordinateX = 53.1,
         MapCoordinateY = 49.4,
+        Abilities = {
+            [1] = {
+                Id = "12739",
+                Icon = "Spell_Shadow_ShadowBolt",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12739,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12739
+            },
+            [2] = {
+                Id = "12742",
+                Icon = "Spell_Fire_Immolation",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12742,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12742,
+                Flags = {IMAF.Magic}
+            },
+            [3] = {
+                Id = "13338",
+                Icon = "Spell_Shadow_CurseOfTounges",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13338,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13338,
+                Flags = {IMAF.Curse}
+            },
+            [4] = {
+                Id = "13787",
+                Icon = "Spell_Shadow_RagingScream",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13787,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13787,
+                Flags = {IMAF.Magic}
+            },
+            [5] = {
+                Id = "8994",
+                Icon = "Spell_Shadow_Cripple",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_8994,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18653], DropChance = 18}, 
             [2] = {IJDB.I[12793], DropChance = 18}, 
             [3] = {IJDB.I[12791], DropChance = 18}
         }
     },
-    [17] = { -- NOTE: Missing abilities
+    [18] = {
         Id = "9156",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "flamelash" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "flamelash" .. IMPF,
@@ -333,6 +708,20 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9156,
         MapCoordinateX = 56.2,
         MapCoordinateY = 39.5,
+        Abilities = {
+            [1] = {
+                Id = "15574",
+                Icon = "Spell_Fire_Fireball",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_15574,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_15574
+            },
+            [2] = {
+                Id = "14744",
+                Icon = "Spell_Fire_Fire",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_14744,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11809], DropChance = 25},
             [2] = {IJDB.I[11812], DropChance = 25},
@@ -343,7 +732,7 @@ BRD.Bosses = {
             [7] = {IJDB.I[51217], DropChance = 5}
         }
     },
-    [18] = { -- NOTE: Missing abilities
+    [19] = {
         Id = "8923",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "panzor" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "panzor" .. IMPF,
@@ -352,6 +741,14 @@ BRD.Bosses = {
         MapCoordinateX = 50.6,
         MapCoordinateY = 29.2,
         IsRare = true,
+        Abilities = {
+            [1] = {
+                Id = "9941",
+                Icon = "Spell_Shadow_Teleport",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_NAME_9941,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11785], DropChance = 25}, 
             [2] = {IJDB.I[11786], DropChance = 25}, 
@@ -359,7 +756,7 @@ BRD.Bosses = {
             [4] = {IJDB.I[22245], DropChance = 25}
         }
     },
-    [19] = { -- NOTE: Missing abilities
+    [20] = {
         Id = "9040",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "seven" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "seven" .. IMPF,
@@ -367,6 +764,242 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9040,
         MapCoordinateX = 55.9,
         MapCoordinateY = 20.7,
+        Abilities = {
+            [1] = {
+                Id = "haterel",
+                Icon = "Spell_Shadow_ShadowBolt",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterel,
+                SubAbilities = {
+                    [1] = {
+                        Id = "15232",
+                        Icon = "Spell_Shadow_ShadowBolt",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15232,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15232
+                    },
+                    [2] = {
+                        Id = "14033",
+                        Icon = "Spell_Shadow_ManaBurn",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_14033,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_14033
+                    },
+                    [3] = {
+                        Id = "haterelstrike",
+                        Icon = "Ability_Rogue_Ambush",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterelstrike,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_haterelstrike
+                    },
+                    [4] = {
+                        Id = "12040",
+                        Icon = "Spell_Shadow_AntiShadow",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12040,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12040,
+                        Flags = {IMAF.Magic}
+                    }
+                }
+            },
+            [2] = {
+                Id = "angerrel",
+                Icon = "Ability_Warrior_ShieldWall",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrel,
+                SubAbilities = {
+                    [1] = {
+                        Id = "angerrelstrike",
+                        Icon = "Ability_Rogue_Ambush",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrelstrike,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_angerrelstrike
+                    },
+                    [2] = {
+                        Id = "11971",
+                        Icon = "Ability_Warrior_Sunder",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11971,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11971,
+                        Flags = {IMAF.Tank}
+                    },
+                    [3] = {
+                        Id = "12169",
+                        Icon = "Ability_Defend",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12169,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12169
+                    },
+                    [4] = {
+                        Id = "15062",
+                        Icon = "Ability_Warrior_ShieldWall",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15062,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15062
+                    }
+                }
+            },
+            [3] = {
+                Id = "vilerel",
+                Icon = "Spell_Holy_FlashHeal",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_vilerel,
+                SubAbilities = {
+                    [1] = {
+                        Id = "15586",
+                        Icon = "Spell_Holy_Heal",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15586,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15586
+                    },
+                    [2] = {
+                        Id = "15585",
+                        Icon = "Spell_Holy_PrayerOfHealing02",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15585,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15585
+                    },
+                    [3] = {
+                        Id = "15587",
+                        Icon = "Spell_Shadow_UnholyFrenzy",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15587,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15587
+                    },
+                    [4] = {
+                        Id = "11974",
+                        Icon = "Spell_Holy_PowerWordShield",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11974,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11974,
+                        Flags = {IMAF.Magic}
+                    }
+                }
+            },
+            [4] = {
+                Id = "gloomrel",
+                Icon = "Ability_Warrior_Cleave",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_gloomrel,
+                SubAbilities = {
+                    [1] = {
+                        Id = "15284",
+                        Icon = "Ability_Warrior_Cleave",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15284,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15284
+                    },
+                    [2] = {
+                        Id = "13737",
+                        Icon = "Ability_Warrior_SavageBlow",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13737,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13737,
+                        Flags = {IMAF.Heal}
+                    },
+                    [3] = {
+                        Id = "9080",
+                        Icon = "Ability_ShockWave",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_9080,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_9080
+                    },
+                    [4] = {
+                        Id = "13847",
+                        Icon = "Ability_CriticalStrike",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13847,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13847
+                    }
+                }
+            },
+            [5] = {
+                Id = "seethrel",
+                Icon = "Spell_Frost_FrostBolt02",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_seethrel,
+                SubAbilities = {
+                    [1] = {
+                        Id = "12675",
+                        Icon = "Spell_Frost_FrostBolt02",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12675,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12675,
+                        Flags = {IMAF.Magic}
+                    },
+                    [2] = {
+                        Id = "12674",
+                        Icon = "Spell_Frost_FrostNova",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12674,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12674,
+                        Flags = {IMAF.Magic}
+                    },
+                    [3] = {
+                        Id = "15244",
+                        Icon = "Spell_Frost_Glacier",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15244,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15244,
+                        Flags = {IMAF.Magic}
+                    },
+                    [4] = {
+                        Id = "15044",
+                        Icon = "Spell_Frost_FrostWard",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15044,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15044,
+                        Flags = {IMAF.Magic}
+                    }
+                }
+            },
+            [6] = {
+                Id = "doomrel",
+                Icon = "Spell_Shadow_SummonVoidWalker",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doomrel,
+                SubAbilities = {
+                    [1] = {
+                        Id = "15245",
+                        Icon = "Spell_Shadow_ShadowBolt",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15245,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15245
+                    },
+                    [2] = {
+                        Id = "12742",
+                        Icon = "Spell_Fire_Immolation",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12742,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12742,
+                        Flags = {IMAF.Magic}
+                    },
+                    [3] = {
+                        Id = "12493",
+                        Icon = "Spell_Shadow_CurseOfMannoroth",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12493,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12493,
+                        Flags = {IMAF.Curse}
+                    },
+                    [4] = {
+                        Id = "13787",
+                        Icon = "Spell_Shadow_RagingScream",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13787,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13787,
+                        Flags = {IMAF.Magic}
+                    },
+                    [5] = {
+                        Id = "15092",
+                        Icon = "Spell_Shadow_SummonVoidWalker",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15092,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15092
+                    }
+                }
+            },
+            [7] = {
+                Id = "doperel",
+                Icon = "Ability_Rogue_Eviscerate",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doperel,
+                SubAbilities = {
+                    [1] = {
+                        Id = "15581",
+                        Icon = "Spell_Shadow_RitualOfSacrifice",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15581,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15581
+                    },
+                    [2] = {
+                        Id = "12540",
+                        Icon = "Ability_Gouge",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12540,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12540
+                    },
+                    [3] = {
+                        Id = "15583",
+                        Icon = "Ability_Rogue_Rupture",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15583,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15583
+                    },
+                    [4] = {
+                        Id = "15087",
+                        Icon = "Spell_Shadow_ShadowWard",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15087,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15087
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11920], DropChance = 25},
             [2] = {IJDB.I[11923], DropChance = 25},
@@ -378,7 +1011,7 @@ BRD.Bosses = {
             [8] = {IJDB.I[11927], DropChance = 25}
         }
     },
-    [20] = { -- NOTE: Missing abilities
+    [21] = {
         Id = "9938",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "magmus" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "magmus" .. IMPF,
@@ -386,6 +1019,20 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9938,
         MapCoordinateX = 76.8,
         MapCoordinateY = 10.4,
+        Abilities = {
+            [1] = {
+                Id = "24375",
+                Icon = "Ability_BullRush",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_24375,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_24375
+            },
+            [2] = {
+                Id = "13900",
+                Icon = "Spell_Fire_FireBolt",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_13900,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_13900
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11746], DropChance = 20},
             [2] = {IJDB.I[11935], DropChance = 20},
@@ -396,7 +1043,7 @@ BRD.Bosses = {
             [7] = {IJDB.I[51217], DropChance = 5}
         }
     },
-    [21] = { -- NOTE: Missing abilities
+    [22] = {
         Id = "9019",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "emperor" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "emperor" .. IMPF,
@@ -404,6 +1051,67 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9019,
         MapCoordinateX = 85.6,
         MapCoordinateY = 10.4,
+        Abilities = {
+            [1] = {
+                Id = "emperor",
+                Icon = "Spell_Fire_Incinerate",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_emperor,
+                SubAbilities = {
+                    [1] = {
+                        Id = "15636",
+                        Icon = "Spell_Fire_Incinerate",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15636,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15636,
+                        SubAbilities = {
+                            [1] = {
+                                Id = "15643",
+                                Icon = "Spell_Fire_FireBolt",
+                                Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15643,
+                                Effect = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15643
+                            }
+                        }
+                    },
+                    [2] = {
+                        Id = "17492",
+                        Icon = "Spell_Fire_Fireball",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_17492,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_17492
+                    }
+                }
+            },
+            [2] = {
+                Id = "moira",
+                Icon = "Spell_Holy_FlashHeal",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_moira,
+                SubAbilities = {
+                    [1] = {
+                        Id = "10934",
+                        Icon = "Spell_Holy_HolySmite",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_10934,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_10934
+                    },
+                    [2] = {
+                        Id = "15586",
+                        Icon = "Spell_Holy_Heal",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15586,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15586
+                    },
+                    [3] = {
+                        Id = "15587",
+                        Icon = "Spell_Shadow_UnholyFrenzy",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15587,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15587
+                    },
+                    [4] = {
+                        Id = "15654",
+                        Icon = "Spell_Shadow_ShadowWordPain",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15654,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15654,
+                        Flags = {IMAF.Magic}
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[51217], DropChance = 100},
             [2] = {IJDB.I[56104], DropChance = 30},

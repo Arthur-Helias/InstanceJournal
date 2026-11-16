@@ -2,6 +2,38 @@
 
 All changes to this project will be documented in this file.
 
+## [1.4.8] - 2026-11-16
+
+### Added
+
+- Added missing abilities to the bosses in `Blackrock Depths`
+- Added the `Dreadsteed of Xoroth` encounter to `Dire Maul West`, including ritual guidance, abilities, and loot
+- Added the `Ritual of Souls` quest chain and its prerequisites
+- Added learned spell rewards to `Dreadsteed of Xoroth` and `Arcane Refreshment`
+- Added `Jarien and Sothos` to `Stratholme` and `Theldren and his Gladiators` to `Blackrock Depths`, including summoning guidance and loot
+- Added the paladin and shaman quests for `Death Knight Darkreaver` in `Scholomance`
+- Added a localized `[Summoned]` tag and summoning guidance for summoned encounters
+- Added quest event guidance for `Plaguemaw the Rotting`
+- Added `Isalien` to `Dire Maul East`, including abilities and loot
+- Added missing abilities to the bosses in `Dire Maul East`
+- Added missing abilities to the bosses in `Lower Blackrock Spire`
+- Added `Mor Grayhoof` to `Lower Blackrock Spire`, including abilities and loot
+- Added missing abilities and Tribute guidance to the bosses in `Dire Maul North`
+- Added missing abilities to the bosses in `Dire Maul West`
+- Added missing abilities to the bosses in `Scholomance`
+- Added missing abilities to the bosses in `Stratholme`
+- Added missing abilities to the bosses in `Upper Blackrock Spire`
+- Added missing abilities to the bosses in `Black Morass`
+- Added missing abilities to the `Arc'Tiras` encounter in `Stormwind Vault`
+
+### Changed
+
+- Restricted `The Hexxer's Ward` and `A Special Kind of Summons` to mages
+- Expanded the lore of `Alarus` and `Commander Andreon` in `Karazhan Crypts`
+- Updated boss abilities in `Stormwind Vault`
+- Expanded the lore of `Tham'Grarr` with his two heads and their personalities
+- Expanded the lore of `Arc'Tiras` with Malygos's experiment and the crystal's confinement in Stormwind
+
 ## [1.4.7] - 2026-11-12
 
 ### Added

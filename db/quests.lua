@@ -4377,7 +4377,8 @@ Q[7463] = {
     RequiredFaction = {IF.Alliance, IF.Horde},
     RewardExperience = 6600,
     RewardCoin = 39600,
-    RewardReputations = {{Name = IR.Shendralar, Amount = 200}}
+    RewardReputations = {{Name = IR.Shendralar, Amount = 200}},
+    RewardSpells = {{Id = "10140", Icon = "INV_Drink_18", Name = IJ_QUEST_REWARD_SPELL_10140}}
 }
 
 Q[7581] = {
@@ -6706,6 +6707,7 @@ Q[7631] = {
     RequiredFaction = {IF.Alliance, IF.Horde},
     RewardExperience = 6600,
     RewardCoin = 39600,
+    RewardSpells = {{Id = "23161", Icon = "Ability_Mount_Dreadsteed", Name = IJ_QUEST_REWARD_SPELL_23161}},
     RequiredQuests = {Q[7629]}
 }
 
@@ -12102,6 +12104,38 @@ Q[41812] = {
     RewardItems = {{IJDB.I[41919]}}
 }
 
+Q[7582] = {
+    Id = "7582",
+    Name = IJ_QUEST_NAME_7582,
+    Objective = IJ_QUEST_OBJECTIVE_7582,
+    RequiredLevel = 60,
+    Level = 60,
+    IsSharable = true,
+    StartingPoints = {NPC[14463]},
+    EndingPoints = {NPC[14463]},
+    RequiredClass = {IMCL.Warlock},
+    RequiredFaction = {IF.Alliance, IF.Horde},
+    RewardExperience = 6600,
+    RewardCoin = 39600
+}
+
+Q[7583] = {
+    Id = "7583",
+    Name = IJ_QUEST_NAME_7583,
+    Objective = IJ_QUEST_OBJECTIVE_7583,
+    RequiredLevel = 60,
+    Level = 60,
+    StartingPoints = {NPC[14463]},
+    EndingPoints = {NPC[14463]},
+    RequiredClass = {IMCL.Warlock},
+    RequiredFaction = {IF.Alliance, IF.Horde},
+    RewardExperience = 6600,
+    RewardCoin = 39600,
+    RewardItems = {{IJDB.I[18602]}},
+    RewardSpells = {{Id = "18540", Icon = "Spell_Shadow_AntiMagicShell", Name = IJ_QUEST_REWARD_SPELL_18540}},
+    RequiredQuests = {Q[7581], Q[7582]}
+}
+
 Q[70000] = {
     Id = "70000",
     Name = IJ_QUEST_NAME_70000,
@@ -12110,6 +12144,7 @@ Q[70000] = {
     Level = 60,
     StartingPoints = {NPC[1498], NPC[2708]},
     EndingPoints = {NPC[8379]},
+    RequiredClass = {IMCL.Mage},
     RequiredFaction = {IF.Alliance, IF.Horde},
     RewardCoin = 6400,
     RequiredQuests = {Q[7463]}
@@ -12123,10 +12158,40 @@ Q[70001] = {
     Level = 60,
     StartingPoints = {NPC[8379]},
     EndingPoints = {NPC[8379]},
+    RequiredClass = {IMCL.Mage},
     RequiredFaction = {IF.Alliance, IF.Horde},
     RewardCoin = 6400,
     RewardItems = {{IJDB.I[83002]}},
     RequiredQuests = {Q[70000]}
+}
+
+Q[70002] = {
+    Id = "70002",
+    Name = IJ_QUEST_NAME_70002,
+    Objective = IJ_QUEST_OBJECTIVE_70002,
+    RequiredLevel = 60,
+    Level = 60,
+    StartingPoints = {NPC[5675], NPC[6122]},
+    EndingPoints = {NPC[14463]},
+    RequiredClass = {IMCL.Warlock},
+    RequiredFaction = {IF.Alliance, IF.Horde},
+    RewardCoin = 6400,
+    RequiredQuests = {Q[7583]}
+}
+
+Q[70003] = {
+    Id = "70003",
+    Name = IJ_QUEST_NAME_70003,
+    Objective = IJ_QUEST_OBJECTIVE_70003,
+    RequiredLevel = 60,
+    Level = 60,
+    StartingPoints = {NPC[14463]},
+    EndingPoints = {NPC[14463]},
+    RequiredClass = {IMCL.Warlock},
+    RequiredFaction = {IF.Alliance, IF.Horde},
+    RewardCoin = 6400,
+    RewardItems = {{IJDB.I[83003]}},
+    RequiredQuests = {Q[70002]}
 }
 
 Q[40828] = {
@@ -12750,6 +12815,37 @@ Q[41978] = {
     RewardCoin = 13200,
     RewardReputations = {{Name = IR.ThunderBluff, Amount = 400}},
     RewardItems = {{IJDB.I[42264]}, {IJDB.I[42265]}}
+}
+
+Q[7647] = {
+    Id = "7647",
+    Name = IJ_QUEST_NAME_7647,
+    Objective = IJ_QUEST_OBJECTIVE_7647,
+    RequiredLevel = 60,
+    Level = 60,
+    StartingPoints = {NPC[928]},
+    RequiredClass = {IMCL.Paladin},
+    RequiredFaction = {IF.Alliance},
+    RewardExperience = 9950,
+    RewardCoin = 59700,
+    RewardReputations = {{Name = IR.Stormwind, Amount = 500}},
+    RewardSpells = {{Id = "23214", Icon = "Ability_Mount_Charger", Name = IJ_QUEST_REWARD_SPELL_23214}}
+}
+
+Q[7668] = {
+    Id = "7668",
+    Name = IJ_QUEST_NAME_7668,
+    Objective = IJ_QUEST_OBJECTIVE_7668,
+    RequiredLevel = 58,
+    Level = 60,
+    StartingPoints = {NPC[13417]},
+    EndingPoints = {NPC[13417]},
+    RequiredClass = {IMCL.Shaman},
+    RequiredFaction = {IF.Horde},
+    RewardExperience = 9950,
+    RewardCoin = 59700,
+    RewardItems = {{IJDB.I[18807]}},
+    RewardReputations = {{Name = IR.DarkspearTrolls, Amount = 500}, {Name = IR.Orgrimmar, Amount = 500}, {Name = IR.ThunderBluff, Amount = 500}, {Name = IR.Undercity, Amount = 500}}
 }
 
 IJDB.Q = Q

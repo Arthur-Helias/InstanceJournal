@@ -116,6 +116,7 @@ if GetLocale() == "zhCN" then
     IJ_GUI_TABRAIDS = "团队副本"
     IJ_GUI_BOSS = "首领"
     IJ_GUI_RARE = "稀有"
+    IJ_GUI_SUMMONED = "召唤"
     IJ_GUI_BOSSES = "首领"
     IJ_GUI_SHOWMAP = "显示\n地图"
     IJ_GUI_HOME = "主页"
@@ -447,52 +448,69 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_SV_BOSS_NAME_80853 = "艾丝卓仕·格瑞姆弗雷姆"
     IJ_DB_DUNGEON_SV_BOSS_STORY_80853 =
         "阿索什·恐怖火焰曾经是暗影议会的死灵法师，被古尔丹培养成死亡骑士。现在，他指挥着阵亡者的骸骨，耗尽所有反对他的人的力量。他的黑暗存在扭曲了避难所的大厅，只有勇敢的人才能阻止他对权力的无情渴望。"
-    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_10212 = "奥术飞弹"
-    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_10212 = "阿索什·恐怖火焰向敌人发射奥术飞弹，每 1 秒造成 192 点奥术伤害，持续 5 秒。"
-    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_18702 = "黑暗主宰诅咒"
-    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_18702 = "阿索什·恐怖火焰诅咒他的敌人，使其力量和耐力降低 50 点，持续 60 秒。"
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_17618 = "召唤复生仆从"
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_17618 = "召唤一个复生仆从协助战斗，最多持续60秒。\n\n控制或击杀召唤的敌人。"
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_10947 = "心灵震爆"
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_10947 = "施法1.5秒后对一个目标造成暗影伤害。"
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_11700 = "吸取生命"
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_11700 = "引导法术，每秒造成暗影伤害，持续5秒，并为施法者恢复相当于所造成伤害的生命值。\n\n及时驱散此魔法效果。"
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_18656 = "腐蚀术"
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_18656 = "每秒造成暗影伤害，持续3秒。\n\n驱散此魔法效果。"
     IJ_DB_DUNGEON_SV_BOSS_NAME_80852 = "塞姆格拉"
-    IJ_DB_DUNGEON_SV_BOSS_STORY_80852 = "人们对萨姆格拉尔知之甚少，只知道他是一个可怕的食人魔，以其残暴的力量和暴躁的脾气而闻名。"
-    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_5246 = "破胆怒吼"
-    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_5246 = "萨姆格拉对附近的敌人大喊大叫，导致他们在恐惧中逃跑 8 秒。"
-    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_22859 = "致死顺劈"
-    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_22859 = "萨姆格拉会对目标造成严重伤害并使其受伤，使任何治疗效果降低 50%，持续 5 秒。"
-    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_22857 = "反击风暴"
-    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_22857 = "萨姆格拉尔会反击任何在近战中攻击他的敌人，持续 15 秒。\n \n从背后发起的近战攻击无法反击。"
+    IJ_DB_DUNGEON_SV_BOSS_STORY_80852 = "塔姆格拉尔是位于暴风城地牢汇流区的双头食人魔法师。塔姆将闯入者视为难得的消遣，而格拉尔则迫不及待地要求杀光他们，沉醉于战斗的混乱之中。"
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_19717 = "火焰之雨"
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_19717 = "在选定区域降下火雨，每2秒造成一次火焰伤害，持续6秒。\n\n离开受影响区域。"
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_25306 = "火球术"
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_25306 = "对一个目标造成火焰伤害，随后每2秒造成额外火焰伤害，持续8秒。"
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_18670 = "击飞"
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_18670 = "对一个目标造成物理伤害，并将其击退。"
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_11958 = "寒冰屏障"
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_11958 = "使塔姆格拉尔被寒冰包围，免疫攻击和法术，持续10秒。冰冻期间无法攻击、移动或施法。\n\n停止攻击，直到寒冰屏障结束。"
     IJ_DB_DUNGEON_SV_BOSS_NAME_80850 = "黑色新娘"
     IJ_DB_DUNGEON_SV_BOSS_STORY_80850 =
         "黑人新娘是一个悲剧人物，被达米安的痴迷之爱所束缚。她攻击任何靠近的人，认为他们玷污了她的奉献精神，并在死后仍诉说她对开膛手的爱。"
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_16867 = "女妖诅咒"
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_16867 = "黑色新娘诅咒附近的敌人，使其命中的几率降低 10%，持续 12 秒。"
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_16565 = "女妖哀嚎"
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_16565 = "黑色新娘痛苦地哀嚎，对敌人造成暗影伤害。"
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_17244 = "占据"
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_17244 =
-        "黑色新娘控制了她的一个敌人，并开始攻击他们的盟友！\n \n对被附身的玩家造成足够的伤害就能将他们从新娘手中解救出来！"
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_18327 = "沉默"
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_18327 = "黑色新娘沉默 10 码半径内的所有敌人，使其无法施展法术，持续 10 秒。"
+    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_7074 = "往昔的尖啸"
+    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_7074 = "使5码内的敌人沉默5秒。\n\n远程玩家和治疗应保持在此范围之外。驱散此魔法效果。"
+    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_17228 = "暗影箭雨"
+    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_17228 = "对30码内的敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_28873 = "巫妖之击"
+    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_28873 = "对一个目标造成暗影伤害，并将其击退。"
     IJ_DB_DUNGEON_SV_BOSS_NAME_80854 = "戴米安"
     IJ_DB_DUNGEON_SV_BOSS_STORY_80854 =
         "达米安，也被称为“开膛手”，是一个从阴影中袭击的致命且难以捉摸的杀手。他热衷于战斗，以无情的精确度追捕那些遇到他的人，并且像他出现一样轻易消失。"
-    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_11700 = "吸取生命"
-    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11700 = "达米安吸取敌人的生命，每秒为自己转移 70 点生命值，持续 5 秒。"
-    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_11668 = "献祭"
-    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11668 = "达米安焚毁一名敌人，将其焚烧，造成 258 点火焰伤害，并在 15 秒内额外造成 485 点火焰伤害。"
-    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_1856 = "消失"
-    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_1856 = "达米安消失了，再次出现时伏击了敌人。"
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_24222 = "消失"
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_24222 = "消失并在约3秒后现身，使用背刺攻击，通常会选择另一个目标。\n\n坦克应准备嘲讽首领，重新控制其攻击目标。"
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_46320 = "背刺"
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_46320 = "对一个目标造成物理伤害。"
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_11286 = "凿击"
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11286 = "造成物理伤害，并使目标瘫痪，最多持续4秒。伤害会打断此效果。"
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_11294 = "邪恶攻击"
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11294 = "打击一个目标，造成物理伤害。"
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_17289 = "暗影震击"
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_17289 = "对一个目标造成暗影伤害。"
     IJ_DB_DUNGEON_SV_BOSS_NAME_80851 = "沃肯·冷刃"
     IJ_DB_DUNGEON_SV_BOSS_STORY_80851 = "沃尔坎·残酷之刃 (沃肯·冷刃) 是燃烧之刃氏族的成员。他以致命的技巧进行战斗，寻求自由并对所有反对他的人进行复仇。"
-    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_NAME_9256 = "深度睡眠"
-    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_9256 = "沃肯让附近的敌人陷入沉睡 10 秒。\n \n受到任何伤害都会将其唤醒。"
-    IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_15398 = "心灵尖啸"
-    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_15398 = "沃尔坎发出一声心灵尖叫，使敌人陷入恐惧状态 8 秒。"
-    IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_20741 = "暗影箭雨"
-    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_20741 = "沃尔坎投掷黑暗魔法飞弹，对 30 码内的每个敌人造成 255 点暗影伤害。"
-    IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_20603 = "暗影震击"
-    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_20603 = "沃尔坎用黑暗魔法鞭打 20 码半径内的敌人，对每个敌人造成 740 点暗影伤害。"
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_NAME_23951 = "嗜血"
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_23951 = "使近战攻击速度提高60%，持续15秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_NAME_7141 = "简单传送"
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_7141 = "传送并转而攻击另一个目标。\n\n坦克应准备嘲讽首领，重新控制其攻击目标。"
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_NAME_23931 = "雷霆一击"
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_23931 = "对10码内的敌人造成自然伤害，使其近战攻击间隔延长100%，移动速度降低60%，持续10秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_NAME_9632 = "剑刃风暴"
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_9632 = "引导攻击附近敌人，每3秒造成一次物理伤害，最多持续9秒。\n\n剑刃风暴期间远离首领。"
     IJ_DB_DUNGEON_SV_BOSS_NAME_93107 = "阿克提阿斯"
     IJ_DB_DUNGEON_SV_BOSS_STORY_93107 =
-        "阿克提拉斯是一颗强大且有感知力的魔法水晶，被锁在暴风城地牢深处。它不稳定的能量让守卫们疯狂，并将避难所扭曲成疯狂的迷宫。"
+        "阿克提拉斯诞生于玛里苟斯将自身法力注入诺森德寒冰的一次实验，是一块拥有意识、蕴含不稳定魔法的水晶。暴风城的法师发现了它，在它的力量接连引发事故后，将其封存在地牢深处。他们并不知道水晶拥有自己的意志，带入城中的危险最终使守卫陷入疯狂，也将地牢变成了充斥癫狂的长廊。"
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_NAME_17503 = "寒冰箭"
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_EFFECT_17503 = "对一个目标造成冰霜伤害，并使其移动速度降低50%，持续4秒。"
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_NAME_12888 = "疯狂"
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_EFFECT_12888 = "控制一个目标6秒，强迫其攻击盟友。使被控制目标的近战攻击速度提高50%，移动速度提高80%。\n\n立即驱散此魔法效果。"
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_NAME_30094 = "冰霜新星"
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_EFFECT_30094 = "对10码内的敌人造成冰霜伤害，并使其无法移动，最多持续8秒。\n\n远程玩家和治疗应保持在此范围之外。驱散定身效果。"
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_NAME_60612 = "寒冰守卫"
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_EFFECT_60612 = "生命值降至约60%时，召唤两个寒冰守卫。\n\n控制或击杀召唤的敌人。"
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_NAME_12548 = "冰霜震击"
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_EFFECT_12548 = "对一个目标造成冰霜伤害，并使其移动速度降低50%，持续8秒。"
 
     -- SV Loot
     IJ_LOOT_NAME_60504 = "恐惧皮手套"
@@ -647,24 +665,106 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BM_BOSS_NAME_65113 = "克罗纳"
     IJ_DB_DUNGEON_BM_BOSS_STORY_65113 =
         "克罗纳尔曾经是一位骄傲的时间线捍卫者，但他却违背了他对青铜龙军团的神圣誓言，与无限者结盟。现在，他已经变成了以前的自己的扭曲外壳，他挥舞着一把“陈旧的长矛”，这是他在过去的冲突中从一位人类英雄手中夺取的武器，他不知疲倦地致力于粉碎他曾经发誓要保护的历史。"
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_NAME_13737 = "致死打击"
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_EFFECT_13737 = "造成物理伤害，并使受到的治疗降低50%，持续5秒。\n\n治疗应准备应对坦克受到的治疗减少。"
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_NAME_22067 = "反射"
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_EFFECT_22067 = "将法术反射回施法者，持续10秒。\n\n反射生效期间，停止对克罗纳尔施放攻击性法术。"
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_NAME_12887 = "横扫猛击"
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_EFFECT_12887 = "对附近敌人造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_NAME_18328 = "破胆怒吼"
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_EFFECT_18328 = "使20码内敌人的移动速度降低60%，持续60秒。"
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_NAME_28131 = "激怒"
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_EFFECT_28131 = "造成的伤害提高25%，攻击速度提高40%。\n\n治疗应准备应对坦克受到的额外伤害。"
     IJ_DB_DUNGEON_BM_BOSS_NAME_61575 = "埃皮达姆"
     IJ_DB_DUNGEON_BM_BOSS_STORY_61575 =
         "随着沼泽内的时间异常加剧，来自跨越时间界限的生物被吸引到冲突中。埃皮达姆是无限意志的预兆，利用其扭曲现实的力量吸取沼泽的精华，并显现出困扰破碎时间线的腐化之沙。"
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_NAME_17287 = "心灵震爆"
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_EFFECT_17287 = "施法1.5秒后对一个目标造成暗影伤害。"
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_NAME_9433 = "魔爆术"
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_EFFECT_9433 = "对10码内的敌人造成奥术伤害。\n\n远程玩家和治疗应保持在此范围之外。"
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_NAME_17682 = "吸取法力"
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_EFFECT_17682 = "每秒吸取法力值，持续5秒。\n\n立即驱散此魔法效果。"
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_NAME_57102 = "时空涡流"
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_EFFECT_57102 = "每秒造成奥术伤害，并使受影响目标的近战攻击速度提高20%，持续15秒。"
     IJ_DB_DUNGEON_BM_BOSS_NAME_61316 = "沙之漂流化身"
     IJ_DB_DUNGEON_BM_BOSS_STORY_61316 =
         "沙之漂流化身由破碎的可能性的集体重量形成，是无限龙军团的无意识构造体。它就像一个真正的厄运沙漏，体现了从时间线的伤口中泄漏出来的腐化之​​沙，粉碎了任何试图修复时间损伤的人。"
+    IJ_DB_DUNGEON_BM_BOSS_61316_ABILITY_NAME_57103 = "沙尘冲击"
+    IJ_DB_DUNGEON_BM_BOSS_61316_ABILITY_EFFECT_57103 = "对施法者前方锥形区域内的敌人造成自然伤害，并将其击退。\n\n让首领背对队伍。"
+    IJ_DB_DUNGEON_BM_BOSS_61316_ABILITY_NAME_57104 = "致盲沙尘"
+    IJ_DB_DUNGEON_BM_BOSS_61316_ABILITY_EFFECT_57104 = "使10码内的敌人迷惑，移动速度降低60%，并每3秒造成一次自然伤害，持续6秒。\n\n在2.5秒的施法期间远离首领，以避免此效果。"
     IJ_DB_DUNGEON_BM_BOSS_NAME_65116 = "时间领主伊波克洛诺斯"
     IJ_DB_DUNGEON_BM_BOSS_STORY_65116 =
         "艾波克洛诺斯是无限之龙军团的高级战略家，负责监督对麦迪文仪式的战术攻击。他将时间的线性流动视为一个牢笼，并寻求解锁一个未来，避免军团的最终失败，相信他对过去的“修正”是为了多元宇宙的更大利益。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_20717 = "沙尘之息"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_20717 = "对施法者前方锥形区域内的敌人造成奥术伤害，使其移动速度降低50%，并延长其近战攻击间隔，持续10秒。\n\n让首领背对队伍。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_24857 = "奥术冲击"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_24857 = "对一个目标造成奥术伤害，并将其击退。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_23919 = "俯冲"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_23919 = "对施法者前方锥形区域内的敌人造成物理伤害，并使其昏迷2秒。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_18647 = "放逐"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_18647 = "生命值降至约50%时，埃波克罗诺斯会被放逐，并出现一个回响。\n\n击败回响，并在放逐结束后继续攻击埃波克罗诺斯。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_65118 = "凯尔萨斯·逐日者的回响"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_65118 = "放逐期间召唤的回响。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_9482 = "火焰增效"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_9482 = "使受到的火焰伤害提高100点，持续30秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_19630 = "火焰锥"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_19630 = "对施法者前方锥形区域内的敌人造成火焰伤害。\n\n让回响背对队伍。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_20228 = "炎爆术"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_20228 = "对一个目标造成火焰伤害，随后每3秒造成额外火焰伤害，持续12秒。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_65117 = "巫妖王的回响"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_65117 = "放逐期间召唤的回响。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_28412 = "死亡缠绕"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_28412 = "对一个目标造成暗影伤害，使其惊骇逃跑3秒，并为施法者恢复相当于所造成伤害的生命值。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_19777 = "黑暗打击"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_19777 = "打击一个目标，造成暗影伤害。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_11433 = "死亡凋零"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_11433 = "引导法术，对选定区域内的敌人每2秒造成一次暗影伤害，最多持续10秒。\n\n打断施法，并离开受影响区域。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_65119 = "瓦丝琪女士的回响"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_65119 = "放逐期间召唤的回响。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_15234 = "闪电箭"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_15234 = "施法3秒后对一个目标造成自然伤害。\n\n尽可能打断。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_23106 = "闪电链"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_23106 = "造成自然伤害，并跳跃至附近的敌人，最多影响3个目标。"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_20545 = "闪电之盾"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_20545 = "使施法者被20层闪电能量包围，可对近战或远程攻击者造成自然伤害。每次反击消耗一层能量。\n\n驱散此魔法效果。"
     IJ_DB_DUNGEON_BM_BOSS_NAME_65124 = "莫斯哈特"
     IJ_DB_DUNGEON_BM_BOSS_STORY_65124 =
         "黑色沼泽的远古沼泽野兽长期以来对大地的能量非常敏感。莫斯哈特曾经是泥潭的和平保护者，但由于黑暗之门泄漏的时​​间辐射而陷入了原始愤怒的状态。现在，它会猛烈攻击任何扰乱其家园黑暗深处的东西——青铜或无限。"
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_NAME_20664 = "回春术"
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_EFFECT_20664 = "每3秒为莫斯哈特恢复生命值，持续12秒。\n\n立即驱散此魔法效果。"
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_NAME_6866 = "苔藓之手"
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_EFFECT_6866 = "使受影响目标可能掉落武器，持续180秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_NAME_6870 = "苔藓之足"
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_EFFECT_6870 = "使受影响目标在被击中时可能被击倒，持续180秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_NAME_20699 = "纠缠根须"
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_EFFECT_20699 = "使25码内的敌人无法移动，并每3秒造成一次自然伤害，最多持续15秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_NAME_14535 = "泥沼疾病"
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_EFFECT_14535 = "使30码内敌人的所有属性降低25%，持续5分钟。\n\n及时移除此疾病。"
     IJ_DB_DUNGEON_BM_BOSS_NAME_65125 = "安特诺米"
     IJ_DB_DUNGEON_BM_BOSS_STORY_65125 =
         "安特诺米曾是青铜龙凯瑞多米的战妹，她的背叛或许是最私人的背叛。她坚信兽人的到来是一场必须被抹去的悲剧，因此选择了无限龙军团之路。她是南方时光的最后一道障碍，愿意亲手杀死昔日同族，只为实现自己对“纯粹”历史的愿景。"
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_NAME_21919 = "痛击"
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_EFFECT_21919 = "使安特诺米的下一次近战挥击获得一次额外攻击。\n\n治疗应准备应对坦克受到的爆发伤害。"
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_NAME_17234 = "暗影震击"
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_EFFECT_17234 = "对一个目标造成暗影伤害。"
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_NAME_16096 = "威吓咆哮"
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_EFFECT_16096 = "使10码内的敌人昏迷5秒。"
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_NAME_28131 = "激怒"
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_EFFECT_28131 = "生命值降至约20%时，造成的伤害提高25%，攻击速度提高40%。\n\n治疗应准备应对坦克受到的更高伤害。"
     IJ_DB_DUNGEON_BM_BOSS_NAME_65122 = "腐烂之喉"
     IJ_DB_DUNGEON_BM_BOSS_STORY_65122 =
         "红喉是一种具有传奇般胃口的巨型鳄鱼，多年来一直以沼泽中流离失所的时间能量为食。这头野兽变得异常庞大且具有攻击性，它的胃里滴着熵腐物。它并不关心时间的保存，只将黑色沼泽的入侵者视为一场急需的盛宴。"
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_NAME_7102 = "腐烂传染"
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_EFFECT_7102 = "使近战攻击间隔延长33%，施法时间延长25%，持续4分钟。受影响目标被击中时，疾病可能传播给附近的盟友。\n\n及时移除此疾病。"
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_NAME_25051 = "破甲"
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_EFFECT_25051 = "每次施加使目标的护甲值降低1000点，持续20秒，最多叠加5层。"
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_NAME_25371 = "吞噬"
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_EFFECT_25371 = "吞噬一个目标，使其昏迷，并每3秒造成一次自然伤害，最多持续15秒。\n\n目标被吞噬期间，其他队员应准备接手首领。"
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_NAME_10689 = "击退"
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_EFFECT_10689 = "击退目标。"
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_NAME_28467 = "致死之伤"
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_EFFECT_28467 = "造成物理伤害，并使受到的治疗效果降低10%，持续15秒。"
 
     -- BM Loot
     IJ_LOOT_NAME_61016 = "时光迷失巨剑"
@@ -871,6 +971,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_ZF_BOSS_NAME_7267 = "乌克兹·沙顶"
     IJ_DB_DUNGEON_ZF_BOSS_STORY_7267 =
         "酋长乌科兹·沙卡普一心想让他的部落恢复昔日的辉煌。他从小就听着这样的故事长大：巨魔统治着他们古老的土地，不受妖精、侏儒、海盗、食人魔和其他外来入侵者的干扰。沙顶呼吁他信任的战友鲁兹鲁帮助他以他们部落所知道的唯一方式开启沙怒历史的新篇章：迅速而致盲的暴力。"
+    IJ_DB_DUNGEON_ZF_BOSS_7273_ABILITY_NAME_gahzrillasummoning = "召唤"
+    IJ_DB_DUNGEON_ZF_BOSS_7273_ABILITY_EFFECT_gahzrillasummoning =
+        "使用祖尔法拉克之槌敲响加兹瑞拉水池旁的锣，以召唤她。"
     IJ_DB_DUNGEON_ZF_BOSS_NAME_7273 = "加兹瑞拉"
     IJ_DB_DUNGEON_ZF_BOSS_STORY_7273 =
         "传说加兹里拉是上古之神的宠爱宠物，甚至本身就是半神。不管真相是什么，沙怒巨魔几千年来一直崇拜这种可怕的九头蛇。巨魔们时刻警惕着这头野兽冰冷的愤怒，只有当他们有足够的祭品来满足这个贪婪生物的胃口时，他们才会唤醒加兹里拉。"
@@ -917,6 +1020,9 @@ if GetLocale() == "zhCN" then
         "数千年前，古拉巴什帝国因一个强大的祭司教派阿塔莱而陷入内战，阿塔莱教派试图将他们的血神的化身——夺魂者哈卡召唤到艾泽拉斯。古拉巴什人将阿塔莱人流放到悲伤沼泽，祭司们在那里建造了阿塔哈卡神庙。伊瑟拉，绿龙军团的守护者，将神庙沉入了沼泽之下，并指派了看守以确保召唤仪式永远不会再次进行。"
 
     -- ST Bosses
+    IJ_DB_DUNGEON_ST_BOSS_8580_ABILITY_NAME_atalalarionsummoning = "召唤"
+    IJ_DB_DUNGEON_ST_BOSS_8580_ABILITY_EFFECT_atalalarionsummoning =
+        "按以下顺序激活六座蛇形雕像：南、北、西南、东南、西北、东北。阿塔拉利恩随后会出现在下方的深坑中。"
     IJ_DB_DUNGEON_ST_BOSS_NAME_8580 = "阿塔拉利恩"
     IJ_DB_DUNGEON_ST_BOSS_STORY_8580 = "阿塔拉里昂是神殿最底层神像的宣誓保护者。"
     IJ_DB_DUNGEON_ST_BOSS_NAME_5708 = "哈卡的后代"
@@ -947,6 +1053,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_ST_BOSS_NAME_5709 = "伊兰尼库斯的阴影"
     IJ_DB_DUNGEON_ST_BOSS_STORY_5709 =
         "伊瑟拉的前配偶伊兰尼库斯被派去守卫阿塔哈卡的废墟并阻止哈卡的出现。一旦进入圣殿，他和他的随从就被黑暗力量所腐蚀，他变成了一个阴影，被拉扯在翡翠梦境和物理位面之间。尽管被腐化，伊兰尼库斯仍然可以召唤他作为绿龙的力量向他的敌人喷出腐蚀性酸液或将他们困在深度睡眠中。"
+    IJ_DB_DUNGEON_ST_BOSS_8443_ABILITY_NAME_avatarsummoning = "召唤"
+    IJ_DB_DUNGEON_ST_BOSS_8443_ABILITY_EFFECT_avatarsummoning =
+        "在堕落之神的圣地使用哈卡之卵开始仪式。击败哈卡莱护血者，收集哈卡莱之血，并用其熄灭全部四处永恒之火，以召唤哈卡的化身。"
     IJ_DB_DUNGEON_ST_BOSS_NAME_8443 = "哈卡的化身"
     IJ_DB_DUNGEON_ST_BOSS_STORY_8443 =
         "哈卡因要求追随者做出牺牲而臭名昭著。几千年前，他指示阿塔莱带来这个化身，用仪式上从活体受害者身上抽取的血液来喂养他。阿塔莱祭司现在寻求通过这一仪式的修改版本来提升哈卡的化身，其中包括牺牲绿龙。如果阿塔莱成功，哈卡化身的重新出现可能会给艾泽拉斯带来毁灭。"
@@ -1168,20 +1277,143 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14326 = "卫兵摩尔达"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14326 =
         "莫尔达是来自戈多克食人魔的狂热忠诚守卫。他确信戈多克国王送给他一双魔法手套，这使他能够连续六年成为人民的扳手腕冠军。事实上，戈多克国王扔掉了强大的盔甲；莫尔达首先发现了它。"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_14516 = "打击"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_14516 =
+        "对目标造成物理伤害。"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_11972 = "盾击"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_11972 =
+        "造成物理伤害并打断目标施法，使其在8秒内无法施放同系法术。"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_15749 = "盾牌冲锋"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_15749 =
+        "向一名敌人冲锋，造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_10101 = "击飞"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_10101 =
+        "对目标造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_8269 =
+        "提高攻击速度和造成的物理伤害。"
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14322 = "践踏者克雷格"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14322 =
         "潜伏的刺客不止一次因不小心扰乱了克雷格的啤酒杯而遭遇厄运。尽管他经常在值班时喝得醉醺醺的，但没有什么比他珍贵的饮料溅到石头地板上的声音更能激起食人魔的狂怒了。"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_22833 = "醉酒喷吐"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_22833 =
+        "向附近的敌人喷吐酒液，降低其命中几率，持续10秒，同时使其醉酒。"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_16740 = "战争践踏"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_16740 =
+        "击退5码范围内的敌人。"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_15577 = "旋风斩"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_15577 =
+        "对8码范围内的敌人造成物理伤害。"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_8269 =
+        "提高攻击速度和造成的物理伤害。"
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14321 = "卫兵芬古斯"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14321 = "自从观察者科拉什告诉他他注定会在执勤时遇到一位伴侣以来，芬古斯几乎醒着的每一刻都在戈多克领地巡逻。"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_14516 = "打击"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_14516 =
+        "对目标造成物理伤害。"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_11972 = "盾击"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_11972 =
+        "造成物理伤害并打断目标施法，使其在8秒内无法施放同系法术。"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_15749 = "盾牌冲锋"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_15749 =
+        "向一名敌人冲锋，造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_10101 = "击飞"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_10101 =
+        "对目标造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_8269 =
+        "提高攻击速度和造成的物理伤害。"
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14323 = "卫兵斯里基克"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14323 =
         "有些人可能认为斯利基克只是谨慎，但他也很懒。斯利基克没有直接挑战戈多克国王，而是修补陷阱和破旧的魔法装置，希望最终能在不冒任何风险或流汗的情况下发出致命一击。"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_14516 = "打击"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_14516 =
+        "对目标造成物理伤害。"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_11972 = "盾击"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_11972 =
+        "造成物理伤害并打断目标施法，使其在8秒内无法施放同系法术。"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_15749 = "盾牌冲锋"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_15749 =
+        "向一名敌人冲锋，造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_10101 = "击飞"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_10101 =
+        "对目标造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_8269 =
+        "提高攻击速度和造成的物理伤害。"
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14325 = "克罗卡斯"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14325 =
         "即使在食人魔中，克罗姆克鲁什船长也因其对任何胆敢侮辱他或戈多克国王的人一触即发的愤怒而臭名昭著。他无情地镇压异见，但对于那些继续散布他很久以前与豺狼人的热恋传闻的人来说，他仍然缺乏耐心。"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_19134 = "破胆怒吼"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_19134 =
+        "使附近的敌人因恐惧而逃跑，持续8秒。"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_29544 = "破胆怒吼"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_29544 =
+        "怒吼的主要目标会昏迷在原地，持续8秒。"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22857 = "反击风暴"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22857 =
+        "在15秒内反击从正面进行近战攻击的敌人。近战输出应从背后攻击。"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22858 = "反击风暴"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22858 =
+        "反击风暴会对攻击者发动一次物理反击。"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22859 = "致死顺劈"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22859 =
+        "造成物理伤害，并使受到的治疗效果降低50%，持续5秒。"
     IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "戈多克大王"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
         "为了统治戈多克食人魔，人们必须简单地宣布自己为王……然后消灭所有可能不同意的人。戈多克国王（当时仅被称为乌尔罗克）通过说服十几个他的人民中最强大的战士同时挑战国王来巩固自己的权力。狂野的混战导致大多数参赛者死伤，而乌尔洛克的利刃轻易地砍倒了幸存者和疲惫不堪的国王。直到今天，戈多克食人魔仍然低声谈论着“大血之日”。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15572 = "破甲攻击"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15572 =
+        "降低目标的护甲值，持续30秒。最多叠加5层。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15708 = "致死打击"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15708 =
+        "造成物理伤害，并使受到的治疗效果降低50%，持续5秒。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16727 = "战争践踏"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16727 =
+        "对5码范围内的敌人造成物理伤害并使其昏迷5秒。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22886 = "狂暴冲锋"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22886 =
+        "向一名敌人冲锋，造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_chorush = "观察者克鲁什"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_chorush =
+        "观察者克鲁什与戈多克大王并肩作战。他使用的法术会随不同战斗而变化。\n\n进行贡品路线时，保留他的性命并击败大王。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_8376 = "陷地图腾"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_8376 =
+        "召唤一个图腾，周期性地使附近的敌人定身。摧毁图腾。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_13745 = "魔爆术"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_13745 =
+        "对10码范围内的敌人造成奥术伤害。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15234 = "闪电箭"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15234 =
+        "对目标造成自然伤害。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15305 = "闪电链"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15305 =
+        "造成自然伤害，并在附近的敌人之间跳跃，最多命中5个目标。分散站位。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15982 = "治疗波"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15982 =
+        "恢复一名盟友的生命值。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16170 = "嗜血"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16170 =
+        "使一名盟友的攻击速度提高60%，持续30秒。可以从敌人身上驱散。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17139 = "真言术：盾"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17139 =
+        "为一名盟友施加吸收伤害的护盾，最多持续30秒。可以从敌人身上驱散。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17194 = "心灵震爆"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17194 =
+        "对目标造成暗影伤害。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17290 = "火球术"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17290 =
+        "对目标造成火焰伤害。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22883 = "治疗术"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22883 =
+        "恢复一名盟友的生命值。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22884 = "心灵尖啸"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22884 =
+        "使8码范围内最多5个敌人因恐惧而逃跑，持续4秒。"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_tribute = "戈多克贡品"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_tribute =
+        "为了获得最佳的戈多克贡品奖励，绕过其他首领，并在保留克鲁什性命的情况下击败戈多克大王。\n\n大王倒下后，戈多克食人魔会承认队伍为新的统治者。存活的卫兵可以提供增益效果。"
 
     -- DMN Loot
     IJ_LOOT_NAME_18450 = "燃烧法袍"
@@ -1249,25 +1481,153 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMW_NAME = "厄运之槌西"
     IJ_DB_DUNGEON_DMW_STORY = "首都花园位于厄运之槌以西。该地区可能曾经是一个原始的城市公园区，但现在树木灰白枯萎，破碎的街道上充满了危险的古人。"
 
+    -- Dreadsteed of Xoroth encounter
+    IJ_DB_DUNGEON_DMW_BOSS_STORY_14502 =
+        "术士在伊莫塔尔的囚笼中布置召唤法阵，打开通往克索诺斯的通道。一匹恐惧战马响应召唤，赫尔努拉斯领主也加入战斗。胜利后，术士便可束缚战马的灵魂，将其收为坐骑。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedsummoning =
+        "击败伊莫塔尔后，在它的祭坛上使用耶维尔的瓶子开始仪式。召唤法阵获得能量后，使用克索诺斯雕文召唤克索诺斯恐惧战马。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedritual = "召唤仪式"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedritual =
+        "抵御来袭的恶魔，保护法阵。使用黑色磁石并消耗一块灵魂碎片，重新激活失效的仪式能量节点。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteed = "克索诺斯恐惧战马"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_helnurath = "赫尔努拉斯领主"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedcompletion =
+        "击败两个敌人后，与恐惧战马之魂交谈，完成任务并学会召唤恐惧战马。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_22713 = "烈焰打击"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_22713 =
+        "造成火焰伤害，并提高受到的火焰伤害，持续20秒。应驱散此魔法效果。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_17146 = "暗言术：痛"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_17146 =
+        "每3秒造成一次暗影伤害，持续18秒。应驱散此魔法效果。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_23224 = "暗影迷雾"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_23224 =
+        "使受到的治疗效果降低75%，持续8秒。应解除此诅咒。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_18670 = "击飞"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_18670 =
+        "对一名敌人造成物理伤害，并将其击退。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_20989 = "睡眠术"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_20989 =
+        "使一名敌人沉睡，最多持续10秒。受到伤害会醒来。应驱散此魔法效果。"
+    IJ_DB_DUNGEON_DMW_BOSS_NAME_14502 = "克索诺斯恐惧战马"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedsummoning = "召唤"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedcompletion = "恐惧战马的灵魂"
+    IJ_LOOT_NAME_18754 = "魔能护腕"
+    IJ_LOOT_NAME_18755 = "克索诺斯火棍"
+    IJ_LOOT_NAME_18756 = "恐惧卫士之盾"
+    IJ_LOOT_NAME_18757 = "恶魔衬肩"
+
     -- DMW Bosses
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "特迪斯·扭木"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
         "坦德里斯·沃普伍德是艾德雷萨拉斯的坚定捍卫者，他的心与这座城市的命运无情地交织在一起。当大地分裂时，他的决心从未动摇，但在接下来的一万年里，随着腐败渗透到废墟中，它也感染了古人的精神。"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5568 = "践踏"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5568 =
+        "对附近的敌人造成物理伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22924 = "纠缠藤蔓"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22924 =
+        "对附近的敌人造成物理伤害并使其定身10秒。定身效果可以被驱散。"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5164 = "击倒"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5164 =
+        "纠缠藤蔓还会使受影响的敌人昏迷2秒。"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22916 = "上勾拳"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22916 =
+        "对目标造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22994 = "纠缠"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22994 =
+        "使目标定身，最多持续10秒，并持续造成自然伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_8269 =
+        "提高攻击速度和造成的物理伤害。"
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11488 = "伊琳娜·暗木"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11488 =
         "伊莉安娜·拉文诺克（伊琳娜·暗木）和她忠实的同伴费拉（费拉）曾经是托塞德林王子最有价值的猎人，直到她拒绝执行领袖的命令处决她的朋友。作为惩罚，他杀死了伊莉安娜和她的熊，但他用自己的恶魔力量将他们的灵魂束缚在他们的身体上，谴责他们留在厄运之槌作为不死的保护者。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_20735 = "多重射击"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_20735 =
+        "射击目标及其附近的盟友，对最多10个敌人造成奥术伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22908 = "乱射"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22908 =
+        "每秒对目标区域内的敌人造成奥术伤害，持续6秒。离开该区域。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22914 = "震荡射击"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22914 =
+        "使目标的移动速度降低50%，持续3秒。减速效果可以被驱散。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22915 = "强化震荡射击"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22915 =
+        "震荡射击还会使目标昏迷3秒。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22910 = "献祭陷阱"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22910 =
+        "放置陷阱，灼烧第一个靠近的敌人，在15秒内持续造成火焰伤害。燃烧效果可以被驱散。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_ferra = "费拉"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_ferra =
+        "伊琳娜与她的熊伙伴费拉并肩作战。坦克需要拉住两个敌人。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_17156 = "槌击"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_17156 =
+        "费拉的下一次近战攻击造成额外物理伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22911 = "冲锋"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22911 =
+        "费拉向一名敌人冲锋，造成物理伤害并使其昏迷2秒。"
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11487 = "卡雷迪斯镇长"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11487 =
         "当托塞德林王子要求屠杀他的大多数臣民时，他最忠诚的副官们就肩负着执行他的意志的任务。魔导师卡伦德里斯毫不犹豫地谋杀了许多毫无戒心的申德拉拉，但其中一名注定失败的精灵在一场毁灭性的战斗中对他造成了致命伤。尽管卡伦德里斯去世了，他的灵魂仍然作为托塞德林统治的捍卫者在厄运之槌中游荡。"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17146 = "暗言术：痛"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17146 =
+        "在18秒内持续造成暗影伤害。可以被驱散。"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17287 = "心灵震爆"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17287 =
+        "对目标造成暗影伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22919 = "精神鞭笞"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22919 =
+        "引导暗影伤害，持续3秒，并使目标的移动速度降低50%。"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22917 = "暗影形态"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22917 =
+        "进入暗影形态，使造成的暗影伤害提高40%，受到的近战伤害降低40%。"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_7645 = "控制心智"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_7645 =
+        "控制一名玩家，最多持续10秒。可以被驱散。"
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11467 = "苏斯"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11467 =
         "难以捉摸的暗夜精灵幽灵，在首都花园的居民中很少见到。据说她拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到她就好了……"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_12540 = "凿击"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_12540 =
+        "造成物理伤害，并使目标瘫痪，最多持续4秒。任何伤害都会打断此效果。"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_14873 = "邪恶攻击"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_14873 =
+        "对目标造成物理伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_21060 = "致盲"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_21060 =
+        "使目标失明并困惑地四处游荡，最多持续10秒。任何伤害都会打断此效果。"
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11496 = "伊莫塔尔"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11496 =
         "为了恢复他们在永恒之井被摧毁时失去的力量和不朽，沈德拉拉召唤了一个恶魔进入厄运之槌的西翼，并在力场中捕获了他，允许他们将虚空恐怖的能量用于自己的法术。伊莫塔尔在近万年的时间里无法反击，甚至无法移动，只能眼睁睁地等待着有一天他能挣脱束缚，撕碎俘虏他的人的血肉。"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_16128 = "感染之咬"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_16128 =
+        "使目标感染疾病，在3分钟内持续造成自然伤害，并提高其受到的物理伤害。移除疾病。"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_5568 = "践踏"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_5568 =
+        "对附近的敌人造成物理伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_8269 =
+        "提高攻击速度和造成的物理伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22899 = "伊莫塔尔之眼"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22899 =
+        "战斗中召唤伊莫塔尔之眼。击杀眼睛，避免受到其减速效果的影响。"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22909 = "伊莫塔尔之眼"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22909 =
+        "降低目标的移动速度、近战攻击速度和施法速度，持续4秒。"
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11486 = "托塞德林王子"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11486 =
         "永恒之井被毁后，托塞德林王子通过在艾德萨拉斯废墟中囚禁恶魔并让他的臣民吸取其力量来维持对幸存的申德拉拉的控制。接触恶魔力量扭曲了托塞德林的思想，当这个生物摇摇欲坠时，王子下令杀死他的许多封臣，这样只有他和他最狂热的追随者才能享受腐败的能量。"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_15589 = "旋风斩"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_15589 =
+        "对8码范围内的敌人造成物理伤害。"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_20537 = "法术反制"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_20537 =
+        "打断目标的施法，并使其在15秒内无法施放同系法术。"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22920 = "奥术冲击"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22920 =
+        "对目标造成奥术伤害并将其击退。"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22995 = "召唤"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22995 =
+        "将一名玩家召唤到托塞德林身边。"
 
     -- DMW Loot
     IJ_LOOT_NAME_18352 = "石化树皮盾牌"
@@ -1313,6 +1673,142 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DME_NAME = "厄运之槌东"
     IJ_DB_DUNGEON_DME_STORY =
         "扭木区坐落于厄运之槌东侧，现已被穷凶极恶的荒野变形者奥兹恩所占据。这名萨特腐化了丰饶之果，使其不断滋生出邪恶的魔藤碎片。奥兹恩招揽了形形色色的腐化植物、萨特、法师与恶魔投奔其麾下，整片区域都已被疯狂畸变的植物彻底覆盖。"
+
+    -- DME Abilities
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_15228 = "火球术"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_15228 =
+        "对一名敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_14145 = "火焰冲击"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_14145 =
+        "对一名敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22424 = "冲击波"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22424 =
+        "对附近敌人造成火焰伤害，并降低其移动速度，持续6秒。"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22735 = "洛恩塔姆之魂"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22735 =
+        "战斗开始时体型变大，近战攻击速度提高20%，并有50%的几率反射法术。"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_IMPS = "荒野小鬼"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_IMPS =
+        "与施放火焰冲击的荒野小鬼一同作战。"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340 = "火焰冲击"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340 =
+        "对一名敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22420 = "浸没"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22420 =
+        "降低附近敌人的耐力，持续1分钟。此魔法效果可以驱散。"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22421 = "巨型喷泉"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22421 =
+        "召唤一道喷发水流的间歇泉。"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22422 = "水"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22422 =
+        "间歇泉对10码范围内的敌人造成冰霜伤害，并将其击退。"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22714 = "召唤水浪幼崽"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22714 =
+        "召唤两只水浪幼崽协助作战。"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715 = "水流喷射"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715 =
+        "水浪幼崽击退附近的敌人。"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22478 = "剧烈痛楚"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22478 =
+        "每3秒对附近敌人造成暗影伤害，持续15秒。此魔法效果可以驱散。"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651 = "牺牲"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651 =
+        "将一名敌人传送至祭坛，使其昏迷并吸取其生命值，持续8秒。效果持续期间需治疗被献祭的玩家。"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_12742 = "献祭"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_12742 =
+        "对一名敌人造成火焰伤害，并在21秒内造成额外火焰伤害。此魔法效果可以驱散。"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_13338 = "语言诅咒"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_13338 =
+        "使一名敌人的施法速度降低50%，持续15秒。应解除此诅咒。"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16247 = "荆棘诅咒"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16247 =
+        "诅咒一名敌人，持续3分钟。其攻击有50%的几率触发荆棘诅咒，对自身造成伤害。应解除此诅咒。"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16248 = "荆棘诅咒"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16248 =
+        "触发时对受到诅咒的攻击者造成暗影伤害。"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_17228 = "暗影箭雨"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_17228 =
+        "对附近敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22709 = "虚空箭"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22709 =
+        "对一名敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_PIMGIB = "匹姆吉布"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_PIMGIB =
+        "匹姆吉布与蕾瑟塔蒂丝一同作战，施放火球术、冲击波和烈焰打击。"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_15228 = "火球术"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_15228 =
+        "对一名敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16046 = "冲击波"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16046 =
+        "对附近敌人造成火焰伤害，并降低其移动速度，持续6秒。"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22713 = "烈焰打击"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22713 =
+        "造成火焰伤害，并提高受到的火焰伤害，持续20秒。此魔法效果可以驱散。"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22660 = "巨狼形态"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22660 =
+        "变身为巨狼，提高近战攻击速度和造成的物理伤害。首次变身可能是巨狼，也可能是树形态。"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22688 = "树形态"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22688 =
+        "变身为树，提高护甲和造成的物理伤害。"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_7948 = "野性回复"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_7948 =
+        "在20秒内持续恢复自身生命值。"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_10101 = "击飞"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_10101 =
+        "对一名敌人造成物理伤害，并将其击退。"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_19319 = "恶毒撕咬"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_19319 =
+        "撕咬一名敌人，造成物理伤害。"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22661 = "衰弱"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22661 =
+        "使一名敌人中毒，在10秒内持续吸取其法力值。应解除此毒药。"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22662 = "枯萎"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22662 =
+        "使一名敌人感染疾病，立即造成自然伤害，并在21秒内持续造成伤害，同时降低其属性。应解除此疾病。"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22689 = "裂伤"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22689 =
+        "在20秒内持续造成物理伤害，并使目标的移动速度降低50%。"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22691 = "缴械"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22691 =
+        "缴械一名敌人，持续6秒。"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_MINIONS = "奥兹恩的爪牙"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS =
+        "奥兹恩的爪牙加入战斗并攻击队伍。做好接住它们的准备。"
+
+    -- Isalien
+    IJ_DB_DUNGEON_DME_BOSS_NAME_16097 = "伊萨利恩"
+    IJ_DB_DUNGEON_DME_BOSS_STORY_16097 =
+        "伊萨利恩是伯德雷队伍中的一名暗夜精灵女祭司。她前往厄运之槌，试图揭开自己持有的瓦塔拉克饰品碎片的秘密，却在艾德雷萨神殿遭到奥兹恩及其部下的伏击。在寻找饰品遗失碎片的过程中，可以在那里召唤她的灵魂。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_summoning = "召唤"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_summoning =
+        "击败奥兹恩后，在艾德雷萨神殿使用召唤火盆，召唤伊萨利恩，完成地下城套装2任务线的相关任务。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_12024 = "投网"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_12024 =
+        "使一名敌人无法移动，持续5秒。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27636 = "星辰碎片"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27636 =
+        "引导法术，在6秒内持续对一名敌人造成奥术伤害。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27637 = "愈合"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27637 =
+        "立即治疗一名盟友，并在21秒内持续治疗。持续治疗属于魔法效果。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_14443 = "多重射击"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_14443 =
+        "向一名敌人及其附近盟友射出一轮箭矢，最多命中3个目标。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27639 = "召唤宠物"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27639 =
+        "召唤恩瑟尔协助作战。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27556 = "扫击"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27556 =
+        "恩瑟尔造成物理伤害，并使目标流血，持续15秒。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_17963 = "破甲顺劈"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_17963 =
+        "恩瑟尔降低附近最多3名敌人的护甲，持续30秒。最多叠加5层。"
+    IJ_LOOT_NAME_22304 = "铁纹手套"
+    IJ_LOOT_NAME_22314 = "猎手之矛"
+    IJ_LOOT_NAME_22315 = "新生之锤"
+    IJ_LOOT_NAME_22345 = "重生图腾"
+    IJ_LOOT_NAME_22401 = "希望圣契"
+    IJ_LOOT_NAME_22472 = "凶猛之靴"
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "普希林"
@@ -1362,6 +1858,305 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_NAME = "黑石深渊"
     IJ_DB_DUNGEON_BRD_STORY =
         "闷烧的黑石深渊是黑铁矮人和他们的皇帝达格兰·索瑞森的家园。和他的前任一样，他在炎魔拉格纳罗斯的铁腕统治下服役，炎魔拉格纳罗斯是几个世纪前被召唤到这个世界的无情生物。混乱元素的存在吸引了暮光之锤信徒来到山域。他们与拉格纳罗斯的仆人一起，将矮人推向了日益具有破坏性的目的，这可能很快就会给整个艾泽拉斯带来毁灭。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14033 = "法力燃烧"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14033 =
+        "燃烧一名敌人的法力值，并根据燃烧的法力值造成暗影伤害。\n\n打断此施法。"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_13704 = "心灵尖啸"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_13704 =
+        "使8码内最多5名敌人因恐惧而逃跑，持续6秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14032 = "暗言术：痛"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14032 =
+        "每3秒造成一次暗影伤害，持续18秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_12040 = "暗影护盾"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040 =
+        "吸收受到的物理和魔法伤害，最多持续30秒，并对近战攻击者造成伤害。\n\n驱散此增益魔法效果。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_6524 = "大地震颤"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_6524 =
+        "使附近的敌人昏迷2秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13728 = "地震术"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13728 =
+        "对一名敌人造成自然伤害。 打断目标施法，使其2秒内无法施放同系法术。"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13729 = "烈焰震击"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729 =
+        "立即造成火焰伤害，并每3秒造成一次额外火焰伤害，持续12秒。\n\n驱散此魔法效果。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_13730 = "挫志怒吼"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_13730 =
+        "降低附近敌人的近战攻击强度，持续30秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_15615 = "拳击"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_15615 =
+        "对一名敌人造成物理伤害。 打断目标施法，使其5秒内无法施放同系法术。"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_21049 = "嗜血术"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049 =
+        "使一名盟友的攻击速度提高30%，持续30秒。\n\n驱散此增益魔法效果。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15038 = "灼热图腾"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15038 =
+        "召唤一个灼热图腾，攻击附近的敌人。摧毁此图腾。"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15616 = "烈焰震击"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15616 =
+        "立即造成火焰伤害，并每3秒造成一次额外火焰伤害，持续12秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15095 = "熔岩冲击"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15095 =
+        "对一名敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15041 = "防护火焰结界"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
+        "吸收火焰伤害，最多持续60秒。\n\n驱散此增益魔法效果。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12674 = "冰霜新星"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12674 =
+        "对附近的敌人造成冰霜伤害，并使其无法移动，最多持续8秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12675 = "寒冰箭"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12675 =
+        "对一名敌人造成冰霜伤害。 降低目标的移动速度，持续4秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12544 = "霜甲术"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12544 =
+        "提高护甲，并降低近战攻击者的移动速度和攻击速度。\n\n驱散此增益魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_15044 = "防护冰霜结界"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
+        "吸收冰霜伤害，最多持续60秒。\n\n驱散此增益魔法效果。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_11971 = "破甲"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_11971 =
+        "降低目标的护甲，持续30秒。最多叠加5次。"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_15504 = "喝下治疗药水"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504 =
+        "恢复施法者的生命值。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_13953 = "神圣打击"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_13953 =
+        "对一名敌人造成神圣伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_8258 = "虔诚光环"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_8258 =
+        "提高附近盟友的护甲。"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15346 = "清算圣印"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15346 =
+        "为一名盟友施加持续30秒的增益魔法效果，使其每次击中敌人时恢复生命值。\n\n驱散此增益魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15493 = "圣光术"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15493 =
+        "恢复一名盟友的生命值。"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_11978 = "脚踢"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978 =
+        "对一名敌人造成物理伤害。 打断目标施法，使其6秒内无法施放同系法术。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13899 = "火焰风暴"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13899 =
+        "焚烧作用区域内的敌人，立即造成火焰伤害，并每3秒造成一次额外伤害，持续30秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13900 = "烈焰爆发"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13900 =
+        "对作用区域内的敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_14099 = "强力打击"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_14099 =
+        "对一名敌人造成物理伤害，并将其击退。"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_26977 = "元素领主的诅咒"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
+        "降低附近敌人的火焰抗性。\n\n解除此诅咒。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13880 = "熔岩喷溅"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13880 =
+        "立即造成火焰伤害，并每3秒造成一次额外伤害，持续30秒，同时降低目标的护甲。"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13895 = "召唤贝尔加的产物"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
+        "召唤一只贝尔加的产物，并对召唤位置附近的敌人造成火焰伤害。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15572 = "破甲"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15572 =
+        "降低目标的护甲，持续30秒。最多叠加5次。"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15061 = "激怒"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15061 =
+        "使攻击速度提高30%，持续5秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_17687 = "乱舞"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_17687 =
+        "近战攻击造成暴击后，可能获得30%的攻击速度加成。"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_reinforcements = "援军"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
+        "战斗开始时有四名怒炉预备兵随行。生命值较低时，可能有更多预备兵和医师加入战斗。控制援军，并阻止医师治疗。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15305 = "闪电链"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15305 =
+        "造成自然伤害，并在最多5个目标之间跳跃，每次跳跃都会提高伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15605 = "震击"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15605 =
+        "对一名敌人造成自然伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15507 = "闪电之盾"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
+        "使施法者周围环绕闪电，受到攻击时可能对攻击者造成伤害。\n\n驱散此增益魔法效果。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_9573 = "烈焰吐息"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_9573 =
+        "对施法者前方锥形区域内的敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_14872 = "醉酒狂怒"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
+        "使攻击速度提高50%，并提高造成的物理伤害，持续15秒。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_NAME_9080 = "断筋"
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080 =
+        "造成物理伤害，并使目标的移动速度降低60%，持续10秒。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_14099 = "强力打击"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_14099 =
+        "对一名敌人造成物理伤害，并将其击退。"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15588 = "雷霆一击"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15588 =
+        "对附近的敌人造成自然伤害，并降低其攻击速度和移动速度，持续10秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15285 = "火球齐射"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285 =
+        "对附近的敌人造成火焰伤害。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12739 = "暗影箭"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12739 =
+        "对一名敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12742 = "献祭"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12742 =
+        "立即造成火焰伤害，并每3秒造成一次额外伤害，持续21秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13338 = "语言诅咒"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13338 =
+        "使一名敌人的施法速度降低50%，持续15秒。\n\n解除此诅咒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13787 = "魔甲术"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13787 =
+        "提高护甲、暗影抗性和生命值恢复速度。\n\n驱散此增益魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_8994 = "放逐"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
+        "放逐一名敌人，使其无法行动但免疫伤害，最多持续15秒。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_15574 = "火焰冲击"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_15574 =
+        "对一名敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_14744 = "燃烧之魂"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
+        "战斗中燃烧之魂会被吞噬，为首领施加可叠加的增益效果，提高伤害和体型，持续180秒。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_NAME_9941 = "法术反射"
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941 =
+        "有20%的几率反射受到的法术。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterel = "Hate'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15232 = "暗影箭"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15232 =
+        "对一名敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_14033 = "法力燃烧"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_14033 =
+        "燃烧一名敌人的法力值，并根据燃烧的法力值造成暗影伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterelstrike = "打击"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_haterelstrike =
+        "对一名敌人造成物理伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12040 = "暗影护盾"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12040 =
+        "吸收受到的物理和魔法伤害，最多持续30秒，并对近战攻击者造成伤害。\n\n驱散此增益魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrel = "Anger'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrelstrike = "打击"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_angerrelstrike =
+        "对一名敌人造成物理伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11971 = "破甲"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11971 =
+        "降低目标的护甲，持续30秒。最多叠加5次。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12169 = "盾牌格挡"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12169 =
+        "使格挡几率提高75%，持续5秒，格挡一次攻击后效果结束。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15062 = "盾墙"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15062 =
+        "使受到的物理和魔法伤害降低75%，持续10秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_vilerel = "Vile'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15586 = "治疗术"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15586 =
+        "恢复一名盟友的生命值。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15585 = "治疗祷言"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15585 =
+        "恢复附近盟友的生命值。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15587 = "心灵震爆"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15587 =
+        "对一名敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11974 = "真言术：盾"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11974 =
+        "为一名盟友施加护盾，吸收物理和魔法伤害，最多持续30秒。\n\n驱散此增益魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_gloomrel = "Gloom'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15284 = "顺劈斩"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15284 =
+        "对一名敌人及其附近的盟友造成物理伤害，最多影响3个目标。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13737 = "致死打击"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13737 =
+        "造成物理伤害，并使受到的治疗效果降低50%，持续5秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_9080 = "断筋"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_9080 =
+        "造成物理伤害，并使目标的移动速度降低60%，持续10秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13847 = "鲁莽"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13847 =
+        "提高暴击几率并降低护甲，持续15秒，同时免疫恐惧效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_seethrel = "Seeth'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12675 = "寒冰箭"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12675 =
+        "对一名敌人造成冰霜伤害。 降低目标的移动速度，持续4秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12674 = "冰霜新星"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12674 =
+        "对附近的敌人造成冰霜伤害，并使其无法移动，最多持续8秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15244 = "冰锥术"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15244 =
+        "对施法者前方锥形区域内的敌人造成冰霜伤害，并使其减速，持续8秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15044 = "防护冰霜结界"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15044 =
+        "吸收冰霜伤害，最多持续60秒。\n\n驱散此增益魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doomrel = "Doom'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15245 = "暗影箭雨"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15245 =
+        "对附近的敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12742 = "献祭"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12742 =
+        "立即造成火焰伤害，并每3秒造成一次额外伤害，持续21秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12493 = "虚弱诅咒"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12493 =
+        "降低一名敌人造成的物理伤害，持续120秒。\n\n解除此诅咒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13787 = "魔甲术"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13787 =
+        "提高护甲、暗影抗性和生命值恢复速度。\n\n驱散此增益魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15092 = "召唤虚空行者"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15092 =
+        "召唤三只虚空行者协助战斗。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doperel = "Dope'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15581 = "邪恶攻击"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15581 =
+        "对一名敌人造成物理伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12540 = "凿击"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12540 =
+        "造成物理伤害，并使一名敌人瘫痪，最多持续4秒。受到伤害会打破此效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15583 = "割裂"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15583 =
+        "每2秒造成一次物理伤害，持续10秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15087 = "闪避"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15087 =
+        "使躲闪几率提高50%，持续15秒。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_24375 = "战争践踏"
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_24375 =
+        "对附近的敌人造成物理伤害，将其击退并使其昏迷5秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_13900 = "烈焰爆发"
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_13900 =
+        "对作用区域内的敌人造成火焰伤害。"
+
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_emperor = "达格兰·索瑞森大帝"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15636 = "烈焰化身"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15636 =
+        "免疫魔法效果，持续10秒，并使攻击附加火焰伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15643 = "烈焰"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15643 =
+        "攻击触发烈焰化身的效果时，造成额外火焰伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_17492 = "索瑞森之手"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_17492 =
+        "对一名敌人造成火焰伤害，并使其昏迷5秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_moira = "茉艾拉·铜须公主"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_10934 = "惩击"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_10934 =
+        "对一名敌人造成神圣伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15586 = "治疗术"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15586 =
+        "恢复一名盟友的生命值。"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15587 = "心灵震爆"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15587 =
+        "对一名敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15654 = "暗言术：痛"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15654 =
+        "每3秒造成一次暗影伤害，持续18秒。\n\n驱散此魔法效果。"
 
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
@@ -1569,44 +2364,182 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9196 = "欧莫克大王"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9196 =
         "奥莫克用铁拳统治着尖塔的食人魔。许多下属向他发起单挑挑战，希望夺取大领主的头衔，但他们都没有受到一击而倒下。这种神秘现象引发了关于黑魔法正在保护奥莫克的谣言。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18368 = "打击"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18368 =
+        "对目标造成物理伤害。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18106 = "撕裂"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18106 =
+        "使目标流血，在30秒内持续造成物理伤害。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_20686 = "击退"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_20686 =
+        "对附近的敌人造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_22356 = "减速术"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_22356 =
+        "降低附近敌人的移动速度和近战攻击速度，持续10秒。可以被驱散。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24317 = "破甲"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24317 =
+        "使目标的护甲值降低1000点，持续20秒。最多叠加5层。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24375 = "战争践踏"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24375 =
+        "对15码范围内的敌人造成物理伤害并使其昏迷5秒。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9218 = "尖石统帅"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9218 =
         "一种难以捉摸的食人魔，在黑石塔下层的普通居民中很少见到。据说他拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到他就好了……"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9217 = "尖石首席法师"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9217 =
         "一种难以捉摸的食人魔，在黑石塔下层的普通居民中很少见到。据说他拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到他就好了……"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_15230 = "奥术箭"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_15230 =
+        "对目标造成奥术伤害。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_13323 = "变形术"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_13323 =
+        "将目标变成绵羊，最多持续20秒，使其无法攻击或施法。伤害会打断此效果。可以被驱散。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9236 = "暗影猎手沃许加斯"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 = "沃什加金在巨魔中以她的美丽和精神病倾向而闻名。她是暗影猎手艺术的大师，能够使用强大的咒语、诅咒和治疗魔法。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_16708 = "妖术"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_16708 =
+        "使目标变形并迷惑，最多持续20秒。可以被驱散。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_24673 = "血之诅咒"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_24673 =
+        "提高受到的物理伤害，持续10分钟。尽快解除诅咒。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_20691 = "顺劈斩"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_20691 =
+        "对目标及其附近的盟友造成物理伤害，最多命中5个敌人。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "指挥官沃恩"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "在第二次战争期间，沃恩带领小型突击队执行大胆的任务，进入高等精灵领地的中心地带。狡猾的巨魔加入虚假部落是因为他想成为部落的首席战略家，而不是因为他相信布莱克汉的意识形态。沃恩将分裂派视为失败者，他享受克服难以克服的困难的满足感。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_10966 = "上勾拳"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_10966 =
+        "对目标造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15284 = "顺劈斩"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15284 =
+        "对目标及其附近的盟友造成物理伤害，最多命中3个敌人。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15615 = "拳击"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15615 =
+        "造成物理伤害并打断目标施法，使其在5秒内无法施放同系法术。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15618 = "快速踢击"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15618 =
+        "造成物理伤害并使目标昏迷2秒。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15708 = "致死打击"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15708 =
+        "造成物理伤害，并使受到的治疗效果降低50%，持续5秒。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_16075 = "投掷斧头"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_16075 =
+        "向目标投掷斧头，造成物理伤害并使其昏迷2秒。"
+    IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080 = "莫尔·灰蹄"
+    IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080 =
+        "莫尔·灰蹄与伯德雷偷走瓦塔拉克公爵的法术书和护符后，一同逃离黑石塔。他坠入塔的下层并幸存下来，却被指挥官沃恩俘获并遭受折磨。随后，幽灵刺客当着沃恩的面杀死了他。为了找回护符并对抗瓦塔拉克，人们可以召唤他饱受折磨的灵魂。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_summoning = "召唤"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_summoning =
+        "在地下城套装2的任务链中，使用召唤火盆在指挥官沃恩的房间内召唤。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27532 = "回春术"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27532 =
+        "在12秒内持续恢复生命值。可以从首领身上驱散。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27527 = "治疗之触"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27527 =
+        "施放法术，为自己恢复生命值。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27737 = "月火术"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27737 =
+        "对附近的敌人造成奥术伤害，并在12秒内持续造成额外伤害。持续伤害效果可以被驱散。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27543 = "熊形态"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27543 =
+        "变为熊形态，持续10秒，受到的物理伤害降低50%。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27553 = "槌击"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27553 =
+        "造成物理伤害并使目标昏迷2秒。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27554 = "挥击"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27554 =
+        "对目标造成物理伤害。"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27545 = "猎豹形态"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27545 =
+        "变为猎豹形态，持续10秒，提高近战攻击速度。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9596 = "班诺克·巨斧"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9596 =
         "难以捉摸的兽人，在黑石塔下层的普通人群中很少见到。据说他拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到他就好了……"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_13737 = "致死打击"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_13737 =
+        "造成物理伤害，并使受到的治疗效果降低50%，持续5秒。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_15128 = "烈焰印记"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_15128 =
+        "提高受到的火焰伤害，持续2分钟。可以被驱散。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10596 = "烟网蛛后"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10596 =
         "几个世纪前，黑铁矮人挖掘了闷网母亲的巢穴，将巨大的蜘蛛释放到了尖塔的大厅中。从那时起，她的后代数量持续膨胀，以至于连黑手的军队都不敢穿越闷网的领地。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16104 = "结晶"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16104 =
+        "使首领前方的敌人昏迷6秒。让首领背对队伍，并驱散昏迷效果。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16468 = "蛛后的乳汁"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16468 =
+        "施加毒药，周期性地使中毒的玩家及其附近的盟友定身。使用解毒技能，或使用地下城内蜘蛛掉落的不成熟的毒囊将其移除。\n\n如果正在完成蛛后的乳汁任务，请保留毒药效果，直到返回狼狈不堪的约翰身边。提前移除后，需要再次中毒才能交付任务。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16103 = "召唤尖塔小蜘蛛"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16103 =
+        "召唤尖塔小蜘蛛。拉住并击杀增援。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10376 = "水晶之牙"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10376 =
         "一种难以捉摸的蜘蛛，在黑石塔下层的普通人群中很少见到。据说它拥有许多令人垂涎的物品，很多人都希望能亲手得到它们，如果他们能一开始就遇到它就好了……"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10584 = "乌洛克"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10584 =
         "末日嚎是尖塔食人魔的真正领袖。这个邪恶的人物用阴险的魔法迷住了他信任的助手奥莫克大领主，以代替他控制末日嚎的爪牙。他不遗余力地维持着这种伪装，无情地杀死了任何挑战大领主统治的食人魔。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_uroksummoning = "召唤"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_uroksummoning =
+        "在乌洛克的贡品堆处，将欧莫克的头颅与尖锐长矛组合使用，开始召唤事件。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16508 = "破胆咆哮"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16508 =
+        "使主要目标定身，并使附近的敌人因恐惧而逃跑，持续8秒。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16509 = "撕裂"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16509 =
+        "使目标流血，在15秒内持续造成物理伤害。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_15580 = "打击"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_15580 =
+        "对目标造成物理伤害。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9736 = "军需官兹格雷斯"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9736 =
         "第一次战争结束后，兽人猎人吉格里斯因追踪暴风城难民并像猎物一样屠杀他们而臭名昭著。他讨厌黑石塔幽闭恐怖的大厅，但他确信有一天他会再次在露天狩猎。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16496 = "射击"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16496 =
+        "射击目标，造成物理伤害。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16497 = "昏迷炸弹"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16497 =
+        "投掷炸弹，对目标区域内的敌人造成火焰伤害，并使其昏迷5秒。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220 = "哈雷肯"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220 =
         "哈雷肯 源自一长串因凶猛和忠诚而培育出来的巨座狼。多年来，巢穴母亲生育了数量惊人的野蛮后代。有传言称她是燃烧军团深渊领主送给雷德·黑手的恶魔猎犬。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_10887 = "群体打击"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_10887 =
+        "对附近的敌人造成物理伤害，将其击退，并有几率打断其施法，使其在5秒内无法施放被打断的法术。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_14099 = "强力打击"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_14099 =
+        "对目标造成物理伤害并将其击退。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268 = "奴役者基兹卢尔"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268 =
         "黑暗部落中很少有人见过隐居且难以预测的吉兹鲁尔。只有当它的伴侣哈利肯呼唤它时，这只野兽才会从它阴暗的巢穴中出现。这两种怪物创造了兽人历史上最大、最凶猛的座狼。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16128 = "感染之咬"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16128 =
+        "使目标感染疾病，在3分钟内持续造成自然伤害，并提高其受到的物理伤害。移除疾病。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_8269 =
+        "提高攻击速度和造成的物理伤害。"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16495 = "致命撕咬"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16495 =
+        "吸取目标的生命值，为首领恢复生命值。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718 = "霍克·巴什古德"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718 =
         "难以捉摸的兽人，在黑石塔下层的普通人群中很少见到。据说他拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到他就好了……"
+    IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_NAME_11972 = "盾击"
+    IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_EFFECT_11972 =
+        "造成物理伤害并打断目标施法，使其在8秒内无法施放同系法术。"
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "维姆萨拉克"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "黑色龙裔维姆萨拉克负责监督下尖塔的部队，准备进攻矮人。他对虚假的部落或其野蛮的成员没有任何感情，他会牺牲任何数量的黑手爪牙来保护他的主人奈法利安。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20691 = "顺劈斩"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20691 =
+        "对目标及其附近的盟友造成物理伤害，最多命中5个敌人。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_23511 = "挫志怒吼"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_23511 =
+        "降低附近敌人的近战攻击强度，持续30秒。"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20686 = "击退"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20686 =
+        "对附近的敌人造成物理伤害并将其击退。"
 
     -- LBRS Loot
     IJ_LOOT_NAME_12608 = "屠夫披风"
@@ -1637,6 +2570,11 @@ if GetLocale() == "zhCN" then
     IJ_LOOT_NAME_16676 = "野兽追猎者手套"
     IJ_LOOT_NAME_22231 = "凯瑟尔的精准之靴"
     IJ_LOOT_NAME_13175 = "沃恩的迅捷弓"
+    IJ_LOOT_NAME_22306 = "铁纹腰带"
+    IJ_LOOT_NAME_22319 = "神圣权力之书"
+    IJ_LOOT_NAME_22322 = "碎颚者"
+    IJ_LOOT_NAME_22325 = "狡诈腰带"
+    IJ_LOOT_NAME_22398 = "回春神像"
     IJ_LOOT_NAME_12621 = "恶魔之叉"
     IJ_LOOT_NAME_12634 = "凿刻束带"
     IJ_LOOT_NAME_12637 = "班诺克护手"
@@ -1698,27 +2636,144 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_9816 = "烈焰卫士艾博希尔"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_9816 =
         "很久以前，强大的火焰之王拉格纳罗斯的忠实部下火卫者灰烬先知在燃烧平原的一场高潮战斗中焚烧了数十名黑石兽人。最终，灰烬先知被击败并被囚禁在黑石山内，他的强大能量现在被吸走，用于加速奈法利安黑龙蛋的孵化。"
+    IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_NAME_23341 = "烈焰打击"
+    IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_EFFECT_23341 =
+        "造成火焰伤害，并使受到的火焰伤害提高150点，持续20秒。"
+    IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_NAME_23462 = "火焰新星"
+    IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_EFFECT_23462 =
+        "对100码内的敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_NAME_20228 = "炎爆术"
+    IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_EFFECT_20228 =
+        "造成火焰伤害，随后每3秒造成额外火焰伤害，持续12秒。"
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_10264 = "索拉卡·火冠"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_10264 =
         "在黑龙军团中获得青睐是一件喜忧参半的事。索拉卡·火花受托照顾奈法利安的龙裔，但他被警告说，他将为任何在他的监管下死去的幼龙付出惨痛的代价——或者干脆不辜负期望。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10264_ABILITY_NAME_16727 = "战争践踏"
+    IJ_DB_DUNGEON_UBRS_BOSS_10264_ABILITY_EFFECT_16727 =
+        "对5码内的敌人造成物理伤害，并使其昏迷5秒。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10264_ABILITY_NAME_10264 = "群龙大厅事件"
+    IJ_DB_DUNGEON_UBRS_BOSS_10264_ABILITY_EFFECT_10264 =
+        "索拉卡·火冠出现前，会有五波敌人，每波包含两名群居龙孵化者或群居龙守卫。"
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_10509 = "杰德"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_10509 =
         "难以捉摸的兽人，在黑石塔上层的普通民众中很少见到。据说他拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到他就好了……"
+    IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_NAME_11972 = "盾击"
+    IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_EFFECT_11972 =
+        "对一个目标造成物理伤害，并打断施法。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_NAME_15749 = "盾牌冲锋"
+    IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_EFFECT_15749 =
+        "冲向一个目标，造成物理伤害，并将其击退。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_NAME_14516 = "打击"
+    IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_EFFECT_14516 =
+        "对一个目标造成物理伤害。"
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_10899 = "古拉鲁克"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_10899 =
         "戈拉鲁克·安维尔克拉克是一位著名的铁匠。不幸的是，他将自己的灵魂出卖给了萨特·洛拉克斯，但他打破了协议，带着满是符文的胸甲逃往黑石塔上层。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_NAME_6253 = "反手一击"
+    IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_EFFECT_6253 =
+        "使一个目标昏迷2秒。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_NAME_16172 = "裂颅"
+    IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_EFFECT_16172 =
+        "降低一个目标的耐力，持续20秒。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_NAME_15580 = "打击"
+    IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_EFFECT_15580 =
+        "对一个目标造成物理伤害。"
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_10429 = "大酋长雷德·黑手"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_10429 =
         "部落在第二次战争中战败后，第一任大酋长的儿子雷德·黑手将部族的残部带到黑石塔，与黑铁矮人争夺这座要塞的所有权。雷德将他的兽人与奈法利安和黑龙军团结盟，后者击溃了矮人并将他们驱逐出黑石上游。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_15754 = "顺劈斩"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_15754 =
+        "对一个目标及其附近盟友造成物理伤害，最多影响3个目标。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_15708 = "致死打击"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_15708 =
+        "造成物理伤害，并使受到的治疗效果降低50%，持续5秒。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_13360 = "击倒"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_13360 =
+        "使一个目标昏迷2秒。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_13736 = "旋风斩"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_13736 =
+        "引导旋风，对附近敌人造成物理伤害，持续2秒。\n\n旋风期间远离首领。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_8269 =
+        "使造成的物理伤害提高50点，近战攻击速度提高60%，持续120秒。\n\n治疗应准备应对坦克受到的更高伤害。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_10339 = "盖斯"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_10339 =
+        "战斗从盖斯开始。当盖斯的生命值降至约20%时，雷德下马并加入战斗。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_16390 = "烈焰吐息"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_16390 =
+        "对施法者前方锥形区域内的敌人造成火焰伤害。\n\n让施法者背对队伍。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_16359 = "腐蚀酸液吐息"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_16359 =
+        "对前方锥形区域内的敌人造成自然伤害，使护甲值降低160点，并每5秒造成额外自然伤害，持续30秒。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_16350 = "冰冻"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_16350 =
+        "对前方锥形区域内的敌人造成冰霜伤害，使其昏迷，并每3秒造成额外冰霜伤害，持续10秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_10101 = "击飞"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_10101 =
+        "对一个目标造成物理伤害，并将其击退。"
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_10430 = "比斯巨兽"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_10430 =
         "奈法利安的龙族对拉格纳罗斯俘虏的爪牙进行野蛮的折磨感到非常高兴。尽管承受着难以想象的痛苦，一只核心猎犬仍然保持清醒，可以接受重新训练，而他的凶猛使他成为黑石塔上层的理想守卫。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_16788 = "火球术"
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_16788 =
+        "对一个目标造成火焰伤害。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_16785 = "烈焰破击"
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_16785 =
+        "对10码内的敌人造成火焰伤害，并将其击退。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_14100 = "恐怖咆哮"
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_14100 =
+        "使10码内的敌人因恐惧而逃跑，持续5秒。\n\n防护恐惧结界可以防止此效果。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_16636 = "狂暴冲锋"
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_16636 =
+        "冲向一个目标，造成物理伤害，并将其击退。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_15570 = "献祭"
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_15570 =
+        "造成火焰伤害，随后每3秒造成额外火焰伤害，持续21秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_valthalaksummoning = "召唤"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_valthalaksummoning =
+        "击败比斯巨兽后，在它的房间使用召唤火盆，召唤瓦塔拉克公爵，完成地下城套装2任务线的相关任务。"
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_16042 = "瓦萨拉克"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_16042 =
         "瓦尔塔拉克是一位龙族贵族和拥有巨大力量的术士，在达基萨斯掌权之前曾是黑石塔的前将军。他因魔法书而被面纱之刃佣兵团杀害，但死后仍利用死灵力量为自己报仇。"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_27286 = "暗影之怒"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_27286 =
+        "造成暗影伤害，并在附近目标之间跳跃，每次跳跃都会提高伤害。\n\n分散站位以减少跳跃次数。"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_27249 = "召唤幽灵刺客"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_27249 =
+        "召唤两名鬼灵刺客。进入狂怒后停止召唤。\n\n迅速消灭这些敌人。"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_27177 = "亵渎"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_27177 =
+        "鬼灵刺客引导法术，使一个目标昏迷，最多持续10秒。\n\n击杀刺客以解救其目标。"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_18663 = "暗影震击"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_18663 =
+        "对一个目标造成暗影伤害。"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_8269 = "狂怒"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_8269 =
+        "生命值降至约40%时，造成的物理伤害提高50点，近战攻击速度提高60%，持续120秒。\n\n治疗者应准备应对坦克受到的伤害增加。"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_27383 = "暗影箭雨"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_27383 =
+        "战斗接近结束时，反复对30码内的敌人造成暗影伤害。"
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_10363 = "达基萨斯将军"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_10363 =
         "达基萨斯是一位狡猾无情的战略家，他指挥奈法利安的军队与拉格纳罗斯作战。在取得对黑铁人的胜利后，达基萨斯将军的部队准备将矮人一劳永逸地赶出黑石山。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_15588 = "雷霆一击"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_15588 =
+        "对10码内的敌人造成自然伤害，使近战攻击间隔延长33%，移动速度降低40%，持续10秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_16419 = "烈焰风暴"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_16419 =
+        "在选定区域造成火焰伤害，随后每2秒造成额外火焰伤害，持续8秒。\n\n离开火焰区域。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_16805 = "燃烧"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_16805 =
+        "使当前坦克迷惑，并每秒造成火焰伤害，持续10秒。附近盟友也会受到火焰伤害。\n\n让另一名坦克准备接手。其他玩家应远离受影响的目标。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_12097 = "穿刺护甲"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_12097 =
+        "使一个目标的护甲值降低75%，持续20秒。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_15754 = "顺劈斩"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_15754 =
+        "对一个目标及其附近盟友造成物理伤害，最多影响3个目标。"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_16789 = "暴怒"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_16789 =
+        "使造成的物理伤害提高50点，近战攻击速度提高50%，持续15秒。\n\n治疗应准备应对坦克受到的更高伤害。"
 
     -- UBRS Loot
     IJ_LOOT_NAME_58199 = "丹塔格之骨"
@@ -1969,8 +3024,14 @@ if GetLocale() == "zhCN" then
         "传说，半神阿迦玛甘倒下的地方，他的血液长出了大团带刺的藤蔓。许多野猪人已经在最大的巨荆棘丛中定居下来，剃刀沼泽，他们将这里视为阿迦玛甘的安息之所。最近，侦察兵报告称看到不死生物在该地区徘徊，引发人们担心可怕的天灾军团可能会征服卡利姆多。"
 
     -- RFD Bosses
+    IJ_DB_DUNGEON_RFD_BOSS_7356_ABILITY_NAME_plaguemawevent = "任务事件"
+    IJ_DB_DUNGEON_RFD_BOSS_7356_ABILITY_EFFECT_plaguemawevent =
+        "在剃刀高地的奔尼斯特拉兹处开始“封印神像”任务。护送他前往神像，并在仪式期间保护他；腐烂的普雷莫尔会在此任务事件中出现。"
     IJ_DB_DUNGEON_RFD_BOSS_NAME_7356 = "腐烂的普雷莫尔"
     IJ_DB_DUNGEON_RFD_BOSS_STORY_7356 = "一个腐烂的怪物被派去杀死任何胆敢进入剃刀高地的冒险者。"
+    IJ_DB_DUNGEON_RFD_BOSS_7355_ABILITY_NAME_tutenkashsummoning = "召唤"
+    IJ_DB_DUNGEON_RFD_BOSS_7355_ABILITY_EFFECT_tutenkashsummoning =
+        "敲响锣三次，每次敲击后先击败出现的敌人。前两次召来一波波蜘蛛，第三次则召来图特卡什。"
     IJ_DB_DUNGEON_RFD_BOSS_NAME_7355 = "图特卡什"
     IJ_DB_DUNGEON_RFD_BOSS_STORY_7355 =
         "尽管图腾卡什在转变为亡灵之前在蜘蛛之战中失明，但他仍然作为天灾军团最致命的地穴恶魔指挥官之一服务于天灾军团。图坦卡什用几乎看不见的细网装饰了他的巢穴，让他能够感觉到每一个脚步声和最轻微的触摸，提醒他派出爪牙伏击他不幸的猎物，以此来弥补他的失明。强烈的震动会让他陷入一种迷失方向的愤怒，把他从剃刀丘陵深处的藏身之处拉出来。"
@@ -2079,48 +3140,287 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_SCHOLO_STORY =
         "寻求掌握亡灵力量的人都非常了解通灵学院，这是一所臭名昭著的死灵学派，位于凯尔达隆地下黑暗而不祥的地窖中。近年来，几位导师发生了变化，但该机构仍然处于黑暗大师甘德林的控制之下，他是一个特别残暴和阴险的死灵魔法实践者。"
 
+    -- Additional Dungeon Set 2 encounters and Darkreaver quests
+    IJ_DB_DUNGEON_STRAT_BOSS_NAME_16101 = "贾林与索索斯"
+    IJ_DB_DUNGEON_STRAT_BOSS_STORY_16101 =
+        "贾林与索索斯是伯德雷佣兵队伍中的一对姐弟。队伍解散后，他们带走了瓦塔拉克饰品的一块碎片，并试图加入血色十字军。两人在大十字军战士达索汉的房间内未能通过入会仪式，被达索汉杀死。可以在那里召唤他们的遗骸，夺回饰品碎片。"
+    IJ_DB_DUNGEON_BRD_BOSS_NAME_16059 = "塞尔德林及其角斗士"
+    IJ_DB_DUNGEON_BRD_BOSS_STORY_16059 =
+        "塞尔德林及其角斗士在黑石深渊的秩序竞技场等待挑战者。挑衅之旗会引来他们，开启一场特殊的竞技场挑战。冒险者可在此为安泰恩·哈尔蒙夺回瓦塔拉克饰品的第一块碎片。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_jariensothossummoning =
+        "击败大十字军战士达索汉后，在他的房间使用召唤火盆，召唤贾林与索索斯，完成地下城套装2任务线的相关任务。"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_theldrensummoning =
+        "在“挑战”任务期间，当裁决者格里斯通对队伍宣判时，将挑衅之旗插在秩序竞技场中央，引出塞尔德林及其角斗士。"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_arenaspoils = "竞技场战利品"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_arenaspoils =
+        "击败塞尔德林及其角斗士后，从竞技场战利品箱中领取装备。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15284 = "顺劈斩"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15284 =
+        "对一名敌人及其附近盟友造成物理伤害，最多命中3个目标。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_22575 = "暗影震击"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_22575 =
+        "对一名敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_16856 = "致死打击"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_16856 =
+        "造成物理伤害，并使受到的治疗效果降低50%，持续5秒。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_20812 = "残废术"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_20812 =
+        "降低移动速度、近战攻击速度和力量，持续15秒。应驱散此魔法效果。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15655 = "盾牌猛击"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15655 =
+        "对一名敌人造成物理伤害，并使其昏迷2秒。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_27641 = "恐惧术"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_27641 =
+        "使一名敌人因恐惧而逃跑，持续6秒。应驱散此魔法效果。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_27646 = "暗影箭雨"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_27646 =
+        "对附近敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15749 = "盾牌冲锋"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15749 =
+        "冲向一名敌人，造成物理伤害并将其击退。"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jarien = "贾林"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_sothos = "索索斯"
+    IJ_QUEST_NAME_7647 = "审判和救赎"
+    IJ_QUEST_OBJECTIVE_7647 =
+        "在通灵学院大尸骨储藏所的地下室使用预言水晶球。击败灵魂和死亡骑士达克雷尔，然后将被救赎的战马之魂和被祝福的奥金马铠交给达克雷尔的堕落战马。"
+    IJ_QUEST_NAME_7668 = "达克雷尔的威胁"
+    IJ_QUEST_OBJECTIVE_7668 =
+        "在通灵学院大尸骨储藏所的地下室使用预言水晶球。击败灵魂和死亡骑士达克雷尔，然后将他的头颅交给奥格瑞玛智慧谷的萨格尼。"
+    IJ_NPC_NAME_13417 = "萨格尼"
+    IJ_QUEST_REWARD_SPELL_23214 = "召唤战马"
+    IJ_LOOT_NAME_22301 = "铁纹长袍"
+    IJ_LOOT_NAME_22327 = "救赎者的护符"
+    IJ_LOOT_NAME_22328 = "警觉腿铠"
+    IJ_LOOT_NAME_22329 = "无尽专注节杖"
+    IJ_LOOT_NAME_22334 = "修复之戒"
+    IJ_LOOT_NAME_22305 = "铁纹衬肩"
+    IJ_LOOT_NAME_22317 = "左撇子的黄铜指虎"
+    IJ_LOOT_NAME_22318 = "玛尔根的长弓"
+    IJ_LOOT_NAME_22330 = "奥术掌握披风"
+    IJ_LOOT_NAME_18807 = "潜能头盔"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jariensothossummoning = "召唤"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_theldrensummoning = "召唤"
+
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_siblingspirits = "姐弟之魂"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_siblingspirits =
+        "当其中一人死亡时，其灵魂会出现并攻击仍然存活的另一人。"
+
     -- SCHOLO Bosses
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_kirtonossummoning = "召唤"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_kirtonossummoning =
+        "将无辜者之血放入通灵学院露台上的火盆，以召唤传令官基尔图诺斯。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10506 = "传令官基尔图诺斯"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10506 =
         "很久以前，基尔托诺斯便成为了通灵学院的瑟尔林·卡斯迪诺夫教授的仆从。它以无辜受害者的鲜血为食，对卡斯迪诺夫统治通灵学院期间的许多暴行都负有责任。为了安抚自己的主人，卡斯迪诺夫博士不得不为这只石像鬼提供越来越多的鲜血。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_18144 = "俯冲"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_18144 =
+        "对附近敌人造成物理伤害，并使其昏迷2秒。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_12882 = "拍翼"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_12882 =
+        "击退10码内的敌人。\n\n坦克应背靠墙壁。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_6016 = "刺穿护甲"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_6016 =
+        "使一个目标的护甲值降低50%，持续20秒。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_8379 = "缴械"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_8379 =
+        "使一个目标缴械10秒。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10503 = "詹迪斯·巴罗夫"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10503 =
         "詹迪丝·巴罗夫曾经是达拉然的大法师和强大的幻术师。在生前，她发明了一种咒语，“显示出她身体的几个图像，这些图像与她的真实形态几乎无法区分。这些图像从不同的位置复制了她的行为，使她的敌人几乎不可能找到她。这几乎是绝对正确的。”在巴罗夫家族宣誓效忠诅咒教派后，詹迪丝被变成了通灵学院中的不死鬼魂。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10503_ABILITY_NAME_16098 = "血之诅咒"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10503_ABILITY_EFFECT_16098 =
+        "使附近敌人受到的物理伤害提高，持续10分钟。\n\n移除此诅咒。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10503_ABILITY_NAME_17773 = "召唤幻象"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10503_ABILITY_EFFECT_17773 =
+        "召唤自身的幻象。真正的詹迪斯拥有远高于幻象的生命值。\n\n使用直接攻击或物理顺劈攻击对付幻象，不要依赖魔法范围伤害。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10503_ABILITY_NAME_15584 = "顺劈斩"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10503_ABILITY_EFFECT_15584 =
+        "对一个目标及其附近盟友造成物理伤害。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_11622 = "血骨傀儡"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_11622 = "拉特戈尔是由他击败的敌人的遗骸制成的。直到今天，他仍然守护着通灵学院，抵御入侵者。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_NAME_10101 = "击飞"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_EFFECT_10101 =
+        "对一个目标造成物理伤害，并将其击退。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_NAME_16727 = "战争践踏"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_EFFECT_16727 =
+        "对5码内的敌人造成物理伤害，并使其昏迷5秒。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_NAME_18368 = "打击"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_EFFECT_18368 =
+        "对一个目标造成物理伤害。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_darkreaversummoning = "召唤"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_darkreaversummoning =
+        "在“审判和救赎”（圣骑士）或“达克雷尔的威胁”（萨满祭司）任务期间，在大尸骨储藏所的地下室使用预言水晶球。击败一波波灵魂，以召唤死亡骑士达克雷尔。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_14516 = "死亡骑士达克雷尔"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_14516 =
         "这位后来被称为黑暗掠夺者的人曾经是一位著名的圣骑士，但受到巫妖王的召唤而成为一名阴险的死亡骑士。他的腐败蔓延到了他的坐骑上，他的坐骑变成了不死马。暗掠者被送往通灵学院。在大骨库下方的地牢中，他试图让精神领域屈服于他的心血来潮，召唤并腐蚀灵魂来执行他的命令。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_15284 = "顺劈斩"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_15284 =
+        "对一个目标及其附近盟友造成物理伤害。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_17393 = "暗影箭"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_17393 =
+        "对一个目标造成暗影伤害。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_22644 = "吸血"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_22644 =
+        "吸取附近敌人的生命值，造成物理伤害并治疗施法者。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_7645 = "控制心智"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_7645 =
+        "控制一个目标，并降低其近战攻击速度，持续10秒。\n\n驱散此魔法效果。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10433 = "马杜克·布莱克波尔"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10433 =
         "马杜克·布莱克浦，也被称为“黑色马杜克”，是臭名昭著的天灾军团死亡骑士。他是通灵学院的导师，向死灵系的学生分享他的黑暗秘密。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_NAME_17228 = "暗影箭雨"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_EFFECT_17228 =
+        "对30码内的敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_NAME_12040 = "暗影护盾"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_EFFECT_12040 =
+        "吸收伤害，并对近战攻击者造成暗影伤害，持续30秒。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_NAME_15284 = "顺劈斩"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_EFFECT_15284 =
+        "对一个目标及其附近盟友造成物理伤害。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_NAME_17695 = "污染光环"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_EFFECT_17695 =
+        "使30码内敌人的暗影抗性降低100点。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10432 = "维克图斯"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10432 = "维克图斯开发了通灵学院中发现的瘟疫龙，这些龙是他通过在燃烧平原付钱给丁基·蒸汽布尔从黑石塔运送龙蛋而获得的。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10432_ABILITY_NAME_18399 = "烈焰风暴"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10432_ABILITY_EFFECT_18399 =
+        "在选定区域造成火焰伤害，随后每2秒造成额外火焰伤害，持续8秒。\n\n离开火焰区域。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10432_ABILITY_NAME_16046 = "冲击波"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10432_ABILITY_EFFECT_16046 =
+        "对10码内的敌人造成火焰伤害，并使其移动速度降低70%，持续6秒。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10508 = "莱斯·霜语"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10508 =
         "拉斯·霜语曾经是一名来自激流堡的人类法师。他是一名树篱法师，一名从未在达拉然接受过正式训练的盗贼巫师。他是第一批加入诅咒教的人之一，并迅速在其队伍中晋升。他现在是通灵学院的监督者。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_NAME_18100 = "霜甲术"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_18100 =
+        "提高护甲值。近战攻击者会受到冰冻效果，近战攻击速度降低，移动速度降低40%，持续5秒。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_NAME_21369 = "寒冰箭"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_21369 =
+        "造成冰霜伤害，并使移动速度降低50%，持续4秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_NAME_18099 = "冰冷新星"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_18099 =
+        "对10码内的敌人造成冰霜伤害，将其击退，并使其移动速度降低50%，持续10秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_NAME_8398 = "寒冰箭雨"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_8398 =
+        "对多个敌人造成冰霜伤害，并使其移动速度降低50%，持续8秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_NAME_18763 = "冰冻"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_18763 =
+        "使一个目标昏迷，并每3秒造成冰霜伤害，持续15秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_NAME_26070 = "恐惧术"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_26070 =
+        "使45码内的敌人因恐惧而逃跑，最多持续8秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_NAME_kormoksummoning = "召唤"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_EFFECT_kormoksummoning =
+        "在莱斯·霜语的房间使用召唤火盆，召唤库尔莫克，完成地下城套装2任务线的相关任务。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_16118 = "库尔莫克"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_16118 =
         "科尔莫克是通灵学院中的食人魔死灵法师老大。他的一个脑袋总是开朗，甚至有点愚蠢，而另一个脑袋却很狡猾，精于算计，眼神几乎是死气沉沉的。虽然最初只是一名法师，作为面纱之刃的一员，他的表现并不算糟糕，但他接触到了魔法的死灵一面，并最终以召唤炼狱岛被放逐的死者的灵魂为乐。退出雇佣兵公司后，他加入了通灵学院。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_NAME_27690 = "召唤白骨爪牙"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_EFFECT_27690 =
+        "召唤一只白骨爪牙，协助施法者作战。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_NAME_17228 = "暗影箭雨"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_EFFECT_17228 =
+        "对30码内的敌人造成暗影伤害。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10505 = "讲师玛丽希亚"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10505 =
         "马利西亚是奎尔萨拉斯的前高等精灵，她是银月城陷落之前少数愿意加入诅咒教派的同类之一。现在，她是一名死去的黑魔法导师，负责监督学校追随者的体能和战术训练。马利西亚因其残忍而臭名昭著，经常利用她的学生作为她毁灭性的暗影魔法的活目标，以确保只有最残酷和最坚韧的人才能生存下来为巫妖王服务。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_NAME_11672 = "腐蚀术"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_EFFECT_11672 =
+        "每3秒造成暗影伤害，持续18秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_NAME_17831 = "坟墓的召唤"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_EFFECT_17831 =
+        "诅咒附近敌人，在60秒后造成暗影伤害。\n\n移除此诅咒。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_NAME_9889 = "治疗之触"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_EFFECT_9889 =
+        "治疗施法者或一名盟友。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_NAME_10917 = "快速治疗"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_EFFECT_10917 =
+        "治疗施法者或一名盟友。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_NAME_10929 = "恢复"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_EFFECT_10929 =
+        "每3秒恢复生命值，持续15秒。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_11261 = "瑟尔林·卡斯迪诺夫教授"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_11261 =
         "克拉斯蒂诺夫被称为“屠夫”，是先驱基尔托诺斯的仆人，也是通灵学院死灵术实验的主要酷刑者和尸体及身体部位的提供者。他的第一批受害者是从凯尔达隆家族中招募的。其中有巴罗夫家族的仆人伊娃·萨克霍夫和卢西恩·萨克霍夫。几个月来，他们被困、折磨和残害，发誓要在坟墓之外向克拉斯蒂诺夫报仇。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11261_ABILITY_NAME_16509 = "撕裂"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11261_ABILITY_EFFECT_16509 =
+        "使一个目标流血，每3秒造成物理伤害，持续15秒。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11261_ABILITY_NAME_18103 = "反手一击"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11261_ABILITY_EFFECT_18103 =
+        "使一个目标昏迷2秒。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11261_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11261_ABILITY_EFFECT_8269 =
+        "生命值较低时，造成的物理伤害提高50点，近战攻击速度提高60%，持续120秒。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10901 = "博学者普克尔特"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10901 = "博学者波尔凯特曾经是知识的守护者，然而不幸的是，这些知识已经消失了，因为他现在是一个步履蹒跚、缺乏智慧的怪物。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_NAME_18270 = "黑暗瘟疫"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_EFFECT_18270 =
+        "造成自然伤害，随后每5秒造成额外自然伤害，持续90秒。\n\n移除此疾病。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_NAME_24928 = "不稳定感染"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_EFFECT_24928 =
+        "使受影响的目标每5秒对附近盟友造成自然伤害，持续2分钟。\n\n尽快移除疾病，在疾病被移除前，让受影响的玩家远离队伍。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_NAME_8245 = "腐蚀酸液"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_EFFECT_8245 =
+        "降低附近敌人的护甲值，持续5分钟。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_NAME_18151 = "毒性催化剂"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_EFFECT_18151 =
+        "降低一个目标的自然抗性，持续2分钟。\n\n移除此疾病。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10507 = "拉文尼亚"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10507 =
         "拉文尼亚是一种饥饿无比的怪物，是学校的终极“纪律”措施。他由邪教中最强大的遗骸拼凑而成，居住在学院的底层，在那里他被喂养失败者和弱者。与更聪明的教师不同，拉文人是一种纯粹、贪婪本能的生物，在入侵者和学校最保守的秘密之间充当着一堵巨大的腐肉墙。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10507_ABILITY_NAME_20691 = "顺劈斩"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10507_ABILITY_EFFECT_20691 =
+        "对一个目标及其附近盟友造成物理伤害。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10507_ABILITY_NAME_15550 = "践踏"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10507_ABILITY_EFFECT_15550 =
+        "对10码内的敌人造成物理伤害。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10507_ABILITY_NAME_10101 = "击飞"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10507_ABILITY_EFFECT_10101 =
+        "对一个目标造成物理伤害，并将其击退。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10504 = "阿雷克斯·巴罗夫"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10504 =
         "阿列克谢·巴罗夫勋爵是凯尔达隆、布里尔、塔伦米尔和南海镇的领主。他是亚历克西·巴罗夫、韦尔登·韦尔登和詹迪斯·巴罗夫的父亲，也是伊露西亚·巴罗夫女士的丈夫。与詹迪丝和伊露西亚一样，他现在是通灵学院中天灾军团的特工。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10504_ABILITY_NAME_15570 = "献祭"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10504_ABILITY_EFFECT_15570 =
+        "造成火焰伤害，随后每3秒造成额外火焰伤害，持续21秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10504_ABILITY_NAME_17466 = "邪恶光环"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10504_ABILITY_EFFECT_17466 =
+        "每2秒对30码内的敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10504_ABILITY_NAME_17820 = "暗影迷雾"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10504_ABILITY_EFFECT_17820 =
+        "使受影响的敌人受到的治疗效果降低75%，持续15秒。\n\n移除此诅咒。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10502 = "伊露希亚·巴罗夫女士"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10502 =
         "作为阿列克谢·巴罗夫勋爵的妻子，伊露西亚与克尔苏加德分享了家族的黑暗契约，用凯尔达隆祖传的土地换取了永恒生命的空洞承诺。现在，她成了她以前高贵的自我的幽灵般的影子，经常出没于学院的自习室。伊露西亚保留了她生前所拥有的贵族傲慢，利用她对精神控制和精神痛苦的掌握来打破那些胆敢闯入她家族被亵渎的家的人的意志。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_NAME_20603 = "暗影震击"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_EFFECT_20603 =
+        "对20码内的敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_NAME_18671 = "痛苦诅咒"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_EFFECT_18671 =
+        "每3秒造成暗影伤害，持续30秒。\n\n移除此诅咒。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_NAME_15487 = "沉默"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_EFFECT_15487 =
+        "使一个目标沉默5秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_NAME_6215 = "恐惧术"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_EFFECT_6215 =
+        "使一个目标因恐惧而逃跑，最多持续20秒。\n\n驱散此魔法效果。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_1853 = "通灵院长·加丁"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_1853 = "黑暗大师甘德林是凯尔达隆死灵魔法学院的校长，由克尔苏加德亲自任命。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_NAME_18702 = "黑暗院长之诅咒"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_EFFECT_18702 =
+        "使一个目标的力量和耐力降低50点，持续60秒。\n\n移除此诅咒。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_NAME_15790 = "奥术飞弹"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_EFFECT_15790 =
+        "向一个目标引导奥术飞弹，每秒造成奥术伤害，持续5秒。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_NAME_22417 = "暗影护盾"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_EFFECT_22417 =
+        "吸收伤害，并对近战攻击者造成暗影伤害，持续30秒。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_NAME_17950 = "暗影传送门"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_EFFECT_17950 =
+        "将一名玩家传送到其中一间侧室。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_NAME_30002 = "复活的卫兵"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_EFFECT_30002 =
+        "三到四名复活的卫兵等待着被传送的玩家。\n\n击败卫兵后返回队伍。"
     IJ_LOOT_NAME_13920 = "健康的龙鳞"
 
     -- SCHOLO Loot
@@ -2340,47 +3640,218 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10393 = "斯库尔"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10393 =
         "难以捉摸的骷髅法师，在斯坦索姆的普通民众中很少见。据说他拥有许多令人垂涎的物品，许多人都希望能够亲手得到这些物品，如果他们能首先遇到他就好了……"
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_NAME_16799 = "寒冰箭"
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_EFFECT_16799 =
+        "造成冰霜伤害，并使移动速度降低50%，持续4秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_NAME_15499 = "冰霜震击"
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_EFFECT_15499 =
+        "造成冰霜伤害，并使移动速度降低50%，持续8秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_NAME_15230 = "奥术箭"
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_EFFECT_15230 =
+        "对一个目标造成奥术伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_NAME_12544 = "霜甲术"
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_EFFECT_12544 =
+        "提高护甲值。近战攻击者会受到冰冻效果，移动速度降低30%，近战攻击速度降低25%，持续5秒。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10558 = "弗雷斯特恩"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10558 =
         "斯坦索姆大屠杀夺去了无数人的生命，他们唯一的罪行就是在这座注定毁灭的城市里。一位名叫福雷斯顿的巡回歌手和短笛演奏家就是这样的受害者之一。他继续在死亡之城徘徊，无法接受自己的悲惨命运。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_NAME_16100 = "射击"
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_EFFECT_16100 =
+        "对一个目标造成物理伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_NAME_14443 = "多重射击"
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_EFFECT_14443 =
+        "向多个敌人射击，造成奥术伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_NAME_16244 = "挫志怒吼"
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_EFFECT_16244 =
+        "使10码内敌人的攻击强度降低20点，持续30秒。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_NAME_16798 = "迷惑之歌"
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_EFFECT_16798 =
+        "使一个目标沉睡，最多持续10秒。\n\n驱散此魔法效果。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10516 = "不可宽恕者"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10516 =
         "莉莉亚是她人民中的正义之刃。在阿尔萨斯指挥他的军队净化这座城市后，她的理智因看到无数无辜者死于她的手中而崩溃。她为了逃避周围的疯狂而倒在剑上，现在她作为一个幽灵而存在，永远无法因其令人发指的行为而得到赦免。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10516_ABILITY_NAME_14907 = "冰霜新星"
+    IJ_DB_DUNGEON_STRAT_BOSS_10516_ABILITY_EFFECT_14907 =
+        "对10码内的敌人造成冰霜伤害，并使其定身，最多持续8秒。\n\n驱散此魔法效果。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10808 = "悲惨的提米"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10808 =
         "蒂米森因其在战场上的野蛮行为而臭名昭著。一些人推测他的虐待狂源于他小时候遭受的不断的欺凌。现在重生为天灾怪物，他的精神崩溃了，他被那些记忆折磨着，让他回答了他曾经厌恶的名字：蒂米。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10808_ABILITY_NAME_17470 = "饥饿之爪"
+    IJ_DB_DUNGEON_STRAT_BOSS_10808_ABILITY_EFFECT_17470 =
+        "造成物理伤害，并为施法者恢复生命值。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10808_ABILITY_NAME_8269 = "激怒"
+    IJ_DB_DUNGEON_STRAT_BOSS_10808_ABILITY_EFFECT_8269 =
+        "生命值较低时，造成的物理伤害提高50点，近战攻击速度提高60%，持续120秒。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_11032 = "狂热的玛洛尔"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_11032 = "作为血色十字军的疯狂成员，他守护着自己的保险箱，不让任何人靠近。"
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_NAME_12734 = "大地粉碎"
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_EFFECT_12734 =
+        "对10码内的敌人造成物理伤害，并使其昏迷3秒。"
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_NAME_16172 = "裂颅"
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_EFFECT_16172 =
+        "降低一个目标的耐力，持续20秒。"
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_NAME_15493 = "圣光术"
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_EFFECT_15493 =
+        "治疗施法者或一名盟友。"
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_NAME_10310 = "圣疗术"
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_EFFECT_10310 =
+        "为施法者或一名盟友恢复全部生命值。"
+    IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_NAME_hammersmithsummoning = "召唤"
+    IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_EFFECT_hammersmithsummoning =
+        "与血色堡垒内的锻造图纸互动，以召唤首领。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_11120 = "红衣铸锤师"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_11120 = "来自赤红军团的锤匠。人们对他知之甚少，只知道他非常保护自己的锻造计划。"
+    IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_NAME_17445 = "熔化白骨"
+    IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_EFFECT_17445 =
+        "造成火焰伤害，并使护甲值降低50%，持续20秒。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10997 = "炮手威利"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10997 = "作为血色十字军的首席炮手，威利无论在什么情况下都会使用他的大炮。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_NAME_10101 = "击飞"
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_EFFECT_10101 =
+        "对一个目标造成物理伤害，并将其击退。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_NAME_15615 = "拳击"
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_EFFECT_15615 =
+        "对一个目标造成物理伤害，并打断施法。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_NAME_20463 = "射击"
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_EFFECT_20463 =
+        "对一个目标造成物理伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_NAME_11054 = "红衣火枪手"
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_EFFECT_11054 =
+        "红衣火枪手加入战斗。\n\n使用房间内的火炮消灭他们。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10811 = "档案管理员加尔福特"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10811 = "档案管理员加尔福德守护着斯坦索姆血色堡垒的档案。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10811_ABILITY_NAME_17274 = "炎爆术"
+    IJ_DB_DUNGEON_STRAT_BOSS_10811_ABILITY_EFFECT_17274 =
+        "造成火焰伤害，随后每3秒造成额外火焰伤害，持续12秒。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10811_ABILITY_NAME_17366 = "火焰新星"
+    IJ_DB_DUNGEON_STRAT_BOSS_10811_ABILITY_EFFECT_17366 =
+        "对10码内的敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10811_ABILITY_NAME_17293 = "烈焰之风"
+    IJ_DB_DUNGEON_STRAT_BOSS_10811_ABILITY_EFFECT_17293 =
+        "使一个目标昏迷，并每秒造成火焰伤害，持续8秒。\n\n驱散此魔法效果。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10812 = "大十字军战士达索汉"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10812 =
         "血色十字军的大十字军战士赛丹·达索汉从斯坦索姆的血色堡垒发出命令。关于他的谣言四起，人们质疑他的真实意图，甚至他的身份……"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_phaseone = "第一阶段"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_phaseone =
+        "战斗首先面对大十字军战士达索汉。两个阶段都会使用心灵震爆。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_17281 = "十字军打击"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_17281 =
+        "造成物理伤害，并使受到的神圣伤害提高30点，持续30秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_17284 = "神圣打击"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_17284 =
+        "对一个目标造成神圣伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_17286 = "十字军之锤"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_17286 =
+        "使20码内的敌人昏迷4秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_phasetwo = "第二阶段"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_phasetwo =
+        "生命值降至约40%时，达索汉变身为巴纳扎尔，恢复全部生命值，并使附近玩家昏迷5秒。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_17399 = "暗影震击"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_17399 =
+        "对15码内的敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_13704 = "心灵尖啸"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_13704 =
+        "使8码内的敌人因恐惧而逃跑，持续6秒。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_12098 = "睡眠术"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_12098 =
+        "使一个目标沉睡，最多持续20秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_17405 = "支配"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_17405 =
+        "控制一个目标，最多持续15秒。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_17287 = "心灵震爆"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_17287 =
+        "对一个目标造成暗影伤害。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10435 = "巴瑟拉斯镇长"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10435 =
         "在斯坦索姆大屠杀期间，巴瑟拉斯是被阿尔萨斯和他的军队清洗的无辜者之一。巫妖王最终将这位前任治安官从坟墓中复活，并命令这个巨大的不死怪物守卫他被毁的家园。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_NAME_10887 = "群体打击"
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_EFFECT_10887 =
+        "对10码内的敌人造成物理伤害，打断施法，并将其击退。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_NAME_14099 = "强力打击"
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_EFFECT_14099 =
+        "对一个目标造成物理伤害，并将其击退。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_NAME_16793 = "吸取打击"
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_EFFECT_16793 =
+        "造成暗影伤害，并为施法者恢复生命值。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_NAME_16791 = "狂怒"
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_EFFECT_16791 =
+        "反复提高造成的物理伤害和近战攻击速度，可叠加。\n\n治疗者应准备应对坦克受到的伤害持续增加。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10809 = "石脊"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10809 =
         "一种难以捉摸的石像鬼，在斯坦索姆的普通居民中很少见到。据说它拥有许多令人垂涎的物品，很多人都希望能亲手得到它们，如果他们能一开始就遇到它就好了……"
+    IJ_DB_DUNGEON_STRAT_BOSS_10809_ABILITY_NAME_14331 = "恶毒撕裂"
+    IJ_DB_DUNGEON_STRAT_BOSS_10809_ABILITY_EFFECT_14331 =
+        "使一个目标流血，每3秒造成物理伤害，持续15秒。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10437 = "奈鲁布恩坎"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10437 =
         "尼鲁布坎 (奈鲁布恩坎) 是蜘蛛之战期间一位可怕的战士。最终，她因伤势过重而死亡，并作为天灾军团的顺从仆从复活为亡灵。现在，这位尼鲁布人像她生前保卫家园一样，守护着斯坦索姆的金字形神塔。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10437_ABILITY_NAME_4962 = "包围之网"
+    IJ_DB_DUNGEON_STRAT_BOSS_10437_ABILITY_EFFECT_4962 =
+        "使一个目标定身，并降低其近战攻击速度，持续6秒。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10437_ABILITY_NAME_6016 = "刺穿护甲"
+    IJ_DB_DUNGEON_STRAT_BOSS_10437_ABILITY_EFFECT_6016 =
+        "使一个目标的护甲值降低50%，持续20秒。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10436 = "安娜丝塔丽男爵夫人"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10436 =
         "在她活着的时候，阿纳斯塔里就得到了她想要的东西，不惜一切代价。死亡并没有改变这一点。她的灵魂从她的身体中被撕裂，阿纳斯塔里变成了女妖，她放弃了对物质饰品的热爱，转而追求一种更加险恶的财产。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_NAME_16565 = "女妖哀嚎"
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_EFFECT_16565 =
+        "对一个目标造成暗影伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_NAME_16867 = "女妖诅咒"
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_EFFECT_16867 =
+        "使10码内敌人的命中几率降低10%，持续12秒。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_NAME_18327 = "沉默"
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_EFFECT_18327 =
+        "使10码内的敌人沉默10秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_NAME_17244 = "占据"
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_EFFECT_17244 =
+        "附身一名玩家，提高其生命值，同时安娜丝塔丽免疫伤害。\n\n攻击被控制的玩家，将其生命值降至约25%以下即可解救。不要将其击杀。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10438 = "苍白的玛勒基"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10438 =
         "马雷基是第一批加入诅咒教的人之一，在驾驭坟墓的寒冷方面表现出了巨大的天赋。在对力量永不满足的渴望的驱使下，法师热切地磨练自己的黑魔法技能，为自己被改造为巫妖做好准备。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_NAME_17503 = "寒冰箭"
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_EFFECT_17503 =
+        "造成冰霜伤害，并使移动速度降低50%，持续4秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_NAME_16869 = "寒冰之墓"
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_EFFECT_16869 =
+        "使一个目标昏迷10秒。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_NAME_17238 = "吸取生命"
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_EFFECT_17238 =
+        "引导法术，吸取一个目标的生命值并治疗施法者。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_NAME_17243 = "吸取法力"
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_EFFECT_17243 =
+        "引导法术，吸取一个目标的法力值。\n\n驱散此魔法效果。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10439 = "吞咽者拉姆斯登"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10439 =
         "拉姆斯坦是天灾军团最臭名昭著的怪物之一，它是由无数尸体拼凑而成的恐怖怪物，并由无尽的饥饿赋予力量。当天灾军团占领斯坦索姆时，这个怪物对无数无辜的灵魂犯下了难以形容的暴行。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10439_ABILITY_NAME_5568 = "践踏"
+    IJ_DB_DUNGEON_STRAT_BOSS_10439_ABILITY_EFFECT_5568 =
+        "对10码内的敌人造成物理伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10439_ABILITY_NAME_17307 = "击昏"
+    IJ_DB_DUNGEON_STRAT_BOSS_10439_ABILITY_EFFECT_17307 =
+        "造成物理伤害，将一个目标击退并使其昏迷6秒。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10440 = "瑞文戴尔男爵"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10440 =
         "瑞文戴尔男爵是一名强大的死亡骑士，为巫妖王服务，协调天灾军团在瘟疫之地的行动。他统治着斯坦索姆市，目前正在与派往斯坦索姆刺杀他的银色黎明特工作战。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_NAME_15537 = "暗影箭"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_EFFECT_15537 =
+        "对一个目标造成暗影伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_NAME_15284 = "顺劈斩"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_EFFECT_15284 =
+        "对一个目标及其附近盟友造成物理伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_NAME_19643 = "致死打击"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_EFFECT_19643 =
+        "造成物理伤害，并使受到的治疗效果降低50%，持续5秒。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_NAME_17467 = "邪恶光环"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_EFFECT_17467 =
+        "每2秒对30码内的敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_NAME_17473 = "复活死尸"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_EFFECT_17473 =
+        "召唤六只无脑的骷髅。\n\n在死亡契约吞噬它们之前迅速击杀。"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_NAME_17471 = "死亡契约"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_EFFECT_17471 =
+        "吞噬仍然存活的召唤骷髅以恢复生命值。"
 
     -- STRAT Loot
     IJ_LOOT_NAME_13395 = "斯库尔的骨爪"
@@ -2712,10 +4183,11 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_KC_BOSS_NAME_91916 = "大巫妖安克瑞兹"
     IJ_DB_DUNGEON_KC_BOSS_STORY_91916 = "大巫妖恩赫拉兹的遗产完全不为人所知，仅仅将他确立为占领卡拉赞墓穴的强大不死势力。"
     IJ_DB_DUNGEON_KC_BOSS_NAME_91919 = "指挥官安德里昂"
-    IJ_DB_DUNGEON_KC_BOSS_STORY_91919 = "学者们没有发现任何关于安德烈恩指挥官的过去的提及，他的身份是卡拉赞墓穴的幽灵。"
+    IJ_DB_DUNGEON_KC_BOSS_STORY_91919 =
+        "安德烈恩指挥官和他的孪生兄弟罗辛队长一同加入了高塔卫队，并各自获得了一枚以高塔魔网能量附魔的卡拉赞印记。罗辛的灵魂徘徊在主宰的地窖时，调查卡拉赞的法师们仍不知道安德烈恩身在何处。如今，他出现在高塔下方墓穴的亡灵之中。"
     IJ_DB_DUNGEON_KC_BOSS_NAME_91928 = "阿拉鲁斯"
     IJ_DB_DUNGEON_KC_BOSS_STORY_91928 =
-        "阿拉鲁斯被称为地穴守望者，是塔下溃烂的邪恶魔法的主要哨兵。肯瑞托认为他的毁灭对于艾泽拉斯的安全至关重要，而部落则将击倒他视为一种荣耀之举，因为他们知道只有消灭这个“大恶魔”才能消除深渊中令人窒息的迷雾和疯狂。"
+        "墓穴守望者阿拉鲁斯曾短暂师从麦迪文，后来负责照看卡拉赞地下的墓穴。当死灵之力开始惊扰高塔周围的亡者时，冈瑟尔·阿坎努斯将异动归因于阿拉鲁斯；安斯雷姆·鲁因维沃检查了混有奥术能量的死灵法术痕迹后，也怀疑是这位昔日学徒所为。肯瑞托和部落都要求击败他；在他被击败后，压抑的黑暗开始消退。"
 
     -- KC Loot
     IJ_LOOT_NAME_83441 = "碎裂骨牢胸甲"
@@ -3235,6 +4707,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_15117 = "被禁锢的灵魂"
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117 =
         "被禁锢的灵魂可以在战斗中复活阵亡玩家。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_edgesummoning = "召唤"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_edgesummoning =
+        "在疯狂之缘使用古拉巴什疯狂魔精熄灭疯狂之火，召唤四位灵魂中的一位。"
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "疯狂之缘"
     IJ_DB_RAID_ZG_BOSS_STORY_15082 =
         "在祖尔格拉布的疯狂之缘，古老的石板记载着四位巨魔之灵：拥有铁血之名的游荡者格里雷克；以痛苦和杀戮闻名的千刃雷纳塔基；掌控梦魇的织梦者哈扎拉；以及力量与天空、雨水和大地相连的风暴巫师乌苏雷。\n\n疯狂石板记载着古拉巴什疯狂魔精的配方。用这种炼金祭品熄灭疯狂火盆的火焰，便能将其中一位巨魔之灵召回生者的世界。"
@@ -3290,6 +4765,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "闪电之云"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
         "制造一片半径10码、持续15秒的闪电云，初始造成463至538点自然伤害，之后每5秒额外造成875至1126点伤害。\n\n立即离开闪电云。"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_gahzrankasummoning = "召唤"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_gahzrankasummoning =
+        "将5条祖利安臭泥鱼装入臭泥鱼诱饵，在帕格渔点使用以召唤加兹兰卡。"
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "加兹兰卡"
     IJ_DB_RAID_ZG_BOSS_STORY_15114 =
         "加兹兰卡是一头传说中的多头蛇，潜伏在祖尔格拉布帕格渔点附近的水域中。纳特·帕格曾到访这片河岸，并将渔具和最心爱的卷尺遗落在此。\n\n归还卷尺的冒险者会得知如何将这头巨兽引出深水：把五条祖利安臭泥鱼装入臭泥鱼诱饵，再从帕格渔点抛入水中，便能引出这头难觅踪影的多头蛇。"
@@ -5414,6 +6892,9 @@ if GetLocale() == "zhCN" then
     -- WORLD Bosses
     IJ_DB_RAID_WORLD_BOSS_NAME_6109 = "艾索雷葛斯"
     IJ_DB_RAID_WORLD_BOSS_STORY_6109 = "阿祖雷戈斯是一条强大的蓝龙，受到玛里苟斯的信任，负责保管蓝龙军团最珍贵的神器。"
+    IJ_DB_RAID_WORLD_BOSS_59963_ABILITY_NAME_clackorasummoning = "召唤"
+    IJ_DB_RAID_WORLD_BOSS_59963_ABILITY_EFFECT_clackorasummoning =
+        "在艾萨拉的克拉柯拉祭坛献上1个克拉柯拉的远古雕像、10份元素之水和5条电鳗，完成“远古邪恶的祭坛”并召唤克拉柯拉。"
     IJ_DB_RAID_WORLD_BOSS_NAME_59963 = "克拉科拉"
     IJ_DB_RAID_WORLD_BOSS_STORY_59963 =
         "艾泽拉斯的编年史中关于克拉科拉的记载很少。无论是从深海中苏醒的远古野兽，还是过去时代被遗忘的怪物，它的真实本质和起源对于即使是最有经验的冒险家来说仍然是一个完整的谜。"
@@ -5967,6 +7448,27 @@ if GetLocale() == "zhCN" then
     -- Quest 40828
     IJ_QUEST_NAME_40828 = "卡拉赞的钥匙之九"
     IJ_QUEST_OBJECTIVE_40828 = "找到“魔法锁和钥匙的论文”并将其带回给多万·布雷斯温德。据传它被保存在黑翼之巢中。"
+
+    -- Ritual of Souls and learned spell rewards
+    IJ_QUEST_REWARD_SPELL_10140 = "造水术（等级7）"
+    IJ_QUEST_REWARD_SPELL_23161 = "召唤恐惧战马"
+    IJ_QUEST_REWARD_SPELL_18540 = "末日仪式"
+    IJ_QUEST_NAME_7582 = "监牢之壁"
+    IJ_QUEST_OBJECTIVE_7582 =
+        "前往冬泉谷的暗语峡谷，从赫达琳恶魔身上收集5颗赫达琳之泪，然后返回腐烂之痕的戴奥处。"
+    IJ_QUEST_NAME_7583 = "压制"
+    IJ_QUEST_OBJECTIVE_7583 =
+        "对腐烂之痕的末日守卫指挥官使用发光的水晶监牢。在捕获期间抵御它的攻击，然后将被囚禁的末日守卫交给戴奥。"
+    IJ_QUEST_NAME_70002 = "疯子的指引"
+    IJ_QUEST_OBJECTIVE_70002 =
+        "前往诅咒之地的腐烂之痕，找到衰老的戴奥。"
+    IJ_QUEST_NAME_70003 = "汲取噬魂者"
+    IJ_QUEST_OBJECTIVE_70003 =
+        "在祖尔格拉布击杀噬魂者哈卡，将灵魂井精华交给衰老的戴奥。"
+    IJ_NPC_NAME_5675 = "卡伦丁·哈加尔"
+    IJ_NPC_NAME_6122 = "黑暗缚灵者加科因"
+    IJ_LOOT_NAME_83003 = "灵魂仪式魔典"
+    IJ_LOOT_NAME_18602 = "牺牲之书"
 
     -- Quest 70000
     IJ_QUEST_NAME_70000 = "一种特殊的传票"

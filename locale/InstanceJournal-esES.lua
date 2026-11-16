@@ -113,6 +113,7 @@ if GetLocale() == "esES" then
     IJ_GUI_TABRAIDS = "Bandas"
     IJ_GUI_BOSS = "Jefe"
     IJ_GUI_RARE = "Raro"
+    IJ_GUI_SUMMONED = "Invocado"
     IJ_GUI_BOSSES = "Jefes"
     IJ_GUI_SHOWMAP = "Mostrar\nMapa"
     IJ_GUI_HOME = "Inicio"
@@ -351,53 +352,69 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_SV_BOSS_NAME_80853 = "Aszosh Llama Siniestra"
     IJ_DB_DUNGEON_SV_BOSS_STORY_80853 =
         "Aszosh Grimflame fue una vez un necrólito del Consejo de la Sombra, criado como caballero de la muerte por Gul'dan. Ahora domina los huesos de los caídos y drena las fuerzas de todos los que se le oponen. Su oscura presencia ha retorcido los pasillos de la Bóveda, y sólo los valientes pueden esperar detener su implacable hambre de poder."
-    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_10212 = "Misiles arcanos"
-    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_10212 = "Aszosh Grimflame lanza misiles arcanos al enemigo, causando 192 de daño arcano cada 1 segundo durante 5 segundos."
-    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_18702 = "Maldición del Maestro Oscuro"
-    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_18702 = "Aszosh Grimflame maldice a su enemigo, reduciendo su fuerza y ​​resistencia en 50 durante 60 segundos."
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_17618 = "Invocar lacayo resucitado"
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_17618 = "Invoca a un lacayo resucitado para ayudar en combate durante un máximo de 60 segundos.\n\nControla o derrota al enemigo invocado."
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_10947 = "Explosión mental"
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_10947 = "Inflige daño de las Sombras a un objetivo tras un lanzamiento de 1,5 segundos."
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_11700 = "Drenar vida"
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_11700 = "Canaliza daño de las Sombras cada segundo durante 5 segundos y sana al taumaturgo por el daño infligido.\n\nDisipa este efecto mágico cuanto antes."
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_NAME_18656 = "Corrupción"
+    IJ_DB_DUNGEON_SV_BOSS_80853_ABILITY_EFFECT_18656 = "Inflige daño de las Sombras cada segundo durante 3 segundos.\n\nDisipa este efecto mágico."
     IJ_DB_DUNGEON_SV_BOSS_NAME_80852 = "Tham'Grarr"
-    IJ_DB_DUNGEON_SV_BOSS_STORY_80852 = "No se sabe mucho sobre Tham'Grarr, aparte de que es un ogro temible, conocido por su fuerza brutal y su temperamento violento."
-    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_5246 = "Grito intimidante"
-    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_5246 = "Tham'Grarr les grita a los enemigos cercanos, lo que hace que huyan aterrorizados durante 8 segundos."
-    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_22859 = "División mortal"
-    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_22859 = "Tham'Grarr inflige un gran daño a su objetivo y lo deja herido, reduciendo la efectividad de cualquier curación en un 50% durante 5 segundos."
-    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_22857 = "Represalias"
-    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_22857 =
-        "Tham'Grarr contraataca a cualquier enemigo que lo golpee cuerpo a cuerpo durante 15 segundos. ||norte||  ||norte|| Los ataques cuerpo a cuerpo realizados desde atrás no se pueden contraatacar."
+    IJ_DB_DUNGEON_SV_BOSS_STORY_80852 = "Tham'Grarr es un ogro mago de dos cabezas que se encuentra en el Bloque de Confluencia de la Bóveda de Ventormenta. Tham recibe a los intrusos como una distracción bienvenida, mientras Grarr exige con entusiasmo su matanza y disfruta del caos de la batalla."
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_19717 = "Lluvia de Fuego"
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_19717 = "Invoca una lluvia de fuego sobre el área seleccionada que inflige daño de Fuego cada 2 segundos durante 6 segundos.\n\nSal del área afectada."
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_25306 = "Bola de Fuego"
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_25306 = "Inflige daño de Fuego a un objetivo, seguido de daño de Fuego adicional cada 2 segundos durante 8 segundos."
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_18670 = "Repeler"
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_18670 = "Inflige daño Físico a un objetivo y lo repele."
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_NAME_11958 = "Bloque de hielo"
+    IJ_DB_DUNGEON_SV_BOSS_80852_ABILITY_EFFECT_11958 = "Encierra a Tham'Grarr en hielo y lo vuelve inmune a los ataques y hechizos durante 10 segundos. No puede atacar, moverse ni lanzar hechizos mientras está congelado.\n\nDeja de atacar hasta que termine Bloque de hielo."
     IJ_DB_DUNGEON_SV_BOSS_NAME_80850 = "novia negra"
     IJ_DB_DUNGEON_SV_BOSS_STORY_80850 =
         "La Novia Negra es una figura trágica, unida por un amor obsesivo por Damian. Ataca a cualquiera que se acerque, considerándolos profanadores de su devoción, y habla de su amor por El Destripador incluso en la muerte."
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_16867 = "Maldición alma en pena"
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_16867 = "La Novia Negra maldice a los enemigos cercanos, reduciendo su probabilidad de golpear en un 10% durante 12 segundos."
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_16565 = "Lamento de alma en pena"
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_16565 = "La Novia Negra gime de angustia e inflige daño de las sombras a un enemigo."
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_17244 = "Poseer"
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_17244 =
-        "¡La Novia Negra toma el control de uno de sus enemigos y comienza a atacar a sus aliados! ||norte||  ||norte|| ¡Hacer suficiente daño al jugador poseído lo liberará de la novia!"
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_18327 = "Silencio"
-    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_18327 = "La Novia Negra silencia a todos los enemigos en un radio de 10 metros, impidiéndoles lanzar hechizos durante 10 segundos."
+    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_7074 = "Gritos del pasado"
+    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_7074 = "Silencia a los enemigos en un radio de 5 metros durante 5 segundos.\n\nLos jugadores a distancia y los sanadores deben permanecer fuera de este alcance. Disipa este efecto mágico."
+    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_17228 = "Salva de descarga de las Sombras"
+    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_17228 = "Inflige daño de las Sombras a los enemigos en un radio de 30 metros."
+    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_NAME_28873 = "Bofetada de liche"
+    IJ_DB_DUNGEON_SV_BOSS_80850_ABILITY_EFFECT_28873 = "Inflige daño de las Sombras a un objetivo y lo repele."
     IJ_DB_DUNGEON_SV_BOSS_NAME_80854 = "Damián"
     IJ_DB_DUNGEON_SV_BOSS_STORY_80854 =
         "Damian, también conocido como El Destripador, es un asesino mortal y esquivo que ataca desde las sombras. Le encanta el combate, caza a quienes se cruzan en su camino con precisión despiadada y desaparece tan fácilmente como aparece."
-    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_11700 = "Drenar la vida"
-    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11700 = "Damian drena la vida de un enemigo, transfiriéndose 70 de salud a sí mismo cada segundo durante 5 segundos."
-    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_11668 = "Inmolar"
-    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11668 = "Damian inmola a un enemigo, quemándolo y causando 258 de daño por fuego y 485 de daño por fuego adicional durante 15 segundos."
-    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_1856 = "Desaparecer"
-    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_1856 = "Damian desaparece y tiende una emboscada a un enemigo cuando reaparece."
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_24222 = "Esfumarse"
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_24222 = "Desaparece y reaparece aproximadamente 3 segundos después para atacar con Puñalada, a menudo contra otro objetivo.\n\nEl tanque debe estar preparado para provocar al jefe y recuperar su control."
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_46320 = "Puñalada"
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_46320 = "Inflige daño Físico a un objetivo."
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_11286 = "Gubia"
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11286 = "Inflige daño Físico e incapacita al objetivo durante un máximo de 4 segundos. El daño interrumpe el efecto."
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_11294 = "Golpe siniestro"
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_11294 = "Golpea a un objetivo e inflige daño Físico."
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_NAME_17289 = "Choque de las Sombras"
+    IJ_DB_DUNGEON_SV_BOSS_80854_ABILITY_EFFECT_17289 = "Inflige daño de las Sombras a un objetivo."
     IJ_DB_DUNGEON_SV_BOSS_NAME_80851 = "Hoja cruel de Volkan"
     IJ_DB_DUNGEON_SV_BOSS_STORY_80851 = "Volkan Cruelblade es miembro del clan Burning Blade. Lucha con habilidad mortal, buscando libertad y venganza contra todos los que se le oponen."
-    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_NAME_9256 = "sueño profundo"
-    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_9256 = "Volkan pone a dormir a los enemigos cercanos durante 10 segundos. ||norte||  ||norte|| Cualquier daño causado los despertará."
-    IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_15398 = "Grito psíquico"
-    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_15398 = "Volkan deja escapar un grito psíquico, lo que provoca que el enemigo quede congelado de miedo durante 8 segundos."
-    IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_20741 = "Descarga de Descarga de las Sombras"
-    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_20741 = "Volkan lanza misiles de magia oscura, lo que inflige 255 de daño de las sombras a cada enemigo en un radio de 30 metros."
-    IJ_DB_DUNGEON_SV_BOSS_880851_ABILITY_NAME_20603 = "Choque de sombras"
-    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_20603 = "Volkan azota a los enemigos en un radio de 20 yardas con magia oscura, lo que les inflige 740 de daño de las sombras a cada uno de ellos."
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_NAME_23951 = "Ansia de sangre"
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_23951 = "Aumenta la velocidad de ataque cuerpo a cuerpo un 60% durante 15 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_NAME_7141 = "Teletransporte simple"
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_7141 = "Se teletransporta y cambia a otro objetivo.\n\nEl tanque debe estar preparado para provocar al jefe y recuperar su control."
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_NAME_23931 = "Trueno"
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_23931 = "Inflige daño de Naturaleza a los enemigos en un radio de 10 metros, aumenta el tiempo entre sus ataques cuerpo a cuerpo un 100% y reduce su velocidad de movimiento un 60% durante 10 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_NAME_9632 = "Filotormenta"
+    IJ_DB_DUNGEON_SV_BOSS_80851_ABILITY_EFFECT_9632 = "Canaliza ataques contra enemigos cercanos e inflige daño Físico cada 3 segundos durante un máximo de 9 segundos.\n\nAléjate mientras Filotormenta esté activa."
     IJ_DB_DUNGEON_SV_BOSS_NAME_93107 = "Arc'Tiras"
     IJ_DB_DUNGEON_SV_BOSS_STORY_93107 =
-        "Arc'Tiras es un cristal de magia poderoso y sensible, encerrado en lo profundo de la Bóveda de Ventormenta. Su energía inestable ha vuelto locos a los guardias y ha convertido la Bóveda en un laberinto de locura."
+        "Arc'Tiras es un cristal consciente de magia inestable nacido de un experimento en el que Malygos infundió el hielo de Rasganorte con su propio maná. Los magos de Ventormenta lo descubrieron y lo confinaron en las profundidades de la Bóveda después de que su poder causara repetidos incidentes. Sin saber que el cristal poseía una mente propia, llevaron a la ciudad un peligro que enloquecería a los guardias y convertiría la Bóveda en corredores de locura."
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_NAME_17503 = "Descarga de Escarcha"
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_EFFECT_17503 = "Inflige daño de Escarcha a un objetivo y reduce su velocidad de movimiento un 50% durante 4 segundos."
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_NAME_12888 = "Provocar demencia"
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_EFFECT_12888 = "Controla a un objetivo durante 6 segundos y lo obliga a atacar a sus aliados. Aumenta la velocidad de ataque cuerpo a cuerpo del objetivo controlado un 50% y su velocidad de movimiento un 80%.\n\nDisipa este efecto mágico inmediatamente."
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_NAME_30094 = "Nova de Escarcha"
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_EFFECT_30094 = "Inflige daño de Escarcha a los enemigos en un radio de 10 metros y los inmoviliza durante un máximo de 8 segundos.\n\nLos jugadores a distancia y los sanadores deben permanecer fuera de este alcance. Disipa la inmovilización."
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_NAME_60612 = "Guardianes gélidos"
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_EFFECT_60612 = "Al llegar aproximadamente al 60% de salud, invoca a dos Guardianes gélidos.\n\nControla o derrota a los enemigos invocados."
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_NAME_12548 = "Choque de Escarcha"
+    IJ_DB_DUNGEON_SV_BOSS_93107_ABILITY_EFFECT_12548 = "Inflige daño de Escarcha a un objetivo y reduce su velocidad de movimiento un 50% durante 8 segundos."
 
     -- Deadmines
     IJ_DB_DUNGEON_DEADMINES_NAME = "Las minas de la muerte"
@@ -475,24 +492,106 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BM_BOSS_NAME_65113 = "cronar"
     IJ_DB_DUNGEON_BM_BOSS_STORY_65113 =
         "Chronar, que alguna vez fue un orgulloso defensor de los tiempos, rompió sus juramentos sagrados al Vuelo de Bronce para asociarse con el Infinito. Ahora, una cáscara retorcida de lo que era antes, empuña una \"Lanza desgastada por el tiempo\", un arma que le quitó a un héroe humano en un conflicto pasado, mientras trabaja incansablemente para destruir la misma historia que una vez juró proteger."
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_NAME_13737 = "Golpe mortal"
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_EFFECT_13737 = "Inflige daño físico y reduce la sanación recibida un 50% durante 5 segundos.\n\nLos sanadores deben prepararse para una menor sanación sobre el tanque."
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_NAME_22067 = "Reflejo"
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_EFFECT_22067 = "Refleja los hechizos hacia sus lanzadores durante 10 segundos.\n\nDeja de lanzar hechizos ofensivos contra Chronar mientras Reflejo esté activo."
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_NAME_12887 = "Embate de barrido"
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_EFFECT_12887 = "Inflige daño físico a los enemigos cercanos y los repele."
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_NAME_18328 = "Grito incapacitador"
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_EFFECT_18328 = "Reduce la velocidad de movimiento de los enemigos en un radio de 20 metros un 60% durante 60 segundos."
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_NAME_28131 = "Enfurecer"
+    IJ_DB_DUNGEON_BM_BOSS_65113_ABILITY_EFFECT_28131 = "Aumenta el daño infligido un 25% y la velocidad de ataque un 40%.\n\nLos sanadores deben prepararse para un mayor daño sobre el tanque."
     IJ_DB_DUNGEON_BM_BOSS_NAME_61575 = "Epidamu"
     IJ_DB_DUNGEON_BM_BOSS_STORY_61575 =
         "A medida que las anomalías temporales dentro del pantano se intensifican, criaturas de más allá de los límites del tiempo se ven atraídas al conflicto. Epidamu sirve como presagio de la voluntad del Infinito, utilizando sus poderes de distorsión de la realidad para extraer la esencia del pantano y manifestar la Arena Corrupta que plaga las líneas de tiempo rotas."
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_NAME_17287 = "Explosión mental"
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_EFFECT_17287 = "Inflige daño de las Sombras a un objetivo tras un lanzamiento de 1,5 segundos."
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_NAME_9433 = "Explosión Arcana"
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_EFFECT_9433 = "Inflige daño Arcano a los enemigos en un radio de 10 metros.\n\nLos jugadores a distancia y los sanadores deben permanecer fuera de este alcance."
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_NAME_17682 = "Drenar maná"
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_EFFECT_17682 = "Drena maná cada segundo durante 5 segundos.\n\nDisipa este efecto mágico inmediatamente."
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_NAME_57102 = "Confluencia temporal"
+    IJ_DB_DUNGEON_BM_BOSS_61575_ABILITY_EFFECT_57102 = "Inflige daño Arcano cada segundo y aumenta la velocidad de ataque cuerpo a cuerpo del objetivo afectado un 20% durante 15 segundos."
     IJ_DB_DUNGEON_BM_BOSS_NAME_61316 = "Avatar de arena a la deriva"
     IJ_DB_DUNGEON_BM_BOSS_STORY_61316 =
         "Formado a partir del peso colectivo de posibilidades destrozadas, el Avatar de Arena a la Deriva es una construcción sin sentido del Vuelo Infinito. Actúa literalmente como un reloj de arena fatalista, que encarna la arena corrupta que se filtra de las heridas en la línea de tiempo, aplastando a cualquiera que busque reparar el daño crónico."
+    IJ_DB_DUNGEON_BM_BOSS_61316_ABILITY_NAME_57103 = "Ráfaga de arena"
+    IJ_DB_DUNGEON_BM_BOSS_61316_ABILITY_EFFECT_57103 = "Inflige daño de Naturaleza a los enemigos en un cono frente al taumaturgo y los repele.\n\nMantén al jefe de espaldas al grupo."
+    IJ_DB_DUNGEON_BM_BOSS_61316_ABILITY_NAME_57104 = "Arena cegadora"
+    IJ_DB_DUNGEON_BM_BOSS_61316_ABILITY_EFFECT_57104 = "Desorienta a los enemigos en un radio de 10 metros, reduce su velocidad de movimiento un 60% e inflige daño de Naturaleza cada 3 segundos durante 6 segundos.\n\nAléjate durante el lanzamiento de 2,5 segundos para evitar el efecto."
     IJ_DB_DUNGEON_BM_BOSS_NAME_65116 = "Señor del Tiempo Epochronos"
     IJ_DB_DUNGEON_BM_BOSS_STORY_65116 =
         "Epochronos, estratega de alto rango del Vuelo Infinito, supervisa el asalto táctico al ritual de Medivh. Considera el flujo lineal del tiempo como una jaula y busca desbloquear un futuro en el que se evite la derrota final de la Legión, creyendo que sus \"correcciones\" al pasado son por el bien del multiverso."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_20717 = "Aliento de arena"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_20717 = "Inflige daño Arcano a los enemigos en un cono frente al taumaturgo, reduce su velocidad de movimiento un 50% y aumenta el tiempo entre sus ataques cuerpo a cuerpo durante 10 segundos.\n\nMantén al jefe de espaldas al grupo."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_24857 = "Explosión Arcana"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_24857 = "Inflige daño Arcano a un objetivo y lo repele."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_23919 = "Picado"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_23919 = "Inflige daño Físico a los enemigos en un cono frente al taumaturgo y los aturde durante 2 segundos."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_18647 = "Desterrar"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_18647 = "Al llegar aproximadamente al 50% de salud, Epochronos queda desterrado y aparece un eco.\n\nDerrota al eco y vuelve a atacar a Epochronos cuando termine Desterrar."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_65118 = "Eco de Kael'thas Caminante del Sol"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_65118 = "Un eco invocado durante Desterrar."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_9482 = "Amplificar llamas"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_9482 = "Aumenta el daño de Fuego recibido en 100 durante 30 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_19630 = "Cono de Fuego"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_19630 = "Inflige daño de Fuego a los enemigos en un cono frente al taumaturgo.\n\nMantén al eco de espaldas al grupo."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_20228 = "Piroexplosión"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_20228 = "Inflige daño de Fuego a un objetivo, seguido de daño de Fuego adicional cada 3 segundos durante 12 segundos."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_65117 = "Eco del Rey Exánime"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_65117 = "Un eco invocado durante Desterrar."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_28412 = "Espiral de la muerte"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_28412 = "Inflige daño de las Sombras a un objetivo, le hace huir horrorizado durante 3 segundos y sana al taumaturgo por el daño infligido."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_19777 = "Golpe oscuro"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_19777 = "Golpea a un objetivo e inflige daño de las Sombras."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_11433 = "Muerte y descomposición"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_11433 = "Canaliza daño de las Sombras cada 2 segundos a los enemigos en el área seleccionada durante un máximo de 10 segundos.\n\nInterrumpe el lanzamiento y sal del área afectada."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_65119 = "Eco de Lady Vashj"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_65119 = "Un eco invocado durante Desterrar."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_15234 = "Descarga de relámpagos"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_15234 = "Inflige daño de Naturaleza a un objetivo tras un lanzamiento de 3 segundos.\n\nInterrumpe cuando sea posible."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_23106 = "Cadena de relámpagos"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_23106 = "Inflige daño de Naturaleza que salta a enemigos cercanos y afecta a un máximo de 3 objetivos."
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_NAME_20545 = "Escudo de relámpagos"
+    IJ_DB_DUNGEON_BM_BOSS_65116_ABILITY_EFFECT_20545 = "Rodea al taumaturgo con 20 cargas de relámpagos que pueden infligir daño de Naturaleza a los atacantes cuerpo a cuerpo o a distancia. Cada represalia consume una carga.\n\nDisipa este efecto mágico."
     IJ_DB_DUNGEON_BM_BOSS_NAME_65124 = "corazón de musgo"
     IJ_DB_DUNGEON_BM_BOSS_STORY_65124 =
         "Las antiguas bestias de los pantanos de Black Morass han sido durante mucho tiempo sensibles a las energías de la tierra. Mossheart, que alguna vez fue un pacífico protector del fango, ha sido llevado a un estado de furia primordial por la radiación temporal que se escapa del Portal Oscuro. Ahora arremete contra cualquier cosa, bronce o infinita, que perturbe las turbias profundidades de su hogar."
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_NAME_20664 = "Rejuvenecimiento"
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_EFFECT_20664 = "Sana a Mossheart cada 3 segundos durante 12 segundos.\n\nDisipa este efecto mágico inmediatamente."
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_NAME_6866 = "Manos cubiertas de musgo"
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_EFFECT_6866 = "Hace que el objetivo afectado pueda dejar caer su arma durante 180 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_NAME_6870 = "Pies cubiertos de musgo"
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_EFFECT_6870 = "Hace que el objetivo afectado pueda ser derribado al recibir un golpe durante 180 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_NAME_20699 = "Raíces enredadoras"
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_EFFECT_20699 = "Inmoviliza a los enemigos en un radio de 25 metros e inflige daño de Naturaleza cada 3 segundos durante un máximo de 15 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_NAME_14535 = "Enfermedad del pantano"
+    IJ_DB_DUNGEON_BM_BOSS_65124_ABILITY_EFFECT_14535 = "Reduce todos los atributos de los enemigos en un radio de 30 metros un 25% durante 5 minutos.\n\nElimina esta enfermedad cuanto antes."
     IJ_DB_DUNGEON_BM_BOSS_NAME_65125 = "Antnormi"
     IJ_DB_DUNGEON_BM_BOSS_STORY_65125 =
         "Antigua hermana de armas del dragón de bronce Keridormi, la traición de Antnormi es quizás la más personal de todas. Convencida de que la llegada de los orcos es una tragedia que debe ser borrada, ha abrazado el camino del Infinito. Ella se erige como el último obstáculo en la vía del tiempo del sur, dispuesta a matar a sus antiguos parientes para ver realizada su visión de una historia \"pura\"."
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_NAME_21919 = "Vapulear"
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_EFFECT_21919 = "Otorga un ataque adicional en el siguiente golpe cuerpo a cuerpo de Antnormi.\n\nLos sanadores deben prepararse para picos de daño sobre el tanque."
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_NAME_17234 = "Choque de las Sombras"
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_EFFECT_17234 = "Inflige daño de las Sombras a un objetivo."
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_NAME_16096 = "Rugido aterrador"
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_EFFECT_16096 = "Aturde a los enemigos en un radio de 10 metros durante 5 segundos."
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_NAME_28131 = "Enfurecer"
+    IJ_DB_DUNGEON_BM_BOSS_65125_ABILITY_EFFECT_28131 = "Al llegar aproximadamente al 20% de salud, aumenta el daño infligido un 25% y la velocidad de ataque un 40%.\n\nLos sanadores deben prepararse para un mayor daño sobre el tanque."
     IJ_DB_DUNGEON_BM_BOSS_NAME_65122 = "Rotmaw"
     IJ_DB_DUNGEON_BM_BOSS_STORY_65122 =
         "Rotmaw, un enorme crocolisco de apetito legendario, se ha deleitado con las energías crónicas desplazadas del pantano durante años. La bestia se ha vuelto anormalmente grande y agresiva, y sus fauces están goteando podredumbre entrópica. Le importa poco la preservación del tiempo y ve a los invasores de Black Morass sólo como un festín muy necesario."
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_NAME_7102 = "Contagio de podredumbre"
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_EFFECT_7102 = "Aumenta el tiempo entre ataques cuerpo a cuerpo un 33% y el tiempo de lanzamiento de hechizos un 25% durante 4 minutos. La enfermedad puede propagarse a aliados cercanos cuando el objetivo afectado recibe un golpe.\n\nElimina esta enfermedad cuanto antes."
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_NAME_25051 = "Hender armadura"
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_EFFECT_25051 = "Reduce la armadura del objetivo en 1.000 por aplicación durante 20 segundos. Se acumula hasta 5 veces."
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_NAME_25371 = "Consumir"
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_EFFECT_25371 = "Consume a un objetivo, lo aturde e inflige daño de Naturaleza cada 3 segundos durante un máximo de 15 segundos.\n\nLos demás miembros del grupo deben estar preparados para ocuparse del jefe mientras el objetivo esté consumido."
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_NAME_10689 = "Repulsión"
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_EFFECT_10689 = "Repele al objetivo."
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_NAME_28467 = "Herida mortal"
+    IJ_DB_DUNGEON_BM_BOSS_65122_ABILITY_EFFECT_28467 = "Inflige daño Físico y reduce la sanación recibida un 10% durante 15 segundos."
 
     -- SMGY
     IJ_DB_DUNGEON_SMGY_NAME = "Monasterio Escarlata (Cementerio)"
@@ -584,6 +683,9 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_ZF_BOSS_NAME_7267 = "Jefe Ukorz Piel de Arena"
     IJ_DB_DUNGEON_ZF_BOSS_STORY_7267 =
         "El jefe Ukorz Sandscalp está obsesionado con devolverle a su tribu su antigua gloria. Se crió con historias de una época en la que los trolls dominaban sus antiguas tierras sin la interferencia de duendes, gnomos, piratas, ogros y otros intrusos extranjeros. Sandscalp ha pedido a su camarada de confianza Ruuzlu que le ayude a comenzar un nuevo capítulo en la historia de Sandfury de la única manera que su tribu sabe: con una violencia rápida y cegadora."
+    IJ_DB_DUNGEON_ZF_BOSS_7273_ABILITY_NAME_gahzrillasummoning = "Invocación"
+    IJ_DB_DUNGEON_ZF_BOSS_7273_ABILITY_EFFECT_gahzrillasummoning =
+        "Usad la Marra de Zul’Farrak para tocar el gong junto al estanque de Gahz’rilla e invocarla."
     IJ_DB_DUNGEON_ZF_BOSS_NAME_7273 = "Gahz'rilla"
     IJ_DB_DUNGEON_ZF_BOSS_STORY_7273 =
         "Cuenta la leyenda que Gahz'rilla era una mascota adorada por los dioses antiguos, o incluso una semidiós por derecho propio. Cualquiera que sea la verdad, los trolls Furia de Arena han adorado a esta monstruosa hidra durante miles de años. Siempre cautelosos ante la ira helada de la bestia, los trolls sólo despertarán a Gahz'rilla cuando tengan abundantes sacrificios para saciar el apetito de la voraz criatura."
@@ -599,6 +701,9 @@ if GetLocale() == "esES" then
         "Hace miles de años, el imperio Gurubashi se vio sumido en una guerra civil por una poderosa secta de sacerdotes, los Atal'ai, que buscaban convocar a Azeroth a un avatar de su dios de la sangre, Hakkar el Desollador de Almas. El pueblo Gurubashi exilió a los Atal'ai al Pantano de los Dolores, donde los sacerdotes construyeron el Templo de Atal'Hakkar. Ysera, Aspecto del Vuelo Verde, hundió el templo debajo del pantano y asignó guardianes para garantizar que los rituales de invocación nunca se volvieran a realizar."
 
     -- ST Bosses
+    IJ_DB_DUNGEON_ST_BOSS_8580_ABILITY_NAME_atalalarionsummoning = "Invocación"
+    IJ_DB_DUNGEON_ST_BOSS_8580_ABILITY_EFFECT_atalalarionsummoning =
+        "Activad las seis estatuas de serpiente en este orden: sur, norte, suroeste, sureste, noroeste y noreste. Atal’alarion aparece en el foso inferior."
     IJ_DB_DUNGEON_ST_BOSS_NAME_8580 = "Atal'alarion"
     IJ_DB_DUNGEON_ST_BOSS_STORY_8580 = "Atal'alarion es el protector jurado del ídolo que se encuentra en el nivel más bajo del templo."
     IJ_DB_DUNGEON_ST_BOSS_NAME_5708 = "Engendro de Hakkar"
@@ -629,6 +734,9 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_ST_BOSS_NAME_5709 = "Sombra de Eranikus"
     IJ_DB_DUNGEON_ST_BOSS_STORY_5709 =
         "Eranikus, ex consorte de Ysera la Soñadora, fue enviado a proteger las ruinas de Atal'Hakkar y evitar la aparición de Hakkar. Una vez dentro del templo, él y su séquito fueron corrompidos por las fuerzas oscuras y se convirtió en una sombra, arrastrada entre los reinos del Sueño Esmeralda y el plano físico. A pesar de su corrupción, Eranikus aún puede recurrir a sus poderes de dragón verde para arrojar ácido corrosivo a sus enemigos o atraparlos en un sueño profundo."
+    IJ_DB_DUNGEON_ST_BOSS_8443_ABILITY_NAME_avatarsummoning = "Invocación"
+    IJ_DB_DUNGEON_ST_BOSS_8443_ABILITY_EFFECT_avatarsummoning =
+        "Usad el Huevo de Hakkar en el Sagrario del Dios Caído para iniciar el ritual. Derrotad a los Guardianes de sangre Hakkari, recoged su Sangre Hakkari y usadla para apagar las cuatro llamas eternas e invocar al Avatar de Hakkar."
     IJ_DB_DUNGEON_ST_BOSS_NAME_8443 = "Avatar de Hakkar"
     IJ_DB_DUNGEON_ST_BOSS_STORY_8443 =
         "Hakkar era conocido por exigir sacrificios a sus seguidores. Hace muchos milenios, ordenó a los Atal'ai que trajeran para este avatar, utilizando sangre extraída ritualmente de víctimas vivas para alimentarlo. Los sacerdotes Atal'ai ahora buscan resucitar el avatar de Hakkar con una versión modificada de este ritual, que implica sacrificar dragones verdes. Si los Atal'ai tienen éxito, el resurgimiento del avatar de Hakkar podría significar la perdición para Azeroth."
@@ -728,51 +836,438 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14326 = "Guardia Mol'dar"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14326 =
         "Mol'dar es un guardia celosamente leal de los ogros Gordok. Está convencido de que el rey Gordok le regaló un par de guanteletes encantados que le han permitido convertirse en el campeón de lucha de brazos de su pueblo durante seis años consecutivos. En verdad, el rey Gordok arrojó la poderosa armadura; Mol'dar simplemente lo encontró primero."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_14516 = "Golpe"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_14516 =
+        "Inflige daño físico al objetivo."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_11972 = "Azote de escudo"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_11972 =
+        "Inflige daño físico e interrumpe el hechizo del objetivo, impidiendo los hechizos de esa escuela durante 8 s."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_15749 = "Carga con escudo"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_15749 =
+        "Carga contra un enemigo, le inflige daño físico y lo repele."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_10101 = "Repeler"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_10101 =
+        "Inflige daño físico al objetivo y lo repele."
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_DMN_BOSS_14326_ABILITY_EFFECT_8269 =
+        "Aumenta la velocidad de ataque y el daño físico infligido."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14322 = "Stomper Kreeg"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14322 =
         "En más de una ocasión, asesinos escondidos han encontrado su destino después de perturbar accidentalmente la jarra de cerveza de Kreeg. Aunque a menudo se desmaya borracho mientras está de servicio, nada provoca en el ogro una furia frenética más rápida que el sonido de su preciosa bebida salpicando el suelo de piedra."
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_22833 = "Escupitajo de alcohol"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_22833 =
+        "Escupe alcohol a los enemigos cercanos, reduciendo su probabilidad de acertar durante 10 s y emborrachándolos."
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_16740 = "Pisotón de guerra"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_16740 =
+        "Repele a los enemigos en un radio de 5 m."
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_15577 = "Torbellino"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_15577 =
+        "Inflige daño físico a los enemigos en un radio de 8 m."
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_DMN_BOSS_14322_ABILITY_EFFECT_8269 =
+        "Aumenta la velocidad de ataque y el daño físico infligido."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14321 = "Guardia Fengus"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14321 =
         "Desde que Cho'Rush el Observador le dijo que estaba destinado a encontrarse con una compañera mientras estaba de servicio, Fengus ha pasado casi cada momento de vigilia patrullando el territorio de Gordok."
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_14516 = "Golpe"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_14516 =
+        "Inflige daño físico al objetivo."
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_11972 = "Azote de escudo"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_11972 =
+        "Inflige daño físico e interrumpe el hechizo del objetivo, impidiendo los hechizos de esa escuela durante 8 s."
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_15749 = "Carga con escudo"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_15749 =
+        "Carga contra un enemigo, le inflige daño físico y lo repele."
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_10101 = "Repeler"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_10101 =
+        "Inflige daño físico al objetivo y lo repele."
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_DMN_BOSS_14321_ABILITY_EFFECT_8269 =
+        "Aumenta la velocidad de ataque y el daño físico infligido."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14323 = "Guardia Slip'kik"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14323 =
         "Algunos podrían pensar que Slip'kik es simplemente cauteloso, pero también es vago. En lugar de desafiar directamente al rey Gordok, Slip'kik juguetea con trampas y dispositivos mágicos viejos y rotos, con la esperanza de dar un golpe de gracia sin una pizca de riesgo ni una gota de sudor."
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_14516 = "Golpe"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_14516 =
+        "Inflige daño físico al objetivo."
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_11972 = "Azote de escudo"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_11972 =
+        "Inflige daño físico e interrumpe el hechizo del objetivo, impidiendo los hechizos de esa escuela durante 8 s."
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_15749 = "Carga con escudo"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_15749 =
+        "Carga contra un enemigo, le inflige daño físico y lo repele."
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_10101 = "Repeler"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_10101 =
+        "Inflige daño físico al objetivo y lo repele."
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_DMN_BOSS_14323_ABILITY_EFFECT_8269 =
+        "Aumenta la velocidad de ataque y el daño físico infligido."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_14325 = "Capitán Kromcrush"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_14325 =
         "Incluso entre los ogros, el Capitán Kromcrush es famoso por su furia hacia cualquiera que se atreva a insultarlo a él o al Rey Gordok. Aplasta la disidencia sin piedad, pero tiene aún menos paciencia con aquellos que continúan difundiendo el rumor de su tórrido romance con un gnoll hace mucho tiempo."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_19134 = "Grito intimidador"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_19134 =
+        "Hace que los enemigos cercanos huyan aterrorizados durante 8 s."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_29544 = "Grito intimidador"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_29544 =
+        "El objetivo principal del grito queda aturdido en el sitio durante 8 s."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22857 = "Represalias"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22857 =
+        "Durante 15 s, contraataca a los enemigos que lo golpean de frente en cuerpo a cuerpo. Los atacantes cuerpo a cuerpo deben atacar por detrás."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22858 = "Represalias"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22858 =
+        "Represalias provoca un contraataque físico contra el atacante."
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_NAME_22859 = "División mortal"
+    IJ_DB_DUNGEON_DMN_BOSS_14325_ABILITY_EFFECT_22859 =
+        "Inflige daño físico y reduce la sanación recibida un 50% durante 5 s."
     IJ_DB_DUNGEON_DMN_BOSS_NAME_11501 = "Rey Gordok"
     IJ_DB_DUNGEON_DMN_BOSS_STORY_11501 =
         "Para gobernar a los ogros Gordok, uno simplemente debe proclamarse rey... y luego destruir a todos los que puedan no estar de acuerdo. El rey Gordok, entonces conocido simplemente como Ulrok, ​​solidificó su poder convenciendo a una docena de los guerreros más fuertes de su pueblo para que desafiaran al rey al mismo tiempo. El salvaje combate cuerpo a cuerpo dejó a la mayoría de los contendientes muertos o heridos, y la espada de Ulrok mató fácilmente a los supervivientes y al rey cansado de la batalla. Hasta el día de hoy, los ogros Gordok hablan en voz baja sobre el \"Día de la Sangre\"."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15572 = "Hender armadura"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15572 =
+        "Reduce la armadura del objetivo durante 30 s. Se acumula hasta 5 veces."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15708 = "Golpe mortal"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15708 =
+        "Inflige daño físico y reduce la sanación recibida un 50% durante 5 s."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16727 = "Pisotón de guerra"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16727 =
+        "Inflige daño físico a los enemigos en un radio de 5 m y los aturde durante 5 s."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22886 = "Carga de rabioso"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22886 =
+        "Carga contra un enemigo, le inflige daño físico y lo repele."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_chorush = "Cho'Rush el Observador"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_chorush =
+        "Cho’Rush lucha junto al Rey Gordok. Sus hechizos varían entre encuentros.\n\nPara una carrera de tributo, mantenlo con vida y derrota al rey."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_8376 = "Tótem Pillaterra"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_8376 =
+        "Invoca un tótem que inmoviliza periódicamente a los enemigos cercanos. Destruye el tótem."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_13745 = "Deflagración Arcana"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_13745 =
+        "Inflige daño Arcano a los enemigos en un radio de 10 m."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15234 = "Descarga de relámpagos"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15234 =
+        "Inflige daño de Naturaleza al objetivo."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15305 = "Cadena de relámpagos"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15305 =
+        "Inflige daño de Naturaleza que salta entre enemigos cercanos y alcanza hasta 5 objetivos. Sepárate de los demás."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_15982 = "Ola de sanación"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_15982 =
+        "Restaura la salud de un aliado."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_16170 = "Ansia de sangre"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_16170 =
+        "Aumenta un 60% la velocidad de ataque de un aliado durante 30 s. Se puede disipar del enemigo."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17139 = "Palabra de poder: escudo"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17139 =
+        "Protege a un aliado con un escudo que absorbe daño durante un máximo de 30 s. Se puede disipar del enemigo."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17194 = "Explosión mental"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17194 =
+        "Inflige daño de las Sombras al objetivo."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_17290 = "Bola de Fuego"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_17290 =
+        "Inflige daño de Fuego al objetivo."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22883 = "Sanar"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22883 =
+        "Restaura la salud de un aliado."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_22884 = "Alarido psíquico"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_22884 =
+        "Hace que hasta 5 enemigos en un radio de 8 m huyan aterrorizados durante 4 s."
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_NAME_tribute = "Tributo de Gordok"
+    IJ_DB_DUNGEON_DMN_BOSS_11501_ABILITY_EFFECT_tribute =
+        "Para maximizar la recompensa del Tributo de Gordok, evita a los demás jefes y derrota al Rey Gordok manteniendo con vida a Cho’Rush.\n\nTras la caída del rey, los Gordok reconocen al grupo como sus nuevos gobernantes. Los guardias que sobrevivan pueden otorgar beneficios."
 
     -- DMW
     IJ_DB_DUNGEON_DMW_NAME = "La Masacre Terrible Oeste"
     IJ_DB_DUNGEON_DMW_STORY =
         "Los Jardines Capital están ubicados al oeste de Dire Maul. La zona podría haber sido alguna vez un prístino distrito de parques de la ciudad, pero ahora los árboles están grises y marchitos, y las calles rotas están llenas de antiguos peligrosos."
 
+    -- Dreadsteed of Xoroth encounter
+    IJ_DB_DUNGEON_DMW_BOSS_STORY_14502 =
+        "En la Prisión de Immol’thar, los brujos preparan un círculo de invocación para abrir un paso a Xoroth. Un corcel nefasto responde a la llamada y Lord Hel’nurath también entra en combate. La victoria permite al brujo vincular el espíritu del corcel y obtenerlo como montura."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedsummoning =
+        "Tras derrotar a Immol’thar, usad el Tarro de J’eevee en su pedestal para iniciar el ritual. Cuando el círculo de invocación esté cargado, usad los Glifos xorothianos para invocar al Corcel nefasto xorothiano."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedritual = "Ritual de invocación"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedritual =
+        "Defended el círculo de los demonios que llegan. Usad la Magnetita negra y un Fragmento de alma para reactivar un nodo de energía del ritual que esté fallando."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteed = "Corcel nefasto xorothiano"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_helnurath = "Lord Hel’nurath"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedcompletion =
+        "Tras derrotar a ambos enemigos, hablad con el Espíritu de corcel nefasto para completar la misión y aprender Invocar corcel nefasto."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_22713 = "Sacudida de llamas"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_22713 =
+        "Inflige daño de Fuego y aumenta el daño de Fuego recibido durante 20 s. Disipad este efecto mágico."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_17146 = "Palabra de las Sombras: dolor"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_17146 =
+        "Inflige daño de las Sombras cada 3 s durante 18 s. Disipad este efecto mágico."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_23224 = "Velo de las Sombras"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_23224 =
+        "Reduce la sanación recibida un 75% durante 8 s. Eliminad la maldición."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_18670 = "Repeler"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_18670 =
+        "Inflige daño físico a un enemigo y lo repele."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_20989 = "Dormir"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_20989 =
+        "Duerme a un enemigo durante un máximo de 10 s. El daño despierta al objetivo. Disipad este efecto mágico."
+    IJ_DB_DUNGEON_DMW_BOSS_NAME_14502 = "Corcel aterrador de Xoroth"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedsummoning = "Invocación"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedcompletion = "Espíritu temible"
+    IJ_LOOT_NAME_18754 = "Brazales endurecidos con energía vil"
+    IJ_LOOT_NAME_18755 = "Vara de fuego xorothiana"
+    IJ_LOOT_NAME_18756 = "Protector del Guardia temible"
+    IJ_LOOT_NAME_18757 = "Manto diabólico"
+
     -- DMW Bosses
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Madera Alabeada"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
         "Tendris Warpwood era un firme defensor de Eldre'Thalas, y su corazón estaba inexorablemente entrelazado con el destino de la ciudad. Cuando la División destrozó la tierra, su determinación nunca flaqueó, pero a medida que la corrupción se filtró en las ruinas durante los siguientes 10.000 años, también infectó el espíritu del antiguo."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5568 = "Pisotear"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5568 =
+        "Inflige daño físico a los enemigos cercanos."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22924 = "Enredaderas"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22924 =
+        "Inflige daño físico a los enemigos cercanos y los enraíza durante 10 s. Las raíces se pueden disipar."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_5164 = "Derribo"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_5164 =
+        "Las enredaderas también aturden a los enemigos afectados durante 2 s."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22916 = "Gancho"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22916 =
+        "Inflige daño físico al objetivo y lo repele."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_22994 = "Enredar"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_22994 =
+        "Enraíza al objetivo durante un máximo de 10 s y le inflige daño de Naturaleza periódico."
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_DMW_BOSS_11489_ABILITY_EFFECT_8269 =
+        "Aumenta la velocidad de ataque y el daño físico infligido."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11488 = "Illyanna Ravenoak"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11488 =
         "Illyanna Ravenoak, junto con su fiel compañera Ferra, fue una vez la cazadora más valiosa del Príncipe Tortheldrin, hasta que se negó a cumplir la orden de su líder de ejecutar a sus amigos. Como castigo, mató a Illyanna y su oso, pero usó su poder demoníaco para unir sus espíritus a sus cuerpos, condenándolos a permanecer en Dire Maul como protectores no-muertos."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_20735 = "Multidisparo"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_20735 =
+        "Dispara al objetivo y a sus aliados cercanos e inflige daño Arcano a un máximo de 10 enemigos."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22908 = "Lluvia"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22908 =
+        "Inflige daño Arcano cada segundo a los enemigos del área seleccionada durante 6 s. Sal del área."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22914 = "Disparo de conmoción"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22914 =
+        "Reduce un 50% la velocidad de movimiento del objetivo durante 3 s. La ralentización se puede disipar."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22915 = "Disparo de conmoción mejorado"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22915 =
+        "El disparo de conmoción también aturde al objetivo durante 3 s."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22910 = "Trampa de inmolación"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22910 =
+        "Coloca una trampa que quema al primer enemigo que se acerque e inflige daño de Fuego durante 15 s. El efecto de quemadura se puede disipar."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_ferra = "Ferra"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_ferra =
+        "Illyanna lucha junto a su compañero oso, Ferra. Los tanques deben mantener el control de ambos enemigos."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_17156 = "Magullar"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_17156 =
+        "Ferra inflige daño físico adicional con su siguiente ataque cuerpo a cuerpo."
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_NAME_22911 = "Cargar"
+    IJ_DB_DUNGEON_DMW_BOSS_11488_ABILITY_EFFECT_22911 =
+        "Ferra carga contra un enemigo, le inflige daño físico y lo aturde durante 2 s."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11487 = "Maestro Kalendris"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11487 =
         "Cuando el príncipe Tortheldrin exigió la matanza de la mayoría de sus súbditos, a sus lugartenientes más leales se les encomendó la tarea de ejecutar su voluntad. El Magister Kalendris asesinó a muchos Shen'dralar desprevenidos sin dudarlo, pero uno de los elfos condenados lo hirió de muerte durante una batalla destructiva. A pesar de su fallecimiento, el espíritu de Kalendris todavía deambula por Dire Maul como defensor del gobierno de Tortheldrin."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17146 = "Palabra de las Sombras: dolor"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17146 =
+        "Inflige daño de las Sombras durante 18 s. Se puede disipar."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_17287 = "Explosión mental"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_17287 =
+        "Inflige daño de las Sombras al objetivo."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22919 = "Tortura mental"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22919 =
+        "Canaliza daño de las Sombras sobre el objetivo durante 3 s y reduce su velocidad de movimiento un 50%."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_22917 = "Forma de las Sombras"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_22917 =
+        "Adopta la Forma de las Sombras, aumentando un 40% el daño de las Sombras infligido y reduciendo un 40% el daño cuerpo a cuerpo recibido."
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_NAME_7645 = "Dominar mente"
+    IJ_DB_DUNGEON_DMW_BOSS_11487_ABILITY_EFFECT_7645 =
+        "Controla a un jugador durante un máximo de 10 s. Se puede disipar."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11467 = "Tsu'zee"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11467 =
         "Un esquivo fantasma de un elfo de la noche, rara vez visto entre los habitantes de Capital Gardens. Se dice que posee muchos objetos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarla en primer lugar..."
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_12540 = "Gubia"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_12540 =
+        "Inflige daño físico e incapacita al objetivo durante un máximo de 4 s. Cualquier daño interrumpe el efecto."
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_14873 = "Golpe siniestro"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_14873 =
+        "Inflige daño físico al objetivo."
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_NAME_21060 = "Ciego"
+    IJ_DB_DUNGEON_DMW_BOSS_11467_ABILITY_EFFECT_21060 =
+        "Ciega al objetivo y hace que deambule confuso durante un máximo de 10 s. Cualquier daño interrumpe el efecto."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11496 = "Immol'thar"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11496 =
         "En un intento desesperado por restaurar el poder y la inmortalidad que perdieron cuando el Pozo de la Eternidad fue destruido, los Shen'dralar convocaron a un demonio en el ala occidental de Dire Maul y lo capturaron dentro de un campo de fuerza, permitiéndoles usar la energía del terror del vacío para sus propios hechizos. Incapaz de defenderse o incluso moverse durante casi 10.000 años, Immol'thar sólo pudo observar y esperar el día en que pudiera liberarse y desgarrar la carne de sus captores."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_16128 = "Mordedura infectada"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_16128 =
+        "Enferma al objetivo, infligiendo daño de Naturaleza periódico y aumentando el daño físico recibido durante 3 min. Elimina la enfermedad."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_5568 = "Pisotear"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_5568 =
+        "Inflige daño físico a los enemigos cercanos."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_8269 =
+        "Aumenta la velocidad de ataque y el daño físico infligido."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22899 = "Ojo de Immol’thar"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22899 =
+        "Invoca Ojos de Immol’thar durante el combate. Mata a los ojos para evitar sus efectos de ralentización."
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_NAME_22909 = "Ojo de Immol’thar"
+    IJ_DB_DUNGEON_DMW_BOSS_11496_ABILITY_EFFECT_22909 =
+        "Reduce la velocidad de movimiento, de ataque cuerpo a cuerpo y de lanzamiento de hechizos del objetivo durante 4 s."
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11486 = "Príncipe Tortheldrin"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11486 =
         "Después de la destrucción del Pozo de la Eternidad, el Príncipe Tortheldrin mantuvo el control sobre los Shen'dralar supervivientes encarcelando a un demonio en las ruinas de Eldre'Thalas y dejando que sus súbditos desviaran su fuerza. La exposición al poder demoníaco retorció la mente de Tortheldrin, y cuando la criatura vaciló, el príncipe ordenó la muerte de muchos de sus vasallos para que sólo él y sus seguidores más fanáticos pudieran disfrutar de la energía corrupta."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_15589 = "Torbellino"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_15589 =
+        "Inflige daño físico a los enemigos en un radio de 8 m."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_20537 = "Contrahechizo"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_20537 =
+        "Interrumpe el hechizo del objetivo e impide lanzar hechizos de esa escuela durante 15 s."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22920 = "Explosión Arcana"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22920 =
+        "Inflige daño Arcano al objetivo y lo repele."
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_NAME_22995 = "Invocar"
+    IJ_DB_DUNGEON_DMW_BOSS_11486_ABILITY_EFFECT_22995 =
+        "Atrae a un jugador hasta Tortheldrin."
 
     -- DME
     IJ_DB_DUNGEON_DME_NAME = "La Masacre Este"
     IJ_DB_DUNGEON_DME_STORY =
         "Warpwood Quarter está ubicado al este de Dire Maul. Ha sido tomado por el infame Alzzin the Wildshaper, un sátiro que ha corrompido el Fruto de la Fertilidad para que produzca viles Fragmentos Felvinos. Alzzin ha atraído a su causa todo tipo de plantas corruptas, sátiros, magos y demonios. Todo el distrito está cubierto de plantas enloquecidas."
+
+    -- DME Abilities
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_15228 = "Bola de Fuego"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_15228 =
+        "Inflige daño de Fuego a un enemigo."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_14145 = "Explosión de Fuego"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_14145 =
+        "Inflige daño de Fuego a un enemigo."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22424 = "Ola explosiva"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22424 =
+        "Inflige daño de Fuego a los enemigos cercanos y reduce su velocidad de movimiento durante 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22735 = "Espíritu de Runn Tum"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22735 =
+        "Aumenta de tamaño al inicio del combate, aumenta su velocidad de ataque cuerpo a cuerpo un 20% y obtiene un 50% de probabilidad de reflejar hechizos."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_IMPS = "Diablillos Mala Hierba"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_IMPS =
+        "Combate junto a diablillos Mala Hierba que lanzan Explosión de Fuego."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340 = "Explosión de Fuego"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340 =
+        "Inflige daño de Fuego a un enemigo."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22420 = "Sumersión"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22420 =
+        "Reduce el aguante de los enemigos cercanos durante 1 min. Este efecto mágico se puede disipar."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22421 = "Géiser enorme"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22421 =
+        "Invoca un géiser que estalla con Agua."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22422 = "Agua"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22422 =
+        "El géiser inflige daño de Escarcha a los enemigos en un radio de 10 m y los repele."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22714 = "Invocar hidrolín"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22714 =
+        "Invoca dos hidrolines para ayudar en combate."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715 = "Chorro de agua"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715 =
+        "Los hidrolines repelen a los enemigos cercanos."
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22478 = "Dolor intenso"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22478 =
+        "Inflige daño de las Sombras a los enemigos cercanos cada 3 s durante 15 s. Este efecto mágico se puede disipar."
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_NAME_22651 = "Sacrificio"
+    IJ_DB_DUNGEON_DME_BOSS_11490_ABILITY_EFFECT_22651 =
+        "Teletransporta a un enemigo al altar, lo aturde y drena su salud durante 8 s. Sanad al jugador sacrificado mientras dure el efecto."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_12742 = "Inmolar"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_12742 =
+        "Inflige daño de Fuego a un enemigo y daño de Fuego adicional durante 21 s. Este efecto mágico se puede disipar."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_13338 = "Maldición de las lenguas"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_13338 =
+        "Reduce la velocidad de lanzamiento de un enemigo un 50% durante 15 s. Eliminad la maldición."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16247 = "Maldición de espinas"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16247 =
+        "Maldice a un enemigo durante 3 min. Sus ataques tienen un 50% de probabilidad de activar el daño de Maldición de espinas contra sí mismo. Eliminad la maldición."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16248 = "Maldición de espinas"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16248 =
+        "Inflige daño de las Sombras al atacante maldito al activarse."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_17228 = "Salva de descarga de las Sombras"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_17228 =
+        "Inflige daño de las Sombras a los enemigos cercanos."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22709 = "Descarga de vacío"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22709 =
+        "Inflige daño de las Sombras a un enemigo."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_PIMGIB = "Pimgib"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_PIMGIB =
+        "Pimgib combate junto a Lethtendris y lanza Bola de Fuego, Ola explosiva y Sacudida de llamas."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_15228 = "Bola de Fuego"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_15228 =
+        "Inflige daño de Fuego a un enemigo."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_16046 = "Ola explosiva"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_16046 =
+        "Inflige daño de Fuego a los enemigos cercanos y reduce su velocidad de movimiento durante 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_NAME_22713 = "Sacudida de llamas"
+    IJ_DB_DUNGEON_DME_BOSS_14327_ABILITY_EFFECT_22713 =
+        "Inflige daño de Fuego y aumenta el daño de Fuego recibido durante 20 s. Este efecto mágico se puede disipar."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22660 = "Forma de lobo temible"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22660 =
+        "Se transforma en lobo temible, aumentando su velocidad de ataque cuerpo a cuerpo y su daño físico. La primera transformación puede ser en lobo o árbol."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22688 = "Forma de árbol"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22688 =
+        "Se transforma en árbol, aumentando su armadura y su daño físico."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_7948 = "Regeneración salvaje"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_7948 =
+        "Se sana durante 20 s."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_10101 = "Repeler"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_10101 =
+        "Inflige daño físico a un enemigo y lo repele."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_19319 = "Mordedura sañosa"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_19319 =
+        "Muerde a un enemigo e inflige daño físico."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22661 = "Enervar"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22661 =
+        "Envenena a un enemigo y drena su maná durante 10 s. Eliminad el veneno."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22662 = "Marchitar"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22662 =
+        "Enferma a un enemigo, infligiendo daño de Naturaleza inmediato y durante 21 s, y reduciendo sus atributos. Eliminad la enfermedad."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22689 = "Destrozar"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22689 =
+        "Inflige daño físico durante 20 s y reduce la velocidad de movimiento del objetivo un 50%."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_22691 = "Desarmar"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_22691 =
+        "Desarma a un enemigo durante 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_MINIONS = "Esbirros de Alzzin"
+    IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS =
+        "Los esbirros de Alzzin se unen al combate y atacan al grupo. Preparaos para recogerlos."
+
+    -- Isalien
+    IJ_DB_DUNGEON_DME_BOSS_NAME_16097 = "Isalien"
+    IJ_DB_DUNGEON_DME_BOSS_STORY_16097 =
+        "Isalien era una sacerdotisa elfa de la noche de la compañía de Bodley. Viajó a La Masacre para descubrir los secretos de su fragmento del amuleto de Lord Valthalak, pero Alzzin el Formaferal y sus fuerzas la emboscaron en el Santuario de Eldretharr. Su espíritu puede ser invocado allí durante la búsqueda de las piezas perdidas del amuleto."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_summoning = "Invocación"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_summoning =
+        "Usad el Brasero de Señalización en el Santuario de Eldretharr tras derrotar a Alzzin el Formaferal para invocar a Isalien durante la cadena de misiones del conjunto de mazmorra 2."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_12024 = "Red"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_12024 =
+        "Inmoviliza a un enemigo durante 5 s."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27636 = "Fragmentos estelares"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27636 =
+        "Canaliza daño Arcano contra un enemigo durante 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27637 = "Recrecimiento"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27637 =
+        "Sana a un aliado inmediatamente y durante 21 s. El efecto de sanación periódica es mágico."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_14443 = "Multidisparo"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_14443 =
+        "Dispara una salva contra un enemigo y sus aliados cercanos, alcanzando hasta 3 objetivos."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27639 = "Llamar a mascota"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27639 =
+        "Invoca a Empíreo para ayudar en combate."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27556 = "Arañazo"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27556 =
+        "Empíreo inflige daño físico y provoca que el objetivo sangre durante 15 s."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_17963 = "Rajar hendedor"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_17963 =
+        "Empíreo reduce la armadura de hasta 3 enemigos cercanos durante 30 s. Se acumula hasta 5 veces."
+    IJ_LOOT_NAME_22304 = "Guantes de hilacero"
+    IJ_LOOT_NAME_22314 = "Arpón de cazador"
+    IJ_LOOT_NAME_22315 = "Martillo de revitalización"
+    IJ_LOOT_NAME_22345 = "Tótem de renacimiento"
+    IJ_LOOT_NAME_22401 = "Tratado sobre esperanza"
+    IJ_LOOT_NAME_22472 = "Botas de ferocidad"
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillín"
@@ -792,6 +1287,305 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_NAME = "Profundidades de Roca Negra"
     IJ_DB_DUNGEON_BRD_STORY =
         "Las humeantes Profundidades de Roca Negra son el hogar de los enanos Hierro Negro y su emperador, Dagran Thaurissan. Al igual que sus predecesores, sirve bajo el gobierno de hierro de Ragnaros el Señor del Fuego, un ser despiadado convocado al mundo hace siglos. La presencia de elementales caóticos ha atraído a los cultistas del Martillo Crepuscular al dominio de la montaña. Junto con los sirvientes de Ragnaros, han empujado a los enanos hacia fines cada vez más destructivos que pronto podrían significar la perdición para todo Azeroth."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14033 = "Quemadura de maná"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14033 =
+        "Quema el maná de un enemigo e inflige daño de las Sombras según la cantidad quemada.\n\nInterrumpe este lanzamiento."
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_13704 = "Alarido psíquico"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_13704 =
+        "Hace que hasta 5 enemigos en un radio de 8 m huyan aterrorizados durante 6 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_14032 = "Palabra de las Sombras: dolor"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_14032 =
+        "Inflige daño de las Sombras cada 3 s durante 18 s.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_12040 = "Escudo de las Sombras"
+    IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040 =
+        "Absorbe el daño físico y mágico recibido durante un máximo de 30 s y daña a los atacantes cuerpo a cuerpo.\n\nElimina este beneficio mágico."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_6524 = "Temblor de tierra"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_6524 =
+        "Aturde a los enemigos cercanos durante 2 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13728 = "Choque de tierra"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13728 =
+        "Inflige daño de Naturaleza a un enemigo. Interrumpe el lanzamiento de hechizos del objetivo durante 2 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13729 = "Choque de llamas"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729 =
+        "Inflige daño de Fuego inmediato y cada 3 s durante 12 s.\n\nDisipa este efecto mágico."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_13730 = "Grito desmoralizador"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_13730 =
+        "Reduce el poder de ataque cuerpo a cuerpo de los enemigos cercanos durante 30 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_15615 = "Zurrar"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_15615 =
+        "Inflige daño físico a un enemigo. Interrumpe el lanzamiento de hechizos del objetivo durante 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_21049 = "Sed de sangre"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049 =
+        "Aumenta la velocidad de ataque de un aliado un 30% durante 30 s.\n\nElimina este beneficio mágico."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15038 = "Tótem abrasador"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15038 =
+        "Invoca un tótem abrasador que ataca a los enemigos cercanos. Destruye el tótem."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15616 = "Choque de llamas"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15616 =
+        "Inflige daño de Fuego inmediato y cada 3 s durante 12 s.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15095 = "Explosión de arrabio"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15095 =
+        "Inflige daño de Fuego a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15041 = "Resguardo contra el Fuego"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
+        "Absorbe daño de Fuego durante un máximo de 60 s.\n\nElimina este beneficio mágico."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12674 = "Nova de Escarcha"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12674 =
+        "Inflige daño de Escarcha a los enemigos cercanos y los inmoviliza durante un máximo de 8 s.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12675 = "Descarga de Escarcha"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12675 =
+        "Inflige daño de Escarcha a un enemigo. Reduce la velocidad de movimiento del objetivo durante 4 s.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_12544 = "Armadura de Escarcha"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_12544 =
+        "Aumenta la armadura y reduce la velocidad de movimiento y de ataque de los atacantes cuerpo a cuerpo.\n\nElimina este beneficio mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_15044 = "Resguardo contra la Escarcha"
+    IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
+        "Absorbe daño de Escarcha durante un máximo de 60 s.\n\nElimina este beneficio mágico."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_11971 = "Hender armadura"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_11971 =
+        "Reduce la armadura del objetivo durante 30 s. Se acumula hasta 5 veces."
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_15504 = "Beber poción de sanación"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504 =
+        "Restaura la salud del taumaturgo."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_13953 = "Golpe Sagrado"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_13953 =
+        "Inflige daño Sagrado a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_8258 = "Aura de devoción"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_8258 =
+        "Aumenta la armadura de los aliados cercanos."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15346 = "Sello de ajuste de cuentas"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15346 =
+        "Aplica un beneficio mágico a un aliado durante 30 s que restaura salud cada vez que golpea a un enemigo.\n\nElimina este beneficio mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_15493 = "Luz Sagrada"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_15493 =
+        "Restaura la salud de un aliado."
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_NAME_11978 = "Patada"
+    IJ_DB_DUNGEON_BRD_BOSS_9056_ABILITY_EFFECT_11978 =
+        "Inflige daño físico a un enemigo. Interrumpe el lanzamiento de hechizos del objetivo durante 6 s."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13899 = "Tormenta de Fuego"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13899 =
+        "Quema a los enemigos de la zona afectada e inflige daño de Fuego inmediato y cada 3 s durante 30 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_13900 = "Ráfaga ígnea"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_13900 =
+        "Inflige daño de Fuego a los enemigos de la zona afectada."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_14099 = "Golpe poderoso"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_14099 =
+        "Inflige daño físico a un enemigo y lo repele."
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_26977 = "Maldición del señor elemental"
+    IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
+        "Reduce la resistencia al Fuego de los enemigos cercanos.\n\nElimina la maldición."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13880 = "Salpicadura de magma"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13880 =
+        "Inflige daño de Fuego inmediato y cada 3 s durante 30 s, y reduce la armadura del objetivo."
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13895 = "Invocar engendro de Bael’Gar"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
+        "Invoca un engendro de Bael’Gar e inflige daño de Fuego a los enemigos cercanos al punto de invocación."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15572 = "Hender armadura"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15572 =
+        "Reduce la armadura del objetivo durante 30 s. Se acumula hasta 5 veces."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15061 = "Enfurecer"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15061 =
+        "Aumenta la velocidad de ataque un 30% durante 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_17687 = "Aluvión"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_17687 =
+        "Puede obtener un 30% más de velocidad de ataque tras asestar un golpe crítico cuerpo a cuerpo."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_reinforcements = "Refuerzos"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
+        "Comienza el combate con cuatro reservistas Yunque Colérico. Pueden unirse más reservistas y médicos cuando le queda poca salud. Controla los refuerzos e impide las curas de los médicos."
+
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15305 = "Cadena de relámpagos"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15305 =
+        "Inflige daño de Naturaleza que salta entre un máximo de 5 objetivos y aumenta con cada salto."
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15605 = "Choque"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15605 =
+        "Inflige daño de Naturaleza a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15507 = "Escudo de relámpagos"
+    IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
+        "Rodea al taumaturgo de relámpagos que pueden dañar a los atacantes cuando lo golpean.\n\nElimina este beneficio mágico."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_9573 = "Aliento de llamas"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_9573 =
+        "Inflige daño de Fuego en un cono frente al taumaturgo."
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_14872 = "Ira ebria"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
+        "Aumenta la velocidad de ataque un 50% y el daño físico infligido durante 15 s."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_NAME_9080 = "Seccionar"
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080 =
+        "Inflige daño físico y reduce la velocidad de movimiento del objetivo un 60% durante 10 s."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_14099 = "Golpe poderoso"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_14099 =
+        "Inflige daño físico a un enemigo y lo repele."
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15588 = "Trueno"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15588 =
+        "Inflige daño de Naturaleza a los enemigos cercanos y reduce su velocidad de ataque y movimiento durante 10 s.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15285 = "Salva de bolas de Fuego"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285 =
+        "Inflige daño de Fuego a los enemigos cercanos."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12739 = "Descarga de las Sombras"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12739 =
+        "Inflige daño de las Sombras a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12742 = "Inmolar"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12742 =
+        "Inflige daño de Fuego inmediato y cada 3 s durante 21 s.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13338 = "Maldición de las lenguas"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13338 =
+        "Reduce la velocidad de lanzamiento de hechizos de un enemigo un 50% durante 15 s.\n\nElimina la maldición."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13787 = "Armadura demoníaca"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13787 =
+        "Aumenta la armadura, la resistencia a las Sombras y la regeneración de salud.\n\nElimina este beneficio mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_8994 = "Desterrar"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
+        "Destierra a un enemigo durante un máximo de 15 s, impidiendo todas sus acciones y volviéndolo invulnerable."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_15574 = "Explosión de Fuego"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_15574 =
+        "Inflige daño de Fuego a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_NAME_14744 = "Espíritu ardiente"
+    IJ_DB_DUNGEON_BRD_BOSS_9156_ABILITY_EFFECT_14744 =
+        "Los espíritus ardientes son consumidos durante el combate y otorgan al jefe un beneficio acumulable que aumenta el daño y el tamaño durante 180 s."
+
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_NAME_9941 = "Reflejo de hechizos"
+    IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941 =
+        "Tiene un 20% de probabilidad de reflejar los hechizos recibidos."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterel = "Hate'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15232 = "Descarga de las Sombras"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15232 =
+        "Inflige daño de las Sombras a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_14033 = "Quemadura de maná"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_14033 =
+        "Quema el maná de un enemigo e inflige daño de las Sombras según la cantidad quemada."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterelstrike = "Huelga"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_haterelstrike =
+        "Inflige daño físico a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12040 = "Escudo de las Sombras"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12040 =
+        "Absorbe el daño físico y mágico recibido durante un máximo de 30 s y daña a los atacantes cuerpo a cuerpo.\n\nElimina este beneficio mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrel = "Anger'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrelstrike = "Huelga"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_angerrelstrike =
+        "Inflige daño físico a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11971 = "Hender armadura"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11971 =
+        "Reduce la armadura del objetivo durante 30 s. Se acumula hasta 5 veces."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12169 = "Bloquear con escudo"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12169 =
+        "Aumenta la probabilidad de bloqueo un 75% durante 5 s y termina tras bloquear un ataque."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15062 = "Muro de escudo"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15062 =
+        "Reduce el daño físico y mágico recibido un 75% durante 10 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_vilerel = "Vile'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15586 = "Sanar"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15586 =
+        "Restaura la salud de un aliado."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15585 = "Rezo de sanación"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15585 =
+        "Restaura la salud de los aliados cercanos."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15587 = "Explosión mental"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15587 =
+        "Inflige daño de las Sombras a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11974 = "Palabra de poder: escudo"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11974 =
+        "Protege a un aliado con un escudo que absorbe daño físico y mágico durante un máximo de 30 s.\n\nElimina este beneficio mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_gloomrel = "Gloom'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15284 = "Adherirse"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15284 =
+        "Inflige daño físico a un enemigo y sus aliados cercanos, golpeando hasta 3 objetivos."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13737 = "Golpe mortal"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13737 =
+        "Inflige daño físico y reduce la sanación recibida un 50% durante 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_9080 = "Seccionar"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_9080 =
+        "Inflige daño físico y reduce la velocidad de movimiento del objetivo un 60% durante 10 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13847 = "Temeridad"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13847 =
+        "Aumenta la probabilidad de golpe crítico y reduce la armadura durante 15 s. También otorga inmunidad al miedo."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_seethrel = "Seeth'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12675 = "Descarga de Escarcha"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12675 =
+        "Inflige daño de Escarcha a un enemigo. Reduce la velocidad de movimiento del objetivo durante 4 s.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12674 = "Nova de Escarcha"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12674 =
+        "Inflige daño de Escarcha a los enemigos cercanos y los inmoviliza durante un máximo de 8 s.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15244 = "Cono de frío"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15244 =
+        "Inflige daño de Escarcha en un cono frente al taumaturgo y ralentiza a los enemigos afectados durante 8 s.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15044 = "Resguardo contra la Escarcha"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15044 =
+        "Absorbe daño de Escarcha durante un máximo de 60 s.\n\nElimina este beneficio mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doomrel = "Doom'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15245 = "Salva de descarga de las Sombras"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15245 =
+        "Inflige daño de las Sombras a los enemigos cercanos."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12742 = "Inmolar"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12742 =
+        "Inflige daño de Fuego inmediato y cada 3 s durante 21 s.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12493 = "Maldición de debilidad"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12493 =
+        "Reduce el daño físico infligido por un enemigo durante 120 s.\n\nElimina la maldición."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13787 = "Armadura demoníaca"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13787 =
+        "Aumenta la armadura, la resistencia a las Sombras y la regeneración de salud.\n\nElimina este beneficio mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15092 = "Invocar abisarios"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15092 =
+        "Invoca tres abisarios para ayudar en el combate."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doperel = "Dope'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15581 = "Golpe siniestro"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15581 =
+        "Inflige daño físico a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12540 = "Gubia"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12540 =
+        "Inflige daño físico e incapacita a un enemigo durante un máximo de 4 s. El daño interrumpe el efecto."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15583 = "Ruptura"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15583 =
+        "Inflige daño físico cada 2 s durante 10 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15087 = "Evasión"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15087 =
+        "Aumenta la probabilidad de esquivar un 50% durante 15 s."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_24375 = "Pisotón de guerra"
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_24375 =
+        "Inflige daño físico a los enemigos cercanos, los repele y los aturde durante 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_13900 = "Ráfaga ígnea"
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_13900 =
+        "Inflige daño de Fuego a los enemigos de la zona afectada."
+
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_emperor = "Emperador Dagran Thaurissan"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15636 = "Avatar de la llama"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15636 =
+        "Se vuelve inmune a la magia durante 10 s e inflige daño de Fuego adicional con sus ataques."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15643 = "Llamas"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15643 =
+        "Inflige daño de Fuego adicional cuando un ataque activa el efecto de Avatar de la llama."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_17492 = "Mano de Thaurissan"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_17492 =
+        "Inflige daño de Fuego a un enemigo y lo aturde durante 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_moira = "Princesa Moira Barbabronce"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_10934 = "Punición"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_10934 =
+        "Inflige daño Sagrado a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15586 = "Sanar"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15586 =
+        "Restaura la salud de un aliado."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15587 = "Explosión mental"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15587 =
+        "Inflige daño de las Sombras a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15654 = "Palabra de las Sombras: dolor"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15654 =
+        "Inflige daño de las Sombras cada 3 s durante 18 s.\n\nDisipa este efecto mágico."
 
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
@@ -870,45 +1664,190 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9196 = "Alto señor Omokk"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9196 =
         "Omokk gobierna a los ogros de la torre con mano de hierro. Muchos subordinados lo han desafiado a un combate singular con la esperanza de hacerse con el título de señor supremo, pero todos han caído sin asestar un solo golpe. Este misterioso fenómeno ha dado lugar a rumores de que la magia oscura está protegiendo a Omokk."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18368 = "Golpe"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18368 =
+        "Inflige daño físico al objetivo."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_18106 = "Desgarrar"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_18106 =
+        "Hace sangrar al objetivo e inflige daño físico durante 30 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_20686 = "Repeler"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_20686 =
+        "Inflige daño físico a los enemigos cercanos y los repele."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_22356 = "Ralentizar"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_22356 =
+        "Ralentiza el movimiento y los ataques cuerpo a cuerpo de los enemigos cercanos durante 10 s. Se puede disipar."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24317 = "Hender armadura"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24317 =
+        "Reduce la armadura del objetivo en 1000 durante 20 s. Se acumula hasta 5 veces."
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_NAME_24375 = "Pisotón de guerra"
+    IJ_DB_DUNGEON_LBRS_BOSS_9196_ABILITY_EFFECT_24375 =
+        "Inflige daño físico a los enemigos en un radio de 15 m y los aturde durante 5 s."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9218 = "Señor de batalla de Spirestone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9218 =
         "Un ogro esquivo, rara vez visto entre la población general de Lower Blackrock Spire. Se dice que posee muchos objetos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarlo en primer lugar..."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9217 = "Señor Mago de Piedra Aguja"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9217 =
         "Un ogro esquivo, rara vez visto entre la población general de Lower Blackrock Spire. Se dice que posee muchos objetos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarlo en primer lugar..."
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_15230 = "Descarga Arcana"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_15230 =
+        "Inflige daño Arcano al objetivo."
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_NAME_13323 = "Polimorfia"
+    IJ_DB_DUNGEON_LBRS_BOSS_9217_ABILITY_EFFECT_13323 =
+        "Transforma al objetivo en una oveja durante un máximo de 20 s, impidiendo atacar y lanzar hechizos. El daño interrumpe el efecto. Se puede disipar."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9236 = "Cazador de Sombras Vosh'gajin"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9236 =
         "Vosh'gajin es famosa por su belleza y sus tendencias psicóticas entre los trolls. Una maestra de las artes de los cazadores de sombras, ejerce formidables maleficios, maldiciones y magias curativas."
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_16708 = "Maleficio"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_16708 =
+        "Transforma y desorienta al objetivo durante un máximo de 20 s. Se puede disipar."
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_24673 = "Maldición de sangre"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_24673 =
+        "Aumenta el daño físico recibido durante 10 min. Elimina la maldición cuanto antes."
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_NAME_20691 = "Rajar"
+    IJ_DB_DUNGEON_LBRS_BOSS_9236_ABILITY_EFFECT_20691 =
+        "Inflige daño físico al objetivo y a sus aliados cercanos y alcanza hasta 5 enemigos."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9237 = "Maestro de guerra Voone"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9237 =
         "Durante la Segunda Guerra, Voone dirigió pequeños equipos de ataque en atrevidas misiones en el corazón del territorio de los altos elfos. El astuto troll se unió a la falsa Horda porque quería ser su principal estratega, no porque creyera en la ideología de Blackhand. Voone ve a la facción disidente como un perdedor y disfruta de la satisfacción de superar obstáculos insuperables."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_10966 = "Gancho"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_10966 =
+        "Inflige daño físico al objetivo y lo repele."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15284 = "Rajar"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15284 =
+        "Inflige daño físico al objetivo y a sus aliados cercanos y alcanza hasta 3 enemigos."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15615 = "Zurrar"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15615 =
+        "Inflige daño físico e interrumpe el hechizo del objetivo, impidiendo los hechizos de esa escuela durante 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15618 = "Patada rápida"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15618 =
+        "Inflige daño físico y aturde al objetivo durante 2 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_15708 = "Golpe mortal"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_15708 =
+        "Inflige daño físico y reduce la sanación recibida un 50% durante 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_NAME_16075 = "Lanzar hacha"
+    IJ_DB_DUNGEON_LBRS_BOSS_9237_ABILITY_EFFECT_16075 =
+        "Lanza un hacha al objetivo, le inflige daño físico y lo aturde durante 2 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080 = "Mor Pezuña Gris"
+    IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080 =
+        "Mor Pezuña Gris huyó de la Cumbre de Roca Negra con Bodley tras robar el libro de hechizos y el amuleto de Lord Valthalak. Sobrevivió a una caída a la parte inferior de la cumbre, pero fue capturado y torturado por el Maestro de guerra Voone. Más tarde, unos asesinos espectrales lo mataron ante su captor. Su espíritu atormentado puede ser invocado para recuperar el amuleto y enfrentarse a Valthalak."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_summoning = "Invocación"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_summoning =
+        "Se invoca en la cámara del Maestro de guerra Voone con el Blandón de Señalización durante la cadena de misiones del conjunto de mazmorra 2."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27532 = "Rejuvenecimiento"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27532 =
+        "Restaura salud durante 12 s. Se puede disipar del jefe."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27527 = "Toque de sanación"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27527 =
+        "Lanza un hechizo que le restaura salud."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27737 = "Fuego lunar"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27737 =
+        "Inflige daño Arcano a los enemigos cercanos y daño adicional durante 12 s. El efecto periódico se puede disipar."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27543 = "Forma de oso"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27543 =
+        "Adopta forma de oso durante 10 s y reduce el daño físico recibido un 50%."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27553 = "Magullar"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27553 =
+        "Inflige daño físico y aturde al objetivo durante 2 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27554 = "Flagelo"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27554 =
+        "Inflige daño físico al objetivo."
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_NAME_27545 = "Forma felina"
+    IJ_DB_DUNGEON_LBRS_BOSS_16080_ABILITY_EFFECT_27545 =
+        "Adopta forma felina durante 10 s y aumenta la velocidad de ataque cuerpo a cuerpo."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9596 = "Bannok Grimaxe"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9596 =
         "Un orco esquivo, rara vez visto entre la población general de Lower Blackrock Spire. Se dice que posee muchos objetos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarlo en primer lugar..."
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_13737 = "Golpe mortal"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_13737 =
+        "Inflige daño físico y reduce la sanación recibida un 50% durante 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_NAME_15128 = "Marca de llamas"
+    IJ_DB_DUNGEON_LBRS_BOSS_9596_ABILITY_EFFECT_15128 =
+        "Aumenta el daño de Fuego recibido durante 2 min. Se puede disipar."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10596 = "Madre Telaraña"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10596 =
         "Hace siglos, los enanos Hierro Negro excavaron en la guarida de Madre Smolderweb, liberando al enorme arácnido en los pasillos de la aguja. Su prole ha seguido aumentando en número desde entonces, hasta el punto de que incluso las fuerzas de Blackhand temen viajar a través de los dominios de Smolderweb."
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16104 = "Cristalizar"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16104 =
+        "Aturde a los enemigos frente al jefe durante 6 s. Orienta al jefe de espaldas al grupo y disipa el aturdimiento."
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16468 = "Leche materna"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16468 =
+        "Aplica un veneno que inmoviliza periódicamente al jugador afectado y a sus aliados cercanos. Elimínalo con una habilidad de limpieza de venenos o un Saco de veneno inmaduro que sueltan las arañas de la mazmorra.\n\nSi estás completando la misión Leche materna, conserva el veneno hasta volver con John Andrajoso. Si lo eliminas antes, tendrás que envenenarte de nuevo para entregar la misión."
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_NAME_16103 = "Invocar cría de araña de la cumbre"
+    IJ_DB_DUNGEON_LBRS_BOSS_10596_ABILITY_EFFECT_16103 =
+        "Invoca crías de araña de la cumbre. Controla y mata a los refuerzos."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10376 = "Colmillo de cristal"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10376 =
         "Una araña esquiva, rara vez vista entre la población general de Lower Blackrock Spire. Se dice que posee muchos artículos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarlos en primer lugar..."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10584 = "Urok Aullido fatal"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10584 =
         "Doomhowl es el verdadero líder de los ogros de la torre. Esta siniestra figura ha hechizado a su ayudante de confianza, el Alto Señor Omokk, con magia insidiosa para controlar a los secuaces de Doomhowl en su lugar. Ha hecho todo lo posible para mantener esta farsa, matando sin piedad a cualquier ogro que desafíe el gobierno del gran señor."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_uroksummoning = "Invocación"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_uroksummoning =
+        "Usa la Cabeza de Omokk con una Pica férrea en el Montón de tributo de Urok para iniciar la invocación."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16508 = "Rugido intimidador"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16508 =
+        "Inmoviliza al objetivo principal y hace que los enemigos cercanos huyan aterrorizados durante 8 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_16509 = "Desgarrar"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_16509 =
+        "Hace sangrar al objetivo e inflige daño físico durante 15 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_NAME_15580 = "Golpe"
+    IJ_DB_DUNGEON_LBRS_BOSS_10584_ABILITY_EFFECT_15580 =
+        "Inflige daño físico al objetivo."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9736 = "Intendente Zigris"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9736 =
         "Después de la Primera Guerra, el cazador de orcos Zigris se hizo famoso por localizar a los refugiados de Ventormenta y masacrarlos como si fueran presa. Odia los claustrofóbicos pasillos de Blackrock Spire, pero está seguro de que llegará el día en que volverá a cazar al aire libre."
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16496 = "Disparar"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16496 =
+        "Dispara al objetivo e inflige daño físico."
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_NAME_16497 = "Bomba de aturdimiento"
+    IJ_DB_DUNGEON_LBRS_BOSS_9736_ABILITY_EFFECT_16497 =
+        "Lanza una bomba que inflige daño de Fuego a los enemigos del área seleccionada y los aturde durante 5 s."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10220 = "Halycón"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10220 =
         "Halycon proviene de una larga línea de grandes huargos criados por su ferocidad y lealtad. A lo largo de los años, la madre de la guarida ha producido una asombrosa cantidad de crías salvajes. Se han difundido rumores de que ella es un perro demoníaco que un señor del foso de la Legión Ardiente le regaló a Rend Blackhand."
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_10887 = "Paliza de grupo"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_10887 =
+        "Inflige daño físico a los enemigos cercanos, los repele y puede interrumpir sus hechizos durante 5 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_NAME_14099 = "Golpe poderoso"
+    IJ_DB_DUNGEON_LBRS_BOSS_10220_ABILITY_EFFECT_14099 =
+        "Inflige daño físico al objetivo y lo repele."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_10268 = "Gizrul el esclavista"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_10268 =
         "Muy pocos miembros de la Horda Oscura han visto al solitario e impredecible Gizrul. La bestia emerge de su oscura guarida sólo cuando su compañero, Halycon, lo llama. Las dos monstruosas criaturas han producido algunos de los huargos más grandes y feroces jamás criados en la historia de los orcos."
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16128 = "Mordedura infectada"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16128 =
+        "Enferma al objetivo, infligiendo daño de Naturaleza periódico y aumentando el daño físico recibido durante 3 min. Elimina la enfermedad."
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_8269 =
+        "Aumenta la velocidad de ataque y el daño físico infligido."
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_NAME_16495 = "Mordedura fatal"
+    IJ_DB_DUNGEON_LBRS_BOSS_10268_ABILITY_EFFECT_16495 =
+        "Drena salud del objetivo y sana al jefe."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9718 = "Ghok Bashguud"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9718 =
         "Un orco esquivo, rara vez visto entre la población general de Lower Blackrock Spire. Se dice que posee muchos objetos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarlo en primer lugar..."
+    IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_NAME_11972 = "Azote de escudo"
+    IJ_DB_DUNGEON_LBRS_BOSS_9718_ABILITY_EFFECT_11972 =
+        "Inflige daño físico e interrumpe el hechizo del objetivo, impidiendo los hechizos de esa escuela durante 8 s."
     IJ_DB_DUNGEON_LBRS_BOSS_NAME_9568 = "Señor supremo Wyrmthalak"
     IJ_DB_DUNGEON_LBRS_BOSS_STORY_9568 =
         "El engendro del dragón negro Wyrmthalak supervisa las fuerzas de la aguja inferior mientras se preparan para su asalto contra los enanos. No ama a la falsa Horda ni a sus brutales miembros, y sacrificará cualquier cantidad de secuaces de Blackhand para proteger a su maestro, Nefarian."
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20691 = "Rajar"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20691 =
+        "Inflige daño físico al objetivo y a sus aliados cercanos y alcanza hasta 5 enemigos."
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_23511 = "Grito desmoralizador"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_23511 =
+        "Reduce el poder de ataque cuerpo a cuerpo de los enemigos cercanos durante 30 s."
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_NAME_20686 = "Repeler"
+    IJ_DB_DUNGEON_LBRS_BOSS_9568_ABILITY_EFFECT_20686 =
+        "Inflige daño físico a los enemigos cercanos y los repele."
+
+    -- LBRS Loot
+    IJ_LOOT_NAME_22306 = "Cinturón de filohierro"
+    IJ_LOOT_NAME_22319 = "Escrito sobre Derecho divino"
+    IJ_LOOT_NAME_22322 = "El Rompemandíbulas"
+    IJ_LOOT_NAME_22325 = "Cinturón del embaucador"
+    IJ_LOOT_NAME_22398 = "Ídolo de Rejuvenecimiento"
 
     -- UBRS
     IJ_DB_DUNGEON_UBRS_NAME = "Aguja de Roca Negra superior"
@@ -919,27 +1858,144 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_9816 = "Emberseer piroguardia"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_9816 =
         "Hace mucho tiempo, Pyroguard Emberseer, un leal siervo del poderoso Ragnaros el Señor del Fuego, incineró a docenas de orcos Roca Negra durante una batalla culminante en las Estepas Ardientes. Al final, Emberseer fue derrotado y encarcelado en la Montaña Roca Negra, donde ahora se desvía su potente energía para acelerar la incubación de los huevos del dragón negro de Nefarian."
+    IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_NAME_23341 = "Sacudida de llamas"
+    IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_EFFECT_23341 =
+        "Inflige daño de Fuego y aumenta el daño de Fuego recibido en 150 durante 20 segundos."
+    IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_NAME_23462 = "Nova de Fuego"
+    IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_EFFECT_23462 =
+        "Inflige daño de Fuego a los enemigos en un radio de 100 metros."
+    IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_NAME_20228 = "Piroexplosión"
+    IJ_DB_DUNGEON_UBRS_BOSS_9816_ABILITY_EFFECT_20228 =
+        "Inflige daño de Fuego, seguido de daño de Fuego adicional cada 3 segundos durante 12 segundos."
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_10264 = "Corona de llamas de Solakar"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_10264 =
         "Ganarse el favor dentro del Vuelo Negro es una bendición a medias. A Solakar Flamewreath se le confía el cuidado de los dragones de Nefarian, pero se le ha advertido que pagará un precio terrible por cualquier cachorro que muera bajo su supervisión... o que simplemente no esté a la altura de las expectativas."
+    IJ_DB_DUNGEON_UBRS_BOSS_10264_ABILITY_NAME_16727 = "Pisotón de guerra"
+    IJ_DB_DUNGEON_UBRS_BOSS_10264_ABILITY_EFFECT_16727 =
+        "Inflige daño Físico a los enemigos en un radio de 5 metros y los aturde durante 5 segundos."
+    IJ_DB_DUNGEON_UBRS_BOSS_10264_ABILITY_NAME_10264 = "Evento de la Cámara de la Colonia"
+    IJ_DB_DUNGEON_UBRS_BOSS_10264_ABILITY_EFFECT_10264 =
+        "Cinco oleadas de dos Criadores o Guardianes de la Colonia preceden a Solakar Corona de Fuego."
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_10509 = "Jed Vigilante de Runas"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_10509 =
         "Un orco esquivo, rara vez visto entre la población general de Upper Blackrock Spire. Se dice que posee muchos objetos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarlo en primer lugar..."
+    IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_NAME_11972 = "Azote de escudo"
+    IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_EFFECT_11972 =
+        "Inflige daño Físico a un objetivo e interrumpe el lanzamiento de hechizos."
+    IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_NAME_15749 = "Carga con escudo"
+    IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_EFFECT_15749 =
+        "Carga contra un objetivo, inflige daño Físico y lo repele."
+    IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_NAME_14516 = "Golpe"
+    IJ_DB_DUNGEON_UBRS_BOSS_10509_ABILITY_EFFECT_14516 =
+        "Inflige daño Físico a un objetivo."
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_10899 = "Yunquegrieta de Goraluk"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_10899 =
         "Goraluk Anvilcrack es un herrero de renombre. Desafortunadamente, vendió su alma al sátiro Lorax, pero rompió el trato y escapó a Upper Blackrock Spire con una coraza cubierta de runas."
+    IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_NAME_6253 = "Revés"
+    IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_EFFECT_6253 =
+        "Aturde a un objetivo durante 2 segundos."
+    IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_NAME_16172 = "Rompecabezas"
+    IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_EFFECT_16172 =
+        "Reduce el aguante de un objetivo durante 20 segundos."
+    IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_NAME_15580 = "Golpe"
+    IJ_DB_DUNGEON_UBRS_BOSS_10899_ABILITY_EFFECT_15580 =
+        "Inflige daño Físico a un objetivo."
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_10429 = "Jefe de Guerra Rend Puño Negro"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_10429 =
         "Después de que la Horda fuera derrotada en la Segunda Guerra, Rend Blackhand, hijo del primer jefe de guerra, llevó los restos de su clan a Blackrock Spire y luchó contra los enanos Hierro Negro por la posesión de la fortaleza. Rend alió a sus orcos con Nefarian y el Vuelo Negro, quienes derrotaron a los enanos y los expulsaron de las zonas superiores de Roca Negra."
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_15754 = "Rajar"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_15754 =
+        "Inflige daño Físico a un objetivo y sus aliados cercanos, afectando hasta a 3 objetivos."
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_15708 = "Golpe mortal"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_15708 =
+        "Inflige daño Físico y reduce la sanación recibida un 50% durante 5 segundos."
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_13360 = "Derribo"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_13360 =
+        "Aturde a un objetivo durante 2 segundos."
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_13736 = "Torbellino"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_13736 =
+        "Canaliza un torbellino e inflige daño Físico a los enemigos cercanos durante 2 segundos.\n\nAléjate mientras Torbellino esté activo."
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_8269 =
+        "Aumenta el daño Físico infligido en 50 y la velocidad de ataque cuerpo a cuerpo un 60% durante 120 segundos.\n\nLos sanadores deben prepararse para un mayor daño sobre el tanque."
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_10339 = "Gyth"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_10339 =
+        "El encuentro comienza con Gyth. Rend desmonta y se une al combate cuando Gyth alcanza aproximadamente un 20% de salud."
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_16390 = "Aliento de llamas"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_16390 =
+        "Inflige daño de Fuego a los enemigos en un cono frente al taumaturgo.\n\nMantén al taumaturgo de espaldas al grupo."
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_16359 = "Aliento de ácido corrosivo"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_16359 =
+        "Inflige daño de Naturaleza en un cono frontal, reduce la armadura en 160 e inflige daño de Naturaleza adicional cada 5 segundos durante 30 segundos."
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_16350 = "Congelar"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_16350 =
+        "Inflige daño de Escarcha a los enemigos en un cono frontal, los aturde e inflige daño de Escarcha adicional cada 3 segundos durante 10 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_NAME_10101 = "Repeler"
+    IJ_DB_DUNGEON_UBRS_BOSS_10429_ABILITY_EFFECT_10101 =
+        "Inflige daño Físico a un objetivo y lo repele."
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_10430 = "la bestia"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_10430 =
         "Los dragonantes de Nefarian disfrutan obscenamente de la bárbara tortura de los secuaces capturados de Ragnaros. A pesar de sufrir una agonía inimaginable, un perro central permaneció lo suficientemente lúcido como para ser reentrenado, y su ferocidad lo convierte en un guardia ideal en los niveles superiores de Blackrock Spire."
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_16788 = "Bola de Fuego"
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_16788 =
+        "Inflige daño de Fuego a un objetivo."
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_16785 = "Rompellamas"
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_16785 =
+        "Inflige daño de Fuego a los enemigos en un radio de 10 metros y los repele."
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_14100 = "Rugido aterrador"
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_14100 =
+        "Hace que los enemigos en un radio de 10 metros huyan aterrorizados durante 5 segundos.\n\nResguardo contra el miedo puede prevenir este efecto."
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_16636 = "Carga de rabioso"
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_16636 =
+        "Carga contra un objetivo, inflige daño Físico y lo repele."
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_15570 = "Inmolar"
+    IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_15570 =
+        "Inflige daño de Fuego, seguido de daño de Fuego adicional cada 3 segundos durante 21 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_valthalaksummoning = "Invocación"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_valthalaksummoning =
+        "Derrotad a La Bestia y usad el Brasero de Señalización en su cámara para invocar a Lord Valthalak durante la cadena de misiones del conjunto de mazmorra 2."
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_16042 = "Señor Valthalak"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_16042 =
         "Valthalak, un noble dracónido y un brujo de inmenso poder, fue el ex general de Blackrock Spire antes de que Drakkisath llegara al poder. Fue asesinado por la compañía mercenaria Veiled Blade por su libro de hechizos, pero terminó vengándose incluso después de su muerte usando sus poderes nigrománticos."
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_27286 = "Cólera de las Sombras"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_27286 =
+        "Inflige daño de las Sombras que salta entre objetivos cercanos y aumenta con cada salto.\n\nSeparaos para limitar los saltos."
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_27249 = "Invocar asesino espectral"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_27249 =
+        "Invoca a dos Asesinos espectrales. Deja de invocarlos tras entrar en Enfurecer.\n\nDerrotad rápidamente a los enemigos adicionales."
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_27177 = "Profanar"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_27177 =
+        "Un Asesino espectral canaliza un hechizo que aturde a un objetivo durante un máximo de 10 segundos.\n\nMatad al asesino para liberar a su objetivo."
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_18663 = "Choque de las Sombras"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_18663 =
+        "Inflige daño de las Sombras a un objetivo."
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_8269 =
+        "Con aproximadamente un 40% de salud, aumenta el daño físico infligido en 50 y la velocidad de ataque cuerpo a cuerpo un 60% durante 120 segundos.\n\nLos sanadores deben prepararse para el aumento de daño al tanque."
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_27383 = "Salva de descarga de las Sombras"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_27383 =
+        "Hacia el final del combate, inflige repetidamente daño de las Sombras a los enemigos en un radio de 30 metros."
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_10363 = "General Drakkisath"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_10363 =
         "Drakkisath, un estratega astuto y despiadado, comanda los ejércitos de Nefarian en la guerra con Ragnaros. Después de conseguir victorias contra los Hierro Negro, las fuerzas del general Drakkisath están posicionadas para expulsar a los enanos de la Montaña Roca Negra de una vez por todas."
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_15588 = "Trueno"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_15588 =
+        "Inflige daño de Naturaleza en un radio de 10 metros, aumenta el tiempo entre ataques cuerpo a cuerpo un 33% y reduce la velocidad de movimiento un 40% durante 10 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_16419 = "Fogonazo"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_16419 =
+        "Inflige daño de Fuego en el área seleccionada, seguido de daño de Fuego adicional cada 2 segundos durante 8 segundos.\n\nSal de las llamas."
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_16805 = "Conflagración"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_16805 =
+        "Desorienta al tanque actual e inflige daño de Fuego cada segundo durante 10 segundos. Los aliados cercanos también reciben daño de Fuego.\n\nMantened un segundo tanque preparado para tomar el relevo. Los demás jugadores deben alejarse del objetivo afectado."
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_12097 = "Perforar armadura"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_12097 =
+        "Reduce la armadura de un objetivo un 75% durante 20 segundos."
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_15754 = "Rajar"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_15754 =
+        "Inflige daño Físico a un objetivo y sus aliados cercanos, afectando hasta a 3 objetivos."
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_NAME_16789 = "Rabia"
+    IJ_DB_DUNGEON_UBRS_BOSS_10363_ABILITY_EFFECT_16789 =
+        "Aumenta el daño Físico infligido en 50 y la velocidad de ataque cuerpo a cuerpo un 50% durante 15 segundos.\n\nLos sanadores deben prepararse para un mayor daño sobre el tanque."
 
     -- WC
     IJ_DB_DUNGEON_WC_NAME = "Cavernas de los Lamentos"
@@ -1021,8 +2077,14 @@ if GetLocale() == "esES" then
         "Las leyendas cuentan que donde cayó el semidiós Agamaggan, su sangre dio lugar a grandes masas de enredaderas espinosas. Muchos jabaespines se han instalado en el mayor grupo de espinas gigantes, el Razorfen, al que veneran como lugar de descanso de Agamaggan. Recientemente, los exploradores han informado haber visto muertos vivientes pululando por la región, generando temores de que la temida Plaga pueda estar moviéndose para conquistar Kalimdor."
 
     -- RFD Bosses
+    IJ_DB_DUNGEON_RFD_BOSS_7356_ABILITY_NAME_plaguemawevent = "Evento de misión"
+    IJ_DB_DUNGEON_RFD_BOSS_7356_ABILITY_EFFECT_plaguemawevent =
+        "Iniciad Extinguiendo el ídolo con belnistrasz en Zahúrda Rajacieno. Escoltadlo hasta el ídolo y protegedlo durante el ritual; Fauces de Peste el Podrido aparece durante este evento de misión."
     IJ_DB_DUNGEON_RFD_BOSS_NAME_7356 = "Fauces de Peste el Podrido"
     IJ_DB_DUNGEON_RFD_BOSS_STORY_7356 = "Una abominación podrida enviada para matar a cualquier aventurero que se atreva a entrar en Razorfen Downs."
+    IJ_DB_DUNGEON_RFD_BOSS_7355_ABILITY_NAME_tutenkashsummoning = "Invocación"
+    IJ_DB_DUNGEON_RFD_BOSS_7355_ABILITY_EFFECT_tutenkashsummoning =
+        "Tocad el gong tres veces, derrotando a los enemigos entre activaciones. Las dos primeras invocan oleadas de arañas; la tercera atrae a Tuten’kash."
     IJ_DB_DUNGEON_RFD_BOSS_NAME_7355 = "Tuten'kash"
     IJ_DB_DUNGEON_RFD_BOSS_STORY_7355 =
         "Aunque quedó cegado durante la Guerra de la Araña antes de su conversión a no-muerto, Tuten'kash todavía sirve a la Plaga como uno de sus comandantes demoníacos de cripta más mortíferos. Tutaen'kash compensa su ceguera decorando su guarida con finas redes casi invisibles que le permiten sentir cada paso y el más ligero toque, alertándole para que envíe secuaces a emboscar a su desventurada presa. Las vibraciones fuertes pueden provocarle una ira desorientada, sacándole de su escondite en lo más profundo de los rincones de Razorfen Downs."
@@ -1078,50 +2140,289 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_SCHOLO_STORY =
         "Las personas que buscan dominar los poderes de los no-muertos conocen bien la Scholomance, la infame escuela de nigromancia ubicada en las oscuras y siniestras criptas debajo de Caer Darrow. En los últimos años, varios de los instructores han cambiado, pero la institución permanece bajo el control del Darkmaster Gandling, un practicante de magia nigromántica particularmente sádico e insidioso."
 
+    -- Additional Dungeon Set 2 encounters and Darkreaver quests
+    IJ_DB_DUNGEON_STRAT_BOSS_NAME_16101 = "Jarien y Sothos"
+    IJ_DB_DUNGEON_STRAT_BOSS_STORY_16101 =
+        "Jarien y Sothos eran hermanos de la compañía de mercenarios de Bodley. Tras su disolución, se llevaron un fragmento del amuleto de Lord Valthalak e intentaron unirse a la Cruzada Escarlata. El Gran Cruzado Dathrohan los mató por fracasar en los ritos de iniciación en su cámara. Sus restos pueden ser invocados allí para recuperar el fragmento."
+    IJ_DB_DUNGEON_BRD_BOSS_NAME_16059 = "Theldren y sus gladiadores"
+    IJ_DB_DUNGEON_BRD_BOSS_STORY_16059 =
+        "Theldren y sus gladiadores esperan a sus rivales en el Círculo de la Ley de las Profundidades de Roca Negra. El Estandarte de provocación los atrae a un desafío especial en la arena, donde los aventureros pueden recuperar el primer fragmento del amuleto de Lord Valthalak para Anthion Harmon."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_jariensothossummoning =
+        "Derrotad al Gran Cruzado Dathrohan y usad el Brasero de Señalización en su cámara para invocar a Jarien y Sothos durante la cadena de misiones del conjunto de mazmorra 2."
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_theldrensummoning =
+        "Durante El desafío, colocad el Estandarte de provocación en el centro del Círculo de la Ley mientras el Alto justiciero Pedrasiniestra sentencia al grupo. Así entrarán Theldren y sus gladiadores en la arena."
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_arenaspoils = "Botín de la arena"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_EFFECT_arenaspoils =
+        "Tras derrotar a Theldren y sus gladiadores, recoged el equipo del cofre de Botín de la arena."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15284 = "Adherirse"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15284 =
+        "Inflige daño físico a un enemigo y sus aliados cercanos, alcanzando hasta 3 objetivos."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_22575 = "Choque de las Sombras"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_22575 =
+        "Inflige daño de las Sombras a un enemigo."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_16856 = "Golpe mortal"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_16856 =
+        "Inflige daño físico y reduce la sanación recibida un 50% durante 5 s."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_20812 = "Incapacitar"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_20812 =
+        "Reduce la velocidad de movimiento, la velocidad de ataque cuerpo a cuerpo y la fuerza durante 15 s. Disipad este efecto mágico."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15655 = "Golpe de escudo"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15655 =
+        "Inflige daño físico a un enemigo y lo aturde durante 2 s."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_27641 = "Miedo"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_27641 =
+        "Hace que un enemigo huya aterrorizado durante 6 s. Disipad este efecto mágico."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_27646 = "Salva de descarga de las Sombras"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_27646 =
+        "Inflige daño de las Sombras a los enemigos cercanos."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_15749 = "Carga con escudo"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_15749 =
+        "Carga contra un enemigo, inflige daño físico y lo repele."
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jarien = "Jarien"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_sothos = "Sothos"
+    IJ_QUEST_NAME_7647 = "Juicio y redención"
+    IJ_QUEST_OBJECTIVE_7647 =
+        "Usad el Divination Scryer en el sótano del Gran Osario de Scholomance. Derrotad a los espíritus y al Caballero de la Muerte Darkreaver y llevad el Alma redimida del cargador y la Barda de arcanita bendita al Cargador caído de Darkreaver."
+    IJ_QUEST_NAME_7668 = "La amenaza de Darkreaver"
+    IJ_QUEST_OBJECTIVE_7668 =
+        "Usad el Divination Scryer en el sótano del Gran Osario de Scholomance. Derrotad a los espíritus y al Caballero de la Muerte Darkreaver y llevad su cabeza a Sagorne Zancacresta en el Valle de la Sabiduría de Orgrimmar."
+    IJ_NPC_NAME_13417 = "Sagorne Zancacresta"
+    IJ_QUEST_REWARD_SPELL_23214 = "Invocar cargador"
+    IJ_LOOT_NAME_22301 = "Toga de hilacero"
+    IJ_LOOT_NAME_22327 = "Amuleto de los redimidos"
+    IJ_LOOT_NAME_22328 = "Quijotes de vigilancia"
+    IJ_LOOT_NAME_22329 = "Cetro de enfoque interminable"
+    IJ_LOOT_NAME_22334 = "Sortija de alivio"
+    IJ_LOOT_NAME_22305 = "Manto de hilacero"
+    IJ_LOOT_NAME_22317 = "Puño de latón de Zurdo"
+    IJ_LOOT_NAME_22318 = "Arco largo de Malgen"
+    IJ_LOOT_NAME_22330 = "Embozo de maestría Arcana"
+    IJ_LOOT_NAME_18807 = "Yelmo de poder latente"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_jariensothossummoning = "Invocación"
+    IJ_DB_DUNGEON_BRD_BOSS_16059_ABILITY_NAME_theldrensummoning = "Invocación"
+
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_NAME_siblingspirits = "Espíritus de los hermanos"
+    IJ_DB_DUNGEON_STRAT_BOSS_16101_ABILITY_EFFECT_siblingspirits =
+        "Cuando uno de los hermanos muere, aparece su espíritu y ataca al superviviente."
+
     -- SCHOLO Bosses
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_kirtonossummoning = "Invocación"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_kirtonossummoning =
+        "Colocad Sangre de inocentes en el brasero del balcón de Scholomance para invocar a Kirtonos."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10506 = "Kirtonos el Heraldo"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10506 =
         "Hace mucho tiempo se convirtió en el maestro del Doctor Theolen Krastinov de Scholomance. Responsable de muchas de las atrocidades durante el gobierno de Krastinov sobre Scholomance, Kirtonos se alimentaba de la sangre de sus víctimas inocentes. Para apaciguar a su amo, el doctor Krastinov tuvo que proporcionarle a la gárgola cada vez más sangre."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_18144 = "Picado"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_18144 =
+        "Inflige daño físico a los enemigos cercanos y los aturde durante 2 segundos."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_12882 = "Aleteo"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_12882 =
+        "Repele a los enemigos en un radio de 10 metros.\n\nLos tanques deben colocarse de espaldas a una pared."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_6016 = "Perforar armadura"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_6016 =
+        "Reduce la armadura de un objetivo un 50% durante 20 segundos."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_8379 = "Desarmar"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_8379 =
+        "Desarma a un objetivo durante 10 segundos."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10503 = "Janice Barov"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10503 =
         "Jandice Barov fue una vez una archimaga de Dalaran y una poderosa ilusionista. En vida, desarrolló un hechizo que \"mostraba varias imágenes de su cuerpo que eran casi indistinguibles de su forma real. Estas imágenes duplicaban sus acciones desde diferentes lugares, haciendo casi imposible que sus enemigos la encontraran. Era casi infalible\". Después de que la Casa Barov juró lealtad al Culto de los Condenados, Jandice se convirtió en un fantasma no-muerto dentro de Scholomance."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10503_ABILITY_NAME_16098 = "Maldición de sangre"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10503_ABILITY_EFFECT_16098 =
+        "Aumenta el daño físico recibido por los enemigos cercanos durante 10 minutos.\n\nEliminad esta maldición."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10503_ABILITY_NAME_17773 = "Invocar ilusiones"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10503_ABILITY_EFFECT_17773 =
+        "Invoca ilusiones de sí misma. La verdadera Jandice tiene mucha más salud que las copias.\n\nUsad ataques directos o ataques físicos de hendidura contra las ilusiones; evitad depender del daño mágico de área."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10503_ABILITY_NAME_15584 = "Rajar"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10503_ABILITY_EFFECT_15584 =
+        "Inflige daño físico a un objetivo y a sus aliados cercanos."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_11622 = "cascabel"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_11622 = "Rattlegore está hecho de los restos de sus enemigos derrotados. Hasta el día de hoy protege a Scholomance contra intrusos."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_NAME_10101 = "Repeler"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_EFFECT_10101 =
+        "Inflige daño Físico a un objetivo y lo repele."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_NAME_16727 = "Pisotón de guerra"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_EFFECT_16727 =
+        "Inflige daño Físico a los enemigos en un radio de 5 metros y los aturde durante 5 segundos."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_NAME_18368 = "Golpe"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11622_ABILITY_EFFECT_18368 =
+        "Inflige daño Físico a un objetivo."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_darkreaversummoning = "Invocación"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_darkreaversummoning =
+        "Usad el Divination Scryer en el sótano del Gran Osario durante Juicio y redención (paladín) o La amenaza de Darkreaver (chamán). Derrotad las oleadas de espíritus para invocar al jefe."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_14516 = "Caballero de la Muerte Darkreaver"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_14516 =
         "El que alguna vez fue un célebre paladín, el hombre que llegaría a ser conocido como Darkreaver fue seducido por el llamado del Rey Exánime y se convirtió en un insidioso caballero de la muerte. Su corrupción se extendió a su corcel, que se transformó en un caballo no-muerto. Darkreaver fue enviado al Scholomance. En la mazmorra debajo del Gran Osario, intentó doblegar el reino de los espíritus a su antojo, convocando y corrompiendo espíritus para que cumplieran sus órdenes."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_15284 = "Rajar"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_15284 =
+        "Inflige daño físico a un objetivo y a sus aliados cercanos."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_17393 = "Descarga de las Sombras"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_17393 =
+        "Inflige daño de las Sombras a un objetivo."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_22644 = "Sanguijuela de sangre"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_22644 =
+        "Drena salud de los enemigos cercanos, inflige daño físico y sana al taumaturgo."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_NAME_7645 = "Dominar mente"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_14516_ABILITY_EFFECT_7645 =
+        "Controla a un objetivo y reduce su velocidad de ataque cuerpo a cuerpo durante 10 segundos.\n\nDisipa este efecto mágico."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10433 = "Marduk Blackpool"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10433 =
         "Marduk Blackpool, también conocido como Marduk el Negro, es un infame caballero de la muerte de la Plaga. Es tutor en Scholomance y comparte sus oscuros secretos con los estudiantes de nigromancia."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_NAME_17228 = "Salva de descarga de las Sombras"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_EFFECT_17228 =
+        "Inflige daño de las Sombras a los enemigos en un radio de 30 metros."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_NAME_12040 = "Escudo de las Sombras"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_EFFECT_12040 =
+        "Absorbe daño e inflige daño de las Sombras a los atacantes cuerpo a cuerpo durante 30 segundos."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_NAME_15284 = "Rajar"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_EFFECT_15284 =
+        "Inflige daño físico a un objetivo y a sus aliados cercanos."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_NAME_17695 = "Aura profanadora"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10433_ABILITY_EFFECT_17695 =
+        "Reduce en 100 la resistencia a las Sombras de los enemigos en un radio de 30 metros."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10432 = "vectus"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10432 =
         "Vectus desarrolló los dragones plagados que se encuentran dentro de Scholomance, que obtuvo pagando a Tinkee Steamboil en Burning Steppes para que entregara huevos de dragón de Blackrock Spire."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10432_ABILITY_NAME_18399 = "Fogonazo"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10432_ABILITY_EFFECT_18399 =
+        "Inflige daño de Fuego en el área seleccionada, seguido de daño de Fuego adicional cada 2 segundos durante 8 segundos.\n\nSal de las llamas."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10432_ABILITY_NAME_16046 = "Ola explosiva"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10432_ABILITY_EFFECT_16046 =
+        "Inflige daño de Fuego a los enemigos en un radio de 10 metros y reduce su velocidad de movimiento un 70% durante 6 segundos."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10508 = "Ras Susurro de Escarcha"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10508 =
         "Ras Frostwhisper fue una vez un mago humano de Stromgarde. Era un mago de cobertura, un mago rebelde que nunca recibió su entrenamiento formal de Dalaran. Fue uno de los primeros en unirse al Culto de los Condenados y rápidamente avanzó en sus filas. Ahora es supervisor de Scholomance."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_NAME_18100 = "Armadura de Escarcha"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_18100 =
+        "Aumenta la armadura. Enfría a los atacantes cuerpo a cuerpo durante 5 segundos, reduciendo su velocidad de ataque cuerpo a cuerpo y ralentizando su movimiento un 40%."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_NAME_21369 = "Descarga de Escarcha"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_21369 =
+        "Inflige daño de Escarcha y reduce la velocidad de movimiento un 50% durante 4 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_NAME_18099 = "Nova de frío"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_18099 =
+        "Inflige daño de Escarcha a los enemigos en un radio de 10 metros, los repele y reduce su velocidad de movimiento un 50% durante 10 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_NAME_8398 = "Salva de descarga de Escarcha"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_8398 =
+        "Inflige daño de Escarcha a varios enemigos y reduce su velocidad de movimiento un 50% durante 8 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_NAME_18763 = "Congelar"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_18763 =
+        "Aturde a un objetivo e inflige daño de Escarcha cada 3 segundos durante 15 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_NAME_26070 = "Miedo"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_26070 =
+        "Hace huir de miedo a los enemigos en un radio de 45 metros durante un máximo de 8 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_NAME_kormoksummoning = "Invocación"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_EFFECT_kormoksummoning =
+        "Usad el Brasero de Señalización en la cámara de Ras Murmuhielo para invocar a Kormok durante la cadena de misiones del conjunto de mazmorra 2."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_16118 = "Kormok"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_16118 =
         "Kormok es un jefe nigromante ogro que se encuentra en Scholomance. Una de sus cabezas era siempre alegre, si no un poco tonta, mientras que la otra era astuta, calculadora y tenía una mirada casi muerta en los ojos. Aunque inicialmente era un simple mago y no era tan malo como miembro de Veiled Blade, quedó expuesto al lado nigromántico de la magia y terminó deleitándose en convocar las almas de los muertos desterrados de la Isla de la Purgación. Después de dejar su compañía mercenaria se matriculó en Scholomance."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_NAME_27690 = "Invocar esbirro de hueso"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_EFFECT_27690 =
+        "Invoca a un Esbirro de hueso que lucha junto al taumaturgo."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_NAME_17228 = "Salva de descarga de las Sombras"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_EFFECT_17228 =
+        "Inflige daño de las Sombras a los enemigos en un radio de 30 metros."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10505 = "Instructora Malicia"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10505 =
         "Malicia, ex alta elfa de Quel'Thalas, fue una de las pocas de su especie que se unió voluntariamente al Culto de los Condenados antes de la caída de Lunargenta. Ahora, tutora no viva de las artes oscuras, supervisa el entrenamiento físico y táctico de los acólitos de la escuela. Malicia es conocida por su crueldad, y a menudo utiliza a sus alumnos como objetivos vivos de su devastadora magia de sombras para garantizar que solo los más despiadados y resistentes sobrevivan para servir al Rey Exánime."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_NAME_11672 = "Corrupción"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_EFFECT_11672 =
+        "Inflige daño de las Sombras cada 3 segundos durante 18 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_NAME_17831 = "Llamada de la tumba"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_EFFECT_17831 =
+        "Maldice a los enemigos cercanos e inflige daño de las Sombras tras 60 segundos.\n\nEliminad esta maldición."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_NAME_9889 = "Toque de sanación"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_EFFECT_9889 =
+        "Sana al taumaturgo o a un aliado."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_NAME_10917 = "Sanación relámpago"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_EFFECT_10917 =
+        "Sana al taumaturgo o a un aliado."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_NAME_10929 = "Renovar"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10505_ABILITY_EFFECT_10929 =
+        "Restaura salud cada 3 segundos durante 15 segundos."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_11261 = "Doctor Theolen Krastinov"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_11261 =
         "Conocido como \"El Carnicero\", Krastinov es el sirviente de Kirtonos el Heraldo y el principal torturador y proveedor de cuerpos y partes corporales para los experimentos de nigromancia de Scholomance. Sus primeras víctimas fueron reclutadas entre la familia de Caer Darrow. Entre ellos se encontraban los sirvientes de la familia Barov, Eva y Lucien Sarkhoff. Atrapados, torturados y mutilados durante meses, juraron vengarse de Krastinov incluso más allá de la tumba."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11261_ABILITY_NAME_16509 = "Desgarrar"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11261_ABILITY_EFFECT_16509 =
+        "Hace sangrar a un objetivo, infligiendo daño físico cada 3 segundos durante 15 segundos."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11261_ABILITY_NAME_18103 = "Revés"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11261_ABILITY_EFFECT_18103 =
+        "Aturde a un objetivo durante 2 segundos."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11261_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_11261_ABILITY_EFFECT_8269 =
+        "Con poca salud, aumenta el daño físico infligido en 50 y la velocidad de ataque cuerpo a cuerpo un 60% durante 120 segundos."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10901 = "Conservador de conocimientos Polkelt"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10901 =
         "El Lorekeeper Polkelt fue una vez el guardián del conocimiento, conocimiento que lamentablemente se ha perdido, sin embargo, ya que ahora es un monstruo poco inteligente y tambaleante."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_NAME_18270 = "Peste oscura"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_EFFECT_18270 =
+        "Inflige daño de Naturaleza, seguido de daño de Naturaleza adicional cada 5 segundos durante 90 segundos.\n\nEliminad esta enfermedad."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_NAME_24928 = "Infección volátil"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_EFFECT_24928 =
+        "Hace que el objetivo afectado inflija daño de Naturaleza a los aliados cercanos cada 5 segundos durante 2 minutos.\n\nEliminad la enfermedad rápidamente y mantened al jugador afectado lejos del grupo hasta entonces."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_NAME_8245 = "Ácido corrosivo"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_EFFECT_8245 =
+        "Reduce la armadura de los enemigos cercanos durante 5 minutos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_NAME_18151 = "Catalizador nocivo"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10901_ABILITY_EFFECT_18151 =
+        "Reduce la resistencia a la Naturaleza de un objetivo durante 2 minutos.\n\nEliminad esta enfermedad."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10507 = "El raveniano"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10507 =
         "El Raveniano es una monstruosa abominación de hambre incomparable, que sirve como medida \"disciplinaria\" definitiva de la escuela. Cosido a partir de los restos más fuertes disponibles para el culto, reside en los pozos inferiores de la academia donde se alimenta de los fracasados ​​y los débiles. A diferencia de la facultad más inteligente, el Raveniano es una criatura de instinto puro y glotón, que actúa como un enorme muro de carne podrida entre los intrusos y los secretos mejor guardados de la escuela."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10507_ABILITY_NAME_20691 = "Rajar"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10507_ABILITY_EFFECT_20691 =
+        "Inflige daño físico a un objetivo y a sus aliados cercanos."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10507_ABILITY_NAME_15550 = "Pisotear"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10507_ABILITY_EFFECT_15550 =
+        "Inflige daño Físico a los enemigos en un radio de 10 metros."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10507_ABILITY_NAME_10101 = "Repeler"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10507_ABILITY_EFFECT_10101 =
+        "Inflige daño Físico a un objetivo y lo repele."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10504 = "Señor Alexei Barov"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10504 =
         "Lord Alexei Barov era el señor de Caer Darrow, Brill, Tarren Mill y Southshore. Era el padre de Alexi, Weldon y Jandice Barov y esposo de Lady Illucia Barov. Al igual que Jandice e Illucia, ahora es un agente de la Plaga que se encuentra en Scholomance."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10504_ABILITY_NAME_15570 = "Inmolar"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10504_ABILITY_EFFECT_15570 =
+        "Inflige daño de Fuego, seguido de daño de Fuego adicional cada 3 segundos durante 21 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10504_ABILITY_NAME_17466 = "Aura profana"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10504_ABILITY_EFFECT_17466 =
+        "Inflige daño de las Sombras a los enemigos en un radio de 30 metros cada 2 segundos."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10504_ABILITY_NAME_17820 = "Velo de las Sombras"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10504_ABILITY_EFFECT_17820 =
+        "Reduce la sanación recibida por los enemigos afectados un 75% durante 15 segundos.\n\nEliminad esta maldición."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10502 = "Lady Illucia Barov"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10502 =
         "Como esposa de Lord Alexei Barov, Illucia compartió el oscuro pacto de la familia con Kel'Thuzad, intercambiando las tierras ancestrales de Caer Darrow por la vacía promesa de la vida eterna. Ahora, una sombra espectral de su antiguo yo noble, ronda las salas de estudio de la academia. Illucia conserva la arrogancia aristocrática que tuvo en vida, utilizando su dominio del control mental y la agonía psíquica para quebrar la voluntad de aquellos que se atreven a traspasar el hogar profanado de su familia."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_NAME_20603 = "Choque de las Sombras"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_EFFECT_20603 =
+        "Inflige daño de las Sombras a los enemigos en un radio de 20 metros."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_NAME_18671 = "Maldición de agonía"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_EFFECT_18671 =
+        "Inflige daño de las Sombras cada 3 segundos durante 30 segundos.\n\nEliminad esta maldición."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_NAME_15487 = "Silencio"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_EFFECT_15487 =
+        "Silencia a un objetivo durante 5 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_NAME_6215 = "Miedo"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10502_ABILITY_EFFECT_6215 =
+        "Hace huir de miedo a un objetivo durante un máximo de 20 segundos.\n\nDisipa este efecto mágico."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_1853 = "Maestro oscuro Gandling"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_1853 = "Darkmaster Gandling es el director de la Escuela de Nigromancia en Caer Darrow, designado personalmente por Kel'Thuzad."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_NAME_18702 = "Maldición del Maestro Oscuro"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_EFFECT_18702 =
+        "Reduce la fuerza y el aguante de un objetivo en 50 durante 60 segundos.\n\nEliminad esta maldición."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_NAME_15790 = "Misiles Arcanos"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_EFFECT_15790 =
+        "Canaliza Misiles Arcanos contra un objetivo e inflige daño Arcano cada segundo durante 5 segundos."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_NAME_22417 = "Escudo de las Sombras"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_EFFECT_22417 =
+        "Absorbe daño e inflige daño de las Sombras a los atacantes cuerpo a cuerpo durante 30 segundos."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_NAME_17950 = "Portal de las Sombras"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_EFFECT_17950 =
+        "Teletransporta a un jugador a una de las salas laterales."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_NAME_30002 = "Guardias resucitados"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_1853_ABILITY_EFFECT_30002 =
+        "Tres o cuatro Guardias resucitados esperan al jugador teletransportado.\n\nDerrotad a los guardias y volved con el grupo."
 
     -- SFK
     IJ_DB_DUNGEON_SFK_NAME = "Fortaleza de Colmillo Oscuro"
@@ -1167,47 +2468,218 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10393 = "cráneo"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10393 =
         "Un mago esquelético esquivo, rara vez visto entre la población general de Stratholme. Se dice que posee muchos objetos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarlo en primer lugar..."
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_NAME_16799 = "Descarga de Escarcha"
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_EFFECT_16799 =
+        "Inflige daño de Escarcha y reduce la velocidad de movimiento un 50% durante 4 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_NAME_15499 = "Choque de Escarcha"
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_EFFECT_15499 =
+        "Inflige daño de Escarcha y reduce la velocidad de movimiento un 50% durante 8 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_NAME_15230 = "Descarga Arcana"
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_EFFECT_15230 =
+        "Inflige daño Arcano a un objetivo."
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_NAME_12544 = "Armadura de Escarcha"
+    IJ_DB_DUNGEON_STRAT_BOSS_10393_ABILITY_EFFECT_12544 =
+        "Aumenta la armadura. Enfría a los atacantes cuerpo a cuerpo, reduciendo su velocidad de movimiento un 30% y de ataque cuerpo a cuerpo un 25% durante 5 segundos."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10558 = "Cantante del hogar Forresten"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10558 =
         "El sacrificio de Stratholme se cobró la vida de innumerables personas cuyo único delito fue estar en la ciudad condenada. Un cantante y flautín viajero llamado Forresten fue una de esas víctimas. Continúa vagando muerto por la ciudad, incapaz de aceptar su trágico destino."
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_NAME_16100 = "Disparar"
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_EFFECT_16100 =
+        "Inflige daño Físico a un objetivo."
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_NAME_14443 = "Multidisparo"
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_EFFECT_14443 =
+        "Dispara a varios enemigos e inflige daño físico."
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_NAME_16244 = "Grito desmoralizador"
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_EFFECT_16244 =
+        "Reduce en 20 el poder de ataque de los enemigos en un radio de 10 metros durante 30 segundos."
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_NAME_16798 = "Nana encantadora"
+    IJ_DB_DUNGEON_STRAT_BOSS_10558_ABILITY_EFFECT_16798 =
+        "Duerme a un objetivo durante un máximo de 10 segundos.\n\nDisipa este efecto mágico."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10516 = "El imperdonable"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10516 =
         "Lylia era una espada de justicia entre su pueblo. Después de que Arthas ordenara a sus fuerzas purgar la ciudad, su cordura quedó destrozada al ver morir a innumerables inocentes a manos de ella. Ella cayó sobre su espada para escapar de la locura que la rodea, y ahora existe como un ser espectral al que para siempre se le niega la absolución por sus actos atroces."
+    IJ_DB_DUNGEON_STRAT_BOSS_10516_ABILITY_NAME_14907 = "Nova de Escarcha"
+    IJ_DB_DUNGEON_STRAT_BOSS_10516_ABILITY_EFFECT_14907 =
+        "Inflige daño de Escarcha a los enemigos en un radio de 10 metros y los inmoviliza durante un máximo de 8 segundos.\n\nDisipa este efecto mágico."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10808 = "Timmy el Cruel"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10808 =
         "Timmison era famoso por su salvajismo en el campo de batalla. Algunos especulan que su sadismo se debió al incesante acoso que sufrió cuando era niño. Ahora renacido como una monstruosidad de la Plaga, con la mente destrozada, esos recuerdos lo atormentan, lo que le hace responder al nombre que una vez odió: Timmy."
+    IJ_DB_DUNGEON_STRAT_BOSS_10808_ABILITY_NAME_17470 = "Garra voraz"
+    IJ_DB_DUNGEON_STRAT_BOSS_10808_ABILITY_EFFECT_17470 =
+        "Inflige daño físico y restaura salud al taumaturgo."
+    IJ_DB_DUNGEON_STRAT_BOSS_10808_ABILITY_NAME_8269 = "Enfurecer"
+    IJ_DB_DUNGEON_STRAT_BOSS_10808_ABILITY_EFFECT_8269 =
+        "Con poca salud, aumenta el daño físico infligido en 50 y la velocidad de ataque cuerpo a cuerpo un 60% durante 120 segundos."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_11032 = "Malor el Celoso"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_11032 = "Un miembro enloquecido de la Cruzada Escarlata, protege su propia caja fuerte y no permite que nadie se acerque a ella."
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_NAME_12734 = "Machaque de tierra"
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_EFFECT_12734 =
+        "Inflige daño físico a los enemigos en un radio de 10 metros y los aturde durante 3 segundos."
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_NAME_16172 = "Rompecabezas"
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_EFFECT_16172 =
+        "Reduce el aguante de un objetivo durante 20 segundos."
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_NAME_15493 = "Luz Sagrada"
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_EFFECT_15493 =
+        "Sana al taumaturgo o a un aliado."
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_NAME_10310 = "Imposición de manos"
+    IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_EFFECT_10310 =
+        "Restaura por completo la salud del taumaturgo o de un aliado."
+    IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_NAME_hammersmithsummoning = "Invocación"
+    IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_EFFECT_hammersmithsummoning =
+        "Interactuad con los Diseños de herrería en el Bastión Escarlata para invocar al jefe."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_11120 = "Martillo carmesí"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_11120 = "Un herrero de la Crimson Legion. No se sabe mucho sobre él, aparte de que es muy protector con sus planes de herrería."
+    IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_NAME_17445 = "Fundir huesos"
+    IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_EFFECT_17445 =
+        "Inflige daño de Fuego y reduce la armadura un 50% durante 20 segundos."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10997 = "Maestro de cañón Willey"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10997 = "Willey, el principal artillero de la Cruzada Escarlata, utilizará sus cañones sin importar las circunstancias."
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_NAME_10101 = "Repeler"
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_EFFECT_10101 =
+        "Inflige daño Físico a un objetivo y lo repele."
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_NAME_15615 = "Zurrar"
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_EFFECT_15615 =
+        "Inflige daño Físico a un objetivo e interrumpe el lanzamiento de hechizos."
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_NAME_20463 = "Disparar"
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_EFFECT_20463 =
+        "Inflige daño Físico a un objetivo."
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_NAME_11054 = "Fusileros Carmesí"
+    IJ_DB_DUNGEON_STRAT_BOSS_10997_ABILITY_EFFECT_11054 =
+        "Los Fusileros Carmesí se unen al combate.\n\nUsad los cañones de la sala para derrotarlos."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10811 = "Archivista Galford"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10811 = "El archivero Galford guarda los archivos del Bastión Escarlata en Stratholme."
+    IJ_DB_DUNGEON_STRAT_BOSS_10811_ABILITY_NAME_17274 = "Piroexplosión"
+    IJ_DB_DUNGEON_STRAT_BOSS_10811_ABILITY_EFFECT_17274 =
+        "Inflige daño de Fuego, seguido de daño de Fuego adicional cada 3 segundos durante 12 segundos."
+    IJ_DB_DUNGEON_STRAT_BOSS_10811_ABILITY_NAME_17366 = "Nova de Fuego"
+    IJ_DB_DUNGEON_STRAT_BOSS_10811_ABILITY_EFFECT_17366 =
+        "Inflige daño de Fuego a los enemigos en un radio de 10 metros."
+    IJ_DB_DUNGEON_STRAT_BOSS_10811_ABILITY_NAME_17293 = "Vientos ardientes"
+    IJ_DB_DUNGEON_STRAT_BOSS_10811_ABILITY_EFFECT_17293 =
+        "Aturde a un objetivo e inflige daño de Fuego cada segundo durante 8 segundos.\n\nDisipa este efecto mágico."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10812 = "Gran cruzado Dathrohan"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10812 =
         "El Gran Cruzado de la Cruzada Escarlata, Saidan Dathrohan, da órdenes desde el Bastión Escarlata en Stratholme. Se difundieron rumores sobre él, poniendo en duda sus verdaderas intenciones e incluso su identidad..."
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_phaseone = "Primera etapa"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_phaseone =
+        "El combate comienza contra el Gran Cruzado Dathrohan. Usa Explosión mental en ambas etapas."
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_17281 = "Golpe de cruzado"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_17281 =
+        "Inflige daño físico y aumenta el daño Sagrado recibido en 30 durante 30 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_17284 = "Golpe Sagrado"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_17284 =
+        "Inflige daño Sagrado a un objetivo."
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_17286 = "Martillo del cruzado"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_17286 =
+        "Aturde a los enemigos en un radio de 20 metros durante 4 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_phasetwo = "Segunda etapa"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_phasetwo =
+        "Con aproximadamente un 40% de salud, Dathrohan se transforma en Balnazzar, recupera toda su salud y aturde a los jugadores cercanos durante 5 segundos."
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_17399 = "Choque de las Sombras"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_17399 =
+        "Inflige daño de las Sombras a los enemigos en un radio de 15 metros."
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_13704 = "Alarido psíquico"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_13704 =
+        "Hace huir de miedo a los enemigos en un radio de 8 metros durante 6 segundos."
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_12098 = "Dormir"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_12098 =
+        "Duerme a un objetivo durante un máximo de 20 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_17405 = "Dominación"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_17405 =
+        "Controla a un objetivo durante un máximo de 15 segundos."
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_NAME_17287 = "Explosión mental"
+    IJ_DB_DUNGEON_STRAT_BOSS_10812_ABILITY_EFFECT_17287 =
+        "Inflige daño de las Sombras a un objetivo."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10435 = "Magistrado Barthilas"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10435 =
         "Barthilas estaba entre los inocentes purgados por Arthas y sus fuerzas durante la matanza de Stratholme. El Rey Exánime finalmente resucitó al ex magistrado de la tumba y ordenó a la enorme monstruosidad no-muerta que protegiera su casa en ruinas."
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_NAME_10887 = "Paliza de grupo"
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_EFFECT_10887 =
+        "Inflige daño físico a los enemigos en un radio de 10 metros, interrumpe sus hechizos y los repele."
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_NAME_14099 = "Golpe poderoso"
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_EFFECT_14099 =
+        "Inflige daño Físico a un objetivo y lo repele."
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_NAME_16793 = "Golpe drenador"
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_EFFECT_16793 =
+        "Inflige daño físico y restaura salud al taumaturgo."
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_NAME_16791 = "Ira furiosa"
+    IJ_DB_DUNGEON_STRAT_BOSS_10435_ABILITY_EFFECT_16791 =
+        "Aumenta repetidamente el daño físico infligido y la velocidad de ataque cuerpo a cuerpo. Se acumula.\n\nLos sanadores deben prepararse para un daño creciente al tanque."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10809 = "espina de piedra"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10809 =
         "Una gárgola esquiva, rara vez vista entre la población general de Stratholme. Se dice que posee muchos artículos codiciados que muchos desearían poder conseguir, si tan solo pudieran encontrarlos en primer lugar..."
+    IJ_DB_DUNGEON_STRAT_BOSS_10809_ABILITY_NAME_14331 = "Desgarro sañoso"
+    IJ_DB_DUNGEON_STRAT_BOSS_10809_ABILITY_EFFECT_14331 =
+        "Hace sangrar a un objetivo, infligiendo daño físico cada 3 segundos durante 15 segundos."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10437 = "Nerub'enkan"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10437 =
         "Nerub'enkan fue un temible guerrero durante la Guerra de la Araña. Al final, sucumbió a sus heridas y fue resucitada como un siervo obediente de la Plaga. Ahora la nerubiana protege un zigurat en Stratholme con tanta fiereza como defendió su hogar en vida."
+    IJ_DB_DUNGEON_STRAT_BOSS_10437_ABILITY_NAME_4962 = "Redes envolventes"
+    IJ_DB_DUNGEON_STRAT_BOSS_10437_ABILITY_EFFECT_4962 =
+        "Inmoviliza a un objetivo y reduce su velocidad de ataque cuerpo a cuerpo durante 6 segundos."
+    IJ_DB_DUNGEON_STRAT_BOSS_10437_ABILITY_NAME_6016 = "Perforar armadura"
+    IJ_DB_DUNGEON_STRAT_BOSS_10437_ABILITY_EFFECT_6016 =
+        "Reduce la armadura de un objetivo un 50% durante 20 segundos."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10436 = "Baronesa Anastari"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10436 =
         "Mientras vivió, Anastari tomó lo que quiso, sin importar el costo. La muerte ha hecho poco para cambiar eso. Con el alma arrancada de su cuerpo, Anastari se convirtió en un alma en pena y abandonó su amor por las baratijas materiales en favor de posesiones de un tipo mucho más siniestro."
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_NAME_16565 = "Lamento de alma en pena"
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_EFFECT_16565 =
+        "Inflige daño de las Sombras a un objetivo."
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_NAME_16867 = "Maldición de alma en pena"
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_EFFECT_16867 =
+        "Reduce la probabilidad de golpe de los enemigos en un radio de 10 metros un 10% durante 12 segundos."
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_NAME_18327 = "Silencio"
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_EFFECT_18327 =
+        "Silencia a los enemigos en un radio de 10 metros durante 10 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_NAME_17244 = "Poseer"
+    IJ_DB_DUNGEON_STRAT_BOSS_10436_ABILITY_EFFECT_17244 =
+        "Posee a un jugador y aumenta su salud mientras Anastari se vuelve inmune al daño.\n\nDañad al jugador controlado hasta que baje de aproximadamente un 25% de salud para liberarlo. No lo matéis."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10438 = "Maleki el Pálido"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10438 =
         "Maleki fue uno de los primeros en unirse al Culto de los Condenados, mostrando una tremenda aptitud para aprovechar el frío de la tumba. Impulsado por un insaciable deseo de poder, el mago perfecciona fervientemente sus habilidades en magia oscura para prepararse para cuando se convierta en un lich."
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_NAME_17503 = "Descarga de Escarcha"
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_EFFECT_17503 =
+        "Inflige daño de Escarcha y reduce la velocidad de movimiento un 50% durante 4 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_NAME_16869 = "Tumba de hielo"
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_EFFECT_16869 =
+        "Aturde a un objetivo durante 10 segundos."
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_NAME_17238 = "Drenar vida"
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_EFFECT_17238 =
+        "Canaliza un hechizo que drena la salud de un objetivo y sana al taumaturgo.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_NAME_17243 = "Drenar maná"
+    IJ_DB_DUNGEON_STRAT_BOSS_10438_ABILITY_EFFECT_17243 =
+        "Canaliza un hechizo que drena el maná de un objetivo.\n\nDisipa este efecto mágico."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10439 = "Ramstein el Gorger"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10439 =
         "Ramstein es una de las abominaciones más infames de la Plaga, un horror formado a partir de numerosos cadáveres y potenciado por un hambre incesante. Este monstruo cometió atrocidades indescriptibles en innumerables almas inocentes cuando las fuerzas de la Plaga invadieron Stratholme."
+    IJ_DB_DUNGEON_STRAT_BOSS_10439_ABILITY_NAME_5568 = "Pisotear"
+    IJ_DB_DUNGEON_STRAT_BOSS_10439_ABILITY_EFFECT_5568 =
+        "Inflige daño Físico a los enemigos en un radio de 10 metros."
+    IJ_DB_DUNGEON_STRAT_BOSS_10439_ABILITY_NAME_17307 = "Nocaut"
+    IJ_DB_DUNGEON_STRAT_BOSS_10439_ABILITY_EFFECT_17307 =
+        "Inflige daño físico, repele a un objetivo y lo aturde durante 6 segundos."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_10440 = "Barón Rivendare"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_10440 =
         "El barón Rivendare es un poderoso caballero de la muerte al servicio del Rey Exánime y coordina los esfuerzos de la Plaga en las Tierras de la Peste. Gobierna la ciudad de Stratholme y actualmente lucha con agentes de Argent Dawn enviados a Stratholme para matarlo."
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_NAME_15537 = "Descarga de las Sombras"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_EFFECT_15537 =
+        "Inflige daño de las Sombras a un objetivo."
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_NAME_15284 = "Rajar"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_EFFECT_15284 =
+        "Inflige daño físico a un objetivo y a sus aliados cercanos."
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_NAME_19643 = "Golpe mortal"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_EFFECT_19643 =
+        "Inflige daño Físico y reduce la sanación recibida un 50% durante 5 segundos."
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_NAME_17467 = "Aura profana"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_EFFECT_17467 =
+        "Inflige daño de las Sombras a los enemigos en un radio de 30 metros cada 2 segundos."
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_NAME_17473 = "Levantar a los muertos"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_EFFECT_17473 =
+        "Invoca a seis Esqueletos descerebrados.\n\nMatadlos rápidamente antes de que Pacto de la Muerte los consuma."
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_NAME_17471 = "Pacto de la Muerte"
+    IJ_DB_DUNGEON_STRAT_BOSS_10440_ABILITY_EFFECT_17471 =
+        "Consume a los esqueletos invocados supervivientes para recuperar salud."
 
     -- GC
     IJ_DB_DUNGEON_GC_NAME = "ciudad de gilneas"
@@ -1295,7 +2767,7 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_KC_BOSS_NAME_91919 = "Comandante Andreón"
     IJ_DB_DUNGEON_KC_BOSS_NAME_91928 = "Alarus"
     IJ_DB_DUNGEON_KC_BOSS_STORY_91928 =
-        "Alarus, conocido como el Vigilante de las Criptas, es el centinela principal de la magia repugnante que se encona bajo la torre. El Kirin Tor considera que su destrucción es vital para la seguridad de Azeroth, mientras que la Horda busca derribarlo como un acto de gloria, sabiendo que sólo venciendo este \"gran mal\" se podrá eliminar la niebla sofocante y la locura de las profundidades."
+        "Alarus, el Vigilante de las Criptas, estudió brevemente con Medivh antes de dedicar sus últimos días al cuidado de las catacumbas bajo Karazhan. Cuando un poder nigromántico comenzó a agitar a los muertos alrededor de la torre, Gunther Arcanus atribuyó la perturbación a Alarus, mientras Ansirem Tejerruna sospechó del antiguo alumno tras examinar rastros de nigromancia mezclada con energía arcana. Tanto el Kirin Tor como la Horda exigieron su derrota; después, la opresiva oscuridad comenzó a disiparse."
 
     -- DMR
     IJ_DB_DUNGEON_DMR_NAME = "Retiro Faucedraco"
@@ -1556,6 +3028,9 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_15117 = "Espíritus encadenados"
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117 =
         "Los Espíritus encadenados pueden revivir a los jugadores caídos durante la lucha."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_edgesummoning = "Invocación"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_edgesummoning =
+        "Usad Locura de mojo Gurubashi para apagar el Brasero de la Locura en el Confín de la Locura e invocar a uno de sus cuatro espíritus."
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "Borde de la locura"
     IJ_DB_RAID_ZG_BOSS_STORY_15082 =
         "En el Filo de la Locura de Zul'Gurub, antiguas tablillas conservan la memoria de cuatro espíritus trol: Gri'lek, el vagabundo de Sangre de Hierro; Renataki, de las Mil Hojas, cuya leyenda celebra el dolor y el derramamiento de sangre; Hazza'rah, el Tejesueños, señor de las pesadillas; y Wushoolay, el Brujo de la Tormenta, cuyo poder está ligado al cielo, la lluvia y la tierra.\n\nLa Tablilla de la Locura revela la fórmula de la Locura de mojo Gurubashi. Utilizada para apagar el Brasero de la Locura, esta ofrenda alquímica devuelve a uno de estos espíritus al mundo de los vivos."
@@ -1611,6 +3086,9 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "Nube de relámpagos"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
         "Crea una nube de relámpagos de 10 metros de radio durante 15 segundos, que inflige de 463 a 538 de daño de Naturaleza inicialmente y de 875 a 1126 de daño adicional cada 5 segundos.\n\nSal de la nube inmediatamente."
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_gahzrankasummoning = "Invocación"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_gahzrankasummoning =
+        "Cargad un Cebo de Fangoapestoso con cinco Fangoapestosos Zulian y usadlo en Punta de Pagle para invocar a Gahz’ranka."
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Gahz'ranka"
     IJ_DB_RAID_ZG_BOSS_STORY_15114 =
         "Gahz'ranka es una hidra legendaria que acecha en las aguas de Zul'Gurub, cerca de la Punta de Pagle. Nat Pagle visitó estas orillas y dejó allí sus aparejos de pesca y su cinta métrica favorita.\n\nLos aventureros que devuelven la cinta descubren cómo atraer a la criatura desde las profundidades: un Cebo de Fangoapestoso, cargado con cinco Fangoapestosos zulianos y lanzado desde la Punta de Pagle, hace emerger a la esquiva hidra."
@@ -2652,6 +4130,9 @@ if GetLocale() == "esES" then
     -- WORLD Bosses
     IJ_DB_RAID_WORLD_BOSS_NAME_6109 = "Azurgos"
     IJ_DB_RAID_WORLD_BOSS_STORY_6109 = "Azuregos es un poderoso dragón azul en quien Malygos confía la custodia de los artefactos más preciados del Vuelo Azul."
+    IJ_DB_RAID_WORLD_BOSS_59963_ABILITY_NAME_clackorasummoning = "Invocación"
+    IJ_DB_RAID_WORLD_BOSS_59963_ABILITY_EFFECT_clackorasummoning =
+        "Ofreced un Ídolo antiguo de Cla’ckora, 10 Aguas elementales y 5 Anguilas relámpago en el Altar de Cla’ckora en Azshara para completar Altar de un mal ancestral e invocar a Cla’ckora."
     IJ_DB_RAID_WORLD_BOSS_NAME_59963 = "Cla'ckora"
     IJ_DB_RAID_WORLD_BOSS_STORY_59963 =
         "En los anales de Azeroth se registra muy poco sobre Cla'ckora. Ya sea una antigua bestia despertada de las profundidades o una monstruosidad olvidada de una época pasada, su verdadera naturaleza y orígenes siguen siendo un completo enigma incluso para los aventureros más experimentados."
@@ -2945,7 +4426,7 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_GC_BOSS_STORY_61423 =
         "La historia del mariscal Magnus Greystone sigue sin escribirse en gran medida, pero lo poco que se sabe habla de una vida en constante guerra. Un veterano de la Segunda Guerra, sirvió como Mariscal durante las incursiones orcas, siendo un firme defensor de Gilneas en sus horas más oscuras. Años más tarde, mientras la guerra civil consumía el reino, Greystone comandaba las defensas de la ciudad de Gilneas, manteniendo la línea no sólo contra los invasores, sino también contra las mismas personas por las que una vez luchó para proteger. Aun así, sus hazañas nunca quedaron plenamente registradas, dejando tras de sí sólo el recuerdo de un soldado que nunca abandonó su puesto."
     IJ_DB_DUNGEON_KC_BOSS_STORY_91919 =
-        "El comandante Andreon alguna vez estuvo entre los guardias de la torre junto con su hermano gemelo, el capitán Rothynn, y se le confió una Marca de Karazhan, un símbolo de su posición y deber. Si bien se conoce el destino de Rothynn, su espíritu atado a los sótanos de abajo, la desaparición de Andreon nunca fue explicada. Ahora permanece dentro de las criptas como una presencia inquieta, un guardián caído cuyo propósito perdura incluso en la muerte."
+        "El Comandante Andreon y su hermano gemelo, el Capitán Rothynn, fueron aceptados en la guardia de la torre y cada uno recibió una Marca de Karazhan, encantada con la energía de las líneas Ley de la torre. Mientras el espíritu de Rothynn rondaba el Sótano del Maestro, el paradero de Andreon seguía siendo desconocido para los magos que investigaban Karazhan. Ahora se encuentra entre los no-muertos de las criptas bajo la torre."
     IJ_DB_DUNGEON_SWR_BOSS_STORY_62670 =
         "Esta inquietante abominación nació de la cruel intención del Consejo de la Sombra, manifestándose como una masa de almas jóvenes atormentadas. O'jin y otros espíritus sensibles pueden escuchar los gritos de estos pobres niños, que fueron utilizados como materia prima para los viles experimentos del Consejo. Sólo matando esta abominación podrán finalmente liberarse las almas inocentes."
     IJ_DB_RAID_MC_BOSS_STORY_57642 =
@@ -3032,6 +4513,27 @@ if GetLocale() == "esES" then
     IJ_QUEST_OBJECTIVE_40905 = "Llévale la esencia del sueño humeante al archidruida Vientosueño en Nordanaar, Hyjal."
     IJ_QUEST_NAME_40828 = "La clave de Karazhan IX"
     IJ_QUEST_OBJECTIVE_40828 = "Encuentra el \"Tratado sobre llaves y cerraduras mágicas\" y tráelo a Vandol. Se rumorea que se guarda en Blackwing Lair."
+    -- Ritual of Souls and learned spell rewards
+    IJ_QUEST_REWARD_SPELL_10140 = "Crear agua (Rango 7)"
+    IJ_QUEST_REWARD_SPELL_23161 = "Invocar corcel nefasto"
+    IJ_QUEST_REWARD_SPELL_18540 = "Ritual de condenación"
+    IJ_QUEST_NAME_7582 = "La envoltura de la prisión"
+    IJ_QUEST_OBJECTIVE_7582 =
+        "Viajad a la Garganta Negro Rumor en Cuna del Invierno y recuperad 5 Lágrimas de los Hederine de los demonios Hederine. Regresad con Daio en la Escara Impía."
+    IJ_QUEST_NAME_7583 = "Supresión"
+    IJ_QUEST_OBJECTIVE_7583 =
+        "Usad la Prisión de cristal resplandeciente sobre un Comandante guardia apocalíptico en la Escara Impía. Sobrevivid a sus ataques durante la captura y llevad el Guardia apocalíptico encarcelado a Daio."
+    IJ_QUEST_NAME_70002 = "La guía de un loco"
+    IJ_QUEST_OBJECTIVE_70002 =
+        "Viajad a la Escara Impía en las Tierras Devastadas y encontrad a Daio el Decrépito."
+    IJ_QUEST_NAME_70003 = "Drenar al Cazador de Almas"
+    IJ_QUEST_OBJECTIVE_70003 =
+        "Matad a Hakkar el Cazador de Almas en Zul’Gurub y llevad la Esencia del pozo a Daio el Decrépito."
+    IJ_NPC_NAME_5675 = "Carendin Halgar"
+    IJ_NPC_NAME_6122 = "Gakin el Presotenebra"
+    IJ_LOOT_NAME_83003 = "Grimorio de Ritual de almas"
+    IJ_LOOT_NAME_18602 = "Escrito de sacrificio"
+
     IJ_QUEST_NAME_70000 = "Un tipo especial de convocatoria"
     IJ_QUEST_OBJECTIVE_70000 = "Visita al archimago Xylem en Azshara."
     IJ_QUEST_NAME_70001 = "La protección del malhechor"
