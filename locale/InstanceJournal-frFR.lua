@@ -1556,6 +1556,13 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15087 =
         "Augmente les chances d’esquive de 50% pendant 15 s."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_24375 = "Choc martial"
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_24375 =
+        "Inflige des dégâts physiques aux ennemis proches, les repousse et les étourdit pendant 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_13900 = "Explosion ardente"
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_13900 =
+        "Inflige des dégâts de Feu aux ennemis dans la zone affectée."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

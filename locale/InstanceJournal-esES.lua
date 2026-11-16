@@ -1556,6 +1556,13 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15087 =
         "Aumenta la probabilidad de esquivar un 50% durante 15 s."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_24375 = "Pisotón de guerra"
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_24375 =
+        "Inflige daño físico a los enemigos cercanos, los repele y los aturde durante 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_13900 = "Ráfaga ígnea"
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_13900 =
+        "Inflige daño de Fuego a los enemigos de la zona afectada."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

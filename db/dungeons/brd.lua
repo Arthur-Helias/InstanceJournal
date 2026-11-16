@@ -1011,7 +1011,7 @@ BRD.Bosses = {
             [8] = {IJDB.I[11927], DropChance = 25}
         }
     },
-    [21] = { -- NOTE: Missing abilities
+    [21] = {
         Id = "9938",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "magmus" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "magmus" .. IMPF,
@@ -1019,6 +1019,20 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9938,
         MapCoordinateX = 76.8,
         MapCoordinateY = 10.4,
+        Abilities = {
+            [1] = {
+                Id = "24375",
+                Icon = "Ability_BullRush",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_24375,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_24375
+            },
+            [2] = {
+                Id = "13900",
+                Icon = "Spell_Fire_FireBolt",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_13900,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_13900
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11746], DropChance = 20},
             [2] = {IJDB.I[11935], DropChance = 20},

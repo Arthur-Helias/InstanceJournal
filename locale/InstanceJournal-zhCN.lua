@@ -2127,6 +2127,13 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15087 =
         "使躲闪几率提高50%，持续15秒。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_24375 = "战争践踏"
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_24375 =
+        "对附近的敌人造成物理伤害，将其击退并使其昏迷5秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_13900 = "烈焰爆发"
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_13900 =
+        "对作用区域内的敌人造成火焰伤害。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

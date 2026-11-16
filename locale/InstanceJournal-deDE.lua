@@ -1557,6 +1557,13 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15087 =
         "Erhöht die Ausweichchance 15 Sek. lang um 50%."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_24375 = "Kriegsdonner"
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_24375 =
+        "Fügt nahen Gegnern körperlichen Schaden zu, stößt sie zurück und betäubt sie für 5 Sek."
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_13900 = "Feuriger Ausbruch"
+    IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_13900 =
+        "Fügt Gegnern im betroffenen Bereich Feuerschaden zu."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

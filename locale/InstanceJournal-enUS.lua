@@ -2033,6 +2033,13 @@ IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15087 = "Evasion"
 IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15087 =
     "Increases dodge chance by 50% for 15 sec."
 
+IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_24375 = "War Stomp"
+IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_24375 =
+    "Deals Physical damage to nearby enemies, knocking them back and stunning them for 5 sec."
+IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_13900 = "Fiery Burst"
+IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_13900 =
+    "Deals Fire damage to enemies in the affected area."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
