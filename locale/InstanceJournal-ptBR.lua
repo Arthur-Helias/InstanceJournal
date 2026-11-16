@@ -1380,6 +1380,13 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
         "Reduz a resistência a Fogo dos inimigos próximos.\n\nRemova a maldição."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13880 = "Borrifo de Magma"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13880 =
+        "Causa dano de Fogo imediatamente e a cada 3 s por 30 s, além de reduzir a armadura do alvo."
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13895 = "Invocar Cria de Bael’Gar"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
+        "Invoca uma Cria de Bael’Gar e causa dano de Fogo aos inimigos próximos ao ponto de invocação."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

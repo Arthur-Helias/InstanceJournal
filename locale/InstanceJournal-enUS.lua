@@ -1860,6 +1860,13 @@ IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_NAME_26977 = "Curse of the Elemental Lord"
 IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
     "Reduces the Fire resistance of nearby enemies.\n\nRemove the curse."
 
+IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13880 = "Magma Splash"
+IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13880 =
+    "Deals Fire damage immediately and every 3 sec. for 30 sec., and reduces the target’s armor."
+IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13895 = "Summon Spawn of Bael'Gar"
+IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
+    "Summons a Spawn of Bael’Gar and deals Fire damage to enemies near the summoning point."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

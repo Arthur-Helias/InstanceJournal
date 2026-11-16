@@ -448,7 +448,7 @@ BRD.Bosses = {
             [6] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [11] = { -- NOTE: Missing abilities
+    [11] = {
         Id = "9016",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "baelgar" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "baelgar" .. IMPF,
@@ -456,6 +456,20 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9016,
         MapCoordinateX = 35.1,
         MapCoordinateY = 64.6,
+        Abilities = {
+            [1] = {
+                Id = "13880",
+                Icon = "Spell_Fire_Immolation",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13880,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13880
+            },
+            [2] = {
+                Id = "13895",
+                Icon = "Spell_Fire_LavaSpawn",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13895,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11802], DropChance = 25},
             [2] = {IJDB.I[11803], DropChance = 25},

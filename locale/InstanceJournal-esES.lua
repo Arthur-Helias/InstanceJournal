@@ -1383,6 +1383,13 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
         "Reduce la resistencia al Fuego de los enemigos cercanos.\n\nElimina la maldición."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13880 = "Salpicadura de magma"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13880 =
+        "Inflige daño de Fuego inmediato y cada 3 s durante 30 s, y reduce la armadura del objetivo."
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13895 = "Invocar engendro de Bael’Gar"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
+        "Invoca un engendro de Bael’Gar e inflige daño de Fuego a los enemigos cercanos al punto de invocación."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

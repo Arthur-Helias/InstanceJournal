@@ -1383,6 +1383,13 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
         "Réduit la résistance au Feu des ennemis proches.\n\nDissipez la malédiction."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13880 = "Éclaboussure de magma"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13880 =
+        "Inflige des dégâts de Feu immédiatement, puis toutes les 3 s pendant 30 s, et réduit l’armure de la cible."
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13895 = "Invocation d’un rejeton de Bael’Gar"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
+        "Invoque un rejeton de Bael’Gar et inflige des dégâts de Feu aux ennemis proches du point d’invocation."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

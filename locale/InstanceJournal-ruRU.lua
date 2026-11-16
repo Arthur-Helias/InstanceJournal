@@ -1408,6 +1408,13 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
         "Снижает сопротивление огню ближайших противников.\n\nСнимите проклятие."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13880 = "Магматические брызги"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13880 =
+        "Наносит урон от огня мгновенно и каждые 3 сек. в течение 30 сек., а также снижает броню цели."
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13895 = "Призыв порождения Бейл’Гора"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
+        "Призывает порождение Бейл’Гора и наносит урон от огня противникам рядом с местом призыва."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

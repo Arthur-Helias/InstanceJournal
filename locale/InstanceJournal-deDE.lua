@@ -1384,6 +1384,13 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
         "Verringert den Feuerwiderstand naher Gegner.\n\nEntfernt den Fluch."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13880 = "Magmaspritzer"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13880 =
+        "Verursacht sofort sowie 30 Sek. lang alle 3 Sek. Feuerschaden und verringert die Rüstung des Ziels."
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13895 = "Brut von Bael’Gar beschwören"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
+        "Beschwört eine Brut von Bael’Gar und fügt Gegnern nahe dem Beschwörungsort Feuerschaden zu."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

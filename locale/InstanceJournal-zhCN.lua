@@ -1954,6 +1954,13 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_9017_ABILITY_EFFECT_26977 =
         "降低附近敌人的火焰抗性。\n\n解除此诅咒。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13880 = "熔岩喷溅"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13880 =
+        "立即造成火焰伤害，并每3秒造成一次额外伤害，持续30秒，同时降低目标的护甲。"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13895 = "召唤贝尔加的产物"
+    IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
+        "召唤一只贝尔加的产物，并对召唤位置附近的敌人造成火焰伤害。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
