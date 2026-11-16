@@ -875,6 +875,9 @@ IJ_DB_DUNGEON_ZF_BOSS_STORY_7275 =
 IJ_DB_DUNGEON_ZF_BOSS_NAME_7267 = "Chief Ukorz Sandscalp"
 IJ_DB_DUNGEON_ZF_BOSS_STORY_7267 =
     "Chief Ukorz Sandscalp is obsessed with restoring his tribe to its former glory. He was raised on stories of a time when trolls lorded over their ancient lands without interference from goblins, gnomes, pirates, ogres, and other foreign interlopers. Sandscalp has called on his trusted comrade Ruuzlu to help him begin a new chapter in Sandfury history in the only way their tribe knows how: with swift and blinding violence."
+IJ_DB_DUNGEON_ZF_BOSS_7273_ABILITY_NAME_gahzrillasummoning = "Summoning"
+IJ_DB_DUNGEON_ZF_BOSS_7273_ABILITY_EFFECT_gahzrillasummoning =
+    "Use the Mallet of Zul’Farrak to ring the gong beside Gahz’rilla’s pool and summon her."
 IJ_DB_DUNGEON_ZF_BOSS_NAME_7273 = "Gahz'rilla"
 IJ_DB_DUNGEON_ZF_BOSS_STORY_7273 =
     "Legend has it that Gahz'rilla was an adored pet of the Old Gods, or even a demigod in her own right. Whatever the truth is, the Sandfury trolls have worshiped this monstrous hydra for thousands of years. Ever wary of the beast's icy wrath, the trolls will only rouse Gahz'rilla when they have plentiful sacrifices to sate the ravenous creature's appetite."
@@ -921,6 +924,9 @@ IJ_DB_DUNGEON_ST_STORY =
     "Thousands of years ago, the Gurubashi empire was plunged into a civil war by a powerful sect of priests, the Atal'ai, who sought to summon to Azeroth an avatar of their god of blood, Hakkar the Soulflayer. The Gurubashi people exiled the Atal'ai to the Swamp of Sorrows, where the priests built the Temple of Atal'Hakkar. Ysera, Aspect of the green dragonflight, sank the temple beneath the swamp and assigned wardens to ensure that the summoning rituals never be performed again."
 
 -- ST Bosses
+IJ_DB_DUNGEON_ST_BOSS_8580_ABILITY_NAME_atalalarionsummoning = "Summoning"
+IJ_DB_DUNGEON_ST_BOSS_8580_ABILITY_EFFECT_atalalarionsummoning =
+    "Activate the six serpent statues in this order: south, north, southwest, southeast, northwest, northeast. Atal’alarion appears in the pit below."
 IJ_DB_DUNGEON_ST_BOSS_NAME_8580 = "Atal'alarion"
 IJ_DB_DUNGEON_ST_BOSS_STORY_8580 = "Atal'alarion is the sworn protector of the idol found on the lowest level of the temple."
 IJ_DB_DUNGEON_ST_BOSS_NAME_5708 = "Spawn of Hakkar"
@@ -951,6 +957,9 @@ IJ_DB_DUNGEON_ST_BOSS_STORY_5722 = "One of the four drake under the direct comma
 IJ_DB_DUNGEON_ST_BOSS_NAME_5709 = "Shade of Eranikus"
 IJ_DB_DUNGEON_ST_BOSS_STORY_5709 =
     "Eranikus, former consort to Ysera the Dreamer, was sent to guard the ruins of Atal'Hakkar and prevent Hakkar's emergence. Once within the temple, he and his retinue were corrupted by its dark forces, and he became a shade, pulled between the realms of the Emerald Dream and the physical plane. Despite his corruption, Eranikus may still call upon his powers as a green dragon to spew corrosive acid at his enemies or trap them in a deep slumber."
+IJ_DB_DUNGEON_ST_BOSS_8443_ABILITY_NAME_avatarsummoning = "Summoning"
+IJ_DB_DUNGEON_ST_BOSS_8443_ABILITY_EFFECT_avatarsummoning =
+    "Use the Egg of Hakkar in the Sanctum of the Fallen God to begin the ritual. Defeat the Hakkari Bloodkeepers, collect their Hakkari Blood, and use it to extinguish all four eternal flames to summon the Avatar of Hakkar."
 IJ_DB_DUNGEON_ST_BOSS_NAME_8443 = "Avatar of Hakkar"
 IJ_DB_DUNGEON_ST_BOSS_STORY_8443 =
     "Hakkar was notorious for demanding sacrifices from his followers. Many millennia ago, he instructed the Atal'ai to bring for this avatar, using blood ritually drained from living victims to feed him. The Atal'ai priests now seek to raise Hakkar's avatar with a modified version of this ritual, one that involves sacrificing green dragons. If the Atal'ai succeed, the re-emergence of Hakkar's avatar could spell doom for Azeroth."
@@ -2295,6 +2304,9 @@ IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_16636 =
 IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_15570 = "Immolate"
 IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_15570 =
     "Deals Fire damage, followed by additional Fire damage every 3 seconds for 21 seconds.\n\nDispel this magic effect."
+IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_valthalaksummoning = "Summoning"
+IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_valthalaksummoning =
+    "Defeat The Beast, then use the Brazier of Beckoning in its chamber to summon Lord Valthalak during the Dungeon Set 2 questline."
 IJ_DB_DUNGEON_UBRS_BOSS_NAME_16042 = "Lord Valthalak"
 IJ_DB_DUNGEON_UBRS_BOSS_STORY_16042 =
     "A drakonid noble and a warlock of immense power, Valthalak was the former General of Blackrock Spire before Drakkisath rose to power. He was slain by the Veiled Blade mercenary company for his spellbook, but ended up avenging himself even after his death using his necromantic powers."
@@ -2587,8 +2599,14 @@ IJ_DB_DUNGEON_RFD_STORY =
     "Legends state that where the demigod Agamaggan fell, his blood gave rise to great masses of thorny vines. Many quilboar have taken up residence in the largest cluster of giant thorns, the Razorfen, which they revere as Agamaggan's resting place. Recently, scouts have reported seeing undead milling about the region, engendering fears that the dreaded Scourge may be moving to conquer Kalimdor."
 
 -- RFD Bosses
+IJ_DB_DUNGEON_RFD_BOSS_7356_ABILITY_NAME_plaguemawevent = "Quest Event"
+IJ_DB_DUNGEON_RFD_BOSS_7356_ABILITY_EFFECT_plaguemawevent =
+    "Begin Extinguishing the Idol with Belnistrasz in Razorfen Downs. Escort him to the idol and protect him during the ritual; Plaguemaw the Rotting appears during this quest event."
 IJ_DB_DUNGEON_RFD_BOSS_NAME_7356 = "Plaguemaw the Rotting"
 IJ_DB_DUNGEON_RFD_BOSS_STORY_7356 = "A rotting abomination sent to kill any adventurers that dares enter Razorfen Downs."
+IJ_DB_DUNGEON_RFD_BOSS_7355_ABILITY_NAME_tutenkashsummoning = "Summoning"
+IJ_DB_DUNGEON_RFD_BOSS_7355_ABILITY_EFFECT_tutenkashsummoning =
+    "Ring the gong three times, defeating the enemies between activations. The first two summon waves of spiders; the third brings Tuten’kash."
 IJ_DB_DUNGEON_RFD_BOSS_NAME_7355 = "Tuten'kash"
 IJ_DB_DUNGEON_RFD_BOSS_STORY_7355 =
     "Though blinded during the War of the Spider before his conversion to undeath, Tuten'kash still serves the Scourge as one of its deadliest crypt fiend commanders. Tutaen'kash compensates for his blindness by decorating his lair with fine, almost invisible webs that allow him to sense every footstep and the lightest touch, alerting him to send out minions to ambush his hapless prey. Strong vibrations can send him into a disoriented rage, drawing him from his hiding spot deep within Razorfen Downs' recesses."
@@ -2699,6 +2717,9 @@ IJ_DB_DUNGEON_SCHOLO_STORY =
 
 -- Additional Dungeon Set 2 encounters and Darkreaver quests
 -- SCHOLO Bosses
+IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_kirtonossummoning = "Summoning"
+IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_kirtonossummoning =
+    "Place Blood of Innocents in the brazier on Scholomance’s porch to summon Kirtonos."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10506 = "Kirtonos the Herald"
 IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10506 =
     "Long ago, he became the master of Scholomance's Doctor Theolen Krastinov. Responsible for many of the atrocities during Krastinov's rule over Scholomance, Kirtonos fed on the blood of his innocent victims. To appease his master, Doctor Krastinov had to provide the gargoyle with more and more blood."
@@ -2796,6 +2817,9 @@ IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_18763 =
 IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_NAME_26070 = "Fear"
 IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_26070 =
     "Causes enemies within 45 yards to flee in fear for up to 8 seconds.\n\nDispel this magic effect."
+IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_NAME_kormoksummoning = "Summoning"
+IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_EFFECT_kormoksummoning =
+    "Use the Brazier of Beckoning in Ras Frostwhisper’s chamber to summon Kormok during the Dungeon Set 2 questline."
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_16118 = "Kormok"
 IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_16118 =
     "Kormok is an ogre necromancer boss found in Scholomance. One of his heads was always cheerful if not a little foolish, while the other was sly, calculating and had an almost dead look to its eyes. While initially a mere mage and not being that bad as a member of the Veiled Blade, he became exposed to the necromantic side of magic and ended up delighting in summoning forth the souls of the banished dead of Purgation Isle. After quitting his mercenary company he enrolled at the Scholomance."
@@ -3143,6 +3167,9 @@ IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_EFFECT_15493 =
 IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_NAME_10310 = "Lay on Hands"
 IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_EFFECT_10310 =
     "Fully restores the health of the caster or an ally."
+IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_NAME_hammersmithsummoning = "Summoning"
+IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_EFFECT_hammersmithsummoning =
+    "Interact with the Blacksmithing Plans in the Scarlet Bastion to summon the boss."
 IJ_DB_DUNGEON_STRAT_BOSS_NAME_11120 = "Crimson Hammersmith"
 IJ_DB_DUNGEON_STRAT_BOSS_STORY_11120 = "A hammersmith from the Crimson Legion. Not much is known about him, other than he is very protective of his blacksmithing plans."
 IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_NAME_17445 = "Bone Smelt"
@@ -4157,6 +4184,9 @@ IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_24318 =
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_15117 = "Chained Spirits"
 IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117 =
     "Chained Spirits can revive fallen players during the fight."
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_edgesummoning = "Summoning"
+IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_edgesummoning =
+    "Use Gurubashi Mojo Madness to extinguish the Brazier of Madness at the Edge of Madness and summon one of its four spirits."
 IJ_DB_RAID_ZG_BOSS_NAME_15082 = "Edge of Madness"
 IJ_DB_RAID_ZG_BOSS_STORY_15082 =
     "At the Edge of Madness in Zul'Gurub, ancient tablets preserve the memory of four troll spirits: Gri'lek, the wanderer of the Iron Blood; Renataki, of the Thousand Blades, whose legend revels in pain and bloodshed; Hazza'rah, the Dreamweaver, wielder of nightmares; and Wushoolay, the Storm Witch, whose power is bound to the sky, rain, and earth.\n\nThe Tablet of Madness reveals the formula for Gurubashi Mojo Madness. Used to extinguish the Brazier of Madness, this alchemical offering calls one of these spirits back into the world of the living."
@@ -4212,6 +4242,9 @@ IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24682 =
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "Lightning Cloud"
 IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
     "Creates a lightning cloud with a 10-yard radius for 15 seconds, dealing 463 to 538 Nature damage initially and 875 to 1126 additional damage every 5 seconds.\n\nMove out of the cloud immediately."
+IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_gahzrankasummoning = "Summoning"
+IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_gahzrankasummoning =
+    "Load a Mudskunk Lure with five Zulian Mudskunks and use it at Pagle’s Pointe to summon Gahz’ranka."
 IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Gahz'ranka"
 IJ_DB_RAID_ZG_BOSS_STORY_15114 =
     "Gahz'ranka is a legendary hydra lurking in the waters of Zul'Gurub near Pagle's Pointe. Nat Pagle once visited these shores, leaving behind his fishing tackle and favorite measuring tape.\n\nAdventurers who return the tape learn how to lure the creature from the depths: a Mudskunk Lure, loaded with five Zulian Mudskunks and cast from Pagle's Pointe, brings the elusive hydra to the surface."
@@ -6350,6 +6383,9 @@ IJ_DB_RAID_WORLD_STORY =
 -- WORLD Bosses
 IJ_DB_RAID_WORLD_BOSS_NAME_6109 = "Azuregos"
 IJ_DB_RAID_WORLD_BOSS_STORY_6109 = "Azuregos is a powerful blue dragon who is trusted by Malygos with the safekeeping of the blue dragonflight's most precious artifacts."
+IJ_DB_RAID_WORLD_BOSS_59963_ABILITY_NAME_clackorasummoning = "Summoning"
+IJ_DB_RAID_WORLD_BOSS_59963_ABILITY_EFFECT_clackorasummoning =
+    "Offer an Ancient Idol of Cla’ckora, 10 Elemental Water, and 5 Lightning Eel at the Altar of Cla’ckora in Azshara to complete Altar of an Ancient Evil and summon Cla’ckora."
 IJ_DB_RAID_WORLD_BOSS_NAME_59963 = "Cla'ckora"
 IJ_DB_RAID_WORLD_BOSS_STORY_59963 =
     "Very little is recorded in the annals of Azeroth regarding Cla'ckora. Whether an ancient beast awakened from the deep or a forgotten monstrosity of a bygone era, its true nature and origins remain a complete enigma to even the most seasoned adventurers."

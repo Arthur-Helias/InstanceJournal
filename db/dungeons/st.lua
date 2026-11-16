@@ -36,9 +36,18 @@ ST.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "atalalarion" .. IMPF,
         Name = IJ_DB_DUNGEON_ST_BOSS_NAME_8580,
         Story = IJ_DB_DUNGEON_ST_BOSS_STORY_8580,
+        IsSummoned = true,
         MapCoordinateX = 50.0,
         MapCoordinateY = 45.5,
         MapIsBelow = true,
+        Abilities = {
+            [1] = {
+                Id = "atalalarionsummoning",
+                Icon = "INV_Misc_Statue_01",
+                Name = IJ_DB_DUNGEON_ST_BOSS_8580_ABILITY_NAME_atalalarionsummoning,
+                Effect = IJ_DB_DUNGEON_ST_BOSS_8580_ABILITY_EFFECT_atalalarionsummoning
+            }
+        },
         Loot = {
             [1] = {IJDB.I[10798], DropChance = 33}, 
             [2] = {IJDB.I[10799], DropChance = 33}, 
@@ -298,8 +307,17 @@ ST.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "avatar" .. IMPF,
         Name = IJ_DB_DUNGEON_ST_BOSS_NAME_8443,
         Story = IJ_DB_DUNGEON_ST_BOSS_STORY_8443,
+        IsSummoned = true,
         MapCoordinateX = 24.2,
         MapCoordinateY = 45.5,
+        Abilities = {
+            [1] = {
+                Id = "avatarsummoning",
+                Icon = "INV_Egg_02",
+                Name = IJ_DB_DUNGEON_ST_BOSS_8443_ABILITY_NAME_avatarsummoning,
+                Effect = IJ_DB_DUNGEON_ST_BOSS_8443_ABILITY_EFFECT_avatarsummoning
+            }
+        },
         Loot = {
             [1] = {IJDB.I[10838], DropChance = 17},
             [2] = {IJDB.I[10842], DropChance = 17},

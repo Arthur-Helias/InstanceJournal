@@ -547,10 +547,17 @@ ZG.Bosses = {
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "edge" .. IMPF,
         Name = IJ_DB_RAID_ZG_BOSS_NAME_15082,
         Story = IJ_DB_RAID_ZG_BOSS_STORY_15082,
+        IsSummoned = true,
         MapCoordinateX = 59.8,
         MapCoordinateY = 46.3,
         Abilities = {
             [1] = {
+                Id = "edgesummoning",
+                Icon = "INV_Potion_83",
+                Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_edgesummoning,
+                Effect = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_edgesummoning
+            },
+            [2] = {
                 Id = "grilek",
                 Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_grilek,
                 Icon = "INV_Misc_Head_Troll_01",
@@ -585,7 +592,7 @@ ZG.Bosses = {
                     }
                 }
             },
-            [2] = {
+            [3] = {
                 Id = "renataki",
                 Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_renataki,
                 Icon = "Ability_Stealth",
@@ -626,7 +633,7 @@ ZG.Bosses = {
                     }
                 }
             },
-            [3] = {
+            [4] = {
                 Id = "hazzarah",
                 Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_hazzarah,
                 Icon = "Spell_Shadow_Metamorphosis",
@@ -660,7 +667,7 @@ ZG.Bosses = {
                     }
                 }
             },
-            [4] = {
+            [5] = {
                 Id = "wushoolay",
                 Icon = "Spell_Nature_Lightning",
                 Name = IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_wushoolay,
@@ -706,23 +713,30 @@ ZG.Bosses = {
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "gahzranka" .. IMPF,
         Name = IJ_DB_RAID_ZG_BOSS_NAME_15114,
         Story = IJ_DB_RAID_ZG_BOSS_STORY_15114,
+        IsSummoned = true,
         MapCoordinateX = 55.8,
         MapCoordinateY = 36.1,
         Abilities = {
             [1] = {
+                Id = "gahzrankasummoning",
+                Icon = "INV_Misc_Fish_10",
+                Name = IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_gahzrankasummoning,
+                Effect = IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_gahzrankasummoning
+            },
+            [2] = {
                 Id = "16099", 
                 Icon = "Spell_Frost_FrostNova", 
                 Name = IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_16099, 
                 Effect = IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_16099, 
                 Flags = {IMAF.Tank, IMAF.Important}
             },
-            [2] = {
+            [3] = {
                 Id = "24326", 
                 Icon = "Ability_Devour", 
                 Name = IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_24326, 
                 Effect = IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_24326
             },
-            [3] = {
+            [4] = {
                 Id = "22421",
                 Icon = "Spell_Frost_SummonWaterElemental",
                 Name = IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_22421,

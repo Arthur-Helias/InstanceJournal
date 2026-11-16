@@ -971,6 +971,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_ZF_BOSS_NAME_7267 = "乌克兹·沙顶"
     IJ_DB_DUNGEON_ZF_BOSS_STORY_7267 =
         "酋长乌科兹·沙卡普一心想让他的部落恢复昔日的辉煌。他从小就听着这样的故事长大：巨魔统治着他们古老的土地，不受妖精、侏儒、海盗、食人魔和其他外来入侵者的干扰。沙顶呼吁他信任的战友鲁兹鲁帮助他以他们部落所知道的唯一方式开启沙怒历史的新篇章：迅速而致盲的暴力。"
+    IJ_DB_DUNGEON_ZF_BOSS_7273_ABILITY_NAME_gahzrillasummoning = "召唤"
+    IJ_DB_DUNGEON_ZF_BOSS_7273_ABILITY_EFFECT_gahzrillasummoning =
+        "使用祖尔法拉克之槌敲响加兹瑞拉水池旁的锣，以召唤她。"
     IJ_DB_DUNGEON_ZF_BOSS_NAME_7273 = "加兹瑞拉"
     IJ_DB_DUNGEON_ZF_BOSS_STORY_7273 =
         "传说加兹里拉是上古之神的宠爱宠物，甚至本身就是半神。不管真相是什么，沙怒巨魔几千年来一直崇拜这种可怕的九头蛇。巨魔们时刻警惕着这头野兽冰冷的愤怒，只有当他们有足够的祭品来满足这个贪婪生物的胃口时，他们才会唤醒加兹里拉。"
@@ -1017,6 +1020,9 @@ if GetLocale() == "zhCN" then
         "数千年前，古拉巴什帝国因一个强大的祭司教派阿塔莱而陷入内战，阿塔莱教派试图将他们的血神的化身——夺魂者哈卡召唤到艾泽拉斯。古拉巴什人将阿塔莱人流放到悲伤沼泽，祭司们在那里建造了阿塔哈卡神庙。伊瑟拉，绿龙军团的守护者，将神庙沉入了沼泽之下，并指派了看守以确保召唤仪式永远不会再次进行。"
 
     -- ST Bosses
+    IJ_DB_DUNGEON_ST_BOSS_8580_ABILITY_NAME_atalalarionsummoning = "召唤"
+    IJ_DB_DUNGEON_ST_BOSS_8580_ABILITY_EFFECT_atalalarionsummoning =
+        "按以下顺序激活六座蛇形雕像：南、北、西南、东南、西北、东北。阿塔拉利恩随后会出现在下方的深坑中。"
     IJ_DB_DUNGEON_ST_BOSS_NAME_8580 = "阿塔拉利恩"
     IJ_DB_DUNGEON_ST_BOSS_STORY_8580 = "阿塔拉里昂是神殿最底层神像的宣誓保护者。"
     IJ_DB_DUNGEON_ST_BOSS_NAME_5708 = "哈卡的后代"
@@ -1047,6 +1053,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_ST_BOSS_NAME_5709 = "伊兰尼库斯的阴影"
     IJ_DB_DUNGEON_ST_BOSS_STORY_5709 =
         "伊瑟拉的前配偶伊兰尼库斯被派去守卫阿塔哈卡的废墟并阻止哈卡的出现。一旦进入圣殿，他和他的随从就被黑暗力量所腐蚀，他变成了一个阴影，被拉扯在翡翠梦境和物理位面之间。尽管被腐化，伊兰尼库斯仍然可以召唤他作为绿龙的力量向他的敌人喷出腐蚀性酸液或将他们困在深度睡眠中。"
+    IJ_DB_DUNGEON_ST_BOSS_8443_ABILITY_NAME_avatarsummoning = "召唤"
+    IJ_DB_DUNGEON_ST_BOSS_8443_ABILITY_EFFECT_avatarsummoning =
+        "在堕落之神的圣地使用哈卡之卵开始仪式。击败哈卡莱护血者，收集哈卡莱之血，并用其熄灭全部四处永恒之火，以召唤哈卡的化身。"
     IJ_DB_DUNGEON_ST_BOSS_NAME_8443 = "哈卡的化身"
     IJ_DB_DUNGEON_ST_BOSS_STORY_8443 =
         "哈卡因要求追随者做出牺牲而臭名昭著。几千年前，他指示阿塔莱带来这个化身，用仪式上从活体受害者身上抽取的血液来喂养他。阿塔莱祭司现在寻求通过这一仪式的修改版本来提升哈卡的化身，其中包括牺牲绿龙。如果阿塔莱成功，哈卡化身的重新出现可能会给艾泽拉斯带来毁灭。"
@@ -2388,6 +2397,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_15570 = "献祭"
     IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_15570 =
         "造成火焰伤害，随后每3秒造成额外火焰伤害，持续21秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_valthalaksummoning = "召唤"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_valthalaksummoning =
+        "击败比斯巨兽后，在它的房间使用召唤火盆，召唤瓦塔拉克公爵，完成地下城套装2任务线的相关任务。"
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_16042 = "瓦萨拉克"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_16042 =
         "瓦尔塔拉克是一位龙族贵族和拥有巨大力量的术士，在达基萨斯掌权之前曾是黑石塔的前将军。他因魔法书而被面纱之刃佣兵团杀害，但死后仍利用死灵力量为自己报仇。"
@@ -2680,8 +2692,14 @@ if GetLocale() == "zhCN" then
         "传说，半神阿迦玛甘倒下的地方，他的血液长出了大团带刺的藤蔓。许多野猪人已经在最大的巨荆棘丛中定居下来，剃刀沼泽，他们将这里视为阿迦玛甘的安息之所。最近，侦察兵报告称看到不死生物在该地区徘徊，引发人们担心可怕的天灾军团可能会征服卡利姆多。"
 
     -- RFD Bosses
+    IJ_DB_DUNGEON_RFD_BOSS_7356_ABILITY_NAME_plaguemawevent = "任务事件"
+    IJ_DB_DUNGEON_RFD_BOSS_7356_ABILITY_EFFECT_plaguemawevent =
+        "在剃刀高地的奔尼斯特拉兹处开始“封印神像”任务。护送他前往神像，并在仪式期间保护他；腐烂的普雷莫尔会在此任务事件中出现。"
     IJ_DB_DUNGEON_RFD_BOSS_NAME_7356 = "腐烂的普雷莫尔"
     IJ_DB_DUNGEON_RFD_BOSS_STORY_7356 = "一个腐烂的怪物被派去杀死任何胆敢进入剃刀高地的冒险者。"
+    IJ_DB_DUNGEON_RFD_BOSS_7355_ABILITY_NAME_tutenkashsummoning = "召唤"
+    IJ_DB_DUNGEON_RFD_BOSS_7355_ABILITY_EFFECT_tutenkashsummoning =
+        "敲响锣三次，每次敲击后先击败出现的敌人。前两次召来一波波蜘蛛，第三次则召来图特卡什。"
     IJ_DB_DUNGEON_RFD_BOSS_NAME_7355 = "图特卡什"
     IJ_DB_DUNGEON_RFD_BOSS_STORY_7355 =
         "尽管图腾卡什在转变为亡灵之前在蜘蛛之战中失明，但他仍然作为天灾军团最致命的地穴恶魔指挥官之一服务于天灾军团。图坦卡什用几乎看不见的细网装饰了他的巢穴，让他能够感觉到每一个脚步声和最轻微的触摸，提醒他派出爪牙伏击他不幸的猎物，以此来弥补他的失明。强烈的震动会让他陷入一种迷失方向的愤怒，把他从剃刀丘陵深处的藏身之处拉出来。"
@@ -2792,6 +2810,9 @@ if GetLocale() == "zhCN" then
 
     -- Additional Dungeon Set 2 encounters and Darkreaver quests
     -- SCHOLO Bosses
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_kirtonossummoning = "召唤"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_kirtonossummoning =
+        "将无辜者之血放入通灵学院露台上的火盆，以召唤传令官基尔图诺斯。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10506 = "传令官基尔图诺斯"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10506 =
         "很久以前，基尔托诺斯便成为了通灵学院的瑟尔林·卡斯迪诺夫教授的仆从。它以无辜受害者的鲜血为食，对卡斯迪诺夫统治通灵学院期间的许多暴行都负有责任。为了安抚自己的主人，卡斯迪诺夫博士不得不为这只石像鬼提供越来越多的鲜血。"
@@ -2889,6 +2910,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_NAME_26070 = "恐惧术"
     IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_26070 =
         "使45码内的敌人因恐惧而逃跑，最多持续8秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_NAME_kormoksummoning = "召唤"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_EFFECT_kormoksummoning =
+        "在莱斯·霜语的房间使用召唤火盆，召唤库尔莫克，完成地下城套装2任务线的相关任务。"
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_16118 = "库尔莫克"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_16118 =
         "科尔莫克是通灵学院中的食人魔死灵法师老大。他的一个脑袋总是开朗，甚至有点愚蠢，而另一个脑袋却很狡猾，精于算计，眼神几乎是死气沉沉的。虽然最初只是一名法师，作为面纱之刃的一员，他的表现并不算糟糕，但他接触到了魔法的死灵一面，并最终以召唤炼狱岛被放逐的死者的灵魂为乐。退出雇佣兵公司后，他加入了通灵学院。"
@@ -3273,6 +3297,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_NAME_10310 = "圣疗术"
     IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_EFFECT_10310 =
         "为施法者或一名盟友恢复全部生命值。"
+    IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_NAME_hammersmithsummoning = "召唤"
+    IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_EFFECT_hammersmithsummoning =
+        "与血色堡垒内的锻造图纸互动，以召唤首领。"
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_11120 = "红衣铸锤师"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_11120 = "来自赤红军团的锤匠。人们对他知之甚少，只知道他非常保护自己的锻造计划。"
     IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_NAME_17445 = "熔化白骨"
@@ -4281,6 +4308,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_15117 = "被禁锢的灵魂"
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117 =
         "被禁锢的灵魂可以在战斗中复活阵亡玩家。"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_edgesummoning = "召唤"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_edgesummoning =
+        "在疯狂之缘使用古拉巴什疯狂魔精熄灭疯狂之火，召唤四位灵魂中的一位。"
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "疯狂之缘"
     IJ_DB_RAID_ZG_BOSS_STORY_15082 =
         "在祖尔格拉布的疯狂之缘，古老的石板记载着四位巨魔之灵：拥有铁血之名的游荡者格里雷克；以痛苦和杀戮闻名的千刃雷纳塔基；掌控梦魇的织梦者哈扎拉；以及力量与天空、雨水和大地相连的风暴巫师乌苏雷。\n\n疯狂石板记载着古拉巴什疯狂魔精的配方。用这种炼金祭品熄灭疯狂火盆的火焰，便能将其中一位巨魔之灵召回生者的世界。"
@@ -4336,6 +4366,9 @@ if GetLocale() == "zhCN" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "闪电之云"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
         "制造一片半径10码、持续15秒的闪电云，初始造成463至538点自然伤害，之后每5秒额外造成875至1126点伤害。\n\n立即离开闪电云。"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_gahzrankasummoning = "召唤"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_gahzrankasummoning =
+        "将5条祖利安臭泥鱼装入臭泥鱼诱饵，在帕格渔点使用以召唤加兹兰卡。"
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "加兹兰卡"
     IJ_DB_RAID_ZG_BOSS_STORY_15114 =
         "加兹兰卡是一头传说中的多头蛇，潜伏在祖尔格拉布帕格渔点附近的水域中。纳特·帕格曾到访这片河岸，并将渔具和最心爱的卷尺遗落在此。\n\n归还卷尺的冒险者会得知如何将这头巨兽引出深水：把五条祖利安臭泥鱼装入臭泥鱼诱饵，再从帕格渔点抛入水中，便能引出这头难觅踪影的多头蛇。"
@@ -6460,6 +6493,9 @@ if GetLocale() == "zhCN" then
     -- WORLD Bosses
     IJ_DB_RAID_WORLD_BOSS_NAME_6109 = "艾索雷葛斯"
     IJ_DB_RAID_WORLD_BOSS_STORY_6109 = "阿祖雷戈斯是一条强大的蓝龙，受到玛里苟斯的信任，负责保管蓝龙军团最珍贵的神器。"
+    IJ_DB_RAID_WORLD_BOSS_59963_ABILITY_NAME_clackorasummoning = "召唤"
+    IJ_DB_RAID_WORLD_BOSS_59963_ABILITY_EFFECT_clackorasummoning =
+        "在艾萨拉的克拉柯拉祭坛献上1个克拉柯拉的远古雕像、10份元素之水和5条电鳗，完成“远古邪恶的祭坛”并召唤克拉柯拉。"
     IJ_DB_RAID_WORLD_BOSS_NAME_59963 = "克拉科拉"
     IJ_DB_RAID_WORLD_BOSS_STORY_59963 =
         "艾泽拉斯的编年史中关于克拉科拉的记载很少。无论是从深海中苏醒的远古野兽，还是过去时代被遗忘的怪物，它的真实本质和起源对于即使是最有经验的冒险家来说仍然是一个完整的谜。"

@@ -410,6 +410,7 @@ DME.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "isalien" .. IMPF,
         Name = IJ_DB_DUNGEON_DME_BOSS_NAME_16097,
         Story = IJ_DB_DUNGEON_DME_BOSS_STORY_16097,
+        IsSummoned = true,
         Abilities = {
             [1] = {
                 Id = "summoning",

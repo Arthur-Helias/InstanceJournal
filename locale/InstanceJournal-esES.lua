@@ -683,6 +683,9 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_ZF_BOSS_NAME_7267 = "Jefe Ukorz Piel de Arena"
     IJ_DB_DUNGEON_ZF_BOSS_STORY_7267 =
         "El jefe Ukorz Sandscalp está obsesionado con devolverle a su tribu su antigua gloria. Se crió con historias de una época en la que los trolls dominaban sus antiguas tierras sin la interferencia de duendes, gnomos, piratas, ogros y otros intrusos extranjeros. Sandscalp ha pedido a su camarada de confianza Ruuzlu que le ayude a comenzar un nuevo capítulo en la historia de Sandfury de la única manera que su tribu sabe: con una violencia rápida y cegadora."
+    IJ_DB_DUNGEON_ZF_BOSS_7273_ABILITY_NAME_gahzrillasummoning = "Invocación"
+    IJ_DB_DUNGEON_ZF_BOSS_7273_ABILITY_EFFECT_gahzrillasummoning =
+        "Usad la Marra de Zul’Farrak para tocar el gong junto al estanque de Gahz’rilla e invocarla."
     IJ_DB_DUNGEON_ZF_BOSS_NAME_7273 = "Gahz'rilla"
     IJ_DB_DUNGEON_ZF_BOSS_STORY_7273 =
         "Cuenta la leyenda que Gahz'rilla era una mascota adorada por los dioses antiguos, o incluso una semidiós por derecho propio. Cualquiera que sea la verdad, los trolls Furia de Arena han adorado a esta monstruosa hidra durante miles de años. Siempre cautelosos ante la ira helada de la bestia, los trolls sólo despertarán a Gahz'rilla cuando tengan abundantes sacrificios para saciar el apetito de la voraz criatura."
@@ -698,6 +701,9 @@ if GetLocale() == "esES" then
         "Hace miles de años, el imperio Gurubashi se vio sumido en una guerra civil por una poderosa secta de sacerdotes, los Atal'ai, que buscaban convocar a Azeroth a un avatar de su dios de la sangre, Hakkar el Desollador de Almas. El pueblo Gurubashi exilió a los Atal'ai al Pantano de los Dolores, donde los sacerdotes construyeron el Templo de Atal'Hakkar. Ysera, Aspecto del Vuelo Verde, hundió el templo debajo del pantano y asignó guardianes para garantizar que los rituales de invocación nunca se volvieran a realizar."
 
     -- ST Bosses
+    IJ_DB_DUNGEON_ST_BOSS_8580_ABILITY_NAME_atalalarionsummoning = "Invocación"
+    IJ_DB_DUNGEON_ST_BOSS_8580_ABILITY_EFFECT_atalalarionsummoning =
+        "Activad las seis estatuas de serpiente en este orden: sur, norte, suroeste, sureste, noroeste y noreste. Atal’alarion aparece en el foso inferior."
     IJ_DB_DUNGEON_ST_BOSS_NAME_8580 = "Atal'alarion"
     IJ_DB_DUNGEON_ST_BOSS_STORY_8580 = "Atal'alarion es el protector jurado del ídolo que se encuentra en el nivel más bajo del templo."
     IJ_DB_DUNGEON_ST_BOSS_NAME_5708 = "Engendro de Hakkar"
@@ -728,6 +734,9 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_ST_BOSS_NAME_5709 = "Sombra de Eranikus"
     IJ_DB_DUNGEON_ST_BOSS_STORY_5709 =
         "Eranikus, ex consorte de Ysera la Soñadora, fue enviado a proteger las ruinas de Atal'Hakkar y evitar la aparición de Hakkar. Una vez dentro del templo, él y su séquito fueron corrompidos por las fuerzas oscuras y se convirtió en una sombra, arrastrada entre los reinos del Sueño Esmeralda y el plano físico. A pesar de su corrupción, Eranikus aún puede recurrir a sus poderes de dragón verde para arrojar ácido corrosivo a sus enemigos o atraparlos en un sueño profundo."
+    IJ_DB_DUNGEON_ST_BOSS_8443_ABILITY_NAME_avatarsummoning = "Invocación"
+    IJ_DB_DUNGEON_ST_BOSS_8443_ABILITY_EFFECT_avatarsummoning =
+        "Usad el Huevo de Hakkar en el Sagrario del Dios Caído para iniciar el ritual. Derrotad a los Guardianes de sangre Hakkari, recoged su Sangre Hakkari y usadla para apagar las cuatro llamas eternas e invocar al Avatar de Hakkar."
     IJ_DB_DUNGEON_ST_BOSS_NAME_8443 = "Avatar de Hakkar"
     IJ_DB_DUNGEON_ST_BOSS_STORY_8443 =
         "Hakkar era conocido por exigir sacrificios a sus seguidores. Hace muchos milenios, ordenó a los Atal'ai que trajeran para este avatar, utilizando sangre extraída ritualmente de víctimas vivas para alimentarlo. Los sacerdotes Atal'ai ahora buscan resucitar el avatar de Hakkar con una versión modificada de este ritual, que implica sacrificar dragones verdes. Si los Atal'ai tienen éxito, el resurgimiento del avatar de Hakkar podría significar la perdición para Azeroth."
@@ -1610,6 +1619,9 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_NAME_15570 = "Inmolar"
     IJ_DB_DUNGEON_UBRS_BOSS_10430_ABILITY_EFFECT_15570 =
         "Inflige daño de Fuego, seguido de daño de Fuego adicional cada 3 segundos durante 21 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_valthalaksummoning = "Invocación"
+    IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_valthalaksummoning =
+        "Derrotad a La Bestia y usad el Brasero de Señalización en su cámara para invocar a Lord Valthalak durante la cadena de misiones del conjunto de mazmorra 2."
     IJ_DB_DUNGEON_UBRS_BOSS_NAME_16042 = "Señor Valthalak"
     IJ_DB_DUNGEON_UBRS_BOSS_STORY_16042 =
         "Valthalak, un noble dracónido y un brujo de inmenso poder, fue el ex general de Blackrock Spire antes de que Drakkisath llegara al poder. Fue asesinado por la compañía mercenaria Veiled Blade por su libro de hechizos, pero terminó vengándose incluso después de su muerte usando sus poderes nigrománticos."
@@ -1733,8 +1745,14 @@ if GetLocale() == "esES" then
         "Las leyendas cuentan que donde cayó el semidiós Agamaggan, su sangre dio lugar a grandes masas de enredaderas espinosas. Muchos jabaespines se han instalado en el mayor grupo de espinas gigantes, el Razorfen, al que veneran como lugar de descanso de Agamaggan. Recientemente, los exploradores han informado haber visto muertos vivientes pululando por la región, generando temores de que la temida Plaga pueda estar moviéndose para conquistar Kalimdor."
 
     -- RFD Bosses
+    IJ_DB_DUNGEON_RFD_BOSS_7356_ABILITY_NAME_plaguemawevent = "Evento de misión"
+    IJ_DB_DUNGEON_RFD_BOSS_7356_ABILITY_EFFECT_plaguemawevent =
+        "Iniciad Extinguiendo el ídolo con belnistrasz en Zahúrda Rajacieno. Escoltadlo hasta el ídolo y protegedlo durante el ritual; Fauces de Peste el Podrido aparece durante este evento de misión."
     IJ_DB_DUNGEON_RFD_BOSS_NAME_7356 = "Fauces de Peste el Podrido"
     IJ_DB_DUNGEON_RFD_BOSS_STORY_7356 = "Una abominación podrida enviada para matar a cualquier aventurero que se atreva a entrar en Razorfen Downs."
+    IJ_DB_DUNGEON_RFD_BOSS_7355_ABILITY_NAME_tutenkashsummoning = "Invocación"
+    IJ_DB_DUNGEON_RFD_BOSS_7355_ABILITY_EFFECT_tutenkashsummoning =
+        "Tocad el gong tres veces, derrotando a los enemigos entre activaciones. Las dos primeras invocan oleadas de arañas; la tercera atrae a Tuten’kash."
     IJ_DB_DUNGEON_RFD_BOSS_NAME_7355 = "Tuten'kash"
     IJ_DB_DUNGEON_RFD_BOSS_STORY_7355 =
         "Aunque quedó cegado durante la Guerra de la Araña antes de su conversión a no-muerto, Tuten'kash todavía sirve a la Plaga como uno de sus comandantes demoníacos de cripta más mortíferos. Tutaen'kash compensa su ceguera decorando su guarida con finas redes casi invisibles que le permiten sentir cada paso y el más ligero toque, alertándole para que envíe secuaces a emboscar a su desventurada presa. Las vibraciones fuertes pueden provocarle una ira desorientada, sacándole de su escondite en lo más profundo de los rincones de Razorfen Downs."
@@ -1792,6 +1810,9 @@ if GetLocale() == "esES" then
 
     -- Additional Dungeon Set 2 encounters and Darkreaver quests
     -- SCHOLO Bosses
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_kirtonossummoning = "Invocación"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_kirtonossummoning =
+        "Colocad Sangre de inocentes en el brasero del balcón de Scholomance para invocar a Kirtonos."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10506 = "Kirtonos el Heraldo"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10506 =
         "Hace mucho tiempo se convirtió en el maestro del Doctor Theolen Krastinov de Scholomance. Responsable de muchas de las atrocidades durante el gobierno de Krastinov sobre Scholomance, Kirtonos se alimentaba de la sangre de sus víctimas inocentes. Para apaciguar a su amo, el doctor Krastinov tuvo que proporcionarle a la gárgola cada vez más sangre."
@@ -1890,6 +1911,9 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_NAME_26070 = "Miedo"
     IJ_DB_DUNGEON_SCHOLO_BOSS_10508_ABILITY_EFFECT_26070 =
         "Hace huir de miedo a los enemigos en un radio de 45 metros durante un máximo de 8 segundos.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_NAME_kormoksummoning = "Invocación"
+    IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_EFFECT_kormoksummoning =
+        "Usad el Brasero de Señalización en la cámara de Ras Murmuhielo para invocar a Kormok durante la cadena de misiones del conjunto de mazmorra 2."
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_16118 = "Kormok"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_16118 =
         "Kormok es un jefe nigromante ogro que se encuentra en Scholomance. Una de sus cabezas era siempre alegre, si no un poco tonta, mientras que la otra era astuta, calculadora y tenía una mirada casi muerta en los ojos. Aunque inicialmente era un simple mago y no era tan malo como miembro de Veiled Blade, quedó expuesto al lado nigromántico de la magia y terminó deleitándose en convocar las almas de los muertos desterrados de la Isla de la Purgación. Después de dejar su compañía mercenaria se matriculó en Scholomance."
@@ -2101,6 +2125,9 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_NAME_10310 = "Imposición de manos"
     IJ_DB_DUNGEON_STRAT_BOSS_11032_ABILITY_EFFECT_10310 =
         "Restaura por completo la salud del taumaturgo o de un aliado."
+    IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_NAME_hammersmithsummoning = "Invocación"
+    IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_EFFECT_hammersmithsummoning =
+        "Interactuad con los Diseños de herrería en el Bastión Escarlata para invocar al jefe."
     IJ_DB_DUNGEON_STRAT_BOSS_NAME_11120 = "Martillo carmesí"
     IJ_DB_DUNGEON_STRAT_BOSS_STORY_11120 = "Un herrero de la Crimson Legion. No se sabe mucho sobre él, aparte de que es muy protector con sus planes de herrería."
     IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_NAME_17445 = "Fundir huesos"
@@ -2602,6 +2629,9 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_NAME_15117 = "Espíritus encadenados"
     IJ_DB_RAID_ZG_BOSS_11382_ABILITY_EFFECT_15117 =
         "Los Espíritus encadenados pueden revivir a los jugadores caídos durante la lucha."
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_edgesummoning = "Invocación"
+    IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_edgesummoning =
+        "Usad Locura de mojo Gurubashi para apagar el Brasero de la Locura en el Confín de la Locura e invocar a uno de sus cuatro espíritus."
     IJ_DB_RAID_ZG_BOSS_NAME_15082 = "Borde de la locura"
     IJ_DB_RAID_ZG_BOSS_STORY_15082 =
         "En el Filo de la Locura de Zul'Gurub, antiguas tablillas conservan la memoria de cuatro espíritus trol: Gri'lek, el vagabundo de Sangre de Hierro; Renataki, de las Mil Hojas, cuya leyenda celebra el dolor y el derramamiento de sangre; Hazza'rah, el Tejesueños, señor de las pesadillas; y Wushoolay, el Brujo de la Tormenta, cuyo poder está ligado al cielo, la lluvia y la tierra.\n\nLa Tablilla de la Locura revela la fórmula de la Locura de mojo Gurubashi. Utilizada para apagar el Brasero de la Locura, esta ofrenda alquímica devuelve a uno de estos espíritus al mundo de los vivos."
@@ -2657,6 +2687,9 @@ if GetLocale() == "esES" then
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_NAME_24683 = "Nube de relámpagos"
     IJ_DB_RAID_ZG_BOSS_15082_ABILITY_EFFECT_24683 =
         "Crea una nube de relámpagos de 10 metros de radio durante 15 segundos, que inflige de 463 a 538 de daño de Naturaleza inicialmente y de 875 a 1126 de daño adicional cada 5 segundos.\n\nSal de la nube inmediatamente."
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_NAME_gahzrankasummoning = "Invocación"
+    IJ_DB_RAID_ZG_BOSS_15114_ABILITY_EFFECT_gahzrankasummoning =
+        "Cargad un Cebo de Fangoapestoso con cinco Fangoapestosos Zulian y usadlo en Punta de Pagle para invocar a Gahz’ranka."
     IJ_DB_RAID_ZG_BOSS_NAME_15114 = "Gahz'ranka"
     IJ_DB_RAID_ZG_BOSS_STORY_15114 =
         "Gahz'ranka es una hidra legendaria que acecha en las aguas de Zul'Gurub, cerca de la Punta de Pagle. Nat Pagle visitó estas orillas y dejó allí sus aparejos de pesca y su cinta métrica favorita.\n\nLos aventureros que devuelven la cinta descubren cómo atraer a la criatura desde las profundidades: un Cebo de Fangoapestoso, cargado con cinco Fangoapestosos zulianos y lanzado desde la Punta de Pagle, hace emerger a la esquiva hidra."
@@ -3698,6 +3731,9 @@ if GetLocale() == "esES" then
     -- WORLD Bosses
     IJ_DB_RAID_WORLD_BOSS_NAME_6109 = "Azurgos"
     IJ_DB_RAID_WORLD_BOSS_STORY_6109 = "Azuregos es un poderoso dragón azul en quien Malygos confía la custodia de los artefactos más preciados del Vuelo Azul."
+    IJ_DB_RAID_WORLD_BOSS_59963_ABILITY_NAME_clackorasummoning = "Invocación"
+    IJ_DB_RAID_WORLD_BOSS_59963_ABILITY_EFFECT_clackorasummoning =
+        "Ofreced un Ídolo antiguo de Cla’ckora, 10 Aguas elementales y 5 Anguilas relámpago en el Altar de Cla’ckora en Azshara para completar Altar de un mal ancestral e invocar a Cla’ckora."
     IJ_DB_RAID_WORLD_BOSS_NAME_59963 = "Cla'ckora"
     IJ_DB_RAID_WORLD_BOSS_STORY_59963 =
         "En los anales de Azeroth se registra muy poco sobre Cla'ckora. Ya sea una antigua bestia despertada de las profundidades o una monstruosidad olvidada de una época pasada, su verdadera naturaleza y orígenes siguen siendo un completo enigma incluso para los aventureros más experimentados."

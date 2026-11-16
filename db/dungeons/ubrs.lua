@@ -340,14 +340,21 @@ UBRS.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "valthalak" .. IMPF,
         Name = IJ_DB_DUNGEON_UBRS_BOSS_NAME_16042,
         Story = IJ_DB_DUNGEON_UBRS_BOSS_STORY_16042,
+        IsSummoned = true,
         Abilities = {
             [1] = {
+                Id = "valthalaksummoning",
+                Icon = "INV_Misc_Bowl_01",
+                Name = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_valthalaksummoning,
+                Effect = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_valthalaksummoning
+            },
+            [2] = {
                 Id = "27286",
                 Icon = "Spell_Shadow_SiphonMana",
                 Name = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_27286,
                 Effect = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_27286
             },
-            [2] = {
+            [3] = {
                 Id = "27249",
                 Icon = "Spell_Shadow_Charm",
                 Name = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_27249,
@@ -368,14 +375,14 @@ UBRS.Bosses = {
                     }
                 }
             },
-            [3] = {
+            [4] = {
                 Id = "8269",
                 Icon = "Spell_Shadow_UnholyFrenzy",
                 Name = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_8269,
                 Effect = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_EFFECT_8269,
                 Flags = {IMAF.Tank, IMAF.Heal}
             },
-            [4] = {
+            [5] = {
                 Id = "27383",
                 Icon = "Spell_Shadow_ShadowBolt",
                 Name = IJ_DB_DUNGEON_UBRS_BOSS_16042_ABILITY_NAME_27383,

@@ -36,8 +36,17 @@ RFD.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "plaguemaw" .. IMPF,
         Name = IJ_DB_DUNGEON_RFD_BOSS_NAME_7356,
         Story = IJ_DB_DUNGEON_RFD_BOSS_STORY_7356,
+        IsSummoned = true,
         MapCoordinateX = 36.3,
         MapCoordinateY = 17.8,
+        Abilities = {
+            [1] = {
+                Id = "plaguemawevent",
+                Icon = "INV_Misc_Book_09",
+                Name = IJ_DB_DUNGEON_RFD_BOSS_7356_ABILITY_NAME_plaguemawevent,
+                Effect = IJ_DB_DUNGEON_RFD_BOSS_7356_ABILITY_EFFECT_plaguemawevent
+            }
+        },
         Loot = {
             [1] = {IJDB.I[10760], DropChance = 33}, 
             [2] = {IJDB.I[10766], DropChance = 33}, 
@@ -51,8 +60,17 @@ RFD.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "tutenkash" .. IMPF,
         Name = IJ_DB_DUNGEON_RFD_BOSS_NAME_7355,
         Story = IJ_DB_DUNGEON_RFD_BOSS_STORY_7355,
+        IsSummoned = true,
         MapCoordinateX = 46.1,
         MapCoordinateY = 26.9,
+        Abilities = {
+            [1] = {
+                Id = "tutenkashsummoning",
+                Icon = "INV_Misc_Bell_01",
+                Name = IJ_DB_DUNGEON_RFD_BOSS_7355_ABILITY_NAME_tutenkashsummoning,
+                Effect = IJ_DB_DUNGEON_RFD_BOSS_7355_ABILITY_EFFECT_tutenkashsummoning
+            }
+        },
         Loot = {
             [1] = {IJDB.I[51217], DropChance = 1}, 
             [2] = {IJDB.I[10777], DropChance = 33}, 

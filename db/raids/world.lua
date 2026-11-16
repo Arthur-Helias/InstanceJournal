@@ -53,10 +53,19 @@ WORLD.Bosses = {
         Frame = IMP .. IMPR .. instanceMediaAcronym .. "clackora" .. IMPF,
         Name = IJ_DB_RAID_WORLD_BOSS_NAME_59963,
         Story = IJ_DB_RAID_WORLD_BOSS_STORY_59963,
+        IsSummoned = true,
         MapCoordinateX = 69.0,
         MapCoordinateY = 9.2,
         MapId = IMI.Kalimdor,
         MapZoneId = IZI.Azshara,
+        Abilities = {
+            [1] = {
+                Id = "clackorasummoning",
+                Icon = "INV_Misc_Idol_03",
+                Name = IJ_DB_RAID_WORLD_BOSS_59963_ABILITY_NAME_clackorasummoning,
+                Effect = IJ_DB_RAID_WORLD_BOSS_59963_ABILITY_EFFECT_clackorasummoning
+            }
+        },
         Loot = {
             [1] = {IJDB.I[55494], DropChance = 20},
             [2] = {IJDB.I[55495], DropChance = 20},

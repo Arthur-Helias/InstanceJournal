@@ -241,10 +241,17 @@ STRAT.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "hammersmith" .. IMPF,
         Name = IJ_DB_DUNGEON_STRAT_BOSS_NAME_11120,
         Story = IJ_DB_DUNGEON_STRAT_BOSS_STORY_11120,
+        IsSummoned = true,
         MapCoordinateX = 29.8,
         MapCoordinateY = 73.5,
         Abilities = {
             [1] = {
+                Id = "hammersmithsummoning",
+                Icon = "INV_Scroll_03",
+                Name = IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_NAME_hammersmithsummoning,
+                Effect = IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_EFFECT_hammersmithsummoning
+            },
+            [2] = {
                 Id = "17445",
                 Icon = "Spell_Shadow_RaiseDead",
                 Name = IJ_DB_DUNGEON_STRAT_BOSS_11120_ABILITY_NAME_17445,

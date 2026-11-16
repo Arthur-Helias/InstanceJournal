@@ -36,28 +36,35 @@ SCHOLO.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "kirtonos" .. IMPF,
         Name = IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10506,
         Story = IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10506,
+        IsSummoned = true,
         Abilities = {
             [1] = {
+                Id = "kirtonossummoning",
+                Icon = "INV_Potion_11",
+                Name = IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_kirtonossummoning,
+                Effect = IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_kirtonossummoning
+            },
+            [2] = {
                 Id = "18144",
                 Icon = "Ability_Warrior_Cleave",
                 Name = IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_18144,
                 Effect = IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_18144
             },
-            [2] = {
+            [3] = {
                 Id = "12882",
                 Icon = "Spell_Nature_EarthBind",
                 Name = IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_12882,
                 Effect = IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_12882,
                 Flags = {IMAF.Tank}
             },
-            [3] = {
+            [4] = {
                 Id = "6016",
                 Icon = "Spell_Shadow_VampiricAura",
                 Name = IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_6016,
                 Effect = IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_EFFECT_6016,
                 Flags = {IMAF.Tank, IMAF.Heal}
             },
-            [4] = {
+            [5] = {
                 Id = "8379",
                 Icon = "Ability_Warrior_Disarm",
                 Name = IJ_DB_DUNGEON_SCHOLO_BOSS_10506_ABILITY_NAME_8379,
@@ -346,15 +353,22 @@ SCHOLO.Bosses = {
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "kormok" .. IMPF,
         Name = IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_16118,
         Story = IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_16118,
+        IsSummoned = true,
         Abilities = {
             [1] = {
+                Id = "kormoksummoning",
+                Icon = "INV_Misc_Bowl_01",
+                Name = IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_NAME_kormoksummoning,
+                Effect = IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_EFFECT_kormoksummoning
+            },
+            [2] = {
                 Id = "27690",
                 Icon = "Spell_Shadow_RaiseDead",
                 Name = IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_NAME_27690,
                 Effect = IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_EFFECT_27690,
                 Flags = {IMAF.Important}
             },
-            [2] = {
+            [3] = {
                 Id = "17228",
                 Icon = "Spell_Shadow_ShadowBolt",
                 Name = IJ_DB_DUNGEON_SCHOLO_BOSS_16118_ABILITY_NAME_17228,
