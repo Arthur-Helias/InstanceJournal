@@ -1413,6 +1413,13 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
         "Rodea al taumaturgo de relámpagos que pueden dañar a los atacantes cuando lo golpean.\n\nElimina este beneficio mágico."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_9573 = "Aliento de llamas"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_9573 =
+        "Inflige daño de Fuego en un cono frente al taumaturgo."
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_14872 = "Ira ebria"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
+        "Aumenta la velocidad de ataque un 50% y el daño físico infligido durante 15 s."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

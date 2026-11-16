@@ -1438,6 +1438,13 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
         "Окружает заклинателя молниями, которые могут наносить урон атакующим при попадании.\n\nСнимите этот положительный магический эффект."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_9573 = "Пламенное дыхание"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_9573 =
+        "Наносит урон от огня в конусе перед заклинателем."
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_14872 = "Пьяная ярость"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
+        "Повышает скорость атаки на 50% и наносимый физический урон на 15 сек."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

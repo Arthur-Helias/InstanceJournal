@@ -1410,6 +1410,13 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
         "Envolve o lançador em raios que podem causar dano aos atacantes quando eles acertam um ataque.\n\nRemova este bônus mágico."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_9573 = "Sopro Flamejante"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_9573 =
+        "Causa dano de Fogo em um cone à frente do lançador."
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_14872 = "Fúria Embriagada"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
+        "Aumenta a velocidade de ataque em 50% e o dano físico causado por 15 s."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

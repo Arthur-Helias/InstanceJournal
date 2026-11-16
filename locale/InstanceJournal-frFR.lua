@@ -1413,6 +1413,13 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
         "Entoure le lanceur d’éclairs pouvant blesser les attaquants lorsqu’ils le touchent.\n\nDissipez cet effet bénéfique magique."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_9573 = "Souffle de flammes"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_9573 =
+        "Inflige des dégâts de Feu dans un cône devant le lanceur."
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_14872 = "Rage ivre"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
+        "Augmente la vitesse d’attaque de 50% et les dégâts physiques infligés pendant 15 s."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

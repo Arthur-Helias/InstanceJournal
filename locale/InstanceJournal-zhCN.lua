@@ -1984,6 +1984,13 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
         "使施法者周围环绕闪电，受到攻击时可能对攻击者造成伤害。\n\n驱散此增益魔法效果。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_9573 = "烈焰吐息"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_9573 =
+        "对施法者前方锥形区域内的敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_14872 = "醉酒狂怒"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
+        "使攻击速度提高50%，并提高造成的物理伤害，持续15秒。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

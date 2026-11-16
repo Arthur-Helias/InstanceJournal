@@ -1890,6 +1890,13 @@ IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_NAME_15507 = "Lightning Shield"
 IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
     "Surrounds the caster with lightning that can damage attackers when they hit.\n\nRemove this Magic buff."
 
+IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_9573 = "Flame Breath"
+IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_9573 =
+    "Deals Fire damage in a cone in front of the caster."
+IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_14872 = "Drunken Rage"
+IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
+    "Increases attack speed by 50% and increases Physical damage dealt for 15 sec."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

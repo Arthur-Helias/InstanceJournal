@@ -1414,6 +1414,13 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_8983_ABILITY_EFFECT_15507 =
         "Umhüllt den Zaubernden mit Blitzen, die Angreifern bei Treffern Schaden zufügen können.\n\nEntfernt diesen magischen Stärkungseffekt."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_9573 = "Flammenatem"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_9573 =
+        "Verursacht Feuerschaden in einem kegelförmigen Bereich vor dem Zaubernden."
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_14872 = "Betrunkene Wut"
+    IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
+        "Erhöht das Angriffstempo um 50% und den verursachten körperlichen Schaden für 15 Sek."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
