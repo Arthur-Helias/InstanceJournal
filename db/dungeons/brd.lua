@@ -479,7 +479,7 @@ BRD.Bosses = {
             [6] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [12] = { -- NOTE: Missing abilities
+    [12] = {
         Id = "9033",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "angerforge" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "angerforge" .. IMPF,
@@ -487,6 +487,33 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9033,
         MapCoordinateX = 42.7,
         MapCoordinateY = 66.2,
+        Abilities = {
+            [1] = {
+                Id = "15572",
+                Icon = "Ability_Warrior_Sunder",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15572,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15572,
+                Flags = {IMAF.Tank}
+            },
+            [2] = {
+                Id = "15061",
+                Icon = "Spell_Shadow_UnholyFrenzy",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15061,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15061
+            },
+            [3] = {
+                Id = "17687",
+                Icon = "Ability_GhoulFrenzy",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_17687,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_17687
+            },
+            [4] = {
+                Id = "reinforcements",
+                Icon = "Ability_Warrior_BattleShout",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_reinforcements,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11810], DropChance = 20},
             [2] = {IJDB.I[11816], DropChance = 20},

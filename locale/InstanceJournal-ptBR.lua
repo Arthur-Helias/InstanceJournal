@@ -1387,6 +1387,19 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
         "Invoca uma Cria de Bael’Gar e causa dano de Fogo aos inimigos próximos ao ponto de invocação."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15572 = "Fender Armadura"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15572 =
+        "Reduz a armadura do alvo por 30 s. Acumula até 5 vezes."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15061 = "Enfurecer"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15061 =
+        "Aumenta a velocidade de ataque em 30% por 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_17687 = "Ímpeto"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_17687 =
+        "Pode ganhar 30% de velocidade de ataque após acertar um ataque corpo a corpo crítico."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_reinforcements = "Reforços"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
+        "Inicia a luta acompanhado de quatro reservistas. Mais reservistas e médicos podem entrar na luta quando sua vida está baixa. Controle os reforços e impeça as curas dos médicos."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

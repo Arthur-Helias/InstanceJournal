@@ -1390,6 +1390,19 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
         "Invoca un engendro de Bael’Gar e inflige daño de Fuego a los enemigos cercanos al punto de invocación."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15572 = "Hender armadura"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15572 =
+        "Reduce la armadura del objetivo durante 30 s. Se acumula hasta 5 veces."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15061 = "Enfurecer"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15061 =
+        "Aumenta la velocidad de ataque un 30% durante 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_17687 = "Aluvión"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_17687 =
+        "Puede obtener un 30% más de velocidad de ataque tras asestar un golpe crítico cuerpo a cuerpo."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_reinforcements = "Refuerzos"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
+        "Comienza el combate con cuatro reservistas Yunque Colérico. Pueden unirse más reservistas y médicos cuando le queda poca salud. Controla los refuerzos e impide las curas de los médicos."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

@@ -1961,6 +1961,19 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
         "召唤一只贝尔加的产物，并对召唤位置附近的敌人造成火焰伤害。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15572 = "破甲"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15572 =
+        "降低目标的护甲，持续30秒。最多叠加5次。"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15061 = "激怒"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15061 =
+        "使攻击速度提高30%，持续5秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_17687 = "乱舞"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_17687 =
+        "近战攻击造成暴击后，可能获得30%的攻击速度加成。"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_reinforcements = "援军"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
+        "战斗开始时有四名怒炉预备兵随行。生命值较低时，可能有更多预备兵和医师加入战斗。控制援军，并阻止医师治疗。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

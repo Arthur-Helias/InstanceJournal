@@ -1391,6 +1391,19 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
         "Beschwört eine Brut von Bael’Gar und fügt Gegnern nahe dem Beschwörungsort Feuerschaden zu."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15572 = "Rüstung zerreißen"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15572 =
+        "Verringert die Rüstung des Ziels für 30 Sek. Bis zu 5-mal stapelbar."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15061 = "Wutanfall"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15061 =
+        "Erhöht das Angriffstempo 5 Sek. lang um 30%."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_17687 = "Schlaghagel"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_17687 =
+        "Kann nach einem kritischen Nahkampftreffer 30% erhöhtes Angriffstempo erhalten."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_reinforcements = "Verstärkung"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
+        "Beginnt den Kampf mit vier Reservisten der Zorneshämmer. Bei niedriger Gesundheit können weitere Reservisten und Sanitäter hinzukommen. Kontrolliert die Verstärkung und verhindert die Heilung durch die Sanitäter."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

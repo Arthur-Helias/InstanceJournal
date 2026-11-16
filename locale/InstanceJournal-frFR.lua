@@ -1390,6 +1390,19 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
         "Invoque un rejeton de Bael’Gar et inflige des dégâts de Feu aux ennemis proches du point d’invocation."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15572 = "Fracasser armure"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15572 =
+        "Réduit l’armure de la cible pendant 30 s. Cumulable jusqu’à 5 fois."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15061 = "Enrager"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15061 =
+        "Augmente la vitesse d’attaque de 30% pendant 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_17687 = "Rafale"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_17687 =
+        "Peut gagner 30% de vitesse d’attaque après avoir porté un coup critique en mêlée."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_reinforcements = "Renforts"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
+        "Commence le combat avec quatre réservistes Ragenclume. D’autres réservistes et médecins peuvent rejoindre le combat lorsqu’il lui reste peu de vie. Contrôlez les renforts et empêchez les médecins de soigner."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

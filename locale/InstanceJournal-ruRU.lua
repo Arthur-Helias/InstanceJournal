@@ -1415,6 +1415,19 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
         "Призывает порождение Бейл’Гора и наносит урон от огня противникам рядом с местом призыва."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15572 = "Раскол брони"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15572 =
+        "Снижает броню цели на 30 сек. Суммируется до 5 раз."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15061 = "Исступление"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15061 =
+        "Повышает скорость атаки на 30% на 5 сек."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_17687 = "Шквал"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_17687 =
+        "После критического удара в ближнем бою может повысить свою скорость атаки на 30%."
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_reinforcements = "Подкрепления"
+    IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
+        "Начинает бой с четырьмя резервистами Кузни Гнева. При низком уровне здоровья могут присоединиться новые резервисты и медики. Контролируйте подкрепления и не давайте медикам лечить."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

@@ -1867,6 +1867,19 @@ IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_NAME_13895 = "Summon Spawn of Bael'Gar"
 IJ_DB_DUNGEON_BRD_BOSS_9016_ABILITY_EFFECT_13895 =
     "Summons a Spawn of Bael’Gar and deals Fire damage to enemies near the summoning point."
 
+IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15572 = "Sunder Armor"
+IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15572 =
+    "Reduces the target’s armor for 30 sec. Stacks up to 5 times."
+IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_15061 = "Enrage"
+IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_15061 =
+    "Increases attack speed by 30% for 5 sec."
+IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_17687 = "Flurry"
+IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_17687 =
+    "Can gain 30% increased attack speed after landing a critical melee attack."
+IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_NAME_reinforcements = "Reinforcements"
+IJ_DB_DUNGEON_BRD_BOSS_9033_ABILITY_EFFECT_reinforcements =
+    "Begins the fight with four Anvilrage Reservists. Additional Reservists and Medics can join when his health is low. Control the reinforcements and stop the Medics from healing."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
