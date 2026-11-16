@@ -1629,6 +1629,26 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DME_STORY =
         "扭木区坐落于厄运之槌东侧，现已被穷凶极恶的荒野变形者奥兹恩所占据。这名萨特腐化了丰饶之果，使其不断滋生出邪恶的魔藤碎片。奥兹恩招揽了形形色色的腐化植物、萨特、法师与恶魔投奔其麾下，整片区域都已被疯狂畸变的植物彻底覆盖。"
 
+    -- DME Abilities
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_15228 = "火球术"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_15228 =
+        "对一名敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_14145 = "火焰冲击"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_14145 =
+        "对一名敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22424 = "冲击波"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22424 =
+        "对附近敌人造成火焰伤害，并降低其移动速度，持续6秒。"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22735 = "洛恩塔姆之魂"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22735 =
+        "战斗开始时体型变大，近战攻击速度提高20%，并有50%的几率反射法术。"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_IMPS = "荒野小鬼"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_IMPS =
+        "与施放火焰冲击的荒野小鬼一同作战。"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340 = "火焰冲击"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340 =
+        "对一名敌人造成火焰伤害。"
+
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "普希林"
     IJ_DB_DUNGEON_DME_BOSS_STORY_14354 = "一个胆怯的小恶魔，欺骗冒险者跟随他，结果却背叛他们，杀死他们并偷走他们身上的所有物品。"

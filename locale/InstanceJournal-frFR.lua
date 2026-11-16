@@ -1088,6 +1088,26 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DME_STORY =
         "Le quartier Warpwood est situé à l’est de Dire Maul. Il a été repris par l'infâme Alzzin le Wildshaper, un satyre qui a corrompu le Fruit de la Fertilité afin qu'il produise d'ignobles Éclats Felvine. Alzzin a attiré à sa cause toutes sortes de plantes corrompues, de satyres, de mages et de démons. Le quartier tout entier est envahi par une végétation folle."
 
+    -- DME Abilities
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_15228 = "Boule de feu"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_15228 =
+        "Inflige des dégâts de Feu à un ennemi."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_14145 = "Trait de feu"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_14145 =
+        "Inflige des dégâts de Feu à un ennemi."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22424 = "Vague explosive"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22424 =
+        "Inflige des dégâts de Feu aux ennemis proches et ralentit leurs déplacements pendant 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22735 = "Esprit de Runn Tum"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22735 =
+        "Grandit au début du combat, augmente sa vitesse d’attaque en mêlée de 20% et obtient 50% de chances de renvoyer les sorts."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_IMPS = "Diablotins Follengeance"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_IMPS =
+        "Combat aux côtés de diablotins Follengeance qui lancent Trait de feu."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340 = "Trait de feu"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340 =
+        "Inflige des dégâts de Feu à un ennemi."
+
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusilline"
     IJ_DB_DUNGEON_DME_BOSS_STORY_14354 = "Un petit lutin lâche, incitant les aventuriers à le suivre, pour ensuite se retourner contre eux, les tuer et voler toutes les affaires de leur corps."

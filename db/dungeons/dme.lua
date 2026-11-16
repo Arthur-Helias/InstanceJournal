@@ -36,7 +36,7 @@ DME.Entrances = {
     }
 }
 DME.Bosses = {
-    [1] = { -- NOTE: Missing abilities
+    [1] = {
         Id = "14354",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "pusillin" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "pusillin" .. IMPF,
@@ -44,6 +44,45 @@ DME.Bosses = {
         Story = IJ_DB_DUNGEON_DME_BOSS_STORY_14354,
         MapCoordinateX = 89.7,
         MapCoordinateY = 75.3,
+        Abilities = {
+            [1] = {
+                Id = "15228",
+                Icon = "Spell_Fire_FlameBolt",
+                Name = IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_15228,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_15228
+            },
+            [2] = {
+                Id = "14145",
+                Icon = "Spell_Fire_Fireball",
+                Name = IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_14145,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_14145
+            },
+            [3] = {
+                Id = "22424",
+                Icon = "Spell_Holy_Excorcism_02",
+                Name = IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22424,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22424
+            },
+            [4] = {
+                Id = "22735",
+                Icon = "INV_Misc_Food_55",
+                Name = IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22735,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22735
+            },
+            [5] = {
+                Icon = "Spell_Shadow_SummonImp",
+                Name = IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_IMPS,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_IMPS,
+                SubAbilities = {
+                    [1] = {
+                        Id = "13340",
+                        Icon = "Spell_Fire_Fireball",
+                        Name = IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340,
+                        Effect = IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18267], DropChance = 100},
             [2] = {IJDB.I[18356], DropChance = 10},

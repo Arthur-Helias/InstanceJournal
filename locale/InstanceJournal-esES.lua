@@ -1088,6 +1088,26 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DME_STORY =
         "Warpwood Quarter está ubicado al este de Dire Maul. Ha sido tomado por el infame Alzzin the Wildshaper, un sátiro que ha corrompido el Fruto de la Fertilidad para que produzca viles Fragmentos Felvinos. Alzzin ha atraído a su causa todo tipo de plantas corruptas, sátiros, magos y demonios. Todo el distrito está cubierto de plantas enloquecidas."
 
+    -- DME Abilities
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_15228 = "Bola de Fuego"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_15228 =
+        "Inflige daño de Fuego a un enemigo."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_14145 = "Explosión de Fuego"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_14145 =
+        "Inflige daño de Fuego a un enemigo."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22424 = "Ola explosiva"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22424 =
+        "Inflige daño de Fuego a los enemigos cercanos y reduce su velocidad de movimiento durante 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22735 = "Espíritu de Runn Tum"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22735 =
+        "Aumenta de tamaño al inicio del combate, aumenta su velocidad de ataque cuerpo a cuerpo un 20% y obtiene un 50% de probabilidad de reflejar hechizos."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_IMPS = "Diablillos Mala Hierba"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_IMPS =
+        "Combate junto a diablillos Mala Hierba que lanzan Explosión de Fuego."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340 = "Explosión de Fuego"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340 =
+        "Inflige daño de Fuego a un enemigo."
+
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillín"
     IJ_DB_DUNGEON_DME_BOSS_STORY_14354 = "Un pequeño diablillo cobarde que engaña a los aventureros para que lo sigan, sólo para volverse contra ellos, matarlos y robar todas las pertenencias de sus cuerpos."

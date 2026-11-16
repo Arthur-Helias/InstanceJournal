@@ -1089,6 +1089,26 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DME_STORY =
         "Das Warpwood Quarter liegt östlich von Dire Maul. Es wurde vom ruchlosen Alzzin, dem Wildformer, übernommen, einem Satyr, der die Frucht der Fruchtbarkeit so verdorben hat, dass sie abscheuliche Teufelssplitter hervorbringt. Alzzin hat alle möglichen korrupten Pflanzen, Satyrn, Magier und Dämonen für seine Sache angezogen. Der gesamte Bezirk ist mit verrückter Pflanzenwelt überwuchert."
 
+    -- DME Abilities
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_15228 = "Feuerball"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_15228 =
+        "Fügt einem Gegner Feuerschaden zu."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_14145 = "Feuerschlag"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_14145 =
+        "Fügt einem Gegner Feuerschaden zu."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22424 = "Druckwelle"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22424 =
+        "Fügt Gegnern in der Nähe Feuerschaden zu und verlangsamt sie 6 Sek. lang."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22735 = "Geist von Runn Tum"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22735 =
+        "Wächst zu Kampfbeginn, erhöht sein Nahkampfangriffstempo um 20% und erhält eine Chance von 50%, Zauber zu reflektieren."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_IMPS = "Wildspawnwichte"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_IMPS =
+        "Kämpft an der Seite von Wildspawnwichten, die Feuerschlag wirken."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340 = "Feuerschlag"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340 =
+        "Fügt einem Gegner Feuerschaden zu."
+
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillin"
     IJ_DB_DUNGEON_DME_BOSS_STORY_14354 = "Ein feiger kleiner Kobold, der Abenteurer dazu verleitet, ihm zu folgen, sich dann aber gegen sie wendet, sie tötet und alle Habseligkeiten aus ihren Körpern stiehlt."

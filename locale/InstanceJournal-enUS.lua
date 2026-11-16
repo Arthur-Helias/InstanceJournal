@@ -1535,6 +1535,26 @@ IJ_DB_DUNGEON_DME_NAME = "Dire Maul East"
 IJ_DB_DUNGEON_DME_STORY =
     "The Warpwood Quarter is located east in Dire Maul. It has been taken over by the nefarious Alzzin the Wildshaper, a satyr who has corrupted the Fruit of Fertility so that it produces vile Felvine Shards. Alzzin has attracted all manner of corrupted plant life, satyrs, mages and demons to his cause. The entire district is overgrown with crazed plant life."
 
+-- DME Abilities
+IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_15228 = "Fireball"
+IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_15228 =
+    "Deals Fire damage to an enemy."
+IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_14145 = "Fire Blast"
+IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_14145 =
+    "Deals Fire damage to an enemy."
+IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22424 = "Blast Wave"
+IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22424 =
+    "Deals Fire damage to nearby enemies and slows their movement for 6 sec."
+IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22735 = "Spirit of Runn Tum"
+IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22735 =
+    "Grows in size at the start of combat, increasing melee attack speed by 20% and gaining a 50% chance to reflect spells."
+IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_IMPS = "Wildspawn Imps"
+IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_IMPS =
+    "Fights alongside Wildspawn Imps that cast Fire Blast."
+IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340 = "Fire Blast"
+IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340 =
+    "Deals Fire damage to an enemy."
+
 -- DME Bosses
 IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillin"
 IJ_DB_DUNGEON_DME_BOSS_STORY_14354 = "A cowardly little imp, tricking adventurers into following him, only to turn on them, killing them and stealing all the belongings from their bodies."

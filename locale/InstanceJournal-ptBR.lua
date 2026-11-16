@@ -1085,6 +1085,26 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DME_STORY =
         "O Warpwood Quarter está localizado a leste de Dire Maul. Ele foi assumido pelo nefasto Alzzin, o Moldador Selvagem, um sátiro que corrompeu o Fruto da Fertilidade para que ele produzes Fragmentos de Vilvina vis. Alzzin atraiu todos os tipos de plantas corrompidas, sátiros, magos e demônios para sua causa. Todo o distrito está repleto de plantas enlouquecidas."
 
+    -- DME Abilities
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_15228 = "Bola de Fogo"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_15228 =
+        "Causa dano de Fogo a um inimigo."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_14145 = "Impacto de Fogo"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_14145 =
+        "Causa dano de Fogo a um inimigo."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22424 = "Onda de Impacto"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22424 =
+        "Causa dano de Fogo aos inimigos próximos e reduz sua velocidade de movimento por 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22735 = "Espírito de Runn Tum"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22735 =
+        "Aumenta de tamanho no início do combate, aumentando a velocidade dos ataques corpo a corpo em 20% e ganhando 50% de chance de refletir feitiços."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_IMPS = "Diabretes Selvagens"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_IMPS =
+        "Luta acompanhado de diabretes Selvagens que lançam Impacto de Fogo."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340 = "Impacto de Fogo"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340 =
+        "Causa dano de Fogo a um inimigo."
+
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusilina"
     IJ_DB_DUNGEON_DME_BOSS_STORY_14354 = "Um pequeno diabinho covarde, enganando os aventureiros para que o seguissem, apenas para se voltar contra eles, matando-os e roubando todos os pertences de seus corpos."

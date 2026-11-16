@@ -1112,6 +1112,26 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_DME_STORY =
         "Квартал Варпвуда расположен на востоке Забытого Города. Его захватил гнусный Альззин Дикообразный, сатир, который испортил Плод Плодородия так, что из него стали производить мерзкие осколки лозы Скверны. Альззин привлек к своему делу всевозможные испорченные растения, сатиров, магов и демонов. Весь район зарос сумасшедшей растительностью."
 
+    -- DME Abilities
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_15228 = "Огненный шар"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_15228 =
+        "Наносит противнику урон от огня."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_14145 = "Огненный взрыв"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_14145 =
+        "Наносит противнику урон от огня."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22424 = "Взрывная волна"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22424 =
+        "Наносит урон от огня ближайшим противникам и замедляет их на 6 сек."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_22735 = "Дух Рун-Тум"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_22735 =
+        "В начале боя увеличивается в размерах, повышая скорость атак ближнего боя на 20% и получая 50% вероятности отражения заклинаний."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_IMPS = "Бесы из племени Буйной Тени"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_IMPS =
+        "Сражается вместе с бесами из племени Буйной Тени, применяющими «Огненный взрыв»."
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340 = "Огненный взрыв"
+    IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340 =
+        "Наносит противнику урон от огня."
+
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Пузилин"
     IJ_DB_DUNGEON_DME_BOSS_STORY_14354 =
