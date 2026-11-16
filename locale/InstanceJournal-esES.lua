@@ -1434,6 +1434,22 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285 =
         "Inflige daño de Fuego a los enemigos cercanos."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12739 = "Descarga de las Sombras"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12739 =
+        "Inflige daño de las Sombras a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12742 = "Inmolar"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12742 =
+        "Inflige daño de Fuego inmediato y cada 3 s durante 21 s.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13338 = "Maldición de las lenguas"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13338 =
+        "Reduce la velocidad de lanzamiento de hechizos de un enemigo un 50% durante 15 s.\n\nElimina la maldición."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13787 = "Armadura demoníaca"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13787 =
+        "Aumenta la armadura, la resistencia a las Sombras y la regeneración de salud.\n\nElimina este beneficio mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_8994 = "Desterrar"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
+        "Destierra a un enemigo durante un máximo de 15 s, impidiendo todas sus acciones y volviéndolo invulnerable."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

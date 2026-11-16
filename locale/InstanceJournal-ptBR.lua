@@ -1431,6 +1431,22 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285 =
         "Causa dano de Fogo aos inimigos próximos."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12739 = "Seta Sombria"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12739 =
+        "Causa dano de Sombra a um inimigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12742 = "Imolar"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12742 =
+        "Causa dano de Fogo imediatamente e a cada 3 s por 21 s.\n\nDissipe este efeito mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13338 = "Maldição das Línguas"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13338 =
+        "Reduz a velocidade de lançamento de feitiços de um inimigo em 50% por 15 s.\n\nRemova a maldição."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13787 = "Armadura Demoníaca"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13787 =
+        "Aumenta a armadura, a resistência a Sombra e a regeneração de vida.\n\nRemova este bônus mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_8994 = "Banir"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
+        "Bane um inimigo por até 15 s, impedindo todas as ações e tornando-o invulnerável."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

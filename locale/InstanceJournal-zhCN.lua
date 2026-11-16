@@ -2005,6 +2005,22 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285 =
         "对附近的敌人造成火焰伤害。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12739 = "暗影箭"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12739 =
+        "对一名敌人造成暗影伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12742 = "献祭"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12742 =
+        "立即造成火焰伤害，并每3秒造成一次额外伤害，持续21秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13338 = "语言诅咒"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13338 =
+        "使一名敌人的施法速度降低50%，持续15秒。\n\n解除此诅咒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13787 = "魔甲术"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13787 =
+        "提高护甲、暗影抗性和生命值恢复速度。\n\n驱散此增益魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_8994 = "放逐"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
+        "放逐一名敌人，使其无法行动但免疫伤害，最多持续15秒。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

@@ -1911,6 +1911,22 @@ IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15285 = "Fireball Volley"
 IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285 =
     "Deals Fire damage to nearby enemies."
 
+IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12739 = "Shadow Bolt"
+IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12739 =
+    "Deals Shadow damage to an enemy."
+IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12742 = "Immolate"
+IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12742 =
+    "Deals Fire damage immediately and every 3 sec. for 21 sec.\n\nDispel this Magic effect."
+IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13338 = "Curse of Tongues"
+IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13338 =
+    "Slows an enemy’s casting speed by 50% for 15 sec.\n\nRemove the curse."
+IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13787 = "Demon Armor"
+IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13787 =
+    "Increases armor, Shadow resistance and health regeneration.\n\nRemove this Magic buff."
+IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_8994 = "Banish"
+IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
+    "Banishes an enemy for up to 15 sec., preventing all actions while making them invulnerable."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

@@ -1434,6 +1434,22 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285 =
         "Inflige des dégâts de Feu aux ennemis proches."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12739 = "Trait de l’ombre"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12739 =
+        "Inflige des dégâts d’Ombre à un ennemi."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12742 = "Immoler"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12742 =
+        "Inflige des dégâts de Feu immédiatement, puis toutes les 3 s pendant 21 s.\n\nDissipez cet effet magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13338 = "Malédiction des langages"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13338 =
+        "Réduit la vitesse d’incantation d’un ennemi de 50% pendant 15 s.\n\nDissipez la malédiction."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13787 = "Armure démoniaque"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13787 =
+        "Augmente l’armure, la résistance à l’Ombre et la régénération de vie.\n\nDissipez cet effet bénéfique magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_8994 = "Bannir"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
+        "Bannit un ennemi pendant 15 s au maximum, l’empêchant d’agir tout en le rendant invulnérable."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

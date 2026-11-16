@@ -1435,6 +1435,22 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285 =
         "Fügt nahen Gegnern Feuerschaden zu."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12739 = "Schattenblitz"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12739 =
+        "Fügt einem Gegner Schattenschaden zu."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12742 = "Opfern"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12742 =
+        "Verursacht sofort Feuerschaden und anschließend 21 Sek. lang alle 3 Sek. weiteren Feuerschaden.\n\nBannt diesen magischen Effekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13338 = "Fluch der Sprachen"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13338 =
+        "Verringert das Zaubertempo eines Gegners 15 Sek. lang um 50%.\n\nEntfernt den Fluch."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13787 = "Dämonenrüstung"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13787 =
+        "Erhöht Rüstung, Schattenwiderstand und Gesundheitsregeneration.\n\nEntfernt diesen magischen Stärkungseffekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_8994 = "Verbannen"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
+        "Verbannt einen Gegner bis zu 15 Sek. lang, verhindert alle Aktionen und macht ihn unverwundbar."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

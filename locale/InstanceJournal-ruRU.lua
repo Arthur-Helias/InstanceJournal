@@ -1459,6 +1459,22 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285 =
         "Наносит урон от огня ближайшим противникам."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12739 = "Стрела Тьмы"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12739 =
+        "Наносит противнику урон от темной магии."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12742 = "Приносить в жертву"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12742 =
+        "Мгновенно наносит урон от огня, затем каждые 3 сек. в течение 21 сек.\n\nРассеяйте этот магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13338 = "Проклятие косноязычия"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13338 =
+        "Снижает скорость произнесения заклинаний противника на 50% на 15 сек.\n\nСнимите проклятие."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13787 = "Демонический доспех"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13787 =
+        "Повышает броню, сопротивление темной магии и восстановление здоровья.\n\nСнимите этот положительный магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_8994 = "Изгнание"
+    IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994 =
+        "Изгоняет противника на срок до 15 сек., лишая возможности действовать, но делая неуязвимым."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

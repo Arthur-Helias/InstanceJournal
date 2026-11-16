@@ -651,7 +651,7 @@ BRD.Bosses = {
             [4] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [17] = { -- NOTE: Missing abilities
+    [17] = {
         Id = "9499",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "spazzring" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "spazzring" .. IMPF,
@@ -659,6 +659,41 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9499,
         MapCoordinateX = 53.1,
         MapCoordinateY = 49.4,
+        Abilities = {
+            [1] = {
+                Id = "12739",
+                Icon = "Spell_Shadow_ShadowBolt",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12739,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12739
+            },
+            [2] = {
+                Id = "12742",
+                Icon = "Spell_Fire_Immolation",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_12742,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_12742,
+                Flags = {IMAF.Magic}
+            },
+            [3] = {
+                Id = "13338",
+                Icon = "Spell_Shadow_CurseOfTounges",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13338,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13338,
+                Flags = {IMAF.Curse}
+            },
+            [4] = {
+                Id = "13787",
+                Icon = "Spell_Shadow_RagingScream",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_13787,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_13787,
+                Flags = {IMAF.Magic}
+            },
+            [5] = {
+                Id = "8994",
+                Icon = "Spell_Shadow_Cripple",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_NAME_8994,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9499_ABILITY_EFFECT_8994
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18653], DropChance = 18}, 
             [2] = {IJDB.I[12793], DropChance = 18}, 
