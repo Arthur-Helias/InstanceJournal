@@ -1560,6 +1560,30 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_13900 =
         "Causa dano de Fogo aos inimigos na área afetada."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_emperor = "Imperador Dagran Thaurissan"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15636 = "Avatar das Chamas"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15636 =
+        "Torna-se imune a magia por 10 s e causa dano de Fogo adicional nos ataques."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15643 = "Chamas"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15643 =
+        "Causa dano de Fogo adicional quando um ataque ativa o efeito de Avatar das Chamas."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_17492 = "Mão de Thaurissan"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_17492 =
+        "Causa dano de Fogo a um inimigo e o atordoa por 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_moira = "Princesa Moira Barbabronze"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_10934 = "Punição"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_10934 =
+        "Causa dano Sagrado a um inimigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15586 = "Curar"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15586 =
+        "Restaura a vida de um aliado."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15587 = "Impacto Mental"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15587 =
+        "Causa dano de Sombra a um inimigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15654 = "Palavra Sombria: Dor"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15654 =
+        "Causa dano de Sombra a cada 3 s por 18 s.\n\nDissipe este efeito mágico."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

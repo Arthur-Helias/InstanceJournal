@@ -1564,6 +1564,30 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_13900 =
         "Fügt Gegnern im betroffenen Bereich Feuerschaden zu."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_emperor = "Kaiser Dagran Thaurissan"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15636 = "Avatar der Flamme"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15636 =
+        "Wird 10 Sek. lang immun gegen Magie und verursacht mit Angriffen zusätzlichen Feuerschaden."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15643 = "Flammen"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15643 =
+        "Verursacht zusätzlichen Feuerschaden, wenn ein Angriff den Effekt von Avatar der Flamme auslöst."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_17492 = "Hand von Thaurissan"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_17492 =
+        "Fügt einem Gegner Feuerschaden zu und betäubt ihn für 5 Sek."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_moira = "Prinzessin Moira Bronzebart"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_10934 = "Göttliche Pein"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_10934 =
+        "Fügt einem Gegner Heiligschaden zu."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15586 = "Heilen"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15586 =
+        "Stellt Gesundheit eines Verbündeten wieder her."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15587 = "Gedankenschlag"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15587 =
+        "Fügt einem Gegner Schattenschaden zu."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15654 = "Schattenwort: Schmerz"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15654 =
+        "Verursacht 18 Sek. lang alle 3 Sek. Schattenschaden.\n\nBannt diesen magischen Effekt."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

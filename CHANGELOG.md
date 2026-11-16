@@ -6,6 +6,7 @@ All changes to this project will be documented in this file.
 
 ### Added
 
+- Added missing abilities to the bosses in `Blackrock Depths`
 - Added the `Dreadsteed of Xoroth` encounter to `Dire Maul West`, including ritual guidance, abilities, and loot
 - Added the `Ritual of Souls` quest chain and its prerequisites
 - Added learned spell rewards to `Dreadsteed of Xoroth` and `Arcane Refreshment`

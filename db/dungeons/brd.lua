@@ -1043,7 +1043,7 @@ BRD.Bosses = {
             [7] = {IJDB.I[51217], DropChance = 5}
         }
     },
-    [22] = { -- NOTE: Missing abilities
+    [22] = {
         Id = "9019",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "emperor" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "emperor" .. IMPF,
@@ -1051,6 +1051,67 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9019,
         MapCoordinateX = 85.6,
         MapCoordinateY = 10.4,
+        Abilities = {
+            [1] = {
+                Id = "emperor",
+                Icon = "Spell_Fire_Incinerate",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_emperor,
+                SubAbilities = {
+                    [1] = {
+                        Id = "15636",
+                        Icon = "Spell_Fire_Incinerate",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15636,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15636,
+                        SubAbilities = {
+                            [1] = {
+                                Id = "15643",
+                                Icon = "Spell_Fire_FireBolt",
+                                Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15643,
+                                Effect = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15643
+                            }
+                        }
+                    },
+                    [2] = {
+                        Id = "17492",
+                        Icon = "Spell_Fire_Fireball",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_17492,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_17492
+                    }
+                }
+            },
+            [2] = {
+                Id = "moira",
+                Icon = "Spell_Holy_FlashHeal",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_moira,
+                SubAbilities = {
+                    [1] = {
+                        Id = "10934",
+                        Icon = "Spell_Holy_HolySmite",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_10934,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_10934
+                    },
+                    [2] = {
+                        Id = "15586",
+                        Icon = "Spell_Holy_Heal",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15586,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15586
+                    },
+                    [3] = {
+                        Id = "15587",
+                        Icon = "Spell_Shadow_UnholyFrenzy",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15587,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15587
+                    },
+                    [4] = {
+                        Id = "15654",
+                        Icon = "Spell_Shadow_ShadowWordPain",
+                        Name = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15654,
+                        Effect = IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15654,
+                        Flags = {IMAF.Magic}
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[51217], DropChance = 100},
             [2] = {IJDB.I[56104], DropChance = 30},

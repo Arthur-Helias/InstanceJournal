@@ -1588,6 +1588,30 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_13900 =
         "Наносит урон от огня противникам в области действия."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_emperor = "Император Дагран Тауриссан"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15636 = "Аватара пламени"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15636 =
+        "Становится невосприимчивым к магии на 10 сек. и наносит дополнительный урон от огня при атаках."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15643 = "Пламя"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15643 =
+        "Наносит дополнительный урон от огня, когда атака активирует эффект Аватары пламени."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_17492 = "Рука Тауриссана"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_17492 =
+        "Наносит противнику урон от огня и оглушает его на 5 сек."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_moira = "Принцесса Мойра Бронзобород"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_10934 = "Кара"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_10934 =
+        "Наносит противнику урон от светлой магии."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15586 = "Исцеление"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15586 =
+        "Восстанавливает здоровье союзника."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15587 = "Взрыв разума"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15587 =
+        "Наносит противнику урон от темной магии."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15654 = "Слово Тьмы: Боль"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15654 =
+        "Наносит урон от темной магии каждые 3 сек. в течение 18 сек.\n\nРассеяйте этот магический эффект."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

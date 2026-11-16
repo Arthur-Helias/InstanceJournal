@@ -1563,6 +1563,30 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_13900 =
         "Inflige des dégâts de Feu aux ennemis dans la zone affectée."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_emperor = "Empereur Dagran Thaurissan"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15636 = "Avatar de flammes"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15636 =
+        "Devient insensible à la magie pendant 10 s et inflige des dégâts de Feu supplémentaires avec ses attaques."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15643 = "Flammes"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15643 =
+        "Inflige des dégâts de Feu supplémentaires lorsqu’une attaque déclenche l’effet d’Avatar de flammes."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_17492 = "Main de Thaurissan"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_17492 =
+        "Inflige des dégâts de Feu à un ennemi et l’étourdit pendant 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_moira = "Princesse Moira Barbe-de-Bronze"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_10934 = "Châtiment"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_10934 =
+        "Inflige des dégâts du Sacré à un ennemi."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15586 = "Soins"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15586 =
+        "Rend des points de vie à un allié."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15587 = "Attaque mentale"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15587 =
+        "Inflige des dégâts d’Ombre à un ennemi."
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15654 = "Mot de l’ombre : Douleur"
+    IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15654 =
+        "Inflige des dégâts d’Ombre toutes les 3 s pendant 18 s.\n\nDissipez cet effet magique."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

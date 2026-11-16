@@ -2040,6 +2040,30 @@ IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_NAME_13900 = "Fiery Burst"
 IJ_DB_DUNGEON_BRD_BOSS_9938_ABILITY_EFFECT_13900 =
     "Deals Fire damage to enemies in the affected area."
 
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_emperor = "Emperor Dagran Thaurissan"
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15636 = "Avatar of Flame"
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15636 =
+    "Becomes immune to magic for 10 sec. and gains additional Fire damage on attacks."
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15643 = "Flames"
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15643 =
+    "Deals additional Fire damage when an attack triggers Avatar of Flame’s effect."
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_17492 = "Hand of Thaurissan"
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_17492 =
+    "Deals Fire damage to an enemy and stuns them for 5 sec."
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_moira = "Princess Moira Bronzebeard"
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_10934 = "Smite"
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_10934 =
+    "Deals Holy damage to an enemy."
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15586 = "Heal"
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15586 =
+    "Restores an ally’s health."
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15587 = "Mind Blast"
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15587 =
+    "Deals Shadow damage to an enemy."
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_NAME_15654 = "Shadow Word: Pain"
+IJ_DB_DUNGEON_BRD_BOSS_9019_ABILITY_EFFECT_15654 =
+    "Deals Shadow damage every 3 sec. for 18 sec.\n\nDispel this Magic effect."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
