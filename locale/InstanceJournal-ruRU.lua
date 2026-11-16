@@ -1486,6 +1486,101 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941 =
         "С вероятностью 20% отражает направленные на него заклинания."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterel = "Hate'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15232 = "Стрела Тьмы"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15232 =
+        "Наносит противнику урон от темной магии."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_14033 = "Сожжение маны"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_14033 =
+        "Сжигает ману противника и наносит урон от темной магии в зависимости от количества сожженной маны."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterelstrike = "Ударять"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_haterelstrike =
+        "Наносит противнику физический урон."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12040 = "Теневой щит"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12040 =
+        "Поглощает входящий физический и магический урон до 30 сек. и наносит урон атакующим в ближнем бою.\n\nСнимите этот положительный магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrel = "Anger'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrelstrike = "Ударять"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_angerrelstrike =
+        "Наносит противнику физический урон."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11971 = "Раскол брони"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11971 =
+        "Снижает броню цели на 30 сек. Суммируется до 5 раз."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12169 = "Блок щитом"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12169 =
+        "Повышает вероятность блока на 75% на 5 сек. Эффект заканчивается после одного заблокированного удара."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15062 = "Стена щитов"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15062 =
+        "Снижает получаемый физический и магический урон на 75% на 10 сек."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_vilerel = "Vile'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15586 = "Исцеление"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15586 =
+        "Восстанавливает здоровье союзника."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15585 = "Молитва исцеления"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15585 =
+        "Восстанавливает здоровье ближайших союзников."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15587 = "Взрыв разума"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15587 =
+        "Наносит противнику урон от темной магии."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11974 = "Слово силы: Щит"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11974 =
+        "Защищает союзника щитом, поглощающим физический и магический урон до 30 сек.\n\nСнимите этот положительный магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_gloomrel = "Gloom'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15284 = "Раскалывать"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15284 =
+        "Наносит физический урон противнику и его ближайшим союзникам, поражая до 3 целей."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13737 = "Смертельный удар"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13737 =
+        "Наносит физический урон и снижает получаемое исцеление на 50% на 5 сек."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_9080 = "Подрезать сухожилия"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_9080 =
+        "Наносит физический урон и снижает скорость передвижения цели на 60% на 10 сек."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13847 = "Безрассудство"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13847 =
+        "Повышает вероятность критического удара и снижает броню на 15 сек. Также дает невосприимчивость к страху."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_seethrel = "Seeth'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12675 = "Ледяная стрела"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12675 =
+        "Наносит противнику урон от магии льда. Снижает скорость передвижения цели на 4 сек.\n\nРассеяйте этот магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12674 = "Кольцо льда"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12674 =
+        "Наносит урон от магии льда ближайшим противникам и обездвиживает их до 8 сек.\n\nРассеяйте этот магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15244 = "Конус холода"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15244 =
+        "Наносит урон от магии льда в конусе перед заклинателем и замедляет пораженных противников на 8 сек.\n\nРассеяйте этот магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15044 = "Защита от магии льда"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15044 =
+        "Поглощает урон от магии льда до 60 сек.\n\nСнимите этот положительный магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doomrel = "Doom'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15245 = "Залп стрел Тьмы"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15245 =
+        "Наносит урон от темной магии ближайшим противникам."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12742 = "Приносить в жертву"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12742 =
+        "Мгновенно наносит урон от огня, затем каждые 3 сек. в течение 21 сек.\n\nРассеяйте этот магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12493 = "Проклятие слабости"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12493 =
+        "Снижает физический урон, наносимый противником, на 120 сек.\n\nСнимите проклятие."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13787 = "Демонический доспех"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13787 =
+        "Повышает броню, сопротивление темной магии и восстановление здоровья.\n\nСнимите этот положительный магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15092 = "Призыв демонов Бездны"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15092 =
+        "Призывает трех демонов Бездны на помощь в бою."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doperel = "Dope'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15581 = "Зловещий удар"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15581 =
+        "Наносит противнику физический урон."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12540 = "Парализующий удар"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12540 =
+        "Наносит физический урон и выводит противника из строя на срок до 4 сек. Урон прерывает эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15583 = "Рваная рана"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15583 =
+        "Наносит физический урон каждые 2 сек. в течение 10 сек."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15087 = "Ускользание"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15087 =
+        "Повышает вероятность уклонения на 50% на 15 сек."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

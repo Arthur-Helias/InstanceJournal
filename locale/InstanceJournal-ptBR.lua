@@ -1458,6 +1458,101 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941 =
         "Tem 20% de chance de refletir feitiços recebidos."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterel = "Hate'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15232 = "Seta Sombria"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15232 =
+        "Causa dano de Sombra a um inimigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_14033 = "Queimadura de Mana"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_14033 =
+        "Queima a mana de um inimigo e causa dano de Sombra com base na quantidade queimada."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterelstrike = "Batida"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_haterelstrike =
+        "Causa dano físico a um inimigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12040 = "Escudo Sombrio"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12040 =
+        "Absorve dano físico e mágico recebido por até 30 s e causa dano aos atacantes corpo a corpo.\n\nRemova este bônus mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrel = "Anger'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrelstrike = "Batida"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_angerrelstrike =
+        "Causa dano físico a um inimigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11971 = "Fender Armadura"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11971 =
+        "Reduz a armadura do alvo por 30 s. Acumula até 5 vezes."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12169 = "Bloqueio com Escudo"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12169 =
+        "Aumenta a chance de bloqueio em 75% por 5 s, encerrando após bloquear um ataque."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15062 = "Parede de Escudo"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15062 =
+        "Reduz o dano físico e mágico recebido em 75% por 10 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_vilerel = "Vile'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15586 = "Curar"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15586 =
+        "Restaura a vida de um aliado."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15585 = "Prece de Cura"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15585 =
+        "Restaura a vida dos aliados próximos."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15587 = "Impacto Mental"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15587 =
+        "Causa dano de Sombra a um inimigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11974 = "Palavra de Poder: Escudo"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11974 =
+        "Protege um aliado com um escudo que absorve dano físico e mágico por até 30 s.\n\nRemova este bônus mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_gloomrel = "Gloom'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15284 = "Dividir"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15284 =
+        "Causa dano físico a um inimigo e seus aliados próximos, atingindo até 3 alvos."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13737 = "Golpe Mortal"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13737 =
+        "Causa dano físico e reduz a cura recebida em 50% por 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_9080 = "Cortar Tendão"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_9080 =
+        "Causa dano físico e reduz a velocidade de movimento do alvo em 60% por 10 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13847 = "Temeridade"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13847 =
+        "Aumenta a chance de acerto crítico e reduz a armadura por 15 s. Também concede imunidade a medo."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_seethrel = "Seeth'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12675 = "Seta de Gelo"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12675 =
+        "Causa dano de Gelo a um inimigo. Reduz a velocidade de movimento do alvo por 4 s.\n\nDissipe este efeito mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12674 = "Nova Congelante"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12674 =
+        "Causa dano de Gelo aos inimigos próximos e os enraíza por até 8 s.\n\nDissipe este efeito mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15244 = "Cone de Frio"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15244 =
+        "Causa dano de Gelo em um cone à frente do lançador e desacelera os inimigos afetados por 8 s.\n\nDissipe este efeito mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15044 = "Proteção contra Gelo"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15044 =
+        "Absorve dano de Gelo por até 60 s.\n\nRemova este bônus mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doomrel = "Doom'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15245 = "Salva de Setas Sombrias"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15245 =
+        "Causa dano de Sombra aos inimigos próximos."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12742 = "Imolar"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12742 =
+        "Causa dano de Fogo imediatamente e a cada 3 s por 21 s.\n\nDissipe este efeito mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12493 = "Maldição da Fraqueza"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12493 =
+        "Reduz o dano físico causado por um inimigo por 120 s.\n\nRemova a maldição."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13787 = "Armadura Demoníaca"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13787 =
+        "Aumenta a armadura, a resistência a Sombra e a regeneração de vida.\n\nRemova este bônus mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15092 = "Invocar Emissários do Caos"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15092 =
+        "Invoca três Emissários do Caos para auxiliar na luta."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doperel = "Dope'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15581 = "Ataque Sinistro"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15581 =
+        "Causa dano físico a um inimigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12540 = "Gouge"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12540 =
+        "Causa dano físico e incapacita um inimigo por até 4 s. Dano interrompe o efeito."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15583 = "Ruptura"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15583 =
+        "Causa dano físico a cada 2 s por 10 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15087 = "Evasão"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15087 =
+        "Aumenta a chance de esquiva em 50% por 15 s."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

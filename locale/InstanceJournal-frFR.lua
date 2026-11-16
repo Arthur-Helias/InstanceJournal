@@ -1461,6 +1461,101 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941 =
         "A 20% de chances de renvoyer les sorts reçus."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterel = "Hate'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15232 = "Trait de l’ombre"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15232 =
+        "Inflige des dégâts d’Ombre à un ennemi."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_14033 = "Brûlure de mana"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_14033 =
+        "Brûle le mana d’un ennemi et inflige des dégâts d’Ombre selon la quantité brûlée."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterelstrike = "Grève"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_haterelstrike =
+        "Inflige des dégâts physiques à un ennemi."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12040 = "Bouclier de l’ombre"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12040 =
+        "Absorbe les dégâts physiques et magiques reçus pendant 30 s au maximum et blesse les attaquants en mêlée.\n\nDissipez cet effet bénéfique magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrel = "Anger'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrelstrike = "Grève"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_angerrelstrike =
+        "Inflige des dégâts physiques à un ennemi."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11971 = "Fracasser armure"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11971 =
+        "Réduit l’armure de la cible pendant 30 s. Cumulable jusqu’à 5 fois."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12169 = "Maîtrise du blocage"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12169 =
+        "Augmente les chances de blocage de 75% pendant 5 s et prend fin après une attaque bloquée."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15062 = "Mur de bouclier"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15062 =
+        "Réduit les dégâts physiques et magiques subis de 75% pendant 10 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_vilerel = "Vile'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15586 = "Soins"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15586 =
+        "Rend des points de vie à un allié."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15585 = "Prière de soins"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15585 =
+        "Rend des points de vie aux alliés proches."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15587 = "Attaque mentale"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15587 =
+        "Inflige des dégâts d’Ombre à un ennemi."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11974 = "Mot de pouvoir : Bouclier"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11974 =
+        "Protège un allié avec un bouclier absorbant les dégâts physiques et magiques pendant 30 s au maximum.\n\nDissipez cet effet bénéfique magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_gloomrel = "Gloom'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15284 = "Fendre"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15284 =
+        "Inflige des dégâts physiques à un ennemi et à ses alliés proches, touchant jusqu’à 3 cibles."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13737 = "Frappe mortelle"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13737 =
+        "Inflige des dégâts physiques et réduit les soins reçus de 50% pendant 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_9080 = "Brise-genou"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_9080 =
+        "Inflige des dégâts physiques et réduit la vitesse de déplacement de la cible de 60% pendant 10 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13847 = "Témérité"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13847 =
+        "Augmente les chances de coup critique et réduit l’armure pendant 15 s. Confère aussi une immunité à la peur."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_seethrel = "Seeth'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12675 = "Éclair de givre"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12675 =
+        "Inflige des dégâts de Givre à un ennemi. Réduit la vitesse de déplacement de la cible pendant 4 s.\n\nDissipez cet effet magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12674 = "Nova de givre"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12674 =
+        "Inflige des dégâts de Givre aux ennemis proches et les immobilise pendant 8 s au maximum.\n\nDissipez cet effet magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15244 = "Cône de froid"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15244 =
+        "Inflige des dégâts de Givre dans un cône devant le lanceur et ralentit les ennemis touchés pendant 8 s.\n\nDissipez cet effet magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15044 = "Gardien de givre"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15044 =
+        "Absorbe les dégâts de Givre pendant 60 s au maximum.\n\nDissipez cet effet bénéfique magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doomrel = "Doom'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15245 = "Salve de Traits de l'ombre"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15245 =
+        "Inflige des dégâts d’Ombre aux ennemis proches."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12742 = "Immoler"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12742 =
+        "Inflige des dégâts de Feu immédiatement, puis toutes les 3 s pendant 21 s.\n\nDissipez cet effet magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12493 = "Malédiction de faiblesse"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12493 =
+        "Réduit les dégâts physiques infligés par un ennemi pendant 120 s.\n\nDissipez la malédiction."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13787 = "Armure démoniaque"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13787 =
+        "Augmente l’armure, la résistance à l’Ombre et la régénération de vie.\n\nDissipez cet effet bénéfique magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15092 = "Invocation de marcheurs du Vide"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15092 =
+        "Invoque trois marcheurs du Vide pour l’aider au combat."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doperel = "Dope'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15581 = "Frappe sinistre"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15581 =
+        "Inflige des dégâts physiques à un ennemi."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12540 = "Suriner"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12540 =
+        "Inflige des dégâts physiques et stupéfie un ennemi pendant 4 s au maximum. Les dégâts interrompent l’effet."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15583 = "Rupture"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15583 =
+        "Inflige des dégâts physiques toutes les 2 s pendant 10 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15087 = "Évasion"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15087 =
+        "Augmente les chances d’esquive de 50% pendant 15 s."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

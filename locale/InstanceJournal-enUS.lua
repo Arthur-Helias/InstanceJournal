@@ -1938,6 +1938,101 @@ IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_NAME_9941 = "Spell Reflection"
 IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941 =
     "Has a 20% chance to reflect incoming spells."
 
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterel = "Hate'rel"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15232 = "Shadow Bolt"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15232 =
+    "Deals Shadow damage to an enemy."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_14033 = "Mana Burn"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_14033 =
+    "Burns an enemy’s mana and deals Shadow damage based on the amount burned."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterelstrike = "Strike"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_haterelstrike =
+    "Deals Physical damage to an enemy."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12040 = "Shadow Shield"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12040 =
+    "Absorbs incoming Physical and magical damage for up to 30 sec. and damages melee attackers.\n\nRemove this Magic buff."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrel = "Anger'rel"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrelstrike = "Strike"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_angerrelstrike =
+    "Deals Physical damage to an enemy."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11971 = "Sunder Armor"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11971 =
+    "Reduces the target’s armor for 30 sec. Stacks up to 5 times."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12169 = "Shield Block"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12169 =
+    "Increases block chance by 75% for 5 sec., ending after one blocked attack."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15062 = "Shield Wall"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15062 =
+    "Reduces Physical and magical damage taken by 75% for 10 sec."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_vilerel = "Vile'rel"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15586 = "Heal"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15586 =
+    "Restores an ally’s health."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15585 = "Prayer of Healing"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15585 =
+    "Restores health to nearby allies."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15587 = "Mind Blast"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15587 =
+    "Deals Shadow damage to an enemy."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11974 = "Power Word: Shield"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11974 =
+    "Shields an ally, absorbing Physical and magical damage for up to 30 sec.\n\nRemove this Magic buff."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_gloomrel = "Gloom'rel"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15284 = "Cleave"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15284 =
+    "Deals Physical damage to an enemy and nearby allies, hitting up to 3 targets."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13737 = "Mortal Strike"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13737 =
+    "Deals Physical damage and reduces healing received by 50% for 5 sec."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_9080 = "Hamstring"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_9080 =
+    "Deals Physical damage and reduces the target’s movement speed by 60% for 10 sec."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13847 = "Recklessness"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13847 =
+    "Increases critical strike chance and reduces armor for 15 sec. Also grants immunity to fear."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_seethrel = "Seeth'rel"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12675 = "Frostbolt"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12675 =
+    "Deals Frost damage to an enemy. Reduces the target’s movement speed for 4 sec.\n\nDispel this Magic effect."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12674 = "Frost Nova"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12674 =
+    "Deals Frost damage to nearby enemies and roots them for up to 8 sec.\n\nDispel this Magic effect."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15244 = "Cone of Cold"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15244 =
+    "Deals Frost damage in a cone in front of the caster and slows affected enemies for 8 sec.\n\nDispel this Magic effect."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15044 = "Frost Ward"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15044 =
+    "Absorbs Frost damage for up to 60 sec.\n\nRemove this Magic buff."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doomrel = "Doom'rel"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15245 = "Shadow Bolt Volley"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15245 =
+    "Deals Shadow damage to nearby enemies."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12742 = "Immolate"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12742 =
+    "Deals Fire damage immediately and every 3 sec. for 21 sec.\n\nDispel this Magic effect."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12493 = "Curse of Weakness"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12493 =
+    "Reduces an enemy’s Physical damage dealt for 120 sec.\n\nRemove the curse."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13787 = "Demon Armor"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13787 =
+    "Increases armor, Shadow resistance and health regeneration.\n\nRemove this Magic buff."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15092 = "Summon Voidwalkers"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15092 =
+    "Summons three Voidwalkers to assist in battle."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doperel = "Dope'rel"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15581 = "Sinister Strike"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15581 =
+    "Deals Physical damage to an enemy."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12540 = "Gouge"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12540 =
+    "Deals Physical damage and incapacitates an enemy for up to 4 sec. Damage breaks the effect."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15583 = "Rupture"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15583 =
+    "Deals Physical damage every 2 sec. for 10 sec."
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15087 = "Evasion"
+IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15087 =
+    "Increases dodge chance by 50% for 15 sec."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

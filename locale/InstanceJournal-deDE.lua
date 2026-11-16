@@ -1462,6 +1462,101 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_8923_ABILITY_EFFECT_9941 =
         "Hat eine Chance von 20%, eingehende Zauber zu reflektieren."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterel = "Hate'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15232 = "Schattenblitz"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15232 =
+        "Fügt einem Gegner Schattenschaden zu."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_14033 = "Manabrand"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_14033 =
+        "Verbrennt das Mana eines Gegners und verursacht abhängig von der verbrannten Menge Schattenschaden."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_haterelstrike = "Schlagen"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_haterelstrike =
+        "Fügt einem Gegner körperlichen Schaden zu."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12040 = "Schattenschild"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12040 =
+        "Absorbiert bis zu 30 Sek. lang eingehenden körperlichen und magischen Schaden und schädigt Nahkampfangreifer.\n\nEntfernt diesen magischen Stärkungseffekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrel = "Anger'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_angerrelstrike = "Schlagen"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_angerrelstrike =
+        "Fügt einem Gegner körperlichen Schaden zu."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11971 = "Rüstung zerreißen"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11971 =
+        "Verringert die Rüstung des Ziels für 30 Sek. Bis zu 5-mal stapelbar."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12169 = "Schildblock"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12169 =
+        "Erhöht die Blockchance 5 Sek. lang um 75% und endet nach einem geblockten Angriff."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15062 = "Schildwall"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15062 =
+        "Verringert erlittenen körperlichen und magischen Schaden 10 Sek. lang um 75%."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_vilerel = "Vile'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15586 = "Heilen"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15586 =
+        "Stellt Gesundheit eines Verbündeten wieder her."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15585 = "Gebet der Heilung"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15585 =
+        "Stellt Gesundheit naher Verbündeter wieder her."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15587 = "Gedankenschlag"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15587 =
+        "Fügt einem Gegner Schattenschaden zu."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_11974 = "Machtwort: Schild"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_11974 =
+        "Schützt einen Verbündeten mit einem Schild, der bis zu 30 Sek. lang körperlichen und magischen Schaden absorbiert.\n\nEntfernt diesen magischen Stärkungseffekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_gloomrel = "Gloom'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15284 = "Spalten"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15284 =
+        "Fügt einem Gegner und nahen Verbündeten körperlichen Schaden zu und trifft bis zu 3 Ziele."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13737 = "Tödlicher Stoß"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13737 =
+        "Verursacht körperlichen Schaden und verringert erhaltene Heilung 5 Sek. lang um 50%."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_9080 = "Kniesehne"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_9080 =
+        "Verursacht körperlichen Schaden und verringert das Bewegungstempo des Ziels 10 Sek. lang um 60%."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13847 = "Tollkühnheit"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13847 =
+        "Erhöht die kritische Trefferchance und verringert die Rüstung für 15 Sek. Gewährt außerdem Immunität gegen Furcht."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_seethrel = "Seeth'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12675 = "Frostblitz"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12675 =
+        "Fügt einem Gegner Frostschaden zu. Verringert das Bewegungstempo des Ziels für 4 Sek.\n\nBannt diesen magischen Effekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12674 = "Frostnova"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12674 =
+        "Fügt nahen Gegnern Frostschaden zu und macht sie bis zu 8 Sek. lang bewegungsunfähig.\n\nBannt diesen magischen Effekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15244 = "Kältekegel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15244 =
+        "Verursacht Frostschaden in einem kegelförmigen Bereich vor dem Zaubernden und verlangsamt betroffene Gegner für 8 Sek.\n\nBannt diesen magischen Effekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15044 = "Frostzauberschutz"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15044 =
+        "Absorbiert bis zu 60 Sek. lang Frostschaden.\n\nEntfernt diesen magischen Stärkungseffekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doomrel = "Doom'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15245 = "Schattenblitzsalve"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15245 =
+        "Fügt nahen Gegnern Schattenschaden zu."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12742 = "Opfern"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12742 =
+        "Verursacht sofort Feuerschaden und anschließend 21 Sek. lang alle 3 Sek. weiteren Feuerschaden.\n\nBannt diesen magischen Effekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12493 = "Fluch der Schwäche"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12493 =
+        "Verringert den körperlichen Schaden eines Gegners für 120 Sek.\n\nEntfernt den Fluch."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_13787 = "Dämonenrüstung"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_13787 =
+        "Erhöht Rüstung, Schattenwiderstand und Gesundheitsregeneration.\n\nEntfernt diesen magischen Stärkungseffekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15092 = "Leerwandler beschwören"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15092 =
+        "Beschwört drei Leerwandler zur Unterstützung im Kampf."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_doperel = "Dope'rel"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15581 = "Unheimlicher Schlag"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15581 =
+        "Fügt einem Gegner körperlichen Schaden zu."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_12540 = "Solarplexus"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_12540 =
+        "Verursacht körperlichen Schaden und setzt einen Gegner bis zu 4 Sek. lang außer Gefecht. Schaden beendet den Effekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15583 = "Blutung"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15583 =
+        "Verursacht 10 Sek. lang alle 2 Sek. körperlichen Schaden."
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_NAME_15087 = "Entrinnen"
+    IJ_DB_DUNGEON_BRD_BOSS_9040_ABILITY_EFFECT_15087 =
+        "Erhöht die Ausweichchance 15 Sek. lang um 50%."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
