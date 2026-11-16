@@ -1348,6 +1348,13 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
         "Absorbiert bis zu 60 Sek. lang Frostschaden.\n\nEntfernt diesen magischen Stärkungseffekt."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_11971 = "Rüstung zerreißen"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_11971 =
+        "Verringert die Rüstung des Ziels für 30 Sek. Bis zu 5-mal stapelbar."
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_15504 = "Heiltrank trinken"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504 =
+        "Stellt Gesundheit des Zaubernden wieder her."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

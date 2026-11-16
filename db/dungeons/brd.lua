@@ -323,7 +323,7 @@ BRD.Bosses = {
             [7] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [8] = { -- NOTE: Missing abilities
+    [8] = {
         Id = "9476",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "vault" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "vault" .. IMPF,
@@ -331,6 +331,21 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9476,
         MapCoordinateX = 61.8,
         MapCoordinateY = 54.6,
+        Abilities = {
+            [1] = {
+                Id = "11971",
+                Icon = "Ability_Warrior_Sunder",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_11971,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_11971,
+                Flags = {IMAF.Tank}
+            },
+            [2] = {
+                Id = "15504",
+                Icon = "Spell_Holy_Heal",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_15504,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504
+            }
+        },
         Loot = {
             [1] = {IJDB.I[22256], DropChance = 2}, 
             [2] = {IJDB.I[22205], DropChance = 2}, 

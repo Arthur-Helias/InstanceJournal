@@ -1344,6 +1344,13 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
         "Absorve dano de Gelo por até 60 s.\n\nRemova este bônus mágico."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_11971 = "Fender Armadura"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_11971 =
+        "Reduz a armadura do alvo por 30 s. Acumula até 5 vezes."
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_15504 = "Beber Poção de Cura"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504 =
+        "Restaura a vida do lançador."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

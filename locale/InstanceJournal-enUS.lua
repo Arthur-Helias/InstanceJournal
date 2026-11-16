@@ -1824,6 +1824,13 @@ IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_NAME_15044 = "Frost Ward"
 IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
     "Absorbs Frost damage for up to 60 sec.\n\nRemove this Magic buff."
 
+IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_11971 = "Sunder Armor"
+IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_11971 =
+    "Reduces the target’s armor for 30 sec. Stacks up to 5 times."
+IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_15504 = "Drink Healing Potion"
+IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504 =
+    "Restores the caster’s health."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

@@ -1347,6 +1347,13 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
         "Absorbe daño de Escarcha durante un máximo de 60 s.\n\nElimina este beneficio mágico."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_11971 = "Hender armadura"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_11971 =
+        "Reduce la armadura del objetivo durante 30 s. Se acumula hasta 5 veces."
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_15504 = "Beber poción de sanación"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504 =
+        "Restaura la salud del taumaturgo."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

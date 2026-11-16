@@ -1918,6 +1918,13 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
         "吸收冰霜伤害，最多持续60秒。\n\n驱散此增益魔法效果。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_11971 = "破甲"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_11971 =
+        "降低目标的护甲，持续30秒。最多叠加5次。"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_15504 = "喝下治疗药水"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504 =
+        "恢复施法者的生命值。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

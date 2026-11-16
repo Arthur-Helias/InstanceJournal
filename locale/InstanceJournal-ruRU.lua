@@ -1372,6 +1372,13 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
         "Поглощает урон от магии льда до 60 сек.\n\nСнимите этот положительный магический эффект."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_11971 = "Раскол брони"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_11971 =
+        "Снижает броню цели на 30 сек. Суммируется до 5 раз."
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_15504 = "Выпить лечебное зелье"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504 =
+        "Восстанавливает здоровье заклинателя."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

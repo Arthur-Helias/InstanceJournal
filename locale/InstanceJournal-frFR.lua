@@ -1347,6 +1347,13 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9041_ABILITY_EFFECT_15044 =
         "Absorbe les dégâts de Givre pendant 60 s au maximum.\n\nDissipez cet effet bénéfique magique."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_11971 = "Fracasser armure"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_11971 =
+        "Réduit l’armure de la cible pendant 30 s. Cumulable jusqu’à 5 fois."
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_NAME_15504 = "Boire une potion de soins"
+    IJ_DB_DUNGEON_BRD_BOSS_9476_ABILITY_EFFECT_15504 =
+        "Rend des points de vie au lanceur."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
