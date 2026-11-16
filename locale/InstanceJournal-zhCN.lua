@@ -1872,6 +1872,16 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040 =
         "吸收受到的物理和魔法伤害，最多持续30秒，并对近战攻击者造成伤害。\n\n驱散此增益魔法效果。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_6524 = "大地震颤"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_6524 =
+        "使附近的敌人昏迷2秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13728 = "地震术"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13728 =
+        "对一名敌人造成自然伤害。 打断目标施法，使其2秒内无法施放同系法术。"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13729 = "烈焰震击"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729 =
+        "立即造成火焰伤害，并每3秒造成一次额外火焰伤害，持续12秒。\n\n驱散此魔法效果。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

@@ -1301,6 +1301,16 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040 =
         "Absorbe les dégâts physiques et magiques reçus pendant 30 s au maximum et blesse les attaquants en mêlée.\n\nDissipez cet effet bénéfique magique."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_6524 = "Tremblement de terre"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_6524 =
+        "Étourdit les ennemis proches pendant 2 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13728 = "Horion de terre"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13728 =
+        "Inflige des dégâts de Nature à un ennemi. Interrompt les incantations de la cible pendant 2 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13729 = "Horion de flammes"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729 =
+        "Inflige des dégâts de Feu immédiatement, puis toutes les 3 s pendant 12 s.\n\nDissipez cet effet magique."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

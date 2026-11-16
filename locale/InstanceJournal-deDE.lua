@@ -1302,6 +1302,16 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040 =
         "Absorbiert bis zu 30 Sek. lang eingehenden körperlichen und magischen Schaden und schädigt Nahkampfangreifer.\n\nEntfernt diesen magischen Stärkungseffekt."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_6524 = "Bodenbeben"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_6524 =
+        "Betäubt nahe Gegner für 2 Sek."
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13728 = "Erdschock"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13728 =
+        "Fügt einem Gegner Naturschaden zu. Unterbricht das Zauberwirken des Ziels für 2 Sek."
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13729 = "Flammenschock"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729 =
+        "Verursacht sofort Feuerschaden und anschließend 12 Sek. lang alle 3 Sek. weiteren Feuerschaden.\n\nBannt diesen magischen Effekt."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

@@ -1298,6 +1298,16 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040 =
         "Absorve dano físico e mágico recebido por até 30 s e causa dano aos atacantes corpo a corpo.\n\nRemova este bônus mágico."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_6524 = "Tremor de solo"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_6524 =
+        "Atordoa os inimigos próximos por 2 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13728 = "Choque Terreno"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13728 =
+        "Causa dano de Natureza a um inimigo. Interrompe o lançamento de feitiços do alvo por 2 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13729 = "Choque Flamejante"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729 =
+        "Causa dano de Fogo imediatamente e a cada 3 s por 12 s.\n\nDissipe este efeito mágico."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

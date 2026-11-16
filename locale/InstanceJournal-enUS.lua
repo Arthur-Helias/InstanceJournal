@@ -1778,6 +1778,16 @@ IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_NAME_12040 = "Shadow Shield"
 IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040 =
     "Absorbs incoming Physical and magical damage for up to 30 sec. and damages melee attackers.\n\nRemove this Magic buff."
 
+IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_6524 = "Ground Tremor"
+IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_6524 =
+    "Stuns nearby enemies for 2 sec."
+IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13728 = "Earth Shock"
+IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13728 =
+    "Deals Nature damage to an enemy. Interrupts the target’s spellcasting for 2 sec."
+IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13729 = "Flame Shock"
+IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729 =
+    "Deals Fire damage immediately and every 3 sec. for 12 sec.\n\nDispel this Magic effect."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

@@ -1301,6 +1301,16 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_9018_ABILITY_EFFECT_12040 =
         "Absorbe el daño físico y mágico recibido durante un máximo de 30 s y daña a los atacantes cuerpo a cuerpo.\n\nElimina este beneficio mágico."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_6524 = "Temblor de tierra"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_6524 =
+        "Aturde a los enemigos cercanos durante 2 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13728 = "Choque de tierra"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13728 =
+        "Inflige daño de Naturaleza a un enemigo. Interrumpe el lanzamiento de hechizos del objetivo durante 2 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13729 = "Choque de llamas"
+    IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729 =
+        "Inflige daño de Fuego inmediato y cada 3 s durante 12 s.\n\nDisipa este efecto mágico."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

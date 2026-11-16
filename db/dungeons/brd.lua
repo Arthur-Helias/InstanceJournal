@@ -76,7 +76,7 @@ BRD.Bosses = {
             [6] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [2] = { -- NOTE: Missing abilities
+    [2] = {
         Id = "9025",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "roccor" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "roccor" .. IMPF,
@@ -85,6 +85,27 @@ BRD.Bosses = {
         MapCoordinateX = 54.3,
         MapCoordinateY = 77.9,
         IsRare = true,
+        Abilities = {
+            [1] = {
+                Id = "6524",
+                Icon = "Spell_Nature_Earthquake",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_6524,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_6524
+            },
+            [2] = {
+                Id = "13728",
+                Icon = "Spell_Nature_EarthShock",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13728,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13728
+            },
+            [3] = {
+                Id = "13729",
+                Icon = "Spell_Fire_FlameShock",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13729,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11624], DropChance = 25},
             [2] = {IJDB.I[11625], DropChance = 25},
