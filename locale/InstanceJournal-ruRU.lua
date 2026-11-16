@@ -1346,6 +1346,19 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049 =
         "Повышает скорость атаки союзника на 30% на 30 сек.\n\nСнимите этот положительный магический эффект."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15038 = "Опаляющий тотем"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15038 =
+        "Призывает опаляющий тотем, атакующий ближайших противников. Уничтожьте тотем."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15616 = "Огненный шок"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15616 =
+        "Мгновенно наносит урон от огня, затем каждые 3 сек. в течение 12 сек.\n\nРассеяйте этот магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15095 = "Раскаленный взрыв"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15095 =
+        "Наносит противнику урон от огня."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15041 = "Защита от огня"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
+        "Поглощает урон от огня до 60 сек.\n\nСнимите этот положительный магический эффект."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

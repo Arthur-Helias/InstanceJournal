@@ -1322,6 +1322,19 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049 =
         "Erhöht das Angriffstempo eines Verbündeten 30 Sek. lang um 30%.\n\nEntfernt diesen magischen Stärkungseffekt."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15038 = "Versengendes Totem"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15038 =
+        "Beschwört ein versengendes Totem, das nahe Gegner angreift. Zerstört das Totem."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15616 = "Flammenschock"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15616 =
+        "Verursacht sofort Feuerschaden und anschließend 12 Sek. lang alle 3 Sek. weiteren Feuerschaden.\n\nBannt diesen magischen Effekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15095 = "Geschmolzene Explosion"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15095 =
+        "Fügt einem Gegner Feuerschaden zu."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15041 = "Feuerzauberschutz"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
+        "Absorbiert bis zu 60 Sek. lang Feuerschaden.\n\nEntfernt diesen magischen Stärkungseffekt."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

@@ -1892,6 +1892,19 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049 =
         "使一名盟友的攻击速度提高30%，持续30秒。\n\n驱散此增益魔法效果。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15038 = "灼热图腾"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15038 =
+        "召唤一个灼热图腾，攻击附近的敌人。摧毁此图腾。"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15616 = "烈焰震击"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15616 =
+        "立即造成火焰伤害，并每3秒造成一次额外火焰伤害，持续12秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15095 = "熔岩冲击"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15095 =
+        "对一名敌人造成火焰伤害。"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15041 = "防护火焰结界"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
+        "吸收火焰伤害，最多持续60秒。\n\n驱散此增益魔法效果。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

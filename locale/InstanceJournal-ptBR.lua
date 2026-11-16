@@ -1318,6 +1318,19 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049 =
         "Aumenta a velocidade de ataque de um aliado em 30% por 30 s.\n\nRemova este bônus mágico."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15038 = "Totem Calcinante"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15038 =
+        "Invoca um Totem Calcinante que ataca inimigos próximos. Destrua o totem."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15616 = "Choque Flamejante"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15616 =
+        "Causa dano de Fogo imediatamente e a cada 3 s por 12 s.\n\nDissipe este efeito mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15095 = "Impacto Derretido"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15095 =
+        "Causa dano de Fogo a um inimigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15041 = "Proteção contra Fogo"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
+        "Absorve dano de Fogo por até 60 s.\n\nRemova este bônus mágico."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

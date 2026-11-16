@@ -1321,6 +1321,19 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049 =
         "Aumenta la velocidad de ataque de un aliado un 30% durante 30 s.\n\nElimina este beneficio mágico."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15038 = "Tótem abrasador"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15038 =
+        "Invoca un tótem abrasador que ataca a los enemigos cercanos. Destruye el tótem."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15616 = "Choque de llamas"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15616 =
+        "Inflige daño de Fuego inmediato y cada 3 s durante 12 s.\n\nDisipa este efecto mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15095 = "Explosión de arrabio"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15095 =
+        "Inflige daño de Fuego a un enemigo."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15041 = "Resguardo contra el Fuego"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
+        "Absorbe daño de Fuego durante un máximo de 60 s.\n\nElimina este beneficio mágico."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

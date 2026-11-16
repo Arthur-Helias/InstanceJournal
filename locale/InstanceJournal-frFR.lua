@@ -1321,6 +1321,19 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049 =
         "Augmente la vitesse d’attaque d’un allié de 30% pendant 30 s.\n\nDissipez cet effet bénéfique magique."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15038 = "Totem brûlant"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15038 =
+        "Invoque un totem brûlant qui attaque les ennemis proches. Détruisez le totem."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15616 = "Horion de flammes"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15616 =
+        "Inflige des dégâts de Feu immédiatement, puis toutes les 3 s pendant 12 s.\n\nDissipez cet effet magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15095 = "Explosion de lave"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15095 =
+        "Inflige des dégâts de Feu à un ennemi."
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15041 = "Gardien de feu"
+    IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
+        "Absorbe les dégâts de Feu pendant 60 s au maximum.\n\nDissipez cet effet bénéfique magique."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

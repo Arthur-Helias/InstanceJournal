@@ -1798,6 +1798,19 @@ IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_21049 = "Bloodlust"
 IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049 =
     "Increases an ally’s attack speed by 30% for 30 sec.\n\nRemove this Magic buff."
 
+IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15038 = "Scorching Totem"
+IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15038 =
+    "Summons a Scorching Totem that attacks nearby enemies. Destroy the totem."
+IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15616 = "Flame Shock"
+IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15616 =
+    "Deals Fire damage immediately and every 3 sec. for 12 sec.\n\nDispel this Magic effect."
+IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15095 = "Molten Blast"
+IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15095 =
+    "Deals Fire damage to an enemy."
+IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15041 = "Fire Ward"
+IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041 =
+    "Absorbs Fire damage for up to 60 sec.\n\nRemove this Magic buff."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

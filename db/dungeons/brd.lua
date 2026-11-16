@@ -228,7 +228,7 @@ BRD.Bosses = {
             [5] = {IJDB.I[51217], DropChance = 5}
         }
     },
-    [6] = { -- NOTE: Missing abilities
+    [6] = {
         Id = "9024",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "loregrain" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "loregrain" .. IMPF,
@@ -237,6 +237,34 @@ BRD.Bosses = {
         MapCoordinateX = 57.1,
         MapCoordinateY = 76.0,
         IsRare = true,
+        Abilities = {
+            [1] = {
+                Id = "15038",
+                Icon = "Spell_Fire_SearingTotem",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15038,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15038
+            },
+            [2] = {
+                Id = "15616",
+                Icon = "Spell_Fire_FlameShock",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15616,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15616,
+                Flags = {IMAF.Magic}
+            },
+            [3] = {
+                Id = "15095",
+                Icon = "Spell_Fire_Fire",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15095,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15095
+            },
+            [4] = {
+                Id = "15041",
+                Icon = "Spell_Fire_FireArmor",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_NAME_15041,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9024_ABILITY_EFFECT_15041,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[70226], DropChance = 2},
             [2] = {IJDB.I[11207], DropChance = 16},
