@@ -24,6 +24,7 @@ All changes to this project will be documented in this file.
 
 ### Changed
 
+- Restricted `The Hexxer's Ward` and `A Special Kind of Summons` to mages
 - Expanded the lore of `Alarus` and `Commander Andreon` in `Karazhan Crypts`
 - Updated boss abilities in `Stormwind Vault`
 - Expanded the lore of `Tham'Grarr` with his two heads and their personalities
