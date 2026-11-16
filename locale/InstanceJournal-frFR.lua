@@ -113,6 +113,7 @@ if GetLocale() == "frFR" then
     IJ_GUI_TABRAIDS = "Raids"
     IJ_GUI_BOSS = "Boss"
     IJ_GUI_RARE = "Rare"
+    IJ_GUI_SUMMONED = "Invoqué"
     IJ_GUI_BOSSES = "Boss"
     IJ_GUI_SHOWMAP = "Voir la\nCarte"
     IJ_GUI_HOME = "Accueil"
@@ -970,6 +971,8 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DMW_STORY =
         "Les jardins de la capitale sont situés à l'ouest de Dire Maul. La zone était peut-être autrefois un parc urbain vierge, mais maintenant les arbres sont gris et flétris, et les rues brisées sont pleines d'anciens dangereux."
 
+    -- Dreadsteed of Xoroth encounter
+
     -- DMW Bosses
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Warpwood"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
@@ -1787,6 +1790,7 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_SCHOLO_STORY =
         "Les individus cherchant à maîtriser les pouvoirs de la non-mort connaissent bien la Scholomance, la tristement célèbre école de nécromancie située dans les cryptes sombres et inquiétantes sous Caer Darrow. Ces dernières années, plusieurs instructeurs ont changé, mais l'institution reste sous le contrôle du Darkmaster Gandling, un praticien particulièrement sadique et insidieux de la magie nécromantique."
 
+    -- Additional Dungeon Set 2 encounters and Darkreaver quests
     -- SCHOLO Bosses
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10506 = "Kirtonos le héraut"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10506 =
@@ -4074,6 +4078,7 @@ if GetLocale() == "frFR" then
     IJ_QUEST_OBJECTIVE_40905 = "Apportez l'essence de rêve fumant à l'archidruide Dreamwind à Nordanaar à Hyjal."
     IJ_QUEST_NAME_40828 = "La clé de Karajan IX"
     IJ_QUEST_OBJECTIVE_40828 = "Trouvez le « Traité sur les serrures et les clés magiques » et rapportez-le à Vandol. La rumeur dit qu'il est conservé dans le repaire de Blackwing."
+    -- Ritual of Souls and learned spell rewards
     IJ_QUEST_NAME_70000 = "Un type spécial d'invocation"
     IJ_QUEST_OBJECTIVE_70000 = "Visitez l’archimage Xylem à Azshara."
     IJ_QUEST_NAME_70001 = "La protection du maléficieur"

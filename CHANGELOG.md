@@ -6,6 +6,7 @@ All changes to this project will be documented in this file.
 
 ### Added
 
+- Added a localized `[Summoned]` tag and summoning guidance for summoned encounters
 - Added `Isalien` to `Dire Maul East`, including abilities and loot
 - Added missing abilities to the bosses in `Dire Maul East`
 - Added missing abilities to the bosses in `Lower Blackrock Spire`

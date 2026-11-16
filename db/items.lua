@@ -6731,4 +6731,5 @@ I[22401] = {Id = "22401", Icon = "INV_Relics_LibramofHope", Name = IJ_LOOT_NAME_
 
 I[22472] = {Id = "22472", Icon = "INV_Boots_08", Name = IJ_LOOT_NAME_22472, Quality = IQ.Rare, ItemSlot = IS.Feet, ItemType = IT.Leather, LevelRequirement = 56}
 
+-- Additional Dungeon Set 2 encounters and Darkreaver quest reward
 IJDB.I = I

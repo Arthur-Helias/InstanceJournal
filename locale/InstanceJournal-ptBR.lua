@@ -113,6 +113,7 @@ if GetLocale() == "ptBR" then
     IJ_GUI_TABRAIDS = "Raides"
     IJ_GUI_BOSS = "Chefe"
     IJ_GUI_RARE = "Raro"
+    IJ_GUI_SUMMONED = "Invocado"
     IJ_GUI_BOSSES = "Chefes"
     IJ_GUI_SHOWMAP = "Mostrar\nMapa"
     IJ_GUI_HOME = "Início"
@@ -967,6 +968,8 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DMW_STORY =
         "Os Jardins da Capital estão localizados a oeste de Dire Maul. A área pode ter sido outrora um distrito de parque urbano imaculado, mas agora as árvores estão cinzentas e murchas, e as ruas quebradas estão cheias de antigos perigosos."
 
+    -- Dreadsteed of Xoroth encounter
+
     -- DMW Bosses
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Warpwood"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
@@ -1784,6 +1787,7 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_SCHOLO_STORY =
         "Indivíduos que buscam dominar os poderes dos mortos-vivos conhecem bem Scholomance, a infame escola de necromancia localizada nas criptas escuras e agourentas abaixo de Caer Darrow. Nos últimos anos, vários instrutores mudaram, mas a instituição permanece sob o controle do Darkmaster Gandling, um praticante de magia necromântica particularmente sádico e insidioso."
 
+    -- Additional Dungeon Set 2 encounters and Darkreaver quests
     -- SCHOLO Bosses
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10506 = "Kirtonos, o Arauto"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10506 =
@@ -4063,6 +4067,7 @@ if GetLocale() == "ptBR" then
     IJ_QUEST_OBJECTIVE_40905 = "Leve a Essência do Sonho Fumegante para o Arquidruida Vento Sonho em Nordanaar, em Hyjal."
     IJ_QUEST_NAME_40828 = "A chave para Karazhan IX"
     IJ_QUEST_OBJECTIVE_40828 = "Encontre “Tratado sobre Fechaduras e Chaves Mágicas” e leve-o de volta para Vandol. Há rumores de que é mantido em Blackwing Lair."
+    -- Ritual of Souls and learned spell rewards
     IJ_QUEST_NAME_70000 = "Um tipo especial de convocação"
     IJ_QUEST_OBJECTIVE_70000 = "Visite o Arquimago Xylem em Azshara."
     IJ_QUEST_NAME_70001 = "A Proteção do Bagateiro"

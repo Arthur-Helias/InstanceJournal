@@ -113,6 +113,7 @@ if GetLocale() == "deDE" then
     IJ_GUI_TABRAIDS = "Schlachtzüge"
     IJ_GUI_BOSS = "Boss"
     IJ_GUI_RARE = "Rar"
+    IJ_GUI_SUMMONED = "Beschworen"
     IJ_GUI_BOSSES = "Bosse"
     IJ_GUI_SHOWMAP = "Karte\nzeigen"
     IJ_GUI_HOME = "Home"
@@ -971,6 +972,8 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DMW_STORY =
         "Die Capital Gardens liegen westlich von Dire Maul. Das Gebiet mag einst ein unberührter Stadtparkbezirk gewesen sein, aber jetzt stehen die Bäume grau und verdorrt da, und die kaputten Straßen sind voller gefährlicher Altertümer."
 
+    -- Dreadsteed of Xoroth encounter
+
     -- DMW Bosses
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Warpwood"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
@@ -1788,6 +1791,7 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_SCHOLO_STORY =
         "Personen, die die Kräfte des Untodes meistern wollen, kennen Scholomance, die berüchtigte Schule der Nekromantie, die sich in den dunklen und unheilvollen Krypten unter Caer Darrow befindet. In den letzten Jahren haben mehrere Ausbilder gewechselt, aber die Institution steht weiterhin unter der Kontrolle von Dunkelmeister Gandling, einem besonders sadistischen und heimtückischen Praktiker der nekromantischen Magie."
 
+    -- Additional Dungeon Set 2 encounters and Darkreaver quests
     -- SCHOLO Bosses
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10506 = "Kirtonos der Herold"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10506 =
@@ -4072,6 +4076,7 @@ if GetLocale() == "deDE" then
     IJ_QUEST_OBJECTIVE_40905 = "Bringt die schwelende Traumessenz zum Erzdruiden Dreamwind in Nordanaar im Hyjal."
     IJ_QUEST_NAME_40828 = "Der Schlüssel zu Karazhan IX"
     IJ_QUEST_OBJECTIVE_40828 = "Finde „Abhandlung über magische Schlösser und Schlüssel“ und bringe sie zu Vandol zurück. Es wird gemunkelt, dass es im Pechschwingenhort aufbewahrt wird."
+    -- Ritual of Souls and learned spell rewards
     IJ_QUEST_NAME_70000 = "Eine besondere Art von Beschwörung"
     IJ_QUEST_OBJECTIVE_70000 = "Besuchen Sie Erzmagier Xylem in Azshara."
     IJ_QUEST_NAME_70001 = "Der Schutzzauber des Verhexers"

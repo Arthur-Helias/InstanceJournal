@@ -116,6 +116,7 @@ if GetLocale() == "zhCN" then
     IJ_GUI_TABRAIDS = "团队副本"
     IJ_GUI_BOSS = "首领"
     IJ_GUI_RARE = "稀有"
+    IJ_GUI_SUMMONED = "召唤"
     IJ_GUI_BOSSES = "首领"
     IJ_GUI_SHOWMAP = "显示\n地图"
     IJ_GUI_HOME = "主页"
@@ -1471,6 +1472,8 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMW_NAME = "厄运之槌西"
     IJ_DB_DUNGEON_DMW_STORY = "首都花园位于厄运之槌以西。该地区可能曾经是一个原始的城市公园区，但现在树木灰白枯萎，破碎的街道上充满了危险的古人。"
 
+    -- Dreadsteed of Xoroth encounter
+
     -- DMW Bosses
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "特迪斯·扭木"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
@@ -2787,6 +2790,7 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_SCHOLO_STORY =
         "寻求掌握亡灵力量的人都非常了解通灵学院，这是一所臭名昭著的死灵学派，位于凯尔达隆地下黑暗而不祥的地窖中。近年来，几位导师发生了变化，但该机构仍然处于黑暗大师甘德林的控制之下，他是一个特别残暴和阴险的死灵魔法实践者。"
 
+    -- Additional Dungeon Set 2 encounters and Darkreaver quests
     -- SCHOLO Bosses
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10506 = "传令官基尔图诺斯"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10506 =
@@ -7009,6 +7013,8 @@ if GetLocale() == "zhCN" then
     -- Quest 40828
     IJ_QUEST_NAME_40828 = "卡拉赞的钥匙之九"
     IJ_QUEST_OBJECTIVE_40828 = "找到“魔法锁和钥匙的论文”并将其带回给多万·布雷斯温德。据传它被保存在黑翼之巢中。"
+
+    -- Ritual of Souls and learned spell rewards
 
     -- Quest 70000
     IJ_QUEST_NAME_70000 = "一种特殊的传票"

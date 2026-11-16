@@ -298,6 +298,10 @@ function IJ_PopulateBossList(instance)
             bossName = bossName .. IJLib.Colors.LightGray.Hex .. " [" .. IJ_GUI_RARE .. "]|r"
         end
 
+        if boss.IsSummoned == true then
+            bossName = bossName .. IJLib.Colors.LightGray.Hex .. " [" .. IJ_GUI_SUMMONED .. "]|r"
+        end
+
         btn.nameText:SetText(bossName)
         btn.boss = boss
 

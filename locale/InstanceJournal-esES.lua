@@ -113,6 +113,7 @@ if GetLocale() == "esES" then
     IJ_GUI_TABRAIDS = "Bandas"
     IJ_GUI_BOSS = "Jefe"
     IJ_GUI_RARE = "Raro"
+    IJ_GUI_SUMMONED = "Invocado"
     IJ_GUI_BOSSES = "Jefes"
     IJ_GUI_SHOWMAP = "Mostrar\nMapa"
     IJ_GUI_HOME = "Inicio"
@@ -970,6 +971,8 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DMW_STORY =
         "Los Jardines Capital están ubicados al oeste de Dire Maul. La zona podría haber sido alguna vez un prístino distrito de parques de la ciudad, pero ahora los árboles están grises y marchitos, y las calles rotas están llenas de antiguos peligrosos."
 
+    -- Dreadsteed of Xoroth encounter
+
     -- DMW Bosses
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Madera Alabeada"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
@@ -1787,6 +1790,7 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_SCHOLO_STORY =
         "Las personas que buscan dominar los poderes de los no-muertos conocen bien la Scholomance, la infame escuela de nigromancia ubicada en las oscuras y siniestras criptas debajo de Caer Darrow. En los últimos años, varios de los instructores han cambiado, pero la institución permanece bajo el control del Darkmaster Gandling, un practicante de magia nigromántica particularmente sádico e insidioso."
 
+    -- Additional Dungeon Set 2 encounters and Darkreaver quests
     -- SCHOLO Bosses
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10506 = "Kirtonos el Heraldo"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10506 =
@@ -4074,6 +4078,7 @@ if GetLocale() == "esES" then
     IJ_QUEST_OBJECTIVE_40905 = "Llévale la esencia del sueño humeante al archidruida Vientosueño en Nordanaar, Hyjal."
     IJ_QUEST_NAME_40828 = "La clave de Karazhan IX"
     IJ_QUEST_OBJECTIVE_40828 = "Encuentra el \"Tratado sobre llaves y cerraduras mágicas\" y tráelo a Vandol. Se rumorea que se guarda en Blackwing Lair."
+    -- Ritual of Souls and learned spell rewards
     IJ_QUEST_NAME_70000 = "Un tipo especial de convocatoria"
     IJ_QUEST_OBJECTIVE_70000 = "Visita al archimago Xylem en Azshara."
     IJ_QUEST_NAME_70001 = "La protección del malhechor"

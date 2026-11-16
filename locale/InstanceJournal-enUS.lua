@@ -17,6 +17,7 @@ IJ_GUI_TABDUNGEONS = "Dungeons"
 IJ_GUI_TABRAIDS = "Raids"
 IJ_GUI_BOSS = "Boss"
 IJ_GUI_RARE = "Rare"
+IJ_GUI_SUMMONED = "Summoned"
 IJ_GUI_BOSSES = "Bosses"
 IJ_GUI_SHOWMAP = "Show\nMap"
 IJ_GUI_HOME = "Home"
@@ -1377,6 +1378,8 @@ IJ_DB_DUNGEON_DMW_NAME = "Dire Maul West"
 IJ_DB_DUNGEON_DMW_STORY =
     "The Capital Gardens are located west in Dire Maul. The area might once have been a pristine city park district, but now the trees stand gray and withered, and the broken streets are full of dangerous ancients."
 
+-- Dreadsteed of Xoroth encounter
+
 -- DMW Bosses
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Warpwood"
 IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
@@ -2694,6 +2697,7 @@ IJ_DB_DUNGEON_SCHOLO_NAME = "Scholomance"
 IJ_DB_DUNGEON_SCHOLO_STORY =
     "Individuals seeking to master the powers of undeath know well of Scholomance, the infamous school of necromancy located in the dark and foreboding crypts beneath Caer Darrow. In recent years, several of the instructors have changed, but the institution remains under the control of Darkmaster Gandling, a particularly sadistic and insidious practitioner of necromantic magic."
 
+-- Additional Dungeon Set 2 encounters and Darkreaver quests
 -- SCHOLO Bosses
 IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10506 = "Kirtonos the Herald"
 IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10506 =
@@ -6898,6 +6902,8 @@ IJ_QUEST_OBJECTIVE_40905 = "Bring the Smoldering Dream Essence to Arch Druid Dre
 -- Quest 40828
 IJ_QUEST_NAME_40828 = "The Key to Karazhan IX"
 IJ_QUEST_OBJECTIVE_40828 = "Find \"Treatise on Magical Locks and Keys\" and bring it back to Vandol. It is rumored to be kept in Blackwing Lair."
+
+-- Ritual of Souls and learned spell rewards
 
 -- Quest 70000
 IJ_QUEST_NAME_70000 = "A Special Kind of Summons"

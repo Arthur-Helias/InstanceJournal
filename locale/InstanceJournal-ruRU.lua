@@ -113,6 +113,7 @@ if GetLocale() == "ruRU" then
     IJ_GUI_TABRAIDS = "Рейды"
     IJ_GUI_BOSS = "Босс"
     IJ_GUI_RARE = "Редкий"
+    IJ_GUI_SUMMONED = "Призываемый"
     IJ_GUI_BOSSES = "Боссы"
     IJ_GUI_SHOWMAP = "Показать\nКарту"
     IJ_GUI_HOME = "Главная"
@@ -994,6 +995,8 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_DMW_STORY =
         "Столичные сады расположены на западе Забытого Города. Возможно, когда-то этот район был нетронутым городским парком, но теперь деревья стоят серые и увядшие, а разбитые улицы полны опасных древних людей."
 
+    -- Dreadsteed of Xoroth encounter
+
     -- DMW Bosses
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Тендрис Искривленный лес"
     IJ_DB_DUNGEON_DMW_BOSS_STORY_11489 =
@@ -1813,6 +1816,7 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_SCHOLO_STORY =
         "Люди, стремящиеся овладеть силами нежити, хорошо знают Некроситет, печально известную школу некромантии, расположенную в темных и зловещих склепах под Каэр Дарроу. За последние годы сменилось несколько преподавателей, но учреждение остается под контролем Темного магистра Гандлинга, особенно садистского и коварного практика некромантской магии."
 
+    -- Additional Dungeon Set 2 encounters and Darkreaver quests
     -- SCHOLO Bosses
     IJ_DB_DUNGEON_SCHOLO_BOSS_NAME_10506 = "Киртонос Вестник"
     IJ_DB_DUNGEON_SCHOLO_BOSS_STORY_10506 =
@@ -4162,6 +4166,7 @@ if GetLocale() == "ruRU" then
     IJ_QUEST_NAME_40828 = "Ключ от Каражана IX"
     IJ_QUEST_OBJECTIVE_40828 =
         "Найдите «Трактат о магических замках и ключах» и принесите его Вандолу. Ходят слухи, что он хранится в Логове Крыла Тьмы."
+    -- Ritual of Souls and learned spell rewards
     IJ_QUEST_NAME_70000 = "Особый вид призыва"
     IJ_QUEST_OBJECTIVE_70000 = "Посетите верховного мага Ксилема в Азшаре."
     IJ_QUEST_NAME_70001 = "Оберег проклинателя"
