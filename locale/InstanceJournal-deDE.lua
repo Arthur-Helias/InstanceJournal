@@ -982,6 +982,39 @@ if GetLocale() == "deDE" then
         "Die Capital Gardens liegen westlich von Dire Maul. Das Gebiet mag einst ein unberührter Stadtparkbezirk gewesen sein, aber jetzt stehen die Bäume grau und verdorrt da, und die kaputten Straßen sind voller gefährlicher Altertümer."
 
     -- Dreadsteed of Xoroth encounter
+    IJ_DB_DUNGEON_DMW_BOSS_STORY_14502 =
+        "Im Gefängnis von Immol’thar bereiten Hexenmeister einen Beschwörungskreis vor, um einen Weg nach Xoroth zu öffnen. Ein Schreckensross folgt dem Ruf, und auch Lord Hel’nurath tritt in den Kampf ein. Der Sieg ermöglicht es einem Hexenmeister, den Geist des Rosses zu binden und es als Reittier zu beanspruchen."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedsummoning =
+        "Besiegt Immol’thar und benutzt dann J’eevees Glas auf seinem Sockel, um das Ritual zu beginnen. Sobald der Beschwörungskreis mit Energie erfüllt ist, benutzt die Xorothianischen Glyphen, um das Xorothianische Schreckensross zu beschwören."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedritual = "Beschwörungsritual"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedritual =
+        "Verteidigt den Kreis gegen angreifende Dämonen. Benutzt den Schwarzen Magnetstein und einen Seelensplitter, um einen ausgefallenen Energieknoten des Rituals wieder zu aktivieren."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteed = "Xorothianisches Schreckensross"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_helnurath = "Lord Hel’nurath"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedcompletion =
+        "Sprecht nach dem Sieg über beide Gegner mit dem Geist des Schreckensrosses, um die Quest abzuschließen und Schreckensross herbeirufen zu erlernen."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_22713 = "Flammenpuffer"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_22713 =
+        "Verursacht Feuerschaden und erhöht den erlittenen Feuerschaden 20 Sek. lang. Bannt diesen Magieeffekt."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_17146 = "Schattenwort: Schmerz"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_17146 =
+        "Verursacht 18 Sek. lang alle 3 Sek. Schattenschaden. Bannt diesen Magieeffekt."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_23224 = "Schleier des Schattens"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_23224 =
+        "Verringert die erhaltene Heilung 8 Sek. lang um 75%. Entfernt den Fluch."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_18670 = "Wegschlagen"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_18670 =
+        "Fügt einem Gegner körperlichen Schaden zu und stößt ihn zurück."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_20989 = "Schlaf"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_20989 =
+        "Versetzt einen Gegner bis zu 10 Sek. lang in Schlaf. Schaden weckt das Ziel auf. Bannt diesen Magieeffekt."
+    IJ_DB_DUNGEON_DMW_BOSS_NAME_14502 = "Schreckensross von Xoroth"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedsummoning = "Beschwörung"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedcompletion = "Schreckensross-Geist"
+    IJ_LOOT_NAME_18754 = "Teufelsgehärtete Armschienen"
+    IJ_LOOT_NAME_18755 = "Xorothianischer Feuerstab"
+    IJ_LOOT_NAME_18756 = "Beschützer der Schreckenswache"
+    IJ_LOOT_NAME_18757 = "Diabolischer Mantel"
 
     -- DMW Bosses
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Warpwood"

@@ -981,6 +981,39 @@ if GetLocale() == "frFR" then
         "Les jardins de la capitale sont situés à l'ouest de Dire Maul. La zone était peut-être autrefois un parc urbain vierge, mais maintenant les arbres sont gris et flétris, et les rues brisées sont pleines d'anciens dangereux."
 
     -- Dreadsteed of Xoroth encounter
+    IJ_DB_DUNGEON_DMW_BOSS_STORY_14502 =
+        "Dans la Prison d’Immol’thar, les démonistes préparent un cercle d’invocation pour ouvrir un passage vers Xoroth. Un destrier de l’effroi répond à l’appel, et le seigneur Hel’nurath rejoint également le combat. La victoire permet au démoniste de lier l’esprit du destrier et d’en faire sa monture."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedsummoning =
+        "Après avoir vaincu Immol’thar, utilisez le Bocal de J’eevee sur son piédestal pour commencer le rituel. Une fois le cercle d’invocation chargé, utilisez les Glyphes de Xoroth pour invoquer le Destrier de l’effroi xorothien."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedritual = "Rituel d’invocation"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedritual =
+        "Défendez le cercle contre les démons qui arrivent. Utilisez la Magnétite noire et un Fragment d’âme pour réactiver un nœud d’énergie défaillant du rituel."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteed = "Destrier de l’effroi xorothien"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_helnurath = "Seigneur Hel’nurath"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedcompletion =
+        "Après avoir vaincu les deux ennemis, parlez à l’Esprit de destrier de l’effroi pour terminer la quête et apprendre Invocation de destrier de l’effroi."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_22713 = "Rafale de flammes"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_22713 =
+        "Inflige des dégâts de Feu et augmente les dégâts de Feu subis pendant 20 s. Dissipez cet effet magique."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_17146 = "Mot de l’ombre : Douleur"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_17146 =
+        "Inflige des dégâts d’Ombre toutes les 3 s pendant 18 s. Dissipez cet effet magique."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_23224 = "Voile de l’ombre"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_23224 =
+        "Réduit les soins reçus de 75% pendant 8 s. Levez la malédiction."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_18670 = "Repousser"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_18670 =
+        "Inflige des dégâts physiques à un ennemi et le repousse."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_20989 = "Sommeil"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_20989 =
+        "Endort un ennemi pendant 10 s au maximum. Les dégâts réveillent la cible. Dissipez cet effet magique."
+    IJ_DB_DUNGEON_DMW_BOSS_NAME_14502 = "Destrier d'effroi de Xoroth"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedsummoning = "Invocation"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedcompletion = "Esprit des destrier d'effroi"
+    IJ_LOOT_NAME_18754 = "Brassards durcis par le fiel"
+    IJ_LOOT_NAME_18755 = "Bâton de feu xorothien"
+    IJ_LOOT_NAME_18756 = "Protecteur du Garde de l’effroi"
+    IJ_LOOT_NAME_18757 = "Mantelet diabolique"
 
     -- DMW Bosses
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Warpwood"

@@ -1482,6 +1482,39 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DMW_STORY = "首都花园位于厄运之槌以西。该地区可能曾经是一个原始的城市公园区，但现在树木灰白枯萎，破碎的街道上充满了危险的古人。"
 
     -- Dreadsteed of Xoroth encounter
+    IJ_DB_DUNGEON_DMW_BOSS_STORY_14502 =
+        "术士在伊莫塔尔的囚笼中布置召唤法阵，打开通往克索诺斯的通道。一匹恐惧战马响应召唤，赫尔努拉斯领主也加入战斗。胜利后，术士便可束缚战马的灵魂，将其收为坐骑。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedsummoning =
+        "击败伊莫塔尔后，在它的祭坛上使用耶维尔的瓶子开始仪式。召唤法阵获得能量后，使用克索诺斯雕文召唤克索诺斯恐惧战马。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedritual = "召唤仪式"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedritual =
+        "抵御来袭的恶魔，保护法阵。使用黑色磁石并消耗一块灵魂碎片，重新激活失效的仪式能量节点。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteed = "克索诺斯恐惧战马"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_helnurath = "赫尔努拉斯领主"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedcompletion =
+        "击败两个敌人后，与恐惧战马之魂交谈，完成任务并学会召唤恐惧战马。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_22713 = "烈焰打击"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_22713 =
+        "造成火焰伤害，并提高受到的火焰伤害，持续20秒。应驱散此魔法效果。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_17146 = "暗言术：痛"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_17146 =
+        "每3秒造成一次暗影伤害，持续18秒。应驱散此魔法效果。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_23224 = "暗影迷雾"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_23224 =
+        "使受到的治疗效果降低75%，持续8秒。应解除此诅咒。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_18670 = "击飞"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_18670 =
+        "对一名敌人造成物理伤害，并将其击退。"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_20989 = "睡眠术"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_20989 =
+        "使一名敌人沉睡，最多持续10秒。受到伤害会醒来。应驱散此魔法效果。"
+    IJ_DB_DUNGEON_DMW_BOSS_NAME_14502 = "克索诺斯恐惧战马"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedsummoning = "召唤"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedcompletion = "恐惧战马的灵魂"
+    IJ_LOOT_NAME_18754 = "魔能护腕"
+    IJ_LOOT_NAME_18755 = "克索诺斯火棍"
+    IJ_LOOT_NAME_18756 = "恐惧卫士之盾"
+    IJ_LOOT_NAME_18757 = "恶魔衬肩"
 
     -- DMW Bosses
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "特迪斯·扭木"

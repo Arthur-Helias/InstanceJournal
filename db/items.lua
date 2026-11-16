@@ -6775,4 +6775,12 @@ I[83003] = {Id = "83003", Icon = "INV_Misc_Book_01", Name = IJ_LOOT_NAME_83003, 
 
 I[18602] = {Id = "18602", Icon = "INV_Misc_Book_06", Name = IJ_LOOT_NAME_18602, Quality = IQ.Rare, ItemSlot = IS.HeldInOffHand, ClassRestriction = {IMCL.Warlock}}
 
+I[18754] = {Id = "18754", Icon = "INV_Bracer_15", Name = IJ_LOOT_NAME_18754, Quality = IQ.Rare, ItemSlot = IS.Wrist, ItemType = IT.Plate, LevelRequirement = 57}
+
+I[18755] = {Id = "18755", Icon = "INV_Weapon_Rifle_03", Name = IJ_LOOT_NAME_18755, Quality = IQ.Rare, ItemSlot = IS.Ranged, ItemType = IT.Gun, LevelRequirement = 57}
+
+I[18756] = {Id = "18756", Icon = "INV_Shield_17", Name = IJ_LOOT_NAME_18756, Quality = IQ.Rare, ItemSlot = IS.OffHand, ItemType = IT.Shield, LevelRequirement = 57}
+
+I[18757] = {Id = "18757", Icon = "INV_Shoulder_25", Name = IJ_LOOT_NAME_18757, Quality = IQ.Rare, ItemSlot = IS.Shoulder, ItemType = IT.Cloth, LevelRequirement = 57}
+
 IJDB.I = I

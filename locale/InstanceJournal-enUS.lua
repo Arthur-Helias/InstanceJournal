@@ -1388,6 +1388,39 @@ IJ_DB_DUNGEON_DMW_STORY =
     "The Capital Gardens are located west in Dire Maul. The area might once have been a pristine city park district, but now the trees stand gray and withered, and the broken streets are full of dangerous ancients."
 
 -- Dreadsteed of Xoroth encounter
+IJ_DB_DUNGEON_DMW_BOSS_STORY_14502 =
+    "Within the Prison of Immol’thar, warlocks prepare a circle of summoning to open a passage to Xoroth. A dreadsteed answers the call, and Lord Hel’nurath also enters the battle. Victory allows a warlock to bind the steed’s spirit and claim it as a mount."
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedsummoning =
+    "After defeating Immol’thar, use J’eevee’s Jar on his pedestal to begin the ritual. Once the summoning circle is empowered, use the Xorothian Glyphs to summon the Xorothian Dreadsteed."
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedritual = "Summoning Ritual"
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedritual =
+    "Defend the circle against incoming demons. Use the Black Lodestone and a Soul Shard to restart a failing ritual power node."
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteed = "Xorothian Dreadsteed"
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_helnurath = "Lord Hel’nurath"
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedcompletion =
+    "After defeating both enemies, speak to the Dreadsteed Spirit to complete the quest and learn Summon Dreadsteed."
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_22713 = "Flame Buffet"
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_22713 =
+    "Deals Fire damage and increases Fire damage taken for 20 sec. Dispel this Magic effect."
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_17146 = "Shadow Word: Pain"
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_17146 =
+    "Deals Shadow damage every 3 sec. for 18 sec. Dispel this Magic effect."
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_23224 = "Veil of Shadow"
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_23224 =
+    "Reduces healing received by 75% for 8 sec. Remove the curse."
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_18670 = "Knock Away"
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_18670 =
+    "Deals Physical damage to an enemy and knocks them back."
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_20989 = "Sleep"
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_20989 =
+    "Puts an enemy to sleep for up to 10 sec. Damage wakes the target. Dispel this Magic effect."
+IJ_DB_DUNGEON_DMW_BOSS_NAME_14502 = "Dreadsteed of Xoroth"
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedsummoning = "Summoning"
+IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedcompletion = "Dreadsteed Spirit"
+IJ_LOOT_NAME_18754 = "Fel Hardened Bracers"
+IJ_LOOT_NAME_18755 = "Xorothian Firestick"
+IJ_LOOT_NAME_18756 = "Dreadguard's Protector"
+IJ_LOOT_NAME_18757 = "Diabolic Mantle"
 
 -- DMW Bosses
 IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Warpwood"

@@ -981,6 +981,39 @@ if GetLocale() == "esES" then
         "Los Jardines Capital están ubicados al oeste de Dire Maul. La zona podría haber sido alguna vez un prístino distrito de parques de la ciudad, pero ahora los árboles están grises y marchitos, y las calles rotas están llenas de antiguos peligrosos."
 
     -- Dreadsteed of Xoroth encounter
+    IJ_DB_DUNGEON_DMW_BOSS_STORY_14502 =
+        "En la Prisión de Immol’thar, los brujos preparan un círculo de invocación para abrir un paso a Xoroth. Un corcel nefasto responde a la llamada y Lord Hel’nurath también entra en combate. La victoria permite al brujo vincular el espíritu del corcel y obtenerlo como montura."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedsummoning =
+        "Tras derrotar a Immol’thar, usad el Tarro de J’eevee en su pedestal para iniciar el ritual. Cuando el círculo de invocación esté cargado, usad los Glifos xorothianos para invocar al Corcel nefasto xorothiano."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedritual = "Ritual de invocación"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedritual =
+        "Defended el círculo de los demonios que llegan. Usad la Magnetita negra y un Fragmento de alma para reactivar un nodo de energía del ritual que esté fallando."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteed = "Corcel nefasto xorothiano"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_helnurath = "Lord Hel’nurath"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedcompletion =
+        "Tras derrotar a ambos enemigos, hablad con el Espíritu de corcel nefasto para completar la misión y aprender Invocar corcel nefasto."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_22713 = "Sacudida de llamas"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_22713 =
+        "Inflige daño de Fuego y aumenta el daño de Fuego recibido durante 20 s. Disipad este efecto mágico."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_17146 = "Palabra de las Sombras: dolor"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_17146 =
+        "Inflige daño de las Sombras cada 3 s durante 18 s. Disipad este efecto mágico."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_23224 = "Velo de las Sombras"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_23224 =
+        "Reduce la sanación recibida un 75% durante 8 s. Eliminad la maldición."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_18670 = "Repeler"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_18670 =
+        "Inflige daño físico a un enemigo y lo repele."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_20989 = "Dormir"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_20989 =
+        "Duerme a un enemigo durante un máximo de 10 s. El daño despierta al objetivo. Disipad este efecto mágico."
+    IJ_DB_DUNGEON_DMW_BOSS_NAME_14502 = "Corcel aterrador de Xoroth"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedsummoning = "Invocación"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedcompletion = "Espíritu temible"
+    IJ_LOOT_NAME_18754 = "Brazales endurecidos con energía vil"
+    IJ_LOOT_NAME_18755 = "Vara de fuego xorothiana"
+    IJ_LOOT_NAME_18756 = "Protector del Guardia temible"
+    IJ_LOOT_NAME_18757 = "Manto diabólico"
 
     -- DMW Bosses
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Madera Alabeada"

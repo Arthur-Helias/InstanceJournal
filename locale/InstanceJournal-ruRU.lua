@@ -1005,6 +1005,39 @@ if GetLocale() == "ruRU" then
         "Столичные сады расположены на западе Забытого Города. Возможно, когда-то этот район был нетронутым городским парком, но теперь деревья стоят серые и увядшие, а разбитые улицы полны опасных древних людей."
 
     -- Dreadsteed of Xoroth encounter
+    IJ_DB_DUNGEON_DMW_BOSS_STORY_14502 =
+        "В тюрьме Бессмер’тера чернокнижники готовят круг призыва, чтобы открыть проход в Зорот. На зов откликается конь погибели, и в бой также вступает Лорд Хел’нурат. Победа позволяет чернокнижнику подчинить дух коня и получить ездовое животное."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedsummoning =
+        "Победив Бессмер’тера, используйте Флакон Д’живи на его постаменте, чтобы начать ритуал. Когда круг призыва наполнится силой, используйте Зоротианские письмена, чтобы призвать Зоротианского коня погибели."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedritual = "Ритуал призыва"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedritual =
+        "Защищайте круг от нападающих демонов. Используйте Черный магнит и Осколок души, чтобы вновь запустить угасающий источник энергии ритуала."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteed = "Зоротианский конь погибели"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_helnurath = "Лорд Хел’нурат"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedcompletion =
+        "Победив обоих противников, поговорите с Духом коня погибели, чтобы завершить задание и выучить Призыв коня погибели."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_22713 = "Удар пламенем"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_22713 =
+        "Наносит урон от огня и увеличивает получаемый урон от огня на 20 сек. Рассеивайте этот магический эффект."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_17146 = "Слово Тьмы: Боль"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_17146 =
+        "Наносит урон от темной магии раз в 3 сек. в течение 18 сек. Рассеивайте этот магический эффект."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_23224 = "Пелена Тьмы"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_23224 =
+        "Снижает получаемое исцеление на 75% на 8 сек. Снимайте проклятие."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_18670 = "Отбрасывание"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_18670 =
+        "Наносит противнику физический урон и отбрасывает его."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_20989 = "Сон"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_20989 =
+        "Усыпляет противника на срок до 10 сек. Урон пробуждает цель. Рассеивайте этот магический эффект."
+    IJ_DB_DUNGEON_DMW_BOSS_NAME_14502 = "Грозный конь Ксорота"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedsummoning = "Призыв"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedcompletion = "Дух ужасного коня"
+    IJ_LOOT_NAME_18754 = "Закаленные Скверной наручи"
+    IJ_LOOT_NAME_18755 = "Зоротианский огнепал"
+    IJ_LOOT_NAME_18756 = "Защитник стража ужаса"
+    IJ_LOOT_NAME_18757 = "Дьявольское оплечье"
 
     -- DMW Bosses
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Тендрис Искривленный лес"

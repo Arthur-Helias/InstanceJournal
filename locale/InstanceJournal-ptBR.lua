@@ -978,6 +978,39 @@ if GetLocale() == "ptBR" then
         "Os Jardins da Capital estão localizados a oeste de Dire Maul. A área pode ter sido outrora um distrito de parque urbano imaculado, mas agora as árvores estão cinzentas e murchas, e as ruas quebradas estão cheias de antigos perigosos."
 
     -- Dreadsteed of Xoroth encounter
+    IJ_DB_DUNGEON_DMW_BOSS_STORY_14502 =
+        "Na Prisão de Immol’thar, bruxos preparam um círculo de evocação para abrir uma passagem para Xoroth. Um corcel temido atende ao chamado e Lorde Hel’nurath também entra na batalha. A vitória permite ao bruxo vincular o espírito do corcel e conquistá-lo como montaria."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedsummoning =
+        "Após derrotar Immol’thar, use a Jarra de J’eevee no pedestal dele para iniciar o ritual. Quando o círculo de evocação estiver energizado, use os Glifos Xorothianos para invocar o Corcel Temido Xorothiano."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedritual = "Ritual de Invocação"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedritual =
+        "Defenda o círculo contra os demônios que chegam. Use a Pedra Magnética Negra e um Estilhaço de Alma para reativar um ponto de energia do ritual que estiver falhando."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteed = "Corcel Temido Xorothiano"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_helnurath = "Lorde Hel’nurath"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_dreadsteedcompletion =
+        "Após derrotar os dois inimigos, fale com o Espírito do Corcel Temido para concluir a missão e aprender Evocar Corcel Temido."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_22713 = "Golpe Flamejante"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_22713 =
+        "Causa dano de Fogo e aumenta o dano de Fogo recebido por 20 s. Dissipe este efeito mágico."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_17146 = "Palavra Sombria: Dor"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_17146 =
+        "Causa dano de Sombra a cada 3 s por 18 s. Dissipe este efeito mágico."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_23224 = "Véu Sombrio"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_23224 =
+        "Reduz a cura recebida em 75% por 8 s. Remova a maldição."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_18670 = "Repelir"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_18670 =
+        "Causa dano Físico a um inimigo e o repele."
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_20989 = "Sono"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_EFFECT_20989 =
+        "Faz um inimigo dormir por até 10 s. Dano acorda o alvo. Dissipe este efeito mágico."
+    IJ_DB_DUNGEON_DMW_BOSS_NAME_14502 = "Corcel Temidor de Xoroth"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedsummoning = "Invocação"
+    IJ_DB_DUNGEON_DMW_BOSS_14502_ABILITY_NAME_dreadsteedcompletion = "Espírito do Corcel Temido"
+    IJ_LOOT_NAME_18754 = "Braçadeiras Endurecidas pelo Vil"
+    IJ_LOOT_NAME_18755 = "Bastão de Fogo Xorothiano"
+    IJ_LOOT_NAME_18756 = "Protetor do Guarda Temido"
+    IJ_LOOT_NAME_18757 = "Dragonas Diabólicas"
 
     -- DMW Bosses
     IJ_DB_DUNGEON_DMW_BOSS_NAME_11489 = "Tendris Warpwood"
