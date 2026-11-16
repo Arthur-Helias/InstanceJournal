@@ -1421,6 +1421,16 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080 =
         "Causa dano físico e reduz a velocidade de movimento do alvo em 60% por 10 s."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_14099 = "Golpe Poderoso"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_14099 =
+        "Causa dano físico a um inimigo e o repele."
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15588 = "Trovoada"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15588 =
+        "Causa dano de Natureza aos inimigos próximos e reduz sua velocidade de ataque e de movimento por 10 s.\n\nDissipe este efeito mágico."
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15285 = "Salva de Bolas de Fogo"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285 =
+        "Causa dano de Fogo aos inimigos próximos."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

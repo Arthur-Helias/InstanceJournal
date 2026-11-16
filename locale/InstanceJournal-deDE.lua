@@ -1425,6 +1425,16 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080 =
         "Verursacht körperlichen Schaden und verringert das Bewegungstempo des Ziels 10 Sek. lang um 60%."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_14099 = "Mächtiger Schlag"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_14099 =
+        "Fügt einem Gegner körperlichen Schaden zu und stößt ihn zurück."
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15588 = "Donnerknall"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15588 =
+        "Fügt nahen Gegnern Naturschaden zu und verringert ihr Angriffs- und Bewegungstempo für 10 Sek.\n\nBannt diesen magischen Effekt."
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15285 = "Feuerballsalve"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285 =
+        "Fügt nahen Gegnern Feuerschaden zu."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

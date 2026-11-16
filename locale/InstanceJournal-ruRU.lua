@@ -1449,6 +1449,16 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080 =
         "Наносит физический урон и снижает скорость передвижения цели на 60% на 10 сек."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_14099 = "Мощный удар"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_14099 =
+        "Наносит противнику физический урон и отбрасывает его."
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15588 = "Раскат грома"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15588 =
+        "Наносит урон от сил природы ближайшим противникам и снижает их скорость атаки и передвижения на 10 сек.\n\nРассеяйте этот магический эффект."
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15285 = "Залп огненных шаров"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285 =
+        "Наносит урон от огня ближайшим противникам."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

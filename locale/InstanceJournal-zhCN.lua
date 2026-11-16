@@ -1995,6 +1995,16 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080 =
         "造成物理伤害，并使目标的移动速度降低60%，持续10秒。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_14099 = "强力打击"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_14099 =
+        "对一名敌人造成物理伤害，并将其击退。"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15588 = "雷霆一击"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15588 =
+        "对附近的敌人造成自然伤害，并降低其攻击速度和移动速度，持续10秒。\n\n驱散此魔法效果。"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15285 = "火球齐射"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285 =
+        "对附近的敌人造成火焰伤害。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

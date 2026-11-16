@@ -1901,6 +1901,16 @@ IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_NAME_9080 = "Hamstring"
 IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080 =
     "Deals Physical damage and reduces the target’s movement speed by 60% for 10 sec."
 
+IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_14099 = "Mighty Blow"
+IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_14099 =
+    "Deals Physical damage to an enemy and knocks them back."
+IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15588 = "Thunderclap"
+IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15588 =
+    "Deals Nature damage to nearby enemies and slows their attack and movement speed for 10 sec.\n\nDispel this Magic effect."
+IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15285 = "Fireball Volley"
+IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285 =
+    "Deals Fire damage to nearby enemies."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

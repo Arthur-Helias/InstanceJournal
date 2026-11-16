@@ -615,7 +615,7 @@ BRD.Bosses = {
             [4] = {IJDB.I[11612], DropChance = 3}
         }
     },
-    [16] = { -- NOTE: Missing abilities
+    [16] = {
         Id = "9502",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "phalanx" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "phalanx" .. IMPF,
@@ -623,6 +623,27 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9502,
         MapCoordinateX = 54.5,
         MapCoordinateY = 50.6,
+        Abilities = {
+            [1] = {
+                Id = "14099",
+                Icon = "INV_Gauntlets_05",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_14099,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_14099
+            },
+            [2] = {
+                Id = "15588",
+                Icon = "Spell_Nature_ThunderClap",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15588,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15588,
+                Flags = {IMAF.Magic}
+            },
+            [3] = {
+                Id = "15285",
+                Icon = "Spell_Fire_FlameBolt",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15285,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11744], DropChance = 33}, 
             [2] = {IJDB.I[11745], DropChance = 33}, 

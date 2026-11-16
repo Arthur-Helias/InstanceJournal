@@ -1424,6 +1424,16 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080 =
         "Inflige des dégâts physiques et réduit la vitesse de déplacement de la cible de 60% pendant 10 s."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_14099 = "Coup puissant"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_14099 =
+        "Inflige des dégâts physiques à un ennemi et le repousse."
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15588 = "Coup de tonnerre"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15588 =
+        "Inflige des dégâts de Nature aux ennemis proches et ralentit leurs attaques et leurs déplacements pendant 10 s.\n\nDissipez cet effet magique."
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_NAME_15285 = "Salve de boules de feu"
+    IJ_DB_DUNGEON_BRD_BOSS_9502_ABILITY_EFFECT_15285 =
+        "Inflige des dégâts de Feu aux ennemis proches."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =
