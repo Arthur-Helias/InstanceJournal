@@ -1417,6 +1417,10 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
         "Aumenta a velocidade de ataque em 50% e o dano físico causado por 15 s."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_NAME_9080 = "Cortar Tendão"
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080 =
+        "Causa dano físico e reduz a velocidade de movimento do alvo em 60% por 10 s."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto Interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

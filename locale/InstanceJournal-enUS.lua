@@ -1897,6 +1897,10 @@ IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_NAME_14872 = "Drunken Rage"
 IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
     "Increases attack speed by 50% and increases Physical damage dealt for 15 sec."
 
+IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_NAME_9080 = "Hamstring"
+IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080 =
+    "Deals Physical damage and reduces the target’s movement speed by 60% for 10 sec."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

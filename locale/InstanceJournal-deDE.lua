@@ -1421,6 +1421,10 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
         "Erhöht das Angriffstempo um 50% und den verursachten körperlichen Schaden für 15 Sek."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_NAME_9080 = "Kniesehne"
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080 =
+        "Verursacht körperlichen Schaden und verringert das Bewegungstempo des Ziels 10 Sek. lang um 60%."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

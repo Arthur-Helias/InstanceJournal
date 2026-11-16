@@ -1445,6 +1445,10 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
         "Повышает скорость атаки на 50% и наносимый физический урон на 15 сек."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_NAME_9080 = "Подрезать сухожилия"
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080 =
+        "Наносит физический урон и снижает скорость передвижения цели на 60% на 10 сек."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

@@ -1420,6 +1420,10 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
         "Aumenta la velocidad de ataque un 50% y el daño físico infligido durante 15 s."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_NAME_9080 = "Seccionar"
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080 =
+        "Inflige daño físico y reduce la velocidad de movimiento del objetivo un 60% durante 10 s."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

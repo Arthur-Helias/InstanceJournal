@@ -1991,6 +1991,10 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
         "使攻击速度提高50%，并提高造成的物理伤害，持续15秒。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_NAME_9080 = "断筋"
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080 =
+        "造成物理伤害，并使目标的移动速度降低60%，持续10秒。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

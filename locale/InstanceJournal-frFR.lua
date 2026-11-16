@@ -1420,6 +1420,10 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9537_ABILITY_EFFECT_14872 =
         "Augmente la vitesse d’attaque de 50% et les dégâts physiques infligés pendant 15 s."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_NAME_9080 = "Brise-genou"
+    IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080 =
+        "Inflige des dégâts physiques et réduit la vitesse de déplacement de la cible de 60% pendant 10 s."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

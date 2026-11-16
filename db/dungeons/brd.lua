@@ -592,7 +592,7 @@ BRD.Bosses = {
             [5] = {IJDB.I[70226], DropChance = 2}
         }
     },
-    [15] = { -- NOTE: Missing abilities
+    [15] = {
         Id = "9543",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "ribbly" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "ribbly" .. IMPF,
@@ -600,6 +600,14 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9543,
         MapCoordinateX = 51.9,
         MapCoordinateY = 51.3,
+        Abilities = {
+            [1] = {
+                Id = "9080",
+                Icon = "Ability_ShockWave",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_NAME_9080,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9543_ABILITY_EFFECT_9080
+            }
+        },
         Loot = {
             [1] = {IJDB.I[2663], DropChance = 25}, 
             [2] = {IJDB.I[2662], DropChance = 25}, 
