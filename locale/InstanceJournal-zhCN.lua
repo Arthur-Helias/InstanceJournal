@@ -7120,6 +7120,23 @@ if GetLocale() == "zhCN" then
     -- Ritual of Souls and learned spell rewards
     IJ_QUEST_REWARD_SPELL_10140 = "造水术（等级7）"
     IJ_QUEST_REWARD_SPELL_23161 = "召唤恐惧战马"
+    IJ_QUEST_REWARD_SPELL_18540 = "末日仪式"
+    IJ_QUEST_NAME_7582 = "监牢之壁"
+    IJ_QUEST_OBJECTIVE_7582 =
+        "前往冬泉谷的暗语峡谷，从赫达琳恶魔身上收集5颗赫达琳之泪，然后返回腐烂之痕的戴奥处。"
+    IJ_QUEST_NAME_7583 = "压制"
+    IJ_QUEST_OBJECTIVE_7583 =
+        "对腐烂之痕的末日守卫指挥官使用发光的水晶监牢。在捕获期间抵御它的攻击，然后将被囚禁的末日守卫交给戴奥。"
+    IJ_QUEST_NAME_70002 = "疯子的指引"
+    IJ_QUEST_OBJECTIVE_70002 =
+        "前往诅咒之地的腐烂之痕，找到衰老的戴奥。"
+    IJ_QUEST_NAME_70003 = "汲取噬魂者"
+    IJ_QUEST_OBJECTIVE_70003 =
+        "在祖尔格拉布击杀噬魂者哈卡，将灵魂井精华交给衰老的戴奥。"
+    IJ_NPC_NAME_5675 = "卡伦丁·哈加尔"
+    IJ_NPC_NAME_6122 = "黑暗缚灵者加科因"
+    IJ_LOOT_NAME_83003 = "灵魂仪式魔典"
+    IJ_LOOT_NAME_18602 = "牺牲之书"
 
     -- Quest 70000
     IJ_QUEST_NAME_70000 = "一种特殊的传票"

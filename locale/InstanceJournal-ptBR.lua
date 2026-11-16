@@ -4173,6 +4173,24 @@ if GetLocale() == "ptBR" then
     -- Ritual of Souls and learned spell rewards
     IJ_QUEST_REWARD_SPELL_10140 = "Conjurar Água (Grau 7)"
     IJ_QUEST_REWARD_SPELL_23161 = "Evocar Corcel Temido"
+    IJ_QUEST_REWARD_SPELL_18540 = "Ritual da Perdição"
+    IJ_QUEST_NAME_7582 = "O Invólucro da Prisão"
+    IJ_QUEST_OBJECTIVE_7582 =
+        "Viaje para a Desfiladeiro Sussurro Sombrio em Hibérnia e obtenha 5 Lágrimas dos Hederine dos demônios Hederine. Retorne a Daio na Cicatriz Maculada."
+    IJ_QUEST_NAME_7583 = "Supressão"
+    IJ_QUEST_OBJECTIVE_7583 =
+        "Use a Prisão de Cristal Faiscante em um Comandante dos Guardas Apocalípticos na Cicatriz Maculada. Sobreviva aos ataques durante a captura e devolva o Guarda Apocalíptico Aprisionado a Daio."
+    IJ_QUEST_NAME_70002 = "A Orientação de um Louco"
+    IJ_QUEST_OBJECTIVE_70002 =
+        "Vá até a Cicatriz Maculada nas Terras Devastadas e encontre Daio, o Decrépito."
+    IJ_QUEST_NAME_70003 = "Drenando o Esfolador de Almas"
+    IJ_QUEST_OBJECTIVE_70003 =
+        "Mate Hakkar, o Esfolador de Almas, em Zul’Gurub e leve a Essência do Poço a Daio, o Decrépito."
+    IJ_NPC_NAME_5675 = "Carendin Halgar"
+    IJ_NPC_NAME_6122 = "Gakin, o Conjurador das Trevas"
+    IJ_LOOT_NAME_83003 = "Grimório do Ritual das Almas"
+    IJ_LOOT_NAME_18602 = "Tomo do Sacrifício"
+
     IJ_QUEST_NAME_70000 = "Um tipo especial de convocação"
     IJ_QUEST_OBJECTIVE_70000 = "Visite o Arquimago Xylem em Azshara."
     IJ_QUEST_NAME_70001 = "A Proteção do Bagateiro"

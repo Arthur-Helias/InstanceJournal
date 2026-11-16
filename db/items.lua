@@ -6771,4 +6771,8 @@ I[22330] = {Id = "22330", Icon = "INV_Misc_Cape_16", Name = IJ_LOOT_NAME_22330, 
 I[18807] = {Id = "18807", Icon = "INV_Helmet_24", Name = IJ_LOOT_NAME_18807, Quality = IQ.Rare, ItemSlot = IS.Head, ItemType = IT.Mail}
 
 
+I[83003] = {Id = "83003", Icon = "INV_Misc_Book_01", Name = IJ_LOOT_NAME_83003, Quality = IQ.Common, ItemSlot = IS.Ability, ClassRestriction = {IMCL.Warlock}}
+
+I[18602] = {Id = "18602", Icon = "INV_Misc_Book_06", Name = IJ_LOOT_NAME_18602, Quality = IQ.Rare, ItemSlot = IS.HeldInOffHand, ClassRestriction = {IMCL.Warlock}}
+
 IJDB.I = I

@@ -7009,6 +7009,23 @@ IJ_QUEST_OBJECTIVE_40828 = "Find \"Treatise on Magical Locks and Keys\" and brin
 -- Ritual of Souls and learned spell rewards
 IJ_QUEST_REWARD_SPELL_10140 = "Conjure Water (Rank 7)"
 IJ_QUEST_REWARD_SPELL_23161 = "Summon Dreadsteed"
+IJ_QUEST_REWARD_SPELL_18540 = "Ritual of Doom"
+IJ_QUEST_NAME_7582 = "The Prison's Casing"
+IJ_QUEST_OBJECTIVE_7582 =
+    "Travel to Darkwhisper Gorge in Winterspring and recover 5 Tears of the Hederine from the Hederine demons. Return to Daio in the Tainted Scar."
+IJ_QUEST_NAME_7583 = "Suppression"
+IJ_QUEST_OBJECTIVE_7583 =
+    "Use the Glowing Crystal Prison on a Doomguard Commander in the Tainted Scar. Survive its attacks during the capture, then return the Imprisoned Doomguard to Daio."
+IJ_QUEST_NAME_70002 = "The Guidance of a Mad Man"
+IJ_QUEST_OBJECTIVE_70002 =
+    "Venture to the Tainted Scar in the Blasted Lands and find Daio the Decrepit."
+IJ_QUEST_NAME_70003 = "Draining the Soulflayer"
+IJ_QUEST_OBJECTIVE_70003 =
+    "Slay Hakkar the Soulflayer in Zul’Gurub and bring the Well Essence to Daio the Decrepit."
+IJ_NPC_NAME_5675 = "Carendin Halgar"
+IJ_NPC_NAME_6122 = "Gakin the Darkbinder"
+IJ_LOOT_NAME_83003 = "Grimoire of Ritual of Souls"
+IJ_LOOT_NAME_18602 = "Tome of Sacrifice"
 
 -- Quest 70000
 IJ_QUEST_NAME_70000 = "A Special Kind of Summons"

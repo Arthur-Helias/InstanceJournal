@@ -977,4 +977,8 @@ NPC[62834] = {Id = "62834", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Thous
 
 NPC[13417] = {Id = "13417", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Orgrimmar, MapCoordinateX = 38.6, MapCoordinateY = 36.0, Name = IJ_NPC_NAME_13417}
 
+NPC[5675] = {Id = "5675", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Undercity, MapCoordinateX = 85.1, MapCoordinateY = 26.1, Name = IJ_NPC_NAME_5675}
+
+NPC[6122] = {Id = "6122", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 25.3, MapCoordinateY = 78.6, Name = IJ_NPC_NAME_6122}
+
 IJDB.NPC = NPC

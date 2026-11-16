@@ -4184,6 +4184,24 @@ if GetLocale() == "frFR" then
     -- Ritual of Souls and learned spell rewards
     IJ_QUEST_REWARD_SPELL_10140 = "Invocation d’eau (Rang 7)"
     IJ_QUEST_REWARD_SPELL_23161 = "Invocation de destrier de l’effroi"
+    IJ_QUEST_REWARD_SPELL_18540 = "Rituel de malédiction"
+    IJ_QUEST_NAME_7582 = "L’enveloppe de la prison"
+    IJ_QUEST_OBJECTIVE_7582 =
+        "Rendez-vous dans la Gorge du Sombre Murmure au Berceau-de-l’Hiver et récupérez 5 Larmes des Hederine sur les démons Hederine. Retournez auprès de Daio dans la Balafre impure."
+    IJ_QUEST_NAME_7583 = "Suppression"
+    IJ_QUEST_OBJECTIVE_7583 =
+        "Utilisez la Prison de cristal luminescente sur un Commandant garde funeste dans la Balafre impure. Survivez à ses attaques pendant la capture, puis rapportez le Garde funeste emprisonné à Daio."
+    IJ_QUEST_NAME_70002 = "Les conseils d’un fou"
+    IJ_QUEST_OBJECTIVE_70002 =
+        "Rendez-vous dans la Balafre impure, dans les Terres foudroyées, et trouvez Daio le Décrépit."
+    IJ_QUEST_NAME_70003 = "Drainer l’Écorcheur d’âmes"
+    IJ_QUEST_OBJECTIVE_70003 =
+        "Tuez Hakkar l’Écorcheur d’âmes à Zul’Gurub et apportez l’Essence du puits à Daio le Décrépit."
+    IJ_NPC_NAME_5675 = "Carendin Halgar"
+    IJ_NPC_NAME_6122 = "Gakin le Tisse-noir"
+    IJ_LOOT_NAME_83003 = "Grimoire du Rituel des âmes"
+    IJ_LOOT_NAME_18602 = "Tome de sacrifice"
+
     IJ_QUEST_NAME_70000 = "Un type spécial d'invocation"
     IJ_QUEST_OBJECTIVE_70000 = "Visitez l’archimage Xylem à Azshara."
     IJ_QUEST_NAME_70001 = "La protection du maléficieur"

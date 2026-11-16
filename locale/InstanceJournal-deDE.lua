@@ -4182,6 +4182,24 @@ if GetLocale() == "deDE" then
     -- Ritual of Souls and learned spell rewards
     IJ_QUEST_REWARD_SPELL_10140 = "Wasser herbeizaubern (Rang 7)"
     IJ_QUEST_REWARD_SPELL_23161 = "Schreckensross herbeirufen"
+    IJ_QUEST_REWARD_SPELL_18540 = "Ritual der Verdammnis"
+    IJ_QUEST_NAME_7582 = "Die Gefängnishülle"
+    IJ_QUEST_OBJECTIVE_7582 =
+        "Reist zur Flüsternden Schlucht in Winterquell und erbeutet 5 Tränen der Hederine von den Hederinedämonen. Kehrt zu Daio in der Faulenden Narbe zurück."
+    IJ_QUEST_NAME_7583 = "Unterdrückung"
+    IJ_QUEST_OBJECTIVE_7583 =
+        "Benutzt das Leuchtende Kristallgefängnis bei einem Verdammniswachenkommandanten in der Faulenden Narbe. Überlebt seine Angriffe während der Gefangennahme und bringt die Gefangene Verdammniswache zu Daio."
+    IJ_QUEST_NAME_70002 = "Die Führung eines Wahnsinnigen"
+    IJ_QUEST_OBJECTIVE_70002 =
+        "Reist zur Faulenden Narbe in den Verwüsteten Landen und sucht Daio den Klapprigen auf."
+    IJ_QUEST_NAME_70003 = "Den Seelenschinder aussaugen"
+    IJ_QUEST_OBJECTIVE_70003 =
+        "Tötet Hakkar den Seelenschinder in Zul’Gurub und bringt die Brunnenessenz zu Daio dem Klapprigen."
+    IJ_NPC_NAME_5675 = "Carendin Halgar"
+    IJ_NPC_NAME_6122 = "Gakin der Dunkelbinder"
+    IJ_LOOT_NAME_83003 = "Grimoire des Rituals der Seelen"
+    IJ_LOOT_NAME_18602 = "Foliant der Opferung"
+
     IJ_QUEST_NAME_70000 = "Eine besondere Art von Beschwörung"
     IJ_QUEST_OBJECTIVE_70000 = "Besuchen Sie Erzmagier Xylem in Azshara."
     IJ_QUEST_NAME_70001 = "Der Schutzzauber des Verhexers"

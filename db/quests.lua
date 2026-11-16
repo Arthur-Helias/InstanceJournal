@@ -12104,6 +12104,38 @@ Q[41812] = {
     RewardItems = {{IJDB.I[41919]}}
 }
 
+Q[7582] = {
+    Id = "7582",
+    Name = IJ_QUEST_NAME_7582,
+    Objective = IJ_QUEST_OBJECTIVE_7582,
+    RequiredLevel = 60,
+    Level = 60,
+    IsSharable = true,
+    StartingPoints = {NPC[14463]},
+    EndingPoints = {NPC[14463]},
+    RequiredClass = {IMCL.Warlock},
+    RequiredFaction = {IF.Alliance, IF.Horde},
+    RewardExperience = 6600,
+    RewardCoin = 39600
+}
+
+Q[7583] = {
+    Id = "7583",
+    Name = IJ_QUEST_NAME_7583,
+    Objective = IJ_QUEST_OBJECTIVE_7583,
+    RequiredLevel = 60,
+    Level = 60,
+    StartingPoints = {NPC[14463]},
+    EndingPoints = {NPC[14463]},
+    RequiredClass = {IMCL.Warlock},
+    RequiredFaction = {IF.Alliance, IF.Horde},
+    RewardExperience = 6600,
+    RewardCoin = 39600,
+    RewardItems = {{IJDB.I[18602]}},
+    RewardSpells = {{Id = "18540", Icon = "Spell_Shadow_AntiMagicShell", Name = IJ_QUEST_REWARD_SPELL_18540}},
+    RequiredQuests = {Q[7581], Q[7582]}
+}
+
 Q[70000] = {
     Id = "70000",
     Name = IJ_QUEST_NAME_70000,
@@ -12131,6 +12163,35 @@ Q[70001] = {
     RewardCoin = 6400,
     RewardItems = {{IJDB.I[83002]}},
     RequiredQuests = {Q[70000]}
+}
+
+Q[70002] = {
+    Id = "70002",
+    Name = IJ_QUEST_NAME_70002,
+    Objective = IJ_QUEST_OBJECTIVE_70002,
+    RequiredLevel = 60,
+    Level = 60,
+    StartingPoints = {NPC[5675], NPC[6122]},
+    EndingPoints = {NPC[14463]},
+    RequiredClass = {IMCL.Warlock},
+    RequiredFaction = {IF.Alliance, IF.Horde},
+    RewardCoin = 6400,
+    RequiredQuests = {Q[7583]}
+}
+
+Q[70003] = {
+    Id = "70003",
+    Name = IJ_QUEST_NAME_70003,
+    Objective = IJ_QUEST_OBJECTIVE_70003,
+    RequiredLevel = 60,
+    Level = 60,
+    StartingPoints = {NPC[14463]},
+    EndingPoints = {NPC[14463]},
+    RequiredClass = {IMCL.Warlock},
+    RequiredFaction = {IF.Alliance, IF.Horde},
+    RewardCoin = 6400,
+    RewardItems = {{IJDB.I[83003]}},
+    RequiredQuests = {Q[70002]}
 }
 
 Q[40828] = {

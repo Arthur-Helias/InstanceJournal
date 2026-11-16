@@ -4184,6 +4184,24 @@ if GetLocale() == "esES" then
     -- Ritual of Souls and learned spell rewards
     IJ_QUEST_REWARD_SPELL_10140 = "Crear agua (Rango 7)"
     IJ_QUEST_REWARD_SPELL_23161 = "Invocar corcel nefasto"
+    IJ_QUEST_REWARD_SPELL_18540 = "Ritual de condenación"
+    IJ_QUEST_NAME_7582 = "La envoltura de la prisión"
+    IJ_QUEST_OBJECTIVE_7582 =
+        "Viajad a la Garganta Negro Rumor en Cuna del Invierno y recuperad 5 Lágrimas de los Hederine de los demonios Hederine. Regresad con Daio en la Escara Impía."
+    IJ_QUEST_NAME_7583 = "Supresión"
+    IJ_QUEST_OBJECTIVE_7583 =
+        "Usad la Prisión de cristal resplandeciente sobre un Comandante guardia apocalíptico en la Escara Impía. Sobrevivid a sus ataques durante la captura y llevad el Guardia apocalíptico encarcelado a Daio."
+    IJ_QUEST_NAME_70002 = "La guía de un loco"
+    IJ_QUEST_OBJECTIVE_70002 =
+        "Viajad a la Escara Impía en las Tierras Devastadas y encontrad a Daio el Decrépito."
+    IJ_QUEST_NAME_70003 = "Drenar al Cazador de Almas"
+    IJ_QUEST_OBJECTIVE_70003 =
+        "Matad a Hakkar el Cazador de Almas en Zul’Gurub y llevad la Esencia del pozo a Daio el Decrépito."
+    IJ_NPC_NAME_5675 = "Carendin Halgar"
+    IJ_NPC_NAME_6122 = "Gakin el Presotenebra"
+    IJ_LOOT_NAME_83003 = "Grimorio de Ritual de almas"
+    IJ_LOOT_NAME_18602 = "Escrito de sacrificio"
+
     IJ_QUEST_NAME_70000 = "Un tipo especial de convocatoria"
     IJ_QUEST_OBJECTIVE_70000 = "Visita al archimago Xylem en Azshara."
     IJ_QUEST_NAME_70001 = "La protección del malhechor"
