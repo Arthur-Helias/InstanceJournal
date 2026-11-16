@@ -1311,6 +1311,16 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729 =
         "Inflige des dégâts de Feu immédiatement, puis toutes les 3 s pendant 12 s.\n\nDissipez cet effet magique."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_13730 = "Cri démoralisant"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_13730 =
+        "Réduit la puissance d’attaque en mêlée des ennemis proches pendant 30 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_15615 = "Volée de coups"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_15615 =
+        "Inflige des dégâts physiques à un ennemi. Interrompt les incantations de la cible pendant 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_21049 = "Soif de sang"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049 =
+        "Augmente la vitesse d’attaque d’un allié de 30% pendant 30 s.\n\nDissipez cet effet bénéfique magique."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Gerstahn, interrogateur supérieur"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

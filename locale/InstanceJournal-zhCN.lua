@@ -1882,6 +1882,16 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729 =
         "立即造成火焰伤害，并每3秒造成一次额外火焰伤害，持续12秒。\n\n驱散此魔法效果。"
 
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_13730 = "挫志怒吼"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_13730 =
+        "降低附近敌人的近战攻击强度，持续30秒。"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_15615 = "拳击"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_15615 =
+        "对一名敌人造成物理伤害。 打断目标施法，使其5秒内无法施放同系法术。"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_21049 = "嗜血术"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049 =
+        "使一名盟友的攻击速度提高30%，持续30秒。\n\n驱散此增益魔法效果。"
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "审讯官格斯塔恩"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

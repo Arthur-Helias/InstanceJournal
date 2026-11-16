@@ -1312,6 +1312,16 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729 =
         "Verursacht sofort Feuerschaden und anschließend 12 Sek. lang alle 3 Sek. weiteren Feuerschaden.\n\nBannt diesen magischen Effekt."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_13730 = "Demoralisierender Ruf"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_13730 =
+        "Verringert die Nahkampfangriffskraft naher Gegner für 30 Sek."
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_15615 = "Zuschlagen"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_15615 =
+        "Fügt einem Gegner körperlichen Schaden zu. Unterbricht das Zauberwirken des Ziels für 5 Sek."
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_21049 = "Blutdurst"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049 =
+        "Erhöht das Angriffstempo eines Verbündeten 30 Sek. lang um 30%.\n\nEntfernt diesen magischen Stärkungseffekt."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Obervernehmer Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

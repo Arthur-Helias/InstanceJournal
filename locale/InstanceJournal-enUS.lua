@@ -1788,6 +1788,16 @@ IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_NAME_13729 = "Flame Shock"
 IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729 =
     "Deals Fire damage immediately and every 3 sec. for 12 sec.\n\nDispel this Magic effect."
 
+IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_13730 = "Demoralizing Shout"
+IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_13730 =
+    "Reduces the melee attack power of nearby enemies for 30 sec."
+IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_15615 = "Pummel"
+IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_15615 =
+    "Deals Physical damage to an enemy. Interrupts the target’s spellcasting for 5 sec."
+IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_21049 = "Bloodlust"
+IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049 =
+    "Increases an ally’s attack speed by 30% for 30 sec.\n\nRemove this Magic buff."
+
 -- BRD Bosses
 IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "High Interrogator Gerstahn"
 IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

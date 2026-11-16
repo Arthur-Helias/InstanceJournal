@@ -1336,6 +1336,16 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729 =
         "Мгновенно наносит урон от огня, затем каждые 3 сек. в течение 12 сек.\n\nРассеяйте этот магический эффект."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_13730 = "Деморализующий крик"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_13730 =
+        "Снижает силу атаки ближнего боя ближайших противников на 30 сек."
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_15615 = "Зуботычина"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_15615 =
+        "Наносит противнику физический урон. Прерывает произнесение заклинаний цели на 5 сек."
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_21049 = "Жажда крови"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049 =
+        "Повышает скорость атаки союзника на 30% на 30 сек.\n\nСнимите этот положительный магический эффект."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Верховный следователь Герстан"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

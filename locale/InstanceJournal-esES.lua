@@ -1311,6 +1311,16 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_BRD_BOSS_9025_ABILITY_EFFECT_13729 =
         "Inflige daño de Fuego inmediato y cada 3 s durante 12 s.\n\nDisipa este efecto mágico."
 
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_13730 = "Grito desmoralizador"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_13730 =
+        "Reduce el poder de ataque cuerpo a cuerpo de los enemigos cercanos durante 30 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_15615 = "Zurrar"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_15615 =
+        "Inflige daño físico a un enemigo. Interrumpe el lanzamiento de hechizos del objetivo durante 5 s."
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_21049 = "Sed de sangre"
+    IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049 =
+        "Aumenta la velocidad de ataque de un aliado un 30% durante 30 s.\n\nElimina este beneficio mágico."
+
     -- BRD Bosses
     IJ_DB_DUNGEON_BRD_BOSS_NAME_9018 = "Alto interrogador Gerstahn"
     IJ_DB_DUNGEON_BRD_BOSS_STORY_9018 =

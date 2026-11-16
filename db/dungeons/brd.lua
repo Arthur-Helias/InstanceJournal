@@ -121,7 +121,7 @@ BRD.Bosses = {
             [12] = {IJDB.I[11630], DropChance = 16}
         }
     },
-    [3] = { -- NOTE: Missing abilities
+    [3] = {
         Id = "9319",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "grebmar" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "grebmar" .. IMPF,
@@ -129,6 +129,27 @@ BRD.Bosses = {
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_9319,
         MapCoordinateX = 56.3,
         MapCoordinateY = 69.1,
+        Abilities = {
+            [1] = {
+                Id = "13730",
+                Icon = "Ability_Warrior_WarCry",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_13730,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_13730
+            },
+            [2] = {
+                Id = "15615",
+                Icon = "INV_Gauntlets_04",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_15615,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_15615
+            },
+            [3] = {
+                Id = "21049",
+                Icon = "Spell_Nature_BloodLust",
+                Name = IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_NAME_21049,
+                Effect = IJ_DB_DUNGEON_BRD_BOSS_9319_ABILITY_EFFECT_21049,
+                Flags = {IMAF.Magic}
+            }
+        },
         Loot = {
             [1] = {IJDB.I[11623], DropChance = 25},
             [2] = {IJDB.I[11627], DropChance = 25},
