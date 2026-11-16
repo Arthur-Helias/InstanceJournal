@@ -4377,7 +4377,8 @@ Q[7463] = {
     RequiredFaction = {IF.Alliance, IF.Horde},
     RewardExperience = 6600,
     RewardCoin = 39600,
-    RewardReputations = {{Name = IR.Shendralar, Amount = 200}}
+    RewardReputations = {{Name = IR.Shendralar, Amount = 200}},
+    RewardSpells = {{Id = "10140", Icon = "INV_Drink_18", Name = IJ_QUEST_REWARD_SPELL_10140}}
 }
 
 Q[7581] = {
@@ -6706,6 +6707,7 @@ Q[7631] = {
     RequiredFaction = {IF.Alliance, IF.Horde},
     RewardExperience = 6600,
     RewardCoin = 39600,
+    RewardSpells = {{Id = "23161", Icon = "Ability_Mount_Dreadsteed", Name = IJ_QUEST_REWARD_SPELL_23161}},
     RequiredQuests = {Q[7629]}
 }
 

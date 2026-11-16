@@ -7118,6 +7118,8 @@ if GetLocale() == "zhCN" then
     IJ_QUEST_OBJECTIVE_40828 = "找到“魔法锁和钥匙的论文”并将其带回给多万·布雷斯温德。据传它被保存在黑翼之巢中。"
 
     -- Ritual of Souls and learned spell rewards
+    IJ_QUEST_REWARD_SPELL_10140 = "造水术（等级7）"
+    IJ_QUEST_REWARD_SPELL_23161 = "召唤恐惧战马"
 
     -- Quest 70000
     IJ_QUEST_NAME_70000 = "一种特殊的传票"

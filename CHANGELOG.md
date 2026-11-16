@@ -6,6 +6,7 @@ All changes to this project will be documented in this file.
 
 ### Added
 
+- Added learned spell rewards to `Dreadsteed of Xoroth` and `Arcane Refreshment`
 - Added `Jarien and Sothos` to `Stratholme` and `Theldren and his Gladiators` to `Blackrock Depths`, including summoning guidance and loot
 - Added the paladin and shaman quests for `Death Knight Darkreaver` in `Scholomance`
 - Added a localized `[Summoned]` tag and summoning guidance for summoned encounters

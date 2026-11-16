@@ -4182,6 +4182,8 @@ if GetLocale() == "esES" then
     IJ_QUEST_NAME_40828 = "La clave de Karazhan IX"
     IJ_QUEST_OBJECTIVE_40828 = "Encuentra el \"Tratado sobre llaves y cerraduras mágicas\" y tráelo a Vandol. Se rumorea que se guarda en Blackwing Lair."
     -- Ritual of Souls and learned spell rewards
+    IJ_QUEST_REWARD_SPELL_10140 = "Crear agua (Rango 7)"
+    IJ_QUEST_REWARD_SPELL_23161 = "Invocar corcel nefasto"
     IJ_QUEST_NAME_70000 = "Un tipo especial de convocatoria"
     IJ_QUEST_OBJECTIVE_70000 = "Visita al archimago Xylem en Azshara."
     IJ_QUEST_NAME_70001 = "La protección del malhechor"

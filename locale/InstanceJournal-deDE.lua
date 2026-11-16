@@ -4180,6 +4180,8 @@ if GetLocale() == "deDE" then
     IJ_QUEST_NAME_40828 = "Der Schlüssel zu Karazhan IX"
     IJ_QUEST_OBJECTIVE_40828 = "Finde „Abhandlung über magische Schlösser und Schlüssel“ und bringe sie zu Vandol zurück. Es wird gemunkelt, dass es im Pechschwingenhort aufbewahrt wird."
     -- Ritual of Souls and learned spell rewards
+    IJ_QUEST_REWARD_SPELL_10140 = "Wasser herbeizaubern (Rang 7)"
+    IJ_QUEST_REWARD_SPELL_23161 = "Schreckensross herbeirufen"
     IJ_QUEST_NAME_70000 = "Eine besondere Art von Beschwörung"
     IJ_QUEST_OBJECTIVE_70000 = "Besuchen Sie Erzmagier Xylem in Azshara."
     IJ_QUEST_NAME_70001 = "Der Schutzzauber des Verhexers"

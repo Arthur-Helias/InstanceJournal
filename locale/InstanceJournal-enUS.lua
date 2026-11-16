@@ -7007,6 +7007,8 @@ IJ_QUEST_NAME_40828 = "The Key to Karazhan IX"
 IJ_QUEST_OBJECTIVE_40828 = "Find \"Treatise on Magical Locks and Keys\" and bring it back to Vandol. It is rumored to be kept in Blackwing Lair."
 
 -- Ritual of Souls and learned spell rewards
+IJ_QUEST_REWARD_SPELL_10140 = "Conjure Water (Rank 7)"
+IJ_QUEST_REWARD_SPELL_23161 = "Summon Dreadsteed"
 
 -- Quest 70000
 IJ_QUEST_NAME_70000 = "A Special Kind of Summons"

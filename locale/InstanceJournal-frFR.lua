@@ -4182,6 +4182,8 @@ if GetLocale() == "frFR" then
     IJ_QUEST_NAME_40828 = "La clé de Karajan IX"
     IJ_QUEST_OBJECTIVE_40828 = "Trouvez le « Traité sur les serrures et les clés magiques » et rapportez-le à Vandol. La rumeur dit qu'il est conservé dans le repaire de Blackwing."
     -- Ritual of Souls and learned spell rewards
+    IJ_QUEST_REWARD_SPELL_10140 = "Invocation d’eau (Rang 7)"
+    IJ_QUEST_REWARD_SPELL_23161 = "Invocation de destrier de l’effroi"
     IJ_QUEST_NAME_70000 = "Un type spécial d'invocation"
     IJ_QUEST_OBJECTIVE_70000 = "Visitez l’archimage Xylem à Azshara."
     IJ_QUEST_NAME_70001 = "La protection du maléficieur"

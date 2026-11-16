@@ -4270,6 +4270,8 @@ if GetLocale() == "ruRU" then
     IJ_QUEST_OBJECTIVE_40828 =
         "Найдите «Трактат о магических замках и ключах» и принесите его Вандолу. Ходят слухи, что он хранится в Логове Крыла Тьмы."
     -- Ritual of Souls and learned spell rewards
+    IJ_QUEST_REWARD_SPELL_10140 = "Сотворение воды (уровень 7)"
+    IJ_QUEST_REWARD_SPELL_23161 = "Призыв коня погибели"
     IJ_QUEST_NAME_70000 = "Особый вид призыва"
     IJ_QUEST_OBJECTIVE_70000 = "Посетите верховного мага Ксилема в Азшаре."
     IJ_QUEST_NAME_70001 = "Оберег проклинателя"

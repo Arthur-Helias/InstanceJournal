@@ -4171,6 +4171,8 @@ if GetLocale() == "ptBR" then
     IJ_QUEST_NAME_40828 = "A chave para Karazhan IX"
     IJ_QUEST_OBJECTIVE_40828 = "Encontre “Tratado sobre Fechaduras e Chaves Mágicas” e leve-o de volta para Vandol. Há rumores de que é mantido em Blackwing Lair."
     -- Ritual of Souls and learned spell rewards
+    IJ_QUEST_REWARD_SPELL_10140 = "Conjurar Água (Grau 7)"
+    IJ_QUEST_REWARD_SPELL_23161 = "Evocar Corcel Temido"
     IJ_QUEST_NAME_70000 = "Um tipo especial de convocação"
     IJ_QUEST_OBJECTIVE_70000 = "Visite o Arquimago Xylem em Azshara."
     IJ_QUEST_NAME_70001 = "A Proteção do Bagateiro"
