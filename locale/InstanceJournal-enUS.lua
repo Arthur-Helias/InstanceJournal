@@ -1636,6 +1636,41 @@ IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_NAME_MINIONS = "Alzzin’s Minions"
 IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS =
     "Alzzin’s Minions join the fight and attack the group. Be ready to pick them up."
 
+-- Isalien
+IJ_DB_DUNGEON_DME_BOSS_NAME_16097 = "Isalien"
+IJ_DB_DUNGEON_DME_BOSS_STORY_16097 =
+    "Isalien was a night elf priestess in Bodley’s company. She traveled to Dire Maul to uncover the secrets of her fragment of Lord Valthalak’s amulet, but was ambushed at the Shrine of Eldretharr by Alzzin the Wildshaper and his forces. Her spirit can be summoned there during the search for the amulet’s missing pieces."
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_summoning = "Summoning"
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_summoning =
+    "Use the Brazier of Beckoning at the Shrine of Eldretharr after defeating Alzzin the Wildshaper to summon Isalien for the Dungeon Set 2 quest line."
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_12024 = "Net"
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_12024 =
+    "Immobilizes an enemy for 5 sec."
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27636 = "Starshards"
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27636 =
+    "Channels Arcane damage into an enemy over 6 sec."
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27637 = "Regrowth"
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27637 =
+    "Heals an ally immediately and over 21 sec. The healing-over-time effect is Magic."
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_14443 = "Multi-Shot"
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_14443 =
+    "Fires a volley at an enemy and their nearby allies, striking up to 3 targets."
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27639 = "Call Pet"
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27639 =
+    "Summons Empyrean to assist in combat."
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27556 = "Rake"
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27556 =
+    "Empyrean deals Physical damage and causes the target to bleed over 15 sec."
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_17963 = "Sundering Cleave"
+IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_17963 =
+    "Empyrean reduces the armor of up to 3 nearby enemies for 30 sec. Stacks up to 5 times."
+IJ_LOOT_NAME_22304 = "Ironweave Gloves"
+IJ_LOOT_NAME_22314 = "Huntsman's Harpoon"
+IJ_LOOT_NAME_22315 = "Hammer of Revitalization"
+IJ_LOOT_NAME_22345 = "Totem of Rebirth"
+IJ_LOOT_NAME_22401 = "Libram of Hope"
+IJ_LOOT_NAME_22472 = "Boots of Ferocity"
+
 -- DME Bosses
 IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillin"
 IJ_DB_DUNGEON_DME_BOSS_STORY_14354 = "A cowardly little imp, tricking adventurers into following him, only to turn on them, killing them and stealing all the belongings from their bodies."

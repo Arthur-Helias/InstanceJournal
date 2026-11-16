@@ -1213,6 +1213,41 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS =
         "Прислужники Алззина вступают в бой и атакуют группу. Будьте готовы перехватить их."
 
+    -- Isalien
+    IJ_DB_DUNGEON_DME_BOSS_NAME_16097 = "Исалиен"
+    IJ_DB_DUNGEON_DME_BOSS_STORY_16097 =
+        "Исалиен была ночной эльфийкой-жрицей из отряда Бодли. Она отправилась в Забытый Город, чтобы раскрыть тайны своего фрагмента амулета Лорда Вальтхалака, но у святилища Элдретарра попала в засаду Алззина Перевертня и его прислужников. Ее дух можно призвать там во время поисков недостающих частей амулета."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_summoning = "Призыв"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_summoning =
+        "Используйте Жаровню Призыва у святилища Элдретарра после победы над Алззином Перевертнем, чтобы призвать Исалиен в цепочке заданий на комплект подземелий 2."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_12024 = "Сеть"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_12024 =
+        "Обездвиживает противника на 5 сек."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27636 = "Звездные осколки"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27636 =
+        "Направляет в противника урон от тайной магии в течение 6 сек."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27637 = "Восстановление"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27637 =
+        "Исцеляет союзника сразу и в течение 21 сек. Периодическое исцеление является магическим эффектом."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_14443 = "Залп"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_14443 =
+        "Выпускает залп в противника и его ближайших союзников, поражая до 3 целей."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27639 = "Призыв питомца"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27639 =
+        "Призывает Эмпиреана на помощь в бою."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27556 = "Глубокая рана"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27556 =
+        "Эмпиреан наносит физический урон и вызывает у цели кровотечение на 15 сек."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_17963 = "Рассекающий удар"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_17963 =
+        "Эмпиреан снижает броню до 3 ближайших противников на 30 сек. Суммируется до 5 раз."
+    IJ_LOOT_NAME_22304 = "Железнотканые перчатки"
+    IJ_LOOT_NAME_22314 = "Гарпун охотника"
+    IJ_LOOT_NAME_22315 = "Молот возрождения"
+    IJ_LOOT_NAME_22345 = "Тотем возрождения"
+    IJ_LOOT_NAME_22401 = "Манускрипт надежды"
+    IJ_LOOT_NAME_22472 = "Сапоги лютости"
+
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Пузилин"
     IJ_DB_DUNGEON_DME_BOSS_STORY_14354 =

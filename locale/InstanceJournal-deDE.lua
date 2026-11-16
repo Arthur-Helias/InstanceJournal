@@ -1190,6 +1190,41 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS =
         "Alzzins Diener greifen in den Kampf ein und attackieren die Gruppe. Seid bereit, sie abzufangen."
 
+    -- Isalien
+    IJ_DB_DUNGEON_DME_BOSS_NAME_16097 = "Isalien"
+    IJ_DB_DUNGEON_DME_BOSS_STORY_16097 =
+        "Isalien war eine Nachtelfenpriesterin in Bodleys Gefolgschaft. Sie reiste nach Düsterbruch, um die Geheimnisse ihres Fragments von Lord Valthalaks Amulett zu ergründen, wurde jedoch am Schrein von Eldretharr von Alzzin dem Wildformer und seinen Truppen überfallen. Ihr Geist kann dort während der Suche nach den fehlenden Amulettstücken beschworen werden."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_summoning = "Beschwörung"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_summoning =
+        "Benutzt das Räuchergefäß der Anrufung am Schrein von Eldretharr nach dem Sieg über Alzzin den Wildformer, um Isalien für die Questreihe des Dungeonsets 2 zu beschwören."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_12024 = "Netz"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_12024 =
+        "Macht einen Gegner 5 Sek. lang bewegungsunfähig."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27636 = "Sternensplitter"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27636 =
+        "Kanalisiert über 6 Sek. Arkanschaden auf einen Gegner."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27637 = "Nachwachsen"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27637 =
+        "Heilt einen Verbündeten sofort und über 21 Sek. Der regelmäßige Heileffekt ist ein Magieeffekt."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_14443 = "Mehrfachschuss"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_14443 =
+        "Feuert eine Salve auf einen Gegner und seine nahen Verbündeten ab und trifft bis zu 3 Ziele."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27639 = "Begleiter rufen"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27639 =
+        "Ruft Empyrean zur Unterstützung im Kampf."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27556 = "Krallenhieb"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27556 =
+        "Empyrean verursacht körperlichen Schaden und lässt das Ziel über 15 Sek. bluten."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_17963 = "Spaltendes Spalten"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_17963 =
+        "Empyrean verringert die Rüstung von bis zu 3 Gegnern in der Nähe 30 Sek. lang. Bis zu 5-mal stapelbar."
+    IJ_LOOT_NAME_22304 = "Eisengewebte Handschuhe"
+    IJ_LOOT_NAME_22314 = "Harpune des Jägers"
+    IJ_LOOT_NAME_22315 = "Hammer der Neubelebung"
+    IJ_LOOT_NAME_22345 = "Totem der Wiedergeburt"
+    IJ_LOOT_NAME_22401 = "Buchband der Hoffnung"
+    IJ_LOOT_NAME_22472 = "Stiefel der Wildheit"
+
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillin"
     IJ_DB_DUNGEON_DME_BOSS_STORY_14354 = "Ein feiger kleiner Kobold, der Abenteurer dazu verleitet, ihm zu folgen, sich dann aber gegen sie wendet, sie tötet und alle Habseligkeiten aus ihren Körpern stiehlt."

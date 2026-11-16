@@ -404,7 +404,75 @@ DME.Bosses = {
             [25] = {IJDB.I[70226], DropChance = 3}
         }
     },
-
+    [6] = {
+        Id = "16097",
+        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "isalien" .. IMPP,
+        Frame = IMP .. IMPD .. instanceMediaAcronym .. "isalien" .. IMPF,
+        Name = IJ_DB_DUNGEON_DME_BOSS_NAME_16097,
+        Story = IJ_DB_DUNGEON_DME_BOSS_STORY_16097,
+        Abilities = {
+            [1] = {
+                Id = "summoning",
+                Icon = "INV_Misc_Bowl_01",
+                Name = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_summoning,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_summoning
+            },
+            [2] = {
+                Id = "12024",
+                Icon = "Ability_Ensnare",
+                Name = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_12024,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_12024
+            },
+            [3] = {
+                Id = "27636",
+                Icon = "Spell_Arcane_StarFire",
+                Name = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27636,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27636
+            },
+            [4] = {
+                Id = "27637",
+                Icon = "Spell_Nature_ResistNature",
+                Name = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27637,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27637,
+                Flags = {IMAF.Magic}
+            },
+            [5] = {
+                Id = "14443",
+                Icon = "Ability_UpgradeMoonGlaive",
+                Name = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_14443,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_14443
+            },
+            [6] = {
+                Id = "27639",
+                Icon = "Ability_Hunter_BeastCall",
+                Name = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27639,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27639,
+                SubAbilities = {
+                    [1] = {
+                        Id = "27556",
+                        Icon = "Ability_Druid_Disembowel",
+                        Name = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27556,
+                        Effect = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27556
+                    },
+                    [2] = {
+                        Id = "17963",
+                        Icon = "Ability_Warrior_Sunder",
+                        Name = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_17963,
+                        Effect = IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_17963
+                    }
+                }
+            }
+        },
+        Loot = {
+            [1] = {IJDB.I[22304], DropChance = 16.67},
+            [2] = {IJDB.I[22314], DropChance = 16.67},
+            [3] = {IJDB.I[22315], DropChance = 16.67},
+            [4] = {IJDB.I[22345], DropChance = 16.67},
+            [5] = {IJDB.I[22401], DropChance = 16.67},
+            [6] = {IJDB.I[22472], DropChance = 16.67},
+            [7] = {IJDB.I[51217], DropChance = 5}
+        }
+    }
 }
 DME.Quests = {IJDB.Q[7441], IJDB.Q[7488], IJDB.Q[7489], IJDB.Q[5526], IJDB.Q[8967], IJDB.Q[8990], IJDB.Q[7581], IJDB.Q[7463], IJDB.Q[41016], IJDB.Q[41376]}
 

@@ -1730,6 +1730,41 @@ if GetLocale() == "zhCN" then
     IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS =
         "奥兹恩的爪牙加入战斗并攻击队伍。做好接住它们的准备。"
 
+    -- Isalien
+    IJ_DB_DUNGEON_DME_BOSS_NAME_16097 = "伊萨利恩"
+    IJ_DB_DUNGEON_DME_BOSS_STORY_16097 =
+        "伊萨利恩是伯德雷队伍中的一名暗夜精灵女祭司。她前往厄运之槌，试图揭开自己持有的瓦塔拉克饰品碎片的秘密，却在艾德雷萨神殿遭到奥兹恩及其部下的伏击。在寻找饰品遗失碎片的过程中，可以在那里召唤她的灵魂。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_summoning = "召唤"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_summoning =
+        "击败奥兹恩后，在艾德雷萨神殿使用召唤火盆，召唤伊萨利恩，完成地下城套装2任务线的相关任务。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_12024 = "投网"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_12024 =
+        "使一名敌人无法移动，持续5秒。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27636 = "星辰碎片"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27636 =
+        "引导法术，在6秒内持续对一名敌人造成奥术伤害。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27637 = "愈合"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27637 =
+        "立即治疗一名盟友，并在21秒内持续治疗。持续治疗属于魔法效果。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_14443 = "多重射击"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_14443 =
+        "向一名敌人及其附近盟友射出一轮箭矢，最多命中3个目标。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27639 = "召唤宠物"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27639 =
+        "召唤恩瑟尔协助作战。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27556 = "扫击"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27556 =
+        "恩瑟尔造成物理伤害，并使目标流血，持续15秒。"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_17963 = "破甲顺劈"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_17963 =
+        "恩瑟尔降低附近最多3名敌人的护甲，持续30秒。最多叠加5层。"
+    IJ_LOOT_NAME_22304 = "铁纹手套"
+    IJ_LOOT_NAME_22314 = "猎手之矛"
+    IJ_LOOT_NAME_22315 = "新生之锤"
+    IJ_LOOT_NAME_22345 = "重生图腾"
+    IJ_LOOT_NAME_22401 = "希望圣契"
+    IJ_LOOT_NAME_22472 = "凶猛之靴"
+
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "普希林"
     IJ_DB_DUNGEON_DME_BOSS_STORY_14354 = "一个胆怯的小恶魔，欺骗冒险者跟随他，结果却背叛他们，杀死他们并偷走他们身上的所有物品。"

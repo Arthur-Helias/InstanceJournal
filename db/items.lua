@@ -6709,4 +6709,26 @@ I[61731] = {Id = "61731", Icon = "inv_stone_weightstone_05", Name = IJ_LOOT_NAME
 
 I[41413] = {Id = "41413", Icon = "inv_staff_11", Name = IJ_LOOT_NAME_41413, Quality = IQ.Common, Tag = 1}
 
+-- Isalien
+I[22304] = {
+    Id = "22304",
+    Icon = "INV_Gauntlets_27",
+    Name = IJ_LOOT_NAME_22304,
+    Quality = IQ.Rare,
+    ItemSlot = IS.Hands,
+    ItemType = IT.Cloth,
+    LevelRequirement = 56,
+    ClassRestriction = {IMCL.Priest, IMCL.Mage, IMCL.Warlock, IMCL.Druid}
+}
+
+I[22314] = {Id = "22314", Icon = "INV_Spear_06", Name = IJ_LOOT_NAME_22314, Quality = IQ.Rare, ItemSlot = IS.TwoHand, ItemType = IT.Polearm, LevelRequirement = 56}
+
+I[22315] = {Id = "22315", Icon = "INV_Hammer_02", Name = IJ_LOOT_NAME_22315, Quality = IQ.Rare, ItemSlot = IS.MainHand, ItemType = IT.Mace, LevelRequirement = 56}
+
+I[22345] = {Id = "22345", Icon = "INV_Relics_TotemofRebirth", Name = IJ_LOOT_NAME_22345, Quality = IQ.Rare, ItemSlot = IS.Relic, ItemType = IT.Totem, LevelRequirement = 57}
+
+I[22401] = {Id = "22401", Icon = "INV_Relics_LibramofHope", Name = IJ_LOOT_NAME_22401, Quality = IQ.Rare, ItemSlot = IS.Relic, ItemType = IT.Libram, LevelRequirement = 57}
+
+I[22472] = {Id = "22472", Icon = "INV_Boots_08", Name = IJ_LOOT_NAME_22472, Quality = IQ.Rare, ItemSlot = IS.Feet, ItemType = IT.Leather, LevelRequirement = 56}
+
 IJDB.I = I

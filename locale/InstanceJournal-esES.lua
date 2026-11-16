@@ -1189,6 +1189,41 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS =
         "Los esbirros de Alzzin se unen al combate y atacan al grupo. Preparaos para recogerlos."
 
+    -- Isalien
+    IJ_DB_DUNGEON_DME_BOSS_NAME_16097 = "Isalien"
+    IJ_DB_DUNGEON_DME_BOSS_STORY_16097 =
+        "Isalien era una sacerdotisa elfa de la noche de la compañía de Bodley. Viajó a La Masacre para descubrir los secretos de su fragmento del amuleto de Lord Valthalak, pero Alzzin el Formaferal y sus fuerzas la emboscaron en el Santuario de Eldretharr. Su espíritu puede ser invocado allí durante la búsqueda de las piezas perdidas del amuleto."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_summoning = "Invocación"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_summoning =
+        "Usad el Brasero de Señalización en el Santuario de Eldretharr tras derrotar a Alzzin el Formaferal para invocar a Isalien durante la cadena de misiones del conjunto de mazmorra 2."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_12024 = "Red"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_12024 =
+        "Inmoviliza a un enemigo durante 5 s."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27636 = "Fragmentos estelares"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27636 =
+        "Canaliza daño Arcano contra un enemigo durante 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27637 = "Recrecimiento"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27637 =
+        "Sana a un aliado inmediatamente y durante 21 s. El efecto de sanación periódica es mágico."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_14443 = "Multidisparo"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_14443 =
+        "Dispara una salva contra un enemigo y sus aliados cercanos, alcanzando hasta 3 objetivos."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27639 = "Llamar a mascota"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27639 =
+        "Invoca a Empíreo para ayudar en combate."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27556 = "Arañazo"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27556 =
+        "Empíreo inflige daño físico y provoca que el objetivo sangre durante 15 s."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_17963 = "Rajar hendedor"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_17963 =
+        "Empíreo reduce la armadura de hasta 3 enemigos cercanos durante 30 s. Se acumula hasta 5 veces."
+    IJ_LOOT_NAME_22304 = "Guantes de hilacero"
+    IJ_LOOT_NAME_22314 = "Arpón de cazador"
+    IJ_LOOT_NAME_22315 = "Martillo de revitalización"
+    IJ_LOOT_NAME_22345 = "Tótem de renacimiento"
+    IJ_LOOT_NAME_22401 = "Tratado sobre esperanza"
+    IJ_LOOT_NAME_22472 = "Botas de ferocidad"
+
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillín"
     IJ_DB_DUNGEON_DME_BOSS_STORY_14354 = "Un pequeño diablillo cobarde que engaña a los aventureros para que lo sigan, sólo para volverse contra ellos, matarlos y robar todas las pertenencias de sus cuerpos."

@@ -1186,6 +1186,41 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS =
         "Lacaios de Alzzin entram na luta e atacam o grupo. Prepare-se para segurá-los."
 
+    -- Isalien
+    IJ_DB_DUNGEON_DME_BOSS_NAME_16097 = "Isalien"
+    IJ_DB_DUNGEON_DME_BOSS_STORY_16097 =
+        "Isalien era uma sacerdotisa elfa noturna da companhia de Bodley. Ela viajou para Gládio Cruel para descobrir os segredos de seu fragmento do amuleto do Lorde Valthalak, mas foi emboscada no Santuário de Eldretharr por Alzzin, o Selvagem, e suas forças. Seu espírito pode ser invocado ali durante a busca pelas partes perdidas do amuleto."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_summoning = "Invocação"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_summoning =
+        "Use o Braseiro da Invocação no Santuário de Eldretharr após derrotar Alzzin, o Selvagem, para invocar Isalien na série de missões do Conjunto de Masmorra 2."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_12024 = "Rede"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_12024 =
+        "Imobiliza um inimigo por 5 s."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27636 = "Fragmentos Estelares"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27636 =
+        "Canaliza dano Arcano contra um inimigo ao longo de 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27637 = "Recrescimento"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27637 =
+        "Cura um aliado imediatamente e ao longo de 21 s. O efeito de cura periódica é mágico."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_14443 = "Tiro Múltiplo"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_14443 =
+        "Dispara uma saraivada contra um inimigo e seus aliados próximos, atingindo até 3 alvos."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27639 = "Chamar Ajudante"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27639 =
+        "Invoca Empyrean para ajudar no combate."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27556 = "Estraçalhar"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27556 =
+        "Empyrean causa dano Físico e faz o alvo sangrar ao longo de 15 s."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_17963 = "Cutilada de Fenda"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_17963 =
+        "Empyrean reduz a armadura de até 3 inimigos próximos por 30 s. Acumula até 5 vezes."
+    IJ_LOOT_NAME_22304 = "Luvas de Tramaférrea"
+    IJ_LOOT_NAME_22314 = "Arpão do Caçador"
+    IJ_LOOT_NAME_22315 = "Martelo da Revitalização"
+    IJ_LOOT_NAME_22345 = "Totem do Renascimento"
+    IJ_LOOT_NAME_22401 = "Incunábulo da Esperança"
+    IJ_LOOT_NAME_22472 = "Botas de Ferocidade"
+
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusilina"
     IJ_DB_DUNGEON_DME_BOSS_STORY_14354 = "Um pequeno diabinho covarde, enganando os aventureiros para que o seguissem, apenas para se voltar contra eles, matando-os e roubando todos os pertences de seus corpos."

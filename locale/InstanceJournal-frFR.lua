@@ -1189,6 +1189,41 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DME_BOSS_11492_ABILITY_EFFECT_MINIONS =
         "Les serviteurs d’Alzzin rejoignent le combat et attaquent le groupe. Préparez-vous à les récupérer."
 
+    -- Isalien
+    IJ_DB_DUNGEON_DME_BOSS_NAME_16097 = "Isalien"
+    IJ_DB_DUNGEON_DME_BOSS_STORY_16097 =
+        "Isalien était une prêtresse elfe de la nuit de la compagnie de Bodley. Elle se rendit à Hache-tripes pour percer les secrets de son fragment de l’amulette du seigneur Valthalak, mais Alzzin le Modeleur et ses forces lui tendirent une embuscade au sanctuaire d’Eldretharr. Son esprit peut y être invoqué lors de la recherche des fragments manquants de l’amulette."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_summoning = "Invocation"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_summoning =
+        "Utilisez le Brasero de signal au sanctuaire d’Eldretharr après avoir vaincu Alzzin le Modeleur pour invoquer Isalien dans la suite de quêtes de l’ensemble de donjon 2."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_12024 = "Filet"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_12024 =
+        "Immobilise un ennemi pendant 5 s."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27636 = "Éclats stellaires"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27636 =
+        "Canalise des dégâts des Arcanes sur un ennemi pendant 6 s."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27637 = "Rétablissement"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27637 =
+        "Soigne un allié immédiatement et pendant 21 s. L’effet de soins sur la durée est magique."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_14443 = "Flèches multiples"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_14443 =
+        "Tire une salve sur un ennemi et ses alliés proches, touchant jusqu’à 3 cibles."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27639 = "Appel du familier"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27639 =
+        "Invoque Empyréen pour l’aider au combat."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_27556 = "Griffure"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_27556 =
+        "Empyréen inflige des dégâts physiques et fait saigner la cible pendant 15 s."
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_NAME_17963 = "Enchaînement fracassant"
+    IJ_DB_DUNGEON_DME_BOSS_16097_ABILITY_EFFECT_17963 =
+        "Empyréen réduit l’armure de 3 ennemis proches au maximum pendant 30 s. Cumulable jusqu’à 5 fois."
+    IJ_LOOT_NAME_22304 = "Gants Tisse-fer"
+    IJ_LOOT_NAME_22314 = "Harpon de veneur"
+    IJ_LOOT_NAME_22315 = "Marteau de revitalisation"
+    IJ_LOOT_NAME_22345 = "Totem de renaissance"
+    IJ_LOOT_NAME_22401 = "Libram d’espoir"
+    IJ_LOOT_NAME_22472 = "Bottes de férocité"
+
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusilline"
     IJ_DB_DUNGEON_DME_BOSS_STORY_14354 = "Un petit lutin lâche, incitant les aventuriers à le suivre, pour ensuite se retourner contre eux, les tuer et voler toutes les affaires de leur corps."
