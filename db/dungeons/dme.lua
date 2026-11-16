@@ -97,7 +97,7 @@ DME.Bosses = {
             [11] = {IJDB.I[18401], DropChance = 10}
         }
     },
-    [2] = { -- NOTE: Missing abilities
+    [2] = {
         Id = "13280",
         Portrait = IMP .. IMPD .. instanceMediaAcronym .. "hydrospawn" .. IMPP,
         Frame = IMP .. IMPD .. instanceMediaAcronym .. "hydrospawn" .. IMPF,
@@ -106,6 +106,43 @@ DME.Bosses = {
         MapCoordinateX = 76.4,
         MapCoordinateY = 75.0,
         MapIsBelow = true,
+        Abilities = {
+            [1] = {
+                Id = "22420",
+                Icon = "Spell_Shadow_DemonBreath",
+                Name = IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22420,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22420,
+                Flags = {IMAF.Magic}
+            },
+            [2] = {
+                Id = "22421",
+                Icon = "Spell_Frost_SummonWaterElemental",
+                Name = IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22421,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22421,
+                SubAbilities = {
+                    [1] = {
+                        Id = "22422",
+                        Icon = "Spell_Frost_SummonWaterElemental",
+                        Name = IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22422,
+                        Effect = IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22422
+                    }
+                }
+            },
+            [3] = {
+                Id = "22714",
+                Icon = "Spell_Frost_ChillingBlast",
+                Name = IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22714,
+                Effect = IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22714,
+                SubAbilities = {
+                    [1] = {
+                        Id = "22715",
+                        Icon = "Spell_Frost_ChillingBlast",
+                        Name = IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715,
+                        Effect = IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715
+                    }
+                }
+            }
+        },
         Loot = {
             [1] = {IJDB.I[18305], DropChance = 20},
             [2] = {IJDB.I[18307], DropChance = 20},

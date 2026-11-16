@@ -1554,6 +1554,21 @@ IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_IMPS =
 IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340 = "Fire Blast"
 IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340 =
     "Deals Fire damage to an enemy."
+IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22420 = "Submersion"
+IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22420 =
+    "Reduces the Stamina of nearby enemies for 1 min. This Magic effect can be dispelled."
+IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22421 = "Massive Geyser"
+IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22421 =
+    "Summons a geyser that erupts with Water."
+IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22422 = "Water"
+IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22422 =
+    "The geyser deals Frost damage to enemies within 10 yards and knocks them back."
+IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22714 = "Summon Hydroling"
+IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22714 =
+    "Summons two Hydrolings to assist in combat."
+IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715 = "Hydrojet"
+IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715 =
+    "Hydrolings knock back nearby enemies."
 
 -- DME Bosses
 IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillin"

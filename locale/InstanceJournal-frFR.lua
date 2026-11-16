@@ -1107,6 +1107,21 @@ if GetLocale() == "frFR" then
     IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340 = "Trait de feu"
     IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340 =
         "Inflige des dégâts de Feu à un ennemi."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22420 = "Submersion"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22420 =
+        "Réduit l’Endurance des ennemis proches pendant 1 min. Cet effet magique peut être dissipé."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22421 = "Geyser massif"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22421 =
+        "Invoque un geyser qui entre en éruption avec Eau."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22422 = "Eau"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22422 =
+        "Le geyser inflige des dégâts de Givre aux ennemis à moins de 10 mètres et les repousse."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22714 = "Invocation d’hydrogéniture"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22714 =
+        "Invoque deux hydrogénitures pour l’aider au combat."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715 = "Hydrojet"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715 =
+        "Les hydrogénitures repoussent les ennemis proches."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusilline"

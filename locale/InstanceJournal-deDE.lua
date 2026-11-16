@@ -1108,6 +1108,21 @@ if GetLocale() == "deDE" then
     IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340 = "Feuerschlag"
     IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340 =
         "Fügt einem Gegner Feuerschaden zu."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22420 = "Untertauchen"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22420 =
+        "Verringert die Ausdauer von Gegnern in der Nähe 1 Min. lang. Dieser Magieeffekt kann gebannt werden."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22421 = "Gewaltiger Geysir"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22421 =
+        "Beschwört einen Geysir, der mit Wasser ausbricht."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22422 = "Wasser"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22422 =
+        "Der Geysir fügt Gegnern im Umkreis von 10 Metern Frostschaden zu und stößt sie zurück."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22714 = "Hydroling beschwören"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22714 =
+        "Beschwört zwei Hydrolinge, die im Kampf helfen."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715 = "Wasserstrahl"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715 =
+        "Hydrolinge stoßen Gegner in der Nähe zurück."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillin"

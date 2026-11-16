@@ -1107,6 +1107,21 @@ if GetLocale() == "esES" then
     IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340 = "Explosión de Fuego"
     IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340 =
         "Inflige daño de Fuego a un enemigo."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22420 = "Sumersión"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22420 =
+        "Reduce el aguante de los enemigos cercanos durante 1 min. Este efecto mágico se puede disipar."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22421 = "Géiser enorme"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22421 =
+        "Invoca un géiser que estalla con Agua."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22422 = "Agua"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22422 =
+        "El géiser inflige daño de Escarcha a los enemigos en un radio de 10 m y los repele."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22714 = "Invocar hidrolín"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22714 =
+        "Invoca dos hidrolines para ayudar en combate."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715 = "Chorro de agua"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715 =
+        "Los hidrolines repelen a los enemigos cercanos."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusillín"

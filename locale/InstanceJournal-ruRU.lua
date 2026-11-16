@@ -1131,6 +1131,21 @@ if GetLocale() == "ruRU" then
     IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340 = "Огненный взрыв"
     IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340 =
         "Наносит противнику урон от огня."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22420 = "Погружение"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22420 =
+        "Снижает выносливость ближайших противников на 1 мин. Этот магический эффект можно рассеять."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22421 = "Мощный гейзер"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22421 =
+        "Призывает гейзер, извергающий воду."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22422 = "Вода"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22422 =
+        "Гейзер наносит урон от магии льда противникам в радиусе 10 м и отбрасывает их."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22714 = "Призыв водяного порождения"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22714 =
+        "Призывает двух водяных порождений на помощь в бою."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715 = "Струя воды"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715 =
+        "Водяные порождения отбрасывают ближайших противников."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Пузилин"

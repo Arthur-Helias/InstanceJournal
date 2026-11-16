@@ -1104,6 +1104,21 @@ if GetLocale() == "ptBR" then
     IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_NAME_13340 = "Impacto de Fogo"
     IJ_DB_DUNGEON_DME_BOSS_14354_ABILITY_EFFECT_13340 =
         "Causa dano de Fogo a um inimigo."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22420 = "Submersão"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22420 =
+        "Reduz o Vigor dos inimigos próximos por 1 min. Este efeito mágico pode ser dissipado."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22421 = "Gêiser Maciço"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22421 =
+        "Invoca um gêiser que irrompe com Água."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22422 = "Água"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22422 =
+        "O gêiser causa dano de Gelo aos inimigos em um raio de 10 metros e os repele."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22714 = "Evocar Hidrolim"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22714 =
+        "Invoca dois Hidrolins para ajudar no combate."
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_NAME_22715 = "Hidrojato"
+    IJ_DB_DUNGEON_DME_BOSS_13280_ABILITY_EFFECT_22715 =
+        "Os Hidrolins repelem os inimigos próximos."
 
     -- DME Bosses
     IJ_DB_DUNGEON_DME_BOSS_NAME_14354 = "Pusilina"
