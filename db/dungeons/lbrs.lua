@@ -241,8 +241,8 @@ LBRS.Bosses = {
     },
     [7] = {
         Id = "16080",
-        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "morgrayhoof" .. IMPP,
-        Frame = IMP .. IMPD .. instanceMediaAcronym .. "morgrayhoof" .. IMPF,
+        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "morgrayhoof" .. IMPP, -- TODO: Redo portait/frame to match original's style
+        Frame = IMP .. IMPD .. instanceMediaAcronym .. "morgrayhoof" .. IMPF, -- TODO: Redo portait/frame to match original's style
         Name = IJ_DB_DUNGEON_LBRS_BOSS_NAME_16080,
         Story = IJ_DB_DUNGEON_LBRS_BOSS_STORY_16080,
         IsSummoned = true,

@@ -356,8 +356,8 @@ DMW.Bosses = {
     },
     [6] = {
         Id = "14502",
-        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "dreadsteed" .. IMPP,
-        Frame = IMP .. IMPD .. instanceMediaAcronym .. "dreadsteed" .. IMPF,
+        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "dreadsteed" .. IMPP, -- TODO: Redo portait/frame to match original's style
+        Frame = IMP .. IMPD .. instanceMediaAcronym .. "dreadsteed" .. IMPF, -- TODO: Redo portait/frame to match original's style
         Name = IJ_DB_DUNGEON_DMW_BOSS_NAME_14502,
         Story = IJ_DB_DUNGEON_DMW_BOSS_STORY_14502,
         IsSummoned = true,

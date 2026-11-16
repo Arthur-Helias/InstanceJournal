@@ -199,8 +199,8 @@ BRD.Bosses = {
     },
     [5] = {
         Id = "16059",
-        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "theldren" .. IMPP,
-        Frame = IMP .. IMPD .. instanceMediaAcronym .. "theldren" .. IMPF,
+        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "theldren" .. IMPP, -- TODO: Redo portait/frame to match original's style
+        Frame = IMP .. IMPD .. instanceMediaAcronym .. "theldren" .. IMPF, -- TODO: Redo portait/frame to match original's style
         Name = IJ_DB_DUNGEON_BRD_BOSS_NAME_16059,
         Story = IJ_DB_DUNGEON_BRD_BOSS_STORY_16059,
         IsSummoned = true,

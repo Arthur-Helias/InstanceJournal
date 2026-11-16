@@ -406,8 +406,8 @@ DME.Bosses = {
     },
     [6] = {
         Id = "16097",
-        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "isalien" .. IMPP,
-        Frame = IMP .. IMPD .. instanceMediaAcronym .. "isalien" .. IMPF,
+        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "isalien" .. IMPP, -- TODO: Redo portait/frame to match original's style
+        Frame = IMP .. IMPD .. instanceMediaAcronym .. "isalien" .. IMPF, -- TODO: Redo portait/frame to match original's style
         Name = IJ_DB_DUNGEON_DME_BOSS_NAME_16097,
         Story = IJ_DB_DUNGEON_DME_BOSS_STORY_16097,
         IsSummoned = true,

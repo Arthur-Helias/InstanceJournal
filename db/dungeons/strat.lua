@@ -466,8 +466,8 @@ STRAT.Bosses = {
     },
     [10] = {
         Id = "16101",
-        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "jarienandsothos" .. IMPP,
-        Frame = IMP .. IMPD .. instanceMediaAcronym .. "jarienandsothos" .. IMPF,
+        Portrait = IMP .. IMPD .. instanceMediaAcronym .. "jarienandsothos" .. IMPP, -- TODO: Redo portait/frame to match original's style
+        Frame = IMP .. IMPD .. instanceMediaAcronym .. "jarienandsothos" .. IMPF, -- TODO: Redo portait/frame to match original's style
         Name = IJ_DB_DUNGEON_STRAT_BOSS_NAME_16101,
         Story = IJ_DB_DUNGEON_STRAT_BOSS_STORY_16101,
         IsSummoned = true,
