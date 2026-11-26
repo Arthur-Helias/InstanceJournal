@@ -44,6 +44,26 @@ local function IJ_UnwrapItem(item)
     return item
 end
 
+local function IJ_GetQuestPoint(points, allowItem)
+    local playerFaction = UnitFactionGroup("player")
+
+    for _, entry in ipairs(points or {}) do
+        local point = IJ_UnwrapItem(entry)
+
+        if point and (not point.RequiredFaction or IJLib.FactionUnlocalizedLinks[point.RequiredFaction] == playerFaction) then
+            if point.MapContinentId then
+                local zoneId = IJLib:GetLocationZoneId(point.MapContinentId, point.MapZoneId)
+
+                if zoneId then
+                    return point, zoneId
+                end
+            elseif allowItem and point.Id then
+                return point
+            end
+        end
+    end
+end
+
 local IJ_QuestCacheTooltip = CreateFrame("GameTooltip", "IJ_QuestCacheTooltip", UIParent, "GameTooltipTemplate")
 local IJ_CachedQuestItems = {}
 
@@ -1171,10 +1191,10 @@ function IJ_ShowQuestInfo(quest)
     local lastElementRight = nil
     local addedMapButtons = false
 
-    if quest.StartingPoints and quest.StartingPoints[1] then
-        local sp = IJ_UnwrapItem(quest.StartingPoints[1])
+    local sp, startZoneId = IJ_GetQuestPoint(quest.StartingPoints, true)
 
-        if sp.MapContinentId then
+    if sp then
+        if startZoneId then
             local startBtn = getglobal("IJ_QuestStartBtn")
 
             if not startBtn then
@@ -1193,8 +1213,8 @@ function IJ_ShowQuestInfo(quest)
                     WorldMapFrame:Show()
                 end
 
-                SetMapZoom(this.mapData.MapContinentId, this.mapData.MapZoneId and this.mapData.MapZoneId or 1)
-                IJ_PingMapCoordinates(this.mapData.MapCoordinateX, this.mapData.MapCoordinateY, "start", this.mapData.MapContinentId, this.mapData.MapZoneId and this.mapData.MapZoneId or 1, this.mapData.Name)
+                SetMapZoom(this.mapData.MapContinentId, startZoneId)
+                IJ_PingMapCoordinates(this.mapData.MapCoordinateX, this.mapData.MapCoordinateY, "start", this.mapData.MapContinentId, startZoneId, this.mapData.Name)
             end)
 
             startBtn:Show()
@@ -1277,7 +1297,9 @@ function IJ_ShowQuestInfo(quest)
         end
     end
 
-    if quest.EndingPoints and quest.EndingPoints[1] then
+    local ep, endZoneId = IJ_GetQuestPoint(quest.EndingPoints)
+
+    if ep then
         local endBtn = getglobal("IJ_QuestEndBtn")
 
         if not endBtn then
@@ -1295,15 +1317,15 @@ function IJ_ShowQuestInfo(quest)
         end
 
         endBtn:SetText(IJ_GUI_SHOWEND)
-        endBtn.mapData = quest.EndingPoints[1]
+        endBtn.mapData = ep
 
         endBtn:SetScript("OnClick", function()
             if not WorldMapFrame:IsShown() then
                 WorldMapFrame:Show()
             end
 
-            SetMapZoom(this.mapData.MapContinentId, this.mapData.MapZoneId and this.mapData.MapZoneId or 1)
-            IJ_PingMapCoordinates(this.mapData.MapCoordinateX, this.mapData.MapCoordinateY, "end", this.mapData.MapContinentId, this.mapData.MapZoneId and this.mapData.MapZoneId or 1, this.mapData.Name)
+            SetMapZoom(this.mapData.MapContinentId, endZoneId)
+            IJ_PingMapCoordinates(this.mapData.MapCoordinateX, this.mapData.MapCoordinateY, "end", this.mapData.MapContinentId, endZoneId, this.mapData.Name)
         end)
 
         endBtn:Show()

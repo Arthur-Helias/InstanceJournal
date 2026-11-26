@@ -319,20 +319,19 @@ function IJ_ShowBossesIconFromInstance(instance)
     local scale = instance.IconScale or 1.0
 
     for _, boss in pairs(instance.Bosses) do
-        local showBoss = false
+        local mapId = instance.MapId
+        local zoneId = boss.MapId
+        local hasOwnMap = mapId == IJLib.MapId.World or boss.MapZoneId ~= nil
 
-        if boss.MapZoneId then
-            if tostring(currentContinentId) == tostring(boss.MapId) and tostring(currentZoneId) == tostring(boss.MapZoneId) then
-                showBoss = true
-            end
-        elseif boss.MapId then
-            if tostring(currentContinentId) == tostring(instance.MapId) and tostring(currentZoneId) == tostring(boss.MapId) then
-                showBoss = true
-            end
-        else
-            if tostring(currentContinentId) == tostring(instance.MapId) then
-                showBoss = true
-            end
+        if hasOwnMap then
+            mapId = boss.MapId
+            zoneId = IJLib:GetLocationZoneId(mapId, boss.MapZoneId)
+        end
+
+        local showBoss = tostring(currentContinentId) == tostring(mapId)
+
+        if zoneId ~= nil or hasOwnMap then
+            showBoss = showBoss and zoneId and tostring(currentZoneId) == tostring(zoneId)
         end
 
         if showBoss then
@@ -512,9 +511,9 @@ function IJ_WorldMapButton_OnClick(arg1, arg2, arg3, arg4)
         if IJDB and IJDB.POI then
             for _, poi in pairs(IJDB.POI) do
                 if poi.MapContinentId and poi.MapZoneId and tostring(poi.MapContinentId) == tostring(currentMapId) and tostring(poi.MapZoneId) == tostring(currentZoneId) then
-                    if poi.Entrances and poi.Entrances[1] then
-                        local ent = poi.Entrances[1]
+                    local ent = poi.Entrances and poi.Entrances[1]
 
+                    if ent and ent.MapContinentId and ent.MapZoneId then
                         SetMapZoom(ent.MapContinentId, ent.MapZoneId)
 
                         return
