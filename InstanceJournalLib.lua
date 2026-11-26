@@ -267,6 +267,23 @@ local currentLocale = GetLocale()
 
 if currentLocale == "esES" and IJ_ZoneId_esES then
     IJLib.ZoneId = IJ_ZoneId_esES
+
+    for continent, zoneNames in pairs(IJ_ZoneNames_esES) do
+        local indices = {}
+
+        for index, name in ipairs({GetMapZones(IJLib.MapId[continent])}) do
+            if indices[name] == nil then
+                indices[name] = index
+            else
+                indices[name] = false
+            end
+        end
+
+        -- Keep an unresolved zone distinct from a single-floor instance with no zone ID.
+        for key, name in pairs(zoneNames) do
+            IJLib.ZoneId[key] = indices[name] or false
+        end
+    end
 elseif currentLocale == "frFR" and IJ_ZoneId_frFR then
     IJLib.ZoneId = IJ_ZoneId_frFR
 elseif currentLocale == "deDE" and IJ_ZoneId_deDE then
@@ -280,11 +297,22 @@ elseif currentLocale == "ptBR" and IJ_ZoneId_ptBR then
 end
 
 IJ_ZoneId_esES = nil
+IJ_ZoneNames_esES = nil
 IJ_ZoneId_frFR = nil
 IJ_ZoneId_deDE = nil
 IJ_ZoneId_zhCN = nil
 IJ_ZoneId_ruRU = nil
 IJ_ZoneId_ptBR = nil
+
+function IJLib:GetLocationZoneId(mapId, zoneId)
+    if zoneId ~= nil then
+        return zoneId
+    end
+
+    if mapId and mapId > IJLib.MapId.EasternKingdoms then
+        return 1
+    end
+end
 
 IJLib.Reputations = {
     ArgentDawn = IJ_REPUTATION_ARGENTDAWN,

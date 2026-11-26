@@ -2,6 +2,7 @@ IJDB = IJDB or {}
 
 local IMI = IJLib.MapId
 local IZI = IJLib.ZoneId
+local IF = IJLib.Factions
 
 local NPC = {}
 
@@ -37,7 +38,7 @@ NPC[61571] = {Id = "61571", MapContinentId = IMI.LowerKarazhanHalls, MapCoordina
 
 NPC[61322] = {Id = "61322", MapContinentId = IMI.LowerKarazhanHalls, MapCoordinateX = 66.2, MapCoordinateY = 29.5, Name = IJ_NPC_NAME_61322}
 
-NPC[2708] = {Id = "2708", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 50.5, MapCoordinateY = 87.5, Name = IJ_NPC_NAME_2708}
+NPC[2708] = {Id = "2708", RequiredFaction = IF.Alliance, MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 50.5, MapCoordinateY = 87.5, Name = IJ_NPC_NAME_2708}
 
 NPC[62727] = {Id = "62727", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Ashenvale, MapCoordinateX = 17.3, MapCoordinateY = 26.0, Name = IJ_NPC_NAME_62727}
 
@@ -97,7 +98,7 @@ NPC[2402] = {Id = "2402", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.
 
 NPC[62638] = {Id = "62638", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.ArathiHighlands, MapCoordinateX = 73.9, MapCoordinateY = 34.2, Name = IJ_NPC_NAME_62638}
 
-NPC[1609] = {Id = "1609", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Orgrimmar, MapCoordinateX = 37.6, MapCoordinateY = 35.8, Name = IJ_NPC_NAME_1609}
+NPC[1609] = {Id = "1609", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Wetlands, MapCoordinateX = 47.5, MapCoordinateY = 47.0, Name = IJ_NPC_NAME_1609}
 
 NPC[2086] = {Id = "2086", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Wetlands, MapCoordinateX = 10.1, MapCoordinateY = 56.9, Name = IJ_NPC_NAME_2086}
 
@@ -229,7 +230,7 @@ NPC[91712] = {Id = "91712", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZ
 
 NPC[91753] = {Id = "91753", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.TirisfalGlades, MapCoordinateX = 4.7, MapCoordinateY = 62.1, Name = IJ_NPC_NAME_91753}
 
-NPC[73102] = {Id = "73102", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Badlands, MapCoordinateX = 29.7, MapCoordinateY = 30.5, Name = IJ_NPC_NAME_73102}
+NPC[73102] = {Id = "73102", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.LochModan, MapCoordinateX = 28.3, MapCoordinateY = 97.8, Name = IJ_NPC_NAME_73102}
 
 NPC[61756] = {Id = "61756", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.TheHinterlands, MapCoordinateX = 10.0, MapCoordinateY = 48.7, Name = IJ_NPC_NAME_61756}
 
@@ -255,9 +256,9 @@ NPC[91782] = {Id = "91782", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Azsha
 
 NPC[5353] = {Id = "5353", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.SwampOfSorrows, MapCoordinateX = 13.7, MapCoordinateY = 71.7, Name = IJ_NPC_NAME_5353}
 
-NPC[61326] = {Id = "61326", MapContinentId = IMI.TheTempleOfAtalHakkar, MapCoordinateX = 81.6, MapCoordinateY = 27.5, Name = IJ_NPC_NAME_61326}
+NPC[61326] = {Id = "61326", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Hyjal, MapCoordinateX = 81.6, MapCoordinateY = 27.5, Name = IJ_NPC_NAME_61326}
 
-NPC[60446] = {Id = "60446", MapContinentId = IMI.TheTempleOfAtalHakkar, MapCoordinateX = 56.2, MapCoordinateY = 16.2, Name = IJ_NPC_NAME_60446}
+NPC[60446] = {Id = "60446", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.GillijimsIsle, MapCoordinateX = 56.2, MapCoordinateY = 16.2, Name = IJ_NPC_NAME_60446}
 
 NPC[92184] = {Id = "92184", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StranglethornVale, MapCoordinateX = 0.6, MapCoordinateY = 71.8, Name = IJ_NPC_NAME_92184}
 
@@ -267,11 +268,11 @@ NPC[52006] = {Id = "52006", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZ
 
 NPC[52021] = {Id = "52021", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Wetlands, MapCoordinateX = 39.4, MapCoordinateY = 61.3, Name = IJ_NPC_NAME_52021}
 
-NPC[52024] = {Id = "52024", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Wetlands, MapCoordinateX = 36.4, MapCoordinateY = 67.3, Name = IJ_NPC_NAME_52024}
+NPC[52024] = {Id = "52024", RequiredFaction = IF.Alliance, MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Wetlands, MapCoordinateX = 36.4, MapCoordinateY = 67.3, Name = IJ_NPC_NAME_52024}
 
-NPC[52039] = {Id = "52039", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Wetlands, MapCoordinateX = 39.2, MapCoordinateY = 65.4, Name = IJ_NPC_NAME_52039}
+NPC[52039] = {Id = "52039", RequiredFaction = IF.Alliance, MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Wetlands, MapCoordinateX = 39.2, MapCoordinateY = 65.4, Name = IJ_NPC_NAME_52039}
 
-NPC[1498] = {Id = "1498", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.TirisfalGlades, MapCoordinateX = 65.7, MapCoordinateY = 68.8, Name = IJ_NPC_NAME_1498}
+NPC[1498] = {Id = "1498", RequiredFaction = IF.Horde, MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.TirisfalGlades, MapCoordinateX = 65.7, MapCoordinateY = 68.8, Name = IJ_NPC_NAME_1498}
 
 NPC[2543] = {Id = "2543", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.AlteracMountains, MapCoordinateX = 18.8, MapCoordinateY = 78.5, Name = IJ_NPC_NAME_2543}
 
@@ -303,7 +304,7 @@ NPC[10181] = {Id = "10181", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZ
 
 NPC[62590] = {Id = "62590", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Balor, MapCoordinateX = 71.0, MapCoordinateY = 46.6, Name = IJ_NPC_NAME_62590}
 
-NPC[62432] = {Id = "62432", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Balor, MapCoordinateX = 59.3, MapCoordinateY = 29.0, Name = IJ_NPC_NAME_62432}
+NPC[62432] = {Id = "62432", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.GrimReaches, MapCoordinateX = 59.3, MapCoordinateY = 29.0, Name = IJ_NPC_NAME_62432}
 
 NPC[62588] = {Id = "62588", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Balor, MapCoordinateX = 70.8, MapCoordinateY = 47.8, Name = IJ_NPC_NAME_62588}
 
@@ -311,9 +312,9 @@ NPC[62586] = {Id = "62586", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZ
 
 NPC[62489] = {Id = "62489", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Northwind, MapCoordinateX = 48.7, MapCoordinateY = 56.6, Name = IJ_NPC_NAME_62489}
 
-NPC[62419] = {Id = "62419", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Balor, MapCoordinateX = 56.1, MapCoordinateY = 69.5, Name = IJ_NPC_NAME_62419}
+NPC[62419] = {Id = "62419", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.GrimReaches, MapCoordinateX = 56.1, MapCoordinateY = 69.5, Name = IJ_NPC_NAME_62419}
 
-NPC[62455] = {Id = "62455", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Balor, MapCoordinateX = 69.3, MapCoordinateY = 77.3, Name = IJ_NPC_NAME_62455}
+NPC[62455] = {Id = "62455", RequiredFaction = IF.Alliance, MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Balor, MapCoordinateX = 69.3, MapCoordinateY = 77.3, Name = IJ_NPC_NAME_62455}
 
 NPC[62457] = {Id = "62457", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Balor, MapCoordinateX = 69.5, MapCoordinateY = 77.7, Name = IJ_NPC_NAME_62457}
 
@@ -321,11 +322,11 @@ NPC[62459] = {Id = "62459", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZ
 
 NPC[62556] = {Id = "62556", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Balor, MapCoordinateX = 36.1, MapCoordinateY = 55.1, Name = IJ_NPC_NAME_62556}
 
-NPC[2020177] = {Id = "2020177", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Balor, MapCoordinateX = 40.6, MapCoordinateY = 55.2, Name = IJ_NPC_NAME_2020177}
+NPC[2020177] = {Id = "2020177", RequiredFaction = IF.Alliance, MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Balor, MapCoordinateX = 40.6, MapCoordinateY = 55.2, Name = IJ_NPC_NAME_2020177}
 
 NPC[62458] = {Id = "62458", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Balor, MapCoordinateX = 69.6, MapCoordinateY = 76.6, Name = IJ_NPC_NAME_62458}
 
-NPC[62730] = {Id = "62730", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 49.5, MapCoordinateY = 42.1, Name = IJ_NPC_NAME_62730}
+NPC[62730] = {Id = "62730", MapContinentId = IMI.StormwroughtRuins, MapCoordinateX = 49.5, MapCoordinateY = 42.1, Name = IJ_NPC_NAME_62730}
 
 NPC[62520] = {Id = "62520", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Balor, MapCoordinateX = 28.6, MapCoordinateY = 11.2, Name = IJ_NPC_NAME_62520}
 
@@ -389,7 +390,7 @@ NPC[13020] = {Id = "13020", MapContinentId = IMI.BlackwingLair, MapCoordinateX =
 
 NPC[15502] = {Id = "15502", MapContinentId = IMI.TempleOfAhnQiraj, MapZoneId = IZI.AQ402, MapCoordinateX = 59.2, MapCoordinateY = 68.8, Name = IJ_NPC_NAME_15502}
 
-NPC[15379] = {Id = "15379", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Silithus, MapCoordinateX = 28.6, MapCoordinateY = 89.2, Name = IJ_NPC_NAME_15379}
+NPC[15379] = {Id = "15379", MapContinentId = IMI.TempleOfAhnQiraj, MapZoneId = IZI.AQ401, MapCoordinateX = 32.2, MapCoordinateY = 54.1, Name = IJ_NPC_NAME_15379}
 
 NPC[16091] = {Id = "16091", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Silithus, MapCoordinateX = 52.0, MapCoordinateY = 39.0, Name = IJ_NPC_NAME_16091}
 
@@ -399,7 +400,7 @@ NPC[4453] = {Id = "4453", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Thousan
 
 NPC[7407] = {Id = "7407", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Tanaris, MapCoordinateX = 52.4, MapCoordinateY = 28.4, Name = IJ_NPC_NAME_7407}
 
-NPC[4568] = {Id = "4568", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Undercity, MapCoordinateX = 85.0, MapCoordinateY = 10.2, Name = IJ_NPC_NAME_4568}
+NPC[4568] = {Id = "4568", RequiredFaction = IF.Horde, MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Undercity, MapCoordinateX = 85.0, MapCoordinateY = 10.2, Name = IJ_NPC_NAME_4568}
 
 NPC[773] = {Id = "773", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StranglethornVale, MapCoordinateX = 27.0, MapCoordinateY = 77.2, Name = IJ_NPC_NAME_773}
 
@@ -407,7 +408,7 @@ NPC[7876] = {Id = "7876", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Tanaris
 
 NPC[7804] = {Id = "7804", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Tanaris, MapCoordinateX = 51.4, MapCoordinateY = 28.6, Name = IJ_NPC_NAME_7804}
 
-NPC[142702] = {Id = "142702", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.TheHinterlands, MapCoordinateX = 31.2, MapCoordinateY = 58.5, Name = IJ_NPC_NAME_142702}
+NPC[142702] = {Id = "142702", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.TheHinterlands, MapCoordinateX = 23.5, MapCoordinateY = 58.8, Name = IJ_NPC_NAME_142702}
 
 NPC[2216] = {Id = "2216", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.HillsbradFoothills, MapCoordinateX = 61.4, MapCoordinateY = 19.2, Name = IJ_NPC_NAME_2216}
 
@@ -473,15 +474,15 @@ NPC[2909] = {Id = "2909", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.
 
 NPC[10321] = {Id = "10321", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.DustwallowMarsh, MapCoordinateX = 56.6, MapCoordinateY = 87.6, Name = IJ_NPC_NAME_10321}
 
-NPC[10182] = {Id = "10182", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Desolace, MapCoordinateX = 54.0, MapCoordinateY = 3.2, Name = IJ_NPC_NAME_10182}
+NPC[10182] = {Id = "10182", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Desolace, MapCoordinateX = 53.4, MapCoordinateY = 6.8, Name = IJ_NPC_NAME_10182}
 
 NPC[11872] = {Id = "11872", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.WesternPlaguelands, MapCoordinateX = 50.8, MapCoordinateY = 77.8, Name = IJ_NPC_NAME_11872}
 
 NPC[10918] = {Id = "10918", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Winterspring, MapCoordinateX = 63.8, MapCoordinateY = 73.8, Name = IJ_NPC_NAME_10918}
 
-NPC[16073] = {Id = "16073", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 50.0, MapCoordinateY = 50.0, Name = IJ_NPC_NAME_16073}
+NPC[16073] = {Id = "16073", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 61.6, MapCoordinateY = 43.9, Name = IJ_NPC_NAME_16073}
 
-NPC[179880] = {Id = "179880", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 50.0, MapCoordinateY = 50.0, Name = IJ_NPC_NAME_179880}
+NPC[179880] = {Id = "179880", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 33.4, MapCoordinateY = 44.4, Name = IJ_NPC_NAME_179880}
 
 NPC[12580] = {Id = "12580", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.ElwynnForest, MapCoordinateX = 32.0, MapCoordinateY = 49.2, Name = IJ_NPC_NAME_12580}
 
@@ -491,9 +492,10 @@ NPC[9565] = {Id = "9565", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.
 
 NPC[13278] = {Id = "13278", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Azshara, MapCoordinateX = 79.2, MapCoordinateY = 73.6, Name = IJ_NPC_NAME_13278}
 
-NPC[10776] = {Id = "10776", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 50.0, MapCoordinateY = 50.0, Name = IJ_NPC_NAME_10776}
+-- Pip appears after The Beast is skinned. Use the encounter location.
+NPC[10776] = {Id = "10776", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 65.5, MapCoordinateY = 30.3, Name = IJ_NPC_NAME_10776}
 
-NPC[10740] = {Id = "10740", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 50.0, MapCoordinateY = 50.0, Name = IJ_NPC_NAME_10740}
+NPC[10740] = {Id = "10740", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 48.6, MapCoordinateY = 39.6, Name = IJ_NPC_NAME_10740}
 
 NPC[10929] = {Id = "10929", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Winterspring, MapCoordinateX = 54.4, MapCoordinateY = 51.2, Name = IJ_NPC_NAME_10929}
 
@@ -523,7 +525,7 @@ NPC[11033] = {Id = "11033", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZ
 
 NPC[1074] = {Id = "1074", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Wetlands, MapCoordinateX = 49.6, MapCoordinateY = 18.2, Name = IJ_NPC_NAME_1074}
 
-NPC[1721] = {Id = "1721", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 75.6, MapCoordinateY = 61.1, Name = IJ_NPC_NAME_1721}
+NPC[1721] = {Id = "1721", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 69.3, MapCoordinateY = 40.1, Name = IJ_NPC_NAME_1721}
 
 NPC[1719] = {Id = "1719", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 51.5, MapCoordinateY = 69.5, Name = IJ_NPC_NAME_1719}
 
@@ -535,7 +537,7 @@ NPC[15180] = {Id = "15180", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Silit
 
 NPC[180633] = {Id = "180633", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Silithus, MapCoordinateX = 28.7, MapCoordinateY = 89.1, Name = IJ_NPC_NAME_180633}
 
-NPC[15192] = {Id = "15192", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Tanaris, MapCoordinateX = 65.2, MapCoordinateY = 50.0, Name = IJ_NPC_NAME_15192}
+NPC[15192] = {Id = "15192", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Tanaris, MapCoordinateX = 61.1, MapCoordinateY = 56.9, Name = IJ_NPC_NAME_15192}
 
 NPC[15362] = {Id = "15362", MapContinentId = IMI.TheTempleOfAtalHakkar, MapCoordinateX = 61.5, MapCoordinateY = 87.0, Name = IJ_NPC_NAME_15362}
 
@@ -549,7 +551,7 @@ NPC[1854] = {Id = "1854", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.
 
 NPC[10838] = {Id = "10838", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.WesternPlaguelands, MapCoordinateX = 42.8, MapCoordinateY = 84.0, Name = IJ_NPC_NAME_10838}
 
-NPC[918] = {Id = "918", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 77.2, MapCoordinateY = 67.1, Name = IJ_NPC_NAME_918}
+NPC[918] = {Id = "918", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 75.7, MapCoordinateY = 57.7, Name = IJ_NPC_NAME_918}
 
 NPC[6768] = {Id = "6768", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.AlteracMountains, MapCoordinateX = 86.0, MapCoordinateY = 79.0, Name = IJ_NPC_NAME_6768}
 
@@ -567,11 +569,17 @@ NPC[5516] = {Id = "5516", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.
 
 NPC[8405] = {Id = "8405", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Azshara, MapCoordinateX = 42.4, MapCoordinateY = 42.6, Name = IJ_NPC_NAME_8405}
 
-NPC[3033] = {Id = "3033", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Moonglade, MapCoordinateX = 52.4, MapCoordinateY = 40.4, Name = IJ_NPC_NAME_3033}
+NPC[3033] = {Id = "3033", RequiredFaction = IF.Horde, MapContinentId = IMI.Kalimdor, MapZoneId = IZI.ThunderBluff, MapCoordinateX = 76.5, MapCoordinateY = 27.2, Name = IJ_NPC_NAME_3033}
+
+NPC[12042] = {Id = "12042", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Moonglade, MapCoordinateX = 52.5, MapCoordinateY = 40.6, Name = IJ_NPC_NAME_12042}
+
+NPC[4217] = {Id = "4217", RequiredFaction = IF.Alliance, MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Darnassus, MapCoordinateX = 35.4, MapCoordinateY = 8.4, Name = IJ_NPC_NAME_4217}
+
+NPC[5505] = {Id = "5505", RequiredFaction = IF.Alliance, MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 36.1, MapCoordinateY = 64.4, Name = IJ_NPC_NAME_5505}
 
 NPC[9619] = {Id = "9619", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.UnGoroCrater, MapCoordinateX = 71.6, MapCoordinateY = 76.0, Name = IJ_NPC_NAME_9619}
 
-NPC[7572] = {Id = "7572", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.SwampOfSorrows, MapCoordinateX = 34.2, MapCoordinateY = 66.0, Name = IJ_NPC_NAME_7572}
+NPC[7572] = {Id = "7572", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.SwampOfSorrows, MapCoordinateX = 34.2, MapCoordinateY = 66.0, Name = IJ_NPC_NAME_7572}
 
 NPC[14470] = {Id = "14470", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Felwood, MapCoordinateX = 41.4, MapCoordinateY = 44.8, Name = IJ_NPC_NAME_14470}
 
@@ -613,7 +621,13 @@ NPC[4488] = {Id = "4488", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.
 
 NPC[3978] = {Id = "3978", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.ThunderBluff, MapCoordinateX = 34.6, MapCoordinateY = 47.2, Name = IJ_NPC_NAME_3978}
 
-NPC[3048] = {Id = "3048", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Orgrimmar, MapCoordinateX = 38.4, MapCoordinateY = 85.8, Name = IJ_NPC_NAME_3048}
+NPC[3048] = {Id = "3048", RequiredFaction = IF.Horde, MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Mulgore, MapCoordinateX = 35.0, MapCoordinateY = 19.7, Name = IJ_NPC_NAME_3048}
+
+NPC[5885] = {Id = "5885", RequiredFaction = IF.Horde, MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Orgrimmar, MapCoordinateX = 38.4, MapCoordinateY = 86.1, Name = IJ_NPC_NAME_5885}
+
+NPC[5144] = {Id = "5144", RequiredFaction = IF.Alliance, MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Ironforge, MapCoordinateX = 27.2, MapCoordinateY = 8.3, Name = IJ_NPC_NAME_5144}
+
+NPC[5497] = {Id = "5497", RequiredFaction = IF.Alliance, MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 49.6, MapCoordinateY = 85.8, Name = IJ_NPC_NAME_5497}
 
 NPC[6546] = {Id = "6546", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.DustwallowMarsh, MapCoordinateX = 46.0, MapCoordinateY = 57.0, Name = IJ_NPC_NAME_6546}
 
@@ -629,7 +643,7 @@ NPC[16112] = {Id = "16112", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZ
 
 NPC[3982] = {Id = "3982", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.HillsbradFoothills, MapCoordinateX = 62.6, MapCoordinateY = 19.0, Name = IJ_NPC_NAME_3982}
 
-NPC[12336] = {Id = "12336", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 57.2, MapCoordinateY = 37.3, Name = IJ_NPC_NAME_12336}
+NPC[12336] = {Id = "12336", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 42.5, MapCoordinateY = 24.4, Name = IJ_NPC_NAME_12336}
 
 NPC[1182] = {Id = "1182", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Desolace, MapCoordinateX = 66.4, MapCoordinateY = 7.8, Name = IJ_NPC_NAME_1182}
 
@@ -691,17 +705,17 @@ NPC[4967] = {Id = "4967", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Dustwal
 
 NPC[7311] = {Id = "7311", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Orgrimmar, MapCoordinateX = 39.0, MapCoordinateY = 86.0, Name = IJ_NPC_NAME_7311}
 
-NPC[176090] = {Id = "176090", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 50.0, MapCoordinateY = 50.0, Name = IJ_NPC_NAME_176090}
+NPC[176090] = {Id = "176090", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 42.3, MapCoordinateY = 55.0, Name = IJ_NPC_NAME_176090}
 
 NPC[10637] = {Id = "10637", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Winterspring, MapCoordinateX = 61.0, MapCoordinateY = 38.6, Name = IJ_NPC_NAME_10637}
 
 NPC[11192] = {Id = "11192", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Winterspring, MapCoordinateX = 61.2, MapCoordinateY = 37.0, Name = IJ_NPC_NAME_11192}
 
-NPC[10299] = {Id = "10299", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 50.0, MapCoordinateY = 50.0, Name = IJ_NPC_NAME_10299}
+NPC[10299] = {Id = "10299", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 46.2, MapCoordinateY = 41.9, Name = IJ_NPC_NAME_10299}
 
-NPC[10257] = {Id = "10257", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 50.0, MapCoordinateY = 50.0, Name = IJ_NPC_NAME_10257}
+NPC[10257] = {Id = "10257", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 63.1, MapCoordinateY = 53.0, Name = IJ_NPC_NAME_10257}
 
-NPC[10799] = {Id = "10799", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 50.0, MapCoordinateY = 50.0, Name = IJ_NPC_NAME_10799}
+NPC[10799] = {Id = "10799", MapContinentId = IMI.BlackrockSpire, MapCoordinateX = 51.5, MapCoordinateY = 43.5, Name = IJ_NPC_NAME_10799}
 
 NPC[9563] = {Id = "9563", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.BurningSteppes, MapCoordinateX = 65.0, MapCoordinateY = 23.6, Name = IJ_NPC_NAME_9563}
 
@@ -719,7 +733,7 @@ NPC[6826] = {Id = "6826", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.
 
 NPC[142487] = {Id = "142487", MapContinentId = IMI.Gnomeregan, MapCoordinateX = 62.3, MapCoordinateY = 37.3, Name = IJ_NPC_NAME_142487}
 
-NPC[7937] = {Id = "7937", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Ironforge, MapCoordinateX = 69.0, MapCoordinateY = 49.0, Name = IJ_NPC_NAME_7937}
+NPC[7937] = {Id = "7937", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.DunMorogh, MapCoordinateX = 24.2, MapCoordinateY = 29.7, Name = IJ_NPC_NAME_7937}
 
 NPC[7850] = {Id = "7850", MapContinentId = IMI.Gnomeregan, MapCoordinateX = 70.3, MapCoordinateY = 54.9, Name = IJ_NPC_NAME_7850}
 
@@ -727,19 +741,19 @@ NPC[7853] = {Id = "7853", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.
 
 NPC[4077] = {Id = "4077", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.StonetalonMountains, MapCoordinateX = 60.1, MapCoordinateY = 68.6, Name = IJ_NPC_NAME_4077}
 
-NPC[7950] = {Id = "7950", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Ironforge, MapCoordinateX = 69.8, MapCoordinateY = 48.4, Name = IJ_NPC_NAME_7950}
+NPC[7950] = {Id = "7950", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.DunMorogh, MapCoordinateX = 24.1, MapCoordinateY = 29.8, Name = IJ_NPC_NAME_7950}
 
 NPC[6142] = {Id = "6142", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Darnassus, MapCoordinateX = 59.2, MapCoordinateY = 45.4, Name = IJ_NPC_NAME_6142}
 
 NPC[6169] = {Id = "6169", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.DunMorogh, MapCoordinateX = 24.9, MapCoordinateY = 30.2, Name = IJ_NPC_NAME_6169}
 
-NPC[6569] = {Id = "6569", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Ironforge, MapCoordinateX = 69.4, MapCoordinateY = 50.6, Name = IJ_NPC_NAME_6569}
+NPC[6569] = {Id = "6569", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.DunMorogh, MapCoordinateX = 24.5, MapCoordinateY = 30.4, Name = IJ_NPC_NAME_6569}
 
 NPC[1268] = {Id = "1268", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.DunMorogh, MapCoordinateX = 45.8, MapCoordinateY = 49.2, Name = IJ_NPC_NAME_1268}
 
 NPC[7917] = {Id = "7917", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 51.2, MapCoordinateY = 48.3, Name = IJ_NPC_NAME_7917}
 
-NPC[7944] = {Id = "7944", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Ironforge, MapCoordinateX = 69.8, MapCoordinateY = 50.2, Name = IJ_NPC_NAME_7944}
+NPC[7944] = {Id = "7944", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.DunMorogh, MapCoordinateX = 24.4, MapCoordinateY = 29.8, Name = IJ_NPC_NAME_7944}
 
 NPC[14383] = {Id = "14383", MapContinentId = IMI.DireMaul, MapCoordinateX = 23.2, MapCoordinateY = 61.4, Name = IJ_NPC_NAME_14383}
 
@@ -769,11 +783,11 @@ NPC[14463] = {Id = "14463", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZ
 
 NPC[11801] = {Id = "11801", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Moonglade, MapCoordinateX = 51.6, MapCoordinateY = 44.8, Name = IJ_NPC_NAME_11801}
 
-NPC[10880] = {Id = "10880", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Orgrimmar, MapCoordinateX = 46.6, MapCoordinateY = 64.6, Name = IJ_NPC_NAME_10880}
+NPC[10880] = {Id = "10880", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Orgrimmar, MapCoordinateX = 37.5, MapCoordinateY = 75.5, Name = IJ_NPC_NAME_10880}
 
 NPC[7776] = {Id = "7776", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Feralas, MapCoordinateX = 76.0, MapCoordinateY = 43.8, Name = IJ_NPC_NAME_7776}
 
-NPC[2198] = {Id = "2198", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 61.7, MapCoordinateY = 74.3, Name = IJ_NPC_NAME_2198}
+NPC[2198] = {Id = "2198", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 47.5, MapCoordinateY = 64.2, Name = IJ_NPC_NAME_2198}
 
 NPC[7877] = {Id = "7877", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Feralas, MapCoordinateX = 30.4, MapCoordinateY = 46.0, Name = IJ_NPC_NAME_7877}
 
@@ -861,7 +875,7 @@ NPC[16031] = {Id = "16031", MapContinentId = IMI.Stratholme, MapCoordinateX = 58
 
 NPC[16016] = {Id = "16016", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.EasternPlaguelands, MapCoordinateX = 31.2, MapCoordinateY = 17.4, Name = IJ_NPC_NAME_16016}
 
-NPC[14387] = {Id = "14387", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.BlackrockMountain, MapCoordinateX = 38.3, MapCoordinateY = 36.1, Name = IJ_NPC_NAME_14387}
+NPC[14387] = {Id = "14387", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.BlackrockMountain, MapCoordinateX = 39.2, MapCoordinateY = 38.6, Name = IJ_NPC_NAME_14387}
 
 NPC[9084] = {Id = "9084", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Badlands, MapCoordinateX = 3.4, MapCoordinateY = 48.2, Name = IJ_NPC_NAME_9084}
 
@@ -933,19 +947,19 @@ NPC[11035] = {Id = "11035", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZ
 
 NPC[11216] = {Id = "11216", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.WesternPlaguelands, MapCoordinateX = 70.2, MapCoordinateY = 73.8, Name = IJ_NPC_NAME_11216}
 
-NPC[11022] = {Id = "11022", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.TirisfalGlades, MapCoordinateX = 83.4, MapCoordinateY = 69.1, Name = IJ_NPC_NAME_11022}
+NPC[11022] = {Id = "11022", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.WesternPlaguelands, MapCoordinateX = 26.4, MapCoordinateY = 58.8, Name = IJ_NPC_NAME_11022}
 
 NPC[11023] = {Id = "11023", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.WesternPlaguelands, MapCoordinateX = 43.4, MapCoordinateY = 83.6, Name = IJ_NPC_NAME_11023}
 
 NPC[10267] = {Id = "10267", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.BurningSteppes, MapCoordinateX = 65.2, MapCoordinateY = 23.8, Name = IJ_NPC_NAME_10267}
 
-NPC[6382] = {Id = "6382", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Ironforge, MapCoordinateX = 52.8, MapCoordinateY = 6.0, Name = IJ_NPC_NAME_6382}
+NPC[6382] = {Id = "6382", RequiredFaction = IF.Alliance, MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Ironforge, MapCoordinateX = 52.8, MapCoordinateY = 6.0, Name = IJ_NPC_NAME_6382}
 
-NPC[5520] = {Id = "5520", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 39.4, MapCoordinateY = 85.1, Name = IJ_NPC_NAME_5520}
+NPC[5520] = {Id = "5520", RequiredFaction = IF.Alliance, MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 39.4, MapCoordinateY = 85.1, Name = IJ_NPC_NAME_5520}
 
-NPC[5753] = {Id = "5753", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Undercity, MapCoordinateX = 85.8, MapCoordinateY = 15.8, Name = IJ_NPC_NAME_5753}
+NPC[5753] = {Id = "5753", RequiredFaction = IF.Horde, MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Undercity, MapCoordinateX = 85.8, MapCoordinateY = 15.8, Name = IJ_NPC_NAME_5753}
 
-NPC[5815] = {Id = "5815", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Orgrimmar, MapCoordinateX = 47.6, MapCoordinateY = 46.8, Name = IJ_NPC_NAME_5815}
+NPC[5815] = {Id = "5815", RequiredFaction = IF.Horde, MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Orgrimmar, MapCoordinateX = 47.6, MapCoordinateY = 46.8, Name = IJ_NPC_NAME_5815}
 
 NPC[14436] = {Id = "14436", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.BurningSteppes, MapCoordinateX = 12.4, MapCoordinateY = 31.6, Name = IJ_NPC_NAME_14436}
 
@@ -957,7 +971,7 @@ NPC[10468] = {Id = "10468", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Winte
 
 NPC[14437] = {Id = "14437", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.BurningSteppes, MapCoordinateX = 12.6, MapCoordinateY = 31.6, Name = IJ_NPC_NAME_14437}
 
-NPC[6251] = {Id = "6251", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.TheBarrens, MapCoordinateX = 62.6, MapCoordinateY = 38.5, Name = IJ_NPC_NAME_6251}
+NPC[6251] = {Id = "6251", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.TheBarrens, MapCoordinateX = 62.6, MapCoordinateY = 35.5, Name = IJ_NPC_NAME_6251}
 
 NPC[6182] = {Id = "6182", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Westfall, MapCoordinateX = 42.2, MapCoordinateY = 88.6, Name = IJ_NPC_NAME_6182}
 
@@ -977,8 +991,8 @@ NPC[62834] = {Id = "62834", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Thous
 
 NPC[13417] = {Id = "13417", MapContinentId = IMI.Kalimdor, MapZoneId = IZI.Orgrimmar, MapCoordinateX = 38.6, MapCoordinateY = 36.0, Name = IJ_NPC_NAME_13417}
 
-NPC[5675] = {Id = "5675", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Undercity, MapCoordinateX = 85.1, MapCoordinateY = 26.1, Name = IJ_NPC_NAME_5675}
+NPC[5675] = {Id = "5675", RequiredFaction = IF.Horde, MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.Undercity, MapCoordinateX = 85.1, MapCoordinateY = 26.1, Name = IJ_NPC_NAME_5675}
 
-NPC[6122] = {Id = "6122", MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 25.3, MapCoordinateY = 78.6, Name = IJ_NPC_NAME_6122}
+NPC[6122] = {Id = "6122", RequiredFaction = IF.Alliance, MapContinentId = IMI.EasternKingdoms, MapZoneId = IZI.StormwindCity, MapCoordinateX = 25.3, MapCoordinateY = 78.6, Name = IJ_NPC_NAME_6122}
 
 IJDB.NPC = NPC

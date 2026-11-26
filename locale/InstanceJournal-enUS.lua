@@ -9373,6 +9373,9 @@ IJ_QUEST_OBJECTIVE_2283 = "Look for a valuable necklace within the Uldaman dig s
 -- Quest 1953
 IJ_QUEST_NAME_1953 = "Return to the Marsh"
 IJ_QUEST_OBJECTIVE_1953 = "Speak with Tabetha."
+IJ_NPC_NAME_5885 = "Deino"
+IJ_NPC_NAME_5144 = "Bink"
+IJ_NPC_NAME_5497 = "Jennea Cannon"
 IJ_NPC_NAME_3048 = "Ursyn Ghull"
 
 -- Quest 1954
@@ -10078,6 +10081,9 @@ IJ_LOOT_NAME_19992 = "Devilsaur Tooth"
 -- Quest 9063
 IJ_QUEST_NAME_9063 = "Torwa Pathfinder"
 IJ_QUEST_OBJECTIVE_9063 = "Speak with Torwa Pathfinder in Un'Goro Crater."
+IJ_NPC_NAME_12042 = "Loganaar"
+IJ_NPC_NAME_4217 = "Mathrengyl Bearwalker"
+IJ_NPC_NAME_5505 = "Theridran"
 IJ_NPC_NAME_3033 = "Turak Runetotem"
 IJ_NPC_NAME_9619 = "Torwa Pathfinder"
 
@@ -11323,20 +11329,20 @@ IJ_QUEST_OBJECTIVE_3907 = "Enter Blackrock Depths and track down Lord Incendius.
 
 -- Quest 3442
 IJ_QUEST_NAME_3442 = "The Flawless Flame"
-IJ_QUEST_OBJECTIVE_3442 = "Collect 4 Hearts of Flame and 4 globes of Golem Oil and return the items to Velarok Windblade."
-IJ_NPC_NAME_8479 = "Velarok Windblade"
+IJ_QUEST_OBJECTIVE_3442 = "Collect 4 Hearts of Flame and 4 globes of Golem Oil and return the items to Kalaran Windblade."
+IJ_NPC_NAME_8479 = "Kalaran Windblade"
 
 -- Quest 3443
 IJ_QUEST_NAME_3443 = "Forging the Shaft"
-IJ_QUEST_OBJECTIVE_3443 = "Bring 8 Thorium Plated Daggers to Velarok Windblade."
+IJ_QUEST_OBJECTIVE_3443 = "Bring 8 Thorium Plated Daggers to Kalaran Windblade."
 
 -- Quest 3452
 IJ_QUEST_NAME_3452 = "The Flame's Casing"
-IJ_QUEST_OBJECTIVE_3452 = "Find and return a Symbol of Ragnaros to Velarok Windblade."
+IJ_QUEST_OBJECTIVE_3452 = "Find and return a Symbol of Ragnaros to Kalaran Windblade."
 
 -- Quest 3453
 IJ_QUEST_NAME_3453 = "The Torch of Retribution"
-IJ_QUEST_OBJECTIVE_3453 = "Wait for Velarok Windblade to complete the Torch of Retribution."
+IJ_QUEST_OBJECTIVE_3453 = "Wait for Kalaran Windblade to complete the Torch of Retribution."
 
 -- Quest 3454
 IJ_QUEST_NAME_3454 = "The Torch of Retribution"
@@ -11364,7 +11370,7 @@ IJ_NPC_NAME_149502 = "Hoard of the Black Dragonflight"
 
 -- Quest 4022
 IJ_QUEST_NAME_4022 = "A Taste of Flame"
-IJ_QUEST_OBJECTIVE_4022 = "Show Cyrus Therepentous the Black Dragonflight Molt you received from Velarok Windblade."
+IJ_QUEST_OBJECTIVE_4022 = "Show Cyrus Therepentous the Black Dragonflight Molt you received from Kalaran Windblade."
 IJ_NPC_NAME_9459 = "Cyrus Therepentous"
 
 -- Quest 4024
